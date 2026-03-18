@@ -1,5 +1,5 @@
 "use client";
-import { amazonLink, formatPreis } from "@/lib/rechner-logic";
+import { getAffiliateLink, formatPreis } from "@/lib/rechner-logic";
 
 interface Produkt {
   id: string;
@@ -19,7 +19,7 @@ interface Produkt {
 }
 
 export default function ProduktKarte({ produkt, compact = false }: { produkt: Produkt; compact?: boolean }) {
-  const link = produkt.affiliate_url || (produkt.amazon_asin ? amazonLink(produkt.amazon_asin) : null);
+  const link = getAffiliateLink(produkt.affiliate_url, produkt.amazon_asin);
 
   if (compact) {
     return (

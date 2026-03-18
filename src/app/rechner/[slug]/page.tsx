@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
-import { berechne, formatPreis, amazonLink } from "@/lib/rechner-logic";
+import { berechne, formatPreis, getAffiliateLink } from "@/lib/rechner-logic";
 import CommunityKosten from "@/components/CommunityKosten";
 import EmailCapture from "@/components/EmailCapture";
 import { useParams } from "next/navigation";
@@ -224,9 +224,9 @@ export default function RechnerPage() {
                           {formatPreis(m.menge * m.preis_ca)}
                         </td>
                         <td className="text-right py-3">
-                          {m.amazon_asin && (
+                          {getAffiliateLink(m.affiliate_url, m.amazon_asin) && (
                             <a
-                              href={m.affiliate_url || amazonLink(m.amazon_asin)}
+                              href={getAffiliateLink(m.affiliate_url, m.amazon_asin)!}
                               target="_blank"
                               rel="noopener noreferrer nofollow"
                               className="text-amber-600 hover:text-amber-700 font-medium text-xs whitespace-nowrap"
@@ -269,9 +269,9 @@ export default function RechnerPage() {
                         ab {formatPreis(w.preis_ca)}
                       </div>
                     </div>
-                    {w.amazon_asin && (
+                    {getAffiliateLink(w.affiliate_url, w.amazon_asin) && (
                       <a
-                        href={w.affiliate_url || amazonLink(w.amazon_asin)}
+                        href={getAffiliateLink(w.affiliate_url, w.amazon_asin)!}
                         target="_blank"
                         rel="noopener noreferrer nofollow"
                         className="bg-amber-600 text-white text-xs font-semibold px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors whitespace-nowrap"

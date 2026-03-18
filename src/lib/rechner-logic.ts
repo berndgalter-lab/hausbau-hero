@@ -79,3 +79,9 @@ export function formatPreis(preis: number): string {
 export function amazonLink(asin: string, tag: string = 'hausbauhero-21'): string {
   return `https://www.amazon.de/dp/${asin}?tag=${tag}`
 }
+
+export function getAffiliateLink(affiliateUrl?: string, amazonAsin?: string): string | null {
+  if (affiliateUrl) return affiliateUrl
+  if (amazonAsin) return amazonLink(amazonAsin)
+  return null
+}
