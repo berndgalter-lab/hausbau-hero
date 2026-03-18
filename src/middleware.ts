@@ -13,7 +13,12 @@ const SILO_MAP: Record<string, string> = {
   'abbruchhammer': 'maschinen', 'kettendumper': 'maschinen', 'mauernutfraese': 'maschinen',
 };
 
-const SKIP_PREFIXES = ['/rechner', '/api', '/_next', '/favicon.ico'];
+const SKIP_PREFIXES = [
+  '/rechner', '/api', '/_next', '/favicon.ico',
+  '/farben', '/bad', '/werkzeuge', '/stromerzeuger', '/kueche', '/maschinen',
+  '/impressum', '/datenschutz',
+  '/sitemap.xml', '/robots.txt', '/opengraph-image',
+];
 
 export function middleware(request: NextRequest) {
   const path = request.nextUrl.pathname.replace(/\/$/, '') || '/';
