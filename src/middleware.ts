@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-// Statische Silo-Zuordnung für schnelle Redirects ohne DB-Call
 const SILO_MAP: Record<string, string> = {
   'silikatfarbe': 'farben', 'wandfarbe-weiss': 'farben', 'latexfarbe': 'farben',
   'steinimpraegnierung': 'farben', 'haftgrund-putz': 'farben', 'kalk-zement-putz': 'farben',
@@ -14,21 +13,24 @@ const SILO_MAP: Record<string, string> = {
   'abbruchhammer': 'maschinen', 'kettendumper': 'maschinen', 'mauernutfraese': 'maschinen',
 };
 
+const SKIP_PREFIXES = ['/rechner', '/api', '/_next', '/favicon.ico'];
+
 export function middleware(request: NextRequest) {
-  const path = request.nextUrl.pathname.replace(/\/$/, '');
+  const path = request.nextUrl.pathname.replace(/\/$/, '') || '/';
+
+  if (SKIP_PREFIXES.some((prefix) => path.startsWith(prefix))) {
+    return NextResponse.next();
+  }
+
   const slug = path.replace(/^\//, '');
 
-  // Check if this is an old WordPress URL (no silo prefix)
   if (slug && !slug.includes('/') && SILO_MAP[slug]) {
-    const newUrl = `/${SILO_MAP[slug]}/${slug}`;
-    return NextResponse.redirect(new URL(newUrl, request.url), 301);
+    return NextResponse.redirect(new URL(`/${SILO_MAP[slug]}/${slug}`, request.url), 301);
   }
 
   return NextResponse.next();
 }
 
 export const config = {
-  matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico|rechner|farben|bad|werkzeuge|stromerzeuger|kueche|maschinen).*)',
-  ],
+  matcher: ['/((?!_next/static|_next/image|favicon\\.ico).*)'],
 };
