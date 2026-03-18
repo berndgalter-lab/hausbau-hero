@@ -34,9 +34,12 @@ const FALLBACK_RECHNER = [
 const FALLBACK_SILOS = [
   { name: "Farben", slug: "farben", beschreibung: "Wandfarben, Lacke und alles rund ums Streichen.", icon: "🎨" },
   { name: "Bad", slug: "bad", beschreibung: "Fliesen, Armaturen und Badezimmer-Ausstattung.", icon: "🚿" },
+  { name: "Rohbau", slug: "rohbau", beschreibung: "Putz, Estrich, Mauerwerk und Rohbau-Material.", icon: "🧱" },
+  { name: "Boden", slug: "boden", beschreibung: "Parkett, Laminat, Vinyl und Bodenleger-Bedarf.", icon: "🪵" },
   { name: "Werkzeuge", slug: "werkzeuge", beschreibung: "Handwerkzeuge und Elektrowerkzeuge für jede Baustelle.", icon: "🔧" },
   { name: "Stromerzeuger", slug: "stromerzeuger", beschreibung: "Generatoren und Stromversorgung für die Baustelle.", icon: "⚡" },
   { name: "Küche", slug: "kueche", beschreibung: "Küchenausstattung und Ersatzteile.", icon: "🍳" },
+  { name: "Garten", slug: "garten", beschreibung: "Rasenmäher, Bewässerung und Gartenwerkzeuge.", icon: "🌿" },
   { name: "Baumaschinen", slug: "maschinen", beschreibung: "Abbruchhämmer, Dumper und schweres Gerät.", icon: "🏗️" },
 ];
 

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { supabase } from "@/lib/supabase";
+import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://hausbau-hero.de"),
@@ -57,12 +59,16 @@ export const metadata: Metadata = {
   },
 };
 
-const NAV_LINKS = [
-  { href: "/rechner", label: "Rechner" },
-  { href: "/farben", label: "Farben" },
-  { href: "/bad", label: "Bad" },
-  { href: "/werkzeuge", label: "Werkzeuge" },
-  { href: "/stromerzeuger", label: "Stromerzeuger" },
+const FALLBACK_NAV_SILOS = [
+  { slug: "farben", name: "Farben", icon: "🎨" },
+  { slug: "bad", name: "Bad", icon: "🚿" },
+  { slug: "rohbau", name: "Rohbau", icon: "🧱" },
+  { slug: "boden", name: "Boden", icon: "🪵" },
+  { slug: "werkzeuge", name: "Werkzeuge", icon: "🔧" },
+  { slug: "stromerzeuger", name: "Strom", icon: "⚡" },
+  { slug: "kueche", name: "Küche", icon: "🍳" },
+  { slug: "garten", name: "Garten", icon: "🌿" },
+  { slug: "maschinen", name: "Maschinen", icon: "🏗️" },
 ];
 
 const organizationLd = {
@@ -98,7 +104,16 @@ const websiteLd = {
   publisher: { "@type": "Organization", name: "Hausbau Hero" },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  let navSilos = FALLBACK_NAV_SILOS;
+  try {
+    const { data } = await supabase
+      .from("silos")
+      .select("slug, name, icon")
+      .order("sortierung");
+    if (data && data.length > 0) navSilos = data;
+  } catch {}
+
   return (
     <html lang="de">
       <head>
@@ -113,7 +128,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="bg-stone-50 text-stone-900 antialiased">
-        <header className="border-b border-stone-200 bg-white sticky top-0 z-50">
+        <header className="border-b border-stone-200 bg-white sticky top-0 z-50 relative">
           <div className="mx-auto max-w-5xl px-4 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2 shrink-0">
               <span className="text-2xl font-bold text-amber-600">⚡</span>
@@ -121,20 +136,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 Hausbau<span className="text-amber-600">Hero</span>
               </span>
             </a>
-            <nav className="hidden md:flex gap-6 text-sm font-medium text-stone-600">
-              {NAV_LINKS.map((link) => (
-                <a key={link.href} href={link.href} className="hover:text-stone-900 transition-colors">
-                  {link.label}
-                </a>
-              ))}
-            </nav>
-            <nav className="md:hidden flex gap-3 text-xs font-medium text-stone-600 overflow-x-auto">
-              {NAV_LINKS.slice(0, 3).map((link) => (
-                <a key={link.href} href={link.href} className="hover:text-stone-900 whitespace-nowrap">
-                  {link.label}
-                </a>
-              ))}
-            </nav>
+            <Navigation silos={navSilos} />
           </div>
         </header>
 

@@ -2,7 +2,7 @@ import { supabase } from "@/lib/supabase";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
-const VALID_SILOS = ["farben", "bad", "werkzeuge", "stromerzeuger", "kueche", "maschinen"];
+const VALID_SILOS = ["farben", "bad", "rohbau", "boden", "werkzeuge", "stromerzeuger", "kueche", "garten", "maschinen"];
 
 export async function generateMetadata({ params }: { params: { silo: string } }): Promise<Metadata> {
   const { data: silo } = await supabase

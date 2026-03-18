@@ -17,6 +17,9 @@ export default async function sitemap() {
     { url: `${baseUrl}/stromerzeuger`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${baseUrl}/kueche`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${baseUrl}/maschinen`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${baseUrl}/rohbau`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${baseUrl}/boden`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${baseUrl}/garten`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${baseUrl}/impressum`, lastModified: now, changeFrequency: "yearly" as const, priority: 0.1 },
     { url: `${baseUrl}/datenschutz`, lastModified: now, changeFrequency: "yearly" as const, priority: 0.1 },
   ];

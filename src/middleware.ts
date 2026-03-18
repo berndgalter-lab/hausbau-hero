@@ -8,6 +8,7 @@ const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 const EXCLUDED_PATHS = new Set([
   '/api', '/_next', '/favicon.ico', '/rechner', '/farben', '/bad',
   '/werkzeuge', '/stromerzeuger', '/kueche', '/maschinen',
+  '/rohbau', '/boden', '/garten',
   '/impressum', '/datenschutz', '/sitemap.xml', '/robots.txt',
   '/opengraph-image',
 ]);
