@@ -76,6 +76,6 @@ export function formatPreis(preis: number): string {
   }).format(preis)
 }
 
-export function amazonLink(asin: string, tag: string = 'hausbau-hero-21'): string {
+export function amazonLink(asin: string, tag: string = 'hausbauhero-21'): string {
   return `https://www.amazon.de/dp/${asin}?tag=${tag}`
 }
