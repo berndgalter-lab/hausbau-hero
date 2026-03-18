@@ -10,6 +10,22 @@ interface NavSilo {
 
 const MAIN_NAV_COUNT = 6;
 
+const SHORT_LABELS: Record<string, string> = {
+  farben: "Farben",
+  bad: "Bad",
+  rohbau: "Rohbau",
+  boden: "Boden",
+  werkzeuge: "Werkzeuge",
+  stromerzeuger: "Strom",
+  kueche: "Küche",
+  garten: "Garten",
+  maschinen: "Maschinen",
+};
+
+function shortName(s: NavSilo) {
+  return SHORT_LABELS[s.slug] || s.name;
+}
+
 export default function Navigation({ silos }: { silos: NavSilo[] }) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -26,7 +42,7 @@ export default function Navigation({ silos }: { silos: NavSilo[] }) {
         </a>
         {mainSilos.map((s) => (
           <a key={s.slug} href={`/${s.slug}`} className="hover:text-stone-900 transition-colors">
-            {s.name}
+            {shortName(s)}
           </a>
         ))}
         {moreSilos.length > 0 && (
@@ -50,7 +66,7 @@ export default function Navigation({ silos }: { silos: NavSilo[] }) {
                     className="block px-4 py-2 text-sm text-stone-600 hover:bg-stone-50 hover:text-stone-900 transition-colors"
                   >
                     {s.icon && <span className="mr-2">{s.icon}</span>}
-                    {s.name}
+                    {shortName(s)}
                   </a>
                 ))}
               </div>
@@ -90,7 +106,7 @@ export default function Navigation({ silos }: { silos: NavSilo[] }) {
                 className="block py-2 text-sm font-medium text-stone-700 hover:text-amber-600"
               >
                 {s.icon && <span className="mr-2">{s.icon}</span>}
-                {s.name}
+                {shortName(s)}
               </a>
             ))}
           </div>
