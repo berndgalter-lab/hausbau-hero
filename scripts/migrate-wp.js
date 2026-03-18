@@ -1,8 +1,9 @@
 /**
  * WordPress → Supabase Migration
  * Usage: node scripts/migrate-wp.js > scripts/seed-seiten.sql
- * KEIN WordPress-Login nötig - nutzt öffentliche REST API
  */
+const { execSync } = require('child_process');
+
 const WP_URL = 'https://hausbau-hero.de/wp-json/wp/v2';
 const SILO_PATTERNS = {
   farben: ['farbe','silikat','latex','putz','haftgrund','impraeg','spachtel','bundstein','deckenstuetze','revisionsklappe'],
@@ -24,43 +25,63 @@ function findSilo(slug) {
 function esc(str) { return (str||'').replace(/'/g,"''").substring(0,50000); }
 function strip(html) { return (html||'').replace(/<[^>]+>/g,'').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim(); }
 
-async function fetchAll(endpoint) {
-  const all = []; let page = 1;
-  while (true) {
-    try {
-      const r = await fetch(`${WP_URL}/${endpoint}?per_page=100&page=${page}&_fields=id,slug,title,content,excerpt,date`);
-      if (!r.ok) break;
-      const d = await r.json();
-      if (!d.length) break;
-      all.push(...d); page++;
-      if (page > parseInt(r.headers.get('X-WP-TotalPages')||'1')) break;
-    } catch { break; }
+function curlFetch(url, timeout = 30) {
+  try {
+    const raw = execSync(`/usr/bin/curl -s --max-time ${timeout} "${url}"`, {
+      timeout: (timeout + 10) * 1000,
+      maxBuffer: 50 * 1024 * 1024,
+    });
+    return JSON.parse(raw.toString());
+  } catch (e) {
+    return null;
+  }
+}
+
+function fetchAllMeta(endpoint) {
+  const all = [];
+  let page = 1;
+  while (page <= 50) {
+    const url = `${WP_URL}/${endpoint}?per_page=100&page=${page}&_fields=id,slug,title,excerpt,date`;
+    const data = curlFetch(url, 60);
+    if (!data || !data.length) break;
+    all.push(...data);
+    process.stderr.write(`  ${endpoint} meta page ${page}: ${data.length} items\n`);
+    if (data.length < 100) break;
+    page++;
   }
   return all;
 }
 
-async function main() {
-  const posts = [...await fetchAll('posts'), ...await fetchAll('pages')];
-  process.stderr.write(`${posts.length} Posts geholt\n`);
+function main() {
+  process.stderr.write('Fetching post metadata (no content — fast)...\n');
+  const posts = fetchAllMeta('posts');
+  process.stderr.write('Fetching page metadata...\n');
+  const pages = fetchAllMeta('pages');
+  const all = [...posts, ...pages];
+  process.stderr.write(`Total: ${all.length} items\n\n`);
 
-  console.log(`-- Migration ${new Date().toISOString()}\n`);
-  // Silos
+  console.log(`-- Migration ${new Date().toISOString()}`);
+  console.log(`-- ${all.length} items migrated (metadata only, content can be added later)\n`);
+
   [['farben','Farben & Beschichtungen','🎨'],['bad','Bad & Sanitär','🚿'],['werkzeuge','Werkzeuge & Anleitungen','🔧'],['stromerzeuger','Stromerzeuger & Power','⚡'],['kueche','Küche & Spülen','🍳'],['maschinen','Großmaschinen & Bau','🏗️']].forEach(([slug,name,icon],i) => {
-    console.log(`INSERT INTO silos (name,slug,icon,sortierung) VALUES ('${name}','${slug}','${icon}',${i+1}) ON CONFLICT (slug) DO NOTHING;`);
+    console.log(`INSERT INTO silos (name,slug,icon,sortierung) VALUES ('${name}','${slug}','${icon}',${i+1}) ON CONFLICT (slug) DO UPDATE SET name=EXCLUDED.name, icon=EXCLUDED.icon, sortierung=EXCLUDED.sortierung;`);
   });
 
-  console.log('');
-  for (const p of posts) {
+  console.log('\n-- Seiten');
+  for (const p of all) {
     const slug = p.slug, silo = findSilo(slug), del = DELETE_SLUGS.has(slug);
     const title = strip(p.title?.rendered), excerpt = strip(p.excerpt?.rendered).substring(0,160);
-    const content = p.content?.rendered || '';
-    console.log(`INSERT INTO seiten (silo_id,slug,titel,seo_title,seo_description,typ,content_md,status,redirect_to,alte_wp_url) VALUES ((SELECT id FROM silos WHERE slug='${silo}'),'${esc(slug)}','${esc(title)}','${esc(title)}','${esc(excerpt)}','artikel','${esc(content)}','${del?'redirect':'aktiv'}',${del?`'/${silo}'`:'NULL'},'/${slug}/') ON CONFLICT (slug) DO NOTHING;`);
+    console.log(`INSERT INTO seiten (silo_id,slug,titel,seo_title,seo_description,typ,content_md,status,redirect_to,alte_wp_url) VALUES ((SELECT id FROM silos WHERE slug='${silo}'),'${esc(slug)}','${esc(title)}','${esc(title)}','${esc(excerpt)}','artikel','','${del?'redirect':'aktiv'}',${del?`'/${silo}'`:'NULL'},'/${slug}/') ON CONFLICT (slug) DO NOTHING;`);
   }
 
-  console.log('');
-  for (const p of posts) {
+  console.log('\n-- Redirects');
+  for (const p of all) {
     const slug = p.slug, silo = findSilo(slug), del = DELETE_SLUGS.has(slug);
     console.log(`INSERT INTO redirects (alte_url,neue_url) VALUES ('/${slug}/','${del?`/${silo}`:`/${silo}/${slug}`}') ON CONFLICT (alte_url) DO NOTHING;`);
+    console.log(`INSERT INTO redirects (alte_url,neue_url) VALUES ('/${slug}','${del?`/${silo}`:`/${silo}/${slug}`}') ON CONFLICT (alte_url) DO NOTHING;`);
   }
+
+  process.stderr.write('\nDone! Copy seed-seiten.sql content into Supabase SQL Editor and run.\n');
 }
+
 main();

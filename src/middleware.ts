@@ -1,36 +1,43 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
+import { createClient } from '@supabase/supabase-js';
 
-const SILO_MAP: Record<string, string> = {
-  'silikatfarbe': 'farben', 'wandfarbe-weiss': 'farben', 'latexfarbe': 'farben',
-  'steinimpraegnierung': 'farben', 'haftgrund-putz': 'farben', 'kalk-zement-putz': 'farben',
-  'deckenstuetze': 'farben', 'vorwandelement-wc': 'bad', 'waschtischarmatur-mit-brause': 'bad',
-  'kleinhebeanlage': 'bad', 'komplettdusche': 'bad', 'duschtempel': 'bad',
-  'kreuzlinienlaser-richtig-benutzen': 'werkzeuge', 'wasserwaage-richtig-benutzen': 'werkzeuge',
-  'metallsaege': 'werkzeuge', 'winkelaufsatz': 'werkzeuge', 'sds-bohrer-set': 'werkzeuge',
-  'stromerzeuger-benzin': 'stromerzeuger', 'stromerzeuger-diesel': 'stromerzeuger',
-  'franke-ersatzteile': 'kueche', 'blanco-ersatzteile': 'kueche',
-  'abbruchhammer': 'maschinen', 'kettendumper': 'maschinen', 'mauernutfraese': 'maschinen',
-};
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 
-const SKIP_PREFIXES = [
-  '/rechner', '/api', '/_next', '/favicon.ico',
-  '/farben', '/bad', '/werkzeuge', '/stromerzeuger', '/kueche', '/maschinen',
-  '/impressum', '/datenschutz',
-  '/sitemap.xml', '/robots.txt', '/opengraph-image',
+const EXCLUDED_PREFIXES = [
+  '/api', '/_next', '/favicon.ico', '/rechner', '/farben', '/bad',
+  '/werkzeuge', '/stromerzeuger', '/kueche', '/maschinen',
+  '/impressum', '/datenschutz', '/sitemap.xml', '/robots.txt',
+  '/opengraph-image',
 ];
 
-export function middleware(request: NextRequest) {
+export async function middleware(request: NextRequest) {
   const path = request.nextUrl.pathname.replace(/\/$/, '') || '/';
 
-  if (SKIP_PREFIXES.some((prefix) => path.startsWith(prefix))) {
+  if (EXCLUDED_PREFIXES.some((prefix) => path.startsWith(prefix))) {
     return NextResponse.next();
   }
 
   const slug = path.replace(/^\//, '');
+  if (!slug || slug.includes('/')) {
+    return NextResponse.next();
+  }
 
-  if (slug && !slug.includes('/') && SILO_MAP[slug]) {
-    return NextResponse.redirect(new URL(`/${SILO_MAP[slug]}/${slug}`, request.url), 301);
+  try {
+    const supabase = createClient(supabaseUrl, supabaseKey);
+    const { data } = await supabase
+      .from('redirects')
+      .select('neue_url')
+      .or(`alte_url.eq./${slug}/,alte_url.eq./${slug}`)
+      .limit(1)
+      .single();
+
+    if (data?.neue_url) {
+      return NextResponse.redirect(new URL(data.neue_url, request.url), 301);
+    }
+  } catch {
+    // DB not reachable — pass through
   }
 
   return NextResponse.next();

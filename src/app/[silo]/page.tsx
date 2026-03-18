@@ -124,13 +124,13 @@ export default async function SiloPage({ params }: { params: { silo: string } })
 
       {seiten.length > 0 && (
         <section>
-          <h2 className="text-xl font-bold mb-4">Alle Artikel</h2>
+          <h2 className="text-xl font-bold mb-4">Ratgeber & Artikel</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {seiten.map((s: any) => (
               <a
                 key={s.slug}
                 href={`/${params.silo}/${s.slug}`}
-                className="block p-4 bg-white border border-stone-200 rounded-lg hover:border-stone-400 transition-all"
+                className="block p-4 bg-white border border-stone-200 rounded-lg hover:border-amber-400 transition-all"
               >
                 <div className="font-medium">{s.titel}</div>
                 {s.seo_description && (
