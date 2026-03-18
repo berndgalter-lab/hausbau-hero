@@ -12,7 +12,20 @@ export async function generateMetadata({ params }: { params: { silo: string } })
     .single();
 
   if (!silo) return {};
-  return { title: silo.name, description: silo.beschreibung };
+
+  const name = silo.name;
+  const beschreibung = silo.beschreibung || `${name} — Rechner, Werkzeuge und Ratgeber bei Hausbau Hero.`;
+
+  return {
+    title: name,
+    description: beschreibung,
+    alternates: { canonical: `https://hausbau-hero.de/${params.silo}` },
+    openGraph: {
+      title: `${name} — Hausbau Hero`,
+      description: beschreibung,
+      url: `https://hausbau-hero.de/${params.silo}`,
+    },
+  };
 }
 
 export default async function SiloPage({ params }: { params: { silo: string } }) {
@@ -59,6 +72,19 @@ export default async function SiloPage({ params }: { params: { silo: string } })
 
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Start", item: "https://hausbau-hero.de" },
+              { "@type": "ListItem", position: 2, name: silo.name, item: `https://hausbau-hero.de/${params.silo}` },
+            ],
+          }),
+        }}
+      />
       <nav className="text-sm text-stone-500 mb-4">
         <a href="/" className="hover:text-stone-700">Start</a>
         <span className="mx-2">›</span>

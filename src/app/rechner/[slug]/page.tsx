@@ -138,6 +138,36 @@ export default function RechnerPage() {
 
   return (
     <div className="max-w-3xl">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            name: rechner.name,
+            description: rechner.beschreibung,
+            url: `https://hausbau-hero.de/rechner/${rechner.slug}`,
+            applicationCategory: "UtilityApplication",
+            operatingSystem: "Web",
+            offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" },
+            author: { "@type": "Organization", name: "Hausbau Hero" },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Start", item: "https://hausbau-hero.de" },
+              { "@type": "ListItem", position: 2, name: "Rechner", item: "https://hausbau-hero.de/rechner" },
+              { "@type": "ListItem", position: 3, name: rechner.name, item: `https://hausbau-hero.de/rechner/${rechner.slug}` },
+            ],
+          }),
+        }}
+      />
       <nav className="text-sm text-stone-500 mb-4">
         <a href="/" className="hover:text-stone-700">Start</a>
         <span className="mx-2">›</span>

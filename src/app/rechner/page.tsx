@@ -4,9 +4,24 @@ import type { Metadata } from "next";
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "Alle Rechner",
+  title: "Alle Materialrechner",
   description:
-    "Kostenlose Materialrechner für Bauherren und Handwerker — Wandfarbe, Fliesen, Trockenbau, Stromerzeuger und mehr.",
+    "Kostenlose Materialrechner für dein Bauprojekt. Fliesen, Wandfarbe, Trockenbau, Stromerzeuger — mit Materialliste, Preisen und Werkzeug-Empfehlung.",
+  alternates: { canonical: "https://hausbau-hero.de/rechner" },
+  openGraph: {
+    title: "Alle Materialrechner — Hausbau Hero",
+    description: "Kostenlose Materialrechner mit Einkaufsliste und Werkzeug-Empfehlung.",
+    url: "https://hausbau-hero.de/rechner",
+  },
+};
+
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Start", item: "https://hausbau-hero.de" },
+    { "@type": "ListItem", position: 2, name: "Rechner", item: "https://hausbau-hero.de/rechner" },
+  ],
 };
 
 const FALLBACK_RECHNER = [
@@ -42,6 +57,10 @@ export default async function RechnerUebersicht() {
 
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
       <nav className="text-sm text-stone-500 mb-4">
         <a href="/" className="hover:text-stone-700">Start</a>
         <span className="mx-2">›</span>

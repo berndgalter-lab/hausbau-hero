@@ -1,6 +1,28 @@
 import { supabase } from "@/lib/supabase";
+import type { Metadata } from "next";
 
 export const revalidate = 60;
+
+export const metadata: Metadata = {
+  title: "Hausbau Hero — Kostenlose Materialrechner für Bauherren & Handwerker",
+  description:
+    "Berechne Material, finde das richtige Werkzeug, spare Geld. Kostenlose Rechner für Fliesen, Wandfarbe, Trockenbau, Stromerzeuger — mit kompletter Einkaufsliste.",
+  alternates: { canonical: "https://hausbau-hero.de" },
+};
+
+const itemListLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "Materialrechner",
+  description: "Kostenlose Materialrechner für Bauprojekte",
+  numberOfItems: 4,
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Wandfarbe-Rechner", url: "https://hausbau-hero.de/rechner/wandfarbe" },
+    { "@type": "ListItem", position: 2, name: "Fliesen-Rechner", url: "https://hausbau-hero.de/rechner/fliesen" },
+    { "@type": "ListItem", position: 3, name: "Trockenbau-Rechner", url: "https://hausbau-hero.de/rechner/trockenbau" },
+    { "@type": "ListItem", position: 4, name: "Stromerzeuger-Rechner", url: "https://hausbau-hero.de/rechner/stromverbrauch" },
+  ],
+};
 
 const FALLBACK_RECHNER = [
   { name: "Wandfarbe-Rechner", slug: "wandfarbe", beschreibung: "Berechne wie viel Wandfarbe du für deinen Raum brauchst — inkl. Materialliste und Werkzeug." },
@@ -65,6 +87,10 @@ export default async function Home() {
 
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }}
+      />
       <section className="text-center py-12 md:py-16">
         <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
           Materialrechner & Werkzeuge für{" "}
