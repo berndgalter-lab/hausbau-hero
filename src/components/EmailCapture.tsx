@@ -5,17 +5,33 @@ import { supabase } from "@/lib/supabase";
 export default function EmailCapture({ rechnerSlug }: { rechnerSlug: string }) {
   const [email, setEmail] = useState("");
   const [gesendet, setGesendet] = useState(false);
+  const [fehler, setFehler] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!email) return;
+    setFehler(null);
+    setLoading(true);
 
-    await supabase.from("email_captures").insert({
-      email,
-      rechner_slug: rechnerSlug,
-    });
+    try {
+      const { error } = await supabase.from("email_captures").insert({
+        email,
+        rechner_slug: rechnerSlug,
+      });
 
-    setGesendet(true);
+      if (error) {
+        console.error("[EmailCapture] Insert error:", error.message);
+        setFehler("Speichern fehlgeschlagen. Bitte versuche es erneut.");
+        setLoading(false);
+        return;
+      }
+      setGesendet(true);
+    } catch (e) {
+      console.error("[EmailCapture] Submit error:", e);
+      setFehler("Verbindungsfehler. Bitte versuche es erneut.");
+    }
+    setLoading(false);
   }
 
   if (gesendet) {
@@ -35,7 +51,7 @@ export default function EmailCapture({ rechnerSlug }: { rechnerSlug: string }) {
       <p className="text-sm text-stone-600 mb-4">
         Erhalte deine berechnete Materialliste als PDF per E-Mail — kostenlos.
       </p>
-      <form onSubmit={handleSubmit} className="flex gap-3">
+      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
         <input
           type="email"
           placeholder="deine@email.de"
@@ -46,11 +62,13 @@ export default function EmailCapture({ rechnerSlug }: { rechnerSlug: string }) {
         />
         <button
           type="submit"
-          className="bg-blue-600 text-white text-sm font-semibold px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors whitespace-nowrap"
+          disabled={loading}
+          className="bg-blue-600 text-white text-sm font-semibold px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors whitespace-nowrap disabled:opacity-50"
         >
-          PDF senden
+          {loading ? "Sende..." : "PDF senden"}
         </button>
       </form>
+      {fehler && <p className="text-red-600 text-sm mt-2">{fehler}</p>}
       <p className="text-xs text-stone-400 mt-2">Kein Spam. Du kannst dich jederzeit abmelden.</p>
     </div>
   );
