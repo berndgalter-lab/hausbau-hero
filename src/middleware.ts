@@ -5,17 +5,25 @@ import { createClient } from '@supabase/supabase-js';
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 
-const EXCLUDED_PREFIXES = [
+const EXCLUDED_PATHS = new Set([
   '/api', '/_next', '/favicon.ico', '/rechner', '/farben', '/bad',
   '/werkzeuge', '/stromerzeuger', '/kueche', '/maschinen',
   '/impressum', '/datenschutz', '/sitemap.xml', '/robots.txt',
   '/opengraph-image',
-];
+]);
+
+function isExcluded(path: string): boolean {
+  if (EXCLUDED_PATHS.has(path)) return true;
+
+  const secondSlash = path.indexOf('/', 1);
+  if (secondSlash === -1) return false;
+  return EXCLUDED_PATHS.has(path.substring(0, secondSlash));
+}
 
 export async function middleware(request: NextRequest) {
   const path = request.nextUrl.pathname.replace(/\/$/, '') || '/';
 
-  if (EXCLUDED_PREFIXES.some((prefix) => path.startsWith(prefix))) {
+  if (isExcluded(path)) {
     return NextResponse.next();
   }
 
@@ -34,6 +42,7 @@ export async function middleware(request: NextRequest) {
       .single();
 
     if (data?.neue_url) {
+      console.log(`[middleware] 301: ${path} → ${data.neue_url}`);
       return NextResponse.redirect(new URL(data.neue_url, request.url), 301);
     }
   } catch {
