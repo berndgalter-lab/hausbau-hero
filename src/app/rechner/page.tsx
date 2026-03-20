@@ -74,6 +74,25 @@ export default async function RechnerUebersicht() {
         ungefähren Kosten.
       </p>
 
+      <a
+        href="/rechner/nebenkosten"
+        className="group flex gap-4 p-6 mb-6 bg-amber-50 border-2 border-amber-300 rounded-xl hover:border-amber-500 hover:shadow-md transition-all"
+      >
+        <div className="text-3xl shrink-0">🏠</div>
+        <div>
+          <div className="flex items-center gap-2">
+            <span className="text-lg font-semibold group-hover:text-amber-700 transition-colors">
+              Nebenkosten-Rechner
+            </span>
+            <span className="text-xs font-bold bg-amber-600 text-white px-2 py-0.5 rounded-full">Beliebt</span>
+          </div>
+          <div className="text-sm text-stone-600 mt-1">
+            Kaufnebenkosten berechnen: Grunderwerbsteuer nach Bundesland, Notar, Grundbuch und Makler.
+          </div>
+          <div className="mt-3 text-amber-600 text-sm font-medium">Jetzt berechnen →</div>
+        </div>
+      </a>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         {rechnerList.map((r) => (
           <a

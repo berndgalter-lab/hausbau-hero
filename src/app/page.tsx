@@ -111,6 +111,14 @@ export default async function Home() {
         </a>
       </section>
 
+      <section className="mb-12 bg-amber-50 border border-amber-200 rounded-xl p-6 text-center">
+        <h2 className="text-xl font-bold mb-2">Immobilie kaufen?</h2>
+        <p className="text-stone-600 mb-4">Berechne sofort alle Kaufnebenkosten für dein Bundesland.</p>
+        <a href="/rechner/nebenkosten" className="inline-block bg-amber-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-amber-700 transition-colors">
+          Nebenkosten berechnen →
+        </a>
+      </section>
+
       <section className="mb-16">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-2xl font-bold">Rechner</h2>
