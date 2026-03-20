@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { supabase } from "@/lib/supabase";
 import Navigation from "@/components/Navigation";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://hausbau-hero.de"),
@@ -154,6 +155,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             </div>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
