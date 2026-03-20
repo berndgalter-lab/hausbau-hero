@@ -119,7 +119,7 @@ export default async function RechnerUebersicht() {
         </a>
       </div>
 
-      <div className="mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
         <a
           href="/rechner/gewerk-reihenfolge"
           className="group flex gap-4 p-5 bg-white border-2 border-stone-200 rounded-xl hover:border-amber-400 hover:shadow-md transition-all"
@@ -128,10 +128,23 @@ export default async function RechnerUebersicht() {
           <div>
             <div className="flex items-center gap-2">
               <span className="font-semibold group-hover:text-amber-700 transition-colors">Gewerk-Reihenfolge</span>
+            </div>
+            <div className="text-sm text-stone-600 mt-1">Welche Handwerker zuerst? Ablaufplan für Bad, Küche, Dach und mehr.</div>
+            <div className="mt-2 text-amber-600 text-sm font-medium">Ablaufplan ansehen →</div>
+          </div>
+        </a>
+        <a
+          href="/rechner/baugenehmigung"
+          className="group flex gap-4 p-5 bg-white border-2 border-stone-200 rounded-xl hover:border-amber-400 hover:shadow-md transition-all"
+        >
+          <div className="text-3xl shrink-0">📑</div>
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="font-semibold group-hover:text-amber-700 transition-colors">Baugenehmigung-Check</span>
               <span className="text-xs font-bold bg-stone-700 text-white px-2 py-0.5 rounded-full">Neu</span>
             </div>
-            <div className="text-sm text-stone-600 mt-1">Welche Handwerker zuerst? Die richtige Reihenfolge für Bad, Küche, Dach, Fassade und Keller.</div>
-            <div className="mt-2 text-amber-600 text-sm font-medium">Ablaufplan ansehen →</div>
+            <div className="text-sm text-stone-600 mt-1">Brauche ich eine Genehmigung? Ampel-Check nach Bundesland.</div>
+            <div className="mt-2 text-amber-600 text-sm font-medium">Jetzt prüfen →</div>
           </div>
         </a>
       </div>
