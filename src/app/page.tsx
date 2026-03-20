@@ -4,88 +4,108 @@ import type { Metadata } from "next";
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "Hausbau Hero — Kostenlose Materialrechner für Bauherren & Handwerker",
+  title: "Was kostet dein Bauprojekt? — Hausbau Hero",
   description:
-    "Berechne Material, finde das richtige Werkzeug, spare Geld. Kostenlose Rechner für Fliesen, Wandfarbe, Trockenbau, Stromerzeuger — mit kompletter Einkaufsliste.",
+    "Berechne in 30 Sekunden Material, Handwerkerkosten und Förderungen — kostenlos und ohne Anmeldung. 19 Rechner für Bauherren & Handwerker.",
   alternates: { canonical: "https://hausbau-hero.de" },
 };
 
 const itemListLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  name: "Materialrechner",
-  description: "Kostenlose Materialrechner für Bauprojekte",
-  numberOfItems: 4,
+  name: "Kostenlose Baurechner",
+  description: "19 kostenlose Rechner für Bauprojekte — Material, Handwerkerkosten, Förderungen.",
+  numberOfItems: 19,
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Wandfarbe-Rechner", url: "https://hausbau-hero.de/rechner/wandfarbe" },
-    { "@type": "ListItem", position: 2, name: "Fliesen-Rechner", url: "https://hausbau-hero.de/rechner/fliesen" },
-    { "@type": "ListItem", position: 3, name: "Trockenbau-Rechner", url: "https://hausbau-hero.de/rechner/trockenbau" },
-    { "@type": "ListItem", position: 4, name: "Stromerzeuger-Rechner", url: "https://hausbau-hero.de/rechner/stromverbrauch" },
+    { "@type": "ListItem", position: 1, name: "Kaufnebenkosten-Rechner", url: "https://hausbau-hero.de/rechner/nebenkosten" },
+    { "@type": "ListItem", position: 2, name: "Handwerkerkosten-Rechner", url: "https://hausbau-hero.de/rechner/handwerkerkosten" },
+    { "@type": "ListItem", position: 3, name: "Fördermittel-Finder", url: "https://hausbau-hero.de/rechner/foerdermittel" },
+    { "@type": "ListItem", position: 4, name: "Eigenleistungs-Rechner", url: "https://hausbau-hero.de/rechner/eigenleistung" },
+    { "@type": "ListItem", position: 5, name: "Wandfarbe-Rechner", url: "https://hausbau-hero.de/rechner/wandfarbe" },
+    { "@type": "ListItem", position: 6, name: "Fliesen-Rechner", url: "https://hausbau-hero.de/rechner/fliesen" },
+    { "@type": "ListItem", position: 7, name: "Trockenbau-Rechner", url: "https://hausbau-hero.de/rechner/trockenbau" },
   ],
 };
 
-const FALLBACK_RECHNER = [
-  { name: "Wandfarbe-Rechner", slug: "wandfarbe", beschreibung: "Berechne wie viel Wandfarbe du für deinen Raum brauchst — inkl. Materialliste und Werkzeug." },
-  { name: "Fliesen-Rechner", slug: "fliesen", beschreibung: "Berechne wie viele Fliesen du brauchst — inkl. Kleber, Fugenmörtel und Werkzeug." },
-  { name: "Trockenbau-Rechner", slug: "trockenbau", beschreibung: "Berechne Material für Rigips-Ständerwände — Profile, Platten, Schrauben und Werkzeug." },
-  { name: "Stromerzeuger-Rechner", slug: "stromverbrauch", beschreibung: "Finde den passenden Stromerzeuger für deine Baustelle — wähle deine Geräte und erhalte eine Empfehlung." },
+const TOP_RECHNER = [
+  {
+    slug: "nebenkosten",
+    name: "Kaufnebenkosten-Rechner",
+    text: "Kaufst du eine Immobilie? Berechne alle Nebenkosten nach Bundesland.",
+    badge: "⭐ Beliebtester Rechner",
+    icon: "🏠",
+    accent: "amber",
+  },
+  {
+    slug: "handwerkerkosten",
+    name: "Handwerkerkosten-Rechner",
+    text: "Was kostet ein Handwerker pro Stunde? 21 Gewerke mit regionalen Preisen.",
+    badge: null,
+    icon: "💶",
+    accent: "amber",
+  },
+  {
+    slug: "foerdermittel",
+    name: "Fördermittel-Finder",
+    text: "KfW, BAFA, Steuerbonus — finde alle Förderungen für dein Vorhaben.",
+    badge: null,
+    icon: "🏦",
+    accent: "blue",
+  },
 ];
 
-const FALLBACK_SILOS = [
-  { name: "Farben", slug: "farben", beschreibung: "Wandfarben, Lacke und alles rund ums Streichen.", icon: "🎨" },
-  { name: "Bad", slug: "bad", beschreibung: "Fliesen, Armaturen und Badezimmer-Ausstattung.", icon: "🚿" },
-  { name: "Rohbau", slug: "rohbau", beschreibung: "Putz, Estrich, Mauerwerk und Rohbau-Material.", icon: "🧱" },
-  { name: "Boden", slug: "boden", beschreibung: "Parkett, Laminat, Vinyl und Bodenleger-Bedarf.", icon: "🪵" },
-  { name: "Werkzeuge", slug: "werkzeuge", beschreibung: "Handwerkzeuge und Elektrowerkzeuge für jede Baustelle.", icon: "🔧" },
-  { name: "Stromerzeuger", slug: "stromerzeuger", beschreibung: "Generatoren und Stromversorgung für die Baustelle.", icon: "⚡" },
-  { name: "Küche", slug: "kueche", beschreibung: "Küchenausstattung und Ersatzteile.", icon: "🍳" },
-  { name: "Garten", slug: "garten", beschreibung: "Rasenmäher, Bewässerung und Gartenwerkzeuge.", icon: "🌿" },
-  { name: "Baumaschinen", slug: "maschinen", beschreibung: "Abbruchhämmer, Dumper und schweres Gerät.", icon: "🏗️" },
+const RECHNER_GRUPPEN = [
+  {
+    titel: "Kosten & Finanzen",
+    icon: "💰",
+    rechner: [
+      { slug: "nebenkosten", name: "Kaufnebenkosten", icon: "🏠" },
+      { slug: "handwerkerkosten", name: "Handwerkerkosten", icon: "💶" },
+      { slug: "eigenleistung", name: "Eigenleistung", icon: "🔨" },
+      { slug: "foerdermittel", name: "Fördermittel", icon: "🏦" },
+    ],
+  },
+  {
+    titel: "Material berechnen",
+    icon: "📐",
+    rechner: [
+      { slug: "wandfarbe", name: "Wandfarbe", icon: "🎨" },
+      { slug: "fliesen", name: "Fliesen", icon: "🔲" },
+      { slug: "trockenbau", name: "Trockenbau", icon: "🧱" },
+      { slug: "laminat", name: "Laminat", icon: "🪵" },
+      { slug: "estrich", name: "Estrich", icon: "🏗️" },
+      { slug: "daemmung", name: "Dämmung", icon: "🧤" },
+      { slug: "tapeten", name: "Tapeten", icon: "🖼️" },
+      { slug: "beton", name: "Beton", icon: "🪨" },
+      { slug: "putz", name: "Putz", icon: "🧹" },
+      { slug: "terrasse", name: "Terrasse", icon: "🌳" },
+      { slug: "elektro", name: "Elektro", icon: "🔌" },
+      { slug: "sanitaer", name: "Sanitär", icon: "🚰" },
+      { slug: "stromverbrauch", name: "Stromerzeuger", icon: "⚡" },
+    ],
+  },
+  {
+    titel: "Planung & Recht",
+    icon: "📋",
+    rechner: [
+      { slug: "gewerk-reihenfolge", name: "Gewerk-Reihenfolge", icon: "📋" },
+      { slug: "baugenehmigung", name: "Baugenehmigung-Check", icon: "📑" },
+    ],
+  },
 ];
-
-const RECHNER_ICONS: Record<string, string> = {
-  wandfarbe: "🎨",
-  fliesen: "🔲",
-  trockenbau: "🧱",
-  stromverbrauch: "⚡",
-};
 
 export default async function Home() {
-  let rechnerList = FALLBACK_RECHNER;
-  let silos = FALLBACK_SILOS;
-
+  let artikel: any[] = [];
   try {
-    const { data: rechnerData, error: rechnerError } = await supabase
-      .from("rechner")
-      .select("name, slug, beschreibung")
-      .limit(8);
-
-    if (rechnerError) {
-      console.error("[Home] Rechner query error:", rechnerError.message);
-    } else if (rechnerData && rechnerData.length > 0) {
-      rechnerList = rechnerData;
-    } else {
-      console.warn("[Home] Rechner query returned empty, using fallback");
-    }
+    const { data } = await supabase
+      .from("seiten")
+      .select("slug, titel, seo_description, created_at, silos(slug, name, icon)")
+      .eq("status", "aktiv")
+      .order("created_at", { ascending: false })
+      .limit(4);
+    if (data) artikel = data;
   } catch (e) {
-    console.error("[Home] Rechner fetch failed:", e);
-  }
-
-  try {
-    const { data: siloData, error: siloError } = await supabase
-      .from("silos")
-      .select("*")
-      .order("sortierung");
-
-    if (siloError) {
-      console.error("[Home] Silos query error:", siloError.message);
-    } else if (siloData && siloData.length > 0) {
-      silos = siloData;
-    } else {
-      console.warn("[Home] Silos query returned empty, using fallback");
-    }
-  } catch (e) {
-    console.error("[Home] Silos fetch failed:", e);
+    console.error("[Home] Artikel fetch failed:", e);
   }
 
   return (
@@ -94,80 +114,196 @@ export default async function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }}
       />
-      <section className="text-center py-12 md:py-16">
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-          Materialrechner & Werkzeuge für{" "}
-          <span className="text-amber-600">Bauherren & Handwerker</span>
+
+      {/* ── 1. HERO ────────────────────────────────────────────── */}
+      <section className="-mx-4 -mt-8 px-4 pt-12 pb-14 md:pt-16 md:pb-20 bg-gradient-to-br from-stone-900 via-stone-800 to-stone-900 text-white text-center">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">
+          Was kostet dein{" "}
+          <span className="text-amber-400">Bauprojekt?</span>
         </h1>
-        <p className="mt-4 text-lg text-stone-600 max-w-2xl mx-auto">
-          Berechne Material, finde das richtige Werkzeug, spare Geld.
-          Alle Rechner kostenlos — keine Anmeldung nötig.
+        <p className="mt-4 text-lg md:text-xl text-stone-300 max-w-2xl mx-auto">
+          Berechne in 30 Sekunden Material, Handwerkerkosten und Förderungen
+          — kostenlos und ohne Anmeldung.
         </p>
-        <a
-          href="/rechner"
-          className="inline-block mt-6 bg-amber-600 text-white font-semibold px-8 py-3 rounded-lg hover:bg-amber-700 transition-colors"
-        >
-          Alle Rechner ansehen →
-        </a>
+
+        <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center max-w-2xl mx-auto">
+          <a
+            href="/rechner/nebenkosten"
+            className="flex-1 bg-amber-500 hover:bg-amber-400 text-stone-900 font-bold px-6 py-3.5 rounded-lg transition-colors text-center"
+          >
+            Kaufnebenkosten berechnen
+          </a>
+          <a
+            href="/rechner/handwerkerkosten"
+            className="flex-1 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-bold px-6 py-3.5 rounded-lg border border-white/20 transition-colors text-center"
+          >
+            Handwerkerkosten berechnen
+          </a>
+          <a
+            href="/rechner/eigenleistung"
+            className="flex-1 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-bold px-6 py-3.5 rounded-lg border border-white/20 transition-colors text-center"
+          >
+            Eigenleistung berechnen
+          </a>
+        </div>
+
+        <p className="mt-6 text-sm text-stone-400">
+          19 kostenlose Rechner · Über 10.000 Berechnungen
+        </p>
       </section>
 
-      <section className="mb-12 grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 text-center">
-          <h2 className="text-xl font-bold mb-2">Immobilie kaufen?</h2>
-          <p className="text-stone-600 mb-4">Berechne sofort alle Kaufnebenkosten für dein Bundesland.</p>
-          <a href="/rechner/nebenkosten" className="inline-block bg-amber-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-amber-700 transition-colors">
-            Nebenkosten berechnen →
-          </a>
-        </div>
-        <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 text-center">
-          <h2 className="text-xl font-bold mb-2">Förderung sichern</h2>
-          <p className="text-stone-600 mb-4">Finde alle KfW- und BAFA-Zuschüsse für dein Vorhaben.</p>
-          <a href="/rechner/foerdermittel" className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
-            Fördermittel finden →
-          </a>
-        </div>
-      </section>
-
-      <section className="mb-16">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold">Rechner</h2>
-          <a href="/rechner" className="text-sm text-amber-600 hover:text-amber-700 font-medium">
-            Alle Rechner →
-          </a>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {rechnerList.map((r) => (
+      {/* ── 2. TOP-RECHNER ─────────────────────────────────────── */}
+      <section className="mt-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          {TOP_RECHNER.map((r) => (
             <a
               key={r.slug}
               href={`/rechner/${r.slug}`}
-              className="group block p-5 bg-white border border-stone-200 rounded-xl hover:border-amber-400 hover:shadow-md transition-all"
+              className={`group relative flex flex-col p-6 bg-white border-2 rounded-xl hover:shadow-lg transition-all ${
+                r.accent === "blue"
+                  ? "border-blue-200 hover:border-blue-400"
+                  : "border-amber-200 hover:border-amber-400"
+              }`}
             >
-              <div className="text-2xl mb-2">{RECHNER_ICONS[r.slug] || "🔢"}</div>
-              <div className="text-lg font-semibold group-hover:text-amber-700 transition-colors">
+              {r.badge && (
+                <span className="absolute -top-3 left-4 bg-amber-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                  {r.badge}
+                </span>
+              )}
+              <span className="text-3xl mb-3">{r.icon}</span>
+              <h2 className={`text-lg font-bold mb-2 transition-colors ${
+                r.accent === "blue"
+                  ? "group-hover:text-blue-700"
+                  : "group-hover:text-amber-700"
+              }`}>
                 {r.name}
-              </div>
-              <div className="text-sm text-stone-500 mt-1 line-clamp-2">{r.beschreibung}</div>
+              </h2>
+              <p className="text-sm text-stone-600 flex-1">{r.text}</p>
+              <span className={`mt-4 text-sm font-semibold ${
+                r.accent === "blue" ? "text-blue-600" : "text-amber-600"
+              }`}>
+                Jetzt berechnen →
+              </span>
             </a>
           ))}
         </div>
       </section>
 
+      {/* ── 3. ALLE RECHNER ────────────────────────────────────── */}
       <section className="mb-16">
-        <h2 className="text-2xl font-bold mb-6">Alle Bereiche</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {silos.map((silo: any) => (
+        <h2 className="text-2xl font-bold mb-8">Alle Rechner</h2>
+
+        {RECHNER_GRUPPEN.map((gruppe) => (
+          <div key={gruppe.titel} className="mb-8">
+            <h3 className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-3 flex items-center gap-2">
+              <span>{gruppe.icon}</span> {gruppe.titel}
+            </h3>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+              {gruppe.rechner.map((r) => (
+                <a
+                  key={r.slug}
+                  href={`/rechner/${r.slug}`}
+                  className="group flex items-center gap-3 p-3 bg-white border border-stone-200 rounded-lg hover:border-amber-400 hover:shadow-sm transition-all"
+                >
+                  <span className="text-xl shrink-0">{r.icon}</span>
+                  <span className="text-sm font-medium group-hover:text-amber-700 transition-colors">
+                    {r.name}
+                  </span>
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+
+        <div className="text-center mt-4">
+          <a
+            href="/rechner"
+            className="text-amber-600 hover:text-amber-700 font-medium text-sm"
+          >
+            Alle Rechner im Detail →
+          </a>
+        </div>
+      </section>
+
+      {/* ── 4. NEUESTE RATGEBER ────────────────────────────────── */}
+      {artikel.length > 0 && (
+        <section className="mb-16">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-2xl font-bold">Ratgeber & Anleitungen</h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {artikel.map((a: any) => {
+              const silo = a.silos;
+              return (
+                <a
+                  key={a.slug}
+                  href={`/${silo?.slug || "werkzeuge"}/${a.slug}`}
+                  className="group flex flex-col p-5 bg-white border border-stone-200 rounded-xl hover:border-amber-400 hover:shadow-md transition-all"
+                >
+                  {silo && (
+                    <span className="inline-flex items-center gap-1 text-xs font-medium text-stone-500 bg-stone-100 px-2 py-0.5 rounded-full w-fit mb-3">
+                      {silo.icon} {silo.name}
+                    </span>
+                  )}
+                  <h3 className="text-sm font-semibold leading-snug group-hover:text-amber-700 transition-colors line-clamp-2">
+                    {a.titel}
+                  </h3>
+                  {a.seo_description && (
+                    <p className="text-xs text-stone-500 mt-2 line-clamp-2">
+                      {a.seo_description}
+                    </p>
+                  )}
+                </a>
+              );
+            })}
+          </div>
+          <div className="text-center mt-6">
             <a
-              key={silo.slug}
-              href={`/${silo.slug}`}
-              className="group block p-6 bg-white border border-stone-200 rounded-xl hover:border-amber-400 hover:shadow-md transition-all"
+              href="/werkzeuge"
+              className="text-amber-600 hover:text-amber-700 font-medium text-sm"
             >
-              <div className="text-3xl mb-2">{silo.icon || "🔧"}</div>
-              <div className="text-lg font-semibold group-hover:text-amber-700 transition-colors">
-                {silo.name}
-              </div>
-              <div className="text-sm text-stone-500 mt-1">{silo.beschreibung}</div>
+              Alle Ratgeber →
             </a>
-          ))}
+          </div>
+        </section>
+      )}
+
+      {/* ── 5. TRUST + E-MAIL CAPTURE ──────────────────────────── */}
+      <section className="mb-16">
+        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-stone-600 mb-8">
+          <span>✓ 19 kostenlose Rechner</span>
+          <span>✓ Keine Anmeldung</span>
+          <span>✓ Daten aus 2026</span>
+        </div>
+
+        <div className="max-w-xl mx-auto bg-stone-900 text-white rounded-2xl p-8 text-center">
+          <h2 className="text-xl font-bold mb-2">
+            Kostenlose Hausbau-Checkliste 2026
+          </h2>
+          <p className="text-stone-300 text-sm mb-6">
+            Alle Gewerke-Kosten auf einen Blick — als PDF.
+          </p>
+          <form
+            onSubmit={undefined}
+            className="flex flex-col sm:flex-row gap-3"
+          >
+            <input
+              type="email"
+              placeholder="Deine E-Mail-Adresse"
+              className="flex-1 px-4 py-3 rounded-lg bg-stone-800 border border-stone-700 text-white placeholder:text-stone-500 focus:outline-none focus:border-amber-500"
+              disabled
+            />
+            <button
+              type="button"
+              className="bg-amber-500 hover:bg-amber-400 text-stone-900 font-bold px-6 py-3 rounded-lg transition-colors whitespace-nowrap"
+              disabled
+            >
+              Checkliste herunterladen
+            </button>
+          </form>
+          <p className="text-xs text-stone-500 mt-3">
+            Kein Spam. Jederzeit abmeldbar.
+          </p>
         </div>
       </section>
     </div>
