@@ -111,12 +111,21 @@ export default async function Home() {
         </a>
       </section>
 
-      <section className="mb-12 bg-amber-50 border border-amber-200 rounded-xl p-6 text-center">
-        <h2 className="text-xl font-bold mb-2">Immobilie kaufen?</h2>
-        <p className="text-stone-600 mb-4">Berechne sofort alle Kaufnebenkosten für dein Bundesland.</p>
-        <a href="/rechner/nebenkosten" className="inline-block bg-amber-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-amber-700 transition-colors">
-          Nebenkosten berechnen →
-        </a>
+      <section className="mb-12 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 text-center">
+          <h2 className="text-xl font-bold mb-2">Immobilie kaufen?</h2>
+          <p className="text-stone-600 mb-4">Berechne sofort alle Kaufnebenkosten für dein Bundesland.</p>
+          <a href="/rechner/nebenkosten" className="inline-block bg-amber-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-amber-700 transition-colors">
+            Nebenkosten berechnen →
+          </a>
+        </div>
+        <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 text-center">
+          <h2 className="text-xl font-bold mb-2">Förderung sichern</h2>
+          <p className="text-stone-600 mb-4">Finde alle KfW- und BAFA-Zuschüsse für dein Vorhaben.</p>
+          <a href="/rechner/foerdermittel" className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+            Fördermittel finden →
+          </a>
+        </div>
       </section>
 
       <section className="mb-16">

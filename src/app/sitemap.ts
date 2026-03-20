@@ -13,6 +13,7 @@ export default async function sitemap() {
     { url: `${baseUrl}/rechner/stromverbrauch`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${baseUrl}/rechner/nebenkosten`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${baseUrl}/rechner/eigenleistung`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${baseUrl}/rechner/foerdermittel`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.9 },
     { url: `${baseUrl}/farben`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${baseUrl}/bad`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
     { url: `${baseUrl}/werkzeuge`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
