@@ -1,5 +1,5 @@
 import { supabase } from "@/lib/supabase";
-import { notFound, redirect } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import ProduktKarte from "@/components/ProduktKarte";
 import CommunityKosten from "@/components/CommunityKosten";
@@ -43,7 +43,7 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
   if (!seite) notFound();
 
   if (seite.status === "redirect" && seite.redirect_to) {
-    redirect(seite.redirect_to);
+    permanentRedirect(seite.redirect_to);
   }
 
   if (seite.status !== "aktiv") notFound();
