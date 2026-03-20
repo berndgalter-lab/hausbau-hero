@@ -119,6 +119,23 @@ export default async function RechnerUebersicht() {
         </a>
       </div>
 
+      <div className="mb-8">
+        <a
+          href="/rechner/handwerkerkosten"
+          className="group flex gap-4 p-5 bg-amber-50 border-2 border-amber-300 rounded-xl hover:border-amber-500 hover:shadow-md transition-all"
+        >
+          <div className="text-3xl shrink-0">💶</div>
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="font-semibold group-hover:text-amber-700 transition-colors">Handwerkerkosten-Rechner</span>
+              <span className="text-xs font-bold bg-amber-600 text-white px-2 py-0.5 rounded-full">Neu</span>
+            </div>
+            <div className="text-sm text-stone-600 mt-1">Was kostet Fliesen, Streichen, Trockenbau? 21 Gewerke mit regionalen Preisen.</div>
+            <div className="mt-2 text-amber-600 text-sm font-medium">Kosten berechnen →</div>
+          </div>
+        </a>
+      </div>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
         <a
           href="/rechner/gewerk-reihenfolge"
@@ -141,7 +158,6 @@ export default async function RechnerUebersicht() {
           <div>
             <div className="flex items-center gap-2">
               <span className="font-semibold group-hover:text-amber-700 transition-colors">Baugenehmigung-Check</span>
-              <span className="text-xs font-bold bg-stone-700 text-white px-2 py-0.5 rounded-full">Neu</span>
             </div>
             <div className="text-sm text-stone-600 mt-1">Brauche ich eine Genehmigung? Ampel-Check nach Bundesland.</div>
             <div className="mt-2 text-amber-600 text-sm font-medium">Jetzt prüfen →</div>
