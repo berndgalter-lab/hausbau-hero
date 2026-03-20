@@ -74,24 +74,36 @@ export default async function RechnerUebersicht() {
         ungefähren Kosten.
       </p>
 
-      <a
-        href="/rechner/nebenkosten"
-        className="group flex gap-4 p-6 mb-6 bg-amber-50 border-2 border-amber-300 rounded-xl hover:border-amber-500 hover:shadow-md transition-all"
-      >
-        <div className="text-3xl shrink-0">🏠</div>
-        <div>
-          <div className="flex items-center gap-2">
-            <span className="text-lg font-semibold group-hover:text-amber-700 transition-colors">
-              Nebenkosten-Rechner
-            </span>
-            <span className="text-xs font-bold bg-amber-600 text-white px-2 py-0.5 rounded-full">Beliebt</span>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+        <a
+          href="/rechner/nebenkosten"
+          className="group flex gap-4 p-5 bg-amber-50 border-2 border-amber-300 rounded-xl hover:border-amber-500 hover:shadow-md transition-all"
+        >
+          <div className="text-3xl shrink-0">🏠</div>
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="font-semibold group-hover:text-amber-700 transition-colors">Nebenkosten-Rechner</span>
+              <span className="text-xs font-bold bg-amber-600 text-white px-2 py-0.5 rounded-full">Beliebt</span>
+            </div>
+            <div className="text-sm text-stone-600 mt-1">Grunderwerbsteuer, Notar, Grundbuch, Makler.</div>
+            <div className="mt-2 text-amber-600 text-sm font-medium">Jetzt berechnen →</div>
           </div>
-          <div className="text-sm text-stone-600 mt-1">
-            Kaufnebenkosten berechnen: Grunderwerbsteuer nach Bundesland, Notar, Grundbuch und Makler.
+        </a>
+        <a
+          href="/rechner/eigenleistung"
+          className="group flex gap-4 p-5 bg-green-50 border-2 border-green-300 rounded-xl hover:border-green-500 hover:shadow-md transition-all"
+        >
+          <div className="text-3xl shrink-0">🛠️</div>
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="font-semibold group-hover:text-green-700 transition-colors">Eigenleistungs-Rechner</span>
+              <span className="text-xs font-bold bg-green-600 text-white px-2 py-0.5 rounded-full">Neu</span>
+            </div>
+            <div className="text-sm text-stone-600 mt-1">Selbst machen oder Handwerker? Finde heraus wie viel du sparst.</div>
+            <div className="mt-2 text-green-600 text-sm font-medium">Jetzt berechnen →</div>
           </div>
-          <div className="mt-3 text-amber-600 text-sm font-medium">Jetzt berechnen →</div>
-        </div>
-      </a>
+        </a>
+      </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         {rechnerList.map((r) => (
