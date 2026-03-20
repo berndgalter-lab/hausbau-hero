@@ -4,118 +4,130 @@ import { useState } from "react";
 
 type Region = "nord" | "sued" | "ost" | "west";
 type Schwierigkeit = "einfach" | "mittel" | "schwer";
+interface MinMax { min: number; max: number; }
 
 interface Gewerk {
   name: string;
-  material_pro_m2: number;
-  arbeit_pro_m2: number;
+  material_pro_m2: MinMax;
+  arbeit_pro_m2: MinMax;
   region_faktor: Record<Region, number>;
-  zeitaufwand_h_pro_m2: number;
+  zeitaufwand_h_pro_m2: MinMax;
   schwierigkeit: Schwierigkeit;
   tipp: string;
   rechner_link: string | null;
+  hinweis: string;
 }
 
 const GEWERKE: Record<string, Gewerk> = {
   "bad-fliesen": {
     name: "Bad fliesen (Boden + Wände)",
-    material_pro_m2: 45,
-    arbeit_pro_m2: 65,
+    material_pro_m2: { min: 25, max: 60 },
+    arbeit_pro_m2: { min: 50, max: 80 },
     region_faktor: { nord: 0.9, sued: 1.15, ost: 0.8, west: 1.0 },
-    zeitaufwand_h_pro_m2: 2.5,
+    zeitaufwand_h_pro_m2: { min: 2, max: 3.5 },
     schwierigkeit: "mittel",
-    tipp: "Fliesen verlegen ist machbar, aber Fehler sind teuer. Investiere in ein gutes Nivelliersystem.",
+    tipp: "Fliesen verlegen ist machbar, aber Fehler sind teuer. Investiere in ein gutes Nivelliersystem. Großformatige Fliesen (60×60 und größer) sind schwieriger zu verlegen und kosten beim Handwerker 10–20 % Aufpreis.",
     rechner_link: "/rechner/fliesen",
+    hinweis: "Preise für Standardfliesen (30×60 cm). Naturstein, Mosaik oder Großformat können deutlich teurer sein.",
   },
   "waende-streichen": {
     name: "Wände streichen",
-    material_pro_m2: 3.5,
-    arbeit_pro_m2: 12,
+    material_pro_m2: { min: 2, max: 5 },
+    arbeit_pro_m2: { min: 8, max: 15 },
     region_faktor: { nord: 0.9, sued: 1.1, ost: 0.8, west: 1.0 },
-    zeitaufwand_h_pro_m2: 0.3,
+    zeitaufwand_h_pro_m2: { min: 0.2, max: 0.4 },
     schwierigkeit: "einfach",
-    tipp: "Streichen ist das einfachste Gewerk für Eigenleistung. Investiere in gute Farbe und Werkzeug.",
+    tipp: "Streichen ist das einfachste Gewerk für Eigenleistung. Investiere in gute Farbe (Alpina, Caparol) und ein ordentliches Roller-Set. 2 Anstriche einplanen.",
     rechner_link: "/rechner/wandfarbe",
+    hinweis: "Preis für normales Streichen mit Dispersionsfarbe, inkl. Abkleben. Spachteln/Grundieren extra.",
   },
   "laminat-verlegen": {
     name: "Laminat/Parkett verlegen",
-    material_pro_m2: 28,
-    arbeit_pro_m2: 25,
+    material_pro_m2: { min: 15, max: 45 },
+    arbeit_pro_m2: { min: 20, max: 35 },
     region_faktor: { nord: 0.9, sued: 1.15, ost: 0.8, west: 1.0 },
-    zeitaufwand_h_pro_m2: 0.8,
+    zeitaufwand_h_pro_m2: { min: 0.5, max: 1.0 },
     schwierigkeit: "einfach",
-    tipp: "Klick-Laminat ist auch für Anfänger gut machbar. Die Trittschalldämmung nicht vergessen!",
+    tipp: "Klick-Laminat ist auch für Anfänger gut machbar. Trittschalldämmung nicht vergessen. Randabstand 8–10 mm einhalten.",
     rechner_link: null,
+    hinweis: "Preise für Klick-Laminat/Vinyl. Massivparkett mit Verkleben ist deutlich teurer (80–120 €/m² inkl. Arbeit).",
   },
   tapezieren: {
     name: "Tapezieren",
-    material_pro_m2: 5,
-    arbeit_pro_m2: 15,
+    material_pro_m2: { min: 3, max: 8 },
+    arbeit_pro_m2: { min: 10, max: 20 },
     region_faktor: { nord: 0.9, sued: 1.1, ost: 0.8, west: 1.0 },
-    zeitaufwand_h_pro_m2: 0.5,
+    zeitaufwand_h_pro_m2: { min: 0.3, max: 0.6 },
     schwierigkeit: "einfach",
-    tipp: "Rauhfaser ist einfach, Mustertapeten brauchen Übung. Immer von der Lichtquelle weg arbeiten.",
+    tipp: "Rauhfaser ist einfach, Mustertapeten brauchen Übung wegen Rapport. Immer von der Lichtquelle (Fenster) weg arbeiten.",
     rechner_link: null,
+    hinweis: "Preis für Rauhfaser. Vliestapeten oder Designtapeten kosten beim Material 10–30 €/Rolle mehr.",
   },
   trockenbau: {
-    name: "Trockenbau/Rigips-Wand",
-    material_pro_m2: 22,
-    arbeit_pro_m2: 45,
+    name: "Trockenbau/Rigips-Wand einziehen",
+    material_pro_m2: { min: 15, max: 30 },
+    arbeit_pro_m2: { min: 40, max: 75 },
     region_faktor: { nord: 0.9, sued: 1.15, ost: 0.8, west: 1.0 },
-    zeitaufwand_h_pro_m2: 1.5,
+    zeitaufwand_h_pro_m2: { min: 1.0, max: 2.0 },
     schwierigkeit: "mittel",
-    tipp: "Profile exakt ausrichten ist der Schlüssel. Investiere in einen guten Laser.",
+    tipp: "Profile exakt ausrichten ist der Schlüssel. Ein Kreuzlinienlaser spart enorm Zeit. Spachtelqualität Q2 reicht unter Tapete, Q3 für Anstrich.",
     rechner_link: "/rechner/trockenbau",
+    hinweis: "Einfache Trennwand mit Einfachständerwerk und einseitig beplankt. Doppelbeplankung, Schallschutz oder Brandschutz teurer.",
   },
   "bad-komplett": {
     name: "Badezimmer komplett sanieren",
-    material_pro_m2: 180,
-    arbeit_pro_m2: 350,
+    material_pro_m2: { min: 150, max: 300 },
+    arbeit_pro_m2: { min: 250, max: 500 },
     region_faktor: { nord: 0.9, sued: 1.2, ost: 0.8, west: 1.0 },
-    zeitaufwand_h_pro_m2: 8,
+    zeitaufwand_h_pro_m2: { min: 6, max: 12 },
     schwierigkeit: "schwer",
-    tipp: "Sanitärinstallation und Abdichtung sollte ein Fachmann machen. Fliesen und Trockenbau kannst du selbst.",
+    tipp: "Sanitärinstallation und Abdichtung (Flüssigfolie) MÜSSEN vom Fachmann gemacht werden — sonst drohen Wasserschäden. Fliesen und Trockenbau kannst du selbst machen.",
     rechner_link: "/rechner/fliesen",
+    hinweis: "Komplettsanierung inkl. Demontage, Sanitär, Fliesen, Trockenbau. Ohne neue Sanitärobjekte (WC, Waschbecken, Dusche).",
   },
   "kueche-montieren": {
-    name: "Küche montieren",
-    material_pro_m2: 0,
-    arbeit_pro_m2: 80,
+    name: "Küche montieren (ohne Elektro/Wasser)",
+    material_pro_m2: { min: 0, max: 0 },
+    arbeit_pro_m2: { min: 60, max: 100 },
     region_faktor: { nord: 0.9, sued: 1.1, ost: 0.85, west: 1.0 },
-    zeitaufwand_h_pro_m2: 3,
+    zeitaufwand_h_pro_m2: { min: 2, max: 4 },
     schwierigkeit: "mittel",
-    tipp: "Schränke aufhängen ist machbar, aber Wasser- und Elektroanschlüsse sind Profi-Sache.",
+    tipp: "Oberschränke exakt ausrichten und mit ausreichend langen Schrauben befestigen. Wasser- und Elektroanschlüsse sind Profi-Sache.",
     rechner_link: null,
+    hinweis: "Reine Möbelmontage. Elektro- und Wasseranschlüsse separat vom Fachmann.",
   },
   terrasse: {
     name: "Terrasse bauen (Holz/WPC)",
-    material_pro_m2: 65,
-    arbeit_pro_m2: 55,
+    material_pro_m2: { min: 45, max: 90 },
+    arbeit_pro_m2: { min: 40, max: 70 },
     region_faktor: { nord: 0.9, sued: 1.15, ost: 0.8, west: 1.0 },
-    zeitaufwand_h_pro_m2: 2,
+    zeitaufwand_h_pro_m2: { min: 1.5, max: 2.5 },
     schwierigkeit: "mittel",
-    tipp: "Unterkonstruktion ist der wichtigste Teil. Hier nicht sparen, sonst sackt alles ab.",
+    tipp: "Unterkonstruktion ist der wichtigste Teil — hier nicht sparen. Stelzlager erleichtern die Ausrichtung enorm. WPC ist pflegeleichter als Holz.",
     rechner_link: null,
+    hinweis: "WPC-Dielen auf Stelzlagern. Holzterrasse auf Beton-Fundament ist teurer.",
   },
   "fassade-streichen": {
     name: "Fassade streichen",
-    material_pro_m2: 8,
-    arbeit_pro_m2: 22,
+    material_pro_m2: { min: 5, max: 12 },
+    arbeit_pro_m2: { min: 18, max: 30 },
     region_faktor: { nord: 0.9, sued: 1.1, ost: 0.8, west: 1.0 },
-    zeitaufwand_h_pro_m2: 0.5,
+    zeitaufwand_h_pro_m2: { min: 0.3, max: 0.6 },
     schwierigkeit: "mittel",
-    tipp: "Gerüst mieten (~150 €/Woche) statt Leiter. Viel sicherer und schneller.",
+    tipp: "Gerüst mieten (~150–250 €/Woche) statt Leiter — viel sicherer und schneller. Fassade vorher mit Hochdruckreiniger säubern.",
     rechner_link: "/rechner/wandfarbe",
+    hinweis: "Ohne Gerüstkosten. Gerüst separat einrechnen (~8–12 €/m² Fassadenfläche).",
   },
   "dachboden-daemmen": {
-    name: "Dachboden dämmen",
-    material_pro_m2: 35,
-    arbeit_pro_m2: 40,
+    name: "Oberste Geschossdecke dämmen",
+    material_pro_m2: { min: 25, max: 50 },
+    arbeit_pro_m2: { min: 30, max: 50 },
     region_faktor: { nord: 0.9, sued: 1.1, ost: 0.8, west: 1.0 },
-    zeitaufwand_h_pro_m2: 1,
+    zeitaufwand_h_pro_m2: { min: 0.5, max: 1.0 },
     schwierigkeit: "einfach",
-    tipp: "Oberste Geschossdecke dämmen ist der beste ROI im ganzen Haus. Einfach und riesen Effekt.",
+    tipp: "Oberste Geschossdecke dämmen hat den besten ROI im ganzen Haus — einfach und riesen Effekt auf die Heizkosten. Dampfsperre nicht vergessen!",
     rechner_link: null,
+    hinweis: "Begehbare Dämmung mit Mineralwolle und OSB-Platten. Dachschrägen-Dämmung ist aufwändiger.",
   },
 };
 
@@ -128,18 +140,19 @@ const REGIONEN: { key: Region; label: string }[] = [
   { key: "ost", label: "Ost" },
 ];
 
-const SCHWIERIGKEIT_STYLE: Record<Schwierigkeit, { label: string; bg: string; text: string }> = {
-  einfach: { label: "Einfach", bg: "bg-green-100", text: "text-green-800" },
-  mittel: { label: "Mittel", bg: "bg-amber-100", text: "text-amber-800" },
-  schwer: { label: "Schwer", bg: "bg-red-100", text: "text-red-800" },
+const SCHWIERIGKEIT_META: Record<Schwierigkeit, { label: string; sub: string; bg: string; text: string }> = {
+  einfach: { label: "Einfach", sub: "Auch für Anfänger geeignet", bg: "bg-green-100", text: "text-green-800" },
+  mittel: { label: "Mittel", sub: "Handwerkliche Grundkenntnisse empfohlen", bg: "bg-amber-100", text: "text-amber-800" },
+  schwer: { label: "Schwer", sub: "Nur mit Erfahrung — Teilgewerke an Fachmann vergeben", bg: "bg-red-100", text: "text-red-800" },
 };
 
 function fmt(n: number) {
   return n.toLocaleString("de-DE", { minimumFractionDigits: 0, maximumFractionDigits: 0 });
 }
 
-function fmtDec(n: number) {
-  return n.toLocaleString("de-DE", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+function range(a: number, b: number) {
+  if (a === b) return fmt(a);
+  return `${fmt(a)} – ${fmt(b)}`;
 }
 
 export default function EigenleistungRechner() {
@@ -148,15 +161,23 @@ export default function EigenleistungRechner() {
   const [region, setRegion] = useState<Region>("west");
 
   const g = GEWERKE[gewerkKey];
-  const faktor = g.region_faktor[region];
-  const s = SCHWIERIGKEIT_STYLE[g.schwierigkeit];
+  const rf = g.region_faktor[region];
+  const s = SCHWIERIGKEIT_META[g.schwierigkeit];
 
-  const kostenMaterial = flaeche * g.material_pro_m2;
-  const kostenHandwerker = flaeche * (g.material_pro_m2 + g.arbeit_pro_m2) * faktor;
-  const ersparnis = kostenHandwerker - kostenMaterial;
-  const ersparnisProz = kostenHandwerker > 0 ? (ersparnis / kostenHandwerker) * 100 : 0;
-  const zeitaufwand = flaeche * g.zeitaufwand_h_pro_m2;
-  const stundenlohn = zeitaufwand > 0 ? ersparnis / zeitaufwand : 0;
+  const matMin = flaeche * g.material_pro_m2.min;
+  const matMax = flaeche * g.material_pro_m2.max;
+  const hwMin = flaeche * (g.material_pro_m2.min + g.arbeit_pro_m2.min) * rf;
+  const hwMax = flaeche * (g.material_pro_m2.max + g.arbeit_pro_m2.max) * rf;
+  const sparMin = Math.max(0, hwMin - matMax);
+  const sparMax = hwMax - matMin;
+  const sparProzMin = hwMax > 0 ? (sparMin / hwMax) * 100 : 0;
+  const sparProzMax = hwMin > 0 ? (sparMax / hwMin) * 100 : 0;
+
+  const zeitMin = flaeche * g.zeitaufwand_h_pro_m2.min;
+  const zeitMax = flaeche * g.zeitaufwand_h_pro_m2.max;
+  const zeitMittel = (zeitMin + zeitMax) / 2;
+  const sparMittel = (sparMin + sparMax) / 2;
+  const stundenlohn = zeitMittel > 0 ? sparMittel / zeitMittel : 0;
 
   return (
     <div className="max-w-3xl mx-auto">
@@ -243,60 +264,65 @@ export default function EigenleistungRechner() {
       </div>
 
       {/* Three result cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
         <div className="bg-white border border-stone-200 rounded-xl p-5 text-center">
-          <div className="text-sm font-medium text-stone-500 mb-1">Selbst machen</div>
-          <div className="text-2xl font-bold text-stone-900">{fmt(kostenMaterial)} €</div>
+          <div className="text-sm font-medium text-stone-500 mb-2">🔧 Selbst machen</div>
+          <div className="text-2xl font-bold text-stone-900">{range(matMin, matMax)} €</div>
           <div className="text-xs text-stone-400 mt-1">nur Material</div>
         </div>
         <div className="bg-white border border-stone-200 rounded-xl p-5 text-center">
-          <div className="text-sm font-medium text-stone-500 mb-1">Handwerker</div>
-          <div className="text-2xl font-bold text-stone-900">{fmt(kostenHandwerker)} €</div>
+          <div className="text-sm font-medium text-stone-500 mb-2">👷 Handwerker</div>
+          <div className="text-2xl font-bold text-stone-900">{range(hwMin, hwMax)} €</div>
           <div className="text-xs text-stone-400 mt-1">Material + Arbeit</div>
         </div>
         <div className="bg-green-50 border-2 border-green-300 rounded-xl p-5 text-center">
-          <div className="text-sm font-medium text-green-700 mb-1">Du sparst</div>
-          <div className="text-2xl font-bold text-green-700">{fmt(ersparnis)} €</div>
-          <div className="text-xs text-green-600 mt-1">{fmt(ersparnisProz)} % der Handwerkerkosten</div>
+          <div className="text-sm font-medium text-green-700 mb-2">💰 Du sparst</div>
+          <div className="text-2xl font-bold text-green-700">{range(sparMin, sparMax)} €</div>
+          <div className="text-xs text-green-600 mt-1">ca. {fmt(sparProzMin)} – {fmt(sparProzMax)} %</div>
         </div>
       </div>
 
-      {/* Details */}
+      {/* Details row */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
         <div className="bg-white border border-stone-200 rounded-lg p-4 text-center">
-          <div className="text-xs text-stone-500 mb-1">Zeitaufwand</div>
-          <div className="text-lg font-bold text-stone-900">ca. {fmt(zeitaufwand)} Std.</div>
+          <div className="text-xs text-stone-500 mb-1">⏱ Zeitaufwand</div>
+          <div className="text-lg font-bold text-stone-900">{range(zeitMin, zeitMax)} Std.</div>
         </div>
         <div className="bg-white border border-stone-200 rounded-lg p-4 text-center">
-          <div className="text-xs text-stone-500 mb-1">Dein Stundenlohn</div>
-          <div className="text-lg font-bold text-amber-700">{fmtDec(stundenlohn)} €/h</div>
+          <div className="text-xs text-stone-500 mb-1">💰 Dein Stundenlohn</div>
+          <div className="text-lg font-bold text-amber-700">ca. {fmt(stundenlohn)} €/h</div>
         </div>
         <div className="bg-white border border-stone-200 rounded-lg p-4 text-center">
           <div className="text-xs text-stone-500 mb-1">Schwierigkeit</div>
-          <span className={`inline-block mt-1 px-3 py-1 rounded-full text-sm font-bold ${s.bg} ${s.text}`}>
-            {s.label}
-          </span>
+          <span className={`inline-block mt-1 px-3 py-1 rounded-full text-sm font-bold ${s.bg} ${s.text}`}>{s.label}</span>
+          <div className="text-xs text-stone-500 mt-1.5">{s.sub}</div>
         </div>
       </div>
 
       {/* Tipp */}
-      <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
+      <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-6">
         <div className="font-bold text-stone-800 mb-1">💡 Tipp</div>
         <p className="text-stone-700 text-sm">{g.tipp}</p>
         {g.rechner_link && (
           <a
             href={g.rechner_link}
-            className="inline-block mt-3 text-sm font-medium text-amber-700 hover:text-amber-800 hover:underline"
+            className="inline-flex items-center gap-2 mt-4 bg-amber-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-amber-700 transition-colors text-sm"
           >
             Material im Detail berechnen →
           </a>
         )}
       </div>
 
-      {/* Disclaimer */}
+      {/* Gewerk-spezifischer Hinweis */}
+      <div className="bg-stone-50 border border-stone-200 rounded-lg p-4 mb-6 text-sm text-stone-600">
+        <strong className="text-stone-700">Zu diesem Gewerk:</strong>{" "}
+        {g.hinweis}
+      </div>
+
+      {/* General disclaimer */}
       <div className="bg-stone-50 border border-stone-200 rounded-lg p-4 mb-8 text-sm text-stone-600">
         <strong className="text-stone-800">Hinweis:</strong>{" "}
-        Die Handwerkerkosten sind Durchschnittswerte für Deutschland (Stand 2026) und variieren je nach Region, Saison und Auftragslage. Für verbindliche Angebote empfehlen wir, mindestens 3 Handwerker-Angebote einzuholen.
+        Alle Preise sind Richtwerte für Deutschland (Stand 2026) und variieren je nach Region, Saison und Auftragslage. Für verbindliche Angebote empfehlen wir, mindestens 3 Handwerker-Angebote einzuholen. Materialpreise können je nach Qualität und Hersteller stark abweichen.
       </div>
 
       {/* More calculators */}
@@ -309,6 +335,11 @@ export default function EigenleistungRechner() {
           <a href="/rechner/trockenbau" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Trockenbau-Rechner</a>
         </div>
       </div>
+
+      <p className="text-xs text-stone-400 mt-8">
+        Preisdaten basieren auf Durchschnittspreisen deutscher Handwerksbetriebe (Quellen: Trustlocal, Daibau, Baupreislexikon, Stand 2026).
+        Die tatsächlichen Kosten können je nach Projektumfang, Untergrund, Material und regionaler Marktlage abweichen.
+      </p>
     </div>
   );
 }
