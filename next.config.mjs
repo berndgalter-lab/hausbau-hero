@@ -21,6 +21,8 @@ const nextConfig = {
       { source: '/category/allgemein/:path*', destination: '/', permanent: true },
       { source: '/category/anleitungen/:path*', destination: '/werkzeuge', permanent: true },
       { source: '/category/:path*', destination: '/', permanent: true },
+
+      { source: '/farben/badewannenarmatur-unterputz', destination: '/bad/badewannenarmatur-ratgeber', permanent: true },
     ];
   },
 };
