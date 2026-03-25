@@ -268,42 +268,12 @@ export default async function Home() {
         </section>
       )}
 
-      {/* ── 5. TRUST + E-MAIL CAPTURE ──────────────────────────── */}
+      {/* ── 5. TRUST ──────────────────────────── */}
       <section className="mb-16">
         <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-stone-600 mb-8">
           <span>✓ 19 kostenlose Rechner</span>
           <span>✓ Keine Anmeldung</span>
           <span>✓ Daten aus 2026</span>
-        </div>
-
-        <div className="max-w-xl mx-auto bg-stone-900 text-white rounded-2xl p-8 text-center">
-          <h2 className="text-xl font-bold mb-2">
-            Kostenlose Hausbau-Checkliste 2026
-          </h2>
-          <p className="text-stone-300 text-sm mb-6">
-            Alle Gewerke-Kosten auf einen Blick — als PDF.
-          </p>
-          <form
-            onSubmit={undefined}
-            className="flex flex-col sm:flex-row gap-3"
-          >
-            <input
-              type="email"
-              placeholder="Deine E-Mail-Adresse"
-              className="flex-1 px-4 py-3 rounded-lg bg-stone-800 border border-stone-700 text-white placeholder:text-stone-500 focus:outline-none focus:border-amber-500"
-              disabled
-            />
-            <button
-              type="button"
-              className="bg-amber-500 hover:bg-amber-400 text-stone-900 font-bold px-6 py-3 rounded-lg transition-colors whitespace-nowrap"
-              disabled
-            >
-              Checkliste herunterladen
-            </button>
-          </form>
-          <p className="text-xs text-stone-500 mt-3">
-            Kein Spam. Jederzeit abmeldbar.
-          </p>
         </div>
       </section>
     </div>

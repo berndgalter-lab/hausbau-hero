@@ -2,7 +2,6 @@ import { supabase } from "@/lib/supabase";
 import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import ProduktKarte from "@/components/ProduktKarte";
-import CommunityKosten from "@/components/CommunityKosten";
 import ArticleContent from "@/components/ArticleContent";
 import { getPassendeRechner } from "@/lib/rechner-zuordnung";
 
@@ -168,8 +167,6 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
           </div>
         </div>
       )}
-
-      <CommunityKosten seitenSlug={seite.slug} />
     </div>
   );
 }

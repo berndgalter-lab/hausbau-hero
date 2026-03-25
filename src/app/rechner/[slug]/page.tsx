@@ -2,8 +2,6 @@
 import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
 import { berechne, formatPreis, getAffiliateLink } from "@/lib/rechner-logic";
-import CommunityKosten from "@/components/CommunityKosten";
-import EmailCapture from "@/components/EmailCapture";
 import FAQSection from "@/components/FAQSection";
 import { getFaqBySlug } from "@/lib/faq-data";
 import { getRatgeberSlug } from "@/lib/ratgeber-zuordnung";
@@ -329,9 +327,6 @@ export default function RechnerPage() {
               </div>
             </div>
           )}
-
-          <EmailCapture rechnerSlug={rechner.slug} />
-          <CommunityKosten rechnerId={rechner.id} seitenSlug={rechner.slug} />
 
           {ratgeber && (
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
