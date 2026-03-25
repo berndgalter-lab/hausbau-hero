@@ -366,7 +366,11 @@ export default function RechnerPage() {
 
           {material.length > 0 && (
             <div className="bg-white border border-stone-200 rounded-xl p-6 mb-6">
-              <h2 className="text-lg font-bold mb-4">📋 Materialliste</h2>
+              <h2 className="text-lg font-bold mb-2">📋 Materialliste</h2>
+              <p className="text-xs text-stone-500 mb-4">
+                Affiliate-Hinweis: Die Materialliste enthält Links zu Amazon.
+                Bei Kauf erhalten wir eine kleine Provision — für dich ändert sich der Preis nicht.
+              </p>
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead>

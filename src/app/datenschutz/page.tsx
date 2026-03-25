@@ -41,9 +41,8 @@ export default function DatenschutzPage() {
           <strong>Wie erfassen wir Ihre Daten?</strong>
           <br />
           Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese
-          mitteilen (z.B. per E-Mail oder über das
-          Community-Kosten-Formular). Andere Daten werden automatisch beim
-          Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor
+          mitteilen (z.B. per E-Mail-Kontakt). Andere Daten werden
+          automatisch beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor
           allem technische Daten (z.B. Internetbrowser, Betriebssystem oder
           Uhrzeit des Seitenaufrufs).
         </p>
@@ -182,36 +181,55 @@ export default function DatenschutzPage() {
         </p>
       </section>
 
+      {/* 5a */}
+      <section className="mb-8">
+        <h2 className="text-xl font-bold mb-3">5a. Webanalyse — Vercel Web Analytics</h2>
+        <p className="text-stone-700 leading-relaxed mb-3">
+          Wir nutzen Vercel Web Analytics, einen datenschutzfreundlichen Analysedienst
+          von Vercel Inc. (440 N Barranca Ave #4133, Covina, CA 91723, USA). Vercel
+          Web Analytics erfasst anonymisierte Nutzungsdaten wie Seitenaufrufe,
+          Verweildauer, Referrer und ungefähren Standort (Land/Region).
+        </p>
+        <p className="text-stone-700 leading-relaxed mb-3">
+          Vercel Web Analytics setzt <strong>keine Cookies</strong> und speichert keine
+          personenbezogenen Daten im Browser. Es findet kein nutzerbezogenes Tracking
+          über mehrere Sitzungen hinweg statt.
+        </p>
+        <p className="text-stone-700 leading-relaxed mb-3">
+          Die Datenverarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO
+          (berechtigtes Interesse an der Analyse der Websitenutzung zur Verbesserung
+          unseres Angebots).
+        </p>
+        <p className="text-stone-700 leading-relaxed mb-3">
+          Vercel verfügt über eine Zertifizierung nach dem EU-US Data Privacy Framework.
+        </p>
+        <p className="text-stone-700">
+          Weitere Informationen:{" "}
+          <a
+            href="https://vercel.com/docs/analytics/privacy-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-amber-600 hover:text-amber-700 break-all"
+          >
+            vercel.com/docs/analytics/privacy-policy
+          </a>
+        </p>
+      </section>
+
       {/* 6 */}
       <section className="mb-8">
         <h2 className="text-xl font-bold mb-3">6. Datenbank</h2>
 
         <h3 className="text-lg font-semibold mt-5 mb-2">Supabase</h3>
         <p className="text-stone-700 leading-relaxed mb-3">
-          Wir nutzen Supabase als Datenbank-Dienst für
-          Materialberechnungen und Community-Daten. Anbieter ist Supabase
-          Inc. Die Server befinden sich in Frankfurt (EU).
+          Wir nutzen Supabase als Datenbank-Dienst für die Bereitstellung der
+          Materialrechner und Ratgeber-Inhalte. Anbieter ist Supabase Inc.
+          Die Server befinden sich in Frankfurt am Main (EU).
         </p>
-
-        <h3 className="text-lg font-semibold mt-5 mb-2">
-          Community-Kosten-Formular
-        </h3>
         <p className="text-stone-700 leading-relaxed mb-3">
-          Wenn Sie freiwillig am Community-Kosten-Formular teilnehmen
-          (&ldquo;Was hat es bei dir gekostet?&rdquo;), speichern wir die
-          von Ihnen eingegebene Region, Kosten und optional einen
-          Kommentar. Es wird kein Account benötigt. Rechtsgrundlage ist
-          Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
-        </p>
-
-        <h3 className="text-lg font-semibold mt-5 mb-2">
-          E-Mail-Capture (Materialliste als PDF)
-        </h3>
-        <p className="text-stone-700 leading-relaxed mb-3">
-          Wenn Sie Ihre E-Mail-Adresse eingeben um eine Materialliste als
-          PDF zu erhalten, speichern wir Ihre E-Mail-Adresse. Sie können
-          jederzeit die Löschung verlangen. Rechtsgrundlage ist Ihre
-          Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
+          Die Berechnungsergebnisse der Materialrechner werden nicht serverseitig
+          gespeichert. Alle Eingaben werden ausschließlich im Browser des Nutzers
+          verarbeitet.
         </p>
         <p className="text-stone-700">
           Weitere Informationen:{" "}
@@ -221,7 +239,7 @@ export default function DatenschutzPage() {
             rel="noopener noreferrer"
             className="text-amber-600 hover:text-amber-700 break-all"
           >
-            https://supabase.com/privacy
+            supabase.com/privacy
           </a>
         </p>
       </section>
@@ -277,7 +295,8 @@ export default function DatenschutzPage() {
         <h2 className="text-xl font-bold mb-3">8. Cookies</h2>
         <p className="text-stone-700 leading-relaxed mb-3">
           Unsere Website selbst verwendet keine Tracking-Cookies. Es
-          werden keine Analysetools wie Google Analytics eingesetzt.
+          werden keine cookie-basierten Analysetools wie Google Analytics eingesetzt.
+          Wir nutzen Vercel Web Analytics, einen cookielosen Analysedienst (siehe Abschnitt 5a).
         </p>
         <p className="text-stone-700">
           Cookies von Drittanbietern (z.B. Amazon) werden ausschließlich

@@ -94,31 +94,6 @@ export default function ImpressumPage() {
 
       <section className="mb-8">
         <h2 className="text-xl font-bold mb-3">
-          Haftungsausschluss / Disclaimer
-        </h2>
-        <p className="text-stone-700 leading-relaxed mb-3">
-          Die auf hausbau-hero.de bereitgestellten Informationen dienen
-          ausschließlich zu Informationszwecken. Die Materialberechnungen
-          basieren auf öffentlich verfügbaren Herstellerangaben und
-          branchenüblichen Erfahrungswerten.
-        </p>
-        <p className="text-stone-700 leading-relaxed mb-3">
-          Wir bemühen uns um Richtigkeit und Aktualität der Angaben,
-          übernehmen jedoch keine Gewähr für Vollständigkeit, Richtigkeit
-          oder Aktualität der bereitgestellten Berechnungen. Eine Haftung
-          für Schäden, die durch die Nutzung der auf dieser Website
-          enthaltenen Informationen entstehen, wird ausgeschlossen, soweit
-          dies gesetzlich zulässig ist.
-        </p>
-        <p className="text-stone-700">
-          Bauarbeiten erfordern Fachkenntnisse und erfolgen auf eigene
-          Gefahr. Im Zweifel empfehlen wir die Beauftragung eines
-          qualifizierten Handwerksbetriebs.
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">
           Hinweis zu Affiliate-Links
         </h2>
         <p className="text-stone-700 leading-relaxed mb-3">
