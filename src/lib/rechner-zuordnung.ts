@@ -42,6 +42,7 @@ const RECHNER_MAP: Record<string, string[]> = {
   "kfw-foerderung-2026": ["foerdermittel", "nebenkosten"],
   "baugenehmigung-ratgeber": ["baugenehmigung"],
   "eigenleistung-hausbau": ["eigenleistung", "handwerkerkosten"],
+  "hausbau-kosten-2026": ["nebenkosten", "handwerkerkosten", "eigenleistung", "foerdermittel"],
 
   // Boden
   "fliesen-verlegen-kosten": ["fliesen", "handwerkerkosten"],
