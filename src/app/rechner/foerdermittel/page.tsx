@@ -256,7 +256,18 @@ const FOERDERUNGEN: Record<string, { titel: string; programme: Programm[] }> = {
         zins_eh40: "ab 0,60 % eff. Jahreszins",
         hinweis:
           "Kein Tilgungszuschuss — nur zinsgünstiger Kredit. Mit QNG-Nachhaltigkeitszertifikat steigt der Kreditrahmen auf 150.000 €. Gilt für Neubau EH40 und EH55. Seit März 2026 auch EH55 förderfähig.",
-        link: "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Neubau/",
+        link: "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Neubau/F%C3%B6rderprodukte/Klimafreundlicher-Neubau-Wohngeb%C3%A4ude-(297-298)/",
+      },
+      {
+        name: "KfW 296 — Neubau im Niedrigpreissegment",
+        traeger: "KfW",
+        art: "Kredit",
+        beschreibung:
+          "Zinsgünstiger Kredit bis 100.000 € für flächen- und energieeffiziente Neubauten im unteren/mittleren Preissegment",
+        max_kredit: 100000,
+        hinweis:
+          "Für Neubauten ab EH55 mit strengen Treibhausgas-Grenzwerten und Kostenobergrenzen. Kombinierbar mit KfW 124 (Wohneigentumsprogramm). Energieeffizienz-Experte Pflicht.",
+        link: "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Neubau/F%C3%B6rderprodukte/Klimafreundlicher-Neubau-im-Niedrigpreissegment-(296)/",
       },
       {
         name: "KfW 300 — Wohneigentum für Familien",
@@ -275,14 +286,27 @@ const FOERDERUNGEN: Record<string, { titel: string; programme: Programm[] }> = {
     titel: "Barrierefreier Umbau / Altersgerecht umbauen",
     programme: [
       {
-        name: "KfW 455-B / 159 — Altersgerecht Umbauen",
+        name: "KfW 455-B — Barrierereduzierung (Zuschuss)",
+        traeger: "KfW",
+        art: "Zuschuss",
+        grundfoerderung: 10,
+        max_gesamt: 12.5,
+        max_foerderfaehig: 25000,
+        beschreibung:
+          "10 % Zuschuss für Einzelmaßnahmen (max. 2.500 €), 12,5 % für Standard 'Altersgerechtes Haus' (max. 6.250 €)",
+        hinweis:
+          "Zuschuss seit Frühjahr 2026 wieder verfügbar (50 Mio. € Jahresbudget — schnell ausgeschöpft). Antrag VOR Auftragsvergabe stellen. Gilt für alle Altersgruppen, nicht nur Senioren.",
+        link: "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/F%C3%B6rderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-%28455%29/",
+      },
+      {
+        name: "KfW 159 — Altersgerecht Umbauen (Kredit)",
         traeger: "KfW",
         art: "Kredit",
         beschreibung:
           "Zinsgünstiger Kredit bis 50.000 € für barrierereduzierende Maßnahmen",
         max_kredit: 50000,
         hinweis:
-          "Zuschussvariante (455-B) ist seit 2025 NICHT mehr verfügbar. Nur noch Kreditvariante (159). Gilt für alle Altersgruppen, nicht nur Senioren.",
+          "Kreditvariante als Alternative oder Ergänzung zum Zuschuss 455-B. Gilt für alle Altersgruppen.",
         link: "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/Barrierefreiheit/",
       },
     ],

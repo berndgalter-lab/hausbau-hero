@@ -9,7 +9,7 @@ const BUNDESLAENDER = [
   { name: "Bayern", satz: 3.5 },
   { name: "Berlin", satz: 6.0 },
   { name: "Brandenburg", satz: 6.5 },
-  { name: "Bremen", satz: 5.0 },
+  { name: "Bremen", satz: 5.5 },
   { name: "Hamburg", satz: 5.5 },
   { name: "Hessen", satz: 6.0 },
   { name: "Mecklenburg-Vorpommern", satz: 6.0 },
