@@ -18,6 +18,7 @@ const SHORT_LABELS: Record<string, string> = {
   kueche: "Küche",
   garten: "Garten",
   maschinen: "Maschinen",
+  finanzen: "Finanzen",
 };
 
 function shortName(s: NavSilo) {

@@ -61,6 +61,7 @@ export const metadata: Metadata = {
 };
 
 const FALLBACK_NAV_SILOS = [
+  { slug: "finanzen", name: "Finanzen", icon: "💰" },
   { slug: "farben", name: "Farben", icon: "🎨" },
   { slug: "bad", name: "Bad", icon: "🚿" },
   { slug: "rohbau", name: "Rohbau", icon: "🧱" },

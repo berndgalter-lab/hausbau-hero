@@ -8,7 +8,7 @@ const headers = {
   Prefer: "return=representation",
 };
 
-const ROHBAU_SILO = "6ad30c3c-8528-4f7b-876e-d1d75026986d";
+const FINANZEN_SILO = "ab208c4b-00d6-4ce2-83f4-496eb9f24515";
 
 // ─── ARTIKEL 1: KAUFNEBENKOSTEN ──────────────────────────────
 
@@ -280,7 +280,7 @@ async function run() {
     method: "POST",
     headers,
     body: JSON.stringify({
-      silo_id: ROHBAU_SILO,
+      silo_id: FINANZEN_SILO,
       slug: "kaufnebenkosten-guide",
       titel: "Kaufnebenkosten berechnen \u2014 der komplette Guide (2026)",
       seo_title: "Kaufnebenkosten berechnen: Alle Kosten im \u00dcberblick (2026)",
@@ -298,7 +298,7 @@ async function run() {
     method: "POST",
     headers,
     body: JSON.stringify({
-      silo_id: ROHBAU_SILO,
+      silo_id: FINANZEN_SILO,
       slug: "handwerkerkosten-guide",
       titel: "Was kostet ein Handwerker pro Stunde? Alle Gewerke 2026",
       seo_title: "Handwerkerkosten 2026: Stundensatz nach Gewerk & Region",
