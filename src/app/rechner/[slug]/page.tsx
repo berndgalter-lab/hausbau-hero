@@ -6,6 +6,7 @@ import CommunityKosten from "@/components/CommunityKosten";
 import EmailCapture from "@/components/EmailCapture";
 import FAQSection from "@/components/FAQSection";
 import { getFaqBySlug } from "@/lib/faq-data";
+import { getRatgeberSlug } from "@/lib/ratgeber-zuordnung";
 import { useParams } from "next/navigation";
 
 interface RechnerData {
@@ -42,6 +43,7 @@ export default function RechnerPage() {
   const [berechnet, setBerechnet] = useState(false);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [ratgeber, setRatgeber] = useState<{ slug: string; titel: string; seo_description?: string; silos?: { slug: string } } | null>(null);
 
   useEffect(() => {
     async function load() {
@@ -74,6 +76,17 @@ export default function RechnerPage() {
             .order("sortierung");
 
           if (mat) setMaterialien(mat);
+
+          const rSlug = getRatgeberSlug(r.slug, r.ratgeber_slug);
+          if (rSlug) {
+            const { data: rg } = await supabase
+              .from("seiten")
+              .select("slug, titel, seo_description, silos(slug)")
+              .eq("slug", rSlug)
+              .eq("status", "aktiv")
+              .single();
+            if (rg) setRatgeber(rg as any);
+          }
         }
       } catch (e) {
         console.error("[Rechner] Fetch failed:", e);
@@ -319,6 +332,26 @@ export default function RechnerPage() {
 
           <EmailCapture rechnerSlug={rechner.slug} />
           <CommunityKosten rechnerId={rechner.id} seitenSlug={rechner.slug} />
+
+          {ratgeber && (
+            <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
+              <h2 className="text-lg font-bold mb-2">📖 Ratgeber zum Thema</h2>
+              <a
+                href={`/${(ratgeber.silos as any)?.slug || "rohbau"}/${ratgeber.slug}`}
+                className="group block"
+              >
+                <div className="font-medium group-hover:text-amber-700 transition-colors">
+                  {ratgeber.titel}
+                </div>
+                {ratgeber.seo_description && (
+                  <p className="text-sm text-stone-600 mt-1">{ratgeber.seo_description}</p>
+                )}
+                <span className="inline-block mt-2 text-amber-600 text-sm font-medium">
+                  Weiterlesen →
+                </span>
+              </a>
+            </div>
+          )}
         </>
       )}
 
