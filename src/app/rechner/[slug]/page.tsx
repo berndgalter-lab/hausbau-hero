@@ -7,6 +7,7 @@ import RechnerHinweis from "@/components/RechnerHinweis";
 import { getFaqBySlug } from "@/lib/faq-data";
 import { getRatgeberSlug } from "@/lib/ratgeber-zuordnung";
 import { useParams } from "next/navigation";
+import jsPDF from "jspdf";
 
 interface RechnerData {
   id: string;
@@ -116,6 +117,111 @@ export default function RechnerPage() {
     } catch {
       return 0;
     }
+  }
+
+  function generatePDF() {
+    if (!rechner || !berechnet) return;
+
+    const doc = new jsPDF();
+    const pageWidth = doc.internal.pageSize.getWidth();
+
+    doc.setFontSize(18);
+    doc.setFont("helvetica", "bold");
+    doc.text(rechner.name, 14, 20);
+
+    doc.setFontSize(10);
+    doc.setFont("helvetica", "normal");
+    doc.setTextColor(120, 120, 120);
+    doc.text("hausbau-hero.de — Kostenlose Materialrechner", 14, 28);
+    doc.text(`Erstellt am ${new Date().toLocaleDateString("de-DE")}`, 14, 34);
+
+    doc.setTextColor(0, 0, 0);
+    doc.setFontSize(12);
+    doc.setFont("helvetica", "bold");
+    doc.text("Deine Angaben:", 14, 48);
+
+    doc.setFontSize(10);
+    doc.setFont("helvetica", "normal");
+    let y = 56;
+    for (const feld of rechner.eingabefelder) {
+      const wert = eingaben[feld.name];
+      const label = feld.label + (feld.einheit ? ` (${feld.einheit})` : "");
+      let displayWert = String(wert);
+      if (feld.options) {
+        const opt = feld.options.find((o: any) => Number(o.value) === Number(wert));
+        if (opt) displayWert = opt.label;
+      }
+      doc.text(`${label}: ${displayWert}`, 14, y);
+      y += 7;
+    }
+
+    y += 8;
+    doc.setFontSize(12);
+    doc.setFont("helvetica", "bold");
+    doc.text("Materialliste:", 14, y);
+    y += 10;
+
+    doc.setFontSize(9);
+    doc.setFont("helvetica", "bold");
+    doc.text("Material", 14, y);
+    doc.text("Menge", 120, y, { align: "right" });
+    doc.text("ca. Preis", pageWidth - 14, y, { align: "right" });
+    y += 2;
+    doc.setDrawColor(200, 200, 200);
+    doc.line(14, y, pageWidth - 14, y);
+    y += 6;
+
+    doc.setFont("helvetica", "normal");
+    let gesamt = 0;
+    for (const m of material) {
+      const menge = Math.round(m.menge);
+      const preis = m.menge * m.preis_ca;
+      gesamt += preis;
+
+      doc.text(m.name, 14, y, { maxWidth: 100 });
+      doc.text(`${menge} ${m.einheit}`, 120, y, { align: "right" });
+      doc.text(formatPreis(preis), pageWidth - 14, y, { align: "right" });
+      y += 7;
+
+      if (y > 270) { doc.addPage(); y = 20; }
+    }
+
+    if (rechner.slug === "fliesen" && ergebnisse.fliesenkosten_material > 0) {
+      doc.text("Fliesenkosten (Material)", 14, y);
+      doc.text(formatPreis(ergebnisse.fliesenkosten_material), pageWidth - 14, y, { align: "right" });
+      gesamt += ergebnisse.fliesenkosten_material;
+      y += 7;
+    }
+
+    y += 2;
+    doc.line(14, y, pageWidth - 14, y);
+    y += 7;
+    doc.setFont("helvetica", "bold");
+    doc.text("Gesamt (Material)", 14, y);
+    doc.text(formatPreis(gesamt), pageWidth - 14, y, { align: "right" });
+
+    if (werkzeuge.length > 0) {
+      y += 14;
+      doc.setFontSize(12);
+      doc.text("Werkzeug-Checkliste:", 14, y);
+      y += 10;
+      doc.setFontSize(9);
+      doc.setFont("helvetica", "normal");
+      for (const w of werkzeuge) {
+        doc.text(`☐  ${w.name} (ab ${formatPreis(w.preis_ca)})`, 14, y);
+        y += 7;
+        if (y > 270) { doc.addPage(); y = 20; }
+      }
+    }
+
+    y += 14;
+    doc.setFontSize(8);
+    doc.setTextColor(150, 150, 150);
+    doc.text("Alle Preise sind ca.-Angaben (Stand 2026). Tatsächliche Preise können abweichen.", 14, y);
+    y += 5;
+    doc.text("Erstellt mit hausbau-hero.de — Kostenlose Materialrechner für Bauherren", 14, y);
+
+    doc.save(`${rechner.slug}-materialliste.pdf`);
   }
 
   if (loading) {
@@ -244,6 +350,20 @@ export default function RechnerPage() {
 
       {berechnet && (
         <>
+          {rechner.slug === "fliesen" && ergebnisse.fliesenkosten_material > 0 && (
+            <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 mb-6">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-sm font-medium text-stone-700">Fliesenkosten (Material)</p>
+                  <p className="text-xs text-stone-500 mt-0.5">
+                    {Math.round(ergebnisse.flaeche * (1 + eingaben.verschnitt / 100) * 10) / 10} m² × {formatPreis(eingaben.fliesenpreis)}/m²
+                  </p>
+                </div>
+                <p className="text-xl font-bold text-emerald-700">{formatPreis(ergebnisse.fliesenkosten_material)}</p>
+              </div>
+            </div>
+          )}
+
           {material.length > 0 && (
             <div className="bg-white border border-stone-200 rounded-xl p-6 mb-6">
               <h2 className="text-lg font-bold mb-4">📋 Materialliste</h2>
@@ -327,6 +447,15 @@ export default function RechnerPage() {
                 ))}
               </div>
             </div>
+          )}
+
+          {material.length > 0 && (
+            <button
+              onClick={generatePDF}
+              className="w-full mb-6 bg-stone-800 text-white font-semibold py-3 px-6 rounded-lg hover:bg-stone-700 transition-colors text-sm flex items-center justify-center gap-2"
+            >
+              📄 Materialliste als PDF speichern
+            </button>
           )}
 
           {ratgeber && (
