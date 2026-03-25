@@ -64,13 +64,13 @@ const HIDDEN_SILOS = new Set(["kueche", "maschinen"]);
 
 const FALLBACK_NAV_SILOS = [
   { slug: "finanzen", name: "Finanzen", icon: "💰" },
-  { slug: "farben", name: "Farben", icon: "🎨" },
-  { slug: "bad", name: "Bad", icon: "🚿" },
   { slug: "rohbau", name: "Rohbau", icon: "🧱" },
+  { slug: "bad", name: "Bad", icon: "🚿" },
   { slug: "boden", name: "Boden", icon: "🪵" },
+  { slug: "farben", name: "Farben", icon: "🎨" },
   { slug: "werkzeuge", name: "Werkzeuge", icon: "🔧" },
-  { slug: "stromerzeuger", name: "Strom", icon: "⚡" },
   { slug: "garten", name: "Garten", icon: "🌿" },
+  { slug: "stromerzeuger", name: "Strom", icon: "⚡" },
 ];
 
 const organizationLd = {
