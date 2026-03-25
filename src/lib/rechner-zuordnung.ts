@@ -14,6 +14,7 @@ const RECHNER_MAP: Record<string, string[]> = {
   "vorwandelement-wc": ["sanitaer", "handwerkerkosten"],
   "geberit-sigma-drueckerplatte": ["sanitaer", "handwerkerkosten"],
   kleinhebeanlage: ["sanitaer", "handwerkerkosten"],
+  "bad-sanieren-kosten": ["sanitaer", "fliesen", "handwerkerkosten", "eigenleistung"],
 
   // Rohbau
   "kalk-zement-putz": ["putz", "handwerkerkosten"],
