@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import FAQSection from "@/components/FAQSection";
+import { getFaqBySlug } from "@/lib/faq-data";
 
 type Region = "nord" | "sued" | "ost" | "west";
 type Schwierigkeit = "einfach" | "mittel" | "schwer";
@@ -324,6 +326,8 @@ export default function EigenleistungRechner() {
         <strong className="text-stone-800">Hinweis:</strong>{" "}
         Alle Preise sind Richtwerte für Deutschland (Stand 2026) und variieren je nach Region, Saison und Auftragslage. Für verbindliche Angebote empfehlen wir, mindestens 3 Handwerker-Angebote einzuholen. Materialpreise können je nach Qualität und Hersteller stark abweichen.
       </div>
+
+      <FAQSection faqs={getFaqBySlug("eigenleistung")} rechnerName="Eigenleistungs-Rechner" />
 
       {/* More calculators */}
       <div className="bg-stone-50 border border-stone-200 rounded-xl p-6">

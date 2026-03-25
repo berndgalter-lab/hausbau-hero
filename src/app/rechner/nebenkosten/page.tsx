@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import FAQSection from "@/components/FAQSection";
+import { getFaqBySlug } from "@/lib/faq-data";
 
 const BUNDESLAENDER = [
   { name: "Baden-Württemberg", satz: 5.0 },
@@ -265,6 +267,8 @@ export default function NebenkostenRechner() {
         <strong className="text-stone-800">Hinweis:</strong>{" "}
         Diese Berechnung ist eine Schätzung. Die tatsächlichen Notar- und Grundbuchkosten richten sich nach dem Gerichtskostengesetz (GNotKG) und können je nach Komplexität abweichen. Für eine verbindliche Auskunft wende dich an einen Notar.
       </div>
+
+      <FAQSection faqs={getFaqBySlug("nebenkosten")} rechnerName="Nebenkosten-Rechner" />
 
       {/* Rechner-Links */}
       <div className="bg-stone-50 border border-stone-200 rounded-xl p-6">

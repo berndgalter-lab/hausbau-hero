@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import FAQSection from "@/components/FAQSection";
+import { getFaqBySlug } from "@/lib/faq-data";
 
 /* ------------------------------------------------------------------ */
 /*  Types & Data                                                       */
@@ -410,6 +412,8 @@ export default function BaugenehmigungCheck() {
           </div>
         )}
       </div>
+
+      <FAQSection faqs={getFaqBySlug("baugenehmigung")} rechnerName="Baugenehmigung-Check" />
 
       {/* More calculators */}
       <div className="bg-stone-50 border border-stone-200 rounded-xl p-6">

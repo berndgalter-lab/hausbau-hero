@@ -4,6 +4,8 @@ import { supabase } from "@/lib/supabase";
 import { berechne, formatPreis, getAffiliateLink } from "@/lib/rechner-logic";
 import CommunityKosten from "@/components/CommunityKosten";
 import EmailCapture from "@/components/EmailCapture";
+import FAQSection from "@/components/FAQSection";
+import { getFaqBySlug } from "@/lib/faq-data";
 import { useParams } from "next/navigation";
 
 interface RechnerData {
@@ -319,6 +321,8 @@ export default function RechnerPage() {
           <CommunityKosten rechnerId={rechner.id} seitenSlug={rechner.slug} />
         </>
       )}
+
+      <FAQSection faqs={getFaqBySlug(rechner.slug)} rechnerName={rechner.name} />
     </div>
   );
 }

@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import FAQSection from "@/components/FAQSection";
+import { getFaqBySlug } from "@/lib/faq-data";
 
 /* ------------------------------------------------------------------ */
 /*  Types & Data                                                       */
@@ -250,6 +252,8 @@ export default function GewerkReihenfolgePage() {
         <strong className="text-stone-800">Hinweis:</strong>{" "}
         Die Reihenfolge und Zeitschätzungen sind Richtwerte für typische Projekte. Je nach Gebäudezustand, Umfang der Arbeiten und regionaler Handwerkerverfügbarkeit kann die tatsächliche Dauer abweichen. Für Elektro- und Sanitärarbeiten ist immer ein zugelassener Fachbetrieb erforderlich.
       </div>
+
+      <FAQSection faqs={getFaqBySlug("gewerk-reihenfolge")} rechnerName="Gewerk-Reihenfolge" />
 
       {/* More calculators */}
       <div className="bg-stone-50 border border-stone-200 rounded-xl p-6">

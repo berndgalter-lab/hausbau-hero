@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import FAQSection from "@/components/FAQSection";
+import { getFaqBySlug } from "@/lib/faq-data";
 
 /* ------------------------------------------------------------------ */
 /*  Types                                                              */
@@ -699,6 +701,8 @@ export default function FoerdermittelFinder() {
         <strong className="text-stone-800">Hinweis:</strong>{" "}
         Diese Übersicht dient nur zur Orientierung und ersetzt keine Förderberatung. Die tatsächliche Förderhöhe hängt von Ihrem individuellen Vorhaben und den technischen Anforderungen ab. Lassen Sie sich von einem Energieberater (dena-Expertenliste) beraten. Alle Angaben Stand März 2026 — Förderprogramme können sich jederzeit ändern.
       </div>
+
+      <FAQSection faqs={getFaqBySlug("foerdermittel")} rechnerName="Fördermittel-Finder" />
 
       {/* ---- More calculators ---- */}
       <div className="bg-stone-50 border border-stone-200 rounded-xl p-6">
