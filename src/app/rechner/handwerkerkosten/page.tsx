@@ -56,157 +56,157 @@ const REGIONEN = [
 const PREISDATEN: Record<string, Preisdaten> = {
   "fliesen-boden": {
     name: "Bodenfliesen verlegen",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 15, max: 60, beschreibung: "Fliesen + Kleber + Fugenmasse + Grundierung" },
     arbeit: { min: 40, max: 70, beschreibung: "Reine Verlegearbeit inkl. Verfugen" },
     zusatz: [
       { name: "Untergrundvorbereitung", min: 8, max: 20, beschreibung: "Ausgleichsmasse, Grundierung, ggf. alte Fliesen entfernen" },
       { name: "Sockelleisten/Abschlussprofile", min: 5, max: 12, beschreibung: "Pro laufender Meter Rand" },
     ],
-    dauer_pro_einheit: "0,5\u20131h pro m\u00B2",
-    hinweis: "Großformatige Fliesen (>60\u00D760 cm) kosten 10\u201320 % Aufpreis wegen höherem Aufwand. Diagonalverlegung ca. 15 % teurer.",
+    dauer_pro_einheit: "0,5–1h pro m²",
+    hinweis: "Großformatige Fliesen (>60×60 cm) kosten 10–20 % Aufpreis wegen höherem Aufwand. Diagonalverlegung ca. 15 % teurer.",
   },
   "fliesen-wand": {
     name: "Wandfliesen verlegen",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 15, max: 60, beschreibung: "Fliesen + Flexkleber + Fugenmasse" },
     arbeit: { min: 45, max: 80, beschreibung: "Wandverlegung ist aufwändiger als Boden (Schwerkraft!)" },
     zusatz: [
       { name: "Abdichtung (Dusche/Wanne)", min: 15, max: 30, beschreibung: "Flüssigfolie + Dichtband (Pflicht nach DIN 18534)" },
     ],
-    dauer_pro_einheit: "0,6\u20131,2h pro m\u00B2",
-    hinweis: "Im Spritzwasserbereich (Dusche, Wanne) muss vorher abgedichtet werden \u2014 ca. 15\u201330 \u20AC/m\u00B2 extra.",
+    dauer_pro_einheit: "0,6–1,2h pro m²",
+    hinweis: "Im Spritzwasserbereich (Dusche, Wanne) muss vorher abgedichtet werden — ca. 15–30 €/m² extra.",
   },
   "fliesen-bad-komplett": {
     name: "Bad komplett fliesen (Boden + Wand)",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 20, max: 60, beschreibung: "Fliesen, Kleber, Fugenmasse, Silikon" },
     arbeit: { min: 50, max: 80, beschreibung: "Verlegen, Verfugen, Abdichtung, Silikon" },
     zusatz: [
       { name: "Abdichtung komplett", min: 15, max: 30, beschreibung: "Gesamter Nassbereich" },
       { name: "Alte Fliesen entfernen", min: 15, max: 30, beschreibung: "Demontage + Entsorgung" },
     ],
-    dauer_pro_einheit: "0,7\u20131,5h pro m\u00B2",
-    hinweis: "Bei einem 6 m\u00B2 Bad mit ca. 25 m\u00B2 Wand- und Bodenfläche: Gesamtkosten typisch 2.500\u20135.500 \u20AC inkl. Material.",
+    dauer_pro_einheit: "0,7–1,5h pro m²",
+    hinweis: "Bei einem 6 m² Bad mit ca. 25 m² Wand- und Bodenfläche: Gesamtkosten typisch 2.500–5.500 € inkl. Material.",
   },
   "streichen-innen": {
     name: "Wände streichen (innen)",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 2, max: 5, beschreibung: "Farbe (2 Anstriche), Abklebeband, Folie" },
     arbeit: { min: 8, max: 15, beschreibung: "Abkleben, Grundieren, 2x Streichen" },
     zusatz: [
       { name: "Spachteln/Risse ausbessern", min: 3, max: 10, beschreibung: "Bei unebenen Wänden" },
     ],
-    dauer_pro_einheit: "0,15\u20130,3h pro m\u00B2",
-    hinweis: "Preis pro m\u00B2 Wandfläche (nicht Grundfläche!). Ein 20 m\u00B2 Raum hat ca. 50\u201365 m\u00B2 Wand- und Deckenfläche.",
+    dauer_pro_einheit: "0,15–0,3h pro m²",
+    hinweis: "Preis pro m² Wandfläche (nicht Grundfläche!). Ein 20 m² Raum hat ca. 50–65 m² Wand- und Deckenfläche.",
   },
   "streichen-fassade": {
     name: "Fassade streichen (außen)",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 5, max: 12, beschreibung: "Fassadenfarbe (2 Anstriche), Grundierung" },
     arbeit: { min: 18, max: 30, beschreibung: "Reinigung, Grundierung, 2x Anstrich" },
     zusatz: [
       { name: "Gerüst", min: 8, max: 15, beschreibung: "Gerüststellung (Auf-/Abbau + Miete)" },
       { name: "Putzausbesserung", min: 5, max: 20, beschreibung: "Risse und Fehlstellen reparieren" },
     ],
-    dauer_pro_einheit: "0,2\u20130,4h pro m\u00B2",
-    hinweis: "Gerüstkosten sind oft der größte Einzelposten. Bei 150 m\u00B2 Fassade: ca. 1.200\u20132.250 \u20AC nur fürs Gerüst.",
+    dauer_pro_einheit: "0,2–0,4h pro m²",
+    hinweis: "Gerüstkosten sind oft der größte Einzelposten. Bei 150 m² Fassade: ca. 1.200–2.250 € nur fürs Gerüst.",
   },
   tapezieren: {
     name: "Tapezieren (Raufaser + überstreichen)",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 3, max: 8, beschreibung: "Tapete + Kleister + Farbe (2x)" },
     arbeit: { min: 12, max: 22, beschreibung: "Alte Tapete entfernen, neu tapezieren, 2x streichen" },
     zusatz: [],
-    dauer_pro_einheit: "0,3\u20130,5h pro m\u00B2",
-    hinweis: "Vliestapeten oder Designtapeten sind beim Material deutlich teurer (10\u201350 \u20AC/Rolle vs. 3\u20138 \u20AC für Raufaser).",
+    dauer_pro_einheit: "0,3–0,5h pro m²",
+    hinweis: "Vliestapeten oder Designtapeten sind beim Material deutlich teurer (10–50 €/Rolle vs. 3–8 € für Raufaser).",
   },
   laminat: {
     name: "Laminat / Vinyl verlegen (Klick)",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 15, max: 40, beschreibung: "Laminat/Vinyl + Trittschalldämmung + Sockelleisten" },
     arbeit: { min: 20, max: 35, beschreibung: "Verlegen inkl. Sockelleisten und Übergangsprofile" },
     zusatz: [
       { name: "Alten Boden entfernen", min: 5, max: 15, beschreibung: "Teppich, altes Laminat etc." },
       { name: "Untergrund ausgleichen", min: 8, max: 20, beschreibung: "Ausgleichsmasse bei unebener Fläche" },
     ],
-    dauer_pro_einheit: "0,3\u20130,6h pro m\u00B2",
+    dauer_pro_einheit: "0,3–0,6h pro m²",
     hinweis: "Klick-Vinyl ist wasserbeständig und daher auch für Küche und Flur geeignet.",
   },
   parkett: {
     name: "Parkett verlegen und versiegeln",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 35, max: 90, beschreibung: "Massivparkett oder Mehrschichtparkett + Kleber + Versiegelung" },
     arbeit: { min: 35, max: 60, beschreibung: "Verkleben, Schleifen, 3x Versiegeln" },
     zusatz: [],
-    dauer_pro_einheit: "0,8\u20131,5h pro m\u00B2",
+    dauer_pro_einheit: "0,8–1,5h pro m²",
     hinweis: "Mehrschichtparkett (Klick) ist günstiger als Massivparkett. Massiv muss verklebt und geschliffen werden.",
   },
   "trockenbau-wand": {
     name: "Trockenbau-Trennwand einziehen",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 15, max: 30, beschreibung: "CW/UW-Profile, Gipskartonplatten, Dämmung, Spachtel" },
-    arbeit: { min: 40, max: 75, beschreibung: "Ständerwerk, Beplankung, Spachteln (Q2\u2013Q3)" },
+    arbeit: { min: 40, max: 75, beschreibung: "Ständerwerk, Beplankung, Spachteln (Q2–Q3)" },
     zusatz: [],
-    dauer_pro_einheit: "0,8\u20131,5h pro m\u00B2",
-    hinweis: "Doppelbeplankung (fuer Schallschutz oder Fliesen) ca. 20\u201330 % teurer. Brandschutzplatten ca. 30 % mehr Material.",
+    dauer_pro_einheit: "0,8–1,5h pro m²",
+    hinweis: "Doppelbeplankung (fuer Schallschutz oder Fliesen) ca. 20–30 % teurer. Brandschutzplatten ca. 30 % mehr Material.",
   },
   "trockenbau-decke": {
     name: "Decke abhängen (Trockenbau)",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 15, max: 25, beschreibung: "CD/UD-Profile, Direktabhänger, Gipskartonplatten" },
     arbeit: { min: 45, max: 80, beschreibung: "Unterkonstruktion, Beplankung, Spachteln" },
     zusatz: [
       { name: "Spotlights einbauen", min: 20, max: 40, beschreibung: "Pro Spot (Bohren + Anschluss)" },
     ],
-    dauer_pro_einheit: "1,0\u20131,8h pro m\u00B2",
-    hinweis: "Deckenarbeit ist aufwändiger als Wandarbeit (Überkopf). Spots vorher planen \u2014 nachträglich teuer.",
+    dauer_pro_einheit: "1,0–1,8h pro m²",
+    hinweis: "Deckenarbeit ist aufwändiger als Wandarbeit (Überkopf). Spots vorher planen — nachträglich teuer.",
   },
   "putz-innen": {
     name: "Innenwand verputzen (Gipsputz)",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 5, max: 12, beschreibung: "Gipsputz, Putzschienen, Grundierung" },
     arbeit: { min: 20, max: 40, beschreibung: "Maschinenputz auftragen, abziehen, glätten" },
     zusatz: [],
-    dauer_pro_einheit: "0,3\u20130,6h pro m\u00B2",
-    hinweis: "Maschinenputz ist günstiger als Handputz. Ab 50 m\u00B2 lohnt sich eine Putzmaschine.",
+    dauer_pro_einheit: "0,3–0,6h pro m²",
+    hinweis: "Maschinenputz ist günstiger als Handputz. Ab 50 m² lohnt sich eine Putzmaschine.",
   },
   estrich: {
     name: "Estrich einbringen (Zement-Fließestrich)",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 10, max: 20, beschreibung: "Estrich, PE-Folie, Randdämmstreifen" },
     arbeit: { min: 15, max: 30, beschreibung: "Vorbereitung, Einbringung, Abziehen" },
     zusatz: [],
-    dauer_pro_einheit: "0,2\u20130,4h pro m\u00B2",
+    dauer_pro_einheit: "0,2–0,4h pro m²",
     hinweis: "Trocknungszeit beachten: ca. 1 Tag pro mm Estrichdicke. 50 mm Estrich = ca. 7 Wochen bis belegreif!",
   },
   "daemmung-dach": {
     name: "Dachdämmung (Zwischensparren)",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 25, max: 50, beschreibung: "Mineralwolle/Holzfaser + Dampfbremse + Klebeband" },
     arbeit: { min: 30, max: 50, beschreibung: "Zuschneiden, Einpassen, Dampfbremse verkleben" },
     zusatz: [],
-    dauer_pro_einheit: "0,5\u20131,0h pro m\u00B2",
-    hinweis: "Förderbar über BAFA BEG EM (15\u201320 % Zuschuss). iSFP verdoppelt die förderfähigen Kosten!",
+    dauer_pro_einheit: "0,5–1,0h pro m²",
+    hinweis: "Förderbar über BAFA BEG EM (15–20 % Zuschuss). iSFP verdoppelt die förderfähigen Kosten!",
   },
   "daemmung-fassade": {
     name: "Fassadendämmung (WDVS)",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 40, max: 80, beschreibung: "Dämmplatten + Kleber + Armierung + Putz" },
     arbeit: { min: 50, max: 90, beschreibung: "Kleben, Dübeln, Armieren, Verputzen" },
     zusatz: [
       { name: "Gerüst", min: 8, max: 15, beschreibung: "Gerüststellung (Auf-/Abbau + Miete)" },
     ],
-    dauer_pro_einheit: "1,0\u20132,0h pro m\u00B2",
-    hinweis: "Gesamtkosten typisch 120\u2013200 \u20AC/m\u00B2 inkl. Gerüst. Förderbar über BAFA BEG EM (15\u201320 %).",
+    dauer_pro_einheit: "1,0–2,0h pro m²",
+    hinweis: "Gesamtkosten typisch 120–200 €/m² inkl. Gerüst. Förderbar über BAFA BEG EM (15–20 %).",
   },
   "daemmung-kellerdecke": {
     name: "Kellerdecke dämmen",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 20, max: 40, beschreibung: "Dämmplatten (EPS/Mineralwolle) + Kleber/Dübel" },
     arbeit: { min: 15, max: 30, beschreibung: "Platten ankleben oder dübeln" },
     zusatz: [],
-    dauer_pro_einheit: "0,3\u20130,5h pro m\u00B2",
+    dauer_pro_einheit: "0,3–0,5h pro m²",
     hinweis: "Eine der effektivsten und günstigsten Dämmmaßnahmen. Förderbar über BAFA.",
   },
   "elektro-komplett": {
@@ -215,7 +215,7 @@ const PREISDATEN: Record<string, Preisdaten> = {
     material: { min: 300, max: 600, beschreibung: "Leitungen, Dosen, Schalter, Steckdosen" },
     arbeit: { min: 500, max: 1200, beschreibung: "Schlitze stemmen, Leitungen verlegen, Anschließen" },
     zusatz: [],
-    dauer_pro_einheit: "6\u201312h pro Raum",
+    dauer_pro_einheit: "6–12h pro Raum",
     hinweis: "Stark abhängig von Ausstattungsgrad. Küche mit vielen Geräten: oberes Ende. Abstellraum: unteres Ende.",
   },
   "sanitaer-bad": {
@@ -224,8 +224,8 @@ const PREISDATEN: Record<string, Preisdaten> = {
     material: { min: 1500, max: 4000, beschreibung: "Rohre, Armaturen, WC, Waschtisch, Dusche/Wanne" },
     arbeit: { min: 2000, max: 5000, beschreibung: "Roh- und Feininstallation, Anschlüsse, Dichtheitsprüfung" },
     zusatz: [],
-    dauer_pro_einheit: "3\u20135 Tage",
-    hinweis: "Ohne Fliesen und Trockenbau. Sanitärobjekte (WC, Waschbecken) variieren extrem: 500\u20135.000 \u20AC je nach Hersteller.",
+    dauer_pro_einheit: "3–5 Tage",
+    hinweis: "Ohne Fliesen und Trockenbau. Sanitärobjekte (WC, Waschbecken) variieren extrem: 500–5.000 € je nach Hersteller.",
   },
   "heizung-waermepumpe": {
     name: "Wärmepumpe einbauen (Luft-Wasser, komplett)",
@@ -233,27 +233,27 @@ const PREISDATEN: Record<string, Preisdaten> = {
     material: { min: 12000, max: 22000, beschreibung: "Wärmepumpe + Pufferspeicher + Regelung + Zubehör" },
     arbeit: { min: 5000, max: 10000, beschreibung: "Aufstellung, Anschluss, Inbetriebnahme, Hydraulischer Abgleich" },
     zusatz: [],
-    dauer_pro_einheit: "3\u20135 Tage",
-    hinweis: "Gesamtkosten typisch 20.000\u201335.000 \u20AC. BAFA-Förderung bis zu 70 %! Unbedingt Fördermittel-Finder nutzen.",
+    dauer_pro_einheit: "3–5 Tage",
+    hinweis: "Gesamtkosten typisch 20.000–35.000 €. BAFA-Förderung bis zu 70 %! Unbedingt Fördermittel-Finder nutzen.",
   },
   "terrasse-wpc": {
     name: "WPC-Terrasse bauen",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 45, max: 90, beschreibung: "WPC-Dielen + Unterkonstruktion + Schrauben + Stelzlager" },
     arbeit: { min: 40, max: 70, beschreibung: "Unterbau vorbereiten, UK montieren, Dielen verlegen" },
     zusatz: [],
-    dauer_pro_einheit: "0,8\u20131,5h pro m\u00B2",
+    dauer_pro_einheit: "0,8–1,5h pro m²",
     hinweis: "WPC ist pflegeleichter als Holz (kein Ölen nötig). Farbauswahl ist eingeschränkter.",
   },
   "terrasse-stein": {
     name: "Terrassenplatten verlegen",
-    einheit: "m\u00B2",
+    einheit: "m²",
     material: { min: 20, max: 60, beschreibung: "Betonplatten/Naturstein + Splitt/Mörtel + Fugenmaterial" },
     arbeit: { min: 35, max: 60, beschreibung: "Unterbau verdichten, Platten verlegen, Verfugen" },
     zusatz: [
       { name: "Unterbau (Kies/Schotter)", min: 10, max: 25, beschreibung: "Frostschutzschicht + Tragschicht" },
     ],
-    dauer_pro_einheit: "0,5\u20131,0h pro m\u00B2",
+    dauer_pro_einheit: "0,5–1,0h pro m²",
     hinweis: "Naturstein (Granit, Basalt) ist deutlich teurer als Betonplatten, aber langlebiger.",
   },
 };
@@ -285,7 +285,7 @@ function fmt(n: number) {
 }
 
 function range(a: number, b: number) {
-  return `${fmt(a)} \u2013 ${fmt(b)}`;
+  return `${fmt(a)} – ${fmt(b)}`;
 }
 
 /* ------------------------------------------------------------------ */
@@ -338,9 +338,9 @@ export default function HandwerkerkostenRechner() {
 
       <nav className="text-sm text-stone-500 mb-4">
         <a href="/" className="hover:text-stone-700">Start</a>
-        <span className="mx-2">{"\u203A"}</span>
+        <span className="mx-2">›</span>
         <a href="/rechner" className="hover:text-stone-700">Rechner</a>
-        <span className="mx-2">{"\u203A"}</span>
+        <span className="mx-2">›</span>
         <span className="text-stone-900">Handwerkerkosten</span>
       </nav>
 
@@ -393,9 +393,9 @@ export default function HandwerkerkostenRechner() {
       {/* Result summary */}
       <div className="bg-amber-50 border-2 border-amber-300 rounded-xl p-5 text-center mb-6">
         <div className="text-sm font-medium text-amber-700 mb-1">Geschätzte Gesamtkosten</div>
-        <div className="text-3xl font-bold text-stone-900">{range(gesMin, gesMax)} \u20AC</div>
+        <div className="text-3xl font-bold text-stone-900">{range(gesMin, gesMax)} €</div>
         <div className="text-sm text-stone-600 mt-1">
-          {range(proMin, proMax)} \u20AC pro {g.einheit}
+          {range(proMin, proMax)} € pro {g.einheit}
         </div>
       </div>
 
@@ -403,7 +403,7 @@ export default function HandwerkerkostenRechner() {
       <div className="bg-white border border-stone-200 rounded-xl overflow-hidden mb-6">
         <div className="px-5 py-3 bg-stone-50 border-b border-stone-200">
           <h2 className="font-bold text-stone-900">
-            {g.name} \u2014 {fmt(menge)} {g.einheit} \u2014 {region.label}
+            {g.name} — {fmt(menge)} {g.einheit} — {region.label}
           </h2>
         </div>
         <div className="divide-y divide-stone-100">
@@ -413,7 +413,7 @@ export default function HandwerkerkostenRechner() {
               <div className="text-xs text-stone-500">{g.material.beschreibung}</div>
             </div>
             <div className="text-right font-semibold text-stone-900 shrink-0 ml-4">
-              {range(matMin, matMax)} \u20AC
+              {range(matMin, matMax)} €
             </div>
           </div>
           <div className="px-5 py-3 flex justify-between items-start">
@@ -422,7 +422,7 @@ export default function HandwerkerkostenRechner() {
               <div className="text-xs text-stone-500">{g.arbeit.beschreibung}</div>
             </div>
             <div className="text-right font-semibold text-stone-900 shrink-0 ml-4">
-              {range(arbMin, arbMax)} \u20AC
+              {range(arbMin, arbMax)} €
             </div>
           </div>
           {g.zusatz.map((z, i) => (
@@ -432,14 +432,14 @@ export default function HandwerkerkostenRechner() {
                 <div className="text-xs text-stone-500">{z.beschreibung}</div>
               </div>
               <div className="text-right font-semibold text-stone-900 shrink-0 ml-4">
-                {range(menge * z.min, menge * z.max)} \u20AC
+                {range(menge * z.min, menge * z.max)} €
               </div>
             </div>
           ))}
           <div className="px-5 py-4 flex justify-between items-center bg-stone-50">
             <div className="font-bold text-stone-900">Gesamtkosten</div>
             <div className="text-right font-bold text-lg text-stone-900">
-              {range(gesMin, gesMax)} \u20AC
+              {range(gesMin, gesMax)} €
             </div>
           </div>
         </div>
@@ -474,7 +474,7 @@ export default function HandwerkerkostenRechner() {
 
       {/* Duration */}
       <div className="bg-white border border-stone-200 rounded-lg p-4 mb-6 flex items-center gap-3">
-        <span className="text-2xl">{"\u23F1"}</span>
+        <span className="text-2xl">⏱</span>
         <div>
           <div className="text-sm font-medium text-stone-800">Geschätzte Dauer</div>
           <div className="text-sm text-stone-600">{g.dauer_pro_einheit}</div>
@@ -483,7 +483,7 @@ export default function HandwerkerkostenRechner() {
 
       {/* Hinweis */}
       <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-6">
-        <div className="font-bold text-stone-800 mb-1">{"\uD83D\uDCA1"} Gut zu wissen</div>
+        <div className="font-bold text-stone-800 mb-1">💡 Gut zu wissen</div>
         <p className="text-stone-700 text-sm">{g.hinweis}</p>
       </div>
 
@@ -496,14 +496,14 @@ export default function HandwerkerkostenRechner() {
               href={l.href}
               className="inline-flex items-center gap-2 bg-amber-600 text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-amber-700 transition-colors text-sm"
             >
-              {l.label} {"\u2192"}
+              {l.label} →
             </a>
           ))}
           <a
             href="/rechner/eigenleistung"
             className="inline-flex items-center gap-2 bg-green-600 text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-green-700 transition-colors text-sm"
           >
-            Eigenleistung prüfen {"\u2192"}
+            Eigenleistung prüfen →
           </a>
         </div>
       )}
