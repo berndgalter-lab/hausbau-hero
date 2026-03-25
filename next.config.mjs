@@ -2,12 +2,8 @@
 const nextConfig = {
   async redirects() {
     return [
-      {
-        source: '/:path*',
-        has: [{ type: 'host', value: 'www.hausbau-hero.de' }],
-        destination: 'https://hausbau-hero.de/:path*',
-        permanent: true,
-      },
+      // www → non-www redirect is handled by Vercel domain settings
+      // (Settings → Domains → www.hausbau-hero.de → "Redirects to hausbau-hero.de")
 
       { source: '/category/farben-und-lacke/:path*', destination: '/farben', permanent: true },
       { source: '/category/sanitaerinstallation/:path*', destination: '/bad', permanent: true },
