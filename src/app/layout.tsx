@@ -60,6 +60,8 @@ export const metadata: Metadata = {
   },
 };
 
+const HIDDEN_SILOS = new Set(["kueche", "maschinen"]);
+
 const FALLBACK_NAV_SILOS = [
   { slug: "finanzen", name: "Finanzen", icon: "💰" },
   { slug: "farben", name: "Farben", icon: "🎨" },
@@ -68,9 +70,7 @@ const FALLBACK_NAV_SILOS = [
   { slug: "boden", name: "Boden", icon: "🪵" },
   { slug: "werkzeuge", name: "Werkzeuge", icon: "🔧" },
   { slug: "stromerzeuger", name: "Strom", icon: "⚡" },
-  { slug: "kueche", name: "Küche", icon: "🍳" },
   { slug: "garten", name: "Garten", icon: "🌿" },
-  { slug: "maschinen", name: "Maschinen", icon: "🏗️" },
 ];
 
 const organizationLd = {
@@ -113,7 +113,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       .from("silos")
       .select("slug, name, icon")
       .order("sortierung");
-    if (data && data.length > 0) navSilos = data;
+    if (data && data.length > 0) navSilos = data.filter((s: any) => !HIDDEN_SILOS.has(s.slug));
   } catch {}
 
   return (
