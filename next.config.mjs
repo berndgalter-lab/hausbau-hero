@@ -2,6 +2,13 @@
 const nextConfig = {
   async redirects() {
     return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.hausbau-hero.de' }],
+        destination: 'https://hausbau-hero.de/:path*',
+        permanent: true,
+      },
+
       { source: '/category/farben-und-lacke/:path*', destination: '/farben', permanent: true },
       { source: '/category/sanitaerinstallation/:path*', destination: '/bad', permanent: true },
       { source: '/category/werkzeuge/:path*', destination: '/werkzeuge', permanent: true },

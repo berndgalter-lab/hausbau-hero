@@ -4,49 +4,58 @@ export default async function sitemap() {
   const baseUrl = "https://hausbau-hero.de";
   const now = new Date();
 
-  const staticPages = [
-    { url: baseUrl, lastModified: now, changeFrequency: "weekly" as const, priority: 1.0 },
-    { url: `${baseUrl}/rechner`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.9 },
-    { url: `${baseUrl}/rechner/wandfarbe`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
-    { url: `${baseUrl}/rechner/fliesen`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
-    { url: `${baseUrl}/rechner/trockenbau`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
-    { url: `${baseUrl}/rechner/stromverbrauch`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
-    { url: `${baseUrl}/rechner/nebenkosten`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.9 },
-    { url: `${baseUrl}/rechner/eigenleistung`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.9 },
-    { url: `${baseUrl}/rechner/foerdermittel`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.9 },
-    { url: `${baseUrl}/rechner/gewerk-reihenfolge`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
-    { url: `${baseUrl}/rechner/baugenehmigung`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
-    { url: `${baseUrl}/rechner/handwerkerkosten`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.9 },
-    { url: `${baseUrl}/farben`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-    { url: `${baseUrl}/bad`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-    { url: `${baseUrl}/werkzeuge`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-    { url: `${baseUrl}/stromerzeuger`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-    { url: `${baseUrl}/kueche`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-    { url: `${baseUrl}/maschinen`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-    { url: `${baseUrl}/rohbau`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-    { url: `${baseUrl}/boden`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-    { url: `${baseUrl}/garten`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.7 },
-    { url: `${baseUrl}/impressum`, lastModified: now, changeFrequency: "yearly" as const, priority: 0.1 },
-    { url: `${baseUrl}/datenschutz`, lastModified: now, changeFrequency: "yearly" as const, priority: 0.1 },
+  type SitemapEntry = {
+    url: string;
+    lastModified: Date;
+    changeFrequency: "always" | "hourly" | "daily" | "weekly" | "monthly" | "yearly" | "never";
+    priority: number;
+  };
+
+  const staticPages: SitemapEntry[] = [
+    { url: baseUrl, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
+    { url: `${baseUrl}/rechner`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/impressum`, lastModified: now, changeFrequency: "yearly", priority: 0.1 },
+    { url: `${baseUrl}/datenschutz`, lastModified: now, changeFrequency: "yearly", priority: 0.1 },
   ];
 
-  const knownSlugs = new Set(staticPages.map((p) => p.url));
-  const dynamicPages: typeof staticPages = [];
+  // Silos dynamisch
+  try {
+    const { data: silos } = await supabase.from("silos").select("slug");
+    if (silos) {
+      for (const s of silos) {
+        staticPages.push({
+          url: `${baseUrl}/${s.slug}`,
+          lastModified: now,
+          changeFrequency: "monthly",
+          priority: 0.7,
+        });
+      }
+    }
+  } catch (e) {
+    console.error("[Sitemap] Silos query failed:", e);
+  }
 
+  const dynamicPages: SitemapEntry[] = [];
+
+  // Rechner dynamisch
+  const HIGH_PRIO_RECHNER = new Set(["nebenkosten", "eigenleistung", "foerdermittel", "handwerkerkosten"]);
   try {
     const { data: rechnerList } = await supabase.from("rechner").select("slug, created_at");
     if (rechnerList) {
       for (const r of rechnerList) {
-        const url = `${baseUrl}/rechner/${r.slug}`;
-        if (!knownSlugs.has(url)) {
-          dynamicPages.push({ url, lastModified: new Date(r.created_at), changeFrequency: "monthly", priority: 0.8 });
-        }
+        dynamicPages.push({
+          url: `${baseUrl}/rechner/${r.slug}`,
+          lastModified: new Date(r.created_at),
+          changeFrequency: "monthly",
+          priority: HIGH_PRIO_RECHNER.has(r.slug) ? 0.9 : 0.8,
+        });
       }
     }
   } catch (e) {
     console.error("[Sitemap] Rechner query failed:", e);
   }
 
+  // Artikel dynamisch
   try {
     const { data: seiten } = await supabase
       .from("seiten")
