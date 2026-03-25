@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import ProduktKarte from "@/components/ProduktKarte";
 import CommunityKosten from "@/components/CommunityKosten";
 import ArticleContent from "@/components/ArticleContent";
+import { getPassendeRechner } from "@/lib/rechner-zuordnung";
 
 export const revalidate = 0;
 
@@ -67,6 +68,18 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
   const werkzeuge = produkte.filter((p: any) => p.ist_werkzeug);
   const hauptProdukte = produkte.filter((p: any) => !p.ist_werkzeug);
   const hasContent = seite.content_md && seite.content_md.trim().length > 50;
+
+  const rechnerSlugs = getPassendeRechner(seite.slug, seite.passende_rechner);
+  let passendeRechner: { name: string; slug: string }[] = [];
+  try {
+    const { data } = await supabase
+      .from("rechner")
+      .select("name, slug")
+      .in("slug", rechnerSlugs);
+    if (data) passendeRechner = data;
+  } catch (e) {
+    console.error("[ArtikelPage] Rechner query error:", e);
+  }
 
   return (
     <div className="max-w-3xl mx-auto">
@@ -138,16 +151,23 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
         </section>
       )}
 
-      <div className="mt-12 bg-stone-50 border border-stone-200 rounded-xl p-6">
-        <h2 className="text-lg font-bold mb-3">Passende Rechner</h2>
-        <p className="text-sm text-stone-600 mb-4">Berechne Material und Kosten für dein Projekt:</p>
-        <div className="flex flex-wrap gap-3">
-          <a href="/rechner/wandfarbe" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Wandfarbe-Rechner</a>
-          <a href="/rechner/fliesen" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Fliesen-Rechner</a>
-          <a href="/rechner/trockenbau" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Trockenbau-Rechner</a>
-          <a href="/rechner/stromverbrauch" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Stromerzeuger-Rechner</a>
+      {passendeRechner.length > 0 && (
+        <div className="mt-12 bg-stone-50 border border-stone-200 rounded-xl p-6">
+          <h2 className="text-lg font-bold mb-3">Passende Rechner</h2>
+          <p className="text-sm text-stone-600 mb-4">Berechne Material und Kosten für dein Projekt:</p>
+          <div className="flex flex-wrap gap-3">
+            {passendeRechner.map((r: any) => (
+              <a
+                key={r.slug}
+                href={`/rechner/${r.slug}`}
+                className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors"
+              >
+                {r.name}
+              </a>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
 
       <CommunityKosten seitenSlug={seite.slug} />
     </div>
