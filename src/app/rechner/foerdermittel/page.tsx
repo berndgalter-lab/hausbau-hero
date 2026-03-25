@@ -704,14 +704,21 @@ export default function FoerdermittelFinder() {
 
       <FAQSection faqs={getFaqBySlug("foerdermittel")} rechnerName="Fördermittel-Finder" />
 
+      <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-6">
+        <p className="text-sm font-medium text-stone-800 mb-1">📖 Ratgeber zum Thema</p>
+        <a href="/finanzen/kfw-foerderung-2026" className="text-amber-600 hover:text-amber-700 font-medium text-sm">
+          KfW Förderung 2026 — alle Programme →
+        </a>
+      </div>
+
       {/* ---- More calculators ---- */}
       <div className="bg-stone-50 border border-stone-200 rounded-xl p-6">
         <h2 className="text-lg font-bold mb-3">Weitere Rechner</h2>
         <div className="flex flex-wrap gap-3">
           <a href="/rechner/nebenkosten" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Nebenkosten-Rechner</a>
           <a href="/rechner/eigenleistung" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Eigenleistungs-Rechner</a>
-          <a href="/rechner/wandfarbe" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Wandfarbe-Rechner</a>
-          <a href="/rechner/fliesen" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Fliesen-Rechner</a>
+          <a href="/rechner/handwerkerkosten" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Handwerkerkosten-Rechner</a>
+          <a href="/rechner/daemmung" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Dämmung-Rechner</a>
         </div>
       </div>
 

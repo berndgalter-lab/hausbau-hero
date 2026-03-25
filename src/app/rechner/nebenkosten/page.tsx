@@ -270,14 +270,21 @@ export default function NebenkostenRechner() {
 
       <FAQSection faqs={getFaqBySlug("nebenkosten")} rechnerName="Nebenkosten-Rechner" />
 
+      <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-6">
+        <p className="text-sm font-medium text-stone-800 mb-1">📖 Ratgeber zum Thema</p>
+        <a href="/finanzen/kaufnebenkosten-guide" className="text-amber-600 hover:text-amber-700 font-medium text-sm">
+          Kaufnebenkosten berechnen — der komplette Guide (2026) →
+        </a>
+      </div>
+
       {/* Rechner-Links */}
       <div className="bg-stone-50 border border-stone-200 rounded-xl p-6">
         <h2 className="text-lg font-bold mb-3">Weitere Rechner</h2>
         <div className="flex flex-wrap gap-3">
-          <a href="/rechner/wandfarbe" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Wandfarbe-Rechner</a>
-          <a href="/rechner/fliesen" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Fliesen-Rechner</a>
-          <a href="/rechner/trockenbau" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Trockenbau-Rechner</a>
-          <a href="/rechner/stromverbrauch" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Stromerzeuger-Rechner</a>
+          <a href="/rechner/handwerkerkosten" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Handwerkerkosten-Rechner</a>
+          <a href="/rechner/eigenleistung" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Eigenleistungs-Rechner</a>
+          <a href="/rechner/foerdermittel" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Fördermittel-Finder</a>
+          <a href="/rechner/baugenehmigung" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Baugenehmigung-Check</a>
         </div>
       </div>
     </div>

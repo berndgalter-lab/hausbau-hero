@@ -259,10 +259,10 @@ export default async function Home() {
           </div>
           <div className="text-center mt-6">
             <a
-              href="/werkzeuge"
+              href="/rechner"
               className="text-amber-600 hover:text-amber-700 font-medium text-sm"
             >
-              Alle Ratgeber →
+              Alle Rechner & Ratgeber →
             </a>
           </div>
         </section>

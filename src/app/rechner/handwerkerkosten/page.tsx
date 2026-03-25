@@ -515,6 +515,13 @@ export default function HandwerkerkostenRechner() {
 
       <FAQSection faqs={getFaqBySlug("handwerkerkosten")} rechnerName="Handwerkerkosten-Rechner" />
 
+      <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-6">
+        <p className="text-sm font-medium text-stone-800 mb-1">📖 Ratgeber zum Thema</p>
+        <a href="/finanzen/handwerkerkosten-guide" className="text-amber-600 hover:text-amber-700 font-medium text-sm">
+          Was kostet ein Handwerker pro Stunde? Alle Gewerke 2026 →
+        </a>
+      </div>
+
       {/* More calculators */}
       <div className="bg-stone-50 border border-stone-200 rounded-xl p-6">
         <h2 className="text-lg font-bold mb-3">Weitere Rechner</h2>
