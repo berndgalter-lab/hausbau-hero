@@ -26,27 +26,27 @@ const GEWERKE = [
   { value: "fliesen-boden", label: "Bodenfliesen verlegen" },
   { value: "fliesen-wand", label: "Wandfliesen verlegen" },
   { value: "fliesen-bad-komplett", label: "Bad komplett fliesen (Boden + Wand)" },
-  { value: "streichen-innen", label: "Wande streichen (innen)" },
-  { value: "streichen-fassade", label: "Fassade streichen (aussen)" },
-  { value: "tapezieren", label: "Tapezieren (Rauhfaser + streichen)" },
+  { value: "streichen-innen", label: "Wände streichen (innen)" },
+  { value: "streichen-fassade", label: "Fassade streichen (außen)" },
+  { value: "tapezieren", label: "Tapezieren (Raufaser + streichen)" },
   { value: "laminat", label: "Laminat / Vinyl verlegen" },
   { value: "parkett", label: "Parkett verlegen und versiegeln" },
   { value: "trockenbau-wand", label: "Trockenbau-Wand einziehen" },
-  { value: "trockenbau-decke", label: "Decke abhaengen (Trockenbau)" },
+  { value: "trockenbau-decke", label: "Decke abhängen (Trockenbau)" },
   { value: "putz-innen", label: "Innenwand verputzen" },
   { value: "estrich", label: "Estrich einbringen" },
-  { value: "daemmung-dach", label: "Dachdaemmung (Zwischensparren)" },
-  { value: "daemmung-fassade", label: "Fassadendaemmung (WDVS)" },
-  { value: "daemmung-kellerdecke", label: "Kellerdecke daemmen" },
+  { value: "daemmung-dach", label: "Dachdämmung (Zwischensparren)" },
+  { value: "daemmung-fassade", label: "Fassadendämmung (WDVS)" },
+  { value: "daemmung-kellerdecke", label: "Kellerdecke dämmen" },
   { value: "elektro-komplett", label: "Elektroinstallation (pro Raum)" },
-  { value: "sanitaer-bad", label: "Sanitaerinstallation Bad komplett" },
-  { value: "heizung-waermepumpe", label: "Waermepumpe einbauen (komplett)" },
+  { value: "sanitaer-bad", label: "Sanitärinstallation Bad komplett" },
+  { value: "heizung-waermepumpe", label: "Wärmepumpe einbauen (komplett)" },
   { value: "terrasse-wpc", label: "WPC-Terrasse bauen" },
   { value: "terrasse-stein", label: "Terrassenplatten verlegen" },
 ];
 
 const REGIONEN = [
-  { value: "sued", label: "Sueddeutschland (BY, BW)", faktor: 1.15 },
+  { value: "sued", label: "Süddeutschland (BY, BW)", faktor: 1.15 },
   { value: "west", label: "Westdeutschland (NRW, HE, RP, SL)", faktor: 1.0 },
   { value: "nord", label: "Norddeutschland (NI, SH, HH, HB)", faktor: 0.92 },
   { value: "ost", label: "Ostdeutschland (SN, TH, ST, BB, MV)", faktor: 0.82 },
@@ -64,15 +64,15 @@ const PREISDATEN: Record<string, Preisdaten> = {
       { name: "Sockelleisten/Abschlussprofile", min: 5, max: 12, beschreibung: "Pro laufender Meter Rand" },
     ],
     dauer_pro_einheit: "0,5\u20131h pro m\u00B2",
-    hinweis: "Grossformatige Fliesen (>60\u00D760 cm) kosten 10\u201320 % Aufpreis wegen hoeherem Aufwand. Diagonalverlegung ca. 15 % teurer.",
+    hinweis: "Großformatige Fliesen (>60\u00D760 cm) kosten 10\u201320 % Aufpreis wegen höherem Aufwand. Diagonalverlegung ca. 15 % teurer.",
   },
   "fliesen-wand": {
     name: "Wandfliesen verlegen",
     einheit: "m\u00B2",
     material: { min: 15, max: 60, beschreibung: "Fliesen + Flexkleber + Fugenmasse" },
-    arbeit: { min: 45, max: 80, beschreibung: "Wandverlegung ist aufwaendiger als Boden (Schwerkraft!)" },
+    arbeit: { min: 45, max: 80, beschreibung: "Wandverlegung ist aufwändiger als Boden (Schwerkraft!)" },
     zusatz: [
-      { name: "Abdichtung (Dusche/Wanne)", min: 15, max: 30, beschreibung: "Fluessigfolie + Dichtband (Pflicht nach DIN 18534)" },
+      { name: "Abdichtung (Dusche/Wanne)", min: 15, max: 30, beschreibung: "Flüssigfolie + Dichtband (Pflicht nach DIN 18534)" },
     ],
     dauer_pro_einheit: "0,6\u20131,2h pro m\u00B2",
     hinweis: "Im Spritzwasserbereich (Dusche, Wanne) muss vorher abgedichtet werden \u2014 ca. 15\u201330 \u20AC/m\u00B2 extra.",
@@ -87,51 +87,51 @@ const PREISDATEN: Record<string, Preisdaten> = {
       { name: "Alte Fliesen entfernen", min: 15, max: 30, beschreibung: "Demontage + Entsorgung" },
     ],
     dauer_pro_einheit: "0,7\u20131,5h pro m\u00B2",
-    hinweis: "Bei einem 6 m\u00B2 Bad mit ca. 25 m\u00B2 Wand- und Bodenflaeche: Gesamtkosten typisch 2.500\u20135.500 \u20AC inkl. Material.",
+    hinweis: "Bei einem 6 m\u00B2 Bad mit ca. 25 m\u00B2 Wand- und Bodenfläche: Gesamtkosten typisch 2.500\u20135.500 \u20AC inkl. Material.",
   },
   "streichen-innen": {
-    name: "Waende streichen (innen)",
+    name: "Wände streichen (innen)",
     einheit: "m\u00B2",
     material: { min: 2, max: 5, beschreibung: "Farbe (2 Anstriche), Abklebeband, Folie" },
     arbeit: { min: 8, max: 15, beschreibung: "Abkleben, Grundieren, 2x Streichen" },
     zusatz: [
-      { name: "Spachteln/Risse ausbessern", min: 3, max: 10, beschreibung: "Bei unebenen Waenden" },
+      { name: "Spachteln/Risse ausbessern", min: 3, max: 10, beschreibung: "Bei unebenen Wänden" },
     ],
     dauer_pro_einheit: "0,15\u20130,3h pro m\u00B2",
-    hinweis: "Preis pro m\u00B2 Wandflaeche (nicht Grundflaeche!). Ein 20 m\u00B2 Raum hat ca. 50\u201365 m\u00B2 Wand- und Deckenflaeche.",
+    hinweis: "Preis pro m\u00B2 Wandfläche (nicht Grundfläche!). Ein 20 m\u00B2 Raum hat ca. 50\u201365 m\u00B2 Wand- und Deckenfläche.",
   },
   "streichen-fassade": {
-    name: "Fassade streichen (aussen)",
+    name: "Fassade streichen (außen)",
     einheit: "m\u00B2",
     material: { min: 5, max: 12, beschreibung: "Fassadenfarbe (2 Anstriche), Grundierung" },
     arbeit: { min: 18, max: 30, beschreibung: "Reinigung, Grundierung, 2x Anstrich" },
     zusatz: [
-      { name: "Geruest", min: 8, max: 15, beschreibung: "Gerueststellung (Auf-/Abbau + Miete)" },
+      { name: "Gerüst", min: 8, max: 15, beschreibung: "Gerüststellung (Auf-/Abbau + Miete)" },
       { name: "Putzausbesserung", min: 5, max: 20, beschreibung: "Risse und Fehlstellen reparieren" },
     ],
     dauer_pro_einheit: "0,2\u20130,4h pro m\u00B2",
-    hinweis: "Geruestkosten sind oft der groesste Einzelposten. Bei 150 m\u00B2 Fassade: ca. 1.200\u20132.250 \u20AC nur fuers Geruest.",
+    hinweis: "Gerüstkosten sind oft der größte Einzelposten. Bei 150 m\u00B2 Fassade: ca. 1.200\u20132.250 \u20AC nur fürs Gerüst.",
   },
   tapezieren: {
-    name: "Tapezieren (Rauhfaser + ueberstreichen)",
+    name: "Tapezieren (Raufaser + überstreichen)",
     einheit: "m\u00B2",
     material: { min: 3, max: 8, beschreibung: "Tapete + Kleister + Farbe (2x)" },
     arbeit: { min: 12, max: 22, beschreibung: "Alte Tapete entfernen, neu tapezieren, 2x streichen" },
     zusatz: [],
     dauer_pro_einheit: "0,3\u20130,5h pro m\u00B2",
-    hinweis: "Vliestapeten oder Designtapeten sind beim Material deutlich teurer (10\u201350 \u20AC/Rolle vs. 3\u20138 \u20AC fuer Rauhfaser).",
+    hinweis: "Vliestapeten oder Designtapeten sind beim Material deutlich teurer (10\u201350 \u20AC/Rolle vs. 3\u20138 \u20AC für Raufaser).",
   },
   laminat: {
     name: "Laminat / Vinyl verlegen (Klick)",
     einheit: "m\u00B2",
-    material: { min: 15, max: 40, beschreibung: "Laminat/Vinyl + Trittschalldaemmung + Sockelleisten" },
-    arbeit: { min: 20, max: 35, beschreibung: "Verlegen inkl. Sockelleisten und Uebergangsprofile" },
+    material: { min: 15, max: 40, beschreibung: "Laminat/Vinyl + Trittschalldämmung + Sockelleisten" },
+    arbeit: { min: 20, max: 35, beschreibung: "Verlegen inkl. Sockelleisten und Übergangsprofile" },
     zusatz: [
       { name: "Alten Boden entfernen", min: 5, max: 15, beschreibung: "Teppich, altes Laminat etc." },
-      { name: "Untergrund ausgleichen", min: 8, max: 20, beschreibung: "Ausgleichsmasse bei unebener Flaeche" },
+      { name: "Untergrund ausgleichen", min: 8, max: 20, beschreibung: "Ausgleichsmasse bei unebener Fläche" },
     ],
     dauer_pro_einheit: "0,3\u20130,6h pro m\u00B2",
-    hinweis: "Klick-Vinyl ist wasserbestaendig und daher auch fuer Kueche und Flur geeignet.",
+    hinweis: "Klick-Vinyl ist wasserbeständig und daher auch für Küche und Flur geeignet.",
   },
   parkett: {
     name: "Parkett verlegen und versiegeln",
@@ -140,101 +140,101 @@ const PREISDATEN: Record<string, Preisdaten> = {
     arbeit: { min: 35, max: 60, beschreibung: "Verkleben, Schleifen, 3x Versiegeln" },
     zusatz: [],
     dauer_pro_einheit: "0,8\u20131,5h pro m\u00B2",
-    hinweis: "Mehrschichtparkett (Klick) ist guenstiger als Massivparkett. Massiv muss verklebt und geschliffen werden.",
+    hinweis: "Mehrschichtparkett (Klick) ist günstiger als Massivparkett. Massiv muss verklebt und geschliffen werden.",
   },
   "trockenbau-wand": {
     name: "Trockenbau-Trennwand einziehen",
     einheit: "m\u00B2",
-    material: { min: 15, max: 30, beschreibung: "CW/UW-Profile, Gipskartonplatten, Daemmung, Spachtel" },
-    arbeit: { min: 40, max: 75, beschreibung: "Staenderwerk, Beplankung, Spachteln (Q2\u2013Q3)" },
+    material: { min: 15, max: 30, beschreibung: "CW/UW-Profile, Gipskartonplatten, Dämmung, Spachtel" },
+    arbeit: { min: 40, max: 75, beschreibung: "Ständerwerk, Beplankung, Spachteln (Q2\u2013Q3)" },
     zusatz: [],
     dauer_pro_einheit: "0,8\u20131,5h pro m\u00B2",
     hinweis: "Doppelbeplankung (fuer Schallschutz oder Fliesen) ca. 20\u201330 % teurer. Brandschutzplatten ca. 30 % mehr Material.",
   },
   "trockenbau-decke": {
-    name: "Decke abhaengen (Trockenbau)",
+    name: "Decke abhängen (Trockenbau)",
     einheit: "m\u00B2",
-    material: { min: 15, max: 25, beschreibung: "CD/UD-Profile, Direktabhaenger, Gipskartonplatten" },
+    material: { min: 15, max: 25, beschreibung: "CD/UD-Profile, Direktabhänger, Gipskartonplatten" },
     arbeit: { min: 45, max: 80, beschreibung: "Unterkonstruktion, Beplankung, Spachteln" },
     zusatz: [
       { name: "Spotlights einbauen", min: 20, max: 40, beschreibung: "Pro Spot (Bohren + Anschluss)" },
     ],
     dauer_pro_einheit: "1,0\u20131,8h pro m\u00B2",
-    hinweis: "Deckenarbeit ist aufwaendiger als Wandarbeit (Ueberkopf). Spots vorher planen \u2014 nachtraeglich teuer.",
+    hinweis: "Deckenarbeit ist aufwändiger als Wandarbeit (Überkopf). Spots vorher planen \u2014 nachträglich teuer.",
   },
   "putz-innen": {
     name: "Innenwand verputzen (Gipsputz)",
     einheit: "m\u00B2",
     material: { min: 5, max: 12, beschreibung: "Gipsputz, Putzschienen, Grundierung" },
-    arbeit: { min: 20, max: 40, beschreibung: "Maschinenputz auftragen, abziehen, glaetten" },
+    arbeit: { min: 20, max: 40, beschreibung: "Maschinenputz auftragen, abziehen, glätten" },
     zusatz: [],
     dauer_pro_einheit: "0,3\u20130,6h pro m\u00B2",
-    hinweis: "Maschinenputz ist guenstiger als Handputz. Ab 50 m\u00B2 lohnt sich eine Putzmaschine.",
+    hinweis: "Maschinenputz ist günstiger als Handputz. Ab 50 m\u00B2 lohnt sich eine Putzmaschine.",
   },
   estrich: {
-    name: "Estrich einbringen (Zement-Fliessestrich)",
+    name: "Estrich einbringen (Zement-Fließestrich)",
     einheit: "m\u00B2",
-    material: { min: 10, max: 20, beschreibung: "Estrich, PE-Folie, Randdaemmstreifen" },
+    material: { min: 10, max: 20, beschreibung: "Estrich, PE-Folie, Randdämmstreifen" },
     arbeit: { min: 15, max: 30, beschreibung: "Vorbereitung, Einbringung, Abziehen" },
     zusatz: [],
     dauer_pro_einheit: "0,2\u20130,4h pro m\u00B2",
     hinweis: "Trocknungszeit beachten: ca. 1 Tag pro mm Estrichdicke. 50 mm Estrich = ca. 7 Wochen bis belegreif!",
   },
   "daemmung-dach": {
-    name: "Dachdaemmung (Zwischensparren)",
+    name: "Dachdämmung (Zwischensparren)",
     einheit: "m\u00B2",
     material: { min: 25, max: 50, beschreibung: "Mineralwolle/Holzfaser + Dampfbremse + Klebeband" },
     arbeit: { min: 30, max: 50, beschreibung: "Zuschneiden, Einpassen, Dampfbremse verkleben" },
     zusatz: [],
     dauer_pro_einheit: "0,5\u20131,0h pro m\u00B2",
-    hinweis: "Foerderbar ueber BAFA BEG EM (15\u201320 % Zuschuss). iSFP verdoppelt die foerderfaehigen Kosten!",
+    hinweis: "Förderbar über BAFA BEG EM (15\u201320 % Zuschuss). iSFP verdoppelt die förderfähigen Kosten!",
   },
   "daemmung-fassade": {
-    name: "Fassadendaemmung (WDVS)",
+    name: "Fassadendämmung (WDVS)",
     einheit: "m\u00B2",
-    material: { min: 40, max: 80, beschreibung: "Daemmplatten + Kleber + Armierung + Putz" },
-    arbeit: { min: 50, max: 90, beschreibung: "Kleben, Duebeln, Armieren, Verputzen" },
+    material: { min: 40, max: 80, beschreibung: "Dämmplatten + Kleber + Armierung + Putz" },
+    arbeit: { min: 50, max: 90, beschreibung: "Kleben, Dübeln, Armieren, Verputzen" },
     zusatz: [
-      { name: "Geruest", min: 8, max: 15, beschreibung: "Gerueststellung (Auf-/Abbau + Miete)" },
+      { name: "Gerüst", min: 8, max: 15, beschreibung: "Gerüststellung (Auf-/Abbau + Miete)" },
     ],
     dauer_pro_einheit: "1,0\u20132,0h pro m\u00B2",
-    hinweis: "Gesamtkosten typisch 120\u2013200 \u20AC/m\u00B2 inkl. Geruest. Foerderbar ueber BAFA BEG EM (15\u201320 %).",
+    hinweis: "Gesamtkosten typisch 120\u2013200 \u20AC/m\u00B2 inkl. Gerüst. Förderbar über BAFA BEG EM (15\u201320 %).",
   },
   "daemmung-kellerdecke": {
-    name: "Kellerdecke daemmen",
+    name: "Kellerdecke dämmen",
     einheit: "m\u00B2",
-    material: { min: 20, max: 40, beschreibung: "Daemmplatten (EPS/Mineralwolle) + Kleber/Duebel" },
-    arbeit: { min: 15, max: 30, beschreibung: "Platten ankleben oder duebeln" },
+    material: { min: 20, max: 40, beschreibung: "Dämmplatten (EPS/Mineralwolle) + Kleber/Dübel" },
+    arbeit: { min: 15, max: 30, beschreibung: "Platten ankleben oder dübeln" },
     zusatz: [],
     dauer_pro_einheit: "0,3\u20130,5h pro m\u00B2",
-    hinweis: "Eine der effektivsten und guenstigsten Daemmmassnahmen. Foerderbar ueber BAFA.",
+    hinweis: "Eine der effektivsten und günstigsten Dämmmaßnahmen. Förderbar über BAFA.",
   },
   "elektro-komplett": {
     name: "Elektroinstallation (pro Raum, Neubau-Niveau)",
     einheit: "Raum",
     material: { min: 300, max: 600, beschreibung: "Leitungen, Dosen, Schalter, Steckdosen" },
-    arbeit: { min: 500, max: 1200, beschreibung: "Schlitze stemmen, Leitungen verlegen, Anschliessen" },
+    arbeit: { min: 500, max: 1200, beschreibung: "Schlitze stemmen, Leitungen verlegen, Anschließen" },
     zusatz: [],
     dauer_pro_einheit: "6\u201312h pro Raum",
-    hinweis: "Stark abhaengig von Ausstattungsgrad. Kueche mit vielen Geraeten: oberes Ende. Abstellraum: unteres Ende.",
+    hinweis: "Stark abhängig von Ausstattungsgrad. Küche mit vielen Geräten: oberes Ende. Abstellraum: unteres Ende.",
   },
   "sanitaer-bad": {
-    name: "Sanitaerinstallation Bad komplett",
+    name: "Sanitärinstallation Bad komplett",
     einheit: "Bad",
     material: { min: 1500, max: 4000, beschreibung: "Rohre, Armaturen, WC, Waschtisch, Dusche/Wanne" },
-    arbeit: { min: 2000, max: 5000, beschreibung: "Roh- und Feininstallation, Anschluesse, Dichtheitspruefung" },
+    arbeit: { min: 2000, max: 5000, beschreibung: "Roh- und Feininstallation, Anschlüsse, Dichtheitsprüfung" },
     zusatz: [],
     dauer_pro_einheit: "3\u20135 Tage",
-    hinweis: "Ohne Fliesen und Trockenbau. Sanitaerobjekte (WC, Waschbecken) variieren extrem: 500\u20135.000 \u20AC je nach Hersteller.",
+    hinweis: "Ohne Fliesen und Trockenbau. Sanitärobjekte (WC, Waschbecken) variieren extrem: 500\u20135.000 \u20AC je nach Hersteller.",
   },
   "heizung-waermepumpe": {
-    name: "Waermepumpe einbauen (Luft-Wasser, komplett)",
-    einheit: "Stueck",
-    material: { min: 12000, max: 22000, beschreibung: "Waermepumpe + Pufferspeicher + Regelung + Zubehoer" },
+    name: "Wärmepumpe einbauen (Luft-Wasser, komplett)",
+    einheit: "Stück",
+    material: { min: 12000, max: 22000, beschreibung: "Wärmepumpe + Pufferspeicher + Regelung + Zubehör" },
     arbeit: { min: 5000, max: 10000, beschreibung: "Aufstellung, Anschluss, Inbetriebnahme, Hydraulischer Abgleich" },
     zusatz: [],
     dauer_pro_einheit: "3\u20135 Tage",
-    hinweis: "Gesamtkosten typisch 20.000\u201335.000 \u20AC. BAFA-Foerderung bis zu 70 %! Unbedingt Foerdermittel-Finder nutzen.",
+    hinweis: "Gesamtkosten typisch 20.000\u201335.000 \u20AC. BAFA-Förderung bis zu 70 %! Unbedingt Fördermittel-Finder nutzen.",
   },
   "terrasse-wpc": {
     name: "WPC-Terrasse bauen",
@@ -243,12 +243,12 @@ const PREISDATEN: Record<string, Preisdaten> = {
     arbeit: { min: 40, max: 70, beschreibung: "Unterbau vorbereiten, UK montieren, Dielen verlegen" },
     zusatz: [],
     dauer_pro_einheit: "0,8\u20131,5h pro m\u00B2",
-    hinweis: "WPC ist pflegeleichter als Holz (kein Oelen noetig). Farbauswahl ist eingeschraenkter.",
+    hinweis: "WPC ist pflegeleichter als Holz (kein Ölen nötig). Farbauswahl ist eingeschränkter.",
   },
   "terrasse-stein": {
     name: "Terrassenplatten verlegen",
     einheit: "m\u00B2",
-    material: { min: 20, max: 60, beschreibung: "Betonplatten/Naturstein + Splitt/Moertel + Fugenmaterial" },
+    material: { min: 20, max: 60, beschreibung: "Betonplatten/Naturstein + Splitt/Mörtel + Fugenmaterial" },
     arbeit: { min: 35, max: 60, beschreibung: "Unterbau verdichten, Platten verlegen, Verfugen" },
     zusatz: [
       { name: "Unterbau (Kies/Schotter)", min: 10, max: 25, beschreibung: "Frostschutzschicht + Tragschicht" },
@@ -270,10 +270,10 @@ const RECHNER_LINKS: Record<string, { label: string; href: string }[]> = {
   "streichen-fassade": [{ label: "Material berechnen", href: "/rechner/wandfarbe" }],
   "trockenbau-wand": [{ label: "Material berechnen", href: "/rechner/trockenbau" }],
   "trockenbau-decke": [{ label: "Material berechnen", href: "/rechner/trockenbau" }],
-  "daemmung-dach": [{ label: "Foerderung checken", href: "/rechner/foerdermittel" }],
-  "daemmung-fassade": [{ label: "Foerderung checken", href: "/rechner/foerdermittel" }],
-  "daemmung-kellerdecke": [{ label: "Foerderung checken", href: "/rechner/foerdermittel" }],
-  "heizung-waermepumpe": [{ label: "Foerderung checken", href: "/rechner/foerdermittel" }],
+  "daemmung-dach": [{ label: "Förderung checken", href: "/rechner/foerdermittel" }],
+  "daemmung-fassade": [{ label: "Förderung checken", href: "/rechner/foerdermittel" }],
+  "daemmung-kellerdecke": [{ label: "Förderung checken", href: "/rechner/foerdermittel" }],
+  "heizung-waermepumpe": [{ label: "Förderung checken", href: "/rechner/foerdermittel" }],
 };
 
 /* ------------------------------------------------------------------ */
@@ -346,7 +346,7 @@ export default function HandwerkerkostenRechner() {
 
       <h1 className="text-3xl font-bold text-stone-900 mb-2">Handwerkerkosten-Rechner</h1>
       <p className="text-stone-600 mb-8 max-w-2xl">
-        Was kostet dein Projekt beim Handwerker? Waehle Gewerk, Menge und Region fuer eine realistische Kostenspanne.
+        Was kostet dein Projekt beim Handwerker? Wähle Gewerk, Menge und Region für eine realistische Kostenspanne.
       </p>
 
       {/* Inputs */}
@@ -392,7 +392,7 @@ export default function HandwerkerkostenRechner() {
 
       {/* Result summary */}
       <div className="bg-amber-50 border-2 border-amber-300 rounded-xl p-5 text-center mb-6">
-        <div className="text-sm font-medium text-amber-700 mb-1">Geschaetzte Gesamtkosten</div>
+        <div className="text-sm font-medium text-amber-700 mb-1">Geschätzte Gesamtkosten</div>
         <div className="text-3xl font-bold text-stone-900">{range(gesMin, gesMax)} \u20AC</div>
         <div className="text-sm text-stone-600 mt-1">
           {range(proMin, proMax)} \u20AC pro {g.einheit}
@@ -476,7 +476,7 @@ export default function HandwerkerkostenRechner() {
       <div className="bg-white border border-stone-200 rounded-lg p-4 mb-6 flex items-center gap-3">
         <span className="text-2xl">{"\u23F1"}</span>
         <div>
-          <div className="text-sm font-medium text-stone-800">Geschaetzte Dauer</div>
+          <div className="text-sm font-medium text-stone-800">Geschätzte Dauer</div>
           <div className="text-sm text-stone-600">{g.dauer_pro_einheit}</div>
         </div>
       </div>
@@ -503,7 +503,7 @@ export default function HandwerkerkostenRechner() {
             href="/rechner/eigenleistung"
             className="inline-flex items-center gap-2 bg-green-600 text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-green-700 transition-colors text-sm"
           >
-            Eigenleistung pruefen {"\u2192"}
+            Eigenleistung prüfen {"\u2192"}
           </a>
         </div>
       )}
@@ -524,7 +524,7 @@ export default function HandwerkerkostenRechner() {
         <h2 className="text-lg font-bold mb-3">Weitere Rechner</h2>
         <div className="flex flex-wrap gap-3">
           <a href="/rechner/eigenleistung" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Eigenleistungs-Rechner</a>
-          <a href="/rechner/foerdermittel" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Foerdermittel-Finder</a>
+          <a href="/rechner/foerdermittel" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Fördermittel-Finder</a>
           <a href="/rechner/gewerk-reihenfolge" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Gewerk-Reihenfolge</a>
           <a href="/rechner/nebenkosten" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Nebenkosten-Rechner</a>
         </div>
