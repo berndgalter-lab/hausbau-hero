@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import FAQSection from "@/components/FAQSection";
+import RechnerHinweis from "@/components/RechnerHinweis";
 import { getFaqBySlug } from "@/lib/faq-data";
 
 /* ------------------------------------------------------------------ */
@@ -247,11 +248,7 @@ export default function GewerkReihenfolgePage() {
         })}
       </div>
 
-      {/* Disclaimer */}
-      <div className="bg-stone-50 border border-stone-200 rounded-lg p-4 mb-8 mt-4 text-sm text-stone-600">
-        <strong className="text-stone-800">Hinweis:</strong>{" "}
-        Die Reihenfolge und Zeitschätzungen sind Richtwerte für typische Projekte. Je nach Gebäudezustand, Umfang der Arbeiten und regionaler Handwerkerverfügbarkeit kann die tatsächliche Dauer abweichen. Für Elektro- und Sanitärarbeiten ist immer ein zugelassener Fachbetrieb erforderlich.
-      </div>
+      <RechnerHinweis text="Die dargestellte Reihenfolge ist ein typischer Ablaufplan. Je nach Bauweise, Witterung und Verfügbarkeit der Handwerker kann die tatsächliche Reihenfolge abweichen. Stimme den Ablauf immer mit deinem Bauleiter oder Architekten ab." />
 
       <FAQSection faqs={getFaqBySlug("gewerk-reihenfolge")} rechnerName="Gewerk-Reihenfolge" />
 

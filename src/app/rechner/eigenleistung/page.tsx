@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import FAQSection from "@/components/FAQSection";
+import RechnerHinweis from "@/components/RechnerHinweis";
 import { getFaqBySlug } from "@/lib/faq-data";
 
 type Region = "nord" | "sued" | "ost" | "west";
@@ -321,11 +322,7 @@ export default function EigenleistungRechner() {
         {g.hinweis}
       </div>
 
-      {/* General disclaimer */}
-      <div className="bg-stone-50 border border-stone-200 rounded-lg p-4 mb-8 text-sm text-stone-600">
-        <strong className="text-stone-800">Hinweis:</strong>{" "}
-        Alle Preise sind Richtwerte für Deutschland (Stand 2026) und variieren je nach Region, Saison und Auftragslage. Für verbindliche Angebote empfehlen wir, mindestens 3 Handwerker-Angebote einzuholen. Materialpreise können je nach Qualität und Hersteller stark abweichen.
-      </div>
+      <RechnerHinweis text="Die Einsparungen sind Schätzungen auf Basis typischer Handwerkerpreise. Dein tatsächliches Sparpotenzial hängt von deinen handwerklichen Fähigkeiten und dem Zeitaufwand ab. Banken erkennen Eigenleistung nur im Rahmen einer individuellen Prüfung an." />
 
       <FAQSection faqs={getFaqBySlug("eigenleistung")} rechnerName="Eigenleistungs-Rechner" />
 

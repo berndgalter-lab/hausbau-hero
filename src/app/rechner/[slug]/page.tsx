@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
 import { berechne, formatPreis, getAffiliateLink } from "@/lib/rechner-logic";
 import FAQSection from "@/components/FAQSection";
+import RechnerHinweis from "@/components/RechnerHinweis";
 import { getFaqBySlug } from "@/lib/faq-data";
 import { getRatgeberSlug } from "@/lib/ratgeber-zuordnung";
 import { useParams } from "next/navigation";
@@ -347,6 +348,8 @@ export default function RechnerPage() {
               </a>
             </div>
           )}
+
+          <RechnerHinweis />
         </>
       )}
 

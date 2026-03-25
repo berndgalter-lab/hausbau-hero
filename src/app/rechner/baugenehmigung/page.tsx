@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import FAQSection from "@/components/FAQSection";
+import RechnerHinweis from "@/components/RechnerHinweis";
 import { getFaqBySlug } from "@/lib/faq-data";
 
 /* ------------------------------------------------------------------ */
@@ -412,6 +413,8 @@ export default function BaugenehmigungCheck() {
           </div>
         )}
       </div>
+
+      <RechnerHinweis text="Die Angaben zur Genehmigungspflicht sind Richtwerte nach der jeweiligen Landesbauordnung (Stand 2026). Für eine verbindliche Auskunft wende dich an dein zuständiges Bauamt." />
 
       <FAQSection faqs={getFaqBySlug("baugenehmigung")} rechnerName="Baugenehmigung-Check" />
 

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import FAQSection from "@/components/FAQSection";
+import RechnerHinweis from "@/components/RechnerHinweis";
 import { getFaqBySlug } from "@/lib/faq-data";
 
 /* ------------------------------------------------------------------ */
@@ -507,11 +508,7 @@ export default function HandwerkerkostenRechner() {
         </div>
       )}
 
-      {/* Disclaimer */}
-      <div className="bg-stone-50 border border-stone-200 rounded-lg p-4 mb-8 text-sm text-stone-600">
-        <strong className="text-stone-800">Hinweis:</strong>{" "}
-        Alle Preise sind Richtwerte fuer Deutschland (Stand 2026). Die tatsaechlichen Kosten haengen von Projektumfang, Materialqualitaet, Untergrund und Marktlage ab. Holen Sie mindestens 3 Angebote ein.
-      </div>
+      <RechnerHinweis text="Die angezeigten Preise sind Richtwerte auf Basis aktueller Marktdaten (2026). Handwerkerpreise variieren je nach Region, Betrieb und Auftragslage. Hole für dein Projekt immer mindestens 3 konkrete Angebote ein." />
 
       <FAQSection faqs={getFaqBySlug("handwerkerkosten")} rechnerName="Handwerkerkosten-Rechner" />
 
