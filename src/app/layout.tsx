@@ -78,7 +78,7 @@ const organizationLd = {
   "@type": "Organization",
   name: "Hausbau Hero",
   url: "https://hausbau-hero.de",
-  logo: "https://hausbau-hero.de/logo.png",
+  logo: "https://hausbau-hero.de/opengraph-image",
   description:
     "Kostenlose Materialrechner und Werkzeug-Empfehlungen für Bauherren und Handwerker.",
   address: {

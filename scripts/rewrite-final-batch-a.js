@@ -1,6 +1,9 @@
-const BASE = "https://jyxhjcupgazugjglpeum.supabase.co";
-const KEY =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp5eGhqY3VwZ2F6dWdqZ2xwZXVtIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3MzgyNzYxOSwiZXhwIjoyMDg5NDAzNjE5fQ.9KDrgJYAKnbuZoegypfmRQC5F0z86uP8iU2aSw62IKA";
+const BASE = process.env.SUPABASE_URL || "https://jyxhjcupgazugjglpeum.supabase.co";
+const KEY = process.env.SUPABASE_SERVICE_KEY;
+if (!KEY) {
+  console.error("SUPABASE_SERVICE_KEY ist nicht gesetzt. Aufruf: SUPABASE_SERVICE_KEY=... node " + process.argv[1]);
+  process.exit(1);
+}
 const headers = {
   apikey: KEY,
   Authorization: "Bearer " + KEY,

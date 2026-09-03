@@ -1,7 +1,7 @@
-import { supabase } from "@/lib/supabase";
+import { supabase, REVALIDATE } from "@/lib/supabase";
 import type { Metadata } from "next";
 
-export const revalidate = 60;
+export const revalidate = REVALIDATE;
 
 export const metadata: Metadata = {
   title: "Was kostet dein Bauprojekt? — Hausbau Hero",
@@ -148,7 +148,7 @@ export default async function Home() {
         </div>
 
         <p className="mt-6 text-sm text-stone-400">
-          19 kostenlose Rechner · Über 10.000 Berechnungen
+          19 kostenlose Rechner · Ohne Anmeldung · Kostenlos
         </p>
       </section>
 

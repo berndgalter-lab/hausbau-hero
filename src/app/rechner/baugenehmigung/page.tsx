@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import FAQSection from "@/components/FAQSection";
+import AngebotsBox from "@/components/AngebotsBox";
 import RechnerHinweis from "@/components/RechnerHinweis";
 import { getFaqBySlug } from "@/lib/faq-data";
 
@@ -408,11 +409,13 @@ export default function BaugenehmigungCheck() {
             <ol className="list-decimal list-inside space-y-1 ml-2">
               <li>Kontaktiere dein Bauamt — die <strong>Bauvoranfrage</strong> ist in der Regel kostenlos</li>
               <li>Halte Maße, Grundstückslage und Bebauungsplan-Nummer bereit</li>
-              <li>Frage explizit: „Ist mein Vorhaben verfahrensfrei nach der Landesbauordnung?"</li>
+              <li>Frage explizit: „Ist mein Vorhaben verfahrensfrei nach der Landesbauordnung?&ldquo;</li>
             </ol>
           </div>
         )}
       </div>
+
+      <AngebotsBox slug="baugenehmigung" />
 
       <RechnerHinweis text="Die Angaben zur Genehmigungspflicht sind Richtwerte nach der jeweiligen Landesbauordnung (Stand 2026). Für eine verbindliche Auskunft wende dich an dein zuständiges Bauamt." />
 

@@ -1,5 +1,5 @@
-"use client";
-import { getAffiliateLink, formatPreis } from "@/lib/rechner-logic";
+import { formatPreis } from "@/lib/rechner-logic";
+import { getAffiliateLink } from "@/lib/monetarisierung";
 
 interface Produkt {
   id: string;
@@ -19,7 +19,7 @@ interface Produkt {
 }
 
 export default function ProduktKarte({ produkt, compact = false }: { produkt: Produkt; compact?: boolean }) {
-  const link = getAffiliateLink(produkt.affiliate_url, produkt.amazon_asin);
+  const link = getAffiliateLink(produkt.affiliate_url, produkt.amazon_asin, produkt.name);
 
   if (compact) {
     return (
@@ -31,7 +31,7 @@ export default function ProduktKarte({ produkt, compact = false }: { produkt: Pr
           )}
         </div>
         {link && (
-          <a href={link} target="_blank" rel="noopener noreferrer nofollow"
+          <a href={link} target="_blank" rel="nofollow noopener noreferrer sponsored"
             className="bg-amber-600 text-white text-xs font-semibold px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors whitespace-nowrap">
             Auf Amazon →
           </a>
@@ -109,7 +109,7 @@ export default function ProduktKarte({ produkt, compact = false }: { produkt: Pr
       </div>
 
       {link && (
-        <a href={link} target="_blank" rel="noopener noreferrer nofollow"
+        <a href={link} target="_blank" rel="nofollow noopener noreferrer sponsored"
           className="block w-full text-center bg-amber-600 text-white font-semibold py-2.5 rounded-lg hover:bg-amber-700 transition-colors">
           Auf Amazon ansehen →
         </a>

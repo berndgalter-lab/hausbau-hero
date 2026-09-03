@@ -32,32 +32,78 @@ export interface RechnerConfig {
   berechnungslogik: Record<string, string>
 }
 
+/**
+ * Wertet die in der Datenbank hinterlegten Formeln aus.
+ *
+ * Formeln dürfen sich gegenseitig referenzieren. Da die Reihenfolge der JSON-Schlüssel
+ * nicht garantiert der Abhängigkeitsreihenfolge entspricht, wird so lange iteriert, bis
+ * sich nichts mehr auflösen lässt — statt eine Formel, deren Eingangsgröße noch fehlt,
+ * stillschweigend auf 0 zu setzen.
+ */
 export function berechne(
   formeln: Record<string, string>,
   eingaben: Record<string, number>
 ): Record<string, number> {
   const ergebnisse: Record<string, number> = { ...eingaben }
+  let offen = Object.entries(formeln)
+  // Feste Obergrenze: `offen` schrumpft pro Runde und taugt daher nicht als Schranke.
+  const maxRunden = offen.length + 1
 
-  const sortierteFormeln = Object.entries(formeln)
-  for (const [key, formel] of sortierteFormeln) {
-    try {
-      let ausdruck = formel
-      for (const [varName, varWert] of Object.entries(ergebnisse)) {
-        ausdruck = ausdruck.replace(new RegExp(`\\b${varName}\\b`, 'g'), String(varWert))
-      }
-      ausdruck = ausdruck.replace(/ceil/g, 'Math.ceil')
-      ausdruck = ausdruck.replace(/floor/g, 'Math.floor')
-      ausdruck = ausdruck.replace(/round/g, 'Math.round')
-      ausdruck = ausdruck.replace(/max/g, 'Math.max')
-      ausdruck = ausdruck.replace(/min/g, 'Math.min')
-      const fn = new Function(`return ${ausdruck}`)
-      ergebnisse[key] = fn()
-    } catch {
-      ergebnisse[key] = 0
+  for (let runde = 0; runde < maxRunden && offen.length > 0; runde++) {
+    const nochOffen: [string, string][] = []
+    for (const [key, formel] of offen) {
+      const wert = werteAus(formel, ergebnisse)
+      if (wert === null) nochOffen.push([key, formel])
+      else ergebnisse[key] = wert
     }
+    if (nochOffen.length === offen.length) break // keine Fortschritte mehr
+    offen = nochOffen
+  }
+
+  // Was sich nach allen Runden nicht auflösen lässt, ist fehlerhaft konfiguriert.
+  for (const [key, formel] of offen) {
+    console.error(`[Rechner] Formel "${key}" nicht auflösbar: ${formel}`)
+    ergebnisse[key] = 0
   }
 
   return ergebnisse
+}
+
+const MATH_FNS = ['ceil', 'floor', 'round', 'max', 'min', 'abs', 'sqrt', 'pow']
+
+/**
+ * Setzt bekannte Variablen ein und rechnet aus.
+ * Gibt `null` zurück, wenn die Formel noch unbekannte Bezeichner enthält.
+ */
+export function werteAus(
+  formel: string,
+  werte: Record<string, number>
+): number | null {
+  let ausdruck = formel
+
+  // Längere Namen zuerst, damit `flaeche` nicht Teile von `wandflaeche` ersetzt.
+  const namen = Object.keys(werte).sort((a, b) => b.length - a.length)
+  for (const name of namen) {
+    ausdruck = ausdruck.replace(
+      new RegExp(`\\b${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'g'),
+      `(${werte[name]})`
+    )
+  }
+
+  for (const fn of MATH_FNS) {
+    ausdruck = ausdruck.replace(new RegExp(`\\b${fn}\\s*\\(`, 'g'), `Math.${fn}(`)
+  }
+
+  // Jetzt darf nur noch Arithmetik übrig sein. Ein verbliebener Bezeichner bedeutet:
+  // eine Abhängigkeit ist noch nicht berechnet.
+  if (/[A-Za-z_]/.test(ausdruck.replace(/Math\.\w+/g, ''))) return null
+
+  try {
+    const wert = new Function(`"use strict"; return (${ausdruck})`)()
+    return Number.isFinite(wert) ? wert : null
+  } catch {
+    return null
+  }
 }
 
 export function berechneStromverbrauch(
@@ -76,12 +122,4 @@ export function formatPreis(preis: number): string {
   }).format(preis)
 }
 
-export function amazonLink(asin: string, tag: string = 'hausbauhero-21'): string {
-  return `https://www.amazon.de/dp/${asin}?tag=${tag}`
-}
-
-export function getAffiliateLink(affiliateUrl?: string, amazonAsin?: string): string | null {
-  if (affiliateUrl) return affiliateUrl
-  if (amazonAsin) return amazonLink(amazonAsin)
-  return null
-}
+export { amazonProdukt, amazonSuche, getAffiliateLink, AMAZON_TAG } from './monetarisierung'

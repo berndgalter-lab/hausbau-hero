@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import FAQSection from "@/components/FAQSection";
+import AngebotsBox from "@/components/AngebotsBox";
 import RechnerHinweis from "@/components/RechnerHinweis";
 import { getFaqBySlug } from "@/lib/faq-data";
 
@@ -247,6 +248,8 @@ export default function GewerkReihenfolgePage() {
           );
         })}
       </div>
+
+      <AngebotsBox slug="gewerk-reihenfolge" />
 
       <RechnerHinweis text="Die dargestellte Reihenfolge ist ein typischer Ablaufplan. Je nach Bauweise, Witterung und Verfügbarkeit der Handwerker kann die tatsächliche Reihenfolge abweichen. Stimme den Ablauf immer mit deinem Bauleiter oder Architekten ab." />
 

@@ -11,13 +11,12 @@ if (!supabaseUrl || !supabaseAnonKey) {
   )
 }
 
+// Kein `cache: 'no-store'` mehr: die Inhalte ändern sich selten, und Next darf die
+// Antworten im Data Cache halten. Revalidierung steuern die Seiten über `revalidate`.
 export const supabase = createClient(
   supabaseUrl || 'https://placeholder.supabase.co',
-  supabaseAnonKey || 'placeholder-key',
-  {
-    global: {
-      fetch: (url, options = {}) =>
-        fetch(url, { ...options, cache: 'no-store' }),
-    },
-  }
+  supabaseAnonKey || 'placeholder-key'
 )
+
+/** Wie lange gerenderte Seiten und Supabase-Antworten gültig bleiben (Sekunden). */
+export const REVALIDATE = 3600

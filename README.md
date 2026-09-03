@@ -1,27 +1,54 @@
 # hausbau-hero.de
 
-Materialrechner & Werkzeug-Empfehlungen für Bauherren und Handwerker.
+Kostenrechner und Ratgeber für Bauherren. Next.js 14 (App Router), Supabase, Vercel.
 
 ## Setup
 
-### 1. Supabase
-- supabase.com → New Project → Region Frankfurt
-- SQL Editor → `scripts/schema.sql` ausführen
-
-### 2. Environment Variables
-- `.env.local` anlegen nach `.env.local.example`
-
-### 3. WordPress Migration
 ```bash
-node scripts/migrate-wp.js > scripts/seed-seiten.sql
-```
-Dann `seed-seiten.sql` und `seed-rechner.sql` in Supabase SQL Editor.
-
-### 4. Vercel Deploy
-```bash
-npm run build
-# oder: Push to GitHub → Vercel auto-deploy
+cp .env.local.example .env.local   # Werte eintragen
+npm ci
+npm run dev
 ```
 
-## Neues Silo in 30 Minuten
-SQL INSERT in Supabase → Seite ist live. Siehe `scripts/seed-rechner.sql` als Vorlage.
+## Womit die Seite Geld verdient
+
+Alles an einer Stelle: **`src/lib/monetarisierung.ts`**.
+
+**1. Amazon-Partnerlinks** — passen zu den Material-Rechnern (Wandfarbe, Fliesen,
+Laminat …), wo direkt nach dem Rechnen eingekauft wird. `getAffiliateLink()` liefert
+immer einen Link: hinterlegte URL → ASIN → Amazon-Suche nach dem Materialnamen. Das Tag
+kommt aus `NEXT_PUBLIC_AMAZON_TAG`.
+Für bessere Conversion: ASINs in `rechner_materialien.amazon_asin` pflegen — ein
+Produktlink konvertiert deutlich besser als ein Suchlink.
+
+**2. Angebotsvergleich / Lead-Vermittlung** — passt zu den Finanz- und Planungsrechnern
+(Nebenkosten, Handwerkerkosten, Fördermittel, Eigenleistung, Baugenehmigung,
+Gewerk-Reihenfolge). Dort ist die Kaufabsicht groß, aber es wird nichts bei Amazon
+gekauft.
+
+> **Noch nicht aktiv.** In `CTA_BY_SLUG` sind Texte für alle sechs Rechner hinterlegt,
+> aber `url: ''`. Solange die URL leer ist, wird der Block nicht angezeigt — es entstehen
+> also keine toten Links. Sobald du einen Partnerlink einträgst, erscheint er automatisch
+> direkt unter dem Rechenergebnis.
+
+## Wichtige Konventionen
+
+- **Caching:** `REVALIDATE` aus `src/lib/supabase.ts` (1 h) gilt für alle Seiten. Kein
+  `no-store` mehr — sonst ist jede Route wieder dynamisch und jeder Aufruf kostet eine
+  Serverless-Funktion.
+- **Silo-URLs:** `seiten.slug` ist global eindeutig; das Silo in der URL muss zum
+  Datensatz passen, sonst wird permanent auf die kanonische URL weitergeleitet.
+- **Dünne Artikel:** unter `MIN_TEXT_LAENGE` (`src/lib/artikel-html.ts`, aktuell 1200
+  Zeichen sichtbarer Text) bekommt eine Seite `noindex` und fliegt aus der Sitemap.
+  Schwelle anheben, wenn die Search Console zeigt, dass mehr Artikel nichts bringen.
+- **Artikel-HTML** wird serverseitig durch `bereiteArtikelAuf()` geschickt: kaputte
+  WordPress-Bilder raus, interne Links relativ, externe auf `nofollow`, Amazon-Links
+  bekommen das Partner-Tag.
+- **Skripte in `scripts/`** sind einmalige Migrationen. Sie brauchen
+  `SUPABASE_SERVICE_KEY` aus der Umgebung — der Key gehört niemals in den Code.
+
+## Neuer Rechner
+
+SQL-Insert in `rechner` (+ optional `rechner_materialien`), siehe
+`scripts/seed-rechner.sql`. Formeln dürfen sich gegenseitig referenzieren, die
+Reihenfolge der JSON-Schlüssel spielt keine Rolle. FAQ-Einträge in `src/lib/faq-data.ts`.

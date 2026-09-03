@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import FAQSection from "@/components/FAQSection";
+import AngebotsBox from "@/components/AngebotsBox";
 import RechnerHinweis from "@/components/RechnerHinweis";
 import { getFaqBySlug } from "@/lib/faq-data";
 
@@ -321,6 +322,8 @@ export default function EigenleistungRechner() {
         <strong className="text-stone-700">Zu diesem Gewerk:</strong>{" "}
         {g.hinweis}
       </div>
+
+      <AngebotsBox slug="eigenleistung" />
 
       <RechnerHinweis text="Die Einsparungen sind Schätzungen auf Basis typischer Handwerkerpreise. Dein tatsächliches Sparpotenzial hängt von deinen handwerklichen Fähigkeiten und dem Zeitaufwand ab. Banken erkennen Eigenleistung nur im Rahmen einer individuellen Prüfung an." />
 

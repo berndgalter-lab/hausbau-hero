@@ -1,5 +1,3 @@
-"use client";
-
 interface FAQ {
   q: string;
   a: string;

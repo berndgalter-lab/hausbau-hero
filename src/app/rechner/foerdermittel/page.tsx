@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import FAQSection from "@/components/FAQSection";
+import AngebotsBox from "@/components/AngebotsBox";
 import RechnerHinweis from "@/components/RechnerHinweis";
 import { getFaqBySlug } from "@/lib/faq-data";
 
@@ -555,7 +556,7 @@ export default function FoerdermittelFinder() {
 
       {/* ---- Results ---- */}
       <h2 className="text-xl font-bold text-stone-900 mb-1">
-        Passende Förderungen für „{foerderung.titel}"
+        Passende Förderungen für „{foerderung.titel}&ldquo;
       </h2>
       <p className="text-sm text-stone-500 mb-6">
         {foerderung.programme.length} Förderprogramm{foerderung.programme.length !== 1 && "e"} gefunden
@@ -720,6 +721,8 @@ export default function FoerdermittelFinder() {
           <li>BAFA-Zuschuss und KfW-Kredit <strong>NICHT</strong> für dieselbe Maßnahme kombinieren — aber für verschiedene Maßnahmen am selben Gebäude schon</li>
         </ol>
       </div>
+
+      <AngebotsBox slug="foerdermittel" />
 
       <RechnerHinweis text="Die dargestellten Förderprogramme entsprechen dem Stand März 2026. Förderbedingungen und -höhen können sich jederzeit ändern. Prüfe die aktuellen Konditionen direkt bei KfW (kfw.de) oder BAFA (bafa.de) und stelle Anträge immer VOR Baubeginn." />
 

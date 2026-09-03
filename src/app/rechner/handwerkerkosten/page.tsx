@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import FAQSection from "@/components/FAQSection";
+import AngebotsBox from "@/components/AngebotsBox";
 import RechnerHinweis from "@/components/RechnerHinweis";
 import { getFaqBySlug } from "@/lib/faq-data";
 
@@ -507,6 +508,8 @@ export default function HandwerkerkostenRechner() {
           </a>
         </div>
       )}
+
+      <AngebotsBox slug="handwerkerkosten" />
 
       <RechnerHinweis text="Die angezeigten Preise sind Richtwerte auf Basis aktueller Marktdaten (2026). Handwerkerpreise variieren je nach Region, Betrieb und Auftragslage. Hole für dein Projekt immer mindestens 3 konkrete Angebote ein." />
 
