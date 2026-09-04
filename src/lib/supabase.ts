@@ -18,5 +18,9 @@ export const supabase = createClient(
   supabaseAnonKey || 'placeholder-key'
 )
 
-/** Wie lange gerenderte Seiten und Supabase-Antworten gültig bleiben (Sekunden). */
+/**
+ * Wie lange gerenderte Seiten gültig bleiben (Sekunden).
+ * Referenzwert — in den Seiten selbst muss `export const revalidate` ein Literal sein,
+ * weil Next die Segment-Configs statisch analysiert. Beide Stellen zusammen halten.
+ */
 export const REVALIDATE = 3600

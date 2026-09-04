@@ -5,6 +5,7 @@ import FAQSection from "@/components/FAQSection";
 import AngebotsBox from "@/components/AngebotsBox";
 import RechnerHinweis from "@/components/RechnerHinweis";
 import { getFaqBySlug } from "@/lib/faq-data";
+import Link from "next/link";
 
 /* ------------------------------------------------------------------ */
 /*  Types & Data                                                       */
@@ -301,9 +302,9 @@ export default function BaugenehmigungCheck() {
       />
 
       <nav className="text-sm text-stone-500 mb-4">
-        <a href="/" className="hover:text-stone-700">Start</a>
+        <Link href="/" className="hover:text-stone-700">Start</Link>
         <span className="mx-2">›</span>
-        <a href="/rechner" className="hover:text-stone-700">Rechner</a>
+        <Link href="/rechner" className="hover:text-stone-700">Rechner</Link>
         <span className="mx-2">›</span>
         <span className="text-stone-900">Baugenehmigung</span>
       </nav>
@@ -423,19 +424,19 @@ export default function BaugenehmigungCheck() {
 
       <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-6">
         <p className="text-sm font-medium text-stone-800 mb-1">📖 Ratgeber zum Thema</p>
-        <a href="/finanzen/baugenehmigung-ratgeber" className="text-amber-600 hover:text-amber-700 font-medium text-sm">
+        <Link href="/finanzen/baugenehmigung-ratgeber" className="text-amber-600 hover:text-amber-700 font-medium text-sm">
           Baugenehmigung — wann brauchst du eine? →
-        </a>
+        </Link>
       </div>
 
       {/* More calculators */}
       <div className="bg-stone-50 border border-stone-200 rounded-xl p-6">
         <h2 className="text-lg font-bold mb-3">Weitere Rechner</h2>
         <div className="flex flex-wrap gap-3">
-          <a href="/rechner/foerdermittel" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Fördermittel-Finder</a>
-          <a href="/rechner/eigenleistung" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Eigenleistungs-Rechner</a>
-          <a href="/rechner/gewerk-reihenfolge" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Gewerk-Reihenfolge</a>
-          <a href="/rechner/nebenkosten" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Nebenkosten-Rechner</a>
+          <Link href="/rechner/foerdermittel" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Fördermittel-Finder</Link>
+          <Link href="/rechner/eigenleistung" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Eigenleistungs-Rechner</Link>
+          <Link href="/rechner/gewerk-reihenfolge" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Gewerk-Reihenfolge</Link>
+          <Link href="/rechner/nebenkosten" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Nebenkosten-Rechner</Link>
         </div>
       </div>
     </div>

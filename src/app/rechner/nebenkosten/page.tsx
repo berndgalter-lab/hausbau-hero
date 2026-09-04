@@ -4,6 +4,7 @@ import { useState } from "react";
 import FAQSection from "@/components/FAQSection";
 import AngebotsBox from "@/components/AngebotsBox";
 import { getFaqBySlug } from "@/lib/faq-data";
+import Link from "next/link";
 
 const BUNDESLAENDER = [
   { name: "Baden-Württemberg", satz: 5.0 },
@@ -121,9 +122,9 @@ export default function NebenkostenRechner() {
       />
 
       <nav className="text-sm text-stone-500 mb-4">
-        <a href="/" className="hover:text-stone-700">Start</a>
+        <Link href="/" className="hover:text-stone-700">Start</Link>
         <span className="mx-2">›</span>
-        <a href="/rechner" className="hover:text-stone-700">Rechner</a>
+        <Link href="/rechner" className="hover:text-stone-700">Rechner</Link>
         <span className="mx-2">›</span>
         <span className="text-stone-900">Nebenkosten</span>
       </nav>
@@ -275,19 +276,19 @@ export default function NebenkostenRechner() {
 
       <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-6">
         <p className="text-sm font-medium text-stone-800 mb-1">📖 Ratgeber zum Thema</p>
-        <a href="/finanzen/kaufnebenkosten-guide" className="text-amber-600 hover:text-amber-700 font-medium text-sm">
+        <Link href="/finanzen/kaufnebenkosten-guide" className="text-amber-600 hover:text-amber-700 font-medium text-sm">
           Kaufnebenkosten berechnen — der komplette Guide (2026) →
-        </a>
+        </Link>
       </div>
 
       {/* Rechner-Links */}
       <div className="bg-stone-50 border border-stone-200 rounded-xl p-6">
         <h2 className="text-lg font-bold mb-3">Weitere Rechner</h2>
         <div className="flex flex-wrap gap-3">
-          <a href="/rechner/handwerkerkosten" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Handwerkerkosten-Rechner</a>
-          <a href="/rechner/eigenleistung" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Eigenleistungs-Rechner</a>
-          <a href="/rechner/foerdermittel" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Fördermittel-Finder</a>
-          <a href="/rechner/baugenehmigung" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Baugenehmigung-Check</a>
+          <Link href="/rechner/handwerkerkosten" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Handwerkerkosten-Rechner</Link>
+          <Link href="/rechner/eigenleistung" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Eigenleistungs-Rechner</Link>
+          <Link href="/rechner/foerdermittel" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Fördermittel-Finder</Link>
+          <Link href="/rechner/baugenehmigung" className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors">Baugenehmigung-Check</Link>
         </div>
       </div>
     </div>

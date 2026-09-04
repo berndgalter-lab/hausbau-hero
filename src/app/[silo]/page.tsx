@@ -1,16 +1,19 @@
-import { supabase, REVALIDATE } from "@/lib/supabase";
+import { supabase } from "@/lib/supabase";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Link from "next/link";
 
 const VALID_SILOS = ["farben", "bad", "rohbau", "boden", "werkzeuge", "stromerzeuger", "kueche", "garten", "maschinen", "finanzen"];
 
-export const revalidate = REVALIDATE;
+// 1 h. Muss ein Literal sein — Next analysiert Segment-Configs statisch (siehe REVALIDATE in lib/supabase.ts).
+export const revalidate = 3600;
 
 export function generateStaticParams() {
   return VALID_SILOS.map((silo) => ({ silo }));
 }
 
-export async function generateMetadata({ params }: { params: { silo: string } }): Promise<Metadata> {
+export async function generateMetadata(props: { params: Promise<{ silo: string }> }): Promise<Metadata> {
+  const params = await props.params;
   const { data: silo } = await supabase
     .from("silos")
     .select("name, beschreibung")
@@ -34,7 +37,8 @@ export async function generateMetadata({ params }: { params: { silo: string } })
   };
 }
 
-export default async function SiloPage({ params }: { params: { silo: string } }) {
+export default async function SiloPage(props: { params: Promise<{ silo: string }> }) {
+  const params = await props.params;
   if (!VALID_SILOS.includes(params.silo)) {
     notFound();
   }
@@ -92,7 +96,7 @@ export default async function SiloPage({ params }: { params: { silo: string } })
         }}
       />
       <nav className="text-sm text-stone-500 mb-4">
-        <a href="/" className="hover:text-stone-700">Start</a>
+        <Link href="/" className="hover:text-stone-700">Start</Link>
         <span className="mx-2">›</span>
         <span className="text-stone-900">{silo.name}</span>
       </nav>
@@ -110,7 +114,7 @@ export default async function SiloPage({ params }: { params: { silo: string } })
           <h2 className="text-xl font-bold mb-4">Rechner</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {rechnerList.map((r: any) => (
-              <a
+              <Link
                 key={r.slug}
                 href={`/rechner/${r.slug}`}
                 className="group flex items-center gap-4 p-4 bg-amber-50 border border-amber-200 rounded-xl hover:border-amber-400 transition-all"
@@ -122,7 +126,7 @@ export default async function SiloPage({ params }: { params: { silo: string } })
                   </div>
                   <div className="text-sm text-stone-600">{r.beschreibung}</div>
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
         </section>
@@ -133,7 +137,7 @@ export default async function SiloPage({ params }: { params: { silo: string } })
           <h2 className="text-xl font-bold mb-4">Ratgeber & Artikel</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {seiten.map((s: any) => (
-              <a
+              <Link
                 key={s.slug}
                 href={`/${params.silo}/${s.slug}`}
                 className="block p-4 bg-white border border-stone-200 rounded-lg hover:border-amber-400 transition-all"
@@ -144,7 +148,7 @@ export default async function SiloPage({ params }: { params: { silo: string } })
                     {s.seo_description}
                   </div>
                 )}
-              </a>
+              </Link>
             ))}
           </div>
         </section>
@@ -153,9 +157,9 @@ export default async function SiloPage({ params }: { params: { silo: string } })
       {rechnerList.length === 0 && seiten.length === 0 && (
         <div className="text-center py-12 text-stone-500">
           <p className="text-lg mb-2">Hier gibt es bald mehr Inhalte!</p>
-          <a href="/" className="text-amber-600 hover:text-amber-700 font-medium">
+          <Link href="/" className="text-amber-600 hover:text-amber-700 font-medium">
             ← Zurück zur Startseite
-          </a>
+          </Link>
         </div>
       )}
     </div>

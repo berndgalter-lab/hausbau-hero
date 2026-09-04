@@ -1,7 +1,9 @@
-import { supabase, REVALIDATE } from "@/lib/supabase";
+import { supabase } from "@/lib/supabase";
 import type { Metadata } from "next";
+import Link from "next/link";
 
-export const revalidate = REVALIDATE;
+// 1 h. Muss ein Literal sein — Next analysiert Segment-Configs statisch (siehe REVALIDATE in lib/supabase.ts).
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: "Was kostet dein Bauprojekt? — Hausbau Hero",
@@ -127,24 +129,24 @@ export default async function Home() {
         </p>
 
         <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center max-w-2xl mx-auto">
-          <a
+          <Link
             href="/rechner/nebenkosten"
             className="flex-1 bg-amber-500 hover:bg-amber-400 text-stone-900 font-bold px-6 py-3.5 rounded-lg transition-colors text-center"
           >
             Kaufnebenkosten berechnen
-          </a>
-          <a
+          </Link>
+          <Link
             href="/rechner/handwerkerkosten"
             className="flex-1 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-bold px-6 py-3.5 rounded-lg border border-white/20 transition-colors text-center"
           >
             Handwerkerkosten berechnen
-          </a>
-          <a
+          </Link>
+          <Link
             href="/rechner/eigenleistung"
             className="flex-1 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-bold px-6 py-3.5 rounded-lg border border-white/20 transition-colors text-center"
           >
             Eigenleistung berechnen
-          </a>
+          </Link>
         </div>
 
         <p className="mt-6 text-sm text-stone-400">
@@ -156,7 +158,7 @@ export default async function Home() {
       <section className="mt-12 mb-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {TOP_RECHNER.map((r) => (
-            <a
+            <Link
               key={r.slug}
               href={`/rechner/${r.slug}`}
               className={`group relative flex flex-col p-6 bg-white border-2 rounded-xl hover:shadow-lg transition-all ${
@@ -184,7 +186,7 @@ export default async function Home() {
               }`}>
                 Jetzt berechnen →
               </span>
-            </a>
+            </Link>
           ))}
         </div>
       </section>
@@ -200,7 +202,7 @@ export default async function Home() {
             </h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
               {gruppe.rechner.map((r) => (
-                <a
+                <Link
                   key={r.slug}
                   href={`/rechner/${r.slug}`}
                   className="group flex items-center gap-3 p-3 bg-white border border-stone-200 rounded-lg hover:border-amber-400 hover:shadow-sm transition-all"
@@ -209,19 +211,19 @@ export default async function Home() {
                   <span className="text-sm font-medium group-hover:text-amber-700 transition-colors">
                     {r.name}
                   </span>
-                </a>
+                </Link>
               ))}
             </div>
           </div>
         ))}
 
         <div className="text-center mt-4">
-          <a
+          <Link
             href="/rechner"
             className="text-amber-600 hover:text-amber-700 font-medium text-sm"
           >
             Alle Rechner im Detail →
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -235,7 +237,7 @@ export default async function Home() {
             {artikel.map((a: any) => {
               const silo = a.silos;
               return (
-                <a
+                <Link
                   key={a.slug}
                   href={`/${silo?.slug || "werkzeuge"}/${a.slug}`}
                   className="group flex flex-col p-5 bg-white border border-stone-200 rounded-xl hover:border-amber-400 hover:shadow-md transition-all"
@@ -253,17 +255,17 @@ export default async function Home() {
                       {a.seo_description}
                     </p>
                   )}
-                </a>
+                </Link>
               );
             })}
           </div>
           <div className="text-center mt-6">
-            <a
+            <Link
               href="/rechner"
               className="text-amber-600 hover:text-amber-700 font-medium text-sm"
             >
               Alle Rechner & Ratgeber →
-            </a>
+            </Link>
           </div>
         </section>
       )}

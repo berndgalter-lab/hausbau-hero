@@ -7,8 +7,10 @@ import RechnerClient from "./RechnerClient";
 import { getFaqBySlug } from "@/lib/faq-data";
 import { getRatgeberSlug } from "@/lib/ratgeber-zuordnung";
 import type { RechnerMaterial } from "@/lib/rechner-logic";
+import Link from "next/link";
 
-export const revalidate = REVALIDATE;
+// 1 h. Muss ein Literal sein — Next analysiert Segment-Configs statisch (siehe REVALIDATE in lib/supabase.ts).
+export const revalidate = 3600;
 
 /** Alle Rechner zur Build-Zeit vorrendern; neue kommen über die Revalidierung dazu. */
 export async function generateStaticParams() {
@@ -50,7 +52,8 @@ async function ladeRechner(slug: string) {
   };
 }
 
-export default async function RechnerPage({ params }: { params: { slug: string } }) {
+export default async function RechnerPage(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params;
   const daten = await ladeRechner(params.slug);
   if (!daten) notFound();
 
@@ -92,9 +95,9 @@ export default async function RechnerPage({ params }: { params: { slug: string }
       />
 
       <nav className="text-sm text-stone-500 mb-4">
-        <a href="/" className="hover:text-stone-700">Start</a>
+        <Link href="/" className="hover:text-stone-700">Start</Link>
         <span className="mx-2">›</span>
-        <a href="/rechner" className="hover:text-stone-700">Rechner</a>
+        <Link href="/rechner" className="hover:text-stone-700">Rechner</Link>
         <span className="mx-2">›</span>
         <span className="text-stone-900">{rechner.name}</span>
       </nav>
@@ -115,7 +118,7 @@ export default async function RechnerPage({ params }: { params: { slug: string }
       {ratgeber && (
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
           <h2 className="text-lg font-bold mb-2">📖 Ratgeber zum Thema</h2>
-          <a href={`/${ratgeber.silos?.slug || "rohbau"}/${ratgeber.slug}`} className="group block">
+          <Link href={`/${ratgeber.silos?.slug || "rohbau"}/${ratgeber.slug}`} className="group block">
             <div className="font-medium group-hover:text-amber-700 transition-colors">
               {ratgeber.titel}
             </div>
@@ -123,7 +126,7 @@ export default async function RechnerPage({ params }: { params: { slug: string }
               <p className="text-sm text-stone-600 mt-1">{ratgeber.seo_description}</p>
             )}
             <span className="inline-block mt-2 text-amber-600 text-sm font-medium">Weiterlesen →</span>
-          </a>
+          </Link>
         </div>
       )}
 

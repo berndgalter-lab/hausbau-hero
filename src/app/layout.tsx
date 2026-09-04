@@ -3,6 +3,7 @@ import "./globals.css";
 import { supabase } from "@/lib/supabase";
 import Navigation from "@/components/Navigation";
 import { Analytics } from "@vercel/analytics/next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://hausbau-hero.de"),
@@ -132,12 +133,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <body className="bg-stone-50 text-stone-900 antialiased">
         <header className="border-b border-stone-200 bg-white sticky top-0 z-50 relative">
           <div className="mx-auto max-w-5xl px-4 py-4 flex items-center justify-between">
-            <a href="/" className="flex items-center gap-2 shrink-0">
+            <Link href="/" className="flex items-center gap-2 shrink-0">
               <span className="text-2xl font-bold text-amber-600">⚡</span>
               <span className="text-xl font-bold tracking-tight">
                 Hausbau<span className="text-amber-600">Hero</span>
               </span>
-            </a>
+            </Link>
             <Navigation silos={navSilos} />
           </div>
         </header>
@@ -151,8 +152,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               verdienen wir an qualifizierten Verkäufen.
             </p>
             <div className="mt-2 flex gap-4">
-              <a href="/impressum" className="hover:text-stone-700">Impressum</a>
-              <a href="/datenschutz" className="hover:text-stone-700">Datenschutz</a>
+              <Link href="/impressum" className="hover:text-stone-700">Impressum</Link>
+              <Link href="/datenschutz" className="hover:text-stone-700">Datenschutz</Link>
             </div>
           </div>
         </footer>

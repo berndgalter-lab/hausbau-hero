@@ -1,7 +1,9 @@
 import { supabase } from "@/lib/supabase";
 import type { Metadata } from "next";
+import Link from "next/link";
 
-export const revalidate = 60;
+// 1 h. Muss ein Literal sein — Next analysiert Segment-Configs statisch (siehe REVALIDATE in lib/supabase.ts).
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: "Alle Rechner — Kostenlose Tools für dein Bauprojekt",
@@ -118,7 +120,7 @@ export default async function RechnerUebersicht() {
       />
 
       <nav className="text-sm text-stone-500 mb-4">
-        <a href="/" className="hover:text-stone-700">Start</a>
+        <Link href="/" className="hover:text-stone-700">Start</Link>
         <span className="mx-2">›</span>
         <span className="text-stone-900">Rechner</span>
       </nav>
@@ -139,7 +141,7 @@ export default async function RechnerUebersicht() {
           {FINANZ_RECHNER.map((r) => {
             const a = ACCENT[r.accent];
             return (
-              <a
+              <Link
                 key={r.slug}
                 href={`/rechner/${r.slug}`}
                 className={`group flex gap-4 p-5 ${a.bg} border-2 ${a.border} ${a.hoverBorder} rounded-xl hover:shadow-md transition-all`}
@@ -161,7 +163,7 @@ export default async function RechnerUebersicht() {
                     Jetzt berechnen →
                   </span>
                 </div>
-              </a>
+              </Link>
             );
           })}
         </div>
@@ -178,7 +180,7 @@ export default async function RechnerUebersicht() {
             const name = info?.name || m.slug;
             const beschreibung = info?.beschreibung || "";
             return (
-              <a
+              <Link
                 key={m.slug}
                 href={`/rechner/${m.slug}`}
                 className="group flex gap-3 p-4 bg-white border border-stone-200 rounded-xl hover:border-amber-400 hover:shadow-sm transition-all"
@@ -194,7 +196,7 @@ export default async function RechnerUebersicht() {
                     </p>
                   )}
                 </div>
-              </a>
+              </Link>
             );
           })}
         </div>
@@ -207,7 +209,7 @@ export default async function RechnerUebersicht() {
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {PLANUNG_RECHNER.map((r) => (
-            <a
+            <Link
               key={r.slug}
               href={`/rechner/${r.slug}`}
               className="group flex gap-4 p-5 bg-white border-2 border-stone-200 rounded-xl hover:border-amber-400 hover:shadow-md transition-all"
@@ -222,7 +224,7 @@ export default async function RechnerUebersicht() {
                   Jetzt ansehen →
                 </span>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </section>

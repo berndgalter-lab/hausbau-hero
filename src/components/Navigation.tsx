@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 interface NavSilo {
   slug: string;
@@ -32,13 +33,13 @@ export default function Navigation({ silos }: { silos: NavSilo[] }) {
     <>
       {/* Desktop */}
       <nav className="hidden lg:flex items-center gap-4 text-sm font-medium text-stone-600">
-        <a href="/rechner" className="hover:text-stone-900 transition-colors">
+        <Link href="/rechner" className="hover:text-stone-900 transition-colors">
           Rechner
-        </a>
+        </Link>
         {silos.map((s) => (
-          <a key={s.slug} href={`/${s.slug}`} className="hover:text-stone-900 transition-colors whitespace-nowrap">
+          <Link key={s.slug} href={`/${s.slug}`} className="hover:text-stone-900 transition-colors whitespace-nowrap">
             {shortName(s)}
-          </a>
+          </Link>
         ))}
       </nav>
 
@@ -63,18 +64,18 @@ export default function Navigation({ silos }: { silos: NavSilo[] }) {
       {mobileOpen && (
         <div className="lg:hidden absolute left-0 right-0 top-full bg-white border-b border-stone-200 shadow-lg z-50">
           <div className="px-4 py-3 space-y-1">
-            <a href="/rechner" className="block py-2 text-sm font-medium text-stone-700 hover:text-amber-600">
+            <Link href="/rechner" className="block py-2 text-sm font-medium text-stone-700 hover:text-amber-600">
               🧮 Rechner
-            </a>
+            </Link>
             {silos.map((s) => (
-              <a
+              <Link
                 key={s.slug}
                 href={`/${s.slug}`}
                 className="block py-2 text-sm font-medium text-stone-700 hover:text-amber-600"
               >
                 {s.icon && <span className="mr-2">{s.icon}</span>}
                 {shortName(s)}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
