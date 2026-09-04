@@ -1,6 +1,6 @@
 # hausbau-hero.de
 
-Kostenrechner und Ratgeber für Bauherren. Next.js 14 (App Router), Supabase, Vercel.
+Kostenrechner und Ratgeber für Bauherren. Next.js 16 (App Router), React 19, Supabase, Vercel.
 
 ## Setup
 
@@ -31,6 +31,11 @@ gekauft.
 > also keine toten Links. Sobald du einen Partnerlink einträgst, erscheint er automatisch
 > direkt unter dem Rechenergebnis.
 
+Recherchierte Programme stehen als Kommentar in derselben Datei — Baufinanzierung über
+financeads (Interhyp/Baufi24 bis 32,50 €, Dr. Klein 25,00 € pro Lead), Handwerkerangebote
+über AWIN (Aroundhome, 5–35 € pro Lead). Zum Vergleich: Amazon zahlt auf Baustoffe
+Cent-Beträge. **Hier hängt der größere Teil des Ertragspotenzials.**
+
 ## Wichtige Konventionen
 
 - **Caching:** `REVALIDATE` aus `src/lib/supabase.ts` (1 h) gilt für alle Seiten. Kein
@@ -46,6 +51,13 @@ gekauft.
   bekommen das Partner-Tag.
 - **Skripte in `scripts/`** sind einmalige Migrationen. Sie brauchen
   `SUPABASE_SERVICE_KEY` aus der Umgebung — der Key gehört niemals in den Code.
+- **Weiterleitungen** liegen in `src/proxy.ts` (hieß bis Next 15 `middleware.ts`).
+- **Segment-Configs** wie `export const revalidate` müssen Literale sein — Next wertet
+  sie statisch aus, ein importierter Wert lässt den Build fehlschlagen.
+- **Interne Links** über `next/link`, nicht `<a href="/…">`. Affiliate- und externe Links
+  bleiben `<a>` mit `target="_blank"` und `rel="nofollow noopener noreferrer sponsored"`.
+- **Linting** läuft über `npm run lint` (ESLint 9 direkt, Flat Config in
+  `eslint.config.mjs`). `next lint` gibt es seit Next 16 nicht mehr.
 
 ## Neuer Rechner
 

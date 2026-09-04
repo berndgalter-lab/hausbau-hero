@@ -47,11 +47,23 @@ export function getAffiliateLink(
  * automatisch direkt unter dem Rechenergebnis, also an der Stelle mit der höchsten
  * Aufmerksamkeit.
  *
- * Kandidaten für den deutschen Markt (Konditionen jeweils selbst prüfen):
- *   Handwerker-/Bauleistungen … Aroundhome, DAA, MyHammer
- *   Baufinanzierung ………………… Interhyp-Partnerprogramm, Dr. Klein, Baufi24
- *   Photovoltaik / Wärmepumpe … Selfmade Energy, DAA Energie
- * Netzwerke, über die das meiste davon läuft: AWIN, Financeads, Belboon.
+ * Recherchierte Programme (Stand 09/2026, Konditionen VOR Anmeldung selbst prüfen —
+ * die Zahlen stammen aus Programmverzeichnissen und ändern sich):
+ *
+ *   Baufinanzierung — über financeads.net
+ *     Interhyp    bis 32,50 € pro Lead   financeads.net/partnerprogramme/interhyp/
+ *     Baufi24     bis 32,50 € pro Lead
+ *     Dr. Klein        25,00 € pro Lead  (nicht bei Summen unter 50.000 €)
+ *
+ *   Handwerker-/Bauleistungen — über AWIN
+ *     Aroundhome    5–35 € pro Lead, je nach Produkt
+ *                   ui.awin.com/merchant-profile/68536
+ *                   Kontakt: affiliateprogramm@aroundhome.de
+ *
+ * Zur Einordnung: Amazon zahlt auf Baustoffe einen niedrigen einstelligen
+ * Prozentsatz eines kleinen Warenkorbs — also Cent-Beträge. Ein einziger
+ * vermittelter Finanzierungs-Lead entspricht mehreren hundert Amazon-Klicks.
+ * Deshalb hängt an diesen sechs Rechnern der größere Teil des Ertragspotenzials.
  * ──────────────────────────────────────────────────────────────────────────── */
 
 export interface AngebotsCTA {
@@ -64,6 +76,7 @@ export interface AngebotsCTA {
 }
 
 const CTA_BY_SLUG: Record<string, AngebotsCTA> = {
+  // Aroundhome (AWIN) — Handwerkerangebote
   handwerkerkosten: {
     ueberschrift: 'Was kostet es bei dir konkret?',
     text: 'Stundensätze sind Durchschnittswerte. Ein echtes Angebot aus deiner Region weicht oft um mehrere tausend Euro davon ab — nach oben wie nach unten. Drei Angebote zu vergleichen ist der wirksamste Hebel, den du hast.',
@@ -71,6 +84,7 @@ const CTA_BY_SLUG: Record<string, AngebotsCTA> = {
     url: '',
     hinweis: 'Kostenlos und unverbindlich.',
   },
+  // Aroundhome (AWIN) — Angebote für die abgegebenen Gewerke
   eigenleistung: {
     ueberschrift: 'Den Rest machen lassen',
     text: 'Was du nicht selbst übernimmst, sollte zum Festpreis vergeben werden. Vergleiche Angebote für die Gewerke, die du abgibst.',
@@ -78,6 +92,7 @@ const CTA_BY_SLUG: Record<string, AngebotsCTA> = {
     url: '',
     hinweis: 'Kostenlos und unverbindlich.',
   },
+  // Interhyp / Baufi24 / Dr. Klein (financeads) — höchste Lead-Vergütung der Seite
   nebenkosten: {
     ueberschrift: 'Finanzierung durchrechnen lassen',
     text: 'Die Nebenkosten musst du in der Regel aus Eigenkapital zahlen. Wie viel Haus danach übrig bleibt, hängt an den Konditionen — und die unterscheiden sich zwischen Banken deutlich.',
@@ -85,6 +100,7 @@ const CTA_BY_SLUG: Record<string, AngebotsCTA> = {
     url: '',
     hinweis: 'Kostenlos und unverbindlich.',
   },
+  // Interhyp / Baufi24 (financeads) — KfW läuft ohnehin über die Hausbank
   foerdermittel: {
     ueberschrift: 'Förderung und Finanzierung zusammen planen',
     text: 'KfW-Kredite laufen über deine Bank, nicht direkt über die KfW. Wer das gemeinsam mit der Hauptfinanzierung rechnet, holt meist mehr heraus.',
@@ -92,6 +108,7 @@ const CTA_BY_SLUG: Record<string, AngebotsCTA> = {
     url: '',
     hinweis: 'Kostenlos und unverbindlich.',
   },
+  // Aroundhome (AWIN) — Architekten / Bauvorlageberechtigte
   baugenehmigung: {
     ueberschrift: 'Antrag vom Fachplaner erstellen lassen',
     text: 'Bauanträge müssen in fast allen Bundesländern von einer bauvorlageberechtigten Person eingereicht werden. Hol dir Angebote von Architekten und Bauingenieuren aus deiner Region.',
@@ -99,6 +116,7 @@ const CTA_BY_SLUG: Record<string, AngebotsCTA> = {
     url: '',
     hinweis: 'Kostenlos und unverbindlich.',
   },
+  // Aroundhome (AWIN) — Gewerke ausschreiben
   'gewerk-reihenfolge': {
     ueberschrift: 'Gewerke jetzt ausschreiben',
     text: 'Wer früh anfragt, bekommt bessere Preise und Termine. Vergleiche Angebote für die Gewerke, die als Nächstes anstehen.',
