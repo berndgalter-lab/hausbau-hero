@@ -1,7 +1,7 @@
-"use client";
 import { getAffiliateLink, formatPreis } from "@/lib/rechner-logic";
+import { AFFILIATE_REL, mitTrackingId } from "@/lib/affiliate";
 
-interface Produkt {
+export interface Produkt {
   id: string;
   name: string;
   hersteller?: string;
@@ -18,20 +18,41 @@ interface Produkt {
   ist_preistipp?: boolean;
 }
 
-export default function ProduktKarte({ produkt, compact = false }: { produkt: Produkt; compact?: boolean }) {
+export function produktLink(produkt: Produkt): string | null {
   const link = getAffiliateLink(produkt.affiliate_url, produkt.amazon_asin);
+  return link ? mitTrackingId(link, "box") : null;
+}
+
+function Badges({ produkt }: { produkt: Produkt }) {
+  return (
+    <div className="flex flex-wrap items-center gap-2">
+      {produkt.ist_testsieger && (
+        <span className="bg-amber-100 text-amber-800 text-xs font-semibold px-2 py-0.5 rounded">Unsere Empfehlung</span>
+      )}
+      {produkt.ist_preistipp && (
+        <span className="bg-green-100 text-green-800 text-xs font-semibold px-2 py-0.5 rounded">Preis-Tipp</span>
+      )}
+      {produkt.einsatzbereich && (
+        <span className="bg-stone-100 text-stone-600 text-xs px-2 py-0.5 rounded">{produkt.einsatzbereich}</span>
+      )}
+    </div>
+  );
+}
+
+export default function ProduktKarte({ produkt, compact = false }: { produkt: Produkt; compact?: boolean }) {
+  const link = produktLink(produkt);
 
   if (compact) {
     return (
-      <div className="flex items-center justify-between bg-white rounded-lg p-3 border border-stone-200">
+      <div className="flex items-center justify-between gap-3 bg-white rounded-lg p-3 border border-stone-200">
         <div>
           <div className="font-medium text-sm">{produkt.name}</div>
-          {produkt.preis_von && (
-            <div className="text-xs text-stone-500">ab {formatPreis(produkt.preis_von)}</div>
+          {produkt.kurzbeschreibung && (
+            <div className="text-xs text-stone-500">{produkt.kurzbeschreibung}</div>
           )}
         </div>
         {link && (
-          <a href={link} target="_blank" rel="noopener noreferrer nofollow"
+          <a href={link} target="_blank" rel={AFFILIATE_REL}
             className="bg-amber-600 text-white text-xs font-semibold px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors whitespace-nowrap">
             Auf Amazon →
           </a>
@@ -44,17 +65,7 @@ export default function ProduktKarte({ produkt, compact = false }: { produkt: Pr
     <div className="bg-white border border-stone-200 rounded-xl p-5 relative">
       <div className="flex items-start justify-between mb-3">
         <div>
-          <div className="flex items-center gap-2">
-            {produkt.ist_testsieger && (
-              <span className="bg-amber-100 text-amber-800 text-xs font-semibold px-2 py-0.5 rounded">Empfehlung</span>
-            )}
-            {produkt.ist_preistipp && (
-              <span className="bg-green-100 text-green-800 text-xs font-semibold px-2 py-0.5 rounded">Preis-Tipp</span>
-            )}
-            {produkt.einsatzbereich && (
-              <span className="bg-stone-100 text-stone-600 text-xs px-2 py-0.5 rounded">{produkt.einsatzbereich}</span>
-            )}
-          </div>
+          <Badges produkt={produkt} />
           <h3 className="text-lg font-semibold mt-1">{produkt.name}</h3>
           {produkt.hersteller && <div className="text-sm text-stone-500">{produkt.hersteller}</div>}
         </div>
@@ -69,23 +80,11 @@ export default function ProduktKarte({ produkt, compact = false }: { produkt: Pr
         )}
       </div>
 
-      {produkt.bewertung && (
-        <div className="flex items-center gap-2 mb-3">
-          <div className="text-sm font-medium">{produkt.bewertung}/10</div>
-          <div className="flex-1 bg-stone-100 rounded-full h-2">
-            <div
-              className="bg-amber-500 h-2 rounded-full transition-all"
-              style={{ width: `${(produkt.bewertung / 10) * 100}%` }}
-            />
-          </div>
-        </div>
-      )}
-
       {produkt.kurzbeschreibung && (
         <p className="text-sm text-stone-600 mb-3">{produkt.kurzbeschreibung}</p>
       )}
 
-      <div className="grid grid-cols-2 gap-4 mb-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
         {produkt.vorteile && produkt.vorteile.length > 0 && (
           <div>
             <div className="text-xs font-semibold text-green-700 mb-1">Vorteile</div>
@@ -109,11 +108,43 @@ export default function ProduktKarte({ produkt, compact = false }: { produkt: Pr
       </div>
 
       {link && (
-        <a href={link} target="_blank" rel="noopener noreferrer nofollow"
+        <a href={link} target="_blank" rel={AFFILIATE_REL}
           className="block w-full text-center bg-amber-600 text-white font-semibold py-2.5 rounded-lg hover:bg-amber-700 transition-colors">
-          Auf Amazon ansehen →
+          Aktuellen Preis auf Amazon prüfen →
         </a>
       )}
     </div>
+  );
+}
+
+// Kompakte Übersicht ganz oben im Artikel: wer schon weiß, was er will,
+// kommt mit einem Klick zum Produkt, ohne den ganzen Text zu lesen.
+export function ProduktUebersicht({ produkte }: { produkte: Produkt[] }) {
+  if (produkte.length === 0) return null;
+  return (
+    <section className="mb-8 border-2 border-amber-300 rounded-xl overflow-hidden">
+      <div className="bg-amber-50 px-4 py-3 border-b border-amber-200">
+        <h2 className="text-lg font-bold text-stone-900">Unsere Empfehlungen auf einen Blick</h2>
+      </div>
+      <ul className="divide-y divide-stone-100 bg-white">
+        {produkte.map((p) => {
+          const link = produktLink(p);
+          return (
+            <li key={p.id} className="flex flex-col sm:flex-row sm:items-center gap-3 px-4 py-3">
+              <div className="flex-1 min-w-0">
+                <Badges produkt={p} />
+                <div className="font-semibold text-stone-900 mt-1">{p.name}</div>
+              </div>
+              {link && (
+                <a href={link} target="_blank" rel={AFFILIATE_REL}
+                  className="shrink-0 text-center bg-amber-600 text-white text-sm font-semibold px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors whitespace-nowrap">
+                  Preis prüfen →
+                </a>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+    </section>
   );
 }

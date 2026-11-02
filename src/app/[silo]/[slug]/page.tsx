@@ -1,7 +1,7 @@
 import { supabase } from "@/lib/supabase";
 import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
-import ProduktKarte from "@/components/ProduktKarte";
+import ProduktKarte, { ProduktUebersicht } from "@/components/ProduktKarte";
 import ArticleContent from "@/components/ArticleContent";
 import { getPassendeRechner } from "@/lib/rechner-zuordnung";
 
@@ -116,16 +116,7 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
         Dieser Artikel enthält Affiliate-Links. Wenn du über diese Links einkaufst, erhalten wir eine kleine Provision — für dich ändert sich der Preis nicht.
       </div>
 
-      {hauptProdukte.length > 0 && (
-        <section className="mb-8">
-          <h2 className="text-xl font-bold mb-4">Unsere Empfehlungen</h2>
-          <div className="grid gap-4">
-            {hauptProdukte.map((p: any) => (
-              <ProduktKarte key={p.id} produkt={p} />
-            ))}
-          </div>
-        </section>
-      )}
+      <ProduktUebersicht produkte={hauptProdukte} />
 
       {hasContent ? (
         <ArticleContent html={seite.content_md} />
@@ -136,6 +127,17 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
             Zurück zu {siloName} →
           </a>
         </div>
+      )}
+
+      {hauptProdukte.length > 0 && (
+        <section className="mt-10 mb-8">
+          <h2 className="text-2xl font-bold mb-4">Unsere Empfehlungen im Detail</h2>
+          <div className="grid gap-4">
+            {hauptProdukte.map((p: any) => (
+              <ProduktKarte key={p.id} produkt={p} />
+            ))}
+          </div>
+        </section>
       )}
 
       {werkzeuge.length > 0 && (
