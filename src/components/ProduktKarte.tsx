@@ -52,7 +52,7 @@ export default function ProduktKarte({ produkt, compact = false }: { produkt: Pr
           )}
         </div>
         {link && (
-          <a href={link} target="_blank" rel={AFFILIATE_REL}
+          <a href={link} target="_blank" rel={AFFILIATE_REL} data-platzierung="box" data-kennung={produkt.name.slice(0, 80)}
             className="bg-amber-600 text-white text-xs font-semibold px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors whitespace-nowrap">
             Auf Amazon →
           </a>
@@ -108,7 +108,7 @@ export default function ProduktKarte({ produkt, compact = false }: { produkt: Pr
       </div>
 
       {link && (
-        <a href={link} target="_blank" rel={AFFILIATE_REL}
+        <a href={link} target="_blank" rel={AFFILIATE_REL} data-platzierung="box" data-kennung={produkt.name.slice(0, 80)}
           className="block w-full text-center bg-amber-600 text-white font-semibold py-2.5 rounded-lg hover:bg-amber-700 transition-colors">
           Aktuellen Preis auf Amazon prüfen →
         </a>
@@ -136,7 +136,7 @@ export function ProduktUebersicht({ produkte }: { produkte: Produkt[] }) {
                 <div className="font-semibold text-stone-900 mt-1">{p.name}</div>
               </div>
               {link && (
-                <a href={link} target="_blank" rel={AFFILIATE_REL}
+                <a href={link} target="_blank" rel={AFFILIATE_REL} data-platzierung="uebersicht" data-kennung={p.name.slice(0, 80)}
                   className="shrink-0 text-center bg-amber-600 text-white text-sm font-semibold px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors whitespace-nowrap">
                   Preis prüfen →
                 </a>

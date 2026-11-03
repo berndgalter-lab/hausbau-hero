@@ -1,22 +1,17 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { supabase } from "@/lib/supabase";
 import Navigation from "@/components/Navigation";
+import KlickZaehler from "@/components/KlickZaehler";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://hausbau-hero.de"),
   title: {
-    default: "Hausbau Hero — Kostenlose Materialrechner für Bauherren & Handwerker",
+    default: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Kaufberatung",
     template: "%s | Hausbau Hero",
   },
   description:
-    "Berechne Material, finde das richtige Werkzeug, spare Geld. Kostenlose Rechner für Fliesen, Wandfarbe, Trockenbau und mehr — mit Materialliste, Preisen und Amazon-Links.",
-  keywords: [
-    "Materialrechner", "Hausbau", "Baurechner", "Fliesen berechnen",
-    "Wandfarbe berechnen", "Trockenbau Rechner", "Baumaterial Rechner",
-    "Handwerker Rechner",
-  ],
+    "Das passende Ersatzteil für Armatur und Spülkasten finden, das richtige Bad-Produkt wählen und selbst einbauen – mit Artikelnummern und Quellen.",
   authors: [{ name: "Hausbau Hero" }],
   creator: "BG Online Media UG",
   publisher: "Hausbau Hero",
@@ -36,42 +31,29 @@ export const metadata: Metadata = {
     locale: "de_DE",
     siteName: "Hausbau Hero",
     url: "https://hausbau-hero.de",
-    title: "Hausbau Hero — Kostenlose Materialrechner für Bauherren & Handwerker",
+    title: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Kaufberatung",
     description:
-      "Berechne Material, finde das richtige Werkzeug, spare Geld. Kostenlose Rechner mit Materialliste und Preisen.",
+      "Das passende Ersatzteil für Armatur und Spülkasten finden – mit Artikelnummern und Quellen.",
     images: [
       {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "Hausbau Hero — Materialrechner für Bauherren",
+        alt: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Kaufberatung",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hausbau Hero — Materialrechner für Bauherren",
+    title: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Kaufberatung",
     description:
-      "Kostenlose Materialrechner mit Einkaufsliste, Preisen und Werkzeug-Empfehlung.",
+      "Das passende Ersatzteil für Armatur und Spülkasten finden – mit Artikelnummern und Quellen.",
     images: ["/opengraph-image"],
   },
   alternates: {
     canonical: "https://hausbau-hero.de",
   },
 };
-
-const HIDDEN_SILOS = new Set(["kueche", "maschinen"]);
-
-const FALLBACK_NAV_SILOS = [
-  { slug: "finanzen", name: "Finanzen", icon: "💰" },
-  { slug: "rohbau", name: "Rohbau", icon: "🧱" },
-  { slug: "bad", name: "Bad", icon: "🚿" },
-  { slug: "boden", name: "Boden", icon: "🪵" },
-  { slug: "farben", name: "Farben", icon: "🎨" },
-  { slug: "werkzeuge", name: "Werkzeuge", icon: "🔧" },
-  { slug: "garten", name: "Garten", icon: "🌿" },
-  { slug: "stromerzeuger", name: "Strom", icon: "⚡" },
-];
 
 const organizationLd = {
   "@context": "https://schema.org",
@@ -80,7 +62,7 @@ const organizationLd = {
   url: "https://hausbau-hero.de",
   logo: "https://hausbau-hero.de/logo.png",
   description:
-    "Kostenlose Materialrechner und Werkzeug-Empfehlungen für Bauherren und Handwerker.",
+    "Sanitär-Ersatzteile finden und Bad-Produkte auswählen – mit Artikelnummern und Quellen.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Grünwiesenstraße 33",
@@ -101,21 +83,12 @@ const websiteLd = {
   "@type": "WebSite",
   name: "Hausbau Hero",
   url: "https://hausbau-hero.de",
-  description: "Kostenlose Materialrechner für Bauherren und Handwerker.",
+  description: "Sanitär-Ersatzteile finden und Bad-Produkte auswählen.",
   inLanguage: "de-DE",
   publisher: { "@type": "Organization", name: "Hausbau Hero" },
 };
 
-export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  let navSilos = FALLBACK_NAV_SILOS;
-  try {
-    const { data } = await supabase
-      .from("silos")
-      .select("slug, name, icon")
-      .order("sortierung");
-    if (data && data.length > 0) navSilos = data.filter((s: any) => !HIDDEN_SILOS.has(s.slug));
-  } catch {}
-
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="de">
       <head>
@@ -138,7 +111,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                 Hausbau<span className="text-amber-600">Hero</span>
               </span>
             </a>
-            <Navigation silos={navSilos} />
+            <Navigation />
           </div>
         </header>
 
@@ -156,6 +129,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             </div>
           </div>
         </footer>
+        <KlickZaehler />
         <Analytics />
       </body>
     </html>

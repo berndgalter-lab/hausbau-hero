@@ -2,51 +2,33 @@
 
 import { useState } from "react";
 
-interface NavSilo {
-  slug: string;
-  name: string;
-  icon?: string;
-}
+// Feste Hauptnavigation für den Fokus Bad & Sanitär. Die alten Kategorien
+// (Farben, Rohbau, Werkzeuge …) sind weiter erreichbar, aber nicht mehr verlinkt.
+const PUNKTE = [
+  { href: "/ersatzteile", label: "Ersatzteile", icon: "🔩" },
+  { href: "/bad", label: "Bad-Kaufberatung", icon: "🚿" },
+  { href: "/problem", label: "Problemlöser", icon: "🛠️" },
+  { href: "/rechner", label: "Rechner", icon: "🧮" },
+];
 
-const SHORT_LABELS: Record<string, string> = {
-  farben: "Farben",
-  bad: "Bad",
-  rohbau: "Rohbau",
-  boden: "Boden",
-  werkzeuge: "Werkzeuge",
-  stromerzeuger: "Strom",
-  kueche: "Küche",
-  garten: "Garten",
-  maschinen: "Maschinen",
-  finanzen: "Finanzen",
-};
-
-function shortName(s: NavSilo) {
-  return SHORT_LABELS[s.slug] || s.name;
-}
-
-export default function Navigation({ silos }: { silos: NavSilo[] }) {
+export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
     <>
-      {/* Desktop */}
-      <nav className="hidden lg:flex items-center gap-4 text-sm font-medium text-stone-600">
-        <a href="/rechner" className="hover:text-stone-900 transition-colors">
-          Rechner
-        </a>
-        {silos.map((s) => (
-          <a key={s.slug} href={`/${s.slug}`} className="hover:text-stone-900 transition-colors whitespace-nowrap">
-            {shortName(s)}
+      <nav className="hidden md:flex items-center gap-5 text-sm font-medium text-stone-600">
+        {PUNKTE.map((p) => (
+          <a key={p.href} href={p.href} className="hover:text-stone-900 transition-colors whitespace-nowrap">
+            {p.label}
           </a>
         ))}
       </nav>
 
-      {/* Mobile hamburger */}
       <button
-        className="lg:hidden p-2 text-stone-600 hover:text-stone-900"
+        className="md:hidden p-2 text-stone-600 hover:text-stone-900"
         onClick={() => setMobileOpen(!mobileOpen)}
         aria-label="Menü"
+        aria-expanded={mobileOpen}
       >
         {mobileOpen ? (
           <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -59,21 +41,17 @@ export default function Navigation({ silos }: { silos: NavSilo[] }) {
         )}
       </button>
 
-      {/* Mobile menu */}
       {mobileOpen && (
-        <div className="lg:hidden absolute left-0 right-0 top-full bg-white border-b border-stone-200 shadow-lg z-50">
+        <div className="md:hidden absolute left-0 right-0 top-full bg-white border-b border-stone-200 shadow-lg z-50">
           <div className="px-4 py-3 space-y-1">
-            <a href="/rechner" className="block py-2 text-sm font-medium text-stone-700 hover:text-amber-600">
-              🧮 Rechner
-            </a>
-            {silos.map((s) => (
+            {PUNKTE.map((p) => (
               <a
-                key={s.slug}
-                href={`/${s.slug}`}
+                key={p.href}
+                href={p.href}
                 className="block py-2 text-sm font-medium text-stone-700 hover:text-amber-600"
               >
-                {s.icon && <span className="mr-2">{s.icon}</span>}
-                {shortName(s)}
+                <span className="mr-2">{p.icon}</span>
+                {p.label}
               </a>
             ))}
           </div>

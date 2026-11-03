@@ -13,14 +13,18 @@ export default async function sitemap() {
 
   const staticPages: SitemapEntry[] = [
     { url: baseUrl, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
-    { url: `${baseUrl}/rechner`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/ersatzteile`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/problem`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${baseUrl}/rechner`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${baseUrl}/impressum`, lastModified: now, changeFrequency: "yearly", priority: 0.1 },
     { url: `${baseUrl}/datenschutz`, lastModified: now, changeFrequency: "yearly", priority: 0.1 },
   ];
 
   // Silos dynamisch
   try {
-    const { data: silos } = await supabase.from("silos").select("slug");
+    // Nur Kategorien mit mindestens einer aktiven Seite (leere Übersichten sind dünner Inhalt)
+    const { data: aktive } = await supabase.from("seiten").select("silos(slug)").eq("status", "aktiv");
+    const silos = Array.from(new Set((aktive ?? []).map((a: any) => a.silos?.slug).filter(Boolean))).map((slug) => ({ slug }));
     if (silos) {
       for (const s of silos) {
         staticPages.push({
@@ -38,7 +42,7 @@ export default async function sitemap() {
   const dynamicPages: SitemapEntry[] = [];
 
   // Rechner dynamisch
-  const HIGH_PRIO_RECHNER = new Set(["nebenkosten", "eigenleistung", "foerdermittel", "handwerkerkosten"]);
+  const HIGH_PRIO_RECHNER = new Set(["sanitaer"]);
   try {
     const { data: rechnerList } = await supabase.from("rechner").select("slug, created_at");
     if (rechnerList) {
@@ -76,6 +80,32 @@ export default async function sitemap() {
     }
   } catch (e) {
     console.error("[Sitemap] Seiten query failed:", e);
+  }
+
+  // Ersatzteile: Marken, Serien, Teile, Probleme
+  try {
+    const [{ data: marken }, { data: serien }, { data: teile }, { data: probleme }] = await Promise.all([
+      supabase.from("marken").select("id, slug, updated_at"),
+      supabase.from("serien").select("marke_id, slug, updated_at"),
+      supabase.from("teile").select("slug, updated_at"),
+      supabase.from("probleme").select("slug, updated_at"),
+    ]);
+    const markeSlug = new Map((marken ?? []).map((m: any) => [m.id, m.slug]));
+    for (const m of marken ?? []) {
+      dynamicPages.push({ url: `${baseUrl}/ersatzteile/${m.slug}`, lastModified: new Date(m.updated_at), changeFrequency: "weekly", priority: 0.9 });
+    }
+    for (const s of serien ?? []) {
+      const ms = markeSlug.get(s.marke_id);
+      if (ms) dynamicPages.push({ url: `${baseUrl}/ersatzteile/${ms}/${s.slug}`, lastModified: new Date(s.updated_at), changeFrequency: "monthly", priority: 0.8 });
+    }
+    for (const t of teile ?? []) {
+      dynamicPages.push({ url: `${baseUrl}/teil/${t.slug}`, lastModified: new Date(t.updated_at), changeFrequency: "monthly", priority: 0.7 });
+    }
+    for (const p of probleme ?? []) {
+      dynamicPages.push({ url: `${baseUrl}/problem/${p.slug}`, lastModified: new Date(p.updated_at), changeFrequency: "monthly", priority: 0.7 });
+    }
+  } catch (e) {
+    console.error("[Sitemap] Ersatzteile query failed:", e);
   }
 
   return [...staticPages, ...dynamicPages];

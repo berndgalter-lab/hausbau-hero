@@ -257,6 +257,15 @@ export default function DatenschutzPage() {
           Auswertung unserer Affiliate-Einnahmen (Art. 6 Abs. 1 lit. f
           DSGVO).
         </p>
+        <p className="text-stone-700 leading-relaxed mb-3">
+          Zusätzlich zählen wir Klicks auf Affiliate-Links selbst. Dabei
+          speichern wir nur die Seite, auf der geklickt wurde, das Ziel
+          (z.B. amazon.de), die Position des Links und den Zeitpunkt –
+          keine IP-Adresse, keine Cookies und keine anderen
+          personenbezogenen Daten. Rechtsgrundlage ist unser berechtigtes
+          Interesse an der Verbesserung unserer Inhalte (Art. 6 Abs. 1
+          lit. f DSGVO).
+        </p>
 
         <h3 className="text-lg font-semibold mt-5 mb-2">
           Amazon-Partnerprogramm

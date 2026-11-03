@@ -1,18 +1,19 @@
 // Zentrale Behandlung von Amazon-Affiliate-Links.
 //
-// Platzierungen: Produktboxen, Textlinks im Artikel, Rechner-Materiallisten.
+// Platzierungen: Produktboxen, Textlinks im Artikel, Rechner-Materiallisten, Ersatzteil-Seiten.
 // Für jede Platzierung kann in PartnerNet eine eigene Tracking-ID angelegt und
 // per Env-Variable gesetzt werden. Dann zeigt der Amazon-Bericht, welche
 // Platzierung verkauft. Ohne Env-Variable bleibt der Tag aus der Datenbank.
 // Nur Tracking-IDs setzen, die in PartnerNet wirklich existieren.
 
-export type Platzierung = "box" | "text" | "rechner";
+export type Platzierung = "box" | "text" | "rechner" | "teil";
 
 // Direkter Zugriff, damit Next.js die Werte beim Build einsetzt.
 const TAGS: Record<Platzierung, string | undefined> = {
   box: process.env.NEXT_PUBLIC_AMAZON_TAG_BOX,
   text: process.env.NEXT_PUBLIC_AMAZON_TAG_TEXT,
   rechner: process.env.NEXT_PUBLIC_AMAZON_TAG_RECHNER,
+  teil: process.env.NEXT_PUBLIC_AMAZON_TAG_TEIL,
 };
 
 export const AFFILIATE_REL = "sponsored nofollow noopener noreferrer";
@@ -45,6 +46,7 @@ export function bereiteArtikelHtmlVor(html: string): string {
     const amazon = isAmazonUrl(href);
     const ziel = amazon ? mitTrackingId(href, "text") : href;
     const rel = amazon ? AFFILIATE_REL : "nofollow noopener noreferrer";
-    return `<a ${rest ? rest + " " : ""}href="${ziel}" target="_blank" rel="${rel}">`;
+    const daten = amazon ? ' data-platzierung="text"' : "";
+    return `<a ${rest ? rest + " " : ""}href="${ziel}" target="_blank" rel="${rel}"${daten}>`;
   });
 }
