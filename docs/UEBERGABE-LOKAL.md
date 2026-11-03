@@ -72,3 +72,25 @@ Dateien: `data/artikel/niederdruckarmatur-untertischspeicher.html`, `.produkte.j
 Vor dem Einspielen von Hand auf amazon.de prüfen und ggf. als `amazon_asin` eintragen:
 B008CEOCQE (GROHE 32955000), B003WF1NHY (hansgrohe 31804000) – in der Recherche nicht eindeutig belegt.
 Widersprüche der Händler (Schwenkbereich 30194000, Höhe Schütte 79119) stehen im Text.
+
+### Hansgrohe-Ersatzteile (fertig)
+
+Datei: `data/ersatzteile/hansgrohe.json` – 26 Serien, 27 Teile, 67 Zuordnungen, 2 Problemlöser
+(„hansgrohe Armatur tropft“, „Thermostat wird nicht warm“), 6 Widersprüche, 12 ungeprüfte Punkte.
+In `data/ersatzteile/index.json` eingetragen. Geprüft: JSON gültig, alle Verweise vorhanden, Datenbank-Regeln
+(`ersatzteile_sql.py`) ohne Fehler.
+
+Wichtigste Erkenntnis: hansgrohe benennt Kartuschen nach Typ, nicht nach Durchmesser – M1 (97685000),
+M3/M2 (92730000), M25XS (93740000), M25LXS (93760000), M35 EcoR (92530000), M35 LR (95646000), M25 Low Flow
+(95973001); Thermostate: MTC 94282000 (Ecostat 1001 CL/SL, E/S) und SMTC 98282000 (Ecostat Comfort,
+ShowerSelect, Showerpipes); 92373000 für vertauschte Anschlüsse. Ersatzteillisten hängen teils am Baujahr („> 05/17“).
+
+**Vor dem Einspielen stichprobenartig im Browser prüfen:** 59 Zuordnungen stehen auf „Herstellerangabe“,
+belegt über Suchergebnis-Auszüge von hansgrohe-Seiten (die Seiten selbst waren aus der Cloud nicht abrufbar).
+Gesetzte ASINs (Titel enthält jeweils die Teilenummer): 92730000 → B07CRB1ZVD, 97685000 → B00BPAZBZI,
+96737000 → B00CW6LWGG, 92646000 → B0017VIWN8.
+
+Offen (steht auch in `nicht_geprueft`): Kartusche für Talis S 100 (72020000), Focus 100 (31607000),
+Focus 70 (31730000), Novus 100 (71030000), Logis M31 (71832000); Thermostatkartusche für ShowerTablet Select
+13171000 und Crometta Showerpipe 27264400; Farbcode-Schema (000 chrom, 670 mattschwarz …) nur aus Artikellisten
+abgeleitet.
