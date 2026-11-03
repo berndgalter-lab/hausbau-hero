@@ -1,7 +1,9 @@
 """Tests für awin_feed.py mit einem nachgebauten Feed. Aufruf: python3 -I scripts/import/test_awin_feed.py"""
 import csv
 import gzip
+import json
 import os
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -123,6 +125,24 @@ class FeedTest(unittest.TestCase):
         self.assertIn("/fid/123/", url)
         self.assertIn("/columns/" + ",".join(af.SPALTEN) + "/", url)
         self.assertIn("/fid/77/", af.download_url(None, "KEY", "77"))
+
+
+class AusgabeTest(unittest.TestCase):
+    def test_json_fuer_supabase(self):
+        tmp = tempfile.mkdtemp()
+        feed, teile, aus = (os.path.join(tmp, n) for n in ("hagebau.csv.gz", "teile.json", "angebote.json"))
+        schreibe_feed(feed, FEED)
+        json.dump(TEILE, open(teile, "w"))
+        skript = os.path.join(os.path.dirname(os.path.abspath(__file__)), "awin_feed.py")
+        r = subprocess.run([sys.executable, "-I", skript, "--trocken", "--teile-json", teile,
+                            "--feed-datei", f"hagebau={feed}", "--json-ausgabe", aus], capture_output=True, text=True)
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        d = json.load(open(aus))
+        self.assertEqual(d["shops_fertig"], ["hagebau"])
+        self.assertEqual(sorted(a["teil_id"] for a in d["angebote"]), ["t1", "t2", "t3"])
+        # t3 hat ein eigenes Foto, bekommt aber trotzdem einen Bildvorschlag; die Datenbank überschreibt "eigen" nicht.
+        self.assertEqual({b["teil_id"] for b in d["bilder"]}, {"t1", "t2"})
+        self.assertTrue(all(a["url"].startswith("https://www.awin1.com/") for a in d["angebote"]))
 
 
 if __name__ == "__main__":

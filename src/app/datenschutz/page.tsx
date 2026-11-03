@@ -305,18 +305,31 @@ export default function DatenschutzPage() {
         <p className="text-stone-700 leading-relaxed mb-3">
           Links zu weiteren Shops (z.B. hagebau.de, Contorion) laufen über das
           Partnernetzwerk Awin (Awin AG, Landsberger Allee 104 BC, 10249
-          Berlin). Klicken Sie auf einen solchen Link, setzen Awin und der
-          Shop Cookies oder ähnliche Technologien, um einen Kauf unserer
-          Website zuzuordnen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO;
-          unser berechtigtes Interesse ist die Abrechnung der Provision.
-          Weitere Informationen in der Datenschutzerklärung von Awin auf{" "}
+          Berlin). Klicken Sie auf einen solchen Link, setzt Awin
+          Tracking-Cookies und nutzt nach eigenen Angaben auch Journey Tags und
+          Device Fingerprinting, um einen Kauf unserer Website zuzuordnen. Awin
+          erfährt dabei nicht, wer Sie sind. Rechtsgrundlage ist Art. 6 Abs. 1
+          lit. f DSGVO; unser berechtigtes Interesse ist die Abrechnung der
+          Provision.
+        </p>
+        <p className="text-stone-700 leading-relaxed mb-3">
+          Datenschutzerklärung von Awin:{" "}
           <a
-            href="https://www.awin.com/de"
+            href="https://www.awin.com/de/rechtliches/privacy-policy-DACH"
             target="_blank"
             rel="noopener noreferrer"
             className="text-amber-600 hover:text-amber-700 break-all"
           >
-            awin.com
+            https://www.awin.com/de/rechtliches/privacy-policy-DACH
+          </a>
+          . Dem Awin-Tracking können Sie hier widersprechen:{" "}
+          <a
+            href="https://www.awin.com/de/rechtliches/optout"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-amber-600 hover:text-amber-700 break-all"
+          >
+            https://www.awin.com/de/rechtliches/optout
           </a>
           .
         </p>

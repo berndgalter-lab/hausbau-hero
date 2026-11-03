@@ -23,7 +23,14 @@ LIEFERBARKEIT (Regel aus Womo-Teile, Bernd 17.10.2026): Nicht vorrätige
 Produkte behalten den Link, zeigen aber keinen Preis ("Lieferzeit im Shop").
 Eine Ware mit Preis zu bewerben, die nicht da ist, wäre ein Lockangebot (UWG).
 
-ZUGANG (Umgebungsvariablen; im GitHub-Workflow aus den Secrets):
+WEG IN DIE DATENBANK (Standard, GitHub-Workflow partner-feeds):
+  Das Skript liest die Teile mit dem öffentlichen Schlüssel und schreibt das
+  Ergebnis als angebote.json (--json-ausgabe). Der Workflow legt die Datei in den
+  Branch feed-daten, Supabase holt sie stündlich ab (intern.angebote_aus_github,
+  pg_cron). So braucht GitHub keinen Datenbank-Schlüssel.
+  Lokal mit Service-Key schreibt das Skript auch direkt (ohne --trocken).
+
+ZUGANG (Umgebungsvariablen):
     AWIN_FEED_URL              Download-URL aus Awin → Toolbox → Create-a-Feed.
                                Dieselbe wie bei Womo-Teile: Der Schlüssel darin gilt
                                fürs ganze Konto, das Skript tauscht Feed-ID und Spalten.
@@ -31,7 +38,8 @@ ZUGANG (Umgebungsvariablen; im GitHub-Workflow aus den Secrets):
     AWIN_FEED_IDS              optional, z. B. "hagebau=12345,contorion=67890".
                                Ohne: Das Skript sucht die Feeds in der Feedliste des Kontos.
     NEXT_PUBLIC_SUPABASE_URL
-    SUPABASE_SERVICE_ROLE_KEY
+    NEXT_PUBLIC_SUPABASE_ANON_KEY   zum Lesen der Teile (öffentlich)
+    SUPABASE_SERVICE_ROLE_KEY       nur für direktes Schreiben
   Lokal ersatzweise:
     ~/.config/hausbau-hero/awin.json      {"feed_url": "..."}  (sonst ~/.config/womo-teile/awin.json)
     ~/.config/hausbau-hero/supabase.json  {"url": "...", "service_role_key": "..."}
@@ -40,7 +48,7 @@ ZUGANG (Umgebungsvariablen; im GitHub-Workflow aus den Secrets):
 AUFRUF:
     python3 -I scripts/import/awin_feed.py                     # laden, zuordnen, schreiben
     python3 -I scripts/import/awin_feed.py --trocken           # nur Bericht, nichts schreiben
-    python3 -I scripts/import/awin_feed.py --bericht b.csv --kandidaten k.csv
+    python3 -I scripts/import/awin_feed.py --trocken --json-ausgabe angebote.json --bericht b.csv --kandidaten k.csv
     # offline, z. B. zum Testen:
     python3 -I scripts/import/awin_feed.py --trocken --teile-json teile.json \\
         --feed-datei hagebau=hagebau.csv.gz --feed-datei contorion=contorion.csv.gz
@@ -210,14 +218,14 @@ def awin_zugang():
 
 
 def supabase_zugang():
-    url = os.environ.get("NEXT_PUBLIC_SUPABASE_URL")
-    key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
-    if not (url and key):
-        c = lies_json("~/.config/hausbau-hero/supabase.json")
-        url, key = url or c.get("url"), key or c.get("service_role_key")
-    if not (url and key):
-        sys.exit("Kein Supabase-Zugang: NEXT_PUBLIC_SUPABASE_URL und SUPABASE_SERVICE_ROLE_KEY setzen.")
-    return url.rstrip("/"), key
+    """(url, schluessel, darf_schreiben). Ohne Service-Key wird nur gelesen."""
+    c = lies_json("~/.config/hausbau-hero/supabase.json")
+    url = os.environ.get("NEXT_PUBLIC_SUPABASE_URL") or c.get("url")
+    dienst = os.environ.get("SUPABASE_SERVICE_ROLE_KEY") or c.get("service_role_key")
+    lesen = os.environ.get("NEXT_PUBLIC_SUPABASE_ANON_KEY") or c.get("anon_key")
+    if not url or not (dienst or lesen):
+        sys.exit("Kein Supabase-Zugang: NEXT_PUBLIC_SUPABASE_URL und einen Schlüssel setzen (siehe Kopf dieser Datei).")
+    return url.rstrip("/"), dienst or lesen, bool(dienst)
 
 
 def holen(url, ziel=None, timeout=600):
@@ -290,11 +298,13 @@ def zeilen(pfad):
 # ---------- Supabase ----------
 
 class Supabase:
-    def __init__(self, url, key):
-        self.url, self.key = url, key
+    def __init__(self, url, key, darf_schreiben):
+        self.url, self.key, self.darf_schreiben = url, key, darf_schreiben
 
     def _anfrage(self, methode, pfad, daten=None, prefer=None):
-        kopf = {"apikey": self.key, "Authorization": f"Bearer {self.key}", "Content-Type": "application/json"}
+        kopf = {"apikey": self.key, "Content-Type": "application/json"}
+        if not self.key.startswith("sb_"):  # alte JWT-Schlüssel zusätzlich als Bearer, neue sb_-Schlüssel nur als apikey
+            kopf["Authorization"] = f"Bearer {self.key}"
         if prefer:
             kopf["Prefer"] = prefer
         body = json.dumps(daten).encode() if daten is not None else None
@@ -442,6 +452,7 @@ def main():
     ap.add_argument("--trocken", action="store_true", help="nichts nach Supabase schreiben")
     ap.add_argument("--bericht", help="CSV mit allen Zuordnungen")
     ap.add_argument("--kandidaten", help="CSV mit Sanitär-Ersatzteilen aus den Feeds, die wir noch nicht führen")
+    ap.add_argument("--json-ausgabe", help="Ergebnis als JSON für intern.importiere_angebote (Supabase)")
     ap.add_argument("--feed-datei", action="append", default=[], metavar="SHOP=PFAD", help="lokaler Feed statt Download")
     ap.add_argument("--teile-json", help="Teile aus Datei statt aus Supabase (offline)")
     ap.add_argument("--cached", action="store_true", help="letzten Download aus .cache/awin nutzen")
@@ -522,11 +533,21 @@ def main():
     ohne = [t["slug"] for t in teile if t["id"] not in {a["teil_id"] for a in alle} and t.get("oem_nummer")]
     print(f"\nTeile mit Nummer ohne Shop-Angebot: {len(ohne)}")
 
-    if args.trocken or db is None:
-        print("\nTrockenlauf: nichts geschrieben.")
-        return
+    if args.json_ausgabe and fertig:
+        with open(args.json_ausgabe, "w", encoding="utf-8") as fh:
+            json.dump({
+                "stand": stand,
+                "shops_fertig": fertig,
+                "angebote": alle,
+                "bilder": [{"teil_id": tid, "bild_url": a["bild_url"], "bild_shop": a["shop"]} for tid, a in bilder.items()],
+            }, fh, ensure_ascii=False, indent=1)
+        print(f"\nJSON für Supabase: {args.json_ausgabe} ({len(alle)} Angebote, {len(bilder)} Bilder)")
+
     if not fertig:
         print("\nKein Feed verarbeitet: nichts geschrieben.")
+        sys.exit(1)
+    if args.trocken or db is None or not db.darf_schreiben:
+        print("\nNichts direkt in die Datenbank geschrieben (Trockenlauf oder kein Service-Key).")
         return
 
     db.angebote_upsert(alle)
