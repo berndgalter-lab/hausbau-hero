@@ -25,6 +25,11 @@ const VERWEISE: Record<string, Verweis[]> = {
     { href: "/problem/grohe-armatur-tropft", titel: "Armatur tropft: Ursachen und passende Kartusche", art: "problem" },
     { href: "/problem/grohe-strahlregler-verkalkt", titel: "Wasserstrahl spritzt: Strahlregler verkalkt", art: "problem" },
   ],
+  "waschtischarmatur-mit-brause": [
+    { href: "/ersatzteile/grohe/europlus-waschtisch", titel: "Ersatzteile für Grohe Europlus Waschtischarmatur", art: "serie" },
+    { href: "/ersatzteile/grohe", titel: "Grohe Ersatzteile: Kartuschen, Strahlregler, Schläuche", art: "marke" },
+    { href: "/problem/grohe-armatur-tropft", titel: "Armatur tropft: Ursachen und passende Kartusche", art: "problem" },
+  ],
   "badewannenarmatur-ratgeber": [
     { href: "/ersatzteile/grohe/eurosmart-wannenarmatur", titel: "Ersatzteile für Grohe Eurosmart Wannenbatterie", art: "serie" },
     { href: "/ersatzteile/grohe/grohtherm-800", titel: "Ersatzteile für Grohe Grohtherm 800 Thermostat", art: "serie" },

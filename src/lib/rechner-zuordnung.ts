@@ -3,6 +3,7 @@
 const RECHNER_MAP: Record<string, string[]> = {
   // Bad
   "waschtischarmatur-ratgeber": ["sanitaer"],
+  "waschtischarmatur-mit-brause": ["sanitaer"],
   "badewannenarmatur-ratgeber": ["sanitaer"],
   "komplettdusche-ratgeber": ["sanitaer", "fliesen"],
   "vorwandelement-wc": ["sanitaer"],
