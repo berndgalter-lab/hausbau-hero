@@ -55,4 +55,20 @@ Dann im Ordner `claude` starten und diese Datei als Auftrag geben („Arbeite do
 
 ## Ergebnisse der Recherche
 
-Siehe Abschnitte unten (werden beim Commit ergänzt).
+### Kaufberatung Niederdruckarmatur (fertig)
+
+Dateien: `data/artikel/niederdruckarmatur-untertischspeicher.html`, `.produkte.json`, `.meta.json` (42 Quellen).
+6 Modelle, alle Niederdruck-Varianten per Artikelnummer belegt:
+
+| # | Modell | Einsatz | Amazon |
+|---|---|---|---|
+| 1 | GROHE Eurosmart Cosmopolitan S-Size ND (32955000) – Empfehlung | Waschtisch | Suchlink |
+| 2 | hansgrohe Logis 70 ND Push-Open (71074000) | Waschtisch | Suchlink |
+| 3 | Kludi BOZZ 75 ND (382770576) | Waschtisch | Suchlink |
+| 4 | GROHE Eurosmart Cosmopolitan ND Küche (30194000) | Küche | ASIN B008QVBSTC |
+| 5 | hansgrohe Focus M41 160 ND (31804000) | Küche | Suchlink |
+| 6 | Schütte CORNWALL ND (79119) – Preis-Tipp | Küche | Suchlink |
+
+Vor dem Einspielen von Hand auf amazon.de prüfen und ggf. als `amazon_asin` eintragen:
+B008CEOCQE (GROHE 32955000), B003WF1NHY (hansgrohe 31804000) – in der Recherche nicht eindeutig belegt.
+Widersprüche der Händler (Schwenkbereich 30194000, Höhe Schütte 79119) stehen im Text.
