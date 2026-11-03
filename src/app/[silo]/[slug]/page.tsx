@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import ProduktKarte, { ProduktUebersicht } from "@/components/ProduktKarte";
 import ArticleContent from "@/components/ArticleContent";
 import { getPassendeRechner } from "@/lib/rechner-zuordnung";
+import { ersatzteilVerweise } from "@/lib/ersatzteil-verweise";
 
 export const revalidate = 0;
 
@@ -149,6 +150,22 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
               <ProduktKarte key={p.id} produkt={p} compact />
             ))}
           </div>
+        </section>
+      )}
+
+      {ersatzteilVerweise(seite.slug).length > 0 && (
+        <section className="mt-12 p-6 bg-white border-2 border-amber-200 rounded-xl">
+          <h2 className="text-lg font-bold mb-1">Ersatzteile &amp; Probleme</h2>
+          <p className="text-sm text-stone-600 mb-4">Schon eingebaut und etwas ist kaputt? Hier findest du das passende Teil:</p>
+          <ul className="space-y-2">
+            {ersatzteilVerweise(seite.slug).map((v) => (
+              <li key={v.href}>
+                <a href={v.href} className="text-amber-700 font-medium hover:underline">
+                  {v.art === "problem" ? "🛠️" : "🔩"} {v.titel} →
+                </a>
+              </li>
+            ))}
+          </ul>
         </section>
       )}
 
