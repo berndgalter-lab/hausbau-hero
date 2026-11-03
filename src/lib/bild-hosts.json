@@ -1,0 +1,9 @@
+{
+  "_hinweis": "Bild-Hosts, die Next.js über den eigenen Server ausliefert (next.config.mjs) und die das Feed-Skript übernehmen darf (scripts/import/awin_feed.py). Bilder anderer Hosts nimmt das Skript über Awins eigenen Bildserver (images2.productserve.com). Neuer Shop: Host hier eintragen, dann deployen.",
+  "hosts": [
+    "images2.productserve.com",
+    "**.productserve.com",
+    "**.hagebau.de",
+    "**.contorion.de"
+  ]
+}

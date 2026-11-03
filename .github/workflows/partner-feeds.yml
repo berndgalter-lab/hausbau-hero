@@ -1,0 +1,63 @@
+# Täglicher Abgleich der Awin-Feeds (hagebau.de, Contorion) mit den Ersatzteilen.
+# Schreibt Angebote und Bilder direkt nach Supabase – ohne Claude-Sitzung, ohne Rückfragen.
+# Logik und Regeln: scripts/import/awin_feed.py
+#
+# Secrets (GitHub → Settings → Secrets and variables → Actions):
+#   AWIN_FEED_URL              Feed-Download-URL aus Awin (dieselbe wie bei womo-teile)
+#   NEXT_PUBLIC_SUPABASE_URL   https://jyxhjcupgazugjglpeum.supabase.co
+#   SUPABASE_SERVICE_ROLE_KEY  Supabase → Project Settings → API Keys → service_role
+# Optional als Variable: AWIN_FEED_IDS, z. B. "hagebau=12345,contorion=67890"
+name: partner-feeds
+
+on:
+  schedule:
+    # 3:17 Uhr UTC. Die Seiten laden Angebote stündlich neu.
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+    inputs:
+      trocken:
+        description: "Trockenlauf: nichts nach Supabase schreiben, nur Bericht"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: partner-feeds
+  cancel-in-progress: false
+
+jobs:
+  feeds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tests
+        run: python3 -I scripts/import/test_awin_feed.py
+
+      - name: Feeds abgleichen
+        env:
+          AWIN_FEED_URL: ${{ secrets.AWIN_FEED_URL }}
+          AWIN_API_KEY: ${{ secrets.AWIN_API_KEY }}
+          AWIN_FEED_IDS: ${{ vars.AWIN_FEED_IDS }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          TROCKEN: ${{ github.event_name == 'workflow_dispatch' && inputs.trocken && '--trocken' || '' }}
+        run: python3 -I scripts/import/awin_feed.py $TROCKEN --bericht bericht.csv --kandidaten kandidaten.csv
+
+      - name: Bericht und Kandidaten aufheben
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: feed-bericht
+          path: |
+            bericht.csv
+            kandidaten.csv
+          if-no-files-found: ignore
+          retention-days: 14

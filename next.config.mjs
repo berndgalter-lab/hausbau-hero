@@ -1,5 +1,14 @@
+import { readFileSync } from 'node:fs';
+
+// Bild-Hosts der Partner-Feeds, gemeinsam mit scripts/import/awin_feed.py gepflegt.
+const bildHosts = JSON.parse(readFileSync(new URL('./src/lib/bild-hosts.json', import.meta.url), 'utf8')).hosts;
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    remotePatterns: bildHosts.map((hostname) => ({ protocol: 'https', hostname })),
+    minimumCacheTTL: 86400,
+  },
   async redirects() {
     return [
       // www → non-www redirect is handled by Vercel domain settings

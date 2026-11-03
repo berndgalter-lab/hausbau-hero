@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import TeilBild from "@/components/TeilBild";
 import {
+  Angebote,
   Brotkrumen,
   JsonLd,
-  KaufButton,
   NummerPruefen,
   Quellen,
   SicherheitBadge,
@@ -12,6 +13,7 @@ import {
 import {
   SITE_URL,
   TEILTYP_LABEL,
+  angeboteFuerTeile,
   baujahre,
   hostVon,
   markeNachId,
@@ -90,7 +92,7 @@ export default async function TeilSeite({ params }: Props) {
   const marke = await markeNachId(teil.marke_id);
   if (!marke) notFound();
 
-  const zuordnungen = await zuordnungenFuerTeil(teil.id);
+  const [zuordnungen, angebote] = await Promise.all([zuordnungenFuerTeil(teil.id), angeboteFuerTeile([teil.id])]);
   const serien = await serienNachIds(zuordnungen.map((z) => z.serie_id));
   const serieVon = new Map(serien.map((s) => [s.id, s]));
 
@@ -115,7 +117,9 @@ export default async function TeilSeite({ params }: Props) {
       {teil.beschreibung && <p className="text-stone-700 mb-6 leading-relaxed">{teil.beschreibung}</p>}
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-        <section className="md:col-span-2 p-5 bg-white border border-stone-200 rounded-xl">
+        <section className="md:col-span-2 p-5 bg-white border border-stone-200 rounded-xl flex flex-col sm:flex-row gap-5">
+          <TeilBild url={teil.bild_url} alt={teil.name} shop={angebote.find((a) => a.shop === teil.bild_shop)?.shop_name ?? null} />
+          <div className="flex-1 min-w-0">
           <h2 className="text-lg font-bold mb-3">Steckbrief</h2>
           <dl className="grid grid-cols-[max-content_1fr] gap-x-4 gap-y-2 text-sm">
             <dt className="text-stone-500">Marke</dt>
@@ -131,16 +135,9 @@ export default async function TeilSeite({ params }: Props) {
             {teil.verschleissteil !== null && (<><dt className="text-stone-500">Verschleißteil</dt><dd>{teil.verschleissteil ? "ja" : "nein"}</dd></>)}
             {teil.preis_spanne && (<><dt className="text-stone-500">Preis ca.</dt><dd>{teil.preis_spanne}</dd></>)}
           </dl>
+          </div>
         </section>
-        <section className="p-5 bg-amber-50 border border-amber-200 rounded-xl flex flex-col gap-3">
-          <h2 className="text-lg font-bold">Kaufen</h2>
-          <p className="text-sm text-stone-600">
-            {teil.amazon_asin || teil.affiliate_url
-              ? "Direkt zum Originalteil bei Amazon."
-              : `Amazon-Suche nach „${marke.name} ${teil.oem_nummer ?? teil.name}“ – achte auf die exakte Nummer.`}
-          </p>
-          <KaufButton teil={teil} markeName={marke.name} />
-        </section>
+        <Angebote teil={teil} markeName={marke.name} angebote={angebote} />
       </div>
 
       <section className="mb-8">
