@@ -1,0 +1,1369 @@
+{
+ "marke": {
+  "slug": "ideal-standard",
+  "name": "Ideal Standard",
+  "beschreibung": "Sanitärhersteller (Ideal Standard GmbH, Bonn) mit Einhebel-Armaturen (u. a. Ceramix, Ceraplan, CeraPlan III, Ceraflex, Cerafine, Tesi, Connect Air, Esla), Thermostaten (CeraTherm/Ceratherm T) und Vorwandsystemen (ProSys). Ideal Standard dokumentiert Ersatzteile in PDF-Ersatzteillisten mit Explosionszeichnung, Positionsnummer und Bestellnummer; der Ersatzteilbereich auf idealstandard.de listet auch ausgelaufene Serien mit Bauzeitraum (z. B. Ceramix 1974–1983, Ceraplan Slimline 1999–2010, Ceramix Classic 2000–2011). Für aktuelle Produkte ist die Ersatzteilliste direkt auf der Produktseite (idealstandard.de/produkte/<Produktnummer>) verlinkt. Für den Einhebelmischer-Bereich typisch sind Keramikkartuschen in mehreren Durchmessern (u. a. Ø28, Ø38 FirmaFlow, Ø40, Ø46, Ø47, Ø53 mm) – Durchmesser und Baujahr entscheiden über das passende Teil.",
+  "nummer_hinweis": "Produktnummern bestehen aus Buchstabe(n) + 4 Ziffern + 2-stelligem Oberflächencode, z. B. B1717AA (Ceraflex), A6560AA (Tesi), BC555AA (Cerafine O), A7238AA (Ceratherm T100); ProSys-Elemente beginnen mit R (z. B. R0153). In Ersatzteillisten steht für den Oberflächencode der Platzhalter XX bzw. ..; AA = chrom (Beispiel aus der Ceramix-No.1-Liste: A960754AA chrom, A960754AC weiß). Ältere Armaturen tragen Nummern wie A3502/A3542/A3562 (Ceramix 1975–1983, Endung nach Oberfläche). Die Bestellnummer der Ersatzteile steht in der Ersatzteilliste; die Liste gilt oft für mehrere Produktnummern und Baujahre (z. B. CeraPlan III: B0703/B0704/B0705; Cerafine O: BC497/BC555/BC703). Wo die Produktnummer physisch an der Armatur angebracht ist, konnte nicht belegt werden – sicher ist der Abgleich über Produktseite/Ersatzteilliste und Kartuschendurchmesser.",
+  "ersatzteil_garantie": "Keine einheitliche, aktuell belegte Zusage für alle Armaturen gefunden. Die (ältere) Ideal-Standard-Produktseite CeraPlan III nennt 5 Jahre Gewährleistung ab Einbau (unter Bedingungen, sonst 2 Jahre) sowie eine 10-jährige Ersatzteil-Nachkaufgarantie auf Verschleißteile. Die ProSys-Pressemitteilung 2019 nennt für ProSys 10 Jahre Garantie und 25 Jahre Ersatzteilverfügbarkeit. Die Service-FAQ verweist auf eine separate Garantie-Seite.",
+  "hersteller_ersatzteil_url": "https://www.idealstandard.de/produkte/ersatzteile/badarmaturen",
+  "quellen": [
+   "https://www.idealstandard.de/produkte/ersatzteile/badarmaturen",
+   "https://www.idealstandard.de/produkte/ersatzteile/kuechenarmaturen",
+   "https://www.idealstandard.de/products/ceraplan_iii.html",
+   "https://www.idealstandard.de/ueber-uns/presse/2019/prosys-ideal-standard-fuehrt-vielseitige-vorwandsysteme-ein",
+   "https://www.idealstandard.de/expertise/faq/service",
+   "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133035-source/options/download",
+   "https://www.idealstandard.de/produkte/katalog/armaturen/waschtischarmaturen/bc555",
+   "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133037-source/options/download/is-ceraplaniii-mp-sparesl-de-bathroom"
+  ]
+ },
+ "serien": [
+  {
+   "slug": "ceramix-1974-1983",
+   "name": "Ideal Standard Ceramix (1. Generation, 1974–1983)",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": 1974,
+   "baujahr_bis": 1983,
+   "kennnummern": [
+    "A3502",
+    "A3542",
+    "A3562",
+    "A2500"
+   ],
+   "erkennungsmerkmale": "Ur-Ceramix-Einhebelmischer. Laut Ersatzteilliste: A3502 (chrom), A3542 (bronze), A3562 (gold) Baujahr 1975–1983 mit Kartusche Ø53 mm (2 Schrauben); Typ A bis 1980, Typ B Juni 1980 bis Juli 1983. A2500 (bis 1976, Version ohne Spannring) mit Kartusche Ø46 mm. Kartuschendurchmesser vor Bestellung messen.",
+   "beschreibung": "Der Ideal-Standard-Ersatzteilbereich führt die Ceramix-Serie mit Bauzeitraum 1974–1983 (Waschtisch-, Wannen/Brause- und Bidetarmaturen). produkttyp hier stellvertretend für die Waschtischvariante; welcher Armaturentyp sich hinter A3502/A3542/A3562 verbirgt, nennt der Suchauszug nicht.",
+   "quellen": [
+    "https://www.idealstandard.de/produkte/ersatzteile/badarmaturen",
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133027-source/options/downloadf"
+   ]
+  },
+  {
+   "slug": "ceramix-top-fix-waschtisch",
+   "name": "Ideal Standard Ceramix Top-Fix",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Ceramix-Einhebelmischer mit Top-Fix-Befestigung; Kartusche Ø47 mm in drei Varianten (Standard, DE, ECO).",
+   "beschreibung": "Die Ideal-Standard-Ersatzteilliste 'CERAMIX Top-Fix' führt die Kartusche Ø47 kompl. als A960500NU, A961101NU (DE) und A963540NU (ECO) sowie das Dichtungs-Set Kartusche A961155NU. Konkrete Produktnummern wurden nicht ermittelt.",
+   "quellen": [
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133027-source/options/downloadf"
+   ]
+  },
+  {
+   "slug": "ceramix-no1",
+   "name": "Ideal Standard Ceramix No. 1",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Ceramix-Generation der 1990er. Laut Ersatzteilliste Griffhebel A960754XX für Bauzeit Jan. 1995 bis April 2000; Hebel mit Gewindestift SW 2,5 befestigt. Kartusche Ø47 mm.",
+   "beschreibung": "Ersatzteilliste 'CERAMIX NO.1' (Ideal Standard): Kartusche kompl. A960500NU, DE-Variante A961101NU, Griffhebel kpl. A960754XX (XX = Oberfläche). Die Liste umfasst mehrere Armaturentypen; produkttyp stellvertretend.",
+   "quellen": [
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133035-source/options/download"
+   ]
+  },
+  {
+   "slug": "ceramix-classic",
+   "name": "Ideal Standard Ceramix Classic",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": 2000,
+   "baujahr_bis": 2011,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Ceramix ab Mai 2000; Kartusche Ø47 mm; Strahlregler M24x1.",
+   "beschreibung": "Laut Ideal-Standard-Ersatzteilbereich 2000–2011 gebaut. Ersatzteilliste: Kartusche kompl. A960500NU, Dichtungs-Set A961155NU, Strahlregler M24x1 kpl. A960935AA. Die Liste umfasst mehrere Armaturentypen; produkttyp stellvertretend.",
+   "quellen": [
+    "https://www.idealstandard.de/produkte/ersatzteile/badarmaturen",
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133025-source/options/download"
+   ]
+  },
+  {
+   "slug": "ceramix-blue-waschtisch",
+   "name": "Ideal Standard Ceramix Blue Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "A5646",
+    "A5650",
+    "A5651",
+    "A5653",
+    "A5654",
+    "A5658",
+    "A5825"
+   ],
+   "erkennungsmerkmale": "Wassersparende Ceramix-Variante (BlueStart-Hebelmittelstellung kalt). Laut Händler-/Herstellerdaten meist Ø40-mm-Kartusche; Ausnahme A5651 (Piccolo) mit Ø38 mm FirmaFlow-CLICK-Kartusche.",
+   "beschreibung": "Waschtischarmaturen der Serie Ceramix Blue; Produktseiten auf idealstandard.de verlinken die jeweilige Ersatzteilliste.",
+   "quellen": [
+    "https://www.idealstandard.de/produkte/katalog/armaturen/waschtischarmaturen/a5651",
+    "https://www.idealstandard.de/produkte/a5825"
+   ]
+  },
+  {
+   "slug": "ceramix-blue-badearmatur",
+   "name": "Ideal Standard Ceramix Blue Badearmatur Aufputz",
+   "produkttyp": "wannenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "B9490"
+   ],
+   "erkennungsmerkmale": "Aufputz-Wannenmischer Ceramix Blue; Kartusche Ø47 mm (Pos. 6 im Datenblatt).",
+   "beschreibung": "Ideal-Standard-Datenblatt B9490AA nennt als Kartusche Ø47 mm A960500NU; ein Datenblatt B9493 nennt dieselbe Kartusche.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/isdb_b9490.pdf",
+    "https://assets.heizung-billiger.de/documents/isdb_b9493.pdf"
+   ]
+  },
+  {
+   "slug": "ceraplan-waschtisch",
+   "name": "Ideal Standard Ceraplan Einhebelmischer (ab 1996)",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": 1996,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Ältere Ceraplan-Generation; Ersatzteillisten mit Baujahrsangaben ab August 1996, ab Januar 1998 und ab März 1999. Kartusche Ø47 mm.",
+   "beschreibung": "Ersatzteilliste 'CERAPLAN' (Ideal Standard): Kartusche kompl. A960500NU, Dichtungs-Set Kartusche A961155NU, Dichtungs-Set Umstellung A961156NU, O-Ring-Set A963523NU. Die Liste umfasst auch Wannen-/Brausearmaturen (Umschalteinsatz).",
+   "quellen": [
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133041-source/options/download",
+    "https://www.idealstandard.de/produkte/ersatzteile/badarmaturen"
+   ]
+  },
+  {
+   "slug": "ceraplan-slimline-waschtisch",
+   "name": "Ideal Standard Ceraplan Slimline Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": 1999,
+   "baujahr_bis": 2010,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Schlanke Ceraplan-Variante; laut Händlerangabe Kartusche Ø40 mm.",
+   "beschreibung": "Laut Ideal-Standard-Ersatzteilbereich 1999–2010 gebaut; eigene Ersatzteilseite auf idealstandard.de.",
+   "quellen": [
+    "https://www.idealstandard.de/produkte/ersatzteile/badarmaturen",
+    "https://www.kaufland.de/product/331084719/"
+   ]
+  },
+  {
+   "slug": "ceraplan-iii-waschtisch",
+   "name": "Ideal Standard CeraPlan III Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "B0703",
+    "B0704",
+    "B0705"
+   ],
+   "erkennungsmerkmale": "B0704 = Waschtischarmatur 145, B0705 = 145 ohne Ablaufgarnitur, B0703 = 130 ohne Ablaufgarnitur (laut Ersatzteilliste, Stand 2019-04-30). Kartuschendurchmesser je nach Baujahr unterschiedlich (siehe Widersprüche).",
+   "beschreibung": "Ersatzteilliste CeraPlan III (Ideal Standard): Pos. 20 Kartusche Ø47 A960500NU; zusätzlich 'Set Kartusche Ø38mm FirmaFlow zum Austausch der alten Ø40mm Kartusche Ceraplan bis 9/2018' A861156NU inkl. Adapterhülse 38/40; Laminar-Strahlregler M24x1 5 l/min B960754AA.",
+   "quellen": [
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133037-source/options/download/is-ceraplaniii-mp-sparesl-de-bathroom",
+    "https://www.idealstandard.de/produkte/katalog/waschtische/waschtischaramturen/b0703"
+   ]
+  },
+  {
+   "slug": "ceraplan-waschtisch-bd",
+   "name": "Ideal Standard Ceraplan Waschtischarmatur (aktuelle BD-Serie)",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "BD201",
+    "BD214",
+    "BD227"
+   ],
+   "erkennungsmerkmale": "Aktuelle Ceraplan-Generation mit Produktnummern BD2xx; FirmaFlow-Keramikkartusche.",
+   "beschreibung": "Neuauflage der Ceraplan-Serie; Produktseiten auf idealstandard.de mit Ersatzteilliste je Modell.",
+   "quellen": [
+    "https://www.idealstandard.de/produkte/bd214",
+    "https://www.idealstandard.de/produkte/bd227"
+   ]
+  },
+  {
+   "slug": "ceraflex-waschtisch",
+   "name": "Ideal Standard Ceraflex Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "B1708",
+    "B1710",
+    "B1711",
+    "B1713",
+    "B1714",
+    "B1715",
+    "B1716",
+    "B1717",
+    "B1838"
+   ],
+   "erkennungsmerkmale": "Ceraflex mit FirmaFlow-Keramikkartusche (Ø38 mm laut Händlerangaben); Varianten unterscheiden sich u. a. nach Ablaufgarnitur (z. B. B1710AA ohne, B1708AA mit Ablaufgarnitur); B1717 = Wand-Waschtischarmatur.",
+   "beschreibung": "Produktseiten auf idealstandard.de verlinken Ersatzteillisten, teils gemeinsam für mehrere Modelle (z. B. B1711/B1715).",
+   "quellen": [
+    "https://www.idealstandard.de/produkte/katalog/armaturen/waschtischarmaturen/b1714",
+    "https://www.idealstandard.de/produkte/b1717",
+    "https://www.idealstandard.de/produkte/katalog/armaturen/waschtischarmaturen/b1838",
+    "https://www.ebay.de/p/845476150"
+   ]
+  },
+  {
+   "slug": "cerafine-waschtisch",
+   "name": "Ideal Standard Cerafine O / Cerafine D Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "BC497",
+    "BC554",
+    "BC555",
+    "BC703"
+   ],
+   "erkennungsmerkmale": "Cerafine Model O (rund) bzw. D (eckig); FirmaFlow-Kartusche, laut Händler Ø28 mm (BC703AA). Ersatzteilliste gemeinsam für BC497/BC555/BC703.",
+   "beschreibung": "Waschtischarmaturen der Cerafine-Familie; Ersatzteilliste über die Produktseite bzw. das verlinkte Ideal-Standard-PDF.",
+   "quellen": [
+    "https://www.idealstandard.de/produkte/katalog/armaturen/waschtischarmaturen/bc555",
+    "https://www.idealstandard.de/produkte/bc703",
+    "https://media.hornbach.at/hb/datasheet/as.101287359.pdf",
+    "https://www.galaxus.it/en/s4/product/ideal-standard-wash-basin-mixer-with-single-lever-mixer-cerafine-o-chrome-glossy-bc703aa-bathroom-fi-31286962"
+   ]
+  },
+  {
+   "slug": "ceratherm-100-200",
+   "name": "Ideal Standard CeraTherm 100 / 200 Thermostat (ältere Generation)",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "A4623",
+    "A3205",
+    "A3206",
+    "A3207",
+    "A3254"
+   ],
+   "erkennungsmerkmale": "Ältere CeraTherm-Aufputzthermostate, z. B. CeraTherm 100 Wannenthermostat AP A4623AA; CeraTherm 200 A3205–A3207 und A3254 (laut Händlerangabe ab März 2002). G1/2-Thermostatkartusche.",
+   "beschreibung": "Ideal Standard führt Ersatzteillisten 'CeraTherm 100/200/300' sowie 'CeraTherm 50/100/200 seit 2010'. Thermostatkartusche G1/2 A962229NU mit Wartungs-Set A962230NU. Nicht verwechseln mit der neueren Ceratherm-T-Serie.",
+   "quellen": [
+    "https://idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133054-source/options/download/is-ceratherm-mp-sparesl-de-bathroom100200300",
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133056-source/options/download",
+    "https://oeg.net/en/ceratherm-100-bath-thermostat-exposed-800006078"
+   ]
+  },
+  {
+   "slug": "ceratherm-t-serie",
+   "name": "Ideal Standard Ceratherm T25 / T50 / T100 / T125 Aufputzthermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "A7201",
+    "A7202",
+    "A7544",
+    "A7695",
+    "A7229",
+    "A7238",
+    "A7699"
+   ],
+   "erkennungsmerkmale": "Aktuelle Ceratherm-T-Generation (Aufputz, Brause bzw. Wanne); Thermostatkartusche mit Wachsdehnstoffelement, bei T125/S200 als FirmaFlow-Therm bezeichnet; laut Hersteller vorkalibriert.",
+   "beschreibung": "Ersatz-Thermostatkartusche laut mehreren Händlern A861371NU.",
+   "quellen": [
+    "https://idealstandard.de/produkte/highlights/ceratherm-t",
+    "https://idealstandard.de/produkte/katalog/armaturen/brausearmaturen/a7229",
+    "https://idealstandard.de/produkte/katalog/armaturen/badearmaturen/a7238",
+    "https://idealstandard.de/produkte/katalog/armaturen/brausearmaturen/a7201",
+    "https://idealstandard.de/produkte/katalog/armaturen/brausearmaturen/a7695",
+    "https://idealstandard.de/produkte/katalog/armaturen/badearmaturen/a7544"
+   ]
+  },
+  {
+   "slug": "prosys-120-class-2-spuelkasten",
+   "name": "Ideal Standard ProSys 120 Unterputzspülkasten (Class 2)",
+   "produkttyp": "spuelkasten",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "R0153",
+    "R0313",
+    "R0314",
+    "R0315",
+    "R0317",
+    "R0318"
+   ],
+   "erkennungsmerkmale": "ProSys-Vorwandelement 120 mit Spülkasten 'Class 2', mechanische oder pneumatische Betätigung.",
+   "beschreibung": "Ideal-Standard-Ersatzteilliste (UK) 'SPARE PARTS PROSYS 120, Class 2' für R0153/R0313/R0314/R0315/R0317/R0318.",
+   "quellen": [
+    "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347204-source/is-prosys-mp-sparesl-nn-r0153r0313r0314r0315r0317r0318wc-frame120cl2"
+   ]
+  },
+  {
+   "slug": "prosys-150-class-1-spuelkasten",
+   "name": "Ideal Standard ProSys 150 Unterputzspülkasten (Class 1)",
+   "produkttyp": "spuelkasten",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "R0090",
+    "R0091",
+    "R0141",
+    "R0279"
+   ],
+   "erkennungsmerkmale": "ProSys-150-Element mit 'Filling SmartValve Class 1'; R0091 = WC-Montagerahmen 400x180x820 mm.",
+   "beschreibung": "Ideal-Standard-Ersatzteilliste (UK) 'SPARE PARTS PROSYS 150' für R0090/R0091/R0141/R0279.",
+   "quellen": [
+    "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/235420-source/multibrand-prosys-multiproduct-sparesl-nn-isashr009067r009167r014167r027967",
+    "https://www.idealstandard.de/produkte/r0091"
+   ]
+  },
+  {
+   "slug": "prosys-150-class-2-spuelkasten",
+   "name": "Ideal Standard ProSys 150 Unterputzspülkasten (Class 2)",
+   "produkttyp": "spuelkasten",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "R0140",
+    "R0142",
+    "R0312",
+    "R0316",
+    "R0428",
+    "R0429"
+   ],
+   "erkennungsmerkmale": "ProSys-150-Element 'Class 2'; R0316/R0429 pneumatisch, R0428 mechanisch (laut Produktseiten).",
+   "beschreibung": "Ideal-Standard-Ersatzteilliste (UK) 'SPARE PARTS PROSYS 150, Class 2'.",
+   "quellen": [
+    "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347205-source/is-prosys-mp-sparesl-nn-r0140r0142r0312r0316r0428r0429wc-frame150cl2"
+   ]
+  }
+ ],
+ "teile": [
+  {
+   "slug": "ideal-standard-kartusche-a960500nu",
+   "name": "Ideal Standard Click-Kartusche Ø47 mm A960500NU",
+   "teiltyp": "kartusche",
+   "oem_nummer": "A960500NU",
+   "ean": "4015413868846",
+   "masse": {
+    "durchmesser_mm": 47
+   },
+   "beschreibung": "Keramik-Steuerkartusche Ø47 mm mit Click-Technik und einstellbarem Temperaturbegrenzer für Einhebelmischer; laut OEG Ersatz für A960463NU, A961101NU und A963540NU. In Ideal-Standard-Ersatzteillisten u. a. für Ceraplan, Ceramix Classic, Ceramix No.1, Ceramix Top-Fix, CeraPlan III und Ceramix Blue Badearmatur geführt.",
+   "preis_spanne": "ca. 25–35 € (eBay/Kaufland, gesehen 11/2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Schlitzschraubendreher (Abdeckstopfen), Innensechskantschlüssel (u. a. SW 2,5 für Hebel-Gewindestift), Kreuzschlitzschraubendreher, ggf. Maulschlüssel; Armaturenfett",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.de/produkte/a960500",
+    "https://www.oeg.net/en/ideal-standard-cartridge-oe-47-mm-for-single-lever-mixers-801000450",
+    "https://www.weinmann-schanz.de/de/de/produkte/produkt.html/click-kartusche-ideal-standard-47mm-ref-a960500nu-93-066-97.html",
+    "https://showerspares.com/search/trevi-click-cartridge-a960500nu",
+    "https://www.kaufland.de/product/310224455/",
+    "https://www.ebay.de/p/2294833416"
+   ]
+  },
+  {
+   "slug": "ideal-standard-kartusche-a961101nu",
+   "name": "Ideal Standard Kartusche Ø47 mm DE A961101NU",
+   "teiltyp": "kartusche",
+   "oem_nummer": "A961101NU",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 47
+   },
+   "beschreibung": "Kartusche 47 'DE' komplett laut Ideal-Standard-Ersatzteillisten Ceramix Top-Fix und Ceramix No.1; laut OEG durch A960500NU ersetzt.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Schlitzschraubendreher (Abdeckstopfen), Innensechskantschlüssel (u. a. SW 2,5 für Hebel-Gewindestift), Kreuzschlitzschraubendreher, ggf. Maulschlüssel; Armaturenfett",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133027-source/options/downloadf",
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133035-source/options/download",
+    "https://www.oeg.net/en/ideal-standard-cartridge-oe-47-mm-for-single-lever-mixers-801000450"
+   ]
+  },
+  {
+   "slug": "ideal-standard-kartusche-a963540nu",
+   "name": "Ideal Standard Kartusche Ø47 mm ECO A963540NU",
+   "teiltyp": "kartusche",
+   "oem_nummer": "A963540NU",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 47
+   },
+   "beschreibung": "Kartusche 47 ECO komplett laut Ideal-Standard-Ersatzteilliste Ceramix Top-Fix; laut OEG durch A960500NU ersetzt.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Schlitzschraubendreher (Abdeckstopfen), Innensechskantschlüssel (u. a. SW 2,5 für Hebel-Gewindestift), Kreuzschlitzschraubendreher, ggf. Maulschlüssel; Armaturenfett",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133027-source/options/downloadf",
+    "https://www.oeg.net/en/ideal-standard-cartridge-oe-47-mm-for-single-lever-mixers-801000450"
+   ]
+  },
+  {
+   "slug": "ideal-standard-kartusche-a962552nu",
+   "name": "Ideal Standard Ceramix Kartusche Ø46 mm A962552NU",
+   "teiltyp": "kartusche",
+   "oem_nummer": "A962552NU",
+   "ean": "4015413570367",
+   "masse": {
+    "durchmesser_mm": 46
+   },
+   "beschreibung": "Ø46-mm-Kartusche für die erste Ceramix-Generation (bis 1983); eBay-Angebot 'Ceramix Kartusche 4/46mm'.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Schlitzschraubendreher (Abdeckstopfen), Innensechskantschlüssel (u. a. SW 2,5 für Hebel-Gewindestift), Kreuzschlitzschraubendreher, ggf. Maulschlüssel; Armaturenfett",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133027-source/options/downloadf",
+    "https://www.ebay.de/p/1504759456"
+   ]
+  },
+  {
+   "slug": "ideal-standard-kartusche-a961710nu",
+   "name": "Ideal Standard Ceramix Kartusche Ø53 mm A961710NU",
+   "teiltyp": "kartusche",
+   "oem_nummer": "A961710NU",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 53
+   },
+   "beschreibung": "Kartusche kpl. Ø53 mm (Befestigung mit 2 Schrauben) für Ceramix 1975–1983 laut Ideal-Standard-Ersatzteilliste.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Schlitzschraubendreher (Abdeckstopfen), Innensechskantschlüssel (u. a. SW 2,5 für Hebel-Gewindestift), Kreuzschlitzschraubendreher, ggf. Maulschlüssel; Armaturenfett",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133027-source/options/downloadf"
+   ]
+  },
+  {
+   "slug": "ideal-standard-kartusche-a963785nu",
+   "name": "Ideal Standard Kartusche Ø40 mm A963785NU",
+   "teiltyp": "kartusche",
+   "oem_nummer": "A963785NU",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 40
+   },
+   "beschreibung": "40-mm-Keramikkartusche (Maße laut eBay 63,5 x Ø40 mm, 3 Bohrungen für Zylinderschrauben). Kaufland nennt Ceraplan Slimline, Comfort, Connect Blue, Cerasprint/Cerasprint New sowie Melohmix II (B2261AA, B2262AA) und Memixa (A5290); Ideal-Standard-Liste 'Slimline 2' führt für die Ø40-Kartusche B960863NU, A963785NU und B960775NU.",
+   "preis_spanne": "ca. 30–47 € (eBay/Preisvergleich, gesehen 11/2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Schlitzschraubendreher (Abdeckstopfen), Innensechskantschlüssel (u. a. SW 2,5 für Hebel-Gewindestift), Kreuzschlitzschraubendreher, ggf. Maulschlüssel; Armaturenfett",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.kaufland.de/product/331084719/",
+    "https://www.ebay.de/p/2255388677",
+    "https://www.showerspares.com/search/trevi_piccolo_40mm_ceramic_cartridge_assembly_a963785nu",
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133115-source/options/download",
+    "https://www.weinmann-schanz.de/us/en/produkte/kategorie.html/ersatzteile-96088/ersatzteile-hersteller-a-bis-z-95685/ideal-standard-94750-2/kartuschen-ideal-standard-94759-2.html"
+   ]
+  },
+  {
+   "slug": "ideal-standard-kartusche-a861156nu",
+   "name": "Ideal Standard FirmaFlow Click-Kartusche Ø38 mm A861156NU",
+   "teiltyp": "kartusche",
+   "oem_nummer": "A861156NU",
+   "ean": "4015413546881",
+   "masse": {
+    "durchmesser_mm": 38
+   },
+   "beschreibung": "38-mm-FirmaFlow-Keramikkartusche mit Click-Wasserspar-Stopp und Heißwasserbegrenzung. Ideal Standard führt sie als Set zum Austausch der alten Ø40-Ceraplan-Kartusche (bis 9/2018), Adapterhülse 38/40 in der Liste; Kaufland: serienübergreifend.",
+   "preis_spanne": "ca. 45–50 € (eBay/Kaufland, gesehen 11/2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Schlitzschraubendreher (Abdeckstopfen), Innensechskantschlüssel (u. a. SW 2,5 für Hebel-Gewindestift), Kreuzschlitzschraubendreher, ggf. Maulschlüssel; Armaturenfett",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133037-source/options/download/is-ceraplaniii-mp-sparesl-de-bathroom",
+    "https://www.showerspares.com/search/ideal-standard-38mm-firmaflow-click-cartridge-a861156nu",
+    "https://www.lemu.dk/en/catalog/products/boerma-cartridge-38-mm/745113280",
+    "https://www.kaufland.at/product/347164234/",
+    "https://www.ebay.de/p/18030154824"
+   ]
+  },
+  {
+   "slug": "ideal-standard-kartusche-a861397nu",
+   "name": "Ideal Standard Kartusche A861397NU (28 SD)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "A861397NU",
+   "ean": "4015413582537",
+   "masse": {
+    "durchmesser_mm": null
+   },
+   "beschreibung": "Keramikkartusche; Weinmann & Schanz: 'Kartusche Ideal Standard 28 SD', passend zu Cerafine D/O. Durchmesserangaben widersprüchlich (28 mm vs. 25 mm), deshalb hier offen gelassen.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Schlitzschraubendreher (Abdeckstopfen), Innensechskantschlüssel (u. a. SW 2,5 für Hebel-Gewindestift), Kreuzschlitzschraubendreher, ggf. Maulschlüssel; Armaturenfett",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.weinmann-schanz.de/de/de/produkte/kategorie.html/ersatzteile-96088/ersatzteile-hersteller-a-bis-z-95685/ideal-standard-94750-2/kartuschen-ideal-standard-94759-2.html",
+    "https://www.showerspares.com/search/ideal-standard-tap-cartridge-a861397nu",
+    "https://www.ebay.de/b/Ideal-Standard-Kartusche/bn_7005678923"
+   ]
+  },
+  {
+   "slug": "ideal-standard-kartusche-a963462nu",
+   "name": "Ideal Standard Back-to-Back-Kartusche Ø47 mm A963462NU",
+   "teiltyp": "kartusche",
+   "oem_nummer": "A963462NU",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 47
+   },
+   "beschreibung": "47-mm-Kartusche für Armaturen mit vertauschten Anschlüssen (Warm/Kalt).",
+   "preis_spanne": "ca. 108 € (Kaufland, gesehen 11/2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Schlitzschraubendreher (Abdeckstopfen), Innensechskantschlüssel (u. a. SW 2,5 für Hebel-Gewindestift), Kreuzschlitzschraubendreher, ggf. Maulschlüssel; Armaturenfett",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.weinmann-schanz.de/us/en/produkte/kategorie.html/ersatzteile-96088/ersatzteile-hersteller-a-bis-z-95685/ideal-standard-94750-2/kartuschen-ideal-standard-94759-2.html",
+    "https://www.kaufland.de/product/331084719/"
+   ]
+  },
+  {
+   "slug": "ideal-standard-dichtungsset-a961155nu",
+   "name": "Ideal Standard Dichtungs-Set für Kartusche Ø47 mm A961155NU",
+   "teiltyp": "dichtung",
+   "oem_nummer": "A961155NU",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 47
+   },
+   "beschreibung": "Dichtungs-Set Kartusche laut Ideal-Standard-Ersatzteillisten Ceraplan, Ceramix Classic und Ceramix Top-Fix; Händler: Dichtungsset für Kartusche Ø47 mm.",
+   "preis_spanne": "ca. 14–19 € (gesehen 11/2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Schlitzschraubendreher (Abdeckstopfen), Innensechskantschlüssel (u. a. SW 2,5 für Hebel-Gewindestift), Kreuzschlitzschraubendreher, ggf. Maulschlüssel; Armaturenfett",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133041-source/options/download",
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133025-source/options/download",
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133027-source/options/downloadf",
+    "https://www.testberichte.de/heimwerkerbedarf/dichtungsset-fuer-kartusche-r-47mm.html",
+    "https://www.kranenspecialist.nl/en/products/venlo-o-ringen-set-artikelnummer-a961155nu"
+   ]
+  },
+  {
+   "slug": "ideal-standard-thermostatkartusche-a962229nu",
+   "name": "Ideal Standard Thermostatkartusche G1/2 A962229NU",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "A962229NU",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 36
+   },
+   "beschreibung": "Thermostat-Kartusche G1/2 laut Ideal-Standard-Ersatzteillisten (CeraTherm, CeraPlus-Thermostate); Händler: für Ceratherm 25/50/100/200 und Geometry T3/T13; Länge 81 mm, Ø36 mm laut UK-Händler.",
+   "preis_spanne": "ca. 50–60 € (eBay/NL-Händler, gesehen 11/2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Innensechskantschlüssel, Kreuzschlitzschraubendreher, Maulschlüssel für den Kartuschen-Sechskant; Armaturenfett",
+   "amazon_asin": null,
+   "quellen": [
+    "https://idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133054-source/options/download/is-ceratherm-mp-sparesl-de-bathroom100200300",
+    "https://idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133050-source/options/download/is-ceraplus-mp-sparesl-de-bathroomthermostats",
+    "https://www.lemu.dk/en/product/thermostat-cartridge-id-745113004",
+    "https://www.fixthebog.uk/ideal-standard-trevi-a962229nu-ecotherm-1-2-inch-thermostatic-cartridge-for-velino-trevi-link-trevi-link-contour-21-melange-ceratherm-alto-ecotherm-sandringham-shower-valves",
+    "https://www.ebay.de/p/13011372423"
+   ]
+  },
+  {
+   "slug": "ideal-standard-wartungsset-a962230nu",
+   "name": "Ideal Standard Wartungs-Set Thermostatkartusche G1/2 A962230NU",
+   "teiltyp": "dichtung",
+   "oem_nummer": "A962230NU",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": null
+   },
+   "beschreibung": "Wartungs-Set für die Thermostatkartusche G1/2 laut Ideal-Standard-Ersatzteilliste (gemeinsam mit A962229NU gelistet).",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Innensechskantschlüssel, Kreuzschlitzschraubendreher, Maulschlüssel; Armaturenfett",
+   "amazon_asin": null,
+   "quellen": [
+    "https://idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133054-source/options/download/is-ceratherm-mp-sparesl-de-bathroom100200300"
+   ]
+  },
+  {
+   "slug": "ideal-standard-thermostatkartusche-a861371nu",
+   "name": "Ideal Standard Thermostatkartusche A861371NU (Ceratherm T)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "A861371NU",
+   "ean": "4015413579070",
+   "masse": {
+    "durchmesser_mm": null
+   },
+   "beschreibung": "Thermostatkartusche für Ceratherm-Aufputzthermostate der T-Serie (T25/T50/T100/T125 laut Lemu; Weinmann & Schanz: Ceratherm T50); laut divapor Höhe 87,9 mm, Gewinde-Ø 35,86 mm, mit Kaltwasser-Ausfallsicherung.",
+   "preis_spanne": "ca. 39 € (eBay, gesehen 11/2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Innensechskantschlüssel, Kreuzschlitzschraubendreher, Maulschlüssel für den Kartuschen-Sechskant; Armaturenfett",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.weinmann-schanz.de/de/de/produkte/produkt.html/thermostatkartusche-ideal-standard-ref-a861371nu-93-172-65.html",
+    "https://www.lemu.dk/da/catalog/products/boerma-termostatenhed-til-ceratherm-t25-t50-t100-t125-mfl/745113300",
+    "https://www.divapor.com/spares/showers/ideal-standard-spares/ideal-standard-a861371nu-thermostatic-cartridge-a925551.php",
+    "https://www.showerspares.com/search/ideal-standard-thermostatic-cartridge-a861371nu",
+    "https://www.ebay.de/itm/256588609159"
+   ]
+  },
+  {
+   "slug": "ideal-standard-strahlregler-a960935aa",
+   "name": "Ideal Standard Strahlregler M24x1 komplett A960935AA",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "A960935AA",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": null
+   },
+   "beschreibung": "Strahlregler M24x1 komplett laut Ideal-Standard-Ersatzteilliste Ceramix Classic (auch in der Cerasprint-Liste).",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "ggf. Strahlreglerschlüssel oder Zange mit Tuch; Entkalker",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133025-source/options/download"
+   ]
+  },
+  {
+   "slug": "ideal-standard-strahlregler-b960754aa",
+   "name": "Ideal Standard Laminar-Strahlregler M24x1 5 l/min B960754AA",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "B960754AA",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": null
+   },
+   "beschreibung": "Strahlregler M24x1 mit 5 l/min Durchflussbegrenzung; laut Ideal-Standard-Ersatzteilliste CeraPlan III und UK-Händler.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "ggf. Strahlreglerschlüssel oder Zange mit Tuch; Entkalker",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133037-source/options/download/is-ceraplaniii-mp-sparesl-de-bathroom",
+    "https://www.showerspares.com/search/ideal-standard-5-ltr-min-regulated-aerator-b960754aa/?mobile=0"
+   ]
+  },
+  {
+   "slug": "ideal-standard-griffhebel-a960754aa",
+   "name": "Ideal Standard Griffhebel Ceramix No. 1 chrom A960754AA",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "A960754AA",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": null
+   },
+   "beschreibung": "Griffhebel komplett für Ceramix No. 1 (Bauzeit Jan. 1995 bis April 2000 laut Ersatzteilliste); AA = chrom, AC = weiß. Befestigung über Gewindestift SW 2,5.",
+   "preis_spanne": "ca. 46 € (eBay, gesehen 11/2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Innensechskantschlüssel SW 2,5, Schlitzschraubendreher für den Griffstopfen",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133035-source/options/download",
+    "https://www.weinmann-schanz.de/fr/fr/produkte/kategorie.html/ersatzteile-96088/ersatzteile-hersteller-a-bis-z-95685/ideal-standard-94750-2/griffe-ideal-standard-94755-2.html",
+    "https://www.ebay.de/p/1105175332"
+   ]
+  },
+  {
+   "slug": "ideal-standard-renovierungsset-a963800nu",
+   "name": "Ideal Standard Renovierungs-Set Badearmatur UP Bausatz 1 A963800NU",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "A963800NU",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": null
+   },
+   "beschreibung": "Renovierungs-Set für Unterputz-Badearmaturen (Einbaukörper/Bausatz 1), um alte UP-Körper mit aktuellen Fertigmontagesets zu nutzen.",
+   "preis_spanne": "ca. 159–228 € (gesehen 11/2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": "Fachbetrieb (Eingriff am Unterputzkörper)",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.ebay.de/p/16012065476",
+    "https://www.testbericht.de/produkte/ideal-standard-renovierungs-set-fuer-badearmaturen-up-bausatz-1-a963800nu"
+   ]
+  },
+  {
+   "slug": "ideal-standard-renovierungsset-a963801nu",
+   "name": "Ideal Standard UP-Renovierungs-Set Brause A963801NU",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "A963801NU",
+   "ean": "4015413753241",
+   "masse": {
+    "durchmesser_mm": null
+   },
+   "beschreibung": "Unterputz-Renovierungs-Set Brause zum Umrüsten alter UP-Grundkörper (1974–97) auf aktuelle Fertigmontagesets; Fertigset nicht enthalten (Weinmann & Schanz). manuals.plus erwähnt 47-mm-Keramikkartusche (schwache Quelle).",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": "Fachbetrieb (Eingriff am Unterputzkörper)",
+   "amazon_asin": null,
+   "quellen": [
+    "https://weinmann-schanz.de/de/en/Plumbing/Bath-fittings/basic-body/Renovation-set-for-bathroom-shower-fitting/Flush-mounted-renovation-set-shower-for-converting-old-flush-mounted-bodies-1974-97-to-current-complete-sets-sid2501943.html",
+    "https://manuals.plus/asin/B00F0JWT50"
+   ]
+  },
+  {
+   "slug": "ideal-standard-fuellventil-rv15467",
+   "name": "Ideal Standard ProSys Füllventil SmartValve Class 1 RV15467",
+   "teiltyp": "fuellventil",
+   "oem_nummer": "RV15467",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": null
+   },
+   "beschreibung": "'Filling SmartValve Class 1' laut Ideal-Standard-Ersatzteilliste ProSys 150; Wartungssatz dort RV20367.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "keins bis Schraubendreher; Zugang über Revisionsöffnung hinter der Betätigungsplatte",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/235420-source/multibrand-prosys-multiproduct-sparesl-nn-isashr009067r009167r014167r027967"
+   ]
+  },
+  {
+   "slug": "ideal-standard-fuellventil-rv15367",
+   "name": "Ideal Standard ProSys Füllventil (Inlet SmartValve) Class 2 RV15367",
+   "teiltyp": "fuellventil",
+   "oem_nummer": "RV15367",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": null
+   },
+   "beschreibung": "'Inlet SmartValve AUK1 Class 2' laut Ideal-Standard-Ersatzteillisten ProSys 120/150 Class 2 (UK-Listen; DE-Variante nicht geprüft).",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "keins bis Schraubendreher; Zugang über Revisionsöffnung hinter der Betätigungsplatte",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347204-source/is-prosys-mp-sparesl-nn-r0153r0313r0314r0315r0317r0318wc-frame120cl2",
+    "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347205-source/is-prosys-mp-sparesl-nn-r0140r0142r0312r0316r0428r0429wc-frame150cl2"
+   ]
+  },
+  {
+   "slug": "ideal-standard-spuelventil-rv25367",
+   "name": "Ideal Standard ProSys 120 Spülventil mechanisch Class 2 RV25367",
+   "teiltyp": "spuelventil",
+   "oem_nummer": "RV25367",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": null
+   },
+   "beschreibung": "Mechanisches Spülventil für ProSys 120 Class 2.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "keins; Zugang über Revisionsöffnung hinter der Betätigungsplatte",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347204-source/is-prosys-mp-sparesl-nn-r0153r0313r0314r0315r0317r0318wc-frame120cl2",
+    "https://www.showerspares.com/search/ideal-standard-prosys-120-cl2-mechanical-flush-valve-rv25367/"
+   ]
+  },
+  {
+   "slug": "ideal-standard-spuelventil-rv25467",
+   "name": "Ideal Standard ProSys 120 Spülventil pneumatisch Class 2 RV25467",
+   "teiltyp": "spuelventil",
+   "oem_nummer": "RV25467",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": null
+   },
+   "beschreibung": "Pneumatisches Spülventil für ProSys 120 Class 2.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "keins; Zugang über Revisionsöffnung hinter der Betätigungsplatte",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347204-source/is-prosys-mp-sparesl-nn-r0153r0313r0314r0315r0317r0318wc-frame120cl2",
+    "https://www.showerspares.com/search/ideal-standard-prosys-120-cl2-pnuematic-flush-valve-rv25467/"
+   ]
+  },
+  {
+   "slug": "ideal-standard-spuelventil-rv25167",
+   "name": "Ideal Standard ProSys 150 Spülventil mechanisch Class 2 RV25167",
+   "teiltyp": "spuelventil",
+   "oem_nummer": "RV25167",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": null
+   },
+   "beschreibung": "Mechanisches Spülventil für ProSys 150 Class 2.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "keins; Zugang über Revisionsöffnung hinter der Betätigungsplatte",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347205-source/is-prosys-mp-sparesl-nn-r0140r0142r0312r0316r0428r0429wc-frame150cl2"
+   ]
+  },
+  {
+   "slug": "ideal-standard-spuelventil-rv25267",
+   "name": "Ideal Standard ProSys 150 Spülventil pneumatisch Class 2 RV25267",
+   "teiltyp": "spuelventil",
+   "oem_nummer": "RV25267",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": null
+   },
+   "beschreibung": "Pneumatisches Spülventil für ProSys 150 Class 2.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "keins; Zugang über Revisionsöffnung hinter der Betätigungsplatte",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347205-source/is-prosys-mp-sparesl-nn-r0140r0142r0312r0316r0428r0429wc-frame150cl2"
+   ]
+  },
+  {
+   "slug": "ideal-standard-dichtung-rv15567",
+   "name": "Ideal Standard ProSys Ablaufventil-Dichtung RV15567",
+   "teiltyp": "dichtung",
+   "oem_nummer": "RV15567",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": null
+   },
+   "beschreibung": "'Outlet Valve Seal' für ProSys 150, 80, ECO und 2.0 laut Ideal-Standard-Ersatzteilliste.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "keins; Zugang über Revisionsöffnung hinter der Betätigungsplatte",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/235420-source/multibrand-prosys-multiproduct-sparesl-nn-isashr009067r009167r014167r027967"
+   ]
+  }
+ ],
+ "zuordnungen": [
+  {
+   "serie_slug": "ceramix-1974-1983",
+   "teil_slug": "ideal-standard-kartusche-a961710nu",
+   "hinweis": "Ø53 mm, 2 Schrauben; A3502/A3542/A3562, Bj. 1975–1983 (Typ A bis 1980, Typ B 6/1980–7/1983). Durchmesser vor Bestellung messen.",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133027-source/options/downloadf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceramix-1974-1983",
+   "teil_slug": "ideal-standard-kartusche-a962552nu",
+   "hinweis": "Ø46-mm-Variante; u. a. A2500 (bis 1976, ohne Spannring), laut Liste auch bei A3502/A3562 genannt. eBay bestätigt 46 mm.",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133027-source/options/downloadf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceramix-top-fix-waschtisch",
+   "teil_slug": "ideal-standard-kartusche-a960500nu",
+   "hinweis": "Kartusche 47 kompl. (Standardvariante).",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133027-source/options/downloadf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceramix-top-fix-waschtisch",
+   "teil_slug": "ideal-standard-kartusche-a961101nu",
+   "hinweis": "Kartusche 47 DE kompl.",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133027-source/options/downloadf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceramix-top-fix-waschtisch",
+   "teil_slug": "ideal-standard-kartusche-a963540nu",
+   "hinweis": "Kartusche 47 ECO kompl.",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133027-source/options/downloadf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceramix-top-fix-waschtisch",
+   "teil_slug": "ideal-standard-dichtungsset-a961155nu",
+   "hinweis": "Dichtungs-Set Kartusche.",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133027-source/options/downloadf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceramix-no1",
+   "teil_slug": "ideal-standard-kartusche-a960500nu",
+   "hinweis": "Kartusche kompl.",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133035-source/options/download",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceramix-no1",
+   "teil_slug": "ideal-standard-kartusche-a961101nu",
+   "hinweis": "DE-Variante der Kartusche.",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133035-source/options/download",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceramix-no1",
+   "teil_slug": "ideal-standard-griffhebel-a960754aa",
+   "hinweis": "Griffhebel kpl. A960754XX (XX = Oberfläche: AA chrom, AC weiß), Bauzeit Jan. 1995 bis April 2000; neuere No.1-Hebel haben laut Händlerauszug eine andere Nummer.",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133035-source/options/download",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceramix-classic",
+   "teil_slug": "ideal-standard-kartusche-a960500nu",
+   "hinweis": "Kartusche kompl.; Liste 'ab Mai 2000'.",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133025-source/options/download",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceramix-classic",
+   "teil_slug": "ideal-standard-dichtungsset-a961155nu",
+   "hinweis": "Dichtungs-Set Kartusche.",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133025-source/options/download",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceramix-classic",
+   "teil_slug": "ideal-standard-strahlregler-a960935aa",
+   "hinweis": "Strahlregler M24x1 kpl.",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133025-source/options/download",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceramix-blue-badearmatur",
+   "teil_slug": "ideal-standard-kartusche-a960500nu",
+   "hinweis": "Datenblatt B9490AA (Badearmatur AP): Pos. 6 Kartusche Ø47 mm A960500NU; Datenblatt B9493 nennt dieselbe Kartusche.",
+   "quelle_url": "https://assets.heizung-billiger.de/documents/isdb_b9490.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceramix-blue-waschtisch",
+   "teil_slug": "ideal-standard-kartusche-a963785nu",
+   "hinweis": "Nur Ø40-Modelle; nicht für A5651 (Piccolo, Ø38 FirmaFlow CLICK). Weinmann & Schanz nennt Ceramix-Blue-Waschtisch- und Bidetmischer; keine Herstellerbestätigung gefunden.",
+   "quelle_url": "https://www.weinmann-schanz.de/us/en/produkte/kategorie.html/ersatzteile-96088/ersatzteile-hersteller-a-bis-z-95685/ideal-standard-94750-2/kartuschen-ideal-standard-94759-2.html",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "ceraplan-waschtisch",
+   "teil_slug": "ideal-standard-kartusche-a960500nu",
+   "hinweis": "Ersatzteilliste CERAPLAN: Kartusche kompl.; Showerspares nennt ebenfalls Ceraplan-Waschtischarmatur.",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133041-source/options/download",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceraplan-waschtisch",
+   "teil_slug": "ideal-standard-dichtungsset-a961155nu",
+   "hinweis": "Dichtungs-Set Kartusche (Dichtungs-Set Umstellung separat: A961156NU).",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133041-source/options/download",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceraplan-slimline-waschtisch",
+   "teil_slug": "ideal-standard-kartusche-a963785nu",
+   "hinweis": "Kaufland nennt Ceraplan Slimline ausdrücklich; Ideal-Standard-Liste 'Slimline 2' führt für Ø40 B960863NU/A963785NU/B960775NU (Zuordnung Slimline 2 = Ceraplan Slimline nicht bestätigt).",
+   "quelle_url": "https://www.kaufland.de/product/331084719/",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "ceraplan-iii-waschtisch",
+   "teil_slug": "ideal-standard-kartusche-a960500nu",
+   "hinweis": "B0703/B0704/B0705: Pos. 20 Kartusche Ø47 mm (Liste Stand 2019-04-30). Widerspruch zur Ø40/Ø38-Angabe derselben Liste beachten – Kartusche messen.",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133037-source/options/download/is-ceraplaniii-mp-sparesl-de-bathroom",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceraplan-iii-waschtisch",
+   "teil_slug": "ideal-standard-kartusche-a861156nu",
+   "hinweis": "'Set Kartusche Ø38mm FirmaFlow zum Austausch der alten Ø40mm Kartusche Ceraplan bis 9/2018' inkl. Adapterhülse 38/40.",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133037-source/options/download/is-ceraplaniii-mp-sparesl-de-bathroom",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceraplan-iii-waschtisch",
+   "teil_slug": "ideal-standard-strahlregler-b960754aa",
+   "hinweis": "Laminar-Strahlregler M24x1, 5 l/min.",
+   "quelle_url": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133037-source/options/download/is-ceraplaniii-mp-sparesl-de-bathroom",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ceraplan-waschtisch-bd",
+   "teil_slug": "ideal-standard-kartusche-a861397nu",
+   "hinweis": "Showerspares nennt Ceraline- und Ceraplan-Waschtischmischer; konkrete BD-Nummern nicht bestätigt, Durchmesser widersprüchlich.",
+   "quelle_url": "https://www.showerspares.com/search/ideal-standard-tap-cartridge-a861397nu",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "ceraflex-waschtisch",
+   "teil_slug": "ideal-standard-kartusche-a861156nu",
+   "hinweis": "Lemu: 'Børma 38 mm FirmaFlow kartouche til Ceraflex m.fl.'; Kaufland listet A861156NU als serienübergreifend. Ceraflex-Ersatzteilliste nicht eingesehen.",
+   "quelle_url": "https://www.lemu.dk/en/catalog/products/boerma-cartridge-38-mm/745113280",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "cerafine-waschtisch",
+   "teil_slug": "ideal-standard-kartusche-a861397nu",
+   "hinweis": "Weinmann & Schanz: '28 SD', passend Cerafine D Waschtischmischer (W&S 93 172 17) und Cerafine O (93 172 23–25). Herstellerliste BC497/BC555/BC703 nicht eingesehen.",
+   "quelle_url": "https://www.weinmann-schanz.de/de/de/produkte/kategorie.html/ersatzteile-96088/ersatzteile-hersteller-a-bis-z-95685/ideal-standard-94750-2/kartuschen-ideal-standard-94759-2.html",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "ceratherm-100-200",
+   "teil_slug": "ideal-standard-thermostatkartusche-a962229nu",
+   "hinweis": "Lemu: Ceratherm 25/50/100/200; Ideal-Standard-Liste (CeraTherm 100/200/300) führt 'Thermostat-Kartusche G1/2 A962229NU'; Forumsnutzer bestätigt Einbau in A4623AA.",
+   "quelle_url": "https://www.lemu.dk/en/product/thermostat-cartridge-id-745113004",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "ceratherm-100-200",
+   "teil_slug": "ideal-standard-wartungsset-a962230nu",
+   "hinweis": "Wartungs-Set Kartusche G1/2, in Ideal-Standard-Liste neben A962229NU; genaue Produktnummern nicht bestätigt.",
+   "quelle_url": "https://idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133054-source/options/download/is-ceratherm-mp-sparesl-de-bathroom100200300",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "ceratherm-t-serie",
+   "teil_slug": "ideal-standard-thermostatkartusche-a861371nu",
+   "hinweis": "Lemu: T25/T50/T100/T125; divapor: A7202AA (T25), A7699AA (T100); Weinmann & Schanz: Ceratherm T50. Keine Herstellerliste eingesehen.",
+   "quelle_url": "https://www.lemu.dk/da/catalog/products/boerma-termostatenhed-til-ceratherm-t25-t50-t100-t125-mfl/745113300",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "prosys-120-class-2-spuelkasten",
+   "teil_slug": "ideal-standard-spuelventil-rv25367",
+   "hinweis": "Mechanische Betätigung; R0153/R0313/R0314/R0315/R0317/R0318 (Class 2).",
+   "quelle_url": "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347204-source/is-prosys-mp-sparesl-nn-r0153r0313r0314r0315r0317r0318wc-frame120cl2",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "prosys-120-class-2-spuelkasten",
+   "teil_slug": "ideal-standard-spuelventil-rv25467",
+   "hinweis": "Pneumatische Betätigung; ProSys 120 Class 2.",
+   "quelle_url": "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347204-source/is-prosys-mp-sparesl-nn-r0153r0313r0314r0315r0317r0318wc-frame120cl2",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "prosys-120-class-2-spuelkasten",
+   "teil_slug": "ideal-standard-fuellventil-rv15367",
+   "hinweis": "Inlet SmartValve AUK1 Class 2 (UK-Liste).",
+   "quelle_url": "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347204-source/is-prosys-mp-sparesl-nn-r0153r0313r0314r0315r0317r0318wc-frame120cl2",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "prosys-150-class-2-spuelkasten",
+   "teil_slug": "ideal-standard-spuelventil-rv25167",
+   "hinweis": "Mechanische Betätigung; R0140/R0142/R0312/R0316/R0428/R0429 (Class 2).",
+   "quelle_url": "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347205-source/is-prosys-mp-sparesl-nn-r0140r0142r0312r0316r0428r0429wc-frame150cl2",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "prosys-150-class-2-spuelkasten",
+   "teil_slug": "ideal-standard-spuelventil-rv25267",
+   "hinweis": "Pneumatische Betätigung; ProSys 150 Class 2.",
+   "quelle_url": "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347205-source/is-prosys-mp-sparesl-nn-r0140r0142r0312r0316r0428r0429wc-frame150cl2",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "prosys-150-class-2-spuelkasten",
+   "teil_slug": "ideal-standard-fuellventil-rv15367",
+   "hinweis": "Inlet SmartValve Class 2 (UK-Liste).",
+   "quelle_url": "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347205-source/is-prosys-mp-sparesl-nn-r0140r0142r0312r0316r0428r0429wc-frame150cl2",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "prosys-150-class-1-spuelkasten",
+   "teil_slug": "ideal-standard-fuellventil-rv15467",
+   "hinweis": "Filling SmartValve Class 1; Wartungssatz RV20367. R0090/R0091/R0141/R0279.",
+   "quelle_url": "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/235420-source/multibrand-prosys-multiproduct-sparesl-nn-isashr009067r009167r014167r027967",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "prosys-150-class-1-spuelkasten",
+   "teil_slug": "ideal-standard-dichtung-rv15567",
+   "hinweis": "Outlet Valve Seal (auch für ProSys 80, ECO, 2.0 genannt).",
+   "quelle_url": "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/235420-source/multibrand-prosys-multiproduct-sparesl-nn-isashr009067r009167r014167r027967",
+   "sicherheit": "hersteller"
+  }
+ ],
+ "probleme": [
+  {
+   "slug": "ideal-standard-armatur-tropft",
+   "titel": "Ideal Standard Armatur tropft – Kartusche oder Dichtung tauschen",
+   "symptom": "Wasser tropft bei geschlossenem Hebel aus dem Auslauf oder tritt unter dem Hebel/an der Kartusche aus.",
+   "ursachen": [
+    {
+     "ursache": "Verschlissene oder verkalkte Keramikkartusche (Dichtscheiben schließen nicht mehr)",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "ideal-standard-kartusche-a960500nu",
+      "ideal-standard-kartusche-a861156nu",
+      "ideal-standard-kartusche-a963785nu",
+      "ideal-standard-kartusche-a962552nu",
+      "ideal-standard-kartusche-a961710nu",
+      "ideal-standard-kartusche-a861397nu"
+     ]
+    },
+    {
+     "ursache": "Verschlissene Kartuschendichtungen (Wasser tritt unter dem Hebel aus)",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "ideal-standard-dichtungsset-a961155nu"
+     ]
+    }
+   ],
+   "schritte": [
+    "Produktnummer und Baujahr ermitteln und die passende Ideal-Standard-Ersatzteilliste (Produktseite bzw. Ersatzteilbereich auf idealstandard.de) prüfen; Kartuschendurchmesser messen (z. B. Ø38, Ø40, Ø46, Ø47, Ø53 mm).",
+    "Zulaufleitungen/Eckventile absperren und Armatur öffnen, um den Druck abzubauen.",
+    "Abdeckstopfen heraushebeln, Griffschraube lösen und den Hebel nach oben abziehen.",
+    "Kappe abziehen, die Befestigungsschrauben der Kartusche lösen und die Kartusche herausnehmen.",
+    "Neue Kartusche (mit Geräuschdämpfer) einsetzen; Schrauben wechselweise und nicht zu fest anziehen.",
+    "Restliche Teile montieren, Wasser öffnen und Funktion sowie Dichtigkeit prüfen."
+   ],
+   "fachbetrieb_ab": "Wenn die Eckventile nicht schließen, die Kartusche festsitzt, Wasser aus Armaturenkörper oder Wand austritt oder bei Unterputzarmaturen der Grundkörper (Renovierungs-Set) betroffen ist.",
+   "quellen": [
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/87287-source/is-cerasprintnew-b5345aa-iguide-de",
+    "https://www.idealstandard.de/produkte/a960500",
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133041-source/options/download",
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133025-source/options/download",
+    "https://www.weinmann-schanz.de/us/en/produkte/kategorie.html/ersatzteile-96088/ersatzteile-hersteller-a-bis-z-95685/ideal-standard-94750-2/kartuschen-ideal-standard-94759-2.html"
+   ]
+  },
+  {
+   "slug": "ideal-standard-ceramix-hebel-locker-schwergaengig",
+   "titel": "Ideal Standard Ceramix: Hebel locker oder schwergängig",
+   "symptom": "Der Griffhebel wackelt, rutscht auf der Achse durch oder lässt sich nur schwer bewegen.",
+   "ursachen": [
+    {
+     "ursache": "Gewindestift (Innensechskant SW 2,5) am Griffhebel hat sich gelockert",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Kartusche verkalkt oder verschlissen (Schwergängigkeit)",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "ideal-standard-kartusche-a960500nu",
+      "ideal-standard-kartusche-a962552nu",
+      "ideal-standard-kartusche-a961710nu"
+     ]
+    },
+    {
+     "ursache": "Griffhebel bzw. Aufnahme ausgeschlagen oder Gewinde beschädigt",
+     "haeufigkeit": "selten",
+     "teil_slugs": [
+      "ideal-standard-griffhebel-a960754aa"
+     ]
+    }
+   ],
+   "schritte": [
+    "Griffstopfen/Abdeckkappe am Hebel abnehmen.",
+    "Gewindestift (laut Ceramix-Ersatzteilliste SW 2,5) nachziehen; der Hebel muss spielfrei auf der Kartuschenachse sitzen.",
+    "Bleibt der Hebel schwergängig: Wasser absperren, Hebel und Kartusche ausbauen und auf Kalk prüfen. Armaturenfett hilft laut Forenberichten nur vorübergehend – meist ist eine neue Kartusche die dauerhafte Lösung.",
+    "Ist der Hebel selbst ausgeschlagen, Griffhebel passend zu Serie und Baujahr ersetzen (Ceramix No.1: A960754AA chrom)."
+   ],
+   "fachbetrieb_ab": "Wenn sich die Kartusche nicht lösen lässt, der Armaturenkörper beschädigt ist oder für sehr alte Ceramix-Armaturen keine Teile mehr lieferbar sind.",
+   "quellen": [
+    "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133035-source/options/download",
+    "https://bau.de/forum/sanitaer/12063.php",
+    "https://bau.de/forum/sanitaer/11806.php",
+    "https://www.ebay.de/p/1105175332"
+   ]
+  },
+  {
+   "slug": "ideal-standard-thermostat-regelt-nicht",
+   "titel": "Ideal Standard Thermostat (CeraTherm/Ceratherm T) regelt nicht",
+   "symptom": "Die Temperatur lässt sich nicht mehr verstellen, schwankt oder wird nicht mehr warm bzw. nur noch warm.",
+   "ursachen": [
+    {
+     "ursache": "Verschmutzte Siebe oder Rückflussverhinderer in den Anschlüssen",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Verkalkte oder defekte Thermostatkartusche (Dehnstoffelement)",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "ideal-standard-thermostatkartusche-a962229nu",
+      "ideal-standard-thermostatkartusche-a861371nu",
+      "ideal-standard-wartungsset-a962230nu"
+     ]
+    },
+    {
+     "ursache": "Großer Druckunterschied zwischen Warm- und Kaltwasser in der Hausinstallation",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    }
+   ],
+   "schritte": [
+    "Modell bestimmen: ältere CeraTherm 100/200 (z. B. A4623AA) oder Ceratherm T25/T50/T100/T125 (A72xx/A75xx/A76xx) – die Kartuschen sind verschieden.",
+    "Prüfen, ob Warm- und Kaltwasser mit ausreichendem Druck anliegen.",
+    "Wasser absperren, Aufputzthermostat abnehmen und Siebe/Rückflussverhinderer in den Anschlüssen reinigen.",
+    "Hilft das nicht: Griff und Temperaturbegrenzung demontieren, Thermostatkartusche am Sechskant herausdrehen, Wartungs-Set einsetzen bzw. Kartusche ersetzen.",
+    "Nach dem Tausch Auslauftemperatur messen und den Temperaturgriff gemäß Montageanleitung ausrichten."
+   ],
+   "fachbetrieb_ab": "Bei Unterputzthermostaten, festsitzender Kartusche, Verbrühungsgefahr oder wenn die Druckverhältnisse der Hausinstallation (Druckminderer, Warmwasserbereiter) die Ursache sind.",
+   "quellen": [
+    "https://www.energiesparhaus.at/forum-thermostat-von-armatur-kaputt/69864",
+    "https://www.haustechnikdialog.de/Forum/t/1162/Mischbatterie-Thermostat-regelt-nicht-richtig?print=1",
+    "https://bau.de/forum/sanitaer/10011.php",
+    "https://idealstandard.de/produkte/highlights/ceratherm-t",
+    "https://idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133054-source/options/download/is-ceratherm-mp-sparesl-de-bathroom100200300",
+    "https://www.lemu.dk/da/catalog/products/boerma-termostatenhed-til-ceratherm-t25-t50-t100-t125-mfl/745113300"
+   ]
+  },
+  {
+   "slug": "ideal-standard-spuelkasten-laeuft-nach",
+   "titel": "Ideal Standard ProSys Spülkasten läuft nach",
+   "symptom": "Nach dem Spülen läuft dauerhaft Wasser in die WC-Schüssel oder der Spülkasten füllt sich immer wieder nach.",
+   "ursachen": [
+    {
+     "ursache": "Dichtung am Ablauf-/Spülventil verschlissen oder verkalkt",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "ideal-standard-dichtung-rv15567",
+      "ideal-standard-spuelventil-rv25367",
+      "ideal-standard-spuelventil-rv25467",
+      "ideal-standard-spuelventil-rv25167",
+      "ideal-standard-spuelventil-rv25267"
+     ]
+    },
+    {
+     "ursache": "Füllventil schließt nicht mehr (Schmutz, Kalk, Defekt)",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "ideal-standard-fuellventil-rv15467",
+      "ideal-standard-fuellventil-rv15367"
+     ]
+    },
+    {
+     "ursache": "Schwimmer/Füllhöhe falsch eingestellt, Wasser läuft über den Überlauf",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    }
+   ],
+   "schritte": [
+    "ProSys-Typ bestimmen (Produktnummer R0xxx, 120 oder 150, Class 1 oder 2, mechanisch oder pneumatisch) und passende Ersatzteilliste wählen.",
+    "Beobachten: Läuft Wasser ständig in die Schüssel, ist meist das Ablaufventil/die Dichtung schuld; steigt der Wasserstand bis zum Überlauf, eher Füllventil oder Schwimmer.",
+    "Eckventil im Spülkasten schließen, Betätigungsplatte abnehmen und Revisionsöffnung frei machen.",
+    "Spülventil entnehmen, Dichtung reinigen bzw. ersetzen, ggf. Spülventil komplett tauschen.",
+    "Füllventil reinigen; schließt es weiterhin nicht, ersetzen und Füllhöhe einstellen.",
+    "Wasser öffnen, Füllstand und Dichtheit prüfen."
+   ],
+   "fachbetrieb_ab": "Wenn Wasser im Vorwandbereich austritt, Anschlüsse im Spülkasten undicht sind oder das Eckventil im Spülkasten nicht schließt.",
+   "quellen": [
+    "https://bau.de/forum/sanitaer/12115.php",
+    "https://www.megabad.com/magazin/?p=18181",
+    "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347204-source/is-prosys-mp-sparesl-nn-r0153r0313r0314r0315r0317r0318wc-frame120cl2",
+    "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/235420-source/multibrand-prosys-multiproduct-sparesl-nn-isashr009067r009167r014167r027967",
+    "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/347205-source/is-prosys-mp-sparesl-nn-r0140r0142r0312r0316r0428r0429wc-frame150cl2"
+   ]
+  }
+ ],
+ "widersprueche": [
+  {
+   "thema": "A960500NU vs. A961101NU/A963540NU",
+   "aussage_a": "OEG: A960500NU ersetzt die Kartuschen A960463NU und A961101NU sowie die ECO-Kartusche A963540NU.",
+   "quelle_a": "https://www.oeg.net/en/ideal-standard-cartridge-oe-47-mm-for-single-lever-mixers-801000450",
+   "aussage_b": "Ideal-Standard-Ersatzteilliste Ceramix Top-Fix führt A960500NU, A961101NU (DE) und A963540NU (ECO) parallel als eigene Kartuschenvarianten.",
+   "quelle_b": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133027-source/options/downloadf"
+  },
+  {
+   "thema": "Kartuschendurchmesser CeraPlan III",
+   "aussage_a": "Ersatzteilliste CeraPlan III (Stand 2019-04-30): Pos. 20 Kartusche Ø47 mm A960500NU für B0703/B0704/B0705.",
+   "quelle_a": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133037-source/options/download/is-ceraplaniii-mp-sparesl-de-bathroom",
+   "aussage_b": "Dieselbe Liste: Set Kartusche Ø38 mm FirmaFlow A861156NU 'zum Austausch der alten Ø40mm Kartusche Ceraplan bis 9/2018' – also Ø40 bei älteren Ceraplan-Armaturen.",
+   "quelle_b": "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133037-source/options/download/is-ceraplaniii-mp-sparesl-de-bathroom"
+  },
+  {
+   "thema": "Durchmesser und Serie von A861397NU",
+   "aussage_a": "Weinmann & Schanz: 'Kartusche Ideal Standard 28 SD', passend für Cerafine D und Cerafine O.",
+   "quelle_a": "https://www.weinmann-schanz.de/de/de/produkte/kategorie.html/ersatzteile-96088/ersatzteile-hersteller-a-bis-z-95685/ideal-standard-94750-2/kartuschen-ideal-standard-94759-2.html",
+   "aussage_b": "eBay-Angebote beschreiben A861397NU als 'Keramik Steuerpatrone Ø 25 mm'; Showerspares nennt Ceraline- und Ceraplan-Waschtischmischer.",
+   "quelle_b": "https://www.ebay.de/b/Ideal-Standard-Kartusche/bn_7005678923"
+  },
+  {
+   "thema": "Einsatzbereich A963785NU",
+   "aussage_a": "Kaufland: 40-mm-Kartusche für Ceraplan Slimline, Comfort, Connect Blue, Cerasprint/Cerasprint New, Melohmix II, Memixa; Weinmann & Schanz: Ceramix Blue Waschtisch/Bidet.",
+   "quelle_a": "https://www.kaufland.de/product/331084719/",
+   "aussage_b": "eBay-Angebot: 40-mm-Kartusche 'für Armaturen mit Thermostat-Steuerung', Bezug Ceraluna A3816.",
+   "quelle_b": "https://www.ebay.de/p/2255388677"
+  },
+  {
+   "thema": "Dauer der Ersatzteilverfügbarkeit",
+   "aussage_a": "Ideal-Standard-Seite CeraPlan III: 10-jährige Ersatzteil-Nachkaufgarantie auf Verschleißteile.",
+   "quelle_a": "https://www.idealstandard.de/products/ceraplan_iii.html",
+   "aussage_b": "ProSys-Pressemitteilung 2019: 25 Jahre Ersatzteilverfügbarkeit (für ProSys); Megabad bewirbt ProSys ebenfalls mit 25 Jahren Nachkaufgarantie.",
+   "quelle_b": "https://www.idealstandard.de/ueber-uns/presse/2019/prosys-ideal-standard-fuehrt-vielseitige-vorwandsysteme-ein"
+  }
+ ],
+ "nicht_geprueft": [
+  "WebFetch war für idealstandard.de und megabad.com gesperrt (ENOTFOUND); alle Angaben stammen aus Suchtreffern/Snippets der Ideal-Standard-PDFs und Shopseiten, die PDFs selbst wurden nicht vollständig geöffnet.",
+  "Wo die Produktnummer physisch an der Armatur steht (Etikett/Schlauch o. Ä.), wurde nicht belegt.",
+  "Kartuschen-Bestellnummern für Tesi (Ø28), Connect Air (Ø28 bzw. 47 mm Click bei A7035), Esla und Ceramix Junior (A961037NU) nicht gefunden.",
+  "Ceraflex (A861156NU) und Cerafine (A861397NU) nur über je einen Händler zugeordnet; die Herstellerlisten (z. B. BC497/BC555/BC703, B1711/B1715) wurden nicht eingesehen.",
+  "A961153NU: nur ein Kaufland.at-Angebot 'Dichtungsset für Kartusche' gefunden; Ideal-Standard-Listen nennen für Ø47 A961155NU – Einsatzbereich von A961153NU offen.",
+  "Ceramix Blue Waschtisch → A963785NU nur per Händlerangabe; A5651 (Piccolo) nutzt laut Händler Ø38 FirmaFlow.",
+  "Küchenarmaturen (z. B. Ceraplan BD311/BD326/BD331, Ceraflex BC137/BC143): keine belegte Kartuschenzuordnung gefunden.",
+  "Unterputz-Thermostate Ceratherm C100/Navigo: Kartuschennummer nicht ermittelt.",
+  "ProSys: Unterscheidung Class 1/Class 2 am Produkt nicht belegt; RV15367 stammt aus UK-Listen ('AUK1'), DE-Variante nicht geprüft; RV15267 (Spülventil 120 Class 1) und RV15167 (ProSys 80M) nur indirekt gesehen und daher nicht aufgenommen.",
+  "Amazon: Für keine OEM-Nummer wurde eine amazon.de-/dp/-URL gefunden (manuals.plus nennt für A963801NU die ASIN B00F0JWT50, nicht übernommen) – alle amazon_asin = null.",
+  "Renovierungs-Sets A963800NU/A963801NU sind keiner Serie zugeordnet (Händler nennen nur 'alte UP-Grundkörper 1974–97').",
+  "Preise sind Momentaufnahmen aus Suchsnippets (11/2026) und nicht vollständig.",
+  "Ohne belegte Zuordnung nicht importiert (keine leeren Seiten): tesi-waschtisch, connect-air-waschtisch, esla-waschtisch"
+ ]
+}
