@@ -1,0 +1,1921 @@
+{
+  "marke": {
+    "slug": "geberit",
+    "name": "Geberit",
+    "beschreibung": "Geberit stellt Unterputz- und Aufputzspülkästen, Füll- und Spülventile sowie die passenden Betätigungsplatten her. Laut Geberit gibt es für jeden Geberit-Unterputzspülkasten ab Baujahr 1964 kompatible Füll- und Spülventile; das aktuelle Füllventil Typ 383 ist laut Hersteller kleiner und deutlich leiser als sein Vorgänger Typ 380. Ersatzteile werden im Geberit-Produktkatalog (catalog.geberit.de, Bereich Ersatzteile) je Spülkastenmodell mit Baujahr-Spanne und Erkennungsmerkmalen (Maße der Serviceöffnung, Kastenmaße) gelistet.",
+    "nummer_hinweis": "Laut Geberit muss zur Identifikation die Betätigungsplatte samt Befestigungsrahmen abgenommen werden; dahinter stehen auf Etiketten oder aufgedruckt auf Abdeckungen die Angaben zum Spülkastentyp. Auf oder hinter der Schutzplatte sind häufig die Typbezeichnung (z. B. Sigma oder Omega) oder die Produktionsnummer (PA-Nummer) gedruckt. Bei älteren Spülkästen können Aufkleber fehlen oder unleserlich sein. Geberit empfiehlt, die Platte von einem Fachbetrieb abnehmen zu lassen, um Schäden zu vermeiden. Für SHK-Profis erkennt der Produkterkenner der Geberit Pro App anhand eines Fotos der Betätigungsplatte alle Geberit-Unterputzspülkästen ab 1964. Händler-Ratgeber nennen zusätzlich eine 9- bzw. 11-stellige Artikelnummer und eine Prüfnummer im Kasteninneren und/oder auf der Rückseite der Betätigungsplatte. Ohne lesbares Schild helfen die im Geberit-Katalog genannten Maße der Serviceöffnung (z. B. Sigma/Delta 12 cm: 22 x 14 cm, Omega 12 cm: 18 x 11 cm).",
+    "ersatzteil_garantie": "Aktuelle Herstelleraussage: Geberit stellt die Spülfunktionalität seiner WC-Unterputzspülkästen 50 Jahre lang sicher (Ersatzteilsicherheit für die austauschbaren mechanischen Teile von Unterputzspülkasten und Betätigungsplatte). Die Ersatzteile müssen nicht baugleich sein (optische Abweichungen oder kleine Komforteinbußen möglich); ausgenommen sind Sonderfunktionen elektronischer Produkte wie Hygienespülung oder DuoFresh-Geruchsabsaugung. Ältere Angaben in Fachpresse und Handel nennen 25 Jahre für Unterputzprodukte und mindestens 10 Jahre für Aufputzprodukte (siehe widersprueche). Es handelt sich um eine Verfügbarkeitszusage, keine Garantie im Rechtssinn.",
+    "hersteller_ersatzteil_url": "https://www.geberit.de/service-support/ersatzteile/",
+    "quellen": [
+      "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
+      "https://www.geberit.de/service-support/ersatzteile/",
+      "https://www.geberit.de/sanitaer-rohrleitungssysteme/planung-installation/unsere-loesungen-fuer-ihre-beduerfnisse/produktverfuegbarkeit/",
+      "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/",
+      "https://www.geberit.de/sanitaer-rohrleitungssysteme/digitale-tools/online-produktkatalog/",
+      "https://www.handwerkundbau.at/bauen/haustechnik/brandneuer-geberit-ersatzteilkatalog-7699/",
+      "https://www.megabad.com/hersteller-geberit-zubehoer-ersatzteile-k-169465.htm",
+      "https://spuelkasten-ersatzteile.de/geberit/geberit-modell-und-pa-nummer-des-spuelkastens-herausfinden-fuer-die-ersatzteilermittlung/",
+      "https://www.inoutic.de/geberit-spuelkasten-oeffnen-aelteres-modell/"
+    ]
+  },
+  "serien": [
+    {
+      "slug": "up320-sigma-12",
+      "name": "Geberit Unterputz-Spülkasten UP320 (Sigma, 12 cm)",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 2008,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "UP320",
+        "Sigma UP-Spülkasten 12 cm"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog: Baujahr ab 2008; Serviceöffnung 22 x 14 cm, Spülkasten 39,5 x 42,5 cm. Typbezeichnung Sigma auf/hinter der Schutzplatte. Betätigung von vorne über Sigma-Platten.",
+      "beschreibung": "Nachfolger des UP300 (laut Händler ab ca. 2008). Wird u. a. in Duofix-, Kombifix- und GIS-Elementen verbaut. Laut Geberit-Katalog muss bei Kästen bis Baujahr 01/2022 das komplette Spülventil getauscht werden (nicht nur Einzelteile).",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+        "https://gs-ersatzteilservice.de/ersatzteile-fuer-geberit-spuelkasten-up300-up320-up320y-sigma/"
+      ]
+    },
+    {
+      "slug": "up300-sigma-12",
+      "name": "Geberit Unterputz-Spülkasten UP300 (Sigma, 12 cm)",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "UP300",
+        "Sigma UP-Spülkasten 12 cm"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog: Serviceöffnung 22 x 14 cm, Spülkasten 39,5 x 42,5 cm (gleiche Maße wie UP320). Baujahr-Angaben widersprüchlich (siehe widersprueche); Geberit führt Spülventil Typ 212 und Renovierungsset 212-383 für Sigma/UP300 ab Baujahr 2002.",
+      "beschreibung": "Vorgänger des UP320. Sigma-Betätigungsplatten passen laut Geberit nicht auf Unterputzspülkästen bis Ende 2001.",
+      "quellen": [
+        "https://catalog.geberit.at/de-AT/spare-part/SPT_461052",
+        "https://catalog.geberit.de/de-DE/product/PRO_1777474",
+        "https://gs-ersatzteilservice.de/ersatzteile-fuer-geberit-spuelkasten-up300-up320-up320y-sigma/"
+      ]
+    },
+    {
+      "slug": "up100-delta-12",
+      "name": "Geberit Unterputz-Spülkasten UP100 (Delta, 12 cm)",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 2005,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "UP100",
+        "Delta UP-Spülkasten 12 cm"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog: Baujahr ab 2005 (Produktseite Typ 212 nennt Delta/UP100 ab 2006); Serviceöffnung 22 x 14 cm, Spülkasten 39,5 x 42,5 cm. Nur Delta-Betätigungsplatten passen (Delta01 bis Delta51, Delta Zero).",
+      "beschreibung": "Einstiegsserie. Gleiche Außenmaße wie Sigma 12 cm, aber laut Geberit nicht mit Sigma-Platten kompatibel.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461060",
+        "https://catalog.geberit.de/de-DE/product/PRO_1777474",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461112"
+      ]
+    },
+    {
+      "slug": "omega-12",
+      "name": "Geberit Unterputz-Spülkasten Omega (12 cm)",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 2014,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "Omega UP-Spülkasten 12 cm"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog: Baujahr ab 2014; Serviceöffnung 18 x 11 cm (kleiner als Sigma), Spülkasten 40,5 x 38,5 cm. Typbezeichnung Omega auf/hinter der Schutzplatte.",
+      "beschreibung": "Laut Geberit-Katalog muss bei Kästen bis Baujahr 07/2021 das komplette Spülventil getauscht werden. Omega-Platten passen laut Geberit nicht auf Sigma-Kästen und umgekehrt.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461058",
+        "https://catalog.geberit.de/de-DE/product/PRO_1777474",
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/"
+      ]
+    },
+    {
+      "slug": "up700-8",
+      "name": "Geberit Unterputz-Spülkasten UP700 (8 cm)",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 2004,
+      "baujahr_bis": 2013,
+      "kennnummern": [
+        "UP700"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog: Baujahre 2004 bis 2013; Serviceöffnung 22 x 14 cm, Spülkasten 49,5 x 52 cm. Flache Bauform (ca. 8 cm Tiefe).",
+      "beschreibung": "Flacher Vorgänger des UP720. Laut Händler passen die normalen 12-cm-Ersatzteile wegen der geringeren Tiefe nicht; die Füllventilhalterung sei nicht mehr lieferbar.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461068",
+        "https://spuelkasten-ersatzteile.de/geberit/ersatzteile-fuer-geberit-unterputz-spuelkasten-up700-8-cm/"
+      ]
+    },
+    {
+      "slug": "up720-sigma-8",
+      "name": "Geberit Unterputz-Spülkasten UP720 (Sigma, 8 cm)",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 2016,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "UP720",
+        "Sigma UP-Spülkasten 8 cm"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog: Sigma UP-Spülkästen 8 cm ab Baureihe 2016. Flache Bauform für dünne Vorwände; Sigma-Betätigungsplatten.",
+      "beschreibung": "8-cm-Sigma-Kasten, u. a. im Duofix-Element. Händler empfehlen, auf den Zusatz für Sigma 8 cm (UP720) im Produktnamen zu achten.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461055",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461232",
+        "https://spuelkasten-ersatzteile.de/geberit/ersatzteile-fuer-geberit-unterputz-spuelkasten-up700-8-cm/"
+      ]
+    },
+    {
+      "slug": "kappa-up200-15",
+      "name": "Geberit Unterputz-Spülkasten UP200 (Kappa, 15 cm)",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "UP200",
+        "Kappa UP-Spülkasten 15 cm"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog: Kappa UP-Spülkasten 15 cm (UP200), auch Variante für PEX-Anschluss. Baujahr-Angaben je Länderkatalog unterschiedlich (siehe widersprueche). Kappa-Betätigungsplatten.",
+      "beschreibung": "Hinweis: UP200 ist laut Geberit-Katalog die Kappa-Serie (15 cm), nicht Omega.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461077",
+        "https://catalog.geberit.ch/de-CH/spare-part/SPT_461077"
+      ]
+    },
+    {
+      "slug": "twinline-up130-110800-12",
+      "name": "Geberit Unterputz-Spülkasten Twinline 12 cm (UP130, 110.800)",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 1988,
+      "baujahr_bis": 2016,
+      "kennnummern": [
+        "110.800",
+        "UP130",
+        "Twinline UP-Spülkasten 12 cm"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog: Twinline UP-Spülkästen 12 cm (UP130, 110.800), Baujahr 1988 bis 2016. Die Geberit-Sortimentsübersicht unterteilt 110.800 in 1988-1997 und 1998-2001 (unterschiedliche Umbausets).",
+      "beschreibung": "Nicht mit dem älteren Typ 10.800 (1975-1987) verwechseln. Twinline-Betätigungsplatten; Heberglocke für Betätigung von vorne.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461065",
+        "https://cdn.data.geberit.com/overviews/DE-de/DAS_157948.pdf",
+        "https://catalog.geberit.de/de-DE/product/PRO_4079570"
+      ]
+    },
+    {
+      "slug": "twinline-up170-110700-8",
+      "name": "Geberit Unterputz-Spülkasten Twinline 8 cm (UP170, 110.700)",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "110.700",
+        "UP170",
+        "Twinline UP-Spülkasten 8 cm"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog: Twinline UP-Spülkästen 8 cm (UP170, 110.700). Baujahre nicht ermittelt.",
+      "beschreibung": "Flache Twinline-Variante.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461066"
+      ]
+    },
+    {
+      "slug": "up-10800",
+      "name": "Geberit Unterputz-Spülkasten 10.800",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 1975,
+      "baujahr_bis": 1987,
+      "kennnummern": [
+        "10.800"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog: Baujahre 1975 bis 1987. Umbauset 240.835.00.5 laut Katalog ab Baujahr 1978 nachrüstbar; für 1975-1977 nennt die Sortimentsübersicht kein Umbauset.",
+      "beschreibung": "Älterer Unterputzspülkasten; Modernisierung über Umbauset auf 2-Mengen-Spülung.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461070",
+        "https://catalog.geberit.de/de-DE/product/PRO_4020507",
+        "https://cdn.data.geberit.com/overviews/DE-de/DAS_157948.pdf",
+        "https://www.badexa.de/geberit-up-spuelkasten-10800-bj-1975-1987-010-800-00-1/"
+      ]
+    },
+    {
+      "slug": "up-10600-10620",
+      "name": "Geberit Unterputz-Spülkasten 10.600 / 10.620",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 1967,
+      "baujahr_bis": 1978,
+      "kennnummern": [
+        "10.600",
+        "10.620"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog: Baujahre 1967 bis 1978; Serviceöffnung 29,5 x 15,5 cm, Spülkasten 58 x 56 cm; Händler nennen PA-Nummern I/1637, I/IX1886/I und I/IX1887/I. Die Sortimentsübersicht nennt engere Zeiträume (siehe widersprueche).",
+      "beschreibung": "Sehr alter Unterputzspülkasten; Geberit führt dafür ein eigenes Umbauset (Typ 10.600).",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461073",
+        "https://www.badexa.de/geberit-up-spuelkasten-10600-10620-bj-1967-1978-010-600-00-1/"
+      ]
+    },
+    {
+      "slug": "up-110620-nuvo",
+      "name": "Geberit Unterputz-Spülkasten 110.620 / NUVO",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 1986,
+      "baujahr_bis": 2012,
+      "kennnummern": [
+        "110.620",
+        "NUVO"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog: Baujahre 1986 bis 2012.",
+      "beschreibung": "Ältere Unterputz-Baureihe; Füllventil heute Typ 383.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461080"
+      ]
+    },
+    {
+      "slug": "ap140",
+      "name": "Geberit Aufputz-Spülkasten AP140",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 1996,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "AP140"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog: Variante Spül-Stopp-Spülung ab 2000; Variante 2-Mengen-Spülung ab 1996 (AT-Katalog) bzw. 1998 (CH-Katalog). Ein Händler nennt für die 2-Mengen-Variante die Kasten-Art.-Nr. 140.300 ab 1997.",
+      "beschreibung": "Aufputzspülkasten. Das universelle AP-Spülventil 240.113.00.1 ist laut Geberit NICHT für AP140 geeignet.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461048",
+        "https://catalog.geberit.at/de-AT/spare-part/SPT_461047",
+        "https://catalog.geberit.ch/de-CH/spare-part/SPT_461047",
+        "https://www.megabad.com/hersteller-geberit-zubehoer-spuelkaesten-spuelventil-ap-a-236425.htm",
+        "https://catalog.geberit.de/de-DE/product/PRO_104605"
+      ]
+    },
+    {
+      "slug": "ap127",
+      "name": "Geberit Aufputz-Spülkasten AP127",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 1983,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "AP127"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog: Varianten Spül-Stopp-Spülung (DE-Katalog ab 1983, CH-Katalog 1983-1994) und 1-Mengen-Spülung.",
+      "beschreibung": "Älterer Aufputzspülkasten; universelles AP-Spülventil 240.113.00.1 laut Geberit geeignet.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461044",
+        "https://catalog.geberit.ch/de-CH/spare-part/SPT_461044",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461036",
+        "https://catalog.geberit.de/de-DE/product/PRO_104605"
+      ]
+    },
+    {
+      "slug": "ap128",
+      "name": "Geberit Aufputz-Spülkasten AP128",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 1985,
+      "baujahr_bis": 2017,
+      "kennnummern": [
+        "AP128",
+        "AP128.0xx"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog: Spül-Stopp-Variante 1985-2017, 2-Mengen-Variante 1995-2017; im CH-Katalog zusätzlich eine neuere 2-Mengen-Variante ab 2017.",
+      "beschreibung": "Universelles AP-Spülventil 240.113.00.1 laut Geberit nur für AP128.0xx geeignet, nicht für AP128 allgemein.",
+      "quellen": [
+        "https://catalog.geberit.at/de-AT/spare-part/SPT_461034",
+        "https://catalog.geberit.at/de-AT/spare-part/SPT_461032",
+        "https://catalog.geberit.de/de-DE/product/PRO_104605"
+      ]
+    },
+    {
+      "slug": "ap110-ap120",
+      "name": "Geberit Aufputz-Spülkasten AP110 / AP120",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 1997,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "AP110",
+        "AP120"
+      ],
+      "erkennungsmerkmale": "Geberit-Katalog (AT): Spül-Stopp-Spülung, Baujahr ab 1997.",
+      "beschreibung": "Aufputzspülkasten mit eigener Füllventil-Variante 240.715.00.5.",
+      "quellen": [
+        "https://catalog.geberit.at/de-AT/spare-part/SPT_461038"
+      ]
+    }
+  ],
+  "teile": [
+    {
+      "slug": "geberit-fuellventil-typ-383-up-240-705-00-5",
+      "name": "Geberit Füllventil Typ 383 für UP-Spülkästen, Wasseranschluss seitlich 3/8″",
+      "teiltyp": "fuellventil",
+      "oem_nummer": "240.705.00.5",
+      "ean": null,
+      "masse": {
+        "anschluss": "3/8 Zoll, seitlich, Nippel aus Messing",
+        "hoehe_mm": 230,
+        "berechnungsdurchfluss_l_s": 0.09,
+        "min_fliessdruck_kpa": 10
+      },
+      "beschreibung": "Aktuelles Geberit-Universal-Füllventil für Unterputzspülkästen; ersetzt laut Geberit-Katalog 240.705.00.1 (Typ 380). Wasserstand stufenlos einstellbar, Filter leicht zu reinigen. Laut Geberit-Katalog in den Ersatzteillisten von UP320, Delta, Omega, Kappa, Twinline und 10.800 geführt. Im Renovierungsset 212-383 enthalten. Laut Händlern Lieferumfang ohne bzw. mit Anschlussrohr je nach Shop prüfen.",
+      "preis_spanne": "22–38 €",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 30,
+      "werkzeug": "Eckventil schließen; Betätigungsplatte und Rahmen abnehmen (ggf. Schraubendreher); Eimer und Tuch",
+      "amazon_asin": "B0DLVJP4PS",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_4018657",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/",
+        "https://www.hornbach.de/p/geberit-fuellventil-typ-383-3-8-zoll-fuer-unterputz-spuelkaesten-240-705-00-5/12369350/",
+        "https://www.heizman24.de/bad/zubehoer/vorwandelemente/fuellventile/geberit-universelles-fuellventil-typ-383-fuer-up-spuelkaesten-240.705.00.5/10023417",
+        "https://www.amazon.de/Geberit-F%C3%BCllventil-Unterputz-Sp%C3%BClkasten-240-705-00-5/dp/B0DLVJP4PS"
+      ]
+    },
+    {
+      "slug": "geberit-fuellventil-typ-380-up-240-705-00-1",
+      "name": "Geberit Füllventil Typ 380 (Impuls380 / Unifill) für UP-Spülkästen, 3/8″",
+      "teiltyp": "fuellventil",
+      "oem_nummer": "240.705.00.1",
+      "ean": null,
+      "masse": {
+        "anschluss": "3/8 Zoll, seitlich, Gewindenippel aus Messing"
+      },
+      "beschreibung": "Vorgänger-Universalfüllventil für Unterputzspülkästen (Füllhöhe einstellbar, Armaturengruppe I nach DIN 4109). Laut Geberit-Katalog ersetzt durch 240.705.00.5 (Typ 383); mehrere Händler melden das Teil als nicht mehr sofort lieferbar.",
+      "preis_spanne": "10–45 €",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 30,
+      "werkzeug": "Eckventil schließen; Betätigungsplatte und Rahmen abnehmen (ggf. Schraubendreher); Eimer und Tuch",
+      "amazon_asin": "B0016L503O",
+      "quellen": [
+        "https://preisvergleich.heise.de/geberit-typ-380-fuellventil-wasseranschluss-seitlich-240-705-00-1-a3093129.html",
+        "https://mabado.de/Geberit-Fuellventil-Typ-380-fuer-Unterputz-Spuelkaesten-3/8-240705001",
+        "https://www.emax-haustechnik.de/installation/geberit-universal-fuellventil-unifill-impuls380-fuer-unterputz-spuelkasten-240705001.html",
+        "https://spuelkasten-ersatzteile.de/produkte/geberit-universal-fuellventil/",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+        "https://www.amazon.de/Geberit-240705001-Schwimmerventil-Unterputz-Sp%C3%BClkasten/dp/B0016L503O"
+      ]
+    },
+    {
+      "slug": "geberit-fuellventil-typ-383-ap-240-700-00-5",
+      "name": "Geberit Füllventil Typ 383 für AP-Spülkästen, Wasseranschluss seitlich 3/8″",
+      "teiltyp": "fuellventil",
+      "oem_nummer": "240.700.00.5",
+      "ean": null,
+      "masse": {
+        "anschluss": "3/8 Zoll, seitlich, Nippel aus Messing",
+        "fliessdruck_kpa": "10–1000"
+      },
+      "beschreibung": "Aktuelles Füllventil für Geberit-Aufputzspülkästen; ersetzt laut Geberit-Katalog 240.700.00.1 (Typ 380). Nicht mit der UP-Variante 240.705.00.5 verwechseln.",
+      "preis_spanne": "ca. 23 €",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Eckventil schließen; Deckel abnehmen; Eimer und Tuch; ggf. Gabelschlüssel für den Anschluss",
+      "amazon_asin": "B0DM6ZN3BR",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_4467857",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461044",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461048",
+        "https://kk-dichtungstechnik.de/Geberit-Fuellventil-Typ-383-fuer-AP-Spuelkaesten-240700005",
+        "https://www.ebay.de/itm/146823872954",
+        "https://www.amazon.de/Geberit-F%C3%BCllventil-Aufputz-Sp%C3%BClkasten-240-700-00-5/dp/B0DM6ZN3BR"
+      ]
+    },
+    {
+      "slug": "geberit-fuellventil-typ-380-ap-240-700-00-1",
+      "name": "Geberit Füllventil Typ 380 (Unifill / Impuls380) für AP-Spülkästen",
+      "teiltyp": "fuellventil",
+      "oem_nummer": "240.700.00.1",
+      "ean": "4025416117698",
+      "masse": {
+        "abmessungen_cm": "25,2 x 15,8 x 7 (laut Amazon-Titel)"
+      },
+      "beschreibung": "Vorgänger-Füllventil für Aufputzspülkästen mit seitlichem Wasseranschluss, Füllhöhe einstellbar. Laut Geberit-Katalog ersetzt durch 240.700.00.5 (Typ 383).",
+      "preis_spanne": "17–30 €",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Eckventil schließen; Deckel abnehmen; Eimer und Tuch; ggf. Gabelschlüssel für den Anschluss",
+      "amazon_asin": "B0016KZD7S",
+      "quellen": [
+        "https://www.ersatzteilfachmann.de/Geberit/Geberit-Ersatzteile/240700001-Geberit-Austauschschwimmerventil-Schwimmer-Fuellventil-Unifill-fuer-Aufputzspuelkasten-240700-2407000-24070000--1160.html",
+        "https://mabado.de/Geberit-Fuellventil-Unifill-fuer-Aufputz-Spuelkaesten-240700001",
+        "https://www.amazon.de/Geberit-240700001-Schwimmerventil-Aufputz-Sp%C3%BClkasten/dp/B0016KZD7S",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461044"
+      ]
+    },
+    {
+      "slug": "geberit-fuellventil-typ-383-ap-240-715-00-5",
+      "name": "Geberit Füllventil Typ 383 für AP-Spülkasten, Variante 240.715",
+      "teiltyp": "fuellventil",
+      "oem_nummer": "240.715.00.5",
+      "ean": null,
+      "masse": {
+        "anschluss": "3/8 Zoll, seitlich"
+      },
+      "beschreibung": "Laut Geberit-Katalog (AT) Füllventil Typ 383 mit seitlichem Wasseranschluss für AP110/AP120; ersetzt 240.715.00.1. Im Katalog teils mit Kürzel CH bezeichnet; Unterschied zu 240.700.00.5 nicht geklärt.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Eckventil schließen; Deckel abnehmen; Eimer und Tuch; ggf. Gabelschlüssel für den Anschluss",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.at/de-AT/spare-part/SPT_461038"
+      ]
+    },
+    {
+      "slug": "geberit-fuellventil-typ-383-ap-wa-unten-240-719-00-5",
+      "name": "Geberit Füllventil Typ 383 für AP-Spülkasten, Wasseranschluss unten",
+      "teiltyp": "fuellventil",
+      "oem_nummer": "240.719.00.5",
+      "ean": null,
+      "masse": {
+        "anschluss": "unten"
+      },
+      "beschreibung": "Laut Geberit-Katalog Füllventil AP Typ 383 mit Wasseranschluss unten; ersetzt 240.719.00.1. In der Ersatzteilliste AP140 2-Mengen-Spülung geführt.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Eckventil schließen; Deckel abnehmen; Eimer und Tuch; ggf. Gabelschlüssel für den Anschluss",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.at/de-AT/spare-part/SPT_461047"
+      ]
+    },
+    {
+      "slug": "geberit-fuellventil-typ-383-ap-240-704-00-5",
+      "name": "Geberit Füllventil Typ 383 für AP-Spülkasten, Variante 240.704",
+      "teiltyp": "fuellventil",
+      "oem_nummer": "240.704.00.5",
+      "ean": null,
+      "masse": {
+        "anschluss": "3/8 Zoll, seitlich"
+      },
+      "beschreibung": "Laut Geberit-Katalog Füllventil Typ 383, Wasseranschluss seitlich 3/8″; ersetzt 240.704.00.1. In der Ersatzteilliste AP140 2-Mengen-Spülung geführt; Abgrenzung zu 240.700.00.5 nicht geklärt.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Eckventil schließen; Deckel abnehmen; Eimer und Tuch; ggf. Gabelschlüssel für den Anschluss",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.at/de-AT/spare-part/SPT_461047"
+      ]
+    },
+    {
+      "slug": "geberit-fuellventil-typ-333-136-705-00-3",
+      "name": "Geberit Universal-Füllventil Typ 333, 3/8″ Messing",
+      "teiltyp": "fuellventil",
+      "oem_nummer": "136.705.00.3",
+      "ean": null,
+      "masse": {
+        "anschluss": "3/8 Zoll, Messing"
+      },
+      "beschreibung": "Universal-Füllventil laut Händler für fast alle Spülkästen mit 3/8″-Anschluss; Ersatz für den älteren Typ 330. Händler nennen es ausdrücklich für Delta UP100; der Geberit-Katalog führt auf der Delta-Ersatzteilseite einen Befestigungsclip für das Typ-333-Füllventil. Variante für Aufputzspülkästen mit seitlichem Zulauf: 136.702.00.3.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 30,
+      "werkzeug": "Eckventil schließen; Betätigungsplatte und Rahmen abnehmen (ggf. Schraubendreher); Eimer und Tuch",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.manomano.de/p/geberit-universal-fullventil-typ-333-passend-fur-alle-standard-spulkasten-mit-38-anschluss-136705-71248196",
+        "https://www.ebay.de/p/11058300495",
+        "https://www.heizung-badezimmer.com/fuellventil-typ-333-fuer-geberit-delta-up100-spuelkaesten-3-8-messing-136.705.00.3/",
+        "https://www.sanitino.de/geberit-fullventil-typ-333-fur-spulkasten-136-702-00-3",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461060"
+      ]
+    },
+    {
+      "slug": "geberit-spuelventil-typ-212-244-820-00-1",
+      "name": "Geberit Spülventil Typ 212 komplett mit Bassin, für UP-Spülkästen 12 cm",
+      "teiltyp": "spuelventil",
+      "oem_nummer": "244.820.00.1",
+      "ean": "4025410903877",
+      "masse": {
+        "spuelmenge_gross_l": "4 / 5 / 6 / 7,5",
+        "spuelmenge_klein_l": "2–4"
+      },
+      "beschreibung": "Aktuelles 2-Mengen-Spülventil (Heberglocke mit Bassin). Laut Geberit für Omega ab Baujahr 2014, Delta/UP100 ab 2006 sowie Sigma/UP300/UP320 ab 2002. Laut Händlern Nachfolger der Heberglocke 240.622.00.1 und des Omega-Spülventils 244.830.00.1.",
+      "preis_spanne": "20–28 €",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Eckventil schließen; Betätigungsplatte und Rahmen abnehmen; kein Spezialwerkzeug",
+      "amazon_asin": "B09N9JLZ3K",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_1777474",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+        "https://geizhals.de/geberit-typ-212-spuelventil-komplett-244-820-00-1-a3095258.html",
+        "https://www.hornbach.de/p/geberit-heberglocke-spuelventil-typ-212-mit-bassin-fuer-2-mengen-spuelung-244-820-00-1/10484227/",
+        "https://www.ew-haustechnik.com/GEBERIT-Spuelventil-Typ-212-inkl-Bassin-fuer-Sigma-Delta-und-UP320-UP-SpK-244820001",
+        "https://www.top-badshop.com/Spuelkasten-und-Ersatzteile/Geberit/Fuellventil-und-Spuelventil/GEBERIT-Spuelventil-Heberglocke-240-622-00-1-fuer-UP-SPK-2-Mengen-Spuelung-ohne-Bassin.html",
+        "https://www.amazon.de/Geberit-244-820-00-1-Sp%C3%BClventil-UP-Sp%C3%BClk%C3%A4sen-Mehrfarbig/dp/B09N9JLZ3K"
+      ]
+    },
+    {
+      "slug": "geberit-spuelventil-typ-212-244-821-00-1",
+      "name": "Geberit Spülventil Typ 212 für UP-Spülkästen 12 cm (Art. 244.821)",
+      "teiltyp": "spuelventil",
+      "oem_nummer": "244.821.00.1",
+      "ean": null,
+      "masse": {
+        "spuelmenge_gross_l": "4 / 5 / 6 / 7,5",
+        "spuelmenge_klein_l": "2–4"
+      },
+      "beschreibung": "Typ-212-Variante (Geberit-Datenblatt 2025): Omega ab 2014, Delta/UP100 ab 2006, Sigma/UP300/UP320 ab 2002 sowie Alpha (Einbauhöhe mindestens 98 cm) ab 2023. Erscheinungsdatum laut Galaxus 06/2022. Unterschied zu 244.820.00.1 (laut einem Preisvergleich ohne Bassin) vom Hersteller nicht bestätigt.",
+      "preis_spanne": "ca. 25 €",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Eckventil schließen; Betätigungsplatte und Rahmen abnehmen",
+      "amazon_asin": "B09F9V7QXV",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/gedb_art_244821001_2025.pdf",
+        "https://www.galaxus.de/en/s4/product/geberit-flush-valve-toilet-tanks-25246551",
+        "https://www.hornbach.at/c/bad-sanitaer/spuelkaesten-vorwandelemente/ersatzteile-fuer-spuelkaesten/ersatzteile-fuer-unterputzspuelkaesten/S14389",
+        "https://amazon.de/-/en/Geberit-Flush-fitting-UP-SPK-244821001/dp/B09F9V7QXV"
+      ]
+    },
+    {
+      "slug": "geberit-spuelventil-typ-212-omega-244-830-00-1",
+      "name": "Geberit Spülventil Typ 212 mit Drossel, komplett, für Omega UP-Spülkästen",
+      "teiltyp": "spuelventil",
+      "oem_nummer": "244.830.00.1",
+      "ean": "4025410903747",
+      "masse": {},
+      "beschreibung": "Omega-spezifische Typ-212-Ausführung mit Bassin und Drossel, laut Händlern für Omega ab 2014, Betätigung von vorne oder oben. Ein Händler meldet das Teil als ausgelaufen mit Nachfolger 244.820.00.1, das Geberit ebenfalls für Omega ab 2014 listet.",
+      "preis_spanne": "31–71 €",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Eckventil schließen; Betätigungsplatte und Rahmen abnehmen",
+      "amazon_asin": null,
+      "quellen": [
+        "https://geizhals.de/geberit-typ-212-spuelventil-mit-drossel-244-830-00-1-a3093143.html",
+        "https://www.ersatzteilfachmann.de/Geberit/Geberit-Ersatzteile/244830001-Geberit-Spuelventil-Typ-212-komplett-Geberit-fuer-Omega-Unterputzspuelkasten-244-830-00-1--784011.html",
+        "https://www.top-badshop.com/Spuelkasten-und-Ersatzteile/Geberit/Fuellventil-und-Spuelventil/GEBERIT-Spuelventil-244-830-00-1-Typ-212-komplett-mit-Bassin-fuer-Omega-12-UP-Spuelkasten-ab-2014.html",
+        "https://www.showerspares.com/search/geberit-omega-flush-valve-with-basket-244.830.00.1/"
+      ]
+    },
+    {
+      "slug": "geberit-spuelventil-typ-208-sigma-8cm-241-290-00-1",
+      "name": "Geberit Spülventil Typ 208 (Heberglocke mit Bassin) für Sigma UP-Spülkasten 8 cm",
+      "teiltyp": "spuelventil",
+      "oem_nummer": "241.290.00.1",
+      "ean": "4025416674474",
+      "masse": {},
+      "beschreibung": "Spülventil für die flachen 8-cm-Kästen (Sigma 8 cm); laut Händler für Duofix UP700/UP720. Normale 12-cm-Teile passen laut Händler nicht in 8-cm-Kästen.",
+      "preis_spanne": "ca. 19 €",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 25,
+      "werkzeug": "Eckventil schließen; Betätigungsplatte und Rahmen abnehmen",
+      "amazon_asin": null,
+      "quellen": [
+        "https://heizung-billiger.de/225446-geberit-heberglocke-mit-bassin-zu-sigma-up-spk-8-cm-geberit-241290001-4025416674474.html",
+        "https://wcbrillen.com/geberit-241-290-00-1-binnenwerk-tbv-duofix-up700-720?___store=wcbrillen_en",
+        "https://www.skybad.de/en/geberit-heberglocke-mit-bassin-241290001-zu-sigma-up-spk-8-cm.html",
+        "https://www.kleinanzeigen.de/s-anzeige/geberit-heberglocke-spuelventil-typ-208-241-290-00-1-neu-/3142363156-91-16360"
+      ]
+    },
+    {
+      "slug": "geberit-heberglocke-universal-up-240-114-00-1",
+      "name": "Geberit Heberglocke universal für UP-Spülkasten (bis Baujahr 1997)",
+      "teiltyp": "spuelventil",
+      "oem_nummer": "240.114.00.1",
+      "ean": "4025416000884",
+      "masse": {
+        "standrohr": "Teleskop, höhenverstellbar"
+      },
+      "beschreibung": "Universal-Heberglocke für ältere Geberit-Unterputzspülkästen bis Baujahr 1997 (ein Händler: ab 1974). Im Geberit-Katalog in der Ersatzteilliste des UP-Spülkastens 10.800 geführt. Nicht verwechseln mit dem AP-Spülventil 240.113.00.1.",
+      "preis_spanne": "ca. 30 €",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 3,
+      "dauer_min": 40,
+      "werkzeug": "Eckventil schließen; Schutzplatte öffnen; ggf. Schraubendreher",
+      "amazon_asin": "B004K0ERIC",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_104604",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461070",
+        "https://heizung-billiger.de/224207-geberit-heberglocke-universal-fur-up-spk-geberit-240114001-4025416000884.html",
+        "https://www.hardys24.de/geberit-universal-heberglocke-fuer-up-spuelkasten-ab-1974/gt-240114001",
+        "https://www.amazon.de/Geberit-240-114-00-1-Universal-Heberglocke-f%C3%BCr-UP-Sp%C3%BClkasten/dp/B004K0ERIC"
+      ]
+    },
+    {
+      "slug": "geberit-heberglocke-2-mengen-betaetigung-vorne-240-501-00-1",
+      "name": "Geberit Heberglocke 2-Mengen-Spülung, Betätigung von vorne",
+      "teiltyp": "spuelventil",
+      "oem_nummer": "240.501.00.1",
+      "ean": "4025416061588",
+      "masse": {},
+      "beschreibung": "Heberglocke für UP-Spülkästen mit Betätigung von vorne; Bassin 240.500.00.1 nicht im Lieferumfang. Baujahr-Angaben widersprechen sich (siehe widersprueche).",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 3,
+      "dauer_min": 40,
+      "werkzeug": "Eckventil schließen; Betätigungsplatte und Schutzplatte abnehmen",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461065",
+        "https://www.top-badshop.com/Spuelkasten-und-Ersatzteile/Geberit/Fuellventil-und-Spuelventil/GEBERIT-Spuelventil-Heberglocke-240-501-00-1-fuer-2-Mengen-Spuelung-Betaetigung-von-vorne.html"
+      ]
+    },
+    {
+      "slug": "geberit-spuelventil-universal-ap-240-113-00-1",
+      "name": "Geberit Spülventil universell für AP-Spülkästen",
+      "teiltyp": "spuelventil",
+      "oem_nummer": "240.113.00.1",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Laut Geberit geeignet für AP121, AP123, AP127, AP128.0xx und AP129; nicht geeignet für AP140, AP130 und AP128. Ein Händler nennt zusätzlich UP-Spülkästen mit Betätigung von oben bis Baujahr 1998 (nicht vom Hersteller bestätigt).",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Eckventil schließen; Deckel abnehmen; Eimer und Tuch; ggf. Gabelschlüssel für den Anschluss",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_104605",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461044"
+      ]
+    },
+    {
+      "slug": "geberit-heberglocke-ap140-2-mengen-240-428-00-1",
+      "name": "Geberit Heberglocke / Spülventil für AP140 mit 2-Mengen-Spülung",
+      "teiltyp": "spuelventil",
+      "oem_nummer": "240.428.00.1",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Im Geberit-Katalog als Heberglocke für 2-Mengen-Spülung in der Ersatzteilliste AP140 (2-Mengen) geführt; laut Händler passend zu AP-Spülkasten 140.300 (ab 1997).",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Eckventil schließen; Deckel abnehmen; Eimer und Tuch; ggf. Gabelschlüssel für den Anschluss",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.at/de-AT/spare-part/SPT_461047",
+        "https://www.megabad.com/hersteller-geberit-zubehoer-spuelkaesten-spuelventil-ap-a-236425.htm"
+      ]
+    },
+    {
+      "slug": "geberit-spuelventil-ap140-spuel-stopp-240-950-00-1",
+      "name": "Geberit Spülventil Spül-Stopp-Spülung komplett für AP140",
+      "teiltyp": "spuelventil",
+      "oem_nummer": "240.950.00.1",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Laut Geberit-Katalog Spülventil für AP140 mit Spül-Stopp-Spülung.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Eckventil schließen; Deckel abnehmen; Eimer und Tuch; ggf. Gabelschlüssel für den Anschluss",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461048"
+      ]
+    },
+    {
+      "slug": "geberit-spuelventil-ap128-2-mengen-243-634-00-1",
+      "name": "Geberit Spülventil für AP128 mit 2-Mengen-Spülung",
+      "teiltyp": "spuelventil",
+      "oem_nummer": "243.634.00.1",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Laut Geberit-Katalog (AT) Spülventil für AP128 2-Mengen-Spülung; ersetzt 240.274.00.1.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Eckventil schließen; Deckel abnehmen; Eimer und Tuch; ggf. Gabelschlüssel für den Anschluss",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.at/de-AT/spare-part/SPT_461032"
+      ]
+    },
+    {
+      "slug": "geberit-heberglockendichtung-816-418-00-1",
+      "name": "Geberit Heberglockendichtung / Flachdichtung für Spülventil (AP und UP)",
+      "teiltyp": "dichtung",
+      "oem_nummer": "816.418.00.1",
+      "ean": null,
+      "masse": {
+        "aussen_mm": 63,
+        "innen_mm": 31.5,
+        "staerke_mm": 3,
+        "hinweis": "Geberit-Katalog d63 x di 31,5 x 3 mm; Händler 63 x 32 mm"
+      },
+      "beschreibung": "Klassische Glocken- bzw. Flachdichtung für Spülventile älterer Geberit AP- und UP-Spülkästen. Im Geberit-Katalog u. a. für 10.800 und AP127 gelistet. Laut Drittanbietern nicht für Spülventil Typ 212 (dafür 244.244.00.1).",
+      "preis_spanne": "3–4 €",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "Eckventil schließen; Spülventil/Heberglocke ausbauen",
+      "amazon_asin": "B0017VKLJ6",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_145479",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461070",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461044",
+        "https://www.hornbach.de/shop/Heberglockendichtung-Geberit-fuer-AP-und-UP-Spuelkasten-816-418-00-1/6356197/artikel.html",
+        "https://haustechnik-binder.de/de/sanitaer/spuelkasten-ersatzteile/geberit/geberit-heberglockendichtung-63-mm-x-32-mm-816-418-00-1",
+        "https://www.meinhausshop.de/GEBERIT-Heberglockendichtung-63x32mm-Referenz-Nr-816418001-EINZELN",
+        "https://www.amazon.de/Geberit-816-418-00-1-Heberglockendichtung-63-32/dp/B0017VKLJ6"
+      ]
+    },
+    {
+      "slug": "geberit-flachdichtung-spuelventil-typ-212-244-244-00-1",
+      "name": "Geberit Flachdichtung für Spülventil Typ 212, für UP-Spülkasten",
+      "teiltyp": "dichtung",
+      "oem_nummer": "244.244.00.1",
+      "ean": "4025416709831",
+      "masse": {
+        "aussen_mm": 52.5,
+        "innen_mm": 29.1,
+        "staerke_mm": 2.8,
+        "hinweis": "Geberit nennt Außendurchmesser 52 mm, DN 25"
+      },
+      "beschreibung": "Dichtung zwischen Spülventil Typ 212 und Ablauf. Gilt damit für alle Kästen mit Typ 212 (Sigma UP300/UP320, Delta UP100, Omega). Material laut Händler Silikonkautschuk.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "Eckventil schließen; Spülventil Typ 212 herausnehmen",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_2177065",
+        "https://heizung-billiger.de/225564-geberit-flachdichtung-zu-spulventil-typ-212-d525-x-di-291-x-28-mm-geberit-244244001-4025416709831.html",
+        "https://www.meinhausshop.de/Geberit-Flachdichtung-Typ-212-fuer-Spuelventil-fuer-UP-Kasten-d52-5-x-di-29-1-x-2-8-mm"
+      ]
+    },
+    {
+      "slug": "geberit-dichtungsset-fuellventil-typ-380-240-771-00-1",
+      "name": "Geberit Dichtungsset für Füllventil Typ 380",
+      "teiltyp": "dichtung",
+      "oem_nummer": "240.771.00.1",
+      "ean": "4025416150657",
+      "masse": {},
+      "beschreibung": "Laut Geberit-Ersatzteilkatalog Dichtungsset für Füllventile Typ 380 mit seitlichem Wasseranschluss. Hilft, wenn das Füllventil nicht mehr dicht schließt.",
+      "preis_spanne": "7–13 €",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Eckventil schließen; Betätigungsplatte und Rahmen abnehmen (ggf. Schraubendreher); Eimer und Tuch",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461085",
+        "https://www.hornbach.de/p/dichtungsset-geberit-fuer-fuellventil-typ-380-240-771-00-1/5855287/",
+        "https://badfabrik24.de/Geberit-Typ-380-Dichtungsset-fuer-Fuellventil-240771001"
+      ]
+    },
+    {
+      "slug": "geberit-dichtungsset-fuellventil-typ-383-245-988-00-1",
+      "name": "Geberit Dichtungsset für Füllventil Typ 383",
+      "teiltyp": "dichtung",
+      "oem_nummer": "245.988.00.1",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Dichtungsset für das Füllventil Typ 383 (nur bei einem Händler mit Nummer gesehen).",
+      "preis_spanne": "ca. 7 €",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Eckventil schließen; Betätigungsplatte und Rahmen abnehmen (ggf. Schraubendreher); Eimer und Tuch",
+      "amazon_asin": null,
+      "quellen": [
+        "https://badfabrik24.de/geberit-dichtungsset-fuer-typ-383-fuellventil-245988001-245988001"
+      ]
+    },
+    {
+      "slug": "geberit-renovierungsset-typ-212-383-246-127-00-5",
+      "name": "Geberit Renovierungsset Typ 212-383 für 300 / 320 / Sigma UP-Spülkästen",
+      "teiltyp": "umbauset",
+      "oem_nummer": "246.127.00.5",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Set aus Spülventil Typ 212, Füllventil Typ 383 und Panzerschlauch 3/8″. Laut Geberit für UP300, UP320 und Sigma ab Baujahr 2002. Komplettlösung, wenn Füll- und Spülventil gleichzeitig verschlissen sind.",
+      "preis_spanne": "65–92 €",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 45,
+      "werkzeug": "Eckventil schließen; Betätigungsplatte und Rahmen abnehmen (ggf. Schraubendreher); Eimer und Tuch",
+      "amazon_asin": "B0FFTK3LHN",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_4079572",
+        "https://www.megabad.com/geberit-spuelkaesten-und-montageelemente-unterputz-spuelkasten-a-2372549.htm",
+        "https://www.heizman24.de/bad/zubehoer/vorwandelemente/umbausets/geberit-typ212-383-renovierungsset-fuer-300-320-sigma-unterputz-spuelkaesten-246.127.00.5/10024948",
+        "https://ssd-armaturenshop.de/?a=1483850&lang=eng",
+        "https://www.amazon.de/Geberit-212-383-Renovationsset-Sigma-UP-Sp%C3%BClkasten/dp/B0FFTK3LHN"
+      ]
+    },
+    {
+      "slug": "geberit-umbauset-2-mengen-typ-10800-240-835-00-5",
+      "name": "Geberit Umbauset für 2-Mengen-Spülung, für Typ 10.800 UP-Spülkasten",
+      "teiltyp": "umbauset",
+      "oem_nummer": "240.835.00.5",
+      "ean": "4064746037221",
+      "masse": {},
+      "beschreibung": "Rüstet ältere UP-Spülkästen auf 2-Mengen-Spülung um; ersetzt 240.835.00.1. Lieferumfang laut Händler: Schutzplatte, Heberglocke, Niederhalter, Bassin, Füllventil Typ 383, Kupfer-Verbindungsrohr, Befestigungsmaterial. Laut Geberit-Katalog ab Baujahr 1978 nachrüstbar. Typ-Bezeichnung in Quellen uneinheitlich (10.800 vs. 110.800, siehe widersprueche).",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 4,
+      "dauer_min": 90,
+      "werkzeug": "Eckventil schließen; Schraubendreher; Fachbetrieb empfohlen",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_4020507",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461070",
+        "https://cdn.data.geberit.com/overviews/DE-de/DAS_157948.pdf",
+        "https://www.hornbach.de/p/geberit-umbausatz-fuer-typ-10-800-auf-2-mengen-spuelungen-240-835-00-5/12540190/",
+        "https://tela.at/shop/gas-wasser-heizung-sanitar/sanitar/wcs/spulkasten/geberit-240-835-00-5-ge-umbauset-zu-up-spk-modell-1978-1987-verpackungseinheit1st/",
+        "https://assets.heizung-billiger.de/documents/gedb_art_240835001_2025.pdf"
+      ]
+    },
+    {
+      "slug": "geberit-umbauset-2-mengen-typ-110800-240-515-00-5",
+      "name": "Geberit Umbauset für 2-Mengen-Spülung, für Typ 110.800 UP-Spülkasten (1988-1997)",
+      "teiltyp": "umbauset",
+      "oem_nummer": "240.515.00.5",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Laut Geberit-Sortimentsübersicht Umbauset für den Typ 110.800 der Baujahre 1988 bis 1997. Ältere Varianten 240.515.00.1/.00.2 (mit Füllventil Typ 380) laut Händlern.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 4,
+      "dauer_min": 90,
+      "werkzeug": "Eckventil schließen; Schraubendreher; Fachbetrieb empfohlen",
+      "amazon_asin": null,
+      "quellen": [
+        "https://cdn.data.geberit.com/overviews/DE-de/DAS_157948.pdf",
+        "https://www.ebay.de/p/3079150236"
+      ]
+    },
+    {
+      "slug": "geberit-renovierungsset-2-mengen-typ-110800-246-126-00-5",
+      "name": "Geberit Renovierungsset 2-Mengen-Spülung, für Typ 110.800 UP-Spülkasten (1998-2001)",
+      "teiltyp": "umbauset",
+      "oem_nummer": "246.126.00.5",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Laut Geberit-Katalog für Typ 110.800 UP-Spülkästen der Baujahre 1998 bis 2001. Lieferumfang laut Händlern: Heberglocke, Niederhalter, Bassin, Füllventil Typ 383, Panzerschlauch 3/8″.",
+      "preis_spanne": "77–93 €",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 60,
+      "werkzeug": "Eckventil schließen; Schraubendreher; Fachbetrieb empfohlen",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_4079570",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461065",
+        "https://www.megabad.com/geberit-ersatzteile-renovierungsset-2-mengen-spuelung-a-2374424.htm",
+        "https://www.top-badshop.com/Spuelkasten-und-Ersatzteile/Geberit/Fuellventil-und-Spuelventil/GEBERIT-Geberit-Renovierungsset-2-Mengen-Spuelung-246-126-00-5-fuer-UP-Spuelkasten-Typ-110-800.html"
+      ]
+    },
+    {
+      "slug": "geberit-drueckerstange-240-074-00-1",
+      "name": "Geberit Drückerstange zu Betätigungsplatte Twinline, Highline, 200F",
+      "teiltyp": "betaetigung",
+      "oem_nummer": "240.074.00.1",
+      "ean": "4025416035329",
+      "masse": {
+        "laenge_mm": "133–135",
+        "gewinde_mm": 8
+      },
+      "beschreibung": "Stößel/Drückerstange zwischen Betätigungsplatte und Spülkastenmechanik für Highline- und 200F-Platten (Spül-Stopp) sowie Twinline-Abdeckplatten. Ein Händler nennt zusätzlich Delta (nicht vom Hersteller bestätigt).",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": "Betätigungsplatte abnehmen; keines",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.manomano.de/p/geberit-240074001-drueckerstange-zu-betaetigungsplatte-f200-highline-twinline-33240892",
+        "https://badfabrik24.de/Geberit-Drueckerstange-Geberit-zu-Betaetigungsplatte-Twinline-240074001",
+        "https://shkhelden.de/geberit-drueckerstange-zu-betpl.-twinline/240074001",
+        "https://spuelkasten-ersatzteile.de/produkte/geberit-drueckerstange-zu-betaetigungsplatte-twinline-30-highline-und-200f/"
+      ]
+    },
+    {
+      "slug": "geberit-wasseranschluss-up-sigma-240-269-00-1",
+      "name": "Geberit Wasseranschluss für UP-Spülkasten Sigma",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "240.269.00.1",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Laut Geberit-Katalog Wasseranschluss für Sigma-UP-Spülkästen; ersetzt 240.177.00.1.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 4,
+      "dauer_min": 60,
+      "werkzeug": "Fachbetrieb empfohlen (Anschluss im Kasteninneren)",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050"
+      ]
+    },
+    {
+      "slug": "geberit-betaetigungsplatte-sigma01-weiss-115-770-11-5",
+      "name": "Geberit Sigma01 Betätigungsplatte, 2-Mengen-Spülung, weiß",
+      "teiltyp": "betaetigungsplatte",
+      "oem_nummer": "115.770.11.5",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Einfache Sigma-Platte (rund, 2-Mengen). Laut Geberit nicht geeignet für UP-Spülkästen bis Ende 2001, DuofixPur, KombifixPur, Kappa, Delta und Omega. Händler nennen UP300, UP320 und UP720.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "keines",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_100555",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+        "https://www.hornbach.de/p/geberit-betaetigungsplatte-sigma-01-platte-weiss-glaenzend-taster-weiss-glaenzend-115-770-11-5/8582054/",
+        "https://www.saniweb.de/geberit-sigma-01-druckerplatte-weiss-glanzend-fur-up720-up320-up300-und-up700-115-770-11-5.html",
+        "https://www.hts24.de/geberit-betatigungsplatte-sigma01-2-mengen-spulung-weiss-alpin-115770115",
+        "https://www.x2o.de/geberit-sigma01-betatigungsplatte-eckig-weib-glanzend-fur-sigma-up320-und-up720-einbauspulkasten-213824"
+      ]
+    },
+    {
+      "slug": "geberit-betaetigungsplatte-bolero-115-777-21-1",
+      "name": "Geberit Bolero Betätigungsplatte, 2-Mengen-Spülung, glanzverchromt",
+      "teiltyp": "betaetigungsplatte",
+      "oem_nummer": "115.777.21.1",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Ältere Plattenserie, die Geberit zusammen mit Sigma, Samba und Twist (2-Mengen, ab 2001) führt. Laut Händler für UP300 und UP320; derzeit nicht lieferbar, Ersatz über aktuelle Sigma-Platten.",
+      "preis_spanne": "ca. 59 € (nicht lieferbar)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "keines",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.ch/de-CH/spare-part/SPT_461102",
+        "https://www.soldanshop24.de/detail/index/sArticle/1278"
+      ]
+    },
+    {
+      "slug": "geberit-betaetigungsplatten-familie-sigma",
+      "name": "Geberit Sigma-Betätigungsplatten (Plattenfamilie)",
+      "teiltyp": "betaetigungsplatte",
+      "oem_nummer": null,
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Sigma01, Sigma10, Sigma20, Sigma30, Sigma50, Sigma70 u. a. Laut Geberit ausschließlich mit Sigma-Spülkästen kompatibel; passen nicht auf Omega (und umgekehrt). Tastenform (rund/eckig) ist für die Kompatibilität egal. Nicht für UP-Spülkästen bis Ende 2001. Sigma70 arbeitet pneumatisch über einen Servoheber (eigene Instandhaltungsanleitung).",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "keines",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
+        "https://catalog.geberit.de/de-DE/product/PRO_100555",
+        "https://catalog.geberit.de/de-DE/product/PRO_219946",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461096",
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf"
+      ]
+    },
+    {
+      "slug": "geberit-betaetigungsplatten-familie-delta",
+      "name": "Geberit Delta-Betätigungsplatten (Plattenfamilie)",
+      "teiltyp": "betaetigungsplatte",
+      "oem_nummer": null,
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Delta, Delta01, Delta10, Delta11, Delta15, Delta20, Delta21, Delta25, Delta30, Delta35, Delta40, Delta50, Delta51, Delta Zero; laut Geberit für Delta UP-Spülkästen (ab 2005). Sigma-Platten passen nicht auf Delta.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "keines",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461112",
+        "https://catalog.geberit.de/de-DE/product/PRO_2225999",
+        "https://catalog.geberit.de/de-DE/product/PRO_100555",
+        "https://handwerkerwissen.com/bad/geberit/welche-geberit-drueckerplatte-passt-auf-meinen-spuelkasten/"
+      ]
+    },
+    {
+      "slug": "geberit-betaetigungsplatten-familie-omega",
+      "name": "Geberit Omega-Betätigungsplatten (Plattenfamilie)",
+      "teiltyp": "betaetigungsplatte",
+      "oem_nummer": null,
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Laut Geberit nur für Omega-Spülkästen; Omega-Platten passen nicht auf Sigma und Sigma-Platten nicht auf Omega.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "keines",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
+        "https://catalog.geberit.de/de-DE/product/PRO_100555"
+      ]
+    },
+    {
+      "slug": "geberit-betaetigungsplatten-familie-kappa",
+      "name": "Geberit Kappa-Betätigungsplatten (Plattenfamilie)",
+      "teiltyp": "betaetigungsplatte",
+      "oem_nummer": null,
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Z. B. Kappa20, Kappa50. Laut Geberit nicht geeignet für UP-Spülkästen bis Ende 2001, DuofixPur, KombifixPur, Delta, Sigma, Omega; d. h. für Kappa-Spülkästen. Geberit-Plattenübersicht Kappa: 1999-2025.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "keines",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_100562",
+        "https://catalog.geberit.ch/de-CH/spare-part/SPT_461110"
+      ]
+    },
+    {
+      "slug": "geberit-betaetigungsplatten-familie-twinline",
+      "name": "Geberit Twinline-Betätigungsplatten (Plattenfamilie)",
+      "teiltyp": "betaetigungsplatte",
+      "oem_nummer": null,
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Z. B. Twinline30 (Händler-Art.-Nr. 115.899.KJ.1). Laut Geberit für Twinline-Kästen, nicht geeignet für Artline, Sigma, Kappa, Omega, Delta. Federn je nach Baujahr (bis 2018 / ab 2019).",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "keines",
+      "amazon_asin": null,
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_745090",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461118",
+        "https://www.armaturenking.de/Geberit_Betaetigungsplatte_Twinline_30_weiss_chrom_2-Mengen_115899KJ1.html"
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "serie_slug": "up320-sigma-12",
+      "teil_slug": "geberit-fuellventil-typ-383-up-240-705-00-5",
+      "hinweis": "Aktuelles Füllventil; ersetzt 240.705.00.1",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up320-sigma-12",
+      "teil_slug": "geberit-fuellventil-typ-380-up-240-705-00-1",
+      "hinweis": "Vorgängernummer: laut Katalog durch 240.705.00.5 ersetzt; nur noch Restbestände",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up320-sigma-12",
+      "teil_slug": "geberit-spuelventil-typ-212-244-820-00-1",
+      "hinweis": "Sigma/UP320 ab Baujahr 2002; bis Baujahr 01/2022 komplettes Spülventil tauschen",
+      "quelle_url": "https://catalog.geberit.de/de-DE/product/PRO_1777474",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up320-sigma-12",
+      "teil_slug": "geberit-spuelventil-typ-212-244-821-00-1",
+      "hinweis": "Laut Geberit-Datenblatt Sigma/UP300/UP320 ab 2002",
+      "quelle_url": "https://assets.heizung-billiger.de/documents/gedb_art_244821001_2025.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up320-sigma-12",
+      "teil_slug": "geberit-renovierungsset-typ-212-383-246-127-00-5",
+      "hinweis": "Komplettset Füll- und Spülventil, ab Baujahr 2002",
+      "quelle_url": "https://catalog.geberit.de/de-DE/product/PRO_4079572",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up320-sigma-12",
+      "teil_slug": "geberit-wasseranschluss-up-sigma-240-269-00-1",
+      "hinweis": "Wasseranschluss UP-SPK Sigma; ersetzt 240.177.00.1",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up320-sigma-12",
+      "teil_slug": "geberit-betaetigungsplatten-familie-sigma",
+      "hinweis": "Nur Sigma-Platten",
+      "quelle_url": "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up320-sigma-12",
+      "teil_slug": "geberit-betaetigungsplatte-sigma01-weiss-115-770-11-5",
+      "hinweis": "In der UP320-Ersatzteilliste geführt",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up320-sigma-12",
+      "teil_slug": "geberit-betaetigungsplatte-bolero-115-777-21-1",
+      "hinweis": "Geberit führt Bolero in der Sigma-Plattengruppe (2-Mengen, ab 2001); Händler nennt UP320",
+      "quelle_url": "https://www.soldanshop24.de/detail/index/sArticle/1278",
+      "sicherheit": "zwei_quellen"
+    },
+    {
+      "serie_slug": "up300-sigma-12",
+      "teil_slug": "geberit-fuellventil-typ-383-up-240-705-00-5",
+      "hinweis": "Typ 383 ist Bestandteil des Geberit-Renovierungssets für 300/320/Sigma",
+      "quelle_url": "https://catalog.geberit.de/de-DE/product/PRO_4079572",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up300-sigma-12",
+      "teil_slug": "geberit-spuelventil-typ-212-244-820-00-1",
+      "hinweis": "Sigma/UP300 ab Baujahr 2002",
+      "quelle_url": "https://catalog.geberit.de/de-DE/product/PRO_1777474",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up300-sigma-12",
+      "teil_slug": "geberit-spuelventil-typ-212-244-821-00-1",
+      "hinweis": "Laut Geberit-Datenblatt Sigma/UP300/UP320 ab 2002",
+      "quelle_url": "https://assets.heizung-billiger.de/documents/gedb_art_244821001_2025.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up300-sigma-12",
+      "teil_slug": "geberit-renovierungsset-typ-212-383-246-127-00-5",
+      "hinweis": "Für 300 / 320 / Sigma ab Baujahr 2002",
+      "quelle_url": "https://catalog.geberit.de/de-DE/product/PRO_4079572",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up300-sigma-12",
+      "teil_slug": "geberit-betaetigungsplatten-familie-sigma",
+      "hinweis": "Nur Sigma-Platten; nicht für Kästen bis Ende 2001",
+      "quelle_url": "https://catalog.geberit.de/de-DE/product/PRO_100555",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up300-sigma-12",
+      "teil_slug": "geberit-betaetigungsplatte-sigma01-weiss-115-770-11-5",
+      "hinweis": "Händler nennen UP300 ausdrücklich",
+      "quelle_url": "https://www.saniweb.de/geberit-sigma-01-druckerplatte-weiss-glanzend-fur-up720-up320-up300-und-up700-115-770-11-5.html",
+      "sicherheit": "zwei_quellen"
+    },
+    {
+      "serie_slug": "up300-sigma-12",
+      "teil_slug": "geberit-betaetigungsplatte-bolero-115-777-21-1",
+      "hinweis": "Händler nennt UP300; Geberit führt Bolero in der Sigma-Plattengruppe",
+      "quelle_url": "https://www.soldanshop24.de/detail/index/sArticle/1278",
+      "sicherheit": "zwei_quellen"
+    },
+    {
+      "serie_slug": "up100-delta-12",
+      "teil_slug": "geberit-fuellventil-typ-383-up-240-705-00-5",
+      "hinweis": "Laut Katalogauszug zusätzlich Art. 240.923.00.1 (Pos. 18) bestellen",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461060",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up100-delta-12",
+      "teil_slug": "geberit-spuelventil-typ-212-244-820-00-1",
+      "hinweis": "Delta/UP100 ab Baujahr 2006 (Delta-Seite: bis 01/2024 komplettes Spülventil tauschen)",
+      "quelle_url": "https://catalog.geberit.de/de-DE/product/PRO_1777474",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up100-delta-12",
+      "teil_slug": "geberit-spuelventil-typ-212-244-821-00-1",
+      "hinweis": "Laut Geberit-Datenblatt Delta/UP100 ab 2006",
+      "quelle_url": "https://assets.heizung-billiger.de/documents/gedb_art_244821001_2025.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up100-delta-12",
+      "teil_slug": "geberit-fuellventil-typ-333-136-705-00-3",
+      "hinweis": "Händler nennen Typ 333 für Delta UP100; Geberit führt auf der Delta-Seite einen Clip für Typ 333",
+      "quelle_url": "https://www.heizung-badezimmer.com/fuellventil-typ-333-fuer-geberit-delta-up100-spuelkaesten-3-8-messing-136.705.00.3/",
+      "sicherheit": "zwei_quellen"
+    },
+    {
+      "serie_slug": "up100-delta-12",
+      "teil_slug": "geberit-betaetigungsplatten-familie-delta",
+      "hinweis": "Nur Delta-Platten",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461112",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up100-delta-12",
+      "teil_slug": "geberit-renovierungsset-typ-212-383-246-127-00-5",
+      "hinweis": "Nur Amazon-Angebot nennt Delta; Geberit nennt nur 300/320/Sigma",
+      "quelle_url": "https://www.amazon.de/Geberit-212-383-Renovationsset-Sigma-UP-Sp%C3%BClkasten/dp/B0FFTK3LHN",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "up100-delta-12",
+      "teil_slug": "geberit-drueckerstange-240-074-00-1",
+      "hinweis": "Nur ein Händler nennt Delta",
+      "quelle_url": "https://spuelkasten-ersatzteile.de/produkte/geberit-drueckerstange-zu-betaetigungsplatte-twinline-30-highline-und-200f/",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "omega-12",
+      "teil_slug": "geberit-fuellventil-typ-383-up-240-705-00-5",
+      "hinweis": "Aktuelles Füllventil; ersetzt 240.705.00.1",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461058",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "omega-12",
+      "teil_slug": "geberit-spuelventil-typ-212-244-820-00-1",
+      "hinweis": "Omega ab Baujahr 2014; bis Baujahr 07/2021 komplettes Spülventil tauschen",
+      "quelle_url": "https://catalog.geberit.de/de-DE/product/PRO_1777474",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "omega-12",
+      "teil_slug": "geberit-spuelventil-typ-212-244-821-00-1",
+      "hinweis": "Laut Geberit-Datenblatt Omega ab 2014",
+      "quelle_url": "https://assets.heizung-billiger.de/documents/gedb_art_244821001_2025.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "omega-12",
+      "teil_slug": "geberit-spuelventil-typ-212-omega-244-830-00-1",
+      "hinweis": "Omega-Variante mit Drossel; laut einem Händler ausgelaufen, Nachfolger 244.820.00.1",
+      "quelle_url": "https://www.top-badshop.com/Spuelkasten-und-Ersatzteile/Geberit/Fuellventil-und-Spuelventil/GEBERIT-Spuelventil-244-830-00-1-Typ-212-komplett-mit-Bassin-fuer-Omega-12-UP-Spuelkasten-ab-2014.html",
+      "sicherheit": "zwei_quellen"
+    },
+    {
+      "serie_slug": "omega-12",
+      "teil_slug": "geberit-betaetigungsplatten-familie-omega",
+      "hinweis": "Nur Omega-Platten",
+      "quelle_url": "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up700-8",
+      "teil_slug": "geberit-spuelventil-typ-208-sigma-8cm-241-290-00-1",
+      "hinweis": "Händler nennt Einsatz für Duofix UP700/720",
+      "quelle_url": "https://wcbrillen.com/geberit-241-290-00-1-binnenwerk-tbv-duofix-up700-720?___store=wcbrillen_en",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "up720-sigma-8",
+      "teil_slug": "geberit-spuelventil-typ-208-sigma-8cm-241-290-00-1",
+      "hinweis": "Für Sigma UP-Spülkasten 8 cm; Händler nennt UP700/720",
+      "quelle_url": "https://heizung-billiger.de/225446-geberit-heberglocke-mit-bassin-zu-sigma-up-spk-8-cm-geberit-241290001-4025416674474.html",
+      "sicherheit": "zwei_quellen"
+    },
+    {
+      "serie_slug": "up720-sigma-8",
+      "teil_slug": "geberit-betaetigungsplatten-familie-sigma",
+      "hinweis": "Sigma-Platten für Sigma 8 cm (UP720)",
+      "quelle_url": "https://www.x2o.de/geberit-sigma01-betatigungsplatte-eckig-weib-glanzend-fur-sigma-up320-und-up720-einbauspulkasten-213824",
+      "sicherheit": "zwei_quellen"
+    },
+    {
+      "serie_slug": "up720-sigma-8",
+      "teil_slug": "geberit-betaetigungsplatte-sigma01-weiss-115-770-11-5",
+      "hinweis": "Händler nennen UP720 ausdrücklich",
+      "quelle_url": "https://www.saniweb.de/geberit-sigma-01-druckerplatte-weiss-glanzend-fur-up720-up320-up300-und-up700-115-770-11-5.html",
+      "sicherheit": "zwei_quellen"
+    },
+    {
+      "serie_slug": "up700-8",
+      "teil_slug": "geberit-betaetigungsplatte-sigma01-weiss-115-770-11-5",
+      "hinweis": "Nur ein Händler nennt UP700",
+      "quelle_url": "https://www.saniweb.de/geberit-sigma-01-druckerplatte-weiss-glanzend-fur-up720-up320-up300-und-up700-115-770-11-5.html",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "kappa-up200-15",
+      "teil_slug": "geberit-fuellventil-typ-383-up-240-705-00-5",
+      "hinweis": "Ersetzt 240.705.00.1",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461077",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "kappa-up200-15",
+      "teil_slug": "geberit-betaetigungsplatten-familie-kappa",
+      "hinweis": "Nur Kappa-Platten",
+      "quelle_url": "https://catalog.geberit.de/de-DE/product/PRO_100562",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "twinline-up130-110800-12",
+      "teil_slug": "geberit-fuellventil-typ-383-up-240-705-00-5",
+      "hinweis": "Ersetzt 240.705.00.1",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461065",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "twinline-up130-110800-12",
+      "teil_slug": "geberit-renovierungsset-2-mengen-typ-110800-246-126-00-5",
+      "hinweis": "Nur für Typ 110.800, Baujahr 1998-2001",
+      "quelle_url": "https://catalog.geberit.de/de-DE/product/PRO_4079570",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "twinline-up130-110800-12",
+      "teil_slug": "geberit-umbauset-2-mengen-typ-110800-240-515-00-5",
+      "hinweis": "Nur für Typ 110.800, Baujahr 1988-1997",
+      "quelle_url": "https://cdn.data.geberit.com/overviews/DE-de/DAS_157948.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "twinline-up130-110800-12",
+      "teil_slug": "geberit-heberglocke-2-mengen-betaetigung-vorne-240-501-00-1",
+      "hinweis": "Katalog: Heberglocke für Betätigung von vorne ab Bj. 1998 (Baujahr-Widerspruch, siehe widersprueche)",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461065",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "twinline-up130-110800-12",
+      "teil_slug": "geberit-betaetigungsplatten-familie-twinline",
+      "hinweis": "Nur Twinline-Platten",
+      "quelle_url": "https://catalog.geberit.de/de-DE/product/PRO_745090",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "twinline-up130-110800-12",
+      "teil_slug": "geberit-drueckerstange-240-074-00-1",
+      "hinweis": "Drückerstange für Twinline-Abdeckplatten",
+      "quelle_url": "https://badfabrik24.de/Geberit-Drueckerstange-Geberit-zu-Betaetigungsplatte-Twinline-240074001",
+      "sicherheit": "zwei_quellen"
+    },
+    {
+      "serie_slug": "twinline-up170-110700-8",
+      "teil_slug": "geberit-fuellventil-typ-383-up-240-705-00-5",
+      "hinweis": "Laut Katalog Typ 383 für UP-SPK",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461066",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-10800",
+      "teil_slug": "geberit-fuellventil-typ-383-up-240-705-00-5",
+      "hinweis": "Ersetzt 240.705.00.1",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461070",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-10800",
+      "teil_slug": "geberit-heberglocke-universal-up-240-114-00-1",
+      "hinweis": "Heberglocke Universal für UP-Spk",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461070",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-10800",
+      "teil_slug": "geberit-heberglockendichtung-816-418-00-1",
+      "hinweis": "Flachdichtung für Spülventil d63 x 31,5 x 3 mm",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461070",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-10800",
+      "teil_slug": "geberit-umbauset-2-mengen-typ-10800-240-835-00-5",
+      "hinweis": "Nachrüstbar ab Baujahr 1978 (nicht 1975-1977)",
+      "quelle_url": "https://catalog.geberit.de/de-DE/product/PRO_4020507",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-10600-10620",
+      "teil_slug": "geberit-fuellventil-typ-383-up-240-705-00-5",
+      "hinweis": "Füllventil Typ 383 mit seitlichem Wasseranschluss gelistet",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461073",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-110620-nuvo",
+      "teil_slug": "geberit-fuellventil-typ-383-up-240-705-00-5",
+      "hinweis": "Füllventil Typ 383 gelistet",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461080",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ap140",
+      "teil_slug": "geberit-fuellventil-typ-383-ap-240-700-00-5",
+      "hinweis": "Variante Spül-Stopp-Spülung (ab 2000)",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461048",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ap140",
+      "teil_slug": "geberit-spuelventil-ap140-spuel-stopp-240-950-00-1",
+      "hinweis": "Variante Spül-Stopp-Spülung",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461048",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ap140",
+      "teil_slug": "geberit-heberglocke-ap140-2-mengen-240-428-00-1",
+      "hinweis": "Variante 2-Mengen-Spülung",
+      "quelle_url": "https://catalog.geberit.at/de-AT/spare-part/SPT_461047",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ap140",
+      "teil_slug": "geberit-fuellventil-typ-383-ap-wa-unten-240-719-00-5",
+      "hinweis": "Variante 2-Mengen-Spülung, Wasseranschluss unten",
+      "quelle_url": "https://catalog.geberit.at/de-AT/spare-part/SPT_461047",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ap140",
+      "teil_slug": "geberit-fuellventil-typ-383-ap-240-704-00-5",
+      "hinweis": "Variante 2-Mengen-Spülung, Wasseranschluss seitlich",
+      "quelle_url": "https://catalog.geberit.at/de-AT/spare-part/SPT_461047",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ap127",
+      "teil_slug": "geberit-fuellventil-typ-383-ap-240-700-00-5",
+      "hinweis": "Ersetzt 240.700.00.1",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461044",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ap127",
+      "teil_slug": "geberit-fuellventil-typ-380-ap-240-700-00-1",
+      "hinweis": "Vorgänger-Füllventil; Nachfolger 240.700.00.5",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461044",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ap127",
+      "teil_slug": "geberit-spuelventil-universal-ap-240-113-00-1",
+      "hinweis": "Spülventil für AP-SPK (Spül-Stopp)",
+      "quelle_url": "https://catalog.geberit.de/de-DE/product/PRO_104605",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ap127",
+      "teil_slug": "geberit-heberglockendichtung-816-418-00-1",
+      "hinweis": "Flachdichtung für Spülventil",
+      "quelle_url": "https://catalog.geberit.de/de-DE/spare-part/SPT_461044",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ap128",
+      "teil_slug": "geberit-spuelventil-ap128-2-mengen-243-634-00-1",
+      "hinweis": "Nur Variante 2-Mengen-Spülung; ersetzt 240.274.00.1",
+      "quelle_url": "https://catalog.geberit.at/de-AT/spare-part/SPT_461032",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ap128",
+      "teil_slug": "geberit-spuelventil-universal-ap-240-113-00-1",
+      "hinweis": "Nur Ausführung AP128.0xx; für AP128 allgemein laut Geberit nicht geeignet",
+      "quelle_url": "https://catalog.geberit.de/de-DE/product/PRO_104605",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ap110-ap120",
+      "teil_slug": "geberit-fuellventil-typ-383-ap-240-715-00-5",
+      "hinweis": "Ersetzt 240.715.00.1",
+      "quelle_url": "https://catalog.geberit.at/de-AT/spare-part/SPT_461038",
+      "sicherheit": "hersteller"
+    }
+  ],
+  "probleme": [
+    {
+      "slug": "geberit-spuelkasten-laeuft-nach",
+      "titel": "Geberit-Spülkasten läuft nach",
+      "symptom": "Nach dem Spülen läuft dauerhaft oder in Abständen Wasser ins WC-Becken (Rinnsal), oder der Spülkasten füllt immer wieder kurz nach.",
+      "ursachen": [
+        {
+          "ursache": "Schmutz oder Kalk zwischen Dichtung und Abflussloch, sodass das Spülventil nicht dicht schließt (laut Geberit die typische Ursache)",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "geberit-spuelventil-typ-212-244-820-00-1",
+            "geberit-flachdichtung-spuelventil-typ-212-244-244-00-1",
+            "geberit-heberglockendichtung-816-418-00-1"
+          ]
+        },
+        {
+          "ursache": "Flachdichtung der Heberglocke verschlissen, verhärtet oder verformt (Geberit-Störungstabelle: Dichtung ersetzen)",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "geberit-flachdichtung-spuelventil-typ-212-244-244-00-1",
+            "geberit-heberglockendichtung-816-418-00-1"
+          ]
+        },
+        {
+          "ursache": "Wasserstand zu hoch: Füllventil schaltet nicht ab, Wasser läuft über das Überlaufrohr der Heberglocke ins WC",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "geberit-fuellventil-typ-383-up-240-705-00-5",
+            "geberit-fuellventil-typ-383-ap-240-700-00-5",
+            "geberit-dichtungsset-fuellventil-typ-380-240-771-00-1",
+            "geberit-dichtungsset-fuellventil-typ-383-245-988-00-1"
+          ]
+        },
+        {
+          "ursache": "Heberglocke kehrt nicht in die Ausgangsposition zurück (verkalktes Gestänge, eingespülte Fremdkörper)",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "geberit-spuelventil-typ-212-244-820-00-1",
+            "geberit-spuelventil-typ-208-sigma-8cm-241-290-00-1",
+            "geberit-heberglocke-universal-up-240-114-00-1"
+          ]
+        },
+        {
+          "ursache": "Betätigungsplatte bzw. Drückerstangen drücken dauerhaft auf die Mechanik (schief, falsch eingestellt)",
+          "haeufigkeit": "selten",
+          "teil_slugs": [
+            "geberit-drueckerstange-240-074-00-1",
+            "geberit-betaetigungsplatten-familie-sigma",
+            "geberit-betaetigungsplatten-familie-delta"
+          ]
+        }
+      ],
+      "schritte": [
+        "Eckventil schließen und den Wasserstand beobachten: Bleibt er gleich, liegt es eher am Füllventil; sinkt er, eher an Heberglocke bzw. Dichtung.",
+        "Betätigungsplatte und Rahmen abnehmen, Typbezeichnung bzw. PA-Nummer ablesen (für die richtige Ersatzteilnummer).",
+        "Prüfen, ob Drückerstangen gerade sitzen und nicht dauerhaft auf die Mechanik drücken.",
+        "Spülventil bzw. Heberglocke herausnehmen, Dichtung und Ablaufsitz mit Wasser bzw. trockenem Tuch reinigen, wieder einsetzen und einmal spülen (Geberit-Empfehlung).",
+        "Ist die Dichtung rissig, verformt oder stark verkalkt: passende Dichtung tauschen (Typ 212: 244.244.00.1; ältere Spülventile: 816.418.00.1).",
+        "Läuft Wasser über das Überlaufrohr: Wasserstand am Füllventil niedriger einstellen; schaltet es nicht ab, Dichtungsset oder Füllventil tauschen.",
+        "Beim Entkalken vorsichtig sein: Laut Geberit können sich größere Kalkplatten lösen und die Spülung verstopfen."
+      ],
+      "fachbetrieb_ab": "Wenn das Nachlaufen trotz Reinigung und neuer Dichtung bzw. neuem Spülventil bleibt, das Eckventil nicht mehr schließt, Feuchtigkeit an der Vorwand auftritt oder Kalkbrocken die Spülung verstopfen (dann muss im Extremfall das WC abmontiert werden). Geberit empfiehlt den Tausch von Komponenten aus Gewährleistungsgründen generell durch eine Fachperson.",
+      "quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/service-fuers-bad/",
+        "https://www.geberit.de/service-support/ersatzteile/",
+        "https://www.geberitnorthamerica.com/_assets/local-media/instructions/970-390-00-000.pdf",
+        "https://www.heizungsforum.de/threads/geberit-spuelkasten-laeuft-nach.25036/",
+        "https://haustechnik-wissen.de/spuelkasten-laeuft-nach/",
+        "https://handwerkerratgeber.info/wc-spuelung-wasser-laeuft-nach/",
+        "https://spuelkasten-ersatzteile.de/geberit/geberit-spuelkasten-reparieren-wasser-laeuft-nach-fehlerursachen-beheben/"
+      ]
+    },
+    {
+      "slug": "geberit-spuelkasten-fuellt-nicht",
+      "titel": "Geberit-Spülkasten füllt nicht oder nur langsam",
+      "symptom": "Nach dem Spülen läuft kein oder nur sehr wenig Wasser nach; der Kasten braucht Minuten statt Sekunden zum Füllen, die nächste Spülung ist schwach.",
+      "ursachen": [
+        {
+          "ursache": "Eckventil nicht ganz geöffnet oder verkalkt",
+          "haeufigkeit": "häufig",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Sieb bzw. Filter am Wasseranschluss oder im Füllventil durch Rost- und Schmutzpartikel zugesetzt",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "geberit-fuellventil-typ-383-up-240-705-00-5",
+            "geberit-fuellventil-typ-383-ap-240-700-00-5"
+          ]
+        },
+        {
+          "ursache": "Panzerschlauch zwischen Eckventil und Füllventil geknickt, gequetscht oder undicht",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "geberit-renovierungsset-typ-212-383-246-127-00-5"
+          ]
+        },
+        {
+          "ursache": "Füllventil verkalkt oder defekt, Schwimmer klemmt (Geberit-Störungstabelle: Füllventil ersetzen)",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "geberit-fuellventil-typ-383-up-240-705-00-5",
+            "geberit-fuellventil-typ-380-up-240-705-00-1",
+            "geberit-fuellventil-typ-383-ap-240-700-00-5",
+            "geberit-fuellventil-typ-380-ap-240-700-00-1",
+            "geberit-dichtungsset-fuellventil-typ-380-240-771-00-1",
+            "geberit-dichtungsset-fuellventil-typ-383-245-988-00-1"
+          ]
+        }
+      ],
+      "schritte": [
+        "Eckventil vollständig öffnen und prüfen, ob an anderen Zapfstellen normaler Wasserdruck anliegt.",
+        "Eckventil schließen, Flexschlauch vom Füllventil lösen, in einen Eimer halten und Eckventil kurz öffnen: Kommt wenig Wasser, liegt das Problem vor dem Füllventil (Eckventil, Schlauch).",
+        "Schlauch auf Knicke und Quetschungen prüfen.",
+        "Sieb bzw. Filter am Anschluss und im Füllventil reinigen.",
+        "Schwimmer auf Leichtgängigkeit prüfen.",
+        "Hilft das nicht: Füllventil tauschen; bei Geberit-UP-Kästen ist das aktuelle Universalventil Typ 383 (240.705.00.5) Nachfolger des Typ 380."
+      ],
+      "fachbetrieb_ab": "Wenn das Eckventil festsitzt, sich nicht öffnen lässt oder undicht ist, wenn der Wasseranschluss im Kasten getauscht werden muss oder wenn kein Wasser am Schlauch ankommt (Problem in der Hausleitung).",
+      "quellen": [
+        "https://www.geberitnorthamerica.com/_assets/local-media/instructions/970-390-00-000.pdf",
+        "https://handwerkerwissen.com/bad/geberit/geberit-spuelkasten-fuellt-langsam/",
+        "https://www.inoutic.de/spuelkasten-fuellt-sich-nicht/",
+        "https://toom.de/selbermachen/bad-sanitaer/toiletten-bidets-urinale/unterputzspuelkasten-reparieren/",
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/"
+      ]
+    },
+    {
+      "slug": "geberit-spuelung-loest-nicht-aus",
+      "titel": "Geberit-Spülung löst nicht aus oder Drückerplatte klemmt",
+      "symptom": "Taste der Betätigungsplatte lässt sich nicht oder nur schwer drücken, bleibt hängen oder es wird nicht bzw. nur bei kräftigem Druck gespült.",
+      "ursachen": [
+        {
+          "ursache": "Drückerstangen bzw. Stößel greifen nicht richtig, sitzen schräg oder nicht mittig auf der Betätigung",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "geberit-drueckerstange-240-074-00-1"
+          ]
+        },
+        {
+          "ursache": "Verschmutzte oder verkalkte Stangen bzw. Mechanik",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "geberit-drueckerstange-240-074-00-1",
+            "geberit-spuelventil-typ-212-244-820-00-1"
+          ]
+        },
+        {
+          "ursache": "Betätigungsplatte gebrochen oder nicht zur Spülkastenserie passend (z. B. Sigma-Platte auf Delta oder Omega)",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "geberit-betaetigungsplatten-familie-sigma",
+            "geberit-betaetigungsplatten-familie-delta",
+            "geberit-betaetigungsplatten-familie-omega",
+            "geberit-betaetigungsplatten-familie-kappa",
+            "geberit-betaetigungsplatten-familie-twinline"
+          ]
+        },
+        {
+          "ursache": "Nur Sigma70 (pneumatisch): Filter verschmutzt oder Pneumatikschlauch geknickt, verschmutzt oder mit Wasser gefüllt",
+          "haeufigkeit": "selten",
+          "teil_slugs": [
+            "geberit-betaetigungsplatten-familie-sigma"
+          ]
+        },
+        {
+          "ursache": "Spülung schwach statt ausbleibend: zu niedriger Wasserstand oder falsch eingestellte Drückerstangen",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "geberit-fuellventil-typ-383-up-240-705-00-5",
+            "geberit-drueckerstange-240-074-00-1"
+          ]
+        }
+      ],
+      "schritte": [
+        "Betätigungsplatte abnehmen und prüfen, ob die Stangen gerade, ohne Dauerdruck und korrekt eingehängt sitzen.",
+        "Stangen und Aufnahme reinigen bzw. entkalken; Stangen wieder einhängen und Länge prüfen.",
+        "Typbezeichnung des Spülkastens prüfen und kontrollieren, ob die Plattenserie passt (Sigma nur auf Sigma, Omega nur auf Omega usw.).",
+        "Bei Sigma70: laut Geberit-Instandhaltungsanleitung Eckventil schließen, Pneumatikschläuche vom Servoheber trennen, Filter reinigen bzw. Schlauch ersetzen.",
+        "Ist die Mechanik der Platte gebrochen: Platte derselben Serie ersetzen."
+      ],
+      "fachbetrieb_ab": "Wenn die Mechanik im Spülkasten selbst (Hebel, Bügel, Servoheber) defekt ist, bei elektronischen oder pneumatischen Betätigungen ohne Erfolg nach Filterreinigung oder wenn die Serie nicht sicher bestimmt werden kann.",
+      "quellen": [
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf",
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
+        "https://handwerkerratgeber.info/wc-spuelung-betaetigungsplatte-oeffnen/",
+        "https://spuelkasten-reparieren.de/toilette-spuelknopf-klemmt-haengt/",
+        "https://handwerkerwissen.com/bad/geberit/geberit-spuelung-funktioniert-nicht/",
+        "https://www.geberitnorthamerica.com/_assets/local-media/instructions/970-390-00-000.pdf"
+      ]
+    },
+    {
+      "slug": "geberit-spuelkasten-laeuft-ueber",
+      "titel": "Geberit-Spülkasten läuft über (Wasserstand zu hoch)",
+      "symptom": "Wasser steht über der Füllstandsmarkierung und fließt ständig über das Überlaufrohr der Heberglocke ins WC; das Füllventil schaltet nicht ab.",
+      "ursachen": [
+        {
+          "ursache": "Füllventil schließt nicht mehr (verkalkt, Dichtung bzw. Membran defekt)",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "geberit-fuellventil-typ-383-up-240-705-00-5",
+            "geberit-fuellventil-typ-380-up-240-705-00-1",
+            "geberit-fuellventil-typ-383-ap-240-700-00-5",
+            "geberit-fuellventil-typ-380-ap-240-700-00-1",
+            "geberit-dichtungsset-fuellventil-typ-380-240-771-00-1",
+            "geberit-dichtungsset-fuellventil-typ-383-245-988-00-1"
+          ]
+        },
+        {
+          "ursache": "Füllhöhe falsch eingestellt",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "geberit-fuellventil-typ-383-up-240-705-00-5",
+            "geberit-fuellventil-typ-383-ap-240-700-00-5"
+          ]
+        },
+        {
+          "ursache": "Schwimmer blockiert oder hängt fest",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "geberit-fuellventil-typ-383-up-240-705-00-5",
+            "geberit-fuellventil-typ-383-ap-240-700-00-5"
+          ]
+        }
+      ],
+      "schritte": [
+        "Eckventil schließen: Hört das Nachlaufen auf, ist das Füllventil die Ursache.",
+        "Füllhöhe am Füllventil einstellen (Typ 383: stufenlos über Spindel).",
+        "Filter und Membran des Füllventils reinigen, Schwimmer auf Leichtgängigkeit prüfen.",
+        "Schaltet das Füllventil weiterhin nicht ab: Dichtungsset tauschen (Typ 380: 240.771.00.1) oder komplettes Füllventil ersetzen (UP: 240.705.00.5, AP: 240.700.00.5)."
+      ],
+      "fachbetrieb_ab": "Wenn Wasser außerhalb des Spülkastens austritt (feuchte Vorwand, Wasser am Boden), das Eckventil nicht mehr dicht schließt oder der Anschluss im Kasten undicht ist.",
+      "quellen": [
+        "https://haustechnik-wissen.de/spuelkasten-laeuft-nach/",
+        "https://www.heizungsforum.de/threads/geberit-spuelkasten-laeuft-nach.25036/",
+        "https://handwerkerratgeber.info/wc-spuelung-wasser-laeuft-nach/",
+        "https://www.geberitnorthamerica.com/_assets/local-media/instructions/970-390-00-000.pdf",
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/"
+      ]
+    }
+  ],
+  "widersprueche": [
+    {
+      "thema": "Dauer der Geberit-Ersatzteilsicherheit für Unterputzspülkästen",
+      "aussage_a": "Geberit bietet für alle Unterputzprodukte mindestens 25 Jahre Ersatzteilsicherheit, für Aufputzprodukte und Werkzeuge mindestens 10 Jahre (Fachpresse zum Geberit-Ersatzteilkatalog; Händler nennen ebenfalls 25 Jahre).",
+      "quelle_a": "https://www.handwerkundbau.at/bauen/haustechnik/brandneuer-geberit-ersatzteilkatalog-7699/",
+      "aussage_b": "Geberit stellt die Spülfunktionalität seiner WC-Unterputzspülkästen 50 Jahre lang sicher (aktuelle Herstellerseite).",
+      "quelle_b": "https://www.geberit.de/sanitaer-rohrleitungssysteme/planung-installation/unsere-loesungen-fuer-ihre-beduerfnisse/produktverfuegbarkeit/"
+    },
+    {
+      "thema": "Typbezeichnung des Füllventils 240.705.00.5 (Typ 383 vs. Typ 380)",
+      "aussage_a": "240.705.00.5 ist das Füllventil Typ 383 für UP-Spülkästen; es ersetzt 240.705.00.1 (Typ 380).",
+      "quelle_a": "https://catalog.geberit.de/de-DE/product/PRO_4018657",
+      "aussage_b": "eBay-Angebot bezeichnet 240.705.00.5 als Unifill Typ 380 UP Ersatz-Schwimmerventil.",
+      "quelle_b": "https://www.ebay.de/itm/365869868078"
+    },
+    {
+      "thema": "Umbauset 240.835.00.5: Typ 10.800 oder 110.800 für Baujahr 1978-1987",
+      "aussage_a": "Geberit-Katalog betitelt das Set als Umbauset für Typ 10.800; die Geberit-Sortimentsübersicht ordnet 10.800 dem Baujahr 1978-1987 zu und 110.800 dem Baujahr 1988-1997 (Set 240.515.00.5).",
+      "quelle_a": "https://catalog.geberit.de/de-DE/product/PRO_4020507",
+      "aussage_b": "Geberit-Datenblatt (bei Händler gehostet) und Händlertexte: Für Geberit UP-Spülkästen Typ 110.800 (Baujahr 1978-1987).",
+      "quelle_b": "https://assets.heizung-billiger.de/documents/gedb_art_240835001_2025.pdf"
+    },
+    {
+      "thema": "Baujahre Typ 110.800 / Twinline",
+      "aussage_a": "Katalogseite Twinline UP-Spülkästen 12 cm (UP130, 110.800): Baujahr 1988-2016.",
+      "quelle_a": "https://catalog.geberit.de/de-DE/spare-part/SPT_461065",
+      "aussage_b": "Sortimentsübersicht bzw. Renovierungsset: 110.800 in zwei Abschnitten 1988-1997 (240.515.00.5) und 1998-2001 (246.126.00.5); Ende 2016 betrifft vermutlich nur UP130.",
+      "quelle_b": "https://catalog.geberit.de/de-DE/product/PRO_4079570"
+    },
+    {
+      "thema": "PA-Nummer I/IX2761/I: 10.800 oder 110.800",
+      "aussage_a": "Umbauset 240.835.00.5 für Typ 10.800 ist ab Baujahr 1978 (PA-I/IX2761/I) nachrüstbar; Sortimentsübersicht ordnet PA-I/IX2761/I dem 10.800 (1978-1987) und PA-I/IX1153/1 dem 110.800 (1988-1997) zu.",
+      "quelle_a": "https://cdn.data.geberit.com/overviews/DE-de/DAS_157948.pdf",
+      "aussage_b": "Katalogseite Twinline 12 cm (UP130, 110.800, 1988-2016) nennt laut Suchauszug PA-Nummer I/IX2761/I.",
+      "quelle_b": "https://catalog.geberit.de/de-DE/spare-part/SPT_461065"
+    },
+    {
+      "thema": "PA-Nummer I/IX2331/I: 10.400 oder 10.800",
+      "aussage_a": "Geberit-Sortimentsübersicht: PA-I/IX2331/I = Typ 10.800, Baujahr 1975-1977 (kein Umbauset, nur Schutzplatte 240.026.00.1).",
+      "quelle_a": "https://cdn.data.geberit.com/overviews/DE-de/DAS_157948.pdf",
+      "aussage_b": "Händler-Ratgeber: PA-Nr. I/IX 2331/I und I/IX 2760/I = Geberit 10.400.",
+      "quelle_b": "https://spuelkasten-ersatzteile.de/geberit/geberit-modell-und-pa-nummer-des-spuelkastens-herausfinden-fuer-die-ersatzteilermittlung/"
+    },
+    {
+      "thema": "Typ 212 Spülventil: Baujahr ab oder bis",
+      "aussage_a": "Geberit-Produktseite: für Omega ab Baujahr 2014, Delta/UP100 ab 2006, Sigma/UP300/UP320 ab 2002 (Geberit-Herstellerseite formuliert missverständlich rückwärtskompatibel ... bis Baujahr 2002/2014/2006).",
+      "quelle_a": "https://catalog.geberit.de/de-DE/product/PRO_1777474",
+      "aussage_b": "Händler: geeignet für Sigma (UP300) bis Baujahr 2001, Omega bis 2014, Delta bis 2006.",
+      "quelle_b": "https://www.saniweb.de/geberit-sigma-geberit-spulventil-typ-212-komplett-244-820-00-1.html"
+    },
+    {
+      "thema": "Sigma-Startjahr für Typ 212 (2001 vs. 2002)",
+      "aussage_a": "Geberit Deutschland: Typ 212 rückwärtskompatibel mit Sigma (UP300) bis Baujahr 2002.",
+      "quelle_a": "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/",
+      "aussage_b": "Geberit Luxemburg: Sigma bis Baujahr 2001.",
+      "quelle_b": "https://www.geberit.lu/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/"
+    },
+    {
+      "thema": "Startjahr Delta UP100 (2005 vs. 2006)",
+      "aussage_a": "Ersatzteilseite Delta UP-Spülkästen 12 cm (UP100): Baujahr ab 2005.",
+      "quelle_a": "https://catalog.geberit.de/de-DE/spare-part/SPT_461060",
+      "aussage_b": "Produktseite Typ 212: Delta/UP100 ab Baujahr 2006.",
+      "quelle_b": "https://catalog.geberit.de/de-DE/product/PRO_1777474"
+    },
+    {
+      "thema": "Baujahre UP300",
+      "aussage_a": "Geberit-Katalog (AT) Sigma UP-Spülkästen 12 cm (UP300): 2000-2017 (laut Suchauszug).",
+      "quelle_a": "https://catalog.geberit.at/de-AT/spare-part/SPT_461052",
+      "aussage_b": "Händler-Ratgeber: UP300 etwa 2002 bis ca. 2008 verbaut, danach UP320.",
+      "quelle_b": "https://gs-ersatzteilservice.de/ersatzteile-fuer-geberit-spuelkasten-up300-up320-up320y-sigma/"
+    },
+    {
+      "thema": "Baujahre Kappa UP200",
+      "aussage_a": "Geberit-Katalog Deutschland: 2002-2024.",
+      "quelle_a": "https://catalog.geberit.de/de-DE/spare-part/SPT_461077",
+      "aussage_b": "Geberit-Katalog Schweiz: 2006-2014.",
+      "quelle_b": "https://catalog.geberit.ch/de-CH/spare-part/SPT_461077"
+    },
+    {
+      "thema": "Baujahre UP700 (8 cm)",
+      "aussage_a": "Geberit-Katalog: UP700 2004-2013.",
+      "quelle_a": "https://catalog.geberit.de/de-DE/spare-part/SPT_461068",
+      "aussage_b": "Händler-Ratgeber für UP700/UP720 (8 cm): seit 2003 bis heute.",
+      "quelle_b": "https://spuelkasten-ersatzteile.de/geberit/ersatzteile-fuer-geberit-unterputz-spuelkasten-up700-8-cm/"
+    },
+    {
+      "thema": "Baujahr Sigma 8 cm UP720 im Duofix",
+      "aussage_a": "Seitentitel: Duofix mit Sigma UP-Spülkasten 8 cm (UP720), ab Baujahr 2016.",
+      "quelle_a": "https://catalog.geberit.de/de-DE/spare-part/SPT_461232",
+      "aussage_b": "Laut Suchauszug zeigt dieselbe Seite bei den Erkennungsmerkmalen einen Zeitraum ab 2010.",
+      "quelle_b": "https://catalog.geberit.de/de-DE/spare-part/SPT_461232"
+    },
+    {
+      "thema": "Baujahre UP-Spülkasten 10.600 / 10.620",
+      "aussage_a": "Geberit-Katalog (und Händler): 1967-1978.",
+      "quelle_a": "https://catalog.geberit.de/de-DE/spare-part/SPT_461073",
+      "aussage_b": "Geberit-Sortimentsübersicht laut Suchauszug: 10.600 1971-1974, 10.620 1967-1974 (Tabellenauszug unklar).",
+      "quelle_b": "https://cdn.data.geberit.com/overviews/DE-de/DAS_157948.pdf"
+    },
+    {
+      "thema": "Startjahr AP140 mit 2-Mengen-Spülung",
+      "aussage_a": "Geberit-Katalog Österreich: ab 1996.",
+      "quelle_a": "https://catalog.geberit.at/de-AT/spare-part/SPT_461047",
+      "aussage_b": "Geberit-Katalog Schweiz: ab 1998 (Händler nennt für AP-Spülkasten 140.300: ab 1997).",
+      "quelle_b": "https://catalog.geberit.ch/de-CH/spare-part/SPT_461047"
+    },
+    {
+      "thema": "Bauzeit AP127 Spül-Stopp-Spülung",
+      "aussage_a": "Geberit-Katalog Deutschland: ab 1983 (ohne Enddatum).",
+      "quelle_a": "https://catalog.geberit.de/de-DE/spare-part/SPT_461044",
+      "aussage_b": "Geberit-Katalog Schweiz: 1983-1994.",
+      "quelle_b": "https://catalog.geberit.ch/de-CH/spare-part/SPT_461044"
+    },
+    {
+      "thema": "Heberglocke 240.501.00.1 (Betätigung von vorne): Baujahre",
+      "aussage_a": "Geberit-Katalog (Twinline/110.800): Heberglocke für Spülkasten mit Betätigung von vorne ab Bj. 1998.",
+      "quelle_a": "https://catalog.geberit.de/de-DE/spare-part/SPT_461065",
+      "aussage_b": "Händler: passend für UP-Spülkästen ca. 1975-1987 bzw. 1978-1986.",
+      "quelle_b": "https://www.top-badshop.com/Spuelkasten-und-Ersatzteile/Geberit/Fuellventil-und-Spuelventil/GEBERIT-Spuelventil-Heberglocke-240-501-00-1-fuer-2-Mengen-Spuelung-Betaetigung-von-vorne.html"
+    },
+    {
+      "thema": "Maße Heberglockendichtung 816.418.00.1",
+      "aussage_a": "Geberit-Katalog: d63 x di 31,5 x 3 mm.",
+      "quelle_a": "https://catalog.geberit.de/de-DE/spare-part/SPT_461070",
+      "aussage_b": "Händler: 63 x 32 mm, teils Stärke 2 mm.",
+      "quelle_b": "https://haustechnik-binder.de/de/sanitaer/spuelkasten-ersatzteile/geberit/geberit-heberglockendichtung-63-mm-x-32-mm-816-418-00-1"
+    },
+    {
+      "thema": "Renovierungsset 212-383 für Delta",
+      "aussage_a": "Geberit nennt das Set nur für 300 / 320 / Sigma ab Baujahr 2002.",
+      "quelle_a": "https://catalog.geberit.de/de-DE/product/PRO_4079572",
+      "aussage_b": "Amazon-Angebot nennt zusätzlich UP100 und Delta.",
+      "quelle_b": "https://www.amazon.de/Geberit-212-383-Renovationsset-Sigma-UP-Sp%C3%BClkasten/dp/B0FFTK3LHN"
+    },
+    {
+      "thema": "Lieferstatus Omega-Spülventil 244.830.00.1",
+      "aussage_a": "Händler: von Geberit eingestellt, Ersatz ist 244.820.00.1.",
+      "quelle_a": "https://www.showerspares.com/search/geberit-omega-flush-valve-with-basket-244.830.00.1/",
+      "aussage_b": "Preisvergleich listet das Teil weiterhin mit Angeboten.",
+      "quelle_b": "https://geizhals.de/geberit-typ-212-spuelventil-mit-drossel-244-830-00-1-a3093143.html"
+    }
+  ],
+  "nicht_geprueft": [
+    "Keine Geberit-Seite und kein Geberit-PDF konnte im Volltext geöffnet werden: geberit.at, cdn-geberit-country-ch.prod.web.geberit.com und neuesbad.de waren in dieser Sitzung per WebFetch nicht erreichbar (ENOTFOUND). Danach wurden keine weiteren Seiten abgerufen. Alle Angaben stammen aus Suchtreffer-Auszügen der verlinkten Seiten (catalog.geberit.de/.ch/.at, geberit.de, Händler). Vor der Veröffentlichung Stichproben direkt im Geberit-Katalog prüfen.",
+    "Das Websuche-Budget dieser Sitzung war am Ende aufgebraucht; weitere Gegenprüfungen waren nicht möglich.",
+    "Genaue Lage des Typenschilds je Modell (welche Seite der Schutzplatte, Aufkleber vs. Prägung) ist nur allgemein belegt (Geberit: auf oder hinter der Schutzplatte).",
+    "Aufputzspülkästen AP112 und AP116: keine belastbaren Daten gefunden (ein Händler bezeichnet AP112 als Reimport).",
+    "Füllventile Typ 335 und Typ 360 sowie Spülventil Typ 240: keine Zuordnung zu Geberit-Spülkästen belegt. Typ 290 (z. B. 282.350.21.2, 282.050.21.2) ist laut Händlern für Keramikspülkästen mit 40-mm-Bohrung und wurde daher nicht zugeordnet.",
+    "Artikelnummern für Sigma-Betätigungsstifte/Stößel und Delta-Hebel wurden nicht gefunden.",
+    "Füllventil und Füllventilhalterung für UP700/UP720 (8 cm): keine Herstellerzuordnung gefunden; Händler sagt, die Halterung sei nicht mehr lieferbar.",
+    "Füllventil-Variante für AP128 sowie der genaue Unterschied der AP-Varianten 240.700/240.704/240.715/240.719 (Anschlussposition, Länderversion) sind nicht geklärt.",
+    "246.113.00.1: Geberit-Katalog (Delta-Seite) nennt laut Suchauszug einen Befestigungsclip für Typ 333; Händler beschreiben dieselbe Nummer als Panzerschlauch 330 mm für Typ 383. Ein weiterer Händler nennt 245.931.00.1 als Typ-333-Clip. Nicht aufgenommen.",
+    "244.821.00.1 vs. 244.820.00.1: Dass 244.821.00.1 ohne Bassin geliefert wird, stammt nur aus einem Preisvergleichs-Snippet und ist nicht bestätigt.",
+    "Omega: Der Geberit-Katalog nennt nur Baujahr ab 2014; ob es ältere Omega-Kästen mit Vorgänger-Heberglocke 243.094.00.1/243.095.00.1 gab, ist nicht belegt.",
+    "Heberglocke Universal: Auf der 110.620-Katalogseite erscheint laut Suchauszug die Nummer 240.087.00.1, auf der Twinline-Seite 892.975.00.1 statt 240.114.00.1. Deshalb keine Zuordnung von 240.114.00.1 zu 10.600, 110.620 und Twinline.",
+    "Ältere UP-Typen 10.400, 10.500/10.520, 15.000 und 16.000 haben eigene Katalogseiten, wurden aber nicht ausgewertet.",
+    "Bassindichtung 240.282.00.1 und Bassindichtung 241.868.00.1 (nur für neue Typ-212-Garnitur laut Händler) nicht aufgenommen, da nur Drittanbieter-Angaben vorliegen.",
+    "Amazon-ASINs nur dort gesetzt, wo eine amazon.de-URL mit /dp/ für genau die Geberit-Nummer in den Suchtreffern stand; Preise, Bewertungen und Verfügbarkeit sind Momentaufnahmen.",
+    "Felder schwierigkeit, dauer_min, werkzeug und selbst_tauschbar sind redaktionelle Schätzungen ohne Quelle; Geberit selbst empfiehlt den Tausch durch eine Fachperson.",
+    "preis_spanne gibt nur grob die gesehenen Shop-Preise wieder (Stand der Suchtreffer); keine eigenen Preisrecherchen."
+  ]
+}

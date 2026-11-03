@@ -1,21 +1,8 @@
-"use client";
-
-import { useEffect, useRef } from "react";
+import { bereiteArtikelHtmlVor } from "@/lib/affiliate";
 
 export default function ArticleContent({ html }: { html: string }) {
-  const ref = useRef<HTMLElement>(null);
-
-  useEffect(() => {
-    if (!ref.current) return;
-    ref.current.querySelectorAll<HTMLAnchorElement>('a[href^="http"]').forEach((link) => {
-      link.setAttribute("rel", "nofollow noopener noreferrer");
-      link.setAttribute("target", "_blank");
-    });
-  }, [html]);
-
   return (
     <article
-      ref={ref}
       className="prose prose-stone prose-lg max-w-none
         prose-headings:text-stone-900 prose-headings:font-bold
         prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4
@@ -26,7 +13,7 @@ export default function ArticleContent({ html }: { html: string }) {
         prose-ul:my-4 prose-li:text-stone-700
         prose-table:border-collapse prose-th:bg-stone-100 prose-th:p-3 prose-td:p-3 prose-td:border prose-td:border-stone-200
         prose-img:rounded-lg prose-img:max-w-full"
-      dangerouslySetInnerHTML={{ __html: html }}
+      dangerouslySetInnerHTML={{ __html: bereiteArtikelHtmlVor(html) }}
     />
   );
 }

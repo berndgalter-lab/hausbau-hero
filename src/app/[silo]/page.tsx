@@ -2,7 +2,8 @@ import { supabase } from "@/lib/supabase";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
-const VALID_SILOS = ["farben", "bad", "rohbau", "boden", "werkzeuge", "stromerzeuger", "kueche", "garten", "maschinen", "finanzen"];
+// "finanzen" ist seit dem Umbau auf Bad & Sanitär entfernt (keine Seiten mehr).
+const VALID_SILOS = ["farben", "bad", "rohbau", "boden", "werkzeuge", "stromerzeuger", "kueche", "garten", "maschinen"];
 
 export async function generateMetadata({ params }: { params: { silo: string } }): Promise<Metadata> {
   const { data: silo } = await supabase

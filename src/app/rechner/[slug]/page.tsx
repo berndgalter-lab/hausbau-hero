@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
 import { berechne, formatPreis, getAffiliateLink } from "@/lib/rechner-logic";
+import { AFFILIATE_REL, mitTrackingId } from "@/lib/affiliate";
 import FAQSection from "@/components/FAQSection";
 import RechnerHinweis from "@/components/RechnerHinweis";
 import { getFaqBySlug } from "@/lib/faq-data";
@@ -394,9 +395,10 @@ export default function RechnerPage() {
                         <td className="text-right py-3">
                           {getAffiliateLink(m.affiliate_url, m.amazon_asin) && (
                             <a
-                              href={getAffiliateLink(m.affiliate_url, m.amazon_asin)!}
+                              href={mitTrackingId(getAffiliateLink(m.affiliate_url, m.amazon_asin)!, "rechner")}
                               target="_blank"
-                              rel="noopener noreferrer nofollow"
+                              rel={AFFILIATE_REL}
+                              data-platzierung="rechner"
                               className="text-amber-600 hover:text-amber-700 font-medium text-xs whitespace-nowrap"
                             >
                               Auf Amazon →
@@ -439,9 +441,10 @@ export default function RechnerPage() {
                     </div>
                     {getAffiliateLink(w.affiliate_url, w.amazon_asin) && (
                       <a
-                        href={getAffiliateLink(w.affiliate_url, w.amazon_asin)!}
+                        href={mitTrackingId(getAffiliateLink(w.affiliate_url, w.amazon_asin)!, "rechner")}
                         target="_blank"
-                        rel="noopener noreferrer nofollow"
+                        rel={AFFILIATE_REL}
+                              data-platzierung="rechner"
                         className="bg-amber-600 text-white text-xs font-semibold px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors whitespace-nowrap"
                       >
                         Auf Amazon →

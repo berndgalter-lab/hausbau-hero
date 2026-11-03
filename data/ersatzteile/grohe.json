@@ -1,0 +1,2682 @@
+{
+ "marke": {
+  "slug": "grohe",
+  "name": "Grohe",
+  "beschreibung": "Deutscher Armaturenhersteller. Grohe veröffentlicht auf seinen Produktseiten (grohe.de/grohe.com) zu jeder Armatur eine Ersatzteilliste mit Positionsnummer, Beschreibung und 8-stelliger Bestellnummer; mit * markierte Positionen sind Sonderzubehör. Für Einhebelmischer nutzt Grohe Keramikkartuschen mit 28, 35 und 46 mm Durchmesser, für Aufputz-Thermostate überwiegend die Thermostat-Kompaktkartusche 1/2\" (47439000). Welche Kartusche passt, hängt von der exakten Artikelnummer ab – nicht nur von der Serie.",
+  "nummer_hinweis": "Grohe-Artikelnummern sind 8-stellig (oft als 5+3 geschrieben, z. B. 33 265 002). Laut Grohe steht die Produktnummer auf Verpackung, Rechnung/Lieferschein und in der Installationsanleitung; alternativ erkennt die Grohe Product-Finder-App die Armatur per Foto und liefert Explosionszeichnung und Ersatzteilnummern. Farbvarianten: Laut Grohe-Badbroschüre ersetzen die beiden vorletzten Stellen den Farbcode (00 = StarLight Chrom, DC = SuperSteel, GL = Cool Sunrise, DA = Warm Sunset, AL = Hard Graphite gebürstet). Die letzte Stelle unterscheidet Versionen mit teils anderer Technik: laut grohe.de hat Eurosmart 23324001 die Kartusche 46580000, Eurosmart 23324003 dagegen 48518000 – deshalb immer die vollständige Nummer verwenden. Ersatzteil-Bestellnummern (z. B. 46374000) sind etwas anderes als die Artikelnummer der Armatur. Einen Grohe-Beleg dafür, dass die Nummer auf einem Aufkleber am Anschlussschlauch bzw. unter dem Waschtisch steht, haben wir nicht gefunden (nur allgemeine Ratgeber).",
+  "ersatzteil_garantie": "Laut Grohe-Leitfaden zur Ersatzteilsuche wird die Verfügbarkeit von Ersatzteilen mindestens 10 Jahre nach Produktionsende gewährleistet (Marketingaussage, keine Vertragsbedingung gefunden). Herstellergarantie Deutschland laut Grohe-FAQ: 5 Jahre ab Kauf, höchstens 6 Jahre ab Herstellungsdatum; ein nach Garantieablauf gekauftes Ersatzteil hat eine eigene 5-Jahres-Garantie (Kaufnachweis nötig). Für ausgewählte Produkte gibt es eine erweiterte 10-Jahres-Garantie. Schäden durch falsche Reinigung (Säure, Essig, Scheuermittel) sind laut Grohe nicht gedeckt.",
+  "hersteller_ersatzteil_url": "https://www.grohe.com/de-DE/service-support/ersatzteilsuche",
+  "quellen": [
+   "https://www.grohe.com/de-DE/service-support/ersatzteilsuche",
+   "https://www.grohe.com/de-DE/lernen-entdecken/leitfaeden-tipps/ersatzteilsuche-leitfaden",
+   "https://www.grohe.com/de-DE/service-support/product-finder-app",
+   "https://www.grohe.com/de-DE/service-support/garantie/produktregistrierung",
+   "https://www.grohe.de/de_de/our-service/grohe-services/faq_1/guarantee/guarantee.html",
+   "https://cdn.cloud.grohe.com/Web/local_PDF/de_DE/GROHE_Herstellergarantie_5Jahre/original/GROHE_Herstellergarantie_5Jahre.pdf",
+   "https://cdn.cloud.grohe.com/Literature/Brochures/de_DE/GROHE_Badarmaturen/original/GROHE_Badarmaturen.pdf",
+   "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-1-2-m-size-23324001.html",
+   "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-1-2-m-size-23324003.html",
+   "https://www.grohe.com/de-DE/service-support/wartung-reparatur/pflegeanleitungen"
+  ]
+ },
+ "serien": [
+  {
+   "slug": "eurosmart-waschtisch",
+   "name": "Grohe Eurosmart Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "23988003",
+    "23987003",
+    "23324003",
+    "23924003",
+    "24164003",
+    "23537003",
+    "23324001",
+    "23322001",
+    "33265002",
+    "32926002",
+    "32154002"
+   ],
+   "erkennungsmerkmale": "Produktname „Eurosmart“ plus Größe S/M/L/XL (Auslaufhöhe) auf Verpackung/Rechnung. Grohe beschreibt die überarbeitete Generation als schlanker mit höherem Auslauf. Innerhalb der Serie stecken 28-mm- oder 35-mm-Kartuschen – nur die vollständige Artikelnummer entscheidet.",
+   "beschreibung": "Grohes meistverkaufte Einhebel-Serie. Grohe-Broschüre 2021 („Weiterentwicklung unseres Bestsellers“) nennt eine schlanke 28-mm-SilkMove-Kartusche. Laut grohe.de: neuere Artikel (z. B. 23988003, 23987003, 23324003, 23924003) → Kartusche 48518000 (28 mm); 23324001, 23322001, 23537003, 24164003 → 46580000 (28 mm); S-Size 33265002 → 46374000 (35 mm); DN-15-S-Size 32926002/32154002 → 46863000 (35 mm, Energie-Spar-Funktion). Mousseur bei mehreren Varianten 48159000 (M24x1 AG).",
+   "quellen": [
+    "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-1-2-s-size-23988003.html",
+    "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-dn-15-m-size-23322001.html",
+    "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-dn-15-s-size-33265002.html",
+    "https://cdn.cloud.grohe.com/Literature/Brochures/brochures_de/GROHE_Eurosmart_Broschuere_2021/original/GROHE_Eurosmart_Broschuere_2021.pdf",
+    "https://grohe.ca/bathroom-collections/contemporary/eurosmart"
+   ]
+  },
+  {
+   "slug": "eurosmart-cosmopolitan-waschtisch",
+   "name": "Grohe Eurosmart Cosmopolitan Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "3282500E",
+    "23327000",
+    "23933001",
+    "23927000",
+    "23928000",
+    "23921000"
+   ],
+   "erkennungsmerkmale": "Zusatz „Cosmopolitan“ (oft „Eurosmart C“) im Namen; minimalistischer, zylindrischer Körper, Grohe spricht von 90°-Winkeln mit geschwungenen Akzenten.",
+   "beschreibung": "Designlinie der Eurosmart. Laut grohe.de je nach Artikel 35-mm-Kartusche 46374000 (3282500E, 23327000, 23933001), 35-mm-Energiesparkartusche 46863000 (23927000, 23928000) oder 28-mm-Kartusche 46580000 (XL 23921000).",
+   "quellen": [
+    "https://www.grohe.de/de_de/eurosmart-cosmopolitan-einhand-waschtischbatterie-dn-15-br-s-size-3282500E.html",
+    "https://www.grohe.de/de_de/eurosmart-cosmopolitan-einhand-waschtischbatterie-1-2-s-size-23927000.html",
+    "https://www.grohe.us/collections/bathroom-modern-eurosmart-cosmopolitan",
+    "https://galaxus.it/en/s4/product/grohe-eurosmart-cosmopolitan-bathroom-fittings-11042959"
+   ]
+  },
+  {
+   "slug": "eurosmart-kuechenarmatur",
+   "name": "Grohe Eurosmart Küchenarmatur (Spültischbatterie)",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "31391003",
+    "31391002",
+    "30305DC1",
+    "30567000"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de: 31391003/31391002 und 30305DC1 (mit herausziehbarer Spülbrause) → Kartusche 46374000 (35 mm); 30567000 → Spültisch-Kartusche 46963000 (28 mm). Schlauch der Auszugsbrause bei 30305DC1: 48293000. Der Vorgänger 30305000 ist laut Grohe nicht mehr erhältlich.",
+   "quellen": [
+    "https://www.grohe.de/de_de/eurosmart-einhand-spueltischbatterie-1-2-31391003.html",
+    "https://www.grohe.de/de_de/eurosmart-einhand-spueltischbatterie-1-2-30305DC1.html",
+    "https://www.grohe.de/de_de/eurosmart-einhand-spueltischbatterie-1-2-30567000.html"
+   ]
+  },
+  {
+   "slug": "eurosmart-cosmopolitan-kuechenarmatur",
+   "name": "Grohe Eurosmart Cosmopolitan Küchenarmatur",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "31481001",
+    "30194000"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de nutzt 31481001 (herausziehbare Brause) den Schlauch 48293000; 30194000 führt das Dichtungsset 46760000 in der Ersatzteilliste.",
+   "quellen": [
+    "https://www.grohe.de/de_de/eurosmart-cosmopolitan-einhand-spueltischbatterie-1-2-31481001.html",
+    "https://www.grohe.de/de_de/eurosmart-cosmopolitan-einhand-spueltischbatterie-dn-15-30194000.html"
+   ]
+  },
+  {
+   "slug": "eurosmart-duscharmatur",
+   "name": "Grohe Eurosmart Brausebatterie (Aufputz)",
+   "produkttyp": "duscharmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "33555002",
+    "33555003",
+    "25242003"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut Grohe-Ersatzteilangaben (grohe.de bzw. Grohe-Ersatzteilblatt 33 555 003) Kartusche 46374000 (35 mm).",
+   "quellen": [
+    "https://www.grohe.de/de_de/eurosmart-einhand-brausebatterie-dn-15-33555002.html",
+    "https://www.grohe.de/de_de/eurosmart-einhand-brausebatterie-1-2-25242003.html",
+    "https://dawonia.de/dawonia/service/Mieterinformationen/Erlangen/Jaminpark/WA%207/Armaturen/EUROSMART%20EINHAND-BRAUSEBATTERIE.pdf"
+   ]
+  },
+  {
+   "slug": "eurosmart-wannenarmatur",
+   "name": "Grohe Eurosmart Wannenbatterie",
+   "produkttyp": "wannenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "33300002",
+    "24043003"
+   ],
+   "erkennungsmerkmale": "Aufputz-Wannenbatterie (33300002) vs. Unterputz-Fertigmontageset (24043003) – unterschiedliche Kartuschen.",
+   "beschreibung": "Laut grohe.de: Aufputz 33300002 → 46374000 (35 mm); Unterputz-Fertigmontageset 24043003 → 46048000 (46 mm).",
+   "quellen": [
+    "https://www.grohe.de/de_de/eurosmart-einhand-wannenbatterie-dn-15-33300002.html",
+    "https://www.grohe.de/de_de/eurosmart-einhand-wannenbatterie-24043003.html"
+   ]
+  },
+  {
+   "slug": "europlus-waschtisch",
+   "name": "Grohe Europlus Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "33155002",
+    "33153IG0"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Ältere Europlus-Ausführungen (z. B. 33153IG0, laut Grohe nicht mehr erhältlich) nutzen die 46-mm-Kartusche 46048000; die neuere S-Size 33155002 die 35-mm-Kartusche 46374000.",
+   "quellen": [
+    "https://www.grohe.de/de_de/europlus-einhand-waschtischbatterie-dn-15-br-s-size-33155002.html",
+    "https://www.grohe.de/de_de/europlus-einhand-waschtischbatterie-dn-15-33153IG0.html",
+    "https://www.kaufland.at/product/300532692/"
+   ]
+  },
+  {
+   "slug": "europlus-kuechenarmatur",
+   "name": "Grohe Europlus Küchenarmatur",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "33863IK0",
+    "33878TT0"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Grohe führt 33878TT0 als „Europlus 1987–1996“ (Metallschlauch 46092000). 33863IK0: Kartusche 46048000 mit Dichtungsset 46209000.",
+   "quellen": [
+    "https://www.grohe.de/de_de/europlus-einhand-spueltischbatterie-1-2-33863IK0.html",
+    "https://www.grohe.de/de_de/europlus-1987-1996-einhand-spueltischbatterie-dn-15-33878TT0.html"
+   ]
+  },
+  {
+   "slug": "eurodisc-waschtisch",
+   "name": "Grohe Eurodisc Waschtischarmatur (1999–2006)",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": 1999,
+   "baujahr_bis": 2006,
+   "kennnummern": [
+    "33176IZ0"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Grohe führt diese Generation als „Eurodisc 1999–2006“; Ersatzkartusche 46048000 (46 mm SilkMove).",
+   "quellen": [
+    "https://www.grohe.de/de_de/eurodisc-1999-2006-einhand-waschtischbatterie-dn-15-33176IZ0.html"
+   ]
+  },
+  {
+   "slug": "eurodisc-cosmopolitan-waschtisch",
+   "name": "Grohe Eurodisc Cosmopolitan Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "23049002",
+    "23448002",
+    "23055002",
+    "2338420E"
+   ],
+   "erkennungsmerkmale": "Joystick-Bedienhebel: laut Red Dot ein sich verjüngender, abgerundet-ovaler Hebel; die Schrägkante am Auslauf wiederholt sich am Hebel.",
+   "beschreibung": "Laut grohe.de: S-Size 23049002 → 46580000 (28 mm); M-Size 23448002 und XL 23055002 → 46374000 (35 mm); S-Size 2338420E → 46863000 (35 mm, Energiespar-Funktion).",
+   "quellen": [
+    "https://www.grohe.de/de_de/eurodisc-cosmopolitan-einhand-waschtischbatterie-dn-15-s-size-23049002.html",
+    "https://www.grohe.de/de_de/eurodisc-cosmopolitan-einhand-waschtischbatterie-1-2-m-size-23448002.html",
+    "https://www.red-dot.org/de/project/eurodisc-cosmopolitan-7792"
+   ]
+  },
+  {
+   "slug": "eurodisc-joy-waschtisch",
+   "name": "Grohe Eurodisc Joy Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "23425LS0",
+    "23427000"
+   ],
+   "erkennungsmerkmale": "Joystick statt klassischem Hebel; Grohe UK beschreibt Eurodisc Joy als Eurodisc-Cosmopolitan-Linie mit Joystick-Design.",
+   "beschreibung": "Eigene Kartusche 46907000 (GROHE FeatherControl) laut grohe.de; nicht mit den Standard-Einhebelkartuschen tauschbar (keine gegenteilige Quelle gefunden).",
+   "quellen": [
+    "https://www.grohe.de/de_de/eurodisc-joy-einhand-waschtischbatterie-dn-15-s-size-23425LS0.html",
+    "https://contenthub.grohe.com/en_gb/bathroom-collection/mixer-taps-eurodisc-joystick.html"
+   ]
+  },
+  {
+   "slug": "eurodisc-cosmopolitan-kuechenarmatur",
+   "name": "Grohe Eurodisc (Cosmopolitan) Küchenarmatur mit Auszugsbrause",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "32257002",
+    "32257001"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "32257002: Schlauch 48293000 und Dichtungsset 46760000 laut grohe.de. Für die ältere 32257001 nennt ein Preisvergleich den Metallschlauch 46092000 (nur eine Quelle).",
+   "quellen": [
+    "https://www.grohe.de/de_de/eurodisc-cosmopolitan-einhand-spueltischbatterie-1-2-32257002.html",
+    "https://www.preissuchmaschine.de/in-Baumarkt/Heizung-Sanitaer/Grohe-Europlus-Brauseschlauch-46092000.html"
+   ]
+  },
+  {
+   "slug": "eurostyle-waschtisch",
+   "name": "Grohe Eurostyle Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "33558003",
+    "23708003",
+    "23570003",
+    "23719LS3",
+    "23569003",
+    "23718003"
+   ],
+   "erkennungsmerkmale": "Markant ist der offene Metallhebel; laut Grohe-Katalog 2015 gibt es zwei Hebelvarianten (offen/geschlossen), die geschlossene ab ca. Mai 2016 (im Handel teils „Eurostyle Solid“).",
+   "beschreibung": "Grohe-Katalog 2015 nennt eine neue 35-mm-SilkMove-Kartusche. Laut grohe.de: 33558003, 23708003, 23570003, 23719LS3 → 46374000 (35 mm); L-Size 23569003 und 23718003 → 46580000 (28 mm).",
+   "quellen": [
+    "https://www.grohe.de/de_de/eurostyle-einhand-waschtischbatterie-dn-15-br-s-size-33558003.html",
+    "https://www.grohe.de/de_de/eurostyle-einhand-waschtischbatterie-1-2-l-size-23569003.html",
+    "https://documents.unidomo.de/de/Prospekt/Grohe/GROHE-Eurostyle-2015.pdf",
+    "https://www.obi.de/p/7929607/grohe-einhand-wannenbatterie-eurostyle-geschlossener-hebel-chrom"
+   ]
+  },
+  {
+   "slug": "eurostyle-cosmopolitan-waschtisch",
+   "name": "Grohe Eurostyle Cosmopolitan Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "23043003"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de (L-Size 23043003) Kartusche 46374000.",
+   "quellen": [
+    "https://www.grohe.de/de_de/eurostyle-cosmopolitan-einhand-waschtischbatterie-dn-15-l-size-23043003.html"
+   ]
+  },
+  {
+   "slug": "essence-waschtisch",
+   "name": "Grohe Essence Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "24172001",
+    "24177001",
+    "24173DC1",
+    "32901001",
+    "34294001",
+    "23541001"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de verwenden die Essence-Waschtischarmaturen 24172001, 24177001, 24173DC1, 32901001 und 34294001 die 28-mm-Kartusche 46580000. Mousseur u. a. 48270000 (AquaGuide, M21,5x1).",
+   "quellen": [
+    "https://www.grohe.de/de_de/essence-einhand-waschtischbatterie-1-2-s-size-24172001.html",
+    "https://www.grohe.de/de_de/essence-einhand-waschtischbatterie-1-2-l-size-24177001.html",
+    "https://www.grohe.de/de_de/-mousseur-48270000.html"
+   ]
+  },
+  {
+   "slug": "essence-duscharmatur",
+   "name": "Grohe Essence Brausebatterie (Unterputz, Rapido SmartBox)",
+   "produkttyp": "duscharmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "24168001"
+   ],
+   "erkennungsmerkmale": "Fertigmontageset für die Rapido SmartBox (Unterputz).",
+   "beschreibung": "Laut grohe.de 46-mm-Keramikkartusche 46048000.",
+   "quellen": [
+    "https://www.grohe.de/de_de/essence-einhand-brausebatterie-24168001.html"
+   ]
+  },
+  {
+   "slug": "concetto-waschtisch",
+   "name": "Grohe Concetto Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "23450001",
+    "2338510E",
+    "23739002",
+    "23451001"
+   ],
+   "erkennungsmerkmale": "Grohe beschreibt die Serie als Kombination aus präzisen Linien, Winkeln und Rundungen; glatter Körper.",
+   "beschreibung": "Laut grohe.de: M-Size 23450001 und S-Size 2338510E → 46580000 (28 mm); L-Size 23739002 → 46374000 (35 mm). 23451001 hat laut Grohe eine 28-mm-SilkMove-Kartusche (Bestellnummer nicht gesehen).",
+   "quellen": [
+    "https://www.grohe.de/de_de/concetto-einhand-waschtischbatterie-1-2-m-size-23450001.html",
+    "https://www.grohe.de/de_de/concetto-einhand-waschtischbatterie-1-2-l-size-23739002.html",
+    "https://www.bauhaus.info/waschbecken-mischbatterien/grohe-concetto-waschtischarmatur-s-size/p/26254131"
+   ]
+  },
+  {
+   "slug": "concetto-kuechenarmatur",
+   "name": "Grohe Concetto Küchenarmatur",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "32661003",
+    "31483002",
+    "31214001",
+    "30273001"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de: 32661003 → Kartusche 46374000, O-Ring Ø13,5x2,75 0128500M, Mousseur 48418000; 31483002 → Schlauch 48293000; 31214001 → Metallbrauseschlauch 45352000; 30273001 → Dichtungsset 46760000.",
+   "quellen": [
+    "https://www.grohe.de/de_de/concetto-einhand-spueltischbatterie-dn-15-32661003.html",
+    "https://www.grohe.de/de_de/concetto-einhand-spueltischbatterie-dn-15-31483002.html"
+   ]
+  },
+  {
+   "slug": "bauedge-waschtisch",
+   "name": "Grohe BauEdge Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "23328001",
+    "23911001",
+    "23760000"
+   ],
+   "erkennungsmerkmale": "Kantige, rautenförmige Gestaltung (im Gegensatz zum Bügelhebel der BauLoop); laut Grohe-Broschüre 2023 zwei Hebelvarianten (geschlossen/offen). Einstiegsserie mit EcoJoy 5,7 l/min.",
+   "beschreibung": "Laut grohe.de: S-Size 23328001 → 48518000 (28 mm, neue Generation lt. Broschüre 2023); L-Size 23911001 → 46580000 (28 mm). L-Size 23760000: Mousseur 13935000 (M22x1 IG).",
+   "quellen": [
+    "https://www.grohe.de/de_de/bauedge-einhand-waschtischbatterie-1-2-s-size-23328001.html",
+    "https://www.grohe.de/de_de/bauedge-einhand-waschtischbatterie-1-2-l-size-23911001.html",
+    "https://cdn.cloud.grohe.com/Literature/Brochures/brochures_de/GROHE_BauEdge_BauLoop_Broschuere_2023/original/GROHE_BauEdge_BauLoop_Broschuere_2023.pdf",
+    "https://bwhotelier.com/article/grohe-introduces-its-new-faucet-collection-416024"
+   ]
+  },
+  {
+   "slug": "bauedge-kuechenarmatur",
+   "name": "Grohe BauEdge Küchenarmatur",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "30536000"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de Spültisch-Kartusche 46963000 (28 mm SilkMove).",
+   "quellen": [
+    "https://www.grohe.de/de_de/bauedge-einhand-spueltischbatterie-1-2-30536000.html"
+   ]
+  },
+  {
+   "slug": "bauedge-duscharmatur",
+   "name": "Grohe BauEdge Brausebatterie",
+   "produkttyp": "duscharmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "23635001",
+    "24161001"
+   ],
+   "erkennungsmerkmale": "Aufputz-Brausebatterie (23635001) vs. Unterputz-Fertigmontageset (24161001).",
+   "beschreibung": "Laut grohe.de: Aufputz 23635001 → 46374000 (35 mm SmoothControl); 24161001 → 46048000 (46 mm).",
+   "quellen": [
+    "https://www.grohe.de/de_de/bauedge-einhand-brausebatterie-1-2-23635001.html",
+    "https://www.grohe.de/de_de/bauedge-einhand-brausebatterie-1-2-24161001.html"
+   ]
+  },
+  {
+   "slug": "bauedge-wannenarmatur",
+   "name": "Grohe BauEdge Wannenbatterie (Unterputz)",
+   "produkttyp": "wannenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "24162001"
+   ],
+   "erkennungsmerkmale": "Unterputz-Fertigmontageset.",
+   "beschreibung": "Laut grohe.de GROHE SmoothControl 46-mm-Kartusche, Bestellnummer 46048000.",
+   "quellen": [
+    "https://www.grohe.de/de_de/bauedge-einhand-wannenbatterie-24162001.html"
+   ]
+  },
+  {
+   "slug": "bauloop-waschtisch",
+   "name": "Grohe BauLoop Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "23763001",
+    "23337000",
+    "23762001",
+    "23335001"
+   ],
+   "erkennungsmerkmale": "Schleifenförmiger (Loop-)Hebel und zylindrischer Körper.",
+   "beschreibung": "Laut grohe.de: L-Size 23763001 und DN-15-S-Size 23337000 → 46580000 (28 mm); M-Size 23762001 und S-Size 23335001 → 48518000 (28 mm SmoothControl).",
+   "quellen": [
+    "https://www.grohe.de/de_de/bauloop-einhand-waschtischbatterie-1-2-l-size-23763001.html",
+    "https://www.grohe.de/de_de/bauloop-einhand-waschtischbatterie-1-2-m-size-23762001.html",
+    "https://www.grohe.ca/Bathroom-Collections/modern/bauloop"
+   ]
+  },
+  {
+   "slug": "bauloop-kuechenarmatur",
+   "name": "Grohe BauLoop Küchenarmatur",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "31706000"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de-Ersatzteilliste Kartusche 46374000 (35 mm).",
+   "quellen": [
+    "https://www.grohe.de/de_de/bauloop-einhand-spueltischbatterie-1-2-31706000.html"
+   ]
+  },
+  {
+   "slug": "start-waschtisch",
+   "name": "Grohe Start / Start Classic Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "24209002",
+    "23455002",
+    "242032432",
+    "23575001",
+    "23810000",
+    "23746001",
+    "24203002"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Einstiegsserie. Laut grohe.de: 24209002 und 23455002 → 48518000; 242032432, 23575001 und Start Classic 23810000 → 46580000 (beide 28 mm). Mousseure: 23746001 → 48159000 (M24x1 AG), 24203002 → 13935000 (M22x1 IG).",
+   "quellen": [
+    "https://www.grohe.de/de_de/start-einhand-waschtischbatterie-1-2-s-size-24209002.html",
+    "https://www.grohe.de/de_de/start-einhand-waschtischbatterie-dn-15-m-size-23575001.html"
+   ]
+  },
+  {
+   "slug": "start-edge-waschtisch",
+   "name": "Grohe Start Edge Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "23777001",
+    "23776000",
+    "23898001"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de: XL 23777001 → 48518000; L 23776000 → 46580000. S-Size 23898001 listet eine abweichende Kartusche 48533000 (nicht weiter verifiziert).",
+   "quellen": [
+    "https://www.grohe.de/de_de/start-edge-einhand-waschtischbatterie-1-2-xl-size-23777001.html",
+    "https://www.grohe.de/de_de/start-edge-einhand-waschtischbatterie-1-2-l-size-23776000.html"
+   ]
+  },
+  {
+   "slug": "start-loop-waschtisch",
+   "name": "Grohe Start Loop Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "23781000",
+    "23779001",
+    "23915001"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de: XL 23781000 → 46580000; M 23779001 → 48518000 (SmoothControl 28 mm). Für S 23915001 nennt die Liste eine ungewöhnliche Nummer 1030059990 (nicht verifiziert).",
+   "quellen": [
+    "https://www.grohe.de/de_de/start-loop-einhand-waschtischbatterie-1-2-xl-size-23781000.html",
+    "https://www.grohe.de/de_de/start-loop-einhand-waschtischbatterie-1-2-m-size-23779001.html"
+   ]
+  },
+  {
+   "slug": "start-kuechenarmatur",
+   "name": "Grohe Start Küchenarmatur mit Auszugsbrause",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "303072431"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de Schlauch 48293000.",
+   "quellen": [
+    "https://www.grohe.de/de_de/start-einhand-spueltischbatterie-1-2-303072431.html"
+   ]
+  },
+  {
+   "slug": "euroeco-waschtisch",
+   "name": "Grohe Euroeco Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "24272001"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de L-Size 24272001 → 28-mm-Kartusche 46580000.",
+   "quellen": [
+    "https://www.grohe.de/de_de/euroeco-einhand-waschtischbatterie-1-2-l-size-24272001.html"
+   ]
+  },
+  {
+   "slug": "euroeco-special-waschtisch",
+   "name": "Grohe Euroeco Special Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "32762000",
+    "32779000"
+   ],
+   "erkennungsmerkmale": "Für Krankenhäuser/Pflegeeinrichtungen konzipiert; lange Hebel (je nach Modell z. B. 120 mm oder 170 mm).",
+   "beschreibung": "Laut grohe.de: 32762000 → 46374000 (35 mm); 32779000 → 46048000 (46 mm).",
+   "quellen": [
+    "https://www.grohe.de/de_de/euroeco-special-einhand-waschtischbatterie-1-2-32762000.html",
+    "https://www.grohe.de/de_de/euroeco-special-einhand-waschtischbatterie-dn-15-32779000.html",
+    "https://www.megabad.com/en/friedrich-grohe-serie-euroeco-waschtisch-k-88453.htm"
+   ]
+  },
+  {
+   "slug": "minta-kuechenarmatur",
+   "name": "Grohe Minta Küchenarmatur",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "32168DC0",
+    "32322002",
+    "31397000"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de: 32168DC0 und 32322002 → Schlauch 48293000; 31397000 → Metallbrauseschlauch 45352000.",
+   "quellen": [
+    "https://www.grohe.de/de_de/minta-einhand-spueltischbatterie-1-2-32168DC0.html",
+    "https://www.grohe.de/de_de/minta-einhand-spueltischbatterie-dn-15-31397000.html"
+   ]
+  },
+  {
+   "slug": "zedra-kuechenarmatur",
+   "name": "Grohe Zedra Küchenarmatur",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "33727IB0",
+    "32298SD0"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut Grohe: 33727IB0 → Metall-Brauseschlauch 46092000; 32298SD0 → Metalflex-Schlauch 46174000.",
+   "quellen": [
+    "https://www.grohe.de/de_de/zedra-einhand-spueltischbatterie-1-2-33727IB0.html",
+    "https://pro.grohe.com/en_pj/ladylux-single-lever-sink-mixer-1-2-32298SD0.html"
+   ]
+  },
+  {
+   "slug": "ladylux-kuechenarmatur",
+   "name": "Grohe Ladylux Küchenarmatur (1983–1999)",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": 1983,
+   "baujahr_bis": 1999,
+   "kennnummern": [
+    "33740IH0"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Grohe führt 33740IH0 als „Ladylux 1983–1999“; Brauseschlauch 46092000.",
+   "quellen": [
+    "https://www.grohe.de/de_de/ladylux-1983-1999-einhand-spueltischbatterie-dn-15-33740IH0.html"
+   ]
+  },
+  {
+   "slug": "grohtherm-800",
+   "name": "Grohe Grohtherm 800 Thermostat (Brause/Wanne)",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "34558000",
+    "34567000",
+    "34568000"
+   ],
+   "erkennungsmerkmale": "Aufputz-Thermostat (Brause- bzw. Wannenbatterie) mit Temperaturwähl- und Absperrgriff.",
+   "beschreibung": "Laut grohe.de: Thermostat-Kompaktkartusche 1/2\" 47439000; Rückflussverhinderer 08565000; für vertauschte Anschlüsse TurboStat-Kartusche 47175000 als Sonderzubehör.",
+   "quellen": [
+    "https://www.grohe.de/de_de/grohtherm-800-thermostat-brausebatterie-dn-15-34558000.html",
+    "https://www.grohe.de/de_de/grohtherm-800-thermostat-wannen-brausebatterie-dn-15-34568000.html"
+   ]
+  },
+  {
+   "slug": "grohtherm-800-cosmopolitan",
+   "name": "Grohe Grohtherm 800 Cosmopolitan Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "34768001"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de Thermostat-Kompaktkartusche 47439000 (Pos. 3).",
+   "quellen": [
+    "https://www.grohe.de/de_de/grohtherm-800-cosmopolitan-thermostat-brausebatterie-1-2-34768001.html"
+   ]
+  },
+  {
+   "slug": "grohtherm-1000",
+   "name": "Grohe Grohtherm 1000 Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "34143003",
+    "34550000"
+   ],
+   "erkennungsmerkmale": "Aufputz-Thermostat; 34143003 laut Grohe nicht mehr erhältlich.",
+   "beschreibung": "Laut grohe.de: Thermostat-Kompaktkartusche 47439000; weitere Teile 34143003: Absperrgriff 47972000, Temperaturwählgriff 47973000, Keramik-Oberteil 45346000, Rückflussverhinderer 08565000/47189000.",
+   "quellen": [
+    "https://www.grohe.de/de_de/grohtherm-1000-thermostat-brausebatterie-1-2-34143003.html",
+    "https://www.grohe.de/de_de/grohtherm-1000-thermostat-brausebatterie-dn-15-34550000.html"
+   ]
+  },
+  {
+   "slug": "grohtherm-1000-performance",
+   "name": "Grohe Grohtherm 1000 Performance Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "34828000"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de Thermostat-Kompaktkartusche 47439000 (Pos. 4).",
+   "quellen": [
+    "https://www.grohe.de/de_de/grohtherm-1000-performance-thermostat-brausebatterie-1-2-34828000.html"
+   ]
+  },
+  {
+   "slug": "grohtherm-special",
+   "name": "Grohe Grohtherm Special Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "34666000",
+    "34020001",
+    "34665000"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de: Waschtisch 34666000 → 47439000; Waschtisch 34020001 → 47885000; Wanne 34665000 listet beide Nummern.",
+   "quellen": [
+    "https://www.grohe.de/de_de/grohtherm-special-thermostat-waschtischbatterie-dn-15-34666000.html",
+    "https://www.grohe.de/de_de/grohtherm-special-thermostat-waschtischbatterie-1-2-34020001.html"
+   ]
+  },
+  {
+   "slug": "precision-trend",
+   "name": "Grohe Precision Trend Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "34237003",
+    "34227002"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de Thermostat-Kompaktkartusche 47439000.",
+   "quellen": [
+    "https://www.grohe.de/de_de/precision-trend-thermostat-brausebatterie-1-2-34237003.html",
+    "https://www.grohe.de/de_de/precision-trend-thermostat-wannenbatterie-dn-15-34227002.html"
+   ]
+  },
+  {
+   "slug": "precision-flow",
+   "name": "Grohe Precision Flow Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "34798000",
+    "34800000"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de abweichende Thermostat-Kompaktkartusche 1/2\" 49175000 (nicht 47439000).",
+   "quellen": [
+    "https://www.grohe.de/de_de/precision-flow-thermostat-brausebatterie-1-2-34798000.html"
+   ]
+  },
+  {
+   "slug": "chiara-thermostat",
+   "name": "Grohe Chiara Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "34673000",
+    "34610IG0",
+    "34472Z00"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de Thermoelement 1/2\" 47450000 (Grohe führt 34610IG0 als „Chiara 1993–2007“).",
+   "quellen": [
+    "https://www.grohe.de/de_de/chiara-thermostat-brausebatterie-1-2-34673000.html",
+    "https://www.grohe.de/de_de/chiara-1993-2007-thermostat-brausebatterie-dn-15-34610IG0.html"
+   ]
+  },
+  {
+   "slug": "sentosa-thermostat",
+   "name": "Grohe Sentosa Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "34678000",
+    "34551IG0"
+   ],
+   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "beschreibung": "Laut grohe.de Thermoelement 1/2\" 47450000.",
+   "quellen": [
+    "https://www.grohe.de/de_de/sentosa-thermostat-brausebatterie-1-2-34678000.html"
+   ]
+  }
+ ],
+ "teile": [
+  {
+   "slug": "grohe-kartusche-46048000",
+   "name": "Grohe Kartusche 46 mm (46048000)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "46048000",
+   "ean": "4005176008283",
+   "masse": {
+    "durchmesser_mm": 46
+   },
+   "beschreibung": "Keramikkartusche 46 mm, GROHE SilkMove, keramisches Dichtsystem, variabel einstellbare Mengenbegrenzung, für Einhandmischer. Ersatz für ältere Serien (Europlus, Eurodisc 1999–2006, Euroeco Special DN 15) und viele Unterputz-Fertigmontagesets (Essence/BauEdge/Eurosmart). Wird inzwischen in Blau geliefert – siehe Widersprüche zur alten cremefarbenen Ausführung.",
+   "preis_spanne": "ca. 35–45 € (Stichproben eBay/Amazon)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren; Schraubendreher/Innensechskant für Abdeckkappe und Hebelbefestigung, Maulschlüssel für die Kartuschenmutter (Größe modellabhängig), ggf. Armaturenfett.",
+   "amazon_asin": "B000P0BCNY",
+   "quellen": [
+    "https://www.grohe.de/de_de/kartusche-46048000.html",
+    "https://www.grohe.com/de-DE/produkt/no-collection-grohe-kartusche-keine-farbe-46048000",
+    "https://www.amazon.de/Grohe-Kartusche-Badarmatur-keramischem-Waschtischarmaturen/dp/B000P0BCNY",
+    "https://www.kaufland.at/product/300532692/"
+   ]
+  },
+  {
+   "slug": "grohe-kartusche-46374000",
+   "name": "Grohe Kartusche 35 mm (46374000)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "46374000",
+   "ean": "4005176169076",
+   "masse": {
+    "durchmesser_mm": 35
+   },
+   "beschreibung": "Keramikkartusche 35 mm, GROHE SilkMove, Temperaturbegrenzer, einstellbare Mengenbegrenzung, für Einhandmischer. Laut grohe.de u. a. in Eurosmart (S-Size, Küche, Brause, Wanne), Eurosmart Cosmopolitan, Eurostyle, Concetto L-Size, Europlus S-Size. Passender Temperaturbegrenzer: 46375000.",
+   "preis_spanne": "ca. 38–50 € (Stichproben eBay/Hornbach/Amazon)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren; Schraubendreher/Innensechskant für Abdeckkappe und Hebelbefestigung, Maulschlüssel für die Kartuschenmutter (Größe modellabhängig), ggf. Armaturenfett.",
+   "amazon_asin": "B004WQP0NK",
+   "quellen": [
+    "https://www.grohe.de/de_de/kartusche-46374000.html",
+    "https://www.grohe.com/en-GB/product/46374000",
+    "https://www.amazon.de/GROHE-Kartusche-keramischem-Dichtsystem-Einhandmischer/dp/B004WQP0NK",
+    "https://www.hornbach.de/p/grohe-kartusche-46374000-o35-mm/4067502/"
+   ]
+  },
+  {
+   "slug": "grohe-kartusche-46580000",
+   "name": "Grohe Kartusche 28 mm (46580000)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "46580000",
+   "ean": "4005176831867",
+   "masse": {
+    "durchmesser_mm": 28
+   },
+   "beschreibung": "Keramikkartusche 28 mm, GROHE SilkMove, keramisches Dichtsystem, Temperaturbegrenzer, für Einhandmischer. Laut grohe.de u. a. in Eurosmart (M/L/XL), Essence, Concetto M/S, BauEdge L, BauLoop L, Start, Euroeco L.",
+   "preis_spanne": "ca. 39–51 € (Stichproben)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren; Schraubendreher/Innensechskant für Abdeckkappe und Hebelbefestigung, Maulschlüssel für die Kartuschenmutter (Größe modellabhängig), ggf. Armaturenfett.",
+   "amazon_asin": "B004WQP0O4",
+   "quellen": [
+    "https://www.grohe.de/de_de/kartusche-46580000.html",
+    "https://www.grohe.de/de_de/-kartusche-46580000.html",
+    "https://www.amazon.de/Kartusche-keramischem-Dichtsystem-Temperaturbegrenzer-46580000/dp/B004WQP0O4",
+    "https://www.sanitino.nl/grohe-reserveonderdelen-cartouche-28-mm-chroom-46580000"
+   ]
+  },
+  {
+   "slug": "grohe-kartusche-48518000",
+   "name": "Grohe Kartusche 28 mm (48518000)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "48518000",
+   "ean": "4005176599767",
+   "masse": {
+    "durchmesser_mm": 28
+   },
+   "beschreibung": "Keramikkartusche 28 mm, GROHE SilkMove (bei manchen Armaturen als SmoothControl/Long-Life bezeichnet), Temperaturbegrenzer, keramisches Dichtsystem. Laut grohe.de in neueren Artikeln: Eurosmart 23988003/23987003/23324003/23924003, BauEdge S 23328001, BauLoop S/M, Start S/M, Start Edge XL, Start Loop M. Austauschbarkeit mit 46580000 ist nicht belegt.",
+   "preis_spanne": "ca. 25–33 € (Stichproben FR/IT)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren; Schraubendreher/Innensechskant für Abdeckkappe und Hebelbefestigung, Maulschlüssel für die Kartuschenmutter (Größe modellabhängig), ggf. Armaturenfett.",
+   "amazon_asin": "B0C69TTHCT",
+   "quellen": [
+    "https://www.grohe.com/de-DE/produkt/no-collection-grohe-kartusche-keine-farbe-48518000",
+    "https://grohe.de/de_de/kartusche-48518000.html",
+    "https://www.amazon.de/GROHE-Kartusche-Eurosmart-mit-Temperaturbegrenzer/dp/B0C69TTHCT"
+   ]
+  },
+  {
+   "slug": "grohe-kartusche-46863000",
+   "name": "Grohe Kartusche 35 mm mit Energie-Spar-Funktion (46863000)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "46863000",
+   "ean": "4005176942334",
+   "masse": {
+    "durchmesser_mm": 35
+   },
+   "beschreibung": "35-mm-Kartusche mit Energie-Spar-Funktion (Mittelstellung kalt, je nach Armatur als „EcoMode“ oder „SilkMove ES“ bezeichnet), Kaltstart, keramisches Dichtsystem, Temperaturbegrenzer, einstellbare Mengenbegrenzung. Laut grohe.de u. a. Eurosmart 32926002/32154002, Eurosmart Cosmopolitan 23927000/23928000, Eurodisc Cosmopolitan 2338420E.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren; Schraubendreher/Innensechskant für Abdeckkappe und Hebelbefestigung, Maulschlüssel für die Kartuschenmutter (Größe modellabhängig), ggf. Armaturenfett.",
+   "amazon_asin": "B00XVAR3N8",
+   "quellen": [
+    "https://www.grohe.de/de_de/kartusche-46863000.html",
+    "https://www.grohe.com/de-AT/produkt/46863000",
+    "https://amazon.de/-/en/Grohe-Replacement-parts-cartridge-46863000/dp/B00XVAR3N8"
+   ]
+  },
+  {
+   "slug": "grohe-kartusche-46409000",
+   "name": "Grohe Niederdruck-Kartusche 46 mm (46409000)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "46409000",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 46
+   },
+   "beschreibung": "46-mm-Kartusche für Niederdruck-Einhandmischer (GROHE SilkMove, keramisches Dichtsystem). Nicht mit der Normaldruck-Kartusche 46048000 verwechseln. Dichtungsset: 46209000.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren; Schraubendreher/Innensechskant für Abdeckkappe und Hebelbefestigung, Maulschlüssel für die Kartuschenmutter (Größe modellabhängig), ggf. Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.grohe.de/de_de/kartusche-46409000.html"
+   ]
+  },
+  {
+   "slug": "grohe-kartusche-46907000",
+   "name": "Grohe Kartusche Eurodisc Joy (46907000)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "46907000",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Kartusche (GROHE FeatherControl) der Eurodisc-Joy-Waschtischarmaturen laut Grohe-Ersatzteilliste; eigenständige Produktseite nicht gefunden.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 45,
+   "werkzeug": "Wasser an den Eckventilen absperren; Schraubendreher/Innensechskant für Abdeckkappe und Hebelbefestigung, Maulschlüssel für die Kartuschenmutter (Größe modellabhängig), ggf. Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.grohe.de/de_de/eurodisc-joy-einhand-waschtischbatterie-dn-15-s-size-23425LS0.html"
+   ]
+  },
+  {
+   "slug": "grohe-kartusche-46963000",
+   "name": "Grohe Spültisch-Kartusche 28 mm (46963000)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "46963000",
+   "ean": "4005176407864",
+   "masse": {
+    "durchmesser_mm": 28
+   },
+   "beschreibung": "28-mm-Kartusche, GROHE SilkMove, keramisches Dichtsystem, Temperaturbegrenzer, für Einhand-Spültischbatterien (u. a. BauEdge 30536000, Eurosmart 30567000).",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren; Schraubendreher/Innensechskant für Abdeckkappe und Hebelbefestigung, Maulschlüssel für die Kartuschenmutter (Größe modellabhängig), ggf. Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.grohe.de/de_de/kartusche-46963000.html",
+    "https://www.grohe.com/en-IS/product/46963000"
+   ]
+  },
+  {
+   "slug": "grohe-thermostatkartusche-47439000",
+   "name": "Grohe Thermostat-Kompaktkartusche 1/2\" (47439000)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "47439000",
+   "ean": "4005176811975",
+   "masse": {
+    "anschluss_zoll": "1/2"
+   },
+   "beschreibung": "GROHE TurboStat Kompaktkartusche mit Dehnstoff-Thermoelement. Standardkartusche vieler Aufputz-Thermostate (Grohtherm 800, 800 Cosmopolitan, 1000, 1000 Performance, Special, Precision Trend). Nach jedem Kartuschentausch muss laut Grohe-Anleitungen neu justiert werden (Thermometer, 38 °C).",
+   "preis_spanne": "ca. 61–84 € (Amazon-Stichproben)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 45,
+   "werkzeug": "Steckschlüssel 34 mm (laut Käuferbewertungen), Schraubendreher für Griffbefestigung, Thermometer zum Justieren.",
+   "amazon_asin": "B006GQQ8HQ",
+   "quellen": [
+    "https://www.grohe.de/de_de/thermostat-kompaktkartusche-1-2-47439000.html",
+    "https://www.grohe.com/de-DE/produkt/no-collection-grohe-thermostat-kompaktkartusche-1-2-keine-farbe-47439000",
+    "https://www.amazon.de/-/en/GROHE-47439000-Thermostatic-Element-Compact/dp/B006GQQ8HQ"
+   ]
+  },
+  {
+   "slug": "grohe-turbostat-kartusche-47175000",
+   "name": "Grohe TurboStat Kartusche 1/2\" für vertauschte Anschlüsse (47175000)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "47175000",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "1/2"
+   },
+   "beschreibung": "Servicelösung für Aufputz-Thermostate mit seitenverkehrten Wasseranschlüssen (Warmwasser rechts), u. a. Grohtherm 800/800 Cosmopolitan/1000/1000 Performance/2000/3000/Cube/SmartControl. Laut Grohe erfüllt sie die EN 1111 nicht und nach Einbau entfällt die CoolTouch-Funktion – Einsatz mit Fachbetrieb klären.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 45,
+   "werkzeug": "Wie Thermostat-Kompaktkartusche; Thermometer zum Justieren.",
+   "amazon_asin": "B00505EX12",
+   "quellen": [
+    "https://www.grohe.de/de_de/-thermostat-kompaktkartusche-1-2-fuer-vertauschte-wasserwege-47175000.html",
+    "https://www.grohe.com/de-DE/produkt/47175000",
+    "https://www.amazon.de/Grohe-Zubeh%C3%B6r-Thermostat-Kompaktkartusche-vertauschte-Wasserwege/dp/B00505EX12"
+   ]
+  },
+  {
+   "slug": "grohe-thermostatkartusche-47885000",
+   "name": "Grohe Thermostat-Kompaktkartusche 1/2\" (47885000)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "47885000",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "1/2"
+   },
+   "beschreibung": "Thermostat-Kompaktkartusche laut Grohe-Ersatzteilliste u. a. bei Grohtherm Special Waschtisch 34020001. Nicht identisch mit 47439000.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 45,
+   "werkzeug": "Steckschlüssel, Thermometer zum Justieren.",
+   "amazon_asin": "B00GIMX5YM",
+   "quellen": [
+    "https://www.grohe.de/de_de/grohtherm-special-thermostat-waschtischbatterie-1-2-34020001.html",
+    "https://www.amazon.de/Grohe-Thermostat-Kompaktkartusche-1-2-47885000/dp/B00GIMX5YM"
+   ]
+  },
+  {
+   "slug": "grohe-thermostatkartusche-49175000",
+   "name": "Grohe Thermostat-Kompaktkartusche 1/2\" Precision Flow (49175000)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "49175000",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "1/2"
+   },
+   "beschreibung": "Laut Grohe-Ersatzteilliste die Kartusche der Precision-Flow-Thermostate (34798000, 34800000) – dort wird nicht 47439000 geführt. Eigenständige Produktdaten nicht geprüft.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 45,
+   "werkzeug": "Steckschlüssel, Thermometer zum Justieren.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.grohe.de/de_de/precision-flow-thermostat-brausebatterie-1-2-34798000.html"
+   ]
+  },
+  {
+   "slug": "grohe-thermoelement-47450000",
+   "name": "Grohe Thermoelement 1/2\" (47450000)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "47450000",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "1/2"
+   },
+   "beschreibung": "Dehnstoff-Thermoelement (keine komplette Kompaktkartusche) für ältere bzw. andere Thermostatlinien wie Chiara und Sentosa; O-Ringe Ø21x2 (0599900M) und Ø24x2 (0119600M) separat. Variante für vertauschte Anschlüsse: 47282000 (Sonderzubehör).",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 45,
+   "werkzeug": "Schlüssel für Thermostateinsatz, Thermometer zum Justieren.",
+   "amazon_asin": "B000845HZG",
+   "quellen": [
+    "https://www.grohe.de/de_de/thermoelement-1-2-47450000.html",
+    "https://www.amazon.de/Grohe-47-450-000-Thermostat/dp/B000845HZG"
+   ]
+  },
+  {
+   "slug": "grohe-rueckflussverhinderer-08565000",
+   "name": "Grohe Rückflussverhinderer (08565000)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "08565000",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Rückflussverhinderer in den Anschlüssen von Aufputz-Thermostaten (laut grohe.de u. a. Grohtherm 800 Brause Pos. 7.2, Wanne Pos. 6.2; Grohtherm 1000 34143003). Defekte Rückflussverhinderer oder verschmutzte Siebe führen laut Grohe zu falscher Temperatur bzw. geringem Durchfluss.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 45,
+   "werkzeug": "Armatur vom Wandanschluss lösen; Maulschlüssel, Ersatzdichtungen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.grohe.de/de_de/grohtherm-800-thermostat-brausebatterie-dn-15-34558000.html",
+    "https://www.grohe.de/de_de/rueckflussverhinderer-08567000.html"
+   ]
+  },
+  {
+   "slug": "grohe-mousseur-48159000",
+   "name": "Grohe Mousseur M24x1 Außengewinde (48159000)",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "48159000",
+   "ean": "4005176919589",
+   "masse": {
+    "gewinde": "M24x1 AG"
+   },
+   "beschreibung": "Mousseur (Strahlregler) mit Außengewinde M24x1, Durchflussklasse PCA, 5,7 l/min bei 3 bar, GROHE SpeedClean. Laut grohe.de u. a. Eurosmart 23988003, 32154002, 23322001, 2339310E, 23324001 und Start 23746001.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Von Hand bzw. Demontageschlüssel 48021000; Tuch gegen Kratzer.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.grohe.de/de_de/mousseur-48159000.html",
+    "https://www.grohe.com/lv-LV/produkta/no-collection-grohe-mousseur-hroms-48159000"
+   ]
+  },
+  {
+   "slug": "grohe-mousseur-13929000",
+   "name": "Grohe Mousseur M24x1 Außengewinde, 13,5–15 l/min (13929000)",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "13929000",
+   "ean": null,
+   "masse": {
+    "gewinde": "M24x1 AG"
+   },
+   "beschreibung": "Mousseur M24x1 AG, Durchflussklasse A, 13,5–15,0 l/min bei 3 bar – also deutlich mehr Durchfluss als die 5,7-l/min-Sparmousseure. Nicht für Armaturen ohne passendes Innengewinde.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Von Hand bzw. Maulschlüssel mit Tuch.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.grohe.com/en-MT/product/no-collection-grohe-mousseur-chrome-13929000"
+   ]
+  },
+  {
+   "slug": "grohe-mousseur-13935000",
+   "name": "Grohe Mousseur M22x1 Innengewinde (13935000)",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "13935000",
+   "ean": null,
+   "masse": {
+    "gewinde": "M22x1 IG"
+   },
+   "beschreibung": "Mousseur mit Innengewinde M22x1, 5,7 l/min bei 3 bar, chrom. Laut Grohe u. a. Start L 24203002 und BauEdge L 23760000.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Von Hand bzw. Maulschlüssel mit Tuch.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.grohe.de/de_de/mousseur-13935000.html",
+    "https://pro.grohe.com/en_pj/bauedge-single-lever-basin-mixer-1-2-l-size-23760000.html"
+   ]
+  },
+  {
+   "slug": "grohe-mousseur-48270000",
+   "name": "Grohe AquaGuide Mousseur M21,5x1 (48270000)",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "48270000",
+   "ean": "4005176325502",
+   "masse": {
+    "gewinde": "M21,5x1 AG (integriert)"
+   },
+   "beschreibung": "Verstellbarer AquaGuide-Mousseur, Außengewinde M21,5x1, max. 6 l/min bei 3 bar, inklusive Demontageschlüssel. Laut Grohe für Essence-Armaturen (Waschtisch und Spültisch).",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Mitgelieferter Demontageschlüssel bzw. 48021000.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.grohe.de/de_de/-mousseur-48270000.html",
+    "https://www.grohe.com/de-DE/produkt/no-collection-grohe-mousseur-keine-farbe-48270000"
+   ]
+  },
+  {
+   "slug": "grohe-demontageschluessel-48021000",
+   "name": "Grohe Demontageschlüssel für Mousseure (48021000)",
+   "teiltyp": "werkzeug",
+   "oem_nummer": "48021000",
+   "ean": "4005176881435",
+   "masse": {
+    "passt_gewinde": "Gehäuse M22x1, M24x1, M28x1; integriert M16,5x1, M18,5x1, M21,5x1, M24x1"
+   },
+   "beschreibung": "Schlüssel zum Ausbau von Mousseuren mit Gehäuse (M22x1, M24x1, M28x1) und integrierten/verdeckten Mousseuren (M16,5x1, M18,5x1, M21,5x1, M24x1). Laut grohe.de Verkaufseinheit 10 Stück; im Handel auch einzeln. Kunststoff – laut Käuferbewertungen bei stark verkalkten Mousseuren bruchgefährdet.",
+   "preis_spanne": "ca. 6–16 € (Stichproben)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "–",
+   "amazon_asin": "B006WO3MGM",
+   "quellen": [
+    "https://www.grohe.de/de_de/demontagewerkzeug-48021000.html",
+    "https://www.grohe.com/de-DE/produkt/no-collection-grohe-demontageschlussel-keine-farbe-48021000",
+    "https://www.amazon.de/-/en/GROHE-48021000-Grooved-Disassembly-Tool/dp/B006WO3MGM",
+    "https://www.nextag.de/preisvergleich/500001727911_grohe-mousseurschluessel-48021000.html"
+   ]
+  },
+  {
+   "slug": "grohe-montageschluessel-19017000",
+   "name": "Grohe Montageschlüssel (19017000)",
+   "teiltyp": "werkzeug",
+   "oem_nummer": "19017000",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "In Ersatzteillisten (u. a. Start DN 15 M-Size, Eurosmart M-Size) als Sonderzubehör (*) geführter Montageschlüssel. Eigenständige Produktdaten nicht geprüft.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "–",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.grohe.de/de_de/start-einhand-waschtischbatterie-dn-15-m-size-23746001.html",
+    "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-1-2-m-size-23324001.html"
+   ]
+  },
+  {
+   "slug": "grohe-brauseschlauch-46092000",
+   "name": "Grohe Metall-Brauseschlauch 1500 mm G1/2 x M15x1 (46092000)",
+   "teiltyp": "schlauch",
+   "oem_nummer": "46092000",
+   "ean": null,
+   "masse": {
+    "laenge_mm": 1500,
+    "gewinde": "G1/2 x M15x1"
+   },
+   "beschreibung": "Metall-Brauseschlauch 1500 mm für Spültischbatterien mit herausziehbarem Auslauf (nicht für Duschen). Laut Grohe u. a. Zedra 33727IB0, Europlus 1987–1996 (33878TT0), Ladylux 1983–1999 (33740IH0). Käuferhinweis: alter Schlauch kann sich beim Herausziehen verklemmen, zweite Person hilft.",
+   "preis_spanne": "ca. 25–30 € (Preisvergleich-Stichproben)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Maulschlüssel; Anschlussgewinde vorher vergleichen.",
+   "amazon_asin": "B002ZLPTX0",
+   "quellen": [
+    "https://www.grohe.de/de_de/-brauseschlauch-g1-2-m15-x-1-46092000.html",
+    "https://www.amazon.de/Metall-Brauseschlauch-ausschlie%C3%9Flich-Sp%C3%BCltischbatterien-herausziehbarem-Herstellergarantie/dp/B002ZLPTX0",
+    "https://www.preissuchmaschine.de/in-Baumarkt/Heizung-Sanitaer/Grohe-Europlus-Brauseschlauch-46092000.html"
+   ]
+  },
+  {
+   "slug": "grohe-brauseschlauch-46174000",
+   "name": "Grohe Metallbrauseschlauch / Metalflex (46174000)",
+   "teiltyp": "schlauch",
+   "oem_nummer": "46174000",
+   "ean": "4005176211294",
+   "masse": {
+    "laenge_mm": 1400,
+    "gewinde": "1/2\" x M15x1"
+   },
+   "beschreibung": "Metallbrauseschlauch für Spültischbatterien mit Auszugsbrause; laut Grohe-Ersatzteillisten u. a. K4 32071DC0 und Zedra 32298SD0. Länge 1400 mm und Gewinde 1/2\" x M15x1 laut eBay-Angebot (nicht von Grohe bestätigt).",
+   "preis_spanne": "ca. 48 € (eBay-Stichprobe)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Maulschlüssel.",
+   "amazon_asin": "B000Q9O8SA",
+   "quellen": [
+    "https://grohe.de/notepad/v1/exports/product/46174000?locale=de_de",
+    "https://www.grohe.com/en-GB/product/no-collection-grohe-metalflex-hose-chrome-46174000",
+    "https://pro.grohe.com/en_pj/k4-single-lever-sink-mixer-1-2-32071DC0.html",
+    "https://www.ebay.de/p/1305162935",
+    "https://www.amazon.de/Metallbrauseschlauch-langlebige-Kombination-Hochwertige-Metallrosette/dp/B000Q9O8SA"
+   ]
+  },
+  {
+   "slug": "grohe-brauseschlauch-48293000",
+   "name": "Grohe Schlauch für Spültischbatterien mit Auszugsbrause (48293000)",
+   "teiltyp": "schlauch",
+   "oem_nummer": "48293000",
+   "ean": "4005176358593",
+   "masse": {
+    "laenge_mm": 1425,
+    "gewinde": "M15x1, Führungsmuttern G1/2"
+   },
+   "beschreibung": "1425 mm, M15x1, inklusive Gewicht und Führungsmuttern G 1/2\", GROHE EasyDock, Long-Life-Oberfläche. Für Spültischbatterien mit herausziehbarer Dual-Spülbrause oder Mousseurauslauf, laut grohe.de u. a. Eurosmart 30305DC1, Eurosmart Cosmopolitan 31481001, Eurodisc Cosmopolitan 32257002, Minta 32168DC0/32322002, Start 303072431, Concetto 31483002.",
+   "preis_spanne": "ca. 29–33 € (Amazon-Stichproben)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Maulschlüssel; Gewicht wieder an gleicher Stelle montieren.",
+   "amazon_asin": "B06XPF986H",
+   "quellen": [
+    "https://www.grohe.de/de_de/brauseschlauch-48293000.html",
+    "https://pro.grohe.com/en_pj/hose-for-sink-mixer-with-pull-out-dual-spray-or-mousseur-48293000.html",
+    "https://www.amazon.de/Grohe-48293000-48293000-Flexibler-Duschschlauch/dp/B06XPF986H"
+   ]
+  },
+  {
+   "slug": "grohe-brauseschlauch-45352000",
+   "name": "Grohe Metallbrauseschlauch 1/2 x M15x1 x 1500 (45352000)",
+   "teiltyp": "schlauch",
+   "oem_nummer": "45352000",
+   "ean": null,
+   "masse": {
+    "laenge_mm": 1500,
+    "gewinde": "1/2 x M15x1"
+   },
+   "beschreibung": "Metallbrauseschlauch (Maße laut Grohe-Produktseite 1/2 x M15x1 x 1500); laut Ersatzteillisten bei Minta 31397000 und Concetto 31214001.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Maulschlüssel.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.grohe.de/de_de/-brauseschlauch-metall-1-2xm15x1x1500-45352000.html",
+    "https://www.grohe.de/de_de/minta-einhand-spueltischbatterie-dn-15-31397000.html"
+   ]
+  },
+  {
+   "slug": "grohe-spuelbrause-46592000",
+   "name": "Grohe Spülbrause (46592000)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "46592000",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Herausziehbare Spülbrause (Brausekopf) – kein Schlauch, obwohl Drittanbieter die Nummer bei Ersatzschläuchen mit aufführen. Passende Armaturen nicht verifiziert.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "–",
+   "amazon_asin": null,
+   "quellen": [
+    "https://showerspares.com/search/grohe-pull-out-spray-chrome-46592",
+    "https://onninen.fi/en/grohe-hanavaraosa-grohe-46592000-ulosved-jp/p/CET287"
+   ]
+  },
+  {
+   "slug": "grohe-dichtungsset-46209000",
+   "name": "Grohe Dichtungsset für 46-mm-Kartuschen (46209000)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "46209000",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 46
+   },
+   "beschreibung": "Dichtungsset für 46-mm-SilkMove-Kartuschen (46048000, 46409000); laut Händler bei neuer 46048000 bereits montiert. Separat sinnvoll, wenn nur die Kartuschendichtung undicht ist.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren; Schraubendreher/Innensechskant für Abdeckkappe und Hebelbefestigung, Maulschlüssel für die Kartuschenmutter (Größe modellabhängig), ggf. Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.grohe.de/de_de/kartusche-46409000.html",
+    "https://pro.grohe.com/en_pj/cartridge-46048000.html",
+    "https://www.grohe.de/de_de/europlus-einhand-spueltischbatterie-1-2-33863IK0.html",
+    "https://showerspares.com/search/grohe_seal_pack_46209_000"
+   ]
+  },
+  {
+   "slug": "grohe-dichtungsset-46760000",
+   "name": "Grohe Dichtungsset (46760000)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "46760000",
+   "ean": "4005176907715",
+   "masse": {},
+   "beschreibung": "Dichtungsset, das Grohe in den Ersatzteillisten mehrerer Spültischbatterien führt (u. a. Eurosmart Cosmopolitan 30194000, Concetto 30273001, Eurodisc Cosmopolitan 32257002, Get, Wave Cosmopolitan). Genauer Inhalt nicht verifiziert.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Maulschlüssel/Schraubendreher je nach Armatur.",
+   "amazon_asin": "B00GIMZ1GM",
+   "quellen": [
+    "https://www.grohe.de/de_de/dichtungsset-46760000.html",
+    "https://www.amazon.de/Grohe-46760000-Dichtungsset/dp/B00GIMZ1GM"
+   ]
+  },
+  {
+   "slug": "grohe-o-ring-0128500m",
+   "name": "Grohe O-Ring Ø13,5 x 2,75 mm (0128500M)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "0128500M",
+   "ean": null,
+   "masse": {
+    "innen_mm": 13.5,
+    "schnur_mm": 2.75
+   },
+   "beschreibung": "O-Ring laut Ersatzteilliste der Concetto-Spültischbatterie 32661003.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "O-Ring-Haken, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.grohe.de/de_de/concetto-einhand-spueltischbatterie-dn-15-32661003.html"
+   ]
+  },
+  {
+   "slug": "grohe-temperaturbegrenzer-46375000",
+   "name": "Grohe Temperaturbegrenzer für 35-mm-Kartusche (46375000)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "46375000",
+   "ean": "4005176169083",
+   "masse": {
+    "durchmesser_mm": 35
+   },
+   "beschreibung": "Temperaturbegrenzer (Verbrühschutz-Anschlag) für die 35-mm-Kartusche 46374000.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Wasser an den Eckventilen absperren; Schraubendreher/Innensechskant für Abdeckkappe und Hebelbefestigung, Maulschlüssel für die Kartuschenmutter (Größe modellabhängig), ggf. Armaturenfett.",
+   "amazon_asin": "B000P0F488",
+   "quellen": [
+    "https://www.grohe.de/de_de/temperaturbegrenzer-46375000.html",
+    "https://www.amazon.de/-/en/Grohe-46375000-Temperature-Limiter-Cartridge/dp/B000P0F488"
+   ]
+  }
+ ],
+ "zuordnungen": [
+  {
+   "serie_slug": "eurosmart-waschtisch",
+   "teil_slug": "grohe-kartusche-48518000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23988003 (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-1-2-s-size-23988003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-waschtisch",
+   "teil_slug": "grohe-kartusche-48518000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23987003 (M-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-1-2-m-size-23987003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-waschtisch",
+   "teil_slug": "grohe-kartusche-48518000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23324003 (M-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-1-2-m-size-23324003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-waschtisch",
+   "teil_slug": "grohe-kartusche-48518000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23924003 (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-1-2-s-size-23924003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 24164003 (XL-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-1-2-xl-size-24164003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23537003 (L-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-1-2-l-size-23537003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23324001 (M-Size, Vorgänger von 23324003)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-1-2-m-size-23324001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23322001 (Eurosmart Standard M-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-dn-15-m-size-23322001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-waschtisch",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 33265002 (Eurosmart Standard S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-dn-15-s-size-33265002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-waschtisch",
+   "teil_slug": "grohe-kartusche-46863000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 32926002 (DN 15 S-Size, SilkMove ES)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-dn-15-s-size-32926002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-waschtisch",
+   "teil_slug": "grohe-kartusche-46863000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 32154002 (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-dn-15-s-size-32154002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-waschtisch",
+   "teil_slug": "grohe-mousseur-48159000",
+   "hinweis": "Mousseur laut Grohe-Ersatzteillisten 23988003, 32154002, 23322001, 2339310E, 23324001",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-1-2-s-size-23988003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-waschtisch",
+   "teil_slug": "grohe-montageschluessel-19017000",
+   "hinweis": "Sonderzubehör (*) laut Ersatzteilliste 23324001",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-waschtischbatterie-1-2-m-size-23324001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-cosmopolitan-waschtisch",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 3282500E (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-cosmopolitan-einhand-waschtischbatterie-dn-15-br-s-size-3282500E.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-cosmopolitan-waschtisch",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23327000 (M-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-c-einhand-waschtischbatterie-dn-15-m-size-23327000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-cosmopolitan-waschtisch",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23933001 (L-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-cosmopolitan-einhand-waschtischbatterie-1-2-l-size-23933001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-cosmopolitan-waschtisch",
+   "teil_slug": "grohe-kartusche-46863000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23927000 (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-cosmopolitan-einhand-waschtischbatterie-1-2-s-size-23927000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-cosmopolitan-waschtisch",
+   "teil_slug": "grohe-kartusche-46863000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23928000 (M-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-cosmopolitan-einhand-waschtischbatterie-1-2-m-size-23928000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-cosmopolitan-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23921000 (XL-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-cosmopolitan-einhand-waschtischbatterie-dn-15-br-xl-size-23921000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-kuechenarmatur",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 31391003",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-spueltischbatterie-1-2-31391003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-kuechenarmatur",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 31391002",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-spueltischbatterie-dn-15-31391002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-kuechenarmatur",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 30305DC1 (mit Auszugsbrause)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-spueltischbatterie-1-2-30305DC1.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-kuechenarmatur",
+   "teil_slug": "grohe-brauseschlauch-48293000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 30305DC1",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-spueltischbatterie-1-2-30305DC1.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-kuechenarmatur",
+   "teil_slug": "grohe-kartusche-46963000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 30567000 (Pos. 2)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-spueltischbatterie-1-2-30567000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-cosmopolitan-kuechenarmatur",
+   "teil_slug": "grohe-brauseschlauch-48293000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 31481001",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-cosmopolitan-einhand-spueltischbatterie-1-2-31481001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-cosmopolitan-kuechenarmatur",
+   "teil_slug": "grohe-dichtungsset-46760000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 30194000",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-cosmopolitan-einhand-spueltischbatterie-dn-15-30194000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-duscharmatur",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 33555002",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-brausebatterie-dn-15-33555002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-duscharmatur",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 25242003",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-brausebatterie-1-2-25242003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-duscharmatur",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilblatt 33 555 003 (Kartusche Bestell-Nr. 46374000), gehostet von dawonia.de",
+   "quelle_url": "https://dawonia.de/dawonia/service/Mieterinformationen/Erlangen/Jaminpark/WA%207/Armaturen/EUROSMART%20EINHAND-BRAUSEBATTERIE.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-wannenarmatur",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 33300002 (Aufputz)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-wannenbatterie-dn-15-33300002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurosmart-wannenarmatur",
+   "teil_slug": "grohe-kartusche-46048000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 24043003 (Unterputz-Fertigmontageset)",
+   "quelle_url": "https://www.grohe.de/de_de/eurosmart-einhand-wannenbatterie-24043003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "europlus-waschtisch",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 33155002 (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/europlus-einhand-waschtischbatterie-dn-15-br-s-size-33155002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "europlus-waschtisch",
+   "teil_slug": "grohe-kartusche-46048000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 33153IG0 (nicht mehr erhältlich)",
+   "quelle_url": "https://www.grohe.de/de_de/europlus-einhand-waschtischbatterie-dn-15-33153IG0.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "europlus-waschtisch",
+   "teil_slug": "grohe-kartusche-46048000",
+   "hinweis": "Händler nennt 46048000 für Eurodisc und Europlus; Käufer: passt in Europlus UP-Mischbatterie von 1987 (bestätigt Grohe-Angabe)",
+   "quelle_url": "https://www.kaufland.at/product/300532692/",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "europlus-kuechenarmatur",
+   "teil_slug": "grohe-kartusche-46048000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 33863IK0",
+   "quelle_url": "https://www.grohe.de/de_de/europlus-einhand-spueltischbatterie-1-2-33863IK0.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "europlus-kuechenarmatur",
+   "teil_slug": "grohe-dichtungsset-46209000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 33863IK0 (Unterposition 2.1 zur Kartusche)",
+   "quelle_url": "https://www.grohe.de/de_de/europlus-einhand-spueltischbatterie-1-2-33863IK0.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "europlus-kuechenarmatur",
+   "teil_slug": "grohe-brauseschlauch-46092000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 33878TT0 (Europlus 1987–1996, „Metallschlauch“)",
+   "quelle_url": "https://www.grohe.de/de_de/europlus-1987-1996-einhand-spueltischbatterie-dn-15-33878TT0.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurodisc-waschtisch",
+   "teil_slug": "grohe-kartusche-46048000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 33176IZ0 (Eurodisc 1999–2006)",
+   "quelle_url": "https://www.grohe.de/de_de/eurodisc-1999-2006-einhand-waschtischbatterie-dn-15-33176IZ0.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurodisc-cosmopolitan-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23049002 (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurodisc-cosmopolitan-einhand-waschtischbatterie-dn-15-s-size-23049002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurodisc-cosmopolitan-waschtisch",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23448002 (M-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurodisc-cosmopolitan-einhand-waschtischbatterie-1-2-m-size-23448002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurodisc-cosmopolitan-waschtisch",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23055002 (XL-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurodisc-cosmopolitan-einhand-waschtischbatterie-dn-15-br-xl-size-23055002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurodisc-cosmopolitan-waschtisch",
+   "teil_slug": "grohe-kartusche-46863000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 2338420E (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurodisc-cosmopolitan-einhand-waschtischbatterie-dn-15-s-size-2338420E.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurodisc-joy-waschtisch",
+   "teil_slug": "grohe-kartusche-46907000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23425LS0 (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurodisc-joy-einhand-waschtischbatterie-dn-15-s-size-23425LS0.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurodisc-joy-waschtisch",
+   "teil_slug": "grohe-kartusche-46907000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23427000 (M-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurodisc-joy-einhand-waschtischbatterie-dn-15-m-size-23427000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurodisc-cosmopolitan-kuechenarmatur",
+   "teil_slug": "grohe-brauseschlauch-48293000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 32257002",
+   "quelle_url": "https://www.grohe.de/de_de/eurodisc-cosmopolitan-einhand-spueltischbatterie-1-2-32257002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurodisc-cosmopolitan-kuechenarmatur",
+   "teil_slug": "grohe-dichtungsset-46760000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 32257002",
+   "quelle_url": "https://www.grohe.de/de_de/eurodisc-cosmopolitan-einhand-spueltischbatterie-1-2-32257002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurodisc-cosmopolitan-kuechenarmatur",
+   "teil_slug": "grohe-brauseschlauch-46092000",
+   "hinweis": "Nur ältere Ausführung 32257001 laut Preisvergleich-Beschreibung; nicht von Grohe bestätigt",
+   "quelle_url": "https://www.preissuchmaschine.de/in-Baumarkt/Heizung-Sanitaer/Grohe-Europlus-Brauseschlauch-46092000.html",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "eurostyle-waschtisch",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 33558003 (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurostyle-einhand-waschtischbatterie-dn-15-br-s-size-33558003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurostyle-waschtisch",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23708003 (S-Size, geschlossener Hebel/„Solid“)",
+   "quelle_url": "https://www.grohe.de/de_de/eurostyle-solid-einhand-waschtischbatterie-dn-15-s-size-23708003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurostyle-waschtisch",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23570003 (XL-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurostyle-einhand-waschtischbatterie-1-2-xl-size-23570003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurostyle-waschtisch",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23719LS3 (XL-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurostyle-einhand-waschtischbatterie-dn-15-xl-size-23719LS3.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurostyle-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23569003 (L-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurostyle-einhand-waschtischbatterie-1-2-l-size-23569003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurostyle-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23718003 (L-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurostyle-einhand-waschtischbatterie-dn-15-l-size-23718003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eurostyle-cosmopolitan-waschtisch",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23043003 (L-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/eurostyle-cosmopolitan-einhand-waschtischbatterie-dn-15-l-size-23043003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "essence-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 24172001 (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/essence-einhand-waschtischbatterie-1-2-s-size-24172001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "essence-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 24177001 (L-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/essence-einhand-waschtischbatterie-1-2-l-size-24177001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "essence-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 24173DC1 (M-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/essence-einhand-waschtischbatterie-1-2-m-size-24173DC1.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "essence-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 32901001 (XL-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/essence-einhand-waschtischbatterie-dn-15-fuer-freistehende-waschschuesseln-xl-size-32901001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "essence-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34294001 (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/essence-new-einhand-waschtischbatterie-1-2-s-size-34294001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "essence-waschtisch",
+   "teil_slug": "grohe-mousseur-48270000",
+   "hinweis": "Laut Grohe-Ersatzteillisten Essence (u. a. 23541001 L-Size); teils als Sonderzubehör",
+   "quelle_url": "https://www.grohe.de/de_de/essence-einhand-waschtischbatterie-dn-15-br-l-size-23541001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "essence-duscharmatur",
+   "teil_slug": "grohe-kartusche-46048000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 24168001 (Rapido-SmartBox-Fertigmontageset)",
+   "quelle_url": "https://www.grohe.de/de_de/essence-einhand-brausebatterie-24168001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "concetto-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23450001 (M-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/concetto-einhand-waschtischbatterie-1-2-m-size-23450001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "concetto-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 2338510E (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/concetto-einhand-waschtischbatterie-dn-15-br-s-size-2338510E.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "concetto-waschtisch",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23739002 (L-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/concetto-einhand-waschtischbatterie-1-2-l-size-23739002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "concetto-kuechenarmatur",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 32661003",
+   "quelle_url": "https://www.grohe.de/de_de/concetto-einhand-spueltischbatterie-dn-15-32661003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "concetto-kuechenarmatur",
+   "teil_slug": "grohe-o-ring-0128500m",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 32661003",
+   "quelle_url": "https://www.grohe.de/de_de/concetto-einhand-spueltischbatterie-dn-15-32661003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "concetto-kuechenarmatur",
+   "teil_slug": "grohe-brauseschlauch-48293000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 31483002",
+   "quelle_url": "https://www.grohe.de/de_de/concetto-einhand-spueltischbatterie-dn-15-31483002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "concetto-kuechenarmatur",
+   "teil_slug": "grohe-brauseschlauch-45352000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 31214001",
+   "quelle_url": "https://www.grohe.de/de_de/concetto-einhand-spueltischbatterie-1-2-31214001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "concetto-kuechenarmatur",
+   "teil_slug": "grohe-dichtungsset-46760000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 30273001",
+   "quelle_url": "https://www.grohe.de/de_de/concetto-einhand-spueltischbatterie-dn-15-30273001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bauedge-waschtisch",
+   "teil_slug": "grohe-kartusche-48518000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23328001 (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/bauedge-einhand-waschtischbatterie-1-2-s-size-23328001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bauedge-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23911001 (L-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/bauedge-einhand-waschtischbatterie-1-2-l-size-23911001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bauedge-waschtisch",
+   "teil_slug": "grohe-mousseur-13935000",
+   "hinweis": "Grohe-Pro-Ersatzteilliste 23760000 (L-Size)",
+   "quelle_url": "https://pro.grohe.com/en_pj/bauedge-single-lever-basin-mixer-1-2-l-size-23760000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bauedge-kuechenarmatur",
+   "teil_slug": "grohe-kartusche-46963000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 30536000 (Pos. 1)",
+   "quelle_url": "https://www.grohe.de/de_de/bauedge-einhand-spueltischbatterie-1-2-30536000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bauedge-duscharmatur",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23635001 (Aufputz)",
+   "quelle_url": "https://www.grohe.de/de_de/bauedge-einhand-brausebatterie-1-2-23635001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bauedge-duscharmatur",
+   "teil_slug": "grohe-kartusche-46048000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 24161001 (Pos. 4)",
+   "quelle_url": "https://www.grohe.de/de_de/bauedge-einhand-brausebatterie-1-2-24161001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bauedge-wannenarmatur",
+   "teil_slug": "grohe-kartusche-46048000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 24162001 (Pos. 5)",
+   "quelle_url": "https://www.grohe.de/de_de/bauedge-einhand-wannenbatterie-24162001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bauloop-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23763001 (L-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/bauloop-einhand-waschtischbatterie-1-2-l-size-23763001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bauloop-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23337000 (DN 15 S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/bauloop-einhand-waschtischbatterie-dn-15-s-size-23337000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bauloop-waschtisch",
+   "teil_slug": "grohe-kartusche-48518000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23762001 (M-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/bauloop-einhand-waschtischbatterie-1-2-m-size-23762001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bauloop-waschtisch",
+   "teil_slug": "grohe-kartusche-48518000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23335001 (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/bauloop-einhand-waschtischbatterie-1-2-s-size-23335001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bauloop-kuechenarmatur",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 31706000 (nur einmal im Suchergebnis gesehen – vor Veröffentlichung prüfen)",
+   "quelle_url": "https://www.grohe.de/de_de/bauloop-einhand-spueltischbatterie-1-2-31706000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "start-waschtisch",
+   "teil_slug": "grohe-kartusche-48518000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 24209002 (S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/start-einhand-waschtischbatterie-1-2-s-size-24209002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "start-waschtisch",
+   "teil_slug": "grohe-kartusche-48518000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23455002 (M-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/start-einhand-waschtischbatterie-m-size-23455002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "start-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 242032432 (L-Size, Farbvariante)",
+   "quelle_url": "https://www.grohe.de/de_de/start-einhand-waschtischbatterie-1-2-l-size-242032432.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "start-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23575001 (M-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/start-einhand-waschtischbatterie-dn-15-m-size-23575001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "start-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23810000 (Start Classic S-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/start-classic-einhand-waschtischbatterie-1-2-s-size-23810000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "start-waschtisch",
+   "teil_slug": "grohe-mousseur-48159000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23746001 (DN 15 M-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/start-einhand-waschtischbatterie-dn-15-m-size-23746001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "start-waschtisch",
+   "teil_slug": "grohe-mousseur-13935000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 24203002 (L-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/start-einhand-waschtischbatterie-1-2-l-size-24203002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "start-waschtisch",
+   "teil_slug": "grohe-montageschluessel-19017000",
+   "hinweis": "Sonderzubehör (*) laut Ersatzteilliste 23746001",
+   "quelle_url": "https://www.grohe.de/de_de/start-einhand-waschtischbatterie-dn-15-m-size-23746001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "start-edge-waschtisch",
+   "teil_slug": "grohe-kartusche-48518000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23777001 (XL-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/start-edge-einhand-waschtischbatterie-1-2-xl-size-23777001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "start-edge-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23776000 (L-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/start-edge-einhand-waschtischbatterie-1-2-l-size-23776000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "start-loop-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23781000 (XL-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/start-loop-einhand-waschtischbatterie-1-2-xl-size-23781000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "start-loop-waschtisch",
+   "teil_slug": "grohe-kartusche-48518000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 23779001 (M-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/start-loop-einhand-waschtischbatterie-1-2-m-size-23779001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "start-kuechenarmatur",
+   "teil_slug": "grohe-brauseschlauch-48293000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 303072431",
+   "quelle_url": "https://www.grohe.de/de_de/start-einhand-spueltischbatterie-1-2-303072431.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "euroeco-waschtisch",
+   "teil_slug": "grohe-kartusche-46580000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 24272001 (L-Size)",
+   "quelle_url": "https://www.grohe.de/de_de/euroeco-einhand-waschtischbatterie-1-2-l-size-24272001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "euroeco-special-waschtisch",
+   "teil_slug": "grohe-kartusche-46374000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 32762000",
+   "quelle_url": "https://www.grohe.de/de_de/euroeco-special-einhand-waschtischbatterie-1-2-32762000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "euroeco-special-waschtisch",
+   "teil_slug": "grohe-kartusche-46048000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 32779000 (DN 15)",
+   "quelle_url": "https://www.grohe.de/de_de/euroeco-special-einhand-waschtischbatterie-dn-15-32779000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "minta-kuechenarmatur",
+   "teil_slug": "grohe-brauseschlauch-48293000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 32168DC0",
+   "quelle_url": "https://www.grohe.de/de_de/minta-einhand-spueltischbatterie-1-2-32168DC0.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "minta-kuechenarmatur",
+   "teil_slug": "grohe-brauseschlauch-48293000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 32322002",
+   "quelle_url": "https://www.grohe.de/de_de/minta-einhand-spueltischbatterie-dn-15-32322002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "minta-kuechenarmatur",
+   "teil_slug": "grohe-brauseschlauch-45352000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 31397000",
+   "quelle_url": "https://www.grohe.de/de_de/minta-einhand-spueltischbatterie-dn-15-31397000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "zedra-kuechenarmatur",
+   "teil_slug": "grohe-brauseschlauch-46092000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 33727IB0 (Pos. 9)",
+   "quelle_url": "https://www.grohe.de/de_de/zedra-einhand-spueltischbatterie-1-2-33727IB0.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "zedra-kuechenarmatur",
+   "teil_slug": "grohe-brauseschlauch-46174000",
+   "hinweis": "Grohe-Pro-Ersatzteilliste 32298SD0 (Pos. 6)",
+   "quelle_url": "https://pro.grohe.com/en_pj/ladylux-single-lever-sink-mixer-1-2-32298SD0.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ladylux-kuechenarmatur",
+   "teil_slug": "grohe-brauseschlauch-46092000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 33740IH0 (Ladylux 1983–1999)",
+   "quelle_url": "https://www.grohe.de/de_de/ladylux-1983-1999-einhand-spueltischbatterie-dn-15-33740IH0.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "grohtherm-800",
+   "teil_slug": "grohe-thermostatkartusche-47439000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34558000 (Brausebatterie)",
+   "quelle_url": "https://www.grohe.de/de_de/grohtherm-800-thermostat-brausebatterie-dn-15-34558000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "grohtherm-800",
+   "teil_slug": "grohe-turbostat-kartusche-47175000",
+   "hinweis": "Sonderzubehör für vertauschte Anschlüsse (warm rechts) laut Ersatzteilliste 34558000",
+   "quelle_url": "https://www.grohe.de/de_de/grohtherm-800-thermostat-brausebatterie-dn-15-34558000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "grohtherm-800",
+   "teil_slug": "grohe-rueckflussverhinderer-08565000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34558000 (Pos. 7.2) und 34568000 (Pos. 6.2)",
+   "quelle_url": "https://www.grohe.de/de_de/grohtherm-800-thermostat-brausebatterie-dn-15-34558000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "grohtherm-800",
+   "teil_slug": "grohe-thermostatkartusche-47439000",
+   "hinweis": "Retail-Bestätigung: Händler nennt 47439000 für Grohtherm 800/1000/2000/3000",
+   "quelle_url": "https://www.divapor.com/spares/showers/thermostatic-cartridge/grohe-47439000-compact-thermostatic-cartridge-1-2-inch-for-grohtherm-grohmaster-allure-thm-and-rainshower-valves.php",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "grohtherm-800-cosmopolitan",
+   "teil_slug": "grohe-thermostatkartusche-47439000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34768001 (Pos. 3)",
+   "quelle_url": "https://www.grohe.de/de_de/grohtherm-800-cosmopolitan-thermostat-brausebatterie-1-2-34768001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "grohtherm-800-cosmopolitan",
+   "teil_slug": "grohe-turbostat-kartusche-47175000",
+   "hinweis": "Grohe-Produktseite 47175000 nennt Grohtherm 800 Cosmopolitan als passend (vertauschte Anschlüsse)",
+   "quelle_url": "https://www.grohe.de/de_de/-thermostat-kompaktkartusche-1-2-fuer-vertauschte-wasserwege-47175000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "grohtherm-1000",
+   "teil_slug": "grohe-thermostatkartusche-47439000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34143003",
+   "quelle_url": "https://www.grohe.de/de_de/grohtherm-1000-thermostat-brausebatterie-1-2-34143003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "grohtherm-1000",
+   "teil_slug": "grohe-thermostatkartusche-47439000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34550000",
+   "quelle_url": "https://www.grohe.de/de_de/grohtherm-1000-thermostat-brausebatterie-dn-15-34550000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "grohtherm-1000",
+   "teil_slug": "grohe-turbostat-kartusche-47175000",
+   "hinweis": "Grohe-Produktseite 47175000: passend für Aufputz-Thermostate u. a. Grohtherm 1000 (Sonderzubehör)",
+   "quelle_url": "https://www.grohe.de/de_de/grohe-turbostat-kartusche-1-2-47175000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "grohtherm-1000",
+   "teil_slug": "grohe-rueckflussverhinderer-08565000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34143003 (Rückflussverhinderer 08565000 bzw. 47189000)",
+   "quelle_url": "https://www.grohe.de/de_de/grohtherm-1000-thermostat-brausebatterie-1-2-34143003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "grohtherm-1000-performance",
+   "teil_slug": "grohe-thermostatkartusche-47439000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34828000 (Pos. 4)",
+   "quelle_url": "https://www.grohe.de/de_de/grohtherm-1000-performance-thermostat-brausebatterie-1-2-34828000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "grohtherm-1000-performance",
+   "teil_slug": "grohe-turbostat-kartusche-47175000",
+   "hinweis": "Grohe-Produktseite 47175000 nennt Grohtherm 1000 Performance als passend",
+   "quelle_url": "https://www.grohe.de/de_de/-thermostat-kompaktkartusche-1-2-fuer-vertauschte-wasserwege-47175000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "grohtherm-special",
+   "teil_slug": "grohe-thermostatkartusche-47439000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34666000 (Waschtisch, Pos. 5)",
+   "quelle_url": "https://www.grohe.de/de_de/grohtherm-special-thermostat-waschtischbatterie-dn-15-34666000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "grohtherm-special",
+   "teil_slug": "grohe-thermostatkartusche-47885000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34020001 (Waschtisch)",
+   "quelle_url": "https://www.grohe.de/de_de/grohtherm-special-thermostat-waschtischbatterie-1-2-34020001.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "precision-trend",
+   "teil_slug": "grohe-thermostatkartusche-47439000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34237003 (Brause, Pos. 4)",
+   "quelle_url": "https://www.grohe.de/de_de/precision-trend-thermostat-brausebatterie-1-2-34237003.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "precision-trend",
+   "teil_slug": "grohe-thermostatkartusche-47439000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34227002 (Wanne)",
+   "quelle_url": "https://www.grohe.de/de_de/precision-trend-thermostat-wannenbatterie-dn-15-34227002.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "precision-flow",
+   "teil_slug": "grohe-thermostatkartusche-49175000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34798000 und 34800000",
+   "quelle_url": "https://www.grohe.de/de_de/precision-flow-thermostat-brausebatterie-1-2-34798000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "chiara-thermostat",
+   "teil_slug": "grohe-thermoelement-47450000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34673000",
+   "quelle_url": "https://www.grohe.de/de_de/chiara-thermostat-brausebatterie-1-2-34673000.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "chiara-thermostat",
+   "teil_slug": "grohe-thermoelement-47450000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34610IG0 (Chiara 1993–2007)",
+   "quelle_url": "https://www.grohe.de/de_de/chiara-1993-2007-thermostat-brausebatterie-dn-15-34610IG0.html",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sentosa-thermostat",
+   "teil_slug": "grohe-thermoelement-47450000",
+   "hinweis": "Grohe-Ersatzteilliste Art.-Nr. 34678000",
+   "quelle_url": "https://www.grohe.de/de_de/sentosa-thermostat-brausebatterie-1-2-34678000.html",
+   "sicherheit": "hersteller"
+  }
+ ],
+ "probleme": [
+  {
+   "slug": "grohe-armatur-tropft",
+   "titel": "Grohe Armatur tropft",
+   "symptom": "Aus dem Auslauf tropft bei geschlossenem Hebel Wasser, oder bei Küchenarmaturen tritt Wasser am Armaturenfuß bzw. am Auszugsschlauch aus.",
+   "ursachen": [
+    {
+     "ursache": "Keramikkartusche verschlissen oder verkalkt (Dichtscheiben schließen nicht mehr)",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "grohe-kartusche-46580000",
+      "grohe-kartusche-48518000",
+      "grohe-kartusche-46374000",
+      "grohe-kartusche-46863000",
+      "grohe-kartusche-46048000",
+      "grohe-kartusche-46963000"
+     ]
+    },
+    {
+     "ursache": "Dichtung an der Kartusche undicht (46-mm-Kartuschen: Dichtungsset separat erhältlich)",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "grohe-dichtungsset-46209000"
+     ]
+    },
+    {
+     "ursache": "O-Ringe am Schwenkauslauf von Küchenarmaturen verschlissen – Wasser am Fuß der Armatur",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "grohe-o-ring-0128500m",
+      "grohe-dichtungsset-46760000"
+     ]
+    },
+    {
+     "ursache": "Auszugsschlauch der Küchenarmatur undicht",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "grohe-brauseschlauch-48293000",
+      "grohe-brauseschlauch-46092000",
+      "grohe-brauseschlauch-46174000",
+      "grohe-brauseschlauch-45352000"
+     ]
+    }
+   ],
+   "schritte": [
+    "Artikelnummer der Armatur ermitteln (Verpackung, Rechnung, Installationsanleitung oder Grohe Product-Finder-App).",
+    "Auf der Grohe-Produktseite in der Ersatzteilliste die Kartuschen-Bestellnummer ablesen (28, 35 oder 46 mm – nicht raten).",
+    "Eckventile unter dem Waschtisch schließen; gibt es keine, Hauptabsperrung schließen.",
+    "Abdeckkappe abnehmen, Hebelbefestigung lösen, Hebel und Abdeckung abziehen, Kartuschenmutter lösen und Kartusche herausziehen.",
+    "Alte und neue Kartusche vergleichen (Durchmesser, Aufnahme für den Hebel, Dichtungen); die alte Kartusche zum Kauf mitnehmen.",
+    "Neue Kartusche einsetzen, Mutter handfest plus leicht nachziehen, Hebel montieren.",
+    "Wasser langsam öffnen und auf Dichtheit prüfen. Bei Küchenarmaturen mit Wasser am Fuß: O-Ringe des Auslaufs bzw. Auszugsschlauch prüfen."
+   ],
+   "fachbetrieb_ab": "Wenn Eckventile fehlen oder sich nicht schließen lassen, die Kartusche festsitzt bzw. festkorrodiert ist, es sich um eine Unterputz-Armatur (z. B. Rapido SmartBox) handelt oder Wasser hinter Wand/Fliesen austritt.",
+   "quellen": [
+    "https://www.hausjournal.net/einhebelmischer-kartusche-wechseln",
+    "https://www.selbst.de/armatur-kartusche-wechseln-20928.html",
+    "https://www.leinetal24.de/leben/wohnen/wasserhahn-tropft-ursache-kartusche-wechseln-reparieren-zr-11612589.html",
+    "https://www.westlondonliving.co.uk/top-tips/how-to-fix-a-dripping-grohe-faucet/",
+    "https://www.hausjournal.net/einhebelmischer-kartusche-sitzt-fest",
+    "https://www.grohe.com/de-DE/service-support/ersatzteilsuche"
+   ]
+  },
+  {
+   "slug": "grohe-hebel-schwergaengig-wackelt",
+   "titel": "Grohe Armatur: Hebel schwergängig oder wackelt",
+   "symptom": "Der Einhebel lässt sich nur mit Kraft bewegen, ruckelt, oder hat spürbares Spiel.",
+   "ursachen": [
+    {
+     "ursache": "Kalkablagerungen oder eingetrocknetes Fett in der Kartusche",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "grohe-kartusche-46580000",
+      "grohe-kartusche-48518000",
+      "grohe-kartusche-46374000",
+      "grohe-kartusche-46863000",
+      "grohe-kartusche-46048000",
+      "grohe-kartusche-46963000"
+     ]
+    },
+    {
+     "ursache": "Befestigungsschraube des Hebels unter der Abdeckkappe hat sich gelöst (Hebel wackelt)",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Kartusche verschlissen bzw. beschädigt (bleibt schwergängig oder tropft zusätzlich)",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "grohe-kartusche-46580000",
+      "grohe-kartusche-48518000",
+      "grohe-kartusche-46374000",
+      "grohe-kartusche-46863000",
+      "grohe-kartusche-46048000",
+      "grohe-kartusche-46963000"
+     ]
+    },
+    {
+     "ursache": "Defekte Dichtungen",
+     "haeufigkeit": "selten",
+     "teil_slugs": [
+      "grohe-dichtungsset-46209000"
+     ]
+    }
+   ],
+   "schritte": [
+    "Wackelt der Hebel: Abdeckkappe vorsichtig abhebeln und die Befestigungsschraube nachziehen.",
+    "Schwergängig: Wasser absperren, Hebel und Kartusche ausbauen, Kalk und Schmutz entfernen, bewegliche Teile mit Armaturenfett fetten.",
+    "Bleibt der Hebel schwergängig oder tropft die Armatur bei geschlossenem Hebel, Kartusche laut Grohe-Ersatzteilliste ersetzen.",
+    "Bei Grohe-Kartuschen mit Temperaturbegrenzer (z. B. 46374000/46375000) prüfen, ob der Begrenzer den Hebelweg absichtlich einschränkt."
+   ],
+   "fachbetrieb_ab": "Wenn die Kartusche festsitzt, das Gewinde der Kartuschenmutter beschädigt ist oder Eckventile nicht absperren.",
+   "quellen": [
+    "https://www.hausjournal.net/einhebelmischer-geht-schwer",
+    "https://www.sanier.de/badezimmer/schwergaengig-einhebelmischer",
+    "https://www.hausjournal.net/einhebelmischer-kartusche-fetten",
+    "https://www.hausjournal.net/einhebelmischer-zerlegen",
+    "https://www.grohe.de/de_de/temperaturbegrenzer-46375000.html"
+   ]
+  },
+  {
+   "slug": "grohe-thermostat-wird-nicht-warm-kalt",
+   "titel": "Grohe Thermostat wird nicht warm oder nicht kalt",
+   "symptom": "Die eingestellte Temperatur stimmt nicht mehr, es kommt nur sehr kaltes oder sehr heißes Wasser, oder der Durchfluss auf der Warm- bzw. Kaltseite ist gering.",
+   "ursachen": [
+    {
+     "ursache": "Thermoelement/Thermostatkartusche verkalkt oder defekt",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "grohe-thermostatkartusche-47439000",
+      "grohe-thermostatkartusche-47885000",
+      "grohe-thermostatkartusche-49175000",
+      "grohe-thermoelement-47450000"
+     ]
+    },
+    {
+     "ursache": "Schmutzfangsiebe verschmutzt oder Rückflussverhinderer in den Anschlüssen defekt",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "grohe-rueckflussverhinderer-08565000"
+     ]
+    },
+    {
+     "ursache": "Thermostat nach Kartuschentausch nicht justiert",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Warm- und Kaltwasseranschluss vertauscht (warm rechts) – betrifft vor allem Neuinstallationen",
+     "haeufigkeit": "selten",
+     "teil_slugs": [
+      "grohe-turbostat-kartusche-47175000"
+     ]
+    }
+   ],
+   "schritte": [
+    "Laut Grohe-FAQ: Thermoelement auf Verkalkung prüfen und gegebenenfalls ersetzen (Bestellnummer aus der Anleitung bzw. Ersatzteilliste der eigenen Armatur).",
+    "Nach dem Tausch Funktion testen: funktioniert es wieder, war das Thermoelement defekt; sonst Siebe und Rückflussverhinderer prüfen.",
+    "Bei verringertem Durchfluss: an Aufputz-Armaturen Rückflussverhinderer und Siebe in den Anschlüssen reinigen/prüfen, an Unterputz-Armaturen die Rückflussverhinderer.",
+    "Nach jeder Wartung an der Thermostatkartusche laut Grohe-Anleitung justieren: Temperatur mit Thermometer messen, Griff abnehmen, auf 38 °C einstellen, Griff mit Taste nach oben aufsetzen.",
+    "Kommt nur ganz kalt oder ganz warm und war die Armatur neu installiert: vertauschte Anschlüsse prüfen; Grohe bietet dafür Sonderkartuschen/Thermoelemente an (z. B. 47175000)."
+   ],
+   "fachbetrieb_ab": "Bei Unterputz-Thermostaten, Verdacht auf vertauschte Leitungen in der Wand, Problemen der Warmwasserbereitung (Durchlauferhitzer/Speicher) oder wenn die Sonderkartusche 47175000 eingesetzt werden soll (erfüllt laut Grohe die EN 1111 nicht).",
+   "quellen": [
+    "https://www.grohe.de/de_de/service/faq/thermostate.html",
+    "https://www.grohe.de/de_de/-thermostat-kompaktkartusche-1-2-fuer-vertauschte-wasserwege-47175000.html",
+    "https://www.grohe.de/de_de/thermoelement-1-2-47450000.html",
+    "https://www.grohe.de/de_de/grohtherm-800-thermostat-brausebatterie-dn-15-34558000.html",
+    "https://cdn.cloud.grohe.com/tpi/100000/100000/100000/100100/100130/100137/100137015/original/100137015.pdf"
+   ]
+  },
+  {
+   "slug": "grohe-strahlregler-verkalkt",
+   "titel": "Wasserstrahl spritzt oder wenig Durchfluss (Strahlregler verkalkt)",
+   "symptom": "Der Strahl spritzt seitlich, ist ungleichmäßig oder deutlich schwächer als früher; Kalkkrusten am Auslauf.",
+   "ursachen": [
+    {
+     "ursache": "Kalk oder Partikel im Mousseur/Strahlregler bzw. in dessen Sieb",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "grohe-mousseur-48159000",
+      "grohe-mousseur-13935000",
+      "grohe-mousseur-13929000",
+      "grohe-mousseur-48270000"
+     ]
+    },
+    {
+     "ursache": "Wassersparender Mousseur (5,7 l/min) bzw. eingestellte Mengenbegrenzung der Kartusche – geringer Durchfluss ist dann bauartbedingt",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "grohe-mousseur-48159000",
+      "grohe-kartusche-46048000",
+      "grohe-kartusche-46374000"
+     ]
+    },
+    {
+     "ursache": "Bei Küchenarmaturen: Brausekopf bzw. Auszugsschlauch verschmutzt oder defekt",
+     "haeufigkeit": "selten",
+     "teil_slugs": [
+      "grohe-brauseschlauch-48293000",
+      "grohe-spuelbrause-46592000"
+     ]
+    }
+   ],
+   "schritte": [
+    "Bei SpeedClean-Mousseuren Kalk zuerst einfach mit dem Finger von den Noppen reiben (Grohe-Empfehlung).",
+    "Mousseur abschrauben – bei verdeckten/integrierten Mousseuren mit dem Demontageschlüssel (z. B. 48021000), sonst von Hand oder mit Schlüssel und Tuch.",
+    "Sieb und Einsatz ausspülen. Ratgeber empfehlen das Einlegen der ausgebauten Teile in Essig oder Zitronensäure (Dichtung vorher entnehmen); Grohe rät auf Armaturenoberflächen ausdrücklich von Essig und säurehaltigen Reinigern ab – Chromflächen nicht damit behandeln.",
+    "Lässt sich der Einsatz nicht mehr reinigen, Mousseur ersetzen: Gewinde (z. B. M24x1 außen, M22x1 innen, integriert M21,5x1) und Durchfluss vorher bestimmen.",
+    "Bleibt der Durchfluss gering, Mengenbegrenzung der Kartusche bzw. Eckventile prüfen."
+   ],
+   "fachbetrieb_ab": "Selten nötig – nur wenn das Gewinde im Auslauf beschädigt ist oder der Mousseur festkorrodiert ist und sich ohne Beschädigung der Armatur nicht lösen lässt.",
+   "quellen": [
+    "https://www.grohe.com/de-DE/service-support/wartung-reparatur/pflegeanleitungen",
+    "https://www.grohe.de/de_de/mousseur-48159000.html",
+    "https://www.grohe.de/de_de/demontagewerkzeug-48021000.html",
+    "https://www.selbst.de/perlator-entkalken-20940.html",
+    "https://www.stuttgarter-zeitung.de/wissen/perlator-entkalken-mhsd-79221247.html"
+   ]
+  }
+ ],
+ "strahlregler_groessen": [
+  {
+   "bezeichnung": "M22x1 innen (IG)",
+   "beschreibung": "Standardgröße (Neoperl „STD/REG“): Strahlregler-Gehäuse mit Innengewinde M22x1, sitzt auf einem Auslauf mit Außengewinde. Beispiel Grohe: Mousseur 13935000. Messhilfe eines Händlers: ein M22-Innengewinde misst ca. 20,9 mm. Achtung: Shops beziehen „innen/außen“ teils auf den Auslauf statt auf den Strahlregler – am Bauteil prüfen.",
+   "quellen": [
+    "https://www.neoperl.com/us/en/oem/products/faucet-aerators/aerators-with-housings",
+    "https://www.grohe.de/de_de/mousseur-13935000.html",
+    "https://cdn.shopify.com/s/files/1/0523/6175/6852/files/Gewindegrosse_ermitteln.pdf"
+   ]
+  },
+  {
+   "bezeichnung": "M24x1 außen (AG)",
+   "beschreibung": "Zweite Standardgröße (Neoperl „STD/REG“): Strahlregler mit Außengewinde M24x1 für Ausläufe mit Innengewinde; bei Grohe-Waschtischarmaturen häufig (z. B. Mousseur 48159000 mit 5,7 l/min oder 13929000 mit 13,5–15 l/min). Laut Händlermesshilfe ca. 23,9 mm Außendurchmesser; Serviceschlüssel nennen Schlüsselweite 22. M22 und M24 teilen sich denselben Einsatz, Adapter M22/M24 sind verbreitet.",
+   "quellen": [
+    "https://www.neoperl.com/us/en/oem/products/faucet-aerators/aerators-with-housings",
+    "https://www.grohe.de/de_de/mousseur-48159000.html",
+    "https://www.grohe.com/en-MT/product/no-collection-grohe-mousseur-chrome-13929000",
+    "https://www.ebay.de/p/1106372784"
+   ]
+  },
+  {
+   "bezeichnung": "M28x1 außen (AG)",
+   "beschreibung": "Größere Gehäusegröße (bei Neoperl „TF/Tubfiller“) mit Außengewinde M28x1; Serviceschlüssel nennen Schlüsselweite 26. Grohe-Demontageschlüssel 48021000 deckt M28x1-Gehäuse ab.",
+   "quellen": [
+    "https://www.neoperl.com/us/en/oem/products/faucet-aerators/aerators-with-housings",
+    "https://www.grohe.de/de_de/demontagewerkzeug-48021000.html",
+    "https://www.oeg.net/en/perlator-dl-aerator-m28-x-1-802003027",
+    "https://www.ebay.de/p/1106372784"
+   ]
+  },
+  {
+   "bezeichnung": "M24x1 integriert (Caché STD)",
+   "beschreibung": "Verdeckter Strahlregler ohne sichtbares Gehäuse, Gewinde direkt im Auslauf; nur mit passendem Schlüssel zu lösen (Grohe 48021000 deckt integrierte M24x1 ab).",
+   "quellen": [
+    "https://www.neoperl.com/us/en/aftermarket/products/faucet-aerators/threaded-aerators/cache",
+    "https://www.grohe.de/de_de/demontagewerkzeug-48021000.html"
+   ]
+  },
+  {
+   "bezeichnung": "M21,5x1 integriert (Caché JR)",
+   "beschreibung": "Verdeckte Junior-Größe. Grohe-Beispiel: AquaGuide-Mousseur 48270000 (M21,5x1, Essence). Schlüssel 48021000 passt laut Grohe.",
+   "quellen": [
+    "https://www.neoperl.com/us/en/aftermarket/products/faucet-aerators/threaded-aerators/cache",
+    "https://www.grohe.de/de_de/-mousseur-48270000.html",
+    "https://www.grohe.de/de_de/demontagewerkzeug-48021000.html"
+   ]
+  },
+  {
+   "bezeichnung": "M18,5x1 integriert (Caché TJ)",
+   "beschreibung": "Verdeckte Tom-Junior-Größe; Grohe-Schlüssel 48021000 passt laut Grohe.",
+   "quellen": [
+    "https://www.neoperl.com/us/en/aftermarket/products/faucet-aerators/threaded-aerators/cache",
+    "https://www.grohe.de/de_de/demontagewerkzeug-48021000.html"
+   ]
+  },
+  {
+   "bezeichnung": "M16,5x1 integriert (Caché TT)",
+   "beschreibung": "Kleinste verdeckte Größe (Tom Thumb); Grohe-Schlüssel 48021000 passt laut Grohe.",
+   "quellen": [
+    "https://www.neoperl.com/us/en/aftermarket/products/faucet-aerators/threaded-aerators/cache",
+    "https://www.grohe.de/de_de/demontagewerkzeug-48021000.html"
+   ]
+  },
+  {
+   "bezeichnung": "M20x1 außen / M19x1 innen (TJ)",
+   "beschreibung": "Kleinere Gehäusegröße „Tom Junior“ laut Neoperl; bei Grohe-Standardarmaturen nicht belegt.",
+   "quellen": [
+    "https://www.neoperl.com/us/en/oem/products/faucet-aerators/aerators-with-housings"
+   ]
+  },
+  {
+   "bezeichnung": "M18x1 außen / M16x1 innen (TT)",
+   "beschreibung": "Kleinste Gehäusegröße „Tom Thumb“ laut Neoperl; bei Grohe-Standardarmaturen nicht belegt.",
+   "quellen": [
+    "https://www.neoperl.com/us/en/oem/products/faucet-aerators/aerators-with-housings"
+   ]
+  },
+  {
+   "bezeichnung": "M24x1,5 (Sondergewinde)",
+   "beschreibung": "Feingewinde mit 1,5 mm Steigung (z. B. Neoperl Atomizer) – nicht mit M24x1 kompatibel.",
+   "quellen": [
+    "https://www.neoperl.com/us/en/oem/products/faucet-aerators/threaded-aerators/atomizer-with-thread",
+    "https://www.neoperl.com/us/en/oem/products/faucet-aerators/threaded-aerators"
+   ]
+  }
+ ],
+ "widersprueche": [
+  {
+   "thema": "47439000 vs. 47450000 – komplette Kartusche oder nur Thermoelement?",
+   "aussage_a": "Grohe führt 47450000 als „Thermoelement 1/2″“ (Dehnstoff-Element, O-Ringe separat) für Chiara/Sentosa; die komplette „Thermostat-Kompaktkartusche 1/2″“ für Grohtherm 800/1000/Precision Trend ist 47439000.",
+   "quelle_a": "https://www.grohe.de/de_de/thermoelement-1-2-47450000.html",
+   "aussage_b": "Händler verkaufen 47450000 als „Universal Thermostatic Tap Cartridge“; umgekehrt heißt 47439000 bei Amazon „Spare Thermostatic Element“. Käufer berichten von Fehlkäufen durch die Verwechslung.",
+   "quelle_b": "https://www.fixthebog.uk/grohe-universal-thermostatic-tap-cartridge-chrome-plated-47450000"
+  },
+  {
+   "thema": "46048000: alte cremefarbene vs. neue blaue Ausführung",
+   "aussage_a": "Grohe führt 46048000 unverändert als Ersatzkartusche auch für alte Armaturen (z. B. Eurodisc 1999–2006, Europlus 33153IG0).",
+   "quelle_a": "https://www.grohe.de/de_de/eurodisc-1999-2006-einhand-waschtischbatterie-dn-15-33176IZ0.html",
+   "aussage_b": "eBay-Käufer: Die heute gelieferten blauen Kartuschen seien nicht baugleich mit der cremefarbenen Erstausstattung; Griffaufnahme, Metallring oder Dichtung passten teils nicht (u. a. Euroeco 32743).",
+   "quelle_b": "https://www.ebay.de/urw/GROHE+Kartusche+46+mm+Nr.+46048000/product-reviews/25032157339"
+  },
+  {
+   "thema": "46048000 passt trotz gleicher Nummer (nicht)",
+   "aussage_a": "Käufer: passt genau in eine Grohe Europlus UP-Mischbatterie von 1987, Einbau ca. 10 Minuten; Händler: passt zu vielen, aber nicht allen Grohe-Einhebelarmaturen.",
+   "quelle_a": "https://www.kaufland.at/product/300532692/",
+   "aussage_b": "Käufer: Ersatzteil passte nicht 1:1 in die Badewannenarmatur, obwohl vorab beim Hersteller nachgefragt.",
+   "quelle_b": "https://www.ebay.de/urw/GROHE+Kartusche+46+mm+Nr.+46048000/product-reviews/25032157339"
+  },
+  {
+   "thema": "Durchmesser der Kartusche 46374000",
+   "aussage_a": "Grohe: 35 mm, GROHE SilkMove, Temperaturbegrenzer, Mengenbegrenzung.",
+   "quelle_a": "https://www.grohe.de/de_de/kartusche-46374000.html",
+   "aussage_b": "Händler betitelt 46374000 als „Cartridge with 40 mm sealing system“.",
+   "quelle_b": "https://groupsumi.es/en/bathroom/bathroom-taps/faucet-accessories/cartridge-with-40-mm-sealing-system-46374000"
+  },
+  {
+   "thema": "Pauschale Serienangaben bei 46374000 (Eurosmart/Essence/Concetto)",
+   "aussage_a": "Händler bewirbt 46374000 pauschal als Kartusche für Eurosmart, Essence und Concetto.",
+   "quelle_a": "https://www.fixthebog.uk/grohe-46374000-35mm-silkmove-ceramic-cartridge-eurosmart-essence-concetto",
+   "aussage_b": "Grohe-Ersatzteillisten: Essence-Waschtischarmaturen (z. B. 24172001) nutzen 46580000 (28 mm), viele Eurosmart-Waschtischarmaturen 46580000 oder 48518000; 46374000 nur bei bestimmten Artikelnummern.",
+   "quelle_b": "https://www.grohe.de/de_de/essence-einhand-waschtischbatterie-1-2-s-size-24172001.html"
+  },
+  {
+   "thema": "Baujahr Eurosmart 32926/32928",
+   "aussage_a": "Bricozor (Seite Keramikkartuschen) ordnet die Referenzen 32926 und 32928 der Eurosmart 2000–2006 zu.",
+   "quelle_a": "https://www.bricozor.com/cartouche-ceramique-grohe.html",
+   "aussage_b": "Bricozor (Seite 46589001) datiert dieselben Referenzen „ab 2007“; Grohe nennt für 32926002 die Energiespar-Kartusche 46863000.",
+   "quelle_b": "https://www.bricozor.com/cartouche-grohe-eco-46589001.html"
+  },
+  {
+   "thema": "46592000 – Schlauch oder Spülbrause?",
+   "aussage_a": "Showerspares/Onninen: 46592000 ist eine herausziehbare Spülbrause (Brausekopf).",
+   "quelle_a": "https://showerspares.com/search/grohe-pull-out-spray-chrome-46592",
+   "aussage_b": "Drittanbieter-Ersatzschlauch wird mit „46174000 46092000 46592000“ betitelt, als wäre 46592000 eine Schlauchnummer.",
+   "quelle_b": "https://www.manomano.co.uk/p/46174000-46092000-46592000-extendable-spray-hose-for-grohe-kitchen-faucets-extendable-kitchen-faucet-hose-as-a-replacement-for-alira-ladylux-and-euro-plus-90411419"
+  },
+  {
+   "thema": "Strahlregler mit Essig/Zitronensäure entkalken",
+   "aussage_a": "Grohe rät von Haushaltsessig, säurehaltigen Reinigern und Kalklösern ab (greifen die Oberfläche an; Schäden nicht von der Gewährleistung gedeckt) und empfiehlt Seife bzw. GrohClean. Die Seite bezieht sich auf Armaturenoberflächen, nicht ausdrücklich auf ausgebaute Mousseur-Einsätze.",
+   "quelle_a": "https://www.grohe.com/de-DE/service-support/wartung-reparatur/pflegeanleitungen",
+   "aussage_b": "Ratgeber empfehlen, den abgeschraubten Perlator stundenweise in Essig bzw. Zitronensäure einzulegen (Dichtung herausnehmen).",
+   "quelle_b": "https://www.selbst.de/perlator-entkalken-20940.html"
+  },
+  {
+   "thema": "Demontageschlüssel 48021000 – passt er auf Grohe-Mousseure?",
+   "aussage_a": "Grohe: für Mousseure mit Gehäuse M22x1/M24x1/M28x1 und integrierte M16,5x1/M18,5x1/M21,5x1/M24x1.",
+   "quelle_a": "https://www.grohe.de/de_de/demontagewerkzeug-48021000.html",
+   "aussage_b": "Amazon-Rezensionen: Kunststoffzähne brechen an verkalkten Mousseuren; einzelne Käufer melden, er passe nicht bei Grohe, Star und Keuco.",
+   "quelle_b": "https://www.amazon.de/-/en/GROHE-48021000-Grooved-Disassembly-Tool/dp/B006WO3MGM"
+  },
+  {
+   "thema": "Dichtungsset 46209000 noch einzeln erhältlich?",
+   "aussage_a": "Grohe führt 46209000 als eigenes Dichtungsset (Unterposition zur Kartusche 46048000, z. B. Europlus 33863IK0; auch zu 46409000).",
+   "quelle_a": "https://www.grohe.de/de_de/europlus-einhand-spueltischbatterie-1-2-33863IK0.html",
+   "aussage_b": "Showerspares: 46209000 sei durch die komplette Kartusche 46048000 ersetzt.",
+   "quelle_b": "https://showerspares.com/search/grohe_seal_pack_46209_000"
+  }
+ ],
+ "nicht_geprueft": [
+  "Keine Seite konnte direkt geladen werden (WebFetch für grohe.de, grohe.com, cdn.cloud.grohe.com, heizman24.de und megabad.com gesperrt). Alle Grohe-Zuordnungen stammen aus Suchergebnis-Auszügen der jeweiligen grohe.de/grohe.com-Produktseiten. Vor Veröffentlichung stichprobenartig im Browser gegenprüfen, besonders Einträge, die nur einmal gesehen wurden (BauLoop-Küche 31706000, Montageschlüssel 19017000, Kartusche 46907000).",
+  "Fundort der Artikelnummer an der Armatur selbst (Aufkleber am Anschlussschlauch oder unter dem Waschtisch, Gravur) ist durch keine Grohe-Quelle belegt; Grohe nennt nur Verpackung, Rechnung/Lieferschein, Installationsanleitung und die Product-Finder-App.",
+  "Austauschbarkeit der beiden 28-mm-Kartuschen 46580000 und 48518000 (beide mit Temperaturbegrenzer) ist nicht belegt; Grohe nennt je Artikelnummer genau eine.",
+  "Austauschbarkeit von 46374000 und der Energiespar-Variante 46863000 (beide 35 mm) ist nicht belegt.",
+  "Exakte Produktionszeiträume der Generationen (Eurosmart, Eurostyle, BauEdge, Start, Essence, Concetto) sind nicht belegt; Jahreszahlen nur aus Grohe-URL-Bezeichnungen (Europlus 1987–1996, Eurodisc 1999–2006, Ladylux 1983–1999, Chiara 1993–2007) und Broschüren (Eurosmart 2021, Eurostyle-Katalog 2015, BauEdge/BauLoop 2023).",
+  "Start Edge 23898001 (Kartusche 48533000) und Start Loop 23915001 (Nummer 1030059990) wurden nicht aufgenommen, weil keine Produktdaten gefunden wurden.",
+  "Eurosmart-Cosmopolitan-Küche 30194000 (Kartusche 46558000) und 31161000 (46048000 und Keramik-Kartusche 46318000) wurden nur einmal gesehen und nicht als Zuordnung aufgenommen.",
+  "Grohtherm-800-Ersatzteilblatt 34 565 002 (→ 47439000) wurde nicht eindeutig einer URL zugeordnet; Grohtherm-800-Variante 1022022430 nennt auf grohe.de keine Kartuschennummer.",
+  "Grohtherm Special Wanne 34665000 listet sowohl 47439000 als auch 47885000. Auf der Grohtherm-800-Cosmopolitan-Seite heißt Pos. 5.1 (47189000) einmal Rückflussverhinderer, einmal Schmutzfangsieb; nicht aufgelöst.",
+  "Inhalt des Dichtungssets 46760000 ist unbekannt. Länge und Gewinde von 46174000 stammen nur aus einem eBay-Angebot, Druckangaben zu 46092000 (5 bzw. 10 bar) nur aus widersprüchlichen Händlerangaben.",
+  "Durchflussklassen der Neoperl-Größen und der Tipp, die Schlüsselweite als Erkennungsmerkmal zu nutzen, stammen aus Händlerangaben. Grohe-Mousseur-Nummern sind nur für einzelne Modelle zugeordnet; für die meisten Serien fehlt der Mousseur.",
+  "Die Justierpflicht nach Kartuschentausch ist laut Suchergebnis in mehreren Grohe-Montageanleitungen enthalten; die zitierte PDF-URL ist eine davon, die genaue Seite wurde nicht geöffnet.",
+  "Amazon-ASINs wurden für Mousseure (48159000, 13929000, 13935000, 48270000), 46209000, 46963000, 46409000, 45352000 und 49175000 nicht recherchiert, weil das Suchbudget aufgebraucht war. Preise sind nur Momentaufnahmen aus Suchergebnissen.",
+  "Ob Grohe-Thermostate mit Durchlauferhitzern bzw. drucklosen Speichern funktionieren, wurde nicht mit einer Grohe-Quelle belegt (nur ein Hornbach-Datenblatt im Suchergebnis)."
+ ]
+}
