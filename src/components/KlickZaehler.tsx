@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 
 // Zählt Klicks auf Affiliate-Links (rel="sponsored"), ohne die Links umzuleiten:
-// Der Link geht weiter direkt zu Amazon, parallel geht ein Beacon an /api/klick.
+// Der Link geht weiter direkt zu Amazon bzw. Awin, parallel geht ein Beacon an /api/klick.
 export default function KlickZaehler() {
   useEffect(() => {
     function melden(e: MouseEvent) {
@@ -14,6 +14,7 @@ export default function KlickZaehler() {
         ziel: ziel.href,
         platzierung: ziel.dataset.platzierung ?? null,
         kennung: ziel.dataset.kennung ?? null,
+        shop: ziel.dataset.shop ?? null,
       };
       try {
         const blob = new Blob([JSON.stringify(daten)], { type: "application/json" });

@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { supabase } from "@/lib/supabase";
+import TeilBild from "@/components/TeilBild";
 import {
   Brotkrumen,
+  GuenstigstesAngebot,
   JsonLd,
   KaufButton,
   NummerPruefen,
@@ -14,6 +16,7 @@ import {
   PRODUKTTYP_LABEL,
   SITE_URL,
   TEILTYP_LABEL,
+  angeboteFuerTeile,
   baujahre,
   gruppiere,
   hostVon,
@@ -51,7 +54,8 @@ export default async function SerienSeite({ params }: Props) {
   const { marke, serie } = geladen;
 
   const zuordnungen = await zuordnungenFuerSerien([serie.id]);
-  const teile = await teileNachIds(zuordnungen.map((z) => z.teil_id));
+  const teilIds = zuordnungen.map((z) => z.teil_id);
+  const [teile, angebote] = await Promise.all([teileNachIds(teilIds), angeboteFuerTeile(teilIds)]);
   const teilVon = new Map(teile.map((t) => [t.id, t]));
   const zeilen = zuordnungen
     .map((z) => ({ z, t: teilVon.get(z.teil_id) }))
@@ -120,8 +124,13 @@ export default async function SerienSeite({ params }: Props) {
                 {zeilen.map(({ z, t }) => (
                   <tr key={t.id} className="align-top">
                     <td className="px-4 py-3">
-                      <a href={`/teil/${t.slug}`} className="font-medium hover:text-amber-700">{t.name}</a>
-                      <div className="text-xs text-stone-500">{TEILTYP_LABEL[t.teiltyp] ?? t.teiltyp}</div>
+                      <div className="flex gap-3">
+                        <TeilBild url={t.bild_url} alt={t.name} groesse={48} />
+                        <div>
+                          <a href={`/teil/${t.slug}`} className="font-medium hover:text-amber-700">{t.name}</a>
+                          <div className="text-xs text-stone-500">{TEILTYP_LABEL[t.teiltyp] ?? t.teiltyp}</div>
+                        </div>
+                      </div>
                     </td>
                     <td className="px-4 py-3 whitespace-nowrap">{t.oem_nummer ?? "–"}</td>
                     <td className="px-4 py-3">
@@ -135,6 +144,7 @@ export default async function SerienSeite({ params }: Props) {
                     </td>
                     <td className="px-4 py-3 text-right">
                       <KaufButton teil={t} markeName={marke.name} klein />
+                      <GuenstigstesAngebot teil={t} angebote={angebote} />
                     </td>
                   </tr>
                 ))}

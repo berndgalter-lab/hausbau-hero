@@ -251,7 +251,7 @@ export default function DatenschutzPage() {
         <h3 className="text-lg font-semibold mt-5 mb-2">Affiliate-Links</h3>
         <p className="text-stone-700 leading-relaxed mb-3">
           Bei Klick auf einen Affiliate-Link werden Sie an einen externen
-          Shop (z.B. Amazon.de) weitergeleitet. Dabei wird ein Cookie des
+          Shop (z.B. Amazon.de, hagebau.de oder Contorion) weitergeleitet. Dabei wird ein Cookie des
           jeweiligen Shops gesetzt, der den Kauf Ihrer Sitzung zuordnet.
           Rechtsgrundlage ist unser berechtigtes Interesse an der
           Auswertung unserer Affiliate-Einnahmen (Art. 6 Abs. 1 lit. f
@@ -260,7 +260,7 @@ export default function DatenschutzPage() {
         <p className="text-stone-700 leading-relaxed mb-3">
           Zusätzlich zählen wir Klicks auf Affiliate-Links selbst. Dabei
           speichern wir nur die Seite, auf der geklickt wurde, das Ziel
-          (z.B. amazon.de), die Position des Links und den Zeitpunkt –
+          (z.B. amazon.de oder awin1.com und den Shop), die Position des Links und den Zeitpunkt –
           keine IP-Adresse, keine Cookies und keine anderen
           personenbezogenen Daten. Rechtsgrundlage ist unser berechtigtes
           Interesse an der Verbesserung unserer Inhalte (Art. 6 Abs. 1
@@ -299,6 +299,48 @@ export default function DatenschutzPage() {
         </p>
       </section>
 
+      {/* 7a */}
+      <section className="mb-8">
+        <h3 className="text-lg font-semibold mt-5 mb-2">Awin-Partnerprogramm</h3>
+        <p className="text-stone-700 leading-relaxed mb-3">
+          Links zu weiteren Shops (z.B. hagebau.de, Contorion) laufen über das
+          Partnernetzwerk Awin (Awin AG, Landsberger Allee 104 BC, 10249
+          Berlin). Klicken Sie auf einen solchen Link, setzt Awin
+          Tracking-Cookies und nutzt nach eigenen Angaben auch Journey Tags und
+          Device Fingerprinting, um einen Kauf unserer Website zuzuordnen. Awin
+          erfährt dabei nicht, wer Sie sind. Rechtsgrundlage ist Art. 6 Abs. 1
+          lit. f DSGVO; unser berechtigtes Interesse ist die Abrechnung der
+          Provision.
+        </p>
+        <p className="text-stone-700 leading-relaxed mb-3">
+          Datenschutzerklärung von Awin:{" "}
+          <a
+            href="https://www.awin.com/de/rechtliches/privacy-policy-DACH"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-amber-600 hover:text-amber-700 break-all"
+          >
+            https://www.awin.com/de/rechtliches/privacy-policy-DACH
+          </a>
+          . Dem Awin-Tracking können Sie hier widersprechen:{" "}
+          <a
+            href="https://www.awin.com/de/rechtliches/optout"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-amber-600 hover:text-amber-700 break-all"
+          >
+            https://www.awin.com/de/rechtliches/optout
+          </a>
+          .
+        </p>
+        <h3 className="text-lg font-semibold mt-5 mb-2">Produktbilder</h3>
+        <p className="text-stone-700 leading-relaxed mb-3">
+          Produktbilder aus den Datenfeeds der Partnershops werden über unseren
+          eigenen Server (Vercel) ausgeliefert. Ihr Browser lädt sie also nicht
+          direkt vom Shop, dabei werden keine Daten an den Shop übertragen.
+        </p>
+      </section>
+
       {/* 8 */}
       <section className="mb-8">
         <h2 className="text-xl font-bold mb-3">8. Cookies</h2>
@@ -308,7 +350,7 @@ export default function DatenschutzPage() {
           Wir nutzen Vercel Web Analytics, einen cookielosen Analysedienst (siehe Abschnitt 5a).
         </p>
         <p className="text-stone-700">
-          Cookies von Drittanbietern (z.B. Amazon) werden ausschließlich
+          Cookies von Drittanbietern (z.B. Amazon, Awin) werden ausschließlich
           beim Klick auf Affiliate-Links gesetzt. Durch den Klick auf
           einen Affiliate-Link erklären Sie sich mit dem Setzen dieser
           Cookies einverstanden.

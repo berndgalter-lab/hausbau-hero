@@ -25,3 +25,18 @@ npm run build
 
 ## Neues Silo in 30 Minuten
 SQL INSERT in Supabase → Seite ist live. Siehe `scripts/seed-rechner.sql` als Vorlage.
+
+## Partnershops (Awin) und Produktbilder
+
+Neben Amazon zeigen die Teile-Seiten Angebote von **hagebau.de** (Awin 11513) und **Contorion** (Awin 14578)
+mit Preis, Lieferbarkeit und Produktbild.
+
+Ablauf: Der GitHub-Workflow `partner-feeds` gleicht die Awin-Feeds täglich mit der Tabelle `teile` ab
+(`scripts/import/awin_feed.py`) und legt `angebote.json` in den Branch `feed-daten`. Supabase holt die Datei
+stündlich ab (`intern.angebote_aus_github()`, pg_cron) und schreibt `angebote` und `teile.bild_url`.
+GitHub braucht dafür **nur ein Secret**: `AWIN_FEED_URL` (dieselbe Feed-URL wie bei womo-teile).
+
+- Probelauf: Actions → partner-feeds → „Run workflow“. Das Ergebnis (Bericht, Kandidaten-Liste) liegt dann im
+  Branch `feed-probe` und geht nicht live.
+- Protokoll in Supabase: `select * from intern.feed_importe order by id desc limit 5;`
+- Neuer Shop: in `SHOPS` im Skript ergänzen und dessen Bild-Host in `src/lib/bild-hosts.json` eintragen.

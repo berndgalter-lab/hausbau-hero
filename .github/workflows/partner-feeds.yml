@@ -1,0 +1,85 @@
+# Täglicher Abgleich der Awin-Feeds (hagebau.de, Contorion) mit den Ersatzteilen.
+# Logik und Regeln: scripts/import/awin_feed.py
+#
+# Ablauf: Das Skript liest die Teile mit dem öffentlichen Supabase-Schlüssel, gleicht die Feeds ab
+# und legt angebote.json in den Branch feed-daten. Supabase holt die Datei stündlich ab
+# (intern.angebote_aus_github, pg_cron). GitHub braucht deshalb keinen Datenbank-Schlüssel.
+#
+# Einziges Secret (GitHub → Settings → Secrets and variables → Actions → New repository secret):
+#   AWIN_FEED_URL   Feed-Download-URL aus Awin (dieselbe wie bei womo-teile)
+# Optional als Variable: AWIN_FEED_IDS, z. B. "hagebau=12345,contorion=67890"
+#
+# Von Hand gestartet ist der Lauf ein Probelauf: Das Ergebnis landet im Branch feed-probe
+# (nicht live) und kann dort geprüft werden.
+name: partner-feeds
+
+on:
+  schedule:
+    # 3:17 Uhr UTC. Supabase spielt das Ergebnis zur nächsten vollen Stunde + 7 Minuten ein.
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+    inputs:
+      probe:
+        description: "Probelauf: Ergebnis nur in den Branch feed-probe, nicht live"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: partner-feeds
+  cancel-in-progress: false
+
+jobs:
+  feeds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      # Öffentliche Werte: stecken ohnehin im JavaScript der Website und erlauben nur Lesen.
+      NEXT_PUBLIC_SUPABASE_URL: https://jyxhjcupgazugjglpeum.supabase.co
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp5eGhqY3VwZ2F6dWdqZ2xwZXVtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM4Mjc2MTksImV4cCI6MjA4OTQwMzYxOX0.BA3a6e38vHaEjkqLGxSPX5rUkF40HqRDBM74nGCYWmc
+      ZIEL: ${{ github.event_name == 'workflow_dispatch' && inputs.probe && 'feed-probe' || 'feed-daten' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tests
+        run: python3 -I scripts/import/test_awin_feed.py
+
+      - name: Feeds abgleichen
+        id: abgleich
+        env:
+          AWIN_FEED_URL: ${{ secrets.AWIN_FEED_URL }}
+          AWIN_API_KEY: ${{ secrets.AWIN_API_KEY }}
+          AWIN_FEED_IDS: ${{ vars.AWIN_FEED_IDS }}
+        run: |
+          if [ -z "$AWIN_FEED_URL$AWIN_API_KEY" ]; then
+            echo "::warning::Secret AWIN_FEED_URL fehlt – Feed-Abgleich übersprungen. Siehe Kopf von .github/workflows/partner-feeds.yml."
+            exit 0
+          fi
+          mkdir -p ausgabe
+          python3 -I scripts/import/awin_feed.py --trocken \
+            --json-ausgabe ausgabe/angebote.json --bericht ausgabe/bericht.csv --kandidaten ausgabe/kandidaten.csv \
+            | tee ausgabe/protokoll.txt
+          echo "lief=ja" >> "$GITHUB_OUTPUT"
+
+      - name: Ergebnis in Branch ${{ env.ZIEL }} legen
+        if: steps.abgleich.outputs.lief == 'ja'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd ausgabe
+          # Der Branch enthält nur Daten: Vercel soll daraus nichts bauen.
+          echo '{"git":{"deploymentEnabled":false}}' > vercel.json
+          printf '# %s\n\nAutomatisch erzeugt von .github/workflows/partner-feeds.yml am %s.\nSupabase liest angebote.json aus dem Branch feed-daten.\n' "$ZIEL" "$(date -u '+%F %H:%M UTC')" > README.md
+          git init -q -b "$ZIEL"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Feed-Daten $(date -u +%F)"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$ZIEL"
+          echo "Ergebnis liegt im Branch $ZIEL."

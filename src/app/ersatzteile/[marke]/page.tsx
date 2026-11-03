@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import TeilBild from "@/components/TeilBild";
 import {
   Brotkrumen,
+  GuenstigstesAngebot,
   JsonLd,
   KaufButton,
   Quellen,
@@ -12,6 +14,7 @@ import {
   PRODUKTTYP_LABEL,
   SITE_URL,
   TEILTYP_LABEL,
+  angeboteFuerTeile,
   baujahre,
   gruppiere,
   markeNachSlug,
@@ -48,6 +51,7 @@ export default async function MarkenHub({ params }: Props) {
 
   const serienGruppen = gruppiere(serien, (s) => s.produkttyp);
   const teileGruppen = gruppiere(teile, (t) => t.teiltyp);
+  const angebote = await angeboteFuerTeile(teile.map((t) => t.id));
   const pfad = [
     { name: "Start", href: "/" },
     { name: "Ersatzteile", href: "/ersatzteile" },
@@ -128,11 +132,17 @@ export default async function MarkenHub({ params }: Props) {
               <ul className="divide-y divide-stone-100 bg-white border border-stone-200 rounded-lg">
                 {liste.map((t) => (
                   <li key={t.id} className="flex flex-col sm:flex-row sm:items-center gap-2 px-4 py-3">
-                    <div className="flex-1">
-                      <a href={`/teil/${t.slug}`} className="font-medium hover:text-amber-700">{t.name}</a>
-                      {t.oem_nummer && <span className="text-xs text-stone-500 ml-2">Nr. {t.oem_nummer}</span>}
+                    <div className="flex-1 flex items-center gap-3">
+                      <TeilBild url={t.bild_url} alt={t.name} groesse={48} />
+                      <div>
+                        <a href={`/teil/${t.slug}`} className="font-medium hover:text-amber-700">{t.name}</a>
+                        {t.oem_nummer && <span className="text-xs text-stone-500 ml-2">Nr. {t.oem_nummer}</span>}
+                      </div>
                     </div>
-                    <KaufButton teil={t} markeName={marke.name} klein />
+                    <div className="sm:text-right">
+                      <KaufButton teil={t} markeName={marke.name} klein />
+                      <GuenstigstesAngebot teil={t} angebote={angebote} />
+                    </div>
                   </li>
                 ))}
               </ul>

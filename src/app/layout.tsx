@@ -121,7 +121,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="mx-auto max-w-5xl px-4 py-8 text-sm text-stone-500">
             <p>
               © {new Date().getFullYear()} Hausbau Hero. Als Amazon-Partner
-              verdienen wir an qualifizierten Verkäufen.
+              verdienen wir an qualifizierten Verkäufen. Links zu weiteren Shops
+              (z. B. hagebau.de, Contorion) sind Partnerlinks über Awin.
             </p>
             <div className="mt-2 flex gap-4">
               <a href="/impressum" className="hover:text-stone-700">Impressum</a>

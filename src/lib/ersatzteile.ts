@@ -49,7 +49,27 @@ export interface Teil {
   werkzeug: string | null;
   amazon_asin: string | null;
   affiliate_url: string | null;
+  bild_url: string | null;
+  bild_quelle: "awin" | "amazon" | "eigen" | null;
+  bild_shop: string | null;
   quellen: string[];
+}
+
+/** Angebot eines Partnershops (Awin-Feed, täglich abgeglichen von scripts/import/awin_feed.py). */
+export interface Angebot {
+  id: string;
+  teil_id: string;
+  shop: string;
+  shop_name: string;
+  produkt_name: string;
+  url: string;
+  preis: number | null;
+  versand: number | null;
+  vorraetig: boolean | null;
+  lieferzeit: string | null;
+  bild_url: string | null;
+  treffer: "ean" | "nummer";
+  stand: string;
 }
 
 export interface Zuordnung {
@@ -157,6 +177,38 @@ export function teilKauflink(teil: Teil, markeName: string): string | null {
   return mitTrackingId(`https://www.amazon.de/s?k=${encodeURIComponent(suche).replace(/%20/g, "+")}&tag=${STANDARD_TAG}`, "teil");
 }
 
+/** Angebote älter als das zeigen wir nicht: Dann ist der Feed-Lauf ausgefallen und der Preis womöglich falsch. */
+const ANGEBOT_MAX_ALTER_TAGE = 3;
+
+/** Preis nur bei vorrätiger (oder unbekannter) Ware. Nicht vorrätig mit Preis wäre ein Lockangebot (UWG). */
+export function zeigePreis(a: Angebot): boolean {
+  return a.preis !== null && a.vorraetig !== false;
+}
+
+/** Günstigste zuerst, nicht vorrätige ans Ende. */
+export function sortiereAngebote(liste: Angebot[]): Angebot[] {
+  return [...liste].sort((a, b) => {
+    const pa = zeigePreis(a) ? a.preis! : Infinity;
+    const pb = zeigePreis(b) ? b.preis! : Infinity;
+    return pa - pb || a.shop_name.localeCompare(b.shop_name);
+  });
+}
+
+export function formatEuro(betrag: number): string {
+  return betrag.toLocaleString("de-DE", { style: "currency", currency: "EUR" });
+}
+
+export function formatStand(iso: string): string {
+  return new Date(iso).toLocaleString("de-DE", {
+    timeZone: "Europe/Berlin",
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
 export function hostVon(url: string): string {
   try {
     return new URL(url).hostname.replace(/^www\./, "");
@@ -224,6 +276,17 @@ export async function serienNachIds(ids: string[]): Promise<Serie[]> {
   if (ids.length === 0) return [];
   const { data } = await supabase.from("serien").select("*").in("id", ids);
   return (data as Serie[]) ?? [];
+}
+
+export async function angeboteFuerTeile(teilIds: string[]): Promise<Angebot[]> {
+  if (teilIds.length === 0) return [];
+  const ab = new Date(Date.now() - ANGEBOT_MAX_ALTER_TAGE * 86400_000).toISOString();
+  const { data } = await supabase
+    .from("angebote")
+    .select("id, teil_id, shop, shop_name, produkt_name, url, preis, versand, vorraetig, lieferzeit, bild_url, treffer, stand")
+    .in("teil_id", teilIds)
+    .gte("stand", ab);
+  return sortiereAngebote((data as Angebot[]) ?? []);
 }
 
 export async function teilNachSlug(slug: string): Promise<Teil | null> {
