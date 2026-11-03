@@ -1,0 +1,1280 @@
+{
+ "marke": {
+  "slug": "franke",
+  "name": "Franke",
+  "beschreibung": "Schweizer Hersteller von Küchenspülen (Edelstahl, Fragranit/Granit, Keramik) und Küchenarmaturen. Für ältere Franke-Spülen mit 3½\"-Ablauf und Excenter-Bedienung unterscheiden Ersatzteilhändler durchgängig zwei Generationen: Spülen „bis Baujahr 1999“ und „ab Baujahr 1999“ – Siebkorb, Bowdenzug und Drehexcenter-Kappe sind zwischen den Generationen nicht austauschbar. Für sehr alte Spülen (vor 1994) wird der Bowdenzug nur zusammen mit dem Abgangsbogen angeboten. Franke verkauft Ersatzteile im eigenen Webshop (webshop.franke.com, Kategorie Ersatzteile; die angezeigten Preise sind laut Shop Katalogpreise); Franke UK verweist für Armaturen-Ersatzteile ebenfalls auf den Webshop.",
+  "nummer_hinweis": "Franke-Artikelnummern sind 10-stellig im Format NNN.NNNN.NNN; Händler schreiben sie oft ohne Punkte (133.0005.611 = 1330005611). Spülen und Armaturen: z. B. Basis BFG 611-78 Onyx 114.0256.610, Mythos MTG 611-100 114.0476.995, Euroform EFL 614-78 101.0017.703, Euroform EFX 614-78 101.0024.026. Ersatzteile: 112.xxxx.xxx überwiegend für komplette Ab- und Überlaufgarnituren/Ventile (z. B. 112.0006.281), 133.xxxx.xxx für Einzelteile wie Siebkörbe, Bowdenzüge, Kappen, Dichtungen, Kartuschen (z. B. 133.0005.611). Ältere Teile hatten andere Nummern (902.430.106 → 112.0006.251; Bowdenzug 900747005 → 133.0005.633, 900747007 → 133.0005.635). Neuere Franke-Produktseiten bieten eine Ersatzteilzeichnung als PDF. Bei alten Spülen ohne Unterlagen helfen Baujahr (vor/nach 1999), Ablaufgröße (3½\" oder 1½\"), Bedienart (Excenter, Stopfen/Handbetätigung, Integral) und der Durchmesser des alten Siebkorbs. Wo die Modellnummer an der Spüle steht, belegt keine gefundene Franke-Quelle.",
+  "ersatzteil_garantie": "Keine Franke-Aussage zur Dauer der Ersatzteilverfügbarkeit gefunden. Ersatzteile sind über den Franke-Webshop und viele Fachhändler erhältlich; für Spülen vor 1994 bieten Händler teils nur noch Komplettsets (Bowdenzug mit Abgangsbogen).",
+  "hersteller_ersatzteil_url": "https://webshop.franke.com/de/de/products?query=%3A%3AexcludedFromIndex%3Afalse%3AfamilyCodes%3A001%3ASCC_SPARE_PARTS_SCC_SPAREPARTS%3ASCC_SPAREPARTS_SINK",
+  "quellen": [
+   "https://webshop.franke.com/de/de/products?query=%3A%3AexcludedFromIndex%3Afalse%3AfamilyCodes%3A001%3ASCC_SPARE_PARTS_SCC_SPAREPARTS%3ASCC_SPAREPARTS_SINK",
+   "https://webshop.franke.com/de/de/products?query=%3Arelevance%3AexcludedFromIndex%3Afalse%3AfamilyCodes%3A001%3ASCC_SPARE_PARTS_SCC_SPAREPARTS%3ASCC_SPAREPARTS_ACCESSORIES",
+   "https://www.franke.com/gb/en/home-solutions/support/spares-and-servicing.html",
+   "https://www.franke.com/de/de/home-solutions/produkte/kuechenspuelen/product-detail-page.html/127.0378.717.html",
+   "https://www.franke.com/de/de/home-solutions/produkte/kuechenspuelen/product-detail-page.html/114.0256.610.html",
+   "https://www.moebelplus.de/franke-euroform-efl-614-78-101-0017-703-edelstahlspuele-leinen.html"
+  ]
+ },
+ "serien": [
+  {
+   "slug": "spuelen-bis-1999",
+   "name": "Franke-Spülen mit 3½\"-Ablauf bis Baujahr 1999 (alte Ausführung)",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": 1999,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Händler-Kriterien: Siebkorb mit ca. 77 mm Durchmesser; Drehexcenter-Kappe ohne Verschraubung aus Edelstahl mit Franke-Logo; Bowdenzug mit Kugeln (1994–1999) – laut KitchenKing auch erkennbar an einer weißen Abgangsgarnitur. Vor 1994: Bowdenzug mit Kugel, der nur mit dem Abgangsbogen zusammen getauscht wird.",
+   "beschreibung": "Sammel-Eintrag für die Suche „Franke Spüle Ersatzteile vor 1999“. Händler unterscheiden für ältere 3½\"-Spülen mit Excenter bzw. Handbetätigung durchgängig zwischen „bis Baujahr 1999“ und „ab Baujahr 1999“; Teile beider Generationen passen nicht untereinander. Die Zuordnungen stammen ausschließlich von Händlern, nicht von Franke – Maße am alten Teil vergleichen.",
+   "quellen": [
+    "https://www.ebay.de/p/2256000966",
+    "https://www.kilean.de/Siebkorb-manuell-fuer-Franke-Spuelen-bis-1999-/-Ersatzteil-/-Handbedienung-/Siebkorb",
+    "https://www.kitchenking.de/excenterbedienung-bowdenzug-passend-fuer-franke-spuelen-3-5-zoll-bis-baujahr-1999.html",
+    "https://www.kilean.de/FRANKE-Drehexcenter-Kappe-fuer-Spuelen-bis-Baujahr-1999-Ersatzteil-KILEAN",
+    "https://www.ebay.de/p/1207307964"
+   ]
+  },
+  {
+   "slug": "spuelen-ab-1999",
+   "name": "Franke-Spülen mit 3½\"-Excenter ab Baujahr 1999",
+   "produkttyp": "spuele",
+   "baujahr_von": 1999,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Siebkorb ca. 81–82 mm mit Stellschraube; Bowdenzug mit Walze an beiden Enden für 35-mm-Bohrung; Drehexcenter-Kappe mit oder ohne Verschraubung.",
+   "beschreibung": "Sammel-Eintrag für Franke-Spülen mit 3½\"-Siebkorb als Excenterventil ab Baujahr 1999 („neues Design“). Standard-Ersatzteile: Siebkorb 133.0005.611, Bowdenzug 133.0005.633, Kappe 133.0004.830 bzw. 133.0024.335.",
+   "quellen": [
+    "https://www.kaufland.at/product/324335818/",
+    "https://www.amazon.de/Franke-Exzenterventil-Ablaufgarnitur-Ablaufdurchmesser-133-0005-611/dp/B07D8N24KG",
+    "https://www.kaufland.de/product/324322186/",
+    "https://www.nextag.de/preisvergleich/500001814050_franke-bowdenzug-35-zoll-inkl.html",
+    "https://www.kilean.de/franke-drehexcenter-kappe-ohne-verschraubung-1330004830",
+    "https://www.kitchenking.de/drehexcenter-kappe-ohne-verschraubung-fuer-franke-spuelen-ab-baujahr-1999-excenterkappe-kappe-fuer-excenter-ersatzteil.html"
+   ]
+  },
+  {
+   "slug": "euroform-efg-614",
+   "name": "Franke Euroform EFG 614 (Fragranit)",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Fragranit-Spüle mit Haupt- und Restebecken; Varianten mit Endungen wie -78 oder -80 (Überlauf teils gerade, teils gebogen).",
+   "beschreibung": "Händler führen für die EFG 614(-78) mehrere Garnituren: 112.0006.281 bzw. 112.0687.873 (Excenter-Ab-/Überlaufgarnitur, Nummer widersprüchlich), 112.0006.369 (1½\" Excenter, gebogener Überlauf) und den Überlauf 133.0005.617. Ein Amazon-Angebot verkauft einen 1½\"-Excenter-Siebkorb für EFG 614 „bis Baujahr 2006“.",
+   "quellen": [
+    "https://www.kitchenking.de/franke-112-0006-281-ab-und-ueberlaufgarnitur-fuer-franke-spuelen-mit-excenterbedienung-excenterventil-ersatzteil-ablaufgarnitur.html",
+    "https://www.otto.de/p/franke-einbauspuele-franke-excenter-ab-ueberlaufgarnitur-fragranit-edelstahl-efg-614-78-S01820CM/",
+    "https://www.kilean.de/Franke-Ab-und-Ueberlaufgarnitur-Spuele-EFG614-EFX614",
+    "https://www.ebay.de/p/1307306415",
+    "https://www.amazon.de/Siebkorb-Franke-Ersatzteil-Excenterbedienung-Siebk%C3%B6rbchen/dp/B003VWXHF4"
+   ]
+  },
+  {
+   "slug": "euroform-efx-614",
+   "name": "Franke Euroform EFX 614 (Edelstahl)",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "101.0024.026"
+   ],
+   "erkennungsmerkmale": "Edelstahlspüle; Artikelnummer z. B. 101.0024.026 (EFX 614-78), Schwestermodell EFL 614-78 101.0017.703.",
+   "beschreibung": "Laut Otto Excenter-Garnitur 112.0006.331 für EFX 614-78; KILEAN nennt 112.0006.369 (1½\" Excenter) für EFG 614 und EFX 614.",
+   "quellen": [
+    "https://www.otto.de/p/franke-einbauspuele-franke-ab-ueberlaufgarnitur-spuele-euroform-efx-614-78-excenterventil-S0G8P00C/?variationId=S0G8P00CN7QQ",
+    "https://www.kilean.de/Franke-Ab-und-Ueberlaufgarnitur-Spuele-EFG614-EFX614",
+    "https://www.moebelplus.de/franke-euroform-efx-614-78-101-0024-026-edelstahlspuele.html",
+    "https://www.moebelplus.de/franke-euroform-efl-614-78-101-0017-703-edelstahlspuele-leinen.html"
+   ]
+  },
+  {
+   "slug": "maris-urban",
+   "name": "Franke Maris (MRG) und Urban (UBG)",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Fragranit-Spülen; Modellkürzel MRG (Maris) bzw. UBG (Urban), z. B. MRG 610-52, UBG 611-78.",
+   "beschreibung": "Kaufland ordnet den Excenter-Siebkorb 133.0561.041 u. a. MARIS MRG 210-37, MRG 610-52 sowie URBAN UBG 610-50 und UBG 611-78 zu.",
+   "quellen": [
+    "https://www.kaufland.de/product/447747737/"
+   ]
+  },
+  {
+   "slug": "pamira-pmg-654-e",
+   "name": "Franke Pamira PMG 654 E",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Fragranit-Spüle der Pamira-Linie.",
+   "beschreibung": "Laut eBay-Angebot passt die Hohlschraube 30 mm 133.0024.179 (Befestigung des Siebkorbventils).",
+   "quellen": [
+    "https://www.ebay.de/p/28034149908"
+   ]
+  },
+  {
+   "slug": "libera-lix-681-e",
+   "name": "Franke Libera (LIX 681-E)",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Edelstahlspüle der Libera-Linie.",
+   "beschreibung": "eBay: Ab- und Überlaufgarnitur 112.0014.073 für LIX 681-E; KitchenKing nennt Libera außerdem bei der Excenter-Garnitur 112.0006.281.",
+   "quellen": [
+    "https://www.ebay.de/p/1956277876",
+    "https://www.kitchenking.de/franke-112-0006-281-ab-und-ueberlaufgarnitur-fuer-franke-spuelen-mit-excenterbedienung-excenterventil-ersatzteil-ablaufgarnitur.html"
+   ]
+  },
+  {
+   "slug": "strata-stg-614",
+   "name": "Franke Strata STG 614",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Fragranit-Spüle der Strata-Linie.",
+   "beschreibung": "KitchenKing nennt Strata 614 bei der Excenter-Garnitur 112.0006.281.",
+   "quellen": [
+    "https://www.kitchenking.de/franke-112-0006-281-ab-und-ueberlaufgarnitur-fuer-franke-spuelen-mit-excenterbedienung-excenterventil-ersatzteil-ablaufgarnitur.html"
+   ]
+  },
+  {
+   "slug": "diana-dix",
+   "name": "Franke Diana (DIX)",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Ältere Franke-Linie mit Modellkürzel DIX.",
+   "beschreibung": "KitchenKing nennt Diana DIX bei der Excenter-Garnitur 112.0006.281.",
+   "quellen": [
+    "https://www.kitchenking.de/franke-112-0006-281-ab-und-ueberlaufgarnitur-fuer-franke-spuelen-mit-excenterbedienung-excenterventil-ersatzteil-ablaufgarnitur.html"
+   ]
+  },
+  {
+   "slug": "tal-684",
+   "name": "Franke TAL 684 / TAX",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Ältere Spüle mit 1½\"-Ablauf und Drehexcenter.",
+   "beschreibung": "eBay: Ablaufgarnitur 1½\" mit Drehexcenter 112.0006.386.",
+   "quellen": [
+    "https://www.ebay.de/p/1207297277"
+   ]
+  },
+  {
+   "slug": "etn-614",
+   "name": "Franke ETN 614",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Ältere Spüle mit 1½\"-Stopfenventil (6/4\").",
+   "beschreibung": "eBay: Stopfenüberlaufventil 6/4\" 112.0008.257.",
+   "quellen": [
+    "https://www.ebay.de/p/1105278910"
+   ]
+  },
+  {
+   "slug": "atlas",
+   "name": "Franke Atlas (mit Auszugsbrause)",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Einhebel-Küchenarmatur mit Zugauslauf.",
+   "beschreibung": "Ersatzkartusche Ø 35 mm 133.0372.710 (Händlerangabe).",
+   "quellen": [
+    "https://www.ebay.de/p/24011497466",
+    "https://www.testberichte.de/heimwerkerbedarf/franke-r-35-mm-armaturkartusche-fuer-atlas-mit-auszugsbrause.html"
+   ]
+  },
+  {
+   "slug": "taros-gaia",
+   "name": "Franke Taros / Gaia (mit Zugauslauf)",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Küchenarmaturen mit Zugauslauf.",
+   "beschreibung": "Laut eBay-Angebot passt die 35-mm-Kartusche 133.0372.710 auch für Taros und Gaia mit Zugauslauf.",
+   "quellen": [
+    "https://www.ebay.de/p/24011497466"
+   ]
+  }
+ ],
+ "teile": [
+  {
+   "slug": "franke-siebkorb-excenter-133-0005-611",
+   "name": "Franke Siebkorb Excenter 3½\" ab Baujahr 1999 (133.0005.611)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "133.0005.611",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 81,
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Original-Siebkorb (Ventilkorb) für 3½\"-Abläufe mit Excenterbedienung, verchromt, mit Stellschraube für die Höhe. Händler: passend für alle Franke-Spülen mit 3½\"-Siebkorb als Excenterventil ab Baujahr 1999; Korbdurchmesser ca. 81 mm (kuechenhaus24, Amazon) bzw. Außendurchmesser 82 mm und Dichtung Ø 47 mm (Kaufland). Im Franke-Webshop als „ET Siebkorb Excenter“ (Katalogpreis 35,25 €).",
+   "preis_spanne": "ca. 16–35 € (Amazon bis Franke-Katalogpreis)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Stellschraube/Hubstange ggf. Schraubendreher.",
+   "amazon_asin": "B07D8N24KG",
+   "quellen": [
+    "https://webshop.franke.com/de/de/products?query=%3Arelevance%3AexcludedFromIndex%3Afalse%3AfamilyCodes%3A001%3ASCC_SPARE_PARTS_SCC_SPAREPARTS%3ASCC_SPAREPARTS_ACCESSORIES",
+    "https://www.kaufland.at/product/324335818/",
+    "https://www.kaufland.cz/product/324335818/",
+    "https://www.kuechenhaus24.de/zubehoer/spuelen/franke-siebkorb-excenter-133-0005-611_16023_8363",
+    "https://www.amazon.de/Franke-Exzenterventil-Ablaufgarnitur-Ablaufdurchmesser-133-0005-611/dp/B07D8N24KG"
+   ]
+  },
+  {
+   "slug": "franke-siebkorb-excenter-133-0008-412",
+   "name": "Franke Siebkorb chrom 3½\" Excenter (133.0008.412)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "133.0008.412",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 81,
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Verchromter 3½\"-Siebkorb für Excenterbedienung; Amazon-Titel: „Siebkorb chrom 3,5 Zoll für FRANKE Spülen mit Excenter ab Baujahr 1999“. kuechenhaus24 nennt 133.0008.412 als Vorgängernummer eines 81-mm-Ersatzsiebkorbs (Hubstange 8 × 48–69 mm).",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Stellschraube/Hubstange ggf. Schraubendreher.",
+   "amazon_asin": "B004PG0OK6",
+   "quellen": [
+    "https://www.amazon.de/FRANKE-133-0008-412-Siebkorb-chrom-Zoll/dp/B004PG0OK6",
+    "https://www.ebay.de/p/1406381329",
+    "https://www.kuechenhaus24.de/zubehoer/spuelen/ventiloberteil-fuer-siebkorbventil-fuer-kuechenspuele-siebkoerbchen-excenterbedienung-excenter-chrom-8-x-48-69-mm_14806_7146"
+   ]
+  },
+  {
+   "slug": "franke-siebkorb-excenter-133-0005-670",
+   "name": "Franke Siebkorb Excenter 3½\" bis Baujahr 1999 (133.0005.670)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "133.0005.670",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 77,
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Ventilkorb für die alte Excenter-Generation: laut eBay-Angebot „bis Bj. 1999, Exzenterbedienung“, Siebkorb-Durchmesser 77 mm, Hubstange Ø 8 mm, Gesamthöhe 60–80 mm.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Stellschraube/Hubstange ggf. Schraubendreher.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.ebay.de/p/2256000966",
+    "https://www.ebay.com/p/2256000966?iid=156104333840"
+   ]
+  },
+  {
+   "slug": "franke-siebkorb-manuell-133-0005-669",
+   "name": "Franke Siebkorb manuell 3½\" bis Baujahr 1999 (133.0005.669)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "133.0005.669",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 77,
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Handbetätigter Siebkorb (ohne Excenter) für Franke-Spülen mit 3½\"-Siebkorb bis Baujahr 1999; KILEAN gibt 77 mm Durchmesser an (ca. 42,50 €).",
+   "preis_spanne": "ca. 42 € (Händler)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Stellschraube/Hubstange ggf. Schraubendreher.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.kilean.de/Siebkorb-manuell-fuer-Franke-Spuelen-bis-1999-/-Ersatzteil-/-Handbedienung-/Siebkorb",
+    "https://www.kleinanzeigen.de/s-anzeige/siebkorb-manuell-fuer-franke-spuelen-bis-1999/3110520835-86-5834"
+   ]
+  },
+  {
+   "slug": "franke-siebkorb-hand-133-0008-411",
+   "name": "Franke Siebkorb 3½\" Handbetätigung ab Baujahr 1999 (133.0008.411)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "133.0008.411",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 81,
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Siebkorb mit Handbetätigung (Kugel im Stift), Ø 81 mm, laut Händler für Spülen ab Baujahr 1999 („neues Design“). Im Franke-Webshop als „Siebkorb 3½\" Stopfen“ (Katalogpreis 34,88 €); Preisvergleich ab ca. 15 €. Kaufland titelt die Nummer abweichend als „Exenterventil“ – siehe Widersprüche.",
+   "preis_spanne": "ca. 15–35 €",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Stellschraube/Hubstange ggf. Schraubendreher.",
+   "amazon_asin": "B005XRVJ9Q",
+   "quellen": [
+    "https://webshop.franke.com/de/de/products?query=%3Arelevance%3AexcludedFromIndex%3Afalse%3AfamilyCodes%3A001%3ASCC_SPARE_PARTS_SCC_SPAREPARTS%3ASCC_SPAREPARTS_ACCESSORIES",
+    "https://www.amazon.de/Franke-Zubeh%C3%B6r-Siebkorb-Handbet%C3%A4tigung-133-0008-411/dp/B005XRVJ9Q",
+    "https://geizhals.de/franke-siebkorb-3-1-2-handbetaetigung-133-0008-411-a3766570.html",
+    "https://www.kaufland.de/product/442863173/"
+   ]
+  },
+  {
+   "slug": "franke-siebkorb-hand-133-0005-681",
+   "name": "Franke ET Siebkorb Handbetätigung 3½\" (133.0005.681)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "133.0005.681",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 81,
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Im Franke-Webshop als „ET Siebkorb Handbetätigung“ (34,88 € inkl. MwSt.). Otto-Angebot: Siebkörbchen Handbetätigung 3½\", Korbdurchmesser 81 mm, Titel nennt „Restebecken“.",
+   "preis_spanne": "ca. 35 € (Franke-Webshop)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Stellschraube/Hubstange ggf. Schraubendreher.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://webshop.franke.com/de/de/product/133.0005.681/",
+    "https://www.otto.de/p/franke-einbauspuele-franke-siebkoerbchen-handbetaetigung-restebecken-3-1-2-zoll-siebkorb-CS0S5L05P/"
+   ]
+  },
+  {
+   "slug": "franke-siebkorb-integral-stopfen-133-0049-669",
+   "name": "Franke Siebkorb 3½\" Integral Stopfen (133.0049.669)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "133.0049.669",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Im Franke-Webshop als „Siebkorb 3½\" Integral Stopfen“ (Katalogpreis 35,25 €) für Spülen mit Integral-Ablauf.",
+   "preis_spanne": "ca. 35 € (Franke-Webshop)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Stellschraube/Hubstange ggf. Schraubendreher.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://webshop.franke.com/de/de/products?query=%3Arelevance%3AexcludedFromIndex%3Afalse%3AfamilyCodes%3A001%3ASCC_SPARE_PARTS_SCC_SPAREPARTS%3ASCC_SPAREPARTS_ACCESSORIES"
+   ]
+  },
+  {
+   "slug": "franke-siebkorb-excenter-133-0561-041",
+   "name": "Franke Siebkorb mit Excenter für Maris/Urban (133.0561.041)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "133.0561.041",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "3½\"-Siebkorb für Excenterbedienung (Hauptbecken). Kaufland nennt u. a. MARIS MRG 210-37, MRG 610-52 sowie URBAN UBG 610-50 und UBG 611-78 und „Excenter Ø 84 mm“; eine Käuferbewertung spricht von Ø 80 mm mit 18 Schlitzen – Durchmesser vor dem Kauf am alten Teil messen.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Stellschraube/Hubstange ggf. Schraubendreher.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.kaufland.de/product/447747737/"
+   ]
+  },
+  {
+   "slug": "franke-siebkorbdichtung-integral-133-0060-773",
+   "name": "Franke Siebkorbdichtung 3½\" Integral (133.0060.773)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "133.0060.773",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 47
+   },
+   "beschreibung": "Gummi-Lippendichtung für den Siebkorb des Integral-Stößelventils 3½\", Außendurchmesser ca. 47–48 mm, ca. 3 mm dick. Händler nennen u. a. das Halbintegral-Ventil 112.0173.072 als passend. Franke-Webshop: „Siebkorbdichtung 3½\" Integral“ ca. 7 €.",
+   "preis_spanne": "ca. 7–19 €",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Stellschraube/Hubstange ggf. Schraubendreher.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.kaufland.at/product/335458523/",
+    "https://kk-dichtungstechnik.de/FRANKE-Dichtung-fuer-Siebkorb-35-1330060773",
+    "https://geizhals.de/franke-siebkorbdichtung-integral-133-0060-773-a3435571.html",
+    "https://www.hood.de/i/franke-siebkorbdichtung-133-0060-773-dichtung-fuer-siebkoerbchen-aussen-47-mm-83998660.htm",
+    "https://webshop.franke.com/de/de/products?query=%3Arelevance%3AexcludedFromIndex%3Afalse%3AfamilyCodes%3A001%3ASCC_SPARE_PARTS_SCC_SPAREPARTS%3ASCC_SPAREPARTS_ACCESSORIES"
+   ]
+  },
+  {
+   "slug": "franke-bowdenzug-133-0005-633",
+   "name": "Franke Bowdenzug 3½\" inkl. Kappe, ab Baujahr 1999 (133.0005.633)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "133.0005.633",
+   "ean": null,
+   "masse": {
+    "laenge_mm": 710,
+    "durchmesser_mm": 35
+   },
+   "beschreibung": "Bowdenzug für Excenterventile 3½\" mit Walze (Zylinder) an beiden Enden, inklusive Drehexcenter-Kappe, für 35-mm-Bohrung; Händler: Franke-Spülen ab Baujahr 1999, Länge meist 71 cm. Ersetzt 133.0005.635 (alt 900747007) bzw. alte Nr. 900747005. Im Franke-Webshop als „Bowdenzug Abaufverbindung“ (Katalogpreis 68,45 €).",
+   "preis_spanne": "ca. 42–68 €",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Taschenlampe, Schraubendreher, ggf. Zange; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://webshop.franke.com/de/de/products?query=%3Arelevance%3AexcludedFromIndex%3Afalse%3AfamilyCodes%3A001%3ASCC_SPARE_PARTS_SCC_SPAREPARTS%3ASCC_SPAREPARTS_ACCESSORIES",
+    "https://www.kaufland.de/product/324322186/",
+    "https://www.spuelenshop24.de/shop/Spuelen-Zubehoer/Ersatzteile-Spuelen/FRANKE-Bowdenzug-Kit-1330005633::6461.html",
+    "https://www.otto.de/p/franke-ablaufventil-franke-bowdenzug-3-5-zoll-inkl-kappe-133-0005-633-S0E5507W/",
+    "https://www.nextag.de/preisvergleich/500001814050_franke-bowdenzug-35-zoll-inkl.html",
+    "https://www.kuechenhaus24.de/zubehoer/spuelen/franke-bowdenzug-3-5-zoll-inkl-kappe-133-0005-635_16022_8362"
+   ]
+  },
+  {
+   "slug": "franke-bowdenzug-133-0005-632",
+   "name": "Franke Bowdenzug 3½\" mit Kugeln, Spülen 1994–1999 (133.0005.632)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "133.0005.632",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Excenterbedienung/Bowdenzug mit Kugeln an beiden Enden für Franke-Spülen 3½\" „bis Baujahr 1999“; KitchenKing grenzt ein auf Baujahr 1994 bis 1999 bzw. Spülen mit weißer Abgangsgarnitur. Nicht mit der Walzen-Ausführung ab 1999 (133.0005.633) tauschbar.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Taschenlampe, Schraubendreher, ggf. Zange; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.kitchenking.de/excenterbedienung-bowdenzug-passend-fuer-franke-spuelen-3-5-zoll-bis-baujahr-1999.html",
+    "https://www.kaufland.de/product/442066528/"
+   ]
+  },
+  {
+   "slug": "franke-bowdenzug-vor-1994",
+   "name": "Franke Bowdenzug 3½\" für Spülen vor 1994 (mit Abgangsbogen)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": null,
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Für Franke-Spülen vor 1994 bieten Händler den Bowdenzug mit Kugel nur zusammen mit dem Abgangsbogen an – beides muss komplett getauscht werden (eBay ca. 129 €). Eine Franke-Artikelnummer war in den Angeboten nicht sichtbar.",
+   "preis_spanne": "ca. 129 € (Händler)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Schlüssel für die Hohlschraube am Ventil, Schraubendreher; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.ebay.de/p/1207307964",
+    "https://www.kilean.de/FRANKE-Bowdenzug-Spuelen-3-1-2-Zoll-vor-1994"
+   ]
+  },
+  {
+   "slug": "franke-drehexcenter-kappe-133-0006-158",
+   "name": "Franke Drehexcenter-Kappe bis Baujahr 1999 (133.0006.158)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "133.0006.158",
+   "ean": "7612980269655",
+   "masse": {},
+   "beschreibung": "Drehknopf-Kappe aus Edelstahl mit Franke-Logo für Bowdenzüge alter Spülen bis Baujahr 1999 (KILEAN, EAN 7612980269655). Preisvergleich ab ca. 15 €.",
+   "preis_spanne": "ab ca. 15 €",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Taschenlampe, Schraubendreher, ggf. Zange; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.kilean.de/FRANKE-Drehexcenter-Kappe-fuer-Spuelen-bis-Baujahr-1999-Ersatzteil-KILEAN",
+    "https://www.billiger.de/pricelist/5050737740-franke-drehexcenter-kappe-fuer-spuelen-bis-baujahr-1999"
+   ]
+  },
+  {
+   "slug": "franke-drehexcenter-kappe-133-0004-830",
+   "name": "Franke Drehexcenter-Kappe ohne Verschraubung, ab Baujahr 1999 (133.0004.830)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "133.0004.830",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Drehknopf-Kappe ohne Verschraubung für Franke-Spülen ab Baujahr 1999, Maße ca. 42 × 43 × 22 mm (KitchenKing).",
+   "preis_spanne": "ca. 22–24 €",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Taschenlampe, Schraubendreher, ggf. Zange; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.kilean.de/franke-drehexcenter-kappe-ohne-verschraubung-1330004830",
+    "https://www.kitchenking.de/drehexcenter-kappe-ohne-verschraubung-fuer-franke-spuelen-ab-baujahr-1999-excenterkappe-kappe-fuer-excenter-ersatzteil.html",
+    "https://www.kaufland.de/product/442766321/"
+   ]
+  },
+  {
+   "slug": "franke-drehexcenter-kappe-133-0024-335",
+   "name": "Franke Drehexcenter-Kappe mit Verschraubung, ab Baujahr 1999 (133.0024.335)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "133.0024.335",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Kappe mit Verschraubung für Spülen ab Baujahr 1999; laut Otto passend zu den Bowdenzügen 133.0005.635 (alt 900747007) und 133.0005.633 (alt 900747005). Händlerpreise um 39 €.",
+   "preis_spanne": "ca. 39 € (Händler)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Taschenlampe, Schraubendreher, ggf. Zange; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.otto.de/p/franke-einbauspuele-franke-drehexcenter-kappe-mit-verschraubung-fuer-spuelen-ab-bj-1999-S0C840D2/",
+    "https://www.kitchenking.de/drehexcenter-kappe-mit-verschraubung-fuer-franke-spuelen-ab-baujahr-1999-excenterkappe-kappe-fuer-excenter-ersatzteil.html",
+    "https://geizhals.de/261892192"
+   ]
+  },
+  {
+   "slug": "franke-abgangsbogen-excenter-133-0005-689",
+   "name": "Franke ET Abgangsbogen Excenter (133.0005.689)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "133.0005.689",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Abgangsbogen für Excenter-Garnituren, im Franke-Webshop mit Katalogpreis 52,28 €.",
+   "preis_spanne": "ca. 52 € (Franke-Webshop)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Schlüssel für die Hohlschraube am Ventil, Schraubendreher; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://webshop.franke.com/de/de/products?query=%3Arelevance%3AexcludedFromIndex%3Afalse%3AfamilyCodes%3A001%3ASCC_SPARE_PARTS_SCC_SPAREPARTS%3ASCC_SPAREPARTS_ACCESSORIES"
+   ]
+  },
+  {
+   "slug": "franke-ueberlauf-133-0005-617",
+   "name": "Franke Überlauf für EFG 614 (133.0005.617)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "133.0005.617",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Überlauf für Euroform EFG 614 (Edelstahl), laut eBay-Titel passend zur Garnitur 902.572.000.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Schraubendreher, ggf. Wasserpumpenzange.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.ebay.de/p/1307306415"
+   ]
+  },
+  {
+   "slug": "franke-hohlschraube-133-0024-179",
+   "name": "Franke Hohlschraube 30 mm für Siebkorbventil (133.0024.179)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "133.0024.179",
+   "ean": null,
+   "masse": {
+    "laenge_mm": 30
+   },
+   "beschreibung": "Hohlschraube zur Befestigung des Siebkorbventils, 30 mm; laut eBay-Angebot für Pamira PMG 654E und Spülen nach 1999.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Schlüssel für die Hohlschraube am Ventil, Schraubendreher; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.ebay.de/p/28034149908"
+   ]
+  },
+  {
+   "slug": "franke-ablaufventil-112-0006-251",
+   "name": "Franke Ablaufventil 3½\" Siebkorb-/Excenterventil (112.0006.251)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "112.0006.251",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Siebkorb-/Excenterventil 3½\"; laut KitchenKing Ersatz für die alte Nummer 902.430.106 und passend für Modelle ab Baujahr 99.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Schlüssel für die Hohlschraube am Ventil, Schraubendreher; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.kitchenking.de/franke-ablaufventil-3-1-2-zoll-1-siebkorb-excenterventil-ersatzteil-ablaufgarnitur.html"
+   ]
+  },
+  {
+   "slug": "franke-ablaufgarnitur-112-0006-281",
+   "name": "Franke Ab- und Überlaufgarnitur mit Excenterbedienung (112.0006.281)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "112.0006.281",
+   "ean": "7612211025777",
+   "masse": {},
+   "beschreibung": "Ab- und Überlaufgarnitur mit Excenterbedienung; KitchenKing nennt Diana DIX, Euroform EFG, Libera und Strata 614 (EAN 7612211025777). Über dieselbe EAN listet ein Preisvergleich die „Excenter Ab-/Überlaufgarnitur Fragranit-Edelstahl EFG 614-78“.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 75,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Schlüssel für die Hohlschraube am Ventil, Schraubendreher; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.kitchenking.de/franke-112-0006-281-ab-und-ueberlaufgarnitur-fuer-franke-spuelen-mit-excenterbedienung-excenterventil-ersatzteil-ablaufgarnitur.html",
+    "https://www.ebay.de/p/2254322868",
+    "https://www.deutschlandcard.de/preisvergleich/p/7612211025777-franke-einbauspule-franke-excenter-ab-uberlaufgarnitur-fragranit-edelstahl-efg-614-78"
+   ]
+  },
+  {
+   "slug": "franke-ablaufgarnitur-112-0687-873",
+   "name": "Franke Excenter Ab-/Überlaufgarnitur Fragranit-Edelstahl EFG 614-78 (112.0687.873)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "112.0687.873",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Laut Otto-Angebot Hersteller-Artikelnummer 112.0687.873 für die „Excenter Ab-/Überlaufgarnitur Fragranit-Edelstahl EFG 614-78“ – widerspricht der Händlerangabe 112.0006.281 für dasselbe Produkt.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 75,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Schlüssel für die Hohlschraube am Ventil, Schraubendreher; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.otto.de/p/franke-einbauspuele-franke-excenter-ab-ueberlaufgarnitur-fragranit-edelstahl-efg-614-78-S01820CM/"
+   ]
+  },
+  {
+   "slug": "franke-ablaufgarnitur-112-0006-369",
+   "name": "Franke Ab- und Überlaufgarnitur 1½\" Excenter, Überlauf gebogen (112.0006.369)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "112.0006.369",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "1 1/2"
+   },
+   "beschreibung": "1½\"-Ablauf mit Excenterventil und gebogenem Überlauf; laut KILEAN für Euroform EFG 614 (Fragranit) und EFX 614 (Edelstahl), ca. 94 €.",
+   "preis_spanne": "ca. 94 € (Händler)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 75,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Schlüssel für die Hohlschraube am Ventil, Schraubendreher; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.kilean.de/Franke-Ab-und-Ueberlaufgarnitur-Spuele-EFG614-EFX614"
+   ]
+  },
+  {
+   "slug": "franke-ablaufgarnitur-112-0006-331",
+   "name": "Franke Excenter-Ablaufgarnitur für Euroform EFX 614-78 (112.0006.331)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "112.0006.331",
+   "ean": "7612211059963",
+   "masse": {},
+   "beschreibung": "Laut Otto-Angebot Excenter-Ab- und Überlaufgarnitur für die Edelstahlspüle Euroform EFX 614-78 (EAN 7612211059963).",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 75,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Schlüssel für die Hohlschraube am Ventil, Schraubendreher; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.otto.de/p/franke-einbauspuele-franke-ab-ueberlaufgarnitur-spuele-euroform-efx-614-78-excenterventil-S0G8P00C/?variationId=S0G8P00CN7QQ"
+   ]
+  },
+  {
+   "slug": "franke-ablaufgarnitur-112-0006-386",
+   "name": "Franke Ablaufgarnitur 1½\" mit Drehexcenter für TAL 684 (112.0006.386)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "112.0006.386",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "1 1/2"
+   },
+   "beschreibung": "Ablaufgarnitur mit Überlauf 1½\" und Drehexcenter-Bedienung; laut eBay-Titel für FRANKE TAX/TAL 684.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 75,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Schlüssel für die Hohlschraube am Ventil, Schraubendreher; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.ebay.de/p/1207297277"
+   ]
+  },
+  {
+   "slug": "franke-stopfenueberlaufventil-112-0008-257",
+   "name": "Franke Stopfenüberlaufventil 6/4 für ETN 614 (112.0008.257)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "112.0008.257",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "1 1/2"
+   },
+   "beschreibung": "Stopfen-Überlaufventil 6/4\" (1½\"); laut eBay-Titel für ETN 614.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Schlüssel für die Hohlschraube am Ventil, Schraubendreher; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.ebay.de/p/1105278910"
+   ]
+  },
+  {
+   "slug": "franke-ablaufgarnitur-112-0014-073",
+   "name": "Franke Ab- und Überlaufgarnitur für Libera LIX 681-E (112.0014.073)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "112.0014.073",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Laut eBay-Titel Ab- und Überlaufgarnitur für die Edelstahlspüle LIBERA LIX 681-E.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 75,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Schlüssel für die Hohlschraube am Ventil, Schraubendreher; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.ebay.de/p/1956277876"
+   ]
+  },
+  {
+   "slug": "franke-integral-stoesselventil-112-0544-161",
+   "name": "Franke Integral-Stößelventil mit Überlaufanschluss, Kabelzug 500 mm (112.0544.161)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "112.0544.161",
+   "ean": "7612985534024",
+   "masse": {
+    "laenge_mm": 500,
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Kaufland: Integral-Stößelventil mit Überlaufanschluss und 500 mm Kabelzug, Edelstahl, EAN 7612985534024 (dieselbe Seite beschreibt es auch als 3,5\"-Drehexzenter-Ablaufventil – siehe Widersprüche). Händlerpreis ca. 31 €. Eine Spülen-Zuordnung war nicht angegeben.",
+   "preis_spanne": "ca. 31 € (Händler)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Schlüssel für die Hohlschraube am Ventil, Schraubendreher; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.kaufland.at/product/456714127/",
+    "https://www.kaufland.fr/product/456714127/",
+    "https://aio.lv/en/product--franke-1120544161--11417577"
+   ]
+  },
+  {
+   "slug": "franke-ablaufgarnitur-112-0658-197",
+   "name": "Franke Ablaufgarnitur 3½\" Excenter Black Matt (112.0658.197)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "112.0658.197",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Aktuelle Franke-Garnitur in Schwarz matt mit rundem, verdecktem Überlauf und Drehknopf-Excenter; laut Franke passend für alle Fragranite-Becken und -Spülen mit rundem verdecktem Überlauf.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 75,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Schlüssel für die Hohlschraube am Ventil, Schraubendreher; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.franke.com/de/de/home-solutions/produkte/zubehoer/product-detail-page.html/112.0658.197.html"
+   ]
+  },
+  {
+   "slug": "franke-ventilset-112-0658-446",
+   "name": "Franke Ventilset 3½\" Excenter Black Matt mit eckigem Überlauf (112.0658.446)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "112.0658.446",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Schwarzes Ventilset mit Drehknopf und eckigem Überlauf (Franke-Zubehörseite, Kaufland).",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Schlüssel für die Hohlschraube am Ventil, Schraubendreher; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.franke.com/de/de/home-solutions/produkte/zubehoer/product-detail-page.html/112.0658.446.html",
+    "https://www.kaufland.at/product/471475185/"
+   ]
+  },
+  {
+   "slug": "franke-kartusche-133-0372-710",
+   "name": "Franke Kartusche Ø 35 mm für Atlas mit Auszugsbrause (133.0372.710)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "133.0372.710",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 35
+   },
+   "beschreibung": "Ersatzkartusche 35 mm für Franke-Armaturen mit Zugauslauf; ein eBay-Angebot nennt Taros, Gaia und Atlas. Farbe der Kartusche je nach Fertigungszeitpunkt grün oder blau. Preise ca. 27–39 €.",
+   "preis_spanne": "ca. 27–39 €",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren; Innensechskant/Schraubendreher für den Hebel, Maulschlüssel für die Kartuschenmutter.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.ebay.de/p/24011497466",
+    "https://www.testberichte.de/heimwerkerbedarf/franke-r-35-mm-armaturkartusche-fuer-atlas-mit-auszugsbrause.html"
+   ]
+  }
+ ],
+ "zuordnungen": [
+  {
+   "serie_slug": "spuelen-bis-1999",
+   "teil_slug": "franke-siebkorb-excenter-133-0005-670",
+   "hinweis": "Excenter-Siebkorb „bis Bj. 1999“, Ø 77 mm",
+   "quelle_url": "https://www.ebay.de/p/2256000966",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "spuelen-bis-1999",
+   "teil_slug": "franke-siebkorb-manuell-133-0005-669",
+   "hinweis": "Handbetätigung, bis Baujahr 1999 (KILEAN)",
+   "quelle_url": "https://www.kilean.de/Siebkorb-manuell-fuer-Franke-Spuelen-bis-1999-/-Ersatzteil-/-Handbedienung-/Siebkorb",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "spuelen-bis-1999",
+   "teil_slug": "franke-siebkorb-manuell-133-0005-669",
+   "hinweis": "Kleinanzeigen-Angebot: für alle Franke-Spülen mit 3½\"-Siebkorb bis Baujahr '99",
+   "quelle_url": "https://www.kleinanzeigen.de/s-anzeige/siebkorb-manuell-fuer-franke-spuelen-bis-1999/3110520835-86-5834",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "spuelen-bis-1999",
+   "teil_slug": "franke-bowdenzug-133-0005-632",
+   "hinweis": "Kugel-Bowdenzug für 1994–1999 bzw. weiße Abgangsgarnitur",
+   "quelle_url": "https://www.kitchenking.de/excenterbedienung-bowdenzug-passend-fuer-franke-spuelen-3-5-zoll-bis-baujahr-1999.html",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "spuelen-bis-1999",
+   "teil_slug": "franke-bowdenzug-vor-1994",
+   "hinweis": "nur Spülen vor 1994: Bowdenzug mit Kugel + Abgangsbogen komplett",
+   "quelle_url": "https://www.ebay.de/p/1207307964",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "spuelen-bis-1999",
+   "teil_slug": "franke-drehexcenter-kappe-133-0006-158",
+   "hinweis": "Kappe für Bowdenzüge alter Spülen bis Baujahr 1999",
+   "quelle_url": "https://www.kilean.de/FRANKE-Drehexcenter-Kappe-fuer-Spuelen-bis-Baujahr-1999-Ersatzteil-KILEAN",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "spuelen-ab-1999",
+   "teil_slug": "franke-siebkorb-excenter-133-0005-611",
+   "hinweis": "Kaufland: „Passend für Modelle ab Baujahr 1999“",
+   "quelle_url": "https://www.kaufland.at/product/324335818/",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "spuelen-ab-1999",
+   "teil_slug": "franke-siebkorb-excenter-133-0005-611",
+   "hinweis": "Amazon: Excenterventil ab Baujahr '99, Ø ca. 81 mm",
+   "quelle_url": "https://www.amazon.de/Franke-Exzenterventil-Ablaufgarnitur-Ablaufdurchmesser-133-0005-611/dp/B07D8N24KG",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "spuelen-ab-1999",
+   "teil_slug": "franke-siebkorb-excenter-133-0008-412",
+   "hinweis": "Amazon-Titel: für FRANKE Spülen mit Excenter ab Baujahr 1999",
+   "quelle_url": "https://www.amazon.de/FRANKE-133-0008-412-Siebkorb-chrom-Zoll/dp/B004PG0OK6",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "spuelen-ab-1999",
+   "teil_slug": "franke-siebkorb-hand-133-0008-411",
+   "hinweis": "Handbetätigung, Ø 81 mm, ab Baujahr 1999 (Händlerangabe)",
+   "quelle_url": "https://www.kaufland.de/product/442863173/",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "spuelen-ab-1999",
+   "teil_slug": "franke-bowdenzug-133-0005-633",
+   "hinweis": "Walze an beiden Enden, ab Baujahr 1999 (Kaufland)",
+   "quelle_url": "https://www.kaufland.de/product/324322186/",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "spuelen-ab-1999",
+   "teil_slug": "franke-bowdenzug-133-0005-633",
+   "hinweis": "Preisvergleich: „für Spülen 1999+“",
+   "quelle_url": "https://www.nextag.de/preisvergleich/500001814050_franke-bowdenzug-35-zoll-inkl.html",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "spuelen-ab-1999",
+   "teil_slug": "franke-drehexcenter-kappe-133-0004-830",
+   "hinweis": "ohne Verschraubung (KILEAN)",
+   "quelle_url": "https://www.kilean.de/franke-drehexcenter-kappe-ohne-verschraubung-1330004830",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "spuelen-ab-1999",
+   "teil_slug": "franke-drehexcenter-kappe-133-0004-830",
+   "hinweis": "KitchenKing: Kappe ohne Verschraubung für Spülen ab Baujahr 1999",
+   "quelle_url": "https://www.kitchenking.de/drehexcenter-kappe-ohne-verschraubung-fuer-franke-spuelen-ab-baujahr-1999-excenterkappe-kappe-fuer-excenter-ersatzteil.html",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "spuelen-ab-1999",
+   "teil_slug": "franke-drehexcenter-kappe-133-0024-335",
+   "hinweis": "mit Verschraubung, passend zu Bowdenzug 133.0005.633/.635",
+   "quelle_url": "https://www.otto.de/p/franke-einbauspuele-franke-drehexcenter-kappe-mit-verschraubung-fuer-spuelen-ab-bj-1999-S0C840D2/",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "spuelen-ab-1999",
+   "teil_slug": "franke-ablaufventil-112-0006-251",
+   "hinweis": "Siebkorb-/Excenterventil, ab Baujahr 99, ersetzt 902.430.106",
+   "quelle_url": "https://www.kitchenking.de/franke-ablaufventil-3-1-2-zoll-1-siebkorb-excenterventil-ersatzteil-ablaufgarnitur.html",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "spuelen-ab-1999",
+   "teil_slug": "franke-hohlschraube-133-0024-179",
+   "hinweis": "„Spülen nach 1999“ laut eBay-Titel",
+   "quelle_url": "https://www.ebay.de/p/28034149908",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "euroform-efg-614",
+   "teil_slug": "franke-ablaufgarnitur-112-0006-281",
+   "hinweis": "Excenter-Garnitur; KitchenKing nennt Euroform EFG – Nummer widersprüchlich (vgl. 112.0687.873)",
+   "quelle_url": "https://www.kitchenking.de/franke-112-0006-281-ab-und-ueberlaufgarnitur-fuer-franke-spuelen-mit-excenterbedienung-excenterventil-ersatzteil-ablaufgarnitur.html",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "euroform-efg-614",
+   "teil_slug": "franke-ablaufgarnitur-112-0687-873",
+   "hinweis": "Otto: Herstellernummer für „Excenter Ab-/Überlaufgarnitur EFG 614-78“",
+   "quelle_url": "https://www.otto.de/p/franke-einbauspuele-franke-excenter-ab-ueberlaufgarnitur-fragranit-edelstahl-efg-614-78-S01820CM/",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "euroform-efg-614",
+   "teil_slug": "franke-ablaufgarnitur-112-0006-369",
+   "hinweis": "1½\" Excenter mit gebogenem Überlauf",
+   "quelle_url": "https://www.kilean.de/Franke-Ab-und-Ueberlaufgarnitur-Spuele-EFG614-EFX614",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "euroform-efg-614",
+   "teil_slug": "franke-ueberlauf-133-0005-617",
+   "hinweis": "Überlauf für EFG 614 (Edelstahl), passend zu Garnitur 902.572.000",
+   "quelle_url": "https://www.ebay.de/p/1307306415",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "euroform-efx-614",
+   "teil_slug": "franke-ablaufgarnitur-112-0006-331",
+   "hinweis": "Excenter-Garnitur für EFX 614-78",
+   "quelle_url": "https://www.otto.de/p/franke-einbauspuele-franke-ab-ueberlaufgarnitur-spuele-euroform-efx-614-78-excenterventil-S0G8P00C/?variationId=S0G8P00CN7QQ",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "euroform-efx-614",
+   "teil_slug": "franke-ablaufgarnitur-112-0006-369",
+   "hinweis": "1½\" Excenter mit gebogenem Überlauf",
+   "quelle_url": "https://www.kilean.de/Franke-Ab-und-Ueberlaufgarnitur-Spuele-EFG614-EFX614",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "maris-urban",
+   "teil_slug": "franke-siebkorb-excenter-133-0561-041",
+   "hinweis": "MRG 210-37, MRG 610-52, UBG 610-50, UBG 611-78 u. a.",
+   "quelle_url": "https://www.kaufland.de/product/447747737/",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "pamira-pmg-654-e",
+   "teil_slug": "franke-hohlschraube-133-0024-179",
+   "hinweis": "Hohlschraube 30 mm für PMG 654E",
+   "quelle_url": "https://www.ebay.de/p/28034149908",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "libera-lix-681-e",
+   "teil_slug": "franke-ablaufgarnitur-112-0014-073",
+   "hinweis": "für LIX 681-E",
+   "quelle_url": "https://www.ebay.de/p/1956277876",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "libera-lix-681-e",
+   "teil_slug": "franke-ablaufgarnitur-112-0006-281",
+   "hinweis": "Libera in der KitchenKing-Liste",
+   "quelle_url": "https://www.kitchenking.de/franke-112-0006-281-ab-und-ueberlaufgarnitur-fuer-franke-spuelen-mit-excenterbedienung-excenterventil-ersatzteil-ablaufgarnitur.html",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "strata-stg-614",
+   "teil_slug": "franke-ablaufgarnitur-112-0006-281",
+   "hinweis": "Strata 614 in der KitchenKing-Liste",
+   "quelle_url": "https://www.kitchenking.de/franke-112-0006-281-ab-und-ueberlaufgarnitur-fuer-franke-spuelen-mit-excenterbedienung-excenterventil-ersatzteil-ablaufgarnitur.html",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "diana-dix",
+   "teil_slug": "franke-ablaufgarnitur-112-0006-281",
+   "hinweis": "Diana DIX in der KitchenKing-Liste",
+   "quelle_url": "https://www.kitchenking.de/franke-112-0006-281-ab-und-ueberlaufgarnitur-fuer-franke-spuelen-mit-excenterbedienung-excenterventil-ersatzteil-ablaufgarnitur.html",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "tal-684",
+   "teil_slug": "franke-ablaufgarnitur-112-0006-386",
+   "hinweis": "1½\" mit Drehexcenter",
+   "quelle_url": "https://www.ebay.de/p/1207297277",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "etn-614",
+   "teil_slug": "franke-stopfenueberlaufventil-112-0008-257",
+   "hinweis": "Stopfenüberlaufventil 6/4\"",
+   "quelle_url": "https://www.ebay.de/p/1105278910",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "atlas",
+   "teil_slug": "franke-kartusche-133-0372-710",
+   "hinweis": "35 mm, für Atlas mit Auszugsbrause",
+   "quelle_url": "https://www.ebay.de/p/24011497466",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "taros-gaia",
+   "teil_slug": "franke-kartusche-133-0372-710",
+   "hinweis": "laut eBay-Beschreibung auch Taros und Gaia mit Zugauslauf",
+   "quelle_url": "https://www.ebay.de/p/24011497466",
+   "sicherheit": "eine_quelle"
+  }
+ ],
+ "probleme": [
+  {
+   "slug": "franke-siebkorb-dichtet-nicht",
+   "titel": "Franke-Siebkorb dichtet nicht – Wasser läuft trotz geschlossenem Ablauf ab",
+   "symptom": "Bei geschlossenem Siebkorb sinkt der Wasserstand im Becken; der Siebkorb wackelt, sitzt zu hoch oder lässt sich nicht mehr ganz absenken.",
+   "ursachen": [
+    {
+     "ursache": "Dichtung am Siebkorb verhärtet, rissig oder verschmutzt (bei Integral-Ventilen separat tauschbare Lippendichtung)",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "franke-siebkorbdichtung-integral-133-0060-773"
+     ]
+    },
+    {
+     "ursache": "Stellschraube bzw. Hubstange des Excenter-Siebkorbs verstellt, Siebkorb schließt nicht ganz",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "franke-siebkorb-excenter-133-0005-611",
+      "franke-siebkorb-excenter-133-0008-412"
+     ]
+    },
+    {
+     "ursache": "Falscher Ersatz-Siebkorb (Generation bis/ab 1999 verwechselt: ca. 77 mm vs. 81 mm)",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "franke-siebkorb-excenter-133-0005-670",
+      "franke-siebkorb-excenter-133-0005-611",
+      "franke-siebkorb-manuell-133-0005-669",
+      "franke-siebkorb-hand-133-0008-411"
+     ]
+    }
+   ],
+   "schritte": [
+    "Siebkorb herausnehmen, Dichtfläche und Ablaufkelch gründlich reinigen, Dichtung auf Risse und Verhärtung prüfen.",
+    "Bei Excenter-Siebkörben die Stellschraube am unteren Ende etwas lösen/verstellen, Siebkorb wieder einsetzen und testen (Vorgehen aus Forenantwort).",
+    "Durchmesser des alten Siebkorbs messen: Händler führen für Spülen bis 1999 ca. 77 mm, ab 1999 ca. 81–82 mm (Excenter 133.0005.611 bzw. Handbetätigung 133.0008.411).",
+    "Bei Integral-Ventilen nur die Lippendichtung 133.0060.773 (ca. 47 mm) tauschen; bei anderen Siebkörben komplett ersetzen.",
+    "Nur Original- oder maßgleiche Teile verwenden; Händler weisen darauf hin, dass Baujahre und Ausführungen abweichen können."
+   ],
+   "fachbetrieb_ab": "Wenn Wasser zwischen Becken und Ventilkelch bzw. an der Hohlschraube austritt und die Garnitur neu eingedichtet werden muss, oder der Siphon/Abfluss selbst verstopft ist.",
+   "quellen": [
+    "https://www.kaufland.at/product/324335818/",
+    "https://www.ebay.de/p/2256000966",
+    "https://www.kilean.de/Siebkorb-manuell-fuer-Franke-Spuelen-bis-1999-/-Ersatzteil-/-Handbedienung-/Siebkorb",
+    "https://www.kaufland.at/product/335458523/",
+    "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt"
+   ]
+  },
+  {
+   "slug": "franke-excenter-drehknopf-funktioniert-nicht",
+   "titel": "Franke Excenter / Drehknopf funktioniert nicht",
+   "symptom": "Der Drehknopf am Spülenrand dreht leer, geht schwer oder der Siebkorb hebt bzw. schließt sich nicht mehr.",
+   "ursachen": [
+    {
+     "ursache": "Siebkorb sitzt nicht richtig oder Stellschraube verstellt",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "franke-siebkorb-excenter-133-0005-611",
+      "franke-siebkorb-excenter-133-0005-670"
+     ]
+    },
+    {
+     "ursache": "Bowdenzug am Ventil ausgehängt oder gerissen",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "franke-bowdenzug-133-0005-633",
+      "franke-bowdenzug-133-0005-632",
+      "franke-bowdenzug-vor-1994"
+     ]
+    },
+    {
+     "ursache": "Drehexcenter-Kappe gebrochen oder lose",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "franke-drehexcenter-kappe-133-0004-830",
+      "franke-drehexcenter-kappe-133-0024-335",
+      "franke-drehexcenter-kappe-133-0006-158"
+     ]
+    }
+   ],
+   "schritte": [
+    "Siebkorb herausnehmen, Schraube am unteren Ende etwas lösen, wieder einsetzen und testen.",
+    "Wenn das nicht hilft: mit Taschenlampe unter der Spüle die Verbindung zwischen Drehknopf und Ablaufventil prüfen – häufig hat sich der Bowdenzug ausgehängt.",
+    "Generation bestimmen: Bowdenzug mit Kugeln = 1994–1999 (laut Händler auch bei weißer Abgangsgarnitur), Walze an beiden Enden = ab 1999 (133.0005.633, 35-mm-Bohrung), vor 1994 nur Komplettset mit Abgangsbogen.",
+    "Länge am alten Zug messen (133.0005.633 meist 71 cm) und passende Kappe (bis 1999 133.0006.158, ab 1999 133.0004.830 oder mit Verschraubung 133.0024.335) wählen."
+   ],
+   "fachbetrieb_ab": "Bei Spülen vor 1994, wenn der Abgangsbogen mitgetauscht werden muss und Ablauf/Siphon neu angeschlossen werden müssen, sowie bei Undichtigkeiten am Ventilkelch.",
+   "quellen": [
+    "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+    "https://www.kitchenking.de/excenterbedienung-bowdenzug-passend-fuer-franke-spuelen-3-5-zoll-bis-baujahr-1999.html",
+    "https://www.ebay.de/p/1207307964",
+    "https://www.kaufland.de/product/324322186/",
+    "https://www.otto.de/p/franke-einbauspuele-franke-drehexcenter-kappe-mit-verschraubung-fuer-spuelen-ab-bj-1999-S0C840D2/",
+    "https://www.kilean.de/FRANKE-Drehexcenter-Kappe-fuer-Spuelen-bis-Baujahr-1999-Ersatzteil-KILEAN"
+   ]
+  },
+  {
+   "slug": "franke-kuechenarmatur-tropft",
+   "titel": "Franke-Küchenarmatur mit Zugauslauf tropft",
+   "symptom": "Aus dem Auslauf oder der Auszugsbrause tropft bei geschlossenem Hebel Wasser, oder der Hebel geht schwer.",
+   "ursachen": [
+    {
+     "ursache": "Keramikkartusche verschlissen oder verkalkt",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "franke-kartusche-133-0372-710"
+     ]
+    }
+   ],
+   "schritte": [
+    "Modell der Armatur bestimmen (z. B. Atlas, Taros, Gaia mit Zugauslauf).",
+    "Wasser an den Eckventilen absperren, Hebel und Abdeckung lösen, Kartuschenmutter öffnen.",
+    "Kartusche mit dem alten Teil vergleichen (Durchmesser 35 mm; Franke-Kartuschen können je nach Fertigungsjahr grün oder blau sein) und tauschen.",
+    "Ersatzteile für Armaturen über den Franke-Webshop (Suche nach Armaturenmodell) oder Fachhandel beziehen."
+   ],
+   "fachbetrieb_ab": "Wenn Eckventile nicht schließen, die Armatur am Körper undicht ist oder das Modell nicht eindeutig bestimmt werden kann.",
+   "quellen": [
+    "https://www.ebay.de/p/24011497466",
+    "https://www.testberichte.de/heimwerkerbedarf/franke-r-35-mm-armaturkartusche-fuer-atlas-mit-auszugsbrause.html",
+    "https://www.franke.com/gb/en/home-solutions/support/spares-and-servicing.html"
+   ]
+  }
+ ],
+ "widersprueche": [
+  {
+   "thema": "Siebkorb-Durchmesser bei alten Franke-Spülen (77 vs. 83 mm)",
+   "aussage_a": "Excenter-Siebkorb 133.0005.670 „bis Bj. 1999“: Siebkorb-Durchmesser 77 mm (eBay); KILEAN nennt auch für den manuellen Siebkorb bis 1999 (133.0005.669) 77 mm.",
+   "quelle_a": "https://www.ebay.de/p/2256000966",
+   "aussage_b": "Amazon-Angebot: „Zweiteiliger Siebkorb Durchmesser 83 mm Chrom Excenter 3½ für ältere Franke Spülen“.",
+   "quelle_b": "https://www.amazon.de/Zweiteiliger-Franke-Ersatzteil-Excenterbedienung-Siebk%C3%B6rbchen/dp/B003TEE5P0"
+  },
+  {
+   "thema": "Siebkorb 133.0005.611 – 81 oder 82 mm?",
+   "aussage_a": "kuechenhaus24 und Amazon: „3 1/2 Zoll Ablauf = Körbchen-Durchmesser ca. 81 mm“.",
+   "quelle_a": "https://www.kuechenhaus24.de/zubehoer/spuelen/franke-siebkorb-excenter-133-0005-611_16023_8363",
+   "aussage_b": "Kaufland: Außendurchmesser 82 mm, Dichtung Ø 47 mm, passend ab Baujahr 1999.",
+   "quelle_b": "https://www.kaufland.at/product/324335818/"
+  },
+  {
+   "thema": "Baujahresgrenze „bis 1999“ – gilt nicht für alle alten Spülen",
+   "aussage_a": "KitchenKing/Kaufland verkaufen die Excenterbedienung/den Bowdenzug als „passend für FRANKE Spülen 3,5 Zoll bis Baujahr 1999“, eingeschränkt auf Baujahr 1994–1999 bzw. weiße Abgangsgarnitur.",
+   "quelle_a": "https://www.kitchenking.de/excenterbedienung-bowdenzug-passend-fuer-franke-spuelen-3-5-zoll-bis-baujahr-1999.html",
+   "aussage_b": "Für Spülen „vor 1994“ wird ein anderer Bowdenzug mit Kugel angeboten, der nur zusammen mit dem Abgangsbogen getauscht werden kann (ca. 129 €).",
+   "quelle_b": "https://www.ebay.de/p/1207307964"
+  },
+  {
+   "thema": "Baujahresgrenze 1999 vs. 2006",
+   "aussage_a": "Für 3½\"-Excenter-Siebkörbe nennen Händler 1999 als Grenze (z. B. 133.0005.611 „ab Baujahr 1999“).",
+   "quelle_a": "https://www.kaufland.at/product/324335818/",
+   "aussage_b": "Ein Amazon-Angebot verkauft einen 1½\"-Excenter-Siebkorb „für Franke Spüle EFG 614 bis Baujahr 2006“ – bei 1½\"-Abläufen gelten offenbar andere Grenzen.",
+   "quelle_b": "https://www.amazon.de/Siebkorb-Franke-Ersatzteil-Excenterbedienung-Siebk%C3%B6rbchen/dp/B003VWXHF4"
+  },
+  {
+   "thema": "Excenter-Ab-/Überlaufgarnitur EFG 614-78 – welche Nummer?",
+   "aussage_a": "KitchenKing: 112.0006.281 (EAN 7612211025777) für Diana DIX, Euroform EFG, Libera, Strata 614; ein Preisvergleich führt dieselbe EAN als „Excenter Ab-/Überlaufgarnitur Fragranit-Edelstahl EFG 614-78“.",
+   "quelle_a": "https://www.kitchenking.de/franke-112-0006-281-ab-und-ueberlaufgarnitur-fuer-franke-spuelen-mit-excenterbedienung-excenterventil-ersatzteil-ablaufgarnitur.html",
+   "aussage_b": "Otto: gleich benanntes Produkt „Excenter Ab-/Überlaufgarnitur Fragranit-Edelstahl EFG 614-78“ mit Hersteller-Artikelnummer 112.0687.873.",
+   "quelle_b": "https://www.otto.de/p/franke-einbauspuele-franke-excenter-ab-ueberlaufgarnitur-fragranit-edelstahl-efg-614-78-S01820CM/"
+  },
+  {
+   "thema": "133.0008.411 – Handbetätigung oder Excenter?",
+   "aussage_a": "Amazon und Geizhals: „Siebkorb 3 1/2\" Handbetätigung 133.0008.411“; Franke-Webshop: „Siebkorb 3½\" Stopfen“.",
+   "quelle_a": "https://www.amazon.de/Franke-Zubeh%C3%B6r-Siebkorb-Handbet%C3%A4tigung-133-0008-411/dp/B005XRVJ9Q",
+   "aussage_b": "Kaufland titelt dieselbe Nummer als „Franke Exenterventil (133.0008.411)“.",
+   "quelle_b": "https://www.kaufland.de/product/442863173/"
+  },
+  {
+   "thema": "112.0544.161 – Bauart",
+   "aussage_a": "Kaufland (FR): Integral-Stößelventil mit Überlaufanschluss und 500-mm-Kabelzug.",
+   "quelle_a": "https://www.kaufland.fr/product/456714127/",
+   "aussage_b": "Kaufland (AT) beschreibt denselben Artikel zusätzlich als 3,5\"-Drehexzenter-Ablaufventil; aio.lv nur allgemein als „Sink waste/fitting, stainless steel“.",
+   "quelle_b": "https://www.kaufland.at/product/456714127/"
+  }
+ ],
+ "nicht_geprueft": [
+  "WebFetch war für franke.com, webshop.franke.com, amazon.de, ebay.de und kaufland.de gesperrt. Alle Angaben stammen aus Suchergebnis-Auszügen; Franke selbst liefert in den Auszügen nur Webshop-Listen (Nummer, Name, Katalogpreis) und Zubehörseiten, aber keine Spülen-↔-Ersatzteil-Zuordnungen. Fast alle Zuordnungen sind daher Händlerangaben (eine_quelle/zwei_quellen).",
+  "Seit wann der Franke-Ersatzteil-Webshop existiert (ca. 2016), konnte nicht belegt werden.",
+  "Keine Franke-Aussage zur Ersatzteilverfügbarkeit (Jahre) und zur Lage des Typenschilds an der Spüle gefunden.",
+  "Serien Basis (BFG), Mythos (MTG), Antea (AZG), Neptun, Orion, Sirius, Kubus, ROX: Artikelnummern teils gefunden (z. B. BFG 611-78 114.0256.610, MTG 611-100 114.0476.995), aber keine belegte Ersatzteil-Zuordnung – nicht als Serie aufgenommen.",
+  "133.0561.041: Kaufland nennt Ø 84 mm, eine eBay-Bewertung im Suchauszug Ø 80 mm (Angebots-URL nicht gesichert). 133.0005.633: Länge meist 71 cm, eine Quelle nennt ca. 57,5 cm (URL nicht gesichert). Länge des Vorgängers 133.0005.635 unbekannt.",
+  "Artikelnummer 133.0005.632 (Kugel-Bowdenzug 1994–1999) nur aus einem KitchenKing-Suchauszug; vor 1994 keine Franke-Nummer gefunden.",
+  "1½\"-Excenter-Siebkorb für EFG 614 (Händler nennen 133.0008.422) und „Siebkorb Excenter Integral“ 133.0005.684 nur in Suchauszügen ohne gesicherte URL – nicht aufgenommen.",
+  "Franke-Brauseschläuche (z. B. 133.0064.301 mit Flanschanschluss) und Kartuschen weiterer Armaturen (z. B. Paket 133.0008.210/133.0004.834) ohne belegte Modellzuordnung – nicht aufgenommen.",
+  "Amazon-ASINs nur für 133.0005.611 (B07D8N24KG), 133.0008.412 (B004PG0OK6) und 133.0008.411 (B005XRVJ9Q) mit Nummer in der URL gesehen.",
+  "Preise sind Händler- bzw. Franke-Katalogpreise aus Suchauszügen (Stand 11/2026)."
+ ]
+}

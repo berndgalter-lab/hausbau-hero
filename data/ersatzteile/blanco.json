@@ -1,0 +1,2374 @@
+{
+ "marke": {
+  "slug": "blanco",
+  "name": "Blanco",
+  "beschreibung": "Deutscher Hersteller von Küchenspülen (Edelstahl, SILGRANIT, Keramik) und Küchenarmaturen. Blanco betreibt auf blanco.de einen eigenen Ersatzteil-Katalog mit Preisen: Jede Spülen- bzw. Armaturenseite zeigt eine Ersatzteilliste (Art.-Nr., Bezeichnung, Preis, „Gültig ab“ Monat/Jahr), jede Ersatzteilseite einen „Verwendungsnachweis“ mit den Artikelnummern der Spülen/Armaturen, in denen das Teil steckt. Ablaufgarnituren gibt es in 3½\" (Hauptbecken) und 1½\" (Restebecken), mit oder ohne Ablauffernbedienung (Drehknopf/„Exzenter“, Zugknopf, seit 2016/17 auch InFino mit Stopfen statt Siebkörbchen). Welche Garnitur passt, hängt von der genauen Spülen-Artikelnummer ab: Unter derselben Modellbezeichnung (z. B. CLASSIC 5 S) führt Blanco je nach Ausführung/Produktionsstand mehrere unterschiedliche Garnituren.",
+  "nummer_hinweis": "Blanco-Spülen und -Armaturen haben 6-stellige Artikelnummern, die auch in den blanco.de-Adressen stehen (z. B. ZIA 5 S = 520502, METRA 6 S = 513046, LINUS-S = 525807, DARAS-S = 519724). Jede Farb-/Material-/Ausführungsvariante hat eine eigene Nummer – CLASSIC 5 S z. B. 509019, 509020, 506686 … 521319 –, und erst diese Nummer entscheidet über die passende Garnitur. Ersatzteile haben ebenfalls 6-stellige Nummern (z. B. 217163, 119146). Vorgehen: Spülen-Artikelnummer ermitteln (Rechnung, Verpackung, Montageanleitung), dann auf blanco.de unter Ersatzteile suchen oder auf der Seite einer Garnitur im „Verwendungsnachweis“ nach der eigenen Nummer suchen. Teile, die Blanco nicht mehr liefert, sind als „Nicht verfügbar“ bzw. „ersetzt durch …“ markiert. Wo die Artikelnummer an der Spüle selbst steht (Aufkleber unter dem Becken o. ä.), belegt keine gefundene Blanco-Quelle.",
+  "ersatzteil_garantie": "Blanco Österreich schreibt auf blanco.at, dass z. B. für einen kleinen Dichtungsring, der nach sieben Jahren getauscht werden soll, die Auswahl „mindestens bis zu 10 Jahre“ erhältlich sei – die Formulierung lässt offen, ob 10 Jahre Mindest- oder Höchstdauer sind. Für Deutschland wurde keine verbindliche Frist gefunden; blanco.de zeigt pro Teil Lagerstatus, „Nicht verfügbar“ oder einen Nachfolger.",
+  "hersteller_ersatzteil_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen",
+  "quellen": [
+   "https://www.blanco.de/ersatzteile/",
+   "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen",
+   "https://www.blanco.at/kuechenarmaturen/ausfuehrungen/",
+   "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur3,5''exz.viva5s_58.170.217070/217070",
+   "https://www.blanco.de/spuelen/zia/blancozia5s_59.066/520502"
+  ]
+ },
+ "serien": [
+  {
+   "slug": "classic-5-s",
+   "name": "Blanco Classic 5 S",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "509019",
+    "509020",
+    "509135",
+    "509136",
+    "506686",
+    "506687",
+    "506688",
+    "513970",
+    "510471",
+    "510472",
+    "508588",
+    "508589",
+    "508590",
+    "508591",
+    "510186",
+    "510600",
+    "512777",
+    "512778",
+    "512779",
+    "512780",
+    "521314",
+    "521315",
+    "521316",
+    "521317",
+    "521318",
+    "521319",
+    "509175",
+    "509176",
+    "509177",
+    "510052",
+    "510053",
+    "509255",
+    "509256"
+   ],
+   "erkennungsmerkmale": "Edelstahlspüle der Classic-Linie mit einem 3½\"-Ablauf. Laut Blanco-Ersatzteilkatalog gibt es unter dieser Bezeichnung mindestens vier Garnitur-Generationen: Exzenter 217070, Ablauffernbedienung mit ovalem horizontalem Überlauf 220501, ohne Fernbedienung mit ovalem horizontalem Überlauf 233133 und die ältere 3½\"-Garnitur 137919. Entscheidend ist die 6-stellige Spülen-Artikelnummer (Kennnummern-Liste) – sie steht im Verwendungsnachweis der jeweils passenden Garnitur.",
+   "beschreibung": "Meistgesuchtes Blanco-Modell für Ersatzteile. Zusätzlich führt Blanco ein (nicht mehr verfügbares) „3½'' CLASSIC 5S NACHRUESTB.“ (508028). Siebkörbchen 119146 und Dichtung 116116 stehen in der Ersatzteilliste der Garnitur 217070. Classic 5 S-F (509255, 509256) ist die flächenbündige Variante.",
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur3,5''exz.viva5s_58.170.217070/217070",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablg1x3,5''mafbuebl.oval-hor_58.170.220501/220501",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''siebohneablauffernbedienungueberlaufovalhorizontal_58.170.233133/233133",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/3%C2%BD''ablaufgarnitur_58.170.137919/137919",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/siebkoerbchen/siebkoerbchen3,5''zapfen_61.190.125561/125561"
+   ]
+  },
+  {
+   "slug": "classic-6-s",
+   "name": "Blanco Classic 6 S",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Classic-Spüle mit zwei 3½\"-Abläufen (Doppelgarnitur 2 × 3½\").",
+   "beschreibung": "Mit Ablauffernbedienung passt laut mehreren Händlern die 2 × 3½\"-Garnitur 224805 (Drehbetätigung, runder Überlauf); ohne Fernbedienung nennt der Blanco-Verwendungsnachweis die 2 × 3½\"-Garnitur 138067. Spülen-Artikelnummern wurden nicht ermittelt.",
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufg.2x3,5''duo8s,multi6s,tipo6s,twen_58.170.138067/138067",
+    "https://www.w-wohnen.com/spuelen-armaturen/zubehoer/blanco-ablaufgarnitur-2-x-3-5-mit-ablauffernbedienung-mit-drehexcenter/a-8978",
+    "https://www.laxara.de/kueche/sanitaerinstallation/ablaufgarnitur/blanco-ablaufgarnitur-2-x-3-5-sieb-mit-ablauffernbedienung-ueberlauf-rund-224805_7237_8416"
+   ]
+  },
+  {
+   "slug": "classic-pro",
+   "name": "Blanco Classic Pro (5 S-IF, 45 S-IF)",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "523663",
+    "523661"
+   ],
+   "erkennungsmerkmale": "Edelstahlspüle mit InFino-Ablaufsystem (Stopfen statt Siebkörbchen) und eckigem horizontalem Überlauf.",
+   "beschreibung": "CLASSIC Pro 5 S-IF (523663) und 45 S-IF (523661) führen laut blanco.de die InFino-Garnitur 234070 (gültig ab 10/2017).",
+   "quellen": [
+    "https://www.blanco.de/spuelen/classicpro/classicpro5s-if_92.311/523663",
+    "https://prd.bwc.blanco.de/spuelen/classicpro/classicpro_92.310/523661"
+   ]
+  },
+  {
+   "slug": "metra-5-s",
+   "name": "Blanco Metra 5 S / 5 S-F",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "513044",
+    "519104"
+   ],
+   "erkennungsmerkmale": "SILGRANIT-Spüle mit 1 × 3½\"-Ablauf und Ablauffernbedienung.",
+   "beschreibung": "Laut blanco.de: METRA 5 S (513044) Garnitur 217163 gültig ab 01/2005, METRA 5 S-F (519104) ab 09/2013.",
+   "quellen": [
+    "https://www.blanco.de/spuelen/metra/blancometra5s_59.911/513044",
+    "https://www.blanco.de/spuelen/metra/metra5s-f_59.924/519104"
+   ]
+  },
+  {
+   "slug": "metra-45-s",
+   "name": "Blanco Metra 45 S",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "513028"
+   ],
+   "erkennungsmerkmale": "SILGRANIT-Spüle für 45-cm-Unterschrank.",
+   "beschreibung": "Laut METRA-45-S-Ersatzteilliste Exzenter-Garnitur 217696 (gültig ab 01/2005).",
+   "quellen": [
+    "https://www.blanco.de/spuelen/metra/blancometra45s_59.938/513028"
+   ]
+  },
+  {
+   "slug": "metra-6-s",
+   "name": "Blanco Metra 6 S / 6 S Compact / Metra 6",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "513046",
+    "513473",
+    "516157"
+   ],
+   "erkennungsmerkmale": "SILGRANIT-Spüle mit Haupt- und Restebecken (2 × 3½\", Exzenter, runder Überlauf).",
+   "beschreibung": "Laut blanco.de Garnitur 218407 – METRA 6 S ab 01/2005, METRA 6 S Compact ab 01/2006, METRA 6 ab 05/2009.",
+   "quellen": [
+    "https://www.blanco.de/spuelen/metra/blancometra6s_59.931/513046",
+    "https://www.blanco.de/spuelen/metra/metra6scompact_59.928/513473",
+    "https://www.blanco.de/spuelen/metra/blancometra6_59.942/516157",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur3,5''(2x)exzenter-uebl.rund_58.170.218407/218407"
+   ]
+  },
+  {
+   "slug": "zia-5-s",
+   "name": "Blanco Zia 5 S",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "520502"
+   ],
+   "erkennungsmerkmale": "SILGRANIT-Spüle mit 1 × 3½\"-Ablauf, Ablauffernbedienung, Einlegeschild LOGO.",
+   "beschreibung": "Laut blanco.de Garnitur 217163 (gültig ab 09/2014, 53,49 €).",
+   "quellen": [
+    "https://www.blanco.de/spuelen/zia/blancozia5s_59.066/520502"
+   ]
+  },
+  {
+   "slug": "zia-45-s-compact",
+   "name": "Blanco Zia 45 S Compact",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "524715"
+   ],
+   "erkennungsmerkmale": "Kompakte SILGRANIT-Spüle für 45-cm-Unterschrank.",
+   "beschreibung": "Laut blanco.de Garnitur 217163 (gültig ab 08/2018).",
+   "quellen": [
+    "https://www.blanco.de/spuelen/zia/blancozia45scompact_106.501/524715"
+   ]
+  },
+  {
+   "slug": "zia-xl-6-s",
+   "name": "Blanco Zia XL 6 S / XL 6 S Compact",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "517567",
+    "526018"
+   ],
+   "erkennungsmerkmale": "SILGRANIT-Spüle mit großem Becken (XL) und einem 3½\"-Ablauf.",
+   "beschreibung": "Laut blanco.de Garnitur 217163 – ZIA XL 6 S ab 01/2011, ZIA XL 6 S Compact ab 05/2020.",
+   "quellen": [
+    "https://www.blanco.de/spuelen/zia/blancoziaxl6s_60.833/517567",
+    "https://www.blanco.de/spuelen/zia/blancoziaxl6scompact_60.869/526018"
+   ]
+  },
+  {
+   "slug": "zia-6-s",
+   "name": "Blanco Zia 6 S",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "514740"
+   ],
+   "erkennungsmerkmale": "SILGRANIT-Spüle mit Haupt- und Restebecken (2 × 3½\").",
+   "beschreibung": "Laut blanco.de Garnitur 221914 (2 × 3½\" mit Ablauffernbedienung, runder Überlauf; gültig ab 10/2007).",
+   "quellen": [
+    "https://www.blanco.de/spuelen/zia/blancozia6s_60.862/514740"
+   ]
+  },
+  {
+   "slug": "subline-500-u",
+   "name": "Blanco Subline 500-U",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "527795"
+   ],
+   "erkennungsmerkmale": "Unterbaubecken (SILGRANIT) mit InFino-Ablauf; Farbvarianten haben eigene Komplettsets (Blanco nennt 207422–207435, gültig ab 01/2024).",
+   "beschreibung": "Verwendungsnachweis der InFino-Garnitur 234467 nennt SUBLINE 500-U; Ersatzteile u. a. InFino-Ventil 232460, Nachrüstset 232459, Stopfen manuell 121710.",
+   "quellen": [
+    "https://www.blanco.de/spuelen/subline/blancosubline500-uinfino_232.758/527795",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''ohneablauffernbedienungueberlaufrundinfino_58.170.234467/234467",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitursetfuereinzelbecken_232.743.207425/207425"
+   ]
+  },
+  {
+   "slug": "dalago-6",
+   "name": "Blanco Dalago 6 / 6-F",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "514197",
+    "527064"
+   ],
+   "erkennungsmerkmale": "SILGRANIT-Spüle mit großem Einzelbecken und 3½\"-Ablauf mit Ablauffernbedienung.",
+   "beschreibung": "Laut blanco.de Garnitur 217163 – DALAGO 6 ab 05/2007, DALAGO 6-F ab 01/2023.",
+   "quellen": [
+    "https://www.blanco.de/spuelen/dalago/dalago_59.565/514197",
+    "https://www.blanco.de/spuelen/dalago/dalago6-f_59.542/527064"
+   ]
+  },
+  {
+   "slug": "legra-6",
+   "name": "Blanco Legra 6",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "523337"
+   ],
+   "erkennungsmerkmale": "SILGRANIT-Spüle mit einem 3½\"-Ablauf ohne Fernbedienung.",
+   "beschreibung": "Laut blanco.de Garnitur 231006 (gültig ab 10/2017, 18,99 €).",
+   "quellen": [
+    "https://www.blanco.de/spuelen/legra/legra6_59.812/523337"
+   ]
+  },
+  {
+   "slug": "legra-6-s",
+   "name": "Blanco Legra 6 S",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "526086"
+   ],
+   "erkennungsmerkmale": "SILGRANIT-Spüle mit Haupt- und Restebecken; Garnitur ohne Überlauf, ein Ventil nicht verschließbar.",
+   "beschreibung": "Laut blanco.de Garnitur 231007 (2 × 3½\", 33,49 €).",
+   "quellen": [
+    "https://www.blanco.de/spuelen/legra/legra6s_59.809/526086",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''siebohneablauffernbedienungohneueberlaufnichtverschliessbar_58.170.231007/231007"
+   ]
+  },
+  {
+   "slug": "lexa-6-s",
+   "name": "Blanco Lexa 6 S",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "SILGRANIT-Spüle mit Haupt- und Restebecken (2 × 3½\").",
+   "beschreibung": "Verwendungsnachweis der Garnitur 221914 (2 × 3½\" mit Ablauffernbedienung, runder Überlauf) nennt LEXA 6 S.",
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''mitablauffernbedienungueberlaufrund_58.170.221914/221914"
+   ]
+  },
+  {
+   "slug": "andano",
+   "name": "Blanco Andano (500-U, 500-IF/A, 500/180-U)",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "522967",
+    "525245",
+    "522989"
+   ],
+   "erkennungsmerkmale": "Edelstahl-Becken mit InFino-Ablauf und C-overflow.",
+   "beschreibung": "Laut blanco.de: ANDANO 500-U → 234073 (ab 12/2016, ohne Fernbedienung), ANDANO 500-IF/A → 234072 (Bowdenzug, ab 09/2018), ANDANO 500/180-U → 234452 (2 × 3½\").",
+   "quellen": [
+    "https://www.blanco.de/spuelen/andano/blancoandano500-u_59.137/522967",
+    "https://www.blanco.de/spuelen/andano/andano_116.002/525245",
+    "https://www.blanco.de/spuelen/andano/blancoandano500-180-u_59.145/522989"
+   ]
+  },
+  {
+   "slug": "tipo-45-s",
+   "name": "Blanco Tipo 45 S / 45 S Mini",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "526335",
+    "516524"
+   ],
+   "erkennungsmerkmale": "Einfache Edelstahlspüle mit rechteckigem, gestanztem Überlauf (ohne Fernbedienung).",
+   "beschreibung": "Verwendungsnachweis der Garnitur 222404 nennt mehrere TIPO-45-S-Varianten (TIPO 45 S Mini ab 07/2009). Ein eBay-Angebot nennt für ältere TIPO 45 S zusätzlich 138069.",
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''siebohneablauffernbedienungueberlaufrechteckig_58.170.222404/222404",
+    "https://www.blanco.de/spuelen/tipo/blancotipo45smini_58.983/516524",
+    "https://www.blanco.de/spuelen/tipo/tipo45s_172.820/526335"
+   ]
+  },
+  {
+   "slug": "tipo-6-s",
+   "name": "Blanco Tipo 6 S",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Ältere Edelstahlspüle mit zwei 3½\"-Abläufen.",
+   "beschreibung": "Blanco führt die 2 × 3½\"-Garnitur 138067 ausdrücklich für DUO 8 S, MULTI 6 S, TIPO 6 S und TWEN.",
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufg.2x3,5''duo8s,multi6s,tipo6s,twen_58.170.138067/138067"
+   ]
+  },
+  {
+   "slug": "tipo-xl-6-s",
+   "name": "Blanco Tipo XL 6 S",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Edelstahlspüle mit großem Einzelbecken, runder Überlauf.",
+   "beschreibung": "Laut Blanco-Verwendungsnachweis wurde die alte „Ablaufgarnitur 3,5'' Sieb TIPO XL 6 S Überlauf rund“ durch 138069 ersetzt.",
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/siebkoerbchen/siebkoerbchen3,5%22zapfen2008(20schlitze)lb_61.190.117563/117563"
+   ]
+  },
+  {
+   "slug": "multi-6-s",
+   "name": "Blanco Multi 6 S",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Ältere Spüle mit zwei 3½\"-Abläufen.",
+   "beschreibung": "Ohne Fernbedienung: 138067 (Blanco-Bezeichnung nennt MULTI 6 S); mit Drehbetätigung: 224805 laut Kaufland und Service-Center SBK.",
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufg.2x3,5''duo8s,multi6s,tipo6s,twen_58.170.138067/138067",
+    "https://www.kaufland.de/product/471475843/"
+   ]
+  },
+  {
+   "slug": "axia-6-s",
+   "name": "Blanco Axia 6 S",
+   "produkttyp": "spuele",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Spüle mit zwei 3½\"-Abläufen und Drehbetätigung.",
+   "beschreibung": "Der Verwendungsnachweis der Garnitur 224805 auf blanco.de nennt AXIA 6 S.",
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''siebmitablauffernbedienungueberlaufrund_58.170.224805/224805"
+   ]
+  },
+  {
+   "slug": "linus-s",
+   "name": "Blanco Linus-S",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "525807",
+    "516688"
+   ],
+   "erkennungsmerkmale": "Hochdruck-Küchenarmatur mit Auszugsbrause; Vorfenster-Variante LINUS-S-F.",
+   "beschreibung": "Laut blanco.de: Kartusche HD Ø 35 mm 121894 (gültig ab 09/2019), Kartuschensicherungsmutter 123918, Dichtung Brauseschlauch T-Stück 139346, Brausekopf HD anthrazit 118256 (Verwendungsnachweis 516688). Für LINUS-S-F gibt es den Brauseschlauch 116432.",
+   "quellen": [
+    "https://www.blanco.de/armaturen/linus/blancolinus-s_152.802/525807",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/brausekoepfe/brausekopflinus-shdanthrazitkomplettnf_60.899.118256/118256",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/schlaeuche/brauseschlauchlinus-s-f_60.876.116432/116432"
+   ]
+  },
+  {
+   "slug": "daras-s",
+   "name": "Blanco Daras-S",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "519724"
+   ],
+   "erkennungsmerkmale": "Küchenarmatur mit Auszugsbrause; Ersatzteile laut blanco.de überwiegend „gültig ab 10/2013“.",
+   "beschreibung": "Laut DARAS-S-Ersatzteilliste (519724): Kartusche ND 35 mm 121491, Brauseschlauch 150 cm Nylon 122490, Schlüssel für Kartuschensicherungsmutter 121865, Gewicht 225 g 122491.",
+   "quellen": [
+    "https://www.blanco.de/armaturen/daras/blancodaras-s_59.573/519724"
+   ]
+  },
+  {
+   "slug": "alta-s-compact",
+   "name": "Blanco Alta-S Compact",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "515326",
+    "515327",
+    "515328",
+    "515329",
+    "515330",
+    "515331",
+    "515332",
+    "515333",
+    "515334",
+    "515335",
+    "517634",
+    "518809",
+    "518413"
+   ],
+   "erkennungsmerkmale": "Kompakte Küchenarmatur mit Auszugsbrause (auch als ALTA-S-F Compact 518413 und ALTA-S Compact Vario).",
+   "beschreibung": "Verwendungsnachweise auf blanco.de: Brauseschlauch 125763, Gewicht 420 g 123888, Brausekopf chrom 128689 (ALTA-S-F Compact). Eine Kartusche wurde für ALTA-S Compact nicht gefunden.",
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/schlaeuche/brauseschlauchkompl.m.dicht.u.o-ring_60.876.125763/125763",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/spezifische-einzelteile/gewichtfuerbrauseschlauch(420g)av_93.606.123888/123888",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/brausekoepfe/brausekopfchromkomplett_60.899.128689/128689"
+   ]
+  },
+  {
+   "slug": "mida-s",
+   "name": "Blanco Mida-S",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "521455",
+    "526653"
+   ],
+   "erkennungsmerkmale": "Küchenarmatur mit Auszugsbrause (Metallschlauch).",
+   "beschreibung": "Laut MIDA-S-Ersatzteilliste: Kartusche HD 35 mm 121894, Brauseschlauch 150 cm Metall mit Brausekopf und Rückflussverhinderer 123685, Brausekopf mit Schlauch 122191, Gewicht 225 g 122491 (ab 10/2015).",
+   "quellen": [
+    "https://www.blanco.de/armaturen/mida/blancomida-s_59.971/521455"
+   ]
+  }
+ ],
+ "teile": [
+  {
+   "slug": "blanco-ablaufgarnitur-217070",
+   "name": "Blanco Ablaufgarnitur 3,5\" mit Exzenter (217070)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "217070",
+   "ean": "4020684335560",
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Blanco-Bezeichnung „Ablaufgarnitur 3,5'' Exz. VIVA 5 S“ – 1 × 3½\" mit Exzenter-Ablauffernbedienung. Der Verwendungsnachweis auf blanco.de nennt u. a. CLASSIC 5 S (509019, 509020, 509135, 509136, 506686–506688, 513970 Microtex, 510471/510472 rev) und CLASSIC 5 S-F. Die Ersatzteilliste enthält u. a. das Siebkörbchen 119146 (gültig ab 07/2005) und die Siebkörbchen-Dichtung 116116. Händler-EAN laut eBay-Angebot 4020684335560.",
+   "preis_spanne": "ca. 49–63 € (Händler)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur3,5''exz.viva5s_58.170.217070/217070",
+    "https://www.ebay.de/itm/134105912902"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-220501",
+   "name": "Blanco Ablaufgarnitur 1 × 3,5\" mit Ablauffernbedienung, Überlauf oval horizontal (220501)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "220501",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Blanco-Kurzbezeichnung „Ablg 1x3,5'' mAfb Übl.oval_hor“ (mit Ablauffernbedienung, ovaler horizontaler Überlauf). Verwendungsnachweis auf blanco.de: CLASSIC 5 S 508588–508591, 510186, 510600, 512777–512780 sowie CLASSIC 5 S-F 509255, 509256.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablg1x3,5''mafbuebl.oval-hor_58.170.220501/220501"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-233133",
+   "name": "Blanco Ablaufgarnitur 3,5\" ohne Fernbedienung, Überlauf oval horizontal (233133)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "233133",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "„Ablaufgarnitur 3,5'' Edelstahl, mit ovalem, horizontalem Überlauf“ ohne Ablauffernbedienung. Verwendungsnachweis: CLASSIC 5 S 521314–521319. Ersatzteilliste u. a. Ventil 120665, Überlaufset 120287, Hohlschraube 119741.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''siebohneablauffernbedienungueberlaufovalhorizontal_58.170.233133/233133"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-137919",
+   "name": "Blanco 3½\" Ablaufgarnitur (137919, ältere Ausführung)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "137919",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "„3½'' Ablaufgarnitur“ – laut blanco.de im Verwendungsnachweis für CLASSIC 5 S 509175–509177, 510052, 510053; der Eintrag ist als „Nicht verfügbar“ markiert (ältere Generation).",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/3%C2%BD''ablaufgarnitur_58.170.137919/137919"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-224805",
+   "name": "Blanco Ablaufgarnitur 2 × 3,5\" mit Drehbetätigung, Überlauf rund (224805)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "224805",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "„Ablaufgarnitur 2x3,5'' Edelstahl, mit rundem Überlauf, Drehbetätigung“ für Spülen mit zwei 3½\"-Becken. blanco.de-Listenpreis 75,99 €; Ersatzteilliste u. a. Drehbetätigung Edelstahl rund 119293 und Ventil 120665 (gültig ab 10/2010). Laut Händlern seit 16.04.2012 mit der neueren Drehbetätigung 119293 geliefert; Laxara führt 224805 als Nachfolger von 224035, 222432, 213084 und 216587.",
+   "preis_spanne": "ca. 65–90 € (Händler), 75,99 € blanco.de",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 75,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''siebmitablauffernbedienungueberlaufrund_58.170.224805/224805",
+    "https://www.laxara.de/kueche/sanitaerinstallation/ablaufgarnitur/blanco-ablaufgarnitur-2-x-3-5-sieb-mit-ablauffernbedienung-ueberlauf-rund-224805_7237_8416",
+    "https://www.w-wohnen.com/spuelen-armaturen/zubehoer/blanco-ablaufgarnitur-2-x-3-5-mit-ablauffernbedienung-mit-drehexcenter/a-8978",
+    "https://www.hood.de/i/blanco-ablaufgarnitur-2-x-3-5-sieb-mit-ablauffernbedienung-ueberlauf-rund-224805-108516470.htm"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-231006",
+   "name": "Blanco Ablaufgarnitur 3,5\" ohne Fernbedienung, Überlauf rund (231006)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "231006",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "„Ablaufgarnitur 3,5'' Edelstahl, mit rundem Überlauf“ – 1 × 3½\"-Sieb ohne Ablauffernbedienung. Auf der LEGRA-6-Seite mit „Gültig ab 10/2017“ und 18,99 € gelistet.",
+   "preis_spanne": "ca. 19 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''siebohneablauffernbedienungueberlaufrund_58.170.231006/231006",
+    "https://www.blanco.de/spuelen/legra/legra6_59.812/523337"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-231007",
+   "name": "Blanco Ablaufgarnitur 2 × 3,5\" ohne Fernbedienung, ohne Überlauf (231007)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "231007",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "2 × 3½\"-Sieb, ohne Ablauffernbedienung, ohne Überlauf, ein Ventil nicht verschließbar. Laut LEGRA-6-S-Ersatzteilliste 33,49 €.",
+   "preis_spanne": "ca. 33 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''siebohneablauffernbedienungohneueberlaufnichtverschliessbar_58.170.231007/231007",
+    "https://www.blanco.de/spuelen/legra/legra6s_59.809/526086"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-217163",
+   "name": "Blanco Ablaufgarnitur 1 × 3½\" mit Ablauffernbedienung (217163)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "217163",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Standard-Garnitur 1 × 3½\" mit Ablauffernbedienung, laut blanco.de 53,49 €. Steht in den Ersatzteillisten zahlreicher SILGRANIT-Spülen (DALAGO 6, ZIA 5 S, ZIA XL 6 S, METRA 5 S …) jeweils mit eigenem „Gültig ab“-Datum (z. B. DALAGO 6 05/2007, METRA 5 S 01/2005, ZIA 5 S 09/2014).",
+   "preis_spanne": "ca. 53 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3%C2%BD''mitablauffernbedienung_58.170.217163/217163",
+    "https://www.blanco.de/spuelen/dalago/dalago_59.565/514197",
+    "https://www.blanco.de/spuelen/zia/blancozia5s_59.066/520502",
+    "https://www.blanco.de/spuelen/metra/blancometra5s_59.911/513044"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-218407",
+   "name": "Blanco Ablaufgarnitur 2 × 3,5\" Exzenter, Überlauf rund (218407)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "218407",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Blanco-Bezeichnung „Ablaufgarnitur3,5''(2x)Exzenter -Übl.rund“, 75,49 € laut METRA-6-S-Ersatzteilliste (gültig ab 01/2005). Auch bei METRA 6 S Compact (ab 01/2006) und METRA 6 (ab 05/2009) gelistet.",
+   "preis_spanne": "ca. 75 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 75,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur3,5''(2x)exzenter-uebl.rund_58.170.218407/218407",
+    "https://www.blanco.de/spuelen/metra/blancometra6s_59.931/513046",
+    "https://www.blanco.de/spuelen/metra/metra6scompact_59.928/513473",
+    "https://www.blanco.de/spuelen/metra/blancometra6_59.942/516157"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-217696",
+   "name": "Blanco Ablaufgarnitur 3,5\" Exzenter, Überlauf rund horizontal (217696)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "217696",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Blanco-Kurzbezeichnung „Ablg.3,5''(1x)Exzenter Übl. rund hor (1x)“, laut METRA-45-S-Ersatzteilliste gültig ab 01/2005.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/spuelen/metra/blancometra45s_59.938/513028"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-221914",
+   "name": "Blanco Ablaufgarnitur 2 × 3,5\" mit Ablauffernbedienung, Überlauf rund (221914)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "221914",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "2 × 3½\" mit Ablauffernbedienung und rundem Überlauf. Verwendungsnachweis nennt u. a. LEXA 6 S; auf der ZIA-6-S-Seite mit „Gültig ab 10/2007“ gelistet.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 75,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''mitablauffernbedienungueberlaufrund_58.170.221914/221914",
+    "https://www.blanco.de/spuelen/zia/blancozia6s_60.862/514740"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-222404",
+   "name": "Blanco Ablaufgarnitur 1 × 3,5\" ohne Fernbedienung, Überlauf rechteckig (222404)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "222404",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "„Ablaufgarnitur 3,5\" Edelstahl, mit rechteckigem, gestanztem Überlauf“, ohne Ablauffernbedienung, laut blanco.de 15,99 €. Verwendungsnachweis nennt mehrere TIPO-45-S-Varianten; auf der TIPO-45-S-Mini-Seite gültig ab 07/2009.",
+   "preis_spanne": "ca. 16 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''siebohneablauffernbedienungueberlaufrechteckig_58.170.222404/222404",
+    "https://www.blanco.de/spuelen/tipo/blancotipo45smini_58.983/516524"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-138067",
+   "name": "Blanco Ablaufgarnitur 2 × 3,5\" für DUO 8 S, MULTI 6 S, TIPO 6 S, TWEN (138067)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "138067",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Blanco-Bezeichnung „Ablaufg.2x3,5'' DUO8S,MULTI6S,TIPO6S,TWEN“ (2 × 3½\", runder Überlauf, ohne Fernbedienung). Der Verwendungsnachweis nennt zusätzlich CLASSIC 6 S. Nicht mit 138069 verwechseln.",
+   "preis_spanne": "ca. 62 € (Händler)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 75,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufg.2x3,5''duo8s,multi6s,tipo6s,twen_58.170.138067/138067",
+    "https://www.ebay.de/p/1234616008"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-138069",
+   "name": "Blanco Ablaufgarnitur 3,5\" ohne Fernbedienung, Überlauf rund (138069)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "138069",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Laut eBay-Angebot 1 × 3½\"-Sieb ohne Ablauffernbedienung mit rundem Überlauf (ca. 31 €), passend für CLASSIC 4 S, PLUS 45, TIPO 45 S, DANA und WAVE 5020-U. blanco.de führt 138069 im Verwendungsnachweis als Nachfolger der „Ablaufgarnitur 3,5'' Sieb TIPO XL 6 S Überlauf rund“. Zuordnung uneinheitlich – siehe Widersprüche.",
+   "preis_spanne": "ca. 31 € (Händler)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.ebay.de/p/1425402445",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/siebkoerbchen/siebkoerbchen3,5%22zapfen2008(20schlitze)lb_61.190.117563/117563",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ventile/ventil3,5%22mitueberlaufg1-2%22al_61.319.120665/120665"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-234467",
+   "name": "Blanco InFino-Ablaufgarnitur 3,5\" ohne Fernbedienung, Überlauf rund (234467)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "234467",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "InFino-Garnitur (Stopfen statt Siebkörbchen). Verwendungsnachweis nennt SUBLINE 500-U; Ersatzteilliste u. a. InFino-Ablaufventil 232460 (gültig ab 10/2017) und Ablauffernbedienung-Nachrüstset InFino 232459.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''ohneablauffernbedienungueberlaufrundinfino_58.170.234467/234467"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-234070",
+   "name": "Blanco InFino-Ablaufgarnitur 1 × 3,5\" mit Ablauffernbedienung, Überlauf eckig horizontal (234070)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "234070",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "InFino mit Ablauffernbedienung, eckiger horizontaler Überlauf. Auf der CLASSIC-Pro-5-S-IF-Seite gültig ab 10/2017 (60,49 €), auf der CLASSIC-Pro-45-S-IF-Seite 58,49 €.",
+   "preis_spanne": "ca. 58–60 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''siebmitablauffernbedienungueberlaufeckig-horizontalinfino_58.170.234070/234070",
+    "https://www.blanco.de/spuelen/classicpro/classicpro5s-if_92.311/523663",
+    "https://prd.bwc.blanco.de/spuelen/classicpro/classicpro_92.310/523661"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-234073",
+   "name": "Blanco InFino-Ablaufgarnitur 3,5\" mit rahmenlosem C-overflow (234073)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "234073",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "„Ablaufgarnitur 3,5'' InFino Edelstahl, mit rechteckigem, rahmenlosem C-overflow“, ohne Ablauffernbedienung. ANDANO-500-U-Ersatzteilliste: 44,49 €, gültig ab 12/2016 (bei CLARON 500-U ab 09/2021).",
+   "preis_spanne": "ca. 44 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''siebohneablauffernbedienungc-overflowinfino_58.170.234073/234073",
+    "https://www.blanco.de/spuelen/andano/blancoandano500-u_59.137/522967"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-234072",
+   "name": "Blanco InFino-Ablaufgarnitur mit Bowdenzug für ANDANO 500-IF/A (234072)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "234072",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Laut ANDANO-500-IF/A-Ersatzteilliste Garnitur mit Zug-/Bowdenzugbedienung, gültig ab 09/2018.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/spuelen/andano/andano_116.002/525245"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufgarnitur-234452",
+   "name": "Blanco InFino-Ablaufgarnitur 2 × 3,5\" ohne Fernbedienung, C-overflow (234452)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "234452",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "2 × 3½\" InFino ohne Ablauffernbedienung mit C-overflow; laut blanco.de für den Doppelbecken-Unterbau ANDANO 500/180-U.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 75,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''siebohneablauffernbedienungc-overflowinfino_58.170.234452/234452",
+    "https://www.blanco.de/spuelen/andano/blancoandano500-180-u_59.145/522989"
+   ]
+  },
+  {
+   "slug": "blanco-ablaufventil-125642",
+   "name": "Blanco Ablaufventil 3,5\" mit Bowdenzug 600 (Viega) (125642)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "125642",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2",
+    "laenge_mm": 600
+   },
+   "beschreibung": "„Ablaufventil 3,5'' m. Bowdenzug 600 Viega“ – Ventil mit 600-mm-Bowdenzug, laut blanco.de 21,49 €. Eine Zuordnung zu konkreten Spülen war im Suchauszug nicht sichtbar.",
+   "preis_spanne": "ca. 21 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ventile/ablaufventil3,5''m.bowdenzug600viega_61.319.125642/125642"
+   ]
+  },
+  {
+   "slug": "blanco-ventil-120665",
+   "name": "Blanco Ventil 3,5\" mit Überlaufanschluss G ½\" (120665)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "120665",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "Ventilkörper (Ablaufkelch) 3½\" mit Überlaufanschluss ½\"; Einzelteil u. a. der Garnituren 233133 und 224805 (dort gültig ab 10/2010).",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ventile/ventil3,5%22mitueberlaufg1-2%22al_61.319.120665/120665",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''siebohneablauffernbedienungueberlaufovalhorizontal_58.170.233133/233133",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''siebmitablauffernbedienungueberlaufrund_58.170.224805/224805"
+   ]
+  },
+  {
+   "slug": "blanco-infino-ablaufventil-232460",
+   "name": "Blanco InFino-Ablaufventil 3,5\" manuell (232460)",
+   "teiltyp": "ablaufgarnitur",
+   "oem_nummer": "232460",
+   "ean": null,
+   "masse": {
+    "anschluss_zoll": "3 1/2"
+   },
+   "beschreibung": "„Ablaufventil 3,5'' manuell InFino gebürstet“, laut blanco.de ca. 24,49–25,49 €; in mehreren InFino-Ersatzteillisten (z. B. 234467, gültig ab 10/2017).",
+   "preis_spanne": "ca. 25 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''ohneablauffernbedienungueberlaufrundinfino_58.170.234467/234467",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitursetfuereinzelbecken_232.743.207425/207425"
+   ]
+  },
+  {
+   "slug": "blanco-siebkoerbchen-119146",
+   "name": "Blanco Siebkörbchen 3,5\" Exzenter universal, 18 Schlitze (119146)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "119146",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 79
+   },
+   "beschreibung": "Siebkörbchen für 3½\"-Ventile mit Exzenter/Ablauffernbedienung, 18 Ablaufschlitze, Ø 79 mm (Händlerangabe), Hubstange 8 mm, Länge per Schraube einstellbar. In der Blanco-Ersatzteilliste der Garnitur 217070 mit „Gültig ab 07/2005“ und 8,49 €. Sehr häufig getauschtes Teil, wenn die Spüle nicht mehr dicht hält.",
+   "preis_spanne": "ca. 8–11 €",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Hubstange ggf. Schraubendreher.",
+   "amazon_asin": "B005HH4UV6",
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur3,5''exz.viva5s_58.170.217070/217070",
+    "https://www.amazon.de/Blanco-119146-Exzenter-Bedienung-18-Ablauf-Schlitze-Original-Ersatzteil/dp/B005HH4UV6",
+    "https://www.guenstiger.de/Produkt/Blanco/Siebkoerbchen_119146.html"
+   ]
+  },
+  {
+   "slug": "blanco-siebkoerbchen-125555",
+   "name": "Blanco Siebkörbchen 3,5\" Exzenter d = 82 mm (125555)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "125555",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 82
+   },
+   "beschreibung": "Exzenter-Siebkörbchen mit 82 mm Durchmesser, laut blanco.de 11,49 € (gültig ab 01/2009 in der gesichteten Liste).",
+   "preis_spanne": "ca. 11 € (blanco.de)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Hubstange ggf. Schraubendreher.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/siebkoerbchen/siebkoerbchen3,5''exzenterd=82mm_61.190.125555/125555"
+   ]
+  },
+  {
+   "slug": "blanco-siebkoerbchen-125590",
+   "name": "Blanco Siebkörbchen 3,5\" mit Zapfen, 18 Schlitze (125590)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "125590",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 79
+   },
+   "beschreibung": "Blanco „Siebkörbchen 3,5'' Zapfen“, laut blanco.de 9,99 € (gültig ab 09/2015); Amazon-Angebot: Stopfenbedienung, 79 mm, 18 Schlitze.",
+   "preis_spanne": "ca. 10 €",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Hubstange ggf. Schraubendreher.",
+   "amazon_asin": "B006HBG6FE",
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/siebkoerbchen/siebkoerbchen3,5''zapfen_61.190.125590/125590",
+    "https://www.amazon.de/Blanco-Siebk%C3%B6rbchen-Stopfenbedienung-125590-Schlitze/dp/B006HBG6FE"
+   ]
+  },
+  {
+   "slug": "blanco-siebkoerbchen-117563",
+   "name": "Blanco Siebkörbchen 3,5\" manuell verschließbar, 20 Schlitze (117563)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "117563",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Siebkörbchen ohne Fernbedienung (von Hand verschließbar), 20 Schlitze. Im Verwendungsnachweis dieser Seite steht u. a. die ältere „Ablaufgarnitur 3,5'' Sieb TIPO XL 6 S Überlauf rund (ersetzt durch 138069)“.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Hubstange ggf. Schraubendreher.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/siebkoerbchen/siebkoerbchen3,5%22zapfen2008(20schlitze)lb_61.190.117563/117563"
+   ]
+  },
+  {
+   "slug": "blanco-infino-stopfen-121711",
+   "name": "Blanco Exzenterstopfen InFino (121711)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "121711",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Stopfen für InFino-Garnituren mit Ablauffernbedienung (Drehexcenter/C-overflow), laut blanco.de ca. 4,99–5,49 €, gültig ab 10/2017.",
+   "preis_spanne": "ca. 5 € (blanco.de)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Hubstange ggf. Schraubendreher.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/siebkoerbchen/exzenterstopfeninfino_61.190.121711/121711",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''siebmitbowdenzugc-overflow(2x)infino_58.170.234460/234460"
+   ]
+  },
+  {
+   "slug": "blanco-infino-stopfen-121710",
+   "name": "Blanco Stopfen manuell InFino (121710)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "121710",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Handbetätigter InFino-Stopfen (ohne Fernbedienung), laut blanco.de ca. 3,99–4,49 €.",
+   "preis_spanne": "ca. 4 € (blanco.de)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Hubstange ggf. Schraubendreher.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitursetfuereinzelbecken_232.743.207425/207425",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''siebmitbowdenzugc-overflow(2x)infino_58.170.234460/234460"
+   ]
+  },
+  {
+   "slug": "blanco-dichtung-siebkoerbchen-116116",
+   "name": "Blanco Dichtung für Siebkörbchen 3,5\" (116116)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "116116",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "„Dichtung Siebkörbchen 3,5'' ab 1½006 AL“, laut blanco.de 3,49–3,99 €; u. a. in der Ersatzteilliste der Garnitur 217070.",
+   "preis_spanne": "ca. 3–4 € (blanco.de)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Hubstange ggf. Schraubendreher.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.prd.bwc.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/dichtungen-&-teflonringe/dichtungsiebkoerbchen3,5''ab1%C2%BD006al_60.955.116116/116116",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur3,5''exz.viva5s_58.170.217070/217070"
+   ]
+  },
+  {
+   "slug": "blanco-dichtung-siebkoerbchen-117497",
+   "name": "Blanco Dichtung für Siebkörbchen d = 52 mm (117497)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "117497",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 52
+   },
+   "beschreibung": "Silikondichtung für Siebkörbchen, 52 mm Außendurchmesser (eBay-Angebot). Ein kompatibles Nachbau-Set auf Amazon nennt als passende Siebkörbchen 117507, 117508, 125555, 125561.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug; zum Einstellen der Hubstange ggf. Schraubendreher.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.ebay.de/p/2254447738",
+    "https://www.amazon.de/Ersatz-Dichtung-kompatibel-Blanco-Siebk%C3%B6rbchen/dp/B09WJFLK2S"
+   ]
+  },
+  {
+   "slug": "blanco-ueberlauf-116639",
+   "name": "Blanco Überlauf rund komplett (116639)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "116639",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Runder Überlauf komplett (Kunststoff), laut blanco.de ca. 11,49–11,99 €.",
+   "preis_spanne": "ca. 12 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Schraubendreher, ggf. Wasserpumpenzange.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ueberlaeufe/overflowset_61.362.116639/116639"
+   ]
+  },
+  {
+   "slug": "blanco-ueberlauf-125351",
+   "name": "Blanco Überlauf rund komplett mit Ablaufrohr (Viega) (125351)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "125351",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "„Überlauf rund kompl mit Ablaufrohr Viega“ mit Überlaufrosette, Dichtung und Schraube; ersetzt laut Listung die frühere Nummer 215004.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Schraubendreher, ggf. Wasserpumpenzange.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ueberlaeufe/ueberlaufrundkomplmitablaufrohrviega_61.362.125351/125351",
+    "https://www.ebay.de/p/1520852992"
+   ]
+  },
+  {
+   "slug": "blanco-ueberlaufset-120287",
+   "name": "Blanco Überlaufset Tropfteil oval (120287)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "120287",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Ovales Überlaufset; Einzelteil der Garnitur 233133 (CLASSIC 5 S mit ovalem horizontalem Überlauf).",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Schraubendreher, ggf. Wasserpumpenzange.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ueberlaeufe/ueberlaufsettropfteilovalal_61.362.120287/120287",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''siebohneablauffernbedienungueberlaufovalhorizontal_58.170.233133/233133"
+   ]
+  },
+  {
+   "slug": "blanco-drehbetaetigung-119293",
+   "name": "Blanco Drehbetätigung Edelstahl rund (119293)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "119293",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 35
+   },
+   "beschreibung": "Drehknopf der Ablauffernbedienung (Drehexzenter), Edelstahl, mindestens 35 mm Bohrung. blanco.de 41,99–43,49 € je nach Liste. Laut Händlern wird 224805 seit 16.04.2012 mit dieser Drehbetätigung geliefert.",
+   "preis_spanne": "ca. 42–44 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Taschenlampe, ggf. Schraubendreher/Zange; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ablauffernbedienungen/drehbetaetigungedelstahlrund_179.825.119293/119293",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''siebmitablauffernbedienungueberlaufrund_58.170.224805/224805",
+    "https://www.laxara.de/kueche/sanitaerinstallation/ablaufgarnitur/blanco-ablaufgarnitur-2-x-3-5-sieb-mit-ablauffernbedienung-ueberlauf-rund-224805_7237_8416"
+   ]
+  },
+  {
+   "slug": "blanco-zugknopf-225112",
+   "name": "Blanco Zug-Ablauffernbedienung rund, Kunststoff verchromt (225112)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "225112",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Zugknopf für Garnituren mit Zug-Ablauffernbedienung. blanco.de: InFino-Garnituren mit Bowdenzug werden seit 13.08.2018 ohne Zugknopf ausgeliefert – Zugknopf 225112 separat bestellen.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Taschenlampe, ggf. Schraubendreher/Zange; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ablauffernbedienungen/zug-ablauffernbedienungrundkunststoffverchromt_179.828.225112/225112",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''siebmitbowdenzugc-overflow(2x)infino_58.170.234460/234460"
+   ]
+  },
+  {
+   "slug": "blanco-bowdenzug-139373",
+   "name": "Blanco Bowdenzug 700 mm (139373)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "139373",
+   "ean": null,
+   "masse": {
+    "laenge_mm": 700
+   },
+   "beschreibung": "Bowdenzug 700 mm, laut blanco.de 7,49 € (gültig ab 01/2011); die Seite unterscheidet eine schwarze Ausführung bis 10/2011 und eine graue ab 11/2011.",
+   "preis_spanne": "ca. 7,50 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Taschenlampe, ggf. Schraubendreher/Zange; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/bowdenzuege/bowdenzug700mmlang_60.890.139373/139373"
+   ]
+  },
+  {
+   "slug": "blanco-bowdenzug-128628",
+   "name": "Blanco Bowdenzug L = 600 mm mit Mutter (Viega) (128628)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "128628",
+   "ean": null,
+   "masse": {
+    "laenge_mm": 600
+   },
+   "beschreibung": "600-mm-Bowdenzug mit Mutter für Viega-Ventile.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Taschenlampe, ggf. Schraubendreher/Zange; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/bowdenzuege/bowdenzugl=600mmmitmutterviega_60.890.128628/128628"
+   ]
+  },
+  {
+   "slug": "blanco-bowdenzug-120338",
+   "name": "Blanco Bowdenzug 700 mm mit Drehbetätigung und Anschlusswinkel (120338)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "120338",
+   "ean": null,
+   "masse": {
+    "laenge_mm": 700
+   },
+   "beschreibung": "700-mm-Bowdenzug inklusive Drehbetätigung und Anschlusswinkel.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Taschenlampe, ggf. Schraubendreher/Zange; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/bowdenzuege/bowdenzug700mmlangmitdrehbetaetigungundanschlusswinkelal_60.890.120338/120338"
+   ]
+  },
+  {
+   "slug": "blanco-nachruestset-118979",
+   "name": "Blanco Ablauffernbedienung-Nachrüstset (118979)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "118979",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Nachrüstset, um eine 3½\"-Garnitur ohne Fernbedienung mit Ablauffernbedienung auszustatten (Blanco-Ersatzteilkategorie Ablaufgarnituren).",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablauffernbedienung-nachruestset_58.162.118979/118979"
+   ]
+  },
+  {
+   "slug": "blanco-nachruestset-infino-232459",
+   "name": "Blanco Ablauffernbedienung-Nachrüstset InFino (232459)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "232459",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Nachrüstset Ablauffernbedienung für InFino-Garnituren; in der Ersatzteilliste von 234467 und auf der CLASSIC-Pro-5-S-IF-Seite empfohlen.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": "Eimer und Lappen, Wasserpumpenzange bzw. Hohlschraubenschlüssel für den Ventilkelch (Blanco bietet 125718 an), ggf. Schraubendreher; bei Unterbau- und SILGRANIT-Spülen wenig Platz im Unterschrank.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablauffernbedienung-nachruestsetinfino_58.162.232459/232459",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''ohneablauffernbedienungueberlaufrundinfino_58.170.234467/234467"
+   ]
+  },
+  {
+   "slug": "blanco-kartusche-hd-121894",
+   "name": "Blanco Kartusche HD Ø 35 mm (121894)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "121894",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 35
+   },
+   "beschreibung": "Hochdruck-Keramikkartusche 35 mm. Laut blanco.de-Ersatzteilliste in LINUS-S (gültig ab 09/2019) und MIDA-S, jeweils 20,49 €.",
+   "preis_spanne": "ca. 20 € (blanco.de)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Eckventile schließen; Innensechskant/Schraubendreher für Hebel, Maulschlüssel bzw. Blanco-Spezialschlüssel für die Kartuschensicherungsmutter, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/kartuschen/blancokartuschehd%C3%B8=35mmhdke_61.023.121894/121894",
+    "https://www.blanco.de/armaturen/linus/blancolinus-s_152.802/525807",
+    "https://www.blanco.de/armaturen/mida/blancomida-s_59.971/521455"
+   ]
+  },
+  {
+   "slug": "blanco-kartusche-nd-121491",
+   "name": "Blanco Kartusche ND Ø 35 mm (121491)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "121491",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 35
+   },
+   "beschreibung": "Niederdruck-Kartusche 35 mm (für Armaturen am Untertisch-Boiler). Laut DARAS-S-Ersatzteilliste (519724) gültig ab 10/2013, 27,49 €, ersetzt 120088.",
+   "preis_spanne": "ca. 27 € (blanco.de)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Eckventile schließen; Innensechskant/Schraubendreher für Hebel, Maulschlüssel bzw. Blanco-Spezialschlüssel für die Kartuschensicherungsmutter, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/armaturen/daras/blancodaras-s_59.573/519724"
+   ]
+  },
+  {
+   "slug": "blanco-kartuschensicherungsmutter-123918",
+   "name": "Blanco Kartuschensicherungsmutter LINUS-S (123918)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "123918",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Sicherungsmutter der Kartusche für LINUS-S, laut blanco.de 7,49 €.",
+   "preis_spanne": "ca. 7,50 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Eckventile schließen; Innensechskant/Schraubendreher für Hebel, Maulschlüssel bzw. Blanco-Spezialschlüssel für die Kartuschensicherungsmutter, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/kartuschenmuttern/kartuschensicherungsmutterlinus--sso_61.027.123918/123918",
+    "https://www.blanco.de/armaturen/linus/blancolinus-s_152.802/525807"
+   ]
+  },
+  {
+   "slug": "blanco-kartuschensicherungsmutter-124432",
+   "name": "Blanco Kartuschensicherungsmutter DARAS/KANO/KLEA (124432)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "124432",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Sicherungsmutter der Kartusche; laut Teilebezeichnung für DARAS, KANO und KLEA.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Eckventile schließen; Innensechskant/Schraubendreher für Hebel, Maulschlüssel bzw. Blanco-Spezialschlüssel für die Kartuschensicherungsmutter, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/kartuschenmuttern/kartuschensicherungsmutterdaras,kano,kleakp_61.027.124432/124432"
+   ]
+  },
+  {
+   "slug": "blanco-schluessel-kartuschenmutter-121865",
+   "name": "Blanco Schlüssel für Kartuschensicherungsmutter DARAS-S (121865)",
+   "teiltyp": "werkzeug",
+   "oem_nummer": "121865",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Spezialschlüssel für die Kartuschensicherungsmutter, laut blanco.de für DARAS-S 519724, 14,49 €.",
+   "preis_spanne": "ca. 14,50 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/werkzeuge/schluesselfuerkartuschensicherungsmutterdaras--skp_61.343.121865/121865",
+    "https://www.blanco.de/armaturen/daras/blancodaras-s_59.573/519724"
+   ]
+  },
+  {
+   "slug": "blanco-brauseschlauch-116432",
+   "name": "Blanco Brauseschlauch LINUS-S-F, 1500 mm (116432)",
+   "teiltyp": "schlauch",
+   "oem_nummer": "116432",
+   "ean": null,
+   "masse": {
+    "laenge_mm": 1500
+   },
+   "beschreibung": "Brauseschlauch 1500 mm, laut blanco.de 26,99 €; Verwendungsnachweis nennt 514276, 514023, 514024.",
+   "preis_spanne": "ca. 27 € (blanco.de)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 40,
+   "werkzeug": "Eckventile schließen; Innensechskant/Schraubendreher für Hebel, Maulschlüssel bzw. Blanco-Spezialschlüssel für die Kartuschensicherungsmutter, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/schlaeuche/brauseschlauchlinus-s-f_60.876.116432/116432"
+   ]
+  },
+  {
+   "slug": "blanco-brauseschlauch-125763",
+   "name": "Blanco Brauseschlauch komplett mit Dichtungen und O-Ring, 1500 mm (125763)",
+   "teiltyp": "schlauch",
+   "oem_nummer": "125763",
+   "ean": null,
+   "masse": {
+    "laenge_mm": 1500
+   },
+   "beschreibung": "Brauseschlauch 1500 mm, ca. 33,99 €. Verwendungsnachweis nennt zahlreiche ALTA-S-Compact-Nummern (515326–515335, 517634, 518809); Händler nennen zusätzlich ARGON, ELIPSO, MERKUR, MIRA.",
+   "preis_spanne": "ca. 34 € (blanco.de)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 40,
+   "werkzeug": "Eckventile schließen; Innensechskant/Schraubendreher für Hebel, Maulschlüssel bzw. Blanco-Spezialschlüssel für die Kartuschensicherungsmutter, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/schlaeuche/brauseschlauchkompl.m.dicht.u.o-ring_60.876.125763/125763"
+   ]
+  },
+  {
+   "slug": "blanco-brauseschlauch-122490",
+   "name": "Blanco Brauseschlauch 150 cm Nylon (122490)",
+   "teiltyp": "schlauch",
+   "oem_nummer": "122490",
+   "ean": null,
+   "masse": {
+    "laenge_mm": 1500
+   },
+   "beschreibung": "150-cm-Nylonschlauch; laut blanco.de für DARAS-S 519724 (gültig ab 10/2013, 33,49 €), Teilename nennt auch KANO-S und MILA-S.",
+   "preis_spanne": "ca. 33 € (blanco.de)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 40,
+   "werkzeug": "Eckventile schließen; Innensechskant/Schraubendreher für Hebel, Maulschlüssel bzw. Blanco-Spezialschlüssel für die Kartuschensicherungsmutter, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/schlaeuche/brauseschlauchkano-s,mila-s150cmnylonkp_60.876.122490/122490",
+    "https://www.blanco.de/armaturen/daras/blancodaras-s_59.573/519724"
+   ]
+  },
+  {
+   "slug": "blanco-brauseschlauch-123685",
+   "name": "Blanco Brauseschlauch 150 cm Metall mit Brausekopf und Rückflussverhinderer MIDA-S (123685)",
+   "teiltyp": "schlauch",
+   "oem_nummer": "123685",
+   "ean": null,
+   "masse": {
+    "laenge_mm": 1500
+   },
+   "beschreibung": "Komplettset Schlauch + Brausekopf chrom + Rückflussverhinderer für MIDA-S, laut blanco.de 28,99 €.",
+   "preis_spanne": "ca. 29 € (blanco.de)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 40,
+   "werkzeug": "Eckventile schließen; Innensechskant/Schraubendreher für Hebel, Maulschlüssel bzw. Blanco-Spezialschlüssel für die Kartuschensicherungsmutter, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/schlaeuche/brauseschlauch+brausekopf+rueckflussverhinderermida-s150cmmetallkp_60.876.123685/123685",
+    "https://www.blanco.de/armaturen/mida/blancomida-s_59.971/521455"
+   ]
+  },
+  {
+   "slug": "blanco-brausekopf-122191",
+   "name": "Blanco Brausekopf chrom mit Schlauch MIDA-S (122191)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "122191",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Brausekopf HD chrom komplett mit Schlauch, laut MIDA-S-Ersatzteilliste 25,49 €.",
+   "preis_spanne": "ca. 25 € (blanco.de)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 20,
+   "werkzeug": "Eckventile schließen; Innensechskant/Schraubendreher für Hebel, Maulschlüssel bzw. Blanco-Spezialschlüssel für die Kartuschensicherungsmutter, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/brausekoepfe/brausekopf+schlauchmida-shdchromkomplettkp_60.899.122191/122191",
+    "https://www.blanco.de/armaturen/mida/blancomida-s_59.971/521455"
+   ]
+  },
+  {
+   "slug": "blanco-brausekopf-124194",
+   "name": "Blanco Brausekopf schwarz matt mit Schlauch und Rückflussverhinderer MIDA-S (124194)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "124194",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Schwarz-matte Variante; Verwendungsnachweis nennt MIDA-S (526653).",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 20,
+   "werkzeug": "Eckventile schließen; Innensechskant/Schraubendreher für Hebel, Maulschlüssel bzw. Blanco-Spezialschlüssel für die Kartuschensicherungsmutter, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/brausekoepfe/brauseschlauch%2Bkopfschwarzmatt%2Brueckflussverhindererkpl.mida-skp_60.899.124194/124194"
+   ]
+  },
+  {
+   "slug": "blanco-brausekopf-118256",
+   "name": "Blanco Brausekopf LINUS-S HD anthrazit komplett (118256)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "118256",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Brausekopf HD anthrazit; Verwendungsnachweis nennt LINUS-S 516688. Auf der Seite beantwortet Blanco auch FAQ zu nachtropfender Niederdruckarmatur und schwergängigem Schlauch (Armaturenfett).",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 20,
+   "werkzeug": "Eckventile schließen; Innensechskant/Schraubendreher für Hebel, Maulschlüssel bzw. Blanco-Spezialschlüssel für die Kartuschensicherungsmutter, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/brausekoepfe/brausekopflinus-shdanthrazitkomplettnf_60.899.118256/118256"
+   ]
+  },
+  {
+   "slug": "blanco-brausekopf-118999",
+   "name": "Blanco Brausekopf LINUS-S/ALTA-S HD Edelstahl gebürstet (118999)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "118999",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Brausekopf HD in Edelstahl-Optik gebürstet für LINUS-S und ALTA-S (laut Teilebezeichnung), ca. 132 €.",
+   "preis_spanne": "ca. 132 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 20,
+   "werkzeug": "Eckventile schließen; Innensechskant/Schraubendreher für Hebel, Maulschlüssel bzw. Blanco-Spezialschlüssel für die Kartuschensicherungsmutter, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/brausekoepfe/brausekopflinus-s-alta-shdedelstahlgebuerstet_60.899.118999/118999"
+   ]
+  },
+  {
+   "slug": "blanco-brausekopf-120583",
+   "name": "Blanco Brausekopf DARAS-S HD anthrazit komplett (120583)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "120583",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Brausekopf HD anthrazit für DARAS-S (laut Teilebezeichnung).",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 20,
+   "werkzeug": "Eckventile schließen; Innensechskant/Schraubendreher für Hebel, Maulschlüssel bzw. Blanco-Spezialschlüssel für die Kartuschensicherungsmutter, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/brausekoepfe/brausekopfdaras-shdanthrazitkomplettkp_60.899.120583/120583",
+    "https://www.ebay.de/p/7021999225"
+   ]
+  },
+  {
+   "slug": "blanco-brausekopf-128689",
+   "name": "Blanco Brausekopf chrom komplett (128689)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "128689",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Chrom-Brausekopf; Verwendungsnachweis nennt ALTA-S-F Compact 518413 und ALTA-S Compact 515122 (letztere als nicht verfügbar).",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 20,
+   "werkzeug": "Eckventile schließen; Innensechskant/Schraubendreher für Hebel, Maulschlüssel bzw. Blanco-Spezialschlüssel für die Kartuschensicherungsmutter, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/brausekoepfe/brausekopfchromkomplett_60.899.128689/128689"
+   ]
+  },
+  {
+   "slug": "blanco-dichtung-brauseschlauch-139346",
+   "name": "Blanco Dichtung Brauseschlauch T-Stück LINUS-S (139346)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "139346",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Dichtung zwischen Brauseschlauch und T-Stück der LINUS-S, laut blanco.de 3,99 €.",
+   "preis_spanne": "ca. 4 € (blanco.de)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Eckventile schließen; Innensechskant/Schraubendreher für Hebel, Maulschlüssel bzw. Blanco-Spezialschlüssel für die Kartuschensicherungsmutter, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/dichtungen-&-teflonringe/dichtungbrauseschlaucht-stuecklinus-s_60.955.139346/139346"
+   ]
+  },
+  {
+   "slug": "blanco-gewicht-brauseschlauch-122491",
+   "name": "Blanco Gewicht für Brauseschlauch 225 g (122491)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "122491",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Rückholgewicht für Auszugsbrausen, laut blanco.de 4,99 €. Verwendungsnachweis nennt u. a. WEGA-S, DARAS-S, KANO-S; auf der MIDA-S-Seite gültig ab 10/2015.",
+   "preis_spanne": "ca. 5 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/spezifische-einzelteile/gewichtfuerbrauseschlauch(225g)kp_93.606.122491/122491",
+    "https://www.blanco.de/armaturen/mida/blancomida-s_59.971/521455"
+   ]
+  },
+  {
+   "slug": "blanco-gewicht-brauseschlauch-123888",
+   "name": "Blanco Gewicht für Brauseschlauch 420 g (123888)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "123888",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Schwereres Rückholgewicht (420 g), laut blanco.de 24,49 €; Verwendungsnachweis nennt ALTA-S Compact.",
+   "preis_spanne": "ca. 24 € (blanco.de)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins; Unterschrank ausräumen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/spezifische-einzelteile/gewichtfuerbrauseschlauch(420g)av_93.606.123888/123888"
+   ]
+  },
+  {
+   "slug": "blanco-anschlussschlauch-119789",
+   "name": "Blanco Anschlussschlauch 36 cm Metall M8x1 ohne Dichtung (119789)",
+   "teiltyp": "schlauch",
+   "oem_nummer": "119789",
+   "ean": null,
+   "masse": {
+    "laenge_mm": 360
+   },
+   "beschreibung": "Anschlussschlauch 36 cm, M8×1, laut Teilebezeichnung für ALTA-S Compact Vario.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Eckventile schließen, Maulschlüssel.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/schlaeuche/anschlussschlauchohnedichtungalta-scompactvario36cmmetallm8x1nf_61.194.119789/119789"
+   ]
+  }
+ ],
+ "zuordnungen": [
+  {
+   "serie_slug": "classic-5-s",
+   "teil_slug": "blanco-ablaufgarnitur-217070",
+   "hinweis": "Exzenter-Garnitur; Verwendungsnachweis: 509019, 509020, 509135, 509136, 506686–506688, 513970, 510471, 510472 und CLASSIC 5 S-F",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur3,5''exz.viva5s_58.170.217070/217070",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "classic-5-s",
+   "teil_slug": "blanco-ablaufgarnitur-220501",
+   "hinweis": "mit Ablauffernbedienung, Überlauf oval horizontal; 508588–508591, 510186, 510600, 512777–512780, 5 S-F 509255/509256",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablg1x3,5''mafbuebl.oval-hor_58.170.220501/220501",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "classic-5-s",
+   "teil_slug": "blanco-ablaufgarnitur-233133",
+   "hinweis": "ohne Fernbedienung, Überlauf oval horizontal; 521314–521319",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''siebohneablauffernbedienungueberlaufovalhorizontal_58.170.233133/233133",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "classic-5-s",
+   "teil_slug": "blanco-ablaufgarnitur-137919",
+   "hinweis": "ältere Garnitur, „Nicht verfügbar“; 509175–509177, 510052, 510053",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/3%C2%BD''ablaufgarnitur_58.170.137919/137919",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "classic-5-s",
+   "teil_slug": "blanco-siebkoerbchen-119146",
+   "hinweis": "Siebkörbchen in der Ersatzteilliste der Garnitur 217070 (gültig ab 07/2005)",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur3,5''exz.viva5s_58.170.217070/217070",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "classic-5-s",
+   "teil_slug": "blanco-dichtung-siebkoerbchen-116116",
+   "hinweis": "Siebkörbchen-Dichtung in der Ersatzteilliste der Garnitur 217070",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur3,5''exz.viva5s_58.170.217070/217070",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "classic-5-s",
+   "teil_slug": "blanco-ventil-120665",
+   "hinweis": "Ventil der Garnitur 233133 (Varianten 521314–521319)",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''siebohneablauffernbedienungueberlaufovalhorizontal_58.170.233133/233133",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "classic-5-s",
+   "teil_slug": "blanco-ueberlaufset-120287",
+   "hinweis": "Überlaufset der Garnitur 233133 (Varianten 521314–521319)",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''siebohneablauffernbedienungueberlaufovalhorizontal_58.170.233133/233133",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "classic-6-s",
+   "teil_slug": "blanco-ablaufgarnitur-224805",
+   "hinweis": "mit Drehbetätigung; Händlerlisten (W-Wohnen, Laxara, SBK) nennen CLASSIC 6 S und 6 S-F",
+   "quelle_url": "https://www.w-wohnen.com/spuelen-armaturen/zubehoer/blanco-ablaufgarnitur-2-x-3-5-mit-ablauffernbedienung-mit-drehexcenter/a-8978",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "classic-6-s",
+   "teil_slug": "blanco-ablaufgarnitur-224805",
+   "hinweis": "Laxara nennt CLASSIC 6 S als passendes Modell",
+   "quelle_url": "https://www.laxara.de/kueche/sanitaerinstallation/ablaufgarnitur/blanco-ablaufgarnitur-2-x-3-5-sieb-mit-ablauffernbedienung-ueberlauf-rund-224805_7237_8416",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "classic-6-s",
+   "teil_slug": "blanco-ablaufgarnitur-138067",
+   "hinweis": "ohne Fernbedienung; CLASSIC 6 S im Verwendungsnachweis von 138067",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufg.2x3,5''duo8s,multi6s,tipo6s,twen_58.170.138067/138067",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "classic-6-s",
+   "teil_slug": "blanco-drehbetaetigung-119293",
+   "hinweis": "Drehknopf der Garnitur 224805 (laut Händlern seit 16.04.2012)",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''siebmitablauffernbedienungueberlaufrund_58.170.224805/224805",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "classic-pro",
+   "teil_slug": "blanco-ablaufgarnitur-234070",
+   "hinweis": "CLASSIC Pro 5 S-IF 523663, gültig ab 10/2017",
+   "quelle_url": "https://www.blanco.de/spuelen/classicpro/classicpro5s-if_92.311/523663",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "classic-pro",
+   "teil_slug": "blanco-ablaufgarnitur-234070",
+   "hinweis": "CLASSIC Pro 45 S-IF 523661",
+   "quelle_url": "https://prd.bwc.blanco.de/spuelen/classicpro/classicpro_92.310/523661",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "classic-pro",
+   "teil_slug": "blanco-nachruestset-infino-232459",
+   "hinweis": "auf der CLASSIC-Pro-5-S-IF-Seite als Nachrüstung empfohlen",
+   "quelle_url": "https://www.blanco.de/spuelen/classicpro/classicpro5s-if_92.311/523663",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "metra-5-s",
+   "teil_slug": "blanco-ablaufgarnitur-217163",
+   "hinweis": "METRA 5 S 513044 gültig ab 01/2005",
+   "quelle_url": "https://www.blanco.de/spuelen/metra/blancometra5s_59.911/513044",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "metra-5-s",
+   "teil_slug": "blanco-ablaufgarnitur-217163",
+   "hinweis": "METRA 5 S-F 519104 gültig ab 09/2013",
+   "quelle_url": "https://www.blanco.de/spuelen/metra/metra5s-f_59.924/519104",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "metra-45-s",
+   "teil_slug": "blanco-ablaufgarnitur-217696",
+   "hinweis": "METRA 45 S 513028 gültig ab 01/2005",
+   "quelle_url": "https://www.blanco.de/spuelen/metra/blancometra45s_59.938/513028",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "metra-6-s",
+   "teil_slug": "blanco-ablaufgarnitur-218407",
+   "hinweis": "METRA 6 S 513046 ab 01/2005; 6 S Compact 513473 ab 01/2006; METRA 6 516157 ab 05/2009",
+   "quelle_url": "https://www.blanco.de/spuelen/metra/blancometra6s_59.931/513046",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "zia-5-s",
+   "teil_slug": "blanco-ablaufgarnitur-217163",
+   "hinweis": "ZIA 5 S 520502 gültig ab 09/2014",
+   "quelle_url": "https://www.blanco.de/spuelen/zia/blancozia5s_59.066/520502",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "zia-45-s-compact",
+   "teil_slug": "blanco-ablaufgarnitur-217163",
+   "hinweis": "ZIA 45 S Compact 524715 gültig ab 08/2018",
+   "quelle_url": "https://www.blanco.de/spuelen/zia/blancozia45scompact_106.501/524715",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "zia-xl-6-s",
+   "teil_slug": "blanco-ablaufgarnitur-217163",
+   "hinweis": "ZIA XL 6 S 517567 ab 01/2011; XL 6 S Compact 526018 ab 05/2020",
+   "quelle_url": "https://www.blanco.de/spuelen/zia/blancoziaxl6s_60.833/517567",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "zia-6-s",
+   "teil_slug": "blanco-ablaufgarnitur-221914",
+   "hinweis": "ZIA 6 S 514740 gültig ab 10/2007",
+   "quelle_url": "https://www.blanco.de/spuelen/zia/blancozia6s_60.862/514740",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "subline-500-u",
+   "teil_slug": "blanco-ablaufgarnitur-234467",
+   "hinweis": "SUBLINE 500-U im Verwendungsnachweis",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''ohneablauffernbedienungueberlaufrundinfino_58.170.234467/234467",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "subline-500-u",
+   "teil_slug": "blanco-infino-ablaufventil-232460",
+   "hinweis": "Ventil der Garnitur 234467 (gültig ab 10/2017)",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''ohneablauffernbedienungueberlaufrundinfino_58.170.234467/234467",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "subline-500-u",
+   "teil_slug": "blanco-nachruestset-infino-232459",
+   "hinweis": "Nachrüstset in der Ersatzteilliste von 234467",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''ohneablauffernbedienungueberlaufrundinfino_58.170.234467/234467",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "subline-500-u",
+   "teil_slug": "blanco-infino-stopfen-121710",
+   "hinweis": "Stopfen manuell auf der Ersatzteilseite des Einzelbecken-Sets für SUBLINE 500-U (farbige Komponenten)",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitursetfuereinzelbecken_232.743.207425/207425",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "dalago-6",
+   "teil_slug": "blanco-ablaufgarnitur-217163",
+   "hinweis": "DALAGO 6 514197 gültig ab 05/2007",
+   "quelle_url": "https://www.blanco.de/spuelen/dalago/dalago_59.565/514197",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "dalago-6",
+   "teil_slug": "blanco-ablaufgarnitur-217163",
+   "hinweis": "DALAGO 6-F 527064 gültig ab 01/2023",
+   "quelle_url": "https://www.blanco.de/spuelen/dalago/dalago6-f_59.542/527064",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "legra-6",
+   "teil_slug": "blanco-ablaufgarnitur-231006",
+   "hinweis": "LEGRA 6 523337 gültig ab 10/2017",
+   "quelle_url": "https://www.blanco.de/spuelen/legra/legra6_59.812/523337",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "legra-6-s",
+   "teil_slug": "blanco-ablaufgarnitur-231007",
+   "hinweis": "LEGRA 6 S 526086",
+   "quelle_url": "https://www.blanco.de/spuelen/legra/legra6s_59.809/526086",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "lexa-6-s",
+   "teil_slug": "blanco-ablaufgarnitur-221914",
+   "hinweis": "LEXA 6 S im Verwendungsnachweis",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''mitablauffernbedienungueberlaufrund_58.170.221914/221914",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "andano",
+   "teil_slug": "blanco-ablaufgarnitur-234073",
+   "hinweis": "ANDANO 500-U 522967, gültig ab 12/2016",
+   "quelle_url": "https://www.blanco.de/spuelen/andano/blancoandano500-u_59.137/522967",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "andano",
+   "teil_slug": "blanco-ablaufgarnitur-234072",
+   "hinweis": "ANDANO 500-IF/A 525245, gültig ab 09/2018",
+   "quelle_url": "https://www.blanco.de/spuelen/andano/andano_116.002/525245",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "andano",
+   "teil_slug": "blanco-ablaufgarnitur-234452",
+   "hinweis": "ANDANO 500/180-U 522989 (Doppelbecken)",
+   "quelle_url": "https://www.blanco.de/spuelen/andano/blancoandano500-180-u_59.145/522989",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "tipo-45-s",
+   "teil_slug": "blanco-ablaufgarnitur-222404",
+   "hinweis": "TIPO-45-S-Varianten im Verwendungsnachweis; TIPO 45 S Mini 516524 ab 07/2009",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur1x3,5''siebohneablauffernbedienungueberlaufrechteckig_58.170.222404/222404",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "tipo-45-s",
+   "teil_slug": "blanco-ablaufgarnitur-138069",
+   "hinweis": "eBay-Angebot nennt TIPO 45 S (Edelstahl) als passend – ältere Ausführung, siehe Widersprüche",
+   "quelle_url": "https://www.ebay.de/p/1425402445",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "tipo-6-s",
+   "teil_slug": "blanco-ablaufgarnitur-138067",
+   "hinweis": "Blanco-Bezeichnung „Ablaufg.2x3,5'' DUO8S,MULTI6S,TIPO6S,TWEN“",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufg.2x3,5''duo8s,multi6s,tipo6s,twen_58.170.138067/138067",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "tipo-xl-6-s",
+   "teil_slug": "blanco-ablaufgarnitur-138069",
+   "hinweis": "Nachfolger der „Ablaufgarnitur 3,5'' Sieb TIPO XL 6 S Überlauf rund“ (Verwendungsnachweis)",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/siebkoerbchen/siebkoerbchen3,5%22zapfen2008(20schlitze)lb_61.190.117563/117563",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "multi-6-s",
+   "teil_slug": "blanco-ablaufgarnitur-138067",
+   "hinweis": "ohne Fernbedienung; MULTI 6 S in der Blanco-Bezeichnung",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufg.2x3,5''duo8s,multi6s,tipo6s,twen_58.170.138067/138067",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "multi-6-s",
+   "teil_slug": "blanco-ablaufgarnitur-224805",
+   "hinweis": "mit Drehbetätigung; Kaufland-Angebot nennt MULTI 6 S",
+   "quelle_url": "https://www.kaufland.de/product/471475843/",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "multi-6-s",
+   "teil_slug": "blanco-ablaufgarnitur-224805",
+   "hinweis": "Service-Center SBK nennt MULTI 6 S",
+   "quelle_url": "https://www.service-center-sbk.de/Blanco-Ab-und-Ueberlaufgarnitur-mit-Ablauffernbedienung-224805-ORIGINAL-BLANCO-A",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "axia-6-s",
+   "teil_slug": "blanco-ablaufgarnitur-224805",
+   "hinweis": "AXIA 6 S im Verwendungsnachweis von 224805",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''siebmitablauffernbedienungueberlaufrund_58.170.224805/224805",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "axia-6-s",
+   "teil_slug": "blanco-drehbetaetigung-119293",
+   "hinweis": "Drehbetätigung in der Ersatzteilliste von 224805",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''siebmitablauffernbedienungueberlaufrund_58.170.224805/224805",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "linus-s",
+   "teil_slug": "blanco-kartusche-hd-121894",
+   "hinweis": "LINUS-S 525807, gültig ab 09/2019",
+   "quelle_url": "https://www.blanco.de/armaturen/linus/blancolinus-s_152.802/525807",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "linus-s",
+   "teil_slug": "blanco-kartuschensicherungsmutter-123918",
+   "hinweis": "LINUS-S-Ersatzteilliste / Teilebezeichnung",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/kartuschenmuttern/kartuschensicherungsmutterlinus--sso_61.027.123918/123918",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "linus-s",
+   "teil_slug": "blanco-dichtung-brauseschlauch-139346",
+   "hinweis": "Teilebezeichnung „Dichtung Brauseschlauch T-Stück LINUS-S“",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/dichtungen-&-teflonringe/dichtungbrauseschlaucht-stuecklinus-s_60.955.139346/139346",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "linus-s",
+   "teil_slug": "blanco-brausekopf-118256",
+   "hinweis": "Verwendungsnachweis LINUS-S 516688",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/brausekoepfe/brausekopflinus-shdanthrazitkomplettnf_60.899.118256/118256",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "linus-s",
+   "teil_slug": "blanco-brausekopf-118999",
+   "hinweis": "Teilebezeichnung „Brausekopf LINUS-S/ALTA-S HD Edelstahl gebürstet“",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/brausekoepfe/brausekopflinus-s-alta-shdedelstahlgebuerstet_60.899.118999/118999",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "linus-s",
+   "teil_slug": "blanco-brauseschlauch-116432",
+   "hinweis": "nur LINUS-S-F (Vorfenster-Variante); Verwendungsnachweis 514276, 514023, 514024",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/schlaeuche/brauseschlauchlinus-s-f_60.876.116432/116432",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "daras-s",
+   "teil_slug": "blanco-kartusche-nd-121491",
+   "hinweis": "DARAS-S 519724, gültig ab 10/2013 (ersetzt 120088)",
+   "quelle_url": "https://www.blanco.de/armaturen/daras/blancodaras-s_59.573/519724",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "daras-s",
+   "teil_slug": "blanco-brauseschlauch-122490",
+   "hinweis": "DARAS-S 519724, gültig ab 10/2013",
+   "quelle_url": "https://www.blanco.de/armaturen/daras/blancodaras-s_59.573/519724",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "daras-s",
+   "teil_slug": "blanco-schluessel-kartuschenmutter-121865",
+   "hinweis": "für DARAS-S 519724",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/werkzeuge/schluesselfuerkartuschensicherungsmutterdaras--skp_61.343.121865/121865",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "daras-s",
+   "teil_slug": "blanco-kartuschensicherungsmutter-124432",
+   "hinweis": "Teilebezeichnung nennt DARAS",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/kartuschenmuttern/kartuschensicherungsmutterdaras,kano,kleakp_61.027.124432/124432",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "daras-s",
+   "teil_slug": "blanco-gewicht-brauseschlauch-122491",
+   "hinweis": "DARAS-S im Verwendungsnachweis",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/spezifische-einzelteile/gewichtfuerbrauseschlauch(225g)kp_93.606.122491/122491",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "daras-s",
+   "teil_slug": "blanco-brausekopf-120583",
+   "hinweis": "Teilebezeichnung „Brausekopf DARAS-S HD anthrazit“",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/brausekoepfe/brausekopfdaras-shdanthrazitkomplettkp_60.899.120583/120583",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "alta-s-compact",
+   "teil_slug": "blanco-brauseschlauch-125763",
+   "hinweis": "ALTA-S Compact 515326–515335, 517634, 518809 im Verwendungsnachweis",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/schlaeuche/brauseschlauchkompl.m.dicht.u.o-ring_60.876.125763/125763",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "alta-s-compact",
+   "teil_slug": "blanco-gewicht-brauseschlauch-123888",
+   "hinweis": "ALTA-S Compact im Verwendungsnachweis",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/spezifische-einzelteile/gewichtfuerbrauseschlauch(420g)av_93.606.123888/123888",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "alta-s-compact",
+   "teil_slug": "blanco-brausekopf-128689",
+   "hinweis": "ALTA-S-F Compact 518413",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/brausekoepfe/brausekopfchromkomplett_60.899.128689/128689",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "alta-s-compact",
+   "teil_slug": "blanco-anschlussschlauch-119789",
+   "hinweis": "Teilebezeichnung nennt ALTA-S Compact Vario",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/schlaeuche/anschlussschlauchohnedichtungalta-scompactvario36cmmetallm8x1nf_61.194.119789/119789",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mida-s",
+   "teil_slug": "blanco-kartusche-hd-121894",
+   "hinweis": "MIDA-S 521455",
+   "quelle_url": "https://www.blanco.de/armaturen/mida/blancomida-s_59.971/521455",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mida-s",
+   "teil_slug": "blanco-brauseschlauch-123685",
+   "hinweis": "MIDA-S 521455",
+   "quelle_url": "https://www.blanco.de/armaturen/mida/blancomida-s_59.971/521455",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mida-s",
+   "teil_slug": "blanco-brausekopf-122191",
+   "hinweis": "MIDA-S 521455",
+   "quelle_url": "https://www.blanco.de/armaturen/mida/blancomida-s_59.971/521455",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mida-s",
+   "teil_slug": "blanco-brausekopf-124194",
+   "hinweis": "schwarz matt; Verwendungsnachweis MIDA-S 526653",
+   "quelle_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/brausekoepfe/brauseschlauch%2Bkopfschwarzmatt%2Brueckflussverhindererkpl.mida-skp_60.899.124194/124194",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mida-s",
+   "teil_slug": "blanco-gewicht-brauseschlauch-122491",
+   "hinweis": "MIDA-S, gültig ab 10/2015",
+   "quelle_url": "https://www.blanco.de/armaturen/mida/blancomida-s_59.971/521455",
+   "sicherheit": "hersteller"
+  }
+ ],
+ "probleme": [
+  {
+   "slug": "blanco-spuele-laeuft-nicht-ab-siebkorb-dicht-nicht",
+   "titel": "Blanco-Spüle läuft schlecht ab oder Siebkörbchen dichtet nicht",
+   "symptom": "Das Wasser läuft nur langsam ab, oder bei geschlossenem Siebkörbchen/Stopfen sinkt der Wasserstand im Becken trotzdem.",
+   "ursachen": [
+    {
+     "ursache": "Ablagerungen in Siebkörbchen, Ablaufkelch und am Verschlussstopfen (Blanco-FAQ nennt das als ersten Prüfpunkt)",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Dichtung am Siebkörbchen verschlissen, verhärtet oder eingerissen",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "blanco-dichtung-siebkoerbchen-116116",
+      "blanco-dichtung-siebkoerbchen-117497"
+     ]
+    },
+    {
+     "ursache": "Siebkörbchen/Stopfen falsch eingestellt (Hubstange bzw. InFino-Stopfenschraube) oder beschädigt",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "blanco-siebkoerbchen-119146",
+      "blanco-siebkoerbchen-125555",
+      "blanco-siebkoerbchen-125590",
+      "blanco-siebkoerbchen-117563",
+      "blanco-infino-stopfen-121711",
+      "blanco-infino-stopfen-121710"
+     ]
+    }
+   ],
+   "schritte": [
+    "Siebkörbchen herausnehmen, Ablagerungen im Siebkörbchen und im Ablaufkelch entfernen, Verschlussstopfen reinigen und testen (Blanco-FAQ).",
+    "Blanco-Tipp für Fett/Kalk: Ablauf schließen, einen gestrichenen Teelöffel Geschirrspülpulver darauf geben, ca. 250 ml fast kochendes Wasser ins Becken gießen, mindestens 30 Sekunden einwirken lassen, mit Spülbürste nacharbeiten, dann Siebeinsatz entnehmen und die Lochöffnungen im Ablaufkelch säubern. Bei empfindlicher Haut Handschuhe tragen.",
+    "Den Gummistopfen bzw. den Ablauf mit 1:10 Essigwasser reinigen; bei starker Verschmutzung Paste aus Soda und Backpulver mit alter Zahnbürste.",
+    "Dichtung am Siebkörbchen prüfen; ist sie hart oder rissig, Dichtung oder komplettes Siebkörbchen tauschen. Maße (z. B. Ø 79 oder 82 mm) und Bedienart (Exzenter, Zapfen, manuell) mit dem alten Teil vergleichen.",
+    "InFino mit PushControl: prüfen, ob der Stopfen beim Betätigen minimal angehoben wird; wenn nicht, laut Blanco die Schraube des Stopfens weiter herausdrehen.",
+    "Passendes Teil über die Spülen-Artikelnummer im Blanco-Ersatzteilkatalog bestimmen."
+   ],
+   "fachbetrieb_ab": "Wenn das Wasser auch bei sauberem Siebkörbchen steht (Verstopfung im Siphon oder in der Abwasserleitung hinter der Wand) oder Wasser am Ventilkelch zwischen Becken und Garnitur austritt und ein Nachziehen der Hohlschraube nicht hilft.",
+   "quellen": [
+    "https://www.blanco.com/de-de/service/haeufig-gestellte-fragen/",
+    "https://www.blanco.de/magazin/tipps-tricks/abfluss-reinigen/",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur3,5''exz.viva5s_58.170.217070/217070",
+    "https://www.prd.bwc.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/dichtungen-&-teflonringe/dichtungsiebkoerbchen3,5''ab1%C2%BD006al_60.955.116116/116116"
+   ]
+  },
+  {
+   "slug": "blanco-ablauffernbedienung-drehknopf-funktioniert-nicht",
+   "titel": "Blanco Drehknopf / Ablauffernbedienung funktioniert nicht",
+   "symptom": "Beim Drehen oder Ziehen am Knopf hebt oder senkt sich das Siebkörbchen bzw. der InFino-Stopfen nicht mehr, der Knopf dreht leer oder lässt sich nur schwer bewegen.",
+   "ursachen": [
+    {
+     "ursache": "Siebkörbchen sitzt nicht auf dem Exzenter oder die Hubstange ist zu kurz/zu lang eingestellt",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "blanco-siebkoerbchen-119146",
+      "blanco-infino-stopfen-121711"
+     ]
+    },
+    {
+     "ursache": "Bowdenzug am Ventil oder am Knopf ausgehängt bzw. gerissen",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "blanco-bowdenzug-139373",
+      "blanco-bowdenzug-128628",
+      "blanco-bowdenzug-120338"
+     ]
+    },
+    {
+     "ursache": "Drehbetätigung bzw. Zugknopf defekt",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "blanco-drehbetaetigung-119293",
+      "blanco-zugknopf-225112"
+     ]
+    },
+    {
+     "ursache": "Garnitur ohne Fernbedienung – Nachrüstung gewünscht",
+     "haeufigkeit": "selten",
+     "teil_slugs": [
+      "blanco-nachruestset-118979",
+      "blanco-nachruestset-infino-232459"
+     ]
+    }
+   ],
+   "schritte": [
+    "Siebkörbchen bzw. Stopfen herausnehmen, reinigen und wieder so einsetzen, dass die Hubstange auf dem Exzenter sitzt; bei verstellbarer Hubstange (z. B. 119146) Länge anpassen und testen.",
+    "InFino: laut Blanco-FAQ prüfen, ob der Stopfen beim Betätigen minimal angehoben wird, sonst die Stopfenschraube weiter herausdrehen.",
+    "Unter der Spüle mit Taschenlampe prüfen, ob der Bowdenzug an Knopf und Ventil eingehängt ist; ein gerissener Zug wird als Ganzes getauscht (Länge am alten Zug messen: 600 oder 700 mm).",
+    "Seit 13.08.2018 liefert Blanco InFino-Garnituren mit Bowdenzug ohne Zugknopf – der Zugknopf 225112 muss separat bestellt werden.",
+    "Ist der Ventilkörper selbst beschädigt, komplette Garnitur passend zur Spülen-Artikelnummer bestellen."
+   ],
+   "fachbetrieb_ab": "Wenn beim Ausbau der Garnitur die Verbindung zum Siphon/Abfluss undicht wird oder bei Unterbau-/Granitspülen der Ventilkelch neu eingedichtet werden muss und man sich das nicht zutraut.",
+   "quellen": [
+    "https://www.blanco.com/de-de/service/haeufig-gestellte-fragen/",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur2x3,5''siebmitbowdenzugc-overflow(2x)infino_58.170.234460/234460",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/bowdenzuege/bowdenzug700mmlang_60.890.139373/139373",
+    "https://www.blanco.de/ablauffernbedienungen/drehbetaetigungedelstahlrund_179.825.119293/119293",
+    "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt"
+   ]
+  },
+  {
+   "slug": "blanco-brause-zieht-nicht-zurueck-armatur-tropft",
+   "titel": "Blanco Auszugsbrause zieht nicht zurück, Brauseschlauch undicht oder Armatur tropft",
+   "symptom": "Die Auszugsbrause gleitet nicht mehr von selbst in den Auslauf zurück, am Schlauch oder unter der Spüle tritt Wasser aus, oder die Armatur tropft nach.",
+   "ursachen": [
+    {
+     "ursache": "Schlauch gleitet schwer – Blanco empfiehlt etwas Armaturenfett, sobald erste Anzeichen auftreten",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Rückholgewicht verrutscht oder zu leicht",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "blanco-gewicht-brauseschlauch-122491",
+      "blanco-gewicht-brauseschlauch-123888"
+     ]
+    },
+    {
+     "ursache": "Brauseschlauch geknickt und dadurch undicht (Blanco-Hinweis) oder Dichtung am T-Stück defekt",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "blanco-brauseschlauch-116432",
+      "blanco-brauseschlauch-125763",
+      "blanco-brauseschlauch-122490",
+      "blanco-brauseschlauch-123685",
+      "blanco-dichtung-brauseschlauch-139346"
+     ]
+    },
+    {
+     "ursache": "Dauerhaftes Tropfen: Kalk in der Kartusche oder verschlissene Dichtungen (bei Niederdruckarmaturen ist leichtes Nachtropfen durch den Boiler normal)",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "blanco-kartusche-hd-121894",
+      "blanco-kartusche-nd-121491"
+     ]
+    },
+    {
+     "ursache": "Brausekopf verkalkt oder beschädigt",
+     "haeufigkeit": "selten",
+     "teil_slugs": [
+      "blanco-brausekopf-118256",
+      "blanco-brausekopf-122191",
+      "blanco-brausekopf-120583",
+      "blanco-brausekopf-128689"
+     ]
+    }
+   ],
+   "schritte": [
+    "Unter der Spüle prüfen, ob das Gewicht noch am Schlauch sitzt und der Schlauch frei hängt (nicht geknickt, nirgends eingeklemmt).",
+    "Schlauch dünn mit Armaturenfett einstreichen, wenn er schwer zurückgleitet (Blanco-FAQ).",
+    "Brausekopf/Strahlregler entkalken: laut Blanco den Strahlregler mit dem passenden Reinigungsschlüssel abschrauben, über Nacht in Essigwasser oder Zitronensäure einlegen, mit alter Zahnbürste reinigen; Intervall etwa alle 3–6 Monate. Die Noppen am Brausekopf lassen sich zusätzlich abreiben.",
+    "Bei nachtropfender Niederdruckarmatur zuerst prüfen, ob das Tropfen nur kurz nach Warmwasser-Entnahme auftritt (normal); sonst Kartusche tauschen – Wasser absperren, Hebel und Abdeckung lösen, Kartuschensicherungsmutter (teils Spezialschlüssel) öffnen.",
+    "Für Ersatzteile die Armaturen-Artikelnummer auf blanco.de suchen; HD- und ND-Kartuschen (beide 35 mm) nicht verwechseln."
+   ],
+   "fachbetrieb_ab": "Wenn Eckventile nicht mehr schließen oder selbst undicht sind, bei Niederdruck-Armaturen mit angeschlossenem Boiler unklar ist, welche Leitung welche ist, oder der Armaturenkörper selbst undicht ist.",
+   "quellen": [
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/brausekoepfe/brausekopflinus-shdanthrazitkomplettnf_60.899.118256/118256",
+    "https://www.blanco.de/kuechenarmaturen/ratgeber/reinigung-und-pflege-armaturen/",
+    "https://www.blanco.de/armaturen/linus/blancolinus-s_152.802/525807",
+    "https://www.blanco.de/armaturen/daras/blancodaras-s_59.573/519724",
+    "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/spezifische-einzelteile/gewichtfuerbrauseschlauch(225g)kp_93.606.122491/122491"
+   ]
+  }
+ ],
+ "widersprueche": [
+  {
+   "thema": "138069 – Einzel- oder Doppelbecken-Garnitur?",
+   "aussage_a": "Ein Suchauszug der Blanco-Ventilseite 120665 führt 138069 als „AB-U.ÜBERL.GARN.3 ½''(2x)-Übl. rund“ (also Doppelgarnitur 2 × 3½\"). Die offizielle Doppelgarnitur für DUO 8 S/MULTI 6 S/TIPO 6 S/TWEN heißt jedoch 138067 – Verwechslungsgefahr.",
+   "quelle_a": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ventile/ventil3,5%22mitueberlaufg1-2%22al_61.319.120665/120665",
+   "aussage_b": "eBay-Angebot: 138069 = „Ablaufgarnitur 1 x 3,5\" Sieb ohne Ablauffernbedienung, runder Überlauf“ für CLASSIC 4 S, PLUS 45, TIPO 45 S, DANA, WAVE 5020-U; der Blanco-Verwendungsnachweis (117563) nennt 138069 als Nachfolger der Einzel-Garnitur „3,5'' Sieb TIPO XL 6 S Überlauf rund“.",
+   "quelle_b": "https://www.ebay.de/p/1425402445"
+  },
+  {
+   "thema": "Siebkörbchen 119146 – ab welchem Baujahr?",
+   "aussage_a": "Blanco führt 119146 in der Ersatzteilliste der Garnitur 217070 mit „Gültig ab 07/2005“.",
+   "quelle_a": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ablaufgarnituren/ablaufgarnitur3,5''exz.viva5s_58.170.217070/217070",
+   "aussage_b": "Amazon-Angebot: „Siebkörbchen 3,5\" Exzenter universal (18 Schlitze) ab Baujahr 2011“; ein weiteres Händlerangebot nennt „ab Baujahr 1996“. Blancos „Gültig ab“ bezieht sich auf die jeweilige Garnitur, nicht auf ein Spülen-Baujahr.",
+   "quelle_b": "https://www.amazon.de/BLANCO-Siebk%C3%B6rbchen-Exzenter-universal-Schlitze/dp/B08NHMZXQV"
+  },
+  {
+   "thema": "Siebkörbchen 119146 – Länge der Hubstange",
+   "aussage_a": "Preisvergleich: Hubstange Ø 8 mm, Länge 61 mm.",
+   "quelle_a": "https://www.guenstiger.de/Produkt/Blanco/Siebkoerbchen_119146.html",
+   "aussage_b": "Amazon-Angebot: Edelstahlstift Ø 8 mm, Länge 60 mm, per Schraube einstellbar. Die Dichtung wird mal mit 51 mm, mal mit 52 mm angegeben.",
+   "quelle_b": "https://www.amazon.de/BLANCO-Siebk%C3%B6rbchen-Exzenter-universal-Schlitze/dp/B08NHMZXQV"
+  },
+  {
+   "thema": "224805 – passende Spülen laut Händlern",
+   "aussage_a": "W-Wohnen: passend für CLASSIC 6 S, CLASSIC 6 S-F, VIVA 6, MULTI 6 S, AXIA 6 S, AXIS 6 S, AXIA 6 S-F, VEKTRIS 6 S.",
+   "quelle_a": "https://www.w-wohnen.com/spuelen-armaturen/zubehoer/blanco-ablaufgarnitur-2-x-3-5-mit-ablauffernbedienung-mit-drehexcenter/a-8978",
+   "aussage_b": "Kaufland nennt u. a. MULTI 6 S, aber nicht VIVA 6 S; ein eBay-Angebot nennt VIVA 6 S und VIVA 6-F. Händlerlisten sind unvollständig – nur der Blanco-Verwendungsnachweis (z. B. AXIA 6 S) ist verbindlich.",
+   "quelle_b": "https://www.kaufland.de/product/471475843/"
+  }
+ ],
+ "nicht_geprueft": [
+  "WebFetch war für blanco.de/blanco.com, amazon.de, ebay.de und kaufland.de gesperrt. Alle Angaben stammen aus Suchergebnis-Auszügen der jeweiligen Seiten; Verwendungsnachweise wurden nur so weit übernommen, wie der Auszug die Spülen-Nummern zeigte. Vor Veröffentlichung im Browser stichprobenartig gegenprüfen.",
+  "Wo die Blanco-Artikelnummer an der Spüle bzw. Armatur selbst steht (Aufkleber unter dem Becken, am Schlauch o. ä.), ist durch keine gefundene Blanco-Quelle belegt.",
+  "Ersatzteilverfügbarkeit: nur die unklare blanco.at-Formulierung „mindestens bis zu 10 Jahre“ gefunden; keine deutsche Blanco-Zusage.",
+  "Spülen-Artikelnummern für CLASSIC 6 S, LEXA 6 S, TIPO 6 S, TIPO XL 6 S, MULTI 6 S und AXIA 6 S nicht ermittelt.",
+  "Garnitur 224805: Zuordnung zu CLASSIC 6 S nur aus Händlerlisten; der Blanco-Verwendungsnachweis von 224805 war im Auszug nur für AXIA 6 S lesbar.",
+  "Garnituren 125642 (Ablaufventil mit Bowdenzug Viega), 231006 (Verwendungsnachweis-Nummern 522201 ff., 519662 ff. ohne Modellnamen) und 118979 (Nachrüstset) konnten keiner Serie sicher zugeordnet werden.",
+  "LEXA 8 (evtl. 221497) und TIPO 45 S mit Ablauffernbedienung (evtl. 237859) nur vage in Suchauszügen – nicht übernommen.",
+  "Kartusche für ALTA-S Compact nicht gefunden; Brauseschlauch 125763 zusätzlich für LINUS-S nicht bestätigt.",
+  "Amazon-ASINs nur für 119146 (B005HH4UV6) und 125590 (B006HBG6FE) gesehen; für alle anderen Blanco-Nummern keine amazon.de-/dp-URL mit exakt dieser Nummer gefunden.",
+  "Konkrete Zerlege-Anleitung für Blanco-Brauseköpfe (Schrauben, Clips) nicht gefunden – nur Blancos Pflegehinweise zum Strahlregler (Reinigungsschlüssel, Einweichen).",
+  "Preise sind blanco.de-Listenpreise bzw. Händlerpreise aus Suchauszügen (Stand Recherche 11/2026) und können abweichen."
+ ]
+}
