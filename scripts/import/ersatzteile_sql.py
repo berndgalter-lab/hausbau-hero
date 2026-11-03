@@ -4,7 +4,7 @@ Aufruf: python3 -I ersatzteile_sql.py <daten.json> <ausgabeordner>
 Schreibt nummerierte .sql-Dateien (je < 40 KB), die nacheinander in Supabase
 ausgeführt werden. Wiederholbar: alles per Upsert, Widersprüche werden ersetzt.
 """
-import json, os, sys
+import json, os, re, sys
 
 TAG = "$hhx9$"
 RANG = {"hersteller": 3, "zwei_quellen": 2, "eine_quelle": 1}
@@ -29,8 +29,36 @@ def chunks(liste, bau):
     return out
 
 
+SLUG = re.compile(r"^[a-z0-9-]+$")
+ASIN = re.compile(r"^[A-Z0-9]{10}$")
+
+
+def pruefe(d):
+    """Prüft die Datenbank-Regeln vorab und gleicht Kleinigkeiten an, statt den Import scheitern zu lassen."""
+    fehler = []
+    for t in d["teile"]:
+        if t.get("schwierigkeit") is not None and t["schwierigkeit"] > 3:
+            # 4 = "nur Fachbetrieb": in der DB als 3 (anspruchsvoll), selbst_tauschbar bleibt false
+            t["schwierigkeit"] = 3
+            t["selbst_tauschbar"] = False
+        if t.get("schwierigkeit") is not None and t["schwierigkeit"] < 1:
+            t["schwierigkeit"] = 1
+        if t.get("amazon_asin") and not ASIN.match(t["amazon_asin"]):
+            fehler.append(f"ASIN ungültig: {t['slug']} {t['amazon_asin']}")
+    for liste in ("serien", "teile", "probleme"):
+        for x in d[liste]:
+            if not SLUG.match(x["slug"]):
+                fehler.append(f"Slug ungültig ({liste}): {x['slug']}")
+    for z in d["zuordnungen"]:
+        if z["sicherheit"] not in RANG:
+            fehler.append(f"Sicherheit ungültig: {z}")
+    if fehler:
+        raise SystemExit("\n".join(fehler))
+
+
 def main(pfad, ziel):
     d = json.load(open(pfad, encoding="utf-8"))
+    pruefe(d)
     m = d["marke"]; ms = m["slug"]
     marke_id = f"(select id from public.marken where slug = '{ms}')"
     sql = []
