@@ -15,6 +15,7 @@ import {
   SITE_URL,
   TEILTYP_LABEL,
   baujahre,
+  gruppiere,
   hostVon,
   markeNachSlug,
   teileNachIds,
@@ -64,6 +65,10 @@ export default async function SerienSeite({ params }: Props) {
     { name: serie.name, href: `/ersatzteile/${marke.slug}/${serie.slug}` },
   ];
   const jahre = baujahre(serie);
+  // Mehrere Teile derselben Art (z. B. fünf Kartuschen bei Grohe Eurosmart): Dann entscheidet die Modellnummer.
+  const mehrfach = gruppiere(zeilen, (x) => x.t.teiltyp)
+    .filter(([, liste]) => liste.length > 1)
+    .map(([typ]) => TEILTYP_LABEL[typ] ?? typ);
 
   return (
     <div className="max-w-4xl">
@@ -92,6 +97,12 @@ export default async function SerienSeite({ params }: Props) {
 
       <section className="mb-8">
         <h2 className="text-xl font-bold mb-3">Passende Ersatzteile</h2>
+        {mehrfach.length > 0 && (
+          <div className="mb-4 p-4 bg-amber-50 border border-amber-200 rounded-lg text-sm text-stone-700">
+            <strong>Achtung:</strong> Für diese Serie gibt es mehrere {mehrfach.join(" und ")}. Welches Teil passt,
+            hängt von der genauen Modellnummer deiner Armatur ab – sie steht in der Spalte „Hinweis“.
+          </div>
+        )}
         {zeilen.length === 0 ? (
           <p className="text-sm text-stone-600">Für diese Serie sind noch keine belegten Zuordnungen erfasst.</p>
         ) : (

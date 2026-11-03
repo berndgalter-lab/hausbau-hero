@@ -28,15 +28,48 @@ const SCHWIERIGKEIT = ["", "leicht", "mittel", "anspruchsvoll"];
 
 const MASS_LABEL: Record<string, string> = {
   durchmesser_mm: "Durchmesser",
+  aussen_mm: "Außendurchmesser",
+  innen_mm: "Innendurchmesser",
   gewinde: "Gewinde",
+  gewinde_mm: "Gewinde",
   laenge_mm: "Länge",
   hoehe_mm: "Höhe",
   breite_mm: "Breite",
+  staerke_mm: "Stärke",
+  abmessungen_cm: "Abmessungen",
   anschluss: "Anschluss",
+  anschluss_zoll: "Anschluss",
+  passt_gewinde: "Passt auf Gewinde",
+  schnur_mm: "Schnurstärke",
+  standrohr: "Standrohr",
+  berechnungsdurchfluss_l_s: "Durchfluss",
+  min_fliessdruck_kpa: "Mindest-Fließdruck",
+  fliessdruck_kpa: "Fließdruck",
+  spuelmenge_gross_l: "Große Spülmenge",
+  spuelmenge_klein_l: "Kleine Spülmenge",
+  hinweis: "Hinweis",
 };
 
+const EINHEIT: [string, string][] = [
+  ["_mm", "mm"],
+  ["_cm", "cm"],
+  ["_l_s", "l/s"],
+  ["_kpa", "kPa"],
+  ["_l", "l"],
+];
+
+function massName(key: string): string {
+  if (MASS_LABEL[key]) return MASS_LABEL[key];
+  const ohneEinheit = key.replace(/_(mm|cm|l_s|kpa|l)$/, "").replace(/_/g, " ");
+  return ohneEinheit.charAt(0).toUpperCase() + ohneEinheit.slice(1);
+}
+
 function massWert(key: string, wert: string | number): string {
-  if (typeof wert === "number" && key.endsWith("_mm")) return `${wert} mm`;
+  if (typeof wert === "number") {
+    const einheit = EINHEIT.find(([endung]) => key.endsWith(endung));
+    const zahl = wert.toLocaleString("de-DE");
+    return einheit ? `${zahl} ${einheit[1]}` : zahl;
+  }
   return String(wert);
 }
 
@@ -91,7 +124,7 @@ export default async function TeilSeite({ params }: Props) {
             {teil.ean && (<><dt className="text-stone-500">EAN</dt><dd>{teil.ean}</dd></>)}
             {masse.map(([k, v]) => (
               <span key={k} className="contents">
-                <dt className="text-stone-500">{MASS_LABEL[k] ?? k}</dt>
+                <dt className="text-stone-500">{massName(k)}</dt>
                 <dd>{massWert(k, v)}</dd>
               </span>
             ))}
