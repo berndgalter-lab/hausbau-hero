@@ -20,6 +20,7 @@ import {
   SITE_URL,
   TEILTYP_LABEL,
   angeboteFuerTeile,
+  teilBild,
   baujahre,
   gruppiere,
   NOTIZ_SPRACHE,
@@ -145,7 +146,7 @@ export default async function SerienSeite({ params }: Props) {
                   <tr key={t.id} className="align-top">
                     <td className="px-4 py-3">
                       <div className="flex gap-3">
-                        <TeilBild url={t.bild_url} alt={t.name} groesse={48} />
+                        <TeilBild url={teilBild(t, angebote)?.url ?? null} alt={t.name} groesse={48} />
                         <div>
                           <a href={`/teil/${t.slug}`} className="font-medium hover:text-accent-700">{t.name}</a>
                           <div className="text-xs text-stone-500">{TEILTYP_LABEL[t.teiltyp] ?? t.teiltyp}</div>

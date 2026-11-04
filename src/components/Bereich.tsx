@@ -1,5 +1,4 @@
-import TeilBild from "@/components/TeilBild";
-import BereichBild from "@/components/BereichBild";
+import BereichBild, { RatgeberBild } from "@/components/BereichBild";
 import type { Bereich } from "@/lib/bereiche";
 import type { RatgeberKarte } from "@/lib/bereiche-daten";
 
@@ -22,14 +21,16 @@ export function BereichKachel({ b }: { b: Bereich }) {
   );
 }
 
-/** Ratgeber als Liste mit Haarlinien, Produktbild aus den Partner-Feeds, ohne Bild nur mit Text. */
+/** Ratgeber als Liste mit Haarlinien, Zeichnung auf getönter Fläche wie bei den Bereichskacheln. */
 export function RatgeberKarten({ liste }: { liste: RatgeberKarte[] }) {
   return (
     <ul className="grid grid-cols-1 gap-x-10 border-t border-stone-200 md:grid-cols-2">
       {liste.map((r) => (
         <li key={r.slug} className="border-b border-stone-200">
           <a href={r.href} className="group flex h-full items-center gap-4 py-4">
-            {r.bild && <TeilBild url={r.bild.url} alt="" groesse={64} />}
+            <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-stone-100 text-stone-700 transition-colors group-hover:bg-accent-50 group-hover:text-accent-700">
+              <RatgeberBild slug={r.slug} />
+            </span>
             <span className="min-w-0 flex-1">
               <span className="block font-semibold leading-snug text-stone-900 group-hover:text-accent-700">{r.titel}</span>
               {r.text && <span className="mt-1 text-sm leading-snug text-stone-600 line-clamp-2">{r.text}</span>}

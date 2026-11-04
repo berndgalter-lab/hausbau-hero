@@ -4,7 +4,7 @@ import { getAffiliateLink } from "@/lib/rechner-logic";
 import { mitTrackingId } from "@/lib/affiliate";
 import { armaturDaten } from "@/lib/armatur-daten";
 import { formatEuro, formatStand, zeigePreis } from "@/lib/ersatzteile";
-import { angeboteFuerEans, bildAusAngeboten, normEan } from "@/lib/kaufberatung";
+import { angeboteFuerEans, bildAusAngeboten, normEan, VERLINKTE_ANGEBOTE } from "@/lib/kaufberatung";
 import { artikelUrl } from "@/lib/produkt-ratgeber";
 import ArmaturenVergleich, { type VergleichsProdukt } from "@/components/ArmaturenVergleich";
 
@@ -63,7 +63,7 @@ export default async function ArmaturenVergleichSeite() {
       daten: armaturDaten(p.technische_daten)!,
       bild: bildAusAngeboten(angebote),
       amazon: amazon ? mitTrackingId(amazon, "vergleich") : null,
-      angebote: angebote.slice(0, 3).map((a) => ({
+      angebote: angebote.slice(0, VERLINKTE_ANGEBOTE).map((a) => ({
         id: a.id,
         shop: a.shop,
         shopName: a.shop_name,
