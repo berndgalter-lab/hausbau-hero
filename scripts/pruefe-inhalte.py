@@ -129,6 +129,84 @@ def pruefe_ersatzteile(streng: bool) -> None:
                         wer = e.get("slug") or e.get("thema") or e.get("serie_slug") or bereich
                         ziel.append(f"{datei}: {bereich} {wer}: Notiz-Sprache in {f} („{m.group(0)}“)")
         pruefe_fragen(datei, d)
+        pruefe_groessen(datei, d, ziel)
+
+
+# Gleiche Listen wie in src/lib/groessen.ts
+GROESSEN_PRODUKTTYP = "dachfenster"
+GROESSEN_ARTEN = ("rollo", "plissee", "hitzeschutz", "insektenschutz", "rollladen")
+
+
+def pruefe_groessen(datei: str, d: dict, ziel: list[str]) -> None:
+    """Größenseiten (docs/SEITENAUFBAU.md, 5a) und Tabellen der Marken-Seite: Pflichtfelder, Lesersprache, Verweise.
+
+    Jedes Teil braucht eine Kaufmöglichkeit (EAN für den Feed-Abgleich oder geprüfte ASIN). Ob eine Größenseite
+    indexiert wird, entscheidet die Seite anhand der Shop-Angebote in der Datenbank; hier wird nur gemeldet, wenn
+    nicht einmal drei Zubehörarten ein Teil mit EAN oder ASIN haben.
+    """
+    teile = {t["slug"]: t for t in d.get("teile", [])}
+    for t in teile.values():
+        if t.get("amazon_asin") and not re.fullmatch(r"[A-Z0-9]{10}", t["amazon_asin"]):
+            fehler.append(f"{datei}: Teil {t['slug']}: ungültige ASIN {t['amazon_asin']}")
+        if t.get("ean") and not re.fullmatch(r"\d{8}|\d{12,14}", t["ean"]):
+            fehler.append(f"{datei}: Teil {t['slug']}: ungültige EAN {t['ean']}")
+    for tab in d["marke"].get("tabellen", []):
+        for k in ("id", "titel", "spalten", "zeilen"):
+            if not tab.get(k):
+                fehler.append(f"{datei}: Tabelle {tab.get('id', '?')}: Feld „{k}“ fehlt")
+        for z in tab.get("zeilen", []):
+            if len(z) != len(tab.get("spalten", [])):
+                fehler.append(f"{datei}: Tabelle {tab.get('id')}: Zeile {z[:1]} hat {len(z)} statt {len(tab['spalten'])} Spalten")
+        for text in [tab.get("titel", ""), tab.get("hinweis", "")] + [c for z in tab.get("zeilen", []) for c in z]:
+            m = NOTIZ.search(text or "")
+            if m:
+                ziel.append(f"{datei}: Tabelle {tab.get('id')}: Notiz-Sprache („{m.group(0)}“)")
+    for s in d.get("serien", []):
+        g = s.get("groesse")
+        if s.get("produkttyp") != GROESSEN_PRODUKTTYP:
+            if g:
+                fehler.append(f"{datei}: Serie {s['slug']}: Feld groesse nur bei produkttyp {GROESSEN_PRODUKTTYP}")
+            continue
+        wer = f"{datei}: Größe {s['slug']}"
+        if not g:
+            fehler.append(f"{wer}: Feld groesse fehlt")
+            continue
+        for k in ("code", "breite_cm", "hoehe_cm", "fenstertypen", "alte_codes", "zubehoer"):
+            if g.get(k) in (None, "", []):
+                fehler.append(f"{wer}: groesse.{k} fehlt")
+        if g.get("code", "").lower() != s["slug"]:
+            fehler.append(f"{wer}: Slug muss der Code in Kleinbuchstaben sein ({g.get('code')})")
+        if s.get("kennnummern", [None])[0] != g.get("code"):
+            fehler.append(f"{wer}: kennnummern[0] muss der Code sein (Link aus der Code-Tabelle)")
+        for a in g.get("alte_codes", []):
+            if a.get("code") not in s.get("kennnummern", []):
+                fehler.append(f"{wer}: alter Code {a.get('code')} fehlt in kennnummern (Suche)")
+        texte_ = [g.get("vor_1991", ""), g.get("hinweis", "")]
+        texte_ += [a.get("hinweis", "") for a in g.get("alte_codes", [])]
+        texte_ += [z.get("hinweis", "") for z in g.get("zubehoer", [])]
+        texte_ += [n.get("hinweis", "") for n in g.get("nachbauten", [])]
+        for t in texte_:
+            m = NOTIZ.search(t or "")
+            if m:
+                ziel.append(f"{wer}: Notiz-Sprache („{m.group(0)}“)")
+        for z in g.get("zubehoer", []):
+            if z.get("art") not in GROESSEN_ARTEN:
+                fehler.append(f"{wer}: unbekannte Zubehörart {z.get('art')}")
+        for n in g.get("nachbauten", []):
+            if not re.fullmatch(r"[A-Z0-9]{10}", n.get("amazon_asin") or "") and not n.get("ean"):
+                fehler.append(f"{wer}: Nachbau {n.get('name')} ohne ASIN oder EAN")
+            if "Nachbau" not in (n.get("hinweis") or ""):
+                fehler.append(f"{wer}: Nachbau {n.get('name')} ohne Hinweis „Nachbau“")
+        pruefe_fragen(f"{wer}", {"marke": {"fragen": g.get("fragen", [])}, "teile": d.get("teile", []), "probleme": d.get("probleme", [])})
+        arten = {
+            teile[z["teil_slug"]]["teiltyp"]
+            for z in d.get("zuordnungen", [])
+            if z["serie_slug"] == s["slug"] and z["teil_slug"] in teile
+            and teile[z["teil_slug"]]["teiltyp"] in GROESSEN_ARTEN
+            and (teile[z["teil_slug"]].get("ean") or teile[z["teil_slug"]].get("amazon_asin"))
+        }
+        if len(arten) < 3:
+            hinweise.append(f"{wer}: nur {len(arten)} Zubehörarten mit EAN oder ASIN, die Seite bleibt noindex")
 
 
 def pruefe_fragen(datei: str, d: dict) -> None:

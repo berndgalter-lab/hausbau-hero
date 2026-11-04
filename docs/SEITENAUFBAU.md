@@ -282,6 +282,46 @@ Ein Teil, das in vielen Marken steckt, markenübergreifend erklärt: Eckventil, 
 - Teile-Tabelle mit Beleg in Worten („Grohe-Ersatzteilblatt 33 555 003“), Kaufzeile pro Teil.
 - Verweis auf die passende Problem-Seite und, wo es sie gibt, auf den Ratgeber zum Neukauf.
 
+## 5a. Seitentyp Größenseite (`/ersatzteile/<marke>/<code>`, Dachfenster)
+
+Bei Dachfenstern hängt jedes Zubehör am Größencode auf dem Typenschild, nicht an einem Modell. Deshalb ist bei VELUX jede Fenstergröße eine Serie mit `produkttyp: "dachfenster"`: `/ersatzteile/velux/mk04`. Plan und Begründung in `KEYWORDS-DACHFENSTER.md`, Abschnitt 6. Die Vorlage ist `src/components/GroessenSeite.tsx`, die Serien-Route wählt sie über den Produkttyp.
+
+**Titel:** „VELUX MK04: welches Rollo und welches Zubehör passt?“ (`groessenTitel`).
+
+**Reihenfolge:** Maß und alle Namen der Größe, „Ist das dein Fenster?“ (Typenschild, Fenstertypen, Codes je Generation), je Zubehörart die Originale mit Typenbezeichnung, Generation und Kaufzeile, „Ältere Fenster“ (Tabelle der alten Codes, Satz zu Fenstern vor 1991), Nachbauten, Teile für jede Größe (Pflege, Dichtung, Bedienstange, Schalter), Fragen mit `FAQPage`-Daten, Bereich, Quellen.
+
+**Daten:** in der Marken-Datei je Serie ein Feld `groesse`. Der Datenbank-Import kennt es nicht; `src/lib/groessen.ts` liest es beim Bauen aus der Datei. Serie, Teile, Zuordnungen und Shop-Preise kommen wie immer aus der Datenbank.
+
+```json
+{
+  "slug": "mk04", "name": "VELUX MK04", "produkttyp": "dachfenster",
+  "kennnummern": ["MK04", "M04", "304"],
+  "erkennungsmerkmale": "Wo das Typenschild sitzt und wie der Code aussieht.",
+  "beschreibung": "Maß und Fenstertypen in einem Satz.",
+  "groesse": {
+    "code": "MK04", "breite_cm": 78, "hoehe_cm": 98,
+    "fenstertypen": ["GGL", "GGU", "GPL", "GPU"],
+    "alte_codes": [{"code": "M04", "zeitraum": "2000 bis 2013", "hinweis": "Was an Zubehör für diese Generation passt."}],
+    "vor_1991": "Satz zu Fenstern mit eigenen, abweichenden Größen.",
+    "zubehoer": [{"art": "rollo", "typen": ["DKL MK04", "RFL MK04"], "hinweis": "…"}],
+    "nachbauten": [{"name": "…", "hersteller": "…", "amazon_asin": "…", "hinweis": "Nachbau, kein VELUX-Original."}],
+    "fragen": [{"frage": "…?", "antwort": "…", "kategorie": "kompatibilitaet", "quellen": ["url"], "teile": [], "problem": null}]
+  }
+}
+```
+
+- **Slug** ist der aktuelle Code in Kleinbuchstaben, `kennnummern[0]` der Code selbst (die Code-Tabelle der Marke verlinkt darüber), danach die alten Codes, damit die Teilesuche sie findet.
+- **Alte Codes** (M04, 304) sind Abschnitte und Suchbegriffe, keine eigenen URLs. Kein Code von vor 1991 wird als gleich groß ausgegeben, wenn das Maß abweicht.
+- **Zubehör je Art:** `art` ist eine der `GROESSEN_ARTEN` (`rollo`, `plissee`, `hitzeschutz`, `insektenschutz`, `rollladen`). Die Teile selbst hängen über `zuordnungen` an der Größe; der `hinweis` der Zuordnung sagt, für welches Typenschild das Teil gedacht ist („Fenster mit M04 (2000 bis 2013)“). Ein Teil kann an mehreren Größen hängen (Markise MHL MK00 an MK04, MK06, MK08).
+- **Nachbauten** nur mit geprüfter ASIN und dem Wort „Nachbau“ im Hinweis.
+- **Fragen** nach den Regeln aus 4a, nur zu dieser Größe. Allgemeine Fragen stehen auf der Marken-Seite.
+
+**Index-Regel:** Eine Größenseite wird nur indexiert, wenn mindestens drei Zubehörarten (`GROESSE_MIN_ARTEN`) ein zugeordnetes Teil haben, das ein Partnershop mit Preis führt oder das eine geprüfte ASIN hat (`groesseIstDuenn`). Sonst `noindex`, und die Sitemap lässt sie weg. Pflege-Sets und Schalter zählen nicht, sie hängen nicht an der Größe.
+
+**Tabellen auf der Marken-Seite:** `marke.tabellen` (Größencodes je Generation, Fenstertypen, Zubehör-Typen, bei Roto Größen alt/neu und Baureihen), Format `{"id", "titel", "spalten", "zeilen", "hinweis"}`. Sie stehen unter „So findest du die richtige Nummer“. Für Marken ohne Größenseiten (Roto, später FAKRO) ersetzt die Tabelle die Größenseiten.
+
+**Neue Marke mit Größenseiten oder Tabellen:** Datei in `src/lib/groessen.ts` importieren und in `DATEIEN` eintragen.
+
 ## 6. Prüfregel für die Daten
 
 Ein Skript (`scripts/pruefe-inhalte.py`, läuft im CI vor dem Merge) lehnt ab:
@@ -290,6 +330,7 @@ Ein Skript (`scripts/pruefe-inhalte.py`, läuft im CI vor dem Merge) lehnt ab:
 - Jahreszahl oder „X Modelle“ in `titel` und `seo_title`.
 - `ist_testsieger` / `ist_preistipp` in Produktdateien.
 - Teile ohne ASIN und ohne Partnershop, die trotzdem einen Kaufknopf bekämen. (Noch nicht im Skript: Die Partnershop-Angebote liegen nur in der Datenbank.)
+- Größenseiten (5a): fehlende Pflichtfelder in `groesse`, Slug ungleich Code, alte Codes nicht in `kennnummern`, unbekannte Zubehörart, Nachbau ohne ASIN oder ohne Hinweis „Nachbau“, ungültige ASIN oder EAN, Tabellen mit falscher Spaltenzahl. Hat eine Größe weniger als drei Zubehörarten mit EAN oder ASIN, meldet das Skript einen Hinweis.
 
 ## 7. Reihenfolge
 

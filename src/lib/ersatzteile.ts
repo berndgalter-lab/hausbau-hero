@@ -142,6 +142,8 @@ export const PRODUKTTYP_LABEL: Record<string, string> = {
   waschtisch: "Waschtische",
   duschablauf: "Duschabläufe",
   wannenablauf: "Badewannen-Ab- und Überlaufgarnituren",
+  // Bei Dachfenstern ist die Serie eine Fenstergröße (VELUX MK04), Vorlage in src/components/GroessenSeite.tsx
+  dachfenster: "Dachfenster nach Größe",
 };
 
 export const TEILTYP_LABEL: Record<string, string> = {
@@ -169,6 +171,15 @@ export const TEILTYP_LABEL: Record<string, string> = {
   absenkautomatik: "Absenkautomatik (Soft Close)",
   duschablauf: "Duschablauf-Teile",
   wannenablauf: "Wannenablauf-Teile",
+  rollo: "Rollos & Jalousien",
+  plissee: "Plissees",
+  hitzeschutz: "Hitzeschutz-Markisen",
+  insektenschutz: "Insektenschutz",
+  rollladen: "Rollläden",
+  akku: "Akkus",
+  fernbedienung: "Fernbedienungen & Schalter",
+  griff: "Griffe & Bedienstangen",
+  pflege: "Pflege & Wartung",
   sonstiges: "Weitere Teile",
 };
 

@@ -1,0 +1,3634 @@
+{
+ "marke": {
+  "slug": "velux",
+  "name": "VELUX",
+  "beschreibung": "VELUX baut Dachfenster aus Holz und Kunststoff und das Zubehör dazu: Rollos, Plissees und Jalousien für innen, Hitzeschutz-Markisen und Rollläden für außen, Insektenschutzrollos, Funk-Steuerungen und Pflege-Sets.\n\nFast alles, was du selbst tauschen kannst, hängt an der Größe auf dem Typenschild, etwa MK04. Mit diesem Code findest du Rollo oder Markise, ohne zu messen. Wichtig ist das Baujahr: Für Fenster von vor 2013 gibt es innen liegendes Zubehör mit dem alten Code. Fenstertausch und Eindeckrahmen sind dagegen Arbeit für den Dachdecker.",
+  "nummer_hinweis": "Das Typenschild sitzt bei geöffnetem Fenster rechts oder links hinter der Griffleiste. Darauf steht zuerst der Fenstertyp, dann die Größe, etwa „GGL MK08“. GGL ist ein Schwingfenster aus Holz, GGU dasselbe aus Kunststoff, GPL und GPU sind Klapp-Schwingfenster. Die Zahl daneben (2050, 3059) bezeichnet die Ausführung, die Zeile darunter enthält den Produktionscode mit dem Baujahr, etwa BB für 2012.\n\nVELUX hat die Größencodes zweimal geändert. Fenster seit 2013 tragen einen Code mit K (MK04), Fenster von 2000 bis 2013 denselben Code ohne K (M04) und Fenster von 1991 bis 2000 eine dreistellige Zahl (304). Alle drei stehen für dasselbe Außenmaß, hier 78 × 98 cm. Rollos, Plissees und Jalousien gibt es trotzdem je Generation getrennt. Außen liegende Markisen passen dagegen meist auf mehrere Generationen.\n\nFenster von vor 1991 (Typ VL, VK und die Austauschfenster VU, VKU) haben andere Maße und Codes mit führender Null wie 043. Zubehör dafür heißt Y43.\n\nRollos, Plissees und Jalousien haben ein eigenes Typenschild: einen silbernen Aufkleber auf der Rückseite, den du siehst, wenn du den Flügel um 180 Grad durchschwingst. Beim Rollladen sitzt es bei der aktuellen Generation am Topkasten, bei älteren auf der untersten Lamelle.",
+  "ersatzteil_garantie": "VELUX gibt 10 Jahre Garantie auf Dachfenster, bis zu 12 Jahre, wenn du das Fenster registrierst. 5 Jahre gelten für Rollläden, elektrische und solarbetriebene Markisen und Sonnenschutzprodukte sowie Ersatzscheiben, 3 Jahre für manuellen Sonnenschutz und manuelle Markisen, 2 Jahre für Ersatzteile und das Verdunkelungsrollo Classic.\n\nEine Frist, wie lange es Teile gibt, nennt VELUX nicht. Der Preiskatalog 2026 führt aber weiterhin Rollos, Plissees und Markisen für Fenster von 1991 bis 2013 und für die Austauschfenster der Größen von vor 1991.",
+  "hersteller_ersatzteil_url": "https://www.velux.de/service/typenschild",
+  "quellen": [
+   "https://www.velux.de/service/typenschild",
+   "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+   "https://www.home4u.de/Ratgeber/Wohndachfenster/velux-masstabelle/",
+   "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo",
+   "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/hitzeschutz-aussen/hitzeschutzmarkise-tageslicht"
+  ],
+  "tabellen": [
+   {
+    "id": "codes",
+    "titel": "Größencodes in drei Generationen",
+    "spalten": [
+     "Maß in cm",
+     "ab 2013",
+     "2000–2013",
+     "1991–2000"
+    ],
+    "zeilen": [
+     [
+      "55 × 78",
+      "CK02",
+      "C02",
+      "102"
+     ],
+     [
+      "55 × 98",
+      "CK04",
+      "C04",
+      "104"
+     ],
+     [
+      "55 × 118",
+      "CK06",
+      "C06",
+      "–"
+     ],
+     [
+      "66 × 98",
+      "FK04",
+      "F04",
+      "204"
+     ],
+     [
+      "66 × 118",
+      "FK06",
+      "F06",
+      "206"
+     ],
+     [
+      "66 × 140",
+      "FK08",
+      "F08",
+      "–"
+     ],
+     [
+      "78 × 98",
+      "MK04",
+      "M04",
+      "304"
+     ],
+     [
+      "78 × 118",
+      "MK06",
+      "M06",
+      "306"
+     ],
+     [
+      "78 × 140",
+      "MK08",
+      "M08",
+      "308"
+     ],
+     [
+      "78 × 160",
+      "MK10",
+      "M10",
+      "310"
+     ],
+     [
+      "94 × 118",
+      "PK06",
+      "P06",
+      "406"
+     ],
+     [
+      "94 × 140",
+      "PK08",
+      "P08",
+      "408"
+     ],
+     [
+      "94 × 160",
+      "PK10",
+      "P10",
+      "410"
+     ],
+     [
+      "114 × 118",
+      "SK06",
+      "S06",
+      "606"
+     ],
+     [
+      "114 × 140",
+      "SK08",
+      "S08",
+      "608"
+     ],
+     [
+      "114 × 160",
+      "SK10",
+      "S10",
+      "610"
+     ],
+     [
+      "134 × 98",
+      "UK04",
+      "U04",
+      "804"
+     ],
+     [
+      "134 × 140",
+      "UK08",
+      "U08",
+      "808"
+     ],
+     [
+      "134 × 160",
+      "UK10",
+      "U10",
+      "810"
+     ]
+    ],
+    "hinweis": "Das Maß ist das Blendrahmen-Außenmaß in Zentimetern. Die Zahlencodes von 1991 bis 2000 stehen im VELUX-Katalog bei den Rollos; wo eine Spalte leer ist, gab es die Größe in dieser Generation nicht. Die Codes mit Link haben eine eigene Seite mit allem Zubehör."
+   },
+   {
+    "id": "typen",
+    "titel": "Fenstertypen",
+    "spalten": [
+     "Typ",
+     "Fenster",
+     "Material"
+    ],
+    "zeilen": [
+     [
+      "GGL",
+      "Schwingfenster, Griffleiste oben",
+      "Holz"
+     ],
+     [
+      "GGU",
+      "Schwingfenster, Griffleiste oben",
+      "Kunststoff"
+     ],
+     [
+      "GPL",
+      "Klapp-Schwingfenster, Griff unten",
+      "Holz"
+     ],
+     [
+      "GPU",
+      "Klapp-Schwingfenster, Griff unten",
+      "Kunststoff"
+     ],
+     [
+      "GTL",
+      "Ausstiegsfenster mit Klapp-Schwingfunktion",
+      "Holz"
+     ],
+     [
+      "GTU",
+      "Ausstiegsfenster mit Klapp-Schwingfunktion",
+      "Kunststoff"
+     ],
+     [
+      "GXLA, GXLB",
+      "Ausstiegsfenster mit Türfunktion",
+      "Holz"
+     ],
+     [
+      "GXU",
+      "Ausstiegsfenster mit Türfunktion",
+      "Kunststoff"
+     ],
+     [
+      "VL, VG, VX",
+      "Schwingfenster bis 1991",
+      "Holz"
+     ],
+     [
+      "VK",
+      "Klapp-Schwingfenster bis 1991",
+      "Holz"
+     ],
+     [
+      "VU, VKU",
+      "Austauschfenster für die Größen bis 1991",
+      "Kunststoff"
+     ]
+    ],
+    "hinweis": "Ein Rollo oder Plissee mit passendem Code passt auf Schwing- und Klapp-Schwingfenster derselben Größe."
+   },
+   {
+    "id": "zubehoer",
+    "titel": "Zubehör-Typen",
+    "spalten": [
+     "Typ",
+     "Was es ist",
+     "Beispiel"
+    ],
+    "zeilen": [
+     [
+      "DKL",
+      "Verdunkelungsrollo, in Zubehörträgern eingeklickt",
+      "DKL MK04 1085S"
+     ],
+     [
+      "DBL",
+      "Verdunkelungsrollo Classic für Fenster vor 2013",
+      "DBL M04 4288"
+     ],
+     [
+      "DKU",
+      "Verdunkelungsrollo für Kunststofffenster von 1991 bis 2000",
+      "DKU 306 1085"
+     ],
+     [
+      "RFL",
+      "Sichtschutzrollo, lichtdurchlässig",
+      "RFL MK04 1028S"
+     ],
+     [
+      "RHL",
+      "Sichtschutzrollo mit Haltekrallen",
+      "RHL MK00 1028"
+     ],
+     [
+      "FHL",
+      "Plissee, lichtdurchlässig",
+      "FHL MK04 1016S"
+     ],
+     [
+      "FHC",
+      "Wabenplissee",
+      "FHC MK04"
+     ],
+     [
+      "PAL",
+      "Jalousie aus Aluminium",
+      "PAL MK04 7001S"
+     ],
+     [
+      "MHL",
+      "Hitzeschutz-Markise außen, manuell",
+      "MHL MK00 5060"
+     ],
+     [
+      "SSL, SML",
+      "Rollladen mit Solar- oder Elektroantrieb",
+      "SSL MK04"
+     ],
+     [
+      "ZIL",
+      "Insektenschutzrollo",
+      "ZIL MK06 0000SWL"
+     ],
+     [
+      "ZOZ",
+      "Montagezubehör, etwa Zubehörträger ZOZ 230 oder Haltekrallen ZOZ 137",
+      "ZOZ 230"
+     ],
+     [
+      "ZZZ",
+      "Pflege und Reparatur, etwa Pflege-Set ZZZ 220",
+      "ZZZ 220K"
+     ],
+     [
+      "ZCT, ZCZ",
+      "Bedienstange für hoch sitzende Fenster",
+      "ZCT 200K"
+     ],
+     [
+      "KLI, KLR",
+      "Funk-Wandschalter und Fernbedienung",
+      "KLI 313"
+     ]
+    ],
+    "hinweis": "Die vier Ziffern am Ende sind bei Rollos und Plissees die Farbe, bei Markisen das Dekor. Ein angehängtes WL steht für weiße statt alufarbene Schienen."
+   }
+  ],
+  "fragen": [
+   {
+    "frage": "Wo finde ich das Typenschild an meinem VELUX-Dachfenster, und was steht darauf?",
+    "antwort": "Öffne das Fenster mit der oberen Griffleiste. Das Typenschild sitzt oben links oder rechts im Kopf des beweglichen Flügels, bei den Zusatzelementen GIL und GIU links im Rahmen. Es nennt Fenstertyp (etwa GGL), Größe (etwa MK08), Ausführungskennziffer und Seriennummer. Fehlt das Schild, kann VELUX den Typ aus Material, Griffposition, Öffnungsart, Flügellicht- und Innenfutternutmaß und dem Alter des Fensters bestimmen.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://www.velux.de/service/typenschild",
+     "https://www.velux.de/faq?category=4c24b340-c749-4c9f-a325-8f018f2479d7&gem=7c78522e-0564-4f30-b26b-a073c1266087",
+     "https://www.velux.de/faq?category=4c24b340-c749-4c9f-a325-8f018f2479d7&gem=cf0fdca9-b540-4fdf-8211-971dceb11df1"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Auf meinem VELUX-Fenster steht GGL 304 oder GGL M04. Wie heißt die Größe heute?",
+    "antwort": "Dieselbe Fenstergröße hat bei VELUX drei Bezeichnungen gehabt. Laut VELUX tragen Typenschilder von 1991 bis 2000 Zahlencodes wie 304, von 2000 bis 2013 Buchstabencodes wie M04 und seit 2013 Codes mit K wie MK04. Das Außenmaß 78 × 98 cm heißt also heute MK04, früher M04 und davor 304. Beim Zubehör zählt aber nicht nur die Größe, sondern auch die Generation des Fensters.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://www.velux.de/service/typenschild",
+     "https://www.home4u.de/Ratgeber/Wohndachfenster/velux-masstabelle/",
+     "https://contenthub.velux.com/api/public/content/43c5b-09c50-11488_downloadOriginal"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Passt ein VELUX-Verdunkelungsrollo DKL MK04 auf mein älteres Fenster mit M04?",
+    "antwort": "Nimm den Code, der auf dem Typenschild deines Fensters steht. Für Fenster aus älteren Generationen, laut VELUX hergestellt vor 2013, gibt es das Verdunkelungsrollo Classic in den alten Größen wie M04 oder S06. VELUX bietet Sonnenschutz für Fenster ab Baujahr April 1983 an, doch je älter das Fenster ist, desto kleiner ist die Auswahl.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+     "https://www.velux.de/faq?category=69dd4b49-bdc7-49eb-ae0a-89294d2ccd60&gem=80b75577-8629-4c17-bcc9-17010f489455",
+     "https://www.velux.de/service/typenschild"
+    ],
+    "teile": [
+     "velux-verdunkelungsrollo-classic-dbl-m04",
+     "velux-verdunkelungsrollo-dkl-mk04"
+    ],
+    "problem": "velux-dachfenster-rollo-passt-nicht"
+   },
+   {
+    "frage": "Warum heißt die VELUX-Hitzeschutz-Markise MK00 und nicht MK04 oder MK08?",
+    "antwort": "Bei der Markise MHL zählt nur die Fensterbreite. In der VELUX-Größentabelle passt die Markise MK00 auf alle 78 cm breiten Fenster, also MK04, MK06, MK08 und MK10 sowie die älteren Codes M04 bis M10 und 304 bis 310. Für die Größen 304 bis 810 und C02 bis U10 liegen der Markise verschiedene Montagewinkel und eine eigene Anleitung bei, für CK02 bis UK10 eine andere. Bei den ganz alten Größen 102 und 104 nimmt man laut Tabelle die Markise 100, bei 206 die Markise 200.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://contenthub.velux.com/api/public/content/43c5b-09c50-11488_downloadOriginal",
+     "https://www.velux.de/faq?category=eedaf282-010a-4e7d-b144-bc505e0a405b&gem=1121a7e5-1d34-4f51-ad2a-238cc53a6679"
+    ],
+    "teile": [
+     "velux-markise-mhl-mk00",
+     "velux-markise-mhl-ck00",
+     "velux-markise-mhl-fk00",
+     "velux-markise-mhl-pk00",
+     "velux-markise-mhl-sk00"
+    ],
+    "problem": "velux-dachfenster-rollo-passt-nicht"
+   },
+   {
+    "frage": "Kann ich eine VELUX-Hitzeschutz-Markise auch an einem schmalen Dachfenster von innen einbauen?",
+    "antwort": "VELUX nennt den Einbau vom Raum aus für Dachfenster ab 78 cm Breite. Die manuelle Markise wird bei geöffnetem Fenster in Haltekrallen an der Außenseite des Flügels eingehängt und lässt sich nur ganz aus- oder einrollen. Bei schmaleren Fenstern wie CK oder FK solltest du vor dem Kauf prüfen, ob du die Außenseite des Flügels in Putzstellung sicher erreichst.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/hitzeschutz-aussen/hitzeschutzmarkise-tageslicht",
+     "https://media.hornbach.lu/hb/datasheet/as.47054605.pdf"
+    ],
+    "teile": [
+     "velux-markise-mhl-ck00",
+     "velux-markise-mhl-fk00",
+     "velux-haltekrallen-zoz-137"
+    ],
+    "problem": "velux-dachfenster-rollo-passt-nicht"
+   },
+   {
+    "frage": "Welche Größe brauche ich beim VELUX-Insektenschutzrollo, die vom Fenster oder die der Wandöffnung?",
+    "antwort": "Die der Wandöffnung. Das Insektenschutzrollo ZIL wird nicht am Fensterrahmen, sondern an der Innenwand vor dem Fenster befestigt, deshalb misst du die innere Breite und Höhe der Öffnung. Die maximale Breite des Dachausschnitts ist begrenzt: 53 cm bei ZIL CK02/CK06, 76 cm bei MK06/MK10 und 112 cm bei SK06/SK10. Die Führungsschienen werden auf die Länge des Ausschnitts gekürzt, die Schnittkante kommt in die Endkappe.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo",
+     "https://www.velux.de/faq?category=7544a5f1-a0a4-4586-827e-f6adf9759dd4&gem=9ded6bd9-3b17-4484-9e46-1fbc275969b9",
+     "https://www.velux.de/faq?category=eedaf282-010a-4e7d-b144-bc505e0a405b&gem=35a9d4d8-811b-427d-95f2-236a1cef3532"
+    ],
+    "teile": [
+     "velux-insektenschutzrollo-zil-ck02",
+     "velux-insektenschutzrollo-zil-mk06",
+     "velux-insektenschutzrollo-zil-sk06"
+    ],
+    "problem": "velux-dachfenster-rollo-passt-nicht"
+   },
+   {
+    "frage": "Mein VELUX-Solar-Rollladen fährt nicht mehr ganz hoch oder runter. Was kann ich selbst tun?",
+    "antwort": "VELUX nennt als ersten Schritt einen Neustart des Motors mit anschließendem Neueinstellen der Endlagen; der Ablauf ist beim Solar-Rollladen SSL anders als beim Elektro-Rollladen SML und wird im VELUX-Video „RESET und ENDLAGEN einstellen“ gezeigt. Prüfe auch die Batterien des Funk-Wandschalters (2 × AAA, Laufzeit bis zu einem Jahr) und ob die Solarzellen sauber und frei von Schnee und Eis sind. Ein voll geladener Akku reicht laut VELUX für bis zu 100 Fahrten ohne Sonne.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.velux.de/faq?category=475f3238-462d-4066-b507-d1778483011d&gem=e40154df-3d6c-46ce-95fc-37b67dcc02b1",
+     "https://www.velux.de/faq?category=0de70c91-fec6-42a8-9cdf-be2104052c4d&gem=30718424-3a4a-47d1-b59a-eb934df026de",
+     "https://contenthub.velux.com/api/public/content/597d5-ae68f-d746b_downloadOriginal"
+    ],
+    "teile": [
+     "velux-wandschalter-kli-313"
+    ],
+    "problem": "velux-dachfenster-rollladen-reagiert-nicht"
+   },
+   {
+    "frage": "Mein VELUX-Funk-Wandschalter KLI hat den Rollladen verloren. Wie lerne ich ihn neu an?",
+    "antwort": "Ein neuer Wandschalter, der dem Produkt beiliegt, ist vorprogrammiert: Batterien einlegen oder Kontaktstreifen herausziehen und eine beliebige Taste drücken. Beim Solar-Rollladen und bei der Solar-Markise drückst du danach kurz nacheinander „Stopp“ und „Runter“ und lässt den Panzer bis zum Ende laufen, damit die Endlagen gesetzt werden. Ein als Ersatzteil gekaufter KLI hat keine Motordaten gespeichert. Dann sendet der Motor seine Daten per Funk und der Schalter empfängt sie; die Schritte stehen in der KLI-Anleitung.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.velux.de/faq?category=6506ed64-9288-4bbf-8fbe-eea4acecf280&gem=a6e7d5df-8428-4465-aeb9-e7e2f4b7c03c",
+     "https://www.velux.de/faq?category=6506ed64-9288-4bbf-8fbe-eea4acecf280&gem=a22d6452-fb24-4e31-ad6e-60ca0c61dda4"
+    ],
+    "teile": [
+     "velux-wandschalter-kli-313",
+     "velux-wandschalter-kli-310"
+    ],
+    "problem": "velux-dachfenster-rollladen-reagiert-nicht"
+   },
+   {
+    "frage": "Die Dichtung an der Lüftungsklappe meines VELUX-Fensters ist kaputt. Gibt es die einzeln?",
+    "antwort": "VELUX bietet die Schaumdichtung für die Lüftungsklappe im Kombi-Pflege-Set an, zusammen mit Luftfilter und Scharnierfett. Laut VELUX-Katalog enthält das ZZZ 220 je 2,5 m Schaumdichtung und Luftfilter und 30 g Fett, das ZZZ 220K für Fenster ab 2013 3 m Luftfilter; beide reichen für 2 bis 5 Fenster. Die Dichtungen zwischen Flügel und Rahmen sind dagegen einzelne Ersatzteile; sie stecken in einer Nut und sind meist mit Metallklammern befestigt, zum Tauschen muss oft der Flügel heraus.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.velux.de/faq?category=b51a9b6e-192b-496b-9a65-bca8822126fb&gem=ca478373-a221-48f6-b28a-45c52a61d54f",
+     "https://www.velux.de/faq?category=b51a9b6e-192b-496b-9a65-bca8822126fb&gem=99f22f85-2f2f-4b3e-ae30-8c87489b53b0",
+     "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+    ],
+    "teile": [
+     "velux-pflege-set-zzz-220",
+     "velux-pflege-set-zzz-220k",
+     "velux-schaumdichtung-lueftungsklappe"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Mein altes VELUX-Schwingfenster klemmt und lässt sich nicht mehr schließen. Woran liegt das?",
+    "antwort": "Im Forum wird zuerst geraten, die beiden Haken unter der Lüftungsklappe zu prüfen: Haben sie keine Auflage mehr am Gegenstück am Rahmen, verklemmt der Flügel. Mehrere Nutzer haben das Gegenstück abgeschraubt, ein 2 bis 3 mm dünnes Stück Sperrholz unterlegt und danach alle Scharniere und Beschläge gefettet. Ist die Mechanik schwergängig, rät ein Fachmann, altes verharztes Fett vorher zu entfernen. Schleift der Flügel am Rahmen, gibt es laut VELUX keine Justierschrauben; dann sollte der Einbaubetrieb das Fenster prüfen.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/244151/Ein-Velux-Dach-Schwingfenster-klemmt-laesst-sich-nicht-mehr-schliessen-",
+     "https://www.bauexpertenforum.de/threads/velux-dachfenster-kunststoff-schwergaengig-wo-und-wie-abhilfe-geht-es-auch-ohne-velux-scharnierf.131070/",
+     "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=7d80d6e9-e93b-4434-975e-fb8e08d9bb5a"
+    ],
+    "teile": [
+     "velux-scharnierfett-zzz-148",
+     "velux-pflege-set-zzz-220"
+    ],
+    "problem": "velux-dachfenster-klemmt"
+   },
+   {
+    "frage": "Gibt es für mein VELUX-Dachfenster von vor 2000 noch Ersatzteile?",
+    "antwort": "Nein. VELUX liefert Ersatzteile für Dachfenster mindestens 20 Jahre nach Ende der Produktion; für Fenster, die vor 2000 gefertigt wurden, gibt es keine mehr. Das betrifft unter anderem die Größen 021 bis 109 und 102 bis 810. Für die alten Typen VL, VK, VG und VX mit Baujahr vor März 2001 gibt es weder Ersatzteile noch Reparaturen; Sonnenschutz wird dagegen für Fenster ab Baujahr April 1983 noch angeboten.",
+    "kategorie": "verfuegbarkeit",
+    "quellen": [
+     "https://www.velux.de/faq?category=b51a9b6e-192b-496b-9a65-bca8822126fb&gem=d5f913d4-4d09-4ab0-92f1-35db634f808b",
+     "https://www.velux.de/faq?category=b51a9b6e-192b-496b-9a65-bca8822126fb&gem=69bb454e-5af1-4dd3-98cb-06079ed2ed9a",
+     "https://www.velux.de/faq?category=b51a9b6e-192b-496b-9a65-bca8822126fb&gem=c3251491-219c-44b1-aeb4-2af00d250a48",
+     "https://www.velux.de/faq?category=69dd4b49-bdc7-49eb-ae0a-89294d2ccd60&gem=80b75577-8629-4c17-bcc9-17010f489455"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Kann ich beim VELUX-Solar-Rollladen nur den Akku 946933 tauschen?",
+    "antwort": "Händler verkaufen kompatible Akkus mit 10,8 V unter den Nummern 946933, 946930 und 846933. VELUX selbst schreibt, dass Akku und Rohrmotor eine Einheit bilden, und bietet für die Solar-Rollläden SSL der Ausführungen 0000E und 0000S ein Austausch-Set aus Motor, Akku und Solarpaneel an. Die Ausführung steht auf dem Typenschild des Rollladens, bei älteren Modellen an der untersten Lamelle, bei der Generation ab Mai 2026 am Topkasten. Da dafür am Dach gearbeitet wird, empfiehlt VELUX den Kundendienst.",
+    "kategorie": "bezug",
+    "quellen": [
+     "https://www.velux.de/faq?category=475f3238-462d-4066-b507-d1778483011d&gem=8645bedc-2cb1-454f-8196-cbc3a7ea4903",
+     "https://www.subtel.ch/946933-ersatz-akku-fuer-velux-roller-shutter-946933-946930-846933-ersatzakku-zusatzakku-2000mah-941841.html",
+     "https://contenthub.velux.com/api/public/content/597d5-ae68f-d746b_downloadOriginal",
+     "https://www.velux.de/service/typenschild"
+    ],
+    "teile": [],
+    "problem": "velux-dachfenster-rollladen-reagiert-nicht"
+   },
+   {
+    "frage": "Wie lange gilt die VELUX-Garantie auf Dachfenster und Rollos?",
+    "antwort": "VELUX gibt 10 Jahre auf Dachfenster und Eindeckrahmen, 5 Jahre auf Rollläden und elektrische oder solarbetriebene Sonnenschutzprodukte und 3 Jahre auf manuelle Hitzeschutz-Markisen und manuellen Sonnenschutz. Auf Ersatzteile und das Verdunkelungsrollo Classic gibt es 2 Jahre. Wer Dachfenster oder die Rollläden SSL und SML registriert, bekommt kostenlos 2 Jahre dazu.",
+    "kategorie": "bezug",
+    "quellen": [
+     "https://www.velux.de/rechtliche-informationen/garantie"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Wie oft muss ich mein VELUX-Dachfenster warten, und was gehört dazu?",
+    "antwort": "VELUX empfiehlt eine jährliche Sichtprüfung. Zur Wartung gehören Verschluss und Scharniere fetten, Schmutz und Laub entfernen, Dichtungen ansehen, Luftfilter und Schaumdichtung der Lüftungsklappe prüfen und die Schrauben der Außenbleche kontrollieren. Die Gummidichtungen reinigst du mit Wasser und Spülmittel und pflegst sie mit Talkum oder Silikonspray; Öle und Fette greifen sie an. Für Fenster vor und ab Mai 2013 zeigt VELUX eigene Videos zu Luftfilter, Schaumdichtung und Scharnierfett.",
+    "kategorie": "pflege",
+    "quellen": [
+     "https://www.velux.de/faq?category=2f3bc86b-eee5-4398-8604-c8712027dfa9&gem=e47d0692-eaf5-40a2-bef8-f447fa33c13a",
+     "https://www.velux.de/faq?category=2f3bc86b-eee5-4398-8604-c8712027dfa9&gem=fe6f6da1-b61c-45e9-853f-b228467b4359",
+     "https://www.velux.de/faq?category=55107c39-71b6-409b-940c-8a7f07828091&gem=e717f323-7fc2-4553-b4d1-608c97a53b5b",
+     "https://www.velux.de/faq?category=2f3bc86b-eee5-4398-8604-c8712027dfa9&gem=782176ca-90b5-4800-9851-a64b2837c749"
+    ],
+    "teile": [
+     "velux-pflege-set-zzz-220",
+     "velux-pflege-set-zzz-220k",
+     "velux-scharnierfett-zzz-148"
+    ],
+    "problem": null
+   }
+  ]
+ },
+ "serien": [
+  {
+   "slug": "mk04",
+   "name": "VELUX MK04",
+   "produkttyp": "dachfenster",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "MK04",
+    "M04",
+    "304"
+   ],
+   "erkennungsmerkmale": "Auf dem Typenschild hinter der Griffleiste steht der Fenstertyp und dahinter die Größe, etwa „GGL MK04“. Ältere Fenster derselben Größe tragen M04 (2000 bis 2013) oder 304 (1991 bis 2000).",
+   "beschreibung": "Blendrahmen-Außenmaß 78 × 98 cm. Diese Größe gibt es als GGL (Schwingfenster aus Holz), GGU (Schwingfenster aus Kunststoff), GPL (Klapp-Schwingfenster aus Holz), GPU (Klapp-Schwingfenster aus Kunststoff).",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.velux.de/service/typenschild"
+   ],
+   "groesse": {
+    "code": "MK04",
+    "breite_cm": 78,
+    "hoehe_cm": 98,
+    "fenstertypen": [
+     "GGL",
+     "GGU",
+     "GPL",
+     "GPU"
+    ],
+    "alte_codes": [
+     {
+      "code": "M04",
+      "zeitraum": "2000 bis 2013",
+      "hinweis": "Gleiches Außenmaß wie MK04. Innen liegendes Zubehör trägt den Code M04 und passt nicht auf MK04; Markise und Rollladen sind dieselben wie für MK04."
+     },
+     {
+      "code": "304",
+      "zeitraum": "1991 bis 2000",
+      "hinweis": "Gleiches Außenmaß. Holzfenster nehmen innen das Zubehör für M04, Kunststofffenster das Verdunkelungsrollo DKU 304."
+     }
+    ],
+    "vor_1991": "Fenster von vor 1991 (Typ VL, VU, VK) haben eigene Größen. Die ähnlichste ist 043 mit 75 × 104 cm, also nicht dasselbe Maß wie MK04. Zubehör dafür trägt den Code Y43 und passt nicht auf MK04.",
+    "zubehoer": [
+     {
+      "art": "rollo",
+      "typen": [
+       "DKL MK04",
+       "RFL MK04",
+       "PAL MK04"
+      ],
+      "hinweis": "Verdunkelungsrollo, Sichtschutzrollo und Jalousie hängen an den Zubehörträgern im Fensterrahmen. Für Fenster mit M04 gibt es eigene Rollos mit diesem Code, darunter das günstigere Classic DBL."
+     },
+     {
+      "art": "plissee",
+      "typen": [
+       "FHL MK04"
+      ]
+     },
+     {
+      "art": "hitzeschutz",
+      "typen": [
+       "MHL MK00"
+      ],
+      "hinweis": "Eine Markise für alle Höhen dieser Breite. Sie bremst die Hitze, bevor sie die Scheibe erreicht; ein Rollo innen tut das nicht."
+     },
+     {
+      "art": "insektenschutz",
+      "typen": [
+       "ZIL MK06"
+      ],
+      "hinweis": "Das Insektenschutzrollo wird an der Innenverkleidung montiert. Welche Größe passt, steht in der VELUX-Planungstabelle; sie ist nicht immer dieselbe wie der Fenstercode."
+     },
+     {
+      "art": "rollladen",
+      "typen": [
+       "SSL MK04"
+      ],
+      "hinweis": "Der Solar-Rollladen SSL MK04 passt auch auf M04. Ihn führt keiner unserer Partnershops."
+     }
+    ],
+    "nachbauten": [
+     {
+      "name": "Itzala Verdunkelungsrollo ohne Bohren für VELUX MK04",
+      "hersteller": "Itzala",
+      "amazon_asin": "B0CHB6XVVN",
+      "hinweis": "Nachbau, kein VELUX-Original. Laut Hersteller ohne Bohren montiert."
+     },
+     {
+      "name": "DTCH Verdunkelungsrollo für VELUX MK04",
+      "hersteller": "DTCH",
+      "amazon_asin": "B0BFXJJNDQ",
+      "hinweis": "Nachbau, kein VELUX-Original."
+     }
+    ],
+    "fragen": [
+     {
+      "frage": "Passt ein Rollo für VELUX MK04 auf mein Fenster mit M04 auf dem Typenschild?",
+      "antwort": "Nimm das Rollo mit dem Code, der auf deinem Fenster steht. Für Fenster von 2000 bis 2013 mit M04 führt VELUX eigene Rollos mit diesem Code, etwa das Verdunkelungsrollo DKL M04 oder das günstigere Classic DBL M04. Rollos mit MK04 sind für Fenster ab 2013 gedacht. Die Hitzeschutz-Markise MHL MK00 passt dagegen auf beide.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic"
+      ],
+      "teile": [
+       "velux-verdunkelungsrollo-dkl-m04",
+       "velux-verdunkelungsrollo-classic-dbl-m04"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Warum heißt die VELUX-Markise für MK04 MK00?",
+      "antwort": "Die Doppelnull steht für alle Fensterhöhen einer Breite. Eine Außenmarkise richtet sich nur nach der Breite, deshalb passt die MHL MK00 laut VELUX-Preiskatalog auf MK04, MK06, MK08 und MK10 und auf die älteren Codes derselben Breite.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.amazon.de/dp/B0018M9F9G"
+      ],
+      "teile": [
+       "velux-markise-mhl-mk00"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Welches Insektenschutzrollo passt zu VELUX MK04?",
+      "antwort": "Laut Planungstabelle von VELUX das ZIL MK06. Es wird nicht am Fenster, sondern an der Innenverkleidung rund um den Dachausschnitt verschraubt und braucht dort eine ebene Fläche von mindestens 5 cm. Deshalb ist seine Größe nicht immer dieselbe wie der Fenstercode.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo"
+      ],
+      "teile": [
+       "velux-insektenschutzrollo-zil-mk06"
+      ],
+      "problem": null
+     }
+    ]
+   }
+  },
+  {
+   "slug": "mk06",
+   "name": "VELUX MK06",
+   "produkttyp": "dachfenster",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "MK06",
+    "M06",
+    "306"
+   ],
+   "erkennungsmerkmale": "Auf dem Typenschild hinter der Griffleiste steht der Fenstertyp und dahinter die Größe, etwa „GGL MK06“. Ältere Fenster derselben Größe tragen M06 (2000 bis 2013) oder 306 (1991 bis 2000).",
+   "beschreibung": "Blendrahmen-Außenmaß 78 × 118 cm. Diese Größe gibt es als GGL (Schwingfenster aus Holz), GGU (Schwingfenster aus Kunststoff), GPL (Klapp-Schwingfenster aus Holz), GPU (Klapp-Schwingfenster aus Kunststoff).",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.velux.de/service/typenschild"
+   ],
+   "groesse": {
+    "code": "MK06",
+    "breite_cm": 78,
+    "hoehe_cm": 118,
+    "fenstertypen": [
+     "GGL",
+     "GGU",
+     "GPL",
+     "GPU"
+    ],
+    "alte_codes": [
+     {
+      "code": "M06",
+      "zeitraum": "2000 bis 2013",
+      "hinweis": "Gleiches Außenmaß wie MK06. Innen liegendes Zubehör trägt den Code M06 und passt nicht auf MK06; Markise und Rollladen sind dieselben wie für MK06."
+     },
+     {
+      "code": "306",
+      "zeitraum": "1991 bis 2000",
+      "hinweis": "Gleiches Außenmaß. Holzfenster nehmen innen das Zubehör für M06, Kunststofffenster das Verdunkelungsrollo DKU 306."
+     }
+    ],
+    "vor_1991": "Fenster von vor 1991 (Typ VL, VU, VK) haben eigene Größen. Die ähnlichste ist 045 mit 75 × 124 cm, also nicht dasselbe Maß wie MK06. Zubehör dafür trägt den Code Y45 und passt nicht auf MK06.",
+    "zubehoer": [
+     {
+      "art": "rollo",
+      "typen": [
+       "DKL MK06",
+       "RFL MK06",
+       "PAL MK06"
+      ],
+      "hinweis": "Verdunkelungsrollo, Sichtschutzrollo und Jalousie hängen an den Zubehörträgern im Fensterrahmen. Für Fenster mit M06 gibt es eigene Rollos mit diesem Code, darunter das günstigere Classic DBL."
+     },
+     {
+      "art": "plissee",
+      "typen": [
+       "FHL MK06"
+      ]
+     },
+     {
+      "art": "hitzeschutz",
+      "typen": [
+       "MHL MK00"
+      ],
+      "hinweis": "Eine Markise für alle Höhen dieser Breite. Sie bremst die Hitze, bevor sie die Scheibe erreicht; ein Rollo innen tut das nicht."
+     },
+     {
+      "art": "insektenschutz",
+      "typen": [
+       "ZIL MK06"
+      ],
+      "hinweis": "Das Insektenschutzrollo wird an der Innenverkleidung montiert. Welche Größe passt, steht in der VELUX-Planungstabelle; sie ist nicht immer dieselbe wie der Fenstercode."
+     },
+     {
+      "art": "rollladen",
+      "typen": [
+       "SSL MK06"
+      ],
+      "hinweis": "Der Solar-Rollladen SSL MK06 passt auch auf M06. Ihn führt keiner unserer Partnershops."
+     }
+    ],
+    "nachbauten": [
+     {
+      "name": "DTCH Verdunkelungsrollo für VELUX M06 und 306",
+      "hersteller": "DTCH",
+      "amazon_asin": "B0BFXDNSY7",
+      "hinweis": "Nachbau für die älteren Fenster mit M06 oder 306, kein VELUX-Original."
+     }
+    ],
+    "fragen": [
+     {
+      "frage": "Passt ein Rollo für VELUX MK06 auf mein Fenster mit M06 auf dem Typenschild?",
+      "antwort": "Nimm das Rollo mit dem Code, der auf deinem Fenster steht. Für Fenster von 2000 bis 2013 mit M06 führt VELUX eigene Rollos mit diesem Code, etwa das Verdunkelungsrollo DKL M06 oder das günstigere Classic DBL M06. Rollos mit MK06 sind für Fenster ab 2013 gedacht. Die Hitzeschutz-Markise MHL MK00 passt dagegen auf beide.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic"
+      ],
+      "teile": [
+       "velux-verdunkelungsrollo-dkl-m06",
+       "velux-verdunkelungsrollo-classic-dbl-m06"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Warum heißt die VELUX-Markise für MK06 MK00?",
+      "antwort": "Die Doppelnull steht für alle Fensterhöhen einer Breite. Eine Außenmarkise richtet sich nur nach der Breite, deshalb passt die MHL MK00 laut VELUX-Preiskatalog auf MK04, MK06, MK08 und MK10 und auf die älteren Codes derselben Breite.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.amazon.de/dp/B0018M9F9G"
+      ],
+      "teile": [
+       "velux-markise-mhl-mk00"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Welches Insektenschutzrollo passt zu VELUX MK06?",
+      "antwort": "Laut Planungstabelle von VELUX das ZIL MK06. Es wird nicht am Fenster, sondern an der Innenverkleidung rund um den Dachausschnitt verschraubt und braucht dort eine ebene Fläche von mindestens 5 cm. Deshalb ist seine Größe nicht immer dieselbe wie der Fenstercode.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo"
+      ],
+      "teile": [
+       "velux-insektenschutzrollo-zil-mk06"
+      ],
+      "problem": null
+     }
+    ]
+   }
+  },
+  {
+   "slug": "mk08",
+   "name": "VELUX MK08",
+   "produkttyp": "dachfenster",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "MK08",
+    "M08",
+    "308"
+   ],
+   "erkennungsmerkmale": "Auf dem Typenschild hinter der Griffleiste steht der Fenstertyp und dahinter die Größe, etwa „GGL MK08“. Ältere Fenster derselben Größe tragen M08 (2000 bis 2013) oder 308 (1991 bis 2000).",
+   "beschreibung": "Blendrahmen-Außenmaß 78 × 140 cm. Diese Größe gibt es als GGL (Schwingfenster aus Holz), GGU (Schwingfenster aus Kunststoff), GPL (Klapp-Schwingfenster aus Holz), GPU (Klapp-Schwingfenster aus Kunststoff), GTL (Ausstiegsfenster aus Holz), GTU (Ausstiegsfenster aus Kunststoff).",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.velux.de/service/typenschild"
+   ],
+   "groesse": {
+    "code": "MK08",
+    "breite_cm": 78,
+    "hoehe_cm": 140,
+    "fenstertypen": [
+     "GGL",
+     "GGU",
+     "GPL",
+     "GPU",
+     "GTL",
+     "GTU"
+    ],
+    "alte_codes": [
+     {
+      "code": "M08",
+      "zeitraum": "2000 bis 2013",
+      "hinweis": "Gleiches Außenmaß wie MK08. Innen liegendes Zubehör trägt den Code M08 und passt nicht auf MK08; Markise und Rollladen sind dieselben wie für MK08."
+     },
+     {
+      "code": "308",
+      "zeitraum": "1991 bis 2000",
+      "hinweis": "Gleiches Außenmaß. Holzfenster nehmen innen das Zubehör für M08, Kunststofffenster das Verdunkelungsrollo DKU 308."
+     }
+    ],
+    "vor_1991": "Fenster von vor 1991 (Typ VL, VU, VK) haben eigene Größen. Die ähnlichste ist 047 mit 75 × 144 cm, also nicht dasselbe Maß wie MK08. Zubehör dafür trägt den Code Y47 und passt nicht auf MK08.",
+    "zubehoer": [
+     {
+      "art": "rollo",
+      "typen": [
+       "DKL MK08",
+       "RFL MK08",
+       "PAL MK08"
+      ],
+      "hinweis": "Verdunkelungsrollo, Sichtschutzrollo und Jalousie hängen an den Zubehörträgern im Fensterrahmen. Für Fenster mit M08 gibt es eigene Rollos mit diesem Code, darunter das günstigere Classic DBL."
+     },
+     {
+      "art": "plissee",
+      "typen": [
+       "FHL MK08"
+      ]
+     },
+     {
+      "art": "hitzeschutz",
+      "typen": [
+       "MHL MK00"
+      ],
+      "hinweis": "Eine Markise für alle Höhen dieser Breite. Sie bremst die Hitze, bevor sie die Scheibe erreicht; ein Rollo innen tut das nicht."
+     },
+     {
+      "art": "insektenschutz",
+      "typen": [
+       "ZIL MK06"
+      ],
+      "hinweis": "Das Insektenschutzrollo wird an der Innenverkleidung montiert. Welche Größe passt, steht in der VELUX-Planungstabelle; sie ist nicht immer dieselbe wie der Fenstercode."
+     },
+     {
+      "art": "rollladen",
+      "typen": [
+       "SSL MK08"
+      ],
+      "hinweis": "Der Solar-Rollladen SSL MK08 passt auch auf M08. Ihn führt keiner unserer Partnershops."
+     }
+    ],
+    "nachbauten": [],
+    "fragen": [
+     {
+      "frage": "Passt ein Rollo für VELUX MK08 auf mein Fenster mit M08 auf dem Typenschild?",
+      "antwort": "Nimm das Rollo mit dem Code, der auf deinem Fenster steht. Für Fenster von 2000 bis 2013 mit M08 führt VELUX eigene Rollos mit diesem Code, etwa das Verdunkelungsrollo DKL M08 oder das günstigere Classic DBL M08. Rollos mit MK08 sind für Fenster ab 2013 gedacht. Die Hitzeschutz-Markise MHL MK00 passt dagegen auf beide.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic"
+      ],
+      "teile": [
+       "velux-verdunkelungsrollo-dkl-m08",
+       "velux-verdunkelungsrollo-classic-dbl-m08"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Warum heißt die VELUX-Markise für MK08 MK00?",
+      "antwort": "Die Doppelnull steht für alle Fensterhöhen einer Breite. Eine Außenmarkise richtet sich nur nach der Breite, deshalb passt die MHL MK00 laut VELUX-Preiskatalog auf MK04, MK06, MK08 und MK10 und auf die älteren Codes derselben Breite.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.amazon.de/dp/B0018M9F9G"
+      ],
+      "teile": [
+       "velux-markise-mhl-mk00"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Welches Insektenschutzrollo passt zu VELUX MK08?",
+      "antwort": "Laut Planungstabelle von VELUX das ZIL MK06. Es wird nicht am Fenster, sondern an der Innenverkleidung rund um den Dachausschnitt verschraubt und braucht dort eine ebene Fläche von mindestens 5 cm. Deshalb ist seine Größe nicht immer dieselbe wie der Fenstercode.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo"
+      ],
+      "teile": [
+       "velux-insektenschutzrollo-zil-mk06"
+      ],
+      "problem": null
+     }
+    ]
+   }
+  },
+  {
+   "slug": "sk06",
+   "name": "VELUX SK06",
+   "produkttyp": "dachfenster",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "SK06",
+    "S06",
+    "606"
+   ],
+   "erkennungsmerkmale": "Auf dem Typenschild hinter der Griffleiste steht der Fenstertyp und dahinter die Größe, etwa „GGL SK06“. Ältere Fenster derselben Größe tragen S06 (2000 bis 2013) oder 606 (1991 bis 2000).",
+   "beschreibung": "Blendrahmen-Außenmaß 114 × 118 cm. Diese Größe gibt es als GGL (Schwingfenster aus Holz), GGU (Schwingfenster aus Kunststoff), GPL (Klapp-Schwingfenster aus Holz), GPU (Klapp-Schwingfenster aus Kunststoff).",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.velux.de/service/typenschild"
+   ],
+   "groesse": {
+    "code": "SK06",
+    "breite_cm": 114,
+    "hoehe_cm": 118,
+    "fenstertypen": [
+     "GGL",
+     "GGU",
+     "GPL",
+     "GPU"
+    ],
+    "alte_codes": [
+     {
+      "code": "S06",
+      "zeitraum": "2000 bis 2013",
+      "hinweis": "Gleiches Außenmaß wie SK06. Innen liegendes Zubehör trägt den Code S06 und passt nicht auf SK06; Markise und Rollladen sind dieselben wie für SK06."
+     },
+     {
+      "code": "606",
+      "zeitraum": "1991 bis 2000",
+      "hinweis": "Gleiches Außenmaß. Holzfenster nehmen innen das Zubehör für S06, Kunststofffenster das Verdunkelungsrollo DKU 606."
+     }
+    ],
+    "vor_1991": "Fenster von vor 1991 (Typ VL, VU, VK) haben eigene Größen. Die ähnlichste ist 085 mit 113 × 124 cm, also nicht dasselbe Maß wie SK06. Zubehör dafür trägt den Code Y85 und passt nicht auf SK06.",
+    "zubehoer": [
+     {
+      "art": "rollo",
+      "typen": [
+       "DKL SK06",
+       "RFL SK06",
+       "PAL SK06"
+      ],
+      "hinweis": "Verdunkelungsrollo, Sichtschutzrollo und Jalousie hängen an den Zubehörträgern im Fensterrahmen. Für Fenster mit S06 gibt es eigene Rollos mit diesem Code, darunter das günstigere Classic DBL."
+     },
+     {
+      "art": "plissee",
+      "typen": [
+       "FHL SK06"
+      ]
+     },
+     {
+      "art": "hitzeschutz",
+      "typen": [
+       "MHL SK00"
+      ],
+      "hinweis": "Eine Markise für alle Höhen dieser Breite. Sie bremst die Hitze, bevor sie die Scheibe erreicht; ein Rollo innen tut das nicht."
+     },
+     {
+      "art": "insektenschutz",
+      "typen": [
+       "ZIL SK06"
+      ],
+      "hinweis": "Das Insektenschutzrollo wird an der Innenverkleidung montiert. Welche Größe passt, steht in der VELUX-Planungstabelle; sie ist nicht immer dieselbe wie der Fenstercode."
+     },
+     {
+      "art": "rollladen",
+      "typen": [
+       "SSL SK06"
+      ],
+      "hinweis": "Der Solar-Rollladen SSL SK06 passt auch auf S06. Ihn führt keiner unserer Partnershops."
+     }
+    ],
+    "nachbauten": [
+     {
+      "name": "Itzala Verdunkelungsrollo kompatibel mit VELUX SK06",
+      "hersteller": "Itzala",
+      "amazon_asin": "B0D2J1GRM5",
+      "hinweis": "Nachbau, kein VELUX-Original."
+     },
+     {
+      "name": "DTCH Verdunkelungsrollo für VELUX SK06",
+      "hersteller": "DTCH",
+      "amazon_asin": "B0BFXF6PYJ",
+      "hinweis": "Nachbau, kein VELUX-Original."
+     }
+    ],
+    "fragen": [
+     {
+      "frage": "Passt ein Rollo für VELUX SK06 auf mein Fenster mit S06 auf dem Typenschild?",
+      "antwort": "Nimm das Rollo mit dem Code, der auf deinem Fenster steht. Für Fenster von 2000 bis 2013 mit S06 führt VELUX eigene Rollos mit diesem Code, etwa das Verdunkelungsrollo DKL S06 oder das günstigere Classic DBL S06. Rollos mit SK06 sind für Fenster ab 2013 gedacht. Die Hitzeschutz-Markise MHL SK00 passt dagegen auf beide.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic"
+      ],
+      "teile": [
+       "velux-verdunkelungsrollo-dkl-s06",
+       "velux-verdunkelungsrollo-classic-dbl-s06"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Warum heißt die VELUX-Markise für SK06 SK00?",
+      "antwort": "Die Doppelnull steht für alle Fensterhöhen einer Breite. Eine Außenmarkise richtet sich nur nach der Breite, deshalb passt die MHL SK00 laut VELUX-Preiskatalog auf SK06, SK08 und SK10 und auf die älteren Codes derselben Breite.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+      ],
+      "teile": [
+       "velux-markise-mhl-sk00"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Welches Insektenschutzrollo passt zu VELUX SK06?",
+      "antwort": "Laut Planungstabelle von VELUX das ZIL SK06. Es wird nicht am Fenster, sondern an der Innenverkleidung rund um den Dachausschnitt verschraubt und braucht dort eine ebene Fläche von mindestens 5 cm. Deshalb ist seine Größe nicht immer dieselbe wie der Fenstercode.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo"
+      ],
+      "teile": [
+       "velux-insektenschutzrollo-zil-sk06"
+      ],
+      "problem": null
+     }
+    ]
+   }
+  },
+  {
+   "slug": "sk08",
+   "name": "VELUX SK08",
+   "produkttyp": "dachfenster",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "SK08",
+    "S08",
+    "608"
+   ],
+   "erkennungsmerkmale": "Auf dem Typenschild hinter der Griffleiste steht der Fenstertyp und dahinter die Größe, etwa „GGL SK08“. Ältere Fenster derselben Größe tragen S08 (2000 bis 2013) oder 608 (1991 bis 2000).",
+   "beschreibung": "Blendrahmen-Außenmaß 114 × 140 cm. Diese Größe gibt es als GGL (Schwingfenster aus Holz), GGU (Schwingfenster aus Kunststoff), GPL (Klapp-Schwingfenster aus Holz), GPU (Klapp-Schwingfenster aus Kunststoff), GTL (Ausstiegsfenster aus Holz), GTU (Ausstiegsfenster aus Kunststoff).",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.velux.de/service/typenschild"
+   ],
+   "groesse": {
+    "code": "SK08",
+    "breite_cm": 114,
+    "hoehe_cm": 140,
+    "fenstertypen": [
+     "GGL",
+     "GGU",
+     "GPL",
+     "GPU",
+     "GTL",
+     "GTU"
+    ],
+    "alte_codes": [
+     {
+      "code": "S08",
+      "zeitraum": "2000 bis 2013",
+      "hinweis": "Gleiches Außenmaß wie SK08. Innen liegendes Zubehör trägt den Code S08 und passt nicht auf SK08; Markise und Rollladen sind dieselben wie für SK08."
+     },
+     {
+      "code": "608",
+      "zeitraum": "1991 bis 2000",
+      "hinweis": "Gleiches Außenmaß. Holzfenster nehmen innen das Zubehör für S08, Kunststofffenster das Verdunkelungsrollo DKU 608."
+     }
+    ],
+    "vor_1991": "Fenster von vor 1991 (Typ VL, VU, VK) haben eigene Größen. Die ähnlichste ist 087 mit 113 × 144 cm, also nicht dasselbe Maß wie SK08. Zubehör dafür trägt den Code Y87 und passt nicht auf SK08.",
+    "zubehoer": [
+     {
+      "art": "rollo",
+      "typen": [
+       "DKL SK08",
+       "RFL SK08",
+       "PAL SK08"
+      ],
+      "hinweis": "Verdunkelungsrollo, Sichtschutzrollo und Jalousie hängen an den Zubehörträgern im Fensterrahmen. Für Fenster mit S08 gibt es eigene Rollos mit diesem Code, darunter das günstigere Classic DBL."
+     },
+     {
+      "art": "plissee",
+      "typen": [
+       "FHL SK08"
+      ]
+     },
+     {
+      "art": "hitzeschutz",
+      "typen": [
+       "MHL SK00"
+      ],
+      "hinweis": "Eine Markise für alle Höhen dieser Breite. Sie bremst die Hitze, bevor sie die Scheibe erreicht; ein Rollo innen tut das nicht."
+     },
+     {
+      "art": "insektenschutz",
+      "typen": [
+       "ZIL SK10"
+      ],
+      "hinweis": "Das Insektenschutzrollo wird an der Innenverkleidung montiert. Welche Größe passt, steht in der VELUX-Planungstabelle; sie ist nicht immer dieselbe wie der Fenstercode."
+     },
+     {
+      "art": "rollladen",
+      "typen": [
+       "SSL SK08"
+      ],
+      "hinweis": "Der Solar-Rollladen SSL SK08 passt auch auf S08. Ihn führt keiner unserer Partnershops."
+     }
+    ],
+    "nachbauten": [],
+    "fragen": [
+     {
+      "frage": "Passt ein Rollo für VELUX SK08 auf mein Fenster mit S08 auf dem Typenschild?",
+      "antwort": "Nimm das Rollo mit dem Code, der auf deinem Fenster steht. Für Fenster von 2000 bis 2013 mit S08 führt VELUX eigene Rollos mit diesem Code, etwa das Verdunkelungsrollo DKL S08 oder das günstigere Classic DBL S08. Rollos mit SK08 sind für Fenster ab 2013 gedacht. Die Hitzeschutz-Markise MHL SK00 passt dagegen auf beide.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic"
+      ],
+      "teile": [
+       "velux-verdunkelungsrollo-dkl-s08",
+       "velux-verdunkelungsrollo-classic-dbl-s08"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Warum heißt die VELUX-Markise für SK08 SK00?",
+      "antwort": "Die Doppelnull steht für alle Fensterhöhen einer Breite. Eine Außenmarkise richtet sich nur nach der Breite, deshalb passt die MHL SK00 laut VELUX-Preiskatalog auf SK06, SK08 und SK10 und auf die älteren Codes derselben Breite.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+      ],
+      "teile": [
+       "velux-markise-mhl-sk00"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Welches Insektenschutzrollo passt zu VELUX SK08?",
+      "antwort": "Laut Planungstabelle von VELUX das ZIL SK10. Es wird nicht am Fenster, sondern an der Innenverkleidung rund um den Dachausschnitt verschraubt und braucht dort eine ebene Fläche von mindestens 5 cm. Deshalb ist seine Größe nicht immer dieselbe wie der Fenstercode.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo"
+      ],
+      "teile": [
+       "velux-insektenschutzrollo-zil-sk10"
+      ],
+      "problem": null
+     }
+    ]
+   }
+  },
+  {
+   "slug": "ck02",
+   "name": "VELUX CK02",
+   "produkttyp": "dachfenster",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "CK02",
+    "C02",
+    "102"
+   ],
+   "erkennungsmerkmale": "Auf dem Typenschild hinter der Griffleiste steht der Fenstertyp und dahinter die Größe, etwa „GGL CK02“. Ältere Fenster derselben Größe tragen C02 (2000 bis 2013) oder 102 (1991 bis 2000).",
+   "beschreibung": "Blendrahmen-Außenmaß 55 × 78 cm. Diese Größe gibt es als GGL (Schwingfenster aus Holz), GGU (Schwingfenster aus Kunststoff).",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.velux.de/service/typenschild"
+   ],
+   "groesse": {
+    "code": "CK02",
+    "breite_cm": 55,
+    "hoehe_cm": 78,
+    "fenstertypen": [
+     "GGL",
+     "GGU"
+    ],
+    "alte_codes": [
+     {
+      "code": "C02",
+      "zeitraum": "2000 bis 2013",
+      "hinweis": "Gleiches Außenmaß wie CK02. Innen liegendes Zubehör trägt den Code C02 und passt nicht auf CK02; Markise und Rollladen sind dieselben wie für CK02."
+     },
+     {
+      "code": "102",
+      "zeitraum": "1991 bis 2000",
+      "hinweis": "Gleiches Außenmaß. Innen liegendes Zubehör trägt den Code 102, etwa das Verdunkelungsrollo DKL 102 für Holzfenster."
+     }
+    ],
+    "vor_1991": "Fenster von vor 1991 (Typ VL, VU, VK) haben eigene Größen. Die ähnlichste ist 021 mit 55 × 84 cm, also nicht dasselbe Maß wie CK02. Zubehör dafür trägt den Code Y21 und passt nicht auf CK02.",
+    "zubehoer": [
+     {
+      "art": "rollo",
+      "typen": [
+       "DKL CK02",
+       "RFL CK02",
+       "PAL CK02"
+      ],
+      "hinweis": "Verdunkelungsrollo, Sichtschutzrollo und Jalousie hängen an den Zubehörträgern im Fensterrahmen. Für Fenster mit C02 gibt es eigene Rollos mit diesem Code, darunter das günstigere Classic DBL."
+     },
+     {
+      "art": "plissee",
+      "typen": [
+       "FHL CK02"
+      ]
+     },
+     {
+      "art": "hitzeschutz",
+      "typen": [
+       "MHL CK00"
+      ],
+      "hinweis": "Eine Markise für alle Höhen dieser Breite. Sie bremst die Hitze, bevor sie die Scheibe erreicht; ein Rollo innen tut das nicht."
+     },
+     {
+      "art": "insektenschutz",
+      "typen": [
+       "ZIL CK02"
+      ],
+      "hinweis": "Das Insektenschutzrollo wird an der Innenverkleidung montiert. Welche Größe passt, steht in der VELUX-Planungstabelle; sie ist nicht immer dieselbe wie der Fenstercode."
+     },
+     {
+      "art": "rollladen",
+      "typen": [
+       "SSL CK02"
+      ],
+      "hinweis": "Der Solar-Rollladen SSL CK02 passt auch auf C02. Ihn führt keiner unserer Partnershops."
+     }
+    ],
+    "nachbauten": [],
+    "fragen": [
+     {
+      "frage": "Passt ein Rollo für VELUX CK02 auf mein Fenster mit C02 auf dem Typenschild?",
+      "antwort": "Nimm das Rollo mit dem Code, der auf deinem Fenster steht. Für Fenster von 2000 bis 2013 mit C02 führt VELUX eigene Rollos mit diesem Code, etwa das Verdunkelungsrollo DKL C02 oder das günstigere Classic DBL C02. Rollos mit CK02 sind für Fenster ab 2013 gedacht. Die Hitzeschutz-Markise MHL CK00 passt dagegen auf beide.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic"
+      ],
+      "teile": [
+       "velux-verdunkelungsrollo-classic-dbl-c02"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Warum heißt die VELUX-Markise für CK02 CK00?",
+      "antwort": "Die Doppelnull steht für alle Fensterhöhen einer Breite. Eine Außenmarkise richtet sich nur nach der Breite, deshalb passt die MHL CK00 laut VELUX-Preiskatalog auf CK02, CK04 und CK06 und auf die älteren Codes derselben Breite.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+      ],
+      "teile": [
+       "velux-markise-mhl-ck00"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Welches Insektenschutzrollo passt zu VELUX CK02?",
+      "antwort": "Laut Planungstabelle von VELUX das ZIL CK02. Es wird nicht am Fenster, sondern an der Innenverkleidung rund um den Dachausschnitt verschraubt und braucht dort eine ebene Fläche von mindestens 5 cm. Deshalb ist seine Größe nicht immer dieselbe wie der Fenstercode.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo"
+      ],
+      "teile": [
+       "velux-insektenschutzrollo-zil-ck02"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Kann ich die Markise bei VELUX CK02 von innen einbauen?",
+      "antwort": "VELUX nennt den Einbau vom Rauminneren erst ab 78 cm Fensterbreite. CK02 ist 55 cm breit, die Markise MHL CK00 wird also von außen auf die Haltekrallen gesetzt. Wer nicht sicher ans Fenster kommt, überlässt das dem Dachdecker.",
+      "kategorie": "reparatur",
+      "quellen": [
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/hitzeschutz-aussen/hitzeschutzmarkise-tageslicht",
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+      ],
+      "teile": [
+       "velux-markise-mhl-ck00"
+      ],
+      "problem": null
+     }
+    ]
+   }
+  },
+  {
+   "slug": "pk06",
+   "name": "VELUX PK06",
+   "produkttyp": "dachfenster",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "PK06",
+    "P06",
+    "406"
+   ],
+   "erkennungsmerkmale": "Auf dem Typenschild hinter der Griffleiste steht der Fenstertyp und dahinter die Größe, etwa „GGL PK06“. Ältere Fenster derselben Größe tragen P06 (2000 bis 2013) oder 406 (1991 bis 2000).",
+   "beschreibung": "Blendrahmen-Außenmaß 94 × 118 cm. Diese Größe gibt es als GGL (Schwingfenster aus Holz), GGU (Schwingfenster aus Kunststoff), GPL (Klapp-Schwingfenster aus Holz), GPU (Klapp-Schwingfenster aus Kunststoff).",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.velux.de/service/typenschild"
+   ],
+   "groesse": {
+    "code": "PK06",
+    "breite_cm": 94,
+    "hoehe_cm": 118,
+    "fenstertypen": [
+     "GGL",
+     "GGU",
+     "GPL",
+     "GPU"
+    ],
+    "alte_codes": [
+     {
+      "code": "P06",
+      "zeitraum": "2000 bis 2013",
+      "hinweis": "Gleiches Außenmaß wie PK06. Innen liegendes Zubehör trägt den Code P06 und passt nicht auf PK06; Markise und Rollladen sind dieselben wie für PK06."
+     },
+     {
+      "code": "406",
+      "zeitraum": "1991 bis 2000",
+      "hinweis": "Gleiches Außenmaß. Holzfenster nehmen innen das Zubehör für P06, Kunststofffenster das Verdunkelungsrollo DKU 406."
+     }
+    ],
+    "vor_1991": "Fenster von vor 1991 (Typ VL, VU, VK) haben eigene Größen. Die ähnlichste ist 065 mit 93 × 124 cm, also nicht dasselbe Maß wie PK06. Zubehör dafür trägt den Code Y65 und passt nicht auf PK06.",
+    "zubehoer": [
+     {
+      "art": "rollo",
+      "typen": [
+       "DKL PK06",
+       "RFL PK06",
+       "PAL PK06"
+      ],
+      "hinweis": "Verdunkelungsrollo, Sichtschutzrollo und Jalousie hängen an den Zubehörträgern im Fensterrahmen. Für Fenster mit P06 gibt es eigene Rollos mit diesem Code, darunter das günstigere Classic DBL."
+     },
+     {
+      "art": "plissee",
+      "typen": [
+       "FHL PK06"
+      ]
+     },
+     {
+      "art": "hitzeschutz",
+      "typen": [
+       "MHL PK00"
+      ],
+      "hinweis": "Eine Markise für alle Höhen dieser Breite. Sie bremst die Hitze, bevor sie die Scheibe erreicht; ein Rollo innen tut das nicht."
+     },
+     {
+      "art": "insektenschutz",
+      "typen": [
+       "ZIL PK06"
+      ],
+      "hinweis": "Das Insektenschutzrollo wird an der Innenverkleidung montiert. Welche Größe passt, steht in der VELUX-Planungstabelle; sie ist nicht immer dieselbe wie der Fenstercode."
+     },
+     {
+      "art": "rollladen",
+      "typen": [
+       "SSL PK06"
+      ],
+      "hinweis": "Der Solar-Rollladen SSL PK06 passt auch auf P06. Ihn führt keiner unserer Partnershops."
+     }
+    ],
+    "nachbauten": [],
+    "fragen": [
+     {
+      "frage": "Passt ein Rollo für VELUX PK06 auf mein Fenster mit P06 auf dem Typenschild?",
+      "antwort": "Nimm das Rollo mit dem Code, der auf deinem Fenster steht. Für Fenster von 2000 bis 2013 mit P06 führt VELUX eigene Rollos mit diesem Code, etwa das Verdunkelungsrollo DKL P06 oder das günstigere Classic DBL P06. Rollos mit PK06 sind für Fenster ab 2013 gedacht. Die Hitzeschutz-Markise MHL PK00 passt dagegen auf beide.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic"
+      ],
+      "teile": [
+       "velux-verdunkelungsrollo-dkl-p06",
+       "velux-verdunkelungsrollo-classic-dbl-p06"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Warum heißt die VELUX-Markise für PK06 PK00?",
+      "antwort": "Die Doppelnull steht für alle Fensterhöhen einer Breite. Eine Außenmarkise richtet sich nur nach der Breite, deshalb passt die MHL PK00 laut VELUX-Preiskatalog auf PK06, PK08 und PK10 und auf die älteren Codes derselben Breite.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+      ],
+      "teile": [
+       "velux-markise-mhl-pk00"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Welches Insektenschutzrollo passt zu VELUX PK06?",
+      "antwort": "Laut Planungstabelle von VELUX das ZIL PK06. Es wird nicht am Fenster, sondern an der Innenverkleidung rund um den Dachausschnitt verschraubt und braucht dort eine ebene Fläche von mindestens 5 cm. Deshalb ist seine Größe nicht immer dieselbe wie der Fenstercode.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo"
+      ],
+      "teile": [],
+      "problem": null
+     }
+    ]
+   }
+  },
+  {
+   "slug": "fk06",
+   "name": "VELUX FK06",
+   "produkttyp": "dachfenster",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "FK06",
+    "F06",
+    "206"
+   ],
+   "erkennungsmerkmale": "Auf dem Typenschild hinter der Griffleiste steht der Fenstertyp und dahinter die Größe, etwa „GGL FK06“. Ältere Fenster derselben Größe tragen F06 (2000 bis 2013) oder 206 (1991 bis 2000).",
+   "beschreibung": "Blendrahmen-Außenmaß 66 × 118 cm. Diese Größe gibt es als GGL (Schwingfenster aus Holz), GGU (Schwingfenster aus Kunststoff), GPL (Klapp-Schwingfenster aus Holz), GPU (Klapp-Schwingfenster aus Kunststoff), GXU (Ausstiegsfenster mit Türfunktion aus Kunststoff), GXLA (Ausstiegsfenster mit Türfunktion aus Holz), GXLB (Ausstiegsfenster mit Türfunktion aus Holz).",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.velux.de/service/typenschild"
+   ],
+   "groesse": {
+    "code": "FK06",
+    "breite_cm": 66,
+    "hoehe_cm": 118,
+    "fenstertypen": [
+     "GGL",
+     "GGU",
+     "GPL",
+     "GPU",
+     "GXU",
+     "GXLA",
+     "GXLB"
+    ],
+    "alte_codes": [
+     {
+      "code": "F06",
+      "zeitraum": "2000 bis 2013",
+      "hinweis": "Gleiches Außenmaß wie FK06. Innen liegendes Zubehör trägt den Code F06 und passt nicht auf FK06; Markise und Rollladen sind dieselben wie für FK06."
+     },
+     {
+      "code": "206",
+      "zeitraum": "1991 bis 2000",
+      "hinweis": "Gleiches Außenmaß. Innen liegendes Zubehör trägt den Code 206, etwa das Verdunkelungsrollo DKL 206 für Holzfenster."
+     }
+    ],
+    "vor_1991": "Fenster von vor 1991 (Typ VL, VU, VK) haben eigene Größen. Die ähnlichste ist 035 mit 65 × 124 cm, also nicht dasselbe Maß wie FK06. Zubehör dafür trägt den Code Y35 und passt nicht auf FK06.",
+    "zubehoer": [
+     {
+      "art": "rollo",
+      "typen": [
+       "DKL FK06",
+       "RFL FK06",
+       "PAL FK06"
+      ],
+      "hinweis": "Verdunkelungsrollo, Sichtschutzrollo und Jalousie hängen an den Zubehörträgern im Fensterrahmen. Für Fenster mit F06 gibt es eigene Rollos mit diesem Code, darunter das günstigere Classic DBL."
+     },
+     {
+      "art": "plissee",
+      "typen": [
+       "FHL FK06"
+      ]
+     },
+     {
+      "art": "hitzeschutz",
+      "typen": [
+       "MHL FK00"
+      ],
+      "hinweis": "Eine Markise für alle Höhen dieser Breite. Sie bremst die Hitze, bevor sie die Scheibe erreicht; ein Rollo innen tut das nicht."
+     },
+     {
+      "art": "insektenschutz",
+      "typen": [
+       "ZIL FK08"
+      ],
+      "hinweis": "Das Insektenschutzrollo wird an der Innenverkleidung montiert. Welche Größe passt, steht in der VELUX-Planungstabelle; sie ist nicht immer dieselbe wie der Fenstercode."
+     },
+     {
+      "art": "rollladen",
+      "typen": [
+       "SSL FK06"
+      ],
+      "hinweis": "Der Solar-Rollladen SSL FK06 passt auch auf F06. Ihn führt keiner unserer Partnershops."
+     }
+    ],
+    "nachbauten": [],
+    "fragen": [
+     {
+      "frage": "Passt ein Rollo für VELUX FK06 auf mein Fenster mit F06 auf dem Typenschild?",
+      "antwort": "Nimm das Rollo mit dem Code, der auf deinem Fenster steht. Für Fenster von 2000 bis 2013 mit F06 führt VELUX eigene Rollos mit diesem Code, etwa das Verdunkelungsrollo DKL F06 oder das günstigere Classic DBL F06. Rollos mit FK06 sind für Fenster ab 2013 gedacht. Die Hitzeschutz-Markise MHL FK00 passt dagegen auf beide.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic"
+      ],
+      "teile": [
+       "velux-verdunkelungsrollo-dkl-f06",
+       "velux-verdunkelungsrollo-classic-dbl-f06"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Warum heißt die VELUX-Markise für FK06 FK00?",
+      "antwort": "Die Doppelnull steht für alle Fensterhöhen einer Breite. Eine Außenmarkise richtet sich nur nach der Breite, deshalb passt die MHL FK00 laut VELUX-Preiskatalog auf FK04, FK06 und FK08 und auf die älteren Codes derselben Breite.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+      ],
+      "teile": [
+       "velux-markise-mhl-fk00"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Welches Insektenschutzrollo passt zu VELUX FK06?",
+      "antwort": "Laut Planungstabelle von VELUX das ZIL FK08. Es wird nicht am Fenster, sondern an der Innenverkleidung rund um den Dachausschnitt verschraubt und braucht dort eine ebene Fläche von mindestens 5 cm. Deshalb ist seine Größe nicht immer dieselbe wie der Fenstercode.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo"
+      ],
+      "teile": [
+       "velux-insektenschutzrollo-zil-fk08"
+      ],
+      "problem": null
+     },
+     {
+      "frage": "Kann ich die Markise bei VELUX FK06 von innen einbauen?",
+      "antwort": "VELUX nennt den Einbau vom Rauminneren erst ab 78 cm Fensterbreite. FK06 ist 66 cm breit, die Markise MHL FK00 wird also von außen auf die Haltekrallen gesetzt. Wer nicht sicher ans Fenster kommt, überlässt das dem Dachdecker.",
+      "kategorie": "reparatur",
+      "quellen": [
+       "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/hitzeschutz-aussen/hitzeschutzmarkise-tageslicht",
+       "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+      ],
+      "teile": [
+       "velux-markise-mhl-fk00"
+      ],
+      "problem": null
+     }
+    ]
+   }
+  }
+ ],
+ "teile": [
+  {
+   "slug": "velux-verdunkelungsrollo-dkl-mk04",
+   "name": "VELUX Verdunkelungsrollo DKL MK04",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKL MK04 1085S",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Fenster der Größe MK04 (78 × 98 cm), Baujahr ab 2013. Es wird an die vormontierten Zubehörträger geklickt und läuft in seitlichen Schienen. Die vier Ziffern hinter der Größe sind die Farbe (1085 hellbeige, 1025 weiß, 0705 grau, 1100 dunkelblau), der Zusatz WL steht für weiße statt alufarbene Schienen.",
+   "preis_spanne": "ca. 104 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326748356",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/verdunkelungsrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-sichtschutzrollo-rfl-mk04",
+   "name": "VELUX Sichtschutzrollo RFL MK04",
+   "teiltyp": "rollo",
+   "oem_nummer": "RFL MK04 1028S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Rollo für VELUX-Fenster der Größe MK04, Baujahr ab 2013. Es dämpft das Licht und nimmt den Einblick, verdunkelt aber nicht. Montage wie beim Verdunkelungsrollo an den Zubehörträgern.",
+   "preis_spanne": "ca. 104 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326642456",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/lichtdurchlaessige-sichtschutzrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-jalousie-pal-mk04",
+   "name": "VELUX Jalousie PAL MK04",
+   "teiltyp": "rollo",
+   "oem_nummer": "PAL MK04 7001S",
+   "masse": {},
+   "beschreibung": "Aluminium-Jalousie für VELUX-Fenster der Größe MK04, Baujahr ab 2013. Die Lamellen lassen sich kippen, so regelst du das Licht stufenlos. Sie wird auf die vormontierten Zubehörträger gesetzt.",
+   "preis_spanne": "ca. 132 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326772702",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/jalousien",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-plissee-fhl-mk04",
+   "name": "VELUX Plissee FHL MK04",
+   "teiltyp": "plissee",
+   "oem_nummer": "FHL MK04 1016S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Faltrollo für VELUX-Fenster der Größe MK04, Baujahr ab 2013. Es lässt sich an jeder Stelle des Fensters anhalten, auch nur unten oder nur oben. VELUX liefert es mit Befestigungsmaterial für einige wenige Schrauben.",
+   "preis_spanne": "ca. 119 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326782398",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/faltrollos-plissees",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-markise-mhl-mk00",
+   "name": "VELUX Hitzeschutz-Markise MHL MK00",
+   "teiltyp": "hitzeschutz",
+   "oem_nummer": "MHL MK00 5060",
+   "masse": {},
+   "beschreibung": "Außen liegende Hitzeschutz-Markise mit Haltekrallen für VELUX-Fenster mit 78 cm Breite. Die Doppelnull im Code bedeutet: eine Markise für alle Fensterhöhen dieser Breite. Sie wird bei geöffnetem Fenster von innen auf die Haltekrallen gesetzt. Nicht für Solar- und Elektrofenster.",
+   "preis_spanne": "ca. 104 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326005305",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/hitzeschutz-aussen/hitzeschutzmarkise-tageslicht",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-insektenschutzrollo-zil-mk06",
+   "name": "VELUX Insektenschutzrollo ZIL MK06",
+   "teiltyp": "insektenschutz",
+   "oem_nummer": "ZIL MK06 0000SWL",
+   "masse": {},
+   "beschreibung": "Insektenschutzrollo mit Glasfasernetz in weißem Rahmen. Es wird nicht am Fenster, sondern an der Innenverkleidung rund um den Dachausschnitt verschraubt und braucht dort eine ebene Fläche von mindestens 5 cm. Welche ZIL-Größe passt, steht in der Planungstabelle von VELUX, nicht im Fenstercode.",
+   "preis_spanne": "ca. 169 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 45,
+   "werkzeug": "Akkuschrauber, Bleistift, Wasserwaage.",
+   "ean": "5702328853669",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dkl-m04",
+   "name": "VELUX Verdunkelungsrollo DKL M04",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKL M04 1085S",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Fenster mit dem Code M04 (Baujahr 2000 bis 2013). Es hängt wie das Rollo der aktuellen Generation an Zubehörträgern; fehlen sie am Fenster, gibt es sie als Set ZOZ 230. Passt nicht auf MK04-Fenster ab 2013.",
+   "preis_spanne": "ca. 93,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702325155292",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/verdunkelungsrollos"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-classic-dbl-m04",
+   "name": "VELUX Verdunkelungsrollo Classic DBL M04",
+   "teiltyp": "rollo",
+   "oem_nummer": "DBL M04 4288",
+   "masse": {},
+   "beschreibung": "Günstigere Ausführung des Verdunkelungsrollos für VELUX-Fenster, die vor 2013 hergestellt wurden, hier mit dem Code M04. Nur mit alufarbenen Schienen und in vier Farben (4288 weiß, 4249 schwarz, 4230 beige, 4204 grau).",
+   "preis_spanne": "ca. 65,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702328726956",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dkl-mk06",
+   "name": "VELUX Verdunkelungsrollo DKL MK06",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKL MK06 1085S",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Fenster der Größe MK06 (78 × 118 cm), Baujahr ab 2013. Es wird an die vormontierten Zubehörträger geklickt und läuft in seitlichen Schienen. Die vier Ziffern hinter der Größe sind die Farbe (1085 hellbeige, 1025 weiß, 0705 grau, 1100 dunkelblau), der Zusatz WL steht für weiße statt alufarbene Schienen.",
+   "preis_spanne": "ca. 113 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326749353",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/verdunkelungsrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-sichtschutzrollo-rfl-mk06",
+   "name": "VELUX Sichtschutzrollo RFL MK06",
+   "teiltyp": "rollo",
+   "oem_nummer": "RFL MK06 1028S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Rollo für VELUX-Fenster der Größe MK06, Baujahr ab 2013. Es dämpft das Licht und nimmt den Einblick, verdunkelt aber nicht. Montage wie beim Verdunkelungsrollo an den Zubehörträgern.",
+   "preis_spanne": "ca. 113 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326803956",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/lichtdurchlaessige-sichtschutzrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-jalousie-pal-mk06",
+   "name": "VELUX Jalousie PAL MK06",
+   "teiltyp": "rollo",
+   "oem_nummer": "PAL MK06 7001S",
+   "masse": {},
+   "beschreibung": "Aluminium-Jalousie für VELUX-Fenster der Größe MK06, Baujahr ab 2013. Die Lamellen lassen sich kippen, so regelst du das Licht stufenlos. Sie wird auf die vormontierten Zubehörträger gesetzt.",
+   "preis_spanne": "ca. 146 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326772894",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/jalousien",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-plissee-fhl-mk06",
+   "name": "VELUX Plissee FHL MK06",
+   "teiltyp": "plissee",
+   "oem_nummer": "FHL MK06 1016S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Faltrollo für VELUX-Fenster der Größe MK06, Baujahr ab 2013. Es lässt sich an jeder Stelle des Fensters anhalten, auch nur unten oder nur oben. VELUX liefert es mit Befestigungsmaterial für einige wenige Schrauben.",
+   "preis_spanne": "ca. 133 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326783081",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/faltrollos-plissees",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dkl-m06",
+   "name": "VELUX Verdunkelungsrollo DKL M06",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKL M06 1085S",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Fenster mit dem Code M06 (Baujahr 2000 bis 2013). Es hängt wie das Rollo der aktuellen Generation an Zubehörträgern; fehlen sie am Fenster, gibt es sie als Set ZOZ 230. Passt nicht auf MK06-Fenster ab 2013.",
+   "preis_spanne": "ca. 102,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702325139018",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/verdunkelungsrollos"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-classic-dbl-m06",
+   "name": "VELUX Verdunkelungsrollo Classic DBL M06",
+   "teiltyp": "rollo",
+   "oem_nummer": "DBL M06 4288",
+   "masse": {},
+   "beschreibung": "Günstigere Ausführung des Verdunkelungsrollos für VELUX-Fenster, die vor 2013 hergestellt wurden, hier mit dem Code M06. Nur mit alufarbenen Schienen und in vier Farben (4288 weiß, 4249 schwarz, 4230 beige, 4204 grau).",
+   "preis_spanne": "ca. 70,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702328726994",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dku-306",
+   "name": "VELUX Verdunkelungsrollo DKU 306",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKU 306 1085",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Kunststofffenster (GGU, GPU) der Größe 306, Baujahr 1991 bis 2000. Die passenden Zubehörträger liegen bei. Für Holzfenster derselben Größe nimmst du das Rollo mit dem Code M06.",
+   "preis_spanne": "ca. 113 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702320134049",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dkl-mk08",
+   "name": "VELUX Verdunkelungsrollo DKL MK08",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKL MK08 1085S",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Fenster der Größe MK08 (78 × 140 cm), Baujahr ab 2013. Es wird an die vormontierten Zubehörträger geklickt und läuft in seitlichen Schienen. Die vier Ziffern hinter der Größe sind die Farbe (1085 hellbeige, 1025 weiß, 0705 grau, 1100 dunkelblau), der Zusatz WL steht für weiße statt alufarbene Schienen.",
+   "preis_spanne": "ca. 116 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326750359",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/verdunkelungsrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-sichtschutzrollo-rfl-mk08",
+   "name": "VELUX Sichtschutzrollo RFL MK08",
+   "teiltyp": "rollo",
+   "oem_nummer": "RFL MK08 1028S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Rollo für VELUX-Fenster der Größe MK08, Baujahr ab 2013. Es dämpft das Licht und nimmt den Einblick, verdunkelt aber nicht. Montage wie beim Verdunkelungsrollo an den Zubehörträgern.",
+   "preis_spanne": "ca. 116 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326642494",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/lichtdurchlaessige-sichtschutzrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-jalousie-pal-mk08",
+   "name": "VELUX Jalousie PAL MK08",
+   "teiltyp": "rollo",
+   "oem_nummer": "PAL MK08 7001S",
+   "masse": {},
+   "beschreibung": "Aluminium-Jalousie für VELUX-Fenster der Größe MK08, Baujahr ab 2013. Die Lamellen lassen sich kippen, so regelst du das Licht stufenlos. Sie wird auf die vormontierten Zubehörträger gesetzt.",
+   "preis_spanne": "ca. 149 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702327917713",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/jalousien",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-plissee-fhl-mk08",
+   "name": "VELUX Plissee FHL MK08",
+   "teiltyp": "plissee",
+   "oem_nummer": "FHL MK08 1016S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Faltrollo für VELUX-Fenster der Größe MK08, Baujahr ab 2013. Es lässt sich an jeder Stelle des Fensters anhalten, auch nur unten oder nur oben. VELUX liefert es mit Befestigungsmaterial für einige wenige Schrauben.",
+   "preis_spanne": "ca. 138 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326783791",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/faltrollos-plissees",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dkl-m08",
+   "name": "VELUX Verdunkelungsrollo DKL M08",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKL M08 1085S",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Fenster mit dem Code M08 (Baujahr 2000 bis 2013). Es hängt wie das Rollo der aktuellen Generation an Zubehörträgern; fehlen sie am Fenster, gibt es sie als Set ZOZ 230. Passt nicht auf MK08-Fenster ab 2013.",
+   "preis_spanne": "ca. 105 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702325139261",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/verdunkelungsrollos"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-classic-dbl-m08",
+   "name": "VELUX Verdunkelungsrollo Classic DBL M08",
+   "teiltyp": "rollo",
+   "oem_nummer": "DBL M08 4288",
+   "masse": {},
+   "beschreibung": "Günstigere Ausführung des Verdunkelungsrollos für VELUX-Fenster, die vor 2013 hergestellt wurden, hier mit dem Code M08. Nur mit alufarbenen Schienen und in vier Farben (4288 weiß, 4249 schwarz, 4230 beige, 4204 grau).",
+   "preis_spanne": "ca. 72,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702328727038",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dku-308",
+   "name": "VELUX Verdunkelungsrollo DKU 308",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKU 308 1085",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Kunststofffenster (GGU, GPU) der Größe 308, Baujahr 1991 bis 2000. Die passenden Zubehörträger liegen bei. Für Holzfenster derselben Größe nimmst du das Rollo mit dem Code M08.",
+   "preis_spanne": "ca. 116 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702320134124",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dkl-sk06",
+   "name": "VELUX Verdunkelungsrollo DKL SK06",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKL SK06 1085S",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Fenster der Größe SK06 (114 × 118 cm), Baujahr ab 2013. Es wird an die vormontierten Zubehörträger geklickt und läuft in seitlichen Schienen. Die vier Ziffern hinter der Größe sind die Farbe (1085 hellbeige, 1025 weiß, 0705 grau, 1100 dunkelblau), der Zusatz WL steht für weiße statt alufarbene Schienen.",
+   "preis_spanne": "ca. 135 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326630446",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/verdunkelungsrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-sichtschutzrollo-rfl-sk06",
+   "name": "VELUX Sichtschutzrollo RFL SK06",
+   "teiltyp": "rollo",
+   "oem_nummer": "RFL SK06 1028S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Rollo für VELUX-Fenster der Größe SK06, Baujahr ab 2013. Es dämpft das Licht und nimmt den Einblick, verdunkelt aber nicht. Montage wie beim Verdunkelungsrollo an den Zubehörträgern.",
+   "preis_spanne": "ca. 135 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326651458",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/lichtdurchlaessige-sichtschutzrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-jalousie-pal-sk06",
+   "name": "VELUX Jalousie PAL SK06",
+   "teiltyp": "rollo",
+   "oem_nummer": "PAL SK06 7001S",
+   "masse": {},
+   "beschreibung": "Aluminium-Jalousie für VELUX-Fenster der Größe SK06, Baujahr ab 2013. Die Lamellen lassen sich kippen, so regelst du das Licht stufenlos. Sie wird auf die vormontierten Zubehörträger gesetzt.",
+   "preis_spanne": "ca. 175 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326775413",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/jalousien",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-plissee-fhl-sk06",
+   "name": "VELUX Plissee FHL SK06",
+   "teiltyp": "plissee",
+   "oem_nummer": "FHL SK06 1016S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Faltrollo für VELUX-Fenster der Größe SK06, Baujahr ab 2013. Es lässt sich an jeder Stelle des Fensters anhalten, auch nur unten oder nur oben. VELUX liefert es mit Befestigungsmaterial für einige wenige Schrauben.",
+   "preis_spanne": "ca. 160 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326792199",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/faltrollos-plissees",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-markise-mhl-sk00",
+   "name": "VELUX Hitzeschutz-Markise MHL SK00",
+   "teiltyp": "hitzeschutz",
+   "oem_nummer": "MHL SK00 5060",
+   "masse": {},
+   "beschreibung": "Außen liegende Hitzeschutz-Markise mit Haltekrallen für VELUX-Fenster mit 114 cm Breite. Die Doppelnull im Code bedeutet: eine Markise für alle Fensterhöhen dieser Breite. Sie wird bei geöffnetem Fenster von innen auf die Haltekrallen gesetzt. Nicht für Solar- und Elektrofenster.",
+   "preis_spanne": "ca. 129 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326005602",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/hitzeschutz-aussen/hitzeschutzmarkise-tageslicht",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-insektenschutzrollo-zil-sk06",
+   "name": "VELUX Insektenschutzrollo ZIL SK06",
+   "teiltyp": "insektenschutz",
+   "oem_nummer": "ZIL SK06 0000SWL",
+   "masse": {},
+   "beschreibung": "Insektenschutzrollo mit Glasfasernetz in weißem Rahmen. Es wird nicht am Fenster, sondern an der Innenverkleidung rund um den Dachausschnitt verschraubt und braucht dort eine ebene Fläche von mindestens 5 cm. Welche ZIL-Größe passt, steht in der Planungstabelle von VELUX, nicht im Fenstercode.",
+   "preis_spanne": "ca. 195 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 45,
+   "werkzeug": "Akkuschrauber, Bleistift, Wasserwaage.",
+   "ean": "5702328853713",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dkl-s06",
+   "name": "VELUX Verdunkelungsrollo DKL S06",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKL S06 1085S",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Fenster mit dem Code S06 (Baujahr 2000 bis 2013). Es hängt wie das Rollo der aktuellen Generation an Zubehörträgern; fehlen sie am Fenster, gibt es sie als Set ZOZ 230. Passt nicht auf SK06-Fenster ab 2013.",
+   "preis_spanne": "ca. 123 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702325155315",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/verdunkelungsrollos"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-classic-dbl-s06",
+   "name": "VELUX Verdunkelungsrollo Classic DBL S06",
+   "teiltyp": "rollo",
+   "oem_nummer": "DBL S06 4288",
+   "masse": {},
+   "beschreibung": "Günstigere Ausführung des Verdunkelungsrollos für VELUX-Fenster, die vor 2013 hergestellt wurden, hier mit dem Code S06. Nur mit alufarbenen Schienen und in vier Farben (4288 weiß, 4249 schwarz, 4230 beige, 4204 grau).",
+   "preis_spanne": "ca. 86,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702328727199",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dku-606",
+   "name": "VELUX Verdunkelungsrollo DKU 606",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKU 606 1085",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Kunststofffenster (GGU, GPU) der Größe 606, Baujahr 1991 bis 2000. Die passenden Zubehörträger liegen bei. Für Holzfenster derselben Größe nimmst du das Rollo mit dem Code S06.",
+   "preis_spanne": "ca. 135 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702320134285",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dkl-sk08",
+   "name": "VELUX Verdunkelungsrollo DKL SK08",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKL SK08 1085S",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Fenster der Größe SK08 (114 × 140 cm), Baujahr ab 2013. Es wird an die vormontierten Zubehörträger geklickt und läuft in seitlichen Schienen. Die vier Ziffern hinter der Größe sind die Farbe (1085 hellbeige, 1025 weiß, 0705 grau, 1100 dunkelblau), der Zusatz WL steht für weiße statt alufarbene Schienen.",
+   "preis_spanne": "ca. 144 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326761713",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/verdunkelungsrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-sichtschutzrollo-rfl-sk08",
+   "name": "VELUX Sichtschutzrollo RFL SK08",
+   "teiltyp": "rollo",
+   "oem_nummer": "RFL SK08 1028S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Rollo für VELUX-Fenster der Größe SK08, Baujahr ab 2013. Es dämpft das Licht und nimmt den Einblick, verdunkelt aber nicht. Montage wie beim Verdunkelungsrollo an den Zubehörträgern.",
+   "preis_spanne": "ca. 144 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326815119",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/lichtdurchlaessige-sichtschutzrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-jalousie-pal-sk08",
+   "name": "VELUX Jalousie PAL SK08",
+   "teiltyp": "rollo",
+   "oem_nummer": "PAL SK08 7001S",
+   "masse": {},
+   "beschreibung": "Aluminium-Jalousie für VELUX-Fenster der Größe SK08, Baujahr ab 2013. Die Lamellen lassen sich kippen, so regelst du das Licht stufenlos. Sie wird auf die vormontierten Zubehörträger gesetzt.",
+   "preis_spanne": "ca. 185 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326775628",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/jalousien",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-plissee-fhl-sk08",
+   "name": "VELUX Plissee FHL SK08",
+   "teiltyp": "plissee",
+   "oem_nummer": "FHL SK08 1016S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Faltrollo für VELUX-Fenster der Größe SK08, Baujahr ab 2013. Es lässt sich an jeder Stelle des Fensters anhalten, auch nur unten oder nur oben. VELUX liefert es mit Befestigungsmaterial für einige wenige Schrauben.",
+   "preis_spanne": "ca. 169 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326792922",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/faltrollos-plissees",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-insektenschutzrollo-zil-sk10",
+   "name": "VELUX Insektenschutzrollo ZIL SK10",
+   "teiltyp": "insektenschutz",
+   "oem_nummer": "ZIL SK10 0000SWL",
+   "masse": {},
+   "beschreibung": "Insektenschutzrollo mit Glasfasernetz in weißem Rahmen. Es wird nicht am Fenster, sondern an der Innenverkleidung rund um den Dachausschnitt verschraubt und braucht dort eine ebene Fläche von mindestens 5 cm. Welche ZIL-Größe passt, steht in der Planungstabelle von VELUX, nicht im Fenstercode.",
+   "preis_spanne": "ca. 204 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 45,
+   "werkzeug": "Akkuschrauber, Bleistift, Wasserwaage.",
+   "ean": "5702328853720",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dkl-s08",
+   "name": "VELUX Verdunkelungsrollo DKL S08",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKL S08 1100S",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Fenster mit dem Code S08 (Baujahr 2000 bis 2013). Es hängt wie das Rollo der aktuellen Generation an Zubehörträgern; fehlen sie am Fenster, gibt es sie als Set ZOZ 230. Passt nicht auf SK08-Fenster ab 2013.",
+   "preis_spanne": "ca. 129 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702325095345",
+   "amazon_asin": "B002RKQ4Z6",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/verdunkelungsrollos"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-classic-dbl-s08",
+   "name": "VELUX Verdunkelungsrollo Classic DBL S08",
+   "teiltyp": "rollo",
+   "oem_nummer": "DBL S08 4288",
+   "masse": {},
+   "beschreibung": "Günstigere Ausführung des Verdunkelungsrollos für VELUX-Fenster, die vor 2013 hergestellt wurden, hier mit dem Code S08. Nur mit alufarbenen Schienen und in vier Farben (4288 weiß, 4249 schwarz, 4230 beige, 4204 grau).",
+   "preis_spanne": "ca. 91,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702328727236",
+   "amazon_asin": "B07P8755LJ",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dku-608",
+   "name": "VELUX Verdunkelungsrollo DKU 608",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKU 608 1085",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Kunststofffenster (GGU, GPU) der Größe 608, Baujahr 1991 bis 2000. Die passenden Zubehörträger liegen bei. Für Holzfenster derselben Größe nimmst du das Rollo mit dem Code S08.",
+   "preis_spanne": "ca. 144 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702320134360",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dkl-ck02",
+   "name": "VELUX Verdunkelungsrollo DKL CK02",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKL CK02 1085S",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Fenster der Größe CK02 (55 × 78 cm), Baujahr ab 2013. Es wird an die vormontierten Zubehörträger geklickt und läuft in seitlichen Schienen. Die vier Ziffern hinter der Größe sind die Farbe (1085 hellbeige, 1025 weiß, 0705 grau, 1100 dunkelblau), der Zusatz WL steht für weiße statt alufarbene Schienen.",
+   "preis_spanne": "ca. 79,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702327912510",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/verdunkelungsrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-sichtschutzrollo-rfl-ck02",
+   "name": "VELUX Sichtschutzrollo RFL CK02",
+   "teiltyp": "rollo",
+   "oem_nummer": "RFL CK02 1028S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Rollo für VELUX-Fenster der Größe CK02, Baujahr ab 2013. Es dämpft das Licht und nimmt den Einblick, verdunkelt aber nicht. Montage wie beim Verdunkelungsrollo an den Zubehörträgern.",
+   "preis_spanne": "ca. 79,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326798061",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/lichtdurchlaessige-sichtschutzrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-jalousie-pal-ck02",
+   "name": "VELUX Jalousie PAL CK02",
+   "teiltyp": "rollo",
+   "oem_nummer": "PAL CK02 7001S",
+   "masse": {},
+   "beschreibung": "Aluminium-Jalousie für VELUX-Fenster der Größe CK02, Baujahr ab 2013. Die Lamellen lassen sich kippen, so regelst du das Licht stufenlos. Sie wird auf die vormontierten Zubehörträger gesetzt.",
+   "preis_spanne": "ca. 99,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326771521",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/jalousien",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-plissee-fhl-ck02",
+   "name": "VELUX Plissee FHL CK02",
+   "teiltyp": "plissee",
+   "oem_nummer": "FHL CK02 1016S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Faltrollo für VELUX-Fenster der Größe CK02, Baujahr ab 2013. Es lässt sich an jeder Stelle des Fensters anhalten, auch nur unten oder nur oben. VELUX liefert es mit Befestigungsmaterial für einige wenige Schrauben.",
+   "preis_spanne": "ca. 89,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326778162",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/faltrollos-plissees",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-markise-mhl-ck00",
+   "name": "VELUX Hitzeschutz-Markise MHL CK00",
+   "teiltyp": "hitzeschutz",
+   "oem_nummer": "MHL CK00 5060",
+   "masse": {},
+   "beschreibung": "Außen liegende Hitzeschutz-Markise mit Haltekrallen für VELUX-Fenster mit 55 cm Breite. Die Doppelnull im Code bedeutet: eine Markise für alle Fensterhöhen dieser Breite. VELUX nennt den Einbau von innen ab 78 cm Fensterbreite. Bei dieser schmalen Größe wird die Markise von außen eingehängt. Nicht für Solar- und Elektrofenster.",
+   "preis_spanne": "ca. 86,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702320104820",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/hitzeschutz-aussen/hitzeschutzmarkise-tageslicht",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-insektenschutzrollo-zil-ck02",
+   "name": "VELUX Insektenschutzrollo ZIL CK02",
+   "teiltyp": "insektenschutz",
+   "oem_nummer": "ZIL CK02 0000SWL",
+   "masse": {},
+   "beschreibung": "Insektenschutzrollo mit Glasfasernetz in weißem Rahmen. Es wird nicht am Fenster, sondern an der Innenverkleidung rund um den Dachausschnitt verschraubt und braucht dort eine ebene Fläche von mindestens 5 cm. Welche ZIL-Größe passt, steht in der Planungstabelle von VELUX, nicht im Fenstercode.",
+   "preis_spanne": "ca. 146 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 45,
+   "werkzeug": "Akkuschrauber, Bleistift, Wasserwaage.",
+   "ean": "5702328853638",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-classic-dbl-c02",
+   "name": "VELUX Verdunkelungsrollo Classic DBL C02",
+   "teiltyp": "rollo",
+   "oem_nummer": "DBL C02 4288",
+   "masse": {},
+   "beschreibung": "Günstigere Ausführung des Verdunkelungsrollos für VELUX-Fenster, die vor 2013 hergestellt wurden, hier mit dem Code C02. Nur mit alufarbenen Schienen und in vier Farben (4288 weiß, 4249 schwarz, 4230 beige, 4204 grau).",
+   "preis_spanne": "ca. 49,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702328726796",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dkl-pk06",
+   "name": "VELUX Verdunkelungsrollo DKL PK06",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKL PK06 1085S",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Fenster der Größe PK06 (94 × 118 cm), Baujahr ab 2013. Es wird an die vormontierten Zubehörträger geklickt und läuft in seitlichen Schienen. Die vier Ziffern hinter der Größe sind die Farbe (1085 hellbeige, 1025 weiß, 0705 grau, 1100 dunkelblau), der Zusatz WL steht für weiße statt alufarbene Schienen.",
+   "preis_spanne": "ca. 119 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326754739",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/verdunkelungsrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-sichtschutzrollo-rfl-pk06",
+   "name": "VELUX Sichtschutzrollo RFL PK06",
+   "teiltyp": "rollo",
+   "oem_nummer": "RFL PK06 1028S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Rollo für VELUX-Fenster der Größe PK06, Baujahr ab 2013. Es dämpft das Licht und nimmt den Einblick, verdunkelt aber nicht. Montage wie beim Verdunkelungsrollo an den Zubehörträgern.",
+   "preis_spanne": "ca. 119 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326809385",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/lichtdurchlaessige-sichtschutzrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-jalousie-pal-pk06",
+   "name": "VELUX Jalousie PAL PK06",
+   "teiltyp": "rollo",
+   "oem_nummer": "PAL PK06 7001S",
+   "masse": {},
+   "beschreibung": "Aluminium-Jalousie für VELUX-Fenster der Größe PK06, Baujahr ab 2013. Die Lamellen lassen sich kippen, so regelst du das Licht stufenlos. Sie wird auf die vormontierten Zubehörträger gesetzt.",
+   "preis_spanne": "ca. 159 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326774065",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/jalousien",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-plissee-fhl-pk06",
+   "name": "VELUX Plissee FHL PK06",
+   "teiltyp": "plissee",
+   "oem_nummer": "FHL PK06 1016S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Faltrollo für VELUX-Fenster der Größe PK06, Baujahr ab 2013. Es lässt sich an jeder Stelle des Fensters anhalten, auch nur unten oder nur oben. VELUX liefert es mit Befestigungsmaterial für einige wenige Schrauben.",
+   "preis_spanne": "ca. 144 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326787294",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/faltrollos-plissees",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-markise-mhl-pk00",
+   "name": "VELUX Hitzeschutz-Markise MHL PK00",
+   "teiltyp": "hitzeschutz",
+   "oem_nummer": "MHL PK00 5060",
+   "masse": {},
+   "beschreibung": "Außen liegende Hitzeschutz-Markise mit Haltekrallen für VELUX-Fenster mit 94 cm Breite. Die Doppelnull im Code bedeutet: eine Markise für alle Fensterhöhen dieser Breite. Sie wird bei geöffnetem Fenster von innen auf die Haltekrallen gesetzt. Nicht für Solar- und Elektrofenster.",
+   "preis_spanne": "ca. 119 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326005404",
+   "amazon_asin": "B00WG24VK0",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/hitzeschutz-aussen/hitzeschutzmarkise-tageslicht",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dkl-p06",
+   "name": "VELUX Verdunkelungsrollo DKL P06",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKL P06 1085S",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Fenster mit dem Code P06 (Baujahr 2000 bis 2013). Es hängt wie das Rollo der aktuellen Generation an Zubehörträgern; fehlen sie am Fenster, gibt es sie als Set ZOZ 230. Passt nicht auf PK06-Fenster ab 2013.",
+   "preis_spanne": "ca. 109 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702325091651",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/verdunkelungsrollos"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-classic-dbl-p06",
+   "name": "VELUX Verdunkelungsrollo Classic DBL P06",
+   "teiltyp": "rollo",
+   "oem_nummer": "DBL P06 4288",
+   "masse": {},
+   "beschreibung": "Günstigere Ausführung des Verdunkelungsrollos für VELUX-Fenster, die vor 2013 hergestellt wurden, hier mit dem Code P06. Nur mit alufarbenen Schienen und in vier Farben (4288 weiß, 4249 schwarz, 4230 beige, 4204 grau).",
+   "preis_spanne": "ca. 76,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702328727113",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dkl-fk06",
+   "name": "VELUX Verdunkelungsrollo DKL FK06",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKL FK06 1085S",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Fenster der Größe FK06 (66 × 118 cm), Baujahr ab 2013. Es wird an die vormontierten Zubehörträger geklickt und läuft in seitlichen Schienen. Die vier Ziffern hinter der Größe sind die Farbe (1085 hellbeige, 1025 weiß, 0705 grau, 1100 dunkelblau), der Zusatz WL steht für weiße statt alufarbene Schienen.",
+   "preis_spanne": "ca. 110 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326746543",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/verdunkelungsrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-sichtschutzrollo-rfl-fk06",
+   "name": "VELUX Sichtschutzrollo RFL FK06",
+   "teiltyp": "rollo",
+   "oem_nummer": "RFL FK06 1028S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Rollo für VELUX-Fenster der Größe FK06, Baujahr ab 2013. Es dämpft das Licht und nimmt den Einblick, verdunkelt aber nicht. Montage wie beim Verdunkelungsrollo an den Zubehörträgern.",
+   "preis_spanne": "ca. 110 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326801372",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/lichtdurchlaessige-sichtschutzrollos",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-jalousie-pal-fk06",
+   "name": "VELUX Jalousie PAL FK06",
+   "teiltyp": "rollo",
+   "oem_nummer": "PAL FK06 7001S",
+   "masse": {},
+   "beschreibung": "Aluminium-Jalousie für VELUX-Fenster der Größe FK06, Baujahr ab 2013. Die Lamellen lassen sich kippen, so regelst du das Licht stufenlos. Sie wird auf die vormontierten Zubehörträger gesetzt.",
+   "preis_spanne": "ca. 142 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326651502",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/jalousien",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-plissee-fhl-fk06",
+   "name": "VELUX Plissee FHL FK06",
+   "teiltyp": "plissee",
+   "oem_nummer": "FHL FK06 1016S",
+   "masse": {},
+   "beschreibung": "Lichtdurchlässiges Faltrollo für VELUX-Fenster der Größe FK06, Baujahr ab 2013. Es lässt sich an jeder Stelle des Fensters anhalten, auch nur unten oder nur oben. VELUX liefert es mit Befestigungsmaterial für einige wenige Schrauben.",
+   "preis_spanne": "ca. 129 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702326780974",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/faltrollos-plissees",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-markise-mhl-fk00",
+   "name": "VELUX Hitzeschutz-Markise MHL FK00",
+   "teiltyp": "hitzeschutz",
+   "oem_nummer": "MHL FK00 5060",
+   "masse": {},
+   "beschreibung": "Außen liegende Hitzeschutz-Markise mit Haltekrallen für VELUX-Fenster mit 66 cm Breite. Die Doppelnull im Code bedeutet: eine Markise für alle Fensterhöhen dieser Breite. VELUX nennt den Einbau von innen ab 78 cm Fensterbreite. Bei dieser schmalen Größe wird die Markise von außen eingehängt. Nicht für Solar- und Elektrofenster.",
+   "preis_spanne": "ca. 97,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702322519479",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/hitzeschutz-aussen/hitzeschutzmarkise-tageslicht",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-insektenschutzrollo-zil-fk08",
+   "name": "VELUX Insektenschutzrollo ZIL FK08",
+   "teiltyp": "insektenschutz",
+   "oem_nummer": "ZIL FK08 0000SWL",
+   "masse": {},
+   "beschreibung": "Insektenschutzrollo mit Glasfasernetz in weißem Rahmen. Es wird nicht am Fenster, sondern an der Innenverkleidung rund um den Dachausschnitt verschraubt und braucht dort eine ebene Fläche von mindestens 5 cm. Welche ZIL-Größe passt, steht in der Planungstabelle von VELUX, nicht im Fenstercode.",
+   "preis_spanne": "ca. 162 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 45,
+   "werkzeug": "Akkuschrauber, Bleistift, Wasserwaage.",
+   "ean": "5702328853652",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dkl-f06",
+   "name": "VELUX Verdunkelungsrollo DKL F06",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKL F06 1085S",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Fenster mit dem Code F06 (Baujahr 2000 bis 2013). Es hängt wie das Rollo der aktuellen Generation an Zubehörträgern; fehlen sie am Fenster, gibt es sie als Set ZOZ 230. Passt nicht auf FK06-Fenster ab 2013.",
+   "preis_spanne": "ca. 99,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702325087517",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos/verdunkelungsrollos"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-classic-dbl-f06",
+   "name": "VELUX Verdunkelungsrollo Classic DBL F06",
+   "teiltyp": "rollo",
+   "oem_nummer": "DBL F06 4288",
+   "masse": {},
+   "beschreibung": "Günstigere Ausführung des Verdunkelungsrollos für VELUX-Fenster, die vor 2013 hergestellt wurden, hier mit dem Code F06. Nur mit alufarbenen Schienen und in vier Farben (4288 weiß, 4249 schwarz, 4230 beige, 4204 grau).",
+   "preis_spanne": "ca. 69,99 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702328726918",
+   "quellen": [
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-verdunkelungsrollo-dku-206",
+   "name": "VELUX Verdunkelungsrollo DKU 206",
+   "teiltyp": "rollo",
+   "oem_nummer": "DKU 206 1085",
+   "masse": {},
+   "beschreibung": "Verdunkelungsrollo für VELUX-Kunststofffenster (GGU, GPU) der Größe 206, Baujahr 1991 bis 2000. Die passenden Zubehörträger liegen bei. Für Holzfenster derselben Größe nimmst du das Rollo mit dem Code F06.",
+   "preis_spanne": "ca. 110 € (hagebau, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins. Das Teil wird eingeklickt oder eingehängt, die Anleitung liegt bei.",
+   "ean": "5702320133882",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-pflege-set-zzz-220k",
+   "name": "VELUX Pflege-Set ZZZ 220K",
+   "teiltyp": "pflege",
+   "oem_nummer": "ZZZ 220K",
+   "masse": {},
+   "beschreibung": "Pflege-Set für VELUX-Fenster der Größen CK02 bis UK10 (ab 2013): 30 g Scharnierfett, 3 m Luftfilter und 2,5 m Schaumdichtung für die Lüftungsklappe, dazu ein Werkzeug, mit dem du die Lüftungsklappe entsicherst. Reicht laut VELUX für zwei bis fünf Fenster.",
+   "preis_spanne": "ca. 35 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 30,
+   "werkzeug": "Werkzeug für die Lüftungsklappe liegt bei, dazu eine Schere.",
+   "amazon_asin": "B00N33EXN6",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.amazon.de/dp/B00N33EXN6"
+   ]
+  },
+  {
+   "slug": "velux-pflege-set-zzz-220",
+   "name": "VELUX Pflege-Set ZZZ 220",
+   "teiltyp": "pflege",
+   "oem_nummer": "ZZZ 220",
+   "masse": {},
+   "beschreibung": "Pflege-Set für ältere VELUX-Fenster der Größen C02 bis U10, 102 bis 810 und Y21 bis Y99: 30 g Scharnierfett, 2,5 m Luftfilter und 2,5 m Schaumdichtung für die Lüftungsklappe. Für Fenster ab 2013 ist das ZZZ 220K gedacht.",
+   "preis_spanne": "ca. 35 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 30,
+   "werkzeug": "Schere, kleiner Schraubendreher.",
+   "amazon_asin": "B00N33F1ZA",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.amazon.de/dp/B00N33F1ZA"
+   ]
+  },
+  {
+   "slug": "velux-scharnierfett-zzz-148",
+   "name": "VELUX Scharnierfett ZZZ 148",
+   "teiltyp": "pflege",
+   "oem_nummer": "ZZZ 148",
+   "masse": {},
+   "beschreibung": "Tube mit 30 g Fett für die Scharniere und Lager von Dachfenstern. Dieselbe Menge steckt im Pflege-Set; einzeln lohnt es sich, wenn nur die Scharniere quietschen oder schwer gehen.",
+   "preis_spanne": "ca. 10 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Keins.",
+   "amazon_asin": "B09HVNSZPK",
+   "quellen": [
+    "https://www.amazon.de/dp/B09HVNSZPK",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-reparaturlack-zzz-176ka",
+   "name": "VELUX Reparatur-Lack farblos ZZZ 176KA",
+   "teiltyp": "pflege",
+   "oem_nummer": "ZZZ 176KA",
+   "masse": {},
+   "beschreibung": "Farbloser Acryllack für klar lackierte VELUX-Holzfenster, um Lackschäden am Rahmen auszubessern, bevor das Holz Feuchtigkeit zieht. Für weiß lackierte Holzfenster gibt es einen eigenen weißen Lack.",
+   "preis_spanne": "ca. 40 € (Amazon, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 30,
+   "werkzeug": "Feines Schleifpapier, Pinsel.",
+   "amazon_asin": "B078SBRMHJ",
+   "quellen": [
+    "https://www.amazon.de/dp/B078SBRMHJ",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-schaumdichtung-lueftungsklappe",
+   "name": "VELUX Schaumdichtung für die Lüftungsklappe",
+   "teiltyp": "dichtung",
+   "oem_nummer": null,
+   "masse": {},
+   "beschreibung": "Schaumdichtung als Meterware, 44 mm breit, für die Lüftungsklappe von VELUX-Holzfenstern. Ist sie zerbröselt, zieht es an der Klappe oder es dringt Wasser ein. Im Pflege-Set ist sie zusammen mit Luftfilter und Fett enthalten.",
+   "preis_spanne": "ca. 39 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 20,
+   "werkzeug": "Schere, Cuttermesser.",
+   "amazon_asin": "B00EV0JRD6",
+   "quellen": [
+    "https://www.amazon.de/dp/B00EV0JRD6",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-teleskopstange-zct-200k",
+   "name": "VELUX Teleskop-Bedienstange ZCT 200K",
+   "teiltyp": "griff",
+   "oem_nummer": "ZCT 200K",
+   "masse": {},
+   "beschreibung": "Ausziehbare Bedienstange von 108 bis 188 cm für hoch sitzende Schwingfenster (GGL, GGU, VL, VU) und für Rollos, Plissees und Jalousien. Für Klapp-Schwingfenster nennt VELUX die längere Stange ZCZ 112.",
+   "preis_spanne": "38 bis 41 € (OTTO, Amazon, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Keins.",
+   "ean": "5702320103908",
+   "amazon_asin": "B005DQJR50",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.amazon.de/dp/B005DQJR50"
+   ]
+  },
+  {
+   "slug": "velux-bedienstange-zcz-080",
+   "name": "VELUX Bedienstange ZCZ 080",
+   "teiltyp": "griff",
+   "oem_nummer": "ZCZ 080",
+   "masse": {},
+   "beschreibung": "Feste Bedienstange mit 80 cm Länge für Schwingfenster (GGL, GGU, VL, VU) und für Rollos, Plissees und Jalousien, die du mit der Hand nicht erreichst.",
+   "preis_spanne": "ca. 29 € (OTTO, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Keins.",
+   "ean": "5702321038858",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-haltekrallen-zoz-137",
+   "name": "VELUX Haltekrallen ZOZ 137",
+   "teiltyp": "rollo",
+   "oem_nummer": "ZOZ 137",
+   "masse": {},
+   "beschreibung": "Drei Paar weiße Haltekrallen, an denen Sichtschutzrollos der Bauart RHL am Fensterflügel hängen. Brauchst du, wenn eine Kralle abgebrochen ist oder das Rollo auf ein anderes Fenster umzieht.",
+   "preis_spanne": "ca. 23 € (Amazon, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Kleiner Schraubendreher.",
+   "amazon_asin": "B0018M7QSI",
+   "quellen": [
+    "https://www.amazon.de/dp/B0018M7QSI"
+   ]
+  },
+  {
+   "slug": "velux-wandschalter-kli-313",
+   "name": "VELUX Funk-Wandschalter KLI 313",
+   "teiltyp": "fernbedienung",
+   "oem_nummer": "KLI 313",
+   "masse": {},
+   "beschreibung": "Funk-Wandschalter für VELUX-Produkte mit io-homecontrol, also Solar- und Elektrofenster, Rollläden und Markisen. Er muss nach dem Kauf an das Produkt angelernt werden; wie, steht in der beiliegenden Anleitung.",
+   "preis_spanne": "ca. 40 € (Amazon, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins.",
+   "amazon_asin": "B07R2BHHWK",
+   "quellen": [
+    "https://www.amazon.de/dp/B07R2BHHWK",
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff"
+   ]
+  },
+  {
+   "slug": "velux-wandschalter-kli-310",
+   "name": "VELUX Funk-Wandschalter KLI 310",
+   "teiltyp": "fernbedienung",
+   "oem_nummer": "KLI 310",
+   "masse": {},
+   "beschreibung": "Funk-Wandschalter für VELUX-Solar- und Elektroprodukte mit io-homecontrol. Wie jeder neue Schalter muss er erst an Fenster, Rollladen oder Markise angelernt werden.",
+   "preis_spanne": "9 bis 45 € je nach Anbieter (Amazon, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Keins.",
+   "amazon_asin": "B0818XT78V",
+   "quellen": [
+    "https://www.amazon.de/dp/B0818XT78V"
+   ]
+  },
+  {
+   "slug": "velux-fernbedienung-klr-300",
+   "name": "VELUX Touch-Fernbedienung KLR 300",
+   "teiltyp": "fernbedienung",
+   "oem_nummer": "KLR 300",
+   "masse": {},
+   "beschreibung": "Fernbedienung mit Touchscreen für VELUX-Fenstermotoren, Rollläden und Sonnenschutz mit io-homecontrol. Sie fasst Produkte zu Gruppen zusammen und kann geöffnete Fenster nach einer eingestellten Zeit schließen, ohne WLAN.",
+   "preis_spanne": "ca. 128 € (Amazon, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 20,
+   "werkzeug": "Keins.",
+   "amazon_asin": "B0FD3G9QGL",
+   "quellen": [
+    "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+    "https://www.amazon.de/dp/B0FD3G9QGL"
+   ]
+  },
+  {
+   "slug": "velux-app-control-kig-300",
+   "name": "VELUX App Control KIG 300",
+   "teiltyp": "fernbedienung",
+   "oem_nummer": "KIG 300",
+   "masse": {},
+   "beschreibung": "Steuerung per App für elektrische und solarbetriebene VELUX-Fenster, Rollläden und Markisen mit io-homecontrol. Besteht aus Gateway und App und ersetzt die Fernbedienung nicht zwingend.",
+   "preis_spanne": "ca. 89 € (Amazon, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 30,
+   "werkzeug": "Keins.",
+   "amazon_asin": "B093LTPZ9N",
+   "quellen": [
+    "https://www.amazon.de/dp/B093LTPZ9N"
+   ]
+  }
+ ],
+ "zuordnungen": [
+  {
+   "serie_slug": "mk04",
+   "teil_slug": "velux-verdunkelungsrollo-dkl-mk04",
+   "hinweis": "Fenster mit MK04 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk04",
+   "teil_slug": "velux-sichtschutzrollo-rfl-mk04",
+   "hinweis": "Fenster mit MK04 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk04",
+   "teil_slug": "velux-jalousie-pal-mk04",
+   "hinweis": "Fenster mit MK04 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk04",
+   "teil_slug": "velux-plissee-fhl-mk04",
+   "hinweis": "Fenster mit MK04 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk04",
+   "teil_slug": "velux-markise-mhl-mk00",
+   "hinweis": "Fenster mit MK04, M04 oder 304, eine Markise für alle Höhen dieser Breite",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk04",
+   "teil_slug": "velux-insektenschutzrollo-zil-mk06",
+   "hinweis": "Fenster mit MK04 oder M04, laut VELUX-Planungstabelle",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk04",
+   "teil_slug": "velux-verdunkelungsrollo-dkl-m04",
+   "hinweis": "Fenster mit M04 (2000 bis 2013), dazu Holzfenster mit 304 (1991 bis 2000)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk04",
+   "teil_slug": "velux-verdunkelungsrollo-classic-dbl-m04",
+   "hinweis": "Fenster mit M04 (2000 bis 2013)",
+   "quelle_url": "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk06",
+   "teil_slug": "velux-verdunkelungsrollo-dkl-mk06",
+   "hinweis": "Fenster mit MK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk06",
+   "teil_slug": "velux-sichtschutzrollo-rfl-mk06",
+   "hinweis": "Fenster mit MK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk06",
+   "teil_slug": "velux-jalousie-pal-mk06",
+   "hinweis": "Fenster mit MK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk06",
+   "teil_slug": "velux-plissee-fhl-mk06",
+   "hinweis": "Fenster mit MK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk06",
+   "teil_slug": "velux-markise-mhl-mk00",
+   "hinweis": "Fenster mit MK06, M06 oder 306, eine Markise für alle Höhen dieser Breite",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk06",
+   "teil_slug": "velux-insektenschutzrollo-zil-mk06",
+   "hinweis": "Fenster mit MK06 oder M06, laut VELUX-Planungstabelle",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk06",
+   "teil_slug": "velux-verdunkelungsrollo-dkl-m06",
+   "hinweis": "Fenster mit M06 (2000 bis 2013), dazu Holzfenster mit 306 (1991 bis 2000)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk06",
+   "teil_slug": "velux-verdunkelungsrollo-classic-dbl-m06",
+   "hinweis": "Fenster mit M06 (2000 bis 2013)",
+   "quelle_url": "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk06",
+   "teil_slug": "velux-verdunkelungsrollo-dku-306",
+   "hinweis": "Kunststofffenster mit 306 (1991 bis 2000)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk08",
+   "teil_slug": "velux-verdunkelungsrollo-dkl-mk08",
+   "hinweis": "Fenster mit MK08 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk08",
+   "teil_slug": "velux-sichtschutzrollo-rfl-mk08",
+   "hinweis": "Fenster mit MK08 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk08",
+   "teil_slug": "velux-jalousie-pal-mk08",
+   "hinweis": "Fenster mit MK08 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk08",
+   "teil_slug": "velux-plissee-fhl-mk08",
+   "hinweis": "Fenster mit MK08 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk08",
+   "teil_slug": "velux-markise-mhl-mk00",
+   "hinweis": "Fenster mit MK08, M08 oder 308, eine Markise für alle Höhen dieser Breite",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk08",
+   "teil_slug": "velux-insektenschutzrollo-zil-mk06",
+   "hinweis": "Fenster mit MK08 oder M08, laut VELUX-Planungstabelle",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk08",
+   "teil_slug": "velux-verdunkelungsrollo-dkl-m08",
+   "hinweis": "Fenster mit M08 (2000 bis 2013), dazu Holzfenster mit 308 (1991 bis 2000)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk08",
+   "teil_slug": "velux-verdunkelungsrollo-classic-dbl-m08",
+   "hinweis": "Fenster mit M08 (2000 bis 2013)",
+   "quelle_url": "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "mk08",
+   "teil_slug": "velux-verdunkelungsrollo-dku-308",
+   "hinweis": "Kunststofffenster mit 308 (1991 bis 2000)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk06",
+   "teil_slug": "velux-verdunkelungsrollo-dkl-sk06",
+   "hinweis": "Fenster mit SK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk06",
+   "teil_slug": "velux-sichtschutzrollo-rfl-sk06",
+   "hinweis": "Fenster mit SK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk06",
+   "teil_slug": "velux-jalousie-pal-sk06",
+   "hinweis": "Fenster mit SK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk06",
+   "teil_slug": "velux-plissee-fhl-sk06",
+   "hinweis": "Fenster mit SK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk06",
+   "teil_slug": "velux-markise-mhl-sk00",
+   "hinweis": "Fenster mit SK06, S06 oder 606, eine Markise für alle Höhen dieser Breite",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk06",
+   "teil_slug": "velux-insektenschutzrollo-zil-sk06",
+   "hinweis": "Fenster mit SK06 oder S06, laut VELUX-Planungstabelle",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk06",
+   "teil_slug": "velux-verdunkelungsrollo-dkl-s06",
+   "hinweis": "Fenster mit S06 (2000 bis 2013), dazu Holzfenster mit 606 (1991 bis 2000)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk06",
+   "teil_slug": "velux-verdunkelungsrollo-classic-dbl-s06",
+   "hinweis": "Fenster mit S06 (2000 bis 2013)",
+   "quelle_url": "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk06",
+   "teil_slug": "velux-verdunkelungsrollo-dku-606",
+   "hinweis": "Kunststofffenster mit 606 (1991 bis 2000)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk08",
+   "teil_slug": "velux-verdunkelungsrollo-dkl-sk08",
+   "hinweis": "Fenster mit SK08 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk08",
+   "teil_slug": "velux-sichtschutzrollo-rfl-sk08",
+   "hinweis": "Fenster mit SK08 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk08",
+   "teil_slug": "velux-jalousie-pal-sk08",
+   "hinweis": "Fenster mit SK08 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk08",
+   "teil_slug": "velux-plissee-fhl-sk08",
+   "hinweis": "Fenster mit SK08 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk08",
+   "teil_slug": "velux-markise-mhl-sk00",
+   "hinweis": "Fenster mit SK08, S08 oder 608, eine Markise für alle Höhen dieser Breite",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk08",
+   "teil_slug": "velux-insektenschutzrollo-zil-sk10",
+   "hinweis": "Fenster mit SK08 oder S08, laut VELUX-Planungstabelle",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk08",
+   "teil_slug": "velux-verdunkelungsrollo-dkl-s08",
+   "hinweis": "Fenster mit S08 (2000 bis 2013), dazu Holzfenster mit 608 (1991 bis 2000)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk08",
+   "teil_slug": "velux-verdunkelungsrollo-classic-dbl-s08",
+   "hinweis": "Fenster mit S08 (2000 bis 2013)",
+   "quelle_url": "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sk08",
+   "teil_slug": "velux-verdunkelungsrollo-dku-608",
+   "hinweis": "Kunststofffenster mit 608 (1991 bis 2000)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ck02",
+   "teil_slug": "velux-verdunkelungsrollo-dkl-ck02",
+   "hinweis": "Fenster mit CK02 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ck02",
+   "teil_slug": "velux-sichtschutzrollo-rfl-ck02",
+   "hinweis": "Fenster mit CK02 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ck02",
+   "teil_slug": "velux-jalousie-pal-ck02",
+   "hinweis": "Fenster mit CK02 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ck02",
+   "teil_slug": "velux-plissee-fhl-ck02",
+   "hinweis": "Fenster mit CK02 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ck02",
+   "teil_slug": "velux-markise-mhl-ck00",
+   "hinweis": "Fenster mit CK02 oder C02; für die Größe 102 (1991 bis 2000) gibt es die MHL 100",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ck02",
+   "teil_slug": "velux-insektenschutzrollo-zil-ck02",
+   "hinweis": "Fenster mit CK02 oder C02, laut VELUX-Planungstabelle",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ck02",
+   "teil_slug": "velux-verdunkelungsrollo-classic-dbl-c02",
+   "hinweis": "Fenster mit C02 (2000 bis 2013)",
+   "quelle_url": "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "pk06",
+   "teil_slug": "velux-verdunkelungsrollo-dkl-pk06",
+   "hinweis": "Fenster mit PK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "pk06",
+   "teil_slug": "velux-sichtschutzrollo-rfl-pk06",
+   "hinweis": "Fenster mit PK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "pk06",
+   "teil_slug": "velux-jalousie-pal-pk06",
+   "hinweis": "Fenster mit PK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "pk06",
+   "teil_slug": "velux-plissee-fhl-pk06",
+   "hinweis": "Fenster mit PK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "pk06",
+   "teil_slug": "velux-markise-mhl-pk00",
+   "hinweis": "Fenster mit PK06, P06 oder 406, eine Markise für alle Höhen dieser Breite",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "pk06",
+   "teil_slug": "velux-verdunkelungsrollo-dkl-p06",
+   "hinweis": "Fenster mit P06 (2000 bis 2013), dazu Holzfenster mit 406 (1991 bis 2000)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "pk06",
+   "teil_slug": "velux-verdunkelungsrollo-classic-dbl-p06",
+   "hinweis": "Fenster mit P06 (2000 bis 2013)",
+   "quelle_url": "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "fk06",
+   "teil_slug": "velux-verdunkelungsrollo-dkl-fk06",
+   "hinweis": "Fenster mit FK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "fk06",
+   "teil_slug": "velux-sichtschutzrollo-rfl-fk06",
+   "hinweis": "Fenster mit FK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "fk06",
+   "teil_slug": "velux-jalousie-pal-fk06",
+   "hinweis": "Fenster mit FK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "fk06",
+   "teil_slug": "velux-plissee-fhl-fk06",
+   "hinweis": "Fenster mit FK06 auf dem Typenschild (ab 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "fk06",
+   "teil_slug": "velux-markise-mhl-fk00",
+   "hinweis": "Fenster mit FK06 oder F06; für die Größe 206 (1991 bis 2000) gibt es die MHL 200",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "fk06",
+   "teil_slug": "velux-insektenschutzrollo-zil-fk08",
+   "hinweis": "Fenster mit FK06 oder F06, laut VELUX-Planungstabelle",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "fk06",
+   "teil_slug": "velux-verdunkelungsrollo-dkl-f06",
+   "hinweis": "Fenster mit F06 (2000 bis 2013)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "fk06",
+   "teil_slug": "velux-verdunkelungsrollo-classic-dbl-f06",
+   "hinweis": "Fenster mit F06 (2000 bis 2013)",
+   "quelle_url": "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "fk06",
+   "teil_slug": "velux-verdunkelungsrollo-dku-206",
+   "hinweis": "Kunststofffenster mit 206 (1991 bis 2000)",
+   "quelle_url": "https://contenthub.velux.com/api/public/content/60a96-ceb73-2f4c8_downloadOriginal?v=8747b9ff",
+   "sicherheit": "hersteller"
+  }
+ ],
+ "probleme": [
+  {
+   "slug": "velux-dachfenster-rollo-passt-nicht",
+   "titel": "VELUX-Rollo oder Markise passt nicht",
+   "symptom": "Das neue Rollo oder die Markise lässt sich nicht einhängen, die Schienen passen nicht an den Rahmen oder das Insektenschutzrollo ist zu schmal für die Öffnung.",
+   "ursachen": [
+    {
+     "ursache": "Rollo für die aktuelle Generation (Code mit K) an einem Fenster, das vor 2013 gebaut wurde",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "velux-verdunkelungsrollo-classic-dbl-m04",
+      "velux-verdunkelungsrollo-classic-dbl-m06",
+      "velux-verdunkelungsrollo-classic-dbl-m08",
+      "velux-verdunkelungsrollo-classic-dbl-s06",
+      "velux-verdunkelungsrollo-classic-dbl-s08",
+      "velux-verdunkelungsrollo-classic-dbl-c02",
+      "velux-verdunkelungsrollo-classic-dbl-p06",
+      "velux-verdunkelungsrollo-classic-dbl-f06"
+     ]
+    },
+    {
+     "ursache": "Größe nach Maßband oder nach dem alten Rollo bestellt statt nach dem Code auf dem Fenster-Typenschild",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "velux-verdunkelungsrollo-dkl-mk04",
+      "velux-verdunkelungsrollo-dkl-mk06",
+      "velux-verdunkelungsrollo-dkl-mk08",
+      "velux-verdunkelungsrollo-dkl-sk06",
+      "velux-verdunkelungsrollo-dkl-sk08",
+      "velux-verdunkelungsrollo-dkl-ck02",
+      "velux-verdunkelungsrollo-dkl-pk06",
+      "velux-verdunkelungsrollo-dkl-fk06"
+     ]
+    },
+    {
+     "ursache": "Insektenschutzrollo nach Fenstergröße statt nach der inneren Wandöffnung gewählt",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "velux-insektenschutzrollo-zil-ck02",
+      "velux-insektenschutzrollo-zil-mk06",
+      "velux-insektenschutzrollo-zil-sk06"
+     ]
+    },
+    {
+     "ursache": "Markise mit falschem Montagewinkel oder falscher Anleitung montiert, weil zwei Konstruktionen für verschiedene Fenstergenerationen beiliegen",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "velux-markise-mhl-mk00",
+      "velux-markise-mhl-sk00",
+      "velux-markise-mhl-pk00",
+      "velux-markise-mhl-ck00",
+      "velux-markise-mhl-fk00",
+      "velux-haltekrallen-zoz-137"
+     ]
+    }
+   ],
+   "schritte": [
+    "Fenster mit der oberen Griffleiste öffnen und das Typenschild oben links oder rechts im Flügel ablesen: Fenstertyp (etwa GGL) und Größe (etwa MK04, M04 oder 304).",
+    "Code mit dem Rollo vergleichen. Das Typenschild des Rollos ist ein silberner Aufkleber auf der Rückseite; dazu den Flügel um 180° in Putzstellung drehen.",
+    "Steht auf dem Fenster ein alter Code wie M04 oder S06, ein Rollo für ältere Generationen wählen, etwa das Verdunkelungsrollo Classic.",
+    "Beim Insektenschutzrollo die innere Breite und Höhe der Wandöffnung messen. Die Öffnung darf bei MK06/MK10 höchstens 76 cm breit sein, bei SK06/SK10 höchstens 112 cm.",
+    "Bei der Markise MHL nur nach der Breite gehen (MK00 für alle 78 cm breiten Fenster) und die Anleitung zur Fenstergeneration nehmen: gelb für CK02 bis UK10, lila für 304 bis 810 und C02 bis U10."
+   ],
+   "fachbetrieb_ab": "Wenn kein Typenschild mehr da ist und die Generation unklar bleibt, kann VELUX den Fenstertyp aus Fotos und Maßen bestimmen. Ist die Markise nur über die Außenseite des Flügels erreichbar und das Fenster nicht sicher von innen zugänglich, gehört der Einbau zum Dachdecker.",
+   "quellen": [
+    "https://www.velux.de/service/typenschild",
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic",
+    "https://www.velux.de/faq?category=69dd4b49-bdc7-49eb-ae0a-89294d2ccd60&gem=80b75577-8629-4c17-bcc9-17010f489455",
+    "https://www.velux.de/faq?category=7544a5f1-a0a4-4586-827e-f6adf9759dd4&gem=9ded6bd9-3b17-4484-9e46-1fbc275969b9",
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/insektenschutz/insektenschutzrollo",
+    "https://www.velux.de/faq?category=eedaf282-010a-4e7d-b144-bc505e0a405b&gem=1121a7e5-1d34-4f51-ad2a-238cc53a6679",
+    "https://contenthub.velux.com/api/public/content/43c5b-09c50-11488_downloadOriginal",
+    "https://www.velux.de/faq?category=4c24b340-c749-4c9f-a325-8f018f2479d7&gem=cf0fdca9-b540-4fdf-8211-971dceb11df1"
+   ]
+  },
+  {
+   "slug": "velux-dachfenster-klemmt",
+   "titel": "VELUX-Dachfenster klemmt oder lässt sich schwer öffnen",
+   "symptom": "Der Flügel geht schwer auf, bleibt in Lüftungsstellung hängen oder lässt sich nicht mehr ganz schließen. Manchmal scheuert er hörbar am Rahmen.",
+   "ursachen": [
+    {
+     "ursache": "Altes, verharztes Fett in Scharnieren und Verschluss",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "velux-scharnierfett-zzz-148",
+      "velux-pflege-set-zzz-220",
+      "velux-pflege-set-zzz-220k"
+     ]
+    },
+    {
+     "ursache": "Haken unter der Lüftungsklappe finden am Gegenstück des Rahmens keinen Halt mehr (ältere Schwingfenster)",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Flügel schleift am Blendrahmen, weil das Fenster beim Einbau nicht richtig ausgerichtet wurde oder sich der Rahmen verzogen hat",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Federn beim Klapp-Schwing-Fenster passen nicht zur Dachneigung, der Flügel springt auf oder fällt zu",
+     "haeufigkeit": "selten",
+     "teil_slugs": []
+    }
+   ],
+   "schritte": [
+    "Prüfen, wo es hakt: beim Schwenken des Flügels (Scharniere) oder beim Verriegeln (Verschluss unter der Griffleiste).",
+    "Bei älteren Schwingfenstern die beiden Haken unter der Lüftungsklappe ansehen. Liegen sie nicht mehr am Gegenstück am Rahmen auf, das Gegenstück abschrauben, ein 2 bis 3 mm dünnes Stück Sperrholz unterlegen und wieder festschrauben.",
+    "Altes, verharztes Fett aus Scharnieren und Verschluss entfernen. Das ist schmutzig, also vorher Boden und Vorhänge abdecken.",
+    "Verschluss und Scharniere neu fetten, auch dort, wo der Flügel eingehängt ist. Für das VELUX-Scharnierfett gibt es Videos für Fenster vor und ab Mai 2013.",
+    "Kein Öl auf die Gummidichtungen bringen. Sie werden mit Wasser und Spülmittel gereinigt und mit Talkum oder Silikonspray gepflegt.",
+    "Springt ein Klapp-Schwing-Fenster auf oder bleibt nicht stehen, lässt sich die Federspannung nachstellen; VELUX zeigt das im Video für das GPU."
+   ],
+   "fachbetrieb_ab": "Schleift der Flügel am Rahmen, gibt es laut VELUX keine Justierschrauben: Dann muss der Betrieb, der das Fenster eingebaut hat, oder der VELUX-Kundendienst es prüfen. Bei Dachneigungen über 55° braucht ein Klapp-Schwing-Fenster Sonderfedern, die der Kundendienst einbaut. Fenster, die älter als 20 Jahre sind, sollte ein Techniker vor Ort ansehen, bevor Teile bestellt werden.",
+   "quellen": [
+    "https://www.haustechnikdialog.de/Forum/t/244151/Ein-Velux-Dach-Schwingfenster-klemmt-laesst-sich-nicht-mehr-schliessen-",
+    "https://www.bauexpertenforum.de/threads/velux-dachfenster-kunststoff-schwergaengig-wo-und-wie-abhilfe-geht-es-auch-ohne-velux-scharnierf.131070/",
+    "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=7d80d6e9-e93b-4434-975e-fb8e08d9bb5a",
+    "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=4684d621-63b1-47eb-9ae1-73222d398b5f",
+    "https://www.velux.de/faq?category=2f3bc86b-eee5-4398-8604-c8712027dfa9&gem=fe6f6da1-b61c-45e9-853f-b228467b4359",
+    "https://www.velux.de/faq?category=2f3bc86b-eee5-4398-8604-c8712027dfa9&gem=782176ca-90b5-4800-9851-a64b2837c749",
+    "https://www.velux.de/faq?category=55107c39-71b6-409b-940c-8a7f07828091&gem=e717f323-7fc2-4553-b4d1-608c97a53b5b",
+    "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=dfc73925-83a8-43d0-9c86-55339c5185cd"
+   ]
+  },
+  {
+   "slug": "velux-dachfenster-rollladen-reagiert-nicht",
+   "titel": "VELUX-Solar-Rollladen reagiert nicht",
+   "symptom": "Der Solar-Rollladen SSL fährt auf Tastendruck nicht los, bleibt auf halbem Weg stehen oder fährt nicht mehr ganz auf oder zu.",
+   "ursachen": [
+    {
+     "ursache": "Batterien im Funk-Wandschalter leer",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "velux-wandschalter-kli-313"
+     ]
+    },
+    {
+     "ursache": "Akku leer, weil die Solarzellen verschmutzt, verschneit oder lange ohne Sonne waren",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Endlagen verstellt, der Motor braucht einen Neustart",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Wandschalter hat die Verbindung zum Motor verloren oder wurde ersetzt",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "velux-wandschalter-kli-313",
+      "velux-wandschalter-kli-310",
+      "velux-fernbedienung-klr-300",
+      "velux-app-control-kig-300"
+     ]
+    },
+    {
+     "ursache": "Akku nach vielen Jahren am Ende",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    }
+   ],
+   "schritte": [
+    "Batterien im Funk-Wandschalter KLI tauschen (2 × AAA). Laut VELUX halten sie bis zu ein Jahr.",
+    "Solarzellen im Rollladenkasten mit Wasser und Haushaltsreiniger säubern und im Winter von Schnee und Eis freihalten. Ein voll geladener Akku reicht für bis zu 100 Fahrten.",
+    "Motor neu starten und die Endlagen neu einstellen. VELUX zeigt den Ablauf für SSL im Video „RESET und ENDLAGEN einstellen“ im Abschnitt „Bestehende Endlagen neu einstellen“.",
+    "Wurde der Wandschalter ersetzt oder hat er den Rollladen verloren, die Motordaten neu senden und im Schalter empfangen lassen, wie in der KLI-Anleitung beschrieben. Danach kurz nacheinander „Stopp“ und „Runter“ drücken und den Rollladen bis zum Ende fahren lassen.",
+    "Ist bereits das Austausch-Set ZOZ 221 S22 eingebaut, hat der Rohrmotor einen Multifunktionsknopf: einmal drücken für EIN, zweimal innerhalb einer Sekunde für AUS, 10 Sekunden halten für RESET."
+   ],
+   "fachbetrieb_ab": "Wenn der Rollladen nach Reset und Endlagen-Einstellung nicht wieder läuft, ist meist Akku, Motor oder Solarpaneel defekt. VELUX tauscht diese Teile als Austausch-Set und empfiehlt dafür den Kundendienst, weil am Dach gearbeitet wird. Arbeiten am Dach nur mit Absturzsicherung oder durch den Dachdecker.",
+   "quellen": [
+    "https://www.velux.de/faq?category=475f3238-462d-4066-b507-d1778483011d&gem=e40154df-3d6c-46ce-95fc-37b67dcc02b1",
+    "https://www.velux.de/faq?category=0de70c91-fec6-42a8-9cdf-be2104052c4d&gem=30718424-3a4a-47d1-b59a-eb934df026de",
+    "https://contenthub.velux.com/api/public/content/597d5-ae68f-d746b_downloadOriginal",
+    "https://www.velux.de/faq?category=6506ed64-9288-4bbf-8fbe-eea4acecf280&gem=a6e7d5df-8428-4465-aeb9-e7e2f4b7c03c",
+    "https://www.velux.de/faq?category=6506ed64-9288-4bbf-8fbe-eea4acecf280&gem=a22d6452-fb24-4e31-ad6e-60ca0c61dda4",
+    "https://www.velux.de/faq?category=475f3238-462d-4066-b507-d1778483011d&gem=731748c2-8480-4755-a28e-8819e82b73a1",
+    "https://www.velux.de/faq?category=475f3238-462d-4066-b507-d1778483011d&gem=8645bedc-2cb1-454f-8196-cbc3a7ea4903"
+   ]
+  }
+ ],
+ "widersprueche": [
+  {
+   "thema": "Aus welchen Jahren stammen die Zahlencodes wie 304?",
+   "aussage_a": "home4u.de führt die Codes 304, 043 und Y43 gemeinsam in der Spalte „Alte Gen. (bis 1991)“ und die Buchstabencodes wie M04 als „Gen. 1991–2013“.",
+   "quelle_a": "https://www.home4u.de/Ratgeber/Wohndachfenster/velux-masstabelle/",
+   "aussage_b": "VELUX zeigt drei Typenschild-Generationen: seit 2013 (GGL MK08), von 2000 bis 2013 (GGL M08) und von 1991 bis 2000 (GGL 304). Die Zahlencodes gehören damit zu 1991 bis 2000. Die tschechische VELUX-Größentabelle zur Markise MHL setzt die Grenze bei 2002.",
+   "quelle_b": "https://www.velux.de/service/typenschild"
+  },
+  {
+   "thema": "Passen aktuelle Original-Rollos auf ältere Fenster?",
+   "aussage_a": "home4u.de schreibt, Original-VELUX-Sonnenschutz sei so konstruiert, dass er über spezielle Montage-Picks auch auf ältere Fenstergenerationen passe; wichtig sei nur der Größencode vom Typenschild.",
+   "quelle_a": "https://www.home4u.de/Ratgeber/Wohndachfenster/velux-masstabelle/",
+   "aussage_b": "VELUX bietet für Fenster aus älteren Generationen, hergestellt vor 2013, eigens das Verdunkelungsrollo Classic an und schreibt, dass bei älteren Fenstern die Auswahl an Sonnenschutz kleiner ist.",
+   "quelle_b": "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen/verdunkelungsrollo-classic"
+  },
+  {
+   "thema": "Für welche Fenstergeneration ist die Markise MHL?",
+   "aussage_a": "Das bei Hornbach hinterlegte Produktdatenblatt „Hitzeschutz-Markisen manuell mit Haltekrallen MHL“ nennt im Titel „Für die Fenstergeneration ab Mai 2013“.",
+   "quelle_a": "https://media.hornbach.lu/hb/datasheet/as.47054605.pdf",
+   "aussage_b": "Laut VELUX-FAQ passt die MHL auch an die Größen 304 bis 810 und C02 bis U10; dafür liegen eigene Montagewinkel und eine lilafarbene Anleitung bei.",
+   "quelle_b": "https://www.velux.de/faq?category=eedaf282-010a-4e7d-b144-bc505e0a405b&gem=1121a7e5-1d34-4f51-ad2a-238cc53a6679"
+  },
+  {
+   "thema": "Akku des Solar-Rollladens einzeln tauschen",
+   "aussage_a": "Händler verkaufen Ersatzakkus für den VELUX-Solar-Rollladen mit 10,8 V und 2000 mAh als Ersatz für die Nummern 946933, 946930 und 846933.",
+   "quelle_a": "https://www.subtel.ch/946933-ersatz-akku-fuer-velux-roller-shutter-946933-946930-846933-ersatzakku-zusatzakku-2000mah-941841.html",
+   "aussage_b": "VELUX schreibt, Akku und Motor seien eine Einheit; für eine optimale Funktion müssten alle Teile des Austausch-Sets (Rohrmotor, Akku, Solarpaneel) eingebaut werden. Das Datenblatt nennt für den SSL einen NiMH-Akku mit 10,8 V und 2100 mAh.",
+   "quelle_b": "https://www.velux.de/faq?category=475f3238-462d-4066-b507-d1778483011d&gem=8645bedc-2cb1-454f-8196-cbc3a7ea4903"
+  }
+ ],
+ "nicht_geprueft": [
+  "Ob ein Rollo der aktuellen Generation mit einem Adapter auf ein Fenster von 2000 bis 2013 passt, beschreibt VELUX nicht. Der Katalog führt für beide Generationen getrennte Artikel.",
+  "Welche alte Größe von vor 1991 einer heutigen entspricht, stammt aus einer Händlertabelle. Der VELUX-Katalog nennt für die alten Größen nur die Maße, und die weichen von den heutigen um einige Zentimeter ab."
+ ]
+}

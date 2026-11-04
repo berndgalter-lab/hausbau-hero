@@ -1,5 +1,6 @@
 import { supabase } from "@/lib/supabase";
-import { serieIstDuenn } from "@/lib/ersatzteile";
+import { angeboteFuerTeile, serieIstDuenn } from "@/lib/ersatzteile";
+import { GROESSEN_PRODUKTTYP, groesseIstDuenn } from "@/lib/groessen";
 import { artikelUrl } from "@/lib/produkt-ratgeber";
 import { bereichDaten, bereichIstDuenn, sichtbareBereiche } from "@/lib/bereiche-daten";
 import { alleTeilarten } from "@/lib/teilarten";
@@ -105,20 +106,28 @@ export default async function sitemap() {
   try {
     const [{ data: marken }, { data: serien }, { data: teile }, { data: probleme }, { data: zuordnungen }] = await Promise.all([
       supabase.from("marken").select("id, slug, updated_at"),
-      supabase.from("serien").select("id, marke_id, slug, erkennungsmerkmale, updated_at"),
-      supabase.from("teile").select("slug, updated_at"),
+      supabase.from("serien").select("id, marke_id, slug, produkttyp, erkennungsmerkmale, updated_at"),
+      supabase.from("teile").select("id, slug, teiltyp, amazon_asin, affiliate_url, updated_at"),
       supabase.from("probleme").select("slug, updated_at"),
-      supabase.from("serie_teile").select("serie_id"),
+      supabase.from("serie_teile").select("serie_id, teil_id"),
     ]);
     const teileJeSerie = new Map<string, number>();
     for (const z of zuordnungen ?? []) teileJeSerie.set(z.serie_id, (teileJeSerie.get(z.serie_id) ?? 0) + 1);
+    // Größenseiten (Dachfenster) zählen kaufbare Zubehörarten statt Teile
+    const groessen = new Set((serien ?? []).filter((s: any) => s.produkttyp === GROESSEN_PRODUKTTYP).map((s: any) => s.id));
+    const teilVon = new Map((teile ?? []).map((t: any) => [t.id, t]));
+    const groessenZuord = (zuordnungen ?? []).filter((z: any) => groessen.has(z.serie_id));
+    const groessenAngebote = await angeboteFuerTeile(Array.from(new Set(groessenZuord.map((z: any) => z.teil_id))));
     const markeSlug = new Map((marken ?? []).map((m: any) => [m.id, m.slug]));
     for (const m of marken ?? []) {
       dynamicPages.push({ url: `${baseUrl}/ersatzteile/${m.slug}`, lastModified: new Date(m.updated_at), changeFrequency: "weekly", priority: 0.9 });
     }
     for (const s of serien ?? []) {
       // Dünne Serien sind noindex, also auch nicht in der Sitemap
-      if (serieIstDuenn(s, teileJeSerie.get(s.id) ?? 0)) continue;
+      if (groessen.has(s.id)) {
+        const ids = groessenZuord.filter((z: any) => z.serie_id === s.id).map((z: any) => z.teil_id);
+        if (groesseIstDuenn(ids.map((id: string) => teilVon.get(id)).filter(Boolean), groessenAngebote)) continue;
+      } else if (serieIstDuenn(s, teileJeSerie.get(s.id) ?? 0)) continue;
       const ms = markeSlug.get(s.marke_id);
       if (ms) dynamicPages.push({ url: `${baseUrl}/ersatzteile/${ms}/${s.slug}`, lastModified: new Date(s.updated_at), changeFrequency: "monthly", priority: 0.8 });
     }
