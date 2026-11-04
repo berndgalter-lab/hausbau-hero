@@ -1,4 +1,5 @@
-// Technische Daten der Armaturen in produkte.technische_daten und ihre Anzeige im Vergleich.
+// Technische Daten in produkte.technische_daten und ihre Anzeige in der Vergleichstabelle:
+// Armaturen (auch im Armaturen-Vergleich) sowie Drückerplatten und Vorwandelemente.
 // Ohne Datenbank-Import, damit auch der Vergleich im Browser (Client-Komponente) es nutzen kann.
 
 export type ArmaturKategorie = "waschtisch" | "kueche" | "wanne" | "dusche";
@@ -78,7 +79,78 @@ export function armaturDaten(td: unknown): ArmaturDaten | null {
   return d.kategorie && d.kategorie in KATEGORIE_NAME ? d : null;
 }
 
-/** Nur Merkmale, die mindestens ein Produkt der Liste hat. */
-export function merkmaleFuer(daten: (ArmaturDaten | null)[]) {
-  return MERKMALE.filter((m) => daten.some((d) => d && m.wert(d) !== null));
+// ---------- WC: Drückerplatten und Vorwandelemente ----------
+
+export type WcKategorie = "drueckerplatte" | "vorwandelement";
+
+export interface WcDaten {
+  kategorie?: WcKategorie;
+  // Drückerplatte
+  passend_fuer?: string;
+  betaetigung?: string;
+  material?: string;
+  masse_mm?: string;
+  einbau?: string;
+  farben?: string[];
+  // Vorwandelement
+  bauhoehe_mm?: number;
+  breite_mm?: number;
+  einbautiefe_mm?: number;
+  spuelkasten?: string;
+  drueckerplatten?: string;
+  wc_hoehe_verstellbar?: string;
+  befestigung?: string;
+  ablauf?: string;
+  schallschutz?: string;
+  lieferumfang?: string;
+}
+
+export const WC_KATEGORIE_NAME: Record<WcKategorie, string> = {
+  drueckerplatte: "Drückerplatte",
+  vorwandelement: "Vorwandelement",
+};
+
+export const WC_MERKMALE: { key: keyof WcDaten; label: string; wert: (d: WcDaten) => string | null }[] = [
+  { key: "passend_fuer", label: "Passt auf", wert: (d) => text(d.passend_fuer) },
+  { key: "spuelkasten", label: "Spülkasten", wert: (d) => text(d.spuelkasten) },
+  { key: "betaetigung", label: "Betätigung", wert: (d) => text(d.betaetigung) },
+  { key: "drueckerplatten", label: "Drückerplatten", wert: (d) => text(d.drueckerplatten) },
+  { key: "material", label: "Material", wert: (d) => text(d.material) },
+  { key: "masse_mm", label: "Maße (B × H × T)", wert: (d) => (text(d.masse_mm) ? `${text(d.masse_mm)} mm` : null) },
+  { key: "einbau", label: "Einbau", wert: (d) => text(d.einbau) },
+  { key: "bauhoehe_mm", label: "Bauhöhe", wert: (d) => mm(d.bauhoehe_mm) },
+  { key: "breite_mm", label: "Breite", wert: (d) => mm(d.breite_mm) },
+  { key: "einbautiefe_mm", label: "Einbautiefe", wert: (d) => mm(d.einbautiefe_mm) },
+  { key: "wc_hoehe_verstellbar", label: "WC-Höhe verstellbar", wert: (d) => text(d.wc_hoehe_verstellbar) },
+  { key: "befestigung", label: "WC-Befestigung", wert: (d) => text(d.befestigung) },
+  { key: "ablauf", label: "Ablauf", wert: (d) => text(d.ablauf) },
+  { key: "schallschutz", label: "Schallschutz", wert: (d) => text(d.schallschutz) },
+  { key: "lieferumfang", label: "Lieferumfang", wert: (d) => text(d.lieferumfang) },
+  { key: "farben", label: "Farben", wert: (d) => (Array.isArray(d.farben) && d.farben.length > 0 ? d.farben.join(", ") : null) },
+];
+
+export type ProduktDaten = ArmaturDaten | WcDaten;
+
+function istWc(d: ProduktDaten): d is WcDaten {
+  return !!d.kategorie && d.kategorie in WC_KATEGORIE_NAME;
+}
+
+/** Technische Daten jeder bekannten Kategorie (Armatur, Drückerplatte, Vorwandelement). */
+export function produktDaten(td: unknown): ProduktDaten | null {
+  if (!td || typeof td !== "object" || Array.isArray(td)) return null;
+  const d = td as ProduktDaten;
+  return armaturDaten(d) ?? (istWc(d) ? d : null);
+}
+
+/**
+ * Nur Merkmale, die mindestens ein Produkt der Liste hat. Die Zeilen richten sich nach der
+ * Kategorie des ersten Produkts; eine Kaufberatung mischt Armaturen und WC-Produkte nicht.
+ */
+export function merkmaleFuer(daten: (ProduktDaten | null)[]): { key: string; label: string; wert: (d: ProduktDaten) => string | null }[] {
+  const erstes = daten.find((d): d is ProduktDaten => !!d);
+  const liste =
+    erstes && istWc(erstes)
+      ? WC_MERKMALE.map((m) => ({ ...m, wert: (d: ProduktDaten) => (istWc(d) ? m.wert(d) : null) }))
+      : MERKMALE.map((m) => ({ ...m, wert: (d: ProduktDaten) => (istWc(d) ? null : m.wert(d)) }));
+  return liste.filter((m) => daten.some((d) => d && m.wert(d) !== null));
 }

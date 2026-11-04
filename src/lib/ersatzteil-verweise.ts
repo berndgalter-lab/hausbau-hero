@@ -19,6 +19,16 @@ const VERWEISE: Record<string, Verweis[]> = {
     { href: "/ersatzteile/geberit/up100-delta-12", titel: "Ersatzteile für Geberit UP100 (Delta, 12 cm)", art: "serie" },
     { href: "/problem/geberit-spuelkasten-fuellt-nicht", titel: "Spülkasten füllt nicht oder nur langsam", art: "problem" },
   ],
+  "vorwandelement-wc-hoehe": [
+    { href: "/ersatzteile/geberit", titel: "Geberit-Spülkasten erkennen und Ersatzteile", art: "marke" },
+    { href: "/ersatzteile/geberit/omega-12", titel: "Ersatzteile für Geberit Omega (12 cm, niedrige Bauhöhen)", art: "serie" },
+    { href: "/problem/geberit-spuelkasten-laeuft-nach", titel: "Geberit-Spülkasten läuft nach", art: "problem" },
+  ],
+  "tece-vs-geberit": [
+    { href: "/ersatzteile/geberit", titel: "Geberit Ersatzteile nach Spülkasten-Typ", art: "marke" },
+    { href: "/ersatzteile/geberit/up320-sigma-12", titel: "Ersatzteile für Geberit UP320 (Sigma, 12 cm)", art: "serie" },
+    { href: "/problem/geberit-spuelkasten-fuellt-nicht", titel: "Spülkasten füllt nicht oder nur langsam", art: "problem" },
+  ],
   "waschtischarmatur-ratgeber": [
     { href: "/ersatzteile/grohe", titel: "Grohe Ersatzteile: Kartuschen, Strahlregler, Schläuche", art: "marke" },
     { href: "/ersatzteile/grohe/eurosmart-waschtisch", titel: "Ersatzteile für Grohe Eurosmart Waschtischarmatur", art: "serie" },

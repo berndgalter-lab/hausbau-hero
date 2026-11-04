@@ -1,5 +1,5 @@
 import { AFFILIATE_REL, mitTrackingId } from "@/lib/affiliate";
-import { armaturDaten, merkmaleFuer } from "@/lib/armatur-daten";
+import { armaturDaten, merkmaleFuer, produktDaten } from "@/lib/armatur-daten";
 import { formatEuro, zeigePreis } from "@/lib/ersatzteile";
 import { bildAusAngeboten, type EanAngebot } from "@/lib/kaufberatung";
 import { produktLink, type Produkt } from "@/components/ProduktKarte";
@@ -12,9 +12,10 @@ export default function VergleichsTabelle({ produkte, angebote }: {
   produkte: Produkt[];
   angebote: Record<string, EanAngebot[]>;
 }) {
-  const mitDaten = produkte.filter((p) => armaturDaten(p.technische_daten));
+  const mitDaten = produkte.filter((p) => produktDaten(p.technische_daten));
   if (mitDaten.length < 2) return null;
-  const daten = mitDaten.map((p) => armaturDaten(p.technische_daten));
+  const daten = mitDaten.map((p) => produktDaten(p.technische_daten));
+  const sindArmaturen = mitDaten.every((p) => armaturDaten(p.technische_daten));
   const merkmale = merkmaleFuer(daten);
   const bilder = mitDaten.map((p) => bildAusAngeboten(angebote[p.id] ?? []));
 
@@ -22,8 +23,13 @@ export default function VergleichsTabelle({ produkte, angebote }: {
     <section className="mt-10 mb-8">
       <h2 className="text-2xl font-bold mb-1">Technische Daten im Vergleich</h2>
       <p className="text-sm text-stone-500 mb-4">
-        Herstellerangaben. „k. A.“ heißt: keine verlässliche Angabe gefunden. Alle Armaturen nebeneinander findest du im{" "}
-        <a href="/vergleich/armaturen" className="text-amber-700 hover:underline">Armaturen-Vergleich</a>.
+        Herstellerangaben. „k. A.“ heißt: keine verlässliche Angabe gefunden.
+        {sindArmaturen && (
+          <>
+            {" "}Alle Armaturen nebeneinander findest du im{" "}
+            <a href="/vergleich/armaturen" className="text-amber-700 hover:underline">Armaturen-Vergleich</a>.
+          </>
+        )}
       </p>
       <div className="overflow-x-auto border border-stone-200 rounded-xl bg-white">
         <table className="min-w-full text-sm">

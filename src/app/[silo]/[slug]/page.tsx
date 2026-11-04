@@ -78,6 +78,8 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
     if (e && nachEan.has(e)) angebote[p.id] = nachEan.get(e)!;
   }
   const hasContent = seite.content_md && seite.content_md.trim().length > 50;
+  // Reine Ratgeber ohne Produkte und ohne Partnerlinks im Text brauchen keinen Affiliate-Hinweis.
+  const hatPartnerlinks = produkte.length > 0 || /amazon\.de|awin1\.com/i.test(seite.content_md ?? "");
 
   const rechnerSlugs = getPassendeRechner(seite.slug, seite.passende_rechner);
   let passendeRechner: { name: string; slug: string }[] = [];
@@ -122,10 +124,12 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
         Kategorie: <a href={`/${params.silo}`} className="text-amber-600 hover:underline">{siloName}</a>
       </p>
 
-      <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-8 text-sm text-stone-600">
-        <strong className="text-stone-800">Hinweis:</strong>{" "}
-        Dieser Artikel enthält Affiliate-Links. Wenn du über diese Links einkaufst, erhalten wir eine kleine Provision — für dich ändert sich der Preis nicht.
-      </div>
+      {hatPartnerlinks && (
+        <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-8 text-sm text-stone-600">
+          <strong className="text-stone-800">Hinweis:</strong>{" "}
+          Dieser Artikel enthält Affiliate-Links. Wenn du über diese Links einkaufst, erhalten wir eine kleine Provision — für dich ändert sich der Preis nicht.
+        </div>
+      )}
 
       <ProduktUebersicht produkte={hauptProdukte} angebote={angebote} />
 
