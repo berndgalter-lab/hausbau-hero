@@ -1,4 +1,5 @@
 import TeilBild from "@/components/TeilBild";
+import { bereiteArtikelHtmlVor } from "@/lib/affiliate";
 import { formatEuro } from "@/lib/ersatzteile";
 import { modellAnker } from "@/lib/produkt-ratgeber";
 import Inhaltsverzeichnis from "@/components/Inhaltsverzeichnis";
@@ -111,7 +112,7 @@ export function Quellen({ html }: { html: string }) {
       <h2 className="text-xl font-semibold text-stone-900 mb-3">Quellen</h2>
       <div
         className="prose prose-sm prose-stone max-w-none text-stone-600 prose-li:my-1 prose-ol:pl-5 prose-ul:pl-5 marker:text-stone-400 prose-a:text-stone-700 prose-a:underline prose-a:decoration-stone-300 prose-a:underline-offset-2 hover:prose-a:text-accent-700 break-words"
-        dangerouslySetInnerHTML={{ __html: html }}
+        dangerouslySetInnerHTML={{ __html: bereiteArtikelHtmlVor(html) }}
       />
     </section>
   );
