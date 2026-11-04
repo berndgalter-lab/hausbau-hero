@@ -1,0 +1,260 @@
+{
+  "slug": "perlator",
+  "name": "Perlator",
+  "mehrzahl": "Perlatoren",
+  "genus": "m",
+  "titel": "Perlator (Strahlregler): welche Größe passt?",
+  "seo_title": "Perlator (Strahlregler): welche Größe passt? M22, M24, M28",
+  "seo_description": "Perlator wechseln: M22 innen oder M24 außen am Waschbecken und in der Küche, M28 an der Wanne, verdeckte Strahlregler mit Schlüssel. So misst du das Gewinde, so löst du einen festsitzenden Perlator.",
+  "kurz": "An Waschtisch- und Küchenarmaturen sitzt fast immer ein Strahlregler der Standardgröße: M22x1 mit Innengewinde oder M24x1 mit Außengewinde. Badewannenausläufe haben meist M28x1. Siehst du am Auslauf kein Gewinde, sondern nur einen Kunststoffrand mit Nocken, ist es ein verdeckter Strahlregler, den du mit einem passenden Schlüssel löst.\n\n„Perlator“ ist ein Markenname von Neoperl. Gemeint ist dasselbe Teil wie Strahlregler, Luftsprudler oder Mousseur.",
+  "bereiche": ["waschtisch", "kueche"],
+  "teiltypen": ["strahlregler"],
+  "erkennen": [
+    {
+      "titel": "Sichtbares Gehäuse oder verdeckt?",
+      "text": "Kannst du am Ende des Auslaufs ein Metallstück abschrauben, ist es ein Strahlregler mit Gehäuse. Siehst du nur einen Kunststoffrand mit kleinen Nocken im Auslauf, ist es ein verdeckter Strahlregler (bei Neoperl „Caché“). Sein Gewinde sitzt direkt am Einsatz, er lässt sich nur mit einem passenden Schlüssel lösen."
+    },
+    {
+      "titel": "Innen- oder Außengewinde?",
+      "text": "Schraub den Strahlregler ab und schau, wo das Gewinde sitzt. Hat der Strahlregler innen ein Gewinde, sitzt er auf einem Auslauf mit Außengewinde, das ist M22x1. Hat er außen ein Gewinde, schraubt er sich in den Auslauf, das ist M24x1. Shops beziehen „innen“ und „außen“ manchmal auf den Auslauf statt auf den Strahlregler. Prüfe deshalb am Bauteil."
+    },
+    {
+      "titel": "Gewinde messen",
+      "text": "Miss mit einem Messschieber. Ein Außengewinde M24 misst etwa 23,9 mm. Ein Innengewinde M22 misst nur etwa 20,9 mm, weil man innen an den Gewindespitzen misst. Ein Lineal ist zu ungenau. Am sichersten ist die Gewindeangabe des Armaturenherstellers."
+    },
+    {
+      "titel": "Durchfluss wählen",
+      "text": "Die Durchflussklasse sagt, wie viel Wasser bei 3 bar durchläuft: Klasse A 13,5 bis 15 l/min, Klasse Z etwa 7,5 bis 9 l/min, Spar-Strahlregler 5 l/min und weniger. Hängt am Wasserhahn ein Durchlauferhitzer, kann ein Spar-Strahlregler den Durchfluss unter die Einschaltmenge drücken, dann bleibt das Wasser kalt."
+    },
+    {
+      "titel": "Niederdruckarmatur am Untertischspeicher",
+      "text": "An einer Niederdruckarmatur für einen offenen Speicher tritt beim Aufheizen Ausdehnungswasser über den Auslauf aus. Ein normaler Strahlregler mit Sieb kann dort verkalken und den Auslauf drosseln, im schlimmsten Fall platzt der Speicher. Nimm dort nur den mitgelieferten oder einen ausdrücklich für offene Warmwasserbereiter gekennzeichneten Strahlregler."
+    }
+  ],
+  "groessen": {
+    "titel": "Gängige Größen",
+    "spalten": ["Größe", "Gewinde am Strahlregler", "Typisch für", "gemessen"],
+    "zeilen": [
+      ["M22x1", "innen", "Waschtisch, Küche (Neoperl STD)", "ca. 20,9 mm"],
+      ["M24x1", "außen", "Waschtisch, Küche (Neoperl STD)", "ca. 23,9 mm"],
+      ["M28x1", "außen", "Badewanne (Neoperl TF)", "–"],
+      ["M24x1, M21,5x1, M18,5x1, M16,5x1", "verdeckt, Gewinde am Einsatz", "Design-Armaturen (Caché)", "nur mit Schlüssel"],
+      ["M19x1 / M20x1 (TJ), M16x1 / M18x1 (TT)", "innen / außen", "kleine Ausläufe", "–"]
+    ],
+    "hinweis": "M22 und M24 teilen sich denselben Einsatz, nur das Gehäuse ist anders. Deshalb gibt es viele Strahlregler als „M22/M24“ mit beiden Gehäusen oder mit Adapter. Der Grohe-Schlüssel 48021000 passt auf M22, M24 und M28 sowie auf alle vier verdeckten Größen."
+  },
+  "produkte": [
+    {
+      "name": "Neoperl Perlator Honeycomb M24x1",
+      "hersteller": "Neoperl",
+      "ean": "4005897032420",
+      "hinweis": "Standardgröße mit Außengewinde für Waschtisch und Küche."
+    },
+    {
+      "name": "Grohe Mousseur 13928 M22x1, 15 l/min",
+      "hersteller": "Grohe",
+      "ean": "4005176025365",
+      "hinweis": "Innengewinde M22x1, Durchflussklasse A."
+    },
+    {
+      "name": "Grohe Mousseur 13929 M24x1, 15 l/min",
+      "hersteller": "Grohe",
+      "ean": "4005176025440",
+      "hinweis": "Außengewinde M24x1, Durchflussklasse A."
+    },
+    {
+      "name": "Neoperl Perlator Honeycomb M28x1",
+      "hersteller": "Neoperl",
+      "ean": "4005897033830",
+      "hinweis": "Für Badewannenausläufe."
+    },
+    {
+      "name": "Neoperl Caché Honeycomb TJ M18,5x1",
+      "hersteller": "Neoperl",
+      "ean": "4065301045101",
+      "hinweis": "Verdeckter Strahlregler, Schlüssel nötig."
+    },
+    {
+      "name": "Grohe Strahlregler 46163 für offene Warmwasserbereiter, M22x1",
+      "hersteller": "Grohe",
+      "ean": "4005176058721",
+      "hinweis": "Für Niederdruckarmaturen am Untertischspeicher."
+    },
+    {
+      "name": "Grohe Strahlregler 46162 für offene Warmwasserbereiter, M24x1",
+      "hersteller": "Grohe",
+      "ean": "4005176058714",
+      "hinweis": "Für Niederdruckarmaturen, Außengewinde."
+    },
+    {
+      "name": "Grohe Mousseurschlüssel 48021",
+      "hersteller": "Grohe",
+      "ean": "4005176881435",
+      "hinweis": "Für M22, M24, M28 und verdeckte Strahlregler."
+    }
+  ],
+  "probleme": ["grohe-strahlregler-verkalkt", "wasserhahn-tropft"],
+  "fragen": [
+    {
+      "frage": "Welche Perlator-Größe brauche ich für Waschbecken, Küche und Badewanne?",
+      "antwort": "An Waschtisch- und Küchenarmaturen ist die Standardgröße üblich: M22x1 mit Innengewinde oder M24x1 mit Außengewinde. Badewannenausläufe haben meist M28x1 mit Außengewinde. Hat der Auslauf ein Innengewinde, brauchst du einen Strahlregler mit Außengewinde und umgekehrt.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.neoperl.com/us/en/oem/products/faucet-aerators/aerators-with-housings",
+        "https://www.haustechnikdialog.de/SHKwissen/1611/Strahlregler-Luftsprudler-Mischduese",
+        "https://www.grohe.com/de-DE/produkt/48021000"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie messe ich, ob mein Wasserhahn M22 oder M24 hat?",
+      "antwort": "Schraub den alten Strahlregler ab und miss das Gewinde mit einem Messschieber. Ein Außengewinde M24x1 misst etwa 23,9 mm, ein Innengewinde M22x1 nur etwa 20,9 mm, weil man innen an den Gewindespitzen misst. Am sichersten ist die Gewindeangabe des Armaturenherstellers.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://cdn.shopify.com/s/files/1/0523/6175/6852/files/Gewindegrosse_ermitteln.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Perlator sitzt fest und lässt sich nicht abschrauben. Was kann ich tun?",
+      "antwort": "Meist hat Kalk das Gewinde verklebt. Häng einen Beutel mit Essig oder Kalklöser so an den Hahn, dass der Strahlregler eintaucht, und lass ihn einige Stunden wirken. Danach drehst du gegen den Uhrzeigersinn, mit einem Perlatorschlüssel oder einer Wasserpumpenzange mit Tuch als Kratzschutz. Bei Schwenkausläufen hältst du mit der zweiten Hand gegen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gutefrage.net/frage/ich-muss-am-wasserhahn-den-perlator-entkalken-leider-bekomme-ich-den-aeusseren-ring-nicht-ab-was-kann-ich-tun",
+        "https://www.gutefrage.net/frage/wie-bekomm-ich-das-sieb-beim-wasserhahn-raus",
+        "https://www.haustechnikdialog.de/Forum/t/207338/Luftsprudler-Mischduese-Strahlregler-sitzt-total-fest-wie-loesen-Dornbracht-M18"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Perlator ist beim Abschrauben zerbröselt. Wie bekomme ich den Rest raus?",
+      "antwort": "Weich die Reste mit Essig oder Kalklöser ein und hol sie mit einem schmalen Schraubendreher oder einer feinen Spitzzange Stück für Stück heraus. Schone dabei das Gewinde im Auslauf, darauf muss der neue Strahlregler passen. Streich das Gewinde vor dem Einbau mit Armaturenfett ein, damit er nicht wieder festsitzt.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/267246/Ideal-Standard-Perlator-zerbroeselt",
+        "https://www.haustechnikdialog.de/Forum/t/207338/Luftsprudler-Mischduese-Strahlregler-sitzt-total-fest-wie-loesen-Dornbracht-M18"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Mein Wasserhahn hat kein Gewinde am Auslauf. Wie wechsle ich einen versteckten Strahlregler?",
+      "antwort": "Dann steckt meist ein verdeckter Strahlregler im Auslauf, außen siehst du nur den Rand mit kleinen Nocken. Zum Lösen brauchst du den passenden Schlüssel, er liegt oft der Armatur oder dem neuen Strahlregler bei. Es gibt mehrere Größen (M24x1, M21,5x1, M18,5x1, M16,5x1), kauf Ersatz deshalb nach der Nummer der Armatur. Der Grohe-Schlüssel 48021000 deckt alle vier Größen ab.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.neoperl.com/us/en/aftermarket/products/faucet-aerators/threaded-aerators/cache",
+        "https://www.haustechnikdialog.de/Forum/t/107370/Perlatoren-Strahlregler-bei-Ideal-Standard-Active-Wachtischarmatur-ausbauen",
+        "https://www.grohe.com/de-DE/produkt/48021000"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie reinige und entkalke ich den Perlator richtig?",
+      "antwort": "Schraub den Strahlregler ab und leg ihn in einen milden Entkalker auf Zitronensäurebasis, hansgrohe nennt rund zehn Minuten Einwirkzeit. Danach abspülen, die Dichtung prüfen und wieder aufschrauben. Bei Strahlreglern mit Silikonnoppen (hansgrohe QuickClean) reibst du leichten Kalk auch ohne Abschrauben mit dem Finger ab.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.hansgrohe.de/bad/ratgeber/pflege-wartung/armaturen-entkalken"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Warum spritzt mein Wasserhahn in alle Richtungen?",
+      "antwort": "Meist ist der Strahlregler verkalkt. Der Kalk setzt sich am Sieb und in den Luftschlitzen fest, der Strahl wird hart und spritzt. Entkalke oder ersetze den Strahlregler. Spritzt es auch mit einem neuen, liegt es an der Fallhöhe zwischen hohem Auslauf und kleinem Becken oder an zu viel Durchfluss, dann hilft es, das Eckventil etwas zuzudrehen.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.haustechnikdialog.de/SHKwissen/1611/Strahlregler-Luftsprudler-Mischduese",
+        "https://www.haustechnikdialog.de/Forum/t/261514/Wasserhahn-spritzt"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Ist das kleine Sieb im Wasserhahn wichtig, oder geht es auch ohne?",
+      "antwort": "Der Hahn funktioniert auch ohne, aber das Sieb gehört zum Strahlregler und hält Sand, Rost und kleine Partikel aus der Leitung zurück. Ohne Strahlregler kommt das Wasser als harter, spritzender Strahl ohne Luft. Ein neuer Strahlregler kostet nur wenige Euro.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.gutefrage.net/frage/ist-das-kleine-sieb-im-wasserhahn-wichtig",
+        "https://www.haustechnikdialog.de/SHKwissen/1611/Strahlregler-Luftsprudler-Mischduese"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Darf ich an eine Niederdruckarmatur einen normalen Perlator schrauben?",
+      "antwort": "Nein. Bei einer Niederdruckarmatur ist der Auslauf offen mit dem drucklosen Speicher verbunden, beim Aufheizen tritt das Ausdehnungswasser über den Auslauf aus. Ein normaler Perlator mit Sieb oder ein Sparaufsatz kann verkalken und den Auslauf drosseln, dann kann der Speicher platzen. Nimm nur den mitgelieferten oder einen für Niederdruck gekennzeichneten Strahlregler.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/39500/Perlator-und-Niederruck-Wandspeicher",
+        "https://www.haustechnikdialog.de/Forum/t/15673/Spritzfreier-Strahlregler-fuer-Niederdruck",
+        "https://www.haustechnikdialog.de/Forum/t/174965/Problem-mit-Sparstrahlregler-u-Durchlauferhitzer"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Was bedeuten die Durchflussklassen, und wie viel spart ein Spar-Perlator?",
+      "antwort": "Die Durchflussklasse gibt an, wie viel Wasser bei 3 bar durchläuft: Klasse A 13,5 bis 15 l/min, Klasse Z etwa 7,5 bis 9 l/min, Spar-Strahlregler gibt es mit 5 l/min und weniger. Einfache Begrenzer mit enger Bohrung liefern je nach Druck mehr oder weniger, Mengenregler halten den Durchfluss konstant. Wie viel du sparst, hängt davon ab, wie weit du den Hahn sonst aufdrehst.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.oeg.net/en/perlator-dl-aerator-with-m24-x-1-802003026",
+        "https://www.neoperl.com/us/en/oem/products/faucet-aerators/aerators-with-housings/honeycomb-clinic",
+        "https://www.haustechnikdialog.de/SHKwissen/1611/Strahlregler-Luftsprudler-Mischduese"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Seit ich einen Spar-Perlator habe, springt der Durchlauferhitzer nicht mehr an. Warum?",
+      "antwort": "Ein Durchlauferhitzer schaltet erst ab einer Mindestwassermenge ein, und ein Spar-Strahlregler kann den Durchfluss darunter drücken. Besonders hydraulisch gesteuerte Geräte reagieren darauf. Schraub probeweise den alten Strahlregler wieder ein.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/174965/Problem-mit-Sparstrahlregler-u-Durchlauferhitzer",
+        "https://www.gutefrage.net/frage/perlator-bei-durchlauferhitzer-und-boiler"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Passt ein Strahlregler-Einsatz für M22 auch in ein M24-Gehäuse?",
+      "antwort": "Ja. Bei Neoperl gehören M22x1 (Gehäuse mit Innengewinde) und M24x1 (Gehäuse mit Außengewinde) zur selben Einsatzgröße „STD“. Der Einsatz mit Sieb ist derselbe, nur das Gehäuse muss zum Auslauf passen. Deshalb gibt es viele Strahlregler als „M22/M24“ mit beiden Gehäusen oder mit Adapter.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.neoperl.com/us/en/oem/products/faucet-aerators/aerators-with-housings"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welcher Schlüssel passt zum Perlator?",
+      "antwort": "Für sichtbare Strahlregler gibt es Kunststoffschlüssel mit den Größen M22, M24 und M28. Für verdeckte Strahlregler brauchst du einen Schlüssel, der genau zur Gewindegröße passt. Grohe verkauft mit 48021000 ein Werkzeug für Gehäuse M22x1, M24x1 und M28x1 sowie für verdeckte Strahlregler von M16,5x1 bis M24x1.",
+      "kategorie": "bezug",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/107370/Perlatoren-Strahlregler-bei-Ideal-Standard-Active-Wachtischarmatur-ausbauen",
+        "https://www.grohe.com/de-DE/produkt/48021000"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://www.neoperl.com/us/en/oem/products/faucet-aerators/aerators-with-housings",
+    "https://www.neoperl.com/us/en/aftermarket/products/faucet-aerators/threaded-aerators/cache",
+    "https://www.neoperl.com/us/en/oem/products/faucet-aerators/aerators-with-housings/honeycomb-clinic",
+    "https://www.grohe.com/de-DE/produkt/48021000",
+    "https://www.grohe.de/de_de/mousseur-13935000.html",
+    "https://www.hansgrohe.de/articledetail-luftsprudler-m24-x-1-mit-durchflussbegrenzer-5-l-min-13185000",
+    "https://www.hansgrohe.de/bad/ratgeber/pflege-wartung/armaturen-entkalken",
+    "https://cdn.shopify.com/s/files/1/0523/6175/6852/files/Gewindegrosse_ermitteln.pdf",
+    "https://www.oeg.net/en/perlator-dl-aerator-with-m24-x-1-802003026",
+    "https://www.haustechnikdialog.de/SHKwissen/1611/Strahlregler-Luftsprudler-Mischduese",
+    "https://www.haustechnikdialog.de/Forum/t/107370/Perlatoren-Strahlregler-bei-Ideal-Standard-Active-Wachtischarmatur-ausbauen",
+    "https://www.haustechnikdialog.de/Forum/t/39500/Perlator-und-Niederruck-Wandspeicher",
+    "https://www.haustechnikdialog.de/Forum/t/174965/Problem-mit-Sparstrahlregler-u-Durchlauferhitzer",
+    "https://www.gutefrage.net/frage/ist-das-loch-vom-wasserhahn-in-der-badewanne-groesser-als-das-am-waschbecken-brauche-ich-da-unterschiedliche-perlatoren"
+  ]
+}

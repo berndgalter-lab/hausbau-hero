@@ -3,6 +3,10 @@ import eckventil from "../../data/teilarten/eckventil.json";
 import fuellventil from "../../data/teilarten/fuellventil.json";
 import spuelkasten from "../../data/teilarten/spuelkasten.json";
 import wcSitzBefestigung from "../../data/teilarten/wc-sitz-befestigung.json";
+import perlator from "../../data/teilarten/perlator.json";
+import kartusche from "../../data/teilarten/kartusche.json";
+import siphon from "../../data/teilarten/siphon.json";
+import ablaufgarnitur from "../../data/teilarten/ablaufgarnitur.json";
 
 // Teileart-Seiten unter /ersatzteile/<teilart> (docs/SEITENAUFBAU.md, Abschnitt 4b): ein Teil, das in vielen
 // Marken steckt (Eckventil, Perlator, Siphon …), markenübergreifend erklärt. Inhalt aus data/teilarten/<slug>.json,
@@ -54,6 +58,10 @@ const TEILARTEN: Teilart[] = [
   fuellventil as Teilart,
   spuelkasten as Teilart,
   wcSitzBefestigung as Teilart,
+  perlator as Teilart,
+  kartusche as Teilart,
+  siphon as Teilart,
+  ablaufgarnitur as Teilart,
 ];
 
 /** „den passenden Perlator“ / „die passende Kartusche“ / „das passende Eckventil“ (Akkusativ). */

@@ -1,0 +1,354 @@
+{
+  "thema": "Spüle dichtet nicht: Siebkorb, Stopfen oder Ablaufventil undicht (Küche)",
+  "fragen": [
+    {
+      "frage": "Der Siebkorb ist geschlossen, trotzdem läuft das Wasser langsam aus der Spüle. Was kann ich tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 6,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/33319/Exenter-fuer-Spuele-schliesst-nicht-richtig",
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/",
+        "https://www.gutefrage.net/frage/wasser-in-spuele-laeuft-weg",
+        "https://www.gutefrage.net/frage/wie-dichte-ich-eine-undichte-spuele-ab",
+        "https://www.nuggetforum.de/forum/2-allgemeines/65219-abfluss-stopfen-spuelbecken-dichtet-nicht-richtig"
+      ],
+      "antwort": "Nimm den Siebkorb heraus und reinige Korb, Dichtung und Ablaufkelch; laut Küchenforum reicht schon ein kleiner Krümel auf der Dichtung, damit es undicht wird. Bei Exzenter-Siebkörben drehst du danach die Stellschraube an der Unterseite des Korbs ein Stück hinein, damit der Korb tiefer sitzt. Hilft das nicht, prüf die Gummidichtung auf Risse und Verhärtung. Blanco empfiehlt ebenfalls, zuerst Siebkörbchen, Ablaufkelch und Stopfen zu reinigen und dann zu testen.",
+      "antwort_quellen": [
+        "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/",
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://www.haustechnikdialog.de/Forum/t/33319/Exenter-fuer-Spuele-schliesst-nicht-richtig",
+        "https://www.blanco.de/service/haeufig-gestellte-fragen/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Wie finde ich heraus, ob das Wasser am Siebkorb vorbeiläuft oder am Ablaufventil zwischen Becken und Ventilkelch?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/",
+        "https://www.haustechnikdialog.de/Forum/t/33319/Exenter-fuer-Spuele-schliesst-nicht-richtig",
+        "https://www.gutefrage.net/frage/spuele-wasser-laeuft-ab-trotz-stoepsel"
+      ],
+      "antwort": "Im Küchenforum wird dieser Test beschrieben: Den Siebkorb von Hand fest herunterdrücken, etwa einen Liter Wasser einlassen und beobachten. Bleibt Wasser im Ventilkelch stehen, während das Becken trotzdem leerläuft, sickert es durch den Spalt zwischen Kelch und Becken. Man kann auch nur den Ventilkelch füllen: Bleibt das Wasser dort, liegt es an der Abdichtung des Kelchs zum Becken. In beiden Fällen läuft das Wasser in den Abfluss und nicht in den Unterschrank.",
+      "antwort_quellen": [
+        "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/",
+        "https://www.gutefrage.net/frage/spuele-wasser-laeuft-ab-trotz-stoepsel"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Das Wasser läuft zwischen Becken und Ventilkelch (Rosette) ab. Wie dichte ich das ab?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/spuele-wasser-laeuft-ab-trotz-stoepsel",
+        "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/",
+        "https://www.haustechnikdialog.de/Forum/t/33319/Exenter-fuer-Spuele-schliesst-nicht-richtig",
+        "https://www.nuggetforum.de/forum/2-allgemeines/65219-abfluss-stopfen-spuelbecken-dichtet-nicht-richtig",
+        "https://www.gutefrage.net/frage/kuechenspuele-undicht"
+      ],
+      "antwort": "Dann fehlt meist die Dichtung zwischen Becken und Rosette, oder sie wurde versehentlich unter dem Becken eingebaut. Zum Abdichten löst du die zentrale Schraube im Ventilkelch, stützt den Siphon dabei von unten und setzt die Rosette mit passendem Dichtring oder Dichtkitt neu ein. Bei Keramikspülen wird laut Küchenforum statt einer Dichtung eine Dichtmasse verwendet; ist sie lückenhaft, läuft das Wasser am Korbventil vorbei. Zwei Nutzer berichten, dass genau das die Ursache war.",
+      "antwort_quellen": [
+        "https://www.gutefrage.net/frage/spuele-wasser-laeuft-ab-trotz-stoepsel",
+        "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/",
+        "https://www.haustechnikdialog.de/Forum/t/33319/Exenter-fuer-Spuele-schliesst-nicht-richtig",
+        "https://www.nuggetforum.de/forum/2-allgemeines/65219-abfluss-stopfen-spuelbecken-dichtet-nicht-richtig"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Der Drehknopf (Exzenter) hebt den Siebkorb nicht mehr an. Was ist kaputt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://www.kuechen-forum.de/forum/themen/spuelenexcenter.5524/",
+        "https://www.gutefrage.net/frage/abflusssieb-der-kuechenspuele"
+      ],
+      "antwort": "Ein Küchenmonteur auf gutefrage nennt als ersten Schritt, den Siebkorb herauszunehmen und die Schraube an seiner Unterseite etwas herauszudrehen, damit er den Hebel im Ablauf wieder erreicht. Hilft das nicht, schau mit einer Lampe unter die Spüle: Der Bowdenzug hat an beiden Enden eine Kugel, die in ihrer Aufnahme sitzen und mit einer Abdeckung gesichert sein muss. Im Küchenforum werden außerdem ein geknickter Zug und eine lose verschraubte Bedieneinheit am Becken genannt.",
+      "antwort_quellen": [
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://www.kuechen-forum.de/forum/themen/spuelenexcenter.5524/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Der Drehknopf lässt sich nur noch schwer drehen und der Siebkorb schließt nicht mehr. Was tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/abflusssieb-der-kuechenspuele"
+      ],
+      "antwort": "Auf gutefrage wurde vermutet, dass sich die Kugel des Bowdenzugs in ihrer Halterung verkantet hat, oder dass die Mechanik altersbedingt verschlissen ist. Für Markenspülen gibt es die Teile beim Fachhandel oder im Küchenstudio, dafür brauchst du die genaue Typangabe vom Etikett unter der Spüle.",
+      "antwort_quellen": [
+        "https://www.gutefrage.net/frage/abflusssieb-der-kuechenspuele"
+      ],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Beim Drehen am Knopf verschiebt sich nur die Hülle des Bowdenzugs, der Ablauf bewegt sich nicht. Was fehlt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.kuechen-forum.de/forum/themen/bowdenzug-an-exzentergarnitur-bewegt-den-abfluss-nicht.46410/"
+      ],
+      "antwort": "Die Hülle muss am Ablauf fixiert sein, häufig mit einer kleinen Kunststoffklammer. Im Küchenforum war bei einer Carea-Spüle die Aufnahme dafür aus dünnem Kunststoff und nach kurzer Zeit gebrochen; dann hilft nur ein Ersatzteil.",
+      "antwort_quellen": [
+        "https://www.kuechen-forum.de/forum/themen/bowdenzug-an-exzentergarnitur-bewegt-den-abfluss-nicht.46410/"
+      ],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Mein Blanco InFino schließt nicht, das Wasser läuft trotz geschlossenem Ablauf ab. Ist er defekt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.kuechen-forum.de/forum/themen/ablaufstopfen-dichtet-nicht.46471/"
+      ],
+      "antwort": "Laut Blanco ist der Ablauf dann meist nicht defekt, sondern falsch eingestellt. Reinige erst Siebkörbchen, Ablaufkelch und Stopfen. Dann nimmst du den Stopfen heraus, drehst seine Schraube mit dem blauen Kunststoffwerkzeug oder einem Gabelschlüssel SW 4 so weit heraus, bis PushControl das Siebkörbchen beim Betätigen minimal anhebt, und drehst sie danach 1,5 Umdrehungen wieder hinein.",
+      "antwort_quellen": [
+        "https://www.blanco.de/service/haeufig-gestellte-fragen/",
+        "https://cdn.blanco.com/assets/hlr-system/TKD/PDF-Dokumente/243828_BLANCO_PushControl_Fehleranalyse_09-2021_v06-KUNDE.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Mein Stopfen ohne Fernbedienung (Handbetätigung) dichtet nicht. Kann ich etwas einstellen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.kuechen-forum.de/forum/themen/ablaufstopfen-dichtet-nicht.46471/",
+        "https://www.gutefrage.net/frage/wasser-in-spuele-laeuft-weg",
+        "https://www.gutefrage.net/frage/wie-dichte-ich-eine-undichte-spuele-ab",
+        "https://www.nuggetforum.de/forum/2-allgemeines/65219-abfluss-stopfen-spuelbecken-dichtet-nicht-richtig"
+      ],
+      "antwort": "Bei Stopfen mit Handbetätigung gibt es in der Regel keine Stellschraube, sie werden nur aufgesetzt und gedreht. Prüf, ob die Gummidichtung am Stopfen vorhanden, unbeschädigt und vollständig in ihrer Nut ist, und fette sie leicht ein. Hilft ein neuer Stopfen auch nicht, liegt es laut mehreren Forenbeiträgen an der Abdichtung der Rosette im Becken.",
+      "antwort_quellen": [
+        "https://www.kuechen-forum.de/forum/themen/ablaufstopfen-dichtet-nicht.46471/",
+        "https://www.nuggetforum.de/forum/2-allgemeines/65219-abfluss-stopfen-spuelbecken-dichtet-nicht-richtig",
+        "https://www.gutefrage.net/frage/wasser-in-spuele-laeuft-weg"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Unter der Spüle tropft es am Ablauf, aber nur wenn der Stopfen drin und das Becken voll ist. Woran liegt das?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/abfluss-von-spuelbecken-undicht.22385/",
+        "https://www.gutefrage.net/frage/kuechenspuele-undicht"
+      ],
+      "antwort": "Dann ist die Abdichtung des Ablaufventils undicht, also die Dichtung unter dem Becken oder die zentrale Schraube im Ventilkelch. Stell einen Eimer unter, nimm den Siphon ab, schraub den Ventilkelch heraus und prüf die Dichtung: Ist sie hart, brüchig oder beschädigt, tausch sie, sonst reinigen. Ein neues Ablaufventil kostet laut Forum im Baumarkt nur wenige Euro; achte auf den Durchmesser und auf eine Schraube aus Messing oder Edelstahl.",
+      "antwort_quellen": [
+        "https://www.dasheimwerkerforum.de/threads/abfluss-von-spuelbecken-undicht.22385/",
+        "https://www.gutefrage.net/frage/kuechenspuele-undicht"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Welches Ersatz-Siebkörbchen passt in meine Spüle?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/256605/Siebkoerbchen-fuer-Spuele-gesucht",
+        "https://www.kuechen-forum.de/forum/themen/passendes-siebkoerbchen-fuer-franke-spuele.33028/",
+        "https://www.gutefrage.net/frage/abflusssieb-der-kuechenspuele",
+        "https://www.gutefrage.net/frage/spuele-wasser-laeuft-ab-trotz-stoepsel"
+      ],
+      "antwort": "Siebkörbchen unterscheiden sich im Durchmesser, in der Länge des Zapfens und in der Bedienart. Blanco führt zum Beispiel Körbchen für 1,5- und 3,5-Zoll-Abläufe mit Exzenter, Zapfen oder Handbetätigung und Durchmessern von etwa 51 bis 82 mm; für Franke-Spülen bis Baujahr 1999 nennt ein Händler 77 mm bei Handbedienung. Die Artikelnummer der Spüle steht oft auf einem Etikett an ihrer Unterseite. Im Küchenforum hat Franke anhand von Fotos das passende Körbchen genannt; bei No-Name-Spülen mussten Nutzer mehrere Körbchen ausprobieren.",
+      "antwort_quellen": [
+        "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/siebkoerbchen",
+        "https://www.kilean.de/Siebkorb-manuell-fuer-Franke-Spuelen-bis-1999-/-Ersatzteil-/-Handbedienung-/Siebkorb",
+        "https://www.kuechen-forum.de/forum/themen/passendes-siebkoerbchen-fuer-franke-spuele.33028/",
+        "https://www.haustechnikdialog.de/Forum/t/256605/Siebkoerbchen-fuer-Spuele-gesucht",
+        "https://www.gutefrage.net/frage/abflusssieb-der-kuechenspuele"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Gibt es die Dichtung am Siebkörbchen einzeln?",
+      "kategorie": "bezug",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/",
+        "https://www.nuggetforum.de/forum/2-allgemeines/65219-abfluss-stopfen-spuelbecken-dichtet-nicht-richtig"
+      ],
+      "antwort": "Bei Blanco ja: Die Dichtung für 3,5-Zoll-Siebkörbchen gibt es als eigenes Ersatzteil (Art.-Nr. 116116, im Blanco-Shop 3,99 Euro), dazu eine Anleitung zum Austausch. Im Küchenforum berichtet ein Fachmann, dass es bei Villeroy-&-Boch-Garnituren half, die Lippendichtung am Siebkörbchen umzudrehen. Bei anderen Herstellern wird oft nur das komplette Körbchen angeboten.",
+      "antwort_quellen": [
+        "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/dichtungen-&-teflonringe/dichtungsiebkoerbchen3,5''ab1%C2%BD006al_60.955.116116/116116",
+        "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/siebkoerbchen/siebkoerbchen3,5''exzenterd=82mm_61.190.125555/125555",
+        "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Die neue Spüle ist gleich undicht. Repariere ich selbst oder reklamiere ich?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/",
+        "https://www.kuechen-forum.de/forum/themen/spuelenexcenter.5524/"
+      ],
+      "antwort": "Im Küchenforum raten mehrere Teilnehmer, bei einer neu eingebauten Spüle den Küchenlieferanten oder Monteur zu rufen, solange Gewährleistung besteht. Geht beim Selbstreparieren etwas kaputt, trägst du sonst das Risiko. Ein Teilnehmer schreibt außerdem, Exzenter-Verschlüsse hielten erst dicht, wenn das Becken mindestens zu einem Drittel gefüllt ist; bei neuen Abläufen solle man den Korb nach dem Schließen etwas herunterdrücken, damit sich die Dichtung anlegt.",
+      "antwort_quellen": [
+        "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/",
+        "https://www.kuechen-forum.de/forum/themen/spuelenexcenter.5524/"
+      ],
+      "sicherheit": "belegt"
+    }
+  ],
+  "ursachen": [
+    {
+      "ursache": "Schmutz, Fett oder Krümel an Dichtung und Ventilsitz",
+      "erklaerung": "Das Becken läuft langsam leer, obwohl der Siebkorb geschlossen ist. Siebkorb herausnehmen, Dichtung und Ablaufkelch reinigen und erneut testen; Blanco nennt die Reinigung als ersten Schritt.",
+      "haeufigkeit": "häufig",
+      "quellen": [
+        "https://www.blanco.de/service/haeufig-gestellte-fragen/",
+        "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/",
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt"
+      ]
+    },
+    {
+      "ursache": "Stellschraube am Exzenter-Siebkorb verstellt",
+      "erklaerung": "Der Korb sitzt zu hoch und schließt nicht ganz, oder er öffnet nicht mehr. Schraube an der Unterseite hineindrehen, wenn er nicht dicht ist, herausdrehen, wenn er sich nicht hebt; die Einstellung verändert sich mit der Zeit. Bei Blanco InFino wird die Stopfenschraube nach Herstellervorgabe eingestellt.",
+      "haeufigkeit": "häufig",
+      "quellen": [
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://www.haustechnikdialog.de/Forum/t/33319/Exenter-fuer-Spuele-schliesst-nicht-richtig",
+        "https://www.kuechen-forum.de/forum/themen/spuelenexcenter.5524/",
+        "https://www.kuechen-forum.de/forum/themen/passendes-siebkoerbchen-fuer-franke-spuele.33028/",
+        "https://www.blanco.de/service/haeufig-gestellte-fragen/",
+        "https://cdn.blanco.com/assets/hlr-system/TKD/PDF-Dokumente/243828_BLANCO_PushControl_Fehleranalyse_09-2021_v06-KUNDE.pdf"
+      ]
+    },
+    {
+      "ursache": "Dichtung am Siebkörbchen oder Stopfen verschlissen, verhärtet oder nicht in der Nut",
+      "erklaerung": "Die Dichtung ist rissig, hart oder sitzt schief. Dichtung leicht einfetten oder tauschen; bei Blanco gibt es sie einzeln, sonst das komplette Körbchen.",
+      "haeufigkeit": "gelegentlich",
+      "quellen": [
+        "https://www.nuggetforum.de/forum/2-allgemeines/65219-abfluss-stopfen-spuelbecken-dichtet-nicht-richtig",
+        "https://www.gutefrage.net/frage/wie-dichte-ich-eine-undichte-spuele-ab",
+        "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/dichtungen-&-teflonringe/dichtungsiebkoerbchen3,5''ab1%C2%BD006al_60.955.116116/116116",
+        "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/"
+      ]
+    },
+    {
+      "ursache": "Bowdenzug ausgehängt, geknickt oder Bedieneinheit lose",
+      "erklaerung": "Der Drehknopf bewegt den Siebkorb nicht oder nur mit Wackeln am Zug. Unter der Spüle prüfen, ob beide Kugelenden eingehängt und gesichert sind, ob der Zug geknickt ist und ob die Bedieneinheit fest am Becken verschraubt ist.",
+      "haeufigkeit": "gelegentlich",
+      "quellen": [
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://www.kuechen-forum.de/forum/themen/spuelenexcenter.5524/",
+        "https://www.kuechen-forum.de/forum/themen/bowdenzug-an-exzentergarnitur-bewegt-den-abfluss-nicht.46410/",
+        "https://www.gutefrage.net/frage/abflusssieb-der-kuechenspuele"
+      ]
+    },
+    {
+      "ursache": "Ventilkelch (Rosette) nicht zum Becken abgedichtet",
+      "erklaerung": "Bei gedrücktem Korb bleibt Wasser im Ventilkelch stehen, das Becken läuft trotzdem leer. Die Dichtung zwischen Rosette und Becken fehlt oder sitzt falsch, bei Keramikspülen fehlt Dichtkitt. Rosette lösen und neu eindichten.",
+      "haeufigkeit": "gelegentlich",
+      "quellen": [
+        "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/",
+        "https://www.haustechnikdialog.de/Forum/t/33319/Exenter-fuer-Spuele-schliesst-nicht-richtig",
+        "https://www.gutefrage.net/frage/spuele-wasser-laeuft-ab-trotz-stoepsel",
+        "https://www.nuggetforum.de/forum/2-allgemeines/65219-abfluss-stopfen-spuelbecken-dichtet-nicht-richtig",
+        "https://www.gutefrage.net/frage/kuechenspuele-undicht"
+      ]
+    },
+    {
+      "ursache": "Falsches oder nachgebautes Siebkörbchen",
+      "erklaerung": "Das Körbchen lässt sich nicht ganz absenken oder passt im Durchmesser nicht, oft nach einem Vorbesitzer oder Umzug. Durchmesser, Zapfenlänge und Bedienart des Originals ermitteln und über die Artikelnummer der Spüle bestellen.",
+      "haeufigkeit": "gelegentlich",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/256605/Siebkoerbchen-fuer-Spuele-gesucht",
+        "https://www.kuechen-forum.de/forum/themen/passendes-siebkoerbchen-fuer-franke-spuele.33028/",
+        "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/siebkoerbchen",
+        "https://www.gutefrage.net/frage/spuele-wasser-laeuft-ab-trotz-stoepsel"
+      ]
+    },
+    {
+      "ursache": "Ablaufventil unter dem Becken undicht",
+      "erklaerung": "Unter der Spüle tropft es am Ablauf, vor allem bei gefülltem Becken. Dichtung unter dem Becken oder die zentrale Schraube im Ventilkelch ist undicht oder korrodiert. Ventilkelch ausbauen, Dichtfläche reinigen, Dichtung oder Ablaufventil erneuern.",
+      "haeufigkeit": "gelegentlich",
+      "quellen": [
+        "https://www.dasheimwerkerforum.de/threads/abfluss-von-spuelbecken-undicht.22385/",
+        "https://www.gutefrage.net/frage/kuechenspuele-undicht"
+      ]
+    }
+  ],
+  "pruefen": [
+    {
+      "schritt": "Siebkorb herausnehmen, Korb, Dichtung und Ablaufkelch reinigen und testen.",
+      "quellen": [
+        "https://www.blanco.de/service/haeufig-gestellte-fragen/",
+        "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/"
+      ]
+    },
+    {
+      "schritt": "Dichtung am Korb bzw. Stopfen auf Risse und Härte prüfen und kontrollieren, ob sie ganz in ihrer Nut sitzt.",
+      "quellen": [
+        "https://www.nuggetforum.de/forum/2-allgemeines/65219-abfluss-stopfen-spuelbecken-dichtet-nicht-richtig",
+        "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/dichtungen-&-teflonringe/dichtungsiebkoerbchen3,5''ab1%C2%BD006al_60.955.116116/116116"
+      ]
+    },
+    {
+      "schritt": "Korb von Hand fest herunterdrücken, Wasser einlassen und beobachten, ob Wasser im Ventilkelch stehen bleibt (dann Kelch undicht) oder am Korb vorbeiläuft.",
+      "quellen": [
+        "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/"
+      ]
+    },
+    {
+      "schritt": "Bei Exzenter-Körben die Stellschraube an der Unterseite nachjustieren: hinein, wenn er nicht dicht ist, heraus, wenn er nicht öffnet; Kontermutter wieder festziehen.",
+      "quellen": [
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://www.kuechen-forum.de/forum/themen/spuelenexcenter.5524/",
+        "https://www.haustechnikdialog.de/Forum/t/33319/Exenter-fuer-Spuele-schliesst-nicht-richtig"
+      ]
+    },
+    {
+      "schritt": "Blanco InFino mit PushControl: Stopfenschraube (SW 4) herausdrehen, bis das Siebkörbchen beim Betätigen minimal angehoben wird, dann 1,5 Umdrehungen hineindrehen.",
+      "quellen": [
+        "https://www.blanco.de/service/haeufig-gestellte-fragen/",
+        "https://cdn.blanco.com/assets/hlr-system/TKD/PDF-Dokumente/243828_BLANCO_PushControl_Fehleranalyse_09-2021_v06-KUNDE.pdf"
+      ]
+    },
+    {
+      "schritt": "Unter der Spüle den Bowdenzug prüfen: beide Kugelenden eingehängt und gesichert, Zug nicht geknickt, Bedieneinheit fest verschraubt.",
+      "quellen": [
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://www.kuechen-forum.de/forum/themen/spuelenexcenter.5524/"
+      ]
+    },
+    {
+      "schritt": "Tropft es unter der Spüle: Eimer unterstellen, Siphon abnehmen, Ventilkelch herausschrauben, Dichtung prüfen oder erneuern.",
+      "quellen": [
+        "https://www.gutefrage.net/frage/kuechenspuele-undicht",
+        "https://www.dasheimwerkerforum.de/threads/abfluss-von-spuelbecken-undicht.22385/"
+      ]
+    },
+    {
+      "schritt": "Für Ersatzteile die Artikelnummer vom Etikett unter der Spüle ablesen und Durchmesser, Zapfen und Bedienart des alten Körbchens vergleichen.",
+      "quellen": [
+        "https://www.gutefrage.net/frage/abflusssieb-der-kuechenspuele",
+        "https://www.kuechen-forum.de/forum/themen/passendes-siebkoerbchen-fuer-franke-spuele.33028/",
+        "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/siebkoerbchen"
+      ]
+    }
+  ],
+  "fachbetrieb_ab": {
+    "text": "Bei neu eingebauten Spülen den Küchenlieferanten oder Monteur rufen, solange Gewährleistung besteht. Ein Fachbetrieb lohnt sich auch, wenn der Ventilkelch einer Keramikspüle neu eingedichtet werden muss, wenn die zentrale Schraube festkorrodiert ist oder wenn der Platz unter der Spüle für Bowdenzug und Bedieneinheit sehr eng ist.",
+    "quellen": [
+      "https://www.kuechen-forum.de/forum/themen/exenter-bei-v-b-spuele-haelt-nicht-dicht.1923/",
+      "https://www.kuechen-forum.de/forum/themen/spuelenexcenter.5524/",
+      "https://www.dasheimwerkerforum.de/threads/abfluss-von-spuelbecken-undicht.22385/"
+    ]
+  },
+  "weitere_fragen_ohne_antwort": [
+    "Woher bekomme ich ein Ersatzteil für die gebrochene Bowdenzug-Aufnahme bei Carea-Spülen, und wer stellt den Ablauf her?",
+    "Welches Siebkörbchen passt in eine Spüle ohne Herstellerangabe, wenn ein 1,5-Zoll-Körbchen 2 mm zu klein ist?",
+    "Wo bekomme ich passende Stellschrauben, wenn das neue Siebkörbchen passt, die Schraube aber nicht?",
+    "Passt ein IKEA-Stopfen (Lillviken) auch in einen fremden Siphon bzw. Ablauf?"
+  ]
+}
