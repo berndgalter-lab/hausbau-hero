@@ -1,0 +1,435 @@
+{
+  "marke": "Kludi",
+  "fragen": [
+    {
+      "frage": "Welche Kartusche passt in die Kludi Logo Mix Wanneneinlaufarmatur 386810575?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/283385/Kartusche-fuer-Kludi-Logo-Mix-386810575",
+        "https://www.dasheimwerkerforum.de/threads/kartusche-fuer-kludi-logo-mix-386810575.31737/"
+      ],
+      "forum_antworten": "Haustechnikdialog (01/2025): Ein Helfer nennt zuerst Pos. 5 '7560700-00 Steuereinheit' aus einer Kludi-Zeichnung, korrigiert sich dann: In den historischen Ersatzteilzeichnungen finde er nur die 'Logo Mix 3868175 mit der 35mm Kartusche 75605'. Dasheimwerkerforum (gleiche Frage, Jahr nicht ersichtlich): Rat, den Durchmesser der alten Kartusche zu messen, 'so viele verschiedene Kartuschen hat Kludi nicht'; Fragesteller bemerkt, die verbaute Kartusche sei oben eckig mit Gewinderillen.",
+      "antwort": "Für die Logo-Mix-Reihe nennt die historische Kludi-Ersatzteilzeichnung (im Forum zitiert) die 35-mm-Kartusche 75605, also 7560500-00. Ein Händler führt dieselbe Nummer als Ersatzkartusche für die Kludi-Logo-Serie. Miss vor dem Kauf trotzdem den Durchmesser deiner alten Kartusche, denn Kludi hat auch 28-, 41- und 46-mm-Kartuschen im Programm.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/283385/Kartusche-fuer-Kludi-Logo-Mix-386810575",
+        "https://www.sydneybathroomware.com.au/replacement-cartridges/kludi-logo-35mm-replacement-mixer-cartridge",
+        "https://assets.heizung-billiger.de/documents/kldb_7560500-00.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Welche Kartusche und welcher Umsteller passen in eine Kludi Topara Unterputz-Wannenarmatur?",
+      "kategorie": "nummer",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/topara-kludi-unterputzarmatur-welche-kartusche-umschaltventil.137389/"
+      ],
+      "forum_antworten": "Bauexpertenforum (04/2024 bis 01/2026): Der Fragesteller bekam vom Hersteller bzw. Händler die Nummern Kartusche 7560500-00 und Umstellung 7527505-00. Ein weiterer Nutzer (01/2026) merkt an, dass der Umsteller 7527505-00 im Handel für Objekta-Mix und Logo-Mix geführt wird, und fragt, ob er an der Topara passt. Darauf gibt es keine Antwort.",
+      "antwort": "Ein Nutzer hat vom Hersteller bzw. Händler für seine Topara die Kartusche 7560500-00 und den Umsteller 7527505-00 genannt bekommen. Die Kartusche ist laut Kludi-Datenblatt eine Einhandmischer-Kartusche mit 35 mm Durchmesser. Ob der Umsteller an jede Topara-Ausführung passt, ist nicht bestätigt; frag am besten mit Foto und Einbaujahr beim Kludi-Service nach.",
+      "antwort_quellen": [
+        "https://www.bauexpertenforum.de/threads/topara-kludi-unterputzarmatur-welche-kartusche-umschaltventil.137389/",
+        "https://assets.heizung-billiger.de/documents/kldb_7560500-00.pdf"
+      ],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Welche Kartusche brauche ich für eine alte Kludi Unterputz-Duscharmatur (Einhebel, ca. 1991)?",
+      "kategorie": "nummer",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/225750/Kartusche-fuer-Kludi-Unterputz-Duscharmatur"
+      ],
+      "forum_antworten": "Haustechnikdialog (12/2019 bis 01/2020): Fragesteller misst eine Abdeckung mit 53,5 mm Außendurchmesser und vermutet 46 mm. Er beantwortet die Frage selbst: Die neue 46-mm-Kartusche hat die Kludi-Nummer 7520100-00 und ist noch lieferbar; ein anderer Nutzer bestätigt ('Geht doch').",
+      "antwort": "Bei dieser älteren Kludi-UP-Einhebelarmatur passte die 46-mm-Kartusche 7520100-00, die es weiterhin gibt. Das Kludi-Datenblatt führt 7520100-00 als Keramik-Kartusche für Einhandmischer mit 46 mm Durchmesser und einstellbarer Heißwasserbegrenzung. Prüf vorher, ob deine alte Kartusche wirklich 46 mm misst.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/225750/Kartusche-fuer-Kludi-Unterputz-Duscharmatur",
+        "https://assets.heizung-billiger.de/documents/kldb_7520100-00.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Wie bekomme ich bei einer Kludi Einhebelarmatur den Hebel ab und die Kartusche heraus?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/225750/Kartusche-fuer-Kludi-Unterputz-Duscharmatur",
+        "https://www.haustechnikdialog.de/Forum/t/285374/Kludi-Kuechenarmatur-undicht",
+        "https://www.haustechnikdialog.de/Forum/t/263592/Anleitung-Kludi-Kuechenarmatur-Demontage-bei-festsitzendem-Drehmechanismus",
+        "https://www.haustechnikdialog.de/Forum/t/95726/kludi-new-wave-waschtischarmatur-zerlegen"
+      ],
+      "forum_antworten": "Haustechnikdialog: UP-Duscharmatur (2020): Hebel ganz öffnen, Madenschraube lösen (oft festkorrodiert, WD40), dann Kunststoff-Kalotte abdrehen und große Spannmutter mit SW-46-Maulschlüssel lösen. Küchenarmatur (2025): rot-blauen Nippel herausziehen, dahinter Inbusschraube, dann Spannschraube lösen. Objekta-Küchenarmatur (2023): Warm/Kalt-Zeichen heraushebeln, Madenschraube mit 2,5-mm-Inbus lösen, Hebel abziehen. New Wave Waschtisch (2008): Griff nach oben abziehen, Kreuzschlitzschraube und Spannschraube lösen (Spezialschlüssel).",
+      "antwort": "Dreh zuerst das Wasser ab. Bei den meisten Kludi-Einhebelmischern sitzt unter dem Rot-Blau-Zeichen eine Madenschraube, meist 2,5-mm-Inbus; danach lässt sich der Hebel abziehen. Unter der Abdeckkappe hält eine Spannmutter die Kartusche, die du vorsichtig mit passendem Schlüssel löst. Bei älteren UP-Armaturen ist die Kappe aus verchromtem Kunststoff, also nicht mit der Zange daran drehen.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/225750/Kartusche-fuer-Kludi-Unterputz-Duscharmatur",
+        "https://www.haustechnikdialog.de/Forum/t/285374/Kludi-Kuechenarmatur-undicht",
+        "https://www.haustechnikdialog.de/Forum/t/263592/Anleitung-Kludi-Kuechenarmatur-Demontage-bei-festsitzendem-Drehmechanismus",
+        "https://www.haustechnikdialog.de/Forum/t/95726/kludi-new-wave-waschtischarmatur-zerlegen"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Der Hebel meiner Kludi Objekta Küchenarmatur sitzt fest und lässt sich nicht abziehen. Was tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/263592/Anleitung-Kludi-Kuechenarmatur-Demontage-bei-festsitzendem-Drehmechanismus"
+      ],
+      "forum_antworten": "Haustechnikdialog: Ein Nutzer (02/2023) beschreibt die Zerlegung einer völlig verkalkten Objekta-Küchenarmatur: Zeichen entfernen, Madenschraube raus, gelbes Zahnrad abhebeln, kleinen und großen Nylonring lösen, Kalk mit Zitronensäure entfernen. Zwei spätere Nutzer (10/2023, 10/2024) melden, dass ihr Hebel trotz gelöster Schraube nicht abgeht; darauf gibt es keine Antwort.",
+      "antwort": "Eine erprobte Lösung gibt es nur von einem Nutzer: Er hat den verkalkten Drehmechanismus Schritt für Schritt zerlegt und mit Zitronensäure entkalkt. Bei zwei anderen Nutzern ging der Hebel trotz gelöster Madenschraube nicht ab, eine Antwort dazu fehlt. Wende keine rohe Gewalt an, sonst brichst du Kunststoffteile ab.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/263592/Anleitung-Kludi-Kuechenarmatur-Demontage-bei-festsitzendem-Drehmechanismus"
+      ],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Die alte Kludi-Kartusche zerfällt beim Ausbau und ein Rest steckt im Gehäuse. Wie bekomme ich ihn heraus?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/219189/Kludi-Thermostat-Kartusche-KT-46-zerfaellt",
+        "https://www.haustechnikdialog.de/Forum/t/225750/Kartusche-fuer-Kludi-Unterputz-Duscharmatur"
+      ],
+      "forum_antworten": "Haustechnikdialog (06/2019): Beim Tausch einer KT-46-Thermostatkartusche (76969) blieb das hinterste Teil im UP-Sitzrohr stecken; keine Antwort im Thread. Im Thread zur UP-Duscharmatur (2020) heißt es, bei alten Kartuschen breche oft der Verdrehstift ab und stecke tief im Gehäuse; er müsse sauber herausgeholt werden.",
+      "antwort": "",
+      "antwort_quellen": [],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Warum tropft meine Kludi-Armatur am Hebel trotz neuer Kartusche weiter?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/kludi-einhebelmischer-neue-kartusche-wasser-kommt-trotzdem-am-hebel-raus.21141/",
+        "https://www.mikrocontroller.net/topic/343987"
+      ],
+      "forum_antworten": "Dasheimwerkerforum (05/2021): Nach Einbau einer neuen 41-mm-Kartusche kam weiter Wasser am Hebel; Vermutung 'neue Kartusche defekt', später bestätigt: auch die neue hatte eine Macke, die zweite Ersatzkartusche war dicht. Mikrocontroller.net (09/2014): Kludi-Spültischarmatur tropfte unter dem Hebel, Einfetten half nur zwei Tage; neue Kartusche eingebaut, 'alles dicht'.",
+      "antwort": "Wasser unter dem Hebel kommt bei Kludi-Einhebelmischern fast immer aus der Kartusche. In zwei Forenfällen half nur eine neue Kartusche, und einmal war sogar die erste Ersatzkartusche defekt. Achte darauf, dass Sitz und Dichtfläche im Gehäuse sauber und kalkfrei sind, und zieh die Spannmutter nicht übermäßig fest. Tropft es danach weiter, reklamier die neue Kartusche.",
+      "antwort_quellen": [
+        "https://www.dasheimwerkerforum.de/threads/kludi-einhebelmischer-neue-kartusche-wasser-kommt-trotzdem-am-hebel-raus.21141/",
+        "https://www.mikrocontroller.net/topic/343987"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Kann ich bei einer Kludi-Kartusche nur die Dichtungen tauschen statt die ganze Kartusche?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.mikrocontroller.net/topic/510665",
+        "https://www.mikrocontroller.net/topic/343987"
+      ],
+      "forum_antworten": "Mikrocontroller.net (01/2021): Gesucht waren die rechteckigen Dichtringe einer 46-mm-Kartusche; laut Kludi-Antwort sind 'Einzelteile nicht verfügbar', nur die komplette Kartusche 7520100-00. Ein Nutzer half sich 2022 durch Umdrehen der Dichtungen. Mikrocontroller.net (Nachtrag 10/2021): Dichtungen unten an der Kartusche zum zweiten Mal hart, einzeln nicht erhältlich, nur komplette Kartusche.",
+      "antwort": "Nein, Kludi liefert die Dichtungen der Kartusche nach Forenberichten nicht einzeln, sondern nur die komplette Kartusche. Für die 46-mm-Ausführung ist das die 7520100-00. Ein Ersatz-O-Ring aus dem Industriebedarf ist ein Versuch auf eigenes Risiko; passende Maße wurden im Forum nicht bestätigt.",
+      "antwort_quellen": [
+        "https://www.mikrocontroller.net/topic/510665",
+        "https://www.mikrocontroller.net/topic/343987",
+        "https://assets.heizung-billiger.de/documents/kldb_7520100-00.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Welche Kartusche passt in die Derby Top, und warum kommt dort in Mittelstellung nur kaltes Wasser?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/13179/Kartusche-wechseln-bei-Derby-Top"
+      ],
+      "forum_antworten": "Haustechnikdialog (2004 bis 2006): Die Derby Top stammt von Kludi; Kaltwasser in Mittelstellung ist gewollt (Eco-Kartusche). Der Kludi-Kundendienst nannte dem Fragesteller: Eco-Patrone mit Sparfunktion 76400, alternativ ohne Sparfunktion 75201, beide passen in die Derby Top.",
+      "antwort": "Laut Kludi-Kundendienst passen in die Derby Top die Eco-Kartusche 7640000-00 und die Standardkartusche 7520100-00, beide mit 46 mm. Die Eco-Kartusche gibt in Mittelstellung bewusst kaltes Wasser, das steht so auch im Kludi-Datenblatt. Willst du in der Mitte Mischwasser, nimm die 7520100-00.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/13179/Kartusche-wechseln-bei-Derby-Top",
+        "https://assets.heizung-billiger.de/documents/kldb_7640000-00.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_7520100-00.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Mein Kludi New Wave Waschtischmischer geht schwer und tropft. Welche Kartusche brauche ich?",
+      "kategorie": "nummer",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/95726/kludi-new-wave-waschtischarmatur-zerlegen"
+      ],
+      "forum_antworten": "Haustechnikdialog (11/2008): Hebel schwergängig, Armatur tropft beim Schließen. Antwort: Griff nach oben abziehen, Kreuzschlitzschraube und Spannschraube (Spezialschlüssel) lösen, Kartusche Art.-Nr. 76619 einsetzen. Keine Rückmeldung des Fragestellers.",
+      "antwort": "Im Forum wird für die New Wave Waschtischarmatur die Kartusche 76619 genannt, also 7661900-00. Laut Kludi-Datenblatt ist das eine Keramik-Kartusche mit 28 mm Durchmesser. Ob sie in deine Ausführung passt, ist nur durch diese eine Antwort belegt; vergleich den Durchmesser mit der alten Kartusche.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/95726/kludi-new-wave-waschtischarmatur-zerlegen",
+        "https://assets.heizung-billiger.de/documents/kldb_7661900-00.pdf"
+      ],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Welche Thermostat-Regeleinheit brauche ich für meine Kludi-Thermostatarmatur?",
+      "kategorie": "nummer",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/219189/Kludi-Thermostat-Kartusche-KT-46-zerfaellt",
+        "https://www.haustechnikdialog.de/Forum/t/202219/Thermostat-Armatur-Kludi-Wartung"
+      ],
+      "forum_antworten": "Haustechnikdialog: 06/2019 tauscht ein Nutzer zwei KT-46-Steuereinheiten mit Thermostat (76969) in einer UP-Armatur. 10/2017 reinigt ein Nutzer die Temperaturkartusche seines Kludi-Brausethermostats (A-QA) wegen nachlassendem Durchfluss, ohne Antwort.",
+      "antwort": "Das hängt von der Serie ab, Kludi hat mehrere Regeleinheiten. Für Zenta-Thermostate gibt es laut Datenblatt die Regeleinheit 7447000-00 mit 23 mm, für die Unterputz-Thermostate 35156, 35158 und die Flexx.Boxx 88066 die 7480900-00 mit 30 mm. Daneben führt Kludi weitere 30-mm-Einheiten wie 7672900-00 und 7436500-00. Such deshalb zuerst die Artikelnummer deiner Armatur heraus.",
+      "antwort_quellen": [
+        "https://documents.unidomo.de/de/kldb_7447000-00.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_7480900-00.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_7672900-00.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_7436500-00.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Mein Kludi-Brausethermostat bringt immer weniger Wasser, obwohl ich die Kartusche gereinigt habe. Woran liegt das?",
+      "kategorie": "pflege",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/202219/Thermostat-Armatur-Kludi-Wartung"
+      ],
+      "forum_antworten": "Haustechnikdialog (10/2017): Fünf Jahre altes Kludi-Brausesystem (A-QA), 17 °dH. Einlaufsiebe gereinigt, Rückschlagventile geprüft, Temperaturkartusche entkalkt, Handbrause gereinigt; Durchfluss bleibt gering. Fragesteller vermutet die Absperrkartusche. Keine Antworten.",
+      "antwort": "",
+      "antwort_quellen": [],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Wo finde ich die Ersatzteilzeichnung oder Artikelnummer für meine Kludi-Armatur?",
+      "kategorie": "nummer",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/283385/Kartusche-fuer-Kludi-Logo-Mix-386810575",
+        "https://www.dasheimwerkerforum.de/threads/kartusche-fuer-kludi-logo-mix-386810575.31737/",
+        "https://www.haustechnikdialog.de/Forum/t/13179/Kartusche-wechseln-bei-Derby-Top",
+        "https://www.haustechnikdialog.de/Forum/t/285374/Kludi-Kuechenarmatur-undicht"
+      ],
+      "forum_antworten": "Haustechnikdialog (01/2025): Auf kludi.com unter 'Service' gibt es 'Historische Ersatzteilzeichnungen' für ältere Armaturen und für neuere den 'Produktdaten-Download' mit Link zum Kartuschenkompass. Dasheimwerkerforum: Durchmesser der alten Kartusche messen. Haustechnikdialog (2006): Kludi-Kundendienst nannte die passenden Artikelnummern. Haustechnikdialog (03/2025): Foto an den Kludi-Kundendienst schicken; 'Kitchenline' ist eine Eigenmarke der Zander-Gruppe und bei Kludi nicht zu finden.",
+      "antwort": "Auf kludi.com findest du im Bereich Service die historischen Ersatzteilzeichnungen für ältere Modelle und für neuere Armaturen den Produktdaten-Download mit dem Kartuschenkompass. Kommst du dort nicht weiter, schick dem Kludi-Kundendienst ein Foto deiner Armatur; Nutzer berichten, dass er passende Nummern genannt hat. Armaturen der Marke Kitchenline stammen aus einer Händler-Eigenmarke und tauchen bei Kludi nicht auf.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/283385/Kartusche-fuer-Kludi-Logo-Mix-386810575",
+        "https://www.haustechnikdialog.de/Forum/t/13179/Kartusche-wechseln-bei-Derby-Top",
+        "https://www.haustechnikdialog.de/Forum/t/285374/Kludi-Kuechenarmatur-undicht"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Gibt es für eine 20 bis 30 Jahre alte Kludi-Küchenarmatur noch Dichtungen für den Armaturenkörper?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/285374/Kludi-Kuechenarmatur-undicht"
+      ],
+      "forum_antworten": "Haustechnikdialog (03/2025): Laut Installateur gibt es für die Küchenarmatur (Kitchenline, gekauft 2005) keine Körperdichtungen mehr. Vorschläge: Dichtungssatz 7531200 'für Kludi-Mix bis 12/2002, Objekta-Mix u.a.', Dichtungssatz Kitchenline Mix ab 5/2006 (7812200-00), Kludi-Kundendienst direkt fragen (ein Nutzer bekam so Dichtungen für eine 25 Jahre alte Armatur). Fragesteller meldet: Der 7531200 passt nicht, die Dichtungen sind zu dünn.",
+      "antwort": "Für die klassische Kludi-Mix bis 12/2002 und Objekta-Mix wird im Forum der Dichtungssatz 7531200 genannt. Bei einer Kitchenline-Armatur von 2005 passte er aber nicht. Frag mit Foto direkt beim Kludi-Kundendienst nach, das hat einem anderen Nutzer bei einer 25 Jahre alten Armatur geholfen.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/285374/Kludi-Kuechenarmatur-undicht"
+      ],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Der Geräteanschluss meiner Kludi MX Spültischarmatur 399060562 ist undicht. Welches Teil muss ich tauschen?",
+      "kategorie": "nummer",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/kludi-mx-399060562-spueltischarmatur.17291/"
+      ],
+      "forum_antworten": "Dasheimwerkerforum (ca. 2021): Der Nebenabgang für die Waschmaschine war nach fünf Jahren leicht undicht. Laut beigefügter Kludi-Ersatzteilliste kommen das Multioberteil 75 222 und der Multi-Adapter 74 097 in Frage. Antwort: Wenn es nur dort undicht ist, reicht das Multioberteil 75222.",
+      "antwort": "Laut Kludi-Ersatzteilliste aus dem Thread sitzt am Geräteabgang der MX das Multioberteil 75 222; ist nur dieser Abgang undicht, reicht der Tausch dieses Oberteils. Die Mischfunktion der MX steuert laut Datenblatt eine Keramik-Kartusche K-41 mit Heißwasserbegrenzung, und vorne sitzt ein Cascade-Luftsprudler M 24 x 1.",
+      "antwort_quellen": [
+        "https://www.dasheimwerkerforum.de/threads/kludi-mx-399060562-spueltischarmatur.17291/",
+        "https://assets.heizung-billiger.de/documents/kldb_399060562.pdf"
+      ],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Welche Kludi-Kartuschengrößen gibt es, und was ist eine Niederdruck-Kartusche?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.mikrocontroller.net/topic/510665",
+        "https://www.dasheimwerkerforum.de/threads/kludi-einhebelmischer-neue-kartusche-wasser-kommt-trotzdem-am-hebel-raus.21141/",
+        "https://www.haustechnikdialog.de/Forum/t/225750/Kartusche-fuer-Kludi-Unterputz-Duscharmatur",
+        "https://www.ebay.de/p/2013639936"
+      ],
+      "forum_antworten": "Mikrocontroller.net (01/2021): Standardkartusche mit 35 oder 40 mm gibt es günstig; Kludi verwendet teils 46 mm (7520100-00). Dasheimwerkerforum (2021): 41-mm-Kartusche in Kludi-Einhebelmischer. Haustechnikdialog (2020): 46-mm-Kartusche in alter UP-Armatur. eBay-Angebot: 'Kludi Kartusche / Steuerelement 41 Mm Niederdruck 7412900-00'.",
+      "antwort": "Kludi-Datenblätter nennen Einhandmischer-Kartuschen mit 28 mm (7661900-00), 35 mm (7560500-00), 41 mm (7685600-00) und 46 mm (7520100-00, Eco: 7640000-00). Niederdruck-Kartuschen (ND) wie 7480500-00 mit 35 mm oder 7412900-00 mit 41 mm sind laut Datenblatt für drucklose Armaturen, also für den Betrieb mit offenem Untertisch-Speicher. Eine normale Kartusche gehört nicht in eine Niederdruckarmatur und umgekehrt.",
+      "antwort_quellen": [
+        "https://assets.heizung-billiger.de/documents/kldb_7661900-00.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_7560500-00.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_7685600-00.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_7520100-00.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_7640000-00.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_7480500-00.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_7412900-00.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Welche Gewindegröße hat der Strahlregler an Kludi-Armaturen?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "forum_antworten": "Keine Kludi-spezifische Forenfundstelle geöffnet; Thema aus dem Katalog, Antwort nur aus Kludi-Datenblättern.",
+      "antwort": "Aktuelle Kludi-Waschtisch- und Spültischmischer haben laut Datenblatt meist einen Strahlregler mit M 24 x 1, zum Beispiel Zenta, Pure&Easy, Balance und MX. Die ältere Zweigriff-Spültischarmatur Spezial (314530515) hat dagegen einen Luftsprudler M 22 x 1. Schau im Datenblatt deiner Armatur nach oder miss das Gewinde nach.",
+      "antwort_quellen": [
+        "https://assets.heizung-billiger.de/documents/kldb_382500575.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_372850565.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_520230575.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_399060562.pdf",
+        "https://documents.unidomo.de/de/kldb_314530515.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Übernimmt Kludi bei Defekten nach einigen Jahren noch etwas aus Kulanz oder Garantie?",
+      "kategorie": "bezug",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.energiesparhaus.at/forum-qualitaet-armaturen-hansa-und-kludi/35675",
+        "https://www.haustechnikdialog.de/Forum/t/164599/Kludi-E-Go-Armatur-Problem-mit-Kartusche-Steuereinheit"
+      ],
+      "forum_antworten": "Energiesparhaus.at (09/2014): Bei einer etwa vier Jahre alten Bozz-Ausstattung wurden Entriegelungsknopf am Thermostat und mehrfach der Brauseschlauch aus Kulanz ersetzt. Haustechnikdialog (02/2014): Bei einer neuen E-Go tauschte der Werkskundendienst nach Leck die Steuereinheit; danach war der Hebel schwergängig, die Ursache (Anzugsmoment der Spannschraube) blieb strittig. Formale Garantiebedingungen werden nicht genannt.",
+      "antwort": "",
+      "antwort_quellen": [],
+      "sicherheit": "unsicher"
+    }
+  ],
+  "teilenummern": [
+    {
+      "nummer": "7560500-00",
+      "bezeichnung": "Kartusche Ø 35 mm (Einhandmischer)",
+      "serie_oder_armatur": "Topara Unterputz-Wannenarmatur",
+      "quelle": "https://www.bauexpertenforum.de/threads/topara-kludi-unterputzarmatur-welche-kartusche-umschaltventil.137389/",
+      "zitat": "Kartusche: 7560500-00"
+    },
+    {
+      "nummer": "7527505-00",
+      "bezeichnung": "Umstellung / Umschaltventil",
+      "serie_oder_armatur": "Topara Unterputz-Wannenarmatur (laut Nutzer im Handel für Objekta-Mix und Logo-Mix geführt)",
+      "quelle": "https://www.bauexpertenforum.de/threads/topara-kludi-unterputzarmatur-welche-kartusche-umschaltventil.137389/",
+      "zitat": "Umstellung: 7527505-00"
+    },
+    {
+      "nummer": "7560500-00",
+      "bezeichnung": "Kartusche Ø 35 mm (als 75605)",
+      "serie_oder_armatur": "Logo Mix 3868175 / Logo Mix 386810575",
+      "quelle": "https://www.haustechnikdialog.de/Forum/t/283385/Kartusche-fuer-Kludi-Logo-Mix-386810575",
+      "zitat": "Logo Mix 3868175 mit der 35mm Kartusche 75605"
+    },
+    {
+      "nummer": "7560500-00",
+      "bezeichnung": "Kartusche Ø 35 mm (als 75605)",
+      "serie_oder_armatur": "Kludi Logo (Waschtisch- und Brausemischer)",
+      "quelle": "https://www.sydneybathroomware.com.au/replacement-cartridges/kludi-logo-35mm-replacement-mixer-cartridge",
+      "zitat": "Kludi Logo 35mm Replacement Mixer Cartridge"
+    },
+    {
+      "nummer": "7560700-00",
+      "bezeichnung": "Steuereinheit (Pos. 5)",
+      "serie_oder_armatur": "Logo Mix 386810575 (vom Nutzer später als Fehler bezeichnet)",
+      "quelle": "https://www.haustechnikdialog.de/Forum/t/283385/Kartusche-fuer-Kludi-Logo-Mix-386810575",
+      "zitat": "sollte die Pos. 5 7560700-00 STEUEREINHEIT sein"
+    },
+    {
+      "nummer": "7520100-00",
+      "bezeichnung": "Kartusche Ø 46 mm",
+      "serie_oder_armatur": "Kludi Unterputz-Duscharmatur Einhebel, ca. 1991",
+      "quelle": "https://www.haustechnikdialog.de/Forum/t/225750/Kartusche-fuer-Kludi-Unterputz-Duscharmatur",
+      "zitat": "Die neue Kartusche (46mm) hat die Kludi Nummer 7520100-00"
+    },
+    {
+      "nummer": "7520100-00",
+      "bezeichnung": "Kartusche Ø 46 mm ohne Sparfunktion (als 75201)",
+      "serie_oder_armatur": "Derby Top",
+      "quelle": "https://www.haustechnikdialog.de/Forum/t/13179/Kartusche-wechseln-bei-Derby-Top",
+      "zitat": "alternativ ohne Sparfunktion Kludi 75201"
+    },
+    {
+      "nummer": "7640000-00",
+      "bezeichnung": "Eco-Kartusche Ø 46 mm mit Sparfunktion (als 76400)",
+      "serie_oder_armatur": "Derby Top",
+      "quelle": "https://www.haustechnikdialog.de/Forum/t/13179/Kartusche-wechseln-bei-Derby-Top",
+      "zitat": "Eco Patrone mit Sparfunktion Kludi 76400"
+    },
+    {
+      "nummer": "7696900-00",
+      "bezeichnung": "KT-46 Steuereinheit/Kartusche mit Thermostat (als 76969)",
+      "serie_oder_armatur": "Kludi Unterputz-Thermostat (Modell nicht genannt)",
+      "quelle": "https://www.haustechnikdialog.de/Forum/t/219189/Kludi-Thermostat-Kartusche-KT-46-zerfaellt",
+      "zitat": "KLUDI KT-46 Steuereinheiten/Kartuschen mit Thermostat 76969"
+    },
+    {
+      "nummer": "7661900-00",
+      "bezeichnung": "Kartusche Ø 28 mm (als 76619)",
+      "serie_oder_armatur": "New Wave Waschtischarmatur",
+      "quelle": "https://www.haustechnikdialog.de/Forum/t/95726/kludi-new-wave-waschtischarmatur-zerlegen",
+      "zitat": "Kartusche tauschen, Art.-Nr. 76619"
+    },
+    {
+      "nummer": "7531200",
+      "bezeichnung": "Dichtungssatz Auslauf",
+      "serie_oder_armatur": "Kludi-Mix bis 12/2002, Objekta-Mix",
+      "quelle": "https://www.haustechnikdialog.de/Forum/t/285374/Kludi-Kuechenarmatur-undicht",
+      "zitat": "Dichtungssatz 7531200 für Kludi-Mix bis 12/2002 Objekta-Mix u.a."
+    },
+    {
+      "nummer": "7812200-00",
+      "bezeichnung": "Dichtungssatz",
+      "serie_oder_armatur": "Kitchenline Mix ab Bj. 5/2006 (Zander-Eigenmarke)",
+      "quelle": "https://www.haustechnikdialog.de/Forum/t/285374/Kludi-Kuechenarmatur-undicht",
+      "zitat": "kludi-dichtungssatz-kitchenline-mix-ab-bj-5-2006-7812200-00"
+    },
+    {
+      "nummer": "75222",
+      "bezeichnung": "Multioberteil (Geräteabgang)",
+      "serie_oder_armatur": "Kludi MX Spültisch-Multi-Einhandmischer 399060562",
+      "quelle": "https://www.dasheimwerkerforum.de/threads/kludi-mx-399060562-spueltischarmatur.17291/",
+      "zitat": "reicht die Nummer 75222"
+    },
+    {
+      "nummer": "74097",
+      "bezeichnung": "Multi-Adapter",
+      "serie_oder_armatur": "Kludi MX Spültisch-Multi-Einhandmischer 399060562",
+      "quelle": "https://www.dasheimwerkerforum.de/threads/kludi-mx-399060562-spueltischarmatur.17291/",
+      "zitat": "Multi-Adpater 74 097"
+    },
+    {
+      "nummer": "92506911-00",
+      "bezeichnung": "Dichtung",
+      "serie_oder_armatur": "46-mm-Kartusche 7520100-00 (laut Nutzer vermutlich nicht passend)",
+      "quelle": "https://www.mikrocontroller.net/topic/510665",
+      "zitat": "Kludi-Dichtung 92506911-00"
+    },
+    {
+      "nummer": "7447000-00",
+      "bezeichnung": "Thermostat-Regeleinheit Ø 23 mm",
+      "serie_oder_armatur": "Zenta Thermostatarmaturen",
+      "quelle": "https://documents.unidomo.de/de/kldb_7447000-00.pdf",
+      "zitat": "für KLUDI ZENTA Thermostatarmaturen"
+    },
+    {
+      "nummer": "7480900-00",
+      "bezeichnung": "Thermostat-Regeleinheit Ø 30 mm",
+      "serie_oder_armatur": "Unterputz-Thermostatarmaturen 35156, 35158, FLEXX.BOXX 88066",
+      "quelle": "https://assets.heizung-billiger.de/documents/kldb_7480900-00.pdf",
+      "zitat": "für KLUDI Unterputz-Thermostatarmaturen 35156, 35158, FLEXX.BOXX 88066"
+    },
+    {
+      "nummer": "7461100-00",
+      "bezeichnung": "Dichtungssatz",
+      "serie_oder_armatur": "Zenta, Art. 389730575 (Hochdruck) und 389790575 (Niederdruck)",
+      "quelle": "https://www.megabad.com/en/hersteller-kludi-ersatzteile-zenta-dichtungssatz-a-380942.htm",
+      "zitat": "Kludi ZENTA replacement seal set"
+    },
+    {
+      "nummer": "7412900-00",
+      "bezeichnung": "Kartusche Ø 41 mm Niederdruck",
+      "serie_oder_armatur": "drucklose Armaturen (keine Serie genannt)",
+      "quelle": "https://www.ebay.de/p/2013639936",
+      "zitat": "Kludi Kartusche / Steuerelement 41 Mm Niederdruck 7412900-00"
+    },
+    {
+      "nummer": "7480500-00",
+      "bezeichnung": "ND-Kartusche Ø 35 mm",
+      "serie_oder_armatur": "drucklose Armaturen (keine Serie genannt)",
+      "quelle": "https://assets.heizung-billiger.de/documents/kldb_7480500-00.pdf",
+      "zitat": "ND Kartusche für Einhandmischer Ø 35 mm ... für drucklose Armaturen"
+    }
+  ]
+}

@@ -1,0 +1,1655 @@
+{
+ "marke": {
+  "slug": "kludi",
+  "name": "Kludi",
+  "beschreibung": "Kludi aus Menden im Sauerland baut Armaturen für Bad und Küche: Einhandmischer wie Logo, Objekta, Zenta, Bozz, Balance, Pure&Easy und Pure&Solid, Thermostate wie Objekta Therm E und Zenta Thermostat sowie Küchenarmaturen wie Scope, L-ine, Steel, MX und Bingo Star.\n\nViele Kludi-Einhandmischer haben eine Keramikkartusche mit 35 mm Durchmesser, die 7560500-00. Ältere und größere Armaturen haben 46 mm (7520100-00 oder die Eco-Kartusche 7640000-00), die MX-Küchenarmaturen 41 mm (7685600-00). Für Armaturen an offenen Untertischspeichern gibt es eigene Niederdruck-Kartuschen, die genauso aussehen wie die normalen. Bei den Thermostaten unterscheiden sich die Regeleinheiten deutlich: 23 mm für Zenta, 30 mm für die übrigen Aufputz-Thermostate und eigene Einheiten für Unterputz-Thermostate.",
+  "nummer_hinweis": "Kludi-Armaturen haben eine 9-stellige Artikelnummer, zum Beispiel 382500575 für einen Zenta-Waschtischmischer in Chrom. Die ersten fünf Ziffern bezeichnen die Armatur (38250), die sechste und siebte die Oberfläche: 05 ist chrom, 91 chrom/weiß, 86 chrom/schwarz. Händler und Foren nennen oft nur die ersten fünf Ziffern, etwa „Logo Mix 38619“ oder „Art. 35100“. Die Nummer steht auf Rechnung, Lieferschein und Verpackung; eine feste Stelle an der Armatur nennt Kludi nicht. Die Nummer auf der Montageanleitung, etwa 9 62 725/01, gehört zur Anleitung, nicht zur Armatur.\n\nErsatzteile haben sieben Ziffern mit dem Zusatz -00, zum Beispiel 7560500-00, Werkzeuge und Kleinteile acht Ziffern wie 92907700-00. Typennummern, die mit 35 beginnen, sind Thermostate, solche mit 38, 33 oder 37 meist Einhandmischer. Fehlt die Armaturnummer, hilft die ausgebaute Kartusche weiter: Durchmesser messen und mit den Kartuschen weiter unten vergleichen, bei Thermostaten ebenso die Regeleinheit.",
+  "ersatzteil_garantie": "Kludi gibt Erstkäufern eine Herstellergarantie von fünf Jahren ab Kaufdatum, höchstens aber sechs Jahre ab Herstellung. Im Garantiefall liefert Kludi die nötigen Ersatzteile kostenlos, den Einbau durch einen Fachbetrieb zahlt der Kunde. Ausgenommen sind Verschleißteile wie Luftsprudler, Filter und Dichtungen sowie Schäden durch Kalk, Schmutz und Reinigungsmittel. Die Garantie erlischt, wenn kein autorisierter Fachbetrieb installiert oder wartet oder wenn fremde Ersatzteile eingebaut werden. Diese Bedingungen stammen aus dem März 2011 und gelten für Käufe ab dem 1.4.2011.\n\nWie lange es Ersatzteile gibt, sagt Kludi in den Bedingungen nicht. Händler führen noch Teile für deutlich ältere Armaturen, etwa eine eigene Regeleinheit für Unterputz-Thermostate bis Baujahr 07/97 (7526300-00).",
+  "hersteller_ersatzteil_url": "https://www.kludi.com/de-de/",
+  "quellen": [
+   "https://naber.com/media/1f/a1/ab/1692868890/Kludi_Herstellergarantie_FR.pdf",
+   "https://assets.heizung-billiger.de/documents/kldb_7560500-00.pdf",
+   "https://assets.heizung-billiger.de/documents/kldb_7480500-00.pdf",
+   "https://assets.heizung-billiger.de/documents/kldb_7520100-00.pdf",
+   "https://assets.heizung-billiger.de/documents/kldb_7447000-00.pdf",
+   "https://assets.heizung-billiger.de/documents/kldb_7672900-00.pdf",
+   "https://assets.heizung-billiger.de/documents/kldb_7480900-00.pdf",
+   "https://documents.unidomo.de/de/kldb_382500575.pdf",
+   "https://www.megabad.com/kludi-ersatzteile-k-2277615.htm",
+   "https://www.megabad.com/hersteller-kludi-ersatzteile-temperaturregeleinheit-07-97-a-219568.htm"
+  ],
+  "fragen": [
+   {
+    "frage": "Wo finde ich die Artikelnummer meiner Kludi-Armatur, und wie komme ich ohne sie an die richtige Kartusche?",
+    "antwort": "Die 9-stellige Nummer steht auf Rechnung, Lieferschein und Verpackung, eine feste Stelle an der Armatur nennt Kludi nicht. Ohne Nummer hilft die ausgebaute Kartusche: Kludi hat Einhandmischer-Kartuschen mit 28, 35, 41 und 46 mm, also Durchmesser messen und mit den Kartuschen auf dieser Seite vergleichen. In den Foren haben Besitzer auch passende Nummern bekommen, nachdem sie dem Kludi-Kundendienst ein Foto der Armatur geschickt hatten.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://www.dasheimwerkerforum.de/threads/kartusche-fuer-kludi-logo-mix-386810575.31737/",
+     "https://www.haustechnikdialog.de/Forum/t/13179/Kartusche-wechseln-bei-Derby-Top",
+     "https://www.haustechnikdialog.de/Forum/t/285374/Kludi-Kuechenarmatur-undicht",
+     "https://assets.heizung-billiger.de/documents/kldb_7661900-00.pdf",
+     "https://assets.heizung-billiger.de/documents/kldb_7685600-00.pdf"
+    ],
+    "teile": [
+     "kludi-kartusche-7560500",
+     "kludi-kartusche-7685600",
+     "kludi-kartusche-7520100"
+    ]
+   },
+   {
+    "frage": "Welche Kartusche passt in die Kludi Logo Mix?",
+    "antwort": "Für die Logo-Mix-Reihe nennt die Kludi-Ersatzteilzeichnung, die im Haustechnikdialog zitiert wird, die 35-mm-Kartusche 75605, also 7560500-00. megabad führt dieselbe Nummer für Logo Mix und Logo Neo. Miss trotzdem die alte Kartusche, bevor du bestellst; in einem zweiten Forum hatte ein Logo-Mix-Besitzer eine oben eckige Kartusche verbaut.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/283385/Kartusche-fuer-Kludi-Logo-Mix-386810575",
+     "https://www.dasheimwerkerforum.de/threads/kartusche-fuer-kludi-logo-mix-386810575.31737/",
+     "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm"
+    ],
+    "teile": [
+     "kludi-kartusche-7560500"
+    ],
+    "problem": "kludi-armatur-tropft"
+   },
+   {
+    "frage": "Welche Kartusche und welche Umstellung passen in eine Kludi Topara Unterputz-Wannenarmatur?",
+    "antwort": "Ein Besitzer einer Topara-Unterputzarmatur von 2004 hat im Bauexpertenforum die Kartusche 7560500-00 und die Umstellung 7527505-00 genannt. Die Kartusche führt auch megabad für Topara. Die Umstellung verkaufen Händler dagegen nur für Objekta Mix und Logo Mix; ob sie in jede Topara passt, ist offen. Vergleich deshalb Länge und Gewinde der alten Umstellung, die 7527505-00 ist 100 mm lang.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.bauexpertenforum.de/threads/topara-kludi-unterputzarmatur-welche-kartusche-umschaltventil.137389/",
+     "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+     "https://www.amazon.de/dp/B00ID3JHWS"
+    ],
+    "teile": [
+     "kludi-kartusche-7560500",
+     "kludi-umstellung-7527505"
+    ],
+    "problem": "kludi-umstellung-undicht"
+   },
+   {
+    "frage": "Welche Kartusche passt in die Kludi Derby Top, und warum kommt dort in Mittelstellung nur kaltes Wasser?",
+    "antwort": "Der Kludi-Kundendienst hat einem Besitzer im Haustechnikdialog zwei 46-mm-Kartuschen genannt: die Eco-Kartusche 7640000-00 und die normale 7520100-00. Die Eco-Kartusche gibt in Mittelstellung absichtlich kaltes Wasser, so steht es auch im Kludi-Datenblatt. Wer in der Mitte warmes Mischwasser will, nimmt die 7520100-00.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/13179/Kartusche-wechseln-bei-Derby-Top",
+     "https://assets.heizung-billiger.de/documents/kldb_7640000-00.pdf",
+     "https://assets.heizung-billiger.de/documents/kldb_7520100-00.pdf"
+    ],
+    "teile": [
+     "kludi-kartusche-7640000",
+     "kludi-kartusche-7520100"
+    ]
+   },
+   {
+    "frage": "Meine Kludi-Armatur hängt an einem Untertischspeicher. Brauche ich eine andere Kartusche?",
+    "antwort": "Ja. Armaturen für offene Untertisch- oder Übertischspeicher sind Niederdruckarmaturen und brauchen eine Kartusche für drucklose Armaturen: bei 35 mm die 7480500-00, bei 41 mm die 7412900-00. Laut Kludi-Datenblatt hat die 35-mm-Niederdruck-Kartusche dieselben Maße wie die normale 7560500-00, am Aussehen erkennst du den Unterschied also nicht. Erkennbar ist eine Niederdruckarmatur an den drei Anschlussschläuchen.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://assets.heizung-billiger.de/documents/kldb_7480500-00.pdf",
+     "https://assets.heizung-billiger.de/documents/kldb_7412900-00.pdf",
+     "https://assets.heizung-billiger.de/documents/kldb_7560500-00.pdf",
+     "https://www.ebay.de/p/2013639936"
+    ],
+    "teile": [
+     "kludi-kartusche-7480500",
+     "kludi-kartusche-7412900",
+     "kludi-kartusche-7560500"
+    ]
+   },
+   {
+    "frage": "Welche Kartusche brauche ich für eine alte Kludi-Unterputz-Duscharmatur mit Einhebel?",
+    "antwort": "Bei einer Unterputz-Einhebelarmatur von etwa 1991 passte im Haustechnikdialog die 46-mm-Kartusche 7520100-00, die es weiterhin gibt. Der Besitzer hatte zuvor die Abdeckung gemessen (53,5 mm außen) und daraus auf 46 mm geschlossen. Prüf am ausgebauten Teil, ob deine Kartusche wirklich 46 mm hat.",
+    "kategorie": "verfuegbarkeit",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/225750/Kartusche-fuer-Kludi-Unterputz-Duscharmatur",
+     "https://assets.heizung-billiger.de/documents/kldb_7520100-00.pdf"
+    ],
+    "teile": [
+     "kludi-kartusche-7520100"
+    ]
+   },
+   {
+    "frage": "Wie bekomme ich bei einer Kludi-Einhebelarmatur den Hebel ab und die Kartusche heraus?",
+    "antwort": "Wasser absperren. Bei den meisten Kludi-Einhebelmischern sitzt unter dem rot-blauen Zeichen eine Madenschraube, oft mit 2,5-mm-Innensechskant; nach dem Lösen lässt sich der Hebel nach oben abziehen. Darunter hält eine Spannschraube die Kartusche. Bei älteren Unterputzarmaturen ist die Abdeckkappe aus verchromtem Kunststoff, dort nicht mit der Zange ansetzen. Für die Spannschrauben gibt es Kludi-Schlüssel mit Schlüsselweite 30, 32, 37 und 46.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/225750/Kartusche-fuer-Kludi-Unterputz-Duscharmatur",
+     "https://www.haustechnikdialog.de/Forum/t/285374/Kludi-Kuechenarmatur-undicht",
+     "https://www.haustechnikdialog.de/Forum/t/263592/Anleitung-Kludi-Kuechenarmatur-Demontage-bei-festsitzendem-Drehmechanismus",
+     "https://www.haustechnikdialog.de/Forum/t/95726/kludi-new-wave-waschtischarmatur-zerlegen",
+     "https://www.amazon.de/dp/B00N1UZWN6"
+    ],
+    "teile": [
+     "kludi-spannschluessel-92907700",
+     "kludi-spannschluessel-92912800",
+     "kludi-spannschluessel-92907300",
+     "kludi-spannschluessel-92914900"
+    ],
+    "problem": "kludi-armatur-tropft"
+   },
+   {
+    "frage": "Warum tropft meine Kludi-Armatur am Hebel trotz neuer Kartusche weiter?",
+    "antwort": "Wasser unter dem Hebel kommt bei Kludi-Einhebelmischern in aller Regel aus der Kartusche. In zwei Forenfällen half nur eine neue Kartusche, und in einem davon war schon die erste Ersatzkartusche fehlerhaft, erst die zweite war dicht. Sitz und Dichtfläche im Gehäuse vorher von Kalk befreien. Bleibt die neue Kartusche undicht, reklamieren.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.dasheimwerkerforum.de/threads/kludi-einhebelmischer-neue-kartusche-wasser-kommt-trotzdem-am-hebel-raus.21141/",
+     "https://www.mikrocontroller.net/topic/343987"
+    ],
+    "teile": [],
+    "problem": "kludi-armatur-tropft"
+   },
+   {
+    "frage": "Kann ich bei einer Kludi-Kartusche nur die Dichtungen tauschen?",
+    "antwort": "Nein. Laut einer Antwort von Kludi, die im Forum mikrocontroller.net zitiert wird, gibt es die Einzelteile der Kartusche nicht, nur die komplette Kartusche, bei 46 mm also die 7520100-00. Ein zweiter Nutzer berichtet dasselbe für die Dichtungen an der Unterseite.",
+    "kategorie": "verfuegbarkeit",
+    "quellen": [
+     "https://www.mikrocontroller.net/topic/510665",
+     "https://www.mikrocontroller.net/topic/343987"
+    ],
+    "teile": [
+     "kludi-kartusche-7520100"
+    ]
+   },
+   {
+    "frage": "Welche Thermostat-Regeleinheit brauche ich für meinen Kludi-Thermostat?",
+    "antwort": "Das hängt von der Armatur ab, Kludi hat mehrere nicht austauschbare Regeleinheiten. Zenta-Thermostate (35100, 35101) haben laut Kludi-Datenblatt die 7447000-00 mit 23 mm. Die meisten anderen Aufputz-Thermostate, etwa Objekta Therm E 35200 oder New Waves 57420, haben laut Händlern die 7672900-00 mit 30 mm. Unterputz-Thermostate mit den Körpern 35156 und 35158 sowie FLEXX.BOXX haben laut Kludi die 7480900-00.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://assets.heizung-billiger.de/documents/kldb_7447000-00.pdf",
+     "https://assets.heizung-billiger.de/documents/kldb_7672900-00.pdf",
+     "https://assets.heizung-billiger.de/documents/kldb_7480900-00.pdf",
+     "https://www.manomano.de/p/kludi-temperaturregeleinheit-fuer-ersatz-352003520535260-354003540157420-7672900-00-39682795",
+     "https://www.haustechnikdialog.de/Forum/t/219189/Kludi-Thermostat-Kartusche-KT-46-zerfaellt"
+    ],
+    "teile": [
+     "kludi-thermostatkartusche-7447000",
+     "kludi-thermostatkartusche-7672900",
+     "kludi-thermostatkartusche-7480900"
+    ],
+    "problem": "kludi-thermostat-wird-nicht-warm"
+   },
+   {
+    "frage": "Der Geräteanschluss meiner Kludi MX Spültischarmatur ist undicht. Welches Teil muss ich tauschen?",
+    "antwort": "Laut der Kludi-Ersatzteilliste, die im Heimwerkerforum zur MX 399060562 gezeigt wird, sitzt am Geräteabgang das Multioberteil 75222 (7522200-00), dazu gehört der Multi-Adapter 74097. Ist nur der Abgang für Spül- oder Waschmaschine undicht, reicht laut der Antwort dort das Multioberteil.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.dasheimwerkerforum.de/threads/kludi-mx-399060562-spueltischarmatur.17291/",
+     "https://www.megabad.com/hersteller-kludi-ersatzteile-multi-oberteil-a-219955.htm"
+    ],
+    "teile": [
+     "kludi-oberteil-7522200"
+    ]
+   },
+   {
+    "frage": "Welche Gewindegröße hat der Strahlregler an meiner Kludi-Armatur?",
+    "antwort": "Viele aktuelle Kludi-Waschtischmischer haben laut Datenblatt M 24 x 1, etwa Zenta, Pure&Easy, Pure&Solid und Balance. Es gibt aber Ausnahmen: Der Bozz-Waschtischmischer 75 hat laut megabad M 18,5, die Objekta-Küchenarmatur 32024 M 18 x 1,5 und die L-ine S 40851 M 16 x 1. Schau ins Datenblatt deiner Armatur oder miss das Gewinde am Auslauf.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://documents.unidomo.de/de/kldb_382500575.pdf",
+     "https://documents.unidomo.de/de/kldb_372850565.pdf",
+     "https://documents.unidomo.de/de/kldb_520230575.pdf",
+     "https://www.megabad.com/kludi-badarmaturen-bozz-waschtisch-einhandmischer-75-a-2370341.htm",
+     "https://www.megabad.com/kludi-ersatzteile-strahlregler-m-18-x-a-1248080.htm",
+     "https://www.megabad.com/hersteller-kludi-ersatzteile-ine-strahlregler-m-a-597760.htm"
+    ],
+    "teile": [
+     "kludi-strahlregler-7417900",
+     "kludi-strahlregler-7523505",
+     "kludi-strahlregler-7330505"
+    ]
+   },
+   {
+    "frage": "Ist eine undichte Kludi-Kartusche nach einigen Jahren noch ein Garantiefall?",
+    "antwort": "Kludi gibt Erstkäufern fünf Jahre Herstellergarantie ab Kaufdatum, höchstens sechs Jahre ab Herstellung. Ausgeschlossen sind Schäden durch Kalk und Schmutz, und die Garantie erlischt, wenn kein autorisierter Fachbetrieb installiert hat. Im Garantiefall liefert Kludi das Ersatzteil kostenlos, den Einbau zahlst du. Für die Meldung braucht es den Kaufbeleg, und sie muss innerhalb von zwei Monaten nach Entdecken des Fehlers schriftlich erfolgen.",
+    "kategorie": "verfuegbarkeit",
+    "quellen": [
+     "https://naber.com/media/1f/a1/ab/1692868890/Kludi_Herstellergarantie_FR.pdf"
+    ],
+    "teile": []
+   }
+  ]
+ },
+ "probleme": [
+  {
+   "slug": "kludi-armatur-tropft",
+   "titel": "Kludi Armatur tropft",
+   "symptom": "Aus dem Auslauf tropft Wasser, obwohl der Hebel geschlossen ist, oder unter dem Hebel tritt Wasser aus.",
+   "ursachen": [
+    {
+     "ursache": "Keramikkartusche verschlissen oder verkalkt, die Dichtscheiben schließen nicht mehr",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "kludi-kartusche-7560500",
+      "kludi-kartusche-7480500",
+      "kludi-kartusche-7520100",
+      "kludi-kartusche-7640000",
+      "kludi-kartusche-7685600",
+      "kludi-kartusche-7412900",
+      "kludi-kartusche-7486800"
+     ]
+    },
+    {
+     "ursache": "Bei Unterputz-Wannenmischern: Umstellung undicht, Wasser läuft gleichzeitig aus Wanneneinlauf und Brause",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "kludi-umstellung-7527505",
+      "kludi-umstellung-7648005",
+      "kludi-umstellung-7823505"
+     ]
+    },
+    {
+     "ursache": "Bei Ventilen mit Drehgriff: Keramik-Oberteil verschlissen",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "kludi-oberteil-7505400",
+      "kludi-oberteil-7505500",
+      "kludi-oberteil-7510500"
+     ]
+    }
+   ],
+   "schritte": [
+    "Armaturnummer heraussuchen (Rechnung, Verpackung) oder später die ausgebaute Kartusche messen. Die meisten Kludi-Einhandmischer haben 35 mm (7560500-00), ältere 46 mm (7520100-00), MX-Küchenarmaturen 41 mm (7685600-00).",
+    "Hängt die Armatur an einem offenen Untertischspeicher (drei Anschlussschläuche), brauchst du die Niederdruck-Kartusche, bei 35 mm die 7480500-00.",
+    "Wasser an den Eckventilen absperren, Hebel öffnen, damit der Druck entweicht.",
+    "Rot-blaues Zeichen heraushebeln, Madenschraube lösen (oft 2,5-mm-Innensechskant) und den Hebel nach oben abziehen. Abdeckkappe abschrauben.",
+    "Spannschraube mit dem passenden Kludi-Schlüssel oder einem Maulschlüssel lösen, keine Rohrzange. Kartusche herausziehen.",
+    "Sitz im Gehäuse von Kalk befreien, neue Kartusche so einsetzen, dass die Zapfen in den Bohrungen sitzen, Spannschraube fest, aber nicht übermäßig anziehen, Hebel montieren.",
+    "Wasser langsam öffnen. Tropft es am Hebel weiter, ist meist die neue Kartusche fehlerhaft."
+   ],
+   "fachbetrieb_ab": "Wenn Eckventile fehlen oder nicht schließen, die Spannschraube festsitzt, ein abgebrochener Rest der alten Kartusche im Gehäuse steckt oder bei einer Unterputzarmatur Wasser hinter Wand oder Fliesen austritt.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/kldb_7560500-00.pdf",
+    "https://assets.heizung-billiger.de/documents/kldb_7480500-00.pdf",
+    "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+    "https://www.haustechnikdialog.de/Forum/t/285374/Kludi-Kuechenarmatur-undicht",
+    "https://www.haustechnikdialog.de/Forum/t/225750/Kartusche-fuer-Kludi-Unterputz-Duscharmatur",
+    "https://www.dasheimwerkerforum.de/threads/kludi-einhebelmischer-neue-kartusche-wasser-kommt-trotzdem-am-hebel-raus.21141/",
+    "https://www.mikrocontroller.net/topic/343987"
+   ]
+  },
+  {
+   "slug": "kludi-thermostat-wird-nicht-warm",
+   "titel": "Kludi Thermostat wird nicht warm",
+   "symptom": "Am Kludi-Thermostat kommt nur lauwarmes oder kaltes Wasser, die Temperatur schwankt, oder es kommt immer weniger Wasser.",
+   "ursachen": [
+    {
+     "ursache": "Thermostat-Regeleinheit verkalkt oder das Wachsdehnstoffelement ist defekt",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "kludi-thermostatkartusche-7672900",
+      "kludi-thermostatkartusche-7447000",
+      "kludi-thermostatkartusche-7480900",
+      "kludi-thermostatkartusche-7492700"
+     ]
+    },
+    {
+     "ursache": "Einlaufsiebe oder Rückflussverhinderer in den Anschlüssen zugesetzt, der Durchfluss sinkt",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Bei Unterputz-Thermostaten: Absperr-Oberteil verkalkt, es kommt wenig Wasser",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "kludi-oberteil-7510500"
+     ]
+    }
+   ],
+   "schritte": [
+    "Armaturnummer heraussuchen. Zenta-Thermostate (35100, 35101) haben die 23-mm-Regeleinheit 7447000-00, die meisten anderen Aufputz-Thermostate wie Objekta Therm E die 30-mm-Einheit 7672900-00, Unterputz-Thermostate mit Körper 35156 oder 35158 die 7480900-00.",
+    "Wasser absperren, bei Aufputz-Thermostaten an den Absperrungen in den S-Anschlüssen, sonst an der Hauptabsperrung.",
+    "Temperaturgriff abziehen und die Regeleinheit herausschrauben.",
+    "Einlaufsiebe und Rückflussverhinderer in den Anschlüssen reinigen, die Regeleinheit entkalken. Hilft das nicht, die Regeleinheit tauschen.",
+    "Neue Regeleinheit mit Armaturenfett an den O-Ringen einsetzen, Griff so aufsetzen, dass die Sperre bei 38 °C greift, und Wasser öffnen.",
+    "Temperatur mit einem Thermometer prüfen und den Griff falls nötig neu ausrichten."
+   ],
+   "fachbetrieb_ab": "Bei Unterputz-Thermostaten, wenn sich die Regeleinheit nicht lösen lässt oder ein Rest im Sitzrohr stecken bleibt, wenn Wasser hinter der Wand austritt oder die Warmwasserbereitung selbst nicht genug Temperatur liefert.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/kldb_7447000-00.pdf",
+    "https://assets.heizung-billiger.de/documents/kldb_7672900-00.pdf",
+    "https://assets.heizung-billiger.de/documents/kldb_7480900-00.pdf",
+    "https://assets.heizung-billiger.de/documents/kldb_351000538.pdf",
+    "https://www.manomano.de/p/kludi-temperaturregeleinheit-fuer-ersatz-352003520535260-354003540157420-7672900-00-39682795",
+    "https://www.haustechnikdialog.de/Forum/t/202219/Thermostat-Armatur-Kludi-Wartung",
+    "https://www.haustechnikdialog.de/Forum/t/219189/Kludi-Thermostat-Kartusche-KT-46-zerfaellt"
+   ]
+  },
+  {
+   "slug": "kludi-umstellung-undicht",
+   "titel": "Kludi Umsteller an der Wanne undicht",
+   "symptom": "An der Wannenarmatur läuft Wasser gleichzeitig aus Wanneneinlauf und Brause, oder der Umsteller springt nicht mehr zurück.",
+   "ursachen": [
+    {
+     "ursache": "Umstellung verkalkt oder Dichtungen verschlissen",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "kludi-umstellung-7527505",
+      "kludi-umstellung-7648005",
+      "kludi-umstellung-7823505",
+      "kludi-umstellung-7352405"
+     ]
+    }
+   ],
+   "schritte": [
+    "Armaturnummer heraussuchen. Händler nennen die Umstellung 7527505-00 für Objekta Mix 33419 und Logo Mix 38619, die 7648005-00 für MX 33535, Objekta Mix New 33615, New Waves 57513 und Balance, die 7823505-00 für Zenta 38660 und O-Cean 38960.",
+    "Wasser an der Hauptabsperrung oder den Vorabsperrungen schließen.",
+    "Griff des Umstellers abnehmen und die Umstellung herausschrauben.",
+    "Länge und Gewinde der alten Umstellung mit der neuen vergleichen, die 7527505-00 ist zum Beispiel 100 mm lang.",
+    "Neue Umstellung mit Armaturenfett einsetzen, Griff montieren und Wasser langsam öffnen."
+   ],
+   "fachbetrieb_ab": "Wenn sich die Umstellung nicht lösen lässt, keine Vorabsperrung vorhanden ist oder hinter der Wand Wasser austritt.",
+   "quellen": [
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-objekta-logo-mix-a-361433.htm",
+    "https://www.amazon.de/dp/B00ID3JHWS",
+    "https://www.amazon.de/dp/B013H05QJY",
+    "https://www.amazon.de/dp/B017UC0DX4",
+    "https://www.bauexpertenforum.de/threads/topara-kludi-unterputzarmatur-welche-kartusche-umschaltventil.137389/"
+   ]
+  }
+ ],
+ "widersprueche": [
+  {
+   "thema": "Wofür die Regeleinheit 7447000-00 gedacht ist",
+   "aussage_a": "Das Kludi-Datenblatt nennt die 7447000-00 eine Thermostat-Regeleinheit mit 23 mm Durchmesser „für KLUDI ZENTA Thermostatarmaturen“. megabad nennt die Armaturen 35100 und 35101.",
+   "quelle_a": "https://assets.heizung-billiger.de/documents/kldb_7447000-00.pdf",
+   "aussage_b": "Amazon verkauft sie als „Kartusche für Einhandmischer und Topara Thermostat“, in der Beschreibung steht ein Dichtungssatz für Kludi Mix und Objekta Mix. Eine Einhandmischer-Kartusche ist sie nicht, und für einen Topara-Thermostat gibt es keinen zweiten Beleg.",
+   "quelle_b": "https://www.amazon.de/dp/B00AOIPNF0"
+  },
+  {
+   "thema": "Beschreibung der Niederdruck-Kartusche 7480500-00 bei Amazon",
+   "aussage_a": "Laut Kludi-Datenblatt ist die 7480500-00 eine Keramikkartusche mit 35 mm Durchmesser für drucklose Einhandmischer.",
+   "quelle_a": "https://assets.heizung-billiger.de/documents/kldb_7480500-00.pdf",
+   "aussage_b": "Das Amazon-Angebot mit dieser Nummer im Titel beschreibt in den Stichpunkten eine „Temperaturregeleinheit Ersatzteil für 35100, 35101“, also das Zenta-Thermostatteil. Maßgeblich ist die Nummer im Titel.",
+   "quelle_b": "https://www.amazon.de/dp/B00AOIPNFK"
+  },
+  {
+   "thema": "Durchmesser der Regeleinheit 7672900-00",
+   "aussage_a": "Kludi gibt für die 7672900-00 einen Durchmesser von 30 mm an.",
+   "quelle_a": "https://assets.heizung-billiger.de/documents/kldb_7672900-00.pdf",
+   "aussage_b": "ManoMano verkauft sie als „Thermostatkartusche 35 mm“, nennt in den technischen Daten aber ebenfalls 30 mm.",
+   "quelle_b": "https://www.manomano.de/p/kludi-temperaturregeleinheit-fuer-ersatz-352003520535260-354003540157420-7672900-00-39682795"
+  },
+  {
+   "thema": "Armaturnummer 35205 oder 38205 bei der Regeleinheit 7672900-00",
+   "aussage_a": "ManoMano nennt die Regeleinheit für den Medi-Care-Thermostat 35205.",
+   "quelle_a": "https://www.manomano.de/p/kludi-temperaturregeleinheit-fuer-ersatz-352003520535260-354003540157420-7672900-00-39682795",
+   "aussage_b": "Amazon nennt in derselben Liste 38205 statt 35205. Kludi-Thermostate haben Nummern, die mit 35 beginnen; 38 steht bei Kludi für Einhandmischer.",
+   "quelle_b": "https://www.amazon.de/dp/B00AOIPNE6"
+  },
+  {
+   "thema": "Umstellung für die Topara-Unterputzarmatur",
+   "aussage_a": "Ein Besitzer einer Topara-Unterputzarmatur von 2004 nennt im Bauexpertenforum die Umstellung 7527505-00.",
+   "quelle_a": "https://www.bauexpertenforum.de/threads/topara-kludi-unterputzarmatur-welche-kartusche-umschaltventil.137389/",
+   "aussage_b": "megabad und Amazon führen die 7527505-00 nur für Objekta Mix 33419 und Logo Mix 38619. Ein zweiter Forennutzer fragte deshalb, ob sie in die Topara wirklich passt; eine Antwort steht im Thread nicht.",
+   "quelle_b": "https://www.megabad.com/hersteller-kludi-ersatzteile-objekta-logo-mix-a-361433.htm"
+  }
+ ],
+ "nicht_geprueft": [
+  "Kludi veröffentlicht keinen Ersatzteilkatalog und keine Ersatzteillisten je Armatur. Die Zuordnungen stammen deshalb aus Kludi-Datenblättern (nur bei Thermostat-Regeleinheiten mit Armaturnummer), aus den Angaben von megabad, Amazon, ManoMano und Galaxus sowie aus Forenbeiträgen. Die meisten Zuordnungen haben die Stufe eine_quelle.",
+  "Für Zenta-, Pure&Easy- und Pure&Solid-Einhandmischer nennen die Datenblätter eine Keramikkartusche (bei Zenta mit 35 mm), aber keine Kartuschennummer. Eine Kartusche ist diesen Serien deshalb nicht zugeordnet.",
+  "Die Galaxus-GTIN 4021344044013 gehört zu einer „Temperaturregeleinheit für Aufputz-Thermostate“ ohne Nummer; divapor nennt sie bei der 7447000-00. Weil Galaxus die Nummer nicht zeigt, steht bei der 7447000-00 keine EAN.",
+  "Baujahre der Serien sind leer, weil weder Datenblätter noch Händler sie nennen."
+ ],
+ "serien": [
+  {
+   "slug": "logo-mix",
+   "name": "Logo Mix",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "38681",
+    "38619"
+   ],
+   "erkennungsmerkmale": "Einhandmischer mit Typennummern, die mit 38 beginnen; 38681 ist der Wanneneinlauf (chrom 386810575), 38619 der Unterputz-Wannenfüll- und Brausemischer.",
+   "beschreibung": "Ältere Einhandmischer-Linie für Waschtisch, Wanne und Dusche. Die im Forum zitierte Kludi-Ersatzteilzeichnung und megabad nennen die 35-mm-Kartusche 7560500-00, Händler für den Unterputzmischer die Umstellung 7527505-00.",
+   "quellen": [
+    "https://www.haustechnikdialog.de/Forum/t/283385/Kartusche-fuer-Kludi-Logo-Mix-386810575",
+    "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-objekta-logo-mix-a-361433.htm"
+   ]
+  },
+  {
+   "slug": "derby-top",
+   "name": "Derby Top",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "Einhandmischer, bei dem in Mittelstellung des Hebels nur kaltes Wasser kommt.",
+   "beschreibung": "Ältere Kludi-Linie mit 46-mm-Kartusche. Der Kludi-Kundendienst nannte einem Besitzer die Eco-Kartusche 7640000-00 (kaltes Wasser in Mittelstellung) und die normale 7520100-00.",
+   "quellen": [
+    "https://www.haustechnikdialog.de/Forum/t/13179/Kartusche-wechseln-bei-Derby-Top"
+   ]
+  },
+  {
+   "slug": "logo-neo",
+   "name": "Logo Neo",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "",
+   "beschreibung": "Nachfolger von Logo Mix. megabad nennt für Logo Neo die 35-mm-Kartusche 7560500-00.",
+   "quellen": [
+    "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm"
+   ]
+  },
+  {
+   "slug": "objekta-mix",
+   "name": "Objekta Mix und Objekta Mix New",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "33419",
+    "33615"
+   ],
+   "erkennungsmerkmale": "Typennummern beginnen mit 33; 33419 ist der Unterputz-Wannenmischer Objekta Mix, 33615 der von Objekta Mix New.",
+   "beschreibung": "Einhandmischer für Bad und Unterputz. Für Objekta Mix New nennt megabad die 35-mm-Kartusche 7560500-00. Die Unterputz-Wannenmischer haben je nach Generation die Umstellung 7527505-00 (33419) oder 7648005-00 (33615).",
+   "quellen": [
+    "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-objekta-logo-mix-a-361433.htm",
+    "https://www.amazon.de/dp/B013H05QJY"
+   ]
+  },
+  {
+   "slug": "objekta-kueche",
+   "name": "Objekta Küchenarmatur",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "32023",
+    "32024"
+   ],
+   "erkennungsmerkmale": "Typennummern 32023 und 32024 (Händler schreiben auch 320230 und 320240).",
+   "beschreibung": "Spültisch-Einhandmischer der Objekta-Linie. megabad nennt für die Armaturen 320230 und 320240 die Kartusche K-25 (7486800-00) und für die 32024 den Strahlregler M 18 x 1,5 (7523505-00).",
+   "quellen": [
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-ersatzkartusche-a-211047.htm",
+    "https://www.megabad.com/kludi-ersatzteile-strahlregler-m-18-x-a-1248080.htm"
+   ]
+  },
+  {
+   "slug": "objekta-therm-e",
+   "name": "Objekta Therm E (Aufputz-Thermostat)",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "35200",
+    "35260"
+   ],
+   "erkennungsmerkmale": "Aufputz-Thermostat für Brause (35200) oder Wanne (35260) mit Temperaturgriff rechts und Keramik-Oberteil 180° zum Absperren; Brausethermostat zum Beispiel 352000538.",
+   "beschreibung": "Kludis Standard-Aufputzthermostat. Die Regeleinheit ist laut ManoMano und Amazon die 7672900-00 mit 30 mm Durchmesser.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/kldb_352000538.pdf",
+    "https://www.manomano.de/p/kludi-temperaturregeleinheit-fuer-ersatz-352003520535260-354003540157420-7672900-00-39682795",
+    "https://www.amazon.de/dp/B00AOIPNE6"
+   ]
+  },
+  {
+   "slug": "zenta",
+   "name": "Zenta",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "38250",
+    "38265",
+    "38660"
+   ],
+   "erkennungsmerkmale": "Typennummern 38250 (Waschtisch, chrom 382500575, chrom/weiß 382509175, chrom/schwarz 382508675), 38265 (Zenta XXL), 38660 (Unterputz-Wannenmischer). Geschlossener Metallhebel, Strahlregler M 24 x 1.",
+   "beschreibung": "Einhandmischer-Linie mit 35-mm-Keramikkartusche laut Kludi-Datenblatt. Für den Unterputz-Wannenmischer 38660 nennt Amazon die Umstellung 7823505-00, für die Spültischarmatur führt Galaxus einen eigenen Dichtungssatz (7461100-00).",
+   "quellen": [
+    "https://documents.unidomo.de/de/kldb_382500575.pdf",
+    "https://www.amazon.de/dp/B017UC0DX4"
+   ]
+  },
+  {
+   "slug": "zenta-thermostat",
+   "name": "Zenta Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "35100",
+    "35101"
+   ],
+   "erkennungsmerkmale": "Aufputz-Thermostat für Brause (35100, chrom 351000538) oder Wanne (35101), Keramik-Oberteil 90°, Temperatursperre bei 38 °C.",
+   "beschreibung": "Die Regeleinheit ist laut Kludi-Datenblatt die 7447000-00 mit 23 mm Durchmesser, die kleinste der Kludi-Thermostat-Regeleinheiten. Die 30-mm-Einheiten anderer Kludi-Thermostate haben einen anderen Durchmesser.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/kldb_351000538.pdf",
+    "https://assets.heizung-billiger.de/documents/kldb_7447000-00.pdf",
+    "https://www.megabad.com/kludi-ersatzteile-kartuschen-temperaturregeleinheit-a-197030.htm"
+   ]
+  },
+  {
+   "slug": "pure-easy",
+   "name": "Pure&Easy",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "37285"
+   ],
+   "erkennungsmerkmale": "Waschtischmischer 60 mit geschlossenem Metallhebel, Strahlregler M24 und Kunststoff-Ablaufgarnitur; chrom 372850565.",
+   "beschreibung": "Günstige Einhandmischer-Linie. Das Kludi-Datenblatt nennt eine Keramikkartusche mit Heißwasserbegrenzung, aber keine Kartuschennummer und keinen Durchmesser. Vor dem Bestellen die alte Kartusche ausbauen und messen.",
+   "quellen": [
+    "https://documents.unidomo.de/de/kldb_372850565.pdf"
+   ]
+  },
+  {
+   "slug": "pure-solid",
+   "name": "Pure&Solid",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "34292"
+   ],
+   "erkennungsmerkmale": "Waschtischmischer mit Strahlregler M24, chrom 342920575.",
+   "beschreibung": "Einhandmischer-Linie. Für den Waschtischmischer führt Galaxus den Ersatzhebel 7361905-00. Eine Kartuschennummer nennt das Datenblatt nicht.",
+   "quellen": [
+    "https://documents.unidomo.de/de/kldb_342920575.pdf",
+    "https://www.galaxus.de/de/s4/product/kludi-hebel-puresolid-wt-ehm-chr-duscharmatur-badewannenarmatur-58059262"
+   ]
+  },
+  {
+   "slug": "bozz",
+   "name": "Bozz",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "38270",
+    "38277",
+    "38297",
+    "38017",
+    "35203"
+   ],
+   "erkennungsmerkmale": "Typennummern 38270 (Waschtischmischer 75, Strahlregler M 18,5), 38277 und 38297 (Niederdruck), 38017 (Wandauslaufventil), 35203 (Thermostat).",
+   "beschreibung": "Breite Linie mit Waschtisch-, Wannen- und Thermostatarmaturen. megabad nennt für Bozz die 35-mm-Kartusche 7560500-00, Galaxus für die 4-Loch-Wannenrandarmatur die Umstellung 7352405-00.",
+   "quellen": [
+    "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+    "https://www.megabad.com/kludi-badarmaturen-bozz-waschtisch-einhandmischer-75-a-2370341.htm",
+    "https://www.galaxus.de/de/s4/product/kludi-umstellung-f-bozz-4-loch-wafue-chr-sauna-zubehoer-33876567"
+   ]
+  },
+  {
+   "slug": "balance",
+   "name": "Balance",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "52023",
+    "52026",
+    "35250"
+   ],
+   "erkennungsmerkmale": "Waschtischmischer 520230575 und 520260575 mit s-pointer-Strahlregler M24; Brausethermostat 352500575.",
+   "beschreibung": "Einhandmischer-Linie für Bad und Unterputz. megabad nennt für die Waschtischmischer das Strahlregler-Set 7417900-00 und für den Unterputz-Wannenmischer die Umstellung 7648005-00.",
+   "quellen": [
+    "https://documents.unidomo.de/de/kldb_520230575.pdf",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-strahlregler-set-520230575-a-229080.htm",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-umstellung-balance-up-a-332350.htm"
+   ]
+  },
+  {
+   "slug": "topara",
+   "name": "Topara",
+   "produkttyp": "wannenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "",
+   "beschreibung": "Ältere Einhandmischer-Linie, auch als Unterputz-Wannen- und Brausemischer. Im Bauexpertenforum hat ein Besitzer einer Topara-Unterputzarmatur von 2004 die 35-mm-Kartusche 7560500-00 und die Umstellung 7527505-00 gefunden; megabad nennt die 7560500-00 ebenfalls für Topara.",
+   "quellen": [
+    "https://www.bauexpertenforum.de/threads/topara-kludi-unterputzarmatur-welche-kartusche-umschaltventil.137389/",
+    "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm"
+   ]
+  },
+  {
+   "slug": "mx",
+   "name": "MX",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "33535",
+    "39906"
+   ],
+   "erkennungsmerkmale": "Typennummer 33535 ist der Unterputz-Wannenmischer MX, 39906 (chrom 399060562) der Spültischmischer mit Geräteanschluss.",
+   "beschreibung": "Einhandmischer-Linie für Küche und Bad. megabad nennt für MX die 41-mm-Kartusche 7685600-00 und für MX-Armaturen in Niederdruck-Ausführung die 7412900-00.",
+   "quellen": [
+    "https://www.megabad.com/kludi-ersatzteile-steuereinheit-41-mm-a-116765.htm",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-ersatzkartusche-k41-niederdruck-a-202914.htm",
+    "https://www.amazon.de/dp/B013H05QJY"
+   ]
+  },
+  {
+   "slug": "bingo-star",
+   "name": "Bingo Star",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "",
+   "beschreibung": "Einfache Einhandmischer für Spüle und Waschtisch, auch als Niederdruck-Variante. megabad nennt die 35-mm-Kartusche 7560500-00 und für Bingo Star Niederdruck die 7480500-00.",
+   "quellen": [
+    "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-steuereinheit-35-mm-a-115946.htm"
+   ]
+  },
+  {
+   "slug": "l-ine",
+   "name": "L-ine und L-ine S",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "40851"
+   ],
+   "erkennungsmerkmale": "Küchenarmaturen; 40851 ist eine L-ine S mit Strahlregler M 16 x 1.",
+   "beschreibung": "Küchenarmaturen-Linie. megabad nennt die 35-mm-Kartusche 7560500-00 für L-ine und den Strahlregler 7330505-00 für die L-ine S 40851.",
+   "quellen": [
+    "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-ine-strahlregler-m-a-597760.htm"
+   ]
+  },
+  {
+   "slug": "scope",
+   "name": "Scope",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "",
+   "beschreibung": "Küchenarmatur-Linie. megabad nennt die 35-mm-Kartusche 7560500-00 für Scope.",
+   "quellen": [
+    "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm"
+   ]
+  },
+  {
+   "slug": "steel",
+   "name": "Steel",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [],
+   "erkennungsmerkmale": "",
+   "beschreibung": "Küchenarmatur-Linie. megabad nennt die 35-mm-Kartusche 7560500-00 für Steel.",
+   "quellen": [
+    "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm"
+   ]
+  },
+  {
+   "slug": "new-waves",
+   "name": "New Waves",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "57420",
+    "57414",
+    "57513"
+   ],
+   "erkennungsmerkmale": "Typennummern beginnen mit 57: 57420 und 57414 sind Thermostate, 57513 der Unterputz-Wannenmischer.",
+   "beschreibung": "Linie mit Einhandmischern und Thermostaten. Für die Einhandmischer nennt megabad die 35-mm-Kartusche 7560500-00, für die Thermostate die Regeleinheit 7672900-00, Amazon für den Unterputzmischer 57513 die Umstellung 7648005-00.",
+   "quellen": [
+    "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-temperaturregeleinheit-a-332681.htm",
+    "https://www.manomano.de/p/kludi-temperaturregeleinheit-fuer-ersatz-352003520535260-354003540157420-7672900-00-39682795",
+    "https://www.amazon.de/dp/B013H05QJY"
+   ]
+  },
+  {
+   "slug": "unterputz-thermostat",
+   "name": "Unterputz-Thermostat (Körper 35156, 35158, FLEXX.BOXX)",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "35156",
+    "35158",
+    "88066"
+   ],
+   "erkennungsmerkmale": "Unterputz-Grundkörper DN 15 mit den Nummern 35156 oder 35158 oder die Funktionseinheit FLEXX.BOXX 88066; die Sichtteile tragen eigene Nummern, etwa Adlon 517190520.",
+   "beschreibung": "Die Regeleinheit für diese Körper ist laut Kludi-Datenblatt die 7480900-00 (ab Baujahr 07/97), das Absperr-Oberteil laut megabad und Amazon die 7510500-00. Für Körper vor 07/97 führt megabad die Regeleinheit 7526300-00.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/kldb_7480900-00.pdf",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-keramik-oberteil-a-629542.htm",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-temperaturregeleinheit-07-97-a-219568.htm"
+   ]
+  },
+  {
+   "slug": "unterputz-thermostat-dn20",
+   "name": "Unterputz-Thermostat DN 20 (35093)",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "35093"
+   ],
+   "erkennungsmerkmale": "Unterputz-Thermostat mit Anschluss G 3/4 (DN 20).",
+   "beschreibung": "Für den Unterputz-Thermostat 35093 nennt megabad die Regeleinheit 7492700-00.",
+   "quellen": [
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-temperaturregeleinheit-up-thermostate-a-230987.htm"
+   ]
+  }
+ ],
+ "teile": [
+  {
+   "slug": "kludi-kartusche-7560500",
+   "name": "Kludi Kartusche 35 mm",
+   "teiltyp": "kartusche",
+   "oem_nummer": "7560500-00",
+   "ean": "4017080047036",
+   "masse": {
+    "durchmesser_mm": 35
+   },
+   "beschreibung": "Keramikkartusche mit 35 mm Durchmesser für Kludi-Einhandmischer, mit voreinstellbarer Heißwasserbegrenzung. Laut Kludi-Datenblatt bis 10 bar Betriebsdruck (über 5 bar mit Druckminderer) und 90 °C, geprüft nach DIN EN 817 mit 70.000 Schaltzyklen. megabad nennt sie für die Serien Amphora, Bingo Star, Bozz, Esprit, Joop, Komet, L-ine, Logo Mix, Logo Neo, New Waves, Objekta Mix New, Scope, Steel, Tangenta, Trendo, Trendo Star, Zip und Topara. Für Armaturen an offenen Untertischspeichern gibt es die gleich große Niederdruck-Kartusche 7480500-00.",
+   "preis_spanne": "ca. 20 € (Amazon), 33 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren. Innensechskant für die Hebelschraube, für die Spannschraube der passende Kludi-Spannschraubenschlüssel oder ein Maulschlüssel, Armaturenfett.",
+   "amazon_asin": "B004T1POHA",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/kldb_7560500-00.pdf",
+    "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+    "https://www.galaxus.de/de/s4/product/kludi-kartusche-zubehoer-sanitaerinstallation-22414509",
+    "https://www.amazon.de/dp/B004T1POHA"
+   ]
+  },
+  {
+   "slug": "kludi-kartusche-7480500",
+   "name": "Kludi Niederdruck-Kartusche 35 mm",
+   "teiltyp": "kartusche",
+   "oem_nummer": "7480500-00",
+   "ean": "4021344054111",
+   "masse": {
+    "durchmesser_mm": 35
+   },
+   "beschreibung": "Keramikkartusche mit 35 mm Durchmesser für drucklose Armaturen, also Einhandmischer an offenen Untertisch- oder Übertischspeichern. Laut Kludi-Datenblatt mit voreinstellbarer Heißwasserbegrenzung und denselben Maßen wie die normale 35-mm-Kartusche 7560500-00, am Aussehen sind die beiden also nicht zu unterscheiden. megabad nennt sie für Bingo Star Niederdruck.",
+   "preis_spanne": "ca. 29 € (Amazon), 38 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren. Innensechskant für die Hebelschraube, für die Spannschraube der passende Kludi-Spannschraubenschlüssel oder ein Maulschlüssel, Armaturenfett.",
+   "amazon_asin": "B00AOIPNFK",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/kldb_7480500-00.pdf",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-steuereinheit-35-mm-a-115946.htm",
+    "https://www.galaxus.de/de/s4/product/kludi-steuereinheit-35mm-m-keramischen-scheiben-zubehoer-sanitaerinstallation-52372071",
+    "https://www.amazon.de/dp/B00AOIPNFK"
+   ]
+  },
+  {
+   "slug": "kludi-kartusche-7520100",
+   "name": "Kludi Kartusche 46 mm",
+   "teiltyp": "kartusche",
+   "oem_nummer": "7520100-00",
+   "ean": "4017080873031",
+   "masse": {
+    "durchmesser_mm": 46
+   },
+   "beschreibung": "Keramikkartusche mit 46 mm Durchmesser für ältere und größere Kludi-Einhandmischer, mit voreinstellbarer Heißwasserbegrenzung, geprüft nach DIN EN 817. megabad führt sie serienübergreifend und für Armaturen mit und ohne Druck. Die Spannschraube hat Schlüsselweite 46; Kludi bietet dafür den Spannschraubenschlüssel 92907300-00 und die Spannschraube 92270237-00 einzeln an.",
+   "preis_spanne": "ca. 26 € (Amazon), 44 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren. Innensechskant für die Hebelschraube, für die Spannschraube der passende Kludi-Spannschraubenschlüssel oder ein Maulschlüssel, Armaturenfett.",
+   "amazon_asin": "B0017VH4VO",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/kldb_7520100-00.pdf",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-kartusche-4-6-a-158921.htm",
+    "https://www.galaxus.de/de/s4/product/kludi-kartusche-fuer-einhandmischer-46mm-mit-keramischen-scheiben-zubehoer-sanitaerinstallation-22414715",
+    "https://www.amazon.de/dp/B0017VH4VO"
+   ]
+  },
+  {
+   "slug": "kludi-kartusche-7640000",
+   "name": "Kludi Eco-Kartusche 46 mm",
+   "teiltyp": "kartusche",
+   "oem_nummer": "7640000-00",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 46
+   },
+   "beschreibung": "46-mm-Keramikkartusche mit Durchfluss- und Heißwasserraste: Der Hebel stoppt bei einer Spar-Wassermenge und vor dem heißen Bereich, in der Mittelstellung kommt kaltes Wasser. Laut Kludi-Datenblatt mit voreinstellbarer Heißwasserbegrenzung, geprüft nach DIN EN 817. Die Spannschraube SW 46 (92270237-00) passt laut Händler zu dieser und zur 7520100-00.",
+   "preis_spanne": "ca. 26 € (Amazon), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren. Innensechskant für die Hebelschraube, für die Spannschraube der passende Kludi-Spannschraubenschlüssel oder ein Maulschlüssel, Armaturenfett.",
+   "amazon_asin": "B00AMBML22",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/kldb_7640000-00.pdf",
+    "https://www.amazon.de/dp/B00AMBML22",
+    "https://www.amazon.de/dp/B00N1SEZX6"
+   ]
+  },
+  {
+   "slug": "kludi-kartusche-7685600",
+   "name": "Kludi Kartusche 41 mm",
+   "teiltyp": "kartusche",
+   "oem_nummer": "7685600-00",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 41,
+    "hoehe_mm": 62
+   },
+   "beschreibung": "Keramikkartusche mit 41 mm Durchmesser und voreinstellbarer Heißwasserbegrenzung, laut megabad unter anderem für Armaturen der Serie Kludi MX. Die Spannschraube hat einen Vierkant mit 37 mm, dafür gibt es den Spannschraubenschlüssel 92912800-00.",
+   "preis_spanne": "ca. 27 € (Amazon), 42 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren. Innensechskant für die Hebelschraube, für die Spannschraube der passende Kludi-Spannschraubenschlüssel oder ein Maulschlüssel, Armaturenfett.",
+   "amazon_asin": "B0017VDGWK",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/kldb_7685600-00.pdf",
+    "https://www.megabad.com/kludi-ersatzteile-steuereinheit-41-mm-a-116765.htm",
+    "https://www.amazon.de/dp/B0017VDGWK"
+   ]
+  },
+  {
+   "slug": "kludi-kartusche-7412900",
+   "name": "Kludi Niederdruck-Kartusche 41 mm",
+   "teiltyp": "kartusche",
+   "oem_nummer": "7412900-00",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 41,
+    "hoehe_mm": 62
+   },
+   "beschreibung": "41-mm-Keramikkartusche für drucklose Armaturen, laut Kludi-Datenblatt mit voreinstellbarer Heißwasserbegrenzung und einstellbarer Durchflussbegrenzung. megabad und Amazon nennen sie für Kludi-MX-Armaturen in Niederdruck-Ausführung.",
+   "preis_spanne": "ca. 34 € (Amazon), 42 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren. Innensechskant für die Hebelschraube, für die Spannschraube der passende Kludi-Spannschraubenschlüssel oder ein Maulschlüssel, Armaturenfett.",
+   "amazon_asin": "B01M5J2U2N",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/kldb_7412900-00.pdf",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-ersatzkartusche-k41-niederdruck-a-202914.htm",
+    "https://www.amazon.de/dp/B01M5J2U2N"
+   ]
+  },
+  {
+   "slug": "kludi-kartusche-7486800",
+   "name": "Kludi Kartusche K-25",
+   "teiltyp": "kartusche",
+   "oem_nummer": "7486800-00",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Kleine Kludi-Kartusche mit der Bezeichnung K-25. megabad nennt sie für die Armaturen 38973, 370230, 320230 und 320240, darunter die Objekta-Küchenarmatur 32024.",
+   "preis_spanne": "ca. 32 € (Amazon), 38 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren. Innensechskant für die Hebelschraube, für die Spannschraube der passende Kludi-Spannschraubenschlüssel oder ein Maulschlüssel, Armaturenfett.",
+   "amazon_asin": "B00B7FW6FE",
+   "quellen": [
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-ersatzkartusche-a-211047.htm",
+    "https://www.amazon.de/dp/B00B7FW6FE"
+   ]
+  },
+  {
+   "slug": "kludi-thermostatkartusche-7447000",
+   "name": "Kludi Thermostat-Regeleinheit 23 mm (Zenta)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "7447000-00",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 23
+   },
+   "beschreibung": "Thermostat-Regeleinheit mit 23 mm Durchmesser und schnell ansprechendem Wachsdehnstoffelement. Das Kludi-Datenblatt nennt sie für Kludi-Zenta-Thermostatarmaturen, megabad für die Armaturen 35100 und 35101 (Zenta Brause- und Wannenthermostat). Empfohlener Betriebsdruck laut Kludi 3 bis 5 bar.",
+   "preis_spanne": "ca. 66 € (Amazon), 80 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren, bei Aufputz-Thermostaten an den Absperrungen in den S-Anschlüssen, sonst an der Hauptabsperrung. Innensechskant oder Schraubendreher für den Temperaturgriff, Maulschlüssel für die Regeleinheit, Armaturenfett.",
+   "amazon_asin": "B00AOIPNF0",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/kldb_7447000-00.pdf",
+    "https://www.megabad.com/kludi-ersatzteile-kartuschen-temperaturregeleinheit-a-197030.htm",
+    "https://www.amazon.de/dp/B00AOIPNF0"
+   ]
+  },
+  {
+   "slug": "kludi-thermostatkartusche-7672900",
+   "name": "Kludi Thermostat-Regeleinheit 30 mm für Aufputz-Thermostate",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "7672900-00",
+   "ean": "4021344041012",
+   "masse": {
+    "durchmesser_mm": 30
+   },
+   "beschreibung": "Thermostat-Regeleinheit mit 30 mm Durchmesser für Kludi-Aufputz-Thermostate. ManoMano nennt Objekta Therm E (35200, 35260), Medi Care (35205), die Thermostate 35300, 35301, 35310, 35311, Impulsa und Ambienta (35400, 35401), MX Therm (35430, 35431) und New Waves (57420). Amazon nennt 35200, 35260, 35400, 35401 und 57420.",
+   "preis_spanne": "ca. 79 € (Amazon), 83 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren, bei Aufputz-Thermostaten an den Absperrungen in den S-Anschlüssen, sonst an der Hauptabsperrung. Innensechskant oder Schraubendreher für den Temperaturgriff, Maulschlüssel für die Regeleinheit, Armaturenfett.",
+   "amazon_asin": "B00AOIPNE6",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/kldb_7672900-00.pdf",
+    "https://www.manomano.de/p/kludi-temperaturregeleinheit-fuer-ersatz-352003520535260-354003540157420-7672900-00-39682795",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-temperaturregeleinheit-a-332681.htm",
+    "https://www.amazon.de/dp/B00AOIPNE6"
+   ]
+  },
+  {
+   "slug": "kludi-thermostatkartusche-7480900",
+   "name": "Kludi Thermostat-Regeleinheit 30 mm für Unterputz-Thermostate",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "7480900-00",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 30
+   },
+   "beschreibung": "Thermostat-Regeleinheit mit 30 mm Durchmesser für Kludi-Unterputz-Thermostate. Das Kludi-Datenblatt nennt die Unterputzkörper 35156 und 35158 sowie FLEXX.BOXX 88066. Laut megabad für Armaturen ab Baujahr 07/97, laut Amazon ersetzt sie die ältere 7587000-00. Für Unterputz-Thermostate bis 07/97 führt megabad die Regeleinheit 7526300-00.",
+   "preis_spanne": "ca. 59 € (Amazon), 83 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 45,
+   "werkzeug": "Wasser absperren, bei Aufputz-Thermostaten an den Absperrungen in den S-Anschlüssen, sonst an der Hauptabsperrung. Innensechskant oder Schraubendreher für den Temperaturgriff, Maulschlüssel für die Regeleinheit, Armaturenfett.",
+   "amazon_asin": "B00D0SJG22",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/kldb_7480900-00.pdf",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-temperaturregeleinheit-up-a-179443.htm",
+    "https://www.amazon.de/dp/B00D0SJG22",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-temperaturregeleinheit-07-97-a-219568.htm"
+   ]
+  },
+  {
+   "slug": "kludi-thermostatkartusche-7492700",
+   "name": "Kludi Thermostat-Regeleinheit 30 mm für Unterputz DN 20",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "7492700-00",
+   "ean": null,
+   "masse": {
+    "durchmesser_mm": 30
+   },
+   "beschreibung": "Thermostat-Regeleinheit aus Messing mit Wachsdehnstoffelement für Unterputz-Thermostate mit Anschluss G 3/4 (DN 20). megabad nennt den Unterputz-Thermostat 35093, Amazon gibt an, dass sie die ältere Regeleinheit 7586900-00 ersetzt.",
+   "preis_spanne": "ca. 59 € (Amazon), 107 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 45,
+   "werkzeug": "Wasser absperren, bei Aufputz-Thermostaten an den Absperrungen in den S-Anschlüssen, sonst an der Hauptabsperrung. Innensechskant oder Schraubendreher für den Temperaturgriff, Maulschlüssel für die Regeleinheit, Armaturenfett.",
+   "amazon_asin": "B00GAYZDGG",
+   "quellen": [
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-temperaturregeleinheit-up-thermostate-a-230987.htm",
+    "https://www.amazon.de/dp/B00GAYZDGG"
+   ]
+  },
+  {
+   "slug": "kludi-oberteil-7505400",
+   "name": "Kludi Keramik-Oberteil G 1/2, rechtsschließend",
+   "teiltyp": "oberteil",
+   "oem_nummer": "7505400-00",
+   "ean": null,
+   "masse": {
+    "anschluss": "G 1/2"
+   },
+   "beschreibung": "Ventil-Oberteil mit Keramikscheiben und 90° Drehwinkel, schließt im Uhrzeigersinn. Für Unterputz- und Wandventile, die mit einem Oberteil G 1/2 absperren.",
+   "preis_spanne": "ca. 25 € (Amazon), 20 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Hauptabsperrung schließen. Griff und Rosette abnehmen, Oberteil mit einem passenden Maul- oder Steckschlüssel herausdrehen, Armaturenfett.",
+   "amazon_asin": "B0017VFXI0",
+   "quellen": [
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-keramik-oberteil-g-a-116742.htm",
+    "https://www.amazon.de/dp/B0017VFXI0"
+   ]
+  },
+  {
+   "slug": "kludi-oberteil-7505500",
+   "name": "Kludi Keramik-Oberteil G 1/2, linksschließend",
+   "teiltyp": "oberteil",
+   "oem_nummer": "7505500-00",
+   "ean": "4017080869157",
+   "masse": {
+    "anschluss": "G 1/2"
+   },
+   "beschreibung": "Gegenstück zur 7505400-00: Keramik-Oberteil G 1/2 mit 90° Drehwinkel, das gegen den Uhrzeigersinn schließt. Bei zwei Griffen sitzt meist links das eine, rechts das andere; vor dem Bestellen am alten Oberteil prüfen, in welche Richtung es schließt.",
+   "preis_spanne": "ca. 27 € (Amazon), 20 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Hauptabsperrung schließen. Griff und Rosette abnehmen, Oberteil mit einem passenden Maul- oder Steckschlüssel herausdrehen, Armaturenfett.",
+   "amazon_asin": "B0017VHCQ6",
+   "quellen": [
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-keramik-oberteil-g-a-177188.htm",
+    "https://www.galaxus.de/de/s4/product/kludi-gmbh-cokg-keramik-oberteil-linksschliessend-neutral-12-90grad-zubehoer-sanitaerinstallation-36893620",
+    "https://www.amazon.de/dp/B0017VHCQ6"
+   ]
+  },
+  {
+   "slug": "kludi-oberteil-7510500",
+   "name": "Kludi UP-Keramik-Oberteil G 1/2 für Unterputz-Thermostate",
+   "teiltyp": "oberteil",
+   "oem_nummer": "7510500-00",
+   "ean": "4017080855402",
+   "masse": {
+    "anschluss": "G 1/2"
+   },
+   "beschreibung": "Absperr-Oberteil mit Keramikscheiben und 90° Drehung für Unterputz-Thermostatkörper. megabad und Amazon nennen den Unterputz-Thermostatkörper DN 15 35156 ab Baujahr 07/97.",
+   "preis_spanne": "ca. 31 € (Amazon), 24 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Hauptabsperrung schließen. Griff und Rosette abnehmen, Oberteil mit einem passenden Maul- oder Steckschlüssel herausdrehen, Armaturenfett.",
+   "amazon_asin": "B013GZV50O",
+   "quellen": [
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-keramik-oberteil-a-629542.htm",
+    "https://www.galaxus.de/de/s4/product/kludi-up-keramikoberteil-g-12zollx90grad-neutral-zubehoer-sanitaerinstallation-22424785",
+    "https://www.amazon.de/dp/B013GZV50O"
+   ]
+  },
+  {
+   "slug": "kludi-oberteil-7522200",
+   "name": "Kludi Multi-Oberteil für den Geräteanschluss",
+   "teiltyp": "oberteil",
+   "oem_nummer": "7522200-00",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Oberteil für den Geräteabgang von Spültisch-Multi-Einhandmischern, an den Spül- oder Waschmaschine angeschlossen wird, mit Anschlussgewinde G 1/2 und Keramikscheiben. Laut der Kludi-Ersatzteilliste zur MX 399060562 sitzt es dort zusammen mit dem Multi-Adapter 74097.",
+   "preis_spanne": "ca. 26 € (Amazon), 20 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Wasser absperren, Griff des Geräteventils abnehmen, Oberteil mit einem Maulschlüssel herausdrehen.",
+   "amazon_asin": "B00D0SO79O",
+   "quellen": [
+    "https://www.amazon.de/dp/B00D0SO79O",
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-multi-oberteil-a-219955.htm",
+    "https://www.dasheimwerkerforum.de/threads/kludi-mx-399060562-spueltischarmatur.17291/"
+   ]
+  },
+  {
+   "slug": "kludi-umstellung-7527505",
+   "name": "Kludi Umstellung für Unterputz-Einhandmischer Objekta Mix und Logo Mix",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "7527505-00",
+   "ean": "4017080859295",
+   "masse": {
+    "laenge_mm": 100
+   },
+   "beschreibung": "Automatische Umstellung zwischen Wanneneinlauf und Brause für Unterputz-Wannenmischer, kurze Ausführung, 100 mm lang, Messing verchromt. megabad und Amazon nennen Objekta Mix 33419 und Logo Mix 38619.",
+   "preis_spanne": "ca. 23 € (Amazon), 35 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Hauptabsperrung schließen. Griff und Rosette abnehmen, Oberteil mit einem passenden Maul- oder Steckschlüssel herausdrehen, Armaturenfett.",
+   "amazon_asin": "B00ID3JHWS",
+   "quellen": [
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-objekta-logo-mix-a-361433.htm",
+    "https://www.galaxus.de/de/s4/product/kludi-automatische-umstellung-up-armaturen-zubehoer-sanitaerinstallation-22424738",
+    "https://www.amazon.de/dp/B00ID3JHWS"
+   ]
+  },
+  {
+   "slug": "kludi-umstellung-7648005",
+   "name": "Kludi Umstellung für Unterputz-Wannenmischer MX, Objekta Mix New, Balance, New Waves",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "7648005-00",
+   "ean": "4021344022615",
+   "masse": {},
+   "beschreibung": "Umstellung für Unterputz-Wannenfüll- und Brausemischer, Messing verchromt. Amazon nennt MX 33535, Objekta Mix New 33615, den Unterputz-Einhandmischer 56515, New Waves 57513 und die Duschsysteme 61824 und 61825, megabad den Balance-Unterputz-Wannenmischer.",
+   "preis_spanne": "ca. 25 € (Amazon und megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Hauptabsperrung schließen. Griff und Rosette abnehmen, Oberteil mit einem passenden Maul- oder Steckschlüssel herausdrehen, Armaturenfett.",
+   "amazon_asin": "B013H05QJY",
+   "quellen": [
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-umstellung-balance-up-a-332350.htm",
+    "https://www.galaxus.de/de/s4/product/kludi-gmbh-cokg-ersatzteil-up-umstellung-ohne-griff-chrom-duscharmatur-badewannenarmatur-36873994",
+    "https://www.amazon.de/dp/B013H05QJY"
+   ]
+  },
+  {
+   "slug": "kludi-umstellung-7823505",
+   "name": "Kludi Umstellung für Zenta und O-Cean",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "7823505-00",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Umstellung mit Verlängerungsbolzen, Messing verchromt. Amazon nennt Zenta 38660 und O-Cean 38960.",
+   "preis_spanne": "ca. 42 € (Amazon), 36 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Hauptabsperrung schließen. Griff und Rosette abnehmen, Oberteil mit einem passenden Maul- oder Steckschlüssel herausdrehen, Armaturenfett.",
+   "amazon_asin": "B017UC0DX4",
+   "quellen": [
+    "https://www.amazon.de/dp/B017UC0DX4"
+   ]
+  },
+  {
+   "slug": "kludi-umstellung-7352405",
+   "name": "Kludi Umstellung für Bozz Wannenrandarmatur 4-Loch",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "7352405-00",
+   "ean": "4021344089625",
+   "masse": {},
+   "beschreibung": "Umstellung für die 4-Loch-Wannenrandarmatur der Serie Bozz, verchromt.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Hauptabsperrung schließen. Griff und Rosette abnehmen, Oberteil mit einem passenden Maul- oder Steckschlüssel herausdrehen, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.galaxus.de/de/s4/product/kludi-umstellung-f-bozz-4-loch-wafue-chr-sauna-zubehoer-33876567"
+   ]
+  },
+  {
+   "slug": "kludi-strahlregler-7417900",
+   "name": "Kludi Strahlregler-Set s-pointer Caché M 24 x 1 für Balance",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "7417900-00",
+   "ean": null,
+   "masse": {
+    "gewinde": "M 24 x 1"
+   },
+   "beschreibung": "Caché-Strahlregler M 24 x 1, laut megabad passend zu den Balance-Waschtischmischern 520230575 und 520260575.",
+   "preis_spanne": "ca. 19 € (Amazon), 9 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Schlüssel für Caché-Strahlregler.",
+   "amazon_asin": "B0HC9ZH2PK",
+   "quellen": [
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-strahlregler-set-520230575-a-229080.htm",
+    "https://www.amazon.de/dp/B0HC9ZH2PK"
+   ]
+  },
+  {
+   "slug": "kludi-strahlregler-7523505",
+   "name": "Kludi Strahlregler M 18 x 1,5 für Objekta-Küchenarmatur",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "7523505-00",
+   "ean": null,
+   "masse": {
+    "gewinde": "M 18 x 1,5"
+   },
+   "beschreibung": "Ersatz-Strahlregler M 18 x 1,5, laut megabad für die Objekta-Küchenarmatur 32024.",
+   "preis_spanne": "ca. 10 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Strahlregler-Schlüssel oder Münze, je nach Bauform.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.megabad.com/kludi-ersatzteile-strahlregler-m-18-x-a-1248080.htm"
+   ]
+  },
+  {
+   "slug": "kludi-strahlregler-7330505",
+   "name": "Kludi Strahlregler M 16 x 1 für L-ine S",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "7330505-00",
+   "ean": "4021344086129",
+   "masse": {
+    "gewinde": "M 16 x 1"
+   },
+   "beschreibung": "Ersatz-Strahlregler M 16 x 1, verchromt, laut megabad passend zur L-ine-S-Küchenarmatur 40851.",
+   "preis_spanne": "ca. 9 € (megabad), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Strahlregler-Schlüssel oder Münze, je nach Bauform.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-ine-strahlregler-m-a-597760.htm",
+    "https://www.galaxus.de/de/s4/product/kludi-strahlregler-chrom-strahlregler-58059131"
+   ]
+  },
+  {
+   "slug": "kludi-spannschluessel-92907700",
+   "name": "Kludi Spannschraubenschlüssel SW 32",
+   "teiltyp": "werkzeug",
+   "oem_nummer": "92907700-00",
+   "ean": null,
+   "masse": {
+    "schluesselweite_mm": 32
+   },
+   "beschreibung": "Schlüssel für Kartuschen-Spannschrauben mit 32 mm Vierkant, Stahl verzinkt. Amazon nennt ihn für die 35-mm-Kartusche (K-35) im Logo Mix.",
+   "preis_spanne": "ca. 19 € (Amazon), November 2026",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Wird statt Rohrzange oder Maulschlüssel auf die Spannschraube gesetzt.",
+   "amazon_asin": "B00N1UZWN6",
+   "quellen": [
+    "https://www.amazon.de/dp/B00N1UZWN6"
+   ]
+  },
+  {
+   "slug": "kludi-spannschluessel-92912800",
+   "name": "Kludi Spannschraubenschlüssel SW 37",
+   "teiltyp": "werkzeug",
+   "oem_nummer": "92912800-00",
+   "ean": null,
+   "masse": {
+    "schluesselweite_mm": 37
+   },
+   "beschreibung": "Schlüssel für Kartuschen-Spannschrauben mit 37 mm Vierkant, passend zur 41-mm-Kartusche 7685600-00. Stahl verzinkt.",
+   "preis_spanne": "ca. 21 € (Amazon), 13 € (megabad), November 2026",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Wird statt Rohrzange oder Maulschlüssel auf die Spannschraube gesetzt.",
+   "amazon_asin": "B00N1UXHWE",
+   "quellen": [
+    "https://www.megabad.com/kludi-ersatzteile-sonstiges-spannschraubenschluessel-steuereinheit-7685600-a-2364670.htm",
+    "https://www.amazon.de/dp/B00N1UXHWE"
+   ]
+  },
+  {
+   "slug": "kludi-spannschluessel-92907300",
+   "name": "Kludi Spannschraubenschlüssel SW 46",
+   "teiltyp": "werkzeug",
+   "oem_nummer": "92907300-00",
+   "ean": null,
+   "masse": {
+    "schluesselweite_mm": 46
+   },
+   "beschreibung": "Schlüssel für Kartuschen-Spannschrauben mit Schlüsselweite 46, passend zur 46-mm-Kartusche 7520100-00. Stahl verzinkt.",
+   "preis_spanne": "ca. 14 € (Amazon), November 2026",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Wird statt Rohrzange oder Maulschlüssel auf die Spannschraube gesetzt.",
+   "amazon_asin": "B013GZTS0I",
+   "quellen": [
+    "https://www.amazon.de/dp/B013GZTS0I"
+   ]
+  },
+  {
+   "slug": "kludi-spannschluessel-92914900",
+   "name": "Kludi Spannschraubenschlüssel SW 30",
+   "teiltyp": "werkzeug",
+   "oem_nummer": "92914900-00",
+   "ean": "4021344059635",
+   "masse": {
+    "schluesselweite_mm": 30
+   },
+   "beschreibung": "Schlüssel für Kartuschen-Spannschrauben mit 30 mm Vierkant, Stahl verzinkt.",
+   "preis_spanne": "ca. 42 € (Amazon), November 2026",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Wird statt Rohrzange oder Maulschlüssel auf die Spannschraube gesetzt.",
+   "amazon_asin": "B00MWMQEFE",
+   "quellen": [
+    "https://www.galaxus.de/de/s4/product/kludi-spannschraubenschluessel-neutral-sw-30-zubehoer-sanitaerinstallation-52343216",
+    "https://www.amazon.de/dp/B00MWMQEFE"
+   ]
+  },
+  {
+   "slug": "kludi-spannschraube-92270237",
+   "name": "Kludi Spannschraube SW 46 für 46-mm-Kartuschen",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "92270237-00",
+   "ean": null,
+   "masse": {
+    "schluesselweite_mm": 46
+   },
+   "beschreibung": "Spannschraube aus Messing mit Sechskant 46, hält die Kartusche im Gehäuse. Laut Amazon passend zu Armaturen mit den Kartuschen 7520100-00 und 7640000-00. Hilft, wenn die alte Schraube beim Lösen beschädigt wurde.",
+   "preis_spanne": "ca. 18 € (Amazon), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Wasser an den Eckventilen absperren. Innensechskant für die Hebelschraube, für die Spannschraube der passende Kludi-Spannschraubenschlüssel oder ein Maulschlüssel, Armaturenfett.",
+   "amazon_asin": "B00N1SEZX6",
+   "quellen": [
+    "https://www.amazon.de/dp/B00N1SEZX6"
+   ]
+  },
+  {
+   "slug": "kludi-hebel-7361905",
+   "name": "Kludi Hebel für Pure&Solid Waschtischmischer",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "7361905-00",
+   "ean": "4017080089548",
+   "masse": {},
+   "beschreibung": "Ersatzhebel, verchromt, für den Waschtisch-Einhandmischer Pure&Solid.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Innensechskant für die Hebelschraube.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.galaxus.de/de/s4/product/kludi-hebel-puresolid-wt-ehm-chr-duscharmatur-badewannenarmatur-58059262"
+   ]
+  },
+  {
+   "slug": "kludi-dichtungssatz-7461100",
+   "name": "Kludi Dichtungssatz für Zenta Spültischarmatur",
+   "teiltyp": "dichtung",
+   "oem_nummer": "7461100-00",
+   "ean": "4021344066244",
+   "masse": {},
+   "beschreibung": "Dichtungssatz für den Spültisch-Einhandmischer Zenta.",
+   "preis_spanne": "ca. 15 € (Amazon), November 2026",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen absperren. Innensechskant für die Hebelschraube, für die Spannschraube der passende Kludi-Spannschraubenschlüssel oder ein Maulschlüssel, Armaturenfett.",
+   "amazon_asin": "B01GVPO26A",
+   "quellen": [
+    "https://www.amazon.de/dp/B01GVPO26A",
+    "https://www.galaxus.de/de/s4/product/kludi-dichtungssatz-zenta-spueltisch-neutral-zubehoer-sanitaerinstallation-58059143"
+   ]
+  }
+ ],
+ "zuordnungen": [
+  {
+   "serie_slug": "logo-mix",
+   "teil_slug": "kludi-kartusche-7560500",
+   "hinweis": "Haustechnikdialog 2025 zitiert die Kludi-Ersatzteilzeichnung „Logo Mix 3868175 mit der 35mm Kartusche 75605“; megabad nennt Logo-Mix ebenfalls",
+   "quelle_url": "https://www.haustechnikdialog.de/Forum/t/283385/Kartusche-fuer-Kludi-Logo-Mix-386810575",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "derby-top",
+   "teil_slug": "kludi-kartusche-7640000",
+   "hinweis": "Haustechnikdialog: Kludi-Kundendienst nennt die Eco-Patrone 76400 für die Derby Top",
+   "quelle_url": "https://www.haustechnikdialog.de/Forum/t/13179/Kartusche-wechseln-bei-Derby-Top",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "derby-top",
+   "teil_slug": "kludi-kartusche-7520100",
+   "hinweis": "Haustechnikdialog: Kludi-Kundendienst nennt alternativ die Kartusche 75201 ohne Sparfunktion",
+   "quelle_url": "https://www.haustechnikdialog.de/Forum/t/13179/Kartusche-wechseln-bei-Derby-Top",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "mx",
+   "teil_slug": "kludi-oberteil-7522200",
+   "hinweis": "Heimwerkerforum: Kludi-Ersatzteilliste zur MX 399060562 nennt das Multioberteil 75 222",
+   "quelle_url": "https://www.dasheimwerkerforum.de/threads/kludi-mx-399060562-spueltischarmatur.17291/",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "logo-mix",
+   "teil_slug": "kludi-umstellung-7527505",
+   "hinweis": "megabad und Amazon: Umstellung passend für Logo Mix 38619",
+   "quelle_url": "https://www.megabad.com/hersteller-kludi-ersatzteile-objekta-logo-mix-a-361433.htm",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "logo-mix",
+   "teil_slug": "kludi-spannschluessel-92907700",
+   "hinweis": "Amazon: Spannschraubenschlüssel SW 32 „passend zu K-35 Logo-Mix“",
+   "quelle_url": "https://www.amazon.de/dp/B00N1UZWN6",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "logo-neo",
+   "teil_slug": "kludi-kartusche-7560500",
+   "hinweis": "megabad, Steuereinheit 7560500-00: „passend für Serien“ mit Logo-Neo",
+   "quelle_url": "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "objekta-mix",
+   "teil_slug": "kludi-kartusche-7560500",
+   "hinweis": "megabad, Steuereinheit 7560500-00: „passend für Serien“ mit Objekta Mix New",
+   "quelle_url": "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "objekta-mix",
+   "teil_slug": "kludi-umstellung-7527505",
+   "hinweis": "megabad und Amazon: Umstellung passend für Objekta Mix 33419",
+   "quelle_url": "https://www.megabad.com/hersteller-kludi-ersatzteile-objekta-logo-mix-a-361433.htm",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "objekta-mix",
+   "teil_slug": "kludi-umstellung-7648005",
+   "hinweis": "Amazon: Umstellung passend für Objekta Mix New 33615",
+   "quelle_url": "https://www.amazon.de/dp/B013H05QJY",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "objekta-kueche",
+   "teil_slug": "kludi-kartusche-7486800",
+   "hinweis": "megabad: Ersatzkartusche K-25 passend zu Art. 320230 und 320240",
+   "quelle_url": "https://www.megabad.com/hersteller-kludi-ersatzteile-ersatzkartusche-a-211047.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "objekta-kueche",
+   "teil_slug": "kludi-strahlregler-7523505",
+   "hinweis": "megabad: Objekta-Strahlregler M 18 x 1,5 passend für Küchenarmatur Art. 32024",
+   "quelle_url": "https://www.megabad.com/kludi-ersatzteile-strahlregler-m-18-x-a-1248080.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "objekta-therm-e",
+   "teil_slug": "kludi-thermostatkartusche-7672900",
+   "hinweis": "ManoMano: „Objekta-Therm E: 35 200, 35 260“; Amazon: geeignet für 35200, 35260",
+   "quelle_url": "https://www.manomano.de/p/kludi-temperaturregeleinheit-fuer-ersatz-352003520535260-354003540157420-7672900-00-39682795",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "zenta",
+   "teil_slug": "kludi-umstellung-7823505",
+   "hinweis": "Amazon: Umstellung passend für Zenta 38660",
+   "quelle_url": "https://www.amazon.de/dp/B017UC0DX4",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "zenta",
+   "teil_slug": "kludi-dichtungssatz-7461100",
+   "hinweis": "Galaxus: Dichtungssatz Zenta Spültisch 7461100-00",
+   "quelle_url": "https://www.galaxus.de/de/s4/product/kludi-dichtungssatz-zenta-spueltisch-neutral-zubehoer-sanitaerinstallation-58059143",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "zenta-thermostat",
+   "teil_slug": "kludi-thermostatkartusche-7447000",
+   "hinweis": "Kludi-Datenblatt 7447000-00: „für KLUDI ZENTA Thermostatarmaturen“; megabad: passend für Art. 35100, 35101",
+   "quelle_url": "https://assets.heizung-billiger.de/documents/kldb_7447000-00.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "pure-solid",
+   "teil_slug": "kludi-hebel-7361905",
+   "hinweis": "Galaxus: Hebel Pure&Solid Waschtisch-Einhandmischer 7361905-00",
+   "quelle_url": "https://www.galaxus.de/de/s4/product/kludi-hebel-puresolid-wt-ehm-chr-duscharmatur-badewannenarmatur-58059262",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "bozz",
+   "teil_slug": "kludi-kartusche-7560500",
+   "hinweis": "megabad, Steuereinheit 7560500-00: „passend für Serien“ mit Bozz",
+   "quelle_url": "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "bozz",
+   "teil_slug": "kludi-umstellung-7352405",
+   "hinweis": "Galaxus: Umstellung für Bozz 4-Loch-Wannenfüllarmatur 7352405-00",
+   "quelle_url": "https://www.galaxus.de/de/s4/product/kludi-umstellung-f-bozz-4-loch-wafue-chr-sauna-zubehoer-33876567",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "balance",
+   "teil_slug": "kludi-strahlregler-7417900",
+   "hinweis": "megabad: Strahlregler-Set passend zu Balance Waschtisch-Einhandmischer 520230575 und 520260575",
+   "quelle_url": "https://www.megabad.com/hersteller-kludi-ersatzteile-strahlregler-set-520230575-a-229080.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "balance",
+   "teil_slug": "kludi-umstellung-7648005",
+   "hinweis": "megabad: Ersatz-Umstellung für Balance UP-Wannenfüll- und Brause-Einhandmischer",
+   "quelle_url": "https://www.megabad.com/hersteller-kludi-ersatzteile-umstellung-balance-up-a-332350.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "topara",
+   "teil_slug": "kludi-kartusche-7560500",
+   "hinweis": "Bauexpertenforum 2026: Besitzer einer Topara-Unterputzarmatur von 2004 nennt die Kartusche 7560500-00; megabad nennt Topara ebenfalls",
+   "quelle_url": "https://www.bauexpertenforum.de/threads/topara-kludi-unterputzarmatur-welche-kartusche-umschaltventil.137389/",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "topara",
+   "teil_slug": "kludi-umstellung-7527505",
+   "hinweis": "Bauexpertenforum 2026: Besitzer einer Topara-Unterputzarmatur nennt die Umstellung 7527505-00; Händler führen sie nur für Objekta Mix und Logo Mix",
+   "quelle_url": "https://www.bauexpertenforum.de/threads/topara-kludi-unterputzarmatur-welche-kartusche-umschaltventil.137389/",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "mx",
+   "teil_slug": "kludi-kartusche-7685600",
+   "hinweis": "megabad: Steuereinheit 41 mm „passend u. a. für Armaturen der Serie Kludi MX“",
+   "quelle_url": "https://www.megabad.com/kludi-ersatzteile-steuereinheit-41-mm-a-116765.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "mx",
+   "teil_slug": "kludi-kartusche-7412900",
+   "hinweis": "megabad: Ersatzkartusche K41 Niederdruck „passend für Kludi MX Küchenarmaturen Niederdruck“; Amazon: Niederdruck-Kartusche Ø 41 mm „für KLUDI Armaturen der Serien MX“",
+   "quelle_url": "https://www.megabad.com/hersteller-kludi-ersatzteile-ersatzkartusche-k41-niederdruck-a-202914.htm",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "mx",
+   "teil_slug": "kludi-spannschluessel-92912800",
+   "hinweis": "megabad und Amazon: Spannschraubenschlüssel SW 37 für die Steuereinheit 7685600-00",
+   "quelle_url": "https://www.megabad.com/kludi-ersatzteile-sonstiges-spannschraubenschluessel-steuereinheit-7685600-a-2364670.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "mx",
+   "teil_slug": "kludi-umstellung-7648005",
+   "hinweis": "Amazon: Umstellung passend für MX 33535",
+   "quelle_url": "https://www.amazon.de/dp/B013H05QJY",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "bingo-star",
+   "teil_slug": "kludi-kartusche-7560500",
+   "hinweis": "megabad, Steuereinheit 7560500-00: „passend für Serien“ mit Bingo Star",
+   "quelle_url": "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "bingo-star",
+   "teil_slug": "kludi-kartusche-7480500",
+   "hinweis": "megabad: Steuereinheit 35 mm für Niederdruckarmaturen „passend für Kludi Bingo Star Niederdruck“",
+   "quelle_url": "https://www.megabad.com/hersteller-kludi-ersatzteile-steuereinheit-35-mm-a-115946.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "l-ine",
+   "teil_slug": "kludi-kartusche-7560500",
+   "hinweis": "megabad, Steuereinheit 7560500-00: „passend für Serien“ mit L-Line",
+   "quelle_url": "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "l-ine",
+   "teil_slug": "kludi-strahlregler-7330505",
+   "hinweis": "megabad: L-ine S Ersatz-Strahlregler M 16 x 1 passend zu L-ine S Art. 40851",
+   "quelle_url": "https://www.megabad.com/hersteller-kludi-ersatzteile-ine-strahlregler-m-a-597760.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "scope",
+   "teil_slug": "kludi-kartusche-7560500",
+   "hinweis": "megabad, Steuereinheit 7560500-00: „passend für Serien“ mit Scope",
+   "quelle_url": "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "steel",
+   "teil_slug": "kludi-kartusche-7560500",
+   "hinweis": "megabad, Steuereinheit 7560500-00: „passend für Serien“ mit Steel",
+   "quelle_url": "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "new-waves",
+   "teil_slug": "kludi-kartusche-7560500",
+   "hinweis": "megabad, Steuereinheit 7560500-00: „passend für Serien“ mit New Waves",
+   "quelle_url": "https://www.megabad.com/kludi-ersatzteile-kartuschen-steuereinheit-3-5-a-175455.htm",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "new-waves",
+   "teil_slug": "kludi-thermostatkartusche-7672900",
+   "hinweis": "ManoMano und Amazon: geeignet für New Waves 57420; megabad: passend für Art. 57414",
+   "quelle_url": "https://www.manomano.de/p/kludi-temperaturregeleinheit-fuer-ersatz-352003520535260-354003540157420-7672900-00-39682795",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "new-waves",
+   "teil_slug": "kludi-umstellung-7648005",
+   "hinweis": "Amazon: Umstellung passend für New Waves 57513",
+   "quelle_url": "https://www.amazon.de/dp/B013H05QJY",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "unterputz-thermostat",
+   "teil_slug": "kludi-thermostatkartusche-7480900",
+   "hinweis": "Kludi-Datenblatt 7480900-00: für Unterputz-Thermostatarmaturen 35156, 35158 und FLEXX.BOXX 88066",
+   "quelle_url": "https://assets.heizung-billiger.de/documents/kldb_7480900-00.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "unterputz-thermostat",
+   "teil_slug": "kludi-oberteil-7510500",
+   "hinweis": "megabad und Amazon: UP-Keramik-Oberteil passend zu UP-Thermostatkörper DN 15 35156 ab Bj. 07/97",
+   "quelle_url": "https://www.megabad.com/hersteller-kludi-ersatzteile-keramik-oberteil-a-629542.htm",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "unterputz-thermostat-dn20",
+   "teil_slug": "kludi-thermostatkartusche-7492700",
+   "hinweis": "megabad: Temperaturregeleinheit passend zu G 3/4 UP-Thermostate Art. 35093",
+   "quelle_url": "https://www.megabad.com/hersteller-kludi-ersatzteile-temperaturregeleinheit-up-thermostate-a-230987.htm",
+   "sicherheit": "eine_quelle"
+  }
+ ]
+}
