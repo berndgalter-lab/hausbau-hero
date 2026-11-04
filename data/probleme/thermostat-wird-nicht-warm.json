@@ -1,0 +1,315 @@
+{
+  "slug": "thermostat-wird-nicht-warm",
+  "titel": "Thermostat wird nicht warm",
+  "seo_title": "Thermostat wird nicht warm: Ursachen an Dusche und Wanne finden",
+  "seo_description": "Duschthermostat oder Wannenthermostat wird nur lauwarm, schwankt oder regelt nicht: So findest du heraus, ob Kartusche, Siebe, Justierung, vertauschte Anschlüsse oder die Warmwasserbereitung schuld sind.",
+  "symptom": "Am Dusch- oder Wannenthermostat kommt nur lauwarmes oder kaltes Wasser, die Temperatur schwankt oder lässt sich nicht mehr verstellen. Ob an anderen Zapfstellen heißes Wasser kommt, zeigt, ob der Fehler im Thermostat oder in der Warmwasserbereitung liegt.",
+  "bereich": "dusche-badewanne",
+  "ursachen": [
+    {
+      "ursache": "Thermostatkartusche verkalkt oder Dehnstoffelement verschlissen",
+      "erklaerung": "Der Thermostat wird nur noch lauwarm, schwankt oder lässt sich kaum noch verstellen, obwohl an anderen Zapfstellen heißes Wasser kommt. Kalk setzt die Regelung fest, das Dehnstoffelement selbst lässt sich nicht reparieren. Entkalken hilft manchmal, sonst tauschst du die Kartusche nach der Ersatzteilliste der Armatur.",
+      "haeufigkeit": "häufig",
+      "teilart": "thermostatkartusche"
+    },
+    {
+      "ursache": "Schmutzfangsiebe oder Rückflussverhinderer zugesetzt",
+      "erklaerung": "Es kommt weniger Wasser als früher, oft auf einer Seite mehr als auf der anderen, und die Mischung stimmt nicht mehr. Die Siebe sitzen in den Anschlüssen und an der Kartusche, die Rückflussverhinderer in den Anschlussstutzen. Reinigen hilft meist, ein defekter Rückflussverhinderer wird getauscht.",
+      "haeufigkeit": "häufig"
+    },
+    {
+      "ursache": "Warmwasser kommt zu kalt an",
+      "erklaerung": "Speicher, Wärmepumpe oder Heizkessel liefern zu wenig Temperatur, dann kann auch der Thermostat nicht wärmer mischen. Grohe verlangt am Warmwasseranschluss mindestens 2 °C mehr als die gewünschte Mischtemperatur, hansgrohe nennt 42 bis 60 °C. Ob das zutrifft, zeigt ein Thermometer am Waschbecken.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Durchlauferhitzer schaltet nicht ein",
+      "erklaerung": "Ein verkalkter Duschkopf oder ein verschmutztes Sieb bremst den Durchfluss. Fließt zu wenig, bleibt der Durchlauferhitzer aus, bei den elektronischen Stiebel-Eltron-Geräten DHB-E sind mehr als 2,5 Liter pro Minute nötig. Stiebel Eltron empfiehlt bei Thermostat-Armaturen, am Gerät mehr als 50 °C einzustellen, Grohe hält Durchlauferhitzer erst ab 18 kW für geeignet.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Thermostat nach dem Kartuschentausch nicht justiert",
+      "erklaerung": "Nach der Reparatur passt die Temperatur nicht mehr zur Skala, oder die 38-°C-Sperre greift an der falschen Stelle. Grohe schreibt nach jeder Wartung an der Kartusche eine Justierung vor: Temperatur mit dem Thermometer messen, auf 38 °C einstellen und den Griff passend zur Markierung aufsetzen.",
+      "haeufigkeit": "gelegentlich",
+      "teilart": "thermostatkartusche"
+    },
+    {
+      "ursache": "Querströmung über undichte Rückflussverhinderer",
+      "erklaerung": "Im Thermostat sind Kalt- und Warmwasser verbunden. Sind die Rückflussverhinderer undicht, drückt Kaltwasser in die Warmwasserleitung oder umgekehrt, das Warmwasser kommt dann auch an anderen Stellen nur lauwarm. hansgrohe nennt als Abhilfe, die Rückflussverhinderer zu reinigen oder zu tauschen.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Warm und kalt vertauscht angeschlossen",
+      "erklaerung": "Betrifft neu montierte Armaturen: Es kommt nur ganz kalt oder ganz heiß, und der Griff wirkt verkehrt herum. Grohe und hansgrohe sehen warm links und kalt rechts vor. Grohe, hansgrohe und Hansa bieten dafür Sonderkartuschen für vertauschte Anschlüsse an.",
+      "haeufigkeit": "selten",
+      "teilart": "thermostatkartusche"
+    }
+  ],
+  "pruefen": [
+    "Am Waschbecken oder in der Küche heißes Wasser laufen lassen und mit einem Thermometer messen. Ist es dort auch nur lauwarm, liegt es an der Warmwasserbereitung, nicht am Thermostat.",
+    "Beim Durchlauferhitzer prüfen, ob er beim Duschen anspringt. Duschkopf und Strahlregler entkalken und die Brause testweise voll aufdrehen.",
+    "Am Thermostat die Taste der 38-°C-Sperre drücken und weiterdrehen. Erst wenn es dann nicht wärmer wird, liegt ein Fehler vor.",
+    "Kalt- und Warmwasser absperren, bei Aufputz-Thermostaten an den Absperrungen in den S-Anschlüssen, sonst an der Hauptabsperrung.",
+    "Aufputz-Thermostat abschrauben, Schmutzfangsiebe und Rückflussverhinderer in den Anschlüssen herausnehmen und reinigen.",
+    "Temperaturgriff abziehen, Thermostatkartusche herausschrauben, Kartusche und Filter reinigen und entkalken, O-Ringe mit Armaturenfett einstreichen.",
+    "Hilft das nicht, die Kartusche nach Artikelnummer und Ersatzteilliste der Armatur bestellen und tauschen.",
+    "Nach jeder Arbeit an der Kartusche justieren: Temperatur mit dem Thermometer messen, auf 38 °C einstellen und den Griff mit der Markierung auf 38 °C aufsetzen.",
+    "Kommt bei einer neuen Armatur nur ganz kalt oder ganz heiß, prüfen, ob warm links und kalt rechts angeschlossen sind."
+  ],
+  "fachbetrieb_ab": "Bei Unterputz-Thermostaten, wenn sich keine eigene Absperrung findet oder die Kartusche festsitzt, wenn Warm und Kalt in der Wand vertauscht sind, wenn Wasser hinter der Wand austritt oder wenn Speicher, Heizung oder Durchlauferhitzer zu wenig Temperatur liefern. Einstellungen am Durchlauferhitzer und an der Temperaturbegrenzung gehören in die Hand des Fachbetriebs. In der Mietwohnung sagst du dem Vermieter Bescheid.",
+  "marken_probleme": [
+    "grohe-thermostat-wird-nicht-warm-kalt",
+    "hansgrohe-thermostat-wird-nicht-warm",
+    "ideal-standard-thermostat-regelt-nicht",
+    "hansa-thermostat-wird-nicht-warm",
+    "kludi-thermostat-wird-nicht-warm"
+  ],
+  "fragen": [
+    {
+      "frage": "Mein Duschthermostat wird nicht mehr richtig warm, es kommt nur noch lauwarmes Wasser. Woran liegt das?",
+      "antwort": "Prüf zuerst, ob am Waschbecken oder in der Küche heißes Wasser kommt. Ist das so, liegt der Fehler fast immer am Thermostat selbst: Hansa nennt zugesetzte Filter an der Kartusche, hansgrohe und Grohe verschmutzte Schmutzfangsiebe und Rückflussverhinderer in den Anschlüssen. Helfen Reinigen und Entkalken nicht, ist die Thermostatkartusche verschlissen und wird getauscht. Kommt auch an den anderen Zapfstellen kein heißes Wasser, liegt es an der Warmwasserbereitung.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers",
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2832_pdf.pdf",
+        "https://media.hornbach.de/hb/installationmanual/as.69652904.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/117308/hansgrohe-UP-Dusch-Thermostat-nur-kaltes-Wasser",
+        "https://www.holzheizer-forum.de/forum/thread/53265-hansa-up-duscharmatur-wird-nicht-heiss-wechselt-kalt-warm/",
+        "https://www.gutefrage.net/frage/in-der-dusche-fliesst-nur-lauwarmes-wasser-warum-wird-es-nicht-heiss",
+        "https://www.bauexpertenforum.de/threads/dusche-vermutl-altes-thermostat-defekt.141714",
+        "https://www.energiesparhaus.at/forum-thermostat-von-armatur-kaputt/69864"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Am Waschbecken kommt heißes Wasser, an der Thermostat-Dusche mit Durchlauferhitzer bleibt es kalt. Warum?",
+      "antwort": "Ein Durchlauferhitzer heizt erst, wenn genug Wasser durchfließt; bei den elektronischen Geräten DHB-E von Stiebel Eltron sind das mehr als 2,5 Liter pro Minute. Die Anleitung nennt für „kein Warmwasser“ einen verkalkten Duschkopf oder Strahlregler und ein verschmutztes Sieb im Kaltwasserzulauf des Geräts. Stiebel Eltron empfiehlt bei Betrieb mit Thermostat-Armatur, am Gerät mehr als 50 °C einzustellen. Grohe hält Durchlauferhitzer erst ab 18 kW für geeignet, mit drucklosen (offenen) Speichern funktionieren Thermostate gar nicht.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/sima_doc-00083058.pdf",
+        "https://media.hornbach.de/hb/installationmanual/as.69652904.pdf",
+        "https://www.gutefrage.net/frage/kein-warmes-wasser-in-der-dusche-durchlauferhitzer",
+        "https://www.gutefrage.net/a/frage/wasser-in-der-dusche-wird-nicht-warm---durchlauferhitzer",
+        "https://www.gutefrage.net/frage/durchlauferhitzer-wasser-wechselt-seit-kurzem-zwischen-warm-und-kalt",
+        "https://www.gutefrage.net/frage/durchlauferhitzer---nur-heiss-oder-kalt---ich-sterbe-beim-duschen"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Kann ich die Thermostatkartusche entkalken, oder muss ich sie tauschen?",
+      "antwort": "Einen Versuch ist es wert: Hansa beschreibt, die Kartusche mit einem 38-mm-Schlüssel auszubauen, sie samt Filter unter fließendem Wasser zu reinigen und die O-Ringe vor dem Einsetzen zu fetten. Grohe schreibt in der Wartungsanleitung, alle Teile zu prüfen, zu reinigen, mit Spezial-Armaturenfett einzufetten und defekte Teile zu tauschen. Das Dehnstoffelement in der Kartusche lässt sich nicht reparieren; regelt der Thermostat danach immer noch nicht, nennt hansgrohe als Abhilfe den Tausch der Regeleinheit.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers",
+        "https://media.hornbach.de/hb/installationmanual/as.69652904.pdf",
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2832_pdf.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/117308/hansgrohe-UP-Dusch-Thermostat-nur-kaltes-Wasser",
+        "https://www.gutefrage.net/frage/thermostat-in-dusche-klemmt-kalk",
+        "https://www.bauexpertenforum.de/threads/thermostatmischer-kartusche-dusche-funktion.147373/",
+        "https://www.dasheimwerkerforum.de/threads/rokal-hansa-thermostat-kartusche-ersatz-oder-demontage.23958/",
+        "https://www.haustechnikdialog.de/Forum/t/202219/Thermostat-Armatur-Kludi-Wartung"
+      ],
+      "teile": [
+        "grohe-thermostatkartusche-47439000",
+        "hansgrohe-thermostatkartusche-98282000",
+        "hansa-thermostatkartusche-59914114"
+      ],
+      "problem": null
+    },
+    {
+      "frage": "Nach dem Kartuschentausch wird die Dusche nicht mehr so warm wie vorher. Muss ich den Thermostat neu einstellen?",
+      "antwort": "Ja. Grohe schreibt vor, nach jeder Wartung an der Thermostatkartusche zu justieren, und hansgrohe verlangt eine Korrektur, wenn die gemessene Temperatur von der eingestellten abweicht. Dafür misst du die Auslauftemperatur mit einem Thermometer, stellst 38 °C ein und setzt den Temperaturgriff so auf, dass seine Markierung auf der 38-°C-Marke steht. So beschreibt es auch Hansa. Sitzt der Griff versetzt, stimmen Skala und Sperre nicht mehr, und die Dusche bleibt zu kalt oder wird zu heiß.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://media.hornbach.de/hb/installationmanual/as.69652904.pdf",
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2832_pdf.pdf",
+        "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers",
+        "https://www.haustechnikdialog.de/Forum/t/97220/Mischtemperatur-bei-GROHE-Thermostatarmatur-zu-kalt",
+        "https://www.haustechnikdialog.de/Forum/t/174122/Temperaturjustierung-bei-Thermostatbatterie-Dusche",
+        "https://www.gutefrage.net/frage/ich-habe-eine-neue-duscharmatur-mit-thermostat-installiert-und-das-wasser-wird-nicht-heiss-woran-kann-das-liegen",
+        "https://www.bauexpertenforum.de/threads/thermostatkartusche-tauschen.148382/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Mein neu montierter Thermostat gibt nur ganz kalt oder ganz heiß und regelt verkehrt herum. Sind warm und kalt vertauscht?",
+      "antwort": "Genau so zeigt sich ein vertauschter Anschluss. Grohe und hansgrohe sehen warm links und kalt rechts vor; hansgrohe nennt für den Fall „Grundkörper falsch angeschlossen oder 180° verdreht“ die Regeleinheit für vertauschte Anschlüsse 92373000. Grohe sieht für Grohtherm 1000 die Kompaktkartusche 47175000 vor, mit der die Cool-Touch-Funktion entfällt, Hansa für Hansatempra Sonderkartuschen „Anschlüsse vertauscht“. Bei Unterputz-Armaturen lässt du die Leitungen besser vom Installateur prüfen.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2832_pdf.pdf",
+        "https://www.hansgrohe.de/articledetail-regeleinheit-fuer-vertauschte-anschluesse-92373000",
+        "https://media.hornbach.de/hb/installationmanual/as.69652904.pdf",
+        "https://www.grohe.com/de-DE/produkt/47175000",
+        "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers",
+        "https://www.hansa.com/de/produkte/59913463/thermostatkartusche-hc-reversed",
+        "https://www.hansa.com/de/produkte/59911527/thermostatkartusche-hc-reversed",
+        "https://www.haustechnikdialog.de/Forum/t/32209/Duschthermostat-Anschluesse-falsch",
+        "https://www.haustechnikdialog.de/Forum/t/120030/HansGrohe-Ecostat-1001-SL-macht-nur-ganz-kalt-od-ganz-heiss-",
+        "https://www.gutefrage.net/frage/ich-habe-eine-neue-duscharmatur-mit-thermostat-installiert-und-das-wasser-wird-nicht-heiss-woran-kann-das-liegen"
+      ],
+      "teile": [
+        "hansgrohe-regeleinheit-vertauscht-92373000",
+        "grohe-turbostat-kartusche-47175000",
+        "hansa-thermostatkartusche-59913463",
+        "hansa-thermostatkartusche-59911527"
+      ],
+      "problem": null
+    },
+    {
+      "frage": "Der Thermostat lässt sich nur bis 38 Grad drehen. Wie bekomme ich das Wasser wärmer?",
+      "antwort": "Die 38-°C-Sperre ist eine Sicherheitssperre gegen Verbrühen. Bei Grohe drückst du die Taste am Temperaturgriff und drehst weiter, dann geht es über 38 °C hinaus. Manche Modelle haben zusätzlich einen Endanschlag, Grohe legt beim Grohtherm 1000 einen Begrenzer für 43 °C bei, hansgrohe nennt die „Safety Function“ mit z. B. 42 °C. Wird es trotz gedrückter Taste nicht wärmer, prüf die Warmwassertemperatur und nach einem Kartuschentausch die Justierung.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://media.hornbach.de/hb/installationmanual/as.69652904.pdf",
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2832_pdf.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/174122/Temperaturjustierung-bei-Thermostatbatterie-Dusche",
+        "https://www.haustechnikdialog.de/Forum/t/97220/Mischtemperatur-bei-GROHE-Thermostatarmatur-zu-kalt",
+        "https://www.gutefrage.net/frage/ich-habe-eine-neue-duscharmatur-mit-thermostat-installiert-und-das-wasser-wird-nicht-heiss-woran-kann-das-liegen"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Aus dem Thermostat kommt immer weniger Wasser und es wird nicht mehr richtig warm. Was ist verstopft?",
+      "antwort": "Meist sind es die Schmutzfangsiebe und Rückflussverhinderer in den Anschlüssen oder das Sieb an der Regeleinheit. hansgrohe nennt in der Störungstabelle für „wenig Wasser“ genau diese Teile und dazu zu geringen Versorgungsdruck, Grohe nimmt die Rückflussverhinderer bei der Wartung heraus und reinigt sie. Bei Aufputz-Thermostaten sperrst du dafür das Wasser ab und schraubst die Armatur von den S-Anschlüssen. Einen defekten Rückflussverhinderer tauschst du nach der Ersatzteilliste deiner Armatur.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2832_pdf.pdf",
+        "https://media.hornbach.de/hb/installationmanual/as.69652904.pdf",
+        "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers",
+        "https://www.hansa.com/de/produkte/59901610/rckschlagventil",
+        "https://www.holzheizer-forum.de/forum/thread/53265-hansa-up-duscharmatur-wird-nicht-heiss-wechselt-kalt-warm/",
+        "https://www.haustechnikdialog.de/Forum/t/202219/Thermostat-Armatur-Kludi-Wartung",
+        "https://www.gutefrage.net/frage/thermostat-in-dusche-klemmt-kalk"
+      ],
+      "teile": [
+        "grohe-rueckflussverhinderer-08565000",
+        "hansgrohe-rueckflussverhinderer-96737000",
+        "hansa-rueckflussverhinderer-59901610"
+      ],
+      "problem": null
+    },
+    {
+      "frage": "Seit dem neuen Thermostat kommt aus dem Kaltwasserhahn warmes Wasser, oder das Warmwasser ist überall nur lauwarm. Wie kann das sein?",
+      "antwort": "Das ist eine Querströmung: Warm- und Kaltwasser sind im Thermostat verbunden, und ohne dichte Rückflussverhinderer drückt die Seite mit dem höheren Druck in die andere Leitung. hansgrohe beschreibt diesen „Kreuzfluss“ in der Störungstabelle und nennt als Abhilfe, die Rückflussverhinderer-Patrone zu reinigen oder zu tauschen. Hängen mehrere Thermostate im Haus, prüfst du jeden einzeln. Einfach herausnehmen ist keine Lösung: Rückflussverhinderer sind laut hansgrohe nach EN 806-5 vorgeschrieben und mindestens einmal im Jahr zu prüfen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2832_pdf.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/26397/Thermostat-Brausebatterie-und-dann-Kalt-Leitung-warm-",
+        "https://www.haustechnikdialog.de/Forum/t/248366/Warmwasser-drueckt-ins-Kaltwasser",
+        "https://www.gutefrage.net/frage/wasserleitung-spielt-verrueckt-heisswasser-aus-kaltwasserleitung",
+        "https://www.gutefrage.net/frage/duschsystem-getauscht-nun-ueberall-heisses-wasser-in-den-leitungen"
+      ],
+      "teile": [
+        "hansgrohe-rueckflussverhinderer-96737000",
+        "grohe-rueckflussverhinderer-08565000"
+      ],
+      "problem": null
+    },
+    {
+      "frage": "Wie heiß muss das Warmwasser sein, damit der Thermostat richtig warm wird, zum Beispiel mit Wärmepumpe?",
+      "antwort": "Ein Thermostat kann nur so warm mischen, wie das Warmwasser ankommt. Grohe verlangt, dass das Warmwasser am Anschluss mindestens 2 °C wärmer ist als die gewünschte Mischtemperatur, und empfiehlt aus Energiegründen höchstens 60 °C. hansgrohe nennt als Abhilfe bei zu niedriger Warmwassertemperatur, sie auf 42 bis 60 °C zu erhöhen. Kommt am Speicher oder an der Wärmepumpe zu wenig Temperatur an, ist das kein Fehler der Armatur.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://media.hornbach.de/hb/installationmanual/as.69652904.pdf",
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2832_pdf.pdf",
+        "https://www.energiesparhaus.at/forum-waermepumpe-brauchwassertemperatur-kalt/43485",
+        "https://www.haustechnikdialog.de/Forum/t/97220/Mischtemperatur-bei-GROHE-Thermostatarmatur-zu-kalt"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Die Temperatur schwankt beim Duschen oder der Griff dreht sich von selbst Richtung heiß. Ist der Thermostat kaputt?",
+      "antwort": "Nicht unbedingt. hansgrohe schreibt, dass große Druckunterschiede zwischen Kalt- und Warmwasser ausgeglichen werden müssen, und rät, den Thermostat ab und zu ganz auf warm und ganz auf kalt zu drehen, damit die Regeleinheit leichtgängig bleibt. Hansa nennt für schwankende Temperatur verstopfte Filter und vertauschte Anschlüsse. Ein hansgrohe-Mitarbeiter nannte im Forum außerdem eine zu leichtgängige Regeleinheit, die dann getauscht wird.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2832_pdf.pdf",
+        "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers",
+        "https://www.haustechnikdialog.de/Forum/t/167949/Duschthermostat-dreht-automatisch-heisser",
+        "https://www.haustechnikdialog.de/Forum/t/1162/Mischbatterie-Thermostat-regelt-nicht-richtig",
+        "https://www.gutefrage.net/frage/durchlauferhitzer-wasser-wechselt-seit-kurzem-zwischen-warm-und-kalt"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welche Thermostatkartusche passt in meine Armatur?",
+      "antwort": "Thermostatkartuschen sind herstellerspezifisch, oft hat sogar eine Marke mehrere, die nicht untereinander passen. hansgrohe unterscheidet etwa die MTC 94282000 und die SMTC 98282000, Kludi Regeleinheiten mit 23 und 30 mm, Ideal Standard für CeraTherm 100/200/300 die A962229NU. Grohe führt die Kompaktkartusche 47439000 und das reine Thermoelement 47450000 für ältere Serien. Ermittle deshalb die Artikelnummer der Armatur und nimm die Kartusche aus deren Ersatzteilliste.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://www.hansgrohe.co.uk/articledetail-mtc-thermostat-cartridge-94282000",
+        "https://www.hansgrohe.de/articledetail-temperatur-regeleinheit-smtc-98282000",
+        "https://assets.heizung-billiger.de/documents/kldb_7447000-00.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_7672900-00.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_7480900-00.pdf",
+        "https://idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133054-source/options/download/is-ceratherm-mp-sparesl-de-bathroom100200300",
+        "https://www.grohe.com/de-DE/produkt/47439000",
+        "https://www.grohe.com/de-DE/produkt/47450000",
+        "https://www.haustechnikdialog.de/Forum/t/219189/Kludi-Thermostat-Kartusche-KT-46-zerfaellt",
+        "https://www.bauexpertenforum.de/threads/dusche-vermutl-altes-thermostat-defekt.141714",
+        "https://www.bauexpertenforum.de/threads/thermostatkartusche-tauschen.148382/",
+        "https://www.energiesparhaus.at/forum-thermostat-von-armatur-kaputt/69864"
+      ],
+      "teile": [
+        "hansgrohe-thermostatkartusche-94282000",
+        "hansgrohe-thermostatkartusche-98282000",
+        "kludi-thermostatkartusche-7447000",
+        "kludi-thermostatkartusche-7672900",
+        "ideal-standard-thermostatkartusche-a962229nu",
+        "grohe-thermostatkartusche-47439000",
+        "grohe-thermoelement-47450000"
+      ],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers",
+    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2832_pdf.pdf",
+    "https://media.hornbach.de/hb/installationmanual/as.69652904.pdf",
+    "https://www.haustechnikdialog.de/Forum/t/117308/hansgrohe-UP-Dusch-Thermostat-nur-kaltes-Wasser",
+    "https://www.holzheizer-forum.de/forum/thread/53265-hansa-up-duscharmatur-wird-nicht-heiss-wechselt-kalt-warm/",
+    "https://www.gutefrage.net/frage/in-der-dusche-fliesst-nur-lauwarmes-wasser-warum-wird-es-nicht-heiss",
+    "https://www.bauexpertenforum.de/threads/dusche-vermutl-altes-thermostat-defekt.141714",
+    "https://www.energiesparhaus.at/forum-thermostat-von-armatur-kaputt/69864",
+    "https://assets.heizung-billiger.de/documents/sima_doc-00083058.pdf",
+    "https://www.gutefrage.net/frage/kein-warmes-wasser-in-der-dusche-durchlauferhitzer",
+    "https://www.gutefrage.net/a/frage/wasser-in-der-dusche-wird-nicht-warm---durchlauferhitzer",
+    "https://www.gutefrage.net/frage/durchlauferhitzer-wasser-wechselt-seit-kurzem-zwischen-warm-und-kalt",
+    "https://www.gutefrage.net/frage/durchlauferhitzer---nur-heiss-oder-kalt---ich-sterbe-beim-duschen",
+    "https://www.gutefrage.net/frage/thermostat-in-dusche-klemmt-kalk",
+    "https://www.bauexpertenforum.de/threads/thermostatmischer-kartusche-dusche-funktion.147373/",
+    "https://www.dasheimwerkerforum.de/threads/rokal-hansa-thermostat-kartusche-ersatz-oder-demontage.23958/",
+    "https://www.haustechnikdialog.de/Forum/t/202219/Thermostat-Armatur-Kludi-Wartung",
+    "https://www.haustechnikdialog.de/Forum/t/97220/Mischtemperatur-bei-GROHE-Thermostatarmatur-zu-kalt",
+    "https://www.haustechnikdialog.de/Forum/t/174122/Temperaturjustierung-bei-Thermostatbatterie-Dusche",
+    "https://www.gutefrage.net/frage/ich-habe-eine-neue-duscharmatur-mit-thermostat-installiert-und-das-wasser-wird-nicht-heiss-woran-kann-das-liegen",
+    "https://www.bauexpertenforum.de/threads/thermostatkartusche-tauschen.148382/",
+    "https://www.hansgrohe.de/articledetail-regeleinheit-fuer-vertauschte-anschluesse-92373000",
+    "https://www.grohe.com/de-DE/produkt/47175000",
+    "https://www.hansa.com/de/produkte/59913463/thermostatkartusche-hc-reversed",
+    "https://www.hansa.com/de/produkte/59911527/thermostatkartusche-hc-reversed",
+    "https://www.haustechnikdialog.de/Forum/t/32209/Duschthermostat-Anschluesse-falsch",
+    "https://www.haustechnikdialog.de/Forum/t/120030/HansGrohe-Ecostat-1001-SL-macht-nur-ganz-kalt-od-ganz-heiss-",
+    "https://www.hansa.com/de/produkte/59901610/rckschlagventil",
+    "https://www.haustechnikdialog.de/Forum/t/26397/Thermostat-Brausebatterie-und-dann-Kalt-Leitung-warm-",
+    "https://www.haustechnikdialog.de/Forum/t/248366/Warmwasser-drueckt-ins-Kaltwasser",
+    "https://www.gutefrage.net/frage/wasserleitung-spielt-verrueckt-heisswasser-aus-kaltwasserleitung",
+    "https://www.gutefrage.net/frage/duschsystem-getauscht-nun-ueberall-heisses-wasser-in-den-leitungen",
+    "https://www.energiesparhaus.at/forum-waermepumpe-brauchwassertemperatur-kalt/43485",
+    "https://www.haustechnikdialog.de/Forum/t/167949/Duschthermostat-dreht-automatisch-heisser",
+    "https://www.haustechnikdialog.de/Forum/t/1162/Mischbatterie-Thermostat-regelt-nicht-richtig",
+    "https://www.hansgrohe.co.uk/articledetail-mtc-thermostat-cartridge-94282000",
+    "https://www.hansgrohe.de/articledetail-temperatur-regeleinheit-smtc-98282000",
+    "https://assets.heizung-billiger.de/documents/kldb_7447000-00.pdf",
+    "https://assets.heizung-billiger.de/documents/kldb_7672900-00.pdf",
+    "https://assets.heizung-billiger.de/documents/kldb_7480900-00.pdf",
+    "https://idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133054-source/options/download/is-ceratherm-mp-sparesl-de-bathroom100200300",
+    "https://www.grohe.com/de-DE/produkt/47439000",
+    "https://www.grohe.com/de-DE/produkt/47450000",
+    "https://www.haustechnikdialog.de/Forum/t/219189/Kludi-Thermostat-Kartusche-KT-46-zerfaellt"
+  ]
+}
