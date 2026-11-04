@@ -24,16 +24,26 @@ const VERWEISE: Record<string, Verweis[]> = {
     { href: "/ersatzteile/grohe/eurosmart-waschtisch", titel: "Ersatzteile für Grohe Eurosmart Waschtischarmatur", art: "serie" },
     { href: "/problem/grohe-armatur-tropft", titel: "Armatur tropft: Ursachen und passende Kartusche", art: "problem" },
     { href: "/problem/grohe-strahlregler-verkalkt", titel: "Wasserstrahl spritzt: Strahlregler verkalkt", art: "problem" },
+    { href: "/ersatzteile/hansgrohe", titel: "hansgrohe Ersatzteile: Kartuschen M1, M3/M2", art: "marke" },
   ],
   "waschtischarmatur-mit-brause": [
     { href: "/ersatzteile/grohe/europlus-waschtisch", titel: "Ersatzteile für Grohe Europlus Waschtischarmatur", art: "serie" },
     { href: "/ersatzteile/grohe", titel: "Grohe Ersatzteile: Kartuschen, Strahlregler, Schläuche", art: "marke" },
+    { href: "/ersatzteile/hansgrohe", titel: "hansgrohe Ersatzteile: Kartuschen M1, M3/M2 und Thermostatkartuschen", art: "marke" },
     { href: "/problem/grohe-armatur-tropft", titel: "Armatur tropft: Ursachen und passende Kartusche", art: "problem" },
+  ],
+  "niederdruckarmatur-untertischspeicher": [
+    { href: "/ersatzteile/grohe", titel: "Grohe Ersatzteile: Kartuschen, Strahlregler, Schläuche", art: "marke" },
+    { href: "/ersatzteile/hansgrohe", titel: "hansgrohe Ersatzteile: Kartuschen und Strahlregler", art: "marke" },
+    { href: "/ersatzteile/hansgrohe/logis-waschtisch", titel: "Ersatzteile für hansgrohe Logis Waschtischarmatur", art: "serie" },
+    { href: "/ersatzteile/hansgrohe/focus-m41-kuechenarmatur", titel: "Ersatzteile für hansgrohe Focus M41 Küchenarmatur", art: "serie" },
+    { href: "/problem/hansgrohe-armatur-tropft", titel: "hansgrohe Armatur tropft: Ursachen und passende Kartusche", art: "problem" },
   ],
   "badewannenarmatur-ratgeber": [
     { href: "/ersatzteile/grohe/eurosmart-wannenarmatur", titel: "Ersatzteile für Grohe Eurosmart Wannenbatterie", art: "serie" },
     { href: "/ersatzteile/grohe/grohtherm-800", titel: "Ersatzteile für Grohe Grohtherm 800 Thermostat", art: "serie" },
     { href: "/problem/grohe-thermostat-wird-nicht-warm-kalt", titel: "Thermostat wird nicht warm oder nicht kalt", art: "problem" },
+    { href: "/problem/hansgrohe-thermostat-wird-nicht-warm", titel: "hansgrohe Thermostat wird nicht warm", art: "problem" },
   ],
   "komplettdusche-ratgeber": [
     { href: "/ersatzteile/grohe/grohtherm-1000", titel: "Ersatzteile für Grohe Grohtherm 1000 Thermostat", art: "serie" },

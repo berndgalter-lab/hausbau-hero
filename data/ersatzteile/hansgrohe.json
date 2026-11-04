@@ -2,40 +2,61 @@
  "marke": {
   "slug": "hansgrohe",
   "name": "hansgrohe",
-  "beschreibung": "Deutscher Armaturen- und Brausenhersteller (Marken hansgrohe und AXOR). Bei Einhebelmischern sitzt eine keramische Kartusche (hansgrohe-Bezeichnungen u. a. M1, M2/M3, M25-, M35-Typen), bei Aufputz-Thermostaten (Ecostat) eine Temperatur-Regeleinheit. Welches Teil passt, hängt von der 8-stelligen Artikelnummer der Armatur und oft vom Baujahr ab: hansgrohe führt in den Kompatibilitätslisten Bauzeiträume wie „10/15 – 03/17“ oder „> 04/17“.",
-  "nummer_hinweis": "Die 8-stellige Artikelnummer ist laut hansgrohe bei Armaturen, Thermostaten und Grundsets per Laser an gut sichtbarer Stelle eingraviert. Aufputz-Brause-/Wannenarmaturen und Thermostate: auf dem Grundkörper (Teil vor der Wand), alternativ auf dem Griff. Unterputz: auf der Rosette oder dem Funktionsblock bzw. bei Grundsets direkt am Produkt oder in der iBox universal 2. Küchenarmaturen: auf dem Griff. Ausziehbrausen: hinten am Schaft. Außerdem steht sie auf der Verpackung, und die Montageanleitung enthält die Ersatzteile mit ihren Artikelnummern. Die letzten drei Ziffern stehen für die Oberfläche (z. B. …000 Chrom, …670 Mattschwarz, …700 Mattweiß, …800 Edelstahl-Optik), deshalb gibt es dasselbe Modell unter mehreren Nummern. Dass die Nummer auf der Rechnung steht, ist plausibel, aber nicht von hansgrohe belegt.",
-  "ersatzteil_garantie": "hansgrohe garantiert laut FAQ die Verfügbarkeit von Ersatzteilen für 15 Jahre, nachdem das jeweilige Produkt aus dem Sortiment genommen wurde; ausgelaufene Produkte bleiben in der Ersatzteilsuche auffindbar und sind dort als ausgelaufen gekennzeichnet. Für AXOR nennt hansgrohe „mindestens 15 Jahre“.",
+  "beschreibung": "Armaturen- und Brausenmarke der Hansgrohe SE (zweite Marke: AXOR). hansgrohe betreibt eine Online-Ersatzteilsuche mit Explosionszeichnungen (hansgrohe.de/service/ersatzteilsuche, spares.hansgrohe.com); jede Ersatzteilseite zeigt „alle kompatiblen Produkte“ mit Artikelnummer, Oberfläche und Baujahr. Einhebel-Kartuschen tragen Typbezeichnungen wie M1 (97685000), M3/M2 (92730000), M25XS/M25LXS (93740000/93760000) oder M35 LR/EcoR (95646000/92530000); Thermostate nutzen Temperatur-Regeleinheiten MTC (94282000) oder SMTC (98282000). Welche Kartusche passt, hängt von Artikelnummer und Baujahr ab – nicht nur von der Serie.",
+  "nummer_hinweis": "hansgrohe-Artikelnummern sind 8-stellig. Oberflächenvarianten teilen die ersten fünf Stellen und unterscheiden sich in den letzten drei, z. B. Rebris S 72517000 (Chrom) und 72517670 (Mattschwarz), Talis E 71710000 (Chrom) und 71710700 (Mattweiß), Talis E 71712140 (Brushed Bronze), Talis M54 72804800 (Edelstahl-Finish) – abgeleitet aus Artikellisten, eine offizielle Erklärung haben wir nicht gefunden. Wo die Nummer steht: laut hansgrohe-FAQ bei Waschtisch- und Bidetarmaturen gelasert am Griff, Gewindeschaft oder Armaturenkörper, bei Küchenmischern meist am Griff, bei Ausziehbrausen am Schaft, bei Unterputz-Armaturen auf Rosette oder Funktionsblock, bei Handbrausen am Griff, bei Brauseschläuchen auf der Schlauchmutter; außerdem auf Verpackung und in der Montageanleitung, die auch die Ersatzteilnummern enthält. Ersatzteile haben ebenfalls 8-stellige Nummern (z. B. 92730000). hansgrohe führt je Artikel getrennte Ersatzteillisten nach Baujahr (z. B. „> 05/17“), daher Artikelnummer und Baujahr zusammen prüfen.",
+  "ersatzteil_garantie": "Laut hansgrohe-FAQ ist die Verfügbarkeit von Ersatzteilen 15 Jahre nach Auslauf des Produkts garantiert; pro.hansgrohe.de spricht von einer 15-jährigen Nachkaufgarantie. Daneben gewährt hansgrohe eine freiwillige Herstellergarantie von 5 Jahren; Verschleißteile wie Dichtungen sind ausgenommen, und der Einbau von Nicht-Originalteilen lässt die Garantie entfallen. Produkte können nicht zur Reparatur eingeschickt werden – hansgrohe verweist auf den Installateur.",
   "hersteller_ersatzteil_url": "https://www.hansgrohe.de/service/ersatzteilsuche",
   "quellen": [
-   "https://www.hansgrohe.com/service/faq/spare-parts-repairs",
    "https://www.hansgrohe.de/service/ersatzteilsuche",
    "https://pro.hansgrohe.de/service/ersatzteile",
-   "https://www.hansgrohe.de/bad/produkte/ersatzteile",
-   "https://spares.hansgrohe.com/etk/INT/?lang=de_DE%2F",
-   "https://www.axor-design.com/uk/service/spare-parts"
+   "https://www.hansgrohe.com/service/faq/spare-parts-repairs",
+   "https://www.hansgrohe.de/service/garantie",
+   "https://assets.hansgrohe.com/celum/web/hansgrohe_guarantee_de.pdf",
+   "https://assets.hansgrohe.com/celum/web/dk_spareparts-flyer_qr_da-DK.pdf"
   ]
  },
  "serien": [
   {
-   "slug": "focus-waschtisch",
-   "name": "hansgrohe Focus Waschtischarmatur",
+   "slug": "talis-e-waschtisch",
+   "name": "hansgrohe Talis E Waschtischarmatur",
    "produkttyp": "waschtischarmatur",
-   "baujahr_von": 2008,
+   "baujahr_von": 2015,
    "baujahr_bis": null,
    "kennnummern": [
-    "31730000",
-    "31607000",
-    "31517000",
-    "31509000",
-    "31603000",
-    "31735000"
+    "71710000",
+    "71710670",
+    "71710700",
+    "71712000",
+    "71712140",
+    "71711000",
+    "71713000",
+    "71715000"
    ],
-   "erkennungsmerkmale": "Einhebelmischer in den Größen 70/100/190 (ComfortZone). Artikelnummer z. B. 31730000 = Focus 70 mit Zugstangen-Ablaufgarnitur, 31607000 = Focus 100 mit Zugstangen-Ablaufgarnitur, 31517000 = Focus 100 ohne Ablaufgarnitur, 31509000 = Focus 100 CoolStart, 31603000 = Focus 100 LowFlow.",
-   "beschreibung": "Laut hansgrohe-Kompatibilitätsliste wird 31730000 seit 10/08 gebaut (Zeiträume 10/08–12/09, 01/10–04/17, > 05/17), 31607000 in den Zeiträumen 05/11–04/17 und > 05/17. Die Standardvarianten nutzen die M3/M2-Kartusche 92730000; LowFlow-, Eco- und Projektvarianten haben eigene Kartuschen.",
+   "erkennungsmerkmale": "Kantiger Einhebelmischer mit flachem Hebel; Größe als Zahl im Namen (z. B. 110 = ComfortZone 110, Ausladung 112 mm, Auslaufhöhe 104 mm bei 71710000).",
+   "beschreibung": "Talis E 110 (Markteinführung laut Architonic 2015). hansgrohe listet für 71710000 die Baujahre 10/15–04/17 und > 05/17. Kartusche laut hansgrohe.de: Keramik Kartusche M1 97685000; LowFlow-Variante 3,5 l/min (71715000): Kartusche M25 Low Flow 95973001.",
    "quellen": [
-    "https://pro.hansgrohe.de/articledetail-focus-einhebel-waschtischmischer-70-mit-zugstangen-ablaufgarnitur-31730000.html",
-    "https://pro.hansgrohe.at/articledetail-focus-einhebel-waschtischmischer-100-mit-zugstangen-ablaufgarnitur-31607000.html",
-    "https://www.hansgrohe.at/articledetail-keramik-kartusche-komplett-m3-m2-92730000"
+    "https://pro.hansgrohe.com/articledetail-talis-e-single-lever-basin-mixer-110-with-pop-up-waste-set-71710000",
+    "https://architonic.com/en/product/hansgrohe-hansgrohe-talis-e-single-lever-basin-mixer-110-with-pop-up-waste-set/1351827",
+    "https://pro.hansgrohe.de/articledetail-talis-e-einhebel-waschtischmischer-110-ohne-ablaufgarnitur-71712000",
+    "https://pro.hansgrohe.de/articledetail-talis-e-einhebel-waschtischmischer-110-lowflow-3-5-l-min-mit-zugstangen-ablaufgarnitur-71715000",
+    "https://www.hansgrohe.de/articledetail-keramik-kartusche-m1-komplett-97685000"
+   ]
+  },
+  {
+   "slug": "talis-e-duscharmatur",
+   "name": "hansgrohe Talis E Brausemischer Aufputz",
+   "produkttyp": "duscharmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "71760000",
+    "71760340"
+   ],
+   "erkennungsmerkmale": "Aufputz-Einhebel-Brausemischer im kantigen Talis-E-Design.",
+   "beschreibung": "Laut hansgrohe-Produktdatenblatt (bei neuesbad.de) für 71760340 Kartusche 92730000 (M3/M2).",
+   "quellen": [
+    "https://www.hansgrohe.com/articledetail-talis-e-single-lever-shower-mixer-for-exposed-installation-71760000",
+    "https://www.neuesbad.de/media/pdf/06/01/04/71760340.pdf"
    ]
   },
   {
@@ -46,40 +67,79 @@
    "baujahr_bis": null,
    "kennnummern": [
     "72020000",
-    "72022000",
-    "72013000",
-    "72113000",
-    "72105000",
-    "72116000",
-    "32020000"
+    "72021000",
+    "32070000",
+    "72113000"
    ],
-   "erkennungsmerkmale": "Einhebelmischer der aktuellen Talis-S-Generation mit Artikelnummern 72…; 72020000 = Talis S 100 mit Zugstangen-Ablaufgarnitur, 72113000 = Talis S 140, 72116000 = Talis S 250. 32020000 ist die ältere Talis-S-Generation (andere Teile).",
-   "beschreibung": "Für 72020000 nennt hansgrohe die Bauzeiträume 10/15–03/17 und > 04/17; in beiden steckt die Keramik-Kartusche M1 komplett (97685000), dazu ggf. der Adapter 92628000. Für Exemplare vor 10/15 und für die ältere 32020000 ist die Kartusche hier nicht geprüft.",
+   "erkennungsmerkmale": "Runder Einhebelmischer mit Stiel-Hebel; 32070000 mit 360°-Schwenkauslauf.",
+   "beschreibung": "Laut hansgrohe UK steckt in Talis S Waschtischmischern die Kartusche M3/M2 92730000 (z. B. 32070000, Baujahr 08/13). Für den aktuellen Talis S 100 72020000 (laut Datenblatt ab 04/17) wurde keine Kartuschennummer gefunden.",
    "quellen": [
-    "https://www.hansgrohe.de/articledetail-keramik-kartusche-m1-komplett-97685000",
-    "https://www.hansgrohe.at/articledetail-adapter-fuer-kartusche-92628000"
+    "https://www.hansgrohe.co.uk/articledetail-talis-s-single-lever-basin-mixer-with-swivel-spout-and-pop-up-waste-32070000",
+    "https://www.hansgrohe.co.uk/articledetail-talis-s-single-lever-basin-mixer-100-without-waste-72021000",
+    "https://www.hansgrohe.co.uk/articledetail-cartridge-m3-m2-92730000"
    ]
   },
   {
-   "slug": "talis-e-waschtisch",
-   "name": "hansgrohe Talis E Waschtischarmatur",
-   "produkttyp": "waschtischarmatur",
+   "slug": "talis-s-kuechenarmatur",
+   "name": "hansgrohe Talis S Küchenmischer 260",
+   "produkttyp": "kuechenarmatur",
    "baujahr_von": null,
    "baujahr_bis": null,
    "kennnummern": [
-    "71710000",
-    "71700000",
-    "71701000",
-    "71711000",
-    "71712700"
+    "72810000"
    ],
-   "erkennungsmerkmale": "Einhebelmischer; 71710000 = Talis E 110 mit Zugstangen-Ablaufgarnitur (Chrom), 71712700 = Talis E 110 ohne Ablaufgarnitur (Mattweiß).",
-   "beschreibung": "Die Talis-E-Waschtischmischer nutzen laut hansgrohe die Keramik-Kartusche M1 komplett (97685000) mit Adapter 92628000. Den Luftsprudler M24x1 (5 l/min) 13185000 führt hansgrohe für mehrere Talis-E-Artikel.",
+   "erkennungsmerkmale": "Hoher Einhebel-Küchenmischer 260 (hansgrohe UK führt 72810000 als „Talis S Single lever kitchen mixer 260“).",
+   "beschreibung": "Laut hansgrohe UK Kartusche M3/M2 92730000 (Baujahr 06/15).",
+   "quellen": [
+    "https://www.hansgrohe.co.uk/articledetail-talis-s-single-lever-kitchen-mixer-260-72810000",
+    "https://www.hansgrohe.co.uk/articledetail-cartridge-m3-m2-92730000"
+   ]
+  },
+  {
+   "slug": "talis-m51-kuechenarmatur",
+   "name": "hansgrohe Talis M51 Küchenmischer",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "72813800",
+    "72814000",
+    "73850800"
+   ],
+   "erkennungsmerkmale": "Einhebel-Küchenmischer; Zahl im Namen = ComfortZone (160/200/220/260); Varianten mit Ausziehbrause, Geräteabsperrventil oder sBox.",
+   "beschreibung": "Laut hansgrohe.de Kartusche M1 97685000 im Talis M51 220 (Baujahre 10/17–05/19 und 06/19–07/24) und im Talis M51 160 Ausziehbrause 2jet sBox 73850800 (> 04/19). Auslauf-Dichtungsset 92646000 (72814000); Brauseschlauch 1,5 m 95507000 (Ausziehbrause 72813800), 1,7 m 93191000 bei sBox-Versionen.",
    "quellen": [
     "https://www.hansgrohe.de/articledetail-keramik-kartusche-m1-komplett-97685000",
-    "https://www.hansgrohe.at/articledetail-adapter-fuer-kartusche-92628000",
-    "https://www.hansgrohe.de/articledetail-luftsprudler-m24-x-1-mit-durchflussbegrenzer-5-l-min-13185000",
-    "https://pro.hansgrohe.com/articledetail-talis-e-single-lever-basin-mixer-110-without-waste-set-71712700"
+    "https://www.hansgrohe.de/datasheet/product/hansgrohe/73850800",
+    "https://www.hansgrohe.de/articledetail-schlauch-fuer-spueltischmischer-1500mm-95507000",
+    "https://www.hansgrohe.de/articledetail-dichtungsset-fuer-auslauf-92646000"
+   ]
+  },
+  {
+   "slug": "talis-m54-kuechenarmatur",
+   "name": "hansgrohe Talis M54 Küchenmischer",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "72802000",
+    "72803800",
+    "72804000",
+    "72804800",
+    "72804670",
+    "72859670",
+    "72844000",
+    "72808670"
+   ],
+   "erkennungsmerkmale": "Küchenmischer mit Ausziehauslauf bzw. U-Auslauf; Varianten 210, 220, 270 und U 220.",
+   "beschreibung": "Zwei verschiedene Kartuschen je nach Modell: 210 mit Ausziehauslauf → M25XS 93740000 (72802000, > 12/19; 72803800 sBox, > 04/20); 220 1jet → M25LXS 93760000 (72804000: 12/19–03/21 und > 04/21). Laminarer Strahlformer M18,5x1 93748000.",
+   "quellen": [
+    "https://www.hansgrohe.de/articledetail-kartusche-m25xs-93740000",
+    "https://pro.hansgrohe.de/datasheet/product/hansgrohe/72802000",
+    "https://www.hansgrohe.de/articledetail-kartusche-m25lxs-93760000",
+    "https://www.hansgrohe.de/articledetail-talis-m54-einhebel-kuechenmischer-220-1jet-72804670",
+    "https://www.hansgrohe.de/articledetail-talis-m54-einhebel-kuechenmischer-210-ausziehauslauf-1jet-sbox-72803800",
+    "https://www.hansgrohe.de/articledetail-strahlformer-laminar-m18-5x1-93748000"
    ]
   },
   {
@@ -90,31 +150,114 @@
    "baujahr_bis": null,
    "kennnummern": [
     "71100000",
-    "71070000"
+    "71101000",
+    "71104000",
+    "71107000",
+    "71107670"
    ],
-   "erkennungsmerkmale": "Einhebelmischer; 71100000 = Logis 100 mit Zugstangen-Ablaufgarnitur, 71070000 = Logis 70 mit Zugstangen-Ablaufgarnitur.",
-   "beschreibung": "hansgrohe listet 71100000 in der Kompatibilitätsliste der M3/M2-Kartusche 92730000 mit den Bauzeiträumen 04/14–12/14, 01/15–04/17 und > 05/17. Für Logis 70 (71070000) ist die Kartusche nicht direkt belegt; andere Logis-Artikel (z. B. Bidet 71204000, Wanne 71405000) führen ebenfalls 92730000.",
+   "erkennungsmerkmale": "Einfacher, weich gerundeter Einhebelmischer; Größe 70/100/190 im Namen.",
+   "beschreibung": "Laut hansgrohe-Datenblatt Kartusche kpl. 92730000 im Logis 100 Push-Open 71107670; LowFlow 3,5 l/min (71104000) mit Kartusche M35 LR 95646000. Für 71100000 nennt hansgrohe die Baujahre 04/14–12/14, 01/15–04/17 und > 05/17.",
    "quellen": [
-    "https://www.hansgrohe.at/articledetail-keramik-kartusche-komplett-m3-m2-92730000",
-    "https://www.hansgrohe.at/articledetail-dichtung-fuer-m3-kartusche-95008000",
-    "https://www.hansgrohe.de/articledetail-luftsprudler-m24x1-5-l-min-92372000"
+    "https://www.hansgrohe.de/datasheet/product/hansgrohe/71107670",
+    "https://www.hansgrohe.co.uk/articledetail-logis-single-lever-basin-mixer-100-with-push-open-waste-71107000",
+    "https://www.hansgrohe.de/articledetail-hg-kartusche-m35-lr-95646000",
+    "https://www.hansgrohe.co.uk/articledetail-cartridge-m3-m2-92730000"
+   ]
+  },
+  {
+   "slug": "logis-m31-kuechenarmatur",
+   "name": "hansgrohe Logis M31 Küchenmischer",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "71832000",
+    "71837000",
+    "71839000"
+   ],
+   "erkennungsmerkmale": "Einhebel-Küchenmischer 120/160/260, 360° schwenkbar, Anschluss G ⅜.",
+   "beschreibung": "CoolStart-/EcoSelection-Varianten (71837000, 71839000) laut hansgrohe.de mit Kartusche M35 EcoR WT 92530000. Für 71832000 (laut hansgrohe bis 02/15) keine Kartuschennummer gefunden. Luftsprudler M22x1 95824000; Auslauf-Dichtungsset 92646000 (Logis M31 260).",
+   "quellen": [
+    "https://pro.hansgrohe.com/articledetail-logis-m31-single-lever-kitchen-mixer-160-1jet-71832000",
+    "https://www.hansgrohe.de/articledetail-kartusche-m35-ecor-wt-92530000",
+    "https://www.hansgrohe.com/articledetail-hg-aerator-95824000",
+    "https://www.hansgrohe.com/articledetail-sealing-set-92646000"
+   ]
+  },
+  {
+   "slug": "focus-waschtisch",
+   "name": "hansgrohe Focus Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "31607000",
+    "31730000",
+    "31517000"
+   ],
+   "erkennungsmerkmale": "Einhebelmischer mit leicht konischem Körper; Größe 70/100/190 im Namen.",
+   "beschreibung": "hansgrohe führt 31607000 mit den Baujahren 05/11–04/17 und > 05/17. Kartusche für die LowFlow-Variante (Focus 100 LowFlow 3,5 l/min ohne Ablauf): M35 LR 95646000. Für die Standardvarianten wurde keine eindeutige Kartuschennummer gefunden.",
+   "quellen": [
+    "https://www.hansgrohe.com/articledetail-focus-single-lever-basin-mixer-100-with-pop-up-waste-set-31607000",
+    "https://www.hansgrohe.de/articledetail-hg-kartusche-m35-lr-95646000"
+   ]
+  },
+  {
+   "slug": "focus-m41-kuechenarmatur",
+   "name": "hansgrohe Focus M41 Küchenmischer",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "31806000",
+    "31816000",
+    "31817000",
+    "31815800",
+    "31833000",
+    "31804000"
+   ],
+   "erkennungsmerkmale": "Einhebel-Küchenmischer 160/240/280; Varianten mit Ausziehbrause, CoolStart/EcoSelection, LowPressure oder sBox.",
+   "beschreibung": "Laut hansgrohe: CoolStart EcoSelection (31816000) → Kartusche M35 EcoR WT 92530000; 280 1jet (31817000) → Dichtungsset Auslauf 92646000; 240 Ausziehbrause (31815800, 31833000) → Schlauch 95507000. 31806000 hat laut hansgrohe-PDF Baujahr > 04/17.",
+   "quellen": [
+    "https://www.hansgrohe.de/articledetail-focus-m41-einhebel-kuechenmischer-160-1jet-31806000",
+    "https://www.hansgrohe.de/articledetail-kartusche-m35-ecor-wt-92530000",
+    "https://www.hansgrohe.de/articledetail-dichtungsset-fuer-auslauf-92646000",
+    "https://www.hansgrohe.de/articledetail-schlauch-fuer-spueltischmischer-1500mm-95507000"
    ]
   },
   {
    "slug": "metris-waschtisch",
    "name": "hansgrohe Metris Waschtischarmatur",
    "produkttyp": "waschtischarmatur",
-   "baujahr_von": 2011,
+   "baujahr_von": null,
    "baujahr_bis": null,
    "kennnummern": [
     "31080000",
     "31084000"
    ],
-   "erkennungsmerkmale": "Einhebelmischer; 31080000 = Metris 110 mit Zugstangen-Ablaufgarnitur, 31084000 = Metris 110 ohne Ablaufgarnitur.",
-   "beschreibung": "Bauzeiträume für 31080000 laut hansgrohe: 01/11–03/17 und > 04/17. Kartusche laut hansgrohe-Kompatibilitätsliste: M3/M2 (92730000). Ersatzgriff: 95519000.",
+   "erkennungsmerkmale": "Einhebelmischer mit flachem, nach hinten gezogenem Hebel; Größe 100/110/200/230/260 im Namen.",
+   "beschreibung": "Laut hansgrohe.com wurde 31080000 01/11–03/17 gebaut (Händler divapor führt zusätzlich eine Ausführung > 04/17). Kartusche laut hansgrohe UK: M3/M2 92730000 (Metris 110 mit Ablaufgarnitur); LowFlow 3,5 l/min: M35 LR 95646000; Metris 230 ohne Ablauf: M1 97685000.",
    "quellen": [
-    "https://www.hansgrohe.at/articledetail-keramik-kartusche-komplett-m3-m2-92730000",
-    "https://www.hansgrohe.at/articledetail-hg-metris-griff-wt-110-260-bidet-wa-br-95519000"
+    "https://www.hansgrohe.com/articledetail-metris-single-lever-basin-mixer-110-with-pop-up-waste-set-31080000",
+    "https://pro.hansgrohe.de/articledetail-metris-einhebel-waschtischmischer-110-mit-zugstangen-ablaufgarnitur-31080000",
+    "https://www.hansgrohe.co.uk/articledetail-cartridge-m3-m2-92730000",
+    "https://www.divapor.com/spares/showers/hansgrohe-spares/hansgrohe-31080000-metris-single-lever-basin-mixer-110-with-pop-up-waste-set-04-17-spare-parts.php"
+   ]
+  },
+  {
+   "slug": "metris-s-waschtisch",
+   "name": "hansgrohe Metris S Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "31060000"
+   ],
+   "erkennungsmerkmale": "Schlanke Metris-Variante mit Stiel-Hebel.",
+   "beschreibung": "Laut hansgrohe.de Kartusche M35 LR 95646000 im Metris S 100 LowFlow 1,9 l/min ohne Ablaufgarnitur.",
+   "quellen": [
+    "https://pro.hansgrohe.de/articledetail-metris-s-einhebel-waschtischmischer-mit-zugstangen-ablaufgarnitur-31060000.html",
+    "https://www.hansgrohe.de/articledetail-hg-kartusche-m35-lr-95646000"
    ]
   },
   {
@@ -124,38 +267,38 @@
    "baujahr_von": null,
    "baujahr_bis": null,
    "kennnummern": [
-    "71031000",
     "71020000",
-    "71032000",
-    "71034000",
-    "71024000"
+    "71030000"
    ],
-   "erkennungsmerkmale": "Einhebelmischer; 71031000 = Novus 100 ohne Ablaufgarnitur, 71020000 = Novus 70 mit Zugstangen-Ablaufgarnitur, 71034000 = Novus 100 LowFlow 3,5 l/min mit Push-Open-Ablaufgarnitur.",
-   "beschreibung": "Standardvarianten laut hansgrohe mit M3/M2-Kartusche 92730000; LowFlow-Varianten (71034000, 71024000) mit Kartusche M35 LR 95646000.",
+   "erkennungsmerkmale": "Einhebelmischer der Preiseinstiegs-Linie; Größe 70/100 im Namen.",
+   "beschreibung": "Laut pro.hansgrohe.de Kartusche kpl. 92730000 im Novus 70 71020000 (Baujahr 04/19). Für Novus 100 71030000 nennt hansgrohe das O-Ring-Set 35x2 92604000 (> 10/17); Kartusche nicht bestätigt.",
    "quellen": [
-    "https://www.hansgrohe.at/articledetail-keramik-kartusche-komplett-m3-m2-92730000",
-    "https://www.hansgrohe.de/articledetail-hg-kartusche-m35-lr-95646000",
-    "https://pro.hansgrohe.de/articledetail-novus-einhebel-waschtischmischer-70-mit-zugstangen-ablaufgarnitur-71020000"
+    "https://pro.hansgrohe.de/articledetail-novus-einhebel-waschtischmischer-70-mit-zugstangen-ablaufgarnitur-71020000",
+    "https://www.hansgrohe.de/articledetail-o-ring-set-35x2-92604000"
    ]
   },
   {
    "slug": "rebris-s-waschtisch",
    "name": "hansgrohe Rebris S Waschtischarmatur",
    "produkttyp": "waschtischarmatur",
-   "baujahr_von": 2022,
+   "baujahr_von": null,
    "baujahr_bis": null,
    "kennnummern": [
     "72517000",
+    "72517670",
     "72520000",
-    "72519000"
+    "72520670",
+    "72527000",
+    "72588000"
    ],
-   "erkennungsmerkmale": "Neuere Linie (ab 2022); 72517000 = Rebris S 110 mit Zugstangen-Ablaufgarnitur, 72520000 = Rebris S 110 CoolStart ohne Ablaufgarnitur.",
-   "beschreibung": "Für die CoolStart-Varianten (72520000, 72519000, Baujahr > 06/22) nennt hansgrohe die Kartusche 95973001. Für 72517000 ist nur der Kartuschen-Adapter 98866000 belegt, die Kartusche selbst nicht.",
+   "erkennungsmerkmale": "Neuere Linie mit rundem Körper; 110 = ComfortZone 110; Varianten CoolStart, EcoSmart+, Metall-Ablaufgarnitur.",
+   "beschreibung": "hansgrohe nennt für 72517000 Baujahr > 06/22 und 5 l/min bei 3 bar. Kartusche laut Kompatibilitätsliste: 95973001; Adapter 98866000 (Zugstangen-Variante) bzw. 95975000 (CoolStart).",
    "quellen": [
-    "https://pro.hansgrohe.com/articledetail-rebris-s-single-lever-basin-mixer-110-with-pop-up-waste-set-72517000",
+    "https://www.hansgrohe.com/articledetail-rebris-s-single-lever-basin-mixer-110-with-pop-up-waste-set-72517000",
     "https://www.hansgrohe.com/articledetail-rebris-s-single-lever-basin-mixer-110-coolstart-without-waste-set-72520000",
-    "https://www.hansgrohe.de/articledetail-kartusche-m25-low-flow-usa-95973001",
-    "https://www.hansgrohe.de/articledetail-adapter-fuer-kartusche-98866000"
+    "https://www.hansgrohe.com/articledetail-hg-kartusche-kpl--95973001",
+    "https://www.hansgrohe.de/articledetail-adapter-fuer-kartusche-98866000",
+    "https://www.hansgrohe.de/articledetail-hg-adapter-fuer-kartusche-95975000"
    ]
   },
   {
@@ -165,353 +308,365 @@
    "baujahr_von": null,
    "baujahr_bis": null,
    "kennnummern": [
-    "71580000",
-    "71551000",
-    "71559000",
-    "71585000"
+    "71550000",
+    "71551670"
    ],
-   "erkennungsmerkmale": "Einhebelmischer; 71580000 = Vernis Blend 100 ohne Ablaufgarnitur, 71551000 = mit Zugstangen-Ablaufgarnitur, 71585000 = CoolStart.",
-   "beschreibung": "hansgrohe listet Vernis-Blend-100-Modelle (u. a. 71580000) bei der Keramik-Kartusche M1 komplett 97685000; CoolStart-Varianten brauchen zusätzlich den Adapter 95975000.",
+   "erkennungsmerkmale": "Linie mit runden und kantigen Elementen; Varianten 70/100, auch CoolStart und mattschwarz (…670).",
+   "beschreibung": "Laut hansgrohe.de Kartusche M1 97685000 (Produktlinie der Ersatzteilseite: Vernis Blend 100 ohne Ablaufgarnitur); CoolStart-Varianten mit Adapter 95975000; schwenkbarer Luftsprudler M24x1 5 l/min 93834000 für 71550000 (Baujahr > 01/21).",
    "quellen": [
-    "https://www.hansgrohe.com/articledetail-vernis-blend-single-lever-basin-mixer-100-without-waste-set-71580000",
+    "https://www.hansgrohe.de/articledetail-vernis-blend-einhebel-waschtischmischer-100-mit-zugstangen-ablaufgarnitur-71551670",
     "https://www.hansgrohe.de/articledetail-keramik-kartusche-m1-komplett-97685000",
+    "https://www.hansgrohe.de/articledetail-hg-adapter-fuer-kartusche-95975000",
+    "https://www.hansgrohe.de/articledetail-luftsprudler-schwenkbar-10grad-m24x1-mit-durchflussbegrenzer-5-l-min-93834000"
+   ]
+  },
+  {
+   "slug": "vernis-shape-waschtisch",
+   "name": "hansgrohe Vernis Shape Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "71561000"
+   ],
+   "erkennungsmerkmale": "Kantige Variante der Vernis-Linie; 100 mit isolierter Wasserführung, Ausladung 110 mm, Auslaufhöhe 95 mm, 5 l/min.",
+   "beschreibung": "Laut hansgrohe.de steht 71561000 in der Kompatibilitätsliste der Keramik Kartusche M1 97685000.",
+   "quellen": [
+    "https://www.hansgrohe.com/articledetail-vernis-shape-single-lever-basin-mixer-100-with-isolated-water-conduction-and-pop-up-waste-set-71561000",
+    "https://www.hansgrohe.de/articledetail-keramik-kartusche-m1-komplett-97685000"
+   ]
+  },
+  {
+   "slug": "finoris-waschtisch",
+   "name": "hansgrohe Finoris Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "76010000",
+    "76010670"
+   ],
+   "erkennungsmerkmale": "Linie mit flachem Auslauf; 76010000 = Finoris 100 mit Push-Open-Ablaufgarnitur (Baujahr > 06/21).",
+   "beschreibung": "Laut hansgrohe Kartusche M25LXS 93760000 (76010000); Strahlregler M16,5x1 5 l/min 93973000 (Datenblatt 76010670); CoolStart-Varianten 110 mit Adapter 95975000.",
+   "quellen": [
+    "https://www.hansgrohe.com/articledetail-cartridge-m25lxs-93760000",
+    "https://www.hansgrohe.com/datasheet/product/hansgrohe/76010670",
+    "https://www.hansgrohe.de/articledetail-strahlregler-m16-5x1-5-l-min-93973000",
     "https://www.hansgrohe.de/articledetail-hg-adapter-fuer-kartusche-95975000"
    ]
   },
   {
-   "slug": "focus-m41-kueche",
-   "name": "hansgrohe Focus M41 Küchenarmatur",
-   "produkttyp": "kuechenarmatur",
-   "baujahr_von": 2009,
-   "baujahr_bis": null,
-   "kennnummern": [
-    "31806000",
-    "31815000",
-    "73880000"
-   ],
-   "erkennungsmerkmale": "Einhebel-Küchenmischer; 31806000 = Focus M41 160 1jet, 31815000 = Focus M41 240 mit Ausziehbrause 2jet, 73880000 = Focus M41 240 mit Ausziehbrause und sBox.",
-   "beschreibung": "31806000 laut hansgrohe gebaut 10/09–03/17 und > 04/17, Kartusche M3/M2 92730000. Ausziehbrausen-Varianten mit eigenem Brauseschlauch (95507000 bzw. bei sBox 93191000).",
-   "quellen": [
-    "https://www.hansgrohe.at/articledetail-keramik-kartusche-komplett-m3-m2-92730000",
-    "https://www.hansgrohe.com/articledetail-focus-m41-single-lever-kitchen-mixer-240-pull-out-spray-2jet-31815000",
-    "https://www.hansgrohe.de/articledetail-schlauch-1700-mm-93191000",
-    "https://www.hansgrohe.de/articledetail-schlauch-fuer-spueltischmischer-1500mm-95507000"
-   ]
-  },
-  {
-   "slug": "focus-m42-kueche",
-   "name": "hansgrohe Focus M42 Küchenarmatur",
-   "produkttyp": "kuechenarmatur",
-   "baujahr_von": 2018,
-   "baujahr_bis": null,
-   "kennnummern": [
-    "71802000",
-    "71802800",
-    "71800800"
-   ],
-   "erkennungsmerkmale": "Einhebel-Küchenmischer mit Schwenkauslauf; 71802000 = Focus M42 220 1jet (Chrom), 71802800 = Edelstahl-Optik, 71800800 = 220 mit Ausziehbrause 2jet.",
-   "beschreibung": "Ersatzteilliste von hansgrohe für 71802000: Kartusche 92730000. Laut Suchergebnis nennt hansgrohe für 71802000 den Bauzeitraum 10/18–04/25 (nicht selbst eingesehen).",
-   "quellen": [
-    "https://pro.hansgrohe.com/articledetail-focus-m42-single-lever-kitchen-mixer-220-1jet-71802000",
-    "https://www.divapor.com/spares/showers/diverter-cartridge/hansgrohe-92730000-lever-cartridge-m3-m2.php"
-   ]
-  },
-  {
-   "slug": "talis-m51-kueche",
-   "name": "hansgrohe Talis M51 Küchenarmatur",
-   "produkttyp": "kuechenarmatur",
-   "baujahr_von": null,
-   "baujahr_bis": null,
-   "kennnummern": [
-    "72810000",
-    "72813000",
-    "72813800",
-    "73850000",
-    "73850800"
-   ],
-   "erkennungsmerkmale": "Einhebel-Küchenmischer; 72810000 = Talis M51 260 1jet, 72813000/72813800 = Talis M51 200 mit Ausziehbrause 2jet, 73850000/73850800 = Talis M51 160 mit Ausziehbrause 2jet und sBox.",
-   "beschreibung": "In den Ersatzteillisten der Talis-M51-Artikel steht die Kartusche 92730000 (für 72810000 mit Baujahr > 06/15). Ausziehbrausen mit Brauseschlauch 1500 mm (95507000) bzw. bei sBox 1700 mm (93191000).",
-   "quellen": [
-    "https://pro.hansgrohe.com/articledetail-talis-m51-single-lever-kitchen-mixer-260-1jet-72810000",
-    "https://www.neuesbad.de/media/pdf/30/d3/c8/72813800_product_data_sheet.pdf",
-    "https://www.hansgrohe.de/articledetail-schlauch-1700-mm-93191000",
-    "https://www.hansgrohe.com/articledetail-talis-m51-single-lever-kitchen-mixer-160-pull-out-spray-2jet-sbox-73850000"
-   ]
-  },
-  {
-   "slug": "talis-m52-kueche",
-   "name": "hansgrohe Talis M52 Küchenarmatur",
-   "produkttyp": "kuechenarmatur",
-   "baujahr_von": null,
-   "baujahr_bis": null,
-   "kennnummern": [],
-   "erkennungsmerkmale": "Einhebel-Küchenmischer mit hohem Schwenkauslauf (z. B. Talis M52 270 1jet); konkrete Artikelnummern hier nicht geprüft.",
-   "beschreibung": "hansgrohe führt den Talis M52 Küchenmischer 270 1jet bei den kompatiblen Produkten des Auslauf-Dichtungssets 92646000.",
-   "quellen": [
-    "https://www.hansgrohe.com/articledetail-sealing-set-92646000"
-   ]
-  },
-  {
-   "slug": "talis-m54-kueche",
-   "name": "hansgrohe Talis M54 Küchenarmatur",
-   "produkttyp": "kuechenarmatur",
-   "baujahr_von": 2019,
-   "baujahr_bis": null,
-   "kennnummern": [
-    "72840000",
-    "72809000",
-    "72808000",
-    "72804800",
-    "72844000"
-   ],
-   "erkennungsmerkmale": "Einhebel-Küchenmischer mit Strahlformer M18,5x1; 72840000 = Talis M54 270 1jet, 72809000 = 270 mit Ausziehauslauf 1jet und sBox, 72804800 = 220 1jet Edelstahl-Optik, 72844000 = U 220 EcoSmart.",
-   "beschreibung": "Kartuschen der M25-Familie: 93760000 (M25LXS) für 72840000 ab 12/19, 93740000 (M25XS) für den Ausziehauslauf 72809000. Strahlformer 93748000 und Serviceschlüssel 93750000.",
-   "quellen": [
-    "https://www.hansgrohe.de/articledetail-kartusche-m25lxs-93760000",
-    "https://www.hansgrohe.de/articledetail-kartusche-m25xs-93740000",
-    "https://www.hansgrohe.at/articledetail-strahlformer-laminar-m18-5x1-93748000",
-    "https://www.hansgrohe.de/articledetail-montageschluessel-fuer-strahlformer-m18-5x1-93750000",
-    "https://www.hansgrohe.de/datasheet/product/hansgrohe/72808800"
-   ]
-  },
-  {
    "slug": "ecostat-comfort",
-   "name": "hansgrohe Ecostat Comfort Aufputz-Thermostat",
+   "name": "hansgrohe Ecostat Comfort Thermostat",
    "produkttyp": "thermostat",
    "baujahr_von": null,
    "baujahr_bis": null,
    "kennnummern": [
     "13116000",
-    "13114000"
+    "13116670",
+    "13114670"
    ],
-   "erkennungsmerkmale": "Aufputz-Thermostat mit EcoStop-Taste; 13116000 = Brausethermostat, 13114000 = Wannenthermostat. Sicherheitssperre bei 40 °C.",
-   "beschreibung": "Die Ersatzteillisten nennen die Temperatur-Regeleinheit 98282000 (nicht 94282000), die Rückflussverhinderer 96737000 und für vertauschte Anschlüsse die Regeleinheit 92373000.",
+   "erkennungsmerkmale": "Aufputz-Brause- bzw. Wannenthermostat mit zwei Drehgriffen; Wannenvariante mit Umsteller.",
+   "beschreibung": "Laut hansgrohe.de: Temperatur-Regeleinheit SMTC 98282000 (13116000), Absperreinheit 94149000 (13116000), Regeleinheit für vertauschte Anschlüsse 92373000 (13116670). hansgrohe nennt für 13116000 die Baujahre 09/11–06/12 und 07/12.",
    "quellen": [
-    "https://www.hansgrohe.de/download-datasheet?productCode=13116000&lang=de_DE",
-    "https://www.neuesbad.de/media/pdf/e4/c0/80/13116340.pdf",
     "https://www.hansgrohe.de/articledetail-temperatur-regeleinheit-smtc-98282000",
-    "https://www.hansgrohe.com/bathroom/lines/ecostat-comfort"
+    "https://www.hansgrohe.de/articledetail-absperreinheit-keramik-94149000",
+    "https://www.hansgrohe.de/articledetail-regeleinheit-fuer-vertauschte-anschluesse-92373000",
+    "https://www.hansgrohe.de/articledetail-ecostat-comfort-wannenthermostat-aufputz-13114670"
    ]
   },
   {
    "slug": "ecostat-1001-cl",
-   "name": "hansgrohe Ecostat 1001 CL Aufputz-Thermostat",
+   "name": "hansgrohe Ecostat 1001 CL Thermostat",
    "produkttyp": "thermostat",
-   "baujahr_von": 2016,
+   "baujahr_von": null,
    "baujahr_bis": null,
    "kennnummern": [
     "13211000",
-    "13201000"
+    "13201000",
+    "13217000",
+    "13218000"
    ],
-   "erkennungsmerkmale": "Einfacher Aufputz-Thermostat; 13211000 = Brausethermostat, 13201000 = Wannenthermostat.",
-   "beschreibung": "Bauzeiträume für 13211000 laut hansgrohe: 04/16–08/19 und > 09/19. Die Ersatzteillisten nennen die Temperatur-Regeleinheit 94282000, die Absperreinheit 94149000 (Brause) bzw. 96509000 mit Umsteller (Wanne) und die Rückflussverhinderer 96737000.",
+   "erkennungsmerkmale": "Aufputz-Thermostat mit Thermostatkartusche und 180°-Keramikventil, geeignet für Durchlauferhitzer; Brause 13211000, Wanne 13201000.",
+   "beschreibung": "Laut hansgrohe UK MTC-Thermostatkartusche 94282000 (Baujahre 04/16–08/19 und > 09/19). Weitere Teile laut hansgrohe.de: Rückflussverhinderer DN15 96737000, Absperreinheit 94149000.",
    "quellen": [
-    "https://www.hansgrohe.de/download-datasheet?productCode=13211000&lang=de_DE",
-    "https://www.neuesbad.de/media/pdf/5c/2f/e1/13201000.pdf",
-    "https://www.hansgrohe.com/articledetail-shut-off-unit-with-ceramic-valves-94149000",
-    "https://pro.hansgrohe.com/articledetail-ecostat-1001-cl-bath-thermostat-for-exposed-installation-13201000"
+    "https://www.hansgrohe.com/articledetail-ecostat-1001-cl-shower-thermostat-for-exposed-installation-13211000",
+    "https://hansgrohe.com/articledetail-ecostat-bath-thermostat-1001-cl-for-exposed-installation-13201000",
+    "https://www.hansgrohe.co.uk/articledetail-mtc-thermostat-cartridge-94282000",
+    "https://www.hansgrohe.de/articledetail-rueckflussverhinderer-dn15-96737000",
+    "https://www.hansgrohe.de/articledetail-absperreinheit-keramik-94149000"
+   ]
+  },
+  {
+   "slug": "ecostat-1001-sl",
+   "name": "hansgrohe Ecostat 1001 SL Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "13261000",
+    "13241800"
+   ],
+   "erkennungsmerkmale": "Ältere Aufputz-Thermostatgeneration (Brause 13261…, Wanne 13241…).",
+   "beschreibung": "Laut hansgrohe-Ersatzteilkatalog und Serviceblatt Thermokartusche 94282000 (13241800: Baujahr 01/03–12/11).",
+   "quellen": [
+    "https://spares.hansgrohe.com/etk/INT/product/13241800/8796221419363.seam?fsid=0x00007651000074C100007431&lang=en_GB&wcms=INT",
+    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hruh0592_pdf.pdf",
+    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh0377_pdf.pdf"
+   ]
+  },
+  {
+   "slug": "ecostat-1001-aeltere",
+   "name": "hansgrohe Ecostat 1001 (ältere Aufputz-Thermostate 13243000/13262000)",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "13243000",
+    "13262000"
+   ],
+   "erkennungsmerkmale": "Ältere Ecostat-1001-Generation laut hansgrohe-Montageanleitung.",
+   "beschreibung": "In der hansgrohe-Montageanleitung ist 94282000 als Position 1 (Temperatur-Regeleinheit) aufgeführt; ebenso bei Ecostat 5001 (36360XXX/36340XXX).",
+   "quellen": [
+    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh0233_pdf.pdf",
+    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__argh0078_pdf.pdf"
+   ]
+  },
+  {
+   "slug": "ecostat-e-s-unterputz",
+   "name": "hansgrohe Ecostat E/S Unterputz-Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "15700000",
+    "15721000",
+    "15708000",
+    "15757000"
+   ],
+   "erkennungsmerkmale": "Unterputz-Fertigset mit runder (S) bzw. eckiger (E) Rosette.",
+   "beschreibung": "Laut hansgrohe-Ersatzteilkatalog Thermokartusche 94282000 in 15700000 (Baujahr 07/08–12/14) und 15721000 (04/05–06/08). Für Ecostat E 15708000 nennt ein Händler-PDF 92373000 als Pos. 16.",
+   "quellen": [
+    "https://spares.hansgrohe.com/etk/INT/product/15700000/8796276633443?cid=&lang=en_GB",
+    "https://spares.hansgrohe.com/etk/INT/pdf/datasheet.pdf?art=15721000&partlist=8796277649251&lang=en_GB",
+    "https://pro.hansgrohe.de/articledetail-ecostat-s-ecostat-s-thermostat-unterputz-fuer-1-verbraucher-15757000.html",
+    "https://heizman24.de/media/pdf/5b/37/f6/15708000.pdf"
+   ]
+  },
+  {
+   "slug": "showerselect-thermostat",
+   "name": "hansgrohe ShowerSelect Unterputz-Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "15765000"
+   ],
+   "erkennungsmerkmale": "Unterputz-Thermostat mit Drucktasten (Select) zum Ein-/Ausschalten der Verbraucher.",
+   "beschreibung": "Laut hansgrohe-Ersatzteilkatalog Temperatur-Regeleinheit 98282000 als Pos. 18 (Baujahre 05/14–02/15 und > 03/15).",
+   "quellen": [
+    "https://spares.hansgrohe.com/etk/INT/product/15765000/8803238883171.seam?lang=de_DE",
+    "https://www.hansgrohe.de/articledetail-temperatur-regeleinheit-smtc-98282000"
+   ]
+  },
+  {
+   "slug": "croma-select-s-showerpipe",
+   "name": "hansgrohe Croma Select S Showerpipe mit Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "26891670"
+   ],
+   "erkennungsmerkmale": "Duschsystem mit Kopfbrause, Handbrause Raindance Select S 120 und Aufputz-Thermostat.",
+   "beschreibung": "Laut pro.hansgrohe.de Temperatur-Regeleinheit 98282000 als Pos. 38 (Baujahr 06/20).",
+   "quellen": [
+    "https://pro.hansgrohe.de/articledetail-croma-select-s-showerpipe-280-1jet-ecosmart-9-l-min-mit-thermostat-und-handbrause-raindance-select-s-120-3jet-26891670"
+   ]
+  },
+  {
+   "slug": "raindance-select-e-showerpipe",
+   "name": "hansgrohe Raindance Select E Showerpipe 300 mit ShowerTablet Select",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "27126400"
+   ],
+   "erkennungsmerkmale": "Showerpipe mit ShowerTablet Select 300 (Thermostat mit Ablagefläche und Select-Tasten).",
+   "beschreibung": "Laut hansgrohe.de in der Kompatibilitätsliste der Temperatur-Regeleinheit SMTC 98282000.",
+   "quellen": [
+    "https://www.hansgrohe.de/articledetail-temperatur-regeleinheit-smtc-98282000"
+   ]
+  },
+  {
+   "slug": "crometta-showerpipe",
+   "name": "hansgrohe Crometta Showerpipe 160 mit Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "27264400",
+    "27265400"
+   ],
+   "erkennungsmerkmale": "Einfaches Duschsystem mit 160-mm-Kopfbrause und Aufputz-Thermostat.",
+   "beschreibung": "hansgrohe nennt für 27264400 die Baujahre 10/14–11/20 und 12/20–06/22. Laut hansgrohe.com gehört der Anschlagring 98916000 (Temperaturbegrenzung) zu den Ersatzteilen; die Thermostatkartusche wurde nicht bestätigt.",
+   "quellen": [
+    "https://www.hansgrohe.com/articledetail-stop-ring-ecostat-e-s-98916000",
+    "https://pro.hansgrohe.co.uk/articledetail-crometta-100-crometta-160-1jet-showerpipe-ecosmart-9-l-min-27265400.html"
    ]
   }
  ],
  "teile": [
   {
-   "slug": "hansgrohe-kartusche-m3-m2-92730000",
-   "name": "hansgrohe Keramik-Kartusche komplett M3/M2 (92730000)",
+   "slug": "hansgrohe-kartusche-92730000",
+   "name": "hansgrohe Kartusche M3/M2 (92730000)",
    "teiltyp": "kartusche",
    "oem_nummer": "92730000",
    "ean": null,
    "masse": {
-    "durchmesser_mm": null
+    "durchmesser_mm": 35
    },
-   "beschreibung": "Die gebräuchlichste Einhebel-Kartusche von hansgrohe, laut Händlern für Hebelmischer ab März 2001. Die hansgrohe-Kompatibilitätsliste umfasst u. a. Focus (z. B. 31730000, 31607000), Logis 100 (71100000), Metris 110 (31080000), Novus 100 (71031000) und Küchenmischer wie Focus M41 160 (31806000). Auf Amazon und eBay gibt es unter derselben Nummer auch Nachbauten aus ABS; das Original verkauft hansgrohe.",
-   "preis_spanne": "ca. 39–47 € (eBay.de-Angebote, Nov. 2026); Nachbauten ab ca. 23 €",
+   "beschreibung": "Keramik-Einhebelkartusche „M3/M2“ (hansgrohe UK: „Cartridge M3 / M2“, im dänischen hansgrohe-Ersatzteilflyer als Keramikkartusche M2 geführt). Laut Händler oeg.net Ersatzteil für Einhebelmischer ab März 2001; Durchmesser 35 mm nur laut Händler (weinmann-schanz). Laut hansgrohe-Ersatzteilseiten u. a. in Metris 110, Talis S, Logis, Novus 70 sowie Talis-E-Aufputz-Brausemischern; hansgrohe-Serviceunterlagen sprechen beim Tausch von einer „M3 Keramik Kartusche“. Eine Eco-Variante (HG cartridge Eco 95730000) existiert separat.",
+   "preis_spanne": "ca. 29 € (Amazon.de-Stichprobe ab 29,09 €); UVP hansgrohe UK 40,52 £",
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
    "dauer_min": 30,
-   "werkzeug": "Innensechskantschlüssel (Griffbefestigung, Größe modellabhängig), Schraubendreher für Griffstopfen/Kappe, Gabel- oder Ringschlüssel für Kartuschen-Mutter, Armaturenfett, weiches Tuch",
-   "amazon_asin": "B0017VFUO2",
+   "werkzeug": "Wasser an den Eckventilen bzw. der Hauptabsperrung schließen; Werkzeug zum Lösen der Griffbefestigung (Innensechskant/Schraubendreher je nach Modell), Maulschlüssel für die Kartuschen-Spannmutter, ggf. Armaturenfett.",
+   "amazon_asin": "B07CRB1ZVD",
    "quellen": [
-    "https://www.hansgrohe.at/articledetail-keramik-kartusche-komplett-m3-m2-92730000",
+    "https://www.hansgrohe.co.uk/articledetail-cartridge-m3-m2-92730000",
     "https://assets.hansgrohe.com/celum/web/dk_spareparts-flyer_qr_da-DK.pdf",
-    "https://www.kaufland.de/product/306137851/",
     "https://www.oeg.net/kartusche-fuer-einhandmischer-br-ab-maerz-2001-m3-m2-801000492",
+    "https://www.weinmann-schanz.de/us/en/produkte/produkt.html/kartusche-hansgrohe-m3-m2-35mm-ref-92730000-93-113-00.html",
+    "https://www.galaxus.de/en/s4/product/hansgrohe-m3m2-keramik-einhebelkartusche-92730000-sanitary-installation-accessories-22424958",
+    "https://www.amazon.de/hansgrohe-Hansgrohe-Cartridge-M3-M2/dp/B07CRB1ZVD",
     "https://www.amazon.de/hansgrohe-Ersatzteil-Keramik-Kartusche-M3/dp/B0017VFUO2"
    ]
   },
   {
-   "slug": "hansgrohe-kartusche-m1-97685000",
-   "name": "hansgrohe Keramik-Kartusche M1 komplett (97685000)",
+   "slug": "hansgrohe-kartusche-97685000",
+   "name": "hansgrohe Keramik Kartusche M1 komplett (97685000)",
    "teiltyp": "kartusche",
    "oem_nummer": "97685000",
    "ean": null,
-   "masse": {
-    "durchmesser_mm": null
-   },
-   "beschreibung": "M1-Keramikkartusche für neuere Waschtischmischer: laut hansgrohe u. a. Talis S (72020000, 72113000, 72116000), Talis E 110 (71710000), Vernis Blend 100 (71580000) und Metropol. In den Ersatzteillisten zusammen mit dem Adapter 92628000. Der hansgrohe-Ersatzteilflyer nennt 97685000 als M1-Kartusche.",
-   "preis_spanne": "ca. 37 € (Amazon.de); Listenpreise in Ersatzteillisten ca. 55–62 €",
+   "masse": {},
+   "beschreibung": "Keramikkartusche „M1“ für Einhebel-Waschtisch- und Bidetmischer. Laut hansgrohe.de u. a. für Talis E 110 (Produktlinie der Ersatzteilseite), Vernis Blend 100, Vernis Shape 100 (71561000), Metris 230 sowie Talis-M51-Küchenmischer (ab 10/17); auf hansgrohe.com zusätzlich Metris M71 220 (> 04/19). Laut Amazon-Angebot inklusive Kartuschendichtung.",
+   "preis_spanne": "ca. 37–38 € (Amazon.de-Stichproben 36,99–37,99 €); eBay-Angebote ca. 30–60 € zzgl. Versand",
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
    "dauer_min": 30,
-   "werkzeug": "Innensechskantschlüssel (Griffbefestigung, Größe modellabhängig), Schraubendreher für Griffstopfen/Kappe, Gabel- oder Ringschlüssel für Kartuschen-Mutter, Armaturenfett, weiches Tuch",
+   "werkzeug": "Wasser an den Eckventilen bzw. der Hauptabsperrung schließen; Werkzeug zum Lösen der Griffbefestigung (Innensechskant/Schraubendreher je nach Modell), Maulschlüssel für die Kartuschen-Spannmutter, ggf. Armaturenfett.",
    "amazon_asin": "B00BPAZBZI",
    "quellen": [
     "https://www.hansgrohe.de/articledetail-keramik-kartusche-m1-komplett-97685000",
-    "https://www.neuesbad.de/media/pdf/a0/b2/a4/72113000.pdf",
+    "https://www.hansgrohe.com/articledetail-ceramic-cartridge-m1-complete-97685000",
     "https://assets.hansgrohe.com/celum/web/dk_spareparts-flyer_qr_da-DK.pdf",
     "https://www.amazon.de/hansgrohe-97685000-Hansgrohe-Keramik-Kartusche/dp/B00BPAZBZI"
    ]
   },
   {
-   "slug": "hansgrohe-kartusche-m35-ecor-92530000",
-   "name": "hansgrohe Kartusche M35 EcoR WT (92530000)",
-   "teiltyp": "kartusche",
-   "oem_nummer": "92530000",
-   "ean": null,
-   "masse": {
-    "durchmesser_mm": 35
-   },
-   "beschreibung": "M35-Eco-Kartusche für Waschtischmischer mit Eco- bzw. Projekt-Ausführung (laut Händlerangaben z. B. Talis E² 31511000, Focus 70 Projekt 31735000). Maße laut Händler: Ø 35 mm, Höhe 66 mm. Nicht für die Standard-Focus-Mischer, die laut hansgrohe 92730000 nutzen.",
-   "preis_spanne": null,
-   "verschleissteil": true,
-   "selbst_tauschbar": true,
-   "schwierigkeit": 2,
-   "dauer_min": 30,
-   "werkzeug": "Innensechskantschlüssel (Griffbefestigung, Größe modellabhängig), Schraubendreher für Griffstopfen/Kappe, Gabel- oder Ringschlüssel für Kartuschen-Mutter, Armaturenfett, weiches Tuch",
-   "amazon_asin": null,
-   "quellen": [
-    "https://www.hansgrohe.de/articledetail-kartusche-m35-ecor-wt-92530000",
-    "https://www.showerspares.com/search/hansgrohe-cartridge-92530000/",
-    "https://www.galaxus.ch/en/s4/product/hansgrohe-hg-cartridge-m35-ecor-for-basin-mixers-sanitary-installation-accessories-22422948"
-   ]
-  },
-  {
-   "slug": "hansgrohe-kartusche-m35-lr-95646000",
+   "slug": "hansgrohe-kartusche-95646000",
    "name": "hansgrohe Kartusche M35 LR (95646000)",
    "teiltyp": "kartusche",
    "oem_nummer": "95646000",
    "ean": null,
-   "masse": {
-    "durchmesser_mm": null
-   },
-   "beschreibung": "Kartusche für LowFlow-Varianten (3,5 l/min), laut hansgrohe z. B. Focus 100 LowFlow 31603000 und Novus 100 LowFlow 71034000/71024000.",
+   "masse": {},
+   "beschreibung": "Kartusche, auf hansgrohe.de „HG Kartusche M35 LR“, auf hansgrohe.com „HG cartridge M35L“ genannt. Laut hansgrohe für LowFlow-Waschtischmischer (Logis 100 LowFlow 3,5 l/min, Focus 100 LowFlow 3,5 l/min, Metris 110 LowFlow 3,5 l/min, Metris S 100 LowFlow 1,9 l/min) sowie Vernis-Blend-Bidetarmaturen. Daneben führt hansgrohe eine Variante 95646001.",
    "preis_spanne": null,
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
    "dauer_min": 30,
-   "werkzeug": "Innensechskantschlüssel (Griffbefestigung, Größe modellabhängig), Schraubendreher für Griffstopfen/Kappe, Gabel- oder Ringschlüssel für Kartuschen-Mutter, Armaturenfett, weiches Tuch",
+   "werkzeug": "Wasser an den Eckventilen bzw. der Hauptabsperrung schließen; Werkzeug zum Lösen der Griffbefestigung (Innensechskant/Schraubendreher je nach Modell), Maulschlüssel für die Kartuschen-Spannmutter, ggf. Armaturenfett.",
    "amazon_asin": null,
    "quellen": [
-    "https://www.hansgrohe.de/articledetail-hg-kartusche-m35-lr-95646000"
+    "https://www.hansgrohe.de/articledetail-hg-kartusche-m35-lr-95646000",
+    "https://www.hansgrohe.com/articledetail-hg-cartridge-m35l-95646000"
    ]
   },
   {
-   "slug": "hansgrohe-kartusche-95973001",
-   "name": "hansgrohe Kartusche komplett 95973001 (Bezeichnung „M25 Low Flow (USA)“)",
+   "slug": "hansgrohe-kartusche-92530000",
+   "name": "hansgrohe Kartusche M35 EcoR WT (92530000)",
    "teiltyp": "kartusche",
-   "oem_nummer": "95973001",
+   "oem_nummer": "92530000",
    "ean": null,
-   "masse": {
-    "durchmesser_mm": null
-   },
-   "beschreibung": "Steht im hansgrohe-Datenblatt des Rebris S 110 CoolStart (72520000, Baujahr > 06/22) als „Kartusche kpl.“. Die hansgrohe-Seite trägt den Titel „Kartusche M25 Low Flow (USA)“ und listet u. a. Rebris-S-CoolStart-Varianten. Vor dem Kauf mit der eigenen Artikelnummer abgleichen.",
+   "masse": {},
+   "beschreibung": "Kartusche „M35 EcoR WT“. Laut hansgrohe.de u. a. in CoolStart-/EcoSelection-Küchenmischern: Focus M41 160 CoolStart EcoSelection (31816000), Logis M31 120/160 CoolStart EcoSelection (71837000, 71839000).",
    "preis_spanne": null,
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
    "dauer_min": 30,
-   "werkzeug": "Innensechskantschlüssel (Griffbefestigung, Größe modellabhängig), Schraubendreher für Griffstopfen/Kappe, Gabel- oder Ringschlüssel für Kartuschen-Mutter, Armaturenfett, weiches Tuch",
+   "werkzeug": "Wasser an den Eckventilen bzw. der Hauptabsperrung schließen; Werkzeug zum Lösen der Griffbefestigung (Innensechskant/Schraubendreher je nach Modell), Maulschlüssel für die Kartuschen-Spannmutter, ggf. Armaturenfett.",
    "amazon_asin": null,
    "quellen": [
-    "https://www.hansgrohe.de/articledetail-kartusche-m25-low-flow-usa-95973001",
-    "https://img.shkshop.com/production/product/file/hansgrohe/5134_pec4545_16535990_product_data_sheet.pdf"
+    "https://www.hansgrohe.de/articledetail-kartusche-m35-ecor-wt-92530000"
    ]
   },
   {
-   "slug": "hansgrohe-kartusche-m25lxs-93760000",
-   "name": "hansgrohe Kartusche M25LXS (93760000)",
-   "teiltyp": "kartusche",
-   "oem_nummer": "93760000",
-   "ean": null,
-   "masse": {
-    "durchmesser_mm": null
-   },
-   "beschreibung": "Kartusche für den Küchenmischer Talis M54 270 1jet (72840000, Chrom, Baujahr ab 12/19) laut hansgrohe-Kompatibilitätsliste.",
-   "preis_spanne": null,
-   "verschleissteil": true,
-   "selbst_tauschbar": true,
-   "schwierigkeit": 2,
-   "dauer_min": 45,
-   "werkzeug": "Innensechskantschlüssel (Griffbefestigung, Größe modellabhängig), Schraubendreher für Griffstopfen/Kappe, Gabel- oder Ringschlüssel für Kartuschen-Mutter, Armaturenfett, weiches Tuch",
-   "amazon_asin": null,
-   "quellen": [
-    "https://www.hansgrohe.de/articledetail-kartusche-m25lxs-93760000",
-    "https://www.hansgrohe.com/articledetail-cartridge-m25lxs-93760000"
-   ]
-  },
-  {
-   "slug": "hansgrohe-kartusche-m25xs-93740000",
+   "slug": "hansgrohe-kartusche-93740000",
    "name": "hansgrohe Kartusche M25XS (93740000)",
    "teiltyp": "kartusche",
    "oem_nummer": "93740000",
    "ean": null,
-   "masse": {
-    "durchmesser_mm": null
-   },
-   "beschreibung": "Kartusche für Talis M54 270 mit Ausziehauslauf 1jet (72809000) laut hansgrohe; nicht für 72840000.",
+   "masse": {},
+   "beschreibung": "Kartusche „M25XS“. Laut hansgrohe in Talis-M54-Küchenmischern 210 mit Ausziehauslauf (z. B. 72802000, Pos. 20, Baujahr > 12/19) sowie Aqittura M91 und Talis Select. hansgrohe führt dazu ein eigenes Service-Dokument (M25XS/M25LXS/M25LAXS).",
    "preis_spanne": null,
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
-   "dauer_min": 45,
-   "werkzeug": "Innensechskantschlüssel (Griffbefestigung, Größe modellabhängig), Schraubendreher für Griffstopfen/Kappe, Gabel- oder Ringschlüssel für Kartuschen-Mutter, Armaturenfett, weiches Tuch",
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen bzw. der Hauptabsperrung schließen; Werkzeug zum Lösen der Griffbefestigung (Innensechskant/Schraubendreher je nach Modell), Maulschlüssel für die Kartuschen-Spannmutter, ggf. Armaturenfett.",
    "amazon_asin": null,
    "quellen": [
-    "https://www.hansgrohe.de/articledetail-kartusche-m25xs-93740000"
+    "https://www.hansgrohe.de/articledetail-kartusche-m25xs-93740000",
+    "https://hansgrohe.co.uk/articledetail-null-93740000",
+    "https://pro.hansgrohe.de/datasheet/product/hansgrohe/72802000"
    ]
   },
   {
-   "slug": "hansgrohe-adapter-kartusche-92628000",
-   "name": "hansgrohe Adapter für Kartusche (92628000)",
-   "teiltyp": "sonstiges",
-   "oem_nummer": "92628000",
+   "slug": "hansgrohe-kartusche-93760000",
+   "name": "hansgrohe Kartusche M25LXS (93760000)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "93760000",
    "ean": null,
-   "masse": {
-    "durchmesser_mm": null
-   },
-   "beschreibung": "Kunststoffadapter zwischen M1-Kartusche und Gehäuse. hansgrohe listet u. a. Talis E 110 (71710000) und Talis S 100 (72020000). Beim Kartuschentausch prüfen, ob der alte Adapter weiterverwendet werden kann.",
+   "masse": {},
+   "beschreibung": "Kartusche „M25LXS“. Laut hansgrohe in Talis M54 Einhebel-Küchenmischer 220 1jet (72804000, 72804800, 72804670) und im Finoris-Waschtischmischer 76010000 (> 06/21). Passende Dichtung laut hansgrohe: Dichtung für M25 Kartusche 93383000.",
    "preis_spanne": null,
-   "verschleissteil": false,
+   "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
    "dauer_min": 30,
-   "werkzeug": "Innensechskantschlüssel (Griffbefestigung, Größe modellabhängig), Schraubendreher für Griffstopfen/Kappe, Gabel- oder Ringschlüssel für Kartuschen-Mutter, Armaturenfett, weiches Tuch",
+   "werkzeug": "Wasser an den Eckventilen bzw. der Hauptabsperrung schließen; Werkzeug zum Lösen der Griffbefestigung (Innensechskant/Schraubendreher je nach Modell), Maulschlüssel für die Kartuschen-Spannmutter, ggf. Armaturenfett.",
    "amazon_asin": null,
    "quellen": [
-    "https://www.hansgrohe.at/articledetail-adapter-fuer-kartusche-92628000"
+    "https://www.hansgrohe.de/articledetail-kartusche-m25lxs-93760000",
+    "https://www.hansgrohe.com/articledetail-cartridge-m25lxs-93760000",
+    "https://www.megabad.com/documents/10/72859670-hansgrohe-product-specification-de-105447.pdf",
+    "https://neuesbad.de/media/pdf/6d/99/1e/72844000_product_data_sheet.pdf"
    ]
   },
   {
-   "slug": "hansgrohe-adapter-kartusche-95975000",
-   "name": "hansgrohe Adapter für Kartusche (95975000)",
-   "teiltyp": "sonstiges",
-   "oem_nummer": "95975000",
+   "slug": "hansgrohe-kartusche-95973001",
+   "name": "hansgrohe Kartusche kpl. M25 Low Flow (95973001)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "95973001",
    "ean": null,
-   "masse": {
-    "durchmesser_mm": null
-   },
-   "beschreibung": "Kartuschen-Adapter für CoolStart-Varianten des Vernis Blend 100 (71585000, 71585670) laut hansgrohe.",
+   "masse": {},
+   "beschreibung": "Komplette Kartusche, auf hansgrohe.de „Kartusche M25 Low Flow (USA)“, auf hansgrohe.com „HG Kartusche kpl.“ genannt. Laut hansgrohe u. a. für Talis E 110 LowFlow 3,5 l/min mit Zugstangen-Ablaufgarnitur und – laut Kompatibilitätsliste – Rebris S 110 (72517000, Baujahr > 06/22). Trotz „USA“ im Namen in europäischen Artikeln gelistet (siehe Widersprüche).",
    "preis_spanne": null,
-   "verschleissteil": false,
+   "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
    "dauer_min": 30,
-   "werkzeug": "Innensechskantschlüssel (Griffbefestigung, Größe modellabhängig), Schraubendreher für Griffstopfen/Kappe, Gabel- oder Ringschlüssel für Kartuschen-Mutter, Armaturenfett, weiches Tuch",
+   "werkzeug": "Wasser an den Eckventilen bzw. der Hauptabsperrung schließen; Werkzeug zum Lösen der Griffbefestigung (Innensechskant/Schraubendreher je nach Modell), Maulschlüssel für die Kartuschen-Spannmutter, ggf. Armaturenfett.",
    "amazon_asin": null,
    "quellen": [
-    "https://www.hansgrohe.de/articledetail-hg-adapter-fuer-kartusche-95975000"
+    "https://www.hansgrohe.de/articledetail-kartusche-m25-low-flow-usa-95973001",
+    "https://www.hansgrohe.com/articledetail-hg-kartusche-kpl--95973001"
    ]
   },
   {
@@ -520,873 +675,1091 @@
    "teiltyp": "sonstiges",
    "oem_nummer": "98866000",
    "ean": null,
-   "masse": {
-    "durchmesser_mm": null
-   },
-   "beschreibung": "Kartuschen-Adapter. hansgrohe listet u. a. Rebris S 110 mit Zugstangen-Ablaufgarnitur (72517000) sowie Vernis-Blend-, Finoris- und Mediano-Modelle.",
+   "masse": {},
+   "beschreibung": "Adapter für die Kartusche. Laut hansgrohe.de u. a. für Rebris S 110 mit Zugstangen-Ablaufgarnitur (72517000, 72517670) und Talis E 110 LowFlow gelistet. Welche Kartusche er aufnimmt, nennt die Seite im gesehenen Auszug nicht.",
    "preis_spanne": null,
    "verschleissteil": false,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
    "dauer_min": 30,
-   "werkzeug": "Innensechskantschlüssel (Griffbefestigung, Größe modellabhängig), Schraubendreher für Griffstopfen/Kappe, Gabel- oder Ringschlüssel für Kartuschen-Mutter, Armaturenfett, weiches Tuch",
+   "werkzeug": "Wasser an den Eckventilen bzw. der Hauptabsperrung schließen; Werkzeug zum Lösen der Griffbefestigung (Innensechskant/Schraubendreher je nach Modell), Maulschlüssel für die Kartuschen-Spannmutter, ggf. Armaturenfett.",
    "amazon_asin": null,
    "quellen": [
     "https://www.hansgrohe.de/articledetail-adapter-fuer-kartusche-98866000"
    ]
   },
   {
-   "slug": "hansgrohe-dichtung-m3-kartusche-95008000",
-   "name": "hansgrohe Dichtung für M3-Kartusche (95008000)",
-   "teiltyp": "dichtung",
-   "oem_nummer": "95008000",
+   "slug": "hansgrohe-adapter-kartusche-95975000",
+   "name": "hansgrohe HG Adapter für Kartusche (95975000)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "95975000",
    "ean": null,
-   "masse": {
-    "durchmesser_mm": null
-   },
-   "beschreibung": "Dichtung unter der M3/M2-Kartusche. hansgrohe listet u. a. Logis 100 (71100000) und Novus 100 (71031000). Beim Kartuschentausch mitwechseln, wenn sie spröde oder beschädigt ist.",
+   "masse": {},
+   "beschreibung": "Adapter für die Kartusche in CoolStart-Waschtischmischern. Laut hansgrohe.de u. a. Vernis Blend 100 CoolStart mit Zugstangen-Ablaufgarnitur, Rebris S 110 CoolStart und Finoris 110 CoolStart.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen bzw. der Hauptabsperrung schließen; Werkzeug zum Lösen der Griffbefestigung (Innensechskant/Schraubendreher je nach Modell), Maulschlüssel für die Kartuschen-Spannmutter, ggf. Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansgrohe.de/articledetail-hg-adapter-fuer-kartusche-95975000"
+   ]
+  },
+  {
+   "slug": "hansgrohe-thermostatkartusche-98282000",
+   "name": "hansgrohe Temperatur-Regeleinheit SMTC (98282000)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "98282000",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Thermostatkartusche „SMTC“ (hansgrohe.de: „Temperatur Regeleinheit (SMTC)“; Händler nennen sie auch „T30“). Laut hansgrohe u. a. in Ecostat Comfort Brausethermostat Aufputz 13116000, ShowerSelect-Unterputz-Thermostaten (15765000, Pos. 18), Croma Select S Showerpipe 280 (26891670, Pos. 38) und Raindance Select E Showerpipe 300 mit ShowerTablet Select 300 (27126400). Nicht mit der MTC-Kartusche 94282000 verwechseln.",
+   "preis_spanne": "ab ca. 64 € (Amazon.de-Stichprobe, hansgrohe-Angebot ab 64,36 €)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 45,
+   "werkzeug": "Wasser absperren; Thermostatgriff abnehmen (Schraubendreher/Innensechskant je nach Modell), Maul- oder Ringschlüssel für die Temperatur-Regeleinheit; nach dem Einbau Mischtemperatur mit einem Thermometer prüfen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansgrohe.de/articledetail-temperatur-regeleinheit-smtc-98282000",
+    "https://www.hansgrohe.com/articledetail-thermostat-cartridge-smtc-98282000",
+    "https://spares.hansgrohe.com/etk/INT/product/15765000/8803238883171.seam?lang=de_DE",
+    "https://pro.hansgrohe.de/articledetail-croma-select-s-showerpipe-280-1jet-ecosmart-9-l-min-mit-thermostat-und-handbrause-raindance-select-s-120-3jet-26891670",
+    "https://www.showerspares.com/search/hansgrohe_t30_thermostatic_cartridge_98282000/",
+    "https://www.ahlsell.se/products/varme--sanitet/bad-dusch-wc-och-mobler/sanitetsarmatur/reservdelar-sanitetsarmatur/reservdelar-blandare/reservdelar-hansgrohe-blandare/8227078-7451045d"
+   ]
+  },
+  {
+   "slug": "hansgrohe-thermostatkartusche-94282000",
+   "name": "hansgrohe MTC-Thermostatkartusche (94282000)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "94282000",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Thermostatkartusche „MTC“ (Temperatur-Regeleinheit). Laut hansgrohe UK für Ecostat 1001 CL Brause- und Wannenthermostat (13211000, 13201000; Baujahre 04/16–08/19 und > 09/19); laut hansgrohe-Ersatzteilkatalog und Montageanleitungen außerdem in Ecostat 1001 SL (13241800, Baujahr 01/03–12/11), älteren Ecostat 1001/5001 sowie Ecostat E/S Unterputz (15700000, 15721000). hansgrohe-Serviceblatt Ecostat 1001 SL: Tausch bei verschmutzter oder verschlissener Thermokartusche.",
+   "preis_spanne": "ca. 75–107 € (Amazon.de hansgrohe-Angebot ab 74,58 €; badexa 107,31 €)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 45,
+   "werkzeug": "Wasser absperren; Thermostatgriff abnehmen (Schraubendreher/Innensechskant je nach Modell), Maul- oder Ringschlüssel für die Temperatur-Regeleinheit; nach dem Einbau Mischtemperatur mit einem Thermometer prüfen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansgrohe.co.uk/articledetail-mtc-thermostat-cartridge-94282000",
+    "https://spares.hansgrohe.com/etk/INT/product/13241800/8796221419363.seam?fsid=0x00007651000074C100007431&lang=en_GB&wcms=INT",
+    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hruh0592_pdf.pdf",
+    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh0233_pdf.pdf",
+    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__argh0078_pdf.pdf",
+    "https://www.badexa.de/hansgrohe-ecostat-brausethermostat-1001-cl-dn-15-ab-bj-04-16-62368/",
+    "https://www.espinosa.fr/en/hansgrohe/21002-mtc-thermostatic-shower-cartridge-ecostat-1001-94282000.html"
+   ]
+  },
+  {
+   "slug": "hansgrohe-regeleinheit-vertauscht-92373000",
+   "name": "hansgrohe Regeleinheit für vertauschte Anschlüsse (92373000)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "92373000",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Spezielle Temperatur-Regeleinheit für Thermostate, bei denen Warm- und Kaltwasser vertauscht angeschlossen sind. In hansgrohe-Anleitungen (Ecostat Comfort, Ecostat Universal) lautet die Abhilfe für „Anschlüsse warm/kalt vertauscht“: diese Regeleinheit einbauen. Laut hansgrohe.de u. a. für Ecostat Comfort mattschwarz (13116670).",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 45,
+   "werkzeug": "Wasser absperren; Thermostatgriff abnehmen (Schraubendreher/Innensechskant je nach Modell), Maul- oder Ringschlüssel für die Temperatur-Regeleinheit; nach dem Einbau Mischtemperatur mit einem Thermometer prüfen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansgrohe.de/articledetail-regeleinheit-fuer-vertauschte-anschluesse-92373000",
+    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2832_pdf.pdf",
+    "https://media.hornbach.de/hb/installationmanual/as.92951046.pdf",
+    "https://heizman24.de/media/pdf/5b/37/f6/15708000.pdf"
+   ]
+  },
+  {
+   "slug": "hansgrohe-absperreinheit-94149000",
+   "name": "hansgrohe Absperreinheit Keramik (94149000)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "94149000",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Keramische Absperreinheit (Mengen-/Absperrventil) für Aufputz-Thermostate. Laut hansgrohe.de u. a. für Ecostat Comfort 13116000 und Ecostat 1001 CL 13211000.",
    "preis_spanne": null,
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
    "dauer_min": 30,
-   "werkzeug": "Innensechskantschlüssel (Griffbefestigung, Größe modellabhängig), Schraubendreher für Griffstopfen/Kappe, Gabel- oder Ringschlüssel für Kartuschen-Mutter, Armaturenfett, weiches Tuch",
+   "werkzeug": "Wasser absperren; Thermostatgriff abnehmen (Schraubendreher/Innensechskant je nach Modell), Maul- oder Ringschlüssel für die Temperatur-Regeleinheit; nach dem Einbau Mischtemperatur mit einem Thermometer prüfen.",
    "amazon_asin": null,
    "quellen": [
-    "https://www.hansgrohe.at/articledetail-dichtung-fuer-m3-kartusche-95008000"
+    "https://www.hansgrohe.de/articledetail-absperreinheit-keramik-94149000",
+    "https://www.badexa.de/hansgrohe-ecostat-brausethermostat-1001-cl-dn-15-ab-bj-04-16-62368/"
    ]
   },
   {
-   "slug": "hansgrohe-dichtungsset-auslauf-92646000",
-   "name": "hansgrohe Dichtungsset für Auslauf (92646000)",
-   "teiltyp": "dichtung",
-   "oem_nummer": "92646000",
-   "ean": "4011097133720",
-   "masse": {
-    "durchmesser_mm": null
-   },
-   "beschreibung": "O-Ring-Set für Armaturen mit Schwenkauslauf, wenn es am Auslauffuß leckt. hansgrohe listet u. a. Küchenmischer (Metris M71 320 1jet, Talis M52 270 1jet, Sportive L, Adoro); Hornbach nennt Talis S, Axor Uno und Allegra Variarc. Laut Amazon-Rezension sind Dichtungen, ein Drehanschlag, Schrauben und Fett enthalten.",
-   "preis_spanne": "ca. 12–20 € (Amazon.de ca. 11,80 €, Hornbach 12,95 €, hansgrohe-UVP 20,11 €)",
-   "verschleissteil": true,
-   "selbst_tauschbar": true,
-   "schwierigkeit": 2,
-   "dauer_min": 40,
-   "werkzeug": "Innensechskantschlüssel (Griffbefestigung, Größe modellabhängig), Schraubendreher für Griffstopfen/Kappe, Gabel- oder Ringschlüssel für Kartuschen-Mutter, Armaturenfett, weiches Tuch",
-   "amazon_asin": "B0017VIWN8",
-   "quellen": [
-    "https://www.hansgrohe.de/articledetail-dichtungsset-fuer-auslauf-92646000",
-    "https://www.hansgrohe.com/articledetail-sealing-set-92646000",
-    "https://www.hornbach.at/p/dichtungsset-hansgrohe-92646000/10391908/",
-    "https://pro.hansgrohe.ch/de/datasheet/product/hansgrohe/14822800",
-    "https://www.amazon.de/hansgrohe-92646000-Ersatzteil-92646/dp/B0017VIWN8"
-   ]
-  },
-  {
-   "slug": "hansgrohe-temperatur-regeleinheit-98282000",
-   "name": "hansgrohe Temperatur-Regeleinheit SMTC (98282000)",
-   "teiltyp": "thermostatkartusche",
-   "oem_nummer": "98282000",
-   "ean": null,
-   "masse": {
-    "durchmesser_mm": null
-   },
-   "beschreibung": "Thermostat-Regeleinheit (Dehnstoffelement) für Ecostat Comfort (in den Ersatzteillisten von 13116xxx/13114xxx) sowie laut hansgrohe für Ecostat E/S/Select/Square/Fine und einige Showerpipes. Nicht mit 94282000 verwechseln. Auf Amazon.de gab es nur Nachbauten (u. a. als „98282 T30“), kein Originalangebot.",
-   "preis_spanne": "ca. 103 CHF (Ersatzteilliste CH); Nachbauten auf Amazon.de ca. 36–65 €",
-   "verschleissteil": true,
-   "selbst_tauschbar": true,
-   "schwierigkeit": 2,
-   "dauer_min": 45,
-   "werkzeug": "Innensechskantschlüssel/Schraubendreher für Griffbefestigung, Gabelschlüssel für die Regeleinheit, Armaturenfett",
-   "amazon_asin": null,
-   "quellen": [
-    "https://www.hansgrohe.de/articledetail-temperatur-regeleinheit-smtc-98282000",
-    "https://www.neuesbad.de/media/pdf/e4/c0/80/13116340.pdf",
-    "https://www.megabad.com/hansgrohe-ersatzteile-kartuschen-temperatur-regeleinheit-a-190459.htm"
-   ]
-  },
-  {
-   "slug": "hansgrohe-temperatur-regeleinheit-94282000",
-   "name": "hansgrohe Temperatur-Regeleinheit MTC (94282000)",
-   "teiltyp": "thermostatkartusche",
-   "oem_nummer": "94282000",
-   "ean": "4011097239040",
-   "masse": {
-    "durchmesser_mm": null
-   },
-   "beschreibung": "Thermostat-Regeleinheit (3/4\", Messing) für Ecostat 1001 CL (Ersatzteilliste 13201000, Pos. 5) sowie laut Händlern für Ecostat 1001, 1001 SL, 2001 und 5001. Nicht für Ecostat Comfort, das laut Ersatzteilliste 98282000 braucht. Auf Amazon.de/eBay gibt es viele Nachbauten unter dieser Nummer.",
-   "preis_spanne": "ca. 106 € (eBay.de, gewerblich); Listenpreis CH ca. 129 CHF; Nachbauten ca. 29–67 €",
-   "verschleissteil": true,
-   "selbst_tauschbar": true,
-   "schwierigkeit": 2,
-   "dauer_min": 45,
-   "werkzeug": "Innensechskantschlüssel/Schraubendreher für Griffbefestigung, Gabelschlüssel für die Regeleinheit, Armaturenfett",
-   "amazon_asin": null,
-   "quellen": [
-    "https://www.neuesbad.de/media/pdf/5c/2f/e1/13201000.pdf",
-    "https://bels-europe.eu/hansgrohe-termostatelement-til-1001-4011097239040",
-    "https://www.ebay.de/itm/383460347254"
-   ]
-  },
-  {
-   "slug": "hansgrohe-regeleinheit-vertauschte-anschluesse-92373000",
-   "name": "hansgrohe Regeleinheit für vertauschte Anschlüsse (92373000)",
-   "teiltyp": "thermostatkartusche",
-   "oem_nummer": "92373000",
-   "ean": null,
-   "masse": {
-    "durchmesser_mm": null
-   },
-   "beschreibung": "Sonder-Regeleinheit für Aufputz-Thermostate, bei denen Warm- und Kaltwasser in der Wand vertauscht angeschlossen sind. hansgrohe listet u. a. Ecostat Comfort, Ecostat Square und Ecostat S.",
-   "preis_spanne": null,
-   "verschleissteil": false,
-   "selbst_tauschbar": true,
-   "schwierigkeit": 2,
-   "dauer_min": 45,
-   "werkzeug": "Innensechskantschlüssel/Schraubendreher für Griffbefestigung, Gabelschlüssel für die Regeleinheit, Armaturenfett",
-   "amazon_asin": null,
-   "quellen": [
-    "https://www.hansgrohe.de/articledetail-regeleinheit-fuer-vertauschte-anschluesse-92373000",
-    "https://www.neuesbad.de/media/pdf/e4/c0/80/13116340.pdf"
-   ]
-  },
-  {
-   "slug": "hansgrohe-rueckflussverhinderer-dn15-96737000",
+   "slug": "hansgrohe-rueckflussverhinderer-96737000",
    "name": "hansgrohe Rückflussverhinderer DN15 (96737000)",
    "teiltyp": "sonstiges",
    "oem_nummer": "96737000",
    "ean": null,
    "masse": {
-    "durchmesser_mm": null
+    "nennweite": "DN15"
    },
-   "beschreibung": "Patronen-Rückflussverhinderer (NV15/DN15, EN 1717) in den Anschlüssen von Aufputz-Thermostaten. Steht in den Ersatzteillisten von Ecostat Comfort (13114xxx, 13116xxx) und Ecostat 1001 CL (13201000). Ist er defekt, fließt Wasser von einer Leitung in die andere (Kreuzfluss). hansgrohe verlangt in der Ecostat-1001-Anleitung eine jährliche Funktionsprüfung nach DIN 1988.",
-   "preis_spanne": "ca. 30–34 € (Amazon.de ca. 29,58 €; FR-Liste 33,54 €)",
+   "beschreibung": "Rückflussverhinderer-Patrone DN15 für Aufputz-Thermostate; laut hansgrohe.de für den Ecostat 1001 CL Brausethermostat Aufputz.",
+   "preis_spanne": null,
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
-   "dauer_min": 40,
-   "werkzeug": "Gabel-/Maulschlüssel für die Überwurfmuttern am S-Anschluss, Spitzzange, ggf. neue Dichtungen",
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren; Thermostatgriff abnehmen (Schraubendreher/Innensechskant je nach Modell), Maul- oder Ringschlüssel für die Temperatur-Regeleinheit; nach dem Einbau Mischtemperatur mit einem Thermometer prüfen.",
    "amazon_asin": "B00CW6LWGG",
    "quellen": [
     "https://www.hansgrohe.de/articledetail-rueckflussverhinderer-dn15-96737000",
-    "https://www.neuesbad.de/media/pdf/13/0d/7e/13114700.pdf",
-    "https://www.neuesbad.de/media/pdf/e4/c0/80/13116340.pdf",
-    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh0247_pdf.pdf",
     "https://www.amazon.de/Hansgrohe-Rueckflussverhinderer-Patrone-NV15-96737000/dp/B00CW6LWGG"
    ]
   },
   {
-   "slug": "hansgrohe-absperreinheit-keramik-94149000",
-   "name": "hansgrohe Absperreinheit Keramik (94149000)",
+   "slug": "hansgrohe-anschlagring-98916000",
+   "name": "hansgrohe Anschlagring Ecostat E/S (98916000)",
    "teiltyp": "sonstiges",
-   "oem_nummer": "94149000",
+   "oem_nummer": "98916000",
    "ean": null,
-   "masse": {
-    "durchmesser_mm": null
-   },
-   "beschreibung": "Keramik-Absperrventil (Mengenregulierung) der Aufputz-Brausethermostate; hansgrohe nennt Ecostat 1001 CL Brausethermostat 13211000. Ursache, wenn der Brausethermostat bei geschlossenem Griff tropft (Diagnose nicht von hansgrohe beschrieben, nur die Zuordnung).",
+   "masse": {},
+   "beschreibung": "Anschlagring (laut hansgrohe.com Teil der Sicherheitseinrichtung für die Temperaturbegrenzung) für Ecostat-E/S-Thermostate; laut Kompatibilitätsliste u. a. Crometta Showerpipe 160 1jet mit Thermostat.",
    "preis_spanne": null,
-   "verschleissteil": true,
+   "verschleissteil": false,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
-   "dauer_min": 40,
-   "werkzeug": "Innensechskantschlüssel (Griffbefestigung, Größe modellabhängig), Schraubendreher für Griffstopfen/Kappe, Gabel- oder Ringschlüssel für Kartuschen-Mutter, Armaturenfett, weiches Tuch",
+   "dauer_min": 20,
+   "werkzeug": "Wasser absperren; Thermostatgriff abnehmen (Schraubendreher/Innensechskant je nach Modell), Maul- oder Ringschlüssel für die Temperatur-Regeleinheit; nach dem Einbau Mischtemperatur mit einem Thermometer prüfen.",
    "amazon_asin": null,
    "quellen": [
-    "https://www.hansgrohe.de/articledetail-absperreinheit-keramik-94149000",
-    "https://www.hansgrohe.com/articledetail-shut-off-unit-with-ceramic-valves-94149000"
+    "https://www.hansgrohe.com/articledetail-stop-ring-ecostat-e-s-98916000"
    ]
   },
   {
-   "slug": "hansgrohe-absperreinheit-umsteller-96509000",
-   "name": "hansgrohe Absperreinheit mit Umsteller (96509000)",
-   "teiltyp": "sonstiges",
-   "oem_nummer": "96509000",
-   "ean": null,
-   "masse": {
-    "durchmesser_mm": null
-   },
-   "beschreibung": "Absperr- und Umstelleinheit (Wanne/Brause) für Wannenthermostate; in der Ersatzteilliste des Ecostat 1001 CL Wannenthermostats 13201000.",
-   "preis_spanne": null,
-   "verschleissteil": true,
-   "selbst_tauschbar": true,
-   "schwierigkeit": 2,
-   "dauer_min": 45,
-   "werkzeug": "Innensechskantschlüssel (Griffbefestigung, Größe modellabhängig), Schraubendreher für Griffstopfen/Kappe, Gabel- oder Ringschlüssel für Kartuschen-Mutter, Armaturenfett, weiches Tuch",
-   "amazon_asin": "B00D7FJFG0",
-   "quellen": [
-    "https://www.neuesbad.de/media/pdf/5c/2f/e1/13201000.pdf",
-    "https://www.amazon.de/hansgrohe-Absperreinheit-inklusive-Umsteller-96509000/dp/B00D7FJFG0"
-   ]
-  },
-  {
-   "slug": "hansgrohe-luftsprudler-m24x1-5l-13185000",
+   "slug": "hansgrohe-luftsprudler-13185000",
    "name": "hansgrohe Luftsprudler M24x1 mit Durchflussbegrenzer 5 l/min (13185000)",
    "teiltyp": "strahlregler",
    "oem_nummer": "13185000",
    "ean": null,
    "masse": {
-    "durchmesser_mm": null
+    "gewinde": "M24x1",
+    "durchfluss_l_min": 5
    },
-   "beschreibung": "Strahlregler mit Außengewinde M24x1 und 5 l/min. hansgrohe listet u. a. Focus 70 (31730000), Talis S 100 (72020000) und Talis-E-Waschtischmischer (71700000, 71701000, 71711000).",
+   "beschreibung": "Luftsprudler M24x1 mit Durchflussbegrenzer 5 l/min. hansgrohe.de nennt als Produktlinie den Talis E Einhebel-Waschtischmischer Unterputz für Wandmontage mit Auslauf 22,5 cm; weitere Talis-E-Waschtischmischer stehen in der Kompatibilitätsliste. Weitere M24x1-Varianten bei hansgrohe: 7 l/min (13085000), 25 l/min für Wannenmischer (13956000).",
    "preis_spanne": null,
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 1,
-   "dauer_min": 10,
-   "werkzeug": "Ggf. Strahlreglerschlüssel oder Tuch und Zange (Oberfläche schützen), Essigessenz/Entkalker",
+   "dauer_min": 5,
+   "werkzeug": "Meist von Hand oder mit passendem Montageschlüssel abschraubbar; Gewinde und Durchfluss des alten Teils vergleichen.",
    "amazon_asin": null,
    "quellen": [
     "https://www.hansgrohe.de/articledetail-luftsprudler-m24-x-1-mit-durchflussbegrenzer-5-l-min-13185000"
    ]
   },
   {
-   "slug": "hansgrohe-luftsprudler-m24x1-5l-92372000",
-   "name": "hansgrohe Luftsprudler M24x1 5 l/min (92372000)",
+   "slug": "hansgrohe-luftsprudler-13955000",
+   "name": "hansgrohe QuickClean Luftsprudler M24x1 15 l/min (13955000)",
    "teiltyp": "strahlregler",
-   "oem_nummer": "92372000",
+   "oem_nummer": "13955000",
    "ean": null,
    "masse": {
-    "durchmesser_mm": null
+    "gewinde": "M24x1",
+    "durchfluss_l_min": 15
    },
-   "beschreibung": "Strahlregler M24x1, 5 l/min; hansgrohe listet Logis 100 mit Zugstangen-Ablaufgarnitur (71100000).",
+   "beschreibung": "QuickClean-Luftsprudler M24x1 mit 15 l/min für Küchenmischer; laut hansgrohe.de u. a. für Avista-Küchenmischer, laut Suchauszug auch für Focus M41 160 1jet (31806000).",
    "preis_spanne": null,
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 1,
-   "dauer_min": 10,
-   "werkzeug": "Ggf. Strahlreglerschlüssel oder Tuch und Zange (Oberfläche schützen), Essigessenz/Entkalker",
+   "dauer_min": 5,
+   "werkzeug": "Meist von Hand oder mit passendem Montageschlüssel abschraubbar; Gewinde und Durchfluss des alten Teils vergleichen.",
    "amazon_asin": null,
    "quellen": [
-    "https://www.hansgrohe.de/articledetail-luftsprudler-m24x1-5-l-min-92372000"
+    "https://www.hansgrohe.de/articledetail-quickclean-luftsprudler-13955000"
    ]
   },
   {
-   "slug": "hansgrohe-luftsprudler-m24x1-7l-13085000",
-   "name": "hansgrohe Luftsprudler M24x1 mit Durchflussbegrenzer 7 l/min (13085000)",
+   "slug": "hansgrohe-luftsprudler-95824000",
+   "name": "hansgrohe Luftsprudler M22x1 15 l/min (95824000)",
    "teiltyp": "strahlregler",
-   "oem_nummer": "13085000",
+   "oem_nummer": "95824000",
    "ean": null,
    "masse": {
-    "durchmesser_mm": null
+    "gewinde": "M22x1",
+    "durchfluss_l_min": 15
    },
-   "beschreibung": "Strahlregler M24x1, 7 l/min; hansgrohe listet den älteren Talis-S-Waschtischmischer 32020000.",
+   "beschreibung": "Luftsprudler M22x1, 15 l/min, Chrom; laut hansgrohe.com-Kompatibilitätsliste u. a. Logis M31/M32, Focus M41 und Ecos Küchenmischer. Ein weiteres M22x1-Teil für Küchenmischer ist 92368000 (15 l/min), für Badmischer 92376000 (5 l/min).",
    "preis_spanne": null,
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 1,
-   "dauer_min": 10,
-   "werkzeug": "Ggf. Strahlreglerschlüssel oder Tuch und Zange (Oberfläche schützen), Essigessenz/Entkalker",
+   "dauer_min": 5,
+   "werkzeug": "Meist von Hand oder mit passendem Montageschlüssel abschraubbar; Gewinde und Durchfluss des alten Teils vergleichen.",
    "amazon_asin": null,
    "quellen": [
-    "https://www.hansgrohe.de/articledetail-luftsprudler-m24x1-mit-durchflussbegrenzer-7-l-min-13085000"
+    "https://www.hansgrohe.com/articledetail-hg-aerator-95824000",
+    "https://www.hansgrohe.com/articledetail-null-92368000"
    ]
   },
   {
-   "slug": "hansgrohe-strahlformer-laminar-m18-5x1-93748000",
+   "slug": "hansgrohe-luftsprudler-93834000",
+   "name": "hansgrohe Luftsprudler schwenkbar M24x1 5 l/min (93834000)",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "93834000",
+   "ean": null,
+   "masse": {
+    "gewinde": "M24x1",
+    "durchfluss_l_min": 5
+   },
+   "beschreibung": "Schwenkbarer Luftsprudler (10°) M24x1 mit Durchflussbegrenzer 5 l/min; laut hansgrohe.de u. a. für Vernis Blend 71550000.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Meist von Hand oder mit passendem Montageschlüssel abschraubbar; Gewinde und Durchfluss des alten Teils vergleichen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansgrohe.de/articledetail-luftsprudler-schwenkbar-10grad-m24x1-mit-durchflussbegrenzer-5-l-min-93834000"
+   ]
+  },
+  {
+   "slug": "hansgrohe-strahlregler-93973000",
+   "name": "hansgrohe Strahlregler M16,5x1 5 l/min (93973000)",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "93973000",
+   "ean": null,
+   "masse": {
+    "gewinde": "M16,5x1",
+    "durchfluss_l_min": 5
+   },
+   "beschreibung": "Strahlregler M16,5x1 mit 5 l/min; laut hansgrohe-Datenblatt im Finoris Waschtischmischer 100 mit Push-Open-Ablaufgarnitur (76010670) und laut Ersatzteilseite im Finoris Standventil 100.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Meist von Hand oder mit passendem Montageschlüssel abschraubbar; Gewinde und Durchfluss des alten Teils vergleichen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansgrohe.de/articledetail-strahlregler-m16-5x1-5-l-min-93973000",
+    "https://www.hansgrohe.com/datasheet/product/hansgrohe/76010670"
+   ]
+  },
+  {
+   "slug": "hansgrohe-strahlformer-93748000",
    "name": "hansgrohe Strahlformer laminar M18,5x1 (93748000)",
    "teiltyp": "strahlregler",
    "oem_nummer": "93748000",
    "ean": null,
    "masse": {
-    "durchmesser_mm": null
+    "gewinde": "M18,5x1"
    },
-   "beschreibung": "Strahlformer M18,5x1 für Talis M54 Küchenmischer (z. B. 72804800, Baujahr > 04/21). Wird mit dem Serviceschlüssel 93750000 ein- und ausgeschraubt. Die EcoSmart-Variante 72844000 hat den Strahlformer 93755000.",
+   "beschreibung": "Laminarer Strahlformer M18,5x1 (kein belüfteter Luftsprudler); laut hansgrohe.de u. a. Talis M54 und Aquno Select M81 Küchenmischer. Montageschlüssel: 93750000.",
    "preis_spanne": null,
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 1,
    "dauer_min": 10,
-   "werkzeug": "Serviceschlüssel hansgrohe 93750000",
+   "werkzeug": "Montageschlüssel für Strahlformer M18,5x1 (93750000).",
    "amazon_asin": null,
    "quellen": [
-    "https://www.hansgrohe.at/articledetail-strahlformer-laminar-m18-5x1-93748000",
-    "https://neuesbad.de/media/pdf/6d/99/1e/72844000_product_data_sheet.pdf"
+    "https://www.hansgrohe.de/articledetail-strahlformer-laminar-m18-5x1-93748000",
+    "https://www.hansgrohe.de/articledetail-montageschluessel-fuer-strahlformer-m18-5x1-93750000"
    ]
   },
   {
-   "slug": "hansgrohe-serviceschluessel-strahlformer-93750000",
-   "name": "hansgrohe Montage-/Serviceschlüssel für Strahlformer M18,5x1 (93750000)",
+   "slug": "hansgrohe-montageschluessel-93750000",
+   "name": "hansgrohe Montageschlüssel für Strahlformer M18,5x1 (93750000)",
    "teiltyp": "werkzeug",
    "oem_nummer": "93750000",
    "ean": null,
    "masse": {
-    "durchmesser_mm": null
+    "passt_gewinde": "M18,5x1"
    },
-   "beschreibung": "Spezialschlüssel für den Strahlformer M18,5x1; hansgrohe listet Talis-M54-Küchenmischer (220/270, Baujahre 12/19–03/21 und > 04/21) sowie Tecturis S. Ohne Schlüssel kommt man an den Strahlformer nicht heran.",
+   "beschreibung": "Werkzeug zum Ein- und Ausbau des Strahlformers M18,5x1 (z. B. 93748000).",
    "preis_spanne": null,
    "verschleissteil": false,
    "selbst_tauschbar": true,
    "schwierigkeit": 1,
    "dauer_min": 5,
-   "werkzeug": "–",
+   "werkzeug": null,
    "amazon_asin": null,
    "quellen": [
     "https://www.hansgrohe.de/articledetail-montageschluessel-fuer-strahlformer-m18-5x1-93750000",
-    "https://www.megabad.com/hansgrohe-ersatzteile-verschiedenes-serviceschluessel-a-1348160.htm"
+    "https://www.hansgrohe.de/articledetail-strahlformer-laminar-m18-5x1-93748000"
    ]
   },
   {
-   "slug": "hansgrohe-brauseschlauch-1500-95507000",
+   "slug": "hansgrohe-schlauch-95507000",
    "name": "hansgrohe Schlauch für Spültischmischer 1500 mm (95507000)",
    "teiltyp": "schlauch",
    "oem_nummer": "95507000",
    "ean": null,
    "masse": {
-    "durchmesser_mm": null
+    "laenge_mm": 1500
    },
-   "beschreibung": "Brauseschlauch für Küchenmischer mit Ausziehbrause ohne sBox; hansgrohe listet u. a. Talis M51 200 und Focus M41 240 mit Ausziehbrause.",
+   "beschreibung": "Brauseschlauch 1,5 m für Küchenmischer mit Ausziehbrause; laut hansgrohe.de u. a. Talis M51 200 Ausziehbrause 2jet (72813800) und Focus M41 240 Ausziehbrause 2jet (31815800, 31833000).",
    "preis_spanne": null,
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
-   "dauer_min": 45,
-   "werkzeug": "Gabelschlüssel für Schlauchanschluss, Taschenlampe; Unterschrank ausräumen",
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren; Schlauch unter der Spüle an Armatur und Brause lösen (Maulschlüssel).",
    "amazon_asin": null,
    "quellen": [
     "https://www.hansgrohe.de/articledetail-schlauch-fuer-spueltischmischer-1500mm-95507000"
    ]
   },
   {
-   "slug": "hansgrohe-brauseschlauch-1700-sbox-93191000",
-   "name": "hansgrohe Schlauch 1700 mm für sBox-Küchenmischer (93191000)",
+   "slug": "hansgrohe-schlauch-93191000",
+   "name": "hansgrohe Schlauch 1700 mm (93191000)",
    "teiltyp": "schlauch",
    "oem_nummer": "93191000",
    "ean": null,
    "masse": {
-    "durchmesser_mm": null
+    "laenge_mm": 1700
    },
-   "beschreibung": "Brauseschlauch für Küchenmischer mit Ausziehbrause und sBox; hansgrohe listet Talis M51 200/160 2jet sBox (z. B. 73850000, 73850800) und Focus M41 240 sBox (z. B. 73880000).",
+   "beschreibung": "Schlauch 1,7 m; laut hansgrohe.de für sBox-Versionen von Talis M51 und Focus M41.",
    "preis_spanne": null,
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
-   "dauer_min": 60,
-   "werkzeug": "Gabelschlüssel für Schlauchanschluss, Taschenlampe; Unterschrank ausräumen",
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren; Schlauch unter der Spüle lösen (Maulschlüssel).",
    "amazon_asin": null,
    "quellen": [
     "https://www.hansgrohe.de/articledetail-schlauch-1700-mm-93191000"
+   ]
+  },
+  {
+   "slug": "hansgrohe-dichtungsset-92646000",
+   "name": "hansgrohe Dichtungsset für Auslauf (92646000)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "92646000",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Dichtungsset für den Schwenkauslauf von Küchenmischern; laut hansgrohe.de u. a. Focus M41 280 1jet (31817000) und Talis M51 220 (72814000), laut hansgrohe.com auch Logis M31 260 1jet. In einer Explosionszeichnung Pos. 4 am Auslauf 93147000.",
+   "preis_spanne": "UVP 20,11 € (hansgrohe.de)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren; Griff und Auslauf nach Explosionszeichnung demontieren, Dichtungen tauschen, mit Armaturenfett montieren.",
+   "amazon_asin": "B0017VIWN8",
+   "quellen": [
+    "https://www.hansgrohe.de/articledetail-dichtungsset-fuer-auslauf-92646000",
+    "https://www.hansgrohe.com/articledetail-sealing-set-92646000",
+    "https://www.amazon.de/hansgrohe-92646000-Ersatzteil-92646/dp/B0017VIWN8"
+   ]
+  },
+  {
+   "slug": "hansgrohe-o-ring-set-92604000",
+   "name": "hansgrohe O-Ring-Set 35x2 (92604000)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "92604000",
+   "ean": null,
+   "masse": {
+    "abmessung": "35x2"
+   },
+   "beschreibung": "O-Ring-Set 35x2; laut hansgrohe.de u. a. für Novus 100 (71030000, Baujahr > 10/17) und Metris 110 (31080000).",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen bzw. der Hauptabsperrung schließen; Werkzeug zum Lösen der Griffbefestigung (Innensechskant/Schraubendreher je nach Modell), Maulschlüssel für die Kartuschen-Spannmutter, ggf. Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansgrohe.de/articledetail-o-ring-set-35x2-92604000"
+   ]
+  },
+  {
+   "slug": "hansgrohe-dichtung-m25-kartusche-93383000",
+   "name": "hansgrohe Dichtung für M25-Kartusche (93383000)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "93383000",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Dichtung für M25-Kartuschen (auf hansgrohe.de unter AXOR-Ersatzteile geführt); laut Suchauszug auch für Finoris 76010000 gelistet.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an den Eckventilen bzw. der Hauptabsperrung schließen; Werkzeug zum Lösen der Griffbefestigung (Innensechskant/Schraubendreher je nach Modell), Maulschlüssel für die Kartuschen-Spannmutter, ggf. Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansgrohe.de/articledetail-dichtung-fuer-m25-kartusche-93383000"
    ]
   }
  ],
  "zuordnungen": [
   {
-   "serie_slug": "focus-waschtisch",
-   "teil_slug": "hansgrohe-kartusche-m3-m2-92730000",
-   "hinweis": "für 31730000 (Focus 70 mit Zugstangen-Ablaufgarnitur; Bauzeiträume 10/08–12/09, 01/10–04/17, > 05/17), 31607000 (Focus 100 mit Zugstangen-Ablaufgarnitur), 31517000 (Focus 100 ohne Ablaufgarnitur), 31509000 (Focus 100 CoolStart) laut hansgrohe-Kompatibilitätsliste",
-   "quelle_url": "https://www.hansgrohe.at/articledetail-keramik-kartusche-komplett-m3-m2-92730000",
+   "serie_slug": "talis-e-waschtisch",
+   "teil_slug": "hansgrohe-kartusche-97685000",
+   "hinweis": "Talis E 110 mit Zugstangen-Ablaufgarnitur 71710000, Baujahr > 05/17 (Kompatibilitätsliste der Kartusche)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-keramik-kartusche-m1-komplett-97685000",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "focus-waschtisch",
-   "teil_slug": "hansgrohe-kartusche-m35-ecor-92530000",
-   "hinweis": "nur Eco-/Projektvariante, laut Händler z. B. 31735000 (Focus 70 Projekt Eco, 07/12–12/16); die hansgrohe-Seite zu 92530000 nennt laut Suchergebnis auch Focus 70/100/190, welche Artikelnummern genau ist nicht geprüft. Nicht für 31730000/31607000.",
-   "quelle_url": "https://www.hansgrohe.de/articledetail-kartusche-m35-ecor-wt-92530000",
+   "serie_slug": "talis-e-waschtisch",
+   "teil_slug": "hansgrohe-kartusche-97685000",
+   "hinweis": "Talis E 110 ohne Ablaufgarnitur (71712000) – Produktlinie der Ersatzteilseite",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-keramik-kartusche-m1-komplett-97685000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "talis-e-waschtisch",
+   "teil_slug": "hansgrohe-kartusche-95973001",
+   "hinweis": "Talis E 110 LowFlow 3,5 l/min mit Zugstangen-Ablaufgarnitur (71715000)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-kartusche-m25-low-flow-usa-95973001",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "talis-e-waschtisch",
+   "teil_slug": "hansgrohe-adapter-kartusche-98866000",
+   "hinweis": "Talis E 110 LowFlow 3,5 l/min mit Zugstangen-Ablaufgarnitur",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-adapter-fuer-kartusche-98866000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "talis-e-waschtisch",
+   "teil_slug": "hansgrohe-luftsprudler-13185000",
+   "hinweis": "Produktlinie: Talis E Einhebel-Waschtischmischer Unterputz für Wandmontage mit Auslauf 22,5 cm; weitere Talis-E-Waschtischmischer in der Liste",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-luftsprudler-m24-x-1-mit-durchflussbegrenzer-5-l-min-13185000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "talis-e-duscharmatur",
+   "teil_slug": "hansgrohe-kartusche-92730000",
+   "hinweis": "Talis E Brausemischer Aufputz 71760340 (hansgrohe-Produktdatenblatt bei neuesbad.de)",
+   "quelle_url": "https://www.neuesbad.de/media/pdf/06/01/04/71760340.pdf",
    "sicherheit": "eine_quelle"
   },
   {
-   "serie_slug": "focus-waschtisch",
-   "teil_slug": "hansgrohe-kartusche-m35-lr-95646000",
-   "hinweis": "nur LowFlow 3,5 l/min: 31603000 (Focus 100 LowFlow mit Zugstangen-Ablaufgarnitur)",
+   "serie_slug": "talis-s-waschtisch",
+   "teil_slug": "hansgrohe-kartusche-92730000",
+   "hinweis": "Talis S Waschtischmischer mit Schwenkauslauf 32070000 (Baujahr 08/13) und weitere Talis-S-Waschtischmischer",
+   "quelle_url": "https://www.hansgrohe.co.uk/articledetail-cartridge-m3-m2-92730000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "talis-s-kuechenarmatur",
+   "teil_slug": "hansgrohe-kartusche-92730000",
+   "hinweis": "Talis S Küchenmischer 260 (72810000), Baujahr 06/15",
+   "quelle_url": "https://www.hansgrohe.co.uk/articledetail-cartridge-m3-m2-92730000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "talis-m51-kuechenarmatur",
+   "teil_slug": "hansgrohe-kartusche-97685000",
+   "hinweis": "Talis M51 Einhebel-Küchenmischer 220 (Geräteabsperrventil, 1jet), Baujahre 10/17–05/19 und 06/19–07/24",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-keramik-kartusche-m1-komplett-97685000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "talis-m51-kuechenarmatur",
+   "teil_slug": "hansgrohe-kartusche-97685000",
+   "hinweis": "Talis M51 160 Ausziehbrause 2jet sBox 73850800, Baujahr > 04/19 (Datenblatt)",
+   "quelle_url": "https://www.hansgrohe.de/datasheet/product/hansgrohe/73850800",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "talis-m51-kuechenarmatur",
+   "teil_slug": "hansgrohe-dichtungsset-92646000",
+   "hinweis": "Talis M51 Einhebel-Küchenmischer 220 (72814000)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-dichtungsset-fuer-auslauf-92646000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "talis-m51-kuechenarmatur",
+   "teil_slug": "hansgrohe-schlauch-95507000",
+   "hinweis": "Talis M51 200 Ausziehbrause 2jet (72813800, Edelstahl-Finish)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-schlauch-fuer-spueltischmischer-1500mm-95507000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "talis-m51-kuechenarmatur",
+   "teil_slug": "hansgrohe-schlauch-93191000",
+   "hinweis": "sBox-Versionen des Talis M51 (Artikelnummer im Auszug nicht genannt)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-schlauch-1700-mm-93191000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "talis-m54-kuechenarmatur",
+   "teil_slug": "hansgrohe-kartusche-93740000",
+   "hinweis": "Talis M54 210 Ausziehauslauf 1jet 72802000, Pos. 20, Baujahr > 12/19 (Datenblatt)",
+   "quelle_url": "https://pro.hansgrohe.de/datasheet/product/hansgrohe/72802000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "talis-m54-kuechenarmatur",
+   "teil_slug": "hansgrohe-kartusche-93740000",
+   "hinweis": "Talis M54 210 Ausziehauslauf 1jet sBox 72803800 (Baujahr > 04/20) und weitere 210er-Varianten",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-kartusche-m25xs-93740000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "talis-m54-kuechenarmatur",
+   "teil_slug": "hansgrohe-kartusche-93760000",
+   "hinweis": "Talis M54 220 1jet: 72804000 (12/19–03/21, > 04/21), 72804800, 72804670 (04/20–03/21, > 04/21)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-kartusche-m25lxs-93760000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "talis-m54-kuechenarmatur",
+   "teil_slug": "hansgrohe-kartusche-93760000",
+   "hinweis": "Talis M54 270 mattschwarz 72859670 (hansgrohe-Produktspezifikation bei megabad)",
+   "quelle_url": "https://www.megabad.com/documents/10/72859670-hansgrohe-product-specification-de-105447.pdf",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "talis-m54-kuechenarmatur",
+   "teil_slug": "hansgrohe-kartusche-93760000",
+   "hinweis": "Talis M54 U 220 EcoSmart 1jet 72844000 (hansgrohe-Produktdatenblatt bei neuesbad)",
+   "quelle_url": "https://neuesbad.de/media/pdf/6d/99/1e/72844000_product_data_sheet.pdf",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "talis-m54-kuechenarmatur",
+   "teil_slug": "hansgrohe-strahlformer-93748000",
+   "hinweis": "Talis M54 Küchenmischer (Kompatibilitätsliste)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-strahlformer-laminar-m18-5x1-93748000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "logis-waschtisch",
+   "teil_slug": "hansgrohe-kartusche-92730000",
+   "hinweis": "Logis 100 mit Push-Open-Ablaufgarnitur 71107670 (Datenblatt, Kartusche kpl.)",
+   "quelle_url": "https://www.hansgrohe.de/datasheet/product/hansgrohe/71107670",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "logis-waschtisch",
+   "teil_slug": "hansgrohe-kartusche-95646000",
+   "hinweis": "Logis 100 LowFlow 3,5 l/min (71104000)",
    "quelle_url": "https://www.hansgrohe.de/articledetail-hg-kartusche-m35-lr-95646000",
    "sicherheit": "hersteller"
   },
   {
+   "serie_slug": "logis-m31-kuechenarmatur",
+   "teil_slug": "hansgrohe-kartusche-92530000",
+   "hinweis": "Logis M31 120/160 CoolStart EcoSelection 1jet (71837000, 71839000)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-kartusche-m35-ecor-wt-92530000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "logis-m31-kuechenarmatur",
+   "teil_slug": "hansgrohe-luftsprudler-95824000",
+   "hinweis": "Logis M31/M32 Küchenmischer (Kompatibilitätsliste)",
+   "quelle_url": "https://www.hansgrohe.com/articledetail-hg-aerator-95824000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "logis-m31-kuechenarmatur",
+   "teil_slug": "hansgrohe-dichtungsset-92646000",
+   "hinweis": "Logis M31 Küchenmischer 260 1jet",
+   "quelle_url": "https://www.hansgrohe.com/articledetail-sealing-set-92646000",
+   "sicherheit": "hersteller"
+  },
+  {
    "serie_slug": "focus-waschtisch",
-   "teil_slug": "hansgrohe-luftsprudler-m24x1-5l-13185000",
-   "hinweis": "für 31730000 (Focus 70 mit Zugstangen-Ablaufgarnitur)",
-   "quelle_url": "https://www.hansgrohe.de/articledetail-luftsprudler-m24-x-1-mit-durchflussbegrenzer-5-l-min-13185000",
+   "teil_slug": "hansgrohe-kartusche-95646000",
+   "hinweis": "Focus 100 LowFlow 3,5 l/min ohne Ablaufgarnitur",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-hg-kartusche-m35-lr-95646000",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "talis-s-waschtisch",
-   "teil_slug": "hansgrohe-kartusche-m1-97685000",
-   "hinweis": "für 72020000 (Talis S 100 mit Zugstangen-Ablaufgarnitur, Bauzeiträume 10/15–03/17 und > 04/17), 72022000 (100 CoolStart), 72013000 (80 CoolStart), 72105000, 72116000 (250) laut hansgrohe; 72113000 (Talis S 140) laut Ersatzteilliste. Nicht für die ältere 32020000 belegt.",
-   "quelle_url": "https://www.hansgrohe.de/articledetail-keramik-kartusche-m1-komplett-97685000",
+   "serie_slug": "focus-m41-kuechenarmatur",
+   "teil_slug": "hansgrohe-kartusche-92530000",
+   "hinweis": "Focus M41 160 CoolStart EcoSelection 1jet (31816000)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-kartusche-m35-ecor-wt-92530000",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "talis-s-waschtisch",
-   "teil_slug": "hansgrohe-adapter-kartusche-92628000",
-   "hinweis": "für 72020000 (Talis S 100) laut hansgrohe-Kompatibilitätsliste",
-   "quelle_url": "https://www.hansgrohe.at/articledetail-adapter-fuer-kartusche-92628000",
+   "serie_slug": "focus-m41-kuechenarmatur",
+   "teil_slug": "hansgrohe-dichtungsset-92646000",
+   "hinweis": "Focus M41 280 1jet (31817000) und weitere Focus-M41-Varianten",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-dichtungsset-fuer-auslauf-92646000",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "talis-s-waschtisch",
-   "teil_slug": "hansgrohe-luftsprudler-m24x1-5l-13185000",
-   "hinweis": "für 72020000 (Talis S 100 mit Zugstangen-Ablaufgarnitur)",
-   "quelle_url": "https://www.hansgrohe.de/articledetail-luftsprudler-m24-x-1-mit-durchflussbegrenzer-5-l-min-13185000",
+   "serie_slug": "focus-m41-kuechenarmatur",
+   "teil_slug": "hansgrohe-schlauch-95507000",
+   "hinweis": "Focus M41 240 Ausziehbrause 2jet (31815800, 31833000)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-schlauch-fuer-spueltischmischer-1500mm-95507000",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "talis-s-waschtisch",
-   "teil_slug": "hansgrohe-luftsprudler-m24x1-7l-13085000",
-   "hinweis": "nur ältere Talis-S-Generation 32020000 (7 l/min)",
-   "quelle_url": "https://www.hansgrohe.de/articledetail-luftsprudler-m24x1-mit-durchflussbegrenzer-7-l-min-13085000",
+   "serie_slug": "focus-m41-kuechenarmatur",
+   "teil_slug": "hansgrohe-schlauch-93191000",
+   "hinweis": "sBox-Versionen des Focus M41 (Artikelnummer im Auszug nicht genannt)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-schlauch-1700-mm-93191000",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "talis-e-waschtisch",
-   "teil_slug": "hansgrohe-kartusche-m1-97685000",
-   "hinweis": "für 71710000 (Talis E 110 mit Zugstangen-Ablaufgarnitur) laut hansgrohe-Kompatibilitätsliste; Ersatzteilliste der Variante 71710140 nennt ebenfalls 97685000 mit Adapter 92628000",
-   "quelle_url": "https://www.hansgrohe.de/articledetail-keramik-kartusche-m1-komplett-97685000",
+   "serie_slug": "focus-m41-kuechenarmatur",
+   "teil_slug": "hansgrohe-luftsprudler-95824000",
+   "hinweis": "Focus M41 Küchenmischer (Kompatibilitätsliste, Variante nicht genannt)",
+   "quelle_url": "https://www.hansgrohe.com/articledetail-hg-aerator-95824000",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "talis-e-waschtisch",
-   "teil_slug": "hansgrohe-adapter-kartusche-92628000",
-   "hinweis": "für 71710000 (Talis E 110) laut hansgrohe; die Liste trägt die Produktlinien-Überschrift Talis E 110 CoolStart",
-   "quelle_url": "https://www.hansgrohe.at/articledetail-adapter-fuer-kartusche-92628000",
-   "sicherheit": "hersteller"
+   "serie_slug": "focus-m41-kuechenarmatur",
+   "teil_slug": "hansgrohe-luftsprudler-13955000",
+   "hinweis": "Focus M41 160 1jet 31806000 laut Suchauszug der Ersatzteilseite – siehe Widerspruch zum Gewinde",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-quickclean-luftsprudler-13955000",
+   "sicherheit": "eine_quelle"
   },
   {
-   "serie_slug": "talis-e-waschtisch",
-   "teil_slug": "hansgrohe-luftsprudler-m24x1-5l-13185000",
-   "hinweis": "für 71700000, 71701000, 71711000 (Talis-E-Waschtischmischer) laut hansgrohe; 71710000 nicht explizit gesehen",
-   "quelle_url": "https://www.hansgrohe.de/articledetail-luftsprudler-m24-x-1-mit-durchflussbegrenzer-5-l-min-13185000",
-   "sicherheit": "hersteller"
-  },
-  {
-   "serie_slug": "logis-waschtisch",
-   "teil_slug": "hansgrohe-kartusche-m3-m2-92730000",
-   "hinweis": "für 71100000 (Logis 100 mit Zugstangen-Ablaufgarnitur; Bauzeiträume 04/14–12/14, 01/15–04/17, > 05/17) laut hansgrohe; 71070000 (Logis 70) nicht direkt belegt",
-   "quelle_url": "https://www.hansgrohe.at/articledetail-keramik-kartusche-komplett-m3-m2-92730000",
-   "sicherheit": "hersteller"
-  },
-  {
-   "serie_slug": "logis-waschtisch",
-   "teil_slug": "hansgrohe-dichtung-m3-kartusche-95008000",
-   "hinweis": "für 71100000 (Logis 100) laut hansgrohe-Kompatibilitätsliste",
-   "quelle_url": "https://www.hansgrohe.at/articledetail-dichtung-fuer-m3-kartusche-95008000",
-   "sicherheit": "hersteller"
-  },
-  {
-   "serie_slug": "logis-waschtisch",
-   "teil_slug": "hansgrohe-luftsprudler-m24x1-5l-92372000",
-   "hinweis": "für 71100000 (Logis 100 mit Zugstangen-Ablaufgarnitur)",
-   "quelle_url": "https://www.hansgrohe.de/articledetail-luftsprudler-m24x1-5-l-min-92372000",
+   "serie_slug": "metris-waschtisch",
+   "teil_slug": "hansgrohe-kartusche-92730000",
+   "hinweis": "Metris 110 mit Ablaufgarnitur (31080000) laut hansgrohe UK",
+   "quelle_url": "https://www.hansgrohe.co.uk/articledetail-cartridge-m3-m2-92730000",
    "sicherheit": "hersteller"
   },
   {
    "serie_slug": "metris-waschtisch",
-   "teil_slug": "hansgrohe-kartusche-m3-m2-92730000",
-   "hinweis": "für 31080000 (Metris 110 mit Zugstangen-Ablaufgarnitur, 01/11–03/17 und > 04/17) und 31084000 (ohne Ablaufgarnitur) laut hansgrohe-Kompatibilitätsliste",
-   "quelle_url": "https://www.hansgrohe.at/articledetail-keramik-kartusche-komplett-m3-m2-92730000",
+   "teil_slug": "hansgrohe-kartusche-92730000",
+   "hinweis": "Metris 110 mit Ablaufgarnitur 31080000, Baujahr > 04/17 (Händler-Ersatzteilliste)",
+   "quelle_url": "https://www.divapor.com/spares/showers/hansgrohe-spares/hansgrohe-31080000-metris-single-lever-basin-mixer-110-with-pop-up-waste-set-04-17-spare-parts.php",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "metris-waschtisch",
+   "teil_slug": "hansgrohe-kartusche-95646000",
+   "hinweis": "Metris 110 LowFlow 3,5 l/min",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-hg-kartusche-m35-lr-95646000",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "novus-waschtisch",
-   "teil_slug": "hansgrohe-kartusche-m3-m2-92730000",
-   "hinweis": "für 71031000 (Novus 100 ohne Ablaufgarnitur) und 71032000 laut hansgrohe; Novus 70 71020000 laut Ersatzteilliste (Baujahr 2019)",
-   "quelle_url": "https://www.hansgrohe.at/articledetail-keramik-kartusche-komplett-m3-m2-92730000",
+   "serie_slug": "metris-waschtisch",
+   "teil_slug": "hansgrohe-kartusche-97685000",
+   "hinweis": "Metris 230 ohne Ablaufgarnitur",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-keramik-kartusche-m1-komplett-97685000",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "novus-waschtisch",
-   "teil_slug": "hansgrohe-kartusche-m35-lr-95646000",
-   "hinweis": "nur LowFlow 3,5 l/min mit Push-Open-Ablaufgarnitur: 71034000, 71024000",
+   "serie_slug": "metris-waschtisch",
+   "teil_slug": "hansgrohe-o-ring-set-92604000",
+   "hinweis": "Metris 110 (31080000)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-o-ring-set-35x2-92604000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "metris-s-waschtisch",
+   "teil_slug": "hansgrohe-kartusche-95646000",
+   "hinweis": "Metris S 100 LowFlow 1,9 l/min ohne Ablaufgarnitur",
    "quelle_url": "https://www.hansgrohe.de/articledetail-hg-kartusche-m35-lr-95646000",
    "sicherheit": "hersteller"
   },
   {
    "serie_slug": "novus-waschtisch",
-   "teil_slug": "hansgrohe-dichtung-m3-kartusche-95008000",
-   "hinweis": "für 71031000 (Novus 100 ohne Ablaufgarnitur)",
-   "quelle_url": "https://www.hansgrohe.at/articledetail-dichtung-fuer-m3-kartusche-95008000",
+   "teil_slug": "hansgrohe-kartusche-92730000",
+   "hinweis": "Novus 70 mit Zugstangen-Ablaufgarnitur 71020000, Baujahr 04/19",
+   "quelle_url": "https://pro.hansgrohe.de/articledetail-novus-einhebel-waschtischmischer-70-mit-zugstangen-ablaufgarnitur-71020000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "novus-waschtisch",
+   "teil_slug": "hansgrohe-o-ring-set-92604000",
+   "hinweis": "Novus 100 (71030000), Baujahr > 10/17",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-o-ring-set-35x2-92604000",
    "sicherheit": "hersteller"
   },
   {
    "serie_slug": "rebris-s-waschtisch",
    "teil_slug": "hansgrohe-kartusche-95973001",
-   "hinweis": "für 72520000 (Rebris S 110 CoolStart ohne Ablaufgarnitur, Baujahr > 06/22) laut hansgrohe-Datenblatt und 72519000 laut hansgrohe-Kompatibilitätsliste; für 72517000 (ohne CoolStart) nicht belegt",
-   "quelle_url": "https://img.shkshop.com/production/product/file/hansgrohe/5134_pec4545_16535990_product_data_sheet.pdf",
+   "hinweis": "Rebris S 110 mit Ablaufgarnitur 72517000, Baujahr > 06/22 (Kompatibilitätsliste „HG Kartusche kpl.“)",
+   "quelle_url": "https://www.hansgrohe.com/articledetail-hg-kartusche-kpl--95973001",
    "sicherheit": "hersteller"
   },
   {
    "serie_slug": "rebris-s-waschtisch",
    "teil_slug": "hansgrohe-adapter-kartusche-98866000",
-   "hinweis": "für 72517000 (Rebris S 110 mit Zugstangen-Ablaufgarnitur) laut hansgrohe-Kompatibilitätsliste",
+   "hinweis": "Rebris S 110 mit Zugstangen-Ablaufgarnitur (72517000, 72517670)",
    "quelle_url": "https://www.hansgrohe.de/articledetail-adapter-fuer-kartusche-98866000",
    "sicherheit": "hersteller"
   },
   {
+   "serie_slug": "rebris-s-waschtisch",
+   "teil_slug": "hansgrohe-adapter-kartusche-95975000",
+   "hinweis": "Rebris S 110 CoolStart (ohne Ablauf bzw. mit Zugstange)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-hg-adapter-fuer-kartusche-95975000",
+   "sicherheit": "hersteller"
+  },
+  {
    "serie_slug": "vernis-blend-waschtisch",
-   "teil_slug": "hansgrohe-kartusche-m1-97685000",
-   "hinweis": "für 71580000 (Vernis Blend 100 ohne Ablaufgarnitur) und weitere Vernis-Blend-100-Modelle laut hansgrohe",
+   "teil_slug": "hansgrohe-kartusche-97685000",
+   "hinweis": "Vernis Blend 100 ohne Ablaufgarnitur (Produktlinie der Ersatzteilseite)",
    "quelle_url": "https://www.hansgrohe.de/articledetail-keramik-kartusche-m1-komplett-97685000",
    "sicherheit": "hersteller"
   },
   {
    "serie_slug": "vernis-blend-waschtisch",
    "teil_slug": "hansgrohe-adapter-kartusche-95975000",
-   "hinweis": "nur CoolStart: 71585000, 71585670",
+   "hinweis": "Vernis Blend 100 CoolStart mit Zugstangen-Ablaufgarnitur",
    "quelle_url": "https://www.hansgrohe.de/articledetail-hg-adapter-fuer-kartusche-95975000",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "focus-m41-kueche",
-   "teil_slug": "hansgrohe-kartusche-m3-m2-92730000",
-   "hinweis": "für 31806000 (Focus M41 160 1jet, Bauzeiträume 10/09–03/17 und > 04/17) laut hansgrohe-Kompatibilitätsliste",
-   "quelle_url": "https://www.hansgrohe.at/articledetail-keramik-kartusche-komplett-m3-m2-92730000",
+   "serie_slug": "vernis-blend-waschtisch",
+   "teil_slug": "hansgrohe-luftsprudler-93834000",
+   "hinweis": "Vernis Blend 71550000 (Baujahr > 01/21)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-luftsprudler-schwenkbar-10grad-m24x1-mit-durchflussbegrenzer-5-l-min-93834000",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "focus-m41-kueche",
-   "teil_slug": "hansgrohe-brauseschlauch-1500-95507000",
-   "hinweis": "Focus M41 240 mit Ausziehbrause (z. B. 31815000), Ausführung ohne sBox",
-   "quelle_url": "https://www.hansgrohe.de/articledetail-schlauch-fuer-spueltischmischer-1500mm-95507000",
+   "serie_slug": "vernis-shape-waschtisch",
+   "teil_slug": "hansgrohe-kartusche-97685000",
+   "hinweis": "Vernis Shape 100 mit isolierter Wasserführung 71561000 (Kompatibilitätsliste)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-keramik-kartusche-m1-komplett-97685000",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "focus-m41-kueche",
-   "teil_slug": "hansgrohe-brauseschlauch-1700-sbox-93191000",
-   "hinweis": "Focus M41 240 mit Ausziehbrause und sBox (z. B. 73880000)",
-   "quelle_url": "https://www.hansgrohe.de/articledetail-schlauch-1700-mm-93191000",
+   "serie_slug": "finoris-waschtisch",
+   "teil_slug": "hansgrohe-kartusche-93760000",
+   "hinweis": "Finoris 100 mit Push-Open-Ablaufgarnitur 76010000, Baujahr > 06/21",
+   "quelle_url": "https://www.hansgrohe.com/articledetail-cartridge-m25lxs-93760000",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "focus-m42-kueche",
-   "teil_slug": "hansgrohe-kartusche-m3-m2-92730000",
-   "hinweis": "für 71802000 (Focus M42 220 1jet) laut Ersatzteilliste auf pro.hansgrohe.com; ein UK-Händler nennt außerdem 71800800 (220 Ausziehbrause 2jet)",
-   "quelle_url": "https://pro.hansgrohe.com/articledetail-focus-m42-single-lever-kitchen-mixer-220-1jet-71802000",
+   "serie_slug": "finoris-waschtisch",
+   "teil_slug": "hansgrohe-strahlregler-93973000",
+   "hinweis": "Finoris 100 Push-Open 76010670 (Datenblatt)",
+   "quelle_url": "https://www.hansgrohe.com/datasheet/product/hansgrohe/76010670",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "talis-m51-kueche",
-   "teil_slug": "hansgrohe-kartusche-m3-m2-92730000",
-   "hinweis": "für 72810000 (Talis M51 260 1jet, Baujahr > 06/15) und 72813000/72813800 (200 Ausziehbrause 2jet) laut Ersatzteillisten (Datenblätter)",
-   "quelle_url": "https://www.neuesbad.de/media/pdf/30/d3/c8/72813800_product_data_sheet.pdf",
-   "sicherheit": "zwei_quellen"
-  },
-  {
-   "serie_slug": "talis-m51-kueche",
-   "teil_slug": "hansgrohe-brauseschlauch-1700-sbox-93191000",
-   "hinweis": "Talis M51 200/160 Ausziehbrause 2jet sBox (z. B. 73850000, 73850800)",
-   "quelle_url": "https://www.hansgrohe.de/articledetail-schlauch-1700-mm-93191000",
+   "serie_slug": "finoris-waschtisch",
+   "teil_slug": "hansgrohe-adapter-kartusche-95975000",
+   "hinweis": "Finoris 110 CoolStart-Varianten",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-hg-adapter-fuer-kartusche-95975000",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "talis-m51-kueche",
-   "teil_slug": "hansgrohe-brauseschlauch-1500-95507000",
-   "hinweis": "Talis M51 200 Ausziehbrause (z. B. 72813000), Ausführung ohne sBox",
-   "quelle_url": "https://www.hansgrohe.de/articledetail-schlauch-fuer-spueltischmischer-1500mm-95507000",
-   "sicherheit": "hersteller"
+   "serie_slug": "finoris-waschtisch",
+   "teil_slug": "hansgrohe-dichtung-m25-kartusche-93383000",
+   "hinweis": "Finoris 76010000 laut Suchauszug der Ersatzteilseite",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-dichtung-fuer-m25-kartusche-93383000",
+   "sicherheit": "eine_quelle"
   },
   {
-   "serie_slug": "talis-m52-kueche",
-   "teil_slug": "hansgrohe-dichtungsset-auslauf-92646000",
-   "hinweis": "Talis M52 Küchenmischer 270 1jet laut hansgrohe.com-Kompatibilitätsliste; Artikelnummer nicht geprüft",
-   "quelle_url": "https://www.hansgrohe.com/articledetail-sealing-set-92646000",
-   "sicherheit": "hersteller"
-  },
-  {
-   "serie_slug": "talis-m54-kueche",
-   "teil_slug": "hansgrohe-kartusche-m25lxs-93760000",
-   "hinweis": "für 72840000 (Talis M54 270 1jet, Chrom, Baujahr ab 12/19)",
-   "quelle_url": "https://www.hansgrohe.de/articledetail-kartusche-m25lxs-93760000",
-   "sicherheit": "hersteller"
-  },
-  {
-   "serie_slug": "talis-m54-kueche",
-   "teil_slug": "hansgrohe-kartusche-m25xs-93740000",
-   "hinweis": "für 72809000 (Talis M54 270 Ausziehauslauf 1jet)",
-   "quelle_url": "https://www.hansgrohe.de/articledetail-kartusche-m25xs-93740000",
-   "sicherheit": "hersteller"
-  },
-  {
-   "serie_slug": "talis-m54-kueche",
-   "teil_slug": "hansgrohe-strahlformer-laminar-m18-5x1-93748000",
-   "hinweis": "für 72804800 (Talis M54 220 1jet, Baujahr > 04/21) laut Ersatzteilliste; EcoSmart 72844000 hat stattdessen 93755000",
-   "quelle_url": "https://www.hansgrohe.at/articledetail-strahlformer-laminar-m18-5x1-93748000",
-   "sicherheit": "hersteller"
-  },
-  {
-   "serie_slug": "talis-m54-kueche",
-   "teil_slug": "hansgrohe-serviceschluessel-strahlformer-93750000",
-   "hinweis": "für Talis M54 220/270 (Baujahre 12/19–03/21 und > 04/21), auch 72844000",
-   "quelle_url": "https://www.hansgrohe.de/articledetail-montageschluessel-fuer-strahlformer-m18-5x1-93750000",
+   "serie_slug": "ecostat-comfort",
+   "teil_slug": "hansgrohe-thermostatkartusche-98282000",
+   "hinweis": "Ecostat Comfort Brausethermostat Aufputz 13116000",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-temperatur-regeleinheit-smtc-98282000",
    "sicherheit": "hersteller"
   },
   {
    "serie_slug": "ecostat-comfort",
-   "teil_slug": "hansgrohe-temperatur-regeleinheit-98282000",
-   "hinweis": "für 13116000 (Brausethermostat; Ersatzteilliste der Variante 13116340) und 13114000 (Wannenthermostat laut Händler-Kompatibilitätsliste). Die hansgrohe-Seite zu 98282000 nennt Ecostat-Comfort-Modelle, in der Suche aber v. a. Unterputz-Varianten.",
-   "quelle_url": "https://www.neuesbad.de/media/pdf/e4/c0/80/13116340.pdf",
-   "sicherheit": "zwei_quellen"
+   "teil_slug": "hansgrohe-absperreinheit-94149000",
+   "hinweis": "Ecostat Comfort Brausethermostat Aufputz 13116000",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-absperreinheit-keramik-94149000",
+   "sicherheit": "hersteller"
   },
   {
    "serie_slug": "ecostat-comfort",
-   "teil_slug": "hansgrohe-regeleinheit-vertauschte-anschluesse-92373000",
-   "hinweis": "nur bei vertauschten Warm-/Kaltanschlüssen; Ecostat Comfort laut hansgrohe-Kompatibilitätsliste, 13116340 laut Ersatzteilliste",
+   "teil_slug": "hansgrohe-regeleinheit-vertauscht-92373000",
+   "hinweis": "Ecostat Comfort mattschwarz 13116670; laut Ecostat-Comfort-Anleitung bei vertauschten Anschlüssen",
    "quelle_url": "https://www.hansgrohe.de/articledetail-regeleinheit-fuer-vertauschte-anschluesse-92373000",
    "sicherheit": "hersteller"
   },
   {
-   "serie_slug": "ecostat-comfort",
-   "teil_slug": "hansgrohe-rueckflussverhinderer-dn15-96737000",
-   "hinweis": "für 13114000 (Pos. 16 der Ersatzteilliste 13114700) und 13116000 (Ersatzteilliste 13116340)",
-   "quelle_url": "https://www.neuesbad.de/media/pdf/13/0d/7e/13114700.pdf",
-   "sicherheit": "zwei_quellen"
-  },
-  {
    "serie_slug": "ecostat-1001-cl",
-   "teil_slug": "hansgrohe-temperatur-regeleinheit-94282000",
-   "hinweis": "für 13201000 (Wannenthermostat, Pos. 5 der Ersatzteilliste, Baujahr > 09/19) und laut weiterer Ersatzteilliste für 13211000 (Brausethermostat)",
-   "quelle_url": "https://www.neuesbad.de/media/pdf/5c/2f/e1/13201000.pdf",
-   "sicherheit": "zwei_quellen"
-  },
-  {
-   "serie_slug": "ecostat-1001-cl",
-   "teil_slug": "hansgrohe-absperreinheit-keramik-94149000",
-   "hinweis": "für 13211000 (Brausethermostat 1001 CL, Bauzeiträume 04/16–08/19 und > 09/19)",
-   "quelle_url": "https://www.hansgrohe.com/articledetail-shut-off-unit-with-ceramic-valves-94149000",
+   "teil_slug": "hansgrohe-thermostatkartusche-94282000",
+   "hinweis": "13211000 und 13201000, Baujahre 04/16–08/19 und > 09/19",
+   "quelle_url": "https://www.hansgrohe.co.uk/articledetail-mtc-thermostat-cartridge-94282000",
    "sicherheit": "hersteller"
   },
   {
    "serie_slug": "ecostat-1001-cl",
-   "teil_slug": "hansgrohe-absperreinheit-umsteller-96509000",
-   "hinweis": "für 13201000 (Wannenthermostat 1001 CL) laut Ersatzteilliste",
-   "quelle_url": "https://www.neuesbad.de/media/pdf/5c/2f/e1/13201000.pdf",
+   "teil_slug": "hansgrohe-thermostatkartusche-94282000",
+   "hinweis": "Brausethermostat 13211000 ab Bj. 04/16 (Händler-Ersatzteilliste)",
+   "quelle_url": "https://www.badexa.de/hansgrohe-ecostat-brausethermostat-1001-cl-dn-15-ab-bj-04-16-62368/",
    "sicherheit": "eine_quelle"
   },
   {
    "serie_slug": "ecostat-1001-cl",
-   "teil_slug": "hansgrohe-rueckflussverhinderer-dn15-96737000",
-   "hinweis": "für 13201000 (Pos. 15 der Ersatzteilliste, Baujahr > 09/19)",
-   "quelle_url": "https://www.neuesbad.de/media/pdf/5c/2f/e1/13201000.pdf",
+   "teil_slug": "hansgrohe-rueckflussverhinderer-96737000",
+   "hinweis": "Ecostat 1001 CL Brausethermostat Aufputz",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-rueckflussverhinderer-dn15-96737000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ecostat-1001-cl",
+   "teil_slug": "hansgrohe-absperreinheit-94149000",
+   "hinweis": "Ecostat 1001 CL Brausethermostat Aufputz 13211000",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-absperreinheit-keramik-94149000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ecostat-1001-sl",
+   "teil_slug": "hansgrohe-thermostatkartusche-94282000",
+   "hinweis": "Wannenthermostat 13241800, Baujahr 01/03–12/11 (Ersatzteilkatalog)",
+   "quelle_url": "https://spares.hansgrohe.com/etk/INT/product/13241800/8796221419363.seam?fsid=0x00007651000074C100007431&lang=en_GB&wcms=INT",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ecostat-1001-sl",
+   "teil_slug": "hansgrohe-thermostatkartusche-94282000",
+   "hinweis": "13261xx1/13241xx1: Ersatz bei verschmutzter oder verschlissener Thermokartusche (Serviceblatt)",
+   "quelle_url": "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hruh0592_pdf.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ecostat-1001-aeltere",
+   "teil_slug": "hansgrohe-thermostatkartusche-94282000",
+   "hinweis": "Ecostat 1001 13243000/13262000, Pos. 1 der Montageanleitung",
+   "quelle_url": "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh0233_pdf.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ecostat-e-s-unterputz",
+   "teil_slug": "hansgrohe-thermostatkartusche-94282000",
+   "hinweis": "Ecostat E Unterputz 15700000, Baujahr 07/08–12/14",
+   "quelle_url": "https://spares.hansgrohe.com/etk/INT/product/15700000/8796276633443?cid=&lang=en_GB",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ecostat-e-s-unterputz",
+   "teil_slug": "hansgrohe-thermostatkartusche-94282000",
+   "hinweis": "Ecostat S 15721000, Baujahr 04/05–06/08",
+   "quelle_url": "https://spares.hansgrohe.com/etk/INT/pdf/datasheet.pdf?art=15721000&partlist=8796277649251&lang=en_GB",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ecostat-e-s-unterputz",
+   "teil_slug": "hansgrohe-regeleinheit-vertauscht-92373000",
+   "hinweis": "Ecostat E 15708000, Pos. 16 (Alternative: Adapter für vertauschte Anschlüsse 93181000)",
+   "quelle_url": "https://heizman24.de/media/pdf/5b/37/f6/15708000.pdf",
    "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "showerselect-thermostat",
+   "teil_slug": "hansgrohe-thermostatkartusche-98282000",
+   "hinweis": "ShowerSelect 15765000, Pos. 18, Baujahre 05/14–02/15 und > 03/15",
+   "quelle_url": "https://spares.hansgrohe.com/etk/INT/product/15765000/8803238883171.seam?lang=de_DE",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "croma-select-s-showerpipe",
+   "teil_slug": "hansgrohe-thermostatkartusche-98282000",
+   "hinweis": "Croma Select S Showerpipe 280 1jet 26891670, Pos. 38, Baujahr 06/20",
+   "quelle_url": "https://pro.hansgrohe.de/articledetail-croma-select-s-showerpipe-280-1jet-ecosmart-9-l-min-mit-thermostat-und-handbrause-raindance-select-s-120-3jet-26891670",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "raindance-select-e-showerpipe",
+   "teil_slug": "hansgrohe-thermostatkartusche-98282000",
+   "hinweis": "Raindance Select E Showerpipe 300 2jet mit ShowerTablet Select 300 (27126400)",
+   "quelle_url": "https://www.hansgrohe.de/articledetail-temperatur-regeleinheit-smtc-98282000",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "crometta-showerpipe",
+   "teil_slug": "hansgrohe-anschlagring-98916000",
+   "hinweis": "Crometta Showerpipe 160 1jet mit Thermostat",
+   "quelle_url": "https://www.hansgrohe.com/articledetail-stop-ring-ecostat-e-s-98916000",
+   "sicherheit": "hersteller"
   }
  ],
  "probleme": [
   {
    "slug": "hansgrohe-armatur-tropft",
    "titel": "hansgrohe Armatur tropft",
-   "symptom": "Aus dem Auslauf eines Einhebelmischers tropft bei geschlossenem Hebel Wasser, oder es leckt am Fuß eines Schwenkauslaufs.",
+   "symptom": "Aus dem Auslauf tropft bei geschlossenem Hebel Wasser, oder bei Küchenarmaturen tritt Wasser am Schwenkauslauf bzw. am Auszugsschlauch aus.",
    "ursachen": [
     {
-     "ursache": "Keramikkartusche defekt (Störungstabelle der hansgrohe-Anleitungen: „Armatur tropft – Kartusche defekt – Kartusche austauschen“)",
+     "ursache": "Kartusche defekt oder verkalkt (hansgrohe-Störungstabellen: „Armatur tropft – Kartusche defekt – Kartusche austauschen“)",
      "haeufigkeit": "häufig",
      "teil_slugs": [
-      "hansgrohe-kartusche-m3-m2-92730000",
-      "hansgrohe-kartusche-m1-97685000",
-      "hansgrohe-kartusche-m35-lr-95646000",
-      "hansgrohe-kartusche-m35-ecor-92530000"
-     ]
-    },
-    {
-     "ursache": "Dichtung unter der Kartusche spröde oder beschädigt (bei M3/M2-Kartusche)",
-     "haeufigkeit": "gelegentlich",
-     "teil_slugs": [
-      "hansgrohe-dichtung-m3-kartusche-95008000"
-     ]
-    },
-    {
-     "ursache": "Leck am Fuß eines Schwenkauslaufs durch verschlissene Auslauf-O-Ringe (Küchenmischer und Mischer mit Schwenkauslauf)",
-     "haeufigkeit": "gelegentlich",
-     "teil_slugs": [
-      "hansgrohe-dichtungsset-auslauf-92646000"
-     ]
-    },
-    {
-     "ursache": "Sonderfall laut Störungstabelle der Focus-M41-Anleitung: Tropfen am Auslauf, während ein Warmwasserbereiter aufheizt. Die Anleitung nennt dafür eine eigene Ursache (keinen Kartuschendefekt); Details dort prüfen",
-     "haeufigkeit": "selten",
-     "teil_slugs": []
-    }
-   ],
-   "schritte": [
-    "Artikelnummer der Armatur ermitteln (gelasert am Produkt, auf der Verpackung oder in der Montageanleitung) und in der hansgrohe-Ersatzteilsuche Explosionszeichnung und Kartuschennummer prüfen; dabei den Bauzeitraum beachten.",
-    "Eckventile unter dem Waschtisch schließen und Hebel öffnen, um Restdruck abzulassen.",
-    "Griffstopfen/Abdeckkappe abnehmen, Griffschraube lösen und Griff abziehen.",
-    "Kappe bzw. Mutter lösen und Kartusche gerade herausziehen; Dichtungen und Sitz von Kalk reinigen.",
-    "Neue Original-Kartusche (Nummer laut Ersatzteilliste, ggf. mit Adapter und neuer Dichtung) einsetzen, Mutter handfest plus leicht nachziehen, Griff montieren.",
-    "Eckventile langsam öffnen und auf Dichtheit prüfen. Leckt es am Auslauffuß, stattdessen die Auslauf-Dichtungen tauschen."
-   ],
-   "fachbetrieb_ab": "Wenn die Eckventile nicht schließen oder selbst undicht sind, die Kartuschen-Mutter festkorrodiert ist oder es sich um eine Unterputz-Armatur handelt.",
-   "quellen": [
-    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh1463_pdf.pdf",
-    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2041_pdf.pdf",
-    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh1194_pdf.pdf",
-    "https://www.hansgrohe.de/service/ersatzteilsuche",
-    "https://www.hansgrohe.de/articledetail-dichtungsset-fuer-auslauf-92646000"
-   ]
-  },
-  {
-   "slug": "hansgrohe-hebel-schwergaengig",
-   "titel": "hansgrohe Hebel schwergängig",
-   "symptom": "Der Hebel des Einhebelmischers lässt sich nur mit Kraft bewegen, ruckelt oder bleibt hängen.",
-   "ursachen": [
-    {
-     "ursache": "Kartusche verkalkt oder defekt (hansgrohe-Störungstabelle: „Armatur schwergängig – Kartusche defekt, verkalkt – Kartusche austauschen“)",
-     "haeufigkeit": "häufig",
-     "teil_slugs": [
-      "hansgrohe-kartusche-m3-m2-92730000",
-      "hansgrohe-kartusche-m1-97685000",
-      "hansgrohe-kartusche-m25lxs-93760000",
-      "hansgrohe-kartusche-m25xs-93740000",
+      "hansgrohe-kartusche-92730000",
+      "hansgrohe-kartusche-97685000",
+      "hansgrohe-kartusche-95646000",
+      "hansgrohe-kartusche-92530000",
+      "hansgrohe-kartusche-93740000",
+      "hansgrohe-kartusche-93760000",
       "hansgrohe-kartusche-95973001"
      ]
     },
     {
-     "ursache": "Bei CoolStart-/Sonderausführungen: Adapter zwischen Kartusche und Gehäuse beschädigt oder nicht korrekt sitzend",
+     "ursache": "O-Ringe/Dichtungen an Kartusche oder Gehäuse verschlissen",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "hansgrohe-o-ring-set-92604000",
+      "hansgrohe-dichtung-m25-kartusche-93383000"
+     ]
+    },
+    {
+     "ursache": "Dichtungen am Schwenkauslauf von Küchenmischern verschlissen – Wasser am Auslauf",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "hansgrohe-dichtungsset-92646000"
+     ]
+    },
+    {
+     "ursache": "Brauseschlauch der Küchenarmatur mit Ausziehbrause undicht",
      "haeufigkeit": "selten",
      "teil_slugs": [
-      "hansgrohe-adapter-kartusche-92628000",
-      "hansgrohe-adapter-kartusche-95975000",
-      "hansgrohe-adapter-kartusche-98866000"
+      "hansgrohe-schlauch-95507000",
+      "hansgrohe-schlauch-93191000"
      ]
     }
    ],
    "schritte": [
-    "Artikelnummer und Bauzeitraum ermitteln, passende Kartusche in der hansgrohe-Ersatzteilsuche bestimmen.",
-    "Wasser an den Eckventilen absperren, Griff abnehmen und Kartusche ausbauen (siehe „Armatur tropft“).",
-    "Neue Kartusche einsetzen. Eine verkalkte Kartusche zu reinigen oder zu fetten ist nicht von hansgrohe vorgesehen: laut Störungstabelle wird sie getauscht.",
-    "Nach der Montage den Hebel über den gesamten Bereich bewegen und auf Dichtheit prüfen."
+    "Artikelnummer der Armatur ermitteln: Laut hansgrohe ist sie bei Waschtisch-/Bidetarmaturen am Griff, Gewindeschaft oder Armaturenkörper gelasert, bei Küchenmischern meist am Griff; sonst Verpackung oder Montageanleitung.",
+    "In der hansgrohe-Ersatzteilsuche die Artikelnummer eingeben und das passende Baujahr wählen – hansgrohe führt je Baujahr eigene Ersatzteillisten (z. B. Logis 71100000: 04/14–12/14, 01/15–04/17, > 05/17). Die Kartuschen-Nummer aus der Explosionszeichnung übernehmen, nicht nach Serie raten.",
+    "Wasser an den Eckventilen schließen; fehlen sie, die Hauptabsperrung schließen.",
+    "Griff abnehmen, Kartuschen-Spannmutter lösen und die Kartusche herausziehen; die alte Kartusche mit der neuen vergleichen (Bezeichnung M1, M2/M3, M25…, M35…).",
+    "Neue Kartusche einsetzen, Spannmutter anziehen, Griff montieren; Wasser langsam öffnen und auf Dichtheit prüfen.",
+    "Bei Küchenmischern mit Wasser am Auslauf: Dichtungsset des Auslaufs bzw. den Brauseschlauch laut Ersatzteilliste tauschen."
    ],
-   "fachbetrieb_ab": "Wenn sich Kartusche oder Mutter nicht lösen lassen oder das Gehäuse beschädigt ist.",
+   "fachbetrieb_ab": "Wenn Eckventile fehlen oder nicht schließen, die Kartusche festsitzt, es sich um eine Unterputzarmatur handelt oder Wasser hinter der Wand austritt. hansgrohe nimmt laut FAQ keine Produkte zur Reparatur an und verweist auf den Installateur.",
    "quellen": [
     "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh1463_pdf.pdf",
-    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2041_pdf.pdf",
-    "https://www.hansgrohe.de/service/ersatzteilsuche"
+    "https://www.hansgrohe.com/service/faq/spare-parts-repairs",
+    "https://www.hansgrohe.de/service/ersatzteilsuche",
+    "https://spares.hansgrohe.com/etk/INT/product/31487000/8796455776099?cid=&lang=de_DE",
+    "https://www.hansgrohe.de/articledetail-dichtungsset-fuer-auslauf-92646000"
    ]
   },
   {
-   "slug": "hansgrohe-thermostat-regelt-nicht",
-   "titel": "hansgrohe Thermostat regelt nicht / wird nicht warm",
-   "symptom": "Am Ecostat-Aufputzthermostat stimmt die Auslauftemperatur nicht mit der Skala überein, das Wasser wird nicht richtig warm, die Temperatur lässt sich nicht regeln, oder es kommt nur wenig Wasser.",
+   "slug": "hansgrohe-thermostat-wird-nicht-warm",
+   "titel": "hansgrohe Thermostat wird nicht warm oder regelt nicht",
+   "symptom": "Am Aufputz- oder Unterputz-Thermostat (Ecostat, ShowerSelect, Showerpipe) kommt nur kaltes bzw. lauwarmes Wasser, die Temperatur schwankt oder lässt sich nicht mehr einstellen.",
    "ursachen": [
     {
-     "ursache": "Thermostat nicht justiert bzw. Warmwassertemperatur zu niedrig (hansgrohe: Warmwasser auf 42–60 °C bzw. je nach Modell bis 65 °C)",
-     "haeufigkeit": "häufig",
-     "teil_slugs": []
-    },
-    {
-     "ursache": "Regeleinheit verkalkt („Temperaturregelung nicht möglich – Regeleinheit verkalkt – Regeleinheit austauschen“)",
+     "ursache": "Thermostatkartusche (Temperatur-Regeleinheit) verschmutzt, verkalkt oder verschlissen – laut hansgrohe-Serviceblatt Ecostat 1001 SL Tausch der Thermokartusche",
      "haeufigkeit": "häufig",
      "teil_slugs": [
-      "hansgrohe-temperatur-regeleinheit-98282000",
-      "hansgrohe-temperatur-regeleinheit-94282000"
+      "hansgrohe-thermostatkartusche-94282000",
+      "hansgrohe-thermostatkartusche-98282000"
      ]
     },
     {
-     "ursache": "Schmutzfangsiebe in den Anschlüssen oder an der Regeleinheit verstopft (wenig Wasser, Durchlauferhitzer schaltet nicht ein)",
-     "haeufigkeit": "gelegentlich",
-     "teil_slugs": []
-    },
-    {
-     "ursache": "Rückflussverhinderer verschmutzt oder defekt: warmes Wasser gelangt in die Kaltleitung (Kreuzfluss)",
+     "ursache": "Warm- und Kaltwasser vertauscht angeschlossen – laut hansgrohe-Anleitungen (Ecostat Comfort, Ecostat Universal) Regeleinheit für vertauschte Anschlüsse einbauen",
      "haeufigkeit": "gelegentlich",
      "teil_slugs": [
-      "hansgrohe-rueckflussverhinderer-dn15-96737000"
-     ]
-    },
-    {
-     "ursache": "Warm- und Kaltwasser in der Wand vertauscht angeschlossen; hansgrohe bietet dafür eine eigene Regeleinheit an",
-     "haeufigkeit": "selten",
-     "teil_slugs": [
-      "hansgrohe-regeleinheit-vertauschte-anschluesse-92373000"
+      "hansgrohe-regeleinheit-vertauscht-92373000"
      ]
     }
    ],
    "schritte": [
-    "Erst prüfen, ob nur die Sicherheitssperre bei 40 °C greift (Taste drücken, um höher zu drehen) und ob der Warmwasserbereiter genug Temperatur liefert.",
-    "Artikelnummer des Thermostats ermitteln (gelasert auf dem Grundkörper oder am Griff) und in der Ersatzteilliste nachsehen, welche Regeleinheit verbaut ist: Ecostat Comfort laut Liste 98282000, Ecostat 1001 CL 94282000.",
-    "Wasser absperren, Thermostat abbauen und die Schmutzfangsiebe in den Anschlüssen reinigen; Rückflussverhinderer prüfen und ggf. tauschen.",
-    "Wenn sich die Temperatur weiterhin nicht regeln lässt: Griff abnehmen, Regeleinheit ausschrauben und durch die Originalnummer ersetzen.",
-    "Nach dem Tausch die Temperatur laut Montageanleitung justieren (Auslauftemperatur messen und Griff nach Anleitung einstellen)."
+    "Prüfen, ob an anderen Zapfstellen warmes Wasser ankommt (Warmwasserbereiter in Ordnung?).",
+    "Artikelnummer und Baujahr des Thermostats ermitteln (bei Unterputz-Armaturen laut hansgrohe auf Rosette bzw. Funktionsblock).",
+    "In der Ersatzteilliste die richtige Regeleinheit ablesen: hansgrohe nutzt u. a. MTC 94282000 (z. B. Ecostat 1001 CL, 1001 SL, Ecostat E/S) und SMTC 98282000 (z. B. Ecostat Comfort, ShowerSelect, Croma Select S Showerpipe). Beide nicht verwechseln.",
+    "Neu installierter Thermostat liefert sofort falsche Temperaturen: Anschlüsse warm/kalt prüfen; sind sie vertauscht, laut hansgrohe die Regeleinheit für vertauschte Anschlüsse 92373000 einsetzen.",
+    "Wasser absperren, Griff abnehmen, Regeleinheit ausbauen, neue einsetzen; danach Mischtemperatur mit einem Thermometer prüfen."
    ],
-   "fachbetrieb_ab": "Bei Unterputz-Thermostaten, bei vertauschten Anschlüssen in der Wand, bei Problemen mit der Warmwasserbereitung (Durchlauferhitzer, Speicher, Zirkulation) oder wenn S-Anschlüsse undicht sind.",
+   "fachbetrieb_ab": "Bei Unterputz-Thermostaten, wenn Absperrventile fehlen, die Regeleinheit festsitzt oder Warmwasserbereitung bzw. Leitungen die Ursache sein könnten.",
    "quellen": [
-    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh0892_pdf.pdf",
-    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh0995_pdf.pdf",
-    "https://www.heizman24.de/media/pdf/cf/c8/81/thermostat-ecostat-comfort-brausenmischer-aufputz-dn15-chrom-produktdatenblatt-13116000.pdf",
-    "https://www.hansgrohe.de/articledetail-regeleinheit-fuer-vertauschte-anschluesse-92373000",
-    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh0247_pdf.pdf"
+    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hruh0592_pdf.pdf",
+    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2832_pdf.pdf",
+    "https://media.hornbach.de/hb/installationmanual/as.92951046.pdf",
+    "https://www.hansgrohe.co.uk/articledetail-mtc-thermostat-cartridge-94282000",
+    "https://www.hansgrohe.de/articledetail-temperatur-regeleinheit-smtc-98282000",
+    "https://www.hansgrohe.com/service/faq/spare-parts-repairs"
+   ]
+  }
+ ],
+ "strahlregler_groessen": [
+  {
+   "bezeichnung": "M24x1",
+   "beschreibung": "Häufigstes Gewinde bei hansgrohe-Waschtisch- und vielen Küchenmischern. hansgrohe führt u. a. 5 l/min mit Durchflussbegrenzer (13185000), 7 l/min (13085000), 15 l/min QuickClean für Küchenmischer (13955000), 25 l/min für Wannenmischer (13956000) und einen schwenkbaren 5-l/min-Luftsprudler (93834000).",
+   "quellen": [
+    "https://www.hansgrohe.de/articledetail-luftsprudler-m24-x-1-mit-durchflussbegrenzer-5-l-min-13185000",
+    "https://www.hansgrohe.de/articledetail-quickclean-luftsprudler-13955000",
+    "https://www.hansgrohe.de/articledetail-luftsprudler-schwenkbar-10grad-m24x1-mit-durchflussbegrenzer-5-l-min-93834000"
    ]
   },
   {
-   "slug": "hansgrohe-kuechenbrause-zieht-nicht-zurueck",
-   "titel": "hansgrohe Küchenbrause zieht nicht zurück (sBox)",
-   "symptom": "Die Ausziehbrause des Küchenmischers gleitet nach dem Benutzen nicht mehr von selbst in den Auslauf zurück oder hakt beim Herausziehen.",
-   "ursachen": [
-    {
-     "ursache": "sBox oder Schlauchgewicht nicht exakt positioniert bzw. falsch montiert (laut hansgrohe-FAQ die typische Ursache)",
-     "haeufigkeit": "häufig",
-     "teil_slugs": []
-    },
-    {
-     "ursache": "Schlauch im Unterschrank verhakt, verdreht oder durch eingelagerte Gegenstände blockiert",
-     "haeufigkeit": "gelegentlich",
-     "teil_slugs": []
-    },
-    {
-     "ursache": "Brauseschlauch beschädigt oder verschlissen (Knick, raue Oberfläche) – Ersatzschlauch je nach Ausführung mit oder ohne sBox",
-     "haeufigkeit": "gelegentlich",
-     "teil_slugs": [
-      "hansgrohe-brauseschlauch-1700-sbox-93191000",
-      "hansgrohe-brauseschlauch-1500-95507000"
-     ]
-    }
-   ],
-   "schritte": [
-    "Unterschrank ausräumen und den Schlauchweg bei herausgezogener Brause prüfen: Verdrehungen und Hindernisse beseitigen.",
-    "Bei Modellen ohne sBox die Position des Schlauchgewichts laut Montageanleitung kontrollieren; bei sBox-Modellen Sitz und Befestigung der Box prüfen.",
-    "Bei schwachem Wasserstrahl das kleine Sieb zwischen Auszugsschlauch und Brause mit einem spitzen Gegenstand herausnehmen und reinigen (hansgrohe-FAQ).",
-    "Ist der Schlauch beschädigt: Artikelnummer am Griff ablesen und den passenden Originalschlauch bestellen (sBox-Modelle z. B. 1700 mm, 93191000; ohne sBox z. B. 1500 mm, 95507000)."
-   ],
-   "fachbetrieb_ab": "Wenn der Mischer dafür ausgebaut werden muss, Anschlüsse undicht sind oder das Eckventil nicht schließt.",
+   "bezeichnung": "M22x1",
+   "beschreibung": "Bei hansgrohe u. a. für Küchenmischer (92368000 und 95824000, je 15 l/min; Kompatibilität u. a. Logis M31/M32, Focus M41, Ecos) und Badmischer (92376000, 5 l/min).",
    "quellen": [
-    "https://www.hansgrohe.com/service/faq/kitchen-faucets",
-    "https://www.hansgrohe.de/kueche/ratgeber/technologie/ausziehbrause-sbox",
-    "https://pro.hansgrohe.de/mehrwerte/technologien/sbox-kueche",
-    "https://www.hansgrohe.de/articledetail-schlauch-1700-mm-93191000",
-    "https://www.hansgrohe.de/articledetail-schlauch-fuer-spueltischmischer-1500mm-95507000"
+    "https://www.hansgrohe.com/articledetail-hg-aerator-95824000",
+    "https://www.hansgrohe.com/articledetail-null-92368000"
+   ]
+  },
+  {
+   "bezeichnung": "M18,5x1 (laminar)",
+   "beschreibung": "Laminarer Strahlformer 93748000 für Talis M54 und Aquno Select M81; Ein-/Ausbau mit Montageschlüssel 93750000.",
+   "quellen": [
+    "https://www.hansgrohe.de/articledetail-strahlformer-laminar-m18-5x1-93748000",
+    "https://www.hansgrohe.de/articledetail-montageschluessel-fuer-strahlformer-m18-5x1-93750000"
+   ]
+  },
+  {
+   "bezeichnung": "M16,5x1",
+   "beschreibung": "Kleiner Strahlregler 93973000 (5 l/min) der Finoris-Waschtischmischer.",
+   "quellen": [
+    "https://www.hansgrohe.de/articledetail-strahlregler-m16-5x1-5-l-min-93973000",
+    "https://www.hansgrohe.com/datasheet/product/hansgrohe/76010670"
    ]
   }
  ],
  "widersprueche": [
   {
-   "thema": "Welche Temperatur-Regeleinheit für „Ecostat“? 94282000 oder 98282000",
-   "aussage_a": "Händler-/Nachbauangebote bewerben 94282000 pauschal als „Thermostatkartusche 3/4 Zoll für Hansgrohe Ecostat Brausen“.",
-   "quelle_a": "https://www.ebay.de/itm/286696694893",
-   "aussage_b": "Die Ersatzteilliste des Ecostat Comfort Brausethermostats 13116340 nennt dagegen die Temperatur-Regeleinheit 98282000. 94282000 steht nur in der Liste des Ecostat 1001 CL (13201000).",
-   "quelle_b": "https://www.neuesbad.de/media/pdf/e4/c0/80/13116340.pdf"
+   "thema": "94282000 (MTC) und 98282000 (SMTC) – austauschbar oder nicht?",
+   "aussage_a": "hansgrohe führt zwei getrennte Thermostatkartuschen: MTC 94282000 (z. B. Ecostat 1001 CL 13211000/13201000) und SMTC 98282000 (z. B. Ecostat Comfort 13116000, ShowerSelect). Je Artikel und Baujahr ist genau eine gelistet.",
+   "quelle_a": "https://www.hansgrohe.co.uk/articledetail-mtc-thermostat-cartridge-94282000",
+   "aussage_b": "Nachbau-Anbieter schreiben, die OEM-Nummer sei 94282000 „nicht 98282000“, andere verkaufen 94282000-Nachbauten als Ersatz für 98282000.",
+   "quelle_b": "https://www.manomano.co.uk/p/94282000-brass-temperature-control-unit-brass-thermostatic-shower-cartridge-34-compatible-with-hansgrohe-ecostat-showers-2-and-3-hole-bath-thermostat-214590602"
   },
   {
-   "thema": "Dichtungsset 92646000: Waschtisch- oder Küchenarmatur?",
-   "aussage_a": "Galaxus bezeichnet 92646000 als „Gasket set for washbasin tap“ (Dichtungsset für Waschtischarmatur).",
-   "quelle_a": "https://www.galaxus.ch/en/s4/product/hansgrohe-92646000-gasket-set-for-washbasin-tap-sanitary-installation-accessories-22424095",
-   "aussage_b": "hansgrohe nennt es „Dichtungsset für Auslauf“ und listet Küchenmischer (Metris M71 320 1jet, Talis M52 270 1jet; auf hansgrohe.de Sportive L und Adoro).",
-   "quelle_b": "https://www.hansgrohe.com/articledetail-sealing-set-92646000"
+   "thema": "94282000 – nur für neue oder auch für alte Ecostat?",
+   "aussage_a": "Ahlsell bezeichnet 94282 als „Termostatelement for Ecostat efter 09/19“ (für Ecostat nach 09/19).",
+   "quelle_a": "https://ahlsell.se/en/products/heating-and-sanitation/bath-shower-toilet-and-furnishings/sanitary-fittings/spare-parts-sanitary-fixture/spare-parts-mixers/spare-parts-hansgrohe-mixer/8227081---hg-94282-termostatelement-for-ecostat-efter-09199",
+   "aussage_b": "hansgrohe listet 94282000 auch für ältere Thermostate, z. B. Ecostat 1001 SL 13241800 (Baujahr 01/03–12/11) und Ecostat S 15721000 (04/05–06/08).",
+   "quelle_b": "https://spares.hansgrohe.com/etk/INT/product/13241800/8796221419363.seam?fsid=0x00007651000074C100007431&lang=en_GB&wcms=INT"
   },
   {
-   "thema": "Kartusche der Focus-Waschtischmischer 70/100: 92730000 (M3/M2) oder 92530000 (M35 EcoR)?",
-   "aussage_a": "Die hansgrohe-Kompatibilitätsliste der M3/M2-Kartusche 92730000 enthält Focus 70 (31730000) und Focus 100 (31607000, 31517000, 31509000).",
-   "quelle_a": "https://www.hansgrohe.at/articledetail-keramik-kartusche-komplett-m3-m2-92730000",
-   "aussage_b": "Die hansgrohe-Seite der Kartusche M35 EcoR WT 92530000 führt laut Suchergebnis ebenfalls Focus-Waschtischmischer 70/100/190; ein Händler nennt dafür nur Eco-/Projektvarianten (z. B. 31735000). Vermutlich hängt es von der Variante ab, per Abruf der Liste nicht geprüft.",
-   "quelle_b": "https://www.hansgrohe.de/articledetail-kartusche-m35-ecor-wt-92530000"
-  },
-  {
-   "thema": "Kartusche 95973001: „Low Flow (USA)“ oder Standard-Ersatzteil für EU-Modelle?",
-   "aussage_a": "hansgrohe betitelt 95973001 als „Kartusche M25 Low Flow (USA)“.",
+   "thema": "95973001 – „USA“-Kartusche in europäischen Armaturen",
+   "aussage_a": "hansgrohe.de bezeichnet 95973001 als „Kartusche M25 Low Flow (USA)“ und nennt Talis E 110 LowFlow 3,5 l/min als Produktlinie.",
    "quelle_a": "https://www.hansgrohe.de/articledetail-kartusche-m25-low-flow-usa-95973001",
-   "aussage_b": "Das hansgrohe-Datenblatt des Rebris S 110 CoolStart 72520000 (EU-Artikel, Baujahr > 06/22) nennt 95973001 als „Kartusche kpl.“.",
-   "quelle_b": "https://img.shkshop.com/production/product/file/hansgrohe/5134_pec4545_16535990_product_data_sheet.pdf"
+   "aussage_b": "hansgrohe.com führt dieselbe Nummer als „HG Kartusche kpl.“ und listet u. a. den Standard-Rebris S 110 72517000 (5 l/min) als kompatibel.",
+   "quelle_b": "https://www.hansgrohe.com/articledetail-hg-kartusche-kpl--95973001"
+  },
+  {
+   "thema": "95646000 – M35 LR oder M35L, für welche Armaturen?",
+   "aussage_a": "hansgrohe.de: „HG Kartusche M35 LR“, Produktlinie Metris S 100 LowFlow 1,9 l/min ohne Ablaufgarnitur.",
+   "quelle_a": "https://www.hansgrohe.de/articledetail-hg-kartusche-m35-lr-95646000",
+   "aussage_b": "hansgrohe.com: „HG cartridge M35L“, Produktlinie Vernis Blend Bidetarmatur mit Brause.",
+   "quelle_b": "https://www.hansgrohe.com/articledetail-hg-cartridge-m35l-95646000"
+  },
+  {
+   "thema": "Luftsprudler-Gewinde beim Focus M41",
+   "aussage_a": "Laut Suchauszug der hansgrohe.de-Seite des QuickClean-Luftsprudlers 13955000 (M24x1, 15 l/min) ist der Focus M41 160 1jet 31806000 kompatibel.",
+   "quelle_a": "https://www.hansgrohe.de/articledetail-quickclean-luftsprudler-13955000",
+   "aussage_b": "hansgrohe.com listet den Luftsprudler 95824000 mit M22x1 (15 l/min) für Focus-M41-Küchenmischer. Möglicherweise unterscheiden sich Varianten/Baujahre – vor dem Kauf Gewinde messen.",
+   "quelle_b": "https://www.hansgrohe.com/articledetail-hg-aerator-95824000"
+  },
+  {
+   "thema": "92730000 – ab welchem Baujahr?",
+   "aussage_a": "Händler oeg.net: Kartusche für Einhebelmischer „ab März 2001 (M3/M2)“.",
+   "quelle_a": "https://www.oeg.net/kartusche-fuer-einhandmischer-br-ab-maerz-2001-m3-m2-801000492",
+   "aussage_b": "hansgrohe listet 92730000 auch in sehr neuen Armaturen, z. B. Novus 70 71020000 (Baujahr 04/19) und Logis 100 Push-Open 71107670; eine Grenze nach Baujahr nennt hansgrohe nicht.",
+   "quelle_b": "https://pro.hansgrohe.de/articledetail-novus-einhebel-waschtischmischer-70-mit-zugstangen-ablaufgarnitur-71020000"
   }
  ],
  "nicht_geprueft": [
-  "WebFetch auf hansgrohe.de und megabad.com war im Netz dieser Sitzung gesperrt (ENOTFOUND). Alle Zuordnungen stammen aus Suchergebnissen bzw. deren Zusammenfassungen von hansgrohe-Artikelseiten und Datenblättern. Die Kompatibilitätslisten wurden nicht vollständig eingesehen; vor Veröffentlichung jede Zuordnung stichprobenartig im Browser gegenprüfen.",
-  "92631000 als Ecostat-Regeleinheit (aus Vorrecherche) ließ sich nicht bestätigen: Gefunden wurde nur ein US-Händler, der 92631000 als „Thermostatic Shower Cartridge, 5 1/2\" length“ führt (https://www.noelsplumbingsupply.com/product/thermostatic-shower-cartridge-for-hansgrohe-92631000). Für Ecostat Comfort und Ecostat 1001 CL nennen die Ersatzteillisten 98282000 bzw. 94282000.",
-  "„M34“ als Kartuschenbezeichnung wurde nicht gefunden. Belegt sind M1, M2/M3, M25 (LXS, XS, LS, S, Low Flow) und M35 (EcoR, LR, XS, LXS). M31/M33/M41/M42/M51/M52/M54/M71 sind bei hansgrohe Namen von Küchenmischer-Linien (z. B. Focus M41), keine Kartuschen. Nicht verwechseln.",
-  "Ecostat Universal (13122000/13123000): Regeleinheit und Rückflussverhinderer nicht verifiziert.",
-  "ShowerSelect (z. B. 15763000/15762000): keine Ersatzteilliste mit Regeleinheit gefunden, deshalb nicht aufgenommen.",
-  "Vernis Shape Waschtischmischer (z. B. 71561000): Kartusche nicht belegt. Nur für den Vernis-Shape-Brausemischer 71650000 nennt eine Händler-Ersatzteilliste 92730000.",
-  "Talis S 72020000 vor 10/15 und die ältere Talis S 32020000: Kartusche nicht geprüft. Logis 70 (71070000), Focus 190 und Metris 100 ebenfalls nicht direkt geprüft.",
-  "Cache-/verdeckte Strahlregler der Waschtischmischer und deren Schlüssel wurden nicht identifiziert. Belegt sind nur Strahlformer 93748000 und Serviceschlüssel 93750000 (Talis M54). 98808000 (Montageschlüssel für Diebstahlschutz-Strahlregler) wird nur für Talis-Elektronik-Mischer geführt, 95158000 (Spezialwerkzeug Cache Cascade) nur für Talis M54; beide nicht aufgenommen.",
-  "Rückflussverhinderer in Küchenmischern (z. B. 95376000 mit 5-l/min-Begrenzer für Focus M41) und weitere Rückflussverhinderer (92594000, 94074000, 96655000) nicht zugeordnet.",
-  "Amazon-ASINs nur bei Angeboten gesetzt, deren URL oder Titel die hansgrohe-Nummer trägt (92730000, 97685000, 92646000, 96737000, 96509000). Für 94282000 und 98282000 wurden auf Amazon.de nur Nachbauten gesehen, deshalb ohne ASIN. Das Angebot B07C94Z537 („HG Kartusche M35 EcoR Waschtischmischer“) nennt die Nummer 92530000 nicht und wurde nicht gesetzt.",
-  "Preise sind Momentaufnahmen aus Suchergebnissen (teils CHF-Listenpreise). EAN 4011097133720 (92646000) stammt aus einer Händlerangabe, EAN 4011097239040 (94282000) aus einem eBay-Angebot und einem Händler-URL; beide nicht bei hansgrohe geprüft.",
-  "Schwierigkeit, Dauer und Werkzeug sind redaktionelle Einschätzungen, keine Herstellerangaben. Schlüsselweiten wurden für die einzelnen Modelle nicht verifiziert.",
-  "Hinweis zur Vorgabe: 31730000 ist laut hansgrohe der Focus 70 mit Zugstangen-Ablaufgarnitur (gebaut ab 10/08), nicht der Focus 100 ab 2014. Focus 100 ist 31607000.",
-  "Ohne belegte Zuordnung nicht importiert (keine leeren Seiten): ecostat-universal"
+  "Keine hansgrohe-Seite konnte direkt geladen werden (WebFetch für neuesbad.de u. a. nicht erreichbar; hansgrohe.de/.com/amazon.de laut Vorgabe gesperrt). Alle Zuordnungen stammen aus Suchergebnis-Auszügen der hansgrohe-Ersatzteilseiten (Abschnitt „kompatible Produkte“), Datenblättern und Montageanleitungen. Vor Veröffentlichung im Browser gegenprüfen.",
+  "Logis 100 71100000 → Kartusche 92730000 (Pos. 6, Baujahr > 05/17) laut Suchauszug eines Hornbach-Datenblatts; das konkrete PDF ließ sich nicht eindeutig zuordnen, daher keine Zuordnung angelegt.",
+  "Talis S 100 72020000, Focus 100 31607000, Focus 70 31730000 und Novus 100 71030000: keine Kartuschennummer bestätigt. Suchauszüge nennen für Focus 70 31914000 und ein Focus-70-Standventil 92730000, für Talis S 80 LowFlow 72018000 die 95973001 – Quelle jeweils nicht sicher.",
+  "Focus 100 mit 2 Durchflussmengen (31657000) erscheint im Umfeld der Kartusche M35 EcoR WT 92530000; Zuordnung nicht bestätigt.",
+  "Bedeutung der hansgrohe-Kartuschenbezeichnungen (M1, M2/M3, M25, M35 und Zusätze XS, LXS, LR, EcoR) ist nicht offiziell erklärt; dass „25“/„35“ den Durchmesser in mm meinen, ist nicht belegt. Für 92730000 nennt nur ein Händler 35 mm.",
+  "Farbcode in den letzten drei Stellen (000 Chrom, 670 Mattschwarz, 700 Mattweiß, 140 Brushed Bronze, 800 Edelstahl-Finish) ist aus Artikellisten abgeleitet; eine hansgrohe-Erklärung des Schemas wurde nicht gefunden.",
+  "EAN 4011097592824 für 97685000 nennt ein Händler laut Suchauszug; nicht gegengeprüft, daher nicht eingetragen.",
+  "Thermostatkartusche für ShowerTablet Select 13171000, Crometta Showerpipe 27264400 und Croma-280-Showerpipes mit Ecostat-Thermostat nicht ermittelt.",
+  "Vernis Blend 71550000: hansgrohe.de-Ersatzteilseiten nennen ihn „Vernis Blend 70 mit Zugstangen-Ablaufgarnitur“, englische Seiten „100 with pop-up waste set“ – nicht aufgelöst.",
+  "Älteres Dehnstoff-Thermoelement 92601000 (Händlerangabe „9/86 bis 8/98“) nicht geprüft.",
+  "Amazon-Angebot B07CRB1ZVD (Titel „Hansgrohe Cartridge M3 / M2 92730000“) nennt zusätzlich die Referenz 92730002; Käufer berichten von Kunststoff- statt Metallhebel gegenüber dem Foto. Für 94282000 und 98282000 wurde kein Amazon-Angebot mit hansgrohe-Titel und sichtbarer ASIN gefunden (nur Nachbauten).",
+  "Adapter 98866000/95975000: welche Kartusche sie aufnehmen bzw. ob sie beim Kartuschentausch mitgetauscht werden müssen, ist nicht geklärt."
  ]
 }
