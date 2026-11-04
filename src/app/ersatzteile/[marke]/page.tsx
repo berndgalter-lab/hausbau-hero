@@ -4,6 +4,7 @@ import SuchFeld from "@/components/SuchFeld";
 import TeilBild from "@/components/TeilBild";
 import TeilartSeite from "@/components/TeilartSeite";
 import { teilartNachSlug } from "@/lib/teilarten";
+import { GROESSEN_PRODUKTTYP, markenTabellen, type MarkenTabelle } from "@/lib/groessen";
 import { Absaetze, Brotkrumen, JsonLd, MarkenFragen, Quellen, Widersprueche, brotkrumenLd } from "@/components/Ersatzteile";
 import {
   PRODUKTTYP_LABEL,
@@ -65,6 +66,45 @@ function Abschnitt({ id, titel, intro, children }: { id: string; titel: string; 
   );
 }
 
+/** Tabelle aus der Marken-Datei (Größencodes, Fenstertypen, Baureihen). Zellen mit einem Größencode verlinken die Größenseite. */
+function Tabelle({ t, links }: { t: MarkenTabelle; links: Map<string, string> }) {
+  return (
+    <div id={`tabelle-${t.id}`} className="mt-10 scroll-mt-24">
+      <h3 className="text-xl font-semibold text-stone-900 mb-3">{t.titel}</h3>
+      <div className="overflow-x-auto border-y border-stone-200">
+        <table className="w-full text-sm">
+          <thead className="text-left">
+            <tr>
+              {t.spalten.map((s) => (
+                <th key={s} className="px-2 sm:px-4 py-2.5 font-semibold text-stone-700 whitespace-nowrap">{s}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-stone-200">
+            {t.zeilen.map((z, i) => (
+              <tr key={i} className="align-top">
+                {z.map((zelle, j) => {
+                  const href = links.get(zelle);
+                  return (
+                    <td key={j} className={`px-2 sm:px-4 py-2.5 ${j === 0 ? "font-medium text-stone-900 whitespace-nowrap" : "text-stone-700"}`}>
+                      {href ? (
+                        <a href={href} className="font-medium text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600">{zelle}</a>
+                      ) : (
+                        zelle
+                      )}
+                    </td>
+                  );
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      {t.hinweis && <p className="text-sm text-stone-600 mt-3 max-w-2xl">{t.hinweis}</p>}
+    </div>
+  );
+}
+
 // Aufbau nach docs/SEITENAUFBAU.md, Abschnitt 4: oben Suche und Sprungmarken zu den Einstiegen
 // (Problem, Nummer, Modell, Teileart), darunter die Abschnitte in dieser Reihenfolge.
 // Kein Link zum Hersteller-Shop; gekauft wird auf der Teil-Seite.
@@ -106,12 +146,17 @@ export default async function MarkenHub({ params }: Props) {
     { name: marke.name, href: `/ersatzteile/${marke.slug}` },
   ];
   const fragen = marke.fragen ?? [];
+  const tabellen = markenTabellen(marke.slug);
+  // Größenseiten (VELUX MK04 …): der Code in der Tabelle führt auf die Seite
+  const groessenLinks = new Map(
+    serien.filter((s) => s.produkttyp === GROESSEN_PRODUKTTYP).map((s) => [s.kennnummern[0], `/ersatzteile/${marke.slug}/${s.slug}`]),
+  );
   const beispielNummer = teile.find((t) => t.oem_nummer)?.oem_nummer;
   const beispielArt = teileGruppen[0] && TEILTYP_LABEL[teileGruppen[0][0]];
 
   const sprungmarken = [
     probleme.length > 0 && { href: "#probleme", text: "Etwas ist kaputt" },
-    marke.nummer_hinweis && { href: "#nummer", text: "Nummer finden" },
+    (marke.nummer_hinweis || tabellen.length > 0) && { href: "#nummer", text: tabellen.length > 0 ? "Typenschild und Größen" : "Nummer finden" },
     serien.length > 0 && { href: "#modelle", text: `Nach Modell (${serien.length})` },
     teile.length > 0 && { href: "#teile", text: `Nach Art (${teile.length})` },
     fragen.length > 0 && { href: "#fragen", text: `Fragen (${fragen.length})` },
@@ -189,11 +234,16 @@ export default async function MarkenHub({ params }: Props) {
         </Abschnitt>
       )}
 
-      {marke.nummer_hinweis && (
+      {(marke.nummer_hinweis || tabellen.length > 0) && (
         <Abschnitt id="nummer" titel="So findest du die richtige Nummer">
-          <div className="max-w-3xl border-l-2 border-accent-600 pl-5 sm:pl-7">
-            <Absaetze text={marke.nummer_hinweis} className="text-stone-700 leading-relaxed space-y-3 max-w-2xl" />
-          </div>
+          {marke.nummer_hinweis && (
+            <div className="max-w-3xl border-l-2 border-accent-600 pl-5 sm:pl-7">
+              <Absaetze text={marke.nummer_hinweis} className="text-stone-700 leading-relaxed space-y-3 max-w-2xl" />
+            </div>
+          )}
+          {tabellen.map((t) => (
+            <Tabelle key={t.id} t={t} links={groessenLinks} />
+          ))}
         </Abschnitt>
       )}
 
@@ -207,7 +257,11 @@ export default async function MarkenHub({ params }: Props) {
               <ul className="grid grid-cols-2 lg:grid-cols-3 gap-2">
                 {liste.map((s) => {
                   const anzahl = teileJeSerie.get(s.id) ?? 0;
-                  const nummern = s.kennnummern[0] ? s.kennnummern[0] + (s.kennnummern.length > 1 ? " …" : "") : "";
+                  // Bei Größen steht der Code schon im Namen, darunter die alten Codes
+                  const nummern =
+                    s.produkttyp === GROESSEN_PRODUKTTYP
+                      ? s.kennnummern.slice(1).join(", ")
+                      : s.kennnummern[0] ? s.kennnummern[0] + (s.kennnummern.length > 1 ? " …" : "") : "";
                   return (
                     <li key={s.id}>
                       <a
