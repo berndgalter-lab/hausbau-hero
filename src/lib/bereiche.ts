@@ -136,8 +136,8 @@ export const BEREICHE: Bereich[] = [
     kurz: "Rollo passt nicht, Fenster klemmt, Solar-Rollladen reagiert nicht.",
     einleitung:
       "Am Dachfenster hängt fast alles am Größencode auf dem Typenschild, bei VELUX etwa MK04. Er entscheidet, welches Rollo, welche Markise und welche Dichtung passt. Sonnenschutz, Dichtungen und Akkus tauschst du selbst, Fenstertausch und Eindeckrahmen sind Sache des Dachdeckers.",
-    produkttypen: [],
-    teiltypen: [],
+    produkttypen: ["dachfenster"],
+    teiltypen: ["rollo", "plissee", "hitzeschutz", "insektenschutz", "dichtung", "pflege", "akku", "fernbedienung", "griff", "rollladen"],
     probleme: /dachfenster/,
     ratgeber: ["dachfenster-sonnenschutz"],
   },
@@ -163,6 +163,15 @@ export const TEILTYP_SUCHWORT: Record<string, string> = {
   filter: "Filter",
   scharnier: "Scharnier",
   absenkautomatik: "Soft-Clos",
+  rollo: "Rollo",
+  plissee: "Plissee",
+  hitzeschutz: "Markise",
+  insektenschutz: "Insektenschutz",
+  pflege: "Pflege-Set",
+  akku: "Akku",
+  fernbedienung: "Wandschalter",
+  griff: "Bedienstange",
+  rollladen: "Rollladen",
 };
 
 /** Passt ein Teil in Serien mehrerer Bereiche, zählt der Bereich mit den meisten Serien. */

@@ -1,0 +1,717 @@
+{
+ "marke": {
+  "slug": "roto",
+  "name": "Roto",
+  "beschreibung": "Roto Frank Dachsystem-Technologie aus Bad Mergentheim baut Wohndachfenster in Holz und Kunststoff: die Klapp-Schwingfenster Designo R8 und i8, das Schwingfenster Designo R6, die Hochschwingfenster Designo R7 und R4, das Ausstiegsfenster R3 und das Schwingfenster RotoQ. Ältere Fenster laufen als Klassik 84 (etwa WDF 847) und Klassik 73 (etwa WDF 735). Dazu kommen Rollos, Rollläden und Markisen, die nur in Roto-Fenster passen.\n\nAm häufigsten gesucht werden Verdunkelungsrollos in der richtigen Größe und Teile für Fenster, die nicht mehr offen bleiben oder nicht mehr schließen: Ausstellarme und Federlager bei den Klapp-Schwingfenstern, Gleiterführung und Gleitbolzenlager bei den Hochschwingfenstern, dazu Dichtungen und Griffe. Welches Teil passt, hängt an Baureihe und Größe vom Typenschild.",
+  "nummer_hinweis": "Alles Wichtige steht auf dem Typenschild, das Roto den Personalausweis des Fensters nennt. Um es zu lesen, bringst du das Fenster in die Putzstellung. Bei den Baureihen i8, 8, 6 und RotoQ sitzt es dann oben am Flügel, bei Ausstiegsfenstern und dem Flachdachfenster hinter einer roten Klappe oder auf einer grauen Platte. Bei Hochschwingfenstern (R4, R7, 43, 73) findest du die Klappe am schwarzen Führungsarm rechts oben, wenn du links neben dem Fenster stehst.\n\nEin Schild sieht etwa so aus: WDF 847 KEW WD 9/11 AL. WDF steht für Wohndachfenster, WDA für Ausstiegsfenster, 847 ist der Fenstertyp, 9/11 die Größe. Neuere Fenster tragen Typen wie R85 oder R75 und die Größe dreistellig, etwa 094/118. Steht MR, MW oder RENO auf dem Schild, ist das Fenster eine Maßanfertigung, und Standardzubehör passt meist nicht.\n\nDie Größe ist Breite und Höhe des Blendrahmens außen, ohne Wärmedämmblock. Der alte Code 7/11 und der neue 074/118 bezeichnen dieselbe Fenstergröße. Rollos und Rollläden haben ein eigenes Typenschild, das du durch die Scheibe siehst.\n\nOhne Typenschild bestimmst du zuerst die Bauart: Schwingt der Flügel in der Mitte, ist es ein Schwing- oder Klapp-Schwingfenster, öffnet er zu einem Drittel nach innen, ein Hochschwingfenster. Dann misst du das Außenmaß des Blendrahmens und vergleichst es mit der Größentabelle.",
+  "ersatzteil_garantie": "Roto gibt zwei Jahre Garantie auf Dachfenster, Eindeckrahmen, Ausstattung und elektrische Teile. Wer das Fenster innerhalb von sechs Monaten nach dem Kauf online registriert, bekommt eine längere Garantie; ob insgesamt fünf Jahre oder fünf Jahre zusätzlich, formuliert Roto auf derselben Seite unterschiedlich. Für Ersatzteile gelten zwei Jahre.\n\nEine Frist, wie lange es Ersatzteile gibt, nennt Roto nicht. Die aktuellen Ersatzteil-Preislisten, gültig ab 1. Juni 2026, umfassen aber auch die älteren Baureihen Klassik 73 und 84, WDF 43, WDA 31 und WDT 62/64.",
+  "hersteller_ersatzteil_url": "https://www.roto-frank.com/de/dst/service/typenschild",
+  "quellen": [
+   "https://www.roto-frank.com/de/dst/service/typenschild",
+   "https://www.roto-frank.com/de/dst/faq",
+   "https://www.roto-frank.com/de/dst/garantie",
+   "https://www.roto-frank.com/de/dst/pflege-und-wartung",
+   "https://www.roto-frank.com/de/dst/profi/ersatzteilservice",
+   "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-klassik-73-k.pdf",
+   "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-klassik-73-h.pdf",
+   "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-klassik-84-k.pdf",
+   "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-klassik-84-h.pdf",
+   "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-designo-r7-k.pdf",
+   "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-designo-r8-k.pdf",
+   "https://dachfensterinfo.de/cms/roto-typenschild-groessen/",
+   "https://www.home4u.de/Ratgeber/Wohndachfenster/roto-dachfenster-groessen/",
+   "https://www.bauexpertenforum.de/threads/dachfenster-welcher-ausstellarm-defekt.147080/",
+   "https://www.bauexpertenforum.de/threads/dachflaechenfenster-roto-frank-probleme.148106/",
+   "https://www.bauexpertenforum.de/threads/roto-dachfenster-fenstergriff-klemmt-fenster-nicht-zu-schliessen.117557/",
+   "https://www.bauexpertenforum.de/threads/roto-dachfenster-falsches-typenschild.143304/"
+  ],
+  "fragen": [
+   {
+    "frage": "Wo finde ich das Typenschild an meinem Roto-Dachfenster?",
+    "antwort": "Bring das Fenster in die Putzstellung. Bei Schwing- und Klapp-Schwingfenstern (R6, R8, i8, RotoQ) sitzt es dann oben am Flügel, meist hinter einer kleinen roten oder blauen Klappe oder auf einer grauen Platte. Bei Hochschwingfenstern (R4, R7, 43, 73) steht man links neben dem Fenster und findet die Klappe am schwarzen Führungsarm rechts oben. Rollos und Rollläden haben ein eigenes Schild, das man durch die Scheibe sieht.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://www.roto-frank.com/de/dst/service/typenschild",
+     "https://dachfensterinfo.de/cms/roto-typenschild-groessen/"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Was bedeuten 7/11 und 074/118 auf dem Roto-Typenschild?",
+    "antwort": "Beides ist die Größe als Breite und Höhe, gemessen außen am Blendrahmen. Ältere Fenster tragen den zweiteiligen Code 7/11, neuere den dreistelligen 074/118 in Zentimetern. Roto selbst stellt bei Ersatzteilen beide nebeneinander, etwa „074/118 | 07/11“. Davor steht der Fenstertyp, zum Beispiel WDF 847 oder R85.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://dachfensterinfo.de/cms/roto-typenschild-groessen/",
+     "https://www.home4u.de/Ratgeber/Wohndachfenster/roto-dachfenster-groessen/",
+     "https://www.amazon.de/dp/B08ZSVBCDS"
+    ],
+    "teile": [
+     "roto-fluegeldichtungssatz-61-62-84h-074-118"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Mein Roto-Typenschild sagt 114/140, die Scheibe misst aber nur gut 92 cm. Ist das Schild falsch?",
+    "antwort": "Nein. Die Größe auf dem Schild ist das Außenmaß des Blendrahmens ohne Wärmedämmblock, die Glasfläche ist deutlich kleiner. Im Forum wird geraten, Rollos genau nach Typ und Größe vom Schild zu bestellen, denn zwei Fenster mit gleichem Außenmaß, etwa ein Austauschfenster R88 und ein altes WDF 847, haben sonst wenig gemeinsam.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://www.bauexpertenforum.de/threads/roto-dachfenster-falsches-typenschild.143304/",
+     "https://www.roto-frank.com/de/dst/faq"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Welches Roto-Dachfenster habe ich, wenn das Typenschild fehlt?",
+    "antwort": "Zuerst die Bauart bestimmen: Schwingt der Flügel in der Mitte, ist es ein Schwing- oder Klapp-Schwingfenster, öffnet er zu einem Drittel nach innen, ein Hochschwingfenster. Dann das Außenmaß des Blendrahmens messen, ohne Wärmedämmblock, oder die lichte Weite des Innenfutters. Bei RotoQ liegt das Außenmaß rund 5,5 cm darüber, bei Designo nach Händlerangaben rund 6 cm.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://dachfensterinfo.de/cms/roto-typenschild-groessen/",
+     "https://www.roto-frank.com/de/dst/faq"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Welches Roto-Verdunkelungsrollo passt in mein Fenster?",
+    "antwort": "Das Rollo ZRV gibt es in zwei Linien: eine für Designo R6, R8, i8 und Classic 64/84, eine für Designo R4, R7 und Classic 43/73. Dazu kommt die Größe vom Typenschild, etwa 114/118. Rollos von VELUX passen nicht, auch wenn die Maße ähnlich wirken: Ein Roto Designo der Breite 7 misst 74 cm, das vergleichbare VELUX-Fenster 78 cm.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.amazon.de/dp/B08KTKWRMC",
+     "https://www.amazon.de/dp/B0CVXW14RQ",
+     "https://dachfensterinfo.de/cms/roto-typenschild-groessen/"
+    ],
+    "teile": [
+     "roto-zrv-114-118-r6r8-silber",
+     "roto-zrv-114-098-r4r7-weiss"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Passen Gleiterführung und Gleitbolzenlager vom Roto R7 auch in ein altes WDF 73?",
+    "antwort": "Ja. Die Original-Teile sind für beide Baureihen ausgewiesen, die Gleiterführung für Holz und Kunststoff, das graue Gleitbolzenlager für Kunststoff. Roto schreibt vor, beide Teile nur paarweise zu tauschen, also links und rechts zusammen.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.amazon.de/dp/B09ZFBMFP2",
+     "https://www.amazon.de/dp/B09ZF9VT3J",
+     "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-klassik-73-k.pdf",
+     "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-designo-r7-k.pdf"
+    ],
+    "teile": [
+     "roto-gleiterfuehrung-links-73-r7",
+     "roto-gleiterfuehrung-rechts-73-r7",
+     "roto-gleitbolzenlager-links-73-r7-k",
+     "roto-gleitbolzenlager-rechts-73-r7-k"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Mein Roto-Dachfenster bleibt nicht offen und fällt zu. Was ist kaputt?",
+    "antwort": "Läuft der Flügel gerade und hält nur nicht, ist meist die Federkraft zu schwach eingestellt. Beim Designo R8 lässt sie sich mit einem Innensechskantschlüssel nachstellen, ab Werk ist sie auf 40 bis 45 Grad Dachneigung eingestellt. Muss man den Flügel mit viel Kraft hochdrücken und fällt er ohne Widerstand zu, ist meist die Feder aus dem Lager gerissen; dann werden die Ausstellarme paarweise getauscht.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.roto-frank.com/de/dst/faq",
+     "https://www.bauexpertenforum.de/threads/dachfenster-welcher-ausstellarm-defekt.147080/",
+     "https://www.bauexpertenforum.de/threads/dachflaechenfenster-roto-frank-probleme.148106/"
+    ],
+    "teile": [],
+    "problem": "roto-dachfenster-bleibt-nicht-offen"
+   },
+   {
+    "frage": "Mein Roto-Dachfenster lässt sich nicht mehr richtig schließen. Was kann ich tun?",
+    "antwort": "Roto nennt zwei Stellen: Die Dichtung am Flügelrahmen muss genau in ihrer Nut sitzen, und die Gasdruckfeder muss beim Schließen auf ihren Anschlag treffen. Lässt sich der Griff nicht nach links in die Schließstellung drehen, steht der Flügel oft nicht parallel zum Blendrahmen. Ein schwergängiger Griff wird mit WD-40 oder Silikonspray geölt.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.roto-frank.com/de/dst/faq",
+     "https://www.bauexpertenforum.de/threads/roto-dachfenster-fenstergriff-klemmt-fenster-nicht-zu-schliessen.117557/"
+    ],
+    "teile": [
+     "roto-fluegeldichtungssatz-61-62-84h-074-118"
+    ],
+    "problem": "roto-dachfenster-schliesst-nicht"
+   },
+   {
+    "frage": "Kann ich die Dichtung am Roto-Dachfenster einzeln tauschen?",
+    "antwort": "Bei Klassik 84 und Designo R8 gibt es Flügeldichtung und Zusatz-Flügeldichtung einzeln oder als Satz. Bei Klassik 73 hängt es am Index auf dem Typenschild: bis Index D einzeln, ab Index E nur als Satz. Die Sätze sind an Baureihe und Größe gebunden, der Satz für 61/62/84 Holz in 074/118 etwa passt nur zu Fenstern ohne Wärmedämmung.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-klassik-73-k.pdf",
+     "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-klassik-84-k.pdf",
+     "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-klassik-84-h.pdf",
+     "https://www.amazon.de/dp/B08ZSVBCDS"
+    ],
+    "teile": [
+     "roto-fluegeldichtungssatz-61-62-84h-074-118"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Gibt es für alte Roto-Dachfenster wie WDF 847 oder WDF 735 noch Ersatzteile?",
+    "antwort": "Ja. Roto führt Ersatzteil-Preislisten, gültig ab 1. Juni 2026, auch für die älteren Baureihen Klassik 73 und 84 sowie WDF 43, WDA 31, WDT 62 und 64. Ein WDF 847 gehört zu Klassik 84, ein WDF 735 zu Klassik 73, ein R85 zu Designo R8. Bei der Bestellung verlangt Roto die vollständigen Angaben vom Typenschild.",
+    "kategorie": "verfuegbarkeit",
+    "quellen": [
+     "https://www.roto-frank.com/de/dst/profi/ersatzteilservice",
+     "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-klassik-84-k.pdf",
+     "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-klassik-73-k.pdf",
+     "https://dachfensterinfo.de/cms/roto-typenschild-groessen/"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Wie lange gilt die Garantie auf ein Roto-Dachfenster?",
+    "antwort": "Zwei Jahre auf Dachfenster, Eindeckrahmen, Ausstattung und elektrische Teile. Wer das Produkt innerhalb von sechs Monaten nach dem Kauf online mit den Daten vom Typenschild registriert, bekommt mehr: Roto schreibt einmal „auf 5 Jahre“, einmal „um 5 Jahre“ verlängert. Für Ersatzteile gelten zwei Jahre, es zählen die Garantiebedingungen aus dem Jahr des Kaufs.",
+    "kategorie": "verfuegbarkeit",
+    "quellen": [
+     "https://www.roto-frank.com/de/dst/garantie"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Wie pflege ich mein Roto-Dachfenster?",
+    "antwort": "Die Scheibe nur mit mildem Reiniger ohne Silikon, Alkohol und Ammoniak putzen, am besten in der Putzstellung, Scheuer- und Lösungsmittel meiden. Fenster und Ausstattung ein- bis zweimal im Jahr nach der Bedienungsanleitung warten. Roto bietet dafür Pflegesets für Holz und Kunststoff mit Beschläge-Spray und Dichtungsmittel an.",
+    "kategorie": "pflege",
+    "quellen": [
+     "https://www.roto-frank.com/de/dst/pflege-und-wartung"
+    ],
+    "teile": [],
+    "problem": null
+   }
+  ],
+  "tabellen": [
+   {
+    "id": "groessen",
+    "titel": "Roto-Größen alt und neu",
+    "spalten": [
+     "Maß in cm",
+     "neu",
+     "alt"
+    ],
+    "zeilen": [
+     [
+      "54 × 78",
+      "054/078",
+      "5/7"
+     ],
+     [
+      "54 × 98",
+      "054/098",
+      "5/9"
+     ],
+     [
+      "54 × 118",
+      "054/118",
+      "5/11"
+     ],
+     [
+      "65 × 98",
+      "065/098",
+      "6/9"
+     ],
+     [
+      "65 × 118",
+      "065/118",
+      "6/11"
+     ],
+     [
+      "65 × 140",
+      "065/140",
+      "6/14"
+     ],
+     [
+      "74 × 78",
+      "074/078",
+      "7/7"
+     ],
+     [
+      "74 × 98",
+      "074/098",
+      "7/9"
+     ],
+     [
+      "74 × 118",
+      "074/118",
+      "7/11"
+     ],
+     [
+      "74 × 140",
+      "074/140",
+      "7/14"
+     ],
+     [
+      "74 × 160",
+      "074/160",
+      "7/16"
+     ],
+     [
+      "94 × 78",
+      "094/078",
+      "9/7"
+     ],
+     [
+      "94 × 98",
+      "094/098",
+      "9/9"
+     ],
+     [
+      "94 × 118",
+      "094/118",
+      "9/11"
+     ],
+     [
+      "94 × 140",
+      "094/140",
+      "9/14"
+     ],
+     [
+      "94 × 160",
+      "094/160",
+      "9/16"
+     ],
+     [
+      "114 × 78",
+      "114/078",
+      "11/7"
+     ],
+     [
+      "114 × 98",
+      "114/098",
+      "11/9"
+     ],
+     [
+      "114 × 118",
+      "114/118",
+      "11/11"
+     ],
+     [
+      "114 × 140",
+      "114/140",
+      "11/14"
+     ],
+     [
+      "134 × 78",
+      "134/078",
+      "13/7"
+     ],
+     [
+      "134 × 98",
+      "134/098",
+      "13/9"
+     ],
+     [
+      "134 × 140",
+      "134/140",
+      "13/14"
+     ]
+    ],
+    "hinweis": "Das Maß ist Breite × Höhe des Blendrahmens außen. Standardgrößen der Designo-Fenster R4, R6, R7, R8 und i8 nach Roto-Datenblatt. RotoQ hat eigene Breiten (055, 066, 078), deshalb passt Zubehör nicht zwischen Designo und RotoQ."
+   },
+   {
+    "id": "baureihen",
+    "titel": "Roto-Baureihen",
+    "spalten": [
+     "Baureihe",
+     "Bauzeit",
+     "Öffnungsart / Material",
+     "Woran erkennbar"
+    ],
+    "zeilen": [
+     [
+      "Designo R8",
+      "aktuelle Baureihe",
+      "Klapp-Schwingfenster, Holz oder Kunststoff",
+      "Typ R84 bis R89 (z. B. R85, R89G), Schild oben am Flügel"
+     ],
+     [
+      "Designo i8",
+      "aktuelle Baureihe",
+      "Klapp-Schwingfenster mit Antrieb (WDC)",
+      "Typ i85 bis i89P"
+     ],
+     [
+      "Designo R6",
+      "aktuelle Baureihe",
+      "Schwingfenster, Holz oder Kunststoff, auch elektrisch (WDT R6)",
+      "Typ R64 bis R69P"
+     ],
+     [
+      "Designo R7 / R4",
+      "aktuelle Baureihe",
+      "Hochschwingfenster, öffnet zu einem Drittel nach innen",
+      "Typ R74, R75, R78A bzw. R44, R45, R48A, Schild am schwarzen Führungsarm"
+     ],
+     [
+      "Designo R3",
+      "aktuelle Baureihe",
+      "seitlich öffnendes Ausstiegsfenster (WDA)",
+      "Typ R34, R35, R38A"
+     ],
+     [
+      "RotoQ",
+      "aktuelle Baureihe",
+      "Schwingfenster",
+      "Typ Q4 (z. B. Q43P), Breiten 055, 066 oder 078"
+     ],
+     [
+      "Klassik 84 / 64",
+      "ältere Baureihe",
+      "Klapp-Schwingfenster (84) bzw. Schwingfenster (64), Holz oder Kunststoff",
+      "Typ 844 bis 849, z. B. WDF 847"
+     ],
+     [
+      "Klassik 73 / 43",
+      "ältere Baureihe",
+      "Hochschwingfenster, Holz oder Kunststoff",
+      "Typ 435, 734, 735, 738, z. B. WDF 735"
+     ]
+    ],
+    "hinweis": "Zubehör ist an Baureihe und Größe gebunden. Die Rollos für R6/R8 passen auch an Classic 64/84, die für R4/R7 an Classic 43/73."
+   }
+  ]
+ },
+ "serien": [],
+ "teile": [
+  {
+   "slug": "roto-gleiterfuehrung-links-73-r7",
+   "name": "Roto Gleiterführung links, grau (Baureihen 73 und R7)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "TS333914",
+   "masse": {},
+   "beschreibung": "Linke Gleiterführung für die Hochschwingfenster Klassik 73 und Designo R7, in Holz und Kunststoff. In der Roto-Stückliste heißt das Teil 1-267 und soll nur paarweise getauscht werden, also zusammen mit der rechten Führung.",
+   "preis_spanne": "ca. 22 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": 60,
+   "werkzeug": "Schraubendreher. Roto empfiehlt den Tausch durch eine Fachkraft.",
+   "amazon_asin": "B09ZFBMFP2",
+   "quellen": [
+    "https://www.amazon.de/dp/B09ZFBMFP2",
+    "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-klassik-73-k.pdf",
+    "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-designo-r7-k.pdf"
+   ]
+  },
+  {
+   "slug": "roto-gleiterfuehrung-rechts-73-r7",
+   "name": "Roto Gleiterführung rechts, grau (Baureihen 73 und R7)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "TS333911",
+   "ean": "4035709213662",
+   "masse": {},
+   "beschreibung": "Rechte Gleiterführung für die Hochschwingfenster Klassik 73 und Designo R7, Holz und Kunststoff, für die Fensterhöhen 07 bis 16. Rechts heißt: von innen nach außen gesehen. Roto schreibt den Tausch nur paarweise vor.",
+   "preis_spanne": "ca. 25–27 € (OTTO, Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": 60,
+   "werkzeug": "Schraubendreher. Roto empfiehlt den Tausch durch eine Fachkraft.",
+   "amazon_asin": "B09ZF9LZ2W",
+   "quellen": [
+    "https://www.amazon.de/dp/B09ZF9LZ2W",
+    "https://www.otto.de/p/S05FY01Y",
+    "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-klassik-73-k.pdf"
+   ]
+  },
+  {
+   "slug": "roto-gleitbolzenlager-links-73-r7-k",
+   "name": "Roto Gleitbolzenlager links, grau (73 und R7 Kunststoff)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "TS322295",
+   "masse": {},
+   "beschreibung": "Linkes Gleitbolzenlager (Stücklisten-Nr. 1-063) für Kunststoff-Hochschwingfenster der Baureihen 73 und R7. Es wird mit je zwei Schrauben TS387865 und TS387866 befestigt. Roto rät, immer beide Seiten zu tauschen.",
+   "preis_spanne": "ca. 16 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": 60,
+   "werkzeug": "Schraubendreher. Roto empfiehlt den Tausch durch eine Fachkraft.",
+   "amazon_asin": "B09ZF9VT3J",
+   "quellen": [
+    "https://www.amazon.de/dp/B09ZF9VT3J",
+    "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-klassik-73-k.pdf",
+    "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-designo-r7-k.pdf"
+   ]
+  },
+  {
+   "slug": "roto-gleitbolzenlager-rechts-73-r7-k",
+   "name": "Roto Gleitbolzenlager rechts, grau (73 und R7 Kunststoff)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "TS322296",
+   "masse": {},
+   "beschreibung": "Rechtes Gleitbolzenlager (Stücklisten-Nr. 1-063) für Kunststoff-Hochschwingfenster der Baureihen 73 und R7, Gegenstück zu TS322295. Roto rät, immer beide Seiten zu tauschen.",
+   "preis_spanne": "ca. 25 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": 60,
+   "werkzeug": "Schraubendreher. Roto empfiehlt den Tausch durch eine Fachkraft.",
+   "amazon_asin": "B09ZJ28BQ2",
+   "quellen": [
+    "https://www.amazon.de/dp/B09ZJ28BQ2",
+    "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-designo-r7-k.pdf"
+   ]
+  },
+  {
+   "slug": "roto-fluegeldichtungssatz-61-62-84h-074-118",
+   "name": "Roto Flügeldichtungssatz 61/62/84H, Größe 074/118 (7/11)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "TS320379",
+   "masse": {
+    "fenstergroesse": "074/118"
+   },
+   "beschreibung": "Obere und untere Flügeldichtung aus Kautschuk, grau-anthrazit, für Holzfenster der Baureihen 61, 62 und 84 ohne Wärmedämmung in Größe 074/118 (alt 7/11). Links und rechts verwendbar. Für andere Größen gibt es eigene Sätze.",
+   "preis_spanne": "ca. 82 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Keins außer einem stumpfen Spachtel. Die Dichtung muss danach genau in der Nut des Flügelrahmens sitzen.",
+   "amazon_asin": "B08ZSVBCDS",
+   "quellen": [
+    "https://www.amazon.de/dp/B08ZSVBCDS",
+    "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-klassik-84-h.pdf",
+    "https://www.roto-frank.com/de/dst/faq"
+   ]
+  },
+  {
+   "slug": "roto-zrv-114-118-r6r8-silber",
+   "name": "Roto Verdunkelungsrollo ZRV, 114/118 (11/11), für R6/R8, i8 und Classic 64/84",
+   "teiltyp": "rollo",
+   "oem_nummer": "ZRV M 114/118 R6R8 AV01",
+   "masse": {
+    "fenstergroesse": "114/118"
+   },
+   "beschreibung": "Original-Verdunkelungsrollo mit silbernen Führungsschienen und weißem Stoff für die Baureihen Designo R6, R8, i8 und Classic 64/84 in Größe 114/118. Stufenlos verschiebbar, von Hand oder mit Bedienstange. Es passt nur in Roto-Fenster.",
+   "preis_spanne": "ca. 227 € (Amazon, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 30,
+   "werkzeug": "Akkuschrauber oder Schraubendreher für die Montage am Fensterrahmen.",
+   "amazon_asin": "B08KTKWRMC",
+   "quellen": [
+    "https://www.amazon.de/dp/B08KTKWRMC",
+    "https://dachfensterinfo.de/cms/roto-typenschild-groessen/"
+   ]
+  },
+  {
+   "slug": "roto-zrv-114-098-r4r7-weiss",
+   "name": "Roto Verdunkelungsrollo ZRV, 114/098 (11/9), für R4/R7 und Classic 43/73",
+   "teiltyp": "rollo",
+   "oem_nummer": "ZRV M 114/098 R4R7 WV22",
+   "masse": {
+    "fenstergroesse": "114/098"
+   },
+   "beschreibung": "Original-Verdunkelungsrollo mit weißen Führungsschienen für die Hochschwingfenster Designo R4/R7 und Classic 43/73 in Größe 114/098. Die Ausführung im Angebot hat blauen Stoff. Es passt nur in Roto-Fenster.",
+   "preis_spanne": "ca. 201 € (Amazon, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 30,
+   "werkzeug": "Akkuschrauber oder Schraubendreher für die Montage am Fensterrahmen.",
+   "amazon_asin": "B0CVXW14RQ",
+   "quellen": [
+    "https://www.amazon.de/dp/B0CVXW14RQ",
+    "https://dachfensterinfo.de/cms/roto-typenschild-groessen/"
+   ]
+  },
+  {
+   "slug": "roto-teleskop-bedienstange-tfb-1900",
+   "name": "Roto Alu-Teleskop-Bedienstange ZUB TFB (117–190 cm)",
+   "teiltyp": "griff",
+   "oem_nummer": "TS763717",
+   "ean": "4048001836903",
+   "masse": {
+    "laenge_mm_min": 1170,
+    "laenge_mm_max": 1900
+   },
+   "beschreibung": "Teleskopstange aus Aluminium, in sechs Stufen von 117 auf 190 cm ausziehbar und beidseitig verwendbar. Sie bedient hoch sitzende Roto-Fenster (Q-4, R4, R6, R7, R8 und 43/6x/73/84) sowie Rollos, Faltstores und Außenmarkisen mit Griff.",
+   "preis_spanne": "ca. 71 € (Amazon, OTTO, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 1,
+   "werkzeug": "Keins.",
+   "amazon_asin": "B08CZWMQLZ",
+   "quellen": [
+    "https://www.amazon.de/dp/B08CZWMQLZ",
+    "https://www.otto.de/p/S0CFO0T3"
+   ]
+  },
+  {
+   "slug": "roto-bedienstab-dfb-1000",
+   "name": "Roto Bedienstab ZUB DFB 1000",
+   "teiltyp": "griff",
+   "oem_nummer": "252798",
+   "ean": "4003720059798",
+   "masse": {},
+   "beschreibung": "Bedienstab, der in den Griff von Roto-Dachfenstern greift. Damit lassen sich hoch eingebaute Fenster und Sonnenschutz wie Verdunkelungsrollos vom Boden aus bedienen.",
+   "preis_spanne": "ca. 38 € (OTTO, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 1,
+   "werkzeug": "Keins.",
+   "quellen": [
+    "https://www.otto.de/p/S0GGN0JI"
+   ]
+  },
+  {
+   "slug": "roto-fenstergriff-r4r7-weiss-abschliessbar",
+   "name": "Roto Fenstergriff abschließbar, weiß (Baureihen 3, 4, 7, R3, R4)",
+   "teiltyp": "griff",
+   "oem_nummer": "TS897041",
+   "masse": {
+    "laenge_mm": 150,
+    "breite_mm": 85,
+    "hoehe_mm": 27
+   },
+   "beschreibung": "Abschließbarer Original-Griff in Weiß für Holz- und Kunststofffenster der Baureihen 3, 4, 7, R3 und R4, Modell ZUB GRF R4R7. Die Schließfunktion arbeitet nur mit abschließbaren Beschlägen zusammen.",
+   "preis_spanne": "ca. 89 € (Amazon, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Schraubendreher.",
+   "amazon_asin": "B09ZL36ZW3",
+   "quellen": [
+    "https://www.amazon.de/dp/B09ZL36ZW3"
+   ]
+  },
+  {
+   "slug": "roto-gleitschienenset-r8-k-g3",
+   "name": "Roto Gleitschienenset R8 Kunststoff, Höhe xx/11 bis xx/18 (G3)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "TS828384",
+   "masse": {},
+   "beschreibung": "Schwarzes Gleitschienenset für Klapp-Schwingfenster Designo R8 aus Kunststoff der Generation G3, für Fensterhöhen von 11 bis 18. Roto zeigt den Tausch der Gleitschiene am R8 in einem eigenen Service-Video.",
+   "preis_spanne": "ca. 40 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": 60,
+   "werkzeug": "Schraubendreher. Roto empfiehlt den Tausch durch eine Fachkraft.",
+   "amazon_asin": "B0CVXV5R12",
+   "quellen": [
+    "https://www.amazon.de/dp/B0CVXV5R12",
+    "https://www.roto-frank.com/de/dst/pflege-und-wartung"
+   ]
+  }
+ ],
+ "zuordnungen": [],
+ "probleme": [
+  {
+   "slug": "roto-dachfenster-bleibt-nicht-offen",
+   "titel": "Roto-Dachfenster bleibt nicht offen",
+   "symptom": "Der Flügel des Klapp-Schwingfensters fällt nach dem Öffnen von selbst wieder zu oder lässt sich nur mit viel Kraft aufdrücken.",
+   "ursachen": [
+    {
+     "ursache": "Die Federhaltebolzen eines neuen Designo R8 wurden nicht entfernt, das Fenster ist also nicht aktiviert",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Die Federkraft passt nicht zur Dachneigung oder zum Flügelgewicht, etwa nach dem Nachrüsten eines Außenrollladens",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Die Feder ist aus ihrem Lager gerissen oder das Federlager aus Guss hat sich verbogen; der Ausstellarm muss getauscht werden",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    }
+   ],
+   "schritte": [
+    "Beim neuen Designo R8 prüfen, ob beide Federhaltebolzen am linken und rechten Ausstellarm gezogen sind. Fehlen sie, ist das Fenster aktiviert.",
+    "Prüfen, ob der Flügel beim Öffnen gerade läuft. Hängt eine Seite herunter oder sieht man nur noch die Gewindestange, ist die Feder aus der Befestigung gerissen.",
+    "Läuft der Flügel gerade und hält nur die Position nicht, die Federkraft beidseitig mit einem Innensechskantschlüssel nachstellen: im Uhrzeigersinn mehr Spannung, gegen den Uhrzeigersinn weniger. Ab Werk ist sie auf 40 bis 45 Grad Dachneigung eingestellt.",
+    "Das obere Flügelabdeckblech ansehen. Springt die Feder heraus, schlägt sie mitunter durch das Blech.",
+    "Ausstellarme und Gasdruckfedern laut Roto-Ersatzteilliste nur paarweise tauschen. Für den Bestellvorgang braucht man die vollständigen Angaben vom Typenschild."
+   ],
+   "fachbetrieb_ab": "Wenn die Feder aus dem Lager gerissen ist oder ein Ausstellarm getauscht werden muss. Die Federn stehen beim geschlossenen Fenster unter hoher Spannung, und Roto empfiehlt den Tausch von Beschlagteilen durch eine Fachkraft.",
+   "quellen": [
+    "https://www.roto-frank.com/de/dst/faq",
+    "https://www.bauexpertenforum.de/threads/dachfenster-welcher-ausstellarm-defekt.147080/",
+    "https://www.bauexpertenforum.de/threads/dachflaechenfenster-roto-frank-probleme.148106/",
+    "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-klassik-84-k.pdf",
+    "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/spare-parts-service/DE/roto-preisliste-ersatzteile-designo-r8-k.pdf"
+   ]
+  },
+  {
+   "slug": "roto-dachfenster-schliesst-nicht",
+   "titel": "Roto-Dachfenster schließt nicht richtig oder der Griff klemmt",
+   "symptom": "Das Fenster lässt sich nicht ganz schließen, der Griff geht schwer oder lässt sich nicht in die Schließstellung nach links drehen.",
+   "ursachen": [
+    {
+     "ursache": "Die Flügeldichtung sitzt nicht in ihrer Nut oder ist verhärtet",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "roto-fluegeldichtungssatz-61-62-84h-074-118"
+     ]
+    },
+    {
+     "ursache": "Die Gasdruckfeder trifft beim Schließen nicht auf ihren Anschlag am Rahmen",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Der Flügel steht nicht parallel zum Blendrahmen",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Die Mechanik ist trocken oder eine Sperre hinter dem Griff blockiert nach dem Putzen",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "roto-fenstergriff-r4r7-weiss-abschliessbar"
+     ]
+    }
+   ],
+   "schritte": [
+    "Die Dichtung rund um den Flügelrahmen ansehen und dort, wo sie aus der Nut gerutscht ist, wieder eindrücken.",
+    "Den Weg der Gasdruckfeder verfolgen: Sie muss beim Schließen auf den Anschlag am Rahmen treffen.",
+    "Prüfen, ob der Flügel parallel zum Blendrahmen steht. Wenn nicht, den Flügel nach der Bedienungsanleitung ausrichten.",
+    "Geht der Griff schwer, die Mechanik laut Roto mit WD-40 oder Silikonspray ölen.",
+    "Hängt der Griff nach dem Putzen in der Putzstellung fest, auf der Außenseite hinter dem Griff nach einem kleinen Sperrstift tasten und ihn nach oben drücken. So hat sich der Fall im Forum gelöst."
+   ],
+   "fachbetrieb_ab": "Wenn der Flügel sich nicht mehr ausrichten lässt oder Beschlagteile wie Gleiterführung oder Gleitbolzenlager gebrochen sind. Bis zur Reparatur das Fenster bei Regen mit einer Folie abdecken, die oben und unten unter die Eindeckung geschoben wird.",
+   "quellen": [
+    "https://www.roto-frank.com/de/dst/faq",
+    "https://www.bauexpertenforum.de/threads/roto-dachfenster-fenstergriff-klemmt-fenster-nicht-zu-schliessen.117557/"
+   ]
+  }
+ ],
+ "widersprueche": [
+  {
+   "thema": "Welches Außenmaß steckt hinter der alten Größe 7/11?",
+   "aussage_a": "Alter und neuer Code meinen dieselbe Größe: 7/11 und 074/118 stehen beide für 74 × 118 cm Außenmaß. Roto selbst schreibt bei Ersatzteilen „074/118 | 07/11“.",
+   "quelle_a": "https://dachfensterinfo.de/cms/roto-typenschild-groessen/",
+   "aussage_b": "Alte Fenster mit 7/11 hatten ein Außenmaß von 68 × 112 cm. 074/118 ist die Entsprechung in der Designo-Reihe, bei RotoQ wäre es 078/118.",
+   "quelle_b": "https://www.home4u.de/Ratgeber/Wohndachfenster/roto-dachfenster-groessen/"
+  },
+  {
+   "thema": "Wie lang wird die Roto-Teleskopstange TFB?",
+   "aussage_a": "Ausziehbar von 1170 auf 1900 mm, Modell „ZUB TFB Q/Rx L 1170-1900“.",
+   "quelle_a": "https://www.amazon.de/dp/B08CZWMQLZ",
+   "aussage_b": "Im Titel 190 cm, in der Beschreibung „maximale Länge von 192 cm“.",
+   "quelle_b": "https://www.otto.de/p/S0CFO0T3"
+  },
+  {
+   "thema": "Garantie nach Registrierung: fünf Jahre insgesamt oder fünf Jahre zusätzlich?",
+   "aussage_a": "Die zweijährige Garantie kann durch Online-Registrierung „auf 5 Jahre“ erweitert werden.",
+   "quelle_a": "https://www.roto-frank.com/de/dst/garantie",
+   "aussage_b": "Weiter unten auf derselben Seite: „Jetzt Garantie kostenfrei um 5 Jahre verlängern!“",
+   "quelle_b": "https://www.roto-frank.com/de/dst/garantie"
+  }
+ ],
+ "nicht_geprueft": [
+  "Genaue Bauzeiten der Baureihen nennt keine der verwendeten Quellen. Deshalb steht in der Tabelle nur „aktuelle“ oder „ältere Baureihe“.",
+  "Die älteren Baureihen 310 bis 329 und 410 bis 419 sind erwähnt, aber ohne Größen oder Ersatzteile. Sie fehlen in der Baureihen-Tabelle.",
+  "Wie man die Feder eines Roto-Verdunkelungsrollos nachspannt, steht in keiner geöffneten Roto-Anleitung. Die ZRV-Anleitung sagt nur, dass die Spannung ab Werk eingestellt ist. Ein Problem „Rollo-Feder spannen“ fehlt deshalb.",
+  "Ausstellarm, Federlager und Gasdruckfeder für Klassik 84 und Designo R8 stehen in der Roto-Preisliste, sind hier aber nicht als Teil angelegt, weil keine Amazon-Seite oder EAN dazu geöffnet wurde.",
+  "Die Größentabelle folgt dem Designo-Datenblatt von 2022. Ob die alten Fenster mit 7/11 wirklich 74 × 118 cm oder 68 × 112 cm außen messen, widerspricht sich zwischen den Händlerseiten; vor dem Kauf eines Austauschfensters nachmessen.",
+  "Der Bedienstab DFB 1000 hat nur eine OTTO-Beschreibung; Länge und passende Baureihen sind dort nicht angegeben."
+ ]
+}

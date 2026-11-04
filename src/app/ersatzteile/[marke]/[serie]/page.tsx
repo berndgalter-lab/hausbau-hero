@@ -5,6 +5,8 @@ import { neukaufBereich } from "@/lib/bereiche";
 import { notFound } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import TeilBild from "@/components/TeilBild";
+import GroessenSeite, { groessenTitel } from "@/components/GroessenSeite";
+import { GROESSEN_PRODUKTTYP, groesseIstDuenn, groesseVon } from "@/lib/groessen";
 import {
   Brotkrumen,
   GuenstigstesAngebot,
@@ -50,9 +52,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const geladen = await lade(params);
   if (!geladen) return {};
   const { marke, serie, zuordnungen } = geladen;
+  const url = `${SITE_URL}/ersatzteile/${marke.slug}/${serie.slug}`;
+  // Dachfenster: Die Serie ist eine Fenstergröße und hat eigene Vorlage und Index-Regel (docs/SEITENAUFBAU.md, 5a).
+  const g = serie.produkttyp === GROESSEN_PRODUKTTYP ? groesseVon(marke.slug, serie.slug) : null;
+  if (g) {
+    const teilIds = zuordnungen.map((z) => z.teil_id);
+    const [teile, angebote] = await Promise.all([teileNachIds(teilIds), angeboteFuerTeile(teilIds)]);
+    const title = groessenTitel(marke, g);
+    const alt = g.alte_codes.map((a) => a.code).join(", ");
+    const description = `${marke.name} ${g.code} misst ${g.breite_cm} × ${g.hoehe_cm} cm${alt ? `, früher ${alt}` : ""}. Welches Rollo, Plissee, welche Markise und welcher Insektenschutz passen, mit Typenbezeichnung und Preis.`;
+    const robots = groesseIstDuenn(teile, angebote) ? { index: false, follow: true } : undefined;
+    return { title, description, robots, alternates: { canonical: url }, openGraph: { title, description, url } };
+  }
   const title = `${serie.name}: Ersatzteile mit Artikelnummer`;
   const description = `Welche Ersatzteile passen zu ${serie.name}? Originalnummern, Baujahr-Hinweise und Quellen – plus woran du die Serie erkennst.`;
-  const url = `${SITE_URL}/ersatzteile/${marke.slug}/${serie.slug}`;
   // Dünne Serien (docs/SEITENAUFBAU.md, Abschnitt 5) bleiben erreichbar, aber nicht im Index.
   const robots = serieIstDuenn(serie, zuordnungen.length) ? { index: false, follow: true } : undefined;
   return { title, description, robots, alternates: { canonical: url }, openGraph: { title, description, url } };
@@ -62,6 +75,8 @@ export default async function SerienSeite({ params }: Props) {
   const geladen = await lade(params);
   if (!geladen) notFound();
   const { marke, serie, zuordnungen } = geladen;
+  const g = serie.produkttyp === GROESSEN_PRODUKTTYP ? groesseVon(marke.slug, serie.slug) : null;
+  if (g) return <GroessenSeite marke={marke} serie={serie} zuordnungen={zuordnungen} g={g} />;
   // Rechercheprotokoll („keine Merkmale recherchiert“) ist kein Erkennungsmerkmal
   const merkmale = serie.erkennungsmerkmale && !NOTIZ_SPRACHE.test(serie.erkennungsmerkmale) ? serie.erkennungsmerkmale : null;
 
