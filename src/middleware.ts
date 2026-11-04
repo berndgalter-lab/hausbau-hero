@@ -37,11 +37,15 @@ export async function middleware(request: NextRequest) {
     const supabase = createClient(supabaseUrl, supabaseKey);
     const { data } = await supabase
       .from('redirects')
-      .select('neue_url')
+      .select('neue_url, status_code')
       .or(`alte_url.eq./${slug}/,alte_url.eq./${slug}`)
       .limit(1)
       .single();
 
+    // 410: Die alte Seite ist bewusst weg (Altbestand außerhalb von „Reparatur rund ums Haus“).
+    if (data?.status_code === 410) {
+      return new NextResponse('Diese Seite gibt es nicht mehr.', { status: 410 });
+    }
     if (data?.neue_url) {
       console.log(`[middleware] 301: ${path} → ${data.neue_url}`);
       return NextResponse.redirect(new URL(data.neue_url, request.url), 301);

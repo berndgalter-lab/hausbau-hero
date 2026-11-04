@@ -72,6 +72,9 @@ export default async function SiloPage({ params }: { params: { silo: string } })
     console.error("[SiloPage] Seiten query error:", e);
   }
 
+  // Kategorie ohne Beiträge und ohne Rechner: nichts zu zeigen.
+  if (seiten.length === 0 && rechnerList.length === 0) notFound();
+
   return (
     <div>
       <script

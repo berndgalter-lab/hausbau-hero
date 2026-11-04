@@ -23,6 +23,10 @@ Stand: 2. November 2026
 4. **Weiterleitungen über zwei Stationen.** 314 von 400 alten WordPress-URLs liefen über eine stillgelegte Seite auf eine Kategorie-Übersicht.
 5. **Der Absturz Ende 2022 war ein Google-Update.** Von 2.420 Klicks (09/2022) ging es auf 182 (11/2022). Das passt zum Helpful-Content-Update, das dünne „Die 7 besten …“-Listen abgestraft hat. Diese alten Listen einfach zurückzuholen, bringt den Traffic nicht zurück.
 
+## Nachtrag 4. November 2026: Altbestand entfernt
+
+Mit der Richtung „Reparatur und Ersatzteile rund ums Haus“ (`SEITENAUFBAU.md`, Abschnitt 2a) sind alle Beiträge außerhalb von Bad & Sanitär entfernt, auf Entscheidung von Bernd und obwohl einige davon Klicks hatten: kreuzlinienlaser-richtig-benutzen (bis 58 Klicks/Monat), wasserwaage-richtig-benutzen, silikatfarbe, deckenstuetze, kalk-zement-putz, estrich-kosten, steinimpraegnierung, wandfarbe-weiss, stromerzeuger-vergleich, fliesen-verlegen-kosten. Status `entfernt` (404), ebenso die Alt-Seiten, die dorthin umgeleitet haben. Alte WordPress-URLs mit diesen Zielen liefern 410. Die Rechner Estrich und Fliesen bleiben. Die Einstufungen unten sind damit für diese Seiten überholt.
+
 ## 2. Fokus
 
 Google belohnt Tiefe in einem Thema. Die Daten sprechen für folgende Reihenfolge:
