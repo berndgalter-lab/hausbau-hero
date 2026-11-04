@@ -1,9 +1,15 @@
 {
  "slug": "komplettdusche-ratgeber",
  "silo": "bad",
- "titel": "Komplettdusche und Duschtempel: Lohnt sich das?",
- "seo_title": "Komplettdusche: Vor- und Nachteile, Kosten und Montage",
- "seo_description": "Komplettdusche oder geflieste Dusche? Vor- und Nachteile, Kosten und was bei der Montage zu beachten ist.",
- "altbestand": true,
- "quellen": []
+ "titel": "Komplettdusche und Duschtempel: Anschlüsse, Strom und Kosten",
+ "seo_title": "Komplettdusche: Anschlüsse, Elektrik und Kosten",
+ "seo_description": "Komplettdusche oder Dampfdusche einbauen: Wasserdruck, Abfluss und Raumhöhe laut Herstellerangaben, Schutzbereiche nach DIN VDE 0100-701, Gewährleistung und Ersatzteile.",
+ "quellen": [
+  "https://www.bauhaus.info/komplettduschen/acquavapore-komplettdusche-fertigdusche-d10-13t0/p/MP-000060499",
+  "https://www.hornbach.de/p/home-deluxe-dampfdusche-diamond-weiss-masse-170-x-90-x-220-cm-inkl-radio-regendusche-und-komplettem-zubehoer-i-dampfsauna-badewanne-whirlpool-dusche/12170689/",
+  "https://media.hornbach.de/mp/installationmanual/73ddcf98-786a-4f55-bc8c-83d60af83e3c",
+  "https://www.vde.com/topics-de/verbraucherschutz/elektrogeraete-im-badezimmer",
+  "https://www.baunetzwissen.de/bad-und-sanitaer/fachwissen/elektroinstallationen/elektrische-schutzbereiche-im-bad-172830",
+  "https://www.verbraucherzentrale.de/wissen/vertraege-reklamation/kundenrechte/recht-auf-reparatur-mehr-rechte-seit-31-juli-2026-124253"
+ ]
 }

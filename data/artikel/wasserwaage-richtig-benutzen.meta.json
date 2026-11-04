@@ -3,7 +3,12 @@
  "silo": "werkzeuge",
  "titel": "Wasserwaage richtig benutzen: Anleitung und Tipps",
  "seo_title": "Wasserwaage richtig benutzen: Anleitung und Tipps",
- "seo_description": "Wasserwaage richtig ablesen: Horizontal, vertikal und Gefälle prüfen. Typen-Übersicht, Genauigkeitstest und praktische Tipps.",
- "altbestand": true,
- "quellen": []
+ "seo_description": "Wasserwaage richtig ablesen, waagerecht und lotrecht prüfen und mit der Umschlagmessung die Genauigkeit testen. Mit Messtoleranzen aus den Herstellerangaben von Sola und Stabila.",
+ "quellen": [
+  "https://www.sola.at/publications/at/Sola_Katalog_2026_A26_de/epaper/Sola-Katalog-2026-A26-de.pdf",
+  "https://www.sola.at/de/produkte/azb-p3564",
+  "https://www.sola.at/de-at/stories/wasserwaage-qualitaet",
+  "https://www.eisenwolff-online.de/en/wasserwaage-lm-as-2-150cm-pulverbeschichtet-stabila",
+  "https://m.insize.com/upfiles/sms/MN-4905-DE%20V2.pdf"
+ ]
 }

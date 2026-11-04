@@ -1,9 +1,15 @@
 {
  "slug": "silikatfarbe",
  "silo": "farben",
- "titel": "Silikatfarbe: Vorteile, Nachteile und Kosten",
- "seo_title": "Silikatfarbe: Vorteile, Nachteile und Kosten",
- "seo_description": "Was ist Silikatfarbe, wann lohnt sie sich und was kostet sie? Vergleich mit Dispersionsfarbe, Kosten pro m² und Verarbeitung.",
- "altbestand": true,
- "quellen": []
+ "titel": "Silikatfarbe: Arten, Untergründe und Kosten",
+ "seo_title": "Silikatfarbe: Arten, Untergründe und Kosten",
+ "seo_description": "Reine Silikatfarbe oder Dispersionssilikatfarbe nach DIN 18363, geeignete Untergründe, Verbrauch und Materialkosten pro m². Mit Werten aus den Merkblättern von Keim.",
+ "quellen": [
+  "https://www.keim.com/documents/de-DE/723/TM_Granital_DE-DE.pdf",
+  "https://www.keim.com/documents/de-DE/723/TM_Biosil_DE-DE.pdf",
+  "https://www.keim.com/documents/de-DE/723/TM_Purkristalat_DE-DE.pdf",
+  "https://www.baulinks.de/bkd_file/keimfarben/Keimfarben_Fassadenfarben_20260928.pdf",
+  "https://www.kabe-farben.ch/fileadmin/kabe-farben/dokumente_bau/FACHINFOS/Fachinfo_Neue_Silikatsysteme_1872_05_2023_DE_1.pdf",
+  "https://dabo24.com/products/keim-granital%c2%ae-5-kg"
+ ]
 }

@@ -1,9 +1,14 @@
 {
  "slug": "steinimpraegnierung",
  "silo": "farben",
- "titel": "Steinimprägnierung außen: Kosten und Anwendung",
- "seo_title": "Steinimprägnierung außen: Kosten und Anwendung",
- "seo_description": "Steinimprägnierung für Terrasse, Pflaster und Fassade: Was kostet es, wie funktioniert es, wann lohnt eine Versiegelung?",
- "altbestand": true,
- "quellen": []
+ "titel": "Steinimprägnierung außen: Wirkung, Verbrauch und Anwendung",
+ "seo_title": "Steinimprägnierung außen: Wirkung, Verbrauch und Anwendung",
+ "seo_description": "Steinimprägnierung für Terrasse, Pflaster und Fassade: wie sie wirkt, wann sie besser ist als eine Versiegelung, wie viel Mittel du brauchst und wie du sie aufträgst.",
+ "quellen": [
+  "https://www.lithofin.com/en/solutions/practical-tips/protect-natural-stones-with-impregnations",
+  "https://www.lithofin.com/en/products/ceramics-and-natural-stone/lithofin-stainstop-w",
+  "https://www.lithofin.de/de/loesungen/tipps/betonwerkstein-im-aussenbereich-reinigen",
+  "https://cdn.shopify.com/s/files/1/0682/4145/7453/files/merkblatt-impraegnierung-remmers.pdf",
+  "https://www.baunetzwissen.de/fliesen-und-platten/fachwissen/anforderungen/impraegnierung-versiegelung-und-oberflaechenveredelung-156825"
+ ]
 }
