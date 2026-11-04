@@ -120,6 +120,17 @@ def norm_ean(s):
     return d if 8 <= len(d) <= 14 else ""
 
 
+def teilart_eans():
+    """EANs der Produkte auf den Teileart-Seiten (data/teilarten/*.json, nicht in der Datenbank)."""
+    ordner = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "teilarten")
+    eans = set()
+    for name in sorted(os.listdir(ordner)) if os.path.isdir(ordner) else []:
+        if name.endswith(".json"):
+            with open(os.path.join(ordner, name), encoding="utf-8") as f:
+                eans |= {e for e in (norm_ean(p.get("ean")) for p in json.load(f).get("produkte", [])) if e}
+    return eans
+
+
 GRUPPE = re.compile(r"[A-Z0-9]+(?:[ .\-/][A-Z0-9]+)*")
 
 
@@ -515,7 +526,8 @@ def main():
         produkt_eans = {e for e in (norm_ean(p.get("ean")) for p in json.load(open(args.produkte_json, encoding="utf-8"))) if e}
     else:
         produkt_eans = db.produkt_eans() if db else set()
-    print(f"Kaufberatungs-Produkte mit EAN: {len(produkt_eans)}")
+    produkt_eans |= teilart_eans()
+    print(f"Kaufberatungs- und Teileart-Produkte mit EAN: {len(produkt_eans)}")
 
     dateien = dict(x.split("=", 1) for x in args.feed_datei)
     if not dateien and args.cached:

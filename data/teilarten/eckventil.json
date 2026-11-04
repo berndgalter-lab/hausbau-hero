@@ -1,0 +1,223 @@
+{
+  "slug": "eckventil",
+  "name": "Eckventil",
+  "mehrzahl": "Eckventile",
+  "genus": "n",
+  "titel": "Eckventil: welche Größe passt?",
+  "seo_title": "Eckventil: welche Größe passt? Auch Kombi- und Geräteventil",
+  "seo_description": "Eckventil tauschen: Wandanschluss und Abgang messen, mit oder ohne Regulierung, selbstdichtend oder eindichten, Kombi-Eckventil und Geräteventil für Waschmaschine und Spülmaschine.",
+  "kurz": "Unter Waschbecken und Spüle sitzt fast immer ein Eckventil mit Wandanschluss G 1/2 (Außengewinde) und Abgang G 3/8 für das 10-mm-Anschlussrohr der Armatur. Es gibt aber auch Eckventile mit G 3/8 an der Wand oder mit G 1/2 auf beiden Seiten. Miss deshalb vor dem Kauf beide Seiten des alten Ventils.\n\nFür Waschmaschine und Spülmaschine brauchst du einen Abgang G 3/4 mit Rückflussverhinderer, als Kombi-Eckventil oder als eigenes Geräteventil.",
+  "bereiche": ["wasseranschluss", "waschtisch"],
+  "teiltypen": ["eckventil"],
+  "erkennen": [
+    {
+      "titel": "Wandanschluss bestimmen",
+      "text": "Der Anschluss in der Wand ist in den meisten Wohnungen G 1/2 (DN 15), in manchen Fällen G 3/8 (DN 10). Das Eckventil hat dort ein Außengewinde und wird in das Innengewinde der Wandscheibe eingeschraubt. Steht nichts am alten Ventil, nimm es nach dem Ausbau zum Vergleich mit."
+    },
+    {
+      "titel": "Abgang zur Armatur prüfen",
+      "text": "Üblich ist ein Abgang G 3/8 mit Quetschverschraubung für ein Rohr mit 10 mm Durchmesser. Daran kommen die Kupferrohre älterer Armaturen oder die Anschlussschläuche mit 10-mm-Stutzen. Hat deine Armatur Schläuche mit Überwurfmutter, brauchst du einen Abgang mit Außengewinde G 3/8 oder G 1/2. Den richtigen Abgang findest du am Anschluss des Schlauchs, nicht am Eckventil."
+    },
+    {
+      "titel": "Selbstdichtend oder zum Eindichten",
+      "text": "Selbstdichtende Eckventile haben einen Dichtring auf dem Wandgewinde, bei Schell heißt das ASAG easy. Dort kommt kein Hanf und kein Teflonband dazu, Schell schließt zusätzliches Dichtmittel aus. Ventile ohne Dichtring haben ein angerautes Gewinde und werden sparsam mit Hanf, Dichtfaden oder Dichtband eingedichtet."
+    },
+    {
+      "titel": "Mit oder ohne Regulierung",
+      "text": "Mit Regulierfunktion stellst du am Griff auch die Durchflussmenge ein und gleichst unterschiedliche Drücke von Kalt- und Warmwasser aus. Zu ist das Ventil, wenn der Griff im Uhrzeigersinn am Anschlag steht."
+    },
+    {
+      "titel": "Waschmaschine und Spülmaschine: Kombi-Eckventil oder Geräteventil",
+      "text": "Ein Kombi-Eckventil ersetzt das normale Eckventil und hat zwei Abgänge, die sich getrennt absperren lassen: einen für die Armatur und einen G-3/4-Anschluss für den Schlauch der Maschine. Hängt die Maschine an einem eigenen Anschluss in der Wand, nimmst du ein Geräteventil (Geräteschrägsitzventil) mit G 1/2 an der Wand und G 3/4 für den Schlauch.\n\nIm Geräteabgang sitzt ein Rückflussverhinderer, damit kein Wasser aus der Maschine in die Trinkwasserleitung zurückläuft. Erst mit einem zusätzlichen Rohrbelüfter ergibt sich die Sicherungskombination HD nach EN 1717. Manche Kombi-Eckventile haben nur den Rückflussverhinderer eingebaut, Schell empfiehlt dafür den Rohrbelüfter 28 602 06 99 zum Nachrüsten."
+    },
+    {
+      "titel": "Eckventil am Spülkasten",
+      "text": "Auch am Spülkasten ist der Wandanschluss meist G 1/2. Für Aufputz-Spülkästen gibt es Eckventile mit Überwurfmutter G 3/8 als Abgang, zum Beispiel Schell 05 034 06 99. Welches Gewinde der Schlauch braucht, hängt vom Füllventil ab. Miss es am Spülkasten nach. Bei Unterputz-Spülkästen sitzt das Eckventil im Kasten. Dafür gibt es eigene Ersatzteile des Kastenherstellers, etwa Grohe 43821 für Wandeinbau-Spülkästen."
+    }
+  ],
+  "groessen": {
+    "titel": "Gängige Eckventile",
+    "spalten": ["Anschluss Wand", "Abgang", "Typisch für", "Beispiel"],
+    "zeilen": [
+      ["G 1/2 AG", "G 3/8 AG, Quetschverschraubung 10 mm", "Waschtisch, Spüle, Standard", "Schell COMFORT 05 407 06 99, Grohe 22 037"],
+      ["G 3/8 AG", "Quetschverschraubung 10 mm", "ältere Anschlüsse mit 3/8\" in der Wand", "Schell 04 902 06 99"],
+      ["G 1/2 AG", "G 1/2 AG", "Armaturen oder Schläuche mit 1/2\"-Mutter", "Schell 05 217 06 99"],
+      ["G 1/2 AG", "Überwurfmutter G 3/8 IG", "Aufputz-Spülkasten", "Schell 05 034 06 99"],
+      ["G 1/2 AG", "G 3/8 bzw. 10 mm und G 3/4 AG", "Kombi-Eckventil: Armatur und Geschirrspüler", "Schell COMFORT 03 555 06 99 (mit RV und RB)"],
+      ["G 1/2 AG", "G 3/4 AG, Schlauchverschraubung", "Geräteventil: Waschmaschine", "Schell COMFORT 03 392 06 99 (mit RV und RB)"]
+    ],
+    "hinweis": "AG = Außengewinde, IG = Innengewinde, RV = Rückflussverhinderer, RB = Rohrbelüfter. Die Zollangabe ist ein Nennmaß für das Rohrgewinde, nicht der gemessene Durchmesser."
+  },
+  "produkte": [
+    {
+      "name": "Schell Eckventil COMFORT G 1/2 × G 3/8, regulierbar, selbstdichtend (ASAG)",
+      "hersteller": "Schell",
+      "ean": "4021163105582",
+      "hinweis": "Standard für Waschtisch und Spüle, ohne Hanf eingeschraubt."
+    },
+    {
+      "name": "Schell Eckventil COMFORT G 1/2 × G 3/8, regulierbar",
+      "hersteller": "Schell",
+      "ean": "4021163105292",
+      "hinweis": "Ohne Dichtring, wird mit Hanf oder Dichtband eingedichtet."
+    },
+    {
+      "name": "Grohe Eckventil 1/2\", selbstdichtendes Anschlussgewinde",
+      "hersteller": "Grohe",
+      "ean": "4005176305405",
+      "hinweis": "Grohe-Gegenstück zum Schell-Standardventil, Wandanschluss 1/2\"."
+    },
+    {
+      "name": "Schell Eckventil COMFORT G 3/8, regulierbar, selbstdichtend (ASAG)",
+      "hersteller": "Schell",
+      "ean": "4021163105353",
+      "hinweis": "Für Wandanschlüsse mit 3/8\"."
+    },
+    {
+      "name": "Schell Kombi-Eckventil COMFORT G 1/2 mit Rückflussverhinderer und Rohrbelüfter",
+      "hersteller": "Schell",
+      "ean": "4021163129885",
+      "hinweis": "Armatur und Spül- oder Waschmaschine an einem Anschluss."
+    },
+    {
+      "name": "Schell Geräteschrägsitzventil COMFORT G 1/2 mit Rückflussverhinderer und Rohrbelüfter",
+      "hersteller": "Schell",
+      "ean": "4021163129847",
+      "hinweis": "Eigener Anschluss für die Waschmaschine, Abgang G 3/4."
+    }
+  ],
+  "fragen": [
+    {
+      "frage": "Welche Größe hat ein Eckventil unter Waschbecken oder Spüle?",
+      "antwort": "Fast immer G 1/2 (DN 15) als Außengewinde in der Wand und G 3/8 (DN 10) als Abgang, meist mit Quetschverschraubung für ein 10-mm-Rohr oder den Anschlussschlauch der Armatur. Es gibt aber auch Eckventile mit Wandanschluss G 3/8. Miss das Wandgewinde deshalb nach oder lies die Angabe am alten Ventil ab.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://media.contorion.de/content/pdf/ede/de/sldb_054070699_de.pdf",
+        "https://www.megabad.com/documents/10/grohe-specification-sheet-22037al0-de-100932.pdf",
+        "https://media.contorion.de/content/pdf/ede/de/sldb_049020699_de.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Ich brauche einen Anschluss für die Spülmaschine. Neues Eckventil oder Adapter?",
+      "antwort": "Üblich ist ein Kombi-Eckventil. Es ersetzt das alte Eckventil und hat zwei getrennt absperrbare Abgänge: einen für die Armatur und einen G-3/4-Anschluss für den Schlauch der Maschine. Beim Schell COMFORT 03 555 06 99 ist der Armaturenabgang 10 mm / G 3/8, beim 03 569 06 99 G 1/2.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.bauexpertenforum.de/goto/post?id=1113926",
+        "https://neuesbad.de/media/pdf/38/6b/34/sldb_035690699_de.pdf",
+        "https://neuesbad.de/media/pdf/fb/45/37/sldb_035550699_de.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welches Gewinde hat der Anschluss für den Waschmaschinenschlauch?",
+      "antwort": "Geräteventile und Kombi-Eckventile haben für den Schlauch der Maschine eine Schlauchverschraubung mit Außengewinde G 3/4 (DN 20). Der Wandanschluss ist in der Regel G 1/2. So steht es in den Schell-Datenblättern zum Geräteschrägsitzventil und zum Kombi-Eckventil.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.schell.eu/de-de/produkte/eckventile-und-geraeteanschluss-armaturen/geraeteanschluss-armaturen/geraeteanschluss-armaturen/geraeteventile/033920699/pdf/",
+        "https://neuesbad.de/media/pdf/38/6b/34/sldb_035690699_de.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Was schützt am Geräteventil davor, dass Wasser aus der Maschine zurück in die Leitung läuft?",
+      "antwort": "Ein Rückflussverhinderer im Geräteabgang (EN 1717, Typ EB). Zusammen mit einem Rohrbelüfter (Typ HB) ergibt sich die Sicherungskombination HD. Manche Kombi-Eckventile haben nur den Rückflussverhinderer eingebaut. Schell empfiehlt dazu den Rohrbelüfter 28 602 06 99, erst dann ist es eine HD-Kombination.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.schell.eu/de-de/produkte/eckventile-und-geraeteanschluss-armaturen/geraeteanschluss-armaturen/geraeteanschluss-armaturen/geraeteventile/033920699/pdf/",
+        "https://neuesbad.de/media/pdf/fb/45/37/sldb_035550699_de.pdf",
+        "https://media.contorion.de/content/pdf/ede/de/sldb_035500699_de.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Brauche ich Hanf oder Teflonband, wenn das Eckventil selbstdichtend ist?",
+      "antwort": "Nein. Bei Schell ASAG easy, einem Gewinde mit aufgesetztem Dichtring, ist laut Hersteller kein zusätzliches Dichtmittel erlaubt, sonst droht Spannungsrisskorrosion. Der Ring muss 3 mm im Gegengewinde verschwinden, danach darfst du das Ventil noch in die senkrechte Stellung drehen. Eckventile ohne Dichtring dichtest du sparsam mit Hanf, Dichtfaden oder Dichtband ein.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://schell.eu/fileadmin/tx_dmmediacockpit/SCHE-9105_Faltblatt%20ASAG%20easy%20%26%20Raendierung%202024_DT_RZ-Screen_WebHighRes-3.pdf",
+        "https://www.schell.eu/de-de/produkte/eckventile-und-geraeteanschluss-armaturen/eckventile/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Warum ist mein selbstdichtendes Eckventil nach dem Einschrauben undicht?",
+      "antwort": "Meist ist der Dichtring an einer scharfkantigen Wandscheibe eingeschnitten worden, oder das Ventil ist nicht tief genug eingeschraubt. Schell verlangt, dass der Ring 3 mm im Gegengewinde verschwindet. Zusätzliches Dichtmittel auf dem Ring schließt Schell ausdrücklich aus.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.bauexpertenforum.de/goto/post?id=891650",
+        "https://schell.eu/fileadmin/tx_dmmediacockpit/SCHE-9105_Faltblatt%20ASAG%20easy%20%26%20Raendierung%202024_DT_RZ-Screen_WebHighRes-3.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Das Eckventil lässt sich nicht mehr zudrehen oder sperrt nicht ab. Was tun?",
+      "antwort": "Eckventile werden selten bewegt und sitzen dann oft fest. Dreht es bis zum Anschlag und sperrt trotzdem nicht ab, ist meist die Ventildichtung kaputt oder Schmutz im Sitz. In den Foren wird übereinstimmend geraten, das Wasser an der Wohnungs- oder Hauptabsperrung abzustellen und das Eckventil ganz zu tauschen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.energiesparhaus.at/forum/74075",
+        "https://www.bauexpertenforum.de/threads/eckventil-nicht-gaengig-da-kein-absperrventil.134317/",
+        "https://www.bauexpertenforum.de/goto/post?id=1455181"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Was ist der Unterschied zwischen Eckventil mit und ohne Regulierung?",
+      "antwort": "Mit Regulierfunktion stellst du am Griff nicht nur auf und zu, sondern auch die Durchflussmenge ein. So gleichst du unterschiedliche Drücke von Kalt- und Warmwasser aus. Abgesperrt ist das Ventil, wenn der Griff im Uhrzeigersinn am Anschlag steht.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.schell.eu/de-de/produkte/eckventile-und-geraeteanschluss-armaturen/eckventile/",
+        "https://media.contorion.de/content/pdf/ede/de/sldb_054070699_de.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welches Eckventil brauche ich für den Spülkasten?",
+      "antwort": "Auch am Spülkasten ist der Wandanschluss meist G 1/2. Für Aufputz-Spülkästen gibt es Eckventile mit Überwurfmutter G 3/8 als Abgang, zum Beispiel Schell 05 034 06 99. Welches Gewinde der Anschlussschlauch braucht, hängt vom Füllventil ab, deshalb miss am Spülkasten und am Ventil nach.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.schell.eu/de-at/produkte/eckventile-und-geraeteanschluss-armaturen/eckventile/eckventile/eckventile-spezial-eckventile/050340699/pdf/",
+        "https://www.bauexpertenforum.de/threads/toilettenspuelkasten-altes-ventil-wer-kann-helfen.127247/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wofür gibt es Eckventile mit Filter, und wie reinige ich ihn?",
+      "antwort": "Ein Filter im Eckventil hält Schmutz von empfindlichen Armaturen fern, etwa von elektronisch gesteuerten. Bei Schell COMFORT mit Filter hat das Sieb eine Maschenweite von 250 µm. Laut Datenblatt reinigst du es bei geschlossenem Eckventil, ohne die Leitung zu entleeren.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.megabad.com/documents/84/054280699-de-84357.pdf",
+        "https://media.contorion.de/content/pdf/ede/de/sldb_054300699_de.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://www.schell.eu/de-de/produkte/eckventile-und-geraeteanschluss-armaturen/eckventile/",
+    "https://media.contorion.de/content/pdf/ede/de/sldb_054070699_de.pdf",
+    "https://www.megabad.com/documents/10/grohe-specification-sheet-22037al0-de-100932.pdf",
+    "https://media.contorion.de/content/pdf/ede/de/sldb_049020699_de.pdf",
+    "https://media.contorion.de/content/pdf/ede/de/sldb_052170699_de.pdf",
+    "https://www.schell.eu/de-at/produkte/eckventile-und-geraeteanschluss-armaturen/eckventile/eckventile/eckventile-spezial-eckventile/050340699/pdf/",
+    "https://schell.eu/fileadmin/tx_dmmediacockpit/SCHE-9105_Faltblatt%20ASAG%20easy%20%26%20Raendierung%202024_DT_RZ-Screen_WebHighRes-3.pdf",
+    "https://neuesbad.de/media/pdf/38/6b/34/sldb_035690699_de.pdf",
+    "https://neuesbad.de/media/pdf/fb/45/37/sldb_035550699_de.pdf",
+    "https://media.contorion.de/content/pdf/ede/de/sldb_035500699_de.pdf",
+    "https://www.schell.eu/de-de/produkte/eckventile-und-geraeteanschluss-armaturen/geraeteanschluss-armaturen/geraeteanschluss-armaturen/geraeteventile/033920699/pdf/",
+    "https://www.megabad.com/documents/84/054280699-de-84357.pdf",
+    "https://www.bauexpertenforum.de/goto/post?id=1113926",
+    "https://www.bauexpertenforum.de/goto/post?id=891650",
+    "https://www.bauexpertenforum.de/threads/eckventil-nicht-gaengig-da-kein-absperrventil.134317/",
+    "https://www.energiesparhaus.at/forum/74075"
+  ]
+}
