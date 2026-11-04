@@ -86,6 +86,25 @@ export async function markenNachHauptbereich(marken: Marke[]): Promise<{ name: s
     if (!zuordnung.has(s.marke_id)) zuordnung.set(s.marke_id, new Set());
     zuordnung.get(s.marke_id)!.add(h.slug);
   }
+  // Marken ohne Serien (z. B. Roto): nach den Teilearten ihrer Teile, der Hauptbereich mit den meisten Treffern
+  const ohneSerien = marken.filter((m) => !zuordnung.has(m.id));
+  if (ohneSerien.length > 0) {
+    const { data: teile } = await supabase.from("teile").select("marke_id, teiltyp").in("marke_id", ohneSerien.map((m) => m.id));
+    const treffer = new Map<string, Map<string, number>>();
+    for (const t of (teile ?? []) as { marke_id: string; teiltyp: string }[]) {
+      for (const b of BEREICHE.filter((x) => x.teiltypen.includes(t.teiltyp))) {
+        const h = hauptbereichVon(b.slug);
+        if (!h) continue;
+        const z = treffer.get(t.marke_id) ?? new Map<string, number>();
+        z.set(h.slug, (z.get(h.slug) ?? 0) + 1);
+        treffer.set(t.marke_id, z);
+      }
+    }
+    treffer.forEach((z, markeId) => {
+      const bester = Array.from(z.entries()).sort((x, y) => y[1] - x[1])[0];
+      if (bester) zuordnung.set(markeId, new Set([bester[0]]));
+    });
+  }
   const gruppen = HAUPTBEREICHE.map((h) => ({ name: h.name, marken: marken.filter((m) => zuordnung.get(m.id)?.has(h.slug)) }));
   const weitere = marken.filter((m) => !zuordnung.has(m.id));
   return [...gruppen, { name: "Weitere", marken: weitere }].filter((g) => g.marken.length > 0);
