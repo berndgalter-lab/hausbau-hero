@@ -9,12 +9,14 @@
     {
       "ursache": "Schmutz oder Kalk unter der Dichtung des Spülventils",
       "erklaerung": "Das Spülventil (bei älteren Kästen die Heberglocke) sitzt mit einer Dichtung auf dem Ablauf. Liegt Kalk oder ein Krümel dazwischen, schließt es nicht mehr dicht, und Wasser rinnt direkt nach dem Spülen weiter ins Becken. Laut Geberit ist das die typische Ursache. Spülventil herausnehmen, Dichtung und Ablaufsitz mit Wasser oder einem trockenen Tuch reinigen, wieder einsetzen und einmal spülen.",
-      "haeufigkeit": "häufig"
+      "haeufigkeit": "häufig",
+      "teilart": "spuelkasten"
     },
     {
       "ursache": "Dichtung am Spülventil verschlissen",
-      "erklaerung": "Ist die Dichtung rissig, hart oder verformt, hilft Reinigen nicht mehr. Die Dichtung gibt es einzeln, bei Geberit zum Beispiel 244.244.00.1 für das Spülventil Typ 212 und 816.418.00.1 für ältere Heberglocken. Welche passt, hängt am Spülventil, nicht an der Drückerplatte.",
-      "haeufigkeit": "häufig"
+      "erklaerung": "Ist die Dichtung rissig, hart oder verformt, hilft Reinigen nicht mehr. Bei Geberit gibt es für das Spülventil Typ 212 die Flachdichtung 244.244.00.1, für ältere Heberglocken 816.418.00.1. Beim Sigma UP320 bis Baujahr 01/2022 und beim Delta UP100 bis 01/2024 tauscht man laut Geberit das ganze Spülventil. Welches Teil passt, hängt am Spülkasten, nicht an der Drückerplatte.",
+      "haeufigkeit": "häufig",
+      "teilart": "spuelkasten"
     },
     {
       "ursache": "Füllventil schaltet nicht ab, Wasser läuft über den Überlauf",
@@ -31,7 +33,8 @@
     {
       "ursache": "Betätigung drückt dauerhaft auf das Spülventil",
       "erklaerung": "Sitzt die Drückerplatte schief oder sind die Drückerstangen zu lang eingestellt, wird das Spülventil nie ganz losgelassen. Platte abnehmen: Hört das Nachlaufen dann auf, Drückerstangen kürzen oder neu einstellen.",
-      "haeufigkeit": "selten"
+      "haeufigkeit": "selten",
+      "teilart": "spuelkasten"
     }
   ],
   "pruefen": [
@@ -120,6 +123,7 @@
     "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/service-fuers-bad/",
     "https://www.geberit.de/service-support/ersatzteile/",
     "https://www.megabad.com/magazin/?p=18181",
-    "https://toom.de/selbermachen/bad-sanitaer/toiletten-bidets-urinale/unterputzspuelkasten-reparieren/"
+    "https://toom.de/selbermachen/bad-sanitaer/toiletten-bidets-urinale/unterputzspuelkasten-reparieren/",
+    "https://catalog.geberit.de/de-DE/spare-part/SPT_461050"
   ]
 }
