@@ -42,6 +42,7 @@ const VERWEISE: Record<string, Verweis[]> = {
   "badewannenarmatur-ratgeber": [
     { href: "/ersatzteile/grohe/eurosmart-wannenarmatur", titel: "Ersatzteile für Grohe Eurosmart Wannenbatterie", art: "serie" },
     { href: "/ersatzteile/grohe/grohtherm-800", titel: "Ersatzteile für Grohe Grohtherm 800 Thermostat", art: "serie" },
+    { href: "/ersatzteile/hansgrohe/ecostat-comfort", titel: "Ersatzteile für hansgrohe Ecostat Comfort Thermostat", art: "serie" },
     { href: "/problem/grohe-thermostat-wird-nicht-warm-kalt", titel: "Thermostat wird nicht warm oder nicht kalt", art: "problem" },
     { href: "/problem/hansgrohe-thermostat-wird-nicht-warm", titel: "hansgrohe Thermostat wird nicht warm", art: "problem" },
   ],

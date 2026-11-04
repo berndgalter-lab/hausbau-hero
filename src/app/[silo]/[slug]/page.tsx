@@ -2,6 +2,8 @@ import { supabase } from "@/lib/supabase";
 import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import ProduktKarte, { ProduktUebersicht } from "@/components/ProduktKarte";
+import VergleichsTabelle from "@/components/VergleichsTabelle";
+import { angeboteFuerEans, normEan, type EanAngebot } from "@/lib/kaufberatung";
 import ArticleContent from "@/components/ArticleContent";
 import { getPassendeRechner } from "@/lib/rechner-zuordnung";
 import { ersatzteilVerweise } from "@/lib/ersatzteil-verweise";
@@ -67,6 +69,14 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
 
   const werkzeuge = produkte.filter((p: any) => p.ist_werkzeug);
   const hauptProdukte = produkte.filter((p: any) => !p.ist_werkzeug);
+
+  // Shop-Angebote und Bilder der Partnershops, über die EAN der Produkte
+  const nachEan = await angeboteFuerEans(hauptProdukte.map((p: any) => p.ean));
+  const angebote: Record<string, EanAngebot[]> = {};
+  for (const p of hauptProdukte) {
+    const e = normEan(p.ean);
+    if (e && nachEan.has(e)) angebote[p.id] = nachEan.get(e)!;
+  }
   const hasContent = seite.content_md && seite.content_md.trim().length > 50;
 
   const rechnerSlugs = getPassendeRechner(seite.slug, seite.passende_rechner);
@@ -117,7 +127,7 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
         Dieser Artikel enthält Affiliate-Links. Wenn du über diese Links einkaufst, erhalten wir eine kleine Provision — für dich ändert sich der Preis nicht.
       </div>
 
-      <ProduktUebersicht produkte={hauptProdukte} />
+      <ProduktUebersicht produkte={hauptProdukte} angebote={angebote} />
 
       {hasContent ? (
         <ArticleContent html={seite.content_md} />
@@ -135,11 +145,13 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
           <h2 className="text-2xl font-bold mb-4">Unsere Empfehlungen im Detail</h2>
           <div className="grid gap-4">
             {hauptProdukte.map((p: any) => (
-              <ProduktKarte key={p.id} produkt={p} />
+              <ProduktKarte key={p.id} produkt={p} angebote={angebote[p.id]} />
             ))}
           </div>
         </section>
       )}
+
+      <VergleichsTabelle produkte={hauptProdukte} angebote={angebote} />
 
       {werkzeuge.length > 0 && (
         <section className="mt-8 mb-8 p-6 bg-amber-50 border border-amber-200 rounded-xl">

@@ -28,8 +28,10 @@ SQL INSERT in Supabase → Seite ist live. Siehe `scripts/seed-rechner.sql` als 
 
 ## Partnershops (Awin) und Produktbilder
 
-Neben Amazon zeigen die Teile-Seiten Angebote von **hagebau.de** (Awin 11513) und **Contorion** (Awin 14578)
-mit Preis, Lieferbarkeit und Produktbild.
+Neben Amazon zeigen die Teile-Seiten und die Kaufberatungen Angebote von **hagebau.de** (Awin 11513),
+**Contorion** (Awin 14578) und **OTTO** (Awin 14336, Feed „Wohnen, Spielzeug und Baumarkt“) mit Preis,
+Lieferbarkeit und Produktbild. Ersatzteile werden über EAN oder Herstellernummer zugeordnet, Produkte der
+Kaufberatungen nur über die EAN (Tabelle `ean_angebote`), weil die Feeds für Armaturen keine Herstellernummer haben.
 
 Ablauf: Der GitHub-Workflow `partner-feeds` gleicht die Awin-Feeds täglich mit der Tabelle `teile` ab
 (`scripts/import/awin_feed.py`) und legt `angebote.json` in den Branch `feed-daten`. Supabase holt die Datei
@@ -50,10 +52,13 @@ Supabase liest stündlich aus dem main-Branch (`supabase/migrations/20261104_inh
 - **Kaufberatungen:** `data/artikel/<slug>.html`, `<slug>.produkte.json` und `<slug>.meta.json`
   (`slug`, `silo`, `titel`, `seo_title`, `seo_description`, `quellen`) anlegen, Slug in `data/artikel/index.json`
   eintragen, nach main mergen. Läuft zur Minute 47 ein.
+  Je Produkt zusätzlich `hersteller_nr`, `ean` (nur wenn eine Quelle Nummer und EAN zusammen nennt) und
+  `technische_daten` (Schlüssel siehe `src/lib/armatur-daten.ts`). Mit EAN bekommt das Produkt Bild und
+  Shop-Preise, mit `technische_daten.kategorie` erscheint es in der Datentabelle und unter `/vergleich/armaturen`.
 - Geändert wird nur, was sich seit dem letzten Lauf geändert hat. Protokoll:
   `select pfad, importiert, ergebnis from intern.datei_importe order by importiert desc;`
 
 Offen bei Hansgrohe (`data/ersatzteile/hansgrohe.json`, Feld `nicht_geprueft`): Die 59 Zuordnungen „Herstellerangabe“
 beruhen auf Suchergebnis-Auszügen von hansgrohe-Seiten und sollten stichprobenartig im Browser gegengeprüft werden.
-In der Kaufberatung Niederdruckarmatur sind zwei ASINs noch ungeprüft weggelassen: B008CEOCQE (GROHE 32955000),
-B003WF1NHY (hansgrohe 31804000).
+Die beiden früher ungeprüften ASINs der Niederdruck-Kaufberatung (B008CEOCQE, B003WF1NHY) sind über die
+Modellnummer auf der Amazon-Seite bestätigt und eingetragen.

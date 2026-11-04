@@ -5,9 +5,14 @@ Ersatzteilen in Supabase ab und schreibt pro Teil und Shop ein Angebot
 (Partnerlink, Preis, Lieferbarkeit, Bild) in die Tabelle `angebote`.
 Das beste Bild landet zusätzlich in `teile.bild_url`.
 
-Shops (Awin-Publisher 930939, beide Partnerschaften aktiv):
+Shops (Awin-Publisher 930939, alle Partnerschaften aktiv):
     hagebau.de   Advertiser 11513
     Contorion    Advertiser 14578
+    OTTO         Advertiser 14336 (nur der Feed „Wohnen, Spielzeug und Baumarkt“)
+
+KAUFBERATUNGEN: Produkte aus `produkte` mit EAN bekommen ebenfalls Shop-Angebote
+(Tabelle `ean_angebote`, Schlüssel EAN + Shop). Zugeordnet wird dort nur über die
+EAN, weil die Feeds keine Herstellernummern für Armaturen enthalten.
 
 ZUORDNUNG — lieber ein Treffer zu wenig als ein falsches Teil:
   1. EAN des Feed-Produkts = EAN des Teils.
@@ -76,9 +81,11 @@ WURZEL = os.path.dirname(os.path.dirname(HIER))
 CACHE = os.path.join(WURZEL, ".cache", "awin")
 BILD_HOSTS = json.load(open(os.path.join(WURZEL, "src", "lib", "bild-hosts.json"), encoding="utf-8"))["hosts"]
 
+# feed_name: Hat ein Shop mehrere Feeds, wird der genommen, dessen Name das enthält.
 SHOPS = [
     {"slug": "hagebau", "name": "hagebau.de", "advertiser_id": 11513},
     {"slug": "contorion", "name": "Contorion", "advertiser_id": 14578},
+    {"slug": "otto", "name": "OTTO", "advertiser_id": 14336, "feed_name": "Baumarkt"},
 ]
 
 SPALTEN = [
@@ -264,6 +271,8 @@ def feed_ids(key, feste):
         passend = [z for z in zeilen if feld(z, "advertiserid") == str(s["advertiser_id"])]
         aktiv = [z for z in passend if re.search(r"active|joined|aktiv", feld(z, "membershipstatus"), re.I)] or passend
         deutsch = [z for z in aktiv if feld(z, "language").lower().startswith("de")] or aktiv
+        if s.get("feed_name"):
+            deutsch = [z for z in deutsch if s["feed_name"].lower() in feld(z, "feedname").lower()]
         if not deutsch:
             print(f"  {s['name']}: kein Feed in der Feedliste (Partnerschaft aktiv? Feed freigeschaltet?)")
             continue
@@ -318,6 +327,20 @@ class Supabase:
 
     def teile(self):
         return self._anfrage("GET", "teile?select=id,slug,name,oem_nummer,ean,bild_quelle,bild_shop,marken(name)&aktiv=eq.true")
+
+    def produkt_eans(self):
+        """EANs der Kaufberatungs-Produkte (normalisiert)."""
+        zeilen = self._anfrage("GET", "produkte?select=ean&ean=not.is.null")
+        return {e for e in (norm_ean(z.get("ean")) for z in zeilen) if e}
+
+    def ean_angebote_upsert(self, liste):
+        for i in range(0, len(liste), 200):
+            self._anfrage("POST", "ean_angebote?on_conflict=ean,shop", liste[i:i + 200],
+                          prefer="resolution=merge-duplicates,return=minimal")
+
+    def ean_angebote_abschalten(self, shop, vor):
+        q = urllib.parse.urlencode({"shop": f"eq.{shop}", "stand": f"lt.{vor}", "aktiv": "eq.true"})
+        self._anfrage("PATCH", f"ean_angebote?{q}", {"aktiv": False}, prefer="return=minimal")
 
     def angebote_upsert(self, liste):
         for i in range(0, len(liste), 200):
@@ -375,6 +398,21 @@ class Index:
 
 
 def angebot(shop, r, teil_id, art, stand):
+    a = angebot_felder(shop, r, stand)
+    if a:
+        a.update({"teil_id": teil_id, "treffer": art})
+    return a
+
+
+def ean_angebot(shop, r, ean, stand):
+    """Angebot für ein Kaufberatungs-Produkt (Tabelle ean_angebote)."""
+    a = angebot_felder(shop, r, stand)
+    if a:
+        a["ean"] = ean
+    return a
+
+
+def angebot_felder(shop, r, stand):
     url = (r.get("aw_deep_link") or "").strip()
     if not url.startswith("https://www.awin1.com/"):
         return None
@@ -382,7 +420,6 @@ def angebot(shop, r, teil_id, art, stand):
     if not pid:
         return None
     return {
-        "teil_id": teil_id,
         "shop": shop["slug"],
         "shop_name": shop["name"],
         "netzwerk": "awin",
@@ -395,17 +432,16 @@ def angebot(shop, r, teil_id, art, stand):
         "vorraetig": vorraetig(r),
         "lieferzeit": (r.get("delivery_time") or "").strip()[:80] or None,
         "bild_url": bild(r),
-        "treffer": art,
         "stand": stand,
         "aktiv": True,
     }
 
 
 def besser(a, b):
-    """Ist Angebot a besser als b (gleiches Teil, gleicher Shop)?"""
+    """Ist Angebot a besser als b (gleiches Teil bzw. gleiche EAN, gleicher Shop)?"""
     def rang(x):
         lager = {True: 0, None: 1, False: 2}[x["vorraetig"]]
-        return (0 if x["treffer"] == "ean" else 1, lager, x["preis"] if x["preis"] is not None else 1e9)
+        return (0 if x.get("treffer", "ean") == "ean" else 1, lager, x["preis"] if x["preis"] is not None else 1e9)
     return rang(a) < rang(b)
 
 
@@ -416,10 +452,17 @@ def ist_kandidat(r):
     return bool(KANDIDAT_BEGRIFFE.search(f"{r.get('product_name') or ''} {r.get('merchant_category') or ''}"))
 
 
-def verarbeite(shop, pfad, index, stand, kandidaten):
+def verarbeite(shop, pfad, index, stand, kandidaten, produkt_eans=frozenset(), ean_beste=None):
+    """Bestes Angebot je Teil. Mit produkt_eans landet zusätzlich das beste Angebot je
+    Kaufberatungs-EAN in ean_beste."""
     beste, gelesen, hosts = {}, 0, {}
     for r in zeilen(pfad):
         gelesen += 1
+        if ean_beste is not None and produkt_eans:
+            for e in {norm_ean(r.get("ean")), norm_ean(r.get("product_GTIN"))} & produkt_eans:
+                a = ean_angebot(shop, r, e, stand)
+                if a and (e not in ean_beste or besser(a, ean_beste[e])):
+                    ean_beste[e] = a
         tr = index.treffer(r)
         for tid, art in tr:
             a = angebot(shop, r, tid, art, stand)
@@ -455,6 +498,7 @@ def main():
     ap.add_argument("--json-ausgabe", help="Ergebnis als JSON für intern.importiere_angebote (Supabase)")
     ap.add_argument("--feed-datei", action="append", default=[], metavar="SHOP=PFAD", help="lokaler Feed statt Download")
     ap.add_argument("--teile-json", help="Teile aus Datei statt aus Supabase (offline)")
+    ap.add_argument("--produkte-json", help="Kaufberatungs-Produkte [{\"ean\": …}] aus Datei statt aus Supabase (offline)")
     ap.add_argument("--cached", action="store_true", help="letzten Download aus .cache/awin nutzen")
     args = ap.parse_args()
 
@@ -467,6 +511,11 @@ def main():
         teile = db.teile()
     index = Index(teile)
     print(f"Teile: {len(teile)} ({len(index.nach_ean)} mit EAN, {len(index.nach_nr)} mit Nummer)")
+    if args.produkte_json:
+        produkt_eans = {e for e in (norm_ean(p.get("ean")) for p in json.load(open(args.produkte_json, encoding="utf-8"))) if e}
+    else:
+        produkt_eans = db.produkt_eans() if db else set()
+    print(f"Kaufberatungs-Produkte mit EAN: {len(produkt_eans)}")
 
     dateien = dict(x.split("=", 1) for x in args.feed_datei)
     if not dateien and args.cached:
@@ -490,19 +539,23 @@ def main():
             print(f"  {s['name']}: {os.path.getsize(ziel) / 1e6:.1f} MB geladen")
             dateien[s["slug"]] = ziel
 
-    alle, kandidaten, fertig = [], ([] if args.kandidaten else None), []
+    alle, ean_alle, kandidaten, fertig = [], [], ([] if args.kandidaten else None), []
     for s in SHOPS:
         if s["slug"] not in dateien:
             continue
-        beste, gelesen, hosts = verarbeite(s, dateien[s["slug"]], index, stand, kandidaten)
+        ean_beste = {}
+        beste, gelesen, hosts = verarbeite(s, dateien[s["slug"]], index, stand, kandidaten, produkt_eans, ean_beste)
         if gelesen == 0:
             print(f"{s['name']}: Feed leer, wird übersprungen.")
             continue
         fertig.append(s["slug"])
         alle.extend(beste.values())
+        ean_alle.extend(ean_beste.values())
         ean = sum(1 for a in beste.values() if a["treffer"] == "ean")
         print(f"\n{s['name']}: {gelesen} Produkte gelesen, {len(beste)} Teile zugeordnet ({ean} über EAN, "
               f"{len(beste) - ean} über Nummer), {sum(1 for a in beste.values() if a['bild_url'])} mit Bild")
+        print(f"  Kaufberatungs-Produkte: {len(ean_beste)} von {len(produkt_eans)} EANs gefunden, "
+              f"{sum(1 for a in ean_beste.values() if a['bild_url'])} mit Bild")
         fremd = [f"{h} ({n})" for h, n in sorted(hosts.items(), key=lambda x: -x[1])[:5] if not host_erlaubt(f"https://{h}/")]
         if fremd:
             print(f"  Bild-Hosts ohne Freigabe (Bild kommt dann über productserve): {', '.join(fremd)}")
@@ -540,8 +593,10 @@ def main():
                 "shops_fertig": fertig,
                 "angebote": alle,
                 "bilder": [{"teil_id": tid, "bild_url": a["bild_url"], "bild_shop": a["shop"]} for tid, a in bilder.items()],
+                "ean_angebote": ean_alle,
             }, fh, ensure_ascii=False, indent=1)
-        print(f"\nJSON für Supabase: {args.json_ausgabe} ({len(alle)} Angebote, {len(bilder)} Bilder)")
+        print(f"\nJSON für Supabase: {args.json_ausgabe} ({len(alle)} Angebote, {len(bilder)} Bilder, "
+              f"{len(ean_alle)} Angebote für Kaufberatungen)")
 
     if not fertig:
         print("\nKein Feed verarbeitet: nichts geschrieben.")
@@ -551,8 +606,10 @@ def main():
         return
 
     db.angebote_upsert(alle)
+    db.ean_angebote_upsert(ean_alle)
     for slug in fertig:
         db.angebote_abschalten(slug, stand)  # was in diesem Lauf nicht mehr vorkam
+        db.ean_angebote_abschalten(slug, stand)
     gesetzt = geloescht = 0
     for t in teile:
         if t.get("bild_quelle") not in (None, "awin"):
