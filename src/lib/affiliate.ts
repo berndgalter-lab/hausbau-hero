@@ -1,13 +1,13 @@
 // Zentrale Behandlung von Affiliate-Links: Amazon und Awin-Partnershops (hagebau.de, Contorion).
 //
 // Platzierungen: Produktboxen, Textlinks im Artikel, Rechner-Materiallisten, Ersatzteil-Seiten,
-// Shop-Angebote auf den Teile-Seiten.
+// Shop-Angebote auf den Teile-Seiten und in Kaufberatungen, Armaturen-Vergleich.
 // Für jede Platzierung kann in PartnerNet eine eigene Tracking-ID angelegt und
 // per Env-Variable gesetzt werden. Dann zeigt der Amazon-Bericht, welche
 // Platzierung verkauft. Ohne Env-Variable bleibt der Tag aus der Datenbank.
 // Nur Tracking-IDs setzen, die in PartnerNet wirklich existieren.
 
-export type Platzierung = "box" | "text" | "rechner" | "teil" | "angebot";
+export type Platzierung = "box" | "text" | "rechner" | "teil" | "angebot" | "vergleich";
 
 // Direkter Zugriff, damit Next.js die Werte beim Build einsetzt.
 const TAGS: Partial<Record<Platzierung, string | undefined>> = {
@@ -15,6 +15,7 @@ const TAGS: Partial<Record<Platzierung, string | undefined>> = {
   text: process.env.NEXT_PUBLIC_AMAZON_TAG_TEXT,
   rechner: process.env.NEXT_PUBLIC_AMAZON_TAG_RECHNER,
   teil: process.env.NEXT_PUBLIC_AMAZON_TAG_TEIL,
+  vergleich: process.env.NEXT_PUBLIC_AMAZON_TAG_VERGLEICH,
 };
 
 export const AFFILIATE_REL = "sponsored nofollow noopener noreferrer";

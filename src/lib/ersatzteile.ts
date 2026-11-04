@@ -56,9 +56,8 @@ export interface Teil {
 }
 
 /** Angebot eines Partnershops (Awin-Feed, täglich abgeglichen von scripts/import/awin_feed.py). */
-export interface Angebot {
+export interface ShopAngebot {
   id: string;
-  teil_id: string;
   shop: string;
   shop_name: string;
   produkt_name: string;
@@ -68,8 +67,13 @@ export interface Angebot {
   vorraetig: boolean | null;
   lieferzeit: string | null;
   bild_url: string | null;
-  treffer: "ean" | "nummer";
   stand: string;
+}
+
+/** Angebot zu einem Ersatzteil (Tabelle angebote). */
+export interface Angebot extends ShopAngebot {
+  teil_id: string;
+  treffer: "ean" | "nummer";
 }
 
 export interface Zuordnung {
@@ -178,15 +182,15 @@ export function teilKauflink(teil: Teil, markeName: string): string | null {
 }
 
 /** Angebote älter als das zeigen wir nicht: Dann ist der Feed-Lauf ausgefallen und der Preis womöglich falsch. */
-const ANGEBOT_MAX_ALTER_TAGE = 3;
+export const ANGEBOT_MAX_ALTER_TAGE = 3;
 
 /** Preis nur bei vorrätiger (oder unbekannter) Ware. Nicht vorrätig mit Preis wäre ein Lockangebot (UWG). */
-export function zeigePreis(a: Angebot): boolean {
+export function zeigePreis(a: ShopAngebot): boolean {
   return a.preis !== null && a.vorraetig !== false;
 }
 
 /** Günstigste zuerst, nicht vorrätige ans Ende. */
-export function sortiereAngebote(liste: Angebot[]): Angebot[] {
+export function sortiereAngebote<T extends ShopAngebot>(liste: T[]): T[] {
   return [...liste].sort((a, b) => {
     const pa = zeigePreis(a) ? a.preis! : Infinity;
     const pb = zeigePreis(b) ? b.preis! : Infinity;

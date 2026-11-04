@@ -1,4 +1,5 @@
-# Täglicher Abgleich der Awin-Feeds (hagebau.de, Contorion) mit den Ersatzteilen.
+# Täglicher Abgleich der Awin-Feeds (hagebau.de, Contorion, OTTO) mit den Ersatzteilen und den
+# Produkten der Kaufberatungen.
 # Logik und Regeln: scripts/import/awin_feed.py
 #
 # Ablauf: Das Skript liest die Teile mit dem öffentlichen Supabase-Schlüssel, gleicht die Feeds ab

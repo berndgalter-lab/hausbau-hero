@@ -1,5 +1,8 @@
 import { getAffiliateLink, formatPreis } from "@/lib/rechner-logic";
 import { AFFILIATE_REL, mitTrackingId } from "@/lib/affiliate";
+import { formatEuro, formatStand, zeigePreis } from "@/lib/ersatzteile";
+import { bildAusAngeboten, type EanAngebot } from "@/lib/kaufberatung";
+import TeilBild from "@/components/TeilBild";
 
 export interface Produkt {
   id: string;
@@ -16,6 +19,9 @@ export interface Produkt {
   nachteile?: string[];
   ist_testsieger?: boolean;
   ist_preistipp?: boolean;
+  ean?: string | null;
+  hersteller_nr?: string | null;
+  technische_daten?: Record<string, unknown> | null;
 }
 
 export function produktLink(produkt: Produkt): string | null {
@@ -39,8 +45,46 @@ function Badges({ produkt }: { produkt: Produkt }) {
   );
 }
 
-export default function ProduktKarte({ produkt, compact = false }: { produkt: Produkt; compact?: boolean }) {
+// Angebote der Partnershops (über die EAN aus den Awin-Feeds). Preis nur bei vorrätiger Ware,
+// siehe zeigePreis. Das Produktbild stammt aus demselben Feed, deshalb steht der Shop daneben.
+export function ShopAngebote({ angebote, kennung, platzierung = "angebot" }: {
+  angebote: EanAngebot[];
+  kennung: string;
+  platzierung?: "angebot" | "vergleich";
+}) {
+  if (angebote.length === 0) return null;
+  const aeltester = angebote.reduce<string | null>((m, a) => (!m || a.stand < m ? a.stand : m), null);
+  return (
+    <div className="mt-3">
+      <ul className="divide-y divide-stone-100 border border-stone-200 rounded-lg">
+        {angebote.slice(0, 3).map((a) => (
+          <li key={a.id} className="flex items-center justify-between gap-3 px-3 py-2 text-sm">
+            <span className="text-stone-700">{a.shop_name}</span>
+            <a href={mitTrackingId(a.url, "angebot")} target="_blank" rel={AFFILIATE_REL} data-platzierung={platzierung}
+              data-shop={a.shop} data-kennung={kennung}
+              className="text-amber-700 font-semibold hover:underline whitespace-nowrap">
+              {zeigePreis(a) ? formatEuro(a.preis!) : a.vorraetig === false ? "Lieferzeit im Shop" : "Preis im Shop"} →
+            </a>
+          </li>
+        ))}
+      </ul>
+      {aeltester && (
+        <p className="text-[11px] leading-snug text-stone-500 mt-1">
+          Shop-Preise inkl. MwSt., zzgl. Versand, Stand {formatStand(aeltester)} Uhr. Maßgeblich ist der Shop.
+        </p>
+      )}
+    </div>
+  );
+}
+
+export default function ProduktKarte({ produkt, compact = false, angebote = [] }: {
+  produkt: Produkt;
+  compact?: boolean;
+  angebote?: EanAngebot[];
+}) {
   const link = produktLink(produkt);
+  const bild = bildAusAngeboten(angebote);
+  const kennung = (produkt.hersteller_nr || produkt.name).slice(0, 80);
 
   if (compact) {
     return (
@@ -63,11 +107,14 @@ export default function ProduktKarte({ produkt, compact = false }: { produkt: Pr
 
   return (
     <div className="bg-white border border-stone-200 rounded-xl p-5 relative">
-      <div className="flex items-start justify-between mb-3">
-        <div>
-          <Badges produkt={produkt} />
-          <h3 className="text-lg font-semibold mt-1">{produkt.name}</h3>
-          {produkt.hersteller && <div className="text-sm text-stone-500">{produkt.hersteller}</div>}
+      <div className="flex items-start justify-between gap-4 mb-3">
+        <div className="flex items-start gap-4 min-w-0">
+          {bild && <TeilBild url={bild.url} alt={produkt.name} shop={bild.shop} groesse={112} />}
+          <div className="min-w-0">
+            <Badges produkt={produkt} />
+            <h3 className="text-lg font-semibold mt-1">{produkt.name}</h3>
+            {produkt.hersteller && <div className="text-sm text-stone-500">{produkt.hersteller}</div>}
+          </div>
         </div>
         {produkt.preis_von && (
           <div className="text-right">
@@ -113,13 +160,17 @@ export default function ProduktKarte({ produkt, compact = false }: { produkt: Pr
           Aktuellen Preis auf Amazon prüfen →
         </a>
       )}
+      <ShopAngebote angebote={angebote} kennung={kennung} />
     </div>
   );
 }
 
 // Kompakte Übersicht ganz oben im Artikel: wer schon weiß, was er will,
 // kommt mit einem Klick zum Produkt, ohne den ganzen Text zu lesen.
-export function ProduktUebersicht({ produkte }: { produkte: Produkt[] }) {
+export function ProduktUebersicht({ produkte, angebote = {} }: {
+  produkte: Produkt[];
+  angebote?: Record<string, EanAngebot[]>;
+}) {
   if (produkte.length === 0) return null;
   return (
     <section className="mb-8 border-2 border-amber-300 rounded-xl overflow-hidden">
@@ -128,15 +179,22 @@ export function ProduktUebersicht({ produkte }: { produkte: Produkt[] }) {
       </div>
       <ul className="divide-y divide-stone-100 bg-white">
         {produkte.map((p) => {
-          const link = produktLink(p);
+          const bild = bildAusAngeboten(angebote[p.id] ?? []);
+          // Ohne Amazon-Link (kein sauberes Listing) führt der Button zum günstigsten Partnershop.
+          const shop = (angebote[p.id] ?? [])[0];
+          const link = produktLink(p) ?? (shop ? mitTrackingId(shop.url, "angebot") : null);
           return (
             <li key={p.id} className="flex flex-col sm:flex-row sm:items-center gap-3 px-4 py-3">
-              <div className="flex-1 min-w-0">
-                <Badges produkt={p} />
-                <div className="font-semibold text-stone-900 mt-1">{p.name}</div>
+              <div className="flex-1 min-w-0 flex items-center gap-3">
+                {bild && <TeilBild url={bild.url} alt={p.name} groesse={56} />}
+                <div className="min-w-0">
+                  <Badges produkt={p} />
+                  <div className="font-semibold text-stone-900 mt-1">{p.name}</div>
+                </div>
               </div>
               {link && (
                 <a href={link} target="_blank" rel={AFFILIATE_REL} data-platzierung="uebersicht" data-kennung={p.name.slice(0, 80)}
+                  data-shop={produktLink(p) ? undefined : shop?.shop}
                   className="shrink-0 text-center bg-amber-600 text-white text-sm font-semibold px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors whitespace-nowrap">
                   Preis prüfen →
                 </a>

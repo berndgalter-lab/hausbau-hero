@@ -7,6 +7,7 @@ import { useState } from "react";
 const PUNKTE = [
   { href: "/ersatzteile", label: "Ersatzteile", icon: "🔩" },
   { href: "/bad", label: "Bad-Kaufberatung", icon: "🚿" },
+  { href: "/vergleich/armaturen", label: "Armaturen-Vergleich", icon: "⚖️" },
   { href: "/problem", label: "Problemlöser", icon: "🛠️" },
   { href: "/rechner", label: "Rechner", icon: "🧮" },
 ];

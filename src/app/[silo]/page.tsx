@@ -100,6 +100,16 @@ export default async function SiloPage({ params }: { params: { silo: string } })
         <p className="text-stone-600 mb-8 max-w-2xl">{silo.beschreibung}</p>
       )}
 
+      {params.silo === "bad" && (
+        <a href="/vergleich/armaturen"
+          className="group block mb-10 p-5 bg-white border-2 border-amber-300 rounded-xl hover:border-amber-500 transition-colors">
+          <div className="font-semibold text-lg group-hover:text-amber-700">Armaturen-Vergleich →</div>
+          <div className="text-sm text-stone-600">
+            Alle Armaturen aus unseren Kaufberatungen mit Maßen, Hoch- oder Niederdruck und Shop-Preisen, bis zu vier nebeneinander.
+          </div>
+        </a>
+      )}
+
       {rechnerList.length > 0 && (
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4">Rechner</h2>

@@ -63,7 +63,15 @@ FEED = [
     # Kein Kandidat: fremde Ware
     zeile(product_name="Bosch Akkuschrauber", brand_name="Bosch", merchant_product_id="E1",
           aw_deep_link=LINK.format(9), search_price="79"),
+    # Armatur aus einer Kaufberatung (nur EAN, keine Herstellernummer im Feed), zweimal: vorrätig schlägt billiger
+    zeile(product_name="Grohe Wannen-Thermostat Grohtherm 800 1/2\", Wandmontage, chrom", brand_name="Grohe",
+          ean="04005176310157", merchant_product_id="F1", aw_deep_link=LINK.format(10), search_price="175.99",
+          in_stock="1", aw_image_url=IMG.format(10)),
+    zeile(product_name="Grohe Grohtherm 800 Wanne", brand_name="Grohe", product_GTIN="4005176310157",
+          merchant_product_id="F2", aw_deep_link=LINK.format(11), search_price="160.00", in_stock="0"),
 ]
+
+PRODUKT_EANS = {"4005176310157", "4011097678832"}
 
 
 def schreibe_feed(pfad, zeilen):
@@ -80,10 +88,32 @@ class FeedTest(unittest.TestCase):
         schreibe_feed(self.pfad, FEED)
         self.index = af.Index([dict(t) for t in TEILE])
         self.kand = []
-        self.beste, self.gelesen, _ = af.verarbeite(af.SHOPS[0], self.pfad, self.index, "2026-11-03T04:00:00+00:00", self.kand)
+        self.ean_beste = {}
+        self.beste, self.gelesen, _ = af.verarbeite(af.SHOPS[0], self.pfad, self.index, "2026-11-03T04:00:00+00:00",
+                                                    self.kand, PRODUKT_EANS, self.ean_beste)
+
+    def test_kaufberatung_ean(self):
+        self.assertEqual(set(self.ean_beste), {"4005176310157"})  # die zweite EAN steht in keinem Feed
+        a = self.ean_beste["4005176310157"]
+        self.assertEqual((a["produkt_id"], a["preis"], a["vorraetig"], a["ean"]), ("F1", 175.99, True, "4005176310157"))
+        self.assertNotIn("teil_id", a)
 
     def test_gelesen(self):
         self.assertEqual(self.gelesen, len(FEED))
+
+    def test_otto_feedauswahl(self):
+        otto = next(s for s in af.SHOPS if s["slug"] == "otto")
+        self.assertEqual(otto["advertiser_id"], 14336)
+        liste = ("Advertiser ID,Feed ID,Feed Name,Language,Membership Status,No of products\n"
+                 "14336,1,Kategorien: Mode und Beauty,German,active,344799\n"
+                 "14336,2,\"Wohnen, Spielzeug und Baumarkt\",German,active,321530\n")
+        alt = af.holen
+        af.holen = lambda *a, **k: liste.encode()
+        try:
+            ids = af.feed_ids("KEY", {"hagebau": "9", "contorion": "8"})
+        finally:
+            af.holen = alt
+        self.assertEqual(ids["otto"], "2")  # nicht der größere Mode-Feed
 
     def test_ean_schlaegt_nummer(self):
         a = self.beste["t1"]
@@ -130,11 +160,12 @@ class FeedTest(unittest.TestCase):
 class AusgabeTest(unittest.TestCase):
     def test_json_fuer_supabase(self):
         tmp = tempfile.mkdtemp()
-        feed, teile, aus = (os.path.join(tmp, n) for n in ("hagebau.csv.gz", "teile.json", "angebote.json"))
+        feed, teile, produkte, aus = (os.path.join(tmp, n) for n in ("hagebau.csv.gz", "teile.json", "produkte.json", "angebote.json"))
         schreibe_feed(feed, FEED)
         json.dump(TEILE, open(teile, "w"))
+        json.dump([{"ean": e} for e in PRODUKT_EANS] + [{"ean": None}], open(produkte, "w"))
         skript = os.path.join(os.path.dirname(os.path.abspath(__file__)), "awin_feed.py")
-        r = subprocess.run([sys.executable, "-I", skript, "--trocken", "--teile-json", teile,
+        r = subprocess.run([sys.executable, "-I", skript, "--trocken", "--teile-json", teile, "--produkte-json", produkte,
                             "--feed-datei", f"hagebau={feed}", "--json-ausgabe", aus], capture_output=True, text=True)
         self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
         d = json.load(open(aus))
@@ -143,6 +174,7 @@ class AusgabeTest(unittest.TestCase):
         # t3 hat ein eigenes Foto, bekommt aber trotzdem einen Bildvorschlag; die Datenbank überschreibt "eigen" nicht.
         self.assertEqual({b["teil_id"] for b in d["bilder"]}, {"t1", "t2"})
         self.assertTrue(all(a["url"].startswith("https://www.awin1.com/") for a in d["angebote"]))
+        self.assertEqual([(a["ean"], a["shop"]) for a in d["ean_angebote"]], [("4005176310157", "hagebau")])
 
 
 if __name__ == "__main__":
