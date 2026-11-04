@@ -138,6 +138,8 @@ export const PRODUKTTYP_LABEL: Record<string, string> = {
   geraeteventil: "Geräteventile",
   aussenventil: "Außenventile (frostsicher)",
   druckspueler: "Druckspüler",
+  wc_sitz: "WC-Sitze",
+  waschtisch: "Waschtische",
 };
 
 export const TEILTYP_LABEL: Record<string, string> = {
@@ -161,6 +163,8 @@ export const TEILTYP_LABEL: Record<string, string> = {
   oberteil: "Oberteile & Spindeln",
   filter: "Filter",
   kolben: "Kolben",
+  scharnier: "WC-Sitz-Scharniere",
+  absenkautomatik: "Absenkautomatik (Soft Close)",
   sonstiges: "Weitere Teile",
 };
 

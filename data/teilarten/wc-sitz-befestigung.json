@@ -8,7 +8,7 @@
   "seo_description": "Lochabstand messen, Befestigung von oben oder unten, Scharnier-Nummern von Villeroy & Boch, Laufen und Duravit, Absenkautomatik als Ersatzteil.",
   "kurz": "Ob eine Befestigung passt, hängt an zwei Dingen: dem Abstand der beiden Löcher in der Keramik und daran, ob du von unten an die Löcher kommst. Am häufigsten sind 155 mm, neuere Villeroy-&-Boch-Sitze haben 180 mm.\n\nBei Markensitzen gibt es Scharniere und Absenkautomatik meist einzeln. Die Nummer steht im Datenblatt des Sitzes, nicht des WCs.",
   "bereiche": ["wc-spuelkasten"],
-  "teiltypen": [],
+  "teiltypen": ["scharnier", "absenkautomatik"],
   "erkennen": [
     {
       "titel": "Lochabstand messen",
