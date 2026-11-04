@@ -5,7 +5,7 @@ import KlickZaehler from "@/components/KlickZaehler";
 import { Analytics } from "@vercel/analytics/next";
 import localFont from "next/font/local";
 import { Newsreader } from "next/font/google";
-import { BEREICHE } from "@/lib/bereiche";
+import { sichtbareBereiche } from "@/lib/bereiche-daten";
 
 const geist = localFont({ src: "./fonts/GeistVF.woff", variable: "--font-geist", weight: "100 900", display: "swap" });
 const geistMono = localFont({ src: "./fonts/GeistMonoVF.woff", variable: "--font-geist-mono", weight: "100 900", display: "swap" });
@@ -14,11 +14,11 @@ const newsreader = Newsreader({ subsets: ["latin"], variable: "--font-serif", di
 export const metadata: Metadata = {
   metadataBase: new URL("https://hausbau-hero.de"),
   title: {
-    default: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Ratgeber",
+    default: "Hausbau Hero — Ersatzteile und Reparatur rund ums Haus",
     template: "%s | Hausbau Hero",
   },
   description:
-    "Das passende Ersatzteil für Armatur und Spülkasten finden, das richtige Bad-Produkt wählen und selbst einbauen – mit Artikelnummern und Quellen.",
+    "Was ist kaputt? Das passende Ersatzteil rund ums Haus finden, die Ursache klären oder das richtige Produkt wählen – mit Artikelnummern und Quellen.",
   authors: [{ name: "Hausbau Hero" }],
   creator: "BG Online Media UG",
   publisher: "Hausbau Hero",
@@ -38,23 +38,23 @@ export const metadata: Metadata = {
     locale: "de_DE",
     siteName: "Hausbau Hero",
     url: "https://hausbau-hero.de",
-    title: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Ratgeber",
+    title: "Hausbau Hero — Ersatzteile und Reparatur rund ums Haus",
     description:
-      "Das passende Ersatzteil für Armatur und Spülkasten finden – mit Artikelnummern und Quellen.",
+      "Das passende Ersatzteil rund ums Haus finden – mit Artikelnummern und Quellen.",
     images: [
       {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Ratgeber",
+        alt: "Hausbau Hero — Ersatzteile und Reparatur rund ums Haus",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Ratgeber",
+    title: "Hausbau Hero — Ersatzteile und Reparatur rund ums Haus",
     description:
-      "Das passende Ersatzteil für Armatur und Spülkasten finden – mit Artikelnummern und Quellen.",
+      "Das passende Ersatzteil rund ums Haus finden – mit Artikelnummern und Quellen.",
     images: ["/opengraph-image"],
   },
   alternates: {
@@ -69,7 +69,7 @@ const organizationLd = {
   url: "https://hausbau-hero.de",
   logo: "https://hausbau-hero.de/logo.png",
   description:
-    "Sanitär-Ersatzteile finden und Bad-Produkte auswählen – mit Artikelnummern und Quellen.",
+    "Ersatzteile und Reparatur rund ums Haus – mit Artikelnummern und Quellen.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Grünwiesenstraße 33",
@@ -90,7 +90,7 @@ const websiteLd = {
   "@type": "WebSite",
   name: "Hausbau Hero",
   url: "https://hausbau-hero.de",
-  description: "Sanitär-Ersatzteile finden und Bad-Produkte auswählen.",
+  description: "Ersatzteile und Reparatur rund ums Haus.",
   inLanguage: "de-DE",
   publisher: { "@type": "Organization", name: "Hausbau Hero" },
 };
@@ -130,7 +130,9 @@ const FUSS_SPALTEN = [
   },
 ];
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  // Im Fuß nur Bereiche mit Inhalt, sonst führt der Link auf eine 404-Seite (z. B. ein gerade angelegter Bereich).
+  const bereiche = await sichtbareBereiche().catch(() => []);
   return (
     <html lang="de" className={`${geist.variable} ${geistMono.variable} ${newsreader.variable}`}>
       <head>
@@ -170,7 +172,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.12em] text-stone-500">Bereiche</p>
                 <ul className="mt-4 space-y-2.5 text-sm">
-                  {BEREICHE.map((b) => (
+                  {bereiche.map((b) => (
                     <li key={b.slug}>
                       <a href={`/bereich/${b.slug}`} className="hover:text-white">{b.name}</a>
                     </li>

@@ -1,7 +1,7 @@
 import { supabase } from "@/lib/supabase";
 import { alleMarken, alleProbleme, type Marke, type Problem, type Serie } from "@/lib/ersatzteile";
 import { artikelUrl } from "@/lib/produkt-ratgeber";
-import { BEREICHE, bereichHatInhalt, type Bereich } from "@/lib/bereiche";
+import { BEREICHE, HAUPTBEREICHE, bereichFuerProdukttyp, bereichHatInhalt, hauptbereichVon, type Bereich } from "@/lib/bereiche";
 import { problemeAllgemeinImBereich, type ProblemAllgemein } from "@/lib/probleme-allgemein";
 import { teilartenImBereich, type Teilart } from "@/lib/teilarten";
 
@@ -62,6 +62,33 @@ export async function sichtbareBereiche(): Promise<Bereich[]> {
       probleme: problemeAllgemeinImBereich(b.slug).length + probleme.filter((p) => b.probleme.test(p.slug)).length,
     }),
   );
+}
+
+/** Hauptbereiche mit ihren sichtbaren Bereichen, leere fallen weg. */
+export async function sichtbareHauptbereiche(): Promise<{ slug: string; name: string; bereiche: Bereich[] }[]> {
+  const sichtbar = await sichtbareBereiche();
+  return HAUPTBEREICHE.map((h) => ({ slug: h.slug, name: h.name, bereiche: sichtbar.filter((b) => h.bereiche.includes(b.slug)) })).filter(
+    (h) => h.bereiche.length > 0,
+  );
+}
+
+/**
+ * Marken nach Hauptbereich, über die Produkttypen ihrer Serien (Grohe → Bad & Küche, VELUX → Fenster & Türen).
+ * Eine Marke kann in mehreren stehen; ohne passende Serie landet sie unter „Weitere“.
+ */
+export async function markenNachHauptbereich(marken: Marke[]): Promise<{ name: string; marken: Marke[] }[]> {
+  const { data } = await supabase.from("serien").select("marke_id, produkttyp");
+  const zuordnung = new Map<string, Set<string>>();
+  for (const s of (data ?? []) as { marke_id: string; produkttyp: string }[]) {
+    const b = bereichFuerProdukttyp(s.produkttyp);
+    const h = b ? hauptbereichVon(b.slug) : null;
+    if (!h) continue;
+    if (!zuordnung.has(s.marke_id)) zuordnung.set(s.marke_id, new Set());
+    zuordnung.get(s.marke_id)!.add(h.slug);
+  }
+  const gruppen = HAUPTBEREICHE.map((h) => ({ name: h.name, marken: marken.filter((m) => zuordnung.get(m.id)?.has(h.slug)) }));
+  const weitere = marken.filter((m) => !zuordnung.has(m.id));
+  return [...gruppen, { name: "Weitere", marken: weitere }].filter((g) => g.marken.length > 0);
 }
 
 export async function bereichDaten(b: Bereich): Promise<BereichDaten> {

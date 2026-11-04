@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { BereichKachel, RatgeberKarten } from "@/components/Bereich";
-import { ratgeberKarten, sichtbareBereiche } from "@/lib/bereiche-daten";
+import { markenNachHauptbereich, ratgeberKarten, sichtbareHauptbereiche } from "@/lib/bereiche-daten";
 import { problemAllgemeinNachSlug } from "@/lib/probleme-allgemein";
 import { alleMarken } from "@/lib/ersatzteile";
 import SuchFeld from "@/components/SuchFeld";
@@ -10,26 +10,30 @@ export const revalidate = 300;
 export const metadata: Metadata = {
   title: { absolute: "Hausbau Hero: Ersatzteile und Reparatur rund ums Haus" },
   description:
-    "Was ist kaputt? Armatur tropft, Spülkasten läuft nach, Thermostat wird nicht warm: Ursache finden, das passende Ersatzteil mit Originalnummer bestellen oder das richtige Produkt wählen.",
+    "Was ist kaputt? Vom Wasserhahn bis zum Dachfenster: Ursache finden, das passende Ersatzteil mit Originalnummer bestellen oder das richtige Produkt wählen.",
   alternates: { canonical: "https://hausbau-hero.de" },
 };
 
 // Schnellwege aus dem Kopf: das Symptom, wie man es sagt, und der Bereich, in dem es gelöst wird.
-// Gibt es die markenübergreifende Problemseite, führt der Link dorthin, sonst in den Bereich.
+// Gibt es die markenübergreifende Problemseite, führt der Link dorthin, sonst in den Bereich;
+// ist der Bereich noch nicht sichtbar, fällt der Eintrag weg. Aus jedem Hauptbereich etwas.
 const HAEUFIG = [
   { text: "Wasserhahn tropft", problem: "wasserhahn-tropft", bereich: "waschtisch" },
   { text: "Spülkasten läuft nach", problem: "spuelkasten-laeuft-nach", bereich: "wc-spuelkasten" },
   { text: "Thermostat wird nicht warm", problem: "thermostat-wird-nicht-warm", bereich: "dusche-badewanne" },
+  { text: "Dachfenster undicht", problem: "dachfenster-undicht", bereich: "dachfenster" },
   { text: "Spüle dichtet nicht", problem: "spuele-dichtet-nicht", bereich: "kueche" },
-].map((h) => ({ text: h.text, href: problemAllgemeinNachSlug(h.problem) ? `/problem/${h.problem}` : `/bereich/${h.bereich}` }));
+];
 
+// Fehlt ein Ratgeber noch, fällt er weg (ratgeberKarten liest nur aktive Seiten).
 const RATGEBER_START = [
   "waschtischarmatur-ratgeber",
+  "dachfenster-sonnenschutz",
   "geberit-sigma-drueckerplatte",
   "badewannenarmatur-ratgeber",
+  "kuechenarmatur",
   "vorwandelement-wc",
   "kleinhebeanlage",
-  "waschtischarmatur-mit-brause",
 ];
 
 const RECHNER = [
@@ -59,14 +63,30 @@ const GRUNDSAETZE = [
   },
 ];
 
+/** „A, B und C“ */
+function liste(namen: string[]): string {
+  return namen.length <= 1 ? namen.join("") : `${namen.slice(0, -1).join(", ")} und ${namen[namen.length - 1]}`;
+}
+
 // Startseite nach dem Muster von womo-teile (docs/SEITENAUFBAU.md, Abschnitt 2a): oben zwei Einstiege
 // (Nummer suchen, Problem), dann die Bereiche im Haus, Marken, Ratgeber zum Neukauf und Rechner.
 export default async function Home() {
-  const [marken, ratgeber, bereiche] = await Promise.all([
+  const [marken, ratgeber, hauptbereiche] = await Promise.all([
     alleMarken().catch(() => []),
     ratgeberKarten(RATGEBER_START).catch(() => []),
-    sichtbareBereiche(),
+    sichtbareHauptbereiche(),
   ]);
+  const markenGruppen = await markenNachHauptbereich(marken).catch(() => [{ name: "", marken }]);
+  const sichtbar = new Set(hauptbereiche.flatMap((h) => h.bereiche.map((b) => b.slug)));
+  const haeufig = HAEUFIG.flatMap((h) =>
+    problemAllgemeinNachSlug(h.problem)
+      ? [{ text: h.text, href: `/problem/${h.problem}` }]
+      : sichtbar.has(h.bereich)
+        ? [{ text: h.text, href: `/bereich/${h.bereich}` }]
+        : [],
+  );
+  const bereichsNamen = hauptbereiche.map((h) => h.name);
+  const markenNamen = marken.map((m) => m.name);
 
   return (
     <div>
@@ -78,8 +98,8 @@ export default async function Home() {
               Was ist kaputt? Wir finden das passende Teil.
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-stone-600">
-              Für Armatur, Thermostat, Spülkasten und Spüle: mit Originalnummer, passendem Modell und der Quelle, aus der
-              die Zuordnung stammt.
+              Für {liste(bereichsNamen)}: mit Originalnummer, passendem Modell und der Quelle, aus der die Zuordnung
+              stammt.
             </p>
 
             <div className="mt-8">
@@ -93,7 +113,7 @@ export default async function Home() {
             <div className="mt-9">
               <p className="text-sm font-medium text-stone-900">Oder direkt zum Problem:</p>
               <ul className="mt-3 flex flex-wrap gap-2">
-                {HAEUFIG.map((h) => (
+                {haeufig.map((h) => (
                   <li key={h.text}>
                     <a
                       href={h.href}
@@ -135,9 +155,16 @@ export default async function Home() {
             <p className="mt-2 text-stone-600">Wähle die Stelle im Haus. Dort stehen Probleme, Teile und Marken.</p>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-3 min-[420px]:grid-cols-2 lg:grid-cols-3 sm:gap-4">
-          {bereiche.map((b) => (
-            <BereichKachel key={b.slug} b={b} />
+        <div className="space-y-10">
+          {hauptbereiche.map((h) => (
+            <div key={h.slug}>
+              {hauptbereiche.length > 1 && <h3 className="ueberzeile mb-4">{h.name}</h3>}
+              <div className="grid grid-cols-1 gap-3 min-[420px]:grid-cols-2 lg:grid-cols-3 sm:gap-4">
+                {h.bereiche.map((b) => (
+                  <BereichKachel key={b.slug} b={b} />
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </section>
@@ -149,15 +176,22 @@ export default async function Home() {
               Ersatzteile nach Marke
               <span className="block font-normal text-stone-500">mit Originalnummer</span>
             </h2>
-            <ul className="flex flex-wrap gap-x-7 gap-y-3">
-              {marken.map((m) => (
-                <li key={m.id}>
-                  <a href={`/ersatzteile/${m.slug}`} className="font-serif text-xl text-stone-700 transition-colors hover:text-accent-700 sm:text-2xl">
-                    {m.name}
-                  </a>
-                </li>
+            <div className="space-y-4">
+              {markenGruppen.map((g) => (
+                <div key={g.name} className="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:gap-6">
+                  {markenGruppen.length > 1 && <span className="shrink-0 text-xs font-medium uppercase tracking-wide text-stone-500 sm:w-32">{g.name}</span>}
+                  <ul className="flex flex-wrap gap-x-7 gap-y-3">
+                    {g.marken.map((m) => (
+                      <li key={m.id}>
+                        <a href={`/ersatzteile/${m.slug}`} className="font-serif text-xl text-stone-700 transition-colors hover:text-accent-700 sm:text-2xl">
+                          {m.name}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
         </section>
       )}
@@ -213,9 +247,9 @@ export default async function Home() {
       </section>
 
       <p className="mt-16 max-w-3xl text-sm leading-relaxed text-stone-500">
-        Auf hausbau-hero.de findest du Ersatzteile für Armaturen, Thermostate, Spülkästen und Küchenspülen von Grohe,
-        hansgrohe, Ideal Standard, Geberit, Blanco und Franke, mit Original-Artikelnummer und der Quelle, aus der die
-        Zuordnung stammt. Die Problemlöser führen vom Symptom zum Teil, die Ratgeber helfen, wenn sich ein Neukauf mehr lohnt.
+        Auf hausbau-hero.de findest du Ersatzteile rund ums Haus, für {liste(bereichsNamen)}, von {liste(markenNamen)}: mit
+        Original-Artikelnummer und der Quelle, aus der die Zuordnung stammt. Die Problemlöser führen vom Symptom zum Teil,
+        die Ratgeber helfen, wenn sich ein Neukauf mehr lohnt.
       </p>
     </div>
   );

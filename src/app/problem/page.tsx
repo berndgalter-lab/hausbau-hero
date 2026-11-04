@@ -6,9 +6,9 @@ import { alleProblemeAllgemein } from "@/lib/probleme-allgemein";
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: "Problemlöser: Spülkasten, Armatur & Co. selbst reparieren",
+  title: "Problemlöser: Ursache finden und selbst reparieren",
   description:
-    "Spülkasten läuft nach, Armatur tropft, Thermostat wird nicht warm: Ursachen, betroffene Ersatzteile und wann der Installateur ran muss.",
+    "Was funktioniert nicht? Ursachen nach Häufigkeit, Prüfschritte, das passende Ersatzteil und die Grenze, ab der ein Fachbetrieb ran muss.",
   alternates: { canonical: "https://hausbau-hero.de/problem" },
 };
 
@@ -24,7 +24,7 @@ export default async function ProblemUebersicht() {
       <h1 className="text-[2.25rem] sm:text-5xl leading-[1.1] font-semibold">Problemlöser</h1>
       <p className="text-lg text-stone-600 mt-4 mb-12 max-w-2xl leading-relaxed">
         Vom Symptom zum passenden Ersatzteil: Ursachen nach Häufigkeit, Prüfschritte und die Grenze, ab der ein
-        Installateur sinnvoll ist.
+        Fachbetrieb sinnvoll ist.
       </p>
       {allgemein.length > 0 && (
         <section className="mb-10">

@@ -75,7 +75,9 @@ Im Code durchgesetzt, gilt für alle Seiten (alte Beiträge eingeschlossen):
 
 **Bereiche** stehen in `src/lib/bereiche.ts`: Name, Satz für die Kachel, Einleitung, Produkttypen der Serien, Teilearten, Muster für die Problem-Slugs, Ratgeber-Slugs. Die Zeichnung steht in `src/components/BereichBild.tsx` (eine Linienstärke, `currentColor`, kein Foto). Ein Bereich ohne Modelle und ohne Probleme ist `noindex` und fehlt in der Sitemap.
 
-**Neuen Bereich anlegen:** erst die Daten (Marken-Datei mit Serien, Teilen, Problemen), dann den Eintrag in `BEREICHE` und eine Zeichnung. Keine Kachel ohne Inhalt dahinter.
+**Hauptbereiche:** Die Bereiche sind nach der Hauskarte aus `docs/BEREICHE-REIHENFOLGE.md` gruppiert (`HAUPTBEREICHE` in `src/lib/bereiche.ts`: Bad & Küche, Wasser & Wärme, Fenster & Türen). Startseite (Bereiche, Marken) und `/ersatzteile` (Marken, Teilearten) zeigen diese Gruppen; eine Marke gehört über die Produkttypen ihrer Serien zu einem oder mehreren Hauptbereichen. Texte auf Startseite, Übersichten, Seitentitel und Vorschaubild sind bereichsneutral, Aufzählungen von Bereichen und Marken werden aus den Daten gebaut. Die Symptome auf der Startseite (`HAEUFIG`) decken jeden Hauptbereich ab; ein Symptom ohne Problemseite und ohne sichtbaren Bereich fällt weg.
+
+**Neuen Bereich anlegen:** Zeile in `HAUPTBEREICHE`, dann erst die Daten (Marken-Datei mit Serien, Teilen, Problemen), dann den Eintrag in `BEREICHE` und eine Zeichnung. Keine Kachel ohne Inhalt dahinter.
 
 **Neukauf-Hinweis:** Teil-, Modell- und Problemseiten zeigen den Kasten „Lieber eine neue Armatur?“ (`src/components/Neukauf.tsx`), wenn der Bereich einen `neukauf`-Eintrag hat: ein Satz, wann sich Neukauf mehr lohnt, bis zu drei Modelle aus dem Ratgeber mit Bild und günstigstem Partnershop-Preis, Link zum Ratgeber. Ohne Angebot mit Preis gibt es keinen Kasten. Kauflinks bleiben Textzeilen (Platzierung `neukauf`, Awin-`clickref` `hh-neukauf`). Mit `nurBei` lässt sich der Hinweis auf passende Seiten begrenzen (Drückerplatte nicht bei „Spülkasten läuft nach“).
 
