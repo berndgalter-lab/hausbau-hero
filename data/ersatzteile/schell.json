@@ -1,0 +1,2261 @@
+{
+ "marke": {
+  "slug": "schell",
+  "name": "Schell",
+  "beschreibung": "Schell aus Olpe ist vor allem für Eckventile bekannt, dazu kommen Geräteventile für Wasch- und Spülmaschine, die frostsicheren Außenwandarmaturen POLAR und POLAR II, die WC-Druckspüler SCHELLOMAT und Selbstschluss-Armaturen wie PETIT SC und PURIS SC für öffentliche Waschräume.\n\nFür Eckventile führt Schell im Katalog keine einzelnen Oberteile oder Dichtungen, hier wird das ganze Ventil getauscht. Bei Außenventilen, Druckspülern und Selbstschluss-Armaturen führt Schell dagegen Oberteile, Dichtspitzen, Kolben, Kartuschen und Griffe, auch für ältere Modelle wie die erste POLAR oder den SCHELLOMAT mit Hebel.",
+  "nummer_hinweis": "Schell-Artikelnummern haben zehn Ziffern in vier Blöcken, zum Beispiel 04 917 06 99 für das Standard-Eckventil COMFORT. Der dritte Block steht für die Oberfläche: Dieselbe Armatur heißt verchromt 03 405 06 99 und mattverchromt 03 405 03 99, Betätigungsplatten in Alpinweiß haben dort 15, in Edelstahl 28. Viele Ersatzteile aus Messing oder Kunststoff enden auf 00 99, etwa die Dichtspitze 22 234 00 99.\n\nDie Nummer steht auf Verpackung, Montageanleitung und Rechnung. Fehlt sie, hilft der Ersatzteilkatalog: Er ordnet die Teile nach Produktnamen (POLAR II, SCHELLOMAT BASIC, PETIT SC) und hat ein Nummernregister mit EAN. Schell-EANs beginnen mit 4021163. Bei Eckventilen reicht es, Wandgewinde und Abgang am alten Ventil zu messen.",
+  "ersatzteil_garantie": "Schell gibt Verbrauchern fünf Jahre Herstellergarantie ab Kauf, höchstens aber sieben Jahre ab Herstellung. Verschleißteile wie Dichtungen und Schläuche, Verbrauchsmaterial wie Filter und Strahlregler sowie Schäden durch Kalk, Schmutz oder Eis sind ausgeschlossen. Die Garantie gilt nur mit Original-Ersatzteilen und mit Rechnung.\n\nEine feste Zahl an Jahren, wie lange es Ersatzteile gibt, nennt Schell nicht. Der Katalog 2026 führt aber Teile für Ausführungen, die seit Jahren nicht mehr gebaut werden, etwa Kartuschen für SCHELLOMAT Silent Eco bis 2008, den Messingkolben für den SCHELLOMAT bis 09/2011 und das Umrüstset für PURIS SC von vor Oktober 2006.",
+  "hersteller_ersatzteil_url": "https://www.schell.eu/de-de/service/ersatzteile",
+  "quellen": [
+   "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf",
+   "https://www.schell.eu/fileadmin/tx_dmmediacockpit/ET_2026_DE.pdf",
+   "https://www.schell.eu/de-de/service/ersatzteile",
+   "https://www.schell.eu/fileadmin/tx_dmmediacockpit/903030300_C_POLAR_II_NEU-1.pdf",
+   "https://media.contorion.de/content/pdf/ede/de/slma_903015900_b.pdf",
+   "https://www.megabad.com/documents/84/021300699-1-de-84276.pdf"
+  ],
+  "fragen": [
+   {
+    "frage": "Woran erkenne ich, ob ich eine Schell POLAR oder eine POLAR II habe?",
+    "antwort": "Am sichersten über die Artikelnummer auf Rechnung oder Anleitung: Die POLAR II zur Nachrüstung hat 03 995 03 99 oder 03 996 03 99, das POLAR II Set 03 997 oder 03 998 03 99, die ältere POLAR Nummern von 03 978 06 99 bis 03 983 06 99. Ohne Nummer hilft die Spindel: Das Oberteil der alten POLAR hat laut Schell eine 285 mm lange Spindel, das der POLAR II 177,5 mm. Beim POLAR II Set wird die Spindel bei der Montage auf die Wanddicke gekürzt.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=293",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+     "https://www.bauexpertenforum.de/threads/schell-polar-neue-spindel-passt-nicht.138894/"
+    ],
+    "teile": [
+     "schell-oberteil-222360099",
+     "schell-oberteil-221450099",
+     "schell-oberteil-222350099"
+    ],
+    "problem": "schell-aussenventil-tropft"
+   },
+   {
+    "frage": "Ich habe für meinen Schell Außenhahn POLAR ein neues Oberteil bestellt, aber es passt nicht. Woran liegt das?",
+    "antwort": "POLAR und POLAR II sind verschiedene Systeme. Im Forum war das Oberteil 22 145 00 99 für die alte POLAR rund 1 cm zu lang und hatte eine andere Gewindesteigung, mit dem Oberteil 22 236 00 99 für die POLAR II funktionierte der Hahn wieder. Für das POLAR II Set gibt es das Oberteil 22 235 00 99 mit 488 mm langer Spindel zum Kürzen.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.bauexpertenforum.de/threads/schell-polar-neue-spindel-passt-nicht.138894/",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490"
+    ],
+    "teile": [
+     "schell-oberteil-221450099",
+     "schell-oberteil-222360099",
+     "schell-oberteil-222350099"
+    ]
+   },
+   {
+    "frage": "Welche Kartusche brauche ich für die Schell Selbstschluss-Armatur PETIT SC oder PURIS SC?",
+    "antwort": "Das hängt am Wasser, nicht an der Serie: Für Kaltwasser oder vorgemischtes Wasser (HD-K, etwa PETIT SC 02 122 oder PURIS SC 02 110) nennt Schell die Selbstschluss-Kartusche 29 733 00 99, für Mischwasser (HD-M, PETIT SC 02 151, PURIS SC 02 125) die 29 736 00 99. Beide gelten für Armaturen ab Oktober 2006 und ersetzen ältere Kartuschen wie 29 638 00 99 und 29 637 00 99.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=386",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=388",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=389"
+    ],
+    "teile": [
+     "schell-kartusche-297330099",
+     "schell-kartusche-297360099"
+    ],
+    "problem": "schell-selbstschluss-armatur-tropft"
+   },
+   {
+    "frage": "Welches Schell Geräteventil brauche ich für Waschmaschine oder Spülmaschine, nur mit Rückflussverhinderer oder auch mit Rohrbelüfter?",
+    "antwort": "Alle Geräteschrägsitzventile COMFORT haben einen Rückflussverhinderer. 03 392 06 99 hat zusätzlich einen Rohrbelüfter, zusammen die Sicherungskombination HD, 03 390 06 99 hat stattdessen einen Wasserstopp, der schließt, wenn der Schlauch platzt. Zu 03 386 06 99 empfiehlt Schell den Rohrbelüfter 28 602 06 99 zum Aufschrauben. Im Forum hieß es, bei Maschinen mit eigenem Wasserstopp reiche der Rückflussverhinderer.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=278",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=279",
+     "https://www.energiesparhaus.at/forum-welches-geraeteanschlussventil-ist-das-richtige/76419"
+    ],
+    "teile": [
+     "schell-geraeteventil-033920699",
+     "schell-geraeteventil-033860699",
+     "schell-rohrbeluefter-286020699"
+    ]
+   },
+   {
+    "frage": "Mein Schell Eckventil ist undicht. Kann ich nur das Oberteil tauschen, oder muss das ganze Ventil raus?",
+    "antwort": "Das ganze Ventil. Schell führt im Katalog keine Oberteile oder Dichtungen für Eckventile, und in den Foren raten mehrere Installateure übereinstimmend zum Komplettaustausch, weil ein neues Eckventil nur wenige Euro kostet. Miss vorher Wandgewinde (meist G 1/2) und Abgang (meist 10 mm). Oberteile gibt es bei Schell für Geräte- und Auslaufventile.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/267446/Eckventil-welcher-Hersteller-Ersatzteile-",
+     "https://www.haustechnikdialog.de/Forum/t/133208/Verkalkte-Eckventile-und-Schraegsitzventile",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=297",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=317"
+    ],
+    "teile": [
+     "schell-eckventil-049170699",
+     "schell-eckventil-049070699",
+     "schell-eckventil-049160699"
+    ],
+    "problem": "schell-eckventil-undicht"
+   },
+   {
+    "frage": "Der Griff an meinem Schell Eckventil dreht durch. Gibt es den Griff einzeln?",
+    "antwort": "Einen Ersatzgriff für Eckventile führt Schell im Katalog nicht. Im Forum schlug einer vor, den Griff von einem baugleichen neuen Schell-Ventil umzustecken, drei andere, darunter Installateure, rieten zum Tausch des ganzen Ventils, weil alte Ventileinsätze oft auch schwergängig sind. Ursache war dort zu festes Zudrehen.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/145157/Eckventil-Aufsaetze-wechseln",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=296",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=317"
+    ],
+    "teile": [
+     "schell-eckventil-049170699",
+     "schell-eckventil-049070699",
+     "schell-eckventil-049160699"
+    ],
+    "problem": "schell-eckventil-undicht"
+   },
+   {
+    "frage": "Muss ich ein selbstdichtendes Schell Eckventil mit ASAG easy zusätzlich mit Hanf oder Band eindichten?",
+    "antwort": "Nein. Schell schließt zusätzliches Dichtmittel auf dem ASAG-easy-Gewinde aus. Der Dichtring muss beim Einschrauben 3 mm im Gegengewinde verschwinden, danach darf das Ventil noch in die richtige Stellung gedreht werden. Tropft ein neues Ventil am Wandanschluss, ist es meist nicht weit genug eingeschraubt oder der Ring wurde an einer scharfen Muffenkante beschädigt. Im Forum berichten mehrere Nutzer seit Jahren gute Erfahrungen mit den Ventilen.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://schell.eu/fileadmin/tx_dmmediacockpit/SCHE-9105_Faltblatt%20ASAG%20easy%20%26%20Raendierung%202024_DT_RZ-Screen_WebHighRes-3.pdf",
+     "https://www.haustechnikdialog.de/Forum/t/246236/selbstdichtende-Eckventile-aktuelle-Erfahrungen",
+     "https://www.haustechnikdialog.de/Forum/t/263214/ASAG-Eckventile-direkt-in-Wandscheibe-ohne-Hahnverlaengerung-"
+    ],
+    "teile": [
+     "schell-eckventil-049170699",
+     "schell-eckventil-049160699",
+     "schell-eckventil-035490699"
+    ],
+    "problem": "schell-eckventil-undicht"
+   },
+   {
+    "frage": "Beim Schell POLAR II läuft Wasser aus dem kleinen Loch unten. Ist der Außenhahn kaputt?",
+    "antwort": "Nicht unbedingt. Das Loch ist die Belüftung: Nach dem Schließen entleert sich die Armatur darüber, und steht ein angeschlossener Schlauch unter Druck, etwa weil die Spritze vorn zu ist, baut Schell den Überdruck über diese Öffnung ab. Läuft dort ohne Schlauch dauernd Wasser, ist meist eine Dichtung am Oberteil defekt. In einem Forenfall fehlte ein kleiner O-Ring an der Spindel. Für die POLAR II gibt es das Dichtelemente-Set 25 896 00 99.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/903030300_C_POLAR_II_NEU-1.pdf",
+     "https://www.haustechnikdialog.de/Forum/t/132497/Aussenzapfstelle-Schell-Polar-2",
+     "https://www.haustechnikdialog.de/Forum/t/269093/Schell-Polar-II-Funktionweise",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489"
+    ],
+    "teile": [
+     "schell-dichtung-258960099",
+     "schell-oberteil-222360099"
+    ],
+    "problem": "schell-aussenventil-tropft"
+   },
+   {
+    "frage": "Mein Schell POLAR II schließt nur noch, wenn ich den Griff Richtung Wand drücke. Was hilft?",
+    "antwort": "Im Forum waren sich zwei Antwortende einig: Die Kunststoff-Rastbuchse im Griff ist ausgeleiert. Der Fragesteller hat sie ersetzt, danach schloss der Hahn wieder. Schell führt den COMFORT-Griff 47 996 06 99 mit Rastbuchse als Ersatzteil für POLAR II und POLAR II Set.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.bauexpertenforum.de/threads/aussenwasserhahn-laesst-sich-fast-nicht-schliessen.121057/",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489"
+    ],
+    "teile": [
+     "schell-griff-479960699"
+    ],
+    "problem": "schell-aussenventil-tropft"
+   },
+   {
+    "frage": "Aus meinem Schell POLAR II kommt kein Wasser mehr. Woran liegt das?",
+    "antwort": "Im Forum lag es am Rückflussverhinderer, der hinten in der Dichtspitze sitzt: Schmutz hatte ihn blockiert, er saß schief. Ausbauen, reinigen und wieder einsetzen löste das Problem, das hat der Fragesteller bestätigt. Ist die Dichtspitze beschädigt, gibt es sie einzeln (22 234 00 99) oder mit dem ganzen Oberteil (22 236 00 99).",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/207300/Schell-Polar-2-Aussenwasserhahn",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/903030300_C_POLAR_II_NEU-1.pdf"
+    ],
+    "teile": [
+     "schell-dichtung-222340099",
+     "schell-oberteil-222360099"
+    ]
+   },
+   {
+    "frage": "Mein Schell WC-Druckspüler läuft nach dem Drücken ständig weiter. Lohnt sich die Reparatur?",
+    "antwort": "Meist ja, wenn das Gehäuse dicht ist. Die Schell-Anleitung zum SCHELLOMAT mit Hebel nennt bei Dauerlauf: Kolben tauschen oder Düsenbohrung reinigen, die Anleitung zum Silent Eco: Kartusche tauschen. Im Forum beschreiben Heimwerker den Kolbentausch als einfach, Installateure raten bei sehr alten Spülern eher zum neuen Gerät samt Spülrohr.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.manualslib.es/manual/150322/Schell-Schellomat.html",
+     "https://media.contorion.de/content/pdf/ede/de/slma_903015900_b.pdf",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=467",
+     "https://www.haustechnikdialog.de/Forum/t/253745/Schell-Druckspueler-tropft",
+     "https://www.haustechnikdialog.de/Forum/t/139450/WC-Druckspueler-auseinander-bauen-einfach-"
+    ],
+    "teile": [
+     "schell-kolben-294200099",
+     "schell-kolben-293000099",
+     "schell-kartusche-296180099",
+     "schell-kartusche-294900099"
+    ],
+    "problem": "schell-druckspueler-spuelung-laeuft-nach"
+   },
+   {
+    "frage": "Gibt es für alte Schell-Ventile und Druckspüler noch Ersatzteile?",
+    "antwort": "Für Außenventile, Druckspüler und Selbstschluss-Armaturen oft ja: Der Katalog 2026 führt etwa das Oberteil für die alte POLAR, den Messingkolben für den SCHELLOMAT mit Hebel und Kartuschen für SCHELLOMAT Silent Eco bis 2008. Für Eckventile gibt es keine Innenteile, im Forum zu einem Schell-Eckventil von 1984 rieten die Antwortenden zum Tausch des ganzen Ventils. Eine feste Liefergarantie für Ersatzteile in Jahren nennt Schell nicht.",
+    "kategorie": "verfuegbarkeit",
+    "quellen": [
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=466",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=467",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=512",
+     "https://www.haustechnikdialog.de/Forum/t/209511/Innenleben-fuer-1984er-Schell-Eckventil-gibt-es-das-noch-in-neu-"
+    ],
+    "teile": [
+     "schell-oberteil-221450099",
+     "schell-kolben-293000099",
+     "schell-kartusche-294790099"
+    ]
+   },
+   {
+    "frage": "Wie mache ich den frostsicheren Schell Außenhahn POLAR winterfest?",
+    "antwort": "Laut Schell vor der Frostperiode alle Schläuche und anderen Anschlüsse abnehmen und den Hahn immer bis zum Anschlag zudrehen, dabei muss Wasser auslaufen. Mit angeschlossenem Schlauch entleeren sich Armatur und Schlauch nicht vollständig. Benutzen soll man die POLAR II nur bei Außentemperaturen über 0 °C. Im Forum führte ein im Frost angeschlossener Schlauch zu einem undichten Hahn im Mauerwerk.",
+    "kategorie": "pflege",
+    "quellen": [
+     "https://www.schell.eu/fileadmin/tx_dmmediacockpit/903030300_C_POLAR_II_NEU-1.pdf",
+     "https://www.bauexpertenforum.de/threads/aussenwasserhahn-undicht-im-mauerwerk.123008/"
+    ],
+    "problem": "schell-aussenventil-tropft"
+   }
+  ]
+ },
+ "probleme": [
+  {
+   "slug": "schell-eckventil-undicht",
+   "titel": "Schell Eckventil undicht oder sperrt nicht",
+   "symptom": "Am Eckventil unter Waschtisch oder Spüle tritt Wasser aus, am Griff, am Wandgewinde oder an der Verschraubung zur Armatur. Oder das Ventil lässt sich bis zum Anschlag drehen, sperrt aber nicht mehr ab.",
+   "ursachen": [
+    {
+     "ursache": "Ventil sperrt nicht mehr: Dichtung im Ventil verschlissen, Sitz verkalkt oder verschmutzt, weil das Ventil jahrelang nicht bewegt wurde",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "schell-eckventil-049170699",
+      "schell-eckventil-049070699",
+      "schell-eckventil-049160699",
+      "schell-eckventil-049020699"
+     ]
+    },
+    {
+     "ursache": "Undicht am Wandgewinde: Dichtring des ASAG-easy-Gewindes beim Einschrauben beschädigt, zu wenig tief eingeschraubt oder zusätzlich mit Hanf oder Band eingedichtet",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "schell-eckventil-049170699",
+      "schell-eckventil-049160699"
+     ]
+    },
+    {
+     "ursache": "Undicht an der Quetschverschraubung zum Anschlussrohr der Armatur: Mutter locker oder Rohr schief eingesetzt",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    }
+   ],
+   "schritte": [
+    "Klären, wo das Wasser austritt: am Griff, am Wandgewinde oder an der Mutter zum Anschlussrohr. Eine lockere Quetschverschraubung reicht oft, vorsichtig nachzuziehen.",
+    "Für den Tausch das Wasser an der Hauptabsperrung oder Wohnungsabsperrung schließen und an einer Zapfstelle den Druck ablassen. Das defekte Eckventil selbst sperrt nicht zuverlässig.",
+    "Wandgewinde und Abgang des alten Ventils bestimmen: meist G 1/2 in der Wand und 10 mm zur Armatur, für Spülkästen oft eine Überwurfmutter. Kennst du die Schell-Nummer, findest du das gleiche Ventil direkt, etwa 04 917 06 99 für G 1/2 × 10 mm mit ASAG easy.",
+    "Anschlussrohr der Armatur lösen, altes Eckventil herausdrehen und das Gewinde in der Wandscheibe säubern.",
+    "Neues Ventil mit ASAG easy ohne Hanf und ohne Band einschrauben, bis der Dichtring 3 mm im Gegengewinde verschwunden ist. Danach lässt es sich laut Schell noch in die richtige Stellung drehen. Ventile ohne Dichtring sparsam mit Dichtfaden, Hanf oder Band eindichten.",
+    "Anschlussrohr einsetzen, Quetschverschraubung anziehen, Wasser langsam öffnen und alle drei Stellen auf Tropfen prüfen."
+   ],
+   "fachbetrieb_ab": "Wenn sich das Wasser für Wohnung oder Haus nicht absperren lässt, die Wandscheibe sich beim Herausdrehen mitdreht, das Gewinde in der Wand beschädigt ist oder Wasser hinter der Wand austritt.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=317",
+    "https://schell.eu/fileadmin/tx_dmmediacockpit/SCHE-9105_Faltblatt%20ASAG%20easy%20%26%20Raendierung%202024_DT_RZ-Screen_WebHighRes-3.pdf",
+    "https://www.energiesparhaus.at/forum/74075",
+    "https://www.bauexpertenforum.de/threads/eckventil-nicht-gaengig-da-kein-absperrventil.134317/",
+    "https://www.bauexpertenforum.de/goto/post?id=891650"
+   ]
+  },
+  {
+   "slug": "schell-aussenventil-tropft",
+   "titel": "Schell Außenventil POLAR tropft",
+   "symptom": "Aus der frostsicheren Außenwandarmatur POLAR oder POLAR II tropft oder läuft Wasser, obwohl der Griff zugedreht ist, oder es tritt Wasser am Griff aus.",
+   "ursachen": [
+    {
+     "ursache": "Kein Defekt: Nach dem Schließen läuft das Innenrohr leer. Schell schreibt vor, die Armatur bis zum Anschlag zuzudrehen, dabei muss Wasser auslaufen",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Dichtspitze am Ventilsitz verschlissen oder verschmutzt, die Armatur tropft dauerhaft weiter",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "schell-dichtung-222340099",
+      "schell-oberteil-222360099",
+      "schell-oberteil-222350099"
+     ]
+    },
+    {
+     "ursache": "O-Ringe am Oberteil verschlissen, Wasser tritt am Griff aus",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "schell-dichtung-258960099"
+     ]
+    },
+    {
+     "ursache": "Ältere POLAR ohne „II“: Oberteil mit Spindel verschlissen, eine einzelne Dichtspitze gibt es dafür nicht",
+     "haeufigkeit": "selten",
+     "teil_slugs": [
+      "schell-oberteil-221450099",
+      "schell-oberteil-221460099"
+     ]
+    },
+    {
+     "ursache": "Schlauch war bei Frost angeschlossen: Dann entleeren sich Armatur und Schlauch laut Schell nicht vollständig, Wasser kann im Rohr gefrieren",
+     "haeufigkeit": "selten",
+     "teil_slugs": [
+      "schell-oberteil-222360099"
+     ]
+    }
+   ],
+   "schritte": [
+    "Griff bis zum Anschlag zudrehen und abwarten. Läuft nur kurz Wasser nach und hört dann auf, ist das die gewollte Entleerung.",
+    "Tropft es weiter, die Modellnummer bestimmen: POLAR II zur Nachrüstung (03 995 oder 03 996 03 99), POLAR II Set für den Rohbau (03 997 oder 03 998 03 99) oder die ältere POLAR. Davon hängen Oberteil und Spindellänge ab.",
+    "Das Wasser innen am Absperrventil der Zuleitung schließen.",
+    "Griff und Abdeckglocke abnehmen, Oberteil herausdrehen und die Spindel herausziehen. Schell sieht den Ausbau der Spindel auch bei der Montage vor, etwa vor Lötarbeiten.",
+    "Dichtspitze und O-Ringe ansehen. Bei POLAR II gibt es beide einzeln (22 234 00 99 und 25 896 00 99), bei der älteren POLAR nur das ganze Oberteil mit Spindel.",
+    "Zusammenbauen, Wasser innen öffnen und prüfen. Vor dem Winter alle Schläuche abnehmen."
+   ],
+   "fachbetrieb_ab": "Wenn Wasser innen an der Wanddurchführung oder im Mauerwerk austritt, die Armatur eingefroren war und Risse hat oder sich die Zuleitung innen nicht absperren lässt.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/903030300_C_POLAR_II_NEU-1.pdf",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=293"
+   ]
+  },
+  {
+   "slug": "schell-druckspueler-spuelung-laeuft-nach",
+   "titel": "Schell SCHELLOMAT: Spülung läuft nach",
+   "symptom": "Der WC-Druckspüler SCHELLOMAT hört nach dem Drücken nicht mehr auf zu spülen, spült viel zu lange oder es rinnt ständig Wasser ins WC.",
+   "ursachen": [
+    {
+     "ursache": "Beim SCHELLOMAT mit Hebel: Düsenbohrung im Kolben verstopft oder Kolben verschlissen",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "schell-kolben-294200099",
+      "schell-kolben-293000099"
+     ]
+    },
+    {
+     "ursache": "Bei SCHELLOMAT BASIC und Silent Eco: Kartusche verschlissen oder verschmutzt",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "schell-kartusche-294900099",
+      "schell-kartusche-296180099",
+      "schell-kartusche-294790099"
+     ]
+    },
+    {
+     "ursache": "Spülmenge zu groß eingestellt, der Spüler läuft lang, schließt aber",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    }
+   ],
+   "schritte": [
+    "Modell bestimmen: SCHELLOMAT mit Hebel (02 202 06 99 und Varianten), BASIC mit runder Drucktaste (02 247, 02 248) oder Silent Eco mit zwei Spülmengen (02 249, 02 250). Bei Silent Eco zählt auch das Baujahr, bis 2008 oder ab 2009.",
+    "Wasser an der Vorabsperrung des Spülers schließen, falls vorhanden, sonst an der Zuleitung.",
+    "Beim Hebelmodell Verschlusskappe abschrauben und Kolben herausnehmen. Die Schell-Anleitung nennt bei Dauerlauf: Kolben tauschen oder Düsenbohrung reinigen.",
+    "Bei BASIC und Silent Eco die Betätigungshaube abnehmen und die Kartusche tauschen, so steht es in der Störungstabelle der Silent-Eco-Anleitung.",
+    "Zusammenbauen, Wasser öffnen und mehrmals spülen. Spült es danach zu schwach, laut Anleitung Wasserdruck, Vorabsperrung, Spülmenge und Spülstrom prüfen."
+   ],
+   "fachbetrieb_ab": "Wenn sich die Zuleitung nicht absperren lässt, der Spüler am Gehäuse oder an der Wand undicht ist oder der Fließdruck unter 1,2 bar liegt. Normale SCHELLOMAT-Druckspüler brauchen laut Schell 1,2 bis 5 bar und eine Leitung in DN 20.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=467",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=465",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=466",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=210",
+    "https://media.contorion.de/content/pdf/ede/de/slma_903015900_b.pdf",
+    "https://www.manualslib.es/manual/150322/Schell-Schellomat.html"
+   ]
+  },
+  {
+   "slug": "schell-selbstschluss-armatur-tropft",
+   "titel": "Schell Selbstschluss-Armatur tropft oder läuft zu lange",
+   "symptom": "Die Selbstschluss-Armatur PETIT SC oder PURIS SC schließt nach dem Drücken nicht mehr, läuft deutlich länger als früher oder tropft nach dem Schließen weiter.",
+   "ursachen": [
+    {
+     "ursache": "Selbstschlusskartusche verschlissen oder verschmutzt",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "schell-kartusche-297330099",
+      "schell-kartusche-297360099"
+     ]
+    },
+    {
+     "ursache": "Laufzeit zu lang eingestellt. Ab Werk sind es 7 Sekunden, einstellbar von 2 bis 15 Sekunden",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Bei Mischwasser-Armaturen (HD-M): Ventilteller verschlissen",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "schell-ventilteller-296000699"
+     ]
+    }
+   ],
+   "schritte": [
+    "Ausführung bestimmen: Kaltwasser oder vorgemischtes Wasser (HD-K, etwa PETIT SC 02 122 oder PURIS SC 02 110) oder Mischwasser (HD-M, PETIT SC 02 151, PURIS SC 02 125). Danach richtet sich die Kartusche: SC-V 29 733 00 99 oder SC-M 29 736 00 99.",
+    "Wasser am Eckventil absperren.",
+    "Betätigungsgriff abnehmen und die Kartusche herausdrehen. Bei Armaturen von vor Oktober 2006 passen die heutigen Griffe nicht, bei PURIS SC Kaltwasser gibt es dafür das Umrüstset 02 134 06 99.",
+    "Neue Kartusche einsetzen, Griff montieren, Eckventil öffnen und die Laufzeit prüfen."
+   ],
+   "fachbetrieb_ab": "Wenn das Eckventil nicht absperrt, Wasser am Gehäuse oder unter dem Waschtisch austritt oder die Armatur zu einer Anlage mit thermischer Desinfektion gehört.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=386",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=388",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=389",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=82",
+    "https://www.megabad.com/documents/84/021300699-1-de-84276.pdf"
+   ]
+  }
+ ],
+ "widersprueche": [
+  {
+   "thema": "COMFORT-Griff 47 996 06 99 oder SECUR-Griff",
+   "aussage_a": "Schell führt unter 47 996 06 99 den normalen COMFORT-Griff mit Rastbuchse. Der abschließbare COMFORT-Griff SECUR hat die Nummer 48 110 06 99 und kommt mit zwei Schlüsseln.",
+   "quelle_a": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=296",
+   "aussage_b": "Contorion verkauft die EAN 4021163129953 (47 996 06 99) als „Comfort-Griff SECUR verchromt, mit Rastbuchse“. Wer einen abschließbaren Griff sucht, bekommt damit den normalen Griff.",
+   "quelle_b": "https://www.contorion.de/p/schell-comfort-griff-secur-verchromt-mit-rastbuchse-91945647"
+  },
+  {
+   "thema": "Oberteil 22 236 00 99: POLAR II oder POLAR II Set",
+   "aussage_a": "Schell führt 22 236 00 99 als Oberteil für die POLAR II zur Nachrüstung, mit 177,5 mm langer Spindel. Für das POLAR II Set (Einbau im Rohbau) ist das Oberteil 22 235 00 99 mit 488 mm Spindel vorgesehen.",
+   "quelle_a": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+   "aussage_b": "Contorion bietet 22 236 00 99 als „Oberteil POLAR II Set, mit Spindel 177,5mm lang“ an. Für ein POLAR II Set mit dickerer Wand ist diese Spindel zu kurz.",
+   "quelle_b": "https://www.contorion.de/p/schell-oberteil-polar-ii-set-mit-spindel-177-5mm-lang-53430968"
+  }
+ ],
+ "nicht_geprueft": [
+  "Amazon-Produktseiten der Schell-Teile sind nicht geprüft, deshalb steht bei keinem Teil eine ASIN. Bilder und Preise kommen über die EAN aus den Partner-Feeds.",
+  "Die Sanitär-Oberteile 22 131 06 99 und 22 132 06 99 sind keinem Ventil zugeordnet: Schell führt sie im Katalog nur allgemein unter Oberteilen für Geräteanschluss-Armaturen, ohne Liste der passenden Ventile.",
+  "Baujahre der Serien sind leer, der Katalog nennt nur bei einzelnen Ersatzteilen Stichtage (POLAR II ab 08/2012, SCHELLOMAT Silent Eco bis 2008 und ab 2009, PURIS SC ab 10/2006 und ab 05/2024)."
+ ],
+ "serien": [
+  {
+   "slug": "eckventil-comfort",
+   "name": "Eckventil COMFORT",
+   "produkttyp": "eckventil",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "04 917 06 99",
+    "04 907 06 99",
+    "04 916 06 99",
+    "04 906 06 99",
+    "04 912 06 99",
+    "04 911 06 99",
+    "04 903 06 99",
+    "04 902 06 99",
+    "05 095 06 99",
+    "05 097 06 99",
+    "05 098 06 99",
+    "05 252 06 99",
+    "05 407 06 99",
+    "05 418 06 99",
+    "05 217 06 99",
+    "05 276 06 99"
+   ],
+   "erkennungsmerkmale": "Verchromtes Ventil mit rundem Drehgriff. Wandanschluss G 1/2 oder G 3/8, Abgang 10 mm mit Quetschverschraubung, seltener G 1/2. Varianten mit Dichtring auf dem Wandgewinde (ASAG easy) und in kurzer oder langer Bauform.",
+   "beschreibung": "Die Standard-Eckventile von Schell unter Waschtisch und Spüle, alle mit Regulierfunktion. Einzelne Ersatzteile wie Oberteil oder Dichtung führt Schell für diese Ventile nicht, getauscht wird das ganze Ventil. Entscheidend sind Wandgewinde, Abgang und Bauform.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=317",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=318",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=319",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=320"
+   ]
+  },
+  {
+   "slug": "eckventil-comfort-filter",
+   "name": "Eckventil COMFORT mit Filter",
+   "produkttyp": "eckventil",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "05 428 06 99",
+    "05 429 06 99",
+    "05 430 06 99",
+    "05 431 06 99"
+   ],
+   "erkennungsmerkmale": "Eckventil mit zusätzlicher verchromter Frontplatte am Ventilkörper, hinter der der Korbfilter sitzt.",
+   "beschreibung": "Eckventile mit eingebautem Filter (250 µm) zum Schutz elektronischer und anderer empfindlicher Armaturen. Den Filter kannst du bei geschlossenem Eckventil reinigen oder tauschen, ohne die Leitung zu entleeren.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=324",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=349"
+   ]
+  },
+  {
+   "slug": "eckventil-comfort-spuelkasten",
+   "name": "Eckventil COMFORT für Spülkasten",
+   "produkttyp": "eckventil",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "05 033 06 99",
+    "05 034 06 99",
+    "05 045 06 99",
+    "05 047 06 99"
+   ],
+   "erkennungsmerkmale": "Kurzes Eckventil mit Überwurfmutter (Innengewinde) als Abgang statt Quetschverschraubung.",
+   "beschreibung": "Eckventile für Aufputz- und hochhängende Spülkästen. Der Abgang ist eine umstellbare Überwurfmutter G 3/8 oder G 1/2, an die der Spülkastenschlauch direkt angeschraubt wird.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=322"
+   ]
+  },
+  {
+   "slug": "kombi-eckventil-comfort",
+   "name": "Kombi-Eckventil COMFORT",
+   "produkttyp": "eckventil",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "03 549 06 99",
+    "03 548 06 99",
+    "03 545 06 99",
+    "03 544 06 99",
+    "03 551 06 99",
+    "03 550 06 99",
+    "03 555 06 99",
+    "03 560 06 99",
+    "03 569 06 99",
+    "03 570 06 99"
+   ],
+   "erkennungsmerkmale": "Eckventil mit zwei Griffen und zwei Abgängen: 10 mm für die Armatur und eine Schlauchverschraubung G 3/4 für die Maschine.",
+   "beschreibung": "Ersetzt das normale Eckventil, wenn an derselben Stelle auch Spül- oder Waschmaschine angeschlossen werden. Varianten mit Rückflussverhinderer (EB) oder mit Rückflussverhinderer und Rohrbelüfter (HD). Für Ventile nur mit Rückflussverhinderer empfiehlt Schell den Rohrbelüfter 28 602 06 99.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=280",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=283",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=284"
+   ]
+  },
+  {
+   "slug": "geraeteventil-comfort",
+   "name": "Geräteventil COMFORT (Waschmaschine)",
+   "produkttyp": "geraeteventil",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "03 392 06 99",
+    "03 386 06 99",
+    "03 390 06 99",
+    "03 572 06 99",
+    "03 573 06 99",
+    "03 374 06 99",
+    "03 380 06 99"
+   ],
+   "erkennungsmerkmale": "Schrägsitzventil mit COMFORT-Griff, Wandanschluss G 1/2 und Schlauchverschraubung G 3/4 nach unten. Die SECUR-Ausführungen haben einen abschließbaren Griff.",
+   "beschreibung": "Geräteschrägsitzventile für Wasch- und Spülmaschine mit Fettkammeroberteil und Rückflussverhinderer, je nach Variante mit Rohrbelüfter oder Schlauchplatzsicherung (03 390 06 99). Dazu Geräteventile, die auf ein vorhandenes Eckventil geschraubt werden (03 374 und 03 380).",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=278",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=279",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=285",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=297"
+   ]
+  },
+  {
+   "slug": "polar-ii",
+   "name": "POLAR II (frostsichere Außenwandarmatur)",
+   "produkttyp": "aussenventil",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "03 996 03 99",
+    "03 995 03 99"
+   ],
+   "erkennungsmerkmale": "Mattverchromte Außenarmatur mit COMFORT-Griff und Schlauchverschraubung, nach dem Schließen läuft vorn Wasser aus. Zur nachträglichen Montage durch die Wand, Ventilsitz 200 mm hinter der Fassade.",
+   "beschreibung": "Frostsichere Außenwandarmatur: Der Ventilsitz liegt im frostfreien Teil der Wand, eine lange Spindel verbindet ihn mit dem Griff außen. Nach jedem Schließen belüftet und entleert sich das Innenrohr. 03 996 03 99 hat zusätzlich einen Rohrbelüfter (HD).",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=293",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/903030300_C_POLAR_II_NEU-1.pdf"
+   ]
+  },
+  {
+   "slug": "polar-ii-set",
+   "name": "POLAR II Set (Einbau im Rohbau)",
+   "produkttyp": "aussenventil",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "03 997 03 99",
+    "03 998 03 99"
+   ],
+   "erkennungsmerkmale": "Wie POLAR II, aber mit Wanddurchführung, die im Rohbau gesetzt wird, und Rosetten innen und außen. Für Mauerdicken von 200 bis 500 mm.",
+   "beschreibung": "Bausatz-Variante der POLAR II. Die Spindel wird bei der Montage auf die Wanddicke gekürzt, deshalb hat das Ersatz-Oberteil eine 488 mm lange Spindel mit Ablänghilfe.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=293",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488"
+   ]
+  },
+  {
+   "slug": "polar",
+   "name": "POLAR (ältere frostsichere Außenwandarmatur)",
+   "produkttyp": "aussenventil",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "03 978 06 99",
+    "03 979 06 99",
+    "03 980 06 99",
+    "03 981 06 99",
+    "03 982 06 99",
+    "03 983 06 99"
+   ],
+   "erkennungsmerkmale": "Vorgängerin der POLAR II mit Steckschlüssel-Oberteil, Artikelnummern 03 978 06 99 bis 03 983 06 99.",
+   "beschreibung": "Für die ältere POLAR führt Schell weiterhin Oberteil mit Spindel (285 mm), Rohrbelüfter, Abdeckglocke und Griff. Eine einzelne Dichtspitze wie bei der POLAR II gibt es für die POLAR nicht.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490"
+   ]
+  },
+  {
+   "slug": "polar-set",
+   "name": "POLAR Set (ältere Ausführung für den Rohbau)",
+   "produkttyp": "aussenventil",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "03 985 06 99",
+    "03 986 06 99",
+    "03 987 06 99",
+    "03 988 06 99",
+    "03 989 06 99",
+    "03 990 06 99"
+   ],
+   "erkennungsmerkmale": "Ältere Set-Ausführung mit Schraubrosette G 3/4 innen.",
+   "beschreibung": "Ersatzteile wie bei der POLAR, aber mit 565 mm langer Spindel.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490"
+   ]
+  },
+  {
+   "slug": "schellomat",
+   "name": "SCHELLOMAT Aufputz-WC-Druckspüler mit Hebel",
+   "produkttyp": "druckspueler",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "02 202 06 99",
+    "02 204 06 99",
+    "02 216 06 99",
+    "02 238 06 99"
+   ],
+   "erkennungsmerkmale": "Verchromter Druckspüler über dem WC mit seitlichem Betätigungshebel, Spülrohr Ø 26 mm.",
+   "beschreibung": "Der klassische SCHELLOMAT mit Hebel und Selbstschlusskartusche mit automatischer Düsenreinigungsnadel. 02 202 06 99 spült 6 Liter, bei 02 204 06 99 ist die Spülmenge von 6 bis 14 Liter einstellbar. Ersatzteile: Kolben, Hebel, Verschlusskappe und Abgangsverschraubung.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=211",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=467"
+   ]
+  },
+  {
+   "slug": "schellomat-basic",
+   "name": "SCHELLOMAT BASIC Aufputz-WC-Druckspüler",
+   "produkttyp": "druckspueler",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "02 247 06 99",
+    "02 248 06 99"
+   ],
+   "erkennungsmerkmale": "Ganzmetall-Druckspüler mit runder Messing-Drucktaste oben, Rosette Ø 60 mm. 02 248 06 99 mit Vorabsperrung.",
+   "beschreibung": "Druckspüler mit Einmengenspülung, einstellbar von 4,5 bis 9 Liter bei 1,2 bis 5 bar Fließdruck.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=210",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=465"
+   ]
+  },
+  {
+   "slug": "schellomat-silent-eco",
+   "name": "SCHELLOMAT Silent Eco Aufputz-WC-Druckspüler",
+   "produkttyp": "druckspueler",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "02 249 06 99",
+    "02 250 06 99"
+   ],
+   "erkennungsmerkmale": "Ganzmetall-Druckspüler mit Drucktaste für zwei Spülmengen. 02 250 06 99 mit Vorabsperrung.",
+   "beschreibung": "Zweimengenspülung mit Spartaste 3 Liter und Hauptspülmenge 4,5 bis 9 Liter. Kartusche und Betätigungshaube gibt es in zwei Ausführungen, bis 2008 und ab 2009. Laut Katalog gehören sie paarweise zusammen.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=210",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=466",
+    "https://media.contorion.de/content/pdf/ede/de/slma_903015900_b.pdf"
+   ]
+  },
+  {
+   "slug": "schellomat-wc-spuelventil",
+   "name": "SCHELLOMAT WC-Spülventil",
+   "produkttyp": "druckspueler",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "02 702 06 99",
+    "02 703 06 99"
+   ],
+   "erkennungsmerkmale": "Spülventil mit Hebel-Oberteil (02 702) oder Dreisterngriff (02 703), Anschluss G 3/4, Spülrohr Ø 26 mm.",
+   "beschreibung": "Handbetätigtes WC-Spülventil, das so lange spült, wie es offen ist. Für 02 702 06 99 gibt es das Ersatz-Oberteil 22 148 00 99, für beide Ventile das Service-Set für den Spülrohranschluss.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=212",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=468"
+   ]
+  },
+  {
+   "slug": "petit-sc",
+   "name": "PETIT SC Selbstschluss-Standventil",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "02 122 06 99",
+    "02 130 06 99",
+    "02 151 06 99"
+   ],
+   "erkennungsmerkmale": "Kleines Standventil mit Druckknopf oben, schließt nach einigen Sekunden von selbst. 02 122 und 02 130 für Kaltwasser oder vorgemischtes Wasser (HD-K), 02 151 für Mischwasser (HD-M).",
+   "beschreibung": "Selbstschluss-Waschtischarmatur für öffentliche und gewerbliche Waschräume. Laufzeit laut Datenblatt der 02 130 06 99 2 bis 15 Sekunden einstellbar, ab Werk 7 Sekunden. Kartusche, Griff und Filter unterscheiden sich zwischen Kaltwasser- und Mischwasser-Ausführung.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=97",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=388",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=389",
+    "https://www.megabad.com/documents/84/021300699-1-de-84276.pdf"
+   ]
+  },
+  {
+   "slug": "puris-sc",
+   "name": "PURIS SC Selbstschluss-Waschtischarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "02 110 06 99",
+    "02 125 06 99"
+   ],
+   "erkennungsmerkmale": "Vandalengeschützte Ganzmetall-Armatur mit großem Druckknopf. 02 110 für Kaltwasser (HD-K), 02 125 für Mischwasser (HD-M).",
+   "beschreibung": "Selbstschluss-Armatur mit Kartusche SC II, Laufzeit 2 bis 15 Sekunden einstellbar (ab Werk 7 Sekunden). Griffe gibt es getrennt für Armaturen ab Oktober 2006, für ältere Kaltwasser-Armaturen das Umrüstset 02 134 06 99.",
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=82",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=83",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=386",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=387"
+   ]
+  }
+ ],
+ "teile": [
+  {
+   "slug": "schell-eckventil-049170699",
+   "name": "Schell Eckventil COMFORT G 1/2 × 10 mm, ASAG easy (04 917 06 99)",
+   "teiltyp": "eckventil",
+   "oem_nummer": "04 917 06 99",
+   "ean": "4021163105582",
+   "masse": {
+    "wandanschluss": "G 1/2 AG",
+    "abgang": "10 mm / G 3/8 AG"
+   },
+   "beschreibung": "Das Standard-Eckventil von Schell für Waschtisch und Spüle: Wandanschluss G 1/2 mit selbstdichtendem Gewinde ASAG easy, Abgang 10 mm (G 3/8) mit Quetschverschraubung, Regulierfunktion und COMFORT-Griff. Mit langem Schubschaft und Schubrosette Ø 54 mm. Auf das ASAG-Gewinde kommt kein Hanf und kein Dichtband.",
+   "preis_spanne": "ca. 6 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an der Hauptabsperrung oder Wohnungsabsperrung schließen. Zwei Maulschlüssel (für Quetschverschraubung und Ventil), Eimer und Lappen. Bei Ventilen ohne ASAG easy Dichtfaden, Hanf oder Dichtband.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=317",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-eckventil-049070699",
+   "name": "Schell Eckventil COMFORT G 1/2 × 10 mm (04 907 06 99)",
+   "teiltyp": "eckventil",
+   "oem_nummer": "04 907 06 99",
+   "ean": "4021163105292",
+   "masse": {
+    "wandanschluss": "G 1/2 AG",
+    "abgang": "10 mm / G 3/8 AG"
+   },
+   "beschreibung": "Wie das 04 917 06 99, aber ohne Dichtring auf dem Wandgewinde. Das Gewinde wird mit Hanf, Dichtfaden oder Dichtband eingedichtet. Wandanschluss G 1/2, Abgang 10 mm (G 3/8), mit Regulierfunktion.",
+   "preis_spanne": "ca. 6 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an der Hauptabsperrung oder Wohnungsabsperrung schließen. Zwei Maulschlüssel (für Quetschverschraubung und Ventil), Eimer und Lappen. Bei Ventilen ohne ASAG easy Dichtfaden, Hanf oder Dichtband.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=317",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-eckventil-049160699",
+   "name": "Schell Eckventil COMFORT G 3/8 × 10 mm, ASAG easy (04 916 06 99)",
+   "teiltyp": "eckventil",
+   "oem_nummer": "04 916 06 99",
+   "ean": "4021163105353",
+   "masse": {
+    "wandanschluss": "G 3/8 AG",
+    "abgang": "10 mm / G 3/8 AG"
+   },
+   "beschreibung": "Für Wandanschlüsse mit 3/8-Zoll-Gewinde, wie sie in älteren Installationen vorkommen. Selbstdichtendes Gewinde ASAG easy, Abgang 10 mm (G 3/8), mit Regulierfunktion.",
+   "preis_spanne": "ca. 9 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an der Hauptabsperrung oder Wohnungsabsperrung schließen. Zwei Maulschlüssel (für Quetschverschraubung und Ventil), Eimer und Lappen. Bei Ventilen ohne ASAG easy Dichtfaden, Hanf oder Dichtband.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=317",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-eckventil-049020699",
+   "name": "Schell Eckventil COMFORT G 3/8 × 10 mm, kurze Bauform (04 902 06 99)",
+   "teiltyp": "eckventil",
+   "oem_nummer": "04 902 06 99",
+   "ean": "4021163105025",
+   "masse": {
+    "wandanschluss": "G 3/8 AG",
+    "abgang": "10 mm / G 3/8 AG"
+   },
+   "beschreibung": "Kurze Bauform für Wandanschluss G 3/8, ohne Dichtring auf dem Gewinde, Abgang 10 mm (G 3/8) mit Quetschverschraubung. Rosette Ø 54 mm, 3 mm tief.",
+   "preis_spanne": "ca. 16 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an der Hauptabsperrung oder Wohnungsabsperrung schließen. Zwei Maulschlüssel (für Quetschverschraubung und Ventil), Eimer und Lappen. Bei Ventilen ohne ASAG easy Dichtfaden, Hanf oder Dichtband.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=318",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-eckventil-054070699",
+   "name": "Schell Eckventil COMFORT G 1/2 × 10 mm, lange Bauform (05 407 06 99)",
+   "teiltyp": "eckventil",
+   "oem_nummer": "05 407 06 99",
+   "ean": "4021163160956",
+   "masse": {
+    "wandanschluss": "G 1/2 AG",
+    "abgang": "10 mm / G 3/8 AG"
+   },
+   "beschreibung": "Lange Bauform mit Schubschaft 44,5 mm und Rosette Ø 63 mm, für Anschlüsse, die tiefer in der Wand liegen. Wandanschluss G 1/2, Abgang 10 mm (G 3/8), mit Regulierfunktion.",
+   "preis_spanne": "ca. 20 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an der Hauptabsperrung oder Wohnungsabsperrung schließen. Zwei Maulschlüssel (für Quetschverschraubung und Ventil), Eimer und Lappen. Bei Ventilen ohne ASAG easy Dichtfaden, Hanf oder Dichtband.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=320",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-eckventil-052170699",
+   "name": "Schell Eckventil COMFORT G 1/2 × G 1/2 (05 217 06 99)",
+   "teiltyp": "eckventil",
+   "oem_nummer": "05 217 06 99",
+   "ean": "4021163107593",
+   "masse": {
+    "wandanschluss": "G 1/2 AG",
+    "abgang": "G 1/2 AG"
+   },
+   "beschreibung": "Eckventil mit Abgang G 1/2 Außengewinde statt 10-mm-Quetschverschraubung, für Armaturen oder Schläuche mit 1/2-Zoll-Überwurfmutter. Mit Regulierfunktion.",
+   "preis_spanne": "ca. 205 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an der Hauptabsperrung oder Wohnungsabsperrung schließen. Zwei Maulschlüssel (für Quetschverschraubung und Ventil), Eimer und Lappen. Bei Ventilen ohne ASAG easy Dichtfaden, Hanf oder Dichtband.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=319",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-eckventil-050340699",
+   "name": "Schell Eckventil COMFORT für Spülkasten, G 1/2 × Überwurfmutter G 3/8 (05 034 06 99)",
+   "teiltyp": "eckventil",
+   "oem_nummer": "05 034 06 99",
+   "ean": "4021163106220",
+   "masse": {
+    "wandanschluss": "G 1/2 AG",
+    "abgang": "Überwurfmutter G 3/8 IG"
+   },
+   "beschreibung": "Kurzes Eckventil mit Überwurfmutter G 3/8 als Abgang für den Spülkastenschlauch, laut Schell für hochhängende Spülkästen. Die Verschraubung lässt sich umstellen. Wandanschluss G 1/2, mit Regulierfunktion.",
+   "preis_spanne": "ca. 22 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an der Hauptabsperrung oder Wohnungsabsperrung schließen. Zwei Maulschlüssel (für Quetschverschraubung und Ventil), Eimer und Lappen. Bei Ventilen ohne ASAG easy Dichtfaden, Hanf oder Dichtband.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=322",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-eckventil-054280699",
+   "name": "Schell Eckventil COMFORT mit Filter G 1/2 × G 3/8, ASAG easy (05 428 06 99)",
+   "teiltyp": "eckventil",
+   "oem_nummer": "05 428 06 99",
+   "ean": "4021163164169",
+   "masse": {
+    "wandanschluss": "G 1/2 AG",
+    "abgang": "G 3/8 AG"
+   },
+   "beschreibung": "Eckventil mit eingebautem Filter (Maschenweite 250 µm), gedacht zum Schutz empfindlicher, etwa elektronischer Armaturen. Den Filter reinigst du laut Schell bei geschlossenem Eckventil, ohne die Leitung zu entleeren. Ersatzfilter gibt es als Korbfilter-Set 25 994 06 99.",
+   "preis_spanne": "ca. 23 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an der Hauptabsperrung oder Wohnungsabsperrung schließen. Zwei Maulschlüssel (für Quetschverschraubung und Ventil), Eimer und Lappen. Bei Ventilen ohne ASAG easy Dichtfaden, Hanf oder Dichtband.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=324",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-eckventil-035490699",
+   "name": "Schell Kombi-Eckventil COMFORT G 1/2, mit RV und RB, ASAG easy (03 549 06 99)",
+   "teiltyp": "eckventil",
+   "oem_nummer": "03 549 06 99",
+   "ean": "4021163129885",
+   "masse": {
+    "wandanschluss": "G 1/2 AG",
+    "abgang": "10 mm / G 3/8 AG und G 3/4 AG"
+   },
+   "beschreibung": "Ersetzt ein normales Eckventil und hat zwei getrennt absperrbare Abgänge: 10 mm (G 3/8) für die Armatur und eine Schlauchverschraubung G 3/4 für Spül- oder Waschmaschine. Im Geräteabgang sitzen Rückflussverhinderer und Rohrbelüfter, zusammen die Sicherungskombination HD nach EN 1717.",
+   "preis_spanne": "ca. 32 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 40,
+   "werkzeug": "Wasser an der Hauptabsperrung oder Wohnungsabsperrung schließen. Zwei Maulschlüssel (für Quetschverschraubung und Ventil), Eimer und Lappen. Bei Ventilen ohne ASAG easy Dichtfaden, Hanf oder Dichtband.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=280",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-eckventil-035510699",
+   "name": "Schell Kombi-Eckventil COMFORT G 1/2, mit RV (03 551 06 99)",
+   "teiltyp": "eckventil",
+   "oem_nummer": "03 551 06 99",
+   "ean": "4021163129991",
+   "masse": {
+    "wandanschluss": "G 1/2 AG",
+    "abgang": "10 mm / G 3/8 AG und G 3/4 AG"
+   },
+   "beschreibung": "Kombi-Eckventil mit Abgang 10 mm (G 3/8) für die Armatur und G 3/4 für die Maschine, im Geräteabgang nur mit Rückflussverhinderer. Für die Sicherungskombination HD empfiehlt Schell den Rohrbelüfter 28 602 06 99. Ohne Dichtring auf dem Wandgewinde.",
+   "preis_spanne": "ca. 23 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 40,
+   "werkzeug": "Wasser an der Hauptabsperrung oder Wohnungsabsperrung schließen. Zwei Maulschlüssel (für Quetschverschraubung und Ventil), Eimer und Lappen. Bei Ventilen ohne ASAG easy Dichtfaden, Hanf oder Dichtband.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=280",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-eckventil-035550699",
+   "name": "Schell Kombi-Eckventil COMFORT G 1/2, mit RV und RB (03 555 06 99)",
+   "teiltyp": "eckventil",
+   "oem_nummer": "03 555 06 99",
+   "ean": "4021163171884",
+   "masse": {
+    "wandanschluss": "G 1/2 AG",
+    "abgang": "10 mm / G 3/8 AG und G 3/4 AG"
+   },
+   "beschreibung": "Kombi-Eckventil mit Rückflussverhinderer und Rohrbelüfter im Geräteabgang (Sicherungskombination HD), Wandanschluss G 1/2 ohne ASAG-Dichtring. Abgänge 10 mm (G 3/8) und G 3/4.",
+   "preis_spanne": "ca. 87 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 40,
+   "werkzeug": "Wasser an der Hauptabsperrung oder Wohnungsabsperrung schließen. Zwei Maulschlüssel (für Quetschverschraubung und Ventil), Eimer und Lappen. Bei Ventilen ohne ASAG easy Dichtfaden, Hanf oder Dichtband.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=280",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-geraeteventil-033920699",
+   "name": "Schell Geräteschrägsitzventil COMFORT G 1/2, mit RV und RB (03 392 06 99)",
+   "teiltyp": "geraeteventil",
+   "oem_nummer": "03 392 06 99",
+   "ean": "4021163129847",
+   "masse": {
+    "wandanschluss": "G 1/2 AG",
+    "abgang": "G 3/4 AG"
+   },
+   "beschreibung": "Das Waschmaschinenventil für einen eigenen Wandanschluss: G 1/2 an der Wand, Schlauchverschraubung G 3/4 für den Zulaufschlauch. Mit Rückflussverhinderer und Rohrbelüfter (Sicherungskombination HD), COMFORT-Griff und Fettkammeroberteil.",
+   "preis_spanne": "ca. 22 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an der Hauptabsperrung oder Wohnungsabsperrung schließen. Zwei Maulschlüssel (für Quetschverschraubung und Ventil), Eimer und Lappen. Bei Ventilen ohne ASAG easy Dichtfaden, Hanf oder Dichtband.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=279",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-geraeteventil-033860699",
+   "name": "Schell Geräteschrägsitzventil COMFORT G 1/2, mit RV (03 386 06 99)",
+   "teiltyp": "geraeteventil",
+   "oem_nummer": "03 386 06 99",
+   "ean": "4021163129830",
+   "masse": {
+    "wandanschluss": "G 1/2 AG",
+    "abgang": "G 3/4 AG"
+   },
+   "beschreibung": "Geräteventil für Wasch- oder Spülmaschine mit Rückflussverhinderer, aber ohne Rohrbelüfter. Wandanschluss G 1/2, Schlauchverschraubung G 3/4, Fettkammeroberteil. Mit Rohrbelüfter 28 602 06 99 ergibt sich laut Schell die Sicherungskombination HD.",
+   "preis_spanne": "ca. 20 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser an der Hauptabsperrung oder Wohnungsabsperrung schließen. Zwei Maulschlüssel (für Quetschverschraubung und Ventil), Eimer und Lappen. Bei Ventilen ohne ASAG easy Dichtfaden, Hanf oder Dichtband.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=278",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-geraeteventil-033740699",
+   "name": "Schell Geräteventil COMFORT zum Aufsetzen auf ein Eckventil, mit RV (03 374 06 99)",
+   "teiltyp": "geraeteventil",
+   "oem_nummer": "03 374 06 99",
+   "ean": "4021163129892",
+   "masse": {
+    "anschluss": "G 3/8 IG",
+    "abgang": "10 mm / G 3/8 AG und G 3/4 AG"
+   },
+   "beschreibung": "Zum nachträglichen Anschluss eines Geräts an ein schon montiertes Eckventil: Es wird mit G 3/8 Innengewinde auf den Abgang des Eckventils geschraubt und hat zwei Abgänge, 10 mm (G 3/8) für die Armatur und eine Schlauchverschraubung G 3/4 mit Rückflussverhinderer für die Maschine. Mit Rohrbelüfter 28 602 06 99 ergibt sich die Sicherungskombination HD.",
+   "preis_spanne": "ca. 24 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Wasser am Eckventil absperren, zwei Maulschlüssel.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=285",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-oberteil-221310699",
+   "name": "Schell Sanitär-Oberteil COMFORT G 3/8, mit Rückflussverhinderer (22 131 06 99)",
+   "teiltyp": "oberteil",
+   "oem_nummer": "22 131 06 99",
+   "ean": "4021163129922",
+   "masse": {
+    "gewinde": "G 3/8 AG"
+   },
+   "beschreibung": "Ersatz-Oberteil mit Einschraubgewinde G 3/8 AG, COMFORT-Griff, Fettkammeroberteil und Rückflussverhinderer (EN 1717: EB). Schell führt es im Katalog unter den Oberteilen für Geräteanschluss-Armaturen. In welche Ventile es passt, steht dort nicht. Vergleiche deshalb das Gewinde am alten Oberteil, bevor du bestellst.",
+   "preis_spanne": "ca. 31 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Wasser absperren (Hauptabsperrung oder Wohnungsabsperrung), Maulschlüssel für das Oberteil, Lappen. Leitung vorher durch Öffnen einer anderen Zapfstelle entlasten.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=297",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-oberteil-221320699",
+   "name": "Schell Sanitär-Oberteil COMFORT G 1/2, mit Rückflussverhinderer (22 132 06 99)",
+   "teiltyp": "oberteil",
+   "oem_nummer": "22 132 06 99",
+   "ean": "4021163129939",
+   "masse": {
+    "gewinde": "G 1/2 AG"
+   },
+   "beschreibung": "Ersatz-Oberteil mit Einschraubgewinde G 1/2 AG, COMFORT-Griff, Fettkammeroberteil und Rückflussverhinderer (EN 1717: EB). Schell führt es im Katalog unter den Oberteilen für Geräteanschluss-Armaturen. In welche Ventile es passt, steht dort nicht. Vergleiche deshalb das Gewinde am alten Oberteil, bevor du bestellst.",
+   "preis_spanne": "ca. 29 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Wasser absperren (Hauptabsperrung oder Wohnungsabsperrung), Maulschlüssel für das Oberteil, Lappen. Leitung vorher durch Öffnen einer anderen Zapfstelle entlasten.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=297",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-oberteil-221380099",
+   "name": "Schell Sanitär-Oberteil G 3/8, Fettkammeroberteil mit Rastbuchse und RV (22 138 00 99)",
+   "teiltyp": "oberteil",
+   "oem_nummer": "22 138 00 99",
+   "ean": "4021163135619",
+   "masse": {
+    "gewinde": "G 3/8 AG"
+   },
+   "beschreibung": "Blankes Messing-Oberteil mit Einschraubgewinde G 3/8 AG, Rastbuchse für einen Aufsteckgriff und Rückflussverhinderer, ohne Griff. Den Griff übernimmst du vom alten Ventil oder nimmst den COMFORT-Griff 47 996 06 99.",
+   "preis_spanne": "ca. 17 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Wasser absperren (Hauptabsperrung oder Wohnungsabsperrung), Maulschlüssel für das Oberteil, Lappen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=297",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-oberteil-221390099",
+   "name": "Schell Sanitär-Oberteil G 1/2, Fettkammeroberteil mit Rastbuchse und RV (22 139 00 99)",
+   "teiltyp": "oberteil",
+   "oem_nummer": "22 139 00 99",
+   "ean": "4021163135626",
+   "masse": {
+    "gewinde": "G 1/2 AG"
+   },
+   "beschreibung": "Blankes Messing-Oberteil mit Einschraubgewinde G 1/2 AG, Rastbuchse für einen Aufsteckgriff und Rückflussverhinderer, ohne Griff. Den Griff übernimmst du vom alten Ventil oder nimmst den COMFORT-Griff 47 996 06 99.",
+   "preis_spanne": "ca. 18 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Wasser absperren (Hauptabsperrung oder Wohnungsabsperrung), Maulschlüssel für das Oberteil, Lappen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=297",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-griff-479960699",
+   "name": "Schell COMFORT-Griff mit Rastbuchse (47 996 06 99)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "47 996 06 99",
+   "ean": "4021163129953",
+   "masse": {},
+   "beschreibung": "Der Drehgriff mit Rastbuchse, den Schell auf Geräteventilen und den frostsicheren Außenwandarmaturen POLAR und POLAR II verbaut. Schell führt ihn als Ersatzteil für POLAR, POLAR Set, POLAR II und POLAR II Set.",
+   "preis_spanne": "ca. 16 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Keins, der Griff wird aufgesteckt.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=296",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-griff-481100699",
+   "name": "Schell COMFORT-Griff SECUR, abschließbar (48 110 06 99)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "48 110 06 99",
+   "ean": "4021163172126",
+   "masse": {},
+   "beschreibung": "Abschließbarer Griff mit zwei Schlüsseln, damit niemand Unbefugtes Wasser zapft, etwa am Außenventil. Schell beschreibt ihn als geeignet für alle gängigen Oberteile und nennt ihn als Zubehör zu POLAR II. Ob das Ventil offen ist, sieht man am Griff.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Alten Griff abziehen, SECUR-Griff aufstecken.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=296"
+   ]
+  },
+  {
+   "slug": "schell-filter-259940699",
+   "name": "Schell Korbfilter-Set für Eckventile COMFORT mit Filter (5 Stück) (25 994 06 99)",
+   "teiltyp": "filter",
+   "oem_nummer": "25 994 06 99",
+   "ean": "4021163166293",
+   "masse": {},
+   "beschreibung": "Fünf Korbfilter mit 250 µm Maschenweite und verchromter Frontplatte, passend für die Eckventile COMFORT mit Filter (05 428 bis 05 431).",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Eckventil schließen, Schraubendreher oder Maulschlüssel für die Frontplatte, Lappen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=349"
+   ]
+  },
+  {
+   "slug": "schell-rohrbeluefter-286020699",
+   "name": "Schell Rohrbelüfter G 3/4, Bauform C (28 602 06 99)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "28 602 06 99",
+   "ean": "4021163116861",
+   "masse": {
+    "anschluss": "G 3/4 AG",
+    "abgang": "G 3/4 IG"
+   },
+   "beschreibung": "Rohrbelüfter zum Aufschrauben auf Geräteventile und Kombi-Eckventile, die nur einen Rückflussverhinderer haben. Zusammen ergibt das die Sicherungskombination HD nach EN 1717. Anschluss G 3/4 AG, Abgang G 3/4 IG. Laut Schell senkrecht und frei zugänglich einbauen, danach darf kein Absperrventil mehr kommen.",
+   "preis_spanne": "ca. 18 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Wasser am Ventil absperren, Maulschlüssel.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=300",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-oberteil-222360099",
+   "name": "Schell Oberteil POLAR II mit Spindel 177,5 mm (22 236 00 99)",
+   "teiltyp": "oberteil",
+   "oem_nummer": "22 236 00 99",
+   "ean": "4021163158632",
+   "masse": {
+    "spindellaenge_mm": 177.5
+   },
+   "beschreibung": "Oberteil mit langer Spindel für die frostsichere Außenwandarmatur POLAR II zur nachträglichen Montage (03 995 03 99, 03 996 03 99). Laut Montageanleitung von Schell das Ersatzteil „Oberteil mit Spindel“.",
+   "preis_spanne": "ca. 46 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Wasser innen am Absperrventil der Zuleitung schließen. Passender Schlüssel für das Oberteil, Lappen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/903030300_C_POLAR_II_NEU-1.pdf",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-oberteil-222350099",
+   "name": "Schell Oberteil POLAR II Set mit Spindel 488 mm (22 235 00 99)",
+   "teiltyp": "oberteil",
+   "oem_nummer": "22 235 00 99",
+   "ean": "4021163158649",
+   "masse": {
+    "spindellaenge_mm": 488
+   },
+   "beschreibung": "Oberteil für POLAR II Set (Einbau im Rohbau, 03 997 03 99 und 03 998 03 99) mit 488 mm langer Spindel und Ablänghilfe. Die Spindel wird auf die Mauerdicke gekürzt.",
+   "preis_spanne": "ca. 50 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser innen am Absperrventil der Zuleitung schließen. Passender Schlüssel für das Oberteil, Lappen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-dichtung-222340099",
+   "name": "Schell Dichtspitze für POLAR II und POLAR II Set (22 234 00 99)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "22 234 00 99",
+   "ean": "4021163158625",
+   "masse": {},
+   "beschreibung": "Die Dichtspitze schließt den Ventilsitz, der bei der POLAR II im frostfreien Bereich der Wand liegt. Schell führt sie für POLAR II und POLAR II Set. Für die ältere POLAR gibt es nur das komplette Oberteil mit Spindel.",
+   "preis_spanne": "ca. 43 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Wasser innen am Absperrventil der Zuleitung schließen. Passender Schlüssel für das Oberteil, Lappen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/903030300_C_POLAR_II_NEU-1.pdf",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-dichtung-258960099",
+   "name": "Schell Dichtelemente-Set POLAR II (25 896 00 99)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "25 896 00 99",
+   "ean": "4021163164213",
+   "masse": {
+    "o_ringe_mm": "13 × 1,5; 15 × 1,5; 18 × 1,5"
+   },
+   "beschreibung": "O-Ringe 13 × 1,5, 15 × 1,5 und 18 × 1,5 mm für POLAR II und POLAR II Set.",
+   "preis_spanne": "ca. 8 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Wasser innen am Absperrventil der Zuleitung schließen. Passender Schlüssel für das Oberteil, Lappen. Armaturenfett für die O-Ringe.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-werkzeug-782300399",
+   "name": "Schell Steckschlüssel POLAR / POLAR II (78 230 03 99)",
+   "teiltyp": "werkzeug",
+   "oem_nummer": "78 230 03 99",
+   "ean": "4021163139624",
+   "masse": {},
+   "beschreibung": "Steckschlüssel für das Steckschlüssel-Oberteil der POLAR-Außenwandarmaturen. Schell führt ihn als Ersatzteil für POLAR, POLAR Set, POLAR II und POLAR II Set.",
+   "preis_spanne": "ca. 7 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 1,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-abdeckglocke-699820399",
+   "name": "Schell Abdeckglocke POLAR II, ab August 2012 (69 982 03 99)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "69 982 03 99",
+   "ean": "4021163159066",
+   "masse": {},
+   "beschreibung": "Mattverchromte Abdeckglocke für POLAR II und POLAR II Set, die ab August 2012 gebaut wurden. Für ältere POLAR II Set gibt es die Glocke 69 946 03 99.",
+   "preis_spanne": "ca. 18 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/903030300_C_POLAR_II_NEU-1.pdf",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-oberteil-221450099",
+   "name": "Schell Oberteil und Spindel POLAR, 285 mm (22 145 00 99)",
+   "teiltyp": "oberteil",
+   "oem_nummer": "22 145 00 99",
+   "ean": "4021163138740",
+   "masse": {
+    "spindellaenge_mm": 285
+   },
+   "beschreibung": "Komplettes Oberteil mit 285 mm langer Spindel und Steckschlüssel für die ältere frostsichere Außenwandarmatur POLAR (Art.-Nr. 03 978 06 99 bis 03 983 06 99).",
+   "preis_spanne": "ca. 48 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Wasser innen am Absperrventil der Zuleitung schließen. Passender Schlüssel für das Oberteil, Lappen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-oberteil-221460099",
+   "name": "Schell Oberteil und Spindel POLAR Set, 565 mm (22 146 00 99)",
+   "teiltyp": "oberteil",
+   "oem_nummer": "22 146 00 99",
+   "ean": "4021163138764",
+   "masse": {
+    "spindellaenge_mm": 565
+   },
+   "beschreibung": "Komplettes Oberteil mit 565 mm langer Spindel und Steckschlüssel für die ältere POLAR Set (Art.-Nr. 03 985 06 99 bis 03 990 06 99).",
+   "preis_spanne": "ca. 94 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser innen am Absperrventil der Zuleitung schließen. Passender Schlüssel für das Oberteil, Lappen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-rohrbeluefter-286290699",
+   "name": "Schell Rohrbelüfter Bauform C für POLAR und POLAR Set (28 629 06 99)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "28 629 06 99",
+   "ean": "4021163138726",
+   "masse": {},
+   "beschreibung": "DVGW-registrierter Rohrbelüfter zum Nachrüsten an der älteren POLAR und POLAR Set.",
+   "preis_spanne": "ca. 34 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Wasser innen absperren, Maulschlüssel.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-kolben-294200099",
+   "name": "Schell Kolben komplett SCHELLOMAT, Kunststoff, mit Düsenreinigungsnadel (29 420 00 99)",
+   "teiltyp": "kolben",
+   "oem_nummer": "29 420 00 99",
+   "ean": "4021163132298",
+   "masse": {},
+   "beschreibung": "Kunststoffkolben mit automatischer Düsenreinigungsnadel für den Aufputz-WC-Druckspüler SCHELLOMAT mit Hebel (02 202 06 99). Läuft der Spüler ständig nach, ist der Kolben das übliche Ersatzteil.",
+   "preis_spanne": "ca. 52 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Vorabsperrung schließen, wenn vorhanden, sonst Wasser an der Zuleitung absperren. Maulschlüssel oder Rohrzange mit Schutzbacken für Kappe bzw. Haube, Lappen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=467",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-kolben-293000099",
+   "name": "Schell Kolben komplett SCHELLOMAT, Messing (29 300 00 99)",
+   "teiltyp": "kolben",
+   "oem_nummer": "29 300 00 99",
+   "ean": "4021163116991",
+   "masse": {},
+   "beschreibung": "Messingkolben für den SCHELLOMAT mit Hebel. Schell führt ihn auf derselben Ersatzteilseite wie den Kunststoffkolben, ab Werk hat ihn die Ausführung 02 238 06 99.",
+   "preis_spanne": "ca. 62 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Vorabsperrung schließen, wenn vorhanden, sonst Wasser an der Zuleitung absperren. Maulschlüssel oder Rohrzange mit Schutzbacken für Kappe bzw. Haube, Lappen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=467",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-griff-296640699",
+   "name": "Schell Hebel komplett SCHELLOMAT mit Hebelschraube (29 664 06 99)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "29 664 06 99",
+   "ean": "4021163156393",
+   "masse": {},
+   "beschreibung": "Verchromter Betätigungshebel mit Schraube für den Aufputz-WC-Druckspüler SCHELLOMAT mit Hebel.",
+   "preis_spanne": "ca. 46 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Schraubendreher.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=467",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-kartusche-294900099",
+   "name": "Schell Kartusche komplett für SCHELLOMAT BASIC und EDITION (29 490 00 99)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "29 490 00 99",
+   "ean": "4021163143591",
+   "masse": {},
+   "beschreibung": "Selbstschlusskartusche für die Aufputz-WC-Druckspüler SCHELLOMAT BASIC und SCHELLOMAT EDITION. Sie bestimmt Spülmenge und Laufzeit.",
+   "preis_spanne": "ca. 83 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Vorabsperrung schließen, wenn vorhanden, sonst Wasser an der Zuleitung absperren. Maulschlüssel oder Rohrzange mit Schutzbacken für Kappe bzw. Haube, Lappen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=463",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-kartusche-296180099",
+   "name": "Schell Kartusche komplett für SCHELLOMAT Silent Eco, ab 2009 (29 618 00 99)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "29 618 00 99",
+   "ean": "4021163150872",
+   "masse": {},
+   "beschreibung": "Kartusche für SCHELLOMAT Silent Eco und EDITION Eco mit Betätigungshaube ab 2009. Für Spüler mit Haube bis 2008 gibt es die Kartusche 29 479 00 99. Bei Dauerlauf nennt die Schell-Anleitung den Tausch der Kartusche.",
+   "preis_spanne": "ca. 82 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Vorabsperrung schließen, wenn vorhanden, sonst Wasser an der Zuleitung absperren. Maulschlüssel oder Rohrzange mit Schutzbacken für Kappe bzw. Haube, Lappen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=464",
+    "https://media.contorion.de/content/pdf/ede/de/slma_903015900_b.pdf",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-kartusche-294790099",
+   "name": "Schell Kartusche komplett für SCHELLOMAT Silent Eco, bis 2008 (29 479 00 99)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "29 479 00 99",
+   "ean": "4021163143614",
+   "masse": {},
+   "beschreibung": "Kartusche für SCHELLOMAT Silent Eco und EDITION Eco mit Betätigungshaube bis 2008.",
+   "preis_spanne": "ca. 82 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Vorabsperrung schließen, wenn vorhanden, sonst Wasser an der Zuleitung absperren. Maulschlüssel oder Rohrzange mit Schutzbacken für Kappe bzw. Haube, Lappen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=464",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-haube-230430699",
+   "name": "Schell Betätigungshaube SCHELLOMAT BASIC mit Druckfeder (23 043 06 99)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "23 043 06 99",
+   "ean": "4021163143652",
+   "masse": {},
+   "beschreibung": "Verchromte Drucktaste mit Druckfeder für den Aufputz-WC-Druckspüler SCHELLOMAT BASIC.",
+   "preis_spanne": "ca. 80 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Maulschlüssel oder Rohrzange mit Schutzbacken.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=465",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-haube-230730699",
+   "name": "Schell Betätigungshaube SCHELLOMAT Silent Eco, ab 2009 (23 073 06 99)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "23 073 06 99",
+   "ean": "4021163150865",
+   "masse": {},
+   "beschreibung": "Verchromte Haube mit Druckfeder für SCHELLOMAT Silent Eco und EDITION Eco mit Kartusche ab 2009.",
+   "preis_spanne": "ca. 127 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Maulschlüssel oder Rohrzange mit Schutzbacken.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=464",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-oberteil-221480099",
+   "name": "Schell Oberteil zu WC-Spülventil SCHELLOMAT 02 702 06 99 (22 148 00 99)",
+   "teiltyp": "oberteil",
+   "oem_nummer": "22 148 00 99",
+   "ean": "4021163142082",
+   "masse": {},
+   "beschreibung": "Ersatz-Oberteil für das Aufputz-WC-Spülventil SCHELLOMAT mit Hebel-Oberteil (02 702 06 99).",
+   "preis_spanne": "ca. 53 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Vorabsperrung schließen, wenn vorhanden, sonst Wasser an der Zuleitung absperren. Maulschlüssel oder Rohrzange mit Schutzbacken für Kappe bzw. Haube, Lappen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=468",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-serviceset-260720699",
+   "name": "Schell Service-Set zu WC-Spülventil SCHELLOMAT (26 072 06 99)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "26 072 06 99",
+   "ean": "4021163135145",
+   "masse": {},
+   "beschreibung": "Rohrstutzen, Rohreinsatz, Überwurfmutter und Dichtring für den Spülrohranschluss der WC-Spülventile SCHELLOMAT 02 702 06 99 und 02 703 06 99.",
+   "preis_spanne": "ca. 32 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Vorabsperrung schließen, wenn vorhanden, sonst Wasser an der Zuleitung absperren. Maulschlüssel oder Rohrzange mit Schutzbacken für Kappe bzw. Haube, Lappen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=468",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-kartusche-297360099",
+   "name": "Schell Selbstschluss-Kartusche SC-M (Mischwasser) für PETIT SC, XERIS SC, PURIS SC (29 736 00 99)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "29 736 00 99",
+   "ean": "4021163169430",
+   "masse": {},
+   "beschreibung": "Selbstschlusskartusche für Mischwasser-Armaturen (HD-M) der Serien PETIT SC, XERIS SC und PURIS SC ab Oktober 2006. Ersetzt laut Schell die älteren Kartuschen 29 637 00 99 und 29 716 00 99.",
+   "preis_spanne": "ca. 144 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser am Eckventil absperren. Werkzeug je nach Modell: Innensechskant oder Maulschlüssel, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=385",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-kartusche-297330099",
+   "name": "Schell Selbstschluss-Kartusche SC-V (Kaltwasser) für PETIT SC, XERIS SC, PURIS SC (29 733 00 99)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "29 733 00 99",
+   "ean": "4021163169416",
+   "masse": {},
+   "beschreibung": "Selbstschlusskartusche für Kaltwasser oder vorgemischtes Wasser (HD-K) der Serien PETIT SC, XERIS SC und PURIS SC ab Oktober 2006. Ersetzt laut Schell die älteren Kartuschen 29 638 00 99, 29 651 00 99 und 29 721 00 99.",
+   "preis_spanne": "ca. 123 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser am Eckventil absperren. Werkzeug je nach Modell: Innensechskant oder Maulschlüssel, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=385",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-griff-258830699",
+   "name": "Schell Betätigungsgriff PETIT SC mit Druckfeder und Blendring (25 883 06 99)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "25 883 06 99",
+   "ean": "4021163159370",
+   "masse": {},
+   "beschreibung": "Verchromter Druckknopf mit Feder und Blendring für das Selbstschluss-Standventil PETIT SC (Kaltwasser, HD-K).",
+   "preis_spanne": "ca. 45 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=388",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-griff-021520699",
+   "name": "Schell Betätigungsgriff PETIT SC-M mit Druckfeder und Blendring (02 152 06 99)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "02 152 06 99",
+   "ean": "4021163161854",
+   "masse": {},
+   "beschreibung": "Druckknopf mit Feder und Blendring für das Selbstschluss-Standventil PETIT SC für Mischwasser (HD-M).",
+   "preis_spanne": "ca. 40 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=389",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-griff-021160699",
+   "name": "Schell Betätigungsgriff PURIS SC-K (Kaltwasser), ab Oktober 2006 (02 116 06 99)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "02 116 06 99",
+   "ean": "4021163141863",
+   "masse": {},
+   "beschreibung": "Betätigungsgriff mit Druckfeder für PURIS SC Kaltwasser. Passt laut Schell nicht an Armaturen von vor Oktober 2006, dafür gibt es das Umrüstset 02 134 06 99.",
+   "preis_spanne": "ca. 82 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=386",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-griff-021350699",
+   "name": "Schell Betätigungsgriff PURIS SC-M (Mischwasser), ab Oktober 2006 (02 135 06 99)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "02 135 06 99",
+   "ean": "4021163149364",
+   "masse": {},
+   "beschreibung": "Betätigungsgriff mit Druckfeder für PURIS SC Mischwasser. Nicht für Armaturen von vor Oktober 2006.",
+   "preis_spanne": "ca. 86 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=386",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-ventilteller-296000699",
+   "name": "Schell Ventilteller für Selbstschluss-Armaturen, Mischwasser (29 600 06 99)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "29 600 06 99",
+   "ean": "4021163149142",
+   "masse": {},
+   "beschreibung": "Ventilteller für die Mischwasser-Ausführungen von PETIT SC und PURIS SC.",
+   "preis_spanne": "ca. 15 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Wasser am Eckventil absperren. Werkzeug je nach Modell: Innensechskant oder Maulschlüssel, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=385",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-filter-628050099",
+   "name": "Schell Korbfilter 500 µm für Selbstschluss-Armaturen (62 805 00 99)",
+   "teiltyp": "filter",
+   "oem_nummer": "62 805 00 99",
+   "ean": "4021163144116",
+   "masse": {},
+   "beschreibung": "Korbfilter mit 500 µm Maschenweite. Schell führt ihn als Ersatzteil für PURIS SC und PETIT SC-M.",
+   "preis_spanne": "ca. 5 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Wasser am Eckventil absperren. Werkzeug je nach Modell: Innensechskant oder Maulschlüssel, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=373",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "schell-strahlregler-289220699",
+   "name": "Schell Strahlregler M24 × 1, max. 5 l/min (28 922 06 99)",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "28 922 06 99",
+   "ean": "4021163160857",
+   "masse": {
+    "gewinde": "M24 × 1 AG"
+   },
+   "beschreibung": "Druckunabhängiger Strahlregler mit Chromhülse für Schell-Waschtischarmaturen mit M24 × 1 Innengewinde, maximal 5 l/min, belüfteter Strahl. Nicht für Niederdruckarmaturen.",
+   "preis_spanne": "ca. 30 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Strahlreglerschlüssel oder Lappen und Zange.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=372",
+    "https://www.contorion.de"
+   ]
+  }
+ ],
+ "zuordnungen": [
+  {
+   "serie_slug": "eckventil-comfort",
+   "teil_slug": "schell-eckventil-049170699",
+   "hinweis": "Schell-Katalog 2026, S. 317: Eckventil mit Regulierfunktion COMFORT. Als Ersatz passt es, wenn Wandgewinde und Abgang zum alten Ventil passen.",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=317",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eckventil-comfort",
+   "teil_slug": "schell-eckventil-049070699",
+   "hinweis": "Schell-Katalog 2026, S. 317: Eckventil mit Regulierfunktion COMFORT. Als Ersatz passt es, wenn Wandgewinde und Abgang zum alten Ventil passen.",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=317",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eckventil-comfort",
+   "teil_slug": "schell-eckventil-049160699",
+   "hinweis": "Schell-Katalog 2026, S. 317: Eckventil mit Regulierfunktion COMFORT. Als Ersatz passt es, wenn Wandgewinde und Abgang zum alten Ventil passen.",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=317",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eckventil-comfort",
+   "teil_slug": "schell-eckventil-049020699",
+   "hinweis": "Schell-Katalog 2026, S. 318: Eckventil mit Regulierfunktion COMFORT. Als Ersatz passt es, wenn Wandgewinde und Abgang zum alten Ventil passen.",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=318",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eckventil-comfort",
+   "teil_slug": "schell-eckventil-054070699",
+   "hinweis": "Schell-Katalog 2026, S. 320: Eckventil mit Regulierfunktion COMFORT. Als Ersatz passt es, wenn Wandgewinde und Abgang zum alten Ventil passen.",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=320",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eckventil-comfort",
+   "teil_slug": "schell-eckventil-052170699",
+   "hinweis": "Schell-Katalog 2026, S. 319: Eckventil mit Regulierfunktion COMFORT. Als Ersatz passt es, wenn Wandgewinde und Abgang zum alten Ventil passen.",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=319",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eckventil-comfort-filter",
+   "teil_slug": "schell-eckventil-054280699",
+   "hinweis": "Schell-Katalog 2026, S. 324",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=324",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eckventil-comfort-filter",
+   "teil_slug": "schell-filter-259940699",
+   "hinweis": "Schell-Katalog 2026, S. 324 und 349: Korbfilter-Set für Eckventile COMFORT mit Filter",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=349",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "eckventil-comfort-spuelkasten",
+   "teil_slug": "schell-eckventil-050340699",
+   "hinweis": "Schell-Katalog 2026, S. 322",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=322",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "kombi-eckventil-comfort",
+   "teil_slug": "schell-eckventil-035490699",
+   "hinweis": "Schell-Katalog 2026, S. 280",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=280",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "kombi-eckventil-comfort",
+   "teil_slug": "schell-eckventil-035510699",
+   "hinweis": "Schell-Katalog 2026, S. 280",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=280",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "kombi-eckventil-comfort",
+   "teil_slug": "schell-eckventil-035550699",
+   "hinweis": "Schell-Katalog 2026, S. 280",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=280",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "kombi-eckventil-comfort",
+   "teil_slug": "schell-rohrbeluefter-286020699",
+   "hinweis": "Schell-Katalog 2026, S. 280: empfohlen für Kombi-Eckventile nur mit Rückflussverhinderer (03 544, 03 545, 03 550, 03 551)",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=280",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "geraeteventil-comfort",
+   "teil_slug": "schell-geraeteventil-033920699",
+   "hinweis": "Schell-Katalog 2026, S. 279",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=279",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "geraeteventil-comfort",
+   "teil_slug": "schell-geraeteventil-033860699",
+   "hinweis": "Schell-Katalog 2026, S. 278",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=278",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "geraeteventil-comfort",
+   "teil_slug": "schell-geraeteventil-033740699",
+   "hinweis": "Schell-Katalog 2026, S. 285",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=285",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "geraeteventil-comfort",
+   "teil_slug": "schell-rohrbeluefter-286020699",
+   "hinweis": "Schell-Katalog 2026, S. 278 und 285: empfohlen zu 03 386 06 99 und 03 374 06 99, die nur einen Rückflussverhinderer haben",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=278",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "geraeteventil-comfort",
+   "teil_slug": "schell-griff-481100699",
+   "hinweis": "Schell-Katalog 2026, S. 296: „Geeignet für alle gängigen Oberteile“",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=296",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-ii",
+   "teil_slug": "schell-oberteil-222360099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 489 und Montageanleitung POLAR II",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/903030300_C_POLAR_II_NEU-1.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-ii",
+   "teil_slug": "schell-dichtung-222340099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 489: Dichtspitze für POLAR II und POLAR II Set",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-ii",
+   "teil_slug": "schell-dichtung-258960099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 489",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-ii",
+   "teil_slug": "schell-werkzeug-782300399",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 489",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-ii",
+   "teil_slug": "schell-abdeckglocke-699820399",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 489: für Armaturen ab August 2012",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-ii",
+   "teil_slug": "schell-griff-479960699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 489",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-ii",
+   "teil_slug": "schell-griff-481100699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 489: abschließbarer Griff als Zubehör",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-ii-set",
+   "teil_slug": "schell-oberteil-222350099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 488",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-ii-set",
+   "teil_slug": "schell-dichtung-222340099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 488: Dichtspitze für POLAR II und POLAR II Set",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-ii-set",
+   "teil_slug": "schell-dichtung-258960099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 488",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-ii-set",
+   "teil_slug": "schell-werkzeug-782300399",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 488",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-ii-set",
+   "teil_slug": "schell-abdeckglocke-699820399",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 488: für Armaturen ab August 2012",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-ii-set",
+   "teil_slug": "schell-griff-479960699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 488",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-ii-set",
+   "teil_slug": "schell-griff-481100699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 488: abschließbarer Griff als Zubehör",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar",
+   "teil_slug": "schell-oberteil-221450099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 490",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar",
+   "teil_slug": "schell-rohrbeluefter-286290699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 490",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar",
+   "teil_slug": "schell-werkzeug-782300399",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 490",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar",
+   "teil_slug": "schell-griff-479960699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 490",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-set",
+   "teil_slug": "schell-oberteil-221460099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 490",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-set",
+   "teil_slug": "schell-rohrbeluefter-286290699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 490",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-set",
+   "teil_slug": "schell-werkzeug-782300399",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 490",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "polar-set",
+   "teil_slug": "schell-griff-479960699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 490",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "schellomat",
+   "teil_slug": "schell-kolben-294200099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 467: Ersatzteile für SCHELLOMAT 02 202 06 99",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=467",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "schellomat",
+   "teil_slug": "schell-kolben-293000099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 467: Ersatzteile für SCHELLOMAT 02 202 06 99",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=467",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "schellomat",
+   "teil_slug": "schell-griff-296640699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 467: Ersatzteile für SCHELLOMAT 02 202 06 99",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=467",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "schellomat-basic",
+   "teil_slug": "schell-kartusche-294900099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 465",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=465",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "schellomat-basic",
+   "teil_slug": "schell-haube-230430699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 465",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=465",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "schellomat-silent-eco",
+   "teil_slug": "schell-kartusche-296180099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 466: für Spüler mit Betätigungshaube ab 2009",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=466",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "schellomat-silent-eco",
+   "teil_slug": "schell-kartusche-294790099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 466: für Spüler mit Betätigungshaube bis 2008",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=466",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "schellomat-silent-eco",
+   "teil_slug": "schell-haube-230730699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 466: für Spüler mit Kartusche ab 2009",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=466",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "schellomat-wc-spuelventil",
+   "teil_slug": "schell-oberteil-221480099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 468: nur für 02 702 06 99",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=468",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "schellomat-wc-spuelventil",
+   "teil_slug": "schell-serviceset-260720699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 468",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=468",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "petit-sc",
+   "teil_slug": "schell-kartusche-297330099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 388: für PETIT SC HD-K (02 122, 02 130)",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=388",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "petit-sc",
+   "teil_slug": "schell-kartusche-297360099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 389: für PETIT SC HD-M (02 151)",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=389",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "petit-sc",
+   "teil_slug": "schell-griff-258830699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 388: HD-K",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=388",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "petit-sc",
+   "teil_slug": "schell-griff-021520699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 389: HD-M",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=389",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "petit-sc",
+   "teil_slug": "schell-ventilteller-296000699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 389: HD-M",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=389",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "petit-sc",
+   "teil_slug": "schell-filter-628050099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 389: HD-M",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=389",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "petit-sc",
+   "teil_slug": "schell-strahlregler-289220699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 388 und 389",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=388",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "puris-sc",
+   "teil_slug": "schell-kartusche-297330099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 386 und 387: Kaltwasser (02 110)",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=387",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "puris-sc",
+   "teil_slug": "schell-kartusche-297360099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 386 und 387: Mischwasser (02 125)",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=387",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "puris-sc",
+   "teil_slug": "schell-griff-021160699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 386: Kaltwasser, Armaturen ab Oktober 2006",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=386",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "puris-sc",
+   "teil_slug": "schell-griff-021350699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 386: Mischwasser, Armaturen ab Oktober 2006",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=386",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "puris-sc",
+   "teil_slug": "schell-ventilteller-296000699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 386 und 387",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=387",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "puris-sc",
+   "teil_slug": "schell-filter-628050099",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 387: Armaturen ab Mai 2024",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=387",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "puris-sc",
+   "teil_slug": "schell-strahlregler-289220699",
+   "hinweis": "Schell-Ersatzteilkatalog 2026, S. 386: Armaturen bis Mai 2024",
+   "quelle_url": "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=386",
+   "sicherheit": "hersteller"
+  }
+ ]
+}
