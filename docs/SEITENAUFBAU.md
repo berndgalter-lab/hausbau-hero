@@ -93,12 +93,12 @@ Ein Skript (`scripts/pruefe-inhalte.py`, läuft im CI vor dem Merge) lehnt ab:
 - Notiz-Sprache in sichtbaren Feldern: „recherchiert“, „gefunden“, „belegt keine“, „Suchauszug“, „Marketingaussage“.
 - Jahreszahl oder „X Modelle“ in `titel` und `seo_title`.
 - `ist_testsieger` / `ist_preistipp` in Produktdateien.
-- Teile ohne ASIN und ohne Partnershop, die trotzdem einen Kaufknopf bekämen.
+- Teile ohne ASIN und ohne Partnershop, die trotzdem einen Kaufknopf bekämen. (Noch nicht im Skript: Die Partnershop-Angebote liegen nur in der Datenbank.)
 
 ## 7. Reihenfolge
 
 1. Vorlagen umbauen: Ratgeber, Marke, Serie. Prüfvermerk und Methodenkasten als eigene Bausteine. **Erledigt** (Branch `feat/seitenaufbau`), dünne Serien sind schon `noindex` und fehlen in der Sitemap.
-2. Die vier Ratgeber umstellen: Titel, Produktfelder, kurze Antwort. Der Fließtext bleibt größtenteils.
+2. Die vier Ratgeber umstellen: Titel, Produktfelder, kurze Antwort. Der Fließtext bleibt größtenteils. **Erledigt:** Titel als Frage, Abzeichen-Felder entfernt, „Passt für“ konkret, Spalte „Preisklasse“ entfernt, Niederdruck-Beitrag mit Quellenliste.
 3. Die sechs Marken-Dateien sprachlich säubern (Beschreibung, Nummer-Hinweis, Garantie, Widersprüche).
-4. Dünne Serien auf `noindex`, Prüfregel ins CI.
+4. Dünne Serien auf `noindex`, Prüfregel ins CI. **Erledigt:** `scripts/pruefe-inhalte.py`, Workflow `inhalte-pruefen`. Ersatzteile vorerst nur als Hinweis, nach Schritt 3 mit `--streng`.
 5. Danach erst neue Seiten (WC/Vorwand), gleich im neuen Aufbau.
