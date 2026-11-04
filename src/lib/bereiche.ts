@@ -214,6 +214,21 @@ export function bereichHatInhalt(b: Bereich, k: { teilarten: number; probleme: n
   return b.produkttypen.length > 0 || b.ratgeber.length > 0 || k.teilarten > 0 || k.probleme > 0;
 }
 
+/**
+ * Hauptbereiche der Hauskarte (docs/BEREICHE-REIHENFOLGE.md, Abschnitt 1): gruppieren Bereiche auf Startseite
+ * und Übersichten. Eigene Liste statt Feld je Bereich, damit neue Bereiche nur hier eine Zeile brauchen.
+ * Ein Hauptbereich ohne sichtbaren Bereich erscheint nirgends.
+ */
+export const HAUPTBEREICHE: { slug: string; name: string; bereiche: string[] }[] = [
+  { slug: "bad-kueche", name: "Bad & Küche", bereiche: ["waschtisch", "dusche-badewanne", "wc-spuelkasten", "kueche"] },
+  { slug: "wasser-waerme", name: "Wasser & Wärme", bereiche: ["wasseranschluss", "hebeanlage"] },
+  { slug: "fenster-tueren", name: "Fenster & Türen", bereiche: ["dachfenster"] },
+];
+
+export function hauptbereichVon(bereich: string): (typeof HAUPTBEREICHE)[number] | null {
+  return HAUPTBEREICHE.find((h) => h.bereiche.includes(bereich)) ?? null;
+}
+
 export function bereichNachSlug(slug: string): Bereich | null {
   return BEREICHE.find((b) => b.slug === slug) ?? null;
 }

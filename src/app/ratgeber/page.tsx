@@ -9,7 +9,7 @@ export const revalidate = 3600;
 export const metadata: Metadata = {
   title: "Ratgeber: welches Produkt passt?",
   description:
-    "Waschtischarmatur, Drückerplatte, Vorwandelement, Hebeanlage: welches Produkt zu deiner Situation passt, mit Maßen aus den Datenblättern der Hersteller.",
+    "Welches Produkt passt zu deiner Situation, wenn sich die Reparatur nicht mehr lohnt? Auswahlhilfen mit Maßen aus den Datenblättern der Hersteller.",
   alternates: { canonical: "https://hausbau-hero.de/ratgeber" },
 };
 
