@@ -76,6 +76,20 @@ const VERWEISE: Record<string, Verweis[]> = {
     { href: "/ersatzteile/hansgrohe/ecostat-comfort", titel: "Ersatzteile für hansgrohe Ecostat Comfort", art: "serie" },
     { href: "/ersatzteile/hansgrohe/ecostat-1001-cl", titel: "Ersatzteile für hansgrohe Ecostat 1001 CL", art: "serie" },
   ],
+  duschsystem: [
+    { href: "/problem/grohe-thermostat-wird-nicht-warm-kalt", titel: "GROHE-Thermostat wird nicht warm oder nicht kalt", art: "problem" },
+    { href: "/problem/hansgrohe-thermostat-wird-nicht-warm", titel: "hansgrohe-Thermostat wird nicht warm", art: "problem" },
+    { href: "/ersatzteile/hansgrohe/croma-select-s-showerpipe", titel: "Ersatzteile für hansgrohe Croma Select S Showerpipe", art: "serie" },
+    { href: "/ersatzteile/hansgrohe/crometta-showerpipe", titel: "Ersatzteile für hansgrohe Crometta Showerpipe", art: "serie" },
+  ],
+  kuechenarmatur: [
+    { href: "/problem/wasserhahn-tropft", titel: "Wasserhahn tropft", art: "problem" },
+    { href: "/ersatzteile/kartusche", titel: "Kartusche für den Wasserhahn: welche passt?", art: "marke" },
+    { href: "/problem/blanco-brause-zieht-nicht-zurueck-armatur-tropft", titel: "Blanco: Brause zieht nicht zurück, Armatur tropft", art: "problem" },
+    { href: "/problem/franke-kuechenarmatur-tropft", titel: "Franke-Küchenarmatur tropft", art: "problem" },
+    { href: "/ersatzteile/grohe/minta-kuechenarmatur", titel: "Ersatzteile für GROHE Minta Küchenarmatur", art: "serie" },
+    { href: "/ersatzteile/hansgrohe/talis-m54-kuechenarmatur", titel: "Ersatzteile für hansgrohe Talis M54", art: "serie" },
+  ],
   "komplettdusche-ratgeber": [
     { href: "/ersatzteile/grohe/grohtherm-1000", titel: "Ersatzteile für Grohe Grohtherm 1000 Thermostat", art: "serie" },
     { href: "/problem/grohe-thermostat-wird-nicht-warm-kalt", titel: "Thermostat wird nicht warm oder nicht kalt", art: "problem" },
