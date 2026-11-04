@@ -36,6 +36,24 @@ export function istAmazonSuche(url: string | null | undefined): boolean {
   return !!url && /^https?:\/\/(www\.)?amazon\.de\/s[?/]/i.test(url);
 }
 
+/**
+ * Ersatzteil-Shop oder Ersatzteilsuche eines Herstellers (spares.hansgrohe.com, blanco.de/ersatzteile, webshop.franke.com …).
+ * Solche Seiten sind oft die eigentliche Quelle einer Zuordnung, wir verlinken sie aber nicht: Wer dort landet, kauft beim
+ * Hersteller. Sie erscheinen nur als Text (docs/SEITENAUFBAU.md, Grundsätze).
+ */
+export function istHerstellerShop(url: string): boolean {
+  try {
+    const u = new URL(url);
+    const host = u.hostname.replace(/^www\./, "");
+    if (/\.pdf$/i.test(u.pathname)) return false;
+    const hersteller = /(^|\.)(hansgrohe|grohe|geberit|blanco|franke|idealstandard|ideal-standard|hansa|schell|tece|villeroy-boch|villeroyboch|kludi|viega)\./i;
+    if (!hersteller.test(host + ".")) return false;
+    return /^(spares|webshop|shop)\./i.test(host) || /ersatzteilsuche|\/shop(\/|$)|\/ersatzteile(\/|$)|spare-?parts/i.test(u.pathname);
+  } catch {
+    return false;
+  }
+}
+
 export function istPartnerUrl(url: string): boolean {
   return isAmazonUrl(url) || istAwinUrl(url);
 }
@@ -74,7 +92,11 @@ export function bereiteArtikelHtmlVor(html: string): string {
     /<a\s[^>]*href="https?:\/\/(?:www\.)?amazon\.de\/s[?/][^"]*"[^>]*>([\s\S]*?)<\/a>/gi,
     "$1",
   );
-  return ohneSuche.replace(/<a\s([^>]*?)href="(https?:\/\/[^"]+)"([^>]*)>/gi, (_m, vor: string, href: string, nach: string) => {
+  // Ersatzteil-Shops der Hersteller: Link weg, Text bleibt (siehe istHerstellerShop)
+  const ohneShop = ohneSuche.replace(/<a\s[^>]*href="(https?:\/\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/gi, (m: string, href: string, text: string) =>
+    istHerstellerShop(href) ? text : m,
+  );
+  return ohneShop.replace(/<a\s([^>]*?)href="(https?:\/\/[^"]+)"([^>]*)>/gi, (_m, vor: string, href: string, nach: string) => {
     const rest = ` ${vor} ${nach}`
       .replace(/\s(rel|target)="[^"]*"/gi, "")
       .replace(/\s+/g, " ")

@@ -43,6 +43,7 @@ Das sind dünne Seiten, und davon viele. Genau das wertet Google seit den Update
 8. **Affiliate-Hinweis einmal, am Ende**, plus Sternchen an den Shop-Links.
 9. **Unser eigener Vorteil gehört nach oben:** Kompatibilität, Nummern-Verwechslungen, Widersprüche zwischen Händlern. Das hat keine Testseite und kein Shop.
 10. **Keine Seiten je Farbe, Oberfläche oder „die besten X“.** „Waschtischarmatur schwarz“, „weiße Badewannenarmatur“ oder „die 7 besten …“ sind das alte Affiliate-Muster. Farbe und Oberfläche sind eine Frage in der Auswahlhilfe des Ratgebers, was zur Beschichtung wichtig ist, steht als Hinweis unter dieser Frage oder im Erklärteil. Alte Farbseiten leiten auf den Ratgeber weiter. Einen eigenen Ratgeber bekommt nur, was anders funktioniert oder anders eingebaut wird (Niederdruck, Unterputz, Thermostat).
+11. **Kein Weg zum Hersteller-Shop, und jedes Teil kaufbar machen.** Quellen stehen im Text (Fragen, „Passt zu“, Widersprüche) nur als Name, klickbar sind sie nur im eingeklappten Quellen-Block unten. Ersatzteil-Shops und Ersatzteilsuchen der Hersteller (spares.…, …/ersatzteilsuche, blanco.de/ersatzteile, webshop.franke.com …) sind nirgends verlinkt, auch nicht dort (`istHerstellerShop` in `src/lib/affiliate.ts`); als Beleg taugen Datenblätter, Anleitungen und Kataloge. Für jedes neue Teil wird geprüft, ob es bei hagebau, Contorion, OTTO (EAN oder Herstellernummer im Feed) oder Amazon (geprüfte ASIN) zu kaufen ist; der PR nennt, wie viele Teile ohne Kaufmöglichkeit bleiben.
 
 ### Was nach Affiliate-Seite aussieht, gibt es nicht mehr
 

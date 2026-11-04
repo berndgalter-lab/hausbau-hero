@@ -129,7 +129,7 @@ export default async function ProblemSeite({ params }: Props) {
           <a href={`/ersatzteile/${marke.slug}`} className="weiterlink">Alle {marke.name}-Ersatzteile</a>
         </p>
       )}
-      <Quellen urls={p.quellen} />
+      <Quellen urls={p.quellen} zugeklappt />
     </div>
   );
 }
