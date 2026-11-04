@@ -5,6 +5,7 @@ import { mitTrackingId } from "@/lib/affiliate";
 import { armaturDaten } from "@/lib/armatur-daten";
 import { formatEuro, formatStand, zeigePreis } from "@/lib/ersatzteile";
 import { angeboteFuerEans, bildAusAngeboten, normEan } from "@/lib/kaufberatung";
+import { artikelUrl } from "@/lib/produkt-ratgeber";
 import ArmaturenVergleich, { type VergleichsProdukt } from "@/components/ArmaturenVergleich";
 
 // Alle Armaturen aus den Kaufberatungen auf einer Seite: filtern, nebeneinanderstellen,
@@ -38,7 +39,7 @@ export default async function ArmaturenVergleichSeite() {
   const produkte = new Map<string, VergleichsProdukt>();
   let aeltester: string | null = null;
   for (const p of roh) {
-    const artikel = { href: `/${p.seiten.silos?.slug ?? "bad"}/${p.seiten.slug}`, titel: p.seiten.titel as string };
+    const artikel = { href: artikelUrl(p.seiten.silos?.slug ?? "bad", p.seiten.slug), titel: p.seiten.titel as string };
     const schluessel = normEan(p.ean) ?? p.hersteller_nr ?? p.name;
     const vorhanden = produkte.get(schluessel);
     if (vorhanden) {

@@ -1,4 +1,5 @@
 "use client";
+import { artikelUrl } from "@/lib/produkt-ratgeber";
 import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
 import { berechne, formatPreis, getAffiliateLink } from "@/lib/rechner-logic";
@@ -469,7 +470,7 @@ export default function RechnerPage() {
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
               <h2 className="text-lg font-bold mb-2">Ratgeber zum Thema</h2>
               <a
-                href={`/${(ratgeber.silos as any)?.slug || "rohbau"}/${ratgeber.slug}`}
+                href={artikelUrl((ratgeber.silos as any)?.slug || "rohbau", ratgeber.slug)}
                 className="group block"
               >
                 <div className="font-medium group-hover:text-amber-700 transition-colors">

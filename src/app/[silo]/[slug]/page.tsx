@@ -10,6 +10,7 @@ import { ersatzteilVerweise } from "@/lib/ersatzteil-verweise";
 import { zerlegeArtikel } from "@/lib/artikel-aufbau";
 import { armaturDaten } from "@/lib/armatur-daten";
 import ModellFinder from "@/components/ModellFinder";
+import { ratgeberNachSlug } from "@/lib/produkt-ratgeber";
 import {
   AffiliateHinweis,
   KurzeAntwort,
@@ -69,6 +70,10 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
   }
 
   if (seite.status !== "aktiv") notFound();
+
+  // Produkt-Ratgeber stehen unter /ratgeber/<produkt> (src/lib/produkt-ratgeber.ts)
+  const produktRatgeber = ratgeberNachSlug(seite.slug);
+  if (produktRatgeber) permanentRedirect(`/ratgeber/${produktRatgeber.pfad}`);
 
   // Dieselbe Seite unter einer anderen Kategorie (/bad/silikatfarbe) wäre eine Dublette: auf die echte leiten
   const echteKategorie = (seite as any).silos?.slug;
