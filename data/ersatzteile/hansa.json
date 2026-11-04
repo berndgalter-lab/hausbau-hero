@@ -1,0 +1,2802 @@
+{
+ "marke": {
+  "slug": "hansa",
+  "name": "Hansa",
+  "beschreibung": "Hansa baut Einhebelmischer und Thermostate für Bad und Küche, bekannte Linien sind Hansamix, Hansaronda, Hansapolo, Hansatempra und der Unterputz-Körper Hansavarox. Auf hansa.com hat jede Armatur eine Ersatzteilliste, und jede Teileseite zeigt, in welche Armaturen das Teil passt.\n\nDie meisten Hansa-Einhebelmischer haben eine von drei Kartuschenfamilien: 3.5 (35 mm, etwa 59913075), 4.8 (etwa 59904601) oder 4.0 (40 mm, 59914129). Welche verbaut ist, hängt von der Armaturnummer ab, nicht nur von der Linie: Bei Hansaronda haben ältere Armaturen die 4.8, neuere die 3.5.",
+  "nummer_hinweis": "Hansa-Armaturen haben eine 8-stellige Artikelnummer, zum Beispiel 51522293 für eine Hansapolo-Waschtischbatterie. Varianten haben teils 10 bis 13 Stellen, etwa 0920220333. Die Nummer steht auf Rechnung, Lieferschein und Verpackung; eine feste Stelle an der Armatur nennt Hansa nicht. Mit der Nummer öffnet static.hansa.com/<Nummer> die Produktseite mit der Ersatzteilliste.\n\nErsatzteile haben ebenfalls 8 Stellen und beginnen meist mit 599, etwa 59913075. Auf der Teileseite zeigt Hansa unter „Kompatible Produkte“, in welche Armaturen das Teil passt. Ohne Armaturnummer hilft deshalb die Nummer der alten Kartusche weiter. Nimm immer die vollständige Nummer: Bei Hansaronda haben 03092273 und 0309210094 verschiedene Kartuschen.",
+  "ersatzteil_garantie": "Hansa gibt zwei Jahre Garantie auf Herstellungs- und Materialfehler, für Einhebelmischer-Kartuschen, Thermostatkartuschen, Magnetventile und Sensoren fünf Jahre. Bei einem Garantiefall ersetzt Hansa nur das Teil, nicht den Ein- und Ausbau. Kalk, verschmutztes Wasser und falsche Reinigung sind ausgeschlossen, und die Garantie gilt nur mit Hansa-Originalteilen.\n\nFür Armaturen, die nach dem 1.1.2012 hergestellt wurden, garantiert Hansa zehn Jahre lang Ersatzteile, gerechnet ab dem Herstelldatum auf der Armatur.",
+  "hersteller_ersatzteil_url": "https://www.hansa.com/de/ersatzteile",
+  "quellen": [
+   "https://www.hansa.com/de/ersatzteile",
+   "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+   "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+   "https://www.hansa.com/de/produkte/51522293/waschtischbatterie",
+   "https://www.hansa.com/de/produkte/59901640/thermostatkartusche-g12",
+   "https://www.hansa.com/de/guarantee",
+   "https://stories.hansa.com/de/finden-sie-schnell-hansa-ersatzteile-und-produktdaten-die-sie-brauchen"
+  ],
+  "fragen": [
+   {
+    "frage": "Wo finde ich die Artikelnummer meiner Hansa-Armatur, und was mache ich ohne Unterlagen?",
+    "antwort": "Hansa nennt keine feste Stelle an der Armatur, an der die Artikelnummer steht. Sie steht auf Rechnung, Lieferschein oder Verpackung. Fehlt sie, hilft die Ersatzteilnummer der alten Kartusche weiter: Auf hansa.com zeigt jede Teileseite, in welche Armaturen das Teil passt. So ließ sich im Forum ein 30 Jahre alter Thermostat über die Kartusche 59904501 als Hansamat bestimmen.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/260536/Hansa-Armatur-altes-Modell-Ersatz",
+     "https://www.hansa.com/de/produkte/59904501/thermostatkartusche-g12",
+     "https://stories.hansa.com/de/finden-sie-schnell-hansa-ersatzteile-und-produktdaten-die-sie-brauchen"
+    ],
+    "teile": [
+     "hansa-thermostatkartusche-59904501"
+    ]
+   },
+   {
+    "frage": "Welche Kartusche passt in meine Hansaronda?",
+    "antwort": "Das hängt vom Alter ab. Ältere Hansaronda-Armaturen haben laut Hansa die 4.8-Kartusche 59904601 (Hansaeco), die Generation ab etwa 2010, zum Beispiel 03092273 oder 03131173, die 35-mm-Kartusche 59913075 oder 59912324. Die Hansa-Teileseite der 59904601 listet unter „Kompatible Produkte“ über 200 Hansaronda-Armaturen. Am sichersten ist die Ersatzteilliste zur eigenen Artikelnummer.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/139202/Hilfe-Hansa-Bad-Amatur-versucht-die-kartusche-zu-tauschen-",
+     "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+     "https://www.hansa.com/de/produkte/03092273/waschtischbatterie",
+     "https://www.hansa.com/de/produkte/03131173/waschtischbatterie-niederdruck"
+    ],
+    "teile": [
+     "hansa-kartusche-59904601",
+     "hansa-kartusche-59913075",
+     "hansa-kartusche-59912324"
+    ],
+    "problem": "hansa-armatur-tropft"
+   },
+   {
+    "frage": "Hat die Hansa-Eco-Kartusche eine Wasserbremse, und gibt es sie auch ohne?",
+    "antwort": "Ja. Hansa beschreibt die 4.8-Kartusche 59904601 und die 3.5-Kartusche 59912324 mit einer Wasserbremse bei etwa 50 % der Wassermenge. Ohne Wasserbremse gibt es die 3.5 Classic (59913075) und die 4.8 Classic (59911437), Letztere listet Hansa aber nur für Hansamedipro. Alle haben eine einstellbare Mengenbegrenzung bis etwa 6 l/min.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/235681/Kein-Wasser-mehr-nach-Kartuschen-Tausch-Hansa",
+     "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+     "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+     "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+     "https://www.hansa.com/de/produkte/59911437/kartusche-48-classic"
+    ],
+    "teile": [
+     "hansa-kartusche-59904601",
+     "hansa-kartusche-59912324",
+     "hansa-kartusche-59913075",
+     "hansa-kartusche-59911437"
+    ]
+   },
+   {
+    "frage": "Wie baue ich bei einer Hansa-Armatur den Hebel ab und bekomme die Kartusche heraus?",
+    "antwort": "Wasser absperren, dann die Madenschraube am Hebel mit einem Innensechskant lösen und den Hebel nach oben abziehen; er sitzt oft fest. Darunter liegt eine Abdeckung und die Messingmutter der Kartusche, die gegen den Uhrzeigersinn herausgedreht wird. In den Foren wird übereinstimmend vor der Rohrzange gewarnt, weil sie die Mutter verformt. Die Schlüsselweite hängt von der Kartusche ab, für die 3.5-Kartuschen nennt Hansa eine Spannmutter M40x1 mit Schlüsselweite 30.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/10383/Kartusche-austauschen-bei-einer-Hansa-Armatur",
+     "https://www.haustechnikdialog.de/Forum/t/139202/Hilfe-Hansa-Bad-Amatur-versucht-die-kartusche-zu-tauschen-",
+     "https://www.dasheimwerkerforum.de/threads/hansa-kartusche.32547/",
+     "https://www.hansa.com/de/produkte/51522293/waschtischbatterie"
+    ],
+    "teile": [
+     "hansa-kartusche-59913075",
+     "hansa-kartusche-59904601"
+    ],
+    "problem": "hansa-armatur-tropft"
+   },
+   {
+    "frage": "Die Mutter der Hansa-Kartusche ist festgekalkt. Wie bekomme ich sie los?",
+    "antwort": "In beiden Forenfällen ging die Mutter mit passendem Schlüssel oder Nuss und leichten Schlägen in Öffnungsrichtung auf, während die Armatur gegengehalten wurde. Eine Rohrzange ist ungeeignet, sie verformt die Mutter. Nach dem Lösen wurden Gewinde und O-Ringe gereinigt und mit Armaturenfett eingesetzt. Wer die Armatur dabei verdrehen oder die Wand beschädigen könnte, überlässt das besser einem Installateur.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/120990/dringend-hansa-kartusche-wechseln",
+     "https://forum.zerspanungsbude.net/viewtopic.php?t=55720",
+     "https://www.haustechnikdialog.de/Forum/t/10383/Kartusche-austauschen-bei-einer-Hansa-Armatur"
+    ],
+    "teile": [],
+    "problem": "hansa-armatur-tropft"
+   },
+   {
+    "frage": "Meine Hansa-Unterputzarmatur tropft trotz neuer Kartusche. Woran liegt das?",
+    "antwort": "Mehrere Forenbeiträge nennen dieselben Ursachen: Schmutz auf dem Kartuschensitz, weil die Leitung beim Tausch nicht gespült wurde, oder eine beschädigte Dichtfläche im Unterputz-Einbaukörper. Erst die Kartusche wieder ausbauen, die Leitung kurz spülen und den Sitz reinigen. Ist die Dichtfläche im Einbaukörper beschädigt, gibt es den Körper laut Forum nicht als Ersatzteil, sondern nur einen Umbausatz über den Installateur.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.gutefrage.net/frage/aus-meiner-hansa-unterputzarmatur-tropft-wasser-trotz-des-einbaus-der-neuen-kartusche-tropft-es-weiterhin-an-was-kann-das-liegen",
+     "https://www.haustechnikdialog.de/Forum/t/165890/Trotz-neuer-Steuerpatrone-Hansa-tropft-es",
+     "https://www.dasheimwerkerforum.de/threads/hansa-up-einhebelmischer.9235/",
+     "https://forum.zerspanungsbude.net/viewtopic.php?t=55720"
+    ],
+    "teile": [
+     "hansa-kartusche-59913075",
+     "hansa-funktionseinheit-59914418"
+    ],
+    "problem": "hansa-armatur-tropft"
+   },
+   {
+    "frage": "Der Hansavarox-Thermostat tropft. Muss die ganze Regeleinheit neu?",
+    "antwort": "Im Forum wurde ein Hansavarox 4000, der rund 20 Liter am Tag tropfte, erst mit einer neuen Regeleinheit wieder dicht; einzelne O-Ringe lassen sich tauschen, das Thermostatelement nicht. Für Fertigsets auf dem Einbaukörper Hansavarox 4000/4001 nennt Hansa die Temperaturreglereinheit mit Absperrung 59912843, für die Fertigsets Hansavarox Pro ab 2017 die Thermostatkartusche 3.4 (59914114).",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.gs-forum.eu/threads/hansa-thermostat-regel-einheit-reparierbar.142126/",
+     "https://www.hansa.com/de/produkte/59912843/thermostatkartusche-12-varox",
+     "https://www.hansa.com/de/produkte/40579083/fertigset-fr-brause-batterie",
+     "https://www.hansa.com/de/produkte/59914114/thermostatkartusche-34"
+    ],
+    "teile": [
+     "hansa-thermostatkartusche-59912843",
+     "hansa-thermostatkartusche-59914114"
+    ],
+    "problem": "hansa-thermostat-wird-nicht-warm"
+   },
+   {
+    "frage": "Mein Hansa-Thermostat wird nicht mehr richtig warm oder schwankt zwischen kalt und warm. Was kann ich tun?",
+    "antwort": "Hansa nennt als häufige Ursache zugesetzte Filter in der Thermostatkartusche und empfiehlt, die Filter zu reinigen und zu prüfen, ob Warm- und Kaltwasser vertauscht angeschlossen sind. Bei Hansamat-Unterputzthermostaten löste im Forum erst der Tausch beider Rückflussverhinderer (59901610) das Problem. Hilft beides nicht, die Thermostatkartusche aus der Ersatzteilliste der eigenen Armatur tauschen.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers",
+     "https://www.holzheizer-forum.de/forum/thread/53265-hansa-up-duscharmatur-wird-nicht-heiss-wechselt-kalt-warm/",
+     "https://www.hansa.com/de/produkte/59901610/rckschlagventil",
+     "https://www.hansa.com/de/produkte/59913463/thermostatkartusche-hc-reversed"
+    ],
+    "teile": [
+     "hansa-rueckflussverhinderer-59901610",
+     "hansa-thermostatkartusche-59914114",
+     "hansa-thermostatkartusche-59913463"
+    ],
+    "problem": "hansa-thermostat-wird-nicht-warm"
+   },
+   {
+    "frage": "Gibt es für alte Hansa-Armaturen noch Ersatzteile?",
+    "antwort": "Hansa garantiert Ersatzteile zehn Jahre ab Herstelldatum, aber nur für Armaturen, die nach dem 1.1.2012 hergestellt wurden. Viele ältere Teile sind trotzdem noch gelistet, zum Beispiel das Hansamat-Regelteil 59904501 oder die 4.8-Kartusche 59904601. Für manche Altarmaturen, etwa Rokal-Thermostate, bekam ein Forennutzer von Hansa keine Teile mehr.",
+    "kategorie": "verfuegbarkeit",
+    "quellen": [
+     "https://www.hansa.com/de/guarantee",
+     "https://www.hansa.com/de/produkte/59904501/thermostatkartusche-g12",
+     "https://www.dasheimwerkerforum.de/threads/rokal-hansa-thermostat-kartusche-ersatz-oder-demontage.23958/",
+     "https://www.haustechnikdialog.de/Forum/t/260536/Hansa-Armatur-altes-Modell-Ersatz"
+    ],
+    "teile": [
+     "hansa-thermostatkartusche-59904501",
+     "hansa-kartusche-59904601"
+    ]
+   },
+   {
+    "frage": "Meine Hansa-Armatur tropft nach gut zwei Jahren. Ist die Kartusche ein Garantiefall?",
+    "antwort": "Möglicherweise ja. Hansa gibt zwei Jahre Garantie auf Herstellungs- und Materialfehler, für Einhebel- und Thermostatkartuschen aber fünf Jahre. Ersetzt wird dann nur das Teil, Ein- und Ausbau zahlt Hansa nicht. Ausgeschlossen sind Schäden durch Kalk oder verschmutztes Wasser, und der Mangel muss im Regelfall binnen 14 Tagen beim Händler oder bei Hansa gemeldet werden.",
+    "kategorie": "verfuegbarkeit",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/128784/Hansa-Einhand-Wannen-Batterie-tropft",
+     "https://www.hansa.com/de/guarantee"
+    ],
+    "teile": [],
+    "problem": "hansa-armatur-tropft"
+   },
+   {
+    "frage": "Wo bekomme ich Hansa-Ersatzteile?",
+    "antwort": "Hansa verkauft über den Fachhandel. Ein Forennutzer bekam auf seine Anfrage von Hansa den Hinweis, sich an einen Installateur zu wenden. Die Teile selbst findest du auf hansa.com über die Produktnummer oder die Designlinie und kannst sie mit der Hansa-Nummer bei Händlern bestellen. Für die Garantie zählt, dass Hansa-Originalteile verbaut sind.",
+    "kategorie": "bezug",
+    "quellen": [
+     "https://www.dasheimwerkerforum.de/threads/hansa-up-einhebelmischer.9235/",
+     "https://stories.hansa.com/de/finden-sie-schnell-hansa-ersatzteile-und-produktdaten-die-sie-brauchen",
+     "https://www.hansa.com/de/guarantee"
+    ],
+    "teile": []
+   }
+  ]
+ },
+ "probleme": [
+  {
+   "slug": "hansa-armatur-tropft",
+   "titel": "Hansa Armatur tropft",
+   "symptom": "Aus dem Auslauf tropft Wasser, obwohl der Hebel geschlossen ist, oder am Armaturenfuß sammelt sich Wasser.",
+   "ursachen": [
+    {
+     "ursache": "Keramikkartusche verschlissen oder verkalkt, die Dichtscheiben schließen nicht mehr",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "hansa-kartusche-59913075",
+      "hansa-kartusche-59912324",
+      "hansa-kartusche-59904601",
+      "hansa-kartusche-59911431",
+      "hansa-kartusche-59914129"
+     ]
+    },
+    {
+     "ursache": "Bodendichtung unter dem Armaturenfuß undicht, Wasser tritt am Fuß aus",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "hansa-bodendichtung-59914591"
+     ]
+    },
+    {
+     "ursache": "Bei Unterputz-Einhebelmischern Hansavarox: Kartusche oder ganze Funktionseinheit defekt",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "hansa-kartusche-59913075",
+      "hansa-funktionseinheit-59914418"
+     ]
+    }
+   ],
+   "schritte": [
+    "Artikelnummer der Armatur ermitteln und unter static.hansa.com/<Nummer> die Ersatzteilliste öffnen. Dort steht die passende Kartusche, bei vielen Armaturen zwei: 59913075 ohne und 59912324 mit Wasserbremse.",
+    "Wasser an den Eckventilen unter dem Waschtisch absperren, gibt es keine, die Hauptabsperrung schließen. Hebel öffnen, damit der Druck entweicht.",
+    "Abdeckkappe abnehmen, Hebelschraube lösen und Hebel abziehen. Die Spannmutter der Kartusche herausdrehen, bei 3.5-Kartuschen laut Hansa M40x1 mit Schlüsselweite 30.",
+    "Kartusche herausziehen und mit der neuen vergleichen (Durchmesser, Aufnahme für den Hebel, Wasserbremse ja oder nein).",
+    "Sitz in der Armatur reinigen, neue Kartusche einsetzen, Spannmutter handfest anziehen und Hebel montieren.",
+    "Wasser langsam öffnen und prüfen, ob die Armatur dicht ist. Tritt Wasser am Fuß aus, die Bodendichtung prüfen."
+   ],
+   "fachbetrieb_ab": "Wenn Eckventile fehlen oder sich nicht schließen lassen, die Kartusche festsitzt oder bei einer Unterputzarmatur Wasser hinter der Wand oder den Fliesen austritt.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+    "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+    "https://www.hansa.com/de/produkte/51522293/waschtischbatterie",
+    "https://www.hansa.com/de/produkte/03131173/waschtischbatterie-niederdruck",
+    "https://www.hansa.com/de/produkte/59914591/bodendichtung",
+    "https://www.hansa.com/de/produkte/59914418/funktionseinheit-35",
+    "https://www.haustechnikdialog.de/Forum/t/10383/Kartusche-austauschen-bei-einer-Hansa-Armatur"
+   ]
+  },
+  {
+   "slug": "hansa-thermostat-wird-nicht-warm",
+   "titel": "Hansa Thermostat wird nicht warm",
+   "symptom": "Am Hansa-Thermostat kommt nur lauwarmes oder kaltes Wasser, die Temperatur schwankt, oder es kommt nur wenig Wasser.",
+   "ursachen": [
+    {
+     "ursache": "Thermostatkartusche verkalkt oder das Dehnstoffelement ist defekt",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "hansa-thermostatkartusche-59914114",
+      "hansa-thermostatkartusche-59911525",
+      "hansa-thermostatkartusche-59913311",
+      "hansa-thermostatkartusche-59913823",
+      "hansa-thermostatkartusche-59913871",
+      "hansa-thermostatkartusche-59901640",
+      "hansa-thermostatkartusche-59912843"
+     ]
+    },
+    {
+     "ursache": "Schmutzfangsiebe an der Kartusche oder in den Anschlüssen zugesetzt, der Durchfluss ist gering",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Warm- und Kaltwasser vertauscht angeschlossen, betrifft vor allem neu montierte Armaturen",
+     "haeufigkeit": "selten",
+     "teil_slugs": [
+      "hansa-thermostatkartusche-59911527",
+      "hansa-thermostatkartusche-59913463"
+     ]
+    }
+   ],
+   "schritte": [
+    "Artikelnummer des Thermostats ermitteln und unter static.hansa.com/<Nummer> die Ersatzteilliste öffnen. Hansa nennt dort die Thermostatkartusche, bei vielen neueren Aufputz-Thermostaten die 3.4 (59914114).",
+    "Wasser absperren, bei Aufputz-Thermostaten an den Absperrungen in den S-Anschlüssen, sonst an der Hauptabsperrung.",
+    "Temperaturgriff abziehen und die Thermostatkartusche herausschrauben.",
+    "Schmutzfangsiebe reinigen und die Kartusche entkalken. Hilft das nicht, die Kartusche tauschen.",
+    "Neue Kartusche mit Armaturenfett an den O-Ringen einsetzen, Griff aufsetzen und Wasser öffnen.",
+    "Temperatur mit einem Thermometer prüfen. Weicht sie stark von der Anzeige ab oder kommt nur heiß oder nur kalt, prüfen, ob die Anschlüsse vertauscht sind."
+   ],
+   "fachbetrieb_ab": "Bei Unterputz-Thermostaten (Hansavarox), wenn sich die Kartusche nicht lösen lässt, Wasser hinter der Wand austritt oder die Warmwasserbereitung selbst nicht genug Temperatur liefert.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59914114/thermostatkartusche-34",
+    "https://www.hansa.com/de/produkte/59911525/thermostatkartusche",
+    "https://www.hansa.com/de/produkte/59913311/thermostatkartusche",
+    "https://www.hansa.com/de/produkte/59911527/thermostatkartusche-hc-reversed",
+    "https://www.hansa.com/de/produkte/58150171/brausebatterie",
+    "https://www.hansa.com/de/produkte/59912843/thermostatkartusche-12-varox",
+    "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers"
+   ]
+  }
+ ],
+ "widersprueche": [
+  {
+   "thema": "EAN der Kartusche 3.5 Classic (59913075)",
+   "aussage_a": "Hansa nennt für die 59913075 die EAN 4015474148895. Die EAN 4015474065826 gehört laut Hansa zur 59912324, der 3.5-Kartusche mit Wasserbremse.",
+   "quelle_a": "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+   "aussage_b": "OEG verkauft die „Cartridge 3.5 Classic 59913075“ mit der EAN 4015474065826. Wer nach EAN bestellt, bekommt dort womöglich die Variante mit Wasserbremse.",
+   "quelle_b": "https://www.oeg.net/en/cartridge-3-5-classic-800001005"
+  },
+  {
+   "thema": "Durchmesser der Kartusche 4.8 (59904601)",
+   "aussage_a": "Hansa bezeichnet die 59904601 als „ø 4.8 Steuerpatrone“ und nennt keinen Durchmesser in Millimetern.",
+   "quelle_a": "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+   "aussage_b": "Sydney Bathroomware verkauft die 59904601 als „Hansa 46mm Mixer Cartridge“.",
+   "quelle_b": "https://www.sydneybathroomware.com.au/hansa-spare-parts/hansa-46mm-mixer-cartridge-59904601"
+  }
+ ],
+ "nicht_geprueft": [
+  "Amazon-Produktseiten der Hansa-Kartuschen sind nicht geprüft, deshalb steht bei keinem Teil eine ASIN. Bilder und Preise kommen über die EAN aus den Partner-Feeds.",
+  "Baujahre der Serien sind leer: Die Gültigkeitsdaten auf hansa.com beginnen bei vielen Armaturen am 27.11.1998, das ist der Start der Hansa-Datenbank, nicht der Marktstart.",
+  "Für Hansatemp und Hansatherm, die in der Keyword-Analyse als Suchbegriffe auftauchen, gibt es auf hansa.com keine Linie dieses Namens. Die Thermostatlinien heißen Hansatempra, Hansatempra Style, Hansamicra, Hansaunita, Hansaprisma und Hansamat."
+ ],
+ "serien": [
+  {
+   "slug": "hansamix-bad",
+   "name": "Hansamix Waschtisch-, Wannen- und Brausearmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "01092183",
+    "01742183",
+    "01042183",
+    "01063283",
+    "01082183",
+    "01082283",
+    "01092283",
+    "01102283",
+    "01111183",
+    "01131183",
+    "01162283",
+    "01182183",
+    "01192183",
+    "01262183"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen meist mit 01 (zum Beispiel 0109, 0119, 0167, 0174, 0196), einzelne mit 54; Unterputz-Fertigsets mit 4184, 4185, 8184 oder 8185.",
+   "beschreibung": "Hansas meistverbaute Einhebelserie. Fast alle Hansamix-Armaturen haben laut Hansa die 4.8-Kartusche 59904601 mit Wasserbremse, einzelne die 59911431 mit Kaltwasser in Mittelstellung. Die Unterputz-Sichtteile von 2026 (81849023, 81859023) haben die 4.0-Kartusche 59914129. Für Waschtischarmaturen ab 2011 listet Hansa den Strahlregler 59913739.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/01742183/wannenfll--und-brausebatterie",
+    "https://www.hansa.com/de/produkte/01092183/waschtischbatterie",
+    "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+    "https://www.hansa.com/de/produkte/59911431/kartusche-48",
+    "https://www.hansa.com/de/produkte/59914129/kartusche-40-classic",
+    "https://www.hansa.com/de/produkte/59911166/o-ring-d-43x25"
+   ]
+  },
+  {
+   "slug": "hansamix-kueche",
+   "name": "Hansamix Küchenarmatur",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "01382283",
+    "01121183",
+    "01142283",
+    "01152283",
+    "01211183",
+    "01361183",
+    "01392183",
+    "01692183",
+    "01692283",
+    "01948183",
+    "01948283",
+    "01949283",
+    "01121102",
+    "01121173"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen mit 0112, 0114, 0115, 0121, 0136, 0138, 0139 oder bei Waschtisch- und Küchenarmaturen mit 0169 und 0194. Teils mit Spülmaschinenventil.",
+   "beschreibung": "Küchenarmaturen der Hansamix-Linie. Auch hier ist laut Hansa die 4.8-Kartusche 59904601 verbaut. Strahlregler je nach Auslauf 59905901 (M22/M24) oder 59902366 (M24x1).",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/01382283/kchenarmatur",
+    "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+    "https://www.hansa.com/de/produkte/59905901/luftsprudler-m22m24-b",
+    "https://www.hansa.com/de/produkte/59902366/luftsprudler-m24x1-std-hc-a"
+   ]
+  },
+  {
+   "slug": "hansaronda-bad",
+   "name": "Hansaronda Waschtisch-, Wannen- und Brausearmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "03092273",
+    "03131173",
+    "03670173",
+    "03012173",
+    "03032273",
+    "03063273",
+    "03082273",
+    "03422073",
+    "03742173",
+    "55262203",
+    "55342203",
+    "03012180",
+    "03012181",
+    "03012182"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen meist mit 03 (0301, 0306, 0309, 0313, 0367, 0374); Unterputz-Fertigsets mit 4384, 4386, 8384 oder 8386.",
+   "beschreibung": "Bei Hansaronda hängt die Kartusche von der Generation ab. Die meisten älteren Armaturen haben laut Hansa die 4.8-Kartusche 59904601 (oder 59911431), die Generation ab etwa 2010, etwa 03092273, 03131173, 03670173 und 03742173, die 35-mm-Kartusche 59913075 oder 59912324 mit Wasserbremse. Für neuere Waschtischarmaturen listet Hansa den Strahlregler M18,5x1 (59913366) und den passenden Schlüssel 59913367.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/03670173/brausebatterie",
+    "https://www.hansa.com/de/produkte/03131173/waschtischbatterie-niederdruck",
+    "https://www.hansa.com/de/produkte/03092273/waschtischbatterie",
+    "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+    "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+    "https://www.hansa.com/de/produkte/59904601/kartusche-48"
+   ]
+  },
+  {
+   "slug": "hansaronda-kueche",
+   "name": "Hansaronda Küchenarmatur",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "03382273",
+    "03342273",
+    "54912283",
+    "55191133",
+    "03121101",
+    "03121173",
+    "03142101",
+    "03142201",
+    "03142273",
+    "03321131",
+    "03342131",
+    "03361131",
+    "03382131",
+    "03692103"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen mit 0312, 0314, 0334, 0336, 0338, 5519 oder 5539.",
+   "beschreibung": "Küchenarmaturen der Hansaronda-Linie. Alte Modelle haben die 4.8-Kartusche 59904601, neuere wie 03382273 oder 03342273 die 35-mm-Kartusche 59913075 oder 59912324.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/03382273/kchenarmatur",
+    "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+    "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+    "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+    "https://www.hansa.com/de/produkte/59905901/luftsprudler-m22m24-b",
+    "https://www.hansa.com/de/produkte/59902366/luftsprudler-m24x1-std-hc-a"
+   ]
+  },
+  {
+   "slug": "hansapolo-bad",
+   "name": "Hansapolo Waschtisch-, Wannen- und Brausearmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "51402293",
+    "51522293",
+    "51450193",
+    "51402193",
+    "51412293",
+    "51422293",
+    "51433293",
+    "51442193",
+    "51450163",
+    "51462293",
+    "51502293",
+    "51522286",
+    "51531193",
+    "51542293"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen meist mit 514 oder 515 (zum Beispiel 5140, 5142, 5145, 5152); Unterputz-Fertigsets mit 4060, 4061, 8060 oder 8061.",
+   "beschreibung": "Einhebelserie. Alle Hansapolo-Armaturen haben laut Hansa die 35-mm-Kartusche 59913075, ältere auch die 59912324 mit Wasserbremse. Die Unterputz-Sichtteile von 2026 haben die 4.0-Kartusche 59914129. Strahlregler meist 59913727 (M24x1, 6 l/min).",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/51450193/brausebatterie",
+    "https://www.hansa.com/de/produkte/51522293/waschtischbatterie",
+    "https://www.hansa.com/de/produkte/51402293/waschtischbatterie",
+    "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+    "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+    "https://www.hansa.com/de/produkte/59914129/kartusche-40-classic"
+   ]
+  },
+  {
+   "slug": "hansapolo-kueche",
+   "name": "Hansapolo Küchenarmatur",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "51482293",
+    "51562293",
+    "51591193",
+    "51602293",
+    "51622193",
+    "52662293",
+    "52702293",
+    "51482203",
+    "51482273",
+    "51482283",
+    "51482373",
+    "51591173",
+    "51591183",
+    "52662203"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen mit 5148, 5156, 5159, 5160, 5162, 5266 oder 5270. Teils mit Spülmaschinenventil.",
+   "beschreibung": "Küchenarmaturen der Hansapolo-Linie mit 35-mm-Kartusche 59913075 (ältere Ausführungen auch 59912324) und Strahlregler 59902366 (M24x1).",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/51482293/kchenarmatur",
+    "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+    "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+    "https://www.hansa.com/de/produkte/59902366/luftsprudler-m24x1-std-hc-a"
+   ]
+  },
+  {
+   "slug": "hansatwist-bad",
+   "name": "Hansatwist Waschtisch-, Wannen- und Brausearmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "09092283",
+    "09012283",
+    "09022283",
+    "09031183",
+    "09052283",
+    "09063283",
+    "09092183",
+    "09131183",
+    "09302203",
+    "09542203",
+    "09552203",
+    "09670183",
+    "09742183",
+    "09012285"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen mit 09 (0901, 0905, 0909, 0967, 0974); Unterputz-Fertigsets mit 4984, 4985, 8984 oder 8985.",
+   "beschreibung": "Einhebelserie, deren aktuelle Armaturen laut Hansa die 35-mm-Kartusche 59913075 oder 59912324 haben. Ältere Modelle bis etwa 2010 haben die 4.8-Kartusche 59904601. Strahlregler bei Waschtischarmaturen meist 59913727.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/09092283/waschtischbatterie",
+    "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+    "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+    "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+    "https://www.hansa.com/de/produkte/59913727/luftsprudler-m24x1-6-lmin",
+    "https://www.hansa.com/de/produkte/59914591/bodendichtung"
+   ]
+  },
+  {
+   "slug": "hansatwist-kueche",
+   "name": "Hansatwist Küchenarmatur",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "09142283",
+    "09121183",
+    "09202203",
+    "09221103",
+    "09692193",
+    "09121101",
+    "09121173",
+    "09121185",
+    "09142101",
+    "09142273",
+    "09142285",
+    "09152203",
+    "09152205",
+    "09202205"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen mit 0912, 0914, 0915, 0920, 0922 oder 0969.",
+   "beschreibung": "Küchenarmaturen der Hansatwist-Linie. Aktuelle Ausführungen mit 35-mm-Kartusche 59913075 oder 59912324, ältere mit 59904601.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/09142283/kchenarmatur",
+    "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+    "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+    "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+    "https://www.hansa.com/de/produkte/59902366/luftsprudler-m24x1-std-hc-a"
+   ]
+  },
+  {
+   "slug": "hansaprimo-bad",
+   "name": "Hansaprimo Waschtisch-, Wannen- und Brausearmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "49402203",
+    "49000000",
+    "49010000",
+    "49372203",
+    "49381103",
+    "49422203",
+    "49433203",
+    "49442103",
+    "49450103",
+    "49462203",
+    "49542203",
+    "49552203",
+    "49562203",
+    "49571103"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen mit 49 (4937, 4940, 4942, 4944, 4945); Unterputz-Fertigsets mit 4990, 4991, 8990 oder 8991.",
+   "beschreibung": "Einhebelserie, die Hansa seit 2011 listet. Laut Hansa mit 35-mm-Kartusche 59913075, viele Armaturen auch mit 59912324. Die Unterputz-Sichtteile von 2026 haben die 4.0-Kartusche 59914129.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/49402203/waschtischbatterie",
+    "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+    "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+    "https://www.hansa.com/de/produkte/59914129/kartusche-40-classic",
+    "https://www.hansa.com/de/produkte/59913727/luftsprudler-m24x1-6-lmin",
+    "https://www.hansa.com/de/produkte/59914591/bodendichtung"
+   ]
+  },
+  {
+   "slug": "hansaprimo-kueche",
+   "name": "Hansaprimo Küchenarmatur",
+   "produkttyp": "kuechenarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "49482203",
+    "49202203",
+    "49221103",
+    "49491103",
+    "49502203",
+    "49522203"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen mit 4920, 4922, 4948, 4949, 4950 oder 4952.",
+   "beschreibung": "Küchenarmaturen der Hansaprimo-Linie mit 35-mm-Kartusche 59913075 oder 59912324.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/49482203/kchenarmatur",
+    "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+    "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+    "https://www.hansa.com/de/produkte/59902366/luftsprudler-m24x1-std-hc-a"
+   ]
+  },
+  {
+   "slug": "hansadesigno",
+   "name": "Hansadesigno Waschtisch-, Wannen- und Küchenarmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "51712173",
+    "51012273",
+    "51012283",
+    "51032283",
+    "51211183",
+    "51492283",
+    "51692293",
+    "51712283",
+    "51722283",
+    "51733283",
+    "51792201",
+    "51792221",
+    "51832293",
+    "51882283"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen mit 51 (5101, 5103, 5171, 5172, 5185, 5186); Unterputz-Fertigsets mit 4110, 4111, 8110 oder 8111. Die überarbeitete Linie ab 2018 heißt Hansadesigno Style.",
+   "beschreibung": "Designlinie für Bad und Küche. Laut Hansa haben die meisten Armaturen die 35-mm-Kartusche 59913075 oder 59912324, frühe Modelle die 4.8-Kartusche 59904601 und Hansadesigno Style ab 2018 die 4.0-Kartusche 59914129. Für Waschtischarmaturen listet Hansa den Strahlregler M18,5x1 (59913366) und den Schlüssel 59913367.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/51012273/kchenarmatur",
+    "https://www.hansa.com/de/produkte/51712173/waschtischbatterie",
+    "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+    "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+    "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+    "https://www.hansa.com/de/produkte/59914129/kartusche-40-classic"
+   ]
+  },
+  {
+   "slug": "hansaloft",
+   "name": "Hansaloft Waschtisch-, Wannen- und Brausearmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "57542203",
+    "57482201",
+    "57482209",
+    "57492211",
+    "57492219",
+    "57532203",
+    "57542103",
+    "57562103",
+    "57583203",
+    "57603003",
+    "57609003",
+    "57629003",
+    "57663203",
+    "57702103"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen mit 57 (5753, 5754, 5756, 5770, 5771); Unterputz-Fertigsets mit 5760, 5762, 8760 oder 8762.",
+   "beschreibung": "Designlinie, die Hansa seit 2012 listet und größtenteils bis 2026 auslaufen lässt. Kartusche 59913075 oder 59912324 (35 mm), Strahlregler M18,5x1 (59913366) mit Schlüssel 59913367.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/57542203/waschtischbatterie",
+    "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+    "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+    "https://www.hansa.com/de/produkte/59913366/luftsprudler-m185x1-tj",
+    "https://www.hansa.com/de/produkte/59913367/schlssel-fr-luftsprudler-m185x1"
+   ]
+  },
+  {
+   "slug": "hansavantis",
+   "name": "Hansavantis und Hansavantis Style",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "52402273",
+    "52372263",
+    "52372267",
+    "52402263",
+    "52402267",
+    "52422263",
+    "52422267",
+    "52432267",
+    "52461163",
+    "52461167",
+    "52562263",
+    "52562267",
+    "52682267",
+    "42603043"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen mit 52 (5240, 5242, 5244, 5245, 5249), bei Hansavantis Style auch mit 54. Viele Hansavantis-Armaturen hat Hansa 2023 aus dem Programm genommen.",
+   "beschreibung": "Einhebelserie. Laut Hansa mit 35-mm-Kartusche 59912324 oder 59913075 und Strahlregler 59913727. Elektronische Vantis-Style-Armaturen mit Bluetooth haben andere Funktionsteile.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/52402273/waschtischbatterie",
+    "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+    "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+    "https://www.hansa.com/de/produkte/59913727/luftsprudler-m24x1-6-lmin",
+    "https://www.hansa.com/de/produkte/59914591/bodendichtung"
+   ]
+  },
+  {
+   "slug": "hansapinto",
+   "name": "Hansapinto Waschtisch-, Wannen- und Brausearmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "45012283",
+    "45022283",
+    "45042283",
+    "45052283",
+    "45062283",
+    "45073283",
+    "45082293",
+    "45092283",
+    "45102283",
+    "45112183",
+    "45120163",
+    "45132283",
+    "45152283",
+    "45182283"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen mit 45 (zum Beispiel 4507, 4512).",
+   "beschreibung": "Laut Hansa haben Hansapinto-Armaturen bis 2017 die 35-mm-Kartusche 59913075 oder 59912324, Armaturen ab 2017 die 4.0-Kartusche 59914129.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59914129/kartusche-40-classic",
+    "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+    "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+    "https://www.hansa.com/de/produkte/59913727/luftsprudler-m24x1-6-lmin",
+    "https://www.hansa.com/de/produkte/59914591/bodendichtung"
+   ]
+  },
+  {
+   "slug": "hansavarox-einhebel",
+   "name": "Hansavarox Unterputz-Einhebelarmatur",
+   "produkttyp": "duscharmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "40559173",
+    "40529073",
+    "40529083",
+    "40559183",
+    "40103003",
+    "40109003",
+    "40119003",
+    "40509073",
+    "40509083",
+    "40539073",
+    "40539083",
+    "40539173",
+    "40539183",
+    "40549173"
+   ],
+   "erkennungsmerkmale": "Hansavarox ist ein Unterputz-Einbaukörper von Hansa. Auf der Wand sitzt das Fertigset mit eigener Nummer, bei Hansavarox selbst 4050, 4052, 4053 oder 4055.",
+   "beschreibung": "Unterputz-Einhebelmischer für Wanne und Dusche. In den Hansavarox-Fertigsets ab 2014 steckt laut Hansa die 35-mm-Kartusche 59913075, in den Brause-Fertigsets 4053 bis 4055 als komplette Funktionseinheit 59914418. Die frühen Sets 4010 und 4011 haben die 4.8-Kartusche 59904601.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/40559173/fertigset-fr-brause-batterie",
+    "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+    "https://www.hansa.com/de/produkte/59914418/funktionseinheit-35",
+    "https://www.hansa.com/de/produkte/59904601/kartusche-48"
+   ]
+  },
+  {
+   "slug": "hansavarox-thermostat",
+   "name": "Hansavarox Unterputz-Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "40579083",
+    "40569073",
+    "40569083",
+    "40579073",
+    "40589073",
+    "40589083",
+    "41139042",
+    "41139542",
+    "41139552",
+    "41139562",
+    "41143042",
+    "41143542",
+    "41143552",
+    "41143562"
+   ],
+   "erkennungsmerkmale": "Fertigsets Hansavarox Pro für Thermostat: 4056, 4057, 4058. Ältere Thermostat-Fertigsets bis etwa 2016 tragen den Namen ihrer Designlinie, etwa Hansaronda 4863 und 4864, Hansamix 4861 und 4862, Hansadesigno und Hansaliving 4113 und 4114.",
+   "beschreibung": "Unterputz-Thermostate auf dem Einbaukörper Hansavarox. Die Fertigsets Hansavarox Pro ab 2017 haben laut Hansa die Thermostatkartusche 3.4 (59914114) mit O-Ringsatz 59914113. Für die älteren Fertigsets nennt Hansa die Temperaturreglereinheit mit Absperrung 59912843, die laut Hansa zum Einbaukörper Hansavarox 4000/4001 passt.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/40579083/fertigset-fr-brause-batterie",
+    "https://www.hansa.com/de/produkte/59914114/thermostatkartusche-34",
+    "https://www.hansa.com/de/produkte/59914113/o-ringsatz",
+    "https://www.hansa.com/de/produkte/59912843/thermostatkartusche-12-varox"
+   ]
+  },
+  {
+   "slug": "hansatempra",
+   "name": "Hansatempra Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "08240202",
+    "08240282",
+    "08382202",
+    "08382292",
+    "08385202",
+    "08385292",
+    "08200100",
+    "08240201",
+    "08340302",
+    "08362201",
+    "08362202",
+    "08362281",
+    "08382201",
+    "08382212"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen mit 08, zum Beispiel 0824 (Brause), 0838 (Waschtisch), 0836 und 0844 (Wanne). Aufputz-Thermostat mit Temperatur- und Mengengriff.",
+   "beschreibung": "Hansas klassischer Aufputz-Thermostat. Laut Hansa mit Thermostatkartusche 59911525, bei vertauschten Anschlüssen 59911527. Das Oberteil der Mengenregulierung ist 59901530.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/08240202/brausebatterie",
+    "https://www.hansa.com/de/produkte/59911525/thermostatkartusche",
+    "https://www.hansa.com/de/produkte/59911527/thermostatkartusche-hc-reversed",
+    "https://www.hansa.com/de/produkte/59901530/oberteil-g12-dn-15"
+   ]
+  },
+  {
+   "slug": "hansatempra-style",
+   "name": "Hansatempra Style Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "58410101",
+    "58429103",
+    "58442101"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen mit 5841 (Brause), 5842 (Duschsystem) oder 5844 (Wanne). Hansa hat die Linie bis Ende 2024 aus dem Programm genommen.",
+   "beschreibung": "Aufputz-Thermostate, die Hansa von 2008 bis 2024 listete, mit Thermostatkartusche 59913311, bei vertauschten Anschlüssen 59913463. Die Kartuschen sind weiter lieferbar.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/58429103/regenbrause-duscharmatur",
+    "https://www.hansa.com/de/produkte/58410101/brausebatterie",
+    "https://www.hansa.com/de/produkte/59913311/thermostatkartusche",
+    "https://www.hansa.com/de/produkte/59913463/thermostatkartusche-hc-reversed"
+   ]
+  },
+  {
+   "slug": "hansamicra",
+   "name": "Hansamicra Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "58150171",
+    "44350100",
+    "44350130",
+    "44350230",
+    "58152171",
+    "58162171"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen mit 5815 (Brause), 5816 (Wanne) oder 4435 (Duschsystem). Aufputz-Thermostat, den Hansa seit 2016 listet.",
+   "beschreibung": "Aufputz-Thermostat, laut Hansa mit Thermostatkartusche 3.4 (59914114), Oberteil 59914111 für den Mengengriff und O-Ringsatz 59914113.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/58150171/brausebatterie",
+    "https://www.hansa.com/de/produkte/59914114/thermostatkartusche-34",
+    "https://www.hansa.com/de/produkte/59914111/oberteil-g12",
+    "https://www.hansa.com/de/produkte/59914113/o-ringsatz"
+   ]
+  },
+  {
+   "slug": "hansaunita",
+   "name": "Hansaunita Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "58130101",
+    "48130121",
+    "48130131",
+    "48372131",
+    "58130001",
+    "58149103",
+    "58149113",
+    "58149203",
+    "58372101"
+   ],
+   "erkennungsmerkmale": "Artikelnummern beginnen mit 5813 (Brause), 5814 (Duschsystem), 5837 (Wanne) oder 4813 (Brausesets).",
+   "beschreibung": "Aufputz-Thermostat, den Hansa bis 2024 bzw. 2027 auslaufen lässt. In der Hansa-Ersatzteilliste stehen zwei Thermostatkartuschen, 2.7 (59913823) und 3.4 (59914114). Vor dem Kauf deshalb die alte Kartusche ausbauen und vergleichen.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/58130101/brausebatterie",
+    "https://www.hansa.com/de/produkte/59914114/thermostatkartusche-34",
+    "https://www.hansa.com/de/produkte/59913823/thermostatkartusche-27",
+    "https://www.hansa.com/de/produkte/59914111/oberteil-g12"
+   ]
+  },
+  {
+   "slug": "hansaprisma",
+   "name": "Hansaprisma Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "58080301",
+    "58102301",
+    "08282201",
+    "08292201",
+    "08420101",
+    "08420191",
+    "08472101",
+    "48080121",
+    "48080131",
+    "48102121",
+    "48102131",
+    "58080101",
+    "58099103",
+    "58099113"
+   ],
+   "erkennungsmerkmale": "Ältere Generation: Artikelnummern wie 08282201, 08420101, 08472101. Ab 2020: 58080301, 58102301 und Brausesets 4813.",
+   "beschreibung": "Aufputz-Thermostate. Laut Hansa haben die Armaturen ab 2020 die Thermostatkartusche 3.4 (59914114), ältere Ausführungen die 3.3 (59913871) oder das Tempra-Regelteil 59911525.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59914114/thermostatkartusche-34",
+    "https://www.hansa.com/de/produkte/59913871/thermostatkartusche-33",
+    "https://www.hansa.com/de/produkte/59911525/thermostatkartusche"
+   ]
+  },
+  {
+   "slug": "hansamat",
+   "name": "Hansamat Thermostat",
+   "produkttyp": "thermostat",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "08910101",
+    "08030100",
+    "08040100",
+    "08040190",
+    "08080100",
+    "08080190",
+    "08100100",
+    "08230201",
+    "08300201",
+    "08330301",
+    "08352201",
+    "08392201",
+    "08400101",
+    "08432101"
+   ],
+   "erkennungsmerkmale": "Artikelnummern wie 08040100 (Unterputz-Rohbauset), 08910101, 08230201, 08300201 oder 08392201. Hansa hat die Fertigsets 2017 aus dem Programm genommen.",
+   "beschreibung": "Thermostat für Unterputz- und Aufputzmontage. Laut Hansa mit Regelteil 59901640 (G 1/2) oder, bei Ausführungen mit Absperrung, 59904501, dazu Rückflussverhinderer 59901610 und Oberteil 59901530 für die Mengenregulierung.",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/08910101/fertigset-fr-brause-batterie",
+    "https://www.hansa.com/de/produkte/59901640/thermostatkartusche-g12",
+    "https://www.hansa.com/de/produkte/59904501/thermostatkartusche-g12",
+    "https://www.hansa.com/de/produkte/59901610/rckschlagventil",
+    "https://www.hansa.com/de/produkte/59901530/oberteil-g12-dn-15"
+   ]
+  },
+  {
+   "slug": "hansamedipro",
+   "name": "Hansamedipro Klinik- und Pflegearmatur",
+   "produkttyp": "waschtischarmatur",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "58101201",
+    "01612103",
+    "01612105",
+    "01612106",
+    "01622193",
+    "01622195",
+    "01622196",
+    "02532203",
+    "02552203",
+    "02552205",
+    "02552206",
+    "02572203",
+    "02572205",
+    "02572206"
+   ],
+   "erkennungsmerkmale": "Artikelnummern wie 58101201 (Thermostat), 01612103 oder 02552203.",
+   "beschreibung": "Einhebelarmaturen mit 4.8-Classic-Kartusche 59911437, Thermostate mit Thermostatkartusche 3.3 (59913871).",
+   "quellen": [
+    "https://www.hansa.com/de/produkte/58101201/wannenfll--und-brausebatterie",
+    "https://www.hansa.com/de/produkte/59911437/kartusche-48-classic",
+    "https://www.hansa.com/de/produkte/59913871/thermostatkartusche-33"
+   ]
+  }
+ ],
+ "teile": [
+  {
+   "slug": "hansa-kartusche-59913075",
+   "name": "Hansa Kartusche 3.5 Classic (59913075)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "59913075",
+   "ean": "4015474148895",
+   "masse": {
+    "durchmesser_mm": 35
+   },
+   "beschreibung": "Keramikkartusche mit 35 mm Durchmesser für Hansa-Einhebelmischer, ohne Wasserbremse. Laut Hansa mit Keramikscheiben und eingebauten Fettdepots, einstellbarer Heißwassersperre und Mengenbegrenzung bis etwa 6 l/min. Hansa listet sie für mehrere hundert Armaturen, unter anderem Hansapolo, Hansaronda (neuere Generation), Hansatwist, Hansaprimo, Hansaloft, Hansadesigno und Hansavarox-Fertigsets.",
+   "preis_spanne": "ca. 40 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren (Eckventile oder Hauptabsperrung). Innensechskant oder kleiner Schraubendreher für Hebel und Abdeckkappe, Maulschlüssel für die Spannmutter (bei 3.5-Kartuschen M40x1, SW 30), Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-kartusche-59912324",
+   "name": "Hansa Kartusche 3.5 mit Wasserbremse (59912324)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "59912324",
+   "ean": "4015474065826",
+   "masse": {
+    "durchmesser_mm": 35
+   },
+   "beschreibung": "35-mm-Keramikkartusche wie die 59913075, aber mit Wasserbremse, die laut Hansa bei etwa 50 % der Wassermenge einsetzt. Hansa führt sie in den Ersatzteillisten vieler Armaturen neben der 59913075.",
+   "preis_spanne": "ca. 40 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren (Eckventile oder Hauptabsperrung). Innensechskant oder kleiner Schraubendreher für Hebel und Abdeckkappe, Maulschlüssel für die Spannmutter (bei 3.5-Kartuschen M40x1, SW 30), Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-kartusche-59904601",
+   "name": "Hansa Kartusche 4.8 mit Wasserbremse (59904601)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "59904601",
+   "ean": "4015474165632",
+   "masse": {},
+   "beschreibung": "Größere Hansa-Steuerpatrone („4.8“) mit Wasserbremse bei etwa 50 bis 60 % der Wassermenge, Keramikscheiben mit Fettdepots und einstellbarer Mengenbegrenzung bis etwa 6 l/min. Laut Hansa passt sie in über 700 Armaturen, vor allem Hansamix und ältere Hansaronda, außerdem Hansaviva, Hansadisc, Hansastar, Hansaprado und ältere Hansadesigno und Hansatwist.",
+   "preis_spanne": "ca. 68 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren (Eckventile oder Hauptabsperrung). Innensechskant oder kleiner Schraubendreher für Hebel und Abdeckkappe, Maulschlüssel für die Spannmutter (bei 3.5-Kartuschen M40x1, SW 30), Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-kartusche-59911431",
+   "name": "Hansa Kartusche 4.8 HANSA-TOP (59911431)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "59911431",
+   "ean": "4015474961531",
+   "masse": {},
+   "beschreibung": "4.8-Steuerpatrone mit Kaltwasser in Mittelstellung: In Mittelstellung des Hebels kommt laut Hansa nur Kaltwasser. Dazu Wasserbremse bei etwa 60 % der Menge. Hansa listet sie für rund 100 Armaturen, vor allem Hansaronda und Hansamix.",
+   "preis_spanne": "ca. 82 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren (Eckventile oder Hauptabsperrung). Innensechskant oder kleiner Schraubendreher für Hebel und Abdeckkappe, Maulschlüssel für die Spannmutter (bei 3.5-Kartuschen M40x1, SW 30), Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59911431/kartusche-48",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-kartusche-59911437",
+   "name": "Hansa Kartusche 4.8 Classic (59911437)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "59911437",
+   "ean": "4015474964242",
+   "masse": {},
+   "beschreibung": "4.8-Steuerpatrone ohne Wasserbremse, mit Heißwassersperre und Mengenbegrenzung bis etwa 6 l/min. Laut Hansa nur für die Klinik- und Pflegeserie Hansamedipro gelistet, nicht für Hansamix oder Hansaronda.",
+   "preis_spanne": "ca. 67 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren (Eckventile oder Hauptabsperrung). Innensechskant oder kleiner Schraubendreher für Hebel und Abdeckkappe, Maulschlüssel für die Spannmutter (bei 3.5-Kartuschen M40x1, SW 30), Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59911437/kartusche-48-classic",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-kartusche-59914129",
+   "name": "Hansa Kartusche 4.0 Classic (59914129)",
+   "teiltyp": "kartusche",
+   "oem_nummer": "59914129",
+   "ean": "4015474275768",
+   "masse": {
+    "durchmesser_mm": 40
+   },
+   "beschreibung": "Keramikkartusche mit 40 mm Durchmesser. Hansa nennt sie für Hansasignatur, Hansadesigno ab 2018 (Hansadesigno Style) und Hansapinto ab 2017, außerdem für die Unterputz-Sichtteile von 2026 der Linien Hansamix, Hansapolo, Hansatwist und Hansaprimo.",
+   "preis_spanne": "ca. 51 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren (Eckventile oder Hauptabsperrung). Innensechskant oder kleiner Schraubendreher für Hebel und Abdeckkappe, Maulschlüssel für die Spannmutter (bei 3.5-Kartuschen M40x1, SW 30), Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59914129/kartusche-40-classic",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-thermostatkartusche-59914114",
+   "name": "Hansa Thermostatkartusche 3.4 (59914114)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "59914114",
+   "ean": "4015474275614",
+   "masse": {},
+   "beschreibung": "Thermostat-Regelteil 3.4 ohne Absperrung, mit Schmutzfangsieben, Wachs-Dehnstoffelement und nicht steigender Spindel. Laut Hansa die Thermostatkartusche für Hansamicra, Hansaunita, Hansaprisma ab 2020, Hansaemotion, die Hansavarox-Thermostat-Fertigsets ab 2017 und Hansaliving sowie Hansaeasytherm.",
+   "preis_spanne": "ca. 63 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Wasser absperren (bei Aufputz-Thermostaten an den Absperrungen der S-Anschlüsse, sonst Hauptabsperrung). Innensechskant für den Griff, Maulschlüssel für die Kartusche, Armaturenfett, Thermometer zum Einstellen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59914114/thermostatkartusche-34",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-thermostatkartusche-59911525",
+   "name": "Hansa Thermostatkartusche Hansatempra (59911525)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "59911525",
+   "ean": "4015474769595",
+   "masse": {},
+   "beschreibung": "Thermostat-Regelteil für Hansatempra ohne Mengenregulierung, mit Schmutzfangsieben und Wachs-Dehnstoffelement. Hansa listet es außerdem für ältere Hansaprisma, Hansatwister und Hansacube sowie Unterputz-Fertigsets älterer Serien. Für thermische Desinfektion nach DVGW W 551 gibt es das Spülset 59912853.",
+   "preis_spanne": "ca. 172 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Wasser absperren (bei Aufputz-Thermostaten an den Absperrungen der S-Anschlüsse, sonst Hauptabsperrung). Innensechskant für den Griff, Maulschlüssel für die Kartusche, Armaturenfett, Thermometer zum Einstellen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59911525/thermostatkartusche",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-thermostatkartusche-59911527",
+   "name": "Hansa Thermostatkartusche Hansatempra, Anschlüsse vertauscht (59911527)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "59911527",
+   "ean": "4015474769625",
+   "masse": {},
+   "beschreibung": "Sonderausführung der 59911525 für Armaturen, bei denen Warm- und Kaltwasser vertauscht angeschlossen sind (warm rechts). Laut Hansa für Hansatempra und Hansacube.",
+   "preis_spanne": "ca. 205 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Wasser absperren (bei Aufputz-Thermostaten an den Absperrungen der S-Anschlüsse, sonst Hauptabsperrung). Innensechskant für den Griff, Maulschlüssel für die Kartusche, Armaturenfett, Thermometer zum Einstellen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59911527/thermostatkartusche-hc-reversed",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-thermostatkartusche-59913311",
+   "name": "Hansa Thermostatkartusche Hansatempra Style (59913311)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "59913311",
+   "ean": "4015474196278",
+   "masse": {},
+   "beschreibung": "Thermostat-Regelteil für Hansatempra Style mit Schmutzfangsieben, Wachs-Dehnstoffelement und nicht steigender Spindel, ohne Mengenregulierung. Laut Hansa außerdem in Hansaliving-Fertigsets und Hansamatrix-Rohbausets.",
+   "preis_spanne": "ca. 129 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Wasser absperren (bei Aufputz-Thermostaten an den Absperrungen der S-Anschlüsse, sonst Hauptabsperrung). Innensechskant für den Griff, Maulschlüssel für die Kartusche, Armaturenfett, Thermometer zum Einstellen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59913311/thermostatkartusche",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-thermostatkartusche-59913463",
+   "name": "Hansa Thermostatkartusche Hansatempra Style, Anschlüsse vertauscht (59913463)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "59913463",
+   "ean": "4015474210462",
+   "masse": {},
+   "beschreibung": "Variante der 59913311 für vertauschte Warm- und Kaltwasseranschlüsse. Steht in denselben Hansa-Ersatzteillisten wie die 59913311.",
+   "preis_spanne": "ca. 168 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Wasser absperren (bei Aufputz-Thermostaten an den Absperrungen der S-Anschlüsse, sonst Hauptabsperrung). Innensechskant für den Griff, Maulschlüssel für die Kartusche, Armaturenfett, Thermometer zum Einstellen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59913463/thermostatkartusche-hc-reversed",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-thermostatkartusche-59913823",
+   "name": "Hansa Thermostatkartusche 2.7 (59913823)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "59913823",
+   "ean": "4015474258099",
+   "masse": {},
+   "beschreibung": "Thermostat-Regelteil 2.7 ohne Mengenregulierung, mit Schmutzfangsieben, Wachs-Dehnstoffelement und nicht steigender Spindel. Laut Hansa für Hansaunita und den Sicherheits-Vormischer Hansaminimat.",
+   "preis_spanne": "ca. 62 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Wasser absperren (bei Aufputz-Thermostaten an den Absperrungen der S-Anschlüsse, sonst Hauptabsperrung). Innensechskant für den Griff, Maulschlüssel für die Kartusche, Armaturenfett, Thermometer zum Einstellen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59913823/thermostatkartusche-27",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-thermostatkartusche-59913871",
+   "name": "Hansa Thermostatkartusche 3.3 (59913871)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "59913871",
+   "ean": "4015474260078",
+   "masse": {},
+   "beschreibung": "Thermostat-Regelteil 3.3 ohne Mengenregulierung, mit Schmutzfangsieben und Wachs-Dehnstoffelement. Laut Hansa für Hansaprisma, Hansamedipro und Hansapublic.",
+   "preis_spanne": "ca. 155 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Wasser absperren (bei Aufputz-Thermostaten an den Absperrungen der S-Anschlüsse, sonst Hauptabsperrung). Innensechskant für den Griff, Maulschlüssel für die Kartusche, Armaturenfett, Thermometer zum Einstellen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59913871/thermostatkartusche-33",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-thermostatkartusche-59901640",
+   "name": "Hansa Thermostatkartusche G 1/2 Hansamat (59901640)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "59901640",
+   "ean": "4015474139305",
+   "masse": {},
+   "beschreibung": "Regelteil DN 15 ohne Mengenregulierung für Hansamat und den Unterputz-Einbaukörper Hansavario 0804.",
+   "preis_spanne": "ca. 197 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 60,
+   "werkzeug": "Wasser absperren (bei Aufputz-Thermostaten an den Absperrungen der S-Anschlüsse, sonst Hauptabsperrung). Innensechskant für den Griff, Maulschlüssel für die Kartusche, Armaturenfett, Thermometer zum Einstellen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59901640/thermostatkartusche-g12",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-thermostatkartusche-59904501",
+   "name": "Hansa Thermostatkartusche G 1/2 mit Absperrung, Hansamat (59904501)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "59904501",
+   "ean": "4015474165267",
+   "masse": {},
+   "beschreibung": "Regelteil mit eingebauter Absperrung für Hansamat und den Unterputz-Einbaukörper Hansavario 0808, mit Wachs-Dehnstoffelement, Schmutzfangsieben und Adapter. Hansa führt es weiter als Ersatzteil.",
+   "preis_spanne": "ca. 250 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 60,
+   "werkzeug": "Wasser absperren (bei Aufputz-Thermostaten an den Absperrungen der S-Anschlüsse, sonst Hauptabsperrung). Innensechskant für den Griff, Maulschlüssel für die Kartusche, Armaturenfett, Thermometer zum Einstellen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59904501/thermostatkartusche-g12",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-rueckflussverhinderer-59901610",
+   "name": "Hansa Rückflussverhinderer komplett, Hansamat (59901610)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "59901610",
+   "ean": "4015474139138",
+   "masse": {},
+   "beschreibung": "Rückflussverhinderer (Rückschlagventil) für die Anschlüsse von Hansamat-Thermostaten. Hansa listet ihn für Hansamat und Hansavario. Ein verschmutzter Rückflussverhinderer kann dazu führen, dass der Thermostat nicht mehr warm wird.",
+   "preis_spanne": "ca. 35 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren (bei Aufputz-Thermostaten an den Absperrungen der S-Anschlüsse, sonst Hauptabsperrung). Innensechskant für den Griff, Maulschlüssel für die Kartusche, Armaturenfett, Thermometer zum Einstellen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59901610/rckschlagventil",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-thermostatkartusche-59912843",
+   "name": "Hansa Temperaturreglereinheit Hansavarox 4000/4001 (59912843)",
+   "teiltyp": "thermostatkartusche",
+   "oem_nummer": "59912843",
+   "ean": "4015474121102",
+   "masse": {},
+   "beschreibung": "Temperaturreglereinheit mit Absperrung für den Unterputz-Einbaukörper Hansavarox 4000 und 4001. Laut Hansa steckt sie in den Thermostat-Fertigsets älterer Serien bis etwa 2016, etwa Hansaronda, Hansamix, Hansadesigno, Hansaliving, Hansastar und Hansamurano.",
+   "preis_spanne": "ca. 197 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 60,
+   "werkzeug": "Wasser absperren (bei Aufputz-Thermostaten an den Absperrungen der S-Anschlüsse, sonst Hauptabsperrung). Innensechskant für den Griff, Maulschlüssel für die Kartusche, Armaturenfett, Thermometer zum Einstellen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59912843/thermostatkartusche-12-varox",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-funktionseinheit-59914418",
+   "name": "Hansa Funktionseinheit 3.5 Hansavarox (59914418)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "59914418",
+   "ean": "4057304004483",
+   "masse": {},
+   "beschreibung": "Einhebel-Funktionseinheit mit 3.5-Kartusche für die Hansavarox-Brause-Fertigsets 4053, 4054 und 4055. Wird komplett getauscht, wenn mehr als nur die Kartusche defekt ist.",
+   "preis_spanne": "ca. 108 € (Contorion, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 3,
+   "dauer_min": 60,
+   "werkzeug": "Wasser absperren (Eckventile oder Hauptabsperrung). Innensechskant oder kleiner Schraubendreher für Hebel und Abdeckkappe, Maulschlüssel für die Spannmutter (bei 3.5-Kartuschen M40x1, SW 30), Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59914418/funktionseinheit-35",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-oberteil-59914111",
+   "name": "Hansa Oberteil G 1/2 (59914111)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "59914111",
+   "ean": "4015474275584",
+   "masse": {},
+   "beschreibung": "Oberteil G 1/2 aus den Hansa-Ersatzteillisten von Aufputz-Thermostaten, laut Hansa für Hansamicra, Hansaunita und einzelne Hansapinto- und Hansapolo-Sets.",
+   "preis_spanne": "ca. 20 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren (bei Aufputz-Thermostaten an den Absperrungen der S-Anschlüsse, sonst Hauptabsperrung). Innensechskant für den Griff, Maulschlüssel für die Kartusche, Armaturenfett, Thermometer zum Einstellen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59914111/oberteil-g12",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-oberteil-59901530",
+   "name": "Hansa Oberteil G 1/2 DN 15 Hansatempra (59901530)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "59901530",
+   "ean": "4015474124448",
+   "masse": {},
+   "beschreibung": "Oberteil zur Wassermengeneinstellung für Hansatempra- und Hansamat-Thermostate.",
+   "preis_spanne": "ca. 39 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren (bei Aufputz-Thermostaten an den Absperrungen der S-Anschlüsse, sonst Hauptabsperrung). Innensechskant für den Griff, Maulschlüssel für die Kartusche, Armaturenfett, Thermometer zum Einstellen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59901530/oberteil-g12-dn-15",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-o-ringsatz-59914113",
+   "name": "Hansa O-Ringsatz für Thermostatkartusche (59914113)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "59914113",
+   "ean": "4015474275607",
+   "masse": {},
+   "beschreibung": "O-Ringsatz, den Hansa in den Ersatzteillisten zusammen mit der Thermostatkartusche 3.4 führt, etwa bei Hansamicra und den Hansavarox-Thermostat-Fertigsets.",
+   "preis_spanne": "ca. 9 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Wasser absperren (bei Aufputz-Thermostaten an den Absperrungen der S-Anschlüsse, sonst Hauptabsperrung). Innensechskant für den Griff, Maulschlüssel für die Kartusche, Armaturenfett, Thermometer zum Einstellen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59914113/o-ringsatz",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-o-ring-59911166",
+   "name": "Hansa O-Ring 43 x 2,5 mm (59911166)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "59911166",
+   "ean": "4015474925687",
+   "masse": {
+    "innen_mm": 43,
+    "schnur_mm": 2.5
+   },
+   "beschreibung": "O-Ring d 43 x 2,5 mm aus den Hansa-Ersatzteillisten von Hansamix-Armaturen mit 4.8-Kartusche.",
+   "preis_spanne": "ca. 6 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 20,
+   "werkzeug": "Wasser absperren (Eckventile oder Hauptabsperrung). Innensechskant oder kleiner Schraubendreher für Hebel und Abdeckkappe, Maulschlüssel für die Spannmutter (bei 3.5-Kartuschen M40x1, SW 30), Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59911166/o-ring-d-43x25",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-bodendichtung-59914591",
+   "name": "Hansa Bodendichtung (59914591)",
+   "teiltyp": "dichtung",
+   "oem_nummer": "59914591",
+   "ean": "4057304009884",
+   "masse": {},
+   "beschreibung": "Dichtung unter dem Armaturenfuß. Hansa führt sie für viele Einloch-Armaturen seit 2017, unter anderem Hansatwist, Hansavantis, Hansapinto, Hansaprimo und Hansamix.",
+   "preis_spanne": "ca. 4 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Armatur muss dafür vom Waschtisch gelöst werden: Wasser absperren, Anschlussschläuche lösen, Befestigungsmutter unter dem Waschtisch abschrauben.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59914591/bodendichtung",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-luftsprudler-59913366",
+   "name": "Hansa Luftsprudler M18,5x1 TJ (59913366)",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "59913366",
+   "ean": "4015474204249",
+   "masse": {
+    "gewinde": "M18,5x1"
+   },
+   "beschreibung": "Strahlregler mit Gewinde M18,5x1 (Bauform TJ) für Hansadesigno, Hansaloft, Hansaligna und neuere Hansaronda-Waschtischarmaturen. Zum Herausdrehen listet Hansa den Schlüssel 59913367.",
+   "preis_spanne": "ca. 9 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Bei Gewinde M24x1 oder M22: Strahlreglerschlüssel oder Zange mit Tuch. Bei M18,5x1 (TJ) nur mit dem passenden Hansa-Schlüssel.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59913366/luftsprudler-m185x1-tj",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-luftsprudler-schluessel-59913367",
+   "name": "Hansa Schlüssel für Luftsprudler M18,5x1 (59913367)",
+   "teiltyp": "werkzeug",
+   "oem_nummer": "59913367",
+   "ean": "4015474204256",
+   "masse": {},
+   "beschreibung": "Schlüssel zum Herausdrehen der Strahlregler M18,5x1. Hansa listet ihn bei Hansadesigno, Hansaronda, Hansaligna und Hansaloft.",
+   "preis_spanne": "ca. 4–5 € (Contorion, OTTO, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59913367/schlssel-fr-luftsprudler-m185x1",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-luftsprudler-59913727",
+   "name": "Hansa Luftsprudler M24x1, 6 l/min (59913727)",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "59913727",
+   "ean": "4015474253698",
+   "masse": {
+    "gewinde": "M24x1",
+    "durchfluss_l_min": 6
+   },
+   "beschreibung": "Strahlregler M24x1 mit 6 l/min für Waschtischarmaturen. Laut Hansa unter anderem für Hansapolo, Hansatwist, Hansavantis, Hansaprimo und Hansabasic.",
+   "preis_spanne": "ca. 6 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Bei Gewinde M24x1 oder M22: Strahlreglerschlüssel oder Zange mit Tuch. Bei M18,5x1 (TJ) nur mit dem passenden Hansa-Schlüssel.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59913727/luftsprudler-m24x1-6-lmin",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-luftsprudler-59902366",
+   "name": "Hansa Luftsprudler M24x1 STD HC A (59902366)",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "59902366",
+   "ean": "4015474052888",
+   "masse": {
+    "gewinde": "M24x1"
+   },
+   "beschreibung": "Strahlregler M24x1 in Standardgröße. Hansa führt ihn bei über 400 Armaturen, vor allem Hansaronda, Hansamix und Küchenarmaturen von Hansapolo, Hansatwist und Hansaprimo.",
+   "preis_spanne": "ca. 14 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Bei Gewinde M24x1 oder M22: Strahlreglerschlüssel oder Zange mit Tuch. Bei M18,5x1 (TJ) nur mit dem passenden Hansa-Schlüssel.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59902366/luftsprudler-m24x1-std-hc-a",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-luftsprudler-59913739",
+   "name": "Hansa Luftsprudler M24x1 ab 2011 (59913739)",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "59913739",
+   "ean": "4015474255401",
+   "masse": {
+    "gewinde": "M24x1"
+   },
+   "beschreibung": "Strahlregler M24x1 aus den Hansa-Ersatzteillisten von Hansamix-Waschtischarmaturen ab 2011, außerdem Hansamedica, Hansaprado und einzelne Hansatwist.",
+   "preis_spanne": "ca. 6 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Bei Gewinde M24x1 oder M22: Strahlreglerschlüssel oder Zange mit Tuch. Bei M18,5x1 (TJ) nur mit dem passenden Hansa-Schlüssel.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59913739/luftsprudler-m24x1-2011-",
+    "https://www.contorion.de"
+   ]
+  },
+  {
+   "slug": "hansa-luftsprudler-59905901",
+   "name": "Hansa Luftsprudler M22/M24 B (59905901)",
+   "teiltyp": "strahlregler",
+   "oem_nummer": "59905901",
+   "ean": "4015474245686",
+   "masse": {
+    "gewinde": "M22x1 innen / M24x1 außen"
+   },
+   "beschreibung": "Strahlregler für Ausläufe mit M22- oder M24-Gewinde, laut Hansa vor allem für Hansaronda- und Hansamix-Küchenarmaturen.",
+   "preis_spanne": "ca. 7 € (Contorion, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Bei Gewinde M24x1 oder M22: Strahlreglerschlüssel oder Zange mit Tuch. Bei M18,5x1 (TJ) nur mit dem passenden Hansa-Schlüssel.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.hansa.com/de/produkte/59905901/luftsprudler-m22m24-b",
+    "https://www.contorion.de"
+   ]
+  }
+ ],
+ "zuordnungen": [
+  {
+   "serie_slug": "hansamix-bad",
+   "teil_slug": "hansa-kartusche-59904601",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 111 Armaturen dieser Linie, darunter 01182183, 01192183, 01262183, 01063283, 01111183; nicht mehr lieferbare Armaturen wie 01262173, 01042173, 01082173",
+   "quelle_url": "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-bad",
+   "teil_slug": "hansa-kartusche-59911431",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 17 Armaturen dieser Linie, darunter 0109218300006, 01082183, 01092183; nicht mehr lieferbare Armaturen wie 01042102, 01042162, 01042192",
+   "quelle_url": "https://www.hansa.com/de/produkte/59911431/kartusche-48",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-bad",
+   "teil_slug": "hansa-kartusche-59914129",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 2 Armaturen dieser Linie, darunter 81859023, 81849023",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914129/kartusche-40-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-bad",
+   "teil_slug": "hansa-o-ring-59911166",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 56 Armaturen dieser Linie, darunter 01262183, 01063283, 01111183, 01131183, 01969283; nicht mehr lieferbare Armaturen wie 01262173, 01042173, 01082173",
+   "quelle_url": "https://www.hansa.com/de/produkte/59911166/o-ring-d-43x25",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-bad",
+   "teil_slug": "hansa-luftsprudler-59913739",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 24 Armaturen dieser Linie, darunter 01182183, 01192183, 01063283, 0109218300006, 01042183; nicht mehr lieferbare Armaturen wie 01042173, 01082173, 01182173",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913739/luftsprudler-m24x1-2011-",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-bad",
+   "teil_slug": "hansa-luftsprudler-59902366",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 38 Armaturen dieser Linie, darunter 01262173, 01042173, 01082173, 54862115, 54092205",
+   "quelle_url": "https://www.hansa.com/de/produkte/59902366/luftsprudler-m24x1-std-hc-a",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-bad",
+   "teil_slug": "hansa-bodendichtung-59914591",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 12 Armaturen dieser Linie, darunter 01063283, 01111183, 01131183, 0109218300006, 01042183",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914591/bodendichtung",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-bad",
+   "teil_slug": "hansa-o-ring-59911166",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 01092183 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/01092183/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-bad",
+   "teil_slug": "hansa-kartusche-59904601",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 01092183 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/01092183/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-bad",
+   "teil_slug": "hansa-kartusche-59911431",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 01092183 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/01092183/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-bad",
+   "teil_slug": "hansa-bodendichtung-59914591",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 01092183 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/01092183/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-bad",
+   "teil_slug": "hansa-luftsprudler-59913739",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 01092183 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/01092183/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-bad",
+   "teil_slug": "hansa-o-ring-59911166",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 01742183 (Wannenfüll- und Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/01742183/wannenfll--und-brausebatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-bad",
+   "teil_slug": "hansa-kartusche-59904601",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 01742183 (Wannenfüll- und Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/01742183/wannenfll--und-brausebatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-kueche",
+   "teil_slug": "hansa-kartusche-59904601",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 60 Armaturen dieser Linie, darunter 01949283, 01152283, 01211183, 01361183, 01121183; nicht mehr lieferbare Armaturen wie 01692173, 01152273, 01142273",
+   "quelle_url": "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-kueche",
+   "teil_slug": "hansa-luftsprudler-59905901",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 12 Armaturen dieser Linie, darunter 01382283, 01392183; nicht mehr lieferbare Armaturen wie 01382273, 01392173, 0138227382",
+   "quelle_url": "https://www.hansa.com/de/produkte/59905901/luftsprudler-m22m24-b",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-kueche",
+   "teil_slug": "hansa-luftsprudler-59902366",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 16 Armaturen dieser Linie, darunter 01152273, 0114227382, 01152173, 0115217382, 0115217387",
+   "quelle_url": "https://www.hansa.com/de/produkte/59902366/luftsprudler-m24x1-std-hc-a",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-kueche",
+   "teil_slug": "hansa-kartusche-59904601",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 01382283 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/01382283/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamix-kueche",
+   "teil_slug": "hansa-luftsprudler-59905901",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 01382283 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/01382283/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 22 Armaturen dieser Linie, darunter 03131173, 03422073, 03742173, 03012173, 03032273; nicht mehr lieferbare Armaturen wie 03092173, 03402073, 03419073",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 17 Armaturen dieser Linie, darunter 03131173, 03742173, 03012173, 03032273, 03063273; nicht mehr lieferbare Armaturen wie 03092173, 03402073, 03419073",
+   "quelle_url": "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-kartusche-59904601",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 215 Armaturen dieser Linie, darunter 43843540, 43849540, 43869540, 0312110182, 0312110193",
+   "quelle_url": "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-kartusche-59911431",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 27 Armaturen dieser Linie, darunter 03022102, 03022105, 03042102, 03042105, 03042162",
+   "quelle_url": "https://www.hansa.com/de/produkte/59911431/kartusche-48",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-luftsprudler-59913366",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 10 Armaturen dieser Linie, darunter 55262203, 55342203, 03032273, 03063273, 03082273; nicht mehr lieferbare Armaturen wie 44882103, 03092173, 03832273",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913366/luftsprudler-m185x1-tj",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-luftsprudler-schluessel-59913367",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 10 Armaturen dieser Linie, darunter 03131173, 55262203, 55342203, 03032273, 03063273; nicht mehr lieferbare Armaturen wie 44882103, 03092173, 03832273",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913367/schlssel-fr-luftsprudler-m185x1",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-luftsprudler-59902366",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 107 Armaturen dieser Linie, darunter 03022102, 03022105, 03042101, 03042102, 03042105",
+   "quelle_url": "https://www.hansa.com/de/produkte/59902366/luftsprudler-m24x1-std-hc-a",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 03092273 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/03092273/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 03092273 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/03092273/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-luftsprudler-59913366",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 03092273 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/03092273/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-luftsprudler-schluessel-59913367",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 03092273 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/03092273/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 03131173 (Waschtischbatterie, Niederdruck)",
+   "quelle_url": "https://www.hansa.com/de/produkte/03131173/waschtischbatterie-niederdruck",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 03131173 (Waschtischbatterie, Niederdruck)",
+   "quelle_url": "https://www.hansa.com/de/produkte/03131173/waschtischbatterie-niederdruck",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-luftsprudler-schluessel-59913367",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 03131173 (Waschtischbatterie, Niederdruck)",
+   "quelle_url": "https://www.hansa.com/de/produkte/03131173/waschtischbatterie-niederdruck",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 03670173 (Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/03670173/brausebatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-bad",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 03670173 (Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/03670173/brausebatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-kueche",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 5 Armaturen dieser Linie, darunter 03382273, 55191133, 03342273; nicht mehr lieferbare Armaturen wie 03121173, 03142273",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-kueche",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 6 Armaturen dieser Linie, darunter 03382273, 55191133, 03342273; nicht mehr lieferbare Armaturen wie 03121173, 55392273, 03142273",
+   "quelle_url": "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-kueche",
+   "teil_slug": "hansa-kartusche-59904601",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 20 Armaturen dieser Linie, darunter 03142101, 0314210182, 0314210187, 0314210193, 03321131",
+   "quelle_url": "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-kueche",
+   "teil_slug": "hansa-luftsprudler-59905901",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 8 Armaturen dieser Linie, darunter 03382273, 54912283; nicht mehr lieferbare Armaturen wie 0338218182, 0338218187, 0338218193",
+   "quelle_url": "https://www.hansa.com/de/produkte/59905901/luftsprudler-m22m24-b",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-kueche",
+   "teil_slug": "hansa-luftsprudler-59902366",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 11 Armaturen dieser Linie, darunter 03142101, 0314210182, 0314210187, 0314210193, 03692103",
+   "quelle_url": "https://www.hansa.com/de/produkte/59902366/luftsprudler-m24x1-std-hc-a",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-kueche",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 03382273 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/03382273/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-kueche",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 03382273 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/03382273/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaronda-kueche",
+   "teil_slug": "hansa-luftsprudler-59905901",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 03382273 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/03382273/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapolo-bad",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 40 Armaturen dieser Linie, darunter 51522286, 515022930004, 51542293, 51552293, 51612193; nicht mehr lieferbare Armaturen wie 514501930067, 51450173, 52392273",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapolo-bad",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 21 Armaturen dieser Linie, darunter 51450173, 51422273, 51433273, 51442173, 51412273",
+   "quelle_url": "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapolo-bad",
+   "teil_slug": "hansa-kartusche-59914129",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 2 Armaturen dieser Linie, darunter 80619023, 80609023",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914129/kartusche-40-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapolo-bad",
+   "teil_slug": "hansa-luftsprudler-59913727",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 19 Armaturen dieser Linie, darunter 51522286, 515022930004, 515022930005, 5142229300066, 51462293; nicht mehr lieferbare Armaturen wie 51422273, 51433273, 51412273",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913727/luftsprudler-m24x1-6-lmin",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapolo-bad",
+   "teil_slug": "hansa-bodendichtung-59914591",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 3 Armaturen dieser Linie, darunter 51422273, 51412273, 51402373",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914591/bodendichtung",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapolo-bad",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 51402293 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/51402293/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapolo-bad",
+   "teil_slug": "hansa-luftsprudler-59913727",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 51402293 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/51402293/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapolo-bad",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 51522293 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/51522293/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapolo-bad",
+   "teil_slug": "hansa-luftsprudler-59913727",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 51522293 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/51522293/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapolo-bad",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 51450193 (Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/51450193/brausebatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapolo-kueche",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 17 Armaturen dieser Linie, darunter 51602293, 514822930006, 514822930004, 51562293, 51591193; nicht mehr lieferbare Armaturen wie 515622930037, 51591173, 52662203",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapolo-kueche",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 7 Armaturen dieser Linie, darunter 51591173, 52662203, 51482283, 51591183, 51482203",
+   "quelle_url": "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapolo-kueche",
+   "teil_slug": "hansa-luftsprudler-59902366",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 9 Armaturen dieser Linie, darunter 514822930006, 514822930004, 52662293, 51482293, 5148229300676; nicht mehr lieferbare Armaturen wie 52662203, 51482283, 51482203",
+   "quelle_url": "https://www.hansa.com/de/produkte/59902366/luftsprudler-m24x1-std-hc-a",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapolo-kueche",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 51482293 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/51482293/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapolo-kueche",
+   "teil_slug": "hansa-luftsprudler-59902366",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 51482293 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/51482293/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-bad",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 47 Armaturen dieser Linie, darunter 0974218333, 0967018333, 09012283, 09022283, 09031183; nicht mehr lieferbare Armaturen wie 09742185, 09012285, 09022285",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-bad",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 27 Armaturen dieser Linie, darunter 09012283, 09022283, 09031183, 09092283, 09131183; nicht mehr lieferbare Armaturen wie 09742185, 09012285, 09022285",
+   "quelle_url": "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-bad",
+   "teil_slug": "hansa-kartusche-59904601",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 25 Armaturen dieser Linie, darunter 09742173, 49859073, 09742101, 09042191, 09392101",
+   "quelle_url": "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-bad",
+   "teil_slug": "hansa-luftsprudler-59913727",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 21 Armaturen dieser Linie, darunter 09012283, 09022283, 09092283, 09302203, 09063283; nicht mehr lieferbare Armaturen wie 09012285, 09022285, 09092285",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913727/luftsprudler-m24x1-6-lmin",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-bad",
+   "teil_slug": "hansa-bodendichtung-59914591",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 27 Armaturen dieser Linie, darunter 09012283, 09022283, 09031183, 0902228333, 09092283; nicht mehr lieferbare Armaturen wie 09012285, 09022285, 09092285",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914591/bodendichtung",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-bad",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 09092283 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/09092283/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-bad",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 09092283 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/09092283/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-bad",
+   "teil_slug": "hansa-bodendichtung-59914591",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 09092283 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/09092283/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-bad",
+   "teil_slug": "hansa-luftsprudler-59913727",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 09092283 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/09092283/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-kueche",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 14 Armaturen dieser Linie, darunter 09121183, 09221103, 0914228333, 0920220333, 09142283; nicht mehr lieferbare Armaturen wie 09221105, 09142285, 09202205",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-kueche",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 8 Armaturen dieser Linie, darunter 09121183, 09142283, 09692193; nicht mehr lieferbare Armaturen wie 09142285, 09121185, 09152203",
+   "quelle_url": "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-kueche",
+   "teil_slug": "hansa-kartusche-59904601",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 6 Armaturen dieser Linie, darunter 09142273, 09121101, 09142101, 09121173, 09692173",
+   "quelle_url": "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-kueche",
+   "teil_slug": "hansa-luftsprudler-59902366",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 8 Armaturen dieser Linie, darunter 09142283, 09202203; nicht mehr lieferbare Armaturen wie 09142273, 09142101, 09142285",
+   "quelle_url": "https://www.hansa.com/de/produkte/59902366/luftsprudler-m24x1-std-hc-a",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-kueche",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 09142283 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/09142283/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-kueche",
+   "teil_slug": "hansa-luftsprudler-59902366",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 09142283 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/09142283/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatwist-kueche",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 09142283 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/09142283/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprimo-bad",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 23 Armaturen dieser Linie, darunter 4944210300003, 49552203, 49562203, 49571103, 49381103; nicht mehr lieferbare Armaturen wie 49512203, 464701010046, 89919003",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprimo-bad",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 14 Armaturen dieser Linie, darunter 4944210300003, 49562203, 49571103, 49381103, 49372203; nicht mehr lieferbare Armaturen wie 49512203, 49919003, 49903003",
+   "quelle_url": "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprimo-bad",
+   "teil_slug": "hansa-kartusche-59914129",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 2 Armaturen dieser Linie, darunter 89919023, 89909023",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914129/kartusche-40-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprimo-bad",
+   "teil_slug": "hansa-luftsprudler-59913727",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 9 Armaturen dieser Linie, darunter 49552203, 49562203, 49372203, 49402203, 49433203",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913727/luftsprudler-m24x1-6-lmin",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprimo-bad",
+   "teil_slug": "hansa-bodendichtung-59914591",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 12 Armaturen dieser Linie, darunter 49552203, 49562203, 49571103, 49381103, 49372203",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914591/bodendichtung",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprimo-bad",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 49402203 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/49402203/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprimo-bad",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 49402203 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/49402203/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprimo-bad",
+   "teil_slug": "hansa-bodendichtung-59914591",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 49402203 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/49402203/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprimo-bad",
+   "teil_slug": "hansa-luftsprudler-59913727",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 49402203 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/49402203/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprimo-kueche",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 6 Armaturen dieser Linie, darunter 49491103, 49221103, 49522203, 49202203, 49482203",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprimo-kueche",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 3 Armaturen dieser Linie, darunter 49491103, 49482203, 49502203",
+   "quelle_url": "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprimo-kueche",
+   "teil_slug": "hansa-luftsprudler-59902366",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 3 Armaturen dieser Linie, darunter 49202203, 49482203, 49502203",
+   "quelle_url": "https://www.hansa.com/de/produkte/59902366/luftsprudler-m24x1-std-hc-a",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprimo-kueche",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 49482203 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/49482203/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprimo-kueche",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 49482203 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/49482203/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprimo-kueche",
+   "teil_slug": "hansa-luftsprudler-59902366",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 49482203 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/49482203/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansadesigno",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 75 Armaturen dieser Linie, darunter 41109577, 41113577, 41113578, 51852177, 53272077",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansadesigno",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 56 Armaturen dieser Linie, darunter 41109577, 41113577, 41113578, 51852177, 53272077",
+   "quelle_url": "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansadesigno",
+   "teil_slug": "hansa-kartusche-59904601",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 40 Armaturen dieser Linie, darunter 53259031, 5173320174, 5312203174, 5325903174, 5136320174",
+   "quelle_url": "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansadesigno",
+   "teil_slug": "hansa-kartusche-59914129",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 14 Armaturen dieser Linie, darunter 53272083, 51712283, 51722283; nicht mehr lieferbare Armaturen wie 51852183, 51860183, 51682281",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914129/kartusche-40-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansadesigno",
+   "teil_slug": "hansa-luftsprudler-59913366",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 55 Armaturen dieser Linie, darunter 51832293, 51882293, 51692293, 51032283, 51492283; nicht mehr lieferbare Armaturen wie 51722177, 51983283, 51052183",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913366/luftsprudler-m185x1-tj",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansadesigno",
+   "teil_slug": "hansa-luftsprudler-schluessel-59913367",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 46 Armaturen dieser Linie, darunter 51211177, 51692178, 51722177, 51733273, 51692173",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913367/schlssel-fr-luftsprudler-m185x1",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansadesigno",
+   "teil_slug": "hansa-bodendichtung-59914591",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 36 Armaturen dieser Linie, darunter 5101228380, 5101228381, 5101228333, 51012283, 51211183; nicht mehr lieferbare Armaturen wie 51722177, 51911183, 51983283",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914591/bodendichtung",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansadesigno",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 51712173 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/51712173/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansadesigno",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 51712173 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/51712173/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansadesigno",
+   "teil_slug": "hansa-bodendichtung-59914591",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 51712173 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/51712173/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansadesigno",
+   "teil_slug": "hansa-luftsprudler-59913366",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 51712173 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/51712173/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansadesigno",
+   "teil_slug": "hansa-luftsprudler-schluessel-59913367",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 51712173 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/51712173/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansadesigno",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 51012273 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/51012273/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansadesigno",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 51012273 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/51012273/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansadesigno",
+   "teil_slug": "hansa-luftsprudler-schluessel-59913367",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 51012273 (Küchenarmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/51012273/kchenarmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaloft",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 19 Armaturen dieser Linie, darunter 57719173, 57663203, 57772103, 57532203, 57542203",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaloft",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 15 Armaturen dieser Linie, darunter 57719173, 57739003, 57542103, 57663203, 57772103",
+   "quelle_url": "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaloft",
+   "teil_slug": "hansa-luftsprudler-59913366",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 9 Armaturen dieser Linie, darunter 57492211, 57482201, 57542103, 57663203, 57542203",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913366/luftsprudler-m185x1-tj",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaloft",
+   "teil_slug": "hansa-luftsprudler-schluessel-59913367",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 6 Armaturen dieser Linie, darunter 57542103, 57663203, 57532203, 57542203, 57562103",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913367/schlssel-fr-luftsprudler-m185x1",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaloft",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 57542203 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/57542203/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaloft",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 57542203 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/57542203/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaloft",
+   "teil_slug": "hansa-luftsprudler-59913366",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 57542203 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/57542203/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaloft",
+   "teil_slug": "hansa-luftsprudler-schluessel-59913367",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 57542203 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/57542203/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavantis",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 61 Armaturen dieser Linie, darunter 52532103, 52381177, 52433273, 52450173, 52461173",
+   "quelle_url": "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavantis",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 46 Armaturen dieser Linie, darunter 52381177, 52433273, 52461173, 52491173, 52552287",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavantis",
+   "teil_slug": "hansa-luftsprudler-59913727",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 34 Armaturen dieser Linie, darunter 52682267, 52461163, 52402267, 52372267, 52432267; nicht mehr lieferbare Armaturen wie 52552287, 52562273, 52372273",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913727/luftsprudler-m24x1-6-lmin",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavantis",
+   "teil_slug": "hansa-bodendichtung-59914591",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 39 Armaturen dieser Linie, darunter 5237226733, 523722673305, 52682267, 52461163, 523722670005; nicht mehr lieferbare Armaturen wie 52381177, 52433273, 52461173",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914591/bodendichtung",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavantis",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 52402273 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/52402273/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavantis",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 52402273 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/52402273/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavantis",
+   "teil_slug": "hansa-bodendichtung-59914591",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 52402273 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/52402273/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavantis",
+   "teil_slug": "hansa-luftsprudler-59913727",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 52402273 (Waschtischbatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/52402273/waschtischbatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapinto",
+   "teil_slug": "hansa-kartusche-59914129",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 35 Armaturen dieser Linie, darunter 45182283, 45152283, 45012283, 45381193, 45042283; nicht mehr lieferbare Armaturen wie 45202283, 45372283, 45381183",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914129/kartusche-40-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapinto",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 17 Armaturen dieser Linie, darunter 45381103, 45022203, 45012203, 45042203, 45062203",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapinto",
+   "teil_slug": "hansa-kartusche-59912324",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 15 Armaturen dieser Linie, darunter 45381103, 45022203, 45012203, 45042203, 45062203",
+   "quelle_url": "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapinto",
+   "teil_slug": "hansa-luftsprudler-59913727",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 3 Armaturen dieser Linie, darunter 45042203, 45062203, 45073203",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913727/luftsprudler-m24x1-6-lmin",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansapinto",
+   "teil_slug": "hansa-bodendichtung-59914591",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 26 Armaturen dieser Linie, darunter 45341183, 45152283, 45012283, 45381193, 45042283; nicht mehr lieferbare Armaturen wie 45202283, 45372283, 45381183",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914591/bodendichtung",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavarox-einhebel",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 13 Armaturen dieser Linie, darunter 40529073, 40529083, 40559173, 40559183; nicht mehr lieferbare Armaturen wie 40509083, 40509073, 40559073",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavarox-einhebel",
+   "teil_slug": "hansa-funktionseinheit-59914418",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 6 Armaturen dieser Linie, darunter 40559173, 40559183; nicht mehr lieferbare Armaturen wie 40539173, 40549173, 40549183",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914418/funktionseinheit-35",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavarox-einhebel",
+   "teil_slug": "hansa-kartusche-59904601",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 3 Armaturen dieser Linie, darunter 40103003, 40109003, 40119003",
+   "quelle_url": "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavarox-einhebel",
+   "teil_slug": "hansa-kartusche-59913075",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 40559173 (Fertigset für Brause-Batterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/40559173/fertigset-fr-brause-batterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavarox-einhebel",
+   "teil_slug": "hansa-funktionseinheit-59914418",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 40559173 (Fertigset für Brause-Batterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/40559173/fertigset-fr-brause-batterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavarox-thermostat",
+   "teil_slug": "hansa-thermostatkartusche-59914114",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 6 Armaturen dieser Linie, darunter 40589073, 40589083, 40579073, 40579083, 40569073",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914114/thermostatkartusche-34",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavarox-thermostat",
+   "teil_slug": "hansa-o-ringsatz-59914113",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 6 Armaturen dieser Linie, darunter 40589073, 40589083, 40579073, 40579083, 40569073",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914113/o-ringsatz",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavarox-thermostat",
+   "teil_slug": "hansa-thermostatkartusche-59912843",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 40 Fertigsets, darunter 48619045, 48639545, 46619041, 41139562, 41143552",
+   "quelle_url": "https://www.hansa.com/de/produkte/59912843/thermostatkartusche-12-varox",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavarox-thermostat",
+   "teil_slug": "hansa-thermostatkartusche-59914114",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 40579083 (Fertigset für Brause-Batterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/40579083/fertigset-fr-brause-batterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansavarox-thermostat",
+   "teil_slug": "hansa-o-ringsatz-59914113",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 40579083 (Fertigset für Brause-Batterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/40579083/fertigset-fr-brause-batterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatempra",
+   "teil_slug": "hansa-thermostatkartusche-59911525",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 17 Armaturen dieser Linie, darunter 08240202, 08240282, 08385292, 08385202, 08382292; nicht mehr lieferbare Armaturen wie 08200100, 51380102, 08410202",
+   "quelle_url": "https://www.hansa.com/de/produkte/59911525/thermostatkartusche",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatempra",
+   "teil_slug": "hansa-thermostatkartusche-59911527",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 15 Armaturen dieser Linie, darunter 08240202, 08240282, 08385292, 08385202, 08382292; nicht mehr lieferbare Armaturen wie 51380102, 08410202, 51392102",
+   "quelle_url": "https://www.hansa.com/de/produkte/59911527/thermostatkartusche-hc-reversed",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatempra",
+   "teil_slug": "hansa-oberteil-59901530",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 12 Armaturen dieser Linie, darunter 08240202, 08240282, 08385292, 08385202, 08382292; nicht mehr lieferbare Armaturen wie 08382201, 08385201, 08362281",
+   "quelle_url": "https://www.hansa.com/de/produkte/59901530/oberteil-g12-dn-15",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatempra",
+   "teil_slug": "hansa-oberteil-59901530",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 08240202 (Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/08240202/brausebatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatempra",
+   "teil_slug": "hansa-thermostatkartusche-59911525",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 08240202 (Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/08240202/brausebatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatempra",
+   "teil_slug": "hansa-thermostatkartusche-59911527",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 08240202 (Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/08240202/brausebatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatempra-style",
+   "teil_slug": "hansa-thermostatkartusche-59913311",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 3 Armaturen dieser Linie, darunter 58410101, 58429103, 58442101",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913311/thermostatkartusche",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatempra-style",
+   "teil_slug": "hansa-thermostatkartusche-59913463",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 3 Armaturen dieser Linie, darunter 58410101, 58429103, 58442101",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913463/thermostatkartusche-hc-reversed",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatempra-style",
+   "teil_slug": "hansa-thermostatkartusche-59913311",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 58410101 (Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/58410101/brausebatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatempra-style",
+   "teil_slug": "hansa-thermostatkartusche-59913463",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 58410101 (Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/58410101/brausebatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatempra-style",
+   "teil_slug": "hansa-thermostatkartusche-59913311",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 58429103 (Regenbrause-Duscharmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/58429103/regenbrause-duscharmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansatempra-style",
+   "teil_slug": "hansa-thermostatkartusche-59913463",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 58429103 (Regenbrause-Duscharmatur)",
+   "quelle_url": "https://www.hansa.com/de/produkte/58429103/regenbrause-duscharmatur",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamicra",
+   "teil_slug": "hansa-thermostatkartusche-59914114",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 9 Armaturen dieser Linie, darunter 44350100, 44350230, 44350130, 58152171, 4435013033",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914114/thermostatkartusche-34",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamicra",
+   "teil_slug": "hansa-oberteil-59914111",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 6 Armaturen dieser Linie, darunter 58152171, 58150171, 5815017133, 581501710006, 581501710009; nicht mehr lieferbare Armaturen wie 581501710007",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914111/oberteil-g12",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamicra",
+   "teil_slug": "hansa-o-ringsatz-59914113",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 7 Armaturen dieser Linie, darunter 58152171, 58162171, 5816217133, 58150171, 5815017133; nicht mehr lieferbare Armaturen wie 581501710007",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914113/o-ringsatz",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamicra",
+   "teil_slug": "hansa-oberteil-59914111",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 58150171 (Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/58150171/brausebatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamicra",
+   "teil_slug": "hansa-o-ringsatz-59914113",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 58150171 (Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/58150171/brausebatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamicra",
+   "teil_slug": "hansa-thermostatkartusche-59914114",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 58150171 (Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/58150171/brausebatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaunita",
+   "teil_slug": "hansa-thermostatkartusche-59914114",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 9 Armaturen dieser Linie, darunter 48130131, 48372131, 581491130067, 58149103, 58372101",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914114/thermostatkartusche-34",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaunita",
+   "teil_slug": "hansa-thermostatkartusche-59913823",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 6 Armaturen dieser Linie, darunter 48130131, 581491130067, 58149103, 48130121, 58130101",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913823/thermostatkartusche-27",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaunita",
+   "teil_slug": "hansa-oberteil-59914111",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 2 Armaturen dieser Linie, darunter 48372131, 58372101",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914111/oberteil-g12",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaunita",
+   "teil_slug": "hansa-thermostatkartusche-59913823",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 58130101 (Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/58130101/brausebatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaunita",
+   "teil_slug": "hansa-thermostatkartusche-59914114",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 58130101 (Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/58130101/brausebatterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprisma",
+   "teil_slug": "hansa-thermostatkartusche-59914114",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 10 Armaturen dieser Linie, darunter 58080301, 4813042133, 4813043133, 4813043181, 4813042181",
+   "quelle_url": "https://www.hansa.com/de/produkte/59914114/thermostatkartusche-34",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprisma",
+   "teil_slug": "hansa-thermostatkartusche-59913871",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 8 Armaturen dieser Linie, darunter 48102121, 58099113, 58102101, 48102131, 58099103",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913871/thermostatkartusche-33",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansaprisma",
+   "teil_slug": "hansa-thermostatkartusche-59911525",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 5 Armaturen dieser Linie, darunter 08472101, 08282201, 08292201, 08420101, 08420191",
+   "quelle_url": "https://www.hansa.com/de/produkte/59911525/thermostatkartusche",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamat",
+   "teil_slug": "hansa-thermostatkartusche-59901640",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 3 Armaturen dieser Linie, darunter 08910101, 08040100, 08040190",
+   "quelle_url": "https://www.hansa.com/de/produkte/59901640/thermostatkartusche-g12",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamat",
+   "teil_slug": "hansa-thermostatkartusche-59904501",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 6 Armaturen dieser Linie, darunter 08080190, 08930101, 08030100, 08080100, 08100100",
+   "quelle_url": "https://www.hansa.com/de/produkte/59904501/thermostatkartusche-g12",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamat",
+   "teil_slug": "hansa-rueckflussverhinderer-59901610",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 11 Armaturen dieser Linie, darunter 08392201, 08910101, 08040100, 08330301, 08230201",
+   "quelle_url": "https://www.hansa.com/de/produkte/59901610/rckschlagventil",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamat",
+   "teil_slug": "hansa-oberteil-59901530",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 4 Armaturen dieser Linie, darunter 08392201, 08230201, 08300201, 08352201",
+   "quelle_url": "https://www.hansa.com/de/produkte/59901530/oberteil-g12-dn-15",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamat",
+   "teil_slug": "hansa-thermostatkartusche-59901640",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 08910101 (Fertigset für Brause-Batterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/08910101/fertigset-fr-brause-batterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamat",
+   "teil_slug": "hansa-rueckflussverhinderer-59901610",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 08910101 (Fertigset für Brause-Batterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/08910101/fertigset-fr-brause-batterie",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamedipro",
+   "teil_slug": "hansa-kartusche-59911437",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 21 Armaturen dieser Linie, darunter 01612103, 01612105, 01612106, 01622193, 01622195; nicht mehr lieferbare Armaturen wie 01653203, 01662196, 02572103",
+   "quelle_url": "https://www.hansa.com/de/produkte/59911437/kartusche-48-classic",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamedipro",
+   "teil_slug": "hansa-thermostatkartusche-59913871",
+   "hinweis": "Hansa-Teileseite, „Kompatible Produkte“: 4 Armaturen dieser Linie, darunter 08302281, 58101201, 08302201, 58080201",
+   "quelle_url": "https://www.hansa.com/de/produkte/59913871/thermostatkartusche-33",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "hansamedipro",
+   "teil_slug": "hansa-thermostatkartusche-59913871",
+   "hinweis": "Hansa-Ersatzteilliste Art.-Nr. 58101201 (Wannenfüll- und Brausebatterie)",
+   "quelle_url": "https://www.hansa.com/de/produkte/58101201/wannenfll--und-brausebatterie",
+   "sicherheit": "hersteller"
+  }
+ ]
+}
