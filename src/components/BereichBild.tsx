@@ -44,6 +44,17 @@ const ZEICHNUNG: Record<string, React.ReactNode> = {
       <path d="M48 76v10M40 86h16" />
     </>
   ),
+  wasseranschluss: (
+    <>
+      <path d="M14 14v68" />
+      <path d="M14 60h18" />
+      <circle cx="40" cy="60" r="8" />
+      <path d="M40 52V40M32 36h16" />
+      <path d="M48 60h8a6 6 0 0 0 6-6V20" />
+      <path d="M56 14h12" />
+      <path d="M62 14v6" />
+    </>
+  ),
   hebeanlage: (
     <>
       <path d="M8 34h80" strokeDasharray="4 4" />

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import NeukaufKasten from "@/components/Neukauf";
+import ProblemAllgemeinSeite from "@/components/ProblemAllgemeinSeite";
+import { alleProblemeAllgemein, problemAllgemeinNachSlug } from "@/lib/probleme-allgemein";
 import { neukaufFuerBereich } from "@/lib/neukauf";
 import { neukaufBereich } from "@/lib/bereiche";
 import { notFound } from "next/navigation";
@@ -17,6 +19,17 @@ const HAEUFIGKEIT_KLASSE: Record<string, string> = {
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  // Markenübergreifende Probleme stehen im Repo (data/probleme), die je Marke in der Datenbank.
+  const a = problemAllgemeinNachSlug(params.slug);
+  if (a) {
+    const url = `${SITE_URL}/problem/${a.slug}`;
+    return {
+      title: a.seo_title,
+      description: a.seo_description,
+      alternates: { canonical: url },
+      openGraph: { title: a.seo_title, description: a.seo_description, url },
+    };
+  }
   const p = await problemNachSlug(params.slug);
   if (!p) return {};
   const title = `${p.titel}: Ursachen & passende Ersatzteile`;
@@ -26,6 +39,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function ProblemSeite({ params }: Props) {
+  const a = problemAllgemeinNachSlug(params.slug);
+  if (a) return <ProblemAllgemeinSeite p={a} />;
   const p = await problemNachSlug(params.slug);
   if (!p) notFound();
   const marke = p.marke_id ? await markeNachId(p.marke_id) : null;
@@ -34,6 +49,8 @@ export default async function ProblemSeite({ params }: Props) {
     neukaufFuerBereich(neukaufBereich({ problem: p.slug })),
   ]);
   const teilVon = new Map(teile.map((t) => [t.slug, t]));
+  // Die markenübergreifende Seite, die diese Markenvariante aufführt.
+  const oben = alleProblemeAllgemein().find((x) => x.marken_probleme.includes(p.slug));
 
   const pfad = [
     { name: "Start", href: "/" },
@@ -46,6 +63,13 @@ export default async function ProblemSeite({ params }: Props) {
       <JsonLd daten={brotkrumenLd(pfad)} />
       <Brotkrumen teile={[pfad[0], pfad[1], { name: p.titel }]} />
       <h1 className="text-3xl font-bold mb-3">{p.titel}</h1>
+      {oben && (
+        <p className="mb-4 text-sm">
+          <a href={`/problem/${oben.slug}`} className="text-amber-700 hover:underline">
+            Für alle Marken: {oben.titel} →
+          </a>
+        </p>
+      )}
       {p.symptom && <p className="text-stone-700 mb-8 leading-relaxed">{p.symptom}</p>}
 
       {p.ursachen.length > 0 && (

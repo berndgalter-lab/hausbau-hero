@@ -94,6 +94,17 @@ export const BEREICHE: Bereich[] = [
     ratgeber: [],
   },
   {
+    slug: "wasseranschluss",
+    name: "Wasseranschluss & Leitung",
+    kurz: "Eckventil undicht, Wasserdruck zu hoch, Ventil klemmt.",
+    einleitung:
+      "Zwischen Wasserleitung und Armatur sitzen Teile, an die man selten denkt: das Eckventil unter dem Waschbecken, das Geräteventil für die Waschmaschine und der Druckminderer am Hausanschluss. Geht eines davon kaputt, ist meist die Größe des Anschlusses die wichtigste Frage.",
+    produkttypen: [],
+    teiltypen: [],
+    probleme: /eckventil|druckminderer|wasserdruck/,
+    ratgeber: [],
+  },
+  {
     slug: "hebeanlage",
     name: "Hebeanlage & Abwasser",
     kurz: "Keller-WC, Dusche im Souterrain, Kondensat.",
@@ -136,8 +147,12 @@ function haeufigsterBereich(produkttypen: string[]): Bereich | null {
  * Bereich, dessen Neukauf-Hinweis auf dieser Seite gezeigt wird, oder null. Der Bereich ergibt sich aus
  * Problem-Slug oder Produkttyp; „nurBei“ schränkt ihn weiter ein.
  */
-export function neukaufBereich(k: { problem?: string; produkttypen?: string[]; teiltyp?: string }): Bereich | null {
-  const b = k.problem ? bereichFuerProblem(k.problem) : haeufigsterBereich(k.produkttypen ?? []);
+export function neukaufBereich(k: { problem?: string; bereich?: string; produkttypen?: string[]; teiltyp?: string }): Bereich | null {
+  const b = k.bereich
+    ? bereichNachSlug(k.bereich)
+    : k.problem
+      ? bereichFuerProblem(k.problem)
+      : haeufigsterBereich(k.produkttypen ?? []);
   const nur = b?.neukauf?.nurBei;
   if (!b?.neukauf || !nur) return b?.neukauf ? b : null;
   const passt =
@@ -153,6 +168,14 @@ export function bereichFuerProdukttyp(typ: string): Bereich | null {
 
 export function bereichFuerProblem(slug: string): Bereich | null {
   return BEREICHE.find((b) => b.probleme.test(slug)) ?? null;
+}
+
+/**
+ * Hat der Bereich etwas zu zeigen? Ohne Modelle, Ratgeber, Teilearten und Probleme erscheint er weder auf
+ * der Startseite noch in der Sitemap, und /bereich/<slug> liefert 404.
+ */
+export function bereichHatInhalt(b: Bereich, k: { teilarten: number; probleme: number }): boolean {
+  return b.produkttypen.length > 0 || b.ratgeber.length > 0 || k.teilarten > 0 || k.probleme > 0;
 }
 
 export function bereichNachSlug(slug: string): Bereich | null {
