@@ -2,13 +2,12 @@
 
 import { useState } from "react";
 
-// Feste Hauptnavigation für den Fokus Bad & Sanitär. Die alten Kategorien
+// Hauptnavigation „Reparatur rund ums Haus“ (docs/SEITENAUFBAU.md, Abschnitt 2a). Die alten Kategorien
 // (Farben, Rohbau, Werkzeuge …) sind weiter erreichbar, aber nicht mehr verlinkt.
 const PUNKTE = [
   { href: "/ersatzteile", label: "Ersatzteile" },
-  { href: "/bad", label: "Bad-Ratgeber" },
-  { href: "/vergleich/armaturen", label: "Armaturen-Datenblätter" },
-  { href: "/problem", label: "Problemlöser" },
+  { href: "/problem", label: "Probleme" },
+  { href: "/ratgeber", label: "Ratgeber" },
   { href: "/rechner", label: "Rechner" },
 ];
 

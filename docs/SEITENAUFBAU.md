@@ -53,6 +53,30 @@ Im Code durchgesetzt, gilt für alle Seiten (alte Beiträge eingeschlossen):
 - Keine orangefarbenen Kaufknöpfe, keine Abzeichen, keine Emojis in Navigation und Überschriften. Kaufen ist ein Textlink mit Sternchen, erklärt einmal pro Seite.
 - Navigation: „Bad-Ratgeber“ und „Armaturen-Datenblätter“ statt „Bad-Kaufberatung“ und „Armaturen-Vergleich“ (URLs bleiben).
 
+## 2a. Richtung, Startseite und Bereiche
+
+**Richtung (entschieden am 4. November 2026):** Reparatur und Ersatzteile rund ums Haus, nach dem Muster von womo-teile. Die Seite beantwortet zuerst „Was ist kaputt?“ und führt zum passenden Teil. Kaufberatung gibt es dort, wo sie an die Reparatur anschließt: wenn neu kaufen besser ist als reparieren. Bad und Sanitär sind der erste Bereich, weitere (Heizung, Fenster und Rollladen) kommen einzeln dazu, wenn es Daten dafür gibt. Werkzeug, Farben, Kosten und Finanzen bleiben online, werden aber nicht verlinkt und nicht ausgebaut.
+
+**URL-Schema:**
+
+| URL | Inhalt |
+|---|---|
+| `/` | Startseite |
+| `/bereich/<bereich>` | eine Stelle im Haus: Probleme, gesuchte Teile, Marken und Modelle, Ratgeber |
+| `/ersatzteile`, `/ersatzteile/<marke>`, `/ersatzteile/<marke>/<serie>` | Teilesuche, Marken-Hub, Modell |
+| `/teil/<teil>` | ein Ersatzteil |
+| `/problem`, `/problem/<problem>` | Problemlöser |
+| `/ratgeber`, `/ratgeber/<produkt>` | Ratgeber-Übersicht, Produkt-Ratgeber mit Auswahlhilfe |
+| `/rechner/<rechner>` | Rechner |
+
+**Startseite:** oben zwei Einstiege, „Teil oder Artikelnummer“ (Suche) und „Etwas funktioniert nicht“ (häufige Symptome, je mit Link auf den Bereich). Darunter „Wo ist das Problem?“ als Kacheln mit Strichzeichnung je Bereich, Marken, „Neu kaufen statt reparieren“ mit Produktbild aus den Partner-Feeds, Rechner und ein kurzer Absatz. Kein langer Text, keine Listen aller Beiträge.
+
+**Bereiche** stehen in `src/lib/bereiche.ts`: Name, Satz für die Kachel, Einleitung, Produkttypen der Serien, Teilearten, Muster für die Problem-Slugs, Ratgeber-Slugs. Die Zeichnung steht in `src/components/BereichBild.tsx` (eine Linienstärke, `currentColor`, kein Foto). Ein Bereich ohne Modelle und ohne Probleme ist `noindex` und fehlt in der Sitemap.
+
+**Neuen Bereich anlegen:** erst die Daten (Marken-Datei mit Serien, Teilen, Problemen), dann den Eintrag in `BEREICHE` und eine Zeichnung. Keine Kachel ohne Inhalt dahinter.
+
+**Bilder:** Fotos nur von Produkten und Teilen, und nur aus den Partner-Feeds (`ean_angebote.bild_url`, `teile.bild_url`), ausgeliefert über die Bildoptimierung (`TeilBild`). Bereiche bekommen Zeichnungen, keine Fotos.
+
 ## 3. Seitentyp Produkt-Ratgeber (`/ratgeber/<produkt>`)
 
 Vorbild ist womo-teile (`/ratgeber/dieselheizung`): Die Seite beantwortet „Welche passt zu mir?“ mit einer Auswahlhilfe, nicht mit einer Liste „Die besten …“. Im neuen Aufbau: `/ratgeber/waschtischarmatur`, `/ratgeber/niederdruckarmatur`, `/ratgeber/waschtischarmatur-mit-brause`.

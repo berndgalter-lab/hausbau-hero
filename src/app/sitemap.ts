@@ -1,6 +1,7 @@
 import { supabase } from "@/lib/supabase";
 import { serieIstDuenn } from "@/lib/ersatzteile";
 import { artikelUrl } from "@/lib/produkt-ratgeber";
+import { BEREICHE } from "@/lib/bereiche";
 
 export default async function sitemap() {
   const baseUrl = "https://hausbau-hero.de";
@@ -17,6 +18,8 @@ export default async function sitemap() {
     { url: baseUrl, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
     { url: `${baseUrl}/ersatzteile`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/problem`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${baseUrl}/ratgeber`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    ...BEREICHE.filter((b) => b.produkttypen.length > 0).map((b) => ({ url: `${baseUrl}/bereich/${b.slug}`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.9 })),
     { url: `${baseUrl}/vergleich/armaturen`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
     { url: `${baseUrl}/rechner`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${baseUrl}/impressum`, lastModified: now, changeFrequency: "yearly", priority: 0.1 },
