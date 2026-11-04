@@ -48,6 +48,8 @@ export function istHerstellerShop(url: string): boolean {
     if (/\.pdf$/i.test(u.pathname)) return false;
     const hersteller = /(^|\.)(hansgrohe|grohe|geberit|blanco|franke|idealstandard|ideal-standard|hansa|schell|tece|villeroy-boch|villeroyboch|kludi|viega)\./i;
     if (!hersteller.test(host + ".")) return false;
+    // grohe.de/de_de/<name>-<Artikelnummer>.html ist der Grohe-Onlineshop (Produktseiten auf grohe.com bleiben verlinkt)
+    if (host === "grohe.de" && /^\/de_de\/[^/]*\d{5}[0-9A-Z]{3,4}\.html$/i.test(u.pathname)) return true;
     return /^(spares|webshop|shop)\./i.test(host) || /ersatzteilsuche|\/shop(\/|$)|\/ersatzteile(\/|$)|spare-?parts/i.test(u.pathname);
   } catch {
     return false;
