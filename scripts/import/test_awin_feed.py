@@ -141,6 +141,11 @@ class FeedTest(unittest.TestCase):
     def test_helfer(self):
         self.assertIn("240705001", af.nummern_im_text("Füllventil 240.705.00.1"))
         self.assertIn("46048000", af.nummern_im_text("Kartusche 46 048 000"))
+        # Villeroy & Boch: "9220 55 61" (Katalog) = "92205561" (Contorion), Farbcode R1 statt 61 ist ein anderer Artikel
+        self.assertEqual(af.norm_nr("9220 55 61"), af.norm_nr("9220-55-61"))
+        self.assertEqual(af.norm_nr("9220 55 61"), "92205561")
+        self.assertNotEqual(af.norm_nr("9220 55 61"), af.norm_nr("922055R1"))
+        self.assertIn("92205561", af.nummern_im_text("V&B Scharnier 9220 55 61"))
         self.assertTrue(af.marke_im_text("Grohe", "GROHE Eurosmart"))
         self.assertFalse(af.marke_im_text("Grohe", "hansgrohe Talis"))
         self.assertFalse(af.host_erlaubt("http://media.hagebau.de/x.jpg"))
