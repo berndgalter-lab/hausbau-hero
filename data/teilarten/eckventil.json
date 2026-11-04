@@ -9,7 +9,7 @@
   "kurz": "Unter Waschbecken und Spüle sitzt fast immer ein Eckventil mit Wandanschluss G 1/2 (Außengewinde) und Abgang G 3/8 für das 10-mm-Anschlussrohr der Armatur. Es gibt aber auch Eckventile mit G 3/8 an der Wand oder mit G 1/2 auf beiden Seiten. Miss deshalb vor dem Kauf beide Seiten des alten Ventils.\n\nFür Waschmaschine und Spülmaschine brauchst du einen Abgang G 3/4 mit Rückflussverhinderer, als Kombi-Eckventil oder als eigenes Geräteventil.",
   "bereiche": ["wasseranschluss", "waschtisch"],
   "teiltypen": ["eckventil", "geraeteventil"],
-  "probleme": ["schell-eckventil-undicht"],
+  "probleme": ["schell-eckventil-undicht", "armatur-wechseln"],
   "erkennen": [
     {
       "titel": "Wandanschluss bestimmen",

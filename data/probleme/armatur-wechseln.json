@@ -1,0 +1,248 @@
+{
+  "slug": "armatur-wechseln",
+  "titel": "Armatur wechseln",
+  "seo_title": "Armatur wechseln: Wasserhahn, Küchen- und Wannenarmatur selbst tauschen",
+  "seo_description": "Waschtisch-, Küchen- oder Badewannenarmatur wechseln: wann sich Reparatur statt Neukauf lohnt, was vorher zu prüfen ist (Eckventil, Niederdruck, Schläuche, S-Anschlüsse) und wie der Tausch Schritt für Schritt geht.",
+  "symptom": "Die Armatur tropft trotz neuer Kartusche, das Gehäuse ist undicht oder korrodiert, für das Modell gibt es keine Ersatzteile mehr, oder eine neue Spüle oder ein neuer Waschtisch braucht eine passende Armatur. Bevor du kaufst, klärst du, ob eine Reparatur reicht und ob die neue Armatur zu Anschlüssen und Warmwasserbereitung passt.",
+  "bereich": "waschtisch",
+  "ursachen": [
+    {
+      "ursache": "Kartusche verschlissen, aber noch lieferbar",
+      "erklaerung": "Tropft der Hahn bei geschlossenem Hebel oder geht der Hebel schwer, nennt hansgrohe in der Störungstabelle den Tausch der Kartusche als Abhilfe. Das ist meist günstiger als eine neue Armatur. Ein Wechsel lohnt erst, wenn es die Kartusche nicht mehr gibt oder die Armatur danach weiter tropft.",
+      "haeufigkeit": "häufig",
+      "teilart": "kartusche"
+    },
+    {
+      "ursache": "Eckventil schließt nicht oder tropft",
+      "erklaerung": "Oft zeigt sich das erst beim Absperren: Die Ventile sind verkalkt, gehen schwer oder lassen weiter Wasser durch. Dann tauschst du zuerst das Eckventil oder sperrst für den Armaturwechsel an der Hauptabsperrung ab. Ein gut schließendes Eckventil lässt du in Ruhe.",
+      "haeufigkeit": "häufig",
+      "teilart": "eckventil"
+    },
+    {
+      "ursache": "Gehäuse undicht oder Ersatzteile ausgelaufen",
+      "erklaerung": "Ist der Armaturenkörper selbst undicht oder korrodiert, oder ist die Dichtfläche unter der Kartusche beschädigt, hilft keine neue Kartusche. Auch Ersatzteile laufen aus: Im Hansa-Datenblatt einer Küchenarmatur sind einzelne Teile wie Auslauf und Anschlussschlauch bereits als ausgelaufen markiert. Dann ist der Wechsel die bessere Lösung.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Untertischspeicher an der Spüle: nur Niederdruckarmatur",
+      "erklaerung": "Hängt unter der Spüle ein offener (druckloser) Kleinspeicher, brauchst du wieder eine Niederdruckarmatur mit drei Schläuchen. Grohe und Schütte schreiben in ihren Anleitungen, dass ihre normalen Armaturen nicht an offenen Speichern betrieben werden dürfen. Eine Hochdruckarmatur mit zwei Schläuchen passt nur, wenn Kalt- und Warmwasser getrennt aus der Wand kommen.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Anschlussschläuche zu kurz oder Gewinde passt nicht",
+      "erklaerung": "Sitzen die Eckventile tief oder ungleich hoch, reichen die mitgelieferten Flexschläuche nicht. Am Eckventil haben die Schläuche eine 3/8\"-Überwurfmutter mit flacher Dichtung, armaturseitig ist das Gewinde herstellerspezifisch (bei Hansa zum Beispiel M8x1). Lassen sich die Schläuche nicht herausschrauben, setzt du einen Verlängerungsschlauch dazwischen.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Hahnloch oder Beckenstärke passt nicht",
+      "erklaerung": "Alte Armaturen sitzen manchmal in einem größeren Loch als die neue braucht, dann deckt eine Grundplatte die Öffnung ab. Bei dünnen Becken oder Arbeitsplatten reicht die Gewindestange nicht, und die Armatur wackelt, bis du Scheiben oder eine Unterlage unter die Spannplatte legst.",
+      "haeufigkeit": "selten"
+    },
+    {
+      "ursache": "Aufputz-Wannenarmatur: S-Anschlüsse und Anschlussmaß",
+      "erklaerung": "Wannen- und Duscharmaturen auf Putz sitzen auf zwei S-Anschlüssen (Exzentern) mit G 1/2. hansgrohe gibt für seine Wannenmischer ein Anschlussmaß von 150 ± 16 mm an, kalt rechts und warm links. Sind die alten S-Anschlüsse dicht und passen sie, schraubst du die neue Armatur mit den beiliegenden Dichtungen darauf; neue S-Anschlüsse einzusetzen nennt Grohe anspruchsvoll.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Unterputzarmatur: Fertigset muss zum Grundkörper passen",
+      "erklaerung": "Bei Unterputzarmaturen tauschst du nur das sichtbare Fertigset, und das muss zum eingebauten Grundkörper in der Wand passen; Grohe weist in der Anleitung zum Fertigmontageset ausdrücklich darauf hin. Passt keines mehr, wird meist repariert, etwa die Thermostatkartusche getauscht.",
+      "haeufigkeit": "selten",
+      "teilart": "thermostatkartusche"
+    }
+  ],
+  "pruefen": [
+    "Vor dem Kauf klären: Hängt ein offener Speicher unter der Spüle (dann Niederdruckarmatur), wie weit sind die Eckventile vom Hahnloch entfernt, und passt das Hahnloch zur neuen Armatur.",
+    "Kalt- und Warmwasser an den Eckventilen zudrehen. Läuft weiter Wasser, an der Hauptabsperrung absperren.",
+    "Die alte Armatur öffnen, damit der Druck entweicht, und Eimer und Lappen unter die Anschlüsse legen.",
+    "Die Anschlussschläuche an den Eckventilen abschrauben. Feste Kupferröhrchen an der Überwurfmutter lösen und durch das Hahnloch ziehen.",
+    "Unter dem Becken die Mutter der Befestigung lösen, mit Steckschlüssel oder Standhahnmutternschlüssel. Spannplatte und Gewindestange abnehmen und die alte Armatur nach oben herausziehen.",
+    "Leitungen vor dem Einbau durchspülen, wie es Grohe, hansgrohe und Hansa verlangen.",
+    "Neue Anschlussschläuche in die Armatur schrauben, die Armatur mit der Dichtung auf das Becken setzen, Unterlagscheibe und Befestigungsscheibe über Schläuche und Gewindestift schieben und die Mutter anziehen.",
+    "Schläuche an die Eckventile schrauben, kalt rechts und warm links. Nur handfest und ohne Zange anziehen, die Schläuche nicht verdrehen oder unter Spannung setzen.",
+    "Eckventile öffnen, den Perlator (Mischdüse) abschrauben, Leitung und Armatur kalt und warm gut durchspülen und den Perlator wieder aufschrauben.",
+    "Nach der ersten Inbetriebnahme alle Verbindungen sorgfältig auf Dichtheit prüfen."
+  ],
+  "fachbetrieb_ab": "Wenn Eckventile festsitzen, nicht schließen oder am Wandanschluss korrodiert sind, wenn es in der Wohnung keine eigene Absperrung gibt, wenn an einer Wannenarmatur neue S-Anschlüsse in die Wand müssen und bei Unterputzarmaturen. Hansa verlangt zur Wahrung der Gewährleistung die Montage durch einen Sanitärfachbetrieb. In der Mietwohnung sprichst du vorher mit dem Vermieter.",
+  "marken_probleme": [],
+  "fragen": [
+    {
+      "frage": "Was kostet es, eine Armatur vom Installateur wechseln zu lassen?",
+      "antwort": "In den Foren werden für den reinen Wechsel einer Waschtisch- oder Küchenarmatur etwa 100 bis 200 Euro plus Anfahrt genannt, ein anderer Nutzer rechnet mit dem Armaturpreis plus 200 bis 250 Euro inklusive Steuer und Anfahrt. Für eine Aufputz-Wannenarmatur nannte ein Betrieb in Leipzig rund 400 Euro brutto mit Armatur, Arbeit und Anfahrt, was andere Teilnehmer für realistisch hielten. Viele Betriebe montieren keine selbst gekauften Armaturen, weil sie dafür keine Gewährleistung übernehmen.",
+      "kategorie": "bezug",
+      "quellen": [
+        "https://www.gutefrage.net/frage/was-kostet-es-wenn-ein-installateur-kommt-und-einen-neuen-wasserhahn-installiert",
+        "https://www.gutefrage.net/frage/ist-der-preis-normal-fuer-die-installation-eines-wasserhahns",
+        "https://www.haustechnikdialog.de/Forum/t/274984/Kosten-Austausch-Wannenarmatur-",
+        "https://www.gutefrage.net/frage/wasserhahn-wechseln-3"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie lange dauert der Wechsel und welches Werkzeug brauche ich?",
+      "antwort": "Wenn alles zugänglich ist und sich löst, rechnen Heimwerker mit 30 Minuten bis etwa einer Stunde, in engen Spülenschränken auch länger. Für die Mutter unter dem Becken eignet sich ein Steckschlüssel oder ein Standhahnmutternschlüssel, manchen Grohe-Armaturen liegt ein Montageschlüssel bei. In der hansgrohe-Anleitung der Metris sind Schlüsselweiten von 11 und 19 mm abgebildet. Dazu kommen Eimer und Lappen für das Restwasser.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gutefrage.net/frage/wie-lange-braucht-ihr-fuer-den-austausch-eines-hahnes-an-einer-kuechenspuele",
+        "https://www.gutefrage.net/frage/kann-man-einen-wasserhahn-selber-tauschen",
+        "https://www.gutefrage.net/frage/kuechenwasserhahn-demontieren---wie-loese-ich-die-grosse-ueberwurfmutter",
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh0041_pdf.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Ich habe die Eckventile zugedreht, aber es läuft immer noch Wasser. Was nun?",
+      "antwort": "Dann schließen die Eckventile nicht mehr richtig, oft weil sie verkalkt sind und jahrelang nicht bewegt wurden. Mehrmaliges Auf- und Zudrehen kann helfen, sonst sperrst du an der Hauptabsperrung ab. Ein Fachmann im Haustechnikdialog rät, dann zentral abzusperren, die Armatur zu tauschen und das Eckventil nicht anzufassen. Ein Eckventil, das gar nicht mehr schließt oder tropft, tauschst du am besten gleich mit.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gutefrage.net/frage/wasserhahn-in-der-kueche-austauschen-2",
+        "https://www.haustechnikdialog.de/Forum/t/228841/Eckventil-wechseln-worauf-achten-"
+      ],
+      "teile": [],
+      "problem": "schell-eckventil-undicht"
+    },
+    {
+      "frage": "Soll ich die Eckventile beim Armaturwechsel gleich mittauschen?",
+      "antwort": "Nur wenn sie nicht mehr schließen, tropfen oder stark korrodiert sind, dann gehört der Tausch dazu. Funktionieren sie, rät ein Fachmann im Haustechnikdialog, sie in Ruhe zu lassen. Für den Tausch des Eckventils musst du die Hauptleitung absperren. Sitzt das alte Ventil am Kupferrohr fest oder ist das Wandgewinde beschädigt, holst du besser den Installateur.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/228841/Eckventil-wechseln-worauf-achten-",
+        "https://www.gutefrage.net/frage/was-kostet-es-wenn-ein-installateur-kommt-und-einen-neuen-wasserhahn-installiert",
+        "https://www.gutefrage.net/frage/wie-lange-braucht-ihr-fuer-den-austausch-eines-hahnes-an-einer-kuechenspuele"
+      ],
+      "teile": [
+        "schell-eckventil-049170699",
+        "schell-eckventil-049070699"
+      ],
+      "problem": null
+    },
+    {
+      "frage": "Die Anschlussschläuche der neuen Armatur sind zu kurz. Kann ich sie verlängern?",
+      "antwort": "Ja. Am saubersten ist ein längerer Schlauch, wenn sich die Schläuche aus der Armatur schrauben lassen. Das armaturseitige Gewinde ist aber herstellerspezifisch, bei Hansa zum Beispiel M8x1. Sonst setzt du einen Verlängerungsschlauch mit 3/8\"-Überwurfmutter dazwischen; diese Verschraubungen dichten mit einer flachen Gummidichtung, Hanf ist nicht nötig. Bei manchen Küchenarmaturen sind die Schläuche fest eingebaut, dann bleibt nur die Verlängerung.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/179071/Waschtischarmatur-Anschlussschlauch-zu-kurz",
+        "https://www.haustechnikdialog.de/Forum/t/212036/Flexschlauch-Verlaengerung",
+        "https://www.megabad.com/documents/10/51021183-de-105352.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Unter der Spüle hängt ein Boiler. Welche Armatur brauche ich?",
+      "antwort": "An einem offenen (drucklosen) Untertischspeicher brauchst du eine Niederdruckarmatur. Laut Blanco erkennst du sie an drei Schläuchen, eine Hochdruckarmatur hat zwei. Grohe und Schütte schreiben in ihren Anleitungen, dass ihre normalen Armaturen nicht an offenen Speichern betrieben werden dürfen. Hansa bietet Niederdruck-Küchenarmaturen ausdrücklich „für offene Heißwasserbereiter“ an.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.blanco.de/kuechenarmaturen/anschlussarten/niederdruckarmatur/",
+        "https://cdn.cloud.grohe.com/tpi/1000/1800/1880/1887/1887215/original/1887215.pdf",
+        "https://www.megabad.com/documents/83/34211-de-83179.pdf",
+        "https://www.megabad.com/documents/10/51021183-de-105352.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Die alte Armatur geht nicht ab, die Mutter unter dem Becken ist festgerostet. Was tun?",
+      "antwort": "Sprüh Kriechöl auf die Mutter, lass es einige Stunden einwirken und löse sie dann mit Standhahnmutternschlüssel oder Rohrzange. Ein Nutzer hat bei verrosteten Muttern die ganze Gewindestange aus der Armatur herausgedreht. Sind die alten Zuleitungen feste Kupferröhrchen, löst du die Überwurfmuttern am Eckventil und ziehst die Röhrchen durch das Hahnloch, notfalls werden sie abgeschnitten. Nicht mit Gewalt am Eckventil oder an der Leitung hebeln.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gutefrage.net/frage/wasserhahn-abmontieren-nicht-moeglich-weil-stark-verrostet-was-tun",
+        "https://www.gutefrage.net/frage/kuechenwasserhahn-demontieren---wie-loese-ich-die-grosse-ueberwurfmutter",
+        "https://www.gutefrage.net/frage/kann-man-einen-wasserhahn-selber-tauschen",
+        "https://www.gutefrage.net/frage/wie-kann-ich-den-wasserhahn-abmontieren"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Die neue Armatur wackelt, obwohl die Mutter unten fest ist. Woran liegt das?",
+      "antwort": "Oft reicht die Gewindestange nicht, weil Becken oder Arbeitsplatte dünn sind. Dann helfen Scheiben, eine Hülse oder eine Unterlage unter der Spannplatte. Bei Schnellbefestigungen, deren Mutter nur ein halbes Gewinde hat, kann die Mutter unter Zug durchrutschen; ein Fachmann im Haustechnikdialog empfiehlt dann eine Mutter mit durchgehendem Gewinde.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gutefrage.net/frage/wasserhahn-montieren-2",
+        "https://www.haustechnikdialog.de/Forum/t/180188/Grohe-WT-Armatur-laesst-sich-nicht-befestigen-"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Nach dem Wechsel steht Wasser unter dem Waschbecken. Wo ist es undicht?",
+      "antwort": "Läuft beim Putzen Wasser unter dem Armaturenfuß durch, sitzt die Dichtung zwischen Armatur und Becken nicht richtig oder die Spannplatte ist nicht angezogen. Tritt Wasser am Befestigungsschaft aus, nennt hansgrohe einen defekten O-Ring am Anschlussschlauch. Schütte schreibt, die Schläuche dürften nicht verdreht oder unter Spannung montiert werden, und verlangt nach der ersten Inbetriebnahme eine Dichtheitsprüfung aller Verbindungen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gutefrage.net/frage/neuer-wasserhahn-montiert---undicht-wasser-tropft-unten-raus---woran-liegt-es",
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2902_pdf.pdf",
+        "https://www.megabad.com/documents/83/34211-de-83179.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Ich will eine Aufputz-Badewannenarmatur wechseln. Worauf muss ich achten?",
+      "antwort": "Die Armatur sitzt auf zwei S-Anschlüssen in der Wand, hansgrohe gibt als Anschlussmaß 150 ± 16 mm mit G 1/2 an, kalt rechts und warm links. Sind die alten S-Anschlüsse dicht und passen sie, schraubst du die neue Armatur mit den beiliegenden Dichtungen darauf; ein Fachmann im Haustechnikdialog rät, die alten S-Stücke dann nicht herauszudrehen. Grohe nennt das Einsetzen neuer S-Anschlüsse anspruchsvoll und empfiehlt dafür den Fachmann. Vorher die Hauptabsperrung schließen und die Armatur öffnen, damit der Druck weg ist.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh0206_pdf.pdf",
+        "https://cdn.cloud.grohe.com/tpi/2000/2200/2270/2270/2270002/original/2270002.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/274984/Kosten-Austausch-Wannenarmatur-",
+        "https://www.haustechnikdialog.de/Forum/t/28777/Armaturen-wechseln"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Darf ich als Mieter die Armatur selbst wechseln?",
+      "antwort": "Sprich vorher mit dem Vermieter, denn die Armatur gehört zur Wohnung. Ist sie defekt, meldest du das; wer die Reparatur zahlt, regelt dein Mietvertrag. Willst du sie nur aus Geschmacksgründen tauschen, raten Nutzer in den Foren, die alte Armatur aufzuheben, damit du sie beim Auszug wieder einbauen kannst.",
+      "kategorie": "bezug",
+      "quellen": [
+        "https://www.gutefrage.net/frage/wasserhahn-wechseln-3",
+        "https://www.gutefrage.net/frage/wasserhahn-abmontieren-nicht-moeglich-weil-stark-verrostet-was-tun",
+        "https://www.haustechnikdialog.de/Forum/t/28777/Armaturen-wechseln"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Meine Armatur tropft trotz neuer Kartusche. Reparieren oder neu kaufen?",
+      "antwort": "In der hansgrohe-Störungstabelle ist bei tropfender Armatur der Tausch der Kartusche die Abhilfe. Tropft es danach weiter, prüf zuerst die Dichtfläche unter der Kartusche. Ein Neukauf lohnt, wenn das Gehäuse undicht ist oder es Kartusche und Ersatzteile nicht mehr gibt; im Hansa-Datenblatt einer Küchenarmatur sind zum Beispiel einzelne Teile bereits als ausgelaufen markiert.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2902_pdf.pdf",
+        "https://www.megabad.com/documents/10/51021183-de-105352.pdf"
+      ],
+      "teile": [],
+      "problem": "wasserhahn-tropft"
+    }
+  ],
+  "quellen": [
+    "https://cdn.cloud.grohe.com/tpi/1000/1800/1880/1887/1887215/original/1887215.pdf",
+    "https://cdn.cloud.grohe.com/tpi/2000/2200/2270/2270/2270002/original/2270002.pdf",
+    "https://cdn.cloud.grohe.com/tpi/1000/1500/1530/1533/1533746/original/1533746.pdf",
+    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh0041_pdf.pdf",
+    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh0206_pdf.pdf",
+    "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2902_pdf.pdf",
+    "https://media.contorion.de/content/pdf/ede/de/hama_a021956-07-15.pdf",
+    "https://www.megabad.com/documents/10/51021183-de-105352.pdf",
+    "https://www.megabad.com/documents/83/34211-de-83179.pdf",
+    "https://www.blanco.de/kuechenarmaturen/anschlussarten/niederdruckarmatur/",
+    "https://www.gutefrage.net/frage/was-kostet-es-wenn-ein-installateur-kommt-und-einen-neuen-wasserhahn-installiert",
+    "https://www.gutefrage.net/frage/ist-der-preis-normal-fuer-die-installation-eines-wasserhahns",
+    "https://www.gutefrage.net/frage/wie-lange-braucht-ihr-fuer-den-austausch-eines-hahnes-an-einer-kuechenspuele",
+    "https://www.gutefrage.net/frage/kann-man-einen-wasserhahn-selber-tauschen",
+    "https://www.gutefrage.net/frage/kuechenwasserhahn-demontieren---wie-loese-ich-die-grosse-ueberwurfmutter",
+    "https://www.gutefrage.net/frage/wasserhahn-in-der-kueche-austauschen-2",
+    "https://www.gutefrage.net/frage/wasserhahn-abmontieren-nicht-moeglich-weil-stark-verrostet-was-tun",
+    "https://www.gutefrage.net/frage/wie-kann-ich-den-wasserhahn-abmontieren",
+    "https://www.gutefrage.net/frage/wasserhahn-montieren-2",
+    "https://www.gutefrage.net/frage/neuer-wasserhahn-montiert---undicht-wasser-tropft-unten-raus---woran-liegt-es",
+    "https://www.gutefrage.net/frage/wasserhahn-wechseln-3",
+    "https://www.haustechnikdialog.de/Forum/t/228841/Eckventil-wechseln-worauf-achten-",
+    "https://www.haustechnikdialog.de/Forum/t/179071/Waschtischarmatur-Anschlussschlauch-zu-kurz",
+    "https://www.haustechnikdialog.de/Forum/t/212036/Flexschlauch-Verlaengerung",
+    "https://www.haustechnikdialog.de/Forum/t/180188/Grohe-WT-Armatur-laesst-sich-nicht-befestigen-",
+    "https://www.haustechnikdialog.de/Forum/t/274984/Kosten-Austausch-Wannenarmatur-",
+    "https://www.haustechnikdialog.de/Forum/t/28777/Armaturen-wechseln",
+    "https://www.haustechnikdialog.de/Forum/t/237261/Grohe-Unterputz-Armatur-tausch-moeglich-"
+  ]
+}
