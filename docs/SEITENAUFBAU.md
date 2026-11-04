@@ -56,7 +56,7 @@ Im Code durchgesetzt, gilt für alle Seiten (alte Beiträge eingeschlossen):
 
 ## 2a. Richtung, Startseite und Bereiche
 
-**Richtung (entschieden am 4. November 2026):** Reparatur und Ersatzteile rund ums Haus, nach dem Muster von womo-teile. Die Seite beantwortet zuerst „Was ist kaputt?“ und führt zum passenden Teil. Kaufberatung gibt es dort, wo sie an die Reparatur anschließt: wenn neu kaufen besser ist als reparieren. Bad und Sanitär sind der erste Bereich, weitere (Heizung, Fenster und Rollladen) kommen einzeln dazu, wenn es Daten dafür gibt. Werkzeug, Farben, Kosten und Finanzen bleiben online, werden aber nicht verlinkt und nicht ausgebaut.
+**Richtung (entschieden am 4. November 2026):** Reparatur und Ersatzteile rund ums Haus, nach dem Muster von womo-teile. Die Seite beantwortet zuerst „Was ist kaputt?“ und führt zum passenden Teil. Kaufberatung gibt es dort, wo sie an die Reparatur anschließt: wenn neu kaufen besser ist als reparieren. Bad und Sanitär sind der erste Bereich, weitere kommen einzeln dazu, wenn es Daten dafür gibt. Welche und in welcher Reihenfolge, steht in `BEREICHE-REIHENFOLGE.md`. Werkzeug, Farben, Kosten und Finanzen bleiben online, werden aber nicht verlinkt und nicht ausgebaut.
 
 **URL-Schema:**
 
