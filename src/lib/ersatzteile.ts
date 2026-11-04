@@ -134,6 +134,10 @@ export const PRODUKTTYP_LABEL: Record<string, string> = {
   wannenarmatur: "Wannenarmaturen",
   thermostat: "Thermostate",
   spuele: "Spülen",
+  eckventil: "Eckventile",
+  geraeteventil: "Geräteventile",
+  aussenventil: "Außenventile (frostsicher)",
+  druckspueler: "Druckspüler",
 };
 
 export const TEILTYP_LABEL: Record<string, string> = {
@@ -152,6 +156,11 @@ export const TEILTYP_LABEL: Record<string, string> = {
   ueberlauf: "Überläufe",
   brausekopf: "Brauseköpfe",
   werkzeug: "Werkzeug",
+  eckventil: "Eckventile",
+  geraeteventil: "Geräteventile",
+  oberteil: "Oberteile & Spindeln",
+  filter: "Filter",
+  kolben: "Kolben",
   sonstiges: "Weitere Teile",
 };
 

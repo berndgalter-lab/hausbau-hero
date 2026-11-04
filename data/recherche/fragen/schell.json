@@ -1,0 +1,458 @@
+{
+ "marke": "Schell",
+ "stand": "November 2026",
+ "fragen": [
+  {
+   "frage": "Woran erkenne ich, ob ich eine Schell POLAR oder eine POLAR II habe?",
+   "kategorie": "nummer",
+   "haeufigkeit": 2,
+   "fundstellen": [
+    "https://www.haustechnikdialog.de/Forum/t/208107/Schell-Polar-1-oder-2-",
+    "https://www.bauexpertenforum.de/threads/schell-polar-neue-spindel-passt-nicht.138894/"
+   ],
+   "forum_antworten": "Der Fragesteller will Spindel bzw. Oberteil wechseln und fragt, ob man Polar und Polar II von außen unterscheiden kann. Die einzige Antwort geht darauf nicht ein, sondern rät: zerlegen, reinigen, fetten und die Gummischeibe tauschen. Die eigentliche Frage bleibt unbeantwortet. Ein 12 Jahre alter Polar-Hahn lässt bei angeschlossenem Schlauch Wasser durch die Entlüftung. Das gekaufte Oberteil 22 145 00 99 ist etwa 1 cm zu lang und hat eine andere Gewindesteigung. Der Moderator sagt 'anderes System, passt nicht' und nennt 22 236 00 99, weil es Polar und Polar II gibt. Mit 22 236 00 99 (rund 60 Euro) funktioniert der Hahn wieder. 2026 sitzt die Spindel nach dem Winter fest; ein Antwortender rät zum Komplettaustausch durch einen Fachbetrieb, ohne dass das Problem gelöst wird.",
+   "antwort": "Am sichersten über die Artikelnummer auf Rechnung oder Anleitung: Die POLAR II zur Nachrüstung hat 03 995 03 99 oder 03 996 03 99, das POLAR II Set 03 997 oder 03 998 03 99, die ältere POLAR Nummern von 03 978 06 99 bis 03 983 06 99. Ohne Nummer hilft die Spindel: Das Oberteil der alten POLAR hat laut Schell eine 285 mm lange Spindel, das der POLAR II 177,5 mm. Beim POLAR II Set wird die Spindel bei der Montage auf die Wanddicke gekürzt.",
+   "antwort_quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=293",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+    "https://www.bauexpertenforum.de/threads/schell-polar-neue-spindel-passt-nicht.138894/"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "schell-oberteil-222360099",
+    "schell-oberteil-221450099",
+    "schell-oberteil-222350099"
+   ],
+   "passendes_problem": "schell-aussenventil-tropft"
+  },
+  {
+   "frage": "Ich habe für meinen Schell Außenhahn POLAR ein neues Oberteil bestellt, aber es passt nicht. Woran liegt das?",
+   "kategorie": "kompatibilitaet",
+   "haeufigkeit": 1,
+   "fundstellen": [
+    "https://www.bauexpertenforum.de/threads/schell-polar-neue-spindel-passt-nicht.138894/"
+   ],
+   "forum_antworten": "Ein 12 Jahre alter Polar-Hahn lässt bei angeschlossenem Schlauch Wasser durch die Entlüftung. Das gekaufte Oberteil 22 145 00 99 ist etwa 1 cm zu lang und hat eine andere Gewindesteigung. Der Moderator sagt 'anderes System, passt nicht' und nennt 22 236 00 99, weil es Polar und Polar II gibt. Mit 22 236 00 99 (rund 60 Euro) funktioniert der Hahn wieder. 2026 sitzt die Spindel nach dem Winter fest; ein Antwortender rät zum Komplettaustausch durch einen Fachbetrieb, ohne dass das Problem gelöst wird.",
+   "antwort": "POLAR und POLAR II sind verschiedene Systeme. Im Forum war das Oberteil 22 145 00 99 für die alte POLAR rund 1 cm zu lang und hatte eine andere Gewindesteigung, mit dem Oberteil 22 236 00 99 für die POLAR II funktionierte der Hahn wieder. Für das POLAR II Set gibt es das Oberteil 22 235 00 99 mit 488 mm langer Spindel zum Kürzen.",
+   "antwort_quellen": [
+    "https://www.bauexpertenforum.de/threads/schell-polar-neue-spindel-passt-nicht.138894/",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=488",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "schell-oberteil-221450099",
+    "schell-oberteil-222360099",
+    "schell-oberteil-222350099"
+   ],
+   "passendes_problem": null
+  },
+  {
+   "frage": "Welche Kartusche brauche ich für die Schell Selbstschluss-Armatur PETIT SC oder PURIS SC?",
+   "kategorie": "kompatibilitaet",
+   "haeufigkeit": 0,
+   "fundstellen": [],
+   "forum_antworten": "Kein Forenthread gefunden; Frage aus dem Fragenkatalog (SEITENAUFBAU 4a), Antwort aus dem Schell-Katalog.",
+   "antwort": "Das hängt am Wasser, nicht an der Serie: Für Kaltwasser oder vorgemischtes Wasser (HD-K, etwa PETIT SC 02 122 oder PURIS SC 02 110) nennt Schell die Selbstschluss-Kartusche 29 733 00 99, für Mischwasser (HD-M, PETIT SC 02 151, PURIS SC 02 125) die 29 736 00 99. Beide gelten für Armaturen ab Oktober 2006 und ersetzen ältere Kartuschen wie 29 638 00 99 und 29 637 00 99.",
+   "antwort_quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=386",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=388",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=389"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "schell-kartusche-297330099",
+    "schell-kartusche-297360099"
+   ],
+   "passendes_problem": "schell-selbstschluss-armatur-tropft"
+  },
+  {
+   "frage": "Welches Schell Geräteventil brauche ich für Waschmaschine oder Spülmaschine, nur mit Rückflussverhinderer oder auch mit Rohrbelüfter?",
+   "kategorie": "kompatibilitaet",
+   "haeufigkeit": 1,
+   "fundstellen": [
+    "https://www.energiesparhaus.at/forum-welches-geraeteanschlussventil-ist-das-richtige/76419"
+   ],
+   "forum_antworten": "Der Fragesteller vergleicht drei Schell-Geräteventile. Die einzige Antwort: Wenn die Geräte selbst einen Wasserstopp haben, reicht der Rückflussverhinderer, Rohrbelüfter oder Wasserstopp am Ventil sind dann nicht nötig. Nur eine Antwort, keine Gegenstimme.",
+   "antwort": "Alle Geräteschrägsitzventile COMFORT haben einen Rückflussverhinderer. 03 392 06 99 hat zusätzlich einen Rohrbelüfter, zusammen die Sicherungskombination HD, 03 390 06 99 hat stattdessen einen Wasserstopp, der schließt, wenn der Schlauch platzt. Zu 03 386 06 99 empfiehlt Schell den Rohrbelüfter 28 602 06 99 zum Aufschrauben. Im Forum hieß es, bei Maschinen mit eigenem Wasserstopp reiche der Rückflussverhinderer.",
+   "antwort_quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=278",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=279",
+    "https://www.energiesparhaus.at/forum-welches-geraeteanschlussventil-ist-das-richtige/76419"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "schell-geraeteventil-033920699",
+    "schell-geraeteventil-033860699",
+    "schell-rohrbeluefter-286020699"
+   ],
+   "passendes_problem": null
+  },
+  {
+   "frage": "Mein Schell Eckventil ist undicht. Kann ich nur das Oberteil tauschen, oder muss das ganze Ventil raus?",
+   "kategorie": "reparatur",
+   "haeufigkeit": 2,
+   "fundstellen": [
+    "https://www.haustechnikdialog.de/Forum/t/267446/Eckventil-welcher-Hersteller-Ersatzteile-",
+    "https://www.haustechnikdialog.de/Forum/t/133208/Verkalkte-Eckventile-und-Schraegsitzventile"
+   ],
+   "forum_antworten": "Im ersten Thread (2023) wird das Eckventil nach dem ersten Betätigen undicht; auf dem Griff steht 'SC', ein Antwortender ordnet es Schell zu. Drei Antwortende raten übereinstimmend zum Komplettaustausch, Einzelteile lohnten bei einem Teil unter 10 Euro nicht; einer verweist auf O-Ring-Sortimente plus Armaturenfett. Im zweiten Thread (2011) sagt eine Antwort ebenfalls 'Eckventile ganz tauschen', bei Schrägsitzventilen lohne der Oberteiltausch, aber nur mit Oberteil desselben Herstellers; ein Installateur schreibt, er verbaue nur Schell-Eckventile.",
+   "antwort": "Das ganze Ventil. Schell führt im Katalog keine Oberteile oder Dichtungen für Eckventile, und in den Foren raten mehrere Installateure übereinstimmend zum Komplettaustausch, weil ein neues Eckventil nur wenige Euro kostet. Miss vorher Wandgewinde (meist G 1/2) und Abgang (meist 10 mm). Oberteile gibt es bei Schell für Geräte- und Auslaufventile.",
+   "antwort_quellen": [
+    "https://www.haustechnikdialog.de/Forum/t/267446/Eckventil-welcher-Hersteller-Ersatzteile-",
+    "https://www.haustechnikdialog.de/Forum/t/133208/Verkalkte-Eckventile-und-Schraegsitzventile",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=297",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=317"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "schell-eckventil-049170699",
+    "schell-eckventil-049070699",
+    "schell-eckventil-049160699"
+   ],
+   "passendes_problem": "schell-eckventil-undicht"
+  },
+  {
+   "frage": "Der Griff an meinem Schell Eckventil dreht durch. Gibt es den Griff einzeln?",
+   "kategorie": "reparatur",
+   "haeufigkeit": 1,
+   "fundstellen": [
+    "https://www.haustechnikdialog.de/Forum/t/145157/Eckventil-Aufsaetze-wechseln"
+   ],
+   "forum_antworten": "Die Griffe wurden beim zu festen Zudrehen beschädigt und drehen durch. Ein Antwortender schlägt vor: Wenn es ein Schell-Ventil ist, bei einem baugleichen neuen Ventil aus dem Baumarkt den Griff abziehen und auf das alte aufstecken. Drei andere Antwortende (u. a. Installateure) halten das für Bastelei und raten zum Komplettaustausch, zumal alte Ventileinsätze oft schwergängig sind; einer sagt, separate Drehknöpfe gebe es nicht. Mehrheit also: ganzes Ventil tauschen.",
+   "antwort": "Einen Ersatzgriff für Eckventile führt Schell im Katalog nicht. Im Forum schlug einer vor, den Griff von einem baugleichen neuen Schell-Ventil umzustecken, drei andere, darunter Installateure, rieten zum Tausch des ganzen Ventils, weil alte Ventileinsätze oft auch schwergängig sind. Ursache war dort zu festes Zudrehen.",
+   "antwort_quellen": [
+    "https://www.haustechnikdialog.de/Forum/t/145157/Eckventil-Aufsaetze-wechseln",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=296",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=317"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "schell-eckventil-049170699",
+    "schell-eckventil-049070699",
+    "schell-eckventil-049160699"
+   ],
+   "passendes_problem": "schell-eckventil-undicht"
+  },
+  {
+   "frage": "Muss ich ein selbstdichtendes Schell Eckventil mit ASAG easy zusätzlich mit Hanf oder Band eindichten?",
+   "kategorie": "reparatur",
+   "haeufigkeit": 3,
+   "fundstellen": [
+    "https://www.haustechnikdialog.de/Forum/t/246236/selbstdichtende-Eckventile-aktuelle-Erfahrungen",
+    "https://www.haustechnikdialog.de/Forum/t/263214/ASAG-Eckventile-direkt-in-Wandscheibe-ohne-Hahnverlaengerung-",
+    "https://www.gutefrage.net/a/frage/gummi-dichtring-hinter-eckventil"
+   ],
+   "forum_antworten": "Im haustechnikdialog-Thread (2021) berichten drei Antwortende positiv über selbstdichtende Schell-Ventile (teils seit Jahren im eigenen Haus). Ein Antwortender betont: bis zum letzten Gewindegang eindrehen, Dichtring mit Armaturenfett gängig machen, Muffe sollte angefast sein; Zurückdrehen sei laut Hersteller zulässig. Im energiesparhaus-Thread (2013) bevorzugen vier von sieben Antwortenden Hanf, Teflonband lehnen mehrere ab; einer meint, Schell- und No-Name-Ventile seien 'eh alle gleich'. Mehrere Antwortende bestätigen, dass das direkte Einschrauben in die Wandscheibe geht und dafür gedacht ist. Ein Antwortender fasst die Hersteller-Hinweise (Schell, Nil) zusammen: ASAG-Ring mit Armaturenfett einstreichen, Muffe angefast, bis zum letzten Gewindegang eindrehen; das Drehmoment sei hoch. Uneinig ist der Thread, ob ASAG-Ventile 'Einweg' sind: einer sagt, nach dem Herausdrehen neues Ventil nehmen und ASAG easy nicht zusätzlich hanfen, ein anderer widerspricht. Ein selbstdichtendes Schell Kombi-Eckventil (knapp 70 Euro im Fachhandel) tropft im Altbau-Anschluss. Beide sichtbaren Antworten raten, es weiter einzudrehen oder das Gewinde doch klassisch einzudichten (Hanf bzw. Teflonband); zum Gummiring hinter dem Ventil äußert sich niemand zustimmend. Es gibt nur zwei Antworten, beide in dieselbe Richtung.",
+   "antwort": "Nein. Schell schließt zusätzliches Dichtmittel auf dem ASAG-easy-Gewinde aus. Der Dichtring muss beim Einschrauben 3 mm im Gegengewinde verschwinden, danach darf das Ventil noch in die richtige Stellung gedreht werden. Tropft ein neues Ventil am Wandanschluss, ist es meist nicht weit genug eingeschraubt oder der Ring wurde an einer scharfen Muffenkante beschädigt. Im Forum berichten mehrere Nutzer seit Jahren gute Erfahrungen mit den Ventilen.",
+   "antwort_quellen": [
+    "https://schell.eu/fileadmin/tx_dmmediacockpit/SCHE-9105_Faltblatt%20ASAG%20easy%20%26%20Raendierung%202024_DT_RZ-Screen_WebHighRes-3.pdf",
+    "https://www.haustechnikdialog.de/Forum/t/246236/selbstdichtende-Eckventile-aktuelle-Erfahrungen",
+    "https://www.haustechnikdialog.de/Forum/t/263214/ASAG-Eckventile-direkt-in-Wandscheibe-ohne-Hahnverlaengerung-"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "schell-eckventil-049170699",
+    "schell-eckventil-049160699",
+    "schell-eckventil-035490699"
+   ],
+   "passendes_problem": "schell-eckventil-undicht"
+  },
+  {
+   "frage": "Beim Schell POLAR II läuft Wasser aus dem kleinen Loch unten. Ist der Außenhahn kaputt?",
+   "kategorie": "reparatur",
+   "haeufigkeit": 2,
+   "fundstellen": [
+    "https://www.haustechnikdialog.de/Forum/t/132497/Aussenzapfstelle-Schell-Polar-2",
+    "https://www.haustechnikdialog.de/Forum/t/269093/Schell-Polar-II-Funktionweise"
+   ],
+   "forum_antworten": "Neu eingebauter Polar 2 (Ersatz für einen alten Polar), Wasser schießt aus dem Loch. Ein Antwortender erklärt: Das Loch ist die Zwangsbelüftung, das Restwasser soll nach dem Schließen über den Auslauf ablaufen – bei abgenommenem Schlauch; schließt die Belüftung nicht (z. B. Schmutz), kommt dort Wasser raus. Ein anderer vermutet eine verstellte Spindellänge und nennt 15,6 cm als Maß an einer neuen Armatur. 2025 meldet ein Nutzer: Bei gleichem Problem fehlte ein kleiner O-Ring an der Spindel nahe dem Loch, nach Ersatz war es behoben. Laut Fragesteller (2023) geben weder Installateur noch Schell-Kundendienst eine brauchbare Antwort; mit Gartenschlauch sei der Hahn unbenutzbar. Die einzige Antwort: Das ist nicht normal, vermutlich ist eine Dichtung am Ventiloberteil defekt. Nur eine Antwort.",
+   "antwort": "Nicht unbedingt. Das Loch ist die Belüftung: Nach dem Schließen entleert sich die Armatur darüber, und steht ein angeschlossener Schlauch unter Druck, etwa weil die Spritze vorn zu ist, baut Schell den Überdruck über diese Öffnung ab. Läuft dort ohne Schlauch dauernd Wasser, ist meist eine Dichtung am Oberteil defekt. In einem Forenfall fehlte ein kleiner O-Ring an der Spindel. Für die POLAR II gibt es das Dichtelemente-Set 25 896 00 99.",
+   "antwort_quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/903030300_C_POLAR_II_NEU-1.pdf",
+    "https://www.haustechnikdialog.de/Forum/t/132497/Aussenzapfstelle-Schell-Polar-2",
+    "https://www.haustechnikdialog.de/Forum/t/269093/Schell-Polar-II-Funktionweise",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "schell-dichtung-258960099",
+    "schell-oberteil-222360099"
+   ],
+   "passendes_problem": "schell-aussenventil-tropft"
+  },
+  {
+   "frage": "Mein Schell POLAR II schließt nur noch, wenn ich den Griff Richtung Wand drücke. Was hilft?",
+   "kategorie": "reparatur",
+   "haeufigkeit": 1,
+   "fundstellen": [
+    "https://www.bauexpertenforum.de/threads/aussenwasserhahn-laesst-sich-fast-nicht-schliessen.121057/"
+   ],
+   "forum_antworten": "Zwei identische Polar II, einer schließt nach dem Rasensprengen nur noch, wenn man den Griff Richtung Wand drückt. Zwei Antwortende sind sich einig: Die Kunststoff-Buchse (Rastbuchse) im Griff ist ausgeleiert und muss ersetzt werden; Griff tauschen allein bringe nichts. Ein dritter vermutet zu kräftiges Zudrehen als Ursache. Der Fragesteller tauscht die Buchse, danach funktioniert der Hahn wieder.",
+   "antwort": "Im Forum waren sich zwei Antwortende einig: Die Kunststoff-Rastbuchse im Griff ist ausgeleiert. Der Fragesteller hat sie ersetzt, danach schloss der Hahn wieder. Schell führt den COMFORT-Griff 47 996 06 99 mit Rastbuchse als Ersatzteil für POLAR II und POLAR II Set.",
+   "antwort_quellen": [
+    "https://www.bauexpertenforum.de/threads/aussenwasserhahn-laesst-sich-fast-nicht-schliessen.121057/",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "schell-griff-479960699"
+   ],
+   "passendes_problem": "schell-aussenventil-tropft"
+  },
+  {
+   "frage": "Aus meinem Schell POLAR II kommt kein Wasser mehr. Woran liegt das?",
+   "kategorie": "reparatur",
+   "haeufigkeit": 1,
+   "fundstellen": [
+    "https://www.haustechnikdialog.de/Forum/t/207300/Schell-Polar-2-Aussenwasserhahn"
+   ],
+   "forum_antworten": "Die Antwort: In der Dichtspitze sitzt hinten ein Rückflussverhinderer (blaues Teil), der durch Fremdpartikel blockiert sein kann – ausbauen, reinigen, wieder einbauen. Der Fragesteller bestätigt, das Teil saß schief. Ein späterer Nutzer sucht den Rückflussverhinderer einzeln (Neoperl, Bezeichnung 'P-IX 650/1'); eine Antwort verweist auf den Austauschsatz 'Oberteil mit Spindel' 22 236 00 99, der für Fachbetriebe kostenlos sei.",
+   "antwort": "Im Forum lag es am Rückflussverhinderer, der hinten in der Dichtspitze sitzt: Schmutz hatte ihn blockiert, er saß schief. Ausbauen, reinigen und wieder einsetzen löste das Problem, das hat der Fragesteller bestätigt. Ist die Dichtspitze beschädigt, gibt es sie einzeln (22 234 00 99) oder mit dem ganzen Oberteil (22 236 00 99).",
+   "antwort_quellen": [
+    "https://www.haustechnikdialog.de/Forum/t/207300/Schell-Polar-2-Aussenwasserhahn",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=489",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/903030300_C_POLAR_II_NEU-1.pdf"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "schell-dichtung-222340099",
+    "schell-oberteil-222360099"
+   ],
+   "passendes_problem": null
+  },
+  {
+   "frage": "Mein Schell WC-Druckspüler läuft nach dem Drücken ständig weiter. Lohnt sich die Reparatur?",
+   "kategorie": "reparatur",
+   "haeufigkeit": 2,
+   "fundstellen": [
+    "https://www.haustechnikdialog.de/Forum/t/253745/Schell-Druckspueler-tropft",
+    "https://www.haustechnikdialog.de/Forum/t/139450/WC-Druckspueler-auseinander-bauen-einfach-"
+   ],
+   "forum_antworten": "Im ersten Thread (2022) rät die einzige inhaltliche Antwort, kein Geld mehr in den alten Spüler zu stecken: ein neuer koste knapp 28 Euro; ein weiterer empfiehlt beim Tausch auch ein neues Spülrohr. Im zweiten Thread (Druckspüler allgemein, 2012) schreibt ein Nutzer, sein Baumarkt-Schellomat laufe seit 2006 problemlos, ein kompletter Ersatzkolben koste nur 26 Euro und der Tausch sei einfach. Andere Antwortende nennen als Ursache für Nachlaufen eine verstopfte Düse am Kolben, die man mit feinem Draht reinigt. Einig sind sich die Threads nicht: Fachleute raten eher zum Austausch, Heimwerker zur Reparatur.",
+   "antwort": "Meist ja, wenn das Gehäuse dicht ist. Die Schell-Anleitung zum SCHELLOMAT mit Hebel nennt bei Dauerlauf: Kolben tauschen oder Düsenbohrung reinigen, die Anleitung zum Silent Eco: Kartusche tauschen. Im Forum beschreiben Heimwerker den Kolbentausch als einfach, Installateure raten bei sehr alten Spülern eher zum neuen Gerät samt Spülrohr.",
+   "antwort_quellen": [
+    "https://www.manualslib.es/manual/150322/Schell-Schellomat.html",
+    "https://media.contorion.de/content/pdf/ede/de/slma_903015900_b.pdf",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=467",
+    "https://www.haustechnikdialog.de/Forum/t/253745/Schell-Druckspueler-tropft",
+    "https://www.haustechnikdialog.de/Forum/t/139450/WC-Druckspueler-auseinander-bauen-einfach-"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "schell-kolben-294200099",
+    "schell-kolben-293000099",
+    "schell-kartusche-296180099",
+    "schell-kartusche-294900099"
+   ],
+   "passendes_problem": "schell-druckspueler-spuelung-laeuft-nach"
+  },
+  {
+   "frage": "Gibt es für alte Schell-Ventile und Druckspüler noch Ersatzteile?",
+   "kategorie": "verfuegbarkeit",
+   "haeufigkeit": 1,
+   "fundstellen": [
+    "https://www.haustechnikdialog.de/Forum/t/209511/Innenleben-fuer-1984er-Schell-Eckventil-gibt-es-das-noch-in-neu-"
+   ],
+   "forum_antworten": "Es geht um ein Schell PA 103 von 1984 am DAL-Unterputzspülkasten, das scheinbar eingelötet ist. Zwei Antwortende raten, Eckventile komplett zu tauschen bzw. ein funktionierendes in Ruhe zu lassen; einer vermutet ein fest verbautes Sperrventil des Spülkasten-Herstellers (DAL, heute Grohe). Der Fragesteller kauft schließlich ein altes Neuteil als Reserve. Ein späterer Nutzer (2021) hat dasselbe Modell, das nur im geöffneten Zustand tropft – keine Antwort.",
+   "antwort": "Für Außenventile, Druckspüler und Selbstschluss-Armaturen oft ja: Der Katalog 2026 führt etwa das Oberteil für die alte POLAR, den Messingkolben für den SCHELLOMAT mit Hebel und Kartuschen für SCHELLOMAT Silent Eco bis 2008. Für Eckventile gibt es keine Innenteile, im Forum zu einem Schell-Eckventil von 1984 rieten die Antwortenden zum Tausch des ganzen Ventils. Eine feste Liefergarantie für Ersatzteile in Jahren nennt Schell nicht.",
+   "antwort_quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=466",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=467",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=490",
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/KT_2026_deutsch_INT.pdf#page=512",
+    "https://www.haustechnikdialog.de/Forum/t/209511/Innenleben-fuer-1984er-Schell-Eckventil-gibt-es-das-noch-in-neu-"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "schell-oberteil-221450099",
+    "schell-kolben-293000099",
+    "schell-kartusche-294790099"
+   ],
+   "passendes_problem": null
+  },
+  {
+   "frage": "Wie mache ich den frostsicheren Schell Außenhahn POLAR winterfest?",
+   "kategorie": "pflege",
+   "haeufigkeit": 1,
+   "fundstellen": [
+    "https://www.bauexpertenforum.de/threads/aussenwasserhahn-undicht-im-mauerwerk.123008/"
+   ],
+   "forum_antworten": "Zwei Jahre alter Schell-Außenhahn (vermutlich Polar 2) an WDVS-Fassade, bei Frost mit angeschlossenem Schlauch benutzt, jetzt feucht im Mauerwerk und tropfend auch bei geschlossenem Hahn. Drei Beteiligte halten eine gelöste oder gebrochene Rohrhülse bzw. den inneren Anschluss für wahrscheinlich; das Ventil müsse von innen freigelegt werden. Ein anderer erklärt, der Frostschutz wirke nur bei geschlossenem Hahn und frei ablaufendem Restwasser. Eine Lösung wird nicht zurückgemeldet.",
+   "antwort": "Laut Schell vor der Frostperiode alle Schläuche und anderen Anschlüsse abnehmen und den Hahn immer bis zum Anschlag zudrehen, dabei muss Wasser auslaufen. Mit angeschlossenem Schlauch entleeren sich Armatur und Schlauch nicht vollständig. Benutzen soll man die POLAR II nur bei Außentemperaturen über 0 °C. Im Forum führte ein im Frost angeschlossener Schlauch zu einem undichten Hahn im Mauerwerk.",
+   "antwort_quellen": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/903030300_C_POLAR_II_NEU-1.pdf",
+    "https://www.bauexpertenforum.de/threads/aussenwasserhahn-undicht-im-mauerwerk.123008/"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [],
+   "passendes_problem": "schell-aussenventil-tropft"
+  }
+ ],
+ "weitere_fragen_ohne_antwort": [
+  {
+   "frage": "Am Schell Kombi-Eckventil geht der Hahn für die Waschmaschine schwer – ganzes Ventil tauschen oder nur das Oberteil?",
+   "fundstellen": [
+    "https://www.haustechnikdialog.de/Forum/t/161804/Montage-eines-SCHELL-Eckventils"
+   ],
+   "forum_antworten": "Es geht um ein Schell Kombi-Eckventil 35 450 06 99 mit selbstdichtendem Gewinde. Ein Antwortender: großer Griff für die Waschmaschine, kleiner 45°-Griff für die Armatur. Einer schlägt vor, nur das Oberteil des Geräteanschlusses zu tauschen (Fachinstallateure haben Oberteile mit integriertem Rückflussverhinderer). Zum Rohrbelüfter widersprechen sich zwei: einer empfiehlt Kombi-Eckventil mit Rückflussverhinderer und Rohrbelüfter (Schell), ein anderer hält den Belüfter bei eigensicheren Maschinen für überflüssig.",
+   "grund": "nur eine Antwort ohne Bestätigung oder nicht auf Schell-Teile übertragbar"
+  },
+  {
+   "frage": "Mein Schell Eckventil lässt sich nicht schließen, der Drehkopf stößt an – liegt das an der Schraube im Kopf?",
+   "fundstellen": [
+    "https://www.gutefrage.net/frage/eckventil-laesst-sich-nicht-schliessen-durch-schrauben-blockiert"
+   ],
+   "forum_antworten": "Zwei Antwortende halten das Ventil für festgegammelt: mit vorsichtiger Gewalt bzw. Rohrzange drehen, notfalls Kappe ab und den darunterliegenden Zahnbolzen drehen – mit dem Risiko, dass etwas bricht. Die am besten bewertete Antwort erkennt ein Schell-Ventil in Sonderausführung und verlinkt Produktseite und Anleitung (Art.-Nr. 03 836 06 99, Anleitung 903002300_c). Die zwei Laien-Antworten stimmen überein.",
+   "grund": "nur eine Antwort ohne Bestätigung oder nicht auf Schell-Teile übertragbar"
+  },
+  {
+   "frage": "Aus meinem Schell Geräteschrägsitzventil kommt kein Wasser mehr, obwohl ich drehe – was ist kaputt?",
+   "fundstellen": [
+    "https://www.gutefrage.net/frage/schell-geraeteschraegsitzventil-gibt-wasserfluss-nicht-frei"
+   ],
+   "forum_antworten": "Nach längerer Abwesenheit kommt aus dem Schell Geräteschrägsitzventil kein Wasser, der Griff lässt sich etwa eine halbe Umdrehung drehen. Die einzige Antwort: Der Drehknopf ist aus silbrig lackiertem Kunststoff, der bricht und nimmt das Ventil nicht mehr mit; Knopf abziehen und am Vierkantstift mit einem kleinen Schlüssel drehen. Nur eine Antwort.",
+   "grund": "nur eine Antwort ohne Bestätigung oder nicht auf Schell-Teile übertragbar"
+  }
+ ],
+ "nicht_gefunden": {
+  "thema_5": "Zu PETIT SC und PURIS SC (läuft zu lang, tropft, Kartusche, Laufzeit) habe ich keinen einzigen deutschsprachigen Forenthread gefunden. Die Treffer waren nur Pressetexte und SHKwissen-Artikel auf haustechnikdialog.de.",
+  "thema_4_einstellen": "Keinen Thread gefunden, in dem jemand die Spülmenge eines Schellomat einstellt. Die gutefrage-Frage 'Druckspüler? Kann man das einstellen' nennt keinen Hersteller.",
+  "thema_2_oberteil": "Die Oberteil-Nummer 22 131 06 99 kommt in keinem geöffneten Thread vor und steht auch nicht im Schell-Ersatzteilkatalog 2025 (der Katalog enthält keine Eckventil- oder Geräteventil-Oberteile)."
+ },
+ "aussortiert": [
+  {
+   "url": "https://bau.de/forum/trinkwasser/10169.php",
+   "grund": "Antworten sind KI-generiert (GoogleAI/DeepSeek/Qwen), Schell wird nicht genannt"
+  },
+  {
+   "url": "https://www.haustechnikdialog.de/Forum/t/186691/Kombi-Eckventil-defekt-",
+   "grund": "Grohe/Eggemann, nicht Schell"
+  },
+  {
+   "url": "https://www.haustechnikdialog.de/Forum/t/228771/Geraeteanschluss-undicht",
+   "grund": "Cornat, nicht Schell"
+  },
+  {
+   "url": "https://www.haustechnikdialog.de/Forum/t/200675/Kombi-Eckventil-laesst-sich-nicht-umdrehen-kein-Wasser",
+   "grund": "Ob Schell, bleibt im Thread offen"
+  },
+  {
+   "url": "https://www.haustechnikdialog.de/Forum/t/52965/Aus-dem-WW-Eckventil-des-Waschbeckens-tropft-Wasser",
+   "grund": "Schell nur als Kaufempfehlung, Ventil nicht als Schell identifiziert"
+  },
+  {
+   "url": "https://www.bauexpertenforum.de/threads/frostsicherer-aussenwasserhahn-ploetzlich-undicht.51846/",
+   "grund": "Schell kommt nicht vor"
+  },
+  {
+   "url": "https://www.bauexpertenforum.de/threads/selbstentleerender-aussenwasserhahn-tropft.29994/",
+   "grund": "Kemper, nicht Schell"
+  },
+  {
+   "url": "https://www.gutefrage.net/frage/sind-schell-eckventile-wirklich-besser-als-andere",
+   "grund": "Antworten nur nach Login sichtbar"
+  },
+  {
+   "url": "https://www.gutefrage.net/frage/merkwuerdig-oder-defekt-frostsicherer-wasserhahn-faengt-ploetzlich-zu-laufen-an",
+   "grund": "Schell kommt nicht vor"
+  }
+ ],
+ "schell_dokumente": [
+  {
+   "titel": "Montage- und Serviceanleitung POLAR II (03 996 03 99 mit RB / 03 995 03 99)",
+   "urls": [
+    "https://www.schell.eu/fileadmin/tx_dmmediacockpit/903030300_C_POLAR_II_NEU-1.pdf",
+    "https://documents.unidomo.de/de/slma_903030300_b.pdf"
+   ],
+   "fakten": [
+    "Zum Schließen immer bis Anschlag zudrehen, Wasser muss auslaufen; die Armatur entleert sich nach dem Schließen über die automatische Belüftung",
+    "Bei angeschlossenem Schlauch unter Druck baut sich der Überdruck über die Belüftungsöffnung ab; Armatur und Schlauch entleeren dann nicht vollständig",
+    "Vor Beginn der Frostperiode alle Schläuche und anderen Anschlüsse entfernen",
+    "Armatur nur bei Außentemperaturen über 0 °C betätigen",
+    "Durchfluss 40 l bei 3 bar Fließdruck; Anschluss Cu 15 x 1 oder G 1/2 AG",
+    "Max. Wanddicke: 430 mm (Cu-Anschluss), 200 mm (G 1/2 AG); Schutzschlauch wandbündig ablängen, max. 430 mm",
+    "Bohrung mit Gefälle nach außen; Ventilsitz muss im frostfreien Bereich liegen",
+    "Beim Löten vorher Spindel ausbauen",
+    "Ersatzteile: COMFORT-Griff 47 996 06 99, Schlüssel 78 230 03 99, Abdeckglocke 69 982 03 99, Oberteil mit Spindel 22 236 00 99, Dichtspitze 22 234 00 99; SECUR-Griff 48 110 06 99 (ältere Ausgabe: 48 006 06 99)"
+   ]
+  },
+  {
+   "titel": "SCHELL Ersatzteilkatalog 2025 (mit Listenpreisen)",
+   "urls": [
+    "https://schell.eu/fileadmin/tx_dmmediacockpit/Ersatzteilkatalog 2025.pdf"
+   ],
+   "fakten": [
+    "POLAR II: Oberteil inkl. Spindel 177,5 mm 22 236 00 99; Dichtspitze 22 234 00 99; Dichtelemente-Set 25 896 00 99 (O-Ringe 13 x 1,5, 15 x 1,5, 18 x 1,5)",
+    "POLAR II Set: Oberteil inkl. Spindel 488 mm mit Ablänghilfe 22 235 00 99",
+    "Alter POLAR (Art. 03 978 06 99 bis 03 983 06 99): Oberteil und Spindel komplett, 285 mm, 22 145 00 99; POLAR Set (03 985 bis 03 990 06 99): 565 mm, 22 146 00 99",
+    "Selbstschluss-Kartusche PETIT SC / XERIS SC / PURIS SC für Armaturen ab Oktober 2006: Mischwasser 29 736 00 99, Kaltwasser/vorgemischt 29 733 00 99",
+    "Aufputz-Waschtisch PETIT SC: Kartusche bis Ende 2016 29 660 00 99, ab 2017 29 733 00 99; Betätigungsgriff ab 2017 25 897 06 99",
+    "SCHELLOMAT BASIC: Kartusche komplett 29 490 00 99, Betätigungshaube 23 043 06 99",
+    "SCHELLOMAT Silent Eco: Kartusche ab 2009 29 618 00 99, bis 2008 29 479 00 99",
+    "SCHELLOMAT mit Hebel 02 202 06 99 (Katalogseite 467): u. a. Kolben komplett Kunststoff mit automatischer Düsenreinigungsnadel und Kolben komplett Messing, je nach Baujahr (Grenze 09/10/2011)",
+    "Achtung: Die Zuordnung Teil ↔ Nummer habe ich aus dem extrahierten PDF-Text abgeleitet. Bei POLAR und PETIT SC ist sie eindeutig, bei SCHELLOMAT bitte im PDF gegenprüfen. Für 02 202 06 99 habe ich keine Nummern zugeordnet."
+   ]
+  },
+  {
+   "titel": "Montage- und Serviceanleitung SCHELLOMAT SILENT ECO (02 249 06 99 / 02 250 06 99)",
+   "urls": [
+    "https://media.contorion.de/content/pdf/ede/de/slma_903015900_b.pdf"
+   ],
+   "fakten": [
+    "Hauptspülmenge 4,5–9 l einstellbar, Spartaste 3 l; DN 20, DIN EN 12541 Klasse 6",
+    "Einstellung: Betätigungshaube abnehmen, Spülmenge einstellen, Spülstrom an der Spülrohrverschraubung regulieren, ggf. Kartusche ersetzen",
+    "Störungstabelle: keine ausreichende Spülung → Wasserdruck, Vorabsperrung, Spülmenge, Spülstrom prüfen; Spülstrom zu stark → Spülstrom regulieren; Spüler läuft ständig → Kartusche tauschen",
+    "Kartusche mit automatischer Reinigungsnadel"
+   ]
+  },
+  {
+   "titel": "Montage- und Serviceanleitung SCHELLOMAT BASIC DN 25 Niederdruck (02 252 06 99)",
+   "urls": [
+    "https://neuesbad.de/media/pdf/be/ff/79/slma_903027300_a.pdf"
+   ],
+   "fakten": [
+    "Spülmenge 8–14 l einstellbar; Spülrohr innen 30 mm",
+    "Keine ausreichende Spülung → Wasserdruck > 0,4 bar prüfen, Spülmenge einstellen",
+    "Spülstrom zu stark → Spülstromdrossel tauschen; bei Fließdruck ab 2,5 bar die beiliegende Drossel mit kleinem Innendurchmesser einsetzen",
+    "Spüler läuft ständig → Kartusche tauschen (Kartusche komplett inkl. Ersatzdrossel)"
+   ]
+  },
+  {
+   "titel": "Montage- und Installationsanleitung Selbstschluss-Wandauslauf PETIT SC (02 136 06 99 / 02 147 06 99 mit Vorabsperrung)",
+   "urls": [
+    "https://neuesbad.de/media/pdf/0c/b2/10/slma_903033300_b.pdf"
+   ],
+   "fakten": [
+    "Laufzeit hängt vom Fließdruck ab: hoher Fließdruck → kurze Laufzeit",
+    "Bei Erstinbetriebnahme kann die Laufzeit bis zu 2 Minuten betragen",
+    "Gewinde einhanfen und handfest anziehen; Zubehör Verlängerung 60 mm",
+    "Die Einstellschritte (Bild 7–8) stehen nur als Abbildung im PDF, nicht als Text"
+   ]
+  },
+  {
+   "titel": "Produktdatenblatt PETIT SC 02 136 06 99",
+   "urls": [
+    "https://www.schell.eu/de-de/produkte/objektarmaturen/waschtisch/waschtisch-armaturen/petit/021360699/pdf/"
+   ],
+   "fakten": [
+    "Laufzeit 6–15 s einstellbar, Werkseinstellung 7 s",
+    "Durchfluss max. 5 l/min druckunabhängig; Fließdruck 0,8–5,0 bar; Anschluss DN 15 G 1/2 AG",
+    "Lieferumfang mit Selbstschlusskartusche SC II; Geräuschklasse I; Verlängerung PETIT SC 61 662 06 99"
+   ]
+  },
+  {
+   "titel": "Produktdatenblatt Geräteschrägsitzventil COMFORT 03 386 06 99",
+   "urls": [
+    "https://media.contorion.de/content/pdf/ede/de/sldb_033860699_de.pdf"
+   ],
+   "fakten": [
+    "Mit COMFORT-Griff und Fettkammeroberteil, Rückflussverhinderer RV (EN 1717: EB)",
+    "Anschluss DN 15 G 1/2 AG, Abgang Schlauchverschraubung 14,5 mm (DN 20 G 3/4 AG), Rosette 54 mm",
+    "Empfohlener Rohrbelüfter 28 602 06 99, zusammen mit diesem Sicherungskombination HD (EN 1717)"
+   ]
+  }
+ ]
+}
