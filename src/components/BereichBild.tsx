@@ -57,6 +57,15 @@ const ZEICHNUNG: Record<string, React.ReactNode> = {
       <path d="M62 14v6" />
     </>
   ),
+  dachfenster: (
+    <>
+      <path d="M8 74L48 18l40 56" />
+      <path d="M34 40l24-4 10 18-24 4z" />
+      <path d="M46 38l5 18" />
+      <path d="M40 60h24" strokeDasharray="3 4" />
+      <path d="M8 82h80" />
+    </>
+  ),
   hebeanlage: (
     <>
       <path d="M8 34h80" strokeDasharray="4 4" />

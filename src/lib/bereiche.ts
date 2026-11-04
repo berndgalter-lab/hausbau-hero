@@ -128,6 +128,19 @@ export const BEREICHE: Bereich[] = [
     probleme: /hebeanlage/,
     ratgeber: ["kleinhebeanlage", "hebeanlage-kosten"],
   },
+  {
+    // Hauptbereich „Fenster & Türen“ (docs/BEREICHE-REIHENFOLGE.md), Plan in docs/KEYWORDS-DACHFENSTER.md.
+    // Sichtbar erst mit Inhalt: produkttypen und ratgeber tragen die Bau-Sessions ein, sobald es die Seiten gibt.
+    slug: "dachfenster",
+    name: "Dachfenster",
+    kurz: "Rollo passt nicht, Fenster klemmt, Solar-Rollladen reagiert nicht.",
+    einleitung:
+      "Am Dachfenster hängt fast alles am Größencode auf dem Typenschild, bei VELUX etwa MK04. Er entscheidet, welches Rollo, welche Markise und welche Dichtung passt. Sonnenschutz, Dichtungen und Akkus tauschst du selbst, Fenstertausch und Eindeckrahmen sind Sache des Dachdeckers.",
+    produkttypen: [],
+    teiltypen: [],
+    probleme: /dachfenster/,
+    ratgeber: [],
+  },
 ];
 
 /** Suchwort je Teileart für die Teilesuche (/ersatzteile?q=…), die im Namen sucht. */
