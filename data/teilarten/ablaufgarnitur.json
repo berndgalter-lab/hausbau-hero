@@ -1,0 +1,217 @@
+{
+  "slug": "ablaufgarnitur",
+  "name": "Ablaufgarnitur",
+  "mehrzahl": "Ablaufgarnituren",
+  "genus": "f",
+  "titel": "Ablaufgarnitur fürs Waschbecken: mit oder ohne Überlauf?",
+  "seo_title": "Ablaufgarnitur Waschbecken: mit oder ohne Überlauf, Pop-up oder Zugstange",
+  "seo_description": "Welches Ablaufventil passt ins Waschbecken: mit oder ohne Überlauf, Push-Open (Pop-up) oder Zugstange, Länge nach Stärke der Keramik. Stöpsel klemmt oder geht nicht raus, Garnitur undicht.",
+  "kurz": "Die wichtigste Frage ist der Überlauf. Hat dein Becken ein Überlaufloch in der Keramik, brauchst du ein Ablaufventil mit Überlauf. Hat es keins, gehört ein nicht verschließbares Ventil hinein oder ein System mit verdecktem Überlauf. Push-Open-Ventile von hansgrohe, Grohe, Kludi und Geberit sind nur für Becken mit Überlauf vorgesehen.\n\nUnten haben Waschtisch-Ablaufventile fast immer G 1 1/4 für den Siphon. Die Länge des Ventils muss zur Stärke der Keramik am Ablaufloch passen.",
+  "bereiche": ["waschtisch", "kueche"],
+  "teiltypen": ["ablaufgarnitur"],
+  "erkennen": [
+    {
+      "titel": "Überlauf am Becken prüfen",
+      "text": "Schau, ob das Becken unter dem Rand ein Überlaufloch hat. Wenn ja, nimmst du ein Ventil mit Überlauf: Es hat seitliche Öffnungen, durch die das Überlaufwasser in den Ablauf läuft. Wenn nein, brauchst du ein nicht verschließbares Ventil (freier Auslauf) oder eine Garnitur mit verdecktem Überlauf wie Geberit Clou oder Villeroy & Boch ViFlow. Läuft der Überlauf über einen eigenen Schlauch nach unten, brauchst du eine Ab- und Überlaufgarnitur mit Anschluss dafür."
+    },
+    {
+      "titel": "Betätigung bestimmen",
+      "text": "Bei der Zugstangen-Garnitur hebst du den Stopfen über eine Stange hinter der Armatur, sie wirkt unter dem Becken auf die Hubstange des Ventils. Pop-up, Push-Open und Klick-Klack meinen dasselbe: Du drückst auf den Stopfen, er rastet unten ein und springt beim nächsten Druck wieder hoch. Daneben gibt es Hebel- oder Drehbetätigung über einen Kabelzug, etwa bei Geberit Clou."
+    },
+    {
+      "titel": "Stärke der Keramik am Ablaufloch messen",
+      "text": "Ablaufventile sind für einen bestimmten Bereich der Materialstärke gebaut. Geberit führt Ventile für 15 bis 20 mm und für 40 bis 45 mm, für 8 bis 15 mm kommt eine Flachdichtung dazu. Miss die Stärke am Ablaufloch und den Lochdurchmesser und vergleiche beides mit dem Datenblatt. Für dünne Becken gibt es bei manchen Herstellern Distanzringe."
+    },
+    {
+      "titel": "Anschluss für den Siphon",
+      "text": "Unten haben Waschtisch-Ablaufventile fast immer G 1 1/4, das gilt für hansgrohe, Grohe, Geberit, Kludi und Viega. Daran schraubst du den Siphon. Küchenspülen haben größere Abläufe mit G 1 1/2."
+    },
+    {
+      "titel": "Küchenspüle: Garnitur gehört zur Spüle",
+      "text": "Bei Küchenspülen sind Siebkörbchen, Ablaufventil, Überlauf und Drehknopf ein System des Spülenherstellers. Welche Garnitur passt, entscheidet die Artikelnummer der Spüle. Die Originalteile von Blanco und Franke stehen weiter unten nach Marke."
+    }
+  ],
+  "groessen": {
+    "titel": "Welches Ventil für welches Becken",
+    "spalten": ["Becken", "Ventil", "Beispiel"],
+    "zeilen": [
+      ["mit Überlaufloch", "Ventil mit Überlauf, Push-Open oder Zugstange, G 1 1/4", "hansgrohe Push-Open 50100000, hansgrohe Zugstange 94139000, Kludi 1042405-00"],
+      ["ohne Überlauf, verschließbar", "Garnitur mit verdecktem Überlauf", "Geberit Clou, Villeroy & Boch ViFlow"],
+      ["ohne Überlauf, offen", "nicht verschließbares Ventil (freier Auslauf), G 1 1/4", "Geberit 152.084.21.1 (15–20 mm), 152.091.21.1 (40–45 mm)"],
+      ["mit und ohne Überlauf", "Push-Open mit Freigabe für beide", "KWC Z.538.321.000"],
+      ["Überlauf über Schlauch", "Ab- und Überlaufgarnitur mit Anschluss", "je nach Becken"]
+    ],
+    "hinweis": "Die Materialstärke am Ablaufloch entscheidet über die Länge des Ventils. Bei Geberit: 15–20 mm oder 40–45 mm, für 8–15 mm mit Flachdichtung 245.413.00.1."
+  },
+  "produkte": [
+    {
+      "name": "Grohe Ablaufgarnitur 65807 (Push-Open), chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176849893",
+      "hinweis": "Für Waschbecken mit Überlauf, öffnet und schließt per Druck."
+    },
+    {
+      "name": "Kirchhoff Druckknopf-Ablaufventil 1 1/4\" mit Überlauf, chrom",
+      "hersteller": "Kirchhoff",
+      "ean": "4007111807302",
+      "hinweis": "Klick-Verschluss, nur für Becken mit Überlauf."
+    },
+    {
+      "name": "hansgrohe Ablaufgarnitur mit Zugstange (Axor), chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4059625032237",
+      "hinweis": "Für Armaturen mit Zugstange."
+    },
+    {
+      "name": "hansgrohe Ablaufgarnitur nicht verschließbar, für Waschbecken, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4059625032244",
+      "hinweis": "Offenes Ventil für Becken ohne Überlauf."
+    },
+    {
+      "name": "Geberit Ablaufventil G 1 1/4 × 50 mm mit freiem Auslauf",
+      "hersteller": "Geberit",
+      "ean": "4025416520900",
+      "hinweis": "Nicht verschließbar, für Becken ohne Überlauf."
+    }
+  ],
+  "probleme": ["spuele-dichtet-nicht", "blanco-ablauffernbedienung-drehknopf-funktioniert-nicht", "franke-excenter-drehknopf-funktioniert-nicht"],
+  "fragen": [
+    {
+      "frage": "Brauche ich ein Ablaufventil mit oder ohne Überlauf?",
+      "antwort": "Das hängt am Becken. Hat es ein Überlaufloch in der Keramik, nimmst du ein Ventil mit Überlauf, es hat seitliche Öffnungen im Ventilkörper. Hat es keins, gehört ein nicht verschließbares Ventil hinein oder ein System mit verdecktem Überlauf wie Geberit Clou oder Villeroy & Boch ViFlow. hansgrohe schreibt zu seinem Push-Open-Ventil ausdrücklich, dass es nur in Becken mit Überlauf eingesetzt werden darf.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://media.hornbach.cz/hb/installationmanual/as.132418337.pdf",
+        "https://www.hansgrohe.de/articledetail-push-open-ablaufgarnitur-fuer-waschtisch-und-bidetmischer-50100000",
+        "https://assets.heizung-billiger.de/documents/gedb_pro_1774355_de-de.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/170853/Distanzstueck-fuer-Abflussgarnitur-integrierter-Ueberlauf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Kann ich ein Push-Open-Ventil mit Überlauf in ein Becken ohne Überlauf einbauen?",
+      "antwort": "Dicht wäre es, aber dann fehlt der Schutz gegen Überlaufen. Bleibt der Hahn bei geschlossenem Stopfen offen, läuft das Becken über den Rand. Fachleute im Forum raten davon ab, hansgrohe erlaubt sein Push-Open-Ventil nur für Becken mit Überlauf. Für Becken ohne Überlauf nimmst du ein nicht verschließbares Ventil oder eine Garnitur mit verdecktem Überlauf.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.gutefrage.net/frage/kann-man-ein-push-up-ablaufventil-mit-ueberlauf-auch-fuer-ein-waschbecken-ohne-ueberlauf-verwenden-",
+        "https://www.haustechnikdialog.de/Forum/t/170853/Distanzstueck-fuer-Abflussgarnitur-integrierter-Ueberlauf",
+        "https://media.hornbach.cz/hb/installationmanual/as.132418337.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Pop-up-Stöpsel klemmt oder geht nicht mehr hoch. Was tun?",
+      "antwort": "Meist sitzt Kalk oder Schmutz in der Mechanik. Dreh das Oberteil des Stopfens ab, schraub den Einsatz heraus und leg ihn in Entkalker. Setz Feder und Stift beim Zusammenbau wieder mittig. Sitzt der Stopfen fest, kannst du nach Abschrauben des Siphons von unten gegendrücken. Hilft das nicht, tauschst du den Push-Open-Einsatz oder das ganze Ventil.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gutefrage.net/frage/stoepsel-im-waschbecken-stecht-fest",
+        "https://www.gutefrage.net/frage/pop-up-waschbeckenstoepsel-klemmt",
+        "https://www.gutefrage.net/frage/waschbeckenstoepsel-ohne-hebel-versenktklemmt"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie bekomme ich den Waschbeckenstöpsel heraus?",
+      "antwort": "Ein Push-Open-Stopfen ist aufgeschraubt, du drehst ihn gegen den Uhrzeigersinn heraus. Bei einer Garnitur mit Zugstange ist oft die Hubstange durch eine Öse unten am Stopfen gefädelt. Dann löst du unter dem Becken die Überwurfmutter der Hubstange, ziehst die Stange ein Stück heraus und nimmst den Stopfen nach oben ab.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.gutefrage.net/frage/waschbecken-stoepsel-rausnehmen",
+        "https://www.haustechnikdialog.de/Forum/t/268335/Waschbecken-Stoepsel-Katzensicher-montieren"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Die Ablaufgarnitur ist unter dem Becken undicht. Woran liegt das?",
+      "antwort": "Bei Becken mit Überlauf muss die Garnitur zwei Wege abdichten: oben das Beckenwasser und unten den Raum, durch den das Überlaufwasser ins Ventil läuft. Prüf die untere Dichtung (richtig herum eingelegt), die Beilagscheibe und ob die große Mutter fest genug sitzt. Viele Installateure setzen oben zusätzlich Kitt unter den Ventilkranz, vor allem bei rauer oder unebener Keramik.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/274578/Ablaufgarnitur-undicht",
+        "https://www.haustechnikdialog.de/Forum/t/62293/Push-UP-Verschluss-undicht",
+        "https://www.bauexpertenforum.de/threads/bekomme-keuco-ablaufgarnitur-nicht-dicht.105180/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welche Länge muss das Ablaufventil haben, wenn die Keramik dick oder dünn ist?",
+      "antwort": "Ablaufventile sind für einen bestimmten Bereich der Materialstärke am Ablaufloch gebaut. Geberit unterscheidet Ventile für 15 bis 20 mm (mit Zusatz-Flachdichtung ab 8 mm) und für 40 bis 45 mm. Miss die Stärke des Beckens am Ablauf und vergleiche sie mit der Angabe des Ventils. Für dünnwandige Becken bietet zum Beispiel KWC Distanzringe mit 15 und 25 mm an.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/gedb_pro_1774356_de-de.pdf",
+        "https://assets.heizung-billiger.de/documents/gedb_pro_1987665_de-de.pdf",
+        "https://kwc.com/assets-original/kwc-products/538321/data_sheets/538321-de_CH.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Zugstange, Pop-up, Push-Open, Klick-Klack: Was ist der Unterschied?",
+      "antwort": "Bei der Zugstangen-Garnitur hebst du den Stopfen über eine Stange hinter der Armatur. Pop-up, Push-Open und Klick-Klack sind dasselbe Prinzip: Du drückst auf den Stopfen, er rastet ein und springt beim nächsten Druck wieder hoch, eine Stange gibt es nicht. Daneben gibt es Hebel- oder Drehbetätigung über Kabelzug und nicht verschließbare Ventile.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.hansgrohe.de/articledetail-ablaufgarnitur-mit-zugstange-fuer-waschtisch-und-bidetmischer-94139000",
+        "https://www.hansgrohe.de/articledetail-push-open-ablaufgarnitur-fuer-waschtisch-und-bidetmischer-50100000",
+        "https://assets.heizung-billiger.de/documents/gedb_pro_1774355_de-de.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Mein Becken hat einen separaten Überlauf mit Schlauch. Welche Garnitur brauche ich?",
+      "antwort": "Läuft das Überlaufwasser nicht durch die Keramik, sondern über einen Bogen oder Schlauch nach unten, brauchst du eine Ab- und Überlaufgarnitur mit Anschluss für diesen Überlauf, ähnlich wie bei Küchenspülen. Eine normale Waschtisch-Garnitur mit integriertem Überlauf passt dann nicht.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/170853/Distanzstueck-fuer-Abflussgarnitur-integrierter-Ueberlauf",
+        "https://www.haustechnikdialog.de/Forum/t/204083/Ablaufgarnitur-fuer-Waschbecken-ohne-integrierten-Ueberlauf-gesucht"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welches Gewinde hat ein Waschtisch-Ablaufventil?",
+      "antwort": "Unten fast immer G 1 1/4, daran schraubst du den Siphon. Das gilt für Zugstangen- und Push-Open-Garnituren von hansgrohe ebenso wie für Ventile von Geberit oder Kludi. Küchenspülen haben größere Abläufe mit G 1 1/2.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.hansgrohe.de/articledetail-ablaufgarnitur-mit-zugstange-fuer-waschtisch-und-bidetmischer-94139000",
+        "https://assets.heizung-billiger.de/documents/gedb_art_152076211_2025.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_1042405-00.pdf",
+        "https://assets.heizung-billiger.de/documents/gedb_art_152742111_2025.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Muss ich den mitgelieferten verdeckten Überlauf (z. B. ViFlow) einbauen?",
+      "antwort": "Nein, aber ohne verdeckten Überlauf darf das Becken nicht verschließbar sein. Dann brauchst du ein nicht verschließbares Ventil, das zum Ablaufloch passt. Bei verdeckten Überläufen wie Geberit Clou liegt der Kanal unsichtbar und lässt sich schlecht reinigen, Installateure im Forum halten das System trotzdem für gut.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.bauexpertenforum.de/threads/hilfe-zu-waschtisch-mit-verdecktem-ablauf.124111/",
+        "https://www.haustechnikdialog.de/Forum/t/202231/Ueberlauf-oder-nicht-Clou-Schaftventil-"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://www.hansgrohe.de/articledetail-push-open-ablaufgarnitur-fuer-waschtisch-und-bidetmischer-50100000",
+    "https://www.hansgrohe.de/articledetail-ablaufgarnitur-mit-zugstange-fuer-waschtisch-und-bidetmischer-94139000",
+    "https://media.hornbach.cz/hb/installationmanual/as.132418337.pdf",
+    "https://www.grohe.com/en-PJ/product/65807000",
+    "https://assets.heizung-billiger.de/documents/kldb_1042405-00.pdf",
+    "https://kwc.com/assets-original/kwc-products/538321/data_sheets/538321-de_CH.pdf",
+    "https://assets.heizung-billiger.de/documents/gedb_art_152076211_2025.pdf",
+    "https://assets.heizung-billiger.de/documents/gedb_pro_1774356_de-de.pdf",
+    "https://assets.heizung-billiger.de/documents/gedb_pro_1987665_de-de.pdf",
+    "https://assets.heizung-billiger.de/documents/gedb_pro_1774355_de-de.pdf",
+    "https://toom.de/p/druckknopf-ablaufventil-messing-verchromt-1-14-mit-ueberlauf/10413185",
+    "https://toom.de/p/ablaufventil-messing-verchromt-1-14-x-65-mm-ohne-ueberlauf-und-stopfen/5452887",
+    "https://www.haustechnikdialog.de/Forum/t/170853/Distanzstueck-fuer-Abflussgarnitur-integrierter-Ueberlauf",
+    "https://www.haustechnikdialog.de/Forum/t/274578/Ablaufgarnitur-undicht",
+    "https://www.gutefrage.net/frage/pop-up-waschbeckenstoepsel-klemmt"
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "slug": "kartusche",
+  "name": "Kartusche",
+  "mehrzahl": "Kartuschen",
+  "genus": "f",
+  "titel": "Kartusche für den Wasserhahn: welche passt?",
+  "seo_title": "Wasserhahn-Kartusche: welche passt? 35, 40, 46 mm, Hoch- oder Niederdruck",
+  "seo_description": "Welche Kartusche passt in deinen Einhebelmischer: Original-Nummer finden, Durchmesser 28, 35, 40 oder 46 mm, Hoch- oder Niederdruck erkennen, Kartusche wechseln, Mutter sitzt fest, tropft trotz neuer Kartusche.",
+  "kurz": "Die Kartusche ist kein Normteil. Sie muss zum Hersteller, meist auch zum Modell der Armatur passen, deshalb bestellst du am sichersten nach der Original-Nummer. Der Durchmesser (üblich sind 28, 35, 40 und 46 mm) grenzt die Auswahl nur ein. Höhe, Zapfen am Boden und die Aufnahme für den Hebel müssen ebenfalls stimmen.\n\nHängt die Armatur an einem offenen Untertischspeicher (drei Anschlussschläuche), brauchst du eine Niederdruck-Kartusche. Die sieht oft genauso aus wie die normale.",
+  "bereiche": ["waschtisch", "kueche"],
+  "teiltypen": ["kartusche"],
+  "erkennen": [
+    {
+      "titel": "Hersteller und Modell der Armatur finden",
+      "text": "Such den Hersteller auf der Armatur, in der Anleitung oder auf dem Etikett am Anschlussschlauch, dazu die Modellnummer. Mit beidem findest du in der Ersatzteilliste die Nummer der Kartusche. Unter den Marken weiter unten stehen die Kartuschen von Grohe, hansgrohe, Ideal Standard, Blanco und Franke mit den Modellen, in die sie passen."
+    },
+    {
+      "titel": "Anschlussschläuche zählen: Hoch- oder Niederdruck",
+      "text": "Zwei Schläuche (warm und kalt) bedeuten Hochdruck, also zentrale Warmwasserversorgung oder ein druckfester Durchlauferhitzer. Drei Schläuche bedeuten eine Niederdruckarmatur für einen offenen Speicher, dann brauchst du die Niederdruck-Kartusche. Am Aussehen erkennst du den Unterschied nicht: Kludi gibt für die 35-mm-Kartusche in beiden Ausführungen dieselben Maße an."
+    },
+    {
+      "titel": "Ausgebaute Kartusche messen",
+      "text": "Miss Durchmesser und Höhe, fotografiere die Unterseite mit den Zapfen und die Aufnahme für den Hebel oben. Vergleiche das mit dem Datenblatt der Ersatzkartusche. Findest du weder Hersteller noch Modell, nimm die alte Kartusche mit in den Fachhandel."
+    },
+    {
+      "titel": "Kartusche wechseln",
+      "text": "Schließ beide Eckventile und prüfe, dass kein Wasser mehr kommt. Nimm die rot-blaue Kappe am Hebel ab, löse die Innensechskantschraube darunter und zieh den Hebel nach oben ab. Ist keine Schraube zu sehen, stell den Hebel ganz nach oben oder schau hinten im Spalt nach. Danach nimmst du Abdeckung oder Rosette ab und löst die Mutter über der Kartusche gegen den Uhrzeigersinn.\n\nSetz die neue Kartusche so ein, dass ihre Zapfen in den Bohrungen im Gehäuse sitzen, zieh die Mutter fest und öffne das Wasser langsam."
+    }
+  ],
+  "groessen": {
+    "titel": "Gängige Durchmesser",
+    "spalten": ["Durchmesser", "Beispiele", "Hinweis"],
+    "zeilen": [
+      ["28 mm", "Grohe 46580000", "schlanke Armaturen"],
+      ["35 mm", "Grohe 46374000, Kludi 7560500-00, Sedal EN-35", "häufigste Größe an Waschtisch und Küche"],
+      ["35 mm Niederdruck", "Kludi 7480500-00", "gleiche Maße wie die normale 35-mm-Kartusche"],
+      ["40 mm", "Sedal 40 mm, Baumarkt-Ersatzkartuschen für genannte Modelle", ""],
+      ["46 mm", "Grohe 46048000, Kludi 7640000-00", "ältere und größere Armaturen"],
+      ["46 mm Niederdruck", "Grohe 46409000", "für offene Warmwasserbereiter"]
+    ],
+    "hinweis": "Der Durchmesser allein reicht nicht: Kartuschen gleicher Größe unterscheiden sich in Höhe, Zapfen am Boden und Hebelaufnahme. Bestell nach der Nummer des Armaturenherstellers."
+  },
+  "produkte": [
+    {
+      "name": "Grohe Kartusche 46374, 35 mm",
+      "hersteller": "Grohe",
+      "ean": "4005176169076",
+      "hinweis": "Mit Temperaturbegrenzer und einstellbarer Mengenbegrenzung."
+    },
+    {
+      "name": "Grohe Kartusche 46048, 46 mm",
+      "hersteller": "Grohe",
+      "ean": "4005176008283",
+      "hinweis": "Für ältere Grohe-Einhandmischer mit 46 mm."
+    },
+    {
+      "name": "Grohe Kartusche 46409, Niederdruck",
+      "hersteller": "Grohe",
+      "ean": "4005176177668",
+      "hinweis": "46 mm, für Armaturen an offenen Speichern."
+    },
+    {
+      "name": "Grohe Kartusche 46580, 28 mm",
+      "hersteller": "Grohe",
+      "ean": "4005176831867",
+      "hinweis": "Schlanke Bauform für Einhandmischer."
+    },
+    {
+      "name": "Kludi Kartusche 7560500-00, 35 mm",
+      "hersteller": "Kludi",
+      "ean": "4017080047036",
+      "hinweis": "Für Kludi-Einhandmischer, z. B. Logo-Mix."
+    }
+  ],
+  "probleme": ["wasserhahn-tropft", "grohe-hebel-schwergaengig-wackelt", "ideal-standard-ceramix-hebel-locker-schwergaengig"],
+  "fragen": [
+    {
+      "frage": "Welche Kartusche passt in meinen Wasserhahn?",
+      "antwort": "Die Kartusche ist kein Normteil, sie muss zum Hersteller und meist auch zum Modell der Armatur passen. Such Hersteller und Modell (Anleitung, Etikett am Anschlussschlauch, Ersatzteilliste) und bestell nach der Original-Nummer. Findest du beides nicht, bau die alte Kartusche aus und nimm sie mit in den Fachhandel.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://www.gutefrage.net/frage/wasserhahn-kartusche-wechseln",
+        "https://www.haustechnikdialog.de/Forum/t/15042/Grohe-Einhebelmischer-tropft-was-tun-",
+        "https://www.haustechnikdialog.de/Forum/t/284832/Ersetzung-Kartusche-Einhebelmischer-Kueche"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welche Kartuschen-Durchmesser gibt es, und reicht es, den Durchmesser zu messen?",
+      "antwort": "Üblich sind 25, 28, 35, 40 und 46 mm. Grohe führt zum Beispiel 28, 35 und 46 mm, Kludi 35 und 46 mm. Der Durchmesser allein reicht nicht: Höhe, Zapfen am Boden, Hebelaufnahme und Hoch- oder Niederdruck müssen ebenfalls stimmen.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.grohe.com/de-DE/produkt/46580000",
+        "https://www.grohe.com/de-DE/produkt/46374000",
+        "https://www.grohe.com/de-DE/produkt/46048000",
+        "https://assets.heizung-billiger.de/documents/kldb_7560500-00.pdf",
+        "https://www.sedal.com/pdfs/ENGLISH/TDS08EN35S0011.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Brauche ich eine Hochdruck- oder eine Niederdruck-Kartusche?",
+      "antwort": "Hängt die Armatur an einem offenen Untertisch- oder Übertischspeicher, ist es eine Niederdruckarmatur mit drei Anschlussschläuchen, dann brauchst du die Niederdruck-Kartusche. Bei zentraler Warmwasserversorgung hat die Armatur zwei Schläuche und braucht eine Hochdruck-Kartusche. Die Varianten sehen oft gleich aus, Grohe führt 46 mm als normale (46048000) und als Niederdruck-Kartusche (46409000).",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.aeg-haustechnik.de/de/home/service/haeufige-fragen/was-ist-der-unterschied-zwischen-offenen-und-geschlossenen-warmwassergeraet.html",
+        "https://toom.de/selbermachen/bad-sanitaer/waschbecken-armaturen/unterschied-niederdruck-hochdruck/",
+        "https://www.grohe.com/de-DE/produkt/46409000",
+        "https://assets.heizung-billiger.de/documents/kldb_7480500-00.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie wechsle ich die Kartusche in einem Einhebelmischer?",
+      "antwort": "Schließ beide Eckventile. Nimm die Kappe am Hebel ab, löse die Innensechskantschraube und zieh den Hebel nach oben ab. Danach Abdeckung abnehmen und die Mutter gegen den Uhrzeigersinn lösen. Setz die neue Kartusche so ein, dass ihre Zapfen in den Bohrungen im Gehäuse sitzen, zieh die Mutter an und öffne das Wasser langsam.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/24597/Wie-Kartusche-wechseln-",
+        "https://www.gutefrage.net/frage/einhebelmischer-kartusche-wechseln-wie-ausbauen"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Ich finde keine Schraube am Hebel. Wie bekomme ich den Hebel ab?",
+      "antwort": "Meist steckt die Schraube unter der rot-blauen Kappe vorn am Hebel. Bei anderen Armaturen siehst du die Madenschraube erst, wenn du den Hebel ganz nach oben stellst, oder sie sitzt hinten im Spalt unter dem Hebel. Sitzt der Hebel nach dem Lösen der Schraube fest, ist er oft nur verkalkt und lässt sich mit etwas Kraft abziehen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gutefrage.net/frage/austausch-kartusche-an-einhebel-armatur-ohne-schraube-an-der-armatur-moeglich",
+        "https://www.haustechnikdialog.de/Forum/t/24597/Wie-Kartusche-wechseln-"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Die Mutter über der Kartusche sitzt fest. Wie bekomme ich sie los?",
+      "antwort": "Lass Kalklöser lange einwirken, gern 24 Stunden, und wärm die Mutter höchstens mit dem Föhn an. Setz einen passenden Ring- oder Sechskantschlüssel an (bei Hansa meist SW 45), lass jemanden die Armatur festhalten und löse die Mutter mit leichten Hammerschlägen auf den Schlüssel. Ein weißer Kunststoffkranz über der Mutter ist oft nur eingesteckt und lässt sich abhebeln.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/276636/Hansa-Einhebelmischer-Kartusche-Kunststoffkranz-loesen",
+        "https://www.haustechnikdialog.de/Forum/t/192221/Mischbatterie-Kartusche-sitzt-fest",
+        "https://www.haustechnikdialog.de/Forum/t/24597/Wie-Kartusche-wechseln-"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Die Kartusche ist neu, aber der Wasserhahn tropft immer noch. Woran liegt das?",
+      "antwort": "Häufig liegt Kalk oder Rost auf den Sitzflächen im Armaturenkörper, auf denen die Dichtungen der Kartusche aufliegen. Bau die Kartusche noch einmal aus, reinige Innenkörper und Zulaufbohrungen und streich die Dichtungen dünn mit Armaturenfett ein. Tritt das Wasser oben unter dem Hebel aus, war die Mutter oft nicht fest genug angezogen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/56464/Kartusche-gewchselt-Ideal-Standard-Wasserhahn-tropft-",
+        "https://www.haustechnikdialog.de/Forum/t/170720/Warum-ist-mein-Einhebelmischer-Kartusche-undicht-",
+        "https://www.haustechnikdialog.de/Forum/t/284832/Ersetzung-Kartusche-Einhebelmischer-Kueche"
+      ],
+      "teile": [],
+      "problem": "wasserhahn-tropft"
+    },
+    {
+      "frage": "Wasser läuft am Hebel oder seitlich heraus. Ist das die Kartusche oder nur eine Dichtung?",
+      "antwort": "Tropft der Auslauf bei geschlossenem Hebel, sind die Keramikscheiben in der Kartusche undicht, dann muss sie getauscht werden. Läuft Wasser seitlich am Schwenkauslauf heraus, reicht meist der Wechsel der O-Ringe am Auslauf. Tritt es oben unter dem Hebel aus, kann die Kartusche defekt sein oder ihre Mutter zu locker sitzen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/24597/Wie-Kartusche-wechseln-",
+        "https://www.gutefrage.net/frage/kann-man-einen-einhebelmischer-reparieren-es-laeuft-am-hebel-raus",
+        "https://www.haustechnikdialog.de/Forum/t/64558/Einhebelmischer-tropft-unterm-Hebel-nach-2-3-Wochen"
+      ],
+      "teile": [],
+      "problem": "wasserhahn-tropft"
+    },
+    {
+      "frage": "Lohnt sich der Kartuschenwechsel, oder kaufe ich besser eine neue Armatur?",
+      "antwort": "Eine Ersatzkartusche kostet je nach Marke etwa 15 bis 50 Euro. Bei Markenarmaturen lohnt sich der Tausch fast immer, solange es die Kartusche noch gibt, weil der Armaturenkörper selbst kaum verschleißt. Bei Armaturen ohne erkennbaren Hersteller raten Fachleute im Forum eher zur neuen Armatur, weil die passende Kartusche oft nicht zu bekommen ist.",
+      "kategorie": "bezug",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/24597/Wie-Kartusche-wechseln-",
+        "https://www.haustechnikdialog.de/Forum/t/284832/Ersetzung-Kartusche-Einhebelmischer-Kueche",
+        "https://www.bauexpertenforum.de/threads/mischbatterie-35-jahre-nur-kartusche-oder-ganz-erneuern.137250/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie wechsle ich die Kartusche bei einer Hansa-Armatur?",
+      "antwort": "Hansa nennt die Kartusche „Steuerpatrone“. Unter dem rot-blauen Knopf am Hebel sitzt eine Innensechskantschraube (2,5 mm). Danach Hebel abziehen, Abdeckung oder weißen Kunststoffkranz abnehmen und die Ringmutter mit Schlüsselweite 45 lösen. Beim Einsetzen muss der Führungszapfen der neuen Patrone in der Bohrung im Gehäuse sitzen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/24597/Wie-Kartusche-wechseln-",
+        "https://www.haustechnikdialog.de/Forum/t/276636/Hansa-Einhebelmischer-Kartusche-Kunststoffkranz-loesen",
+        "https://media.contorion.de/content/pdf/ede/de/hadb_59912791_datasheet.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welche Kludi-Kartusche brauche ich?",
+      "antwort": "Kludi führt Kartuschen in 35 mm (7560500-00) und 46 mm (Eco-Kartusche 7640000-00) sowie eine eigene 35-mm-Kartusche 7480500-00 für drucklose Armaturen. Die normale und die drucklose 35-mm-Kartusche haben laut Datenblatt dieselben Maße. Welche in deine Armatur gehört, steht in deren Ersatzteilliste.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/kldb_7560500-00.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_7640000-00.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_7480500-00.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Hebel geht schwer. Reicht Reinigen, oder muss die Kartusche neu?",
+      "antwort": "Schwergängigkeit kommt meist von einer verkalkten oder verschlissenen Kartusche, reparieren lässt sie sich nicht. Ein Installateur im Forum rät, die Kartusche zu erneuern, solange es sie gibt, und den Armaturenkörper dabei mit Zahnbürste und Essigessenz zu reinigen. Für die Montage nimmst du lebensmittelgeeignetes Armaturenfett.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.bauexpertenforum.de/threads/mischbatterie-35-jahre-nur-kartusche-oder-ganz-erneuern.137250/",
+        "https://www.haustechnikdialog.de/Forum/t/192221/Mischbatterie-Kartusche-sitzt-fest"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://www.grohe.com/de-DE/produkt/46580000",
+    "https://www.grohe.com/de-DE/produkt/46374000",
+    "https://www.grohe.com/de-DE/produkt/46048000",
+    "https://www.grohe.com/de-DE/produkt/46409000",
+    "https://assets.heizung-billiger.de/documents/kldb_7560500-00.pdf",
+    "https://assets.heizung-billiger.de/documents/kldb_7480500-00.pdf",
+    "https://assets.heizung-billiger.de/documents/kldb_7640000-00.pdf",
+    "https://www.sedal.com/pdfs/UPPER%20SEALING%20BROCHURE.pdf",
+    "https://www.sedal.com/pdfs/ENGLISH/TDS08EN35S0011.pdf",
+    "https://media.contorion.de/content/pdf/ede/de/hadb_59912791_datasheet.pdf",
+    "https://www.aeg-haustechnik.de/de/home/service/haeufige-fragen/was-ist-der-unterschied-zwischen-offenen-und-geschlossenen-warmwassergeraet.html",
+    "https://toom.de/selbermachen/bad-sanitaer/waschbecken-armaturen/unterschied-niederdruck-hochdruck/",
+    "https://www.haustechnikdialog.de/Forum/t/24597/Wie-Kartusche-wechseln-",
+    "https://www.haustechnikdialog.de/Forum/t/192221/Mischbatterie-Kartusche-sitzt-fest",
+    "https://www.haustechnikdialog.de/Forum/t/56464/Kartusche-gewchselt-Ideal-Standard-Wasserhahn-tropft-"
+  ]
+}

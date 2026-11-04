@@ -1,5 +1,9 @@
 import type { MarkenFrage } from "@/lib/ersatzteile";
 import eckventil from "../../data/teilarten/eckventil.json";
+import perlator from "../../data/teilarten/perlator.json";
+import kartusche from "../../data/teilarten/kartusche.json";
+import siphon from "../../data/teilarten/siphon.json";
+import ablaufgarnitur from "../../data/teilarten/ablaufgarnitur.json";
 
 // Teileart-Seiten unter /ersatzteile/<teilart> (docs/SEITENAUFBAU.md, Abschnitt 4b): ein Teil, das in vielen
 // Marken steckt (Eckventil, Perlator, Siphon …), markenübergreifend erklärt. Inhalt aus data/teilarten/<slug>.json,
@@ -48,6 +52,10 @@ export interface Teilart {
 // Neue Teileart: JSON-Datei in data/teilarten anlegen und hier eintragen.
 const TEILARTEN: Teilart[] = [
   eckventil as Teilart,
+  perlator as Teilart,
+  kartusche as Teilart,
+  siphon as Teilart,
+  ablaufgarnitur as Teilart,
 ];
 
 /** „den passenden Perlator“ / „die passende Kartusche“ / „das passende Eckventil“ (Akkusativ). */

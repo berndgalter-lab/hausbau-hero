@@ -1,4 +1,6 @@
 import type { MarkenFrage } from "@/lib/ersatzteile";
+import wasserhahnTropft from "../../data/probleme/wasserhahn-tropft.json";
+import spueleDichtetNicht from "../../data/probleme/spuele-dichtet-nicht.json";
 
 // Markenübergreifende Problemseiten unter /problem/<slug> (docs/SEITENAUFBAU.md, Abschnitt 4c), z. B.
 // „Spülkasten läuft nach“. Inhalt aus data/probleme/<slug>.json, fest eingebunden (PROBLEME unten).
@@ -34,7 +36,10 @@ export interface ProblemAllgemein {
 }
 
 // Neues Problem: JSON-Datei in data/probleme anlegen und hier eintragen.
-const PROBLEME: ProblemAllgemein[] = [];
+const PROBLEME: ProblemAllgemein[] = [
+  wasserhahnTropft as ProblemAllgemein,
+  spueleDichtetNicht as ProblemAllgemein,
+];
 
 export function alleProblemeAllgemein(): ProblemAllgemein[] {
   return PROBLEME;

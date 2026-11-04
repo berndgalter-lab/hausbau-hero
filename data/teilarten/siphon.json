@@ -1,0 +1,265 @@
+{
+  "slug": "siphon",
+  "name": "Siphon",
+  "mehrzahl": "Siphons",
+  "genus": "m",
+  "titel": "Siphon für Waschbecken und Spüle: welche Größe passt?",
+  "seo_title": "Siphon für Waschbecken und Spüle: welche Größe passt?",
+  "seo_description": "Siphon wechseln: 1 1/4\" am Waschbecken, 1 1/2\" an der Spüle, Abgang 32, 40 oder 50 mm. Raumsparsiphon für Unterschränke, Geräteanschluss für Spül- und Waschmaschine, Wandanschluss zu hoch.",
+  "kurz": "Am Waschbecken hat der Siphon fast immer ein Gewinde G 1 1/4 (rund 42 mm), an der Küchenspüle G 1 1/2 (rund 48 mm). Der Abgang richtet sich nach dem Rohr in der Wand: 32 oder 40 mm am Waschtisch, 40 oder 50 mm an der Spüle.\n\nPasst der normale Siphon nicht in den Unterschrank, nimmst du einen Raumsparsiphon. Für Spülmaschine oder Waschmaschine gibt es Siphons mit Geräteanschluss.",
+  "bereiche": ["waschtisch", "kueche"],
+  "teiltypen": ["siphon"],
+  "erkennen": [
+    {
+      "titel": "Gewinde am Ablaufventil messen",
+      "text": "Miss den Außendurchmesser des Gewindes unter dem Becken, an das der Siphon geschraubt ist. Rund 42 mm sind G 1 1/4, das übliche Maß am Waschbecken und am Bidet. Rund 48 mm sind G 1 1/2, das Maß der Küchenspüle. Einzelne Waschtisch-Siphons gibt es auch mit G 1 1/2, und es gibt Reduzierringe von 1 1/2 auf 1 1/4."
+    },
+    {
+      "titel": "Abgang am Wandrohr messen",
+      "text": "Miss den Außendurchmesser des Rohrs, das in die Wand geht, oder den Innendurchmesser der Gummimanschette in der Wand. Waschtisch-Siphons gibt es mit 32 oder 40 mm Abgang, Spülen-Siphons mit 40 oder 50 mm. Manche Modelle haben ein Übergangsstück für beide Maße."
+    },
+    {
+      "titel": "Höhe und Wandabstand prüfen",
+      "text": "Miss den Abstand zwischen der Unterkante des Ablaufventils und der Mitte des Wandanschlusses, dazu den Abstand des Ventils zur Wand. Vergleiche beides mit dem Verstellbereich im Datenblatt. Ein Geberit-Tauchrohrsiphon für Waschbecken (151.003.21.1) deckt zum Beispiel 6 bis 22 cm Höhe und 7,5 bis 30 cm Länge ab. Reicht das nicht, gibt es Verlängerungen für das Tauchrohr."
+    },
+    {
+      "titel": "Wandanschluss: Gefälle und Einstecktiefe",
+      "text": "Hinter dem Siphon braucht das Rohr durchgehend Gefälle zur Wand, ohne Durchhang und ohne Buckel. Liegt der Wandanschluss höher als der Abgang, steht dort Wasser, und Fett und Seife setzen sich ab. Kürze dann das senkrechte Rohr unter dem Ventil, dreh den Bogen nach oben oder nimm einen flachen Raumsparsiphon. Reicht das nicht, muss der Wandanschluss tiefer gesetzt werden, in der Mietwohnung ist dafür der Vermieter zuständig.\n\nDas Wandrohr steckst du nur so weit ein, dass es sicher durch die Gummidichtung geht. Steckt es zu tief, stößt es hinten an und das Wasser läuft langsam ab."
+    },
+    {
+      "titel": "Kein Platz im Unterschrank: Raumsparsiphon",
+      "text": "Ein Raumsparsiphon führt das Wasser direkt unter dem Becken nach hinten, der Geruchsverschluss sitzt an der Wand. So bleibt Platz für Schubladen. Geberit gibt für seinen Raumspar-Waschbeckenablauf 11,2 cm Länge und 7 bis 27,2 cm Höhe an, ausdrücklich für Unterschränke ohne Siphonausschnitt. Raumsparmodelle haben oft weniger Sperrwasser (bei Geberit 50 statt 75 mm) und müssen häufiger gereinigt werden."
+    },
+    {
+      "titel": "Spülmaschine oder Waschmaschine anschließen",
+      "text": "Spülen-Siphons mit Geräteanschluss haben einen seitlichen Stutzen für den Ablaufschlauch, bei Geberit G 1 mit Schlauchtülle für 19 bis 23 mm. Der Anschluss muss über dem Wasserspiegel im Siphon liegen, sonst drückt das Gerät Wasser ins Becken. Für Waschmaschinen empfiehlt HL einen eigenen Gerätesiphon, Geberit führt dafür Geräte-Geruchsverschlüsse mit 50 bis 70 mm Sperrwasser."
+    }
+  ],
+  "groessen": {
+    "titel": "Gängige Größen",
+    "spalten": ["Wo", "Anschluss oben", "Abgang zur Wand", "Sperrwasser"],
+    "zeilen": [
+      ["Waschbecken, Tauchrohrsiphon", "G 1 1/4", "32 oder 40 mm", "75 mm (Geberit)"],
+      ["Waschbecken, Rohrbogensiphon", "G 1 1/4", "32 oder 40 mm", "50 mm (Geberit)"],
+      ["Waschbecken, Raumsparsiphon", "G 1 1/4", "32 oder 40 mm", "50 mm (Geberit)"],
+      ["Küchenspüle", "G 1 1/2", "40 oder 50 mm", "je nach Modell"],
+      ["Küchenspüle mit Geräteanschluss", "G 1 1/2, seitlich G 1", "40 oder 50 mm", "je nach Modell"],
+      ["Waschmaschine, Gerätesiphon", "Schlauchtülle 19–23 mm", "40 oder 50 mm", "50–70 mm (Geberit)"]
+    ],
+    "hinweis": "Sperrwasser ist das Wasser, das im Siphon stehen bleibt und Gerüche zurückhält. Die Zollangabe ist ein Nennmaß für das Rohrgewinde: G 1 1/4 misst außen 41,9 mm, G 1 1/2 47,8 mm."
+  },
+  "produkte": [
+    {
+      "name": "Geberit Rohrbogensiphon für Waschtisch, G 1 1/4 × 32 mm, Kunststoff",
+      "hersteller": "Geberit",
+      "ean": "4025416016458",
+      "hinweis": "Einfacher Waschbecken-Siphon, Abgang waagerecht."
+    },
+    {
+      "name": "hansgrohe Standard-Röhrensiphon G 1 1/4, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097123912",
+      "hinweis": "Verchromt, für sichtbare Montage unter dem Waschtisch."
+    },
+    {
+      "name": "Geberit Tauchrohrsiphon Raumsparmodell, G 1 1/4 × 32 mm, für Waschtisch",
+      "hersteller": "Geberit",
+      "ean": "4025416499534",
+      "hinweis": "Für Unterschränke mit Schublade."
+    },
+    {
+      "name": "Geberit Raumspar-Rohrbogensiphon G 1 1/2 × 1 1/4 × 40 mm",
+      "hersteller": "Geberit",
+      "ean": "4025416016397",
+      "hinweis": "Flach, mit Reduzierung auf 1 1/4, Abgang 40 mm."
+    },
+    {
+      "name": "Geberit Spülen-Siphon G 1 1/2 × 50 mm mit Schlauchtülle",
+      "hersteller": "Geberit",
+      "ean": "4025416001065",
+      "hinweis": "Küchenspüle mit Anschluss für die Spülmaschine."
+    },
+    {
+      "name": "Kirchhoff Spültisch-Röhrensiphon G 1 1/2 × DN 40/50 mit 3/4\"-Geräteanschluss",
+      "hersteller": "Kirchhoff",
+      "ean": "4007111831642",
+      "hinweis": "Küchenspüle, Abgang 40 oder 50 mm."
+    },
+    {
+      "name": "hansgrohe Designsiphon Flowstar S, G 1 1/4 × DN 32, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097440804",
+      "hinweis": "Verstellweg 60–165 mm, Wandabstand bis 330 mm."
+    },
+    {
+      "name": "Viega Siphon für Wasch- oder Spülmaschine, DN 50, mit Wandhalter",
+      "hersteller": "Viega",
+      "ean": "4015211102593",
+      "hinweis": "Eigener Gerätesiphon an der Wand."
+    }
+  ],
+  "fragen": [
+    {
+      "frage": "Welche Gewindegröße hat ein Siphon am Waschbecken und an der Küchenspüle?",
+      "antwort": "Am Waschbecken ist der Anschluss in aller Regel G 1 1/4 (außen rund 42 mm), an der Küchenspüle G 1 1/2 (rund 48 mm). Geberit führt Waschtisch-Siphons mit G 1 1/4 und Spülen-Siphons mit G 1 1/2, einzelne Waschtisch-Siphons auch mit G 1 1/2. Im Zweifel nimmst du das alte Teil zum Vergleich mit.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.megabad.com/documents/55/gedb-pro-102290-de-55666.pdf",
+        "https://assets.heizung-billiger.de/documents/gedb_art_152742111_2025.pdf",
+        "https://de.wikipedia.org/wiki/Whitworth-Gewinde"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Brauche ich einen Siphon mit 32, 40 oder 50 mm Abgang?",
+      "antwort": "Der Abgang richtet sich nach dem Rohr in der Wand, nicht nach dem Becken. Waschtisch-Siphons gibt es mit 32 oder 40 mm, Spülen-Siphons mit 40 oder 50 mm, jeweils mit gleichem Gewinde oben. Miss den Außendurchmesser des Wandrohrs oder die Manschette darin.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.megabad.com/documents/55/gedb-pro-102290-de-55666.pdf",
+        "https://www.megabad.com/documents/55/gedb-pro-102391-de-55745.pdf",
+        "https://assets.heizung-billiger.de/documents/gedb_pro_2143039_de-de.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie weit muss das Siphonrohr in den Wandanschluss gesteckt werden?",
+      "antwort": "Nur so weit, dass es sicher durch die Gummidichtung geht. Steckt es zu tief, stößt es hinten am Bogen an oder verengt den Querschnitt, dann läuft das Wasser langsam oder gar nicht ab. Kürze das Wandrohr notfalls.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/240918/Lauter-Wasserabfluss-Neuer-Siphon-Waschbecken",
+        "https://www.gutefrage.net/frage/spuelbecken-laeuft-nicht-ab-siphon-falsch-angeschlossen"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Siphon tropft nach dem Reinigen. Was tun?",
+      "antwort": "Schraub die undichte Verbindung noch einmal auf und prüf die Dichtung: vorhanden, sauber, nicht eingerissen, richtig herum eingelegt. Das Rohr muss gerade und tief genug in der Verschraubung sitzen und sauber rechtwinklig abgesägt sein. Keil- und Gummidichtungen gibt es einzeln. Läuft Wasser an der Wand herunter, ist oft die Manschette im Wandrohr hinüber.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.bauexpertenforum.de/goto/post?id=1348507",
+        "https://www.gutefrage.net/frage/siphon-im-waschbecken-tropfthilllfe",
+        "https://www.gutefrage.net/frage/wasser-fliesst-aus-wand-indem-siphon-muendet"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Wandanschluss liegt höher als der Siphon. Wie bekomme ich das hin?",
+      "antwort": "Hinter dem Siphon braucht die Leitung durchgehend Gefälle zur Wand. Kürze das Tauchrohr oder das senkrechte Rohr unter dem Ablauf, dreh den Bogen so, dass der Abgang höher kommt, oder nimm einen flachen Raumsparsiphon. Reicht das nicht, muss der Wandanschluss tiefer gesetzt werden.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.gutefrage.net/frage/siphon-liegt-unter-dem-abwasserrohr",
+        "https://www.bauexpertenforum.de/threads/ablauf-kuechenspuele.71113",
+        "https://www.bauexpertenforum.de/goto/post?id=1309288"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Das Becken läuft langsam ab, obwohl der Siphon sauber ist. Woran liegt das?",
+      "antwort": "Mach den Eimertest: Siphon an der Wand lösen und Wasser laufen lassen. Kommt es frei heraus, sitzt das Problem in der Wand, etwa eine Verstopfung, ein zu tief eingestecktes Rohr oder eine Leitung ohne Gefälle oder Belüftung. Läuft es schon am Becken schlecht ab, prüf den Stopfen: Er hat meist unten eine Einstellschraube, mit der du den Spalt vergrößerst.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gutefrage.net/frage/spuelbecken-laeuft-nicht-ab-siphon-falsch-angeschlossen",
+        "https://www.bauexpertenforum.de/threads/neue-kueche-wasser-laeuft-nur-langsam-ab.113158/",
+        "https://www.haustechnikdialog.de/Forum/t/263095/Waschtisch-fuellt-sich-zur-Haelfte-mit-Wasser"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Aus dem Waschbecken riecht es nach Abfluss. Was kann ich tun?",
+      "antwort": "Bau den Siphon aus und reinige ihn ganz, auch das Stück direkt unter dem Ablaufventil, dort sitzt oft der Belag. Prüf, ob das Tauchrohr tief genug ins Sperrwasser reicht und ob die Manschette an der Wand dicht ist. Ist der Siphon nach kurzer Zeit leer, wird er leergesaugt. Dann hilft eine bessere Belüftung, zum Beispiel ein Siphon mit Rohrbelüfter.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.haustechnikdialog.de/forum/t/171816/Unangenehme-Gerueche-kommen-aus-Siphon",
+        "https://www.energiesparhaus.at/forum/80766",
+        "https://cdn.nextproducts.at/m20/69/43576969/etc/21/48590421.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Ist ein Raumsparsiphon schlechter als ein normaler Siphon?",
+      "antwort": "Raumsparsiphons haben oft weniger Sperrwasser, bei Geberit 50 mm statt 75 mm wie beim Tauchrohrsiphon. In den Foren berichten Nutzer, dass sie häufiger gereinigt werden müssen, weil sich Haare und Schleim im waagerechten Teil sammeln. Ein Fachmann rät zu Markenmodellen aus Kunststoff, weil billige verchromte Raumsparsiphons laut abfließen können.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/gedb_art_152093211_2026.pdf",
+        "https://www.megabad.com/documents/55/gedb-pro-102290-de-55666.pdf",
+        "https://www.energiesparhaus.at/forum/80766",
+        "https://www.haustechnikdialog.de/Forum/t/240918/Lauter-Wasserabfluss-Neuer-Siphon-Waschbecken"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie schließe ich die Spülmaschine oder Waschmaschine am Siphon an?",
+      "antwort": "Es gibt Siphons und Tauchrohre mit seitlichem Geräteanschluss, an den der Ablaufschlauch über eine Schlauchtülle kommt. Der Anschluss muss über dem Wasserspiegel im Siphon liegen, sonst drückt das Gerät Wasser ins Becken. Alternativ kommt ein Abzweig mit eigenem Gerätesiphon in die Leitung. HL empfiehlt für Waschgeräte grundsätzlich einen eigenen Siphon.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/292998/Waschbecken-Siphon-mit-Geraeteanschluss-nachruesten-bei-extrem-wenig-Platz",
+        "https://www.megabad.com/documents/55/gedb-pro-102391-de-55745.pdf",
+        "https://cdn.nextproducts.at/m20/69/43576969/etc/21/48590421.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Siphon ist zu kurz, das Becken sitzt höher. Kann ich ihn verlängern?",
+      "antwort": "Ja. Du ersetzt das Tauchrohr durch ein längeres oder setzt eine Verlängerung ein, Geberit bietet eine eigene Verlängerung für Tauchrohrsiphons an. Vergleiche vorher den Verstellbereich: Ein Geberit-Tauchrohrsiphon deckt etwa 6 bis 22 cm Höhe ab, der hansgrohe Flowstar S hat 60 bis 165 mm Verstellweg.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.bauexpertenforum.de/threads/waschbecken-abflussrohrhoehe.32568/",
+        "https://assets.heizung-billiger.de/documents/gedb_art_151003211_2025.pdf",
+        "https://img.nordwest.com/12445_a724073d9931c1839851693a50f1f998_de.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Im Unterschrank ist wegen der Schublade kein Platz für den Siphon. Welcher passt?",
+      "antwort": "Ein Raumsparsiphon, der das Wasser direkt unter dem Becken nach hinten führt und den Geruchsverschluss an der Wand hat. Geberit nennt für sein Modell 11,2 cm Länge und 7 bis 27,2 cm Höhe, ausdrücklich für Unterschränke ohne Siphonausschnitt. Einen Flexschlauch einfach zum Bogen zu legen, lehnen Fachleute im Forum ab.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/gedb_art_152093211_2026.pdf",
+        "https://www.haustechnikdialog.de/forum/t/181992/Abfluss-Siphon-Waschbecken-passt-nicht",
+        "https://www.bauexpertenforum.de/threads/waschbecken-abflussrohrhoehe.32568/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Abfluss gluckert nach dem Siphon-Tausch. Warum?",
+      "antwort": "Gluckern entsteht, wenn die Leitung voll läuft und nicht genug belüftet ist. Längere Leitungen mit 40 mm können den Siphon dabei sogar leersaugen. Prüf zuerst, ob das Rohr zu tief in der Wand steckt. Hilft das nicht, kann ein Siphon mit Rohrbelüfter helfen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/240918/Lauter-Wasserabfluss-Neuer-Siphon-Waschbecken",
+        "https://www.bauexpertenforum.de/threads/waschtisch-dn40-ausreichend.90048/",
+        "https://cdn.nextproducts.at/m20/69/43576969/etc/21/48590421.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://www.megabad.com/documents/55/gedb-pro-102290-de-55666.pdf",
+    "https://assets.heizung-billiger.de/documents/gedb_art_151003211_2025.pdf",
+    "https://assets.heizung-billiger.de/documents/gedb_pro_103910_de-de.pdf",
+    "https://assets.heizung-billiger.de/documents/gedb_art_151108211_2025.pdf",
+    "https://assets.heizung-billiger.de/documents/gedb_art_152093211_2026.pdf",
+    "https://assets.heizung-billiger.de/documents/gedb_art_152742111_2025.pdf",
+    "https://www.megabad.com/documents/55/gedb-pro-102391-de-55745.pdf",
+    "https://assets.heizung-billiger.de/documents/gedb_art_152704111_2026.pdf",
+    "https://img.nordwest.com/12445_a724073d9931c1839851693a50f1f998_de.pdf",
+    "https://cdn.nextproducts.at/m20/69/43576969/etc/21/48590421.pdf",
+    "https://de.wikipedia.org/wiki/Whitworth-Gewinde",
+    "https://www.haustechnikdialog.de/Forum/t/240918/Lauter-Wasserabfluss-Neuer-Siphon-Waschbecken",
+    "https://www.haustechnikdialog.de/Forum/t/263095/Waschtisch-fuellt-sich-zur-Haelfte-mit-Wasser",
+    "https://www.bauexpertenforum.de/goto/post?id=1348507",
+    "https://www.gutefrage.net/frage/siphon-liegt-unter-dem-abwasserrohr",
+    "https://www.energiesparhaus.at/forum/80766"
+  ]
+}

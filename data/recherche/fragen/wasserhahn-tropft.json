@@ -1,0 +1,410 @@
+{
+  "thema": "Wasserhahn tropft (Waschtisch- und Küchenarmaturen, markenübergreifend)",
+  "fragen": [
+    {
+      "frage": "Mein Wasserhahn tropft ständig. Woran liegt das und was kann ich selbst tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/was-kann-man-machen-wenn-der-wasserhahn-staendig-tropft",
+        "https://www.gutefrage.net/frage/wasserhahn-tropft-immer-weiter-was-koennen-wir-tun",
+        "https://www.gutefrage.net/frage/wasserhahn-tropft-warum",
+        "https://www.dasheimwerkerforum.de/threads/mischbatterie-tropft-unten.12067/"
+      ],
+      "antwort": "Schau zuerst, wo das Wasser herauskommt. Tropft es bei geschlossenem Hebel aus dem Auslauf, empfiehlt hansgrohe, erst den Perlator zu reinigen und, wenn das nicht hilft, die Keramikkartusche zu tauschen. Bei einer Zweigriffarmatur mit zwei Drehgriffen sind meist die Dichtung im Ventiloberteil oder der Ventilsitz verschlissen. Vor jeder Arbeit drehst du die Eckventile unter dem Becken zu.",
+      "antwort_quellen": [
+        "https://assets.hansgrohe.com/celum/web/dk_spareparts-flyer_qr_da-DK.pdf",
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2322_pdf.pdf",
+        "https://www.gutefrage.net/frage/was-kann-man-machen-wenn-der-wasserhahn-staendig-tropft",
+        "https://cdn.cloud.grohe.com/tpi/1000/1500/1570/1574/1574370/original/1574370.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Mein Einhebelmischer tropft aus dem Auslauf. Wie wechsle ich die Kartusche?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wasserhahn-tropft-warum",
+        "https://www.dasheimwerkerforum.de/threads/mischbatterie-tropft-unten.12067/",
+        "https://www.mikrocontroller.net/topic/343987",
+        "https://www.gutefrage.net/frage/was-kann-man-machen-wenn-der-wasserhahn-staendig-tropft"
+      ],
+      "antwort": "Laut Grohe-Anleitung sperrst du Kalt- und Warmwasser ab, hebelst den Stopfen am Hebel heraus, drehst den Gewindestift mit einem 3-mm-Innensechskant heraus und ziehst Hebel und Kappe ab. Dann schraubst du die Verschraubung (bei diesem Modell Schlüsselweite 30 mm) heraus und tauschst die Kartusche komplett. In den Foren werden für eine Ersatzkartusche etwa 15 bis 30 Euro genannt. Die Montage erfolgt in umgekehrter Reihenfolge.",
+      "antwort_quellen": [
+        "https://cdn.cloud.grohe.com/tpi/1000/1500/1570/1574/1574370/original/1574370.pdf",
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2322_pdf.pdf",
+        "https://www.gutefrage.net/frage/wasserhahn-tropft-warum",
+        "https://www.dasheimwerkerforum.de/threads/mischbatterie-tropft-unten.12067/",
+        "https://www.mikrocontroller.net/topic/343987"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Der Wasserhahn tropft auch nach dem Kartuschenwechsel weiter. Was habe ich falsch gemacht?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/wasserhahn-tropft-trotz-austausch-der-kartusche.5196/",
+        "https://www.haustechnikdialog.de/Forum/t/56464/Kartusche-gewchselt-Ideal-Standard-Wasserhahn-tropft-",
+        "https://www.mikrocontroller.net/topic/343987"
+      ],
+      "antwort": "Fachleute in den Foren raten, die Kartusche noch einmal auszubauen und die Dichtfläche im Messingkörper zu reinigen, auf der die Kartusche aufliegt; dort dürfen keine Riefen zu fühlen sein. Prüf auch, ob noch eine alte Dichtung in den Bohrungen steckt und ob die Kartuschenmutter zu lose oder zu fest angezogen ist. Etwas Armaturenfett auf den Gummidichtungen der Kartusche hilft beim Abdichten. Ist die Dichtfläche selbst beschädigt, hilft nur eine neue Armatur.",
+      "antwort_quellen": [
+        "https://www.dasheimwerkerforum.de/threads/wasserhahn-tropft-trotz-austausch-der-kartusche.5196/",
+        "https://www.haustechnikdialog.de/Forum/t/56464/Kartusche-gewchselt-Ideal-Standard-Wasserhahn-tropft-"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Unter dem Hebel tritt Wasser aus oder das Gehäuse füllt sich mit Wasser. Was ist undicht?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/64558/Einhebelmischer-tropft-unterm-Hebel-nach-2-3-Wochen",
+        "https://www.mikrocontroller.net/topic/343987",
+        "https://www.dasheimwerkerforum.de/threads/wasserhahn-tropft-trotz-austausch-der-kartusche.5196/"
+      ],
+      "antwort": "Dann ist meist die Kartusche undicht, entweder oben am Hebelzapfen oder an den Dichtringen auf ihrer Unterseite. Diese Dichtringe gibt es laut den Forenbeiträgen in der Regel nur zusammen mit der Kartusche. Ein Hersteller nannte in seiner Anleitung als ersten Schritt, die Rosette bzw. Mutter nachzuziehen, die die Kartusche hält. Ist die Armatur neu, reklamierst du sie besser, statt sie zu zerlegen.",
+      "antwort_quellen": [
+        "https://www.mikrocontroller.net/topic/343987",
+        "https://www.haustechnikdialog.de/forum/t/64558/Einhebelmischer-tropft-unterm-Hebel-nach-2-3-Wochen",
+        "https://www.dasheimwerkerforum.de/threads/mischbatterie-tropft-unten.12067/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Unter dem Waschbecken bildet sich eine Pfütze, das Wasser kommt unten an der Armatur heraus. Muss die Kartusche getauscht werden?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/mischbatterie-tropft-unten.12067/",
+        "https://www.dasheimwerkerforum.de/threads/kuechenarmatur-auslauf-am-fuss-undicht.26563/"
+      ],
+      "antwort": "Nicht unbedingt. In der hansgrohe-Störungstabelle steht für Wasseraustritt am Befestigungsschaft ein defekter O-Ring am Anschlussschlauch als Ursache. Prüf deshalb auch die Flexschläuche unter dem Becken, die nur handfest eingeschraubt sind, und tausch sie oder ihre Dichtung bei Bedarf. Im Heimwerkerforum war in einem Fall auch nach dem Kartuschentausch die Armatur weiter undicht, dann bleibt nur die Fehlersuche am ausgebauten Teil oder eine neue Armatur.",
+      "antwort_quellen": [
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2322_pdf.pdf",
+        "https://www.dasheimwerkerforum.de/threads/mischbatterie-tropft-unten.12067/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Meine Küchenarmatur tropft am Gelenk bzw. am Fuß des Schwenkauslaufs. Was kann ich tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wasserhahn-tropft-warum",
+        "https://www.haustechnikdialog.de/forum/t/102990/Schwenkauslauf-Kueche-tropft",
+        "https://www.dasheimwerkerforum.de/threads/kuechenarmatur-auslauf-am-fuss-undicht.26563/",
+        "https://forum.hausgarten.net/threads/zweigriffarmatur-tropft.89534/"
+      ],
+      "antwort": "Bei schwenkbaren Ausläufen dichten unten im Auslauf O-Ringe ab, die mit der Zeit Risse bekommen. hansgrohe nennt für \"undicht am Schwenkauslauf\" das Tauschen der Schwenkauslaufdichtung, die es als Ersatzteil für einzelne Serien gibt. Zum Ausbau nimmst du in der Regel Griff und Kartusche ab, dann die Hülse über dem Auslauf, und ziehst den Auslauf ab. Die neuen O-Ringe setzt du mit Armaturen- oder Silikonfett ein; die Maße sind herstellerspezifisch, deshalb am besten den Original-Dichtsatz bestellen.",
+      "antwort_quellen": [
+        "https://assets.hansgrohe.com/celum/web/dk_spareparts-flyer_qr_da-DK.pdf",
+        "https://www.gutefrage.net/frage/wasserhahn-tropft-warum",
+        "https://www.haustechnikdialog.de/forum/t/102990/Schwenkauslauf-Kueche-tropft",
+        "https://www.dasheimwerkerforum.de/threads/kuechenarmatur-auslauf-am-fuss-undicht.26563/",
+        "https://forum.hausgarten.net/threads/zweigriffarmatur-tropft.89534/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Meine alte Zweigriffarmatur tropft. Muss ich das Oberteil tauschen oder reicht eine neue Dichtung?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/ventiloberteil-von-zweigriff-armatur-tauschen.24580/",
+        "https://www.haustechnikdialog.de/Forum/t/224285/Instandsetzung-Zweigriffmischer",
+        "https://www.haustechnikdialog.de/forum/t/163613/Wasserhahn-tropft-aber-nach-2-3-Stunden",
+        "https://www.gutefrage.net/frage/was-kann-man-machen-wenn-der-wasserhahn-staendig-tropft",
+        "https://www.gutefrage.net/frage/wasserhahn-tropft-immer-weiter-was-koennen-wir-tun"
+      ],
+      "antwort": "Oft reicht die Dichtung: Wasser absperren, Ventiloberteil herausdrehen und die Gummidichtung erneuern, die unten mit einer kleinen Mutter gehalten wird. Ist der Ventilsitz im Gehäuse beschädigt, lässt er sich mit einem Ventilsitzfräser nacharbeiten. Bei neuen Armaturen hat sich laut Forum oft nur ein Schmutzkorn auf die Dichtung gesetzt. Komplette Ersatzoberteile müssen zum Gewinde und zur Spindel passen; ältere Hansa-Batterien haben zum Beispiel Vierkant-Spindeln, auf die andere Oberteile nicht passen.",
+      "antwort_quellen": [
+        "https://www.dasheimwerkerforum.de/threads/ventiloberteil-von-zweigriff-armatur-tauschen.24580/",
+        "https://www.haustechnikdialog.de/forum/t/163613/Wasserhahn-tropft-aber-nach-2-3-Stunden",
+        "https://www.haustechnikdialog.de/Forum/t/224285/Instandsetzung-Zweigriffmischer",
+        "https://www.gutefrage.net/frage/wasserhahn-tropft-immer-weiter-was-koennen-wir-tun"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Meine Niederdruckarmatur am Untertischboiler tropft, wenn das Wasser aufheizt. Ist sie kaputt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wasserhahn-in-der-kueche-tropft-nach-ruecklauf",
+        "https://www.haustechnikdialog.de/forum/t/163613/Wasserhahn-tropft-aber-nach-2-3-Stunden"
+      ],
+      "antwort": "Nein, das ist bei offenen (drucklosen) Kleinspeichern normal. Beim Aufheizen dehnt sich das Wasser im Speicher aus und tritt über den Auslauf der Armatur aus; Blanco schreibt, das sei in Ordnung, solange es kurz dauert und nur wenig Wasser ist. Stiebel Eltron hat Geräte mit Antitropf-Funktion, die das Ausdehnungswasser zurückhält; ist diese Funktion defekt, wird laut Anleitung das Gerät getauscht. An solchen Speichern darf nur eine drucklose Armatur angeschlossen sein.",
+      "antwort_quellen": [
+        "https://www.blanco.de/kuechenarmaturen/anschlussarten/niederdruckarmatur/",
+        "https://www.heizungsdiscount24.de/pdf/Stiebel-Eltron-Kleinspeicher-SNU-5-Plus-Bedienungs-und-Installationsanleitung.pdf",
+        "https://www.gutefrage.net/frage/wasserhahn-in-der-kueche-tropft-nach-ruecklauf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Nach dem Zudrehen läuft noch einige Sekunden Wasser nach. Ist das ein Defekt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/wasserhahn-laeuft-nach.81458/",
+        "https://www.gutefrage.net/frage/wasserhahn-in-der-kueche-tropft-nach-ruecklauf",
+        "https://www.haustechnikdialog.de/forum/t/163613/Wasserhahn-tropft-aber-nach-2-3-Stunden"
+      ],
+      "antwort": "Laut Stiebel-Eltron-Anleitung neigen manche Armaturen bauartbedingt zum Nachtröpfeln, weil Restwasser aus dem Auslauf läuft. In den Foren wird dasselbe bei hohen Ausläufen beschrieben, die beim Schließen Luft ziehen. Tritt das Nachlaufen plötzlich neu auf, ist häufig der Perlator verkalkt: herausschrauben, etwa zwei Stunden in verdünnte Essigessenz legen und wieder einsetzen.",
+      "antwort_quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Stiebel-Eltron-Kleinspeicher-SNU-5-Plus-Bedienungs-und-Installationsanleitung.pdf",
+        "https://www.haustechnikdialog.de/forum/t/163613/Wasserhahn-tropft-aber-nach-2-3-Stunden",
+        "https://www.bauexpertenforum.de/threads/wasserhahn-laeuft-nach.81458/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Welche Ersatzkartusche passt in meine Armatur?",
+      "kategorie": "nummer",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/mischbatterie-tropft-unten.12067/",
+        "https://www.dasheimwerkerforum.de/threads/wasserhahn-tropft-trotz-austausch-der-kartusche.5196/",
+        "https://www.gutefrage.net/frage/wasserhahn-tropft-warum"
+      ],
+      "antwort": "Kartuschen sind nicht genormt. Ermittle Hersteller und Artikelnummer der Armatur und such die Kartusche in der Ersatzteilliste des Herstellers; hansgrohe führt zum Beispiel verschiedene Kartuschen wie M1 und M2 mit eigenen Nummern. Laut Forum ist die Nummer der alten Kartusche oft nicht mehr aktuell, weil Hersteller kompatible Nachfolger mit neuer Nummer liefern. Vergleiche im Zweifel die Abmessungen der alten Kartusche.",
+      "antwort_quellen": [
+        "https://assets.hansgrohe.com/celum/web/dk_spareparts-flyer_qr_da-DK.pdf",
+        "https://www.dasheimwerkerforum.de/threads/mischbatterie-tropft-unten.12067/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Lohnt sich die Reparatur, oder kaufe ich gleich eine neue Armatur?",
+      "kategorie": "bezug",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/wasserhahn-tropft-trotz-austausch-der-kartusche.5196/",
+        "https://www.dasheimwerkerforum.de/threads/mischbatterie-tropft-unten.12067/",
+        "https://www.mikrocontroller.net/topic/343987",
+        "https://www.gutefrage.net/frage/was-kann-man-machen-wenn-der-wasserhahn-staendig-tropft",
+        "https://www.dasheimwerkerforum.de/threads/ventiloberteil-von-zweigriff-armatur-tauschen.24580/"
+      ],
+      "antwort": "Eine Kartusche kostet laut den Forenbeiträgen etwa 15 bis 30 Euro, für hochwertige Modelle auch deutlich mehr. Ein Installateur im Heimwerkerforum hält den Kartuschentausch vor allem bei Unterputzarmaturen oder teuren Armaturen für sinnvoll, weil eine neue Markenarmatur sonst oft kaum mehr kostet. Ist die Armatur noch neu, solltest du sie über Händler oder Installateur reklamieren statt selbst Teile zu tauschen.",
+      "antwort_quellen": [
+        "https://www.dasheimwerkerforum.de/threads/wasserhahn-tropft-trotz-austausch-der-kartusche.5196/",
+        "https://www.dasheimwerkerforum.de/threads/mischbatterie-tropft-unten.12067/",
+        "https://www.mikrocontroller.net/topic/343987",
+        "https://www.gutefrage.net/frage/wasserhahn-tropft-warum",
+        "https://www.dasheimwerkerforum.de/threads/ventiloberteil-von-zweigriff-armatur-tauschen.24580/",
+        "https://www.haustechnikdialog.de/forum/t/64558/Einhebelmischer-tropft-unterm-Hebel-nach-2-3-Wochen",
+        "https://www.haustechnikdialog.de/forum/t/163613/Wasserhahn-tropft-aber-nach-2-3-Stunden"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Mein Wasserhahn tropft erst Stunden nach dem Zudrehen. Woher kommt das?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/163613/Wasserhahn-tropft-aber-nach-2-3-Stunden"
+      ],
+      "antwort": "In einem HaustechnikDialog-Thread zu einer Zweigriffarmatur wurden zwei Erklärungen genannt: Ausdehnung von Warmwasser in der Leitung und eine verschlissene Ventildichtung. Der Fragesteller hat die Dichtungen erneuert und den Ventilsitz gefräst; ob das geholfen hat, ist nicht berichtet.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/forum/t/163613/Wasserhahn-tropft-aber-nach-2-3-Stunden"
+      ],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Kann zu hoher Wasserdruck dazu führen, dass die Armatur tropft?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.mikrocontroller.net/topic/343987"
+      ],
+      "antwort": "Grohe schreibt in der Montageanleitung einer Küchenarmatur vor, bei Ruhedrücken über 5 bar einen Druckminderer einzubauen, und nennt 1 bis 5 bar als empfohlenen Fließdruck. Dass zu hoher Druck direkt zu Tropfen führt, steht dort nicht. Im Mikrocontroller-Forum wurden Druckstöße oder ein nicht ganz dichter Druckminderer nur als mögliche Ursache genannt.",
+      "antwort_quellen": [
+        "https://cdn.cloud.grohe.com/tpi/1000/1500/1570/1574/1574370/original/1574370.pdf",
+        "https://www.mikrocontroller.net/topic/343987"
+      ],
+      "sicherheit": "unsicher"
+    }
+  ],
+  "ursachen": [
+    {
+      "ursache": "Keramikkartusche verschlissen oder verkalkt (Einhebelmischer)",
+      "erklaerung": "Die Armatur tropft bei geschlossenem Hebel aus dem Auslauf, oft wird der Hebel auch schwergängig. Wasser oben am Hebel deutet auf undichte Dichtringe der Kartusche hin. Abhilfe ist der Tausch der kompletten Kartusche nach der Ersatzteilliste der Armatur.",
+      "haeufigkeit": "häufig",
+      "quellen": [
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2322_pdf.pdf",
+        "https://assets.hansgrohe.com/celum/web/dk_spareparts-flyer_qr_da-DK.pdf",
+        "https://www.mikrocontroller.net/topic/343987",
+        "https://www.dasheimwerkerforum.de/threads/mischbatterie-tropft-unten.12067/",
+        "https://www.gutefrage.net/frage/wasserhahn-tropft-warum"
+      ]
+    },
+    {
+      "ursache": "Dichtung im Ventiloberteil oder Ventilsitz verschlissen (Zweigriff- und Ventilarmaturen)",
+      "erklaerung": "Der Hahn lässt sich nur noch mit viel Kraft dicht zudrehen oder tropft trotzdem. Ventiloberteil herausdrehen, Dichtung erneuern und den Sitz prüfen; ein beschädigter Sitz lässt sich mit einem Ventilsitzfräser nacharbeiten, sonst kommen komplette Oberteile in Frage.",
+      "haeufigkeit": "häufig",
+      "quellen": [
+        "https://www.gutefrage.net/frage/was-kann-man-machen-wenn-der-wasserhahn-staendig-tropft",
+        "https://www.dasheimwerkerforum.de/threads/ventiloberteil-von-zweigriff-armatur-tauschen.24580/",
+        "https://www.haustechnikdialog.de/forum/t/163613/Wasserhahn-tropft-aber-nach-2-3-Stunden",
+        "https://www.haustechnikdialog.de/Forum/t/224285/Instandsetzung-Zweigriffmischer"
+      ]
+    },
+    {
+      "ursache": "Perlator verkalkt oder Restwasser im Auslauf",
+      "erklaerung": "Nach dem Schließen tropft oder läuft es noch kurz nach und hört dann auf. Restwasser im Auslauf ist bei manchen Armaturen bauartbedingt. Einen verkalkten Perlator schraubst du ab und entkalkst ihn; hansgrohe nennt das als ersten Schritt vor dem Kartuschentausch.",
+      "haeufigkeit": "gelegentlich",
+      "quellen": [
+        "https://assets.hansgrohe.com/celum/web/dk_spareparts-flyer_qr_da-DK.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Stiebel-Eltron-Kleinspeicher-SNU-5-Plus-Bedienungs-und-Installationsanleitung.pdf",
+        "https://www.bauexpertenforum.de/threads/wasserhahn-laeuft-nach.81458/",
+        "https://www.haustechnikdialog.de/forum/t/163613/Wasserhahn-tropft-aber-nach-2-3-Stunden",
+        "https://www.dasheimwerkerforum.de/threads/wasserhahn-tropft-trotz-austausch-der-kartusche.5196/"
+      ]
+    },
+    {
+      "ursache": "O-Ringe am Schwenkauslauf verschlissen",
+      "erklaerung": "Wasser tritt am Gelenk oder am Fuß des schwenkbaren Auslaufs aus, meist während der Wasserhahn läuft. Auslauf abnehmen und die O-Ringe bzw. den Dichtsatz des Herstellers mit Armaturenfett erneuern.",
+      "haeufigkeit": "gelegentlich",
+      "quellen": [
+        "https://assets.hansgrohe.com/celum/web/dk_spareparts-flyer_qr_da-DK.pdf",
+        "https://www.gutefrage.net/frage/wasserhahn-tropft-warum",
+        "https://www.haustechnikdialog.de/forum/t/102990/Schwenkauslauf-Kueche-tropft",
+        "https://www.dasheimwerkerforum.de/threads/kuechenarmatur-auslauf-am-fuss-undicht.26563/",
+        "https://forum.hausgarten.net/threads/zweigriffarmatur-tropft.89534/"
+      ]
+    },
+    {
+      "ursache": "Ausdehnungswasser bei Niederdruckarmatur am Untertischspeicher (normal)",
+      "erklaerung": "Die Armatur tropft nur, während der offene Kleinspeicher aufheizt, und hört danach auf. Das ist kein Defekt. Geräte mit Antitropf-Funktion verhindern es; tropft ein solches Gerät beim Aufheizen, ist laut Stiebel Eltron die Antitropf-Funktion defekt oder es werden häufig sehr kleine Mengen gezapft.",
+      "haeufigkeit": "gelegentlich",
+      "quellen": [
+        "https://www.blanco.de/kuechenarmaturen/anschlussarten/niederdruckarmatur/",
+        "https://www.heizungsdiscount24.de/pdf/Stiebel-Eltron-Kleinspeicher-SNU-5-Plus-Bedienungs-und-Installationsanleitung.pdf",
+        "https://www.gutefrage.net/frage/wasserhahn-in-der-kueche-tropft-nach-ruecklauf"
+      ]
+    },
+    {
+      "ursache": "Anschlussschläuche oder O-Ring am Befestigungsschaft undicht",
+      "erklaerung": "Wasser sammelt sich unter dem Becken oder läuft an den Flexschläuchen herunter, der Auslauf selbst tropft nicht. Schläuche auf festen Sitz prüfen und Schlauch oder O-Ring tauschen.",
+      "haeufigkeit": "gelegentlich",
+      "quellen": [
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2322_pdf.pdf",
+        "https://www.dasheimwerkerforum.de/threads/mischbatterie-tropft-unten.12067/"
+      ]
+    },
+    {
+      "ursache": "Montagefehler nach Kartuschentausch",
+      "erklaerung": "Die Armatur tropft nach dem Tausch weiter oder stärker. Typisch sind eine verschmutzte oder verkalkte Dichtfläche im Armaturenkörper, eine alte Dichtung, die noch in der Bohrung steckt, oder eine falsch angezogene Kartuschenmutter.",
+      "haeufigkeit": "gelegentlich",
+      "quellen": [
+        "https://www.dasheimwerkerforum.de/threads/wasserhahn-tropft-trotz-austausch-der-kartusche.5196/",
+        "https://www.haustechnikdialog.de/Forum/t/56464/Kartusche-gewchselt-Ideal-Standard-Wasserhahn-tropft-"
+      ]
+    },
+    {
+      "ursache": "Wasserdruck zu hoch",
+      "erklaerung": "Hersteller verlangen bei Ruhedruck über 5 bar einen Druckminderer. Ein direkter Zusammenhang mit Tropfen ist nicht belegt; Druckstöße wurden im Forum nur als Vermutung genannt.",
+      "haeufigkeit": "selten",
+      "quellen": [
+        "https://cdn.cloud.grohe.com/tpi/1000/1500/1570/1574/1574370/original/1574370.pdf",
+        "https://www.mikrocontroller.net/topic/343987"
+      ]
+    }
+  ],
+  "pruefen": [
+    {
+      "schritt": "Armatur trocken wischen und feststellen, wo das Wasser austritt: aus dem Auslauf, am Hebel, am Gelenk des Auslaufs oder unter dem Becken. Ein Stück saugfähiges Papier zeigt die Stelle.",
+      "quellen": [
+        "https://www.mikrocontroller.net/topic/343987",
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2322_pdf.pdf"
+      ]
+    },
+    {
+      "schritt": "Bei einer Niederdruckarmatur mit Untertischspeicher prüfen, ob es nur während des Aufheizens tropft. Dann ist das normal.",
+      "quellen": [
+        "https://www.blanco.de/kuechenarmaturen/anschlussarten/niederdruckarmatur/",
+        "https://www.heizungsdiscount24.de/pdf/Stiebel-Eltron-Kleinspeicher-SNU-5-Plus-Bedienungs-und-Installationsanleitung.pdf"
+      ]
+    },
+    {
+      "schritt": "Perlator abschrauben, entkalken und wieder einsetzen.",
+      "quellen": [
+        "https://assets.hansgrohe.com/celum/web/dk_spareparts-flyer_qr_da-DK.pdf",
+        "https://www.bauexpertenforum.de/threads/wasserhahn-laeuft-nach.81458/"
+      ]
+    },
+    {
+      "schritt": "Kalt- und Warmwasser an den Eckventilen absperren.",
+      "quellen": [
+        "https://cdn.cloud.grohe.com/tpi/1000/1500/1570/1574/1574370/original/1574370.pdf",
+        "https://www.gutefrage.net/frage/wasserhahn-tropft-warum"
+      ]
+    },
+    {
+      "schritt": "Hebel abnehmen: Stopfen heraushebeln, Gewindestift lösen, Hebel und Kappe abziehen, Kartuschenverschraubung herausdrehen.",
+      "quellen": [
+        "https://cdn.cloud.grohe.com/tpi/1000/1500/1570/1574/1574370/original/1574370.pdf"
+      ]
+    },
+    {
+      "schritt": "Kartusche und Dichtfläche im Armaturenkörper prüfen und reinigen; auf alte Dichtungsreste in den Bohrungen achten.",
+      "quellen": [
+        "https://www.dasheimwerkerforum.de/threads/wasserhahn-tropft-trotz-austausch-der-kartusche.5196/",
+        "https://www.haustechnikdialog.de/Forum/t/56464/Kartusche-gewchselt-Ideal-Standard-Wasserhahn-tropft-"
+      ]
+    },
+    {
+      "schritt": "Ersatzkartusche nach Artikelnummer der Armatur und Ersatzteilliste bestimmen, mit der alten vergleichen, einsetzen und Teile mit Armaturenfett einfetten.",
+      "quellen": [
+        "https://cdn.cloud.grohe.com/tpi/1000/1500/1570/1574/1574370/original/1574370.pdf",
+        "https://assets.hansgrohe.com/celum/web/dk_spareparts-flyer_qr_da-DK.pdf",
+        "https://www.dasheimwerkerforum.de/threads/mischbatterie-tropft-unten.12067/"
+      ]
+    },
+    {
+      "schritt": "Bei Zweigriffarmaturen das Ventiloberteil herausdrehen, Dichtung erneuern und Ventilsitz prüfen.",
+      "quellen": [
+        "https://www.dasheimwerkerforum.de/threads/ventiloberteil-von-zweigriff-armatur-tauschen.24580/",
+        "https://www.haustechnikdialog.de/forum/t/163613/Wasserhahn-tropft-aber-nach-2-3-Stunden"
+      ]
+    },
+    {
+      "schritt": "Tropft es am Schwenkauslauf, den Dichtsatz bzw. die O-Ringe des Auslaufs tauschen.",
+      "quellen": [
+        "https://assets.hansgrohe.com/celum/web/dk_spareparts-flyer_qr_da-DK.pdf",
+        "https://www.dasheimwerkerforum.de/threads/kuechenarmatur-auslauf-am-fuss-undicht.26563/",
+        "https://www.haustechnikdialog.de/forum/t/102990/Schwenkauslauf-Kueche-tropft"
+      ]
+    },
+    {
+      "schritt": "Tropft es unter dem Becken, Anschlussschläuche und ihre Dichtungen prüfen.",
+      "quellen": [
+        "https://www.dasheimwerkerforum.de/threads/mischbatterie-tropft-unten.12067/",
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2322_pdf.pdf"
+      ]
+    }
+  ],
+  "fachbetrieb_ab": {
+    "text": "Wenn die Eckventile nicht schließen oder selbst tropfen, wenn Griff, Kartuschenmutter oder Hülse festsitzen, wenn das Armaturengehäuse oder die Dichtfläche beschädigt ist, oder wenn eine neue Armatur undicht ist und noch Gewährleistung besteht. Bei Kleinspeichern mit defekter Antitropf-Funktion tauscht laut Stiebel Eltron die Fachkraft das Gerät. In Mietwohnungen den Vermieter informieren.",
+    "quellen": [
+      "https://www.haustechnikdialog.de/forum/t/163613/Wasserhahn-tropft-aber-nach-2-3-Stunden",
+      "https://www.haustechnikdialog.de/Forum/t/224285/Instandsetzung-Zweigriffmischer",
+      "https://www.dasheimwerkerforum.de/threads/kuechenarmatur-auslauf-am-fuss-undicht.26563/",
+      "https://www.dasheimwerkerforum.de/threads/mischbatterie-tropft-unten.12067/",
+      "https://www.dasheimwerkerforum.de/threads/ventiloberteil-von-zweigriff-armatur-tauschen.24580/",
+      "https://www.haustechnikdialog.de/forum/t/64558/Einhebelmischer-tropft-unterm-Hebel-nach-2-3-Wochen",
+      "https://www.heizungsdiscount24.de/pdf/Stiebel-Eltron-Kleinspeicher-SNU-5-Plus-Bedienungs-und-Installationsanleitung.pdf",
+      "https://www.gutefrage.net/frage/wasserhahn-tropft-immer-weiter-was-koennen-wir-tun"
+    ]
+  },
+  "weitere_fragen_ohne_antwort": [
+    "Gibt es Kartuschen mit besseren Dichtungen, wenn eine günstige Armatur nach wenigen Wochen wieder undicht wird?",
+    "Wie lässt sich ein Schwenkauslauf ohne Überwurfmutter (nur aufgesteckt) abnehmen?",
+    "Welcher O-Ring passt in den Schwenkauslauf, wenn es keinen Original-Dichtsatz mehr gibt?",
+    "Wie baut man das Unterteil unter der Kartusche aus, auf dem die Kartuschendichtungen aufliegen?",
+    "Tropft nur das Warmwasser: Liegt das an der Kartusche oder an der Warmwasserbereitung?"
+  ]
+}
