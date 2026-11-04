@@ -1,0 +1,86 @@
+{
+  "thema": "Spülkasten läuft nach (alle Marken)",
+  "stand": "2026-11-04",
+  "fragen": [
+    {
+      "frage": "Die Spülung meiner Toilette läuft nach. Was kann ich tun?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/die-spuelung-meiner-toilette-laeuft-nach-was-kann-ich-tun",
+        "https://www.gutefrage.net/frage/spuelung-bei-der-toilette-laeuft-staendig-nach-was-kann-ich-tun"
+      ],
+      "antwort_belegt": "Zeitpunkt unterscheiden: direkt nach dem Spülen Spülventil/Heberglocke, am Ende des Füllens Füllventil/Schwimmer.",
+      "quellen": [
+        "https://www.megabad.com/magazin/?p=18181",
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/service-fuers-bad/"
+      ]
+    },
+    {
+      "frage": "Wasser läuft während der Befüllung des Spülkastens nach.",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wasser-laeuft-waehrend-der-befuellung-des-toilettenspuelkastens-nach"
+      ],
+      "antwort_belegt": "Füllventil schaltet nicht ab oder Schwimmer klemmt, Wasser über Überlauf.",
+      "quellen": [
+        "https://www.megabad.com/magazin/?p=18181"
+      ]
+    },
+    {
+      "frage": "Wasser in der Toilette läuft minimal nach.",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wasser-in-toilette-laeuft-minimal-nach",
+        "https://www.gutefrage.net/frage/toiletten-spuelwasser-laeuft-nach-minimal"
+      ],
+      "antwort_belegt": "Schmutz/Kalk zwischen Dichtung und Ablauf, Spülventil reinigen.",
+      "quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/service-fuers-bad/"
+      ]
+    },
+    {
+      "frage": "Spülkasten zischt seit einer Stunde, niemand erreichbar, wie stoppen?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/toilettenspuelkasten-zischt-jetzt-schon-seit-einer-stunde-wasser-laeuft-und-ich-kann-niemanden-erreichen-was-muss-ich-tun-damit-ich-das-stoppen-kann"
+      ],
+      "antwort_belegt": "Eckventil am Spülkasten schließen (UP: hinter der Drückerplatte).",
+      "quellen": [
+        "https://toom.de/selbermachen/bad-sanitaer/toiletten-bidets-urinale/unterputzspuelkasten-reparieren/"
+      ]
+    },
+    {
+      "frage": "Essig oder Zitronensäure in den Spülkasten?",
+      "fundstellen": [
+        "https://toom.de/selbermachen/bad-sanitaer/toiletten-bidets-urinale/unterputzspuelkasten-reparieren/"
+      ],
+      "antwort_belegt": "toom empfiehlt Entkalker im Kasten, Geberit nennt das heikel und meist unnötig (Kalkplatten verstopfen die Spülung).",
+      "quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/service-fuers-bad/",
+        "https://toom.de/selbermachen/bad-sanitaer/toiletten-bidets-urinale/unterputzspuelkasten-reparieren/"
+      ]
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "WC-Unterputzspülkasten komplett erneuert, trotzdem Wasserstrahl.",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/293032/WC-Unterputzspuelkasten-komplett-erneuert-trotzdem-Wasserstrahl"
+      ]
+    },
+    {
+      "frage": "Wie viel Wasser verliert ein nachlaufender Spülkasten am Tag?",
+      "fundstellen": [
+        "https://www.kuechenfibel.de/faq/wie-viel-wasser-verbraucht-eine-defekte-toilettenspulung"
+      ],
+      "hinweis": "Nur Ratgeberzahlen 10–500 l/Tag ohne Primärquelle, nicht übernommen."
+    },
+    {
+      "frage": "TECE: welche Dichtung am Ablaufventil A2?",
+      "fundstellen": [
+        "https://www.obi.de/p/9792623/tece-ablaufventil-a-2"
+      ],
+      "hinweis": "TECE-PDFs nicht als Text lesbar, siehe fuellventil/spuelkasten-Recherche."
+    }
+  ],
+  "nicht_als_beleg": [
+    "bau.de/forum (KI-generierte Antworten)",
+    "hausbau-forum.de"
+  ]
+}
