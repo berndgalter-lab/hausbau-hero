@@ -1,0 +1,221 @@
+{
+  "thema": "Ab- und Überlaufgarnitur für die Badewanne (Viega Multiplex, Multiplex Trio, Rotaplex, Simplex, Citaplex; Kaldewei, Geberit, hansgrohe, Grohe), markenübergreifend",
+  "fragen": [
+    {
+      "frage": "Ich drehe am Griff am Überlauf, aber der Stopfen bewegt sich nicht. Was ist kaputt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 6,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/badewanne-stoepselheber-diskonnektiert.32013/",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstoepsel-schliesst-nicht-ueber-drehschalter.16248/",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopfen-ruehrt-sich-nicht-was-tun.23447/",
+        "https://www.dasheimwerkerforum.de/threads/stoepsel-badewanne-geht-nicht-mehr-hoch.207/",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstoepsel-geht-nicht-mehr-auf.69/",
+        "https://www.gutefrage.net/frage/reparatur-des-wannenablaufes-ohne-oeffnen-der-revisionsoeffnung"
+      ],
+      "antwort": "Der Drehgriff bewegt über einen Bowdenzug einen kleinen Hebel im Ablauf, der den Stopfen (Ventilkegel) anhebt. Nimm den Stopfen nach oben heraus und dreh am Griff: Bewegt sich der Hebel unten nicht, ist der Bowdenzug ausgehängt, gerissen oder der Hebel gebrochen. Bewegt er sich, liegt es an Haaren, Schmutz oder der Stellschraube am Stopfen. In einem Fall dreht der Griff frei, weil sich der Zug am Überlauf gelöst hatte.",
+      "antwort_quellen": [
+        "https://www.dasheimwerkerforum.de/threads/badewannenstoepsel-schliesst-nicht-ueber-drehschalter.16248/",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopfen-ruehrt-sich-nicht-was-tun.23447/",
+        "https://www.dasheimwerkerforum.de/threads/badewanne-stoepselheber-diskonnektiert.32013/",
+        "https://www.dasheimwerkerforum.de/threads/stoepsel-badewanne-geht-nicht-mehr-hoch.207/",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/900e796e575875c2ac11409401d21b38_de_DE.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Der Stopfen schließt nicht richtig oder hebt sich kaum. Kann ich das einstellen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/reparatur-des-wannenablaufes-ohne-oeffnen-der-revisionsoeffnung",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopsel-kaputt.54/",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopfen-ruehrt-sich-nicht-was-tun.23447/"
+      ],
+      "antwort": "Ja. Unten am Ventilkegel sitzt eine Verstellschraube mit Kontermutter. Viega schreibt für Multiplex, dass der Kegel geöffnet 2 bis 3 cm hoch stehen soll; die Öffnungsweite stellst du an der Schraube ein und konterst sie mit der Mutter. Schraube weiter hinein heißt weniger Hub, weiter heraus heißt mehr Hub, ist sie zu weit heraus, dichtet der Stopfen nicht mehr.",
+      "antwort_quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/900e796e575875c2ac11409401d21b38_de_DE.pdf",
+        "https://www.gutefrage.net/frage/reparatur-des-wannenablaufes-ohne-oeffnen-der-revisionsoeffnung",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopsel-kaputt.54/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Wie bekomme ich einen festsitzenden Badewannenstopfen heraus?",
+      "kategorie": "pflege",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/badewannenstoepsel-geht-nicht-mehr-auf.69/",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopfen-ruehrt-sich-nicht-was-tun.23447/",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopsel-kaputt.54/"
+      ],
+      "antwort": "Der Ventilkegel einer Drehgriff-Garnitur ist nur eingesteckt und lässt sich nach oben herausziehen, notfalls mit leichtem Drehen. Klemmt er, setzt du zwei schmale Schlitzschraubendreher gegenüber an und hebelst vorsichtig, mit einem Tuch als Schutz für die Wanne. Oft sind Haare um den Kegel gewickelt. Danach Ablauf und Kegel reinigen.",
+      "antwort_quellen": [
+        "https://www.dasheimwerkerforum.de/threads/badewannenstoepsel-geht-nicht-mehr-auf.69/",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopfen-ruehrt-sich-nicht-was-tun.23447/",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopsel-kaputt.54/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Kann ich den Bowdenzug tauschen, ohne die Wanne zu öffnen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/viega-rotaplex-ab-ueberlaufgarnitur-bowdenzug-wechseln.16579/",
+        "https://www.dasheimwerkerforum.de/threads/stoepsel-badewanne-geht-nicht-mehr-hoch.207/",
+        "https://www.gutefrage.net/frage/reparatur-des-wannenablaufes-ohne-oeffnen-der-revisionsoeffnung",
+        "https://www.haustechnikdialog.de/Forum/t/163247/Badewannenablauf-ausbauen-reinigen"
+      ],
+      "antwort": "Meist nicht. Der Zug ist unten am Ablauf eingehängt, und daran kommst du nur von unter der Wanne. Installateure tauschen deshalb in der Regel gleich die ganze Garnitur, ein Profi rechnete im Forum mit etwa 1,5 Stunden. Schau nach einer Revisionsöffnung: oft sind das Fliesen, die nur mit Silikon eingesetzt sind. Zur Miete sagst du dem Vermieter Bescheid.",
+      "antwort_quellen": [
+        "https://www.dasheimwerkerforum.de/threads/viega-rotaplex-ab-ueberlaufgarnitur-bowdenzug-wechseln.16579/",
+        "https://www.dasheimwerkerforum.de/threads/stoepsel-badewanne-geht-nicht-mehr-hoch.207/",
+        "https://www.gutefrage.net/frage/reparatur-des-wannenablaufes-ohne-oeffnen-der-revisionsoeffnung",
+        "https://www.haustechnikdialog.de/Forum/t/163247/Badewannenablauf-ausbauen-reinigen"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Welcher Viega-Bowdenzug passt, und welche Länge brauche ich?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/viega-rotaplex-ab-ueberlaufgarnitur-bowdenzug-wechseln.16579/"
+      ],
+      "antwort": "Das hängt von Baujahr und Wannentyp ab. Für Multiplex und Rotaplex ab dem 2. Halbjahr 2014 und Multiplex Trio und Rotaplex Trio ab dem 1. Halbjahr 2015 führt Viega den Bowdenzug 6162.19 in 560, 725 und 1070 mm. Ältere Garnituren haben eigene Züge: 6162-152 (540 mm, Normalwanne), 6163-152 (725 mm, Mittelablauf) und 6165-152 (1070 mm, Überlänge). Die Länge folgt der Garnitur, nicht der Wannengröße allein.",
+      "antwort_quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-19.html",
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-152.html",
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6163-152.html",
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6165-152.html"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Unter der Wanne tropft es am Überlauf. Wo ist die Garnitur undicht?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/151393/Badewanne-Viega-Ablauf-Ueberlauf-undicht",
+        "https://www.dasheimwerkerforum.de/threads/dichtung-fuer-badewannen-ueberlauf.29154/",
+        "https://www.haustechnikdialog.de/Forum/t/163247/Badewannenablauf-ausbauen-reinigen"
+      ],
+      "antwort": "Typische Stellen sind die Überwurfmutter unten am Ablauf, die Muffe am Überlaufrohr und die Dichtung zwischen Überlaufkörper und Wanne. Viega verlangt an jeder Steckverbindung mindestens 15 mm Einstecktiefe; ist das Überlaufrohr zu kurz abgesägt oder verkantet, wird es undicht. Das Überlaufrohr gibt es einzeln, es wird auf Maß gekürzt. Bei GFK-Wannen kann Wasser auch durch die Bohrkante ziehen.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/151393/Badewanne-Viega-Ablauf-Ueberlauf-undicht",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/900e796e575875c2ac11409401d21b38_de_DE.pdf",
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-ab-II2015.html"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Die Badewanne läuft langsam ab. Liegt das an der Garnitur?",
+      "kategorie": "pflege",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopsel-kaputt.54/",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstoepsel-geht-nicht-mehr-auf.69/",
+        "https://www.haustechnikdialog.de/Forum/t/163247/Badewannenablauf-ausbauen-reinigen"
+      ],
+      "antwort": "Meist sitzen Haare unter dem Stopfen. Zieh den Ventilkegel heraus und hol die Haare aus dem Ablauf, etwa mit einer Stricknadel. Viega rät zur Pflege von Rosette und Kegel zu Seife oder mildem Reiniger, nicht zu Scheuermitteln, Kalklösern oder säurehaltigen Reinigern. Riecht es aus dem Ablauf, ist oft der Geruchsverschluss leer, etwa nach langer Nichtbenutzung.",
+      "antwort_quellen": [
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopsel-kaputt.54/",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/900e796e575875c2ac11409401d21b38_de_DE.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/163247/Badewannenablauf-ausbauen-reinigen"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Hat meine Badewanne ein 52-mm- oder ein 90-mm-Ablaufloch?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopsel-kaputt.54/"
+      ],
+      "antwort": "Die meisten Badewannen haben 52 mm: dafür sind Viega Multiplex, Multiplex Trio, Simplex und Citaplex, Geberits Badewannenablauf d52 und die Kaldewei-Garnituren mit 5,2 cm gebaut. Viega Rotaplex und Rotaplex Trio passen in Wannen mit 90 mm Ablaufloch. Miss das Loch, wenn Stopfen und Kegel draußen sind.",
+      "antwort_quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/900e796e575875c2ac11409401d21b38_de_DE.pdf",
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ablaeufe-fuer-Bade--und-Duschwannen/Citaplex/Citaplex-Ab-UEberlauf-6176-45.html",
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ablaeufe-fuer-Bade--und-Duschwannen/Rotaplex/Rotaplex-Ab-UEberlauf-6142-32.html",
+        "https://img.shkshop.com/production/product/file/viega/28755_f7d7fc7cd8e36db9ac11409400bd4683_de_de.pdf",
+        "https://assets.heizung-billiger.de/documents/gedb_pro_102086_de-de.pdf",
+        "https://media.hornbach.nl/hb/installationmanual/as.89735538.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Welche Ablaufgarnitur passt in meine Kaldewei-Badewanne?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.megabad.com/en/kaldewei-zubehoer-badewannen-comfort-level-standard-a-2349534.htm"
+      ],
+      "antwort": "Kaldewei hat eigene Garnituren: Comfort-Level KA 4001 (Standard) und KA 4002 (verlängert) für viele Wannenserien, dazu Spezialgarnituren je Modell, etwa KA 4060 für Asymmetric Duo und KA 4080 für Conoduo und Incava. Comfort-Level hebt den Wasserstand per eigenem Hebel um bis zu 5 cm an. KA 90, KA 120 und KA 125 sind dagegen Abläufe für Kaldewei-Duschflächen, nicht für Badewannen.",
+      "antwort_quellen": [
+        "https://www.megabad.com/en/kaldewei-zubehoer-badewannen-comfort-level-standard-a-2349534.htm",
+        "https://media.hornbach.nl/hb/technicaldatasheet/as.89735422.pdf",
+        "https://www.heinze.de/ausschreibungstext/kaldewei-ablaufgarnitur-ka-90-senkrecht-m-deckel-verchromt-u-haarfangsieb-modell-nr-4105/49547483/",
+        "https://www.heinze.de/ausschreibungstext/kaldewei-ablaufgarnitur-ka-120-waager-m-haarfangsieb-o-deckel-conoflat-modell-nr-4106/49547486/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Multiplex Trio: Was ist anders, wenn die Wanne über den Überlauf befüllt wird?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/151393/Badewanne-Viega-Ablauf-Ueberlauf-undicht"
+      ],
+      "antwort": "Bei Multiplex Trio und Rotaplex Trio läuft das Wasser durch den Überlaufkörper in die Wanne. Viega verlangt dafür einen Rohrunterbrecher zwischen Unterputz-Absperrung und Wanneneinlauf, damit kein Badewasser in die Trinkwasserleitung zurückgesaugt wird; er gehört nicht zum Lieferumfang. Die Funktionseinheiten 6161.62 und 6161.72 kommen ohne Drehrosette und Ventilkegel, das Ausstattungsset kaufst du dazu.",
+      "antwort_quellen": [
+        "https://documents.unidomo.de/de/bema_243694.pdf",
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ablaeufe-fuer-Bade--und-Duschwannen/Multiplex-Trio/Multiplex-Trio-Ab-UEberlauf-6161-62.html",
+        "https://img.shkshop.com/production/product/file/viega/28755_f7d7fc7cd8e36db9ac11409400bd4683_de_de.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Kann ich den kaputten Drehverschluss lassen und einfach einen Gummistopfen nehmen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/badewanne-stoepselheber-diskonnektiert.32013/",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopsel-kaputt.54/",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstoepsel-schliesst-nicht-ueber-drehschalter.16248/"
+      ],
+      "antwort": "Ja, das raten auch Forenhelfer, wenn kein Zugang unter die Wanne besteht. Den Ventilkegel ziehst du heraus und verschließt den Ablauf mit einem passenden Gummi- oder Silikonstopfen; miss dafür das Loch, meist rund 5 cm. Ein abgerissener Bowdenzug macht die Garnitur nicht undicht, der Überlauf funktioniert weiter.",
+      "antwort_quellen": [
+        "https://www.dasheimwerkerforum.de/threads/badewanne-stoepselheber-diskonnektiert.32013/",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopsel-kaputt.54/",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstoepsel-schliesst-nicht-ueber-drehschalter.16248/"
+      ],
+      "sicherheit": "teilweise belegt (Aussage zur Dichtigkeit stammt von einem Forenhelfer; auf der Seite vorsichtig formulieren)"
+    },
+    {
+      "frage": "Kann ich nur Drehgriff und Stopfen in einem anderen Design tauschen?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopfen-ruehrt-sich-nicht-was-tun.23447/"
+      ],
+      "antwort": "Bei Viega ja: Drehrosette und Ventilkegel sind als Ausstattungsset getrennt zu haben. Zum Multiplex Visign M5 gehört das Set 6162.01 (z. B. 721244 verchromt, auch matt, Edelstahl-Optik, weiß und mattschwarz), Visign M3 ist 6154.0, M9 mit 5 cm höherem Wasserstand ist 6171.0. Rotaplex hat eigene Sets (Visign R5: 6142.01). Das Set muss zur Serie der Garnitur passen.",
+      "antwort_quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ablaeufe-fuer-Bade--und-Duschwannen/Multiplex/Multiplex-Ausstattungsset-6162-01.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/900e796e575875c2ac11409401d21b38_de_DE.pdf",
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ablaeufe-fuer-Bade--und-Duschwannen/Multiplex.html",
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ablaeufe-fuer-Bade--und-Duschwannen/Rotaplex.html"
+      ],
+      "sicherheit": "belegt"
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    "Wie misst man die Bowdenzuglänge an einer eingebauten Garnitur? Viega nennt nur Längen je Wannentyp (Standard, Mittelablauf, Überlänge), keine Messanleitung.",
+    "Viega Simplex: in Deutschland nicht mehr im Katalog (nur viega.co.uk, Modell 6168.2, 560 mm Bowdenzug). Seit wann ausgelaufen, offen.",
+    "Citaplex: Ein Suchtreffer zur Viega-Anleitung (web-catalog, de_AT) nennt eine Kette am Ventilstopfen; Anleitung nicht abrufbar (404), deshalb auf der Seite nur „Ventilstopfen ohne Drehgriff“.",
+    "Push-/Klick-Ventile für Badewannen (z. B. Geberit PushControl d52): nur Suchtreffer, kein Datenblatt geöffnet.",
+    "Kaldewei Comfort-Level KA 4001: Bowdenzuglänge und Ablauflochmaß nicht belegt (Kaldewei-Seite 404; Megabad nennt Serien CAYONO, DYNA SET, PURO, SANIFORM).",
+    "hansgrohe Flexaplus: Zuordnung EAN 4011097232874 zu Art.-Nr. 58143000 nur über Contorion-Namen („Komplettset Flexaplus … f Normalwanne“), nicht über eine EAN-Angabe von hansgrohe.",
+    "Viega-Ersatzteilkatalog (viega.de …/Ersatzteile-fuer-Geruchverschluesse-und/…) als Quelle genutzt: Produktkatalog, kein Shop; Hauptsession bitte prüfen, ob das unter die Regel „keine Ersatzteilsuche“ fällt."
+  ]
+}

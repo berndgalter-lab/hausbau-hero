@@ -1,0 +1,265 @@
+{
+  "thema": "Brauseschlauch / Duschschlauch an Dusche und Badewanne",
+  "fragen": [
+    {
+      "frage": "Passt jeder Brauseschlauch an meine Armatur und meine Handbrause?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/a/frage/passt-hansgrohe-armatur-mit-anderer-kopfbrause",
+        "https://www.gutefrage.net/a/frage/duschkopf-passt-nicht-aufs-gewinde-war-aber-vorher-zusammen",
+        "https://www.wer-weiss-was.de/t/neuer-duschschlauch-passt-nicht-zum-sparduschkopf/6416285"
+      ],
+      "antwort": "In aller Regel ja. Dusch- und Wannenarmaturen haben am Brauseabgang ein Gewinde G 1/2, Handbrausen ebenso, und Brauseschläuche haben an beiden Enden passende Überwurfmuttern G 1/2. Grohe nennt das bei Relexaflex und Rotaflex „Universalanschluss 1/2\" x 1/2\"“. Ausnahmen sind Wannenrand-Armaturen mit versenkbarem Schlauch und Küchenarmaturen mit Auszugsbrause, dort sitzen eigene Anschlüsse.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.de/articledetail-isiflex-brauseschlauch-160-cm-28276000",
+        "https://www.grohe.com/de-DE/produkt/28151002",
+        "https://www.grohe.com/de-DE/produkt/28409002",
+        "https://www.oeg.net/en/shower-hose-1-2-1-750-mm-for-deck-mounted-bath-mixers-800011050"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Konische oder zylindrische Mutter am Brauseschlauch: Was ist der Unterschied?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/a/frage/passt-hansgrohe-armatur-mit-anderer-kopfbrause",
+        "https://www.gutefrage.net/a/frage/brause-stangen-schieber-haelt-duschkopf-nicht-reparatur-moeglich"
+      ],
+      "antwort": "Beide haben dasselbe Gewinde G 1/2, sie passen also an jede Standard-Handbrause. Der Unterschied zeigt sich im Brausehalter: Viele Wandhalter haben eine konische Aufnahme, in der die konische Mutter des Schlauchs sitzt und die Handbrause trägt. hansgrohe schreibt beim Halter Porter'S ausdrücklich „für Brauseschläuche mit konischer Mutter“. Isiflex und Sensoflex haben beidseitig konische Muttern, Metaflex hat eine konische und eine zylindrische, hier gehört die konische an die Handbrause.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.de/articledetail-porters-brausehalter-28331000",
+        "https://www.hansgrohe.de/articledetail-isiflex-brauseschlauch-160-cm-28276000",
+        "https://www.hansgrohe.de/articledetail-sensoflex-metallbrauseschlauch-160-cm-28132000",
+        "https://www.hansgrohe.de/articledetail-metaflex-brauseschlauch-160-cm-28266000"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Die Handbrause hält nicht mehr im Brausehalter. Liegt das am Schlauch?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/a/frage/brause-stangen-schieber-haelt-duschkopf-nicht-reparatur-moeglich",
+        "https://www.gutefrage.net/a/frage/passt-hansgrohe-armatur-mit-anderer-kopfbrause"
+      ],
+      "antwort": "Oft ja. Im Halter sitzt nicht die Brause selbst, sondern die Mutter des Schlauchs an der Handbrause. Hat der neue Schlauch dort eine zylindrische Mutter, der Halter aber eine konische Aufnahme, rutscht die Brause durch. Nimm einen Schlauch mit konischer Mutter an der Brausenseite, etwa hansgrohe Isiflex oder Grohe Rotaflex, oder schraub ihn andersherum an, wenn nur ein Ende konisch ist.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.de/articledetail-porters-brausehalter-28331000",
+        "https://www.hansgrohe.de/articledetail-metaflex-brauseschlauch-160-cm-28266000",
+        "https://www.hansgrohe.de/articledetail-isiflex-brauseschlauch-160-cm-28276000",
+        "https://www.grohe.com/de-DE/produkt/28409002"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Der neue Duschschlauch ist am Anschluss undicht, obwohl das Gewinde passt. Was ist falsch?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.wer-weiss-was.de/t/neuer-duschschlauch-passt-nicht-zum-sparduschkopf/6416285",
+        "https://www.gutefrage.net/a/frage/duschkopf-passt-nicht-aufs-gewinde-war-aber-vorher-zusammen"
+      ],
+      "antwort": "Meist liegt es an der Dichtung. In jede Überwurfmutter gehört genau eine flache Dichtung, neue Schläuche bringen sie mit. Fehlt sie, liegen zwei übereinander oder ist sie verrutscht, dichtet die Verbindung nicht. Ist der Gewindestutzen der Handbrause sehr kurz, erreicht er die Dichtung im Schlauch nicht, dann hilft meist nur eine andere Handbrause.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.de/articledetail-isiflex-brauseschlauch-160-cm-28276000",
+        "https://www.wer-weiss-was.de/t/neuer-duschschlauch-passt-nicht-zum-sparduschkopf/6416285"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Welche Länge brauche ich für den Brauseschlauch?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "docs/KEYWORDS-SANITAER.md: Vorschlag Länge, keine Forenfrage gefunden"
+      ],
+      "antwort": "Nimm am einfachsten die Länge des alten Schlauchs. hansgrohe bietet Isiflex in 1,25 m, 1,60 m und 2,00 m an, Grohe Relexaflex und Rotaflex in 1,50 m, 1,75 m und 2,00 m, teils auch 1,25 m. An der Brausestange reicht meist 1,25 bis 1,60 m, an der Badewanne mit Handbrause in der Hand ist ein längerer Schlauch bequemer. Für Wannenrand-Armaturen gibt es eigene Schläuche, Grohe etwa 2,00 m für Wannenrand- und Fliesenbank-Brausegarnituren.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.de/articledetail-isiflex-brauseschlauch-125-cm-28272000",
+        "https://www.hansgrohe.de/articledetail-isiflex-brauseschlauch-160-cm-28276000",
+        "https://www.grohe.com/de-DE/produkt/28151002",
+        "https://www.grohe.com/de-DE/produkt/28409002",
+        "https://www.grohe.com/de-DE/produkt/28158001"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Ist ein Metallschlauch besser als ein Kunststoffschlauch?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "docs/KEYWORDS-SANITAER.md: Vorschlag Metall oder Kunststoff, keine Forenfrage gefunden"
+      ],
+      "antwort": "Ein Metallschlauch hält mehr aus. Grohe nennt für den Kunststoffschlauch Relexaflex bis 5 bar und 70 °C, für den Relexaflex Metal Long-Life bis 16 bar, 75 °C und 750 N Zugfestigkeit. Kunststoffschläuche mit glatter Hülle wie hansgrohe Isiflex lassen sich dafür leichter abwischen. Der Anschluss G 1/2 ist bei beiden derselbe.",
+      "antwort_quellen": [
+        "https://www.grohe.com/de-DE/produkt/28151002",
+        "https://www.grohe.com/de-DE/produkt/28143001",
+        "https://www.hansgrohe.de/articledetail-isiflex-brauseschlauch-160-cm-28276000",
+        "https://www.hansgrohe.de/articledetail-sensoflex-metallbrauseschlauch-160-cm-28132000"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Der Duschschlauch verdreht sich ständig oder die Brause dreht sich im Halter. Was hilft?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/a/frage/brause-stangen-schieber-haelt-duschkopf-nicht-reparatur-moeglich"
+      ],
+      "antwort": "Nimm einen Schlauch mit Verdrehschutz. hansgrohe Isiflex und Sensoflex haben an der Brausenseite einen Drehwirbel, der das Verdrehen des Schlauchs verhindert, Metaflex hat keinen. Grohe Rotaflex hat einen Drehkonus (TwistStop), der verhindert, dass sich die Handbrause im Halter dreht. Schraub den neuen Schlauch außerdem ohne Verdrehung an.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.de/articledetail-isiflex-brauseschlauch-160-cm-28276000",
+        "https://www.hansgrohe.de/articledetail-sensoflex-metallbrauseschlauch-160-cm-28132000",
+        "https://www.hansgrohe.de/articledetail-metaflex-brauseschlauch-160-cm-28266000",
+        "https://www.grohe.com/de-DE/produkt/28409002",
+        "https://www.grohe.com/de-DE/produkt/28417001"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Wie tausche ich den versenkbaren Brauseschlauch an der Wannenrand-Armatur?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/versenkbarer-duschschlauch-austausch-aber-wie.96340/",
+        "https://www.bauexpertenforum.de/threads/brauseschlauch-reparieren.145018/",
+        "https://www.bauexpertenforum.de/threads/wannenrandmontage-schlauchrollbox-fuer-brauseschlauch.63363/"
+      ],
+      "antwort": "Bei Wannenrand-Armaturen läuft der Schlauch unter dem Wannenrand, oft in einem Schutzschlauch oder einer Rollbox. Für den Tausch brauchst du Zugang zum Anschluss unter der Wanne, über eine Revisionsöffnung in der Verkleidung. Bei hansgrohe Secuflex steckt der Schlauch in einem Schutzschlauch, laut einem Beitrag im Bauexpertenforum war der Wechsel dort einfach, schau zuerst unter der Rosette nach. Die Anschlüsse sind herstellerspezifisch, der Hansa-Schlauch 59912281 hat zum Beispiel M12x1 an der Armatur, deshalb bestellst du nach der Nummer der Armatur.",
+      "antwort_quellen": [
+        "https://www.bauexpertenforum.de/threads/versenkbarer-duschschlauch-austausch-aber-wie.96340/",
+        "https://www.bauexpertenforum.de/threads/brauseschlauch-reparieren.145018/",
+        "https://www.oeg.net/en/shower-hose-1-2-1-750-mm-for-deck-mounted-bath-mixers-800011050",
+        "https://www.grohe.com/de-DE/produkt/28158001"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Der versenkbare Schlauch an der Wanne zieht nicht mehr richtig ein. Was kann ich tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/wannenrandmontage-schlauchrollbox-fuer-brauseschlauch.63363/",
+        "https://www.bauexpertenforum.de/threads/versenkbarer-duschschlauch-austausch-aber-wie.96340/"
+      ],
+      "antwort": "Meist hakt der Schlauch unter der Wanne am Schutzschlauch oder an der Rollbox. Öffne die Revisionsöffnung und prüf, ob der Schlauch frei läuft und das Gewicht oder die Feder nicht festhängt. Ein Forenbeitrag beschreibt, dass sich der Schutzschlauch mit Silikonspray und etwas Kraft herausziehen lässt. Ist der Schlauch selbst hart oder geknickt, tausch ihn gegen das passende Original der Armatur.",
+      "antwort_quellen": [
+        "https://www.bauexpertenforum.de/threads/wannenrandmontage-schlauchrollbox-fuer-brauseschlauch.63363/",
+        "https://www.bauexpertenforum.de/threads/versenkbarer-duschschlauch-austausch-aber-wie.96340/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Brauche ich einen Brauseschlauch mit Rückflussverhinderer?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "docs/KEYWORDS-SANITAER.md: Vorschlag Rückflussverhinderer, keine Forenfrage gefunden"
+      ],
+      "antwort": "An der Badewanne kann die Handbrause im Badewasser liegen. Damit kein Wasser zurück in die Leitung gesaugt wird, haben viele Wannenarmaturen einen Rückflussverhinderer im Brauseabgang eingebaut, bei Grohe Start Edge etwa „Brauseabgang unten 1/2\" mit integriertem Rückflussverhinderer“. Er sitzt dann in der Armatur, nicht im Schlauch. Beim Schlauchwechsel lässt du ihn drin.",
+      "antwort_quellen": [
+        "https://www.grohe.com/de-DE/produkt/23348000"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Welcher Schlauch passt an meine Küchenarmatur mit Auszugsbrause?",
+      "kategorie": "nummer",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/brauseschlauch-austausch-an-kuechenarmatur-wasser-abdrehen.112510/"
+      ],
+      "antwort": "Der Schlauch einer Küchen-Auszugsbrause ist ein armaturspezifisches Teil, kein Brauseschlauch für die Dusche. Grohe-Schläuche dafür haben an der Brause ein Gewinde M15x1, Grohe 48293000 ist 1425 mm lang und hat Gewicht und Führungsmuttern dabei. Grohe kennzeichnet den Metallschlauch 46092000 ausdrücklich als nicht für Duschen. Bestell nach der Nummer der Armatur, die Teile von Grohe, hansgrohe und Blanco stehen bei den Marken.",
+      "antwort_quellen": [
+        "https://www.grohe.com/de-DE/produkt/48293000",
+        "https://www.grohe.com/de-DE/produkt/46092000",
+        "https://www.hansgrohe.de/articledetail-schlauch-fuer-spueltischmischer-1500mm-95507000"
+      ],
+      "sicherheit": "belegt"
+    }
+  ],
+  "fakten": [
+    {
+      "aussage": "hansgrohe Isiflex: Kunststoffschlauch mit Kunststoffhülle, Anschlussgewinde G 1/2, beidseitig konische Mutter, brauseseitiger Drehwirbel, Lieferumfang Schlauch und Dichtungen. 28272000 = 1,25 m, 28276000 = 1,60 m. (28274000 = 2,00 m laut Händlern, nicht 1,25 m wie im Auftrag vermutet.)",
+      "quellen": [
+        "https://www.hansgrohe.de/articledetail-isiflex-brauseschlauch-125-cm-28272000",
+        "https://www.hansgrohe.de/articledetail-isiflex-brauseschlauch-160-cm-28276000"
+      ]
+    },
+    {
+      "aussage": "hansgrohe Metaflex: Kunststoffbrauseschlauch mit Spiralwicklung, eine konische und eine zylindrische Mutter, ohne Drehwirbel. 28266000 = 1,60 m, 28264000 = 2,00 m.",
+      "quellen": [
+        "https://www.hansgrohe.de/articledetail-metaflex-brauseschlauch-160-cm-28266000",
+        "https://www.hansgrohe.de/articledetail-metaflex-brauseschlauch-125-cm-28264000"
+      ]
+    },
+    {
+      "aussage": "hansgrohe Sensoflex: Metallbrauseschlauch mit Kunststoffhülle, beidseitig konische Mutter, brauseseitiger Drehwirbel, G 1/2. 28132000 = 1,25 m.",
+      "quellen": [
+        "https://www.hansgrohe.de/articledetail-sensoflex-metallbrauseschlauch-160-cm-28132000"
+      ]
+    },
+    {
+      "aussage": "hansgrohe Brausehalter Porter'S 28331000: „für Brauseschläuche mit konischer Mutter“, „Aufnahme: konisch“.",
+      "quellen": [
+        "https://www.hansgrohe.de/articledetail-porters-brausehalter-28331000"
+      ]
+    },
+    {
+      "aussage": "Grohe Relexaflex 28151002 (EAN 4005176605581): 1500 mm, Universalanschluss 1/2\" x 1/2\", bis 5 bar, bis 70 °C. 28151001 als nicht mehr verfügbar markiert.",
+      "quellen": [
+        "https://www.grohe.com/de-DE/produkt/28151002",
+        "https://www.grohe.com/de-DE/produkt/28151001"
+      ]
+    },
+    {
+      "aussage": "Grohe Relexaflex Metal Long-Life 28143001 (EAN 4005176933349): Metall, 1500 mm, 750 N, bis 75 °C, bis 16 bar. 28143000 nicht mehr verfügbar.",
+      "quellen": [
+        "https://www.grohe.com/de-DE/produkt/28143001",
+        "https://www.grohe.com/de-DE/produkt/28143000"
+      ]
+    },
+    {
+      "aussage": "Grohe Rotaflex 28409002 (EAN 4005176605536): 1500 mm, Universalanschluss 1/2\" x 1/2\", Drehkonus für TwistStop, bis 5 bar, 70 °C. Rotaflex Metal Long-Life 28417001: Metall, Konus mit Silikonringen verhindert Drehen der Handbrause.",
+      "quellen": [
+        "https://www.grohe.com/de-DE/produkt/28409002",
+        "https://www.grohe.com/de-DE/produkt/28417001"
+      ]
+    },
+    {
+      "aussage": "Grohe Metallbrauseschlauch 28158001 (EAN 4005176775543): 2000 mm, für Wannenrand- und Fliesenbank-Brausegarnituren.",
+      "quellen": [
+        "https://www.grohe.com/de-DE/produkt/28158001"
+      ]
+    },
+    {
+      "aussage": "Grohe Start Edge Wannenarmatur 23348000: „Brauseabgang unten 1/2\" mit integriertem Rückflussverhinderer“.",
+      "quellen": [
+        "https://www.grohe.com/de-DE/produkt/23348000"
+      ]
+    },
+    {
+      "aussage": "Hansa 59912281: Brauseschlauch 1750 mm für Hansa-Wannenrand-Armaturen, Anschluss M12x1 (Wasserseite) und 1/2\" (Brause), laut Händler OEG.",
+      "quellen": [
+        "https://www.oeg.net/en/shower-hose-1-2-1-750-mm-for-deck-mounted-bath-mixers-800011050"
+      ]
+    },
+    {
+      "aussage": "Grohe-Küchenschläuche haben M15x1 an der Brause; 46092000 laut Grohe nicht für Duschen; 48293000 1425 mm mit Gewicht und Führungsmuttern G 1/2.",
+      "quellen": [
+        "https://www.grohe.com/de-DE/produkt/48293000",
+        "https://www.grohe.com/de-DE/produkt/46092000"
+      ]
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    "Wie lange hält ein Brauseschlauch, und ab wann sollte man ihn vorsorglich tauschen? Keine Herstellerangabe gefunden; Forum nennt ihn nur „Verschleißteil“ (bauexpertenforum 96340).",
+    "Kalk am Schlauch und an der Mutter: Herstellerangaben zur Reinigung des Schlauchs (nicht der Brause) nicht gefunden.",
+    "Welche Nummern haben hansgrohe Metaflex 1,25 m und Sensoflex 1,60 m? Im Feed nur über EAN/Länge zugeordnet (4011097314044, 4011097557847).",
+    "hansgrohe Secuflex: Welche Ersatzschläuche (94148000 Innenschlauch 2,00 m, 94108000 Schutzschlauch 2,25 m) passen zu welchen Wannenrand-Sets? Nur Händlerangaben, keine hansgrohe-Seite gelesen.",
+    "Ein bauexpertenforum-Nutzer meint, beim Ausziehen eines versenkbaren Schlauchs sei etwas Wasser im Schutzschlauch normal. Nicht belegt, nicht übernommen.",
+    "Antwort auf die offene Frage aus hansgrohe.json (konische/zylindrische Mutter): siehe Frage 2; belegt über hansgrohe Porter'S, Isiflex, Sensoflex, Metaflex."
+  ]
+}

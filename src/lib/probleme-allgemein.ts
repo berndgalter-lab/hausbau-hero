@@ -5,6 +5,7 @@ import spuelkastenFuelltNicht from "../../data/probleme/spuelkasten-fuellt-nicht
 import wasserhahnTropft from "../../data/probleme/wasserhahn-tropft.json";
 import spueleDichtetNicht from "../../data/probleme/spuele-dichtet-nicht.json";
 import thermostatWirdNichtWarm from "../../data/probleme/thermostat-wird-nicht-warm.json";
+import popUpVentilKlemmt from "../../data/probleme/pop-up-ventil-klemmt.json";
 
 // Markenübergreifende Problemseiten unter /problem/<slug> (docs/SEITENAUFBAU.md, Abschnitt 4c), z. B.
 // „Spülkasten läuft nach“. Inhalt aus data/probleme/<slug>.json, fest eingebunden (PROBLEME unten).
@@ -47,6 +48,7 @@ const PROBLEME: ProblemAllgemein[] = [
   wasserhahnTropft as ProblemAllgemein,
   spueleDichtetNicht as ProblemAllgemein,
   thermostatWirdNichtWarm as ProblemAllgemein,
+  popUpVentilKlemmt as ProblemAllgemein,
 ];
 
 export function alleProblemeAllgemein(): ProblemAllgemein[] {
