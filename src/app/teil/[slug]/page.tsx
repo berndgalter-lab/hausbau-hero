@@ -137,7 +137,7 @@ export default async function TeilSeite({ params }: Props) {
           </dl>
           </div>
         </section>
-        <Angebote teil={teil} markeName={marke.name} angebote={angebote} />
+        <Angebote teil={teil} angebote={angebote} />
       </div>
 
       <section className="mb-8">

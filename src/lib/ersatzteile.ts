@@ -1,5 +1,5 @@
 import { supabase } from "@/lib/supabase";
-import { mitTrackingId } from "@/lib/affiliate";
+import { istAmazonSuche, mitTrackingId } from "@/lib/affiliate";
 
 export const SITE_URL = "https://hausbau-hero.de";
 const STANDARD_TAG = "hausbauhero-21";
@@ -173,12 +173,11 @@ export function gruppiere<T>(liste: T[], schluessel: (x: T) => string): [string,
   return Array.from(m.entries());
 }
 
-/** Kauflink: Produktlink über die ASIN, sonst Amazon-Suche nach Marke + Originalnummer. */
-export function teilKauflink(teil: Teil, markeName: string): string | null {
-  if (teil.affiliate_url) return mitTrackingId(teil.affiliate_url, "teil");
+/** Amazon-Link nur zum geprüften Produkt (ASIN oder Partner-URL), nie zur Suche (docs/SEITENAUFBAU.md). */
+export function teilKauflink(teil: Teil): string | null {
+  if (teil.affiliate_url && !istAmazonSuche(teil.affiliate_url)) return mitTrackingId(teil.affiliate_url, "teil");
   if (teil.amazon_asin) return mitTrackingId(`https://www.amazon.de/dp/${teil.amazon_asin}?tag=${STANDARD_TAG}`, "teil");
-  const suche = [markeName, teil.oem_nummer || teil.name].join(" ");
-  return mitTrackingId(`https://www.amazon.de/s?k=${encodeURIComponent(suche).replace(/%20/g, "+")}&tag=${STANDARD_TAG}`, "teil");
+  return null;
 }
 
 /** Angebote älter als das zeigen wir nicht: Dann ist der Feed-Lauf ausgefallen und der Preis womöglich falsch. */
@@ -219,6 +218,42 @@ export function hostVon(url: string): string {
   } catch {
     return url;
   }
+}
+
+/**
+ * Lesbarer Name einer Quelle aus der URL: Domain plus letzter sprechender Pfadteil,
+ * z. B. „grohe.com: ersatzteilsuche leitfaden“ statt nur „grohe.com“.
+ */
+export function quelleLabel(url: string): string {
+  try {
+    const u = new URL(url);
+    const host = u.hostname.replace(/^www\./, "");
+    const teil = u.pathname
+      .split("/")
+      .filter(Boolean)
+      .map((x) => decodeURIComponent(x).replace(/\.(html?|php|aspx?|pdf)$/i, ""))
+      .reverse()
+      .find((x) => /[a-zäöü]{3}/i.test(x) && !/^(de|de-de|at|ch|en|produkte?|p|s)$/i.test(x));
+    const pdf = /\.pdf$/i.test(u.pathname) ? " (PDF)" : "";
+    return teil ? `${host}: ${teil.replace(/[-_+]+/g, " ").slice(0, 70)}${pdf}` : host + pdf;
+  } catch {
+    return url;
+  }
+}
+
+/**
+ * Rechercheprotokoll statt Lesertext („Keine belastbaren Merkmale recherchiert“). Solche Felder
+ * blendet die Vorlage aus; sie gehören in nicht_geprueft (docs/SEITENAUFBAU.md, Abschnitt 6).
+ */
+export const NOTIZ_SPRACHE = /recherchiert|nicht gefunden|haben wir nicht gefunden|belegt keine|keine .{0,30}quelle|Suchauszug|Marketingaussage/i;
+
+/** Mindestens so viele belegte Teile braucht eine Serie, um indexiert zu werden. */
+export const SERIE_MIN_TEILE = 2;
+
+/** Serie ohne genug Substanz für eine eigene Seite: noindex, bleibt als Karte auf der Marken-Seite. */
+export function serieIstDuenn(serie: Pick<Serie, "erkennungsmerkmale">, anzahlTeile: number): boolean {
+  const merkmale = serie.erkennungsmerkmale && !NOTIZ_SPRACHE.test(serie.erkennungsmerkmale);
+  return anzahlTeile < SERIE_MIN_TEILE && !merkmale;
 }
 
 // ---------- Abfragen ----------

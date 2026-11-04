@@ -70,7 +70,7 @@ export default function VergleichsTabelle({ produkte, angebote }: {
                   <td key={p.id} className="p-3 space-y-1.5">
                     {link && (
                       <a href={link} target="_blank" rel={AFFILIATE_REL} data-platzierung="box" data-kennung={kennung}
-                        className="block text-amber-700 font-semibold hover:underline">Amazon →</a>
+                        className="block text-amber-700 font-semibold hover:underline">Amazon*</a>
                     )}
                     {guenstig && (
                       <a href={mitTrackingId(guenstig.url, "angebot")} target="_blank" rel={AFFILIATE_REL}

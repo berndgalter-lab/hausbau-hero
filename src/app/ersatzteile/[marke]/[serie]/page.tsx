@@ -19,8 +19,10 @@ import {
   angeboteFuerTeile,
   baujahre,
   gruppiere,
+  NOTIZ_SPRACHE,
   hostVon,
   markeNachSlug,
+  serieIstDuenn,
   teileNachIds,
   zuordnungenFuerSerien,
   type Serie,
@@ -35,25 +37,30 @@ async function lade(params: Props["params"]) {
   if (!marke) return null;
   const { data } = await supabase.from("serien").select("*").eq("marke_id", marke.id).eq("slug", params.serie).maybeSingle();
   if (!data) return null;
-  return { marke, serie: data as Serie };
+  const serie = data as Serie;
+  const zuordnungen = await zuordnungenFuerSerien([serie.id]);
+  return { marke, serie, zuordnungen };
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const geladen = await lade(params);
   if (!geladen) return {};
-  const { marke, serie } = geladen;
+  const { marke, serie, zuordnungen } = geladen;
   const title = `${serie.name}: Ersatzteile mit Artikelnummer`;
   const description = `Welche Ersatzteile passen zu ${serie.name}? Originalnummern, Baujahr-Hinweise und Quellen – plus woran du die Serie erkennst.`;
   const url = `${SITE_URL}/ersatzteile/${marke.slug}/${serie.slug}`;
-  return { title, description, alternates: { canonical: url }, openGraph: { title, description, url } };
+  // Dünne Serien (docs/SEITENAUFBAU.md, Abschnitt 5) bleiben erreichbar, aber nicht im Index.
+  const robots = serieIstDuenn(serie, zuordnungen.length) ? { index: false, follow: true } : undefined;
+  return { title, description, robots, alternates: { canonical: url }, openGraph: { title, description, url } };
 }
 
 export default async function SerienSeite({ params }: Props) {
   const geladen = await lade(params);
   if (!geladen) notFound();
-  const { marke, serie } = geladen;
+  const { marke, serie, zuordnungen } = geladen;
+  // Rechercheprotokoll („keine Merkmale recherchiert“) ist kein Erkennungsmerkmal
+  const merkmale = serie.erkennungsmerkmale && !NOTIZ_SPRACHE.test(serie.erkennungsmerkmale) ? serie.erkennungsmerkmale : null;
 
-  const zuordnungen = await zuordnungenFuerSerien([serie.id]);
   const teilIds = zuordnungen.map((z) => z.teil_id);
   const [teile, angebote] = await Promise.all([teileNachIds(teilIds), angeboteFuerTeile(teilIds)]);
   const teilVon = new Map(teile.map((t) => [t.id, t]));
@@ -85,19 +92,25 @@ export default async function SerienSeite({ params }: Props) {
       </p>
       {serie.beschreibung && <p className="text-stone-700 mb-6 leading-relaxed">{serie.beschreibung}</p>}
 
-      {(serie.erkennungsmerkmale || serie.kennnummern.length > 0) && (
-        <section className="mb-8 p-5 bg-white border border-stone-200 rounded-xl">
-          <h2 className="text-lg font-bold mb-2">Ist das meine {serie.produkttyp === "spuelkasten" ? "Spülkasten-Serie" : "Serie"}?</h2>
-          {serie.erkennungsmerkmale && (
-            <p className="text-sm text-stone-700 leading-relaxed whitespace-pre-line">{serie.erkennungsmerkmale}</p>
-          )}
-          {serie.kennnummern.length > 0 && (
-            <p className="text-sm text-stone-600 mt-3">
-              <strong>Bekannte Nummern:</strong> {serie.kennnummern.join(", ")}
-            </p>
-          )}
-        </section>
-      )}
+      <section className="mb-8 p-5 bg-white border border-stone-200 rounded-xl">
+        <h2 className="text-lg font-bold mb-2">Ist das meine {serie.produkttyp === "spuelkasten" ? "Spülkasten-Serie" : "Serie"}?</h2>
+        {merkmale ? (
+          <p className="text-sm text-stone-700 leading-relaxed whitespace-pre-line">{merkmale}</p>
+        ) : (
+          <p className="text-sm text-stone-700 leading-relaxed">
+            Sicher erkennst du die Serie nur an der Artikelnummer.{" "}
+            <a href={`/ersatzteile/${marke.slug}#nummer`} className="text-amber-700 hover:underline">
+              So findest du die Nummer bei {marke.name}
+            </a>
+            .
+          </p>
+        )}
+        {serie.kennnummern.length > 0 && (
+          <p className="text-sm text-stone-600 mt-3">
+            <strong>Artikelnummern dieser Serie:</strong> {serie.kennnummern.join(", ")}
+          </p>
+        )}
+      </section>
 
       <section className="mb-8">
         <h2 className="text-xl font-bold mb-3">Passende Ersatzteile</h2>
@@ -116,7 +129,7 @@ export default async function SerienSeite({ params }: Props) {
                 <tr>
                   <th className="text-left font-medium px-4 py-2">Teil</th>
                   <th className="text-left font-medium px-4 py-2">Nummer</th>
-                  <th className="text-left font-medium px-4 py-2">Hinweis &amp; Beleg</th>
+                  <th className="text-left font-medium px-4 py-2">Beleg</th>
                   <th className="px-4 py-2"></th>
                 </tr>
               </thead>
@@ -143,7 +156,7 @@ export default async function SerienSeite({ params }: Props) {
                       )}
                     </td>
                     <td className="px-4 py-3 text-right">
-                      <KaufButton teil={t} markeName={marke.name} klein />
+                      <KaufButton teil={t} />
                       <GuenstigstesAngebot teil={t} angebote={angebote} />
                     </td>
                   </tr>

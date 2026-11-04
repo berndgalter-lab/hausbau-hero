@@ -2,9 +2,9 @@
  "marke": {
   "slug": "grohe",
   "name": "Grohe",
-  "beschreibung": "Deutscher Armaturenhersteller. Grohe veröffentlicht auf seinen Produktseiten (grohe.de/grohe.com) zu jeder Armatur eine Ersatzteilliste mit Positionsnummer, Beschreibung und 8-stelliger Bestellnummer; mit * markierte Positionen sind Sonderzubehör. Für Einhebelmischer nutzt Grohe Keramikkartuschen mit 28, 35 und 46 mm Durchmesser, für Aufputz-Thermostate überwiegend die Thermostat-Kompaktkartusche 1/2\" (47439000). Welche Kartusche passt, hängt von der exakten Artikelnummer ab – nicht nur von der Serie.",
-  "nummer_hinweis": "Grohe-Artikelnummern sind 8-stellig (oft als 5+3 geschrieben, z. B. 33 265 002). Laut Grohe steht die Produktnummer auf Verpackung, Rechnung/Lieferschein und in der Installationsanleitung; alternativ erkennt die Grohe Product-Finder-App die Armatur per Foto und liefert Explosionszeichnung und Ersatzteilnummern. Farbvarianten: Laut Grohe-Badbroschüre ersetzen die beiden vorletzten Stellen den Farbcode (00 = StarLight Chrom, DC = SuperSteel, GL = Cool Sunrise, DA = Warm Sunset, AL = Hard Graphite gebürstet). Die letzte Stelle unterscheidet Versionen mit teils anderer Technik: laut grohe.de hat Eurosmart 23324001 die Kartusche 46580000, Eurosmart 23324003 dagegen 48518000 – deshalb immer die vollständige Nummer verwenden. Ersatzteil-Bestellnummern (z. B. 46374000) sind etwas anderes als die Artikelnummer der Armatur. Einen Grohe-Beleg dafür, dass die Nummer auf einem Aufkleber am Anschlussschlauch bzw. unter dem Waschtisch steht, haben wir nicht gefunden (nur allgemeine Ratgeber).",
-  "ersatzteil_garantie": "Laut Grohe-Leitfaden zur Ersatzteilsuche wird die Verfügbarkeit von Ersatzteilen mindestens 10 Jahre nach Produktionsende gewährleistet (Marketingaussage, keine Vertragsbedingung gefunden). Herstellergarantie Deutschland laut Grohe-FAQ: 5 Jahre ab Kauf, höchstens 6 Jahre ab Herstellungsdatum; ein nach Garantieablauf gekauftes Ersatzteil hat eine eigene 5-Jahres-Garantie (Kaufnachweis nötig). Für ausgewählte Produkte gibt es eine erweiterte 10-Jahres-Garantie. Schäden durch falsche Reinigung (Säure, Essig, Scheuermittel) sind laut Grohe nicht gedeckt.",
+  "beschreibung": "Grohe baut Armaturen für Bad und Küche. Zu jeder Armatur gibt es auf grohe.de eine Ersatzteilliste mit Positionsnummer und 8-stelliger Bestellnummer, mit * markierte Teile sind Sonderzubehör.\n\nEinhebelmischer haben Keramikkartuschen mit 28, 35 oder 46 mm Durchmesser, Aufputz-Thermostate meist die Thermostat-Kompaktkartusche 1/2\" (47439000). Welche Kartusche passt, hängt von der genauen Artikelnummer ab, nicht nur von der Serie.",
+  "nummer_hinweis": "Grohe-Artikelnummern sind 8-stellig und werden oft als 5+3 geschrieben, zum Beispiel 33 265 002. Laut Grohe steht die Nummer auf Verpackung, Rechnung oder Lieferschein und in der Installationsanleitung. Dass sie auch an der Armatur oder am Anschlussschlauch steht, schreiben nur allgemeine Ratgeber. Einen Hinweis von Grohe dazu kennen wir nicht. Ohne Unterlagen hilft die Grohe Product-Finder-App: Sie erkennt die Armatur auf einem Foto und zeigt Explosionszeichnung und Ersatzteilnummern.\n\nDie beiden vorletzten Stellen sind laut Grohe der Farbcode: 00 = StarLight Chrom, DC = SuperSteel, GL = Cool Sunrise, DA = Warm Sunset, AL = Hard Graphite gebürstet. Die letzte Stelle unterscheidet Versionen, die teils andere Technik haben: Die Eurosmart 23324001 hat die Kartusche 46580000, die 23324003 die 48518000. Nimm deshalb immer die vollständige Nummer.\n\nVerwechsle sie nicht mit Ersatzteilnummern wie 46374000. Die sind ebenfalls 8-stellig, gehören aber zum Teil, nicht zur Armatur.",
+  "ersatzteil_garantie": "Laut Grohe-Leitfaden gibt es Ersatzteile mindestens 10 Jahre nach Produktionsende. Das steht in einem Ratgeber, nicht in den Garantiebedingungen. Die Herstellergarantie in Deutschland beträgt laut Grohe 5 Jahre ab Kauf, höchstens 6 Jahre ab Herstellung, für ausgewählte Produkte 10 Jahre. Ein nach Ablauf gekauftes Ersatzteil hat eine eigene 5-Jahres-Garantie, dafür brauchst du den Kaufbeleg. Schäden durch Säure, Essig oder Scheuermittel deckt die Garantie nicht.",
   "hersteller_ersatzteil_url": "https://www.grohe.com/de-DE/service-support/ersatzteilsuche",
   "quellen": [
    "https://www.grohe.com/de-DE/service-support/ersatzteilsuche",
@@ -84,7 +84,7 @@
     "30305DC1",
     "30567000"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de: 31391003/31391002 und 30305DC1 (mit herausziehbarer Spülbrause) → Kartusche 46374000 (35 mm); 30567000 → Spültisch-Kartusche 46963000 (28 mm). Schlauch der Auszugsbrause bei 30305DC1: 48293000. Der Vorgänger 30305000 ist laut Grohe nicht mehr erhältlich.",
    "quellen": [
     "https://www.grohe.de/de_de/eurosmart-einhand-spueltischbatterie-1-2-31391003.html",
@@ -102,7 +102,7 @@
     "31481001",
     "30194000"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de nutzt 31481001 (herausziehbare Brause) den Schlauch 48293000; 30194000 führt das Dichtungsset 46760000 in der Ersatzteilliste.",
    "quellen": [
     "https://www.grohe.de/de_de/eurosmart-cosmopolitan-einhand-spueltischbatterie-1-2-31481001.html",
@@ -120,7 +120,7 @@
     "33555003",
     "25242003"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut Grohe-Ersatzteilangaben (grohe.de bzw. Grohe-Ersatzteilblatt 33 555 003) Kartusche 46374000 (35 mm).",
    "quellen": [
     "https://www.grohe.de/de_de/eurosmart-einhand-brausebatterie-dn-15-33555002.html",
@@ -155,7 +155,7 @@
     "33155002",
     "33153IG0"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Ältere Europlus-Ausführungen (z. B. 33153IG0, laut Grohe nicht mehr erhältlich) nutzen die 46-mm-Kartusche 46048000; die neuere S-Size 33155002 die 35-mm-Kartusche 46374000.",
    "quellen": [
     "https://www.grohe.de/de_de/europlus-einhand-waschtischbatterie-dn-15-br-s-size-33155002.html",
@@ -173,7 +173,7 @@
     "33863IK0",
     "33878TT0"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Grohe führt 33878TT0 als „Europlus 1987–1996“ (Metallschlauch 46092000). 33863IK0: Kartusche 46048000 mit Dichtungsset 46209000.",
    "quellen": [
     "https://www.grohe.de/de_de/europlus-einhand-spueltischbatterie-1-2-33863IK0.html",
@@ -189,7 +189,7 @@
    "kennnummern": [
     "33176IZ0"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Grohe führt diese Generation als „Eurodisc 1999–2006“; Ersatzkartusche 46048000 (46 mm SilkMove).",
    "quellen": [
     "https://www.grohe.de/de_de/eurodisc-1999-2006-einhand-waschtischbatterie-dn-15-33176IZ0.html"
@@ -226,7 +226,7 @@
     "23427000"
    ],
    "erkennungsmerkmale": "Joystick statt klassischem Hebel; Grohe UK beschreibt Eurodisc Joy als Eurodisc-Cosmopolitan-Linie mit Joystick-Design.",
-   "beschreibung": "Eigene Kartusche 46907000 (GROHE FeatherControl) laut grohe.de; nicht mit den Standard-Einhebelkartuschen tauschbar (keine gegenteilige Quelle gefunden).",
+   "beschreibung": "Eigene Kartusche 46907000 (GROHE FeatherControl) laut grohe.de. Gegen die Standard-Einhebelkartuschen lässt sie sich nicht tauschen.",
    "quellen": [
     "https://www.grohe.de/de_de/eurodisc-joy-einhand-waschtischbatterie-dn-15-s-size-23425LS0.html",
     "https://contenthub.grohe.com/en_gb/bathroom-collection/mixer-taps-eurodisc-joystick.html"
@@ -242,7 +242,7 @@
     "32257002",
     "32257001"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "32257002: Schlauch 48293000 und Dichtungsset 46760000 laut grohe.de. Für die ältere 32257001 nennt ein Preisvergleich den Metallschlauch 46092000 (nur eine Quelle).",
    "quellen": [
     "https://www.grohe.de/de_de/eurodisc-cosmopolitan-einhand-spueltischbatterie-1-2-32257002.html",
@@ -281,7 +281,7 @@
    "kennnummern": [
     "23043003"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de (L-Size 23043003) Kartusche 46374000.",
    "quellen": [
     "https://www.grohe.de/de_de/eurostyle-cosmopolitan-einhand-waschtischbatterie-dn-15-l-size-23043003.html"
@@ -301,7 +301,7 @@
     "34294001",
     "23541001"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de verwenden die Essence-Waschtischarmaturen 24172001, 24177001, 24173DC1, 32901001 und 34294001 die 28-mm-Kartusche 46580000. Mousseur u. a. 48270000 (AquaGuide, M21,5x1).",
    "quellen": [
     "https://www.grohe.de/de_de/essence-einhand-waschtischbatterie-1-2-s-size-24172001.html",
@@ -356,7 +356,7 @@
     "31214001",
     "30273001"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de: 32661003 → Kartusche 46374000, O-Ring Ø13,5x2,75 0128500M, Mousseur 48418000; 31483002 → Schlauch 48293000; 31214001 → Metallbrauseschlauch 45352000; 30273001 → Dichtungsset 46760000.",
    "quellen": [
     "https://www.grohe.de/de_de/concetto-einhand-spueltischbatterie-dn-15-32661003.html",
@@ -392,7 +392,7 @@
    "kennnummern": [
     "30536000"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de Spültisch-Kartusche 46963000 (28 mm SilkMove).",
    "quellen": [
     "https://www.grohe.de/de_de/bauedge-einhand-spueltischbatterie-1-2-30536000.html"
@@ -459,7 +459,7 @@
    "kennnummern": [
     "31706000"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de-Ersatzteilliste Kartusche 46374000 (35 mm).",
    "quellen": [
     "https://www.grohe.de/de_de/bauloop-einhand-spueltischbatterie-1-2-31706000.html"
@@ -480,7 +480,7 @@
     "23746001",
     "24203002"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Einstiegsserie. Laut grohe.de: 24209002 und 23455002 → 48518000; 242032432, 23575001 und Start Classic 23810000 → 46580000 (beide 28 mm). Mousseure: 23746001 → 48159000 (M24x1 AG), 24203002 → 13935000 (M22x1 IG).",
    "quellen": [
     "https://www.grohe.de/de_de/start-einhand-waschtischbatterie-1-2-s-size-24209002.html",
@@ -498,7 +498,7 @@
     "23776000",
     "23898001"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de: XL 23777001 → 48518000; L 23776000 → 46580000. S-Size 23898001 listet eine abweichende Kartusche 48533000 (nicht weiter verifiziert).",
    "quellen": [
     "https://www.grohe.de/de_de/start-edge-einhand-waschtischbatterie-1-2-xl-size-23777001.html",
@@ -516,7 +516,7 @@
     "23779001",
     "23915001"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de: XL 23781000 → 46580000; M 23779001 → 48518000 (SmoothControl 28 mm). Für S 23915001 nennt die Liste eine ungewöhnliche Nummer 1030059990 (nicht verifiziert).",
    "quellen": [
     "https://www.grohe.de/de_de/start-loop-einhand-waschtischbatterie-1-2-xl-size-23781000.html",
@@ -532,7 +532,7 @@
    "kennnummern": [
     "303072431"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de Schlauch 48293000.",
    "quellen": [
     "https://www.grohe.de/de_de/start-einhand-spueltischbatterie-1-2-303072431.html"
@@ -547,7 +547,7 @@
    "kennnummern": [
     "24272001"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de L-Size 24272001 → 28-mm-Kartusche 46580000.",
    "quellen": [
     "https://www.grohe.de/de_de/euroeco-einhand-waschtischbatterie-1-2-l-size-24272001.html"
@@ -582,7 +582,7 @@
     "32322002",
     "31397000"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de: 32168DC0 und 32322002 → Schlauch 48293000; 31397000 → Metallbrauseschlauch 45352000.",
    "quellen": [
     "https://www.grohe.de/de_de/minta-einhand-spueltischbatterie-1-2-32168DC0.html",
@@ -599,7 +599,7 @@
     "33727IB0",
     "32298SD0"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut Grohe: 33727IB0 → Metall-Brauseschlauch 46092000; 32298SD0 → Metalflex-Schlauch 46174000.",
    "quellen": [
     "https://www.grohe.de/de_de/zedra-einhand-spueltischbatterie-1-2-33727IB0.html",
@@ -615,7 +615,7 @@
    "kennnummern": [
     "33740IH0"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Grohe führt 33740IH0 als „Ladylux 1983–1999“; Brauseschlauch 46092000.",
    "quellen": [
     "https://www.grohe.de/de_de/ladylux-1983-1999-einhand-spueltischbatterie-dn-15-33740IH0.html"
@@ -648,7 +648,7 @@
    "kennnummern": [
     "34768001"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de Thermostat-Kompaktkartusche 47439000 (Pos. 3).",
    "quellen": [
     "https://www.grohe.de/de_de/grohtherm-800-cosmopolitan-thermostat-brausebatterie-1-2-34768001.html"
@@ -680,7 +680,7 @@
    "kennnummern": [
     "34828000"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de Thermostat-Kompaktkartusche 47439000 (Pos. 4).",
    "quellen": [
     "https://www.grohe.de/de_de/grohtherm-1000-performance-thermostat-brausebatterie-1-2-34828000.html"
@@ -697,7 +697,7 @@
     "34020001",
     "34665000"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de: Waschtisch 34666000 → 47439000; Waschtisch 34020001 → 47885000; Wanne 34665000 listet beide Nummern.",
    "quellen": [
     "https://www.grohe.de/de_de/grohtherm-special-thermostat-waschtischbatterie-dn-15-34666000.html",
@@ -714,7 +714,7 @@
     "34237003",
     "34227002"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de Thermostat-Kompaktkartusche 47439000.",
    "quellen": [
     "https://www.grohe.de/de_de/precision-trend-thermostat-brausebatterie-1-2-34237003.html",
@@ -731,7 +731,7 @@
     "34798000",
     "34800000"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de abweichende Thermostat-Kompaktkartusche 1/2\" 49175000 (nicht 47439000).",
    "quellen": [
     "https://www.grohe.de/de_de/precision-flow-thermostat-brausebatterie-1-2-34798000.html"
@@ -748,7 +748,7 @@
     "34610IG0",
     "34472Z00"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de Thermoelement 1/2\" 47450000 (Grohe führt 34610IG0 als „Chiara 1993–2007“).",
    "quellen": [
     "https://www.grohe.de/de_de/chiara-thermostat-brausebatterie-1-2-34673000.html",
@@ -765,7 +765,7 @@
     "34678000",
     "34551IG0"
    ],
-   "erkennungsmerkmale": "Keine belastbaren Gestaltungsmerkmale recherchiert – Identifikation über die 8-stellige Artikelnummer bzw. die Grohe Product-Finder-App.",
+   "erkennungsmerkmale": null,
    "beschreibung": "Laut grohe.de Thermoelement 1/2\" 47450000.",
    "quellen": [
     "https://www.grohe.de/de_de/sentosa-thermostat-brausebatterie-1-2-34678000.html"
@@ -919,7 +919,7 @@
    "oem_nummer": "46907000",
    "ean": null,
    "masse": {},
-   "beschreibung": "Kartusche (GROHE FeatherControl) der Eurodisc-Joy-Waschtischarmaturen laut Grohe-Ersatzteilliste; eigenständige Produktseite nicht gefunden.",
+   "beschreibung": "Kartusche (GROHE FeatherControl) der Eurodisc-Joy-Waschtischarmaturen laut Grohe-Ersatzteilliste. Eine eigene Grohe-Produktseite dafür kennen wir nicht.",
    "preis_spanne": null,
    "verschleissteil": true,
    "selbst_tauschbar": true,

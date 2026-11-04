@@ -4,6 +4,7 @@ import {
   formatEuro,
   formatStand,
   hostVon,
+  quelleLabel,
   teilKauflink,
   zeigePreis,
   type Angebot,
@@ -55,8 +56,9 @@ export function SicherheitBadge({ sicherheit }: { sicherheit: Sicherheit }) {
   );
 }
 
-export function KaufButton({ teil, markeName, klein = false }: { teil: Teil; markeName: string; klein?: boolean }) {
-  const link = teilKauflink(teil, markeName);
+/** Amazon als Textlink, nur wenn das Teil eine geprüfte ASIN hat. */
+export function KaufButton({ teil }: { teil: Teil }) {
+  const link = teilKauflink(teil);
   if (!link) return null;
   return (
     <a
@@ -65,13 +67,9 @@ export function KaufButton({ teil, markeName, klein = false }: { teil: Teil; mar
       rel={AFFILIATE_REL}
       data-platzierung="teil"
       data-kennung={teil.oem_nummer ?? teil.slug}
-      className={
-        klein
-          ? "inline-block bg-amber-600 text-white text-xs font-semibold px-3 py-1.5 rounded-lg hover:bg-amber-700 whitespace-nowrap"
-          : "inline-block bg-amber-600 text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-amber-700"
-      }
+      className="text-sm text-amber-700 font-medium hover:underline whitespace-nowrap"
     >
-      {teil.amazon_asin || teil.affiliate_url ? "Bei Amazon ansehen →" : "Bei Amazon suchen →"}
+      Amazon*
     </a>
   );
 }
@@ -101,62 +99,56 @@ function ShopLink({ a, klein = false, kennung }: { a: Angebot; klein?: boolean; 
       data-platzierung="angebot"
       data-shop={a.shop}
       data-kennung={kennung}
-      className={
-        klein
-          ? "text-xs text-amber-700 hover:underline whitespace-nowrap"
-          : "inline-block bg-white border border-amber-600 text-amber-700 text-sm font-semibold px-4 py-2 rounded-lg hover:bg-amber-50 whitespace-nowrap"
-      }
+      className={klein ? "text-xs text-amber-700 hover:underline whitespace-nowrap" : "text-sm text-amber-700 font-medium hover:underline whitespace-nowrap"}
     >
-      {klein ? (
-        <>
-          {zeigePreis(a) ? `${formatEuro(a.preis!)} bei ${a.shop_name}` : `bei ${a.shop_name}`} →
-        </>
-      ) : (
-        <>Zu {a.shop_name} →</>
-      )}
+      {klein ? (zeigePreis(a) ? `${formatEuro(a.preis!)} bei ${a.shop_name}` : a.shop_name) : `Zu ${a.shop_name}`}*
     </a>
   );
 }
 
-/** Kaufen-Kasten der Teile-Seite: Partnershops mit Preis, dazu Amazon. */
-export function Angebote({ teil, markeName, angebote }: { teil: Teil; markeName: string; angebote: Angebot[] }) {
+/** Wo das Teil erhältlich ist: Partnershops mit Preis, dazu Amazon nur mit geprüfter ASIN. */
+export function Angebote({ teil, angebote }: { teil: Teil; angebote: Angebot[] }) {
   const kennung = teil.oem_nummer ?? teil.slug;
   const aeltester = angebote.reduce<string | null>((m, a) => (!m || a.stand < m ? a.stand : m), null);
   const nurNummer = angebote.some((a) => a.treffer === "nummer");
+  const amazon = teilKauflink(teil);
   return (
-    <section className="p-5 bg-amber-50 border border-amber-200 rounded-xl flex flex-col gap-3">
-      <h2 className="text-lg font-bold">Kaufen</h2>
+    <section className="p-5 bg-white border border-stone-200 rounded-xl flex flex-col gap-3">
+      <h2 className="text-lg font-bold">Erhältlich bei</h2>
+      {angebote.length === 0 && !amazon && (
+        <p className="text-sm text-stone-600">
+          Zu diesem Teil kennen wir noch kein Angebot mit derselben Nummer. Frag im Fachhandel nach der Originalnummer
+          {teil.oem_nummer ? ` ${teil.oem_nummer}` : ""}.
+        </p>
+      )}
       {angebote.length > 0 && (
-        <ul className="divide-y divide-amber-200">
+        <ul className="divide-y divide-stone-100">
           {angebote.map((a) => (
-            <li key={a.id} className="py-2 flex flex-col gap-1.5">
-              <div className="flex items-start justify-between gap-2 text-sm">
-                <span className="font-medium text-stone-800">{a.shop_name}</span>
-                <PreisZeile a={a} />
-              </div>
+            <li key={a.id} className="py-2 flex items-start justify-between gap-3 text-sm">
               <ShopLink a={a} kennung={kennung} />
+              <PreisZeile a={a} />
             </li>
           ))}
         </ul>
       )}
-      <div className={angebote.length > 0 ? "pt-2 border-t border-amber-200" : ""}>
-        <p className="text-sm text-stone-600 mb-2">
-          {teil.amazon_asin || teil.affiliate_url
-            ? "Direkt zum Originalteil bei Amazon."
-            : `Amazon-Suche nach „${markeName} ${teil.oem_nummer ?? teil.name}“ – achte auf die exakte Nummer.`}
+      {amazon && (
+        <p className={`text-sm ${angebote.length > 0 ? "pt-2 border-t border-stone-100" : ""}`}>
+          <KaufButton teil={teil} />
+          <span className="text-stone-500"> · Originalteil mit dieser Nummer</span>
         </p>
-        <KaufButton teil={teil} markeName={markeName} />
-      </div>
+      )}
       {aeltester && (
         <p className="text-[11px] leading-snug text-stone-500">
           Preise inkl. MwSt., Stand {formatStand(aeltester)} Uhr. Preis und Lieferbarkeit können sich seitdem geändert
           haben, maßgeblich ist der Shop.
-          {nurNummer && " Zuordnung über die Artikelnummer – vergleiche sie im Shop."}
+          {nurNummer && " Zuordnung über die Artikelnummer, vergleiche sie im Shop."}
         </p>
       )}
-      <p className="text-[11px] leading-snug text-stone-500">
-        Partnerlinks: Kaufst du darüber, bekommen wir eine Provision. Der Preis ändert sich für dich nicht.
-      </p>
+      {(angebote.length > 0 || amazon) && (
+        <p className="text-[11px] leading-snug text-stone-500">
+          * Partnerlink: Kaufst du darüber, bekommen wir eine Provision. Der Preis ändert sich für dich nicht.
+        </p>
+      )}
     </section>
   );
 }
@@ -182,7 +174,7 @@ export function Quellen({ urls, titel = "Quellen" }: { urls: (string | null | un
         {liste.map((u) => (
           <li key={u}>
             <a href={u} target="_blank" rel="nofollow noopener noreferrer" className="text-amber-700 hover:underline break-all">
-              {hostVon(u)}
+              {quelleLabel(u)}
             </a>
           </li>
         ))}
@@ -195,37 +187,48 @@ export function Quellen({ urls, titel = "Quellen" }: { urls: (string | null | un
   );
 }
 
-export function Widersprueche({ liste }: { liste: Widerspruch[] }) {
+/**
+ * Wo Händler oder Hersteller verschiedene Nummern nennen. Das hat kein Shop und kein Katalog,
+ * deshalb steht es auf der Marken-Seite weit oben, je Fall aufklappbar.
+ */
+export function Widersprueche({ liste, id }: { liste: Widerspruch[]; id?: string }) {
   if (liste.length === 0) return null;
   return (
-    <section className="mt-10 p-5 bg-amber-50 border border-amber-200 rounded-xl">
-      <h2 className="text-lg font-bold mb-1">Achtung: widersprüchliche Angaben</h2>
+    <section id={id} className="mb-10 scroll-mt-20">
+      <h2 className="text-xl font-bold mb-1">Achtung, Verwechslungsgefahr</h2>
       <p className="text-sm text-stone-600 mb-4">
-        Hier nennen Hersteller oder Händler unterschiedliche Zuordnungen. Wir zeigen beide, statt eine zu raten.
+        Hier nennen Hersteller oder Händler unterschiedliche Nummern. Wir zeigen beide Angaben mit Quelle, statt eine
+        zu raten.
       </p>
-      <ul className="space-y-4 text-sm">
+      <div className="divide-y divide-stone-200 border border-stone-200 rounded-xl bg-white">
         {liste.map((w) => (
-          <li key={w.id}>
-            <div className="font-semibold text-stone-800">{w.thema}</div>
-            <div className="mt-1">
-              A: {w.aussage_a}
-              {w.quelle_a && (
-                <a href={w.quelle_a} target="_blank" rel="nofollow noopener noreferrer" className="ml-1 text-amber-700 hover:underline">
-                  ({hostVon(w.quelle_a)})
-                </a>
-              )}
+          <details key={w.id} className="group px-4 py-3">
+            <summary className="cursor-pointer font-medium text-stone-800 list-none flex justify-between gap-3">
+              <span>{w.thema}</span>
+              <span className="text-stone-400 group-open:rotate-90 transition-transform">›</span>
+            </summary>
+            <div className="mt-3 space-y-2 text-sm text-stone-700">
+              <p>
+                {w.aussage_a}
+                {w.quelle_a && (
+                  <a href={w.quelle_a} target="_blank" rel="nofollow noopener noreferrer" className="ml-1 text-amber-700 hover:underline">
+                    ({hostVon(w.quelle_a)})
+                  </a>
+                )}
+              </p>
+              <p>
+                <span className="font-medium">Dagegen: </span>
+                {w.aussage_b}
+                {w.quelle_b && (
+                  <a href={w.quelle_b} target="_blank" rel="nofollow noopener noreferrer" className="ml-1 text-amber-700 hover:underline">
+                    ({hostVon(w.quelle_b)})
+                  </a>
+                )}
+              </p>
             </div>
-            <div>
-              B: {w.aussage_b}
-              {w.quelle_b && (
-                <a href={w.quelle_b} target="_blank" rel="nofollow noopener noreferrer" className="ml-1 text-amber-700 hover:underline">
-                  ({hostVon(w.quelle_b)})
-                </a>
-              )}
-            </div>
-          </li>
+          </details>
         ))}
-      </ul>
+      </div>
     </section>
   );
 }

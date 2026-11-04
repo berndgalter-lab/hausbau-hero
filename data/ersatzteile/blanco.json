@@ -2,9 +2,9 @@
  "marke": {
   "slug": "blanco",
   "name": "Blanco",
-  "beschreibung": "Deutscher Hersteller von Küchenspülen (Edelstahl, SILGRANIT, Keramik) und Küchenarmaturen. Blanco betreibt auf blanco.de einen eigenen Ersatzteil-Katalog mit Preisen: Jede Spülen- bzw. Armaturenseite zeigt eine Ersatzteilliste (Art.-Nr., Bezeichnung, Preis, „Gültig ab“ Monat/Jahr), jede Ersatzteilseite einen „Verwendungsnachweis“ mit den Artikelnummern der Spülen/Armaturen, in denen das Teil steckt. Ablaufgarnituren gibt es in 3½\" (Hauptbecken) und 1½\" (Restebecken), mit oder ohne Ablauffernbedienung (Drehknopf/„Exzenter“, Zugknopf, seit 2016/17 auch InFino mit Stopfen statt Siebkörbchen). Welche Garnitur passt, hängt von der genauen Spülen-Artikelnummer ab: Unter derselben Modellbezeichnung (z. B. CLASSIC 5 S) führt Blanco je nach Ausführung/Produktionsstand mehrere unterschiedliche Garnituren.",
-  "nummer_hinweis": "Blanco-Spülen und -Armaturen haben 6-stellige Artikelnummern, die auch in den blanco.de-Adressen stehen (z. B. ZIA 5 S = 520502, METRA 6 S = 513046, LINUS-S = 525807, DARAS-S = 519724). Jede Farb-/Material-/Ausführungsvariante hat eine eigene Nummer – CLASSIC 5 S z. B. 509019, 509020, 506686 … 521319 –, und erst diese Nummer entscheidet über die passende Garnitur. Ersatzteile haben ebenfalls 6-stellige Nummern (z. B. 217163, 119146). Vorgehen: Spülen-Artikelnummer ermitteln (Rechnung, Verpackung, Montageanleitung), dann auf blanco.de unter Ersatzteile suchen oder auf der Seite einer Garnitur im „Verwendungsnachweis“ nach der eigenen Nummer suchen. Teile, die Blanco nicht mehr liefert, sind als „Nicht verfügbar“ bzw. „ersetzt durch …“ markiert. Wo die Artikelnummer an der Spüle selbst steht (Aufkleber unter dem Becken o. ä.), belegt keine gefundene Blanco-Quelle.",
-  "ersatzteil_garantie": "Blanco Österreich schreibt auf blanco.at, dass z. B. für einen kleinen Dichtungsring, der nach sieben Jahren getauscht werden soll, die Auswahl „mindestens bis zu 10 Jahre“ erhältlich sei – die Formulierung lässt offen, ob 10 Jahre Mindest- oder Höchstdauer sind. Für Deutschland wurde keine verbindliche Frist gefunden; blanco.de zeigt pro Teil Lagerstatus, „Nicht verfügbar“ oder einen Nachfolger.",
+  "beschreibung": "Blanco baut Küchenspülen aus Edelstahl, SILGRANIT und Keramik sowie Küchenarmaturen. Die meisten Ersatzteile betreffen die Ablaufgarnitur: 3½\" fürs Hauptbecken, 1½\" fürs Restebecken, mit oder ohne Ablauffernbedienung (Drehknopf, Zugknopf, seit 2016/17 auch InFino mit Stopfen statt Siebkörbchen).\n\nWelche Garnitur passt, hängt von der genauen Artikelnummer der Spüle ab. Unter demselben Modellnamen, etwa CLASSIC 5 S, verbaut Blanco je nach Ausführung verschiedene Garnituren.",
+  "nummer_hinweis": "Blanco-Spülen und -Armaturen haben 6-stellige Artikelnummern, zum Beispiel ZIA 5 S = 520502, METRA 6 S = 513046 oder LINUS-S = 525807. Jede Farb- und Materialvariante hat eine eigene Nummer, die CLASSIC 5 S etwa 509019, 509020, 506686 und weitere. Erst diese Nummer sagt, welche Garnitur passt.\n\nDie Nummer steht auf Rechnung, Verpackung und Montageanleitung. Ob sie auch an der Spüle selbst steht, etwa auf einem Aufkleber unter dem Becken: Einen Hinweis von Blanco dazu kennen wir nicht.\n\nMit der Nummer suchst du auf blanco.de unter Ersatzteile. Jede Spülenseite listet dort die Teile mit Nummer, Preis und „Gültig ab“-Datum. Umgekehrt zeigt jede Ersatzteilseite im „Verwendungsnachweis“, in welchen Spülen das Teil steckt. Teile, die es nicht mehr gibt, sind als „Nicht verfügbar“ oder „ersetzt durch …“ markiert. Ersatzteile haben ebenfalls 6-stellige Nummern, etwa 217163.",
+  "ersatzteil_garantie": "Eine feste Frist für Deutschland kennen wir von Blanco nicht. Blanco Österreich schreibt, Teile wie ein kleiner Dichtungsring seien „mindestens bis zu 10 Jahre“ erhältlich. Ob das Mindest- oder Höchstdauer heißt, bleibt offen. Auf blanco.de steht bei jedem Teil, ob es lieferbar ist oder durch welches Teil es ersetzt wurde.",
   "hersteller_ersatzteil_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen",
   "quellen": [
    "https://www.blanco.de/ersatzteile/",
@@ -435,7 +435,7 @@
     "518413"
    ],
    "erkennungsmerkmale": "Kompakte Küchenarmatur mit Auszugsbrause (auch als ALTA-S-F Compact 518413 und ALTA-S Compact Vario).",
-   "beschreibung": "Verwendungsnachweise auf blanco.de: Brauseschlauch 125763, Gewicht 420 g 123888, Brausekopf chrom 128689 (ALTA-S-F Compact). Eine Kartusche wurde für ALTA-S Compact nicht gefunden.",
+   "beschreibung": "Laut Verwendungsnachweis auf blanco.de: Brauseschlauch 125763, Gewicht 420 g 123888, Brausekopf chrom 128689 (ALTA-S-F Compact). Eine Kartusche ist für die ALTA-S Compact noch nicht zugeordnet.",
    "quellen": [
     "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/schlaeuche/brauseschlauchkompl.m.dicht.u.o-ring_60.876.125763/125763",
     "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/spezifische-einzelteile/gewichtfuerbrauseschlauch(420g)av_93.606.123888/123888",
@@ -890,7 +890,7 @@
     "anschluss_zoll": "3 1/2",
     "laenge_mm": 600
    },
-   "beschreibung": "„Ablaufventil 3,5'' m. Bowdenzug 600 Viega“ – Ventil mit 600-mm-Bowdenzug, laut blanco.de 21,49 €. Eine Zuordnung zu konkreten Spülen war im Suchauszug nicht sichtbar.",
+   "beschreibung": "„Ablaufventil 3,5'' m. Bowdenzug 600 Viega“ – Ventil mit 600-mm-Bowdenzug, laut blanco.de 21,49 €. Zu welchen Spülen es gehört, ist noch nicht zugeordnet.",
    "preis_spanne": "ca. 21 € (blanco.de)",
    "verschleissteil": false,
    "selbst_tauschbar": true,
@@ -2331,7 +2331,7 @@
  "widersprueche": [
   {
    "thema": "138069 – Einzel- oder Doppelbecken-Garnitur?",
-   "aussage_a": "Ein Suchauszug der Blanco-Ventilseite 120665 führt 138069 als „AB-U.ÜBERL.GARN.3 ½''(2x)-Übl. rund“ (also Doppelgarnitur 2 × 3½\"). Die offizielle Doppelgarnitur für DUO 8 S/MULTI 6 S/TIPO 6 S/TWEN heißt jedoch 138067 – Verwechslungsgefahr.",
+   "aussage_a": "Die Blanco-Ventilseite 120665 führt 138069 als „AB-U.ÜBERL.GARN.3 ½''(2x)-Übl. rund“, also als Doppelgarnitur 2 × 3½\" (nicht im Original geprüft). Die offizielle Doppelgarnitur für DUO 8 S, MULTI 6 S, TIPO 6 S und TWEN heißt aber 138067. Die beiden Nummern werden leicht verwechselt.",
    "quelle_a": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/ventile/ventil3,5%22mitueberlaufg1-2%22al_61.319.120665/120665",
    "aussage_b": "eBay-Angebot: 138069 = „Ablaufgarnitur 1 x 3,5\" Sieb ohne Ablauffernbedienung, runder Überlauf“ für CLASSIC 4 S, PLUS 45, TIPO 45 S, DANA, WAVE 5020-U; der Blanco-Verwendungsnachweis (117563) nennt 138069 als Nachfolger der Einzel-Garnitur „3,5'' Sieb TIPO XL 6 S Überlauf rund“.",
    "quelle_b": "https://www.ebay.de/p/1425402445"

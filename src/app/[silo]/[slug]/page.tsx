@@ -1,23 +1,38 @@
 import { supabase } from "@/lib/supabase";
 import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
-import ProduktKarte, { ProduktUebersicht } from "@/components/ProduktKarte";
+import ProduktKarte, { produktLink } from "@/components/ProduktKarte";
 import VergleichsTabelle from "@/components/VergleichsTabelle";
 import { angeboteFuerEans, normEan, type EanAngebot } from "@/lib/kaufberatung";
 import ArticleContent from "@/components/ArticleContent";
 import { getPassendeRechner } from "@/lib/rechner-zuordnung";
 import { ersatzteilVerweise } from "@/lib/ersatzteil-verweise";
+import { zerlegeArtikel } from "@/lib/artikel-aufbau";
+import { armaturDaten } from "@/lib/armatur-daten";
+import ModellFinder from "@/components/ModellFinder";
+import {
+  AffiliateHinweis,
+  KurzeAntwort,
+  MethodenKasten,
+  ModellAbschnitt,
+  PreisStand,
+  Pruefvermerk,
+  Quellen,
+  modellAnker,
+} from "@/components/Ratgeber";
 
 export const revalidate = 0;
 
 export async function generateMetadata({ params }: { params: { silo: string; slug: string } }): Promise<Metadata> {
   const { data: seite } = await supabase
     .from("seiten")
-    .select("titel, seo_title, seo_description")
+    .select("titel, seo_title, seo_description, silos(slug)")
     .eq("slug", params.slug)
     .single();
 
   if (!seite) return {};
+  // Canonical immer mit der echten Kategorie, auch wenn die Seite unter einer falschen aufgerufen wird
+  const silo = (seite as any).silos?.slug || params.silo;
 
   const title = seite.seo_title || seite.titel;
   const description = seite.seo_description || "";
@@ -25,15 +40,17 @@ export async function generateMetadata({ params }: { params: { silo: string; slu
   return {
     title,
     description,
-    alternates: { canonical: `https://hausbau-hero.de/${params.silo}/${params.slug}` },
+    alternates: { canonical: `https://hausbau-hero.de/${silo}/${params.slug}` },
     openGraph: {
       title: `${title} — Hausbau Hero`,
       description,
-      url: `https://hausbau-hero.de/${params.silo}/${params.slug}`,
+      url: `https://hausbau-hero.de/${silo}/${params.slug}`,
     },
   };
 }
 
+// Aufbau nach docs/SEITENAUFBAU.md, Abschnitt 3: Frage, Stand und Quellen, das Wichtigste,
+// Finder, Wissen, die Modelle, Datentabelle, Ersatzteile, Quellen, Affiliate-Hinweis.
 export default async function ArtikelPage({ params }: { params: { silo: string; slug: string } }) {
   const { data: seite, error: seiteError } = await supabase
     .from("seiten")
@@ -53,6 +70,10 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
 
   if (seite.status !== "aktiv") notFound();
 
+  // Dieselbe Seite unter einer anderen Kategorie (/bad/silikatfarbe) wäre eine Dublette: auf die echte leiten
+  const echteKategorie = (seite as any).silos?.slug;
+  if (echteKategorie && echteKategorie !== params.silo) permanentRedirect(`/${echteKategorie}/${params.slug}`);
+
   const siloName = (seite as any).silos?.name || params.silo;
 
   let produkte: any[] = [];
@@ -68,7 +89,9 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
   }
 
   const werkzeuge = produkte.filter((p: any) => p.ist_werkzeug);
-  const hauptProdukte = produkte.filter((p: any) => !p.ist_werkzeug);
+  // Nur nachprüfbare Modelle (ASIN oder EAN). Gattungsbegriffe mit Amazon-Suchlink („Kondensatpumpe“)
+  // aus alten Beiträgen bekommen keinen eigenen Abschnitt.
+  const hauptProdukte = produkte.filter((p: any) => !p.ist_werkzeug && (p.amazon_asin || normEan(p.ean)));
 
   // Shop-Angebote und Bilder der Partnershops, über die EAN der Produkte
   const nachEan = await angeboteFuerEans(hauptProdukte.map((p: any) => p.ean));
@@ -78,19 +101,38 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
     if (e && nachEan.has(e)) angebote[p.id] = nachEan.get(e)!;
   }
   const hasContent = seite.content_md && seite.content_md.trim().length > 50;
+  const aufbau = hasContent ? zerlegeArtikel(seite.content_md) : null;
+
+  const finderModelle = hauptProdukte
+    .map((p: any) => ({ p, daten: armaturDaten(p.technische_daten) }))
+    .filter((x) => x.daten)
+    .map(({ p, daten }) => ({
+      id: p.id,
+      anker: modellAnker(p),
+      name: p.name,
+      einsatzbereich: p.einsatzbereich ?? null,
+      daten: daten!,
+    }));
+
+  const verweise = ersatzteilVerweise(seite.slug);
   // Reine Ratgeber ohne Produkte und ohne Partnerlinks im Text brauchen keinen Affiliate-Hinweis.
-  const hatPartnerlinks = produkte.length > 0 || /amazon\.de|awin1\.com/i.test(seite.content_md ?? "");
+  const hatPartnerlinks =
+    hauptProdukte.length > 0 ||
+    werkzeuge.some((p: any) => produktLink(p)) ||
+    /amazon\.de\/(dp|gp)\/|awin1\.com/i.test(seite.content_md ?? "");
 
   const rechnerSlugs = getPassendeRechner(seite.slug, seite.passende_rechner);
   let passendeRechner: { name: string; slug: string }[] = [];
-  try {
-    const { data } = await supabase
-      .from("rechner")
-      .select("name, slug")
-      .in("slug", rechnerSlugs);
-    if (data) passendeRechner = data;
-  } catch (e) {
-    console.error("[ArtikelPage] Rechner query error:", e);
+  if (rechnerSlugs.length > 0) {
+    try {
+      const { data } = await supabase
+        .from("rechner")
+        .select("name, slug")
+        .in("slug", rechnerSlugs);
+      if (data) passendeRechner = data;
+    } catch (e) {
+      console.error("[ArtikelPage] Rechner query error:", e);
+    }
   }
 
   return (
@@ -118,23 +160,17 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
         <span className="text-stone-900">{seite.titel}</span>
       </nav>
 
-      <h1 className="text-3xl font-bold text-stone-900 mb-2">{seite.titel}</h1>
+      <h1 className="text-3xl font-bold text-stone-900 mb-3">{seite.titel}</h1>
 
-      <p className="text-stone-500 text-sm mb-8">
-        Kategorie: <a href={`/${params.silo}`} className="text-amber-600 hover:underline">{siloName}</a>
-      </p>
-
-      {hatPartnerlinks && (
-        <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-8 text-sm text-stone-600">
-          <strong className="text-stone-800">Hinweis:</strong>{" "}
-          Dieser Artikel enthält Affiliate-Links. Wenn du über diese Links einkaufst, erhalten wir eine kleine Provision — für dich ändert sich der Preis nicht.
-        </div>
-      )}
-
-      <ProduktUebersicht produkte={hauptProdukte} angebote={angebote} />
-
-      {hasContent ? (
-        <ArticleContent html={seite.content_md} />
+      {aufbau ? (
+        <>
+          <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} />
+          {aufbau.einstieg && <ArticleContent html={aufbau.einstieg} />}
+          {aufbau.methode && <MethodenKasten html={aufbau.methode} ohneTest={aufbau.ohneTest} />}
+          {aufbau.wichtigstes && <KurzeAntwort html={aufbau.wichtigstes} titel={aufbau.wichtigstesTitel ?? "Das Wichtigste vorab"} />}
+          {finderModelle.length >= 3 && <ModellFinder modelle={finderModelle} />}
+          {aufbau.rumpf && <ArticleContent html={aufbau.rumpf} />}
+        </>
       ) : (
         <div className="bg-stone-50 border border-stone-200 rounded-xl p-8 text-center">
           <p className="text-stone-600 mb-4">Dieser Artikel wird gerade überarbeitet.</p>
@@ -145,39 +181,39 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
       )}
 
       {hauptProdukte.length > 0 && (
-        <section className="mt-10 mb-8">
-          <h2 className="text-2xl font-bold mb-4">Unsere Empfehlungen im Detail</h2>
-          <div className="grid gap-4">
+        <section className="mt-12">
+          <h2 className="text-2xl font-bold text-stone-900 mb-2">Die Modelle im Einzelnen</h2>
+          <div>
             {hauptProdukte.map((p: any) => (
-              <ProduktKarte key={p.id} produkt={p} angebote={angebote[p.id]} />
+              <ModellAbschnitt key={p.id} produkt={p} angebote={angebote[p.id]} />
             ))}
           </div>
+          <PreisStand angebote={angebote} />
         </section>
       )}
 
       <VergleichsTabelle produkte={hauptProdukte} angebote={angebote} />
 
       {werkzeuge.length > 0 && (
-        <section className="mt-8 mb-8 p-6 bg-amber-50 border border-amber-200 rounded-xl">
-          <h2 className="text-lg font-bold mb-3">🔧 Werkzeug-Checkliste</h2>
-          <p className="text-sm text-stone-600 mb-4">Das brauchst du für dieses Projekt:</p>
+        <section className="mt-10">
+          <h2 className="text-lg font-bold mb-3">Werkzeug für dieses Projekt</h2>
           <div className="grid gap-3">
             {werkzeuge.map((p: any) => (
-              <ProduktKarte key={p.id} produkt={p} compact />
+              <ProduktKarte key={p.id} produkt={p} />
             ))}
           </div>
         </section>
       )}
 
-      {ersatzteilVerweise(seite.slug).length > 0 && (
-        <section className="mt-12 p-6 bg-white border-2 border-amber-200 rounded-xl">
-          <h2 className="text-lg font-bold mb-1">Ersatzteile &amp; Probleme</h2>
-          <p className="text-sm text-stone-600 mb-4">Schon eingebaut und etwas ist kaputt? Hier findest du das passende Teil:</p>
+      {verweise.length > 0 && (
+        <section className="mt-12 p-6 bg-white border border-stone-200 rounded-xl">
+          <h2 className="text-lg font-bold mb-1">Wenn etwas kaputt geht</h2>
+          <p className="text-sm text-stone-600 mb-4">Passende Ersatzteile und Hilfe bei typischen Problemen:</p>
           <ul className="space-y-2">
-            {ersatzteilVerweise(seite.slug).map((v) => (
+            {verweise.map((v) => (
               <li key={v.href}>
                 <a href={v.href} className="text-amber-700 font-medium hover:underline">
-                  {v.art === "problem" ? "🛠️" : "🔩"} {v.titel} →
+                  {v.titel} →
                 </a>
               </li>
             ))}
@@ -186,22 +222,19 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
       )}
 
       {passendeRechner.length > 0 && (
-        <div className="mt-12 bg-stone-50 border border-stone-200 rounded-xl p-6">
-          <h2 className="text-lg font-bold mb-3">Passende Rechner</h2>
-          <p className="text-sm text-stone-600 mb-4">Berechne Material und Kosten für dein Projekt:</p>
-          <div className="flex flex-wrap gap-3">
-            {passendeRechner.map((r: any) => (
-              <a
-                key={r.slug}
-                href={`/rechner/${r.slug}`}
-                className="px-4 py-2 bg-white border border-stone-200 rounded-lg text-sm hover:border-amber-400 transition-colors"
-              >
-                {r.name}
-              </a>
-            ))}
-          </div>
+        <div className="mt-8 text-sm text-stone-600">
+          Passender Rechner:{" "}
+          {passendeRechner.map((r, i) => (
+            <span key={r.slug}>
+              {i > 0 && ", "}
+              <a href={`/rechner/${r.slug}`} className="text-amber-700 hover:underline">{r.name}</a>
+            </span>
+          ))}
         </div>
       )}
+
+      {aufbau?.quellen && <Quellen html={aufbau.quellen} />}
+      {hatPartnerlinks && <AffiliateHinweis />}
     </div>
   );
 }
