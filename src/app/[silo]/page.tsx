@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 // "finanzen" ist seit dem Umbau auf Bad & Sanitär entfernt (keine Seiten mehr).
-const VALID_SILOS = ["farben", "bad", "rohbau", "boden", "werkzeuge", "stromerzeuger", "kueche", "garten", "maschinen"];
+const VALID_SILOS = ["farben", "bad", "rohbau", "boden", "werkzeuge", "stromerzeuger", "kueche", "garten", "maschinen", "fenster"];
 
 export async function generateMetadata({ params }: { params: { silo: string } }): Promise<Metadata> {
   const { data: silo } = await supabase
