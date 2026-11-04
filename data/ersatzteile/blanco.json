@@ -2,9 +2,9 @@
  "marke": {
   "slug": "blanco",
   "name": "Blanco",
-  "beschreibung": "Blanco baut Küchenspülen aus Edelstahl, SILGRANIT und Keramik sowie Küchenarmaturen. Die meisten Ersatzteile betreffen die Ablaufgarnitur: 3½\" fürs Hauptbecken, 1½\" fürs Restebecken, mit oder ohne Ablauffernbedienung (Drehknopf, Zugknopf, seit 2016/17 auch InFino mit Stopfen statt Siebkörbchen).\n\nWelche Garnitur passt, hängt von der genauen Artikelnummer der Spüle ab. Unter demselben Modellnamen, etwa CLASSIC 5 S, verbaut Blanco je nach Ausführung verschiedene Garnituren.",
-  "nummer_hinweis": "Blanco-Spülen und -Armaturen haben 6-stellige Artikelnummern, zum Beispiel ZIA 5 S = 520502, METRA 6 S = 513046 oder LINUS-S = 525807. Jede Farb- und Materialvariante hat eine eigene Nummer, die CLASSIC 5 S etwa 509019, 509020, 506686 und weitere. Erst diese Nummer sagt, welche Garnitur passt.\n\nDie Nummer steht auf Rechnung, Verpackung und Montageanleitung. Ob sie auch an der Spüle selbst steht, etwa auf einem Aufkleber unter dem Becken: Einen Hinweis von Blanco dazu kennen wir nicht.\n\nMit der Nummer suchst du auf blanco.de unter Ersatzteile. Jede Spülenseite listet dort die Teile mit Nummer, Preis und „Gültig ab“-Datum. Umgekehrt zeigt jede Ersatzteilseite im „Verwendungsnachweis“, in welchen Spülen das Teil steckt. Teile, die es nicht mehr gibt, sind als „Nicht verfügbar“ oder „ersetzt durch …“ markiert. Ersatzteile haben ebenfalls 6-stellige Nummern, etwa 217163.",
-  "ersatzteil_garantie": "Eine feste Frist für Deutschland kennen wir von Blanco nicht. Blanco Österreich schreibt, Teile wie ein kleiner Dichtungsring seien „mindestens bis zu 10 Jahre“ erhältlich. Ob das Mindest- oder Höchstdauer heißt, bleibt offen. Auf blanco.de steht bei jedem Teil, ob es lieferbar ist oder durch welches Teil es ersetzt wurde.",
+  "beschreibung": "Blanco baut Küchenspülen aus Edelstahl, SILGRANIT und Keramik sowie Küchenarmaturen. Bei Spülen geht meist etwas am Ablauf kaputt: Ablaufgarnitur, Siebkörbchen oder Drehknopf. Bei Armaturen sind es vor allem Brauseschlauch, Brausekopf und Kartusche.",
+  "nummer_hinweis": "Bei Blanco entscheidet die 6-stellige Artikelnummer der Spüle, welches Teil passt, nicht der Modellname. Jede Farb- und Materialvariante hat eine eigene Nummer. Die CLASSIC 5 S gibt es etwa als 509019, 509020, 506686 und in weiteren Ausführungen, und nicht alle haben dieselbe Ablaufgarnitur.\n\nDie Nummer steht auf der Rechnung, der Verpackung und der Montageanleitung. Beispiele: ZIA 5 S = 520502, METRA 6 S = 513046, Armatur LINUS-S = 525807.\n\nKeine Unterlagen mehr? Dann bau das alte Teil aus. Blanco-Ersatzteile haben ebenfalls 6-stellige Nummern, etwa 217163. Steht keine Nummer drauf, vergleiche Größe (3½\" fürs Hauptbecken, 1½\" fürs Restebecken) und Bauart: Siebkörbchen oder InFino-Stopfen, mit oder ohne Drehknopf, Form des Überlaufs.",
+  "ersatzteil_garantie": "Eine feste Frist nennt Blanco für Deutschland nicht. Blanco Österreich schreibt, Teile wie ein kleiner Dichtungsring seien „mindestens bis zu 10 Jahre“ erhältlich. Ausgelaufene Teile ersetzt Blanco teilweise durch ein Nachfolgeteil mit neuer Nummer.",
   "hersteller_ersatzteil_url": "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen",
   "quellen": [
    "https://www.blanco.de/ersatzteile/",
@@ -950,7 +950,7 @@
   {
    "slug": "blanco-siebkoerbchen-119146",
    "name": "Blanco Siebkörbchen 3,5\" Exzenter universal, 18 Schlitze (119146)",
-   "teiltyp": "sonstiges",
+   "teiltyp": "siebkoerbchen",
    "oem_nummer": "119146",
    "ean": null,
    "masse": {
@@ -973,7 +973,7 @@
   {
    "slug": "blanco-siebkoerbchen-125555",
    "name": "Blanco Siebkörbchen 3,5\" Exzenter d = 82 mm (125555)",
-   "teiltyp": "sonstiges",
+   "teiltyp": "siebkoerbchen",
    "oem_nummer": "125555",
    "ean": null,
    "masse": {
@@ -994,7 +994,7 @@
   {
    "slug": "blanco-siebkoerbchen-125590",
    "name": "Blanco Siebkörbchen 3,5\" mit Zapfen, 18 Schlitze (125590)",
-   "teiltyp": "sonstiges",
+   "teiltyp": "siebkoerbchen",
    "oem_nummer": "125590",
    "ean": null,
    "masse": {
@@ -1016,7 +1016,7 @@
   {
    "slug": "blanco-siebkoerbchen-117563",
    "name": "Blanco Siebkörbchen 3,5\" manuell verschließbar, 20 Schlitze (117563)",
-   "teiltyp": "sonstiges",
+   "teiltyp": "siebkoerbchen",
    "oem_nummer": "117563",
    "ean": null,
    "masse": {},
@@ -1035,7 +1035,7 @@
   {
    "slug": "blanco-infino-stopfen-121711",
    "name": "Blanco Exzenterstopfen InFino (121711)",
-   "teiltyp": "sonstiges",
+   "teiltyp": "siebkoerbchen",
    "oem_nummer": "121711",
    "ean": null,
    "masse": {},
@@ -1055,7 +1055,7 @@
   {
    "slug": "blanco-infino-stopfen-121710",
    "name": "Blanco Stopfen manuell InFino (121710)",
-   "teiltyp": "sonstiges",
+   "teiltyp": "siebkoerbchen",
    "oem_nummer": "121710",
    "ean": null,
    "masse": {},
@@ -1075,7 +1075,7 @@
   {
    "slug": "blanco-dichtung-siebkoerbchen-116116",
    "name": "Blanco Dichtung für Siebkörbchen 3,5\" (116116)",
-   "teiltyp": "dichtung",
+   "teiltyp": "siebkoerbchen",
    "oem_nummer": "116116",
    "ean": null,
    "masse": {},
@@ -1095,7 +1095,7 @@
   {
    "slug": "blanco-dichtung-siebkoerbchen-117497",
    "name": "Blanco Dichtung für Siebkörbchen d = 52 mm (117497)",
-   "teiltyp": "dichtung",
+   "teiltyp": "siebkoerbchen",
    "oem_nummer": "117497",
    "ean": null,
    "masse": {
@@ -1117,7 +1117,7 @@
   {
    "slug": "blanco-ueberlauf-116639",
    "name": "Blanco Überlauf rund komplett (116639)",
-   "teiltyp": "sonstiges",
+   "teiltyp": "ueberlauf",
    "oem_nummer": "116639",
    "ean": null,
    "masse": {},
@@ -1136,7 +1136,7 @@
   {
    "slug": "blanco-ueberlauf-125351",
    "name": "Blanco Überlauf rund komplett mit Ablaufrohr (Viega) (125351)",
-   "teiltyp": "sonstiges",
+   "teiltyp": "ueberlauf",
    "oem_nummer": "125351",
    "ean": null,
    "masse": {},
@@ -1156,7 +1156,7 @@
   {
    "slug": "blanco-ueberlaufset-120287",
    "name": "Blanco Überlaufset Tropfteil oval (120287)",
-   "teiltyp": "sonstiges",
+   "teiltyp": "ueberlauf",
    "oem_nummer": "120287",
    "ean": null,
    "masse": {},
@@ -1510,7 +1510,7 @@
   {
    "slug": "blanco-brausekopf-122191",
    "name": "Blanco Brausekopf chrom mit Schlauch MIDA-S (122191)",
-   "teiltyp": "sonstiges",
+   "teiltyp": "brausekopf",
    "oem_nummer": "122191",
    "ean": null,
    "masse": {},
@@ -1530,7 +1530,7 @@
   {
    "slug": "blanco-brausekopf-124194",
    "name": "Blanco Brausekopf schwarz matt mit Schlauch und Rückflussverhinderer MIDA-S (124194)",
-   "teiltyp": "sonstiges",
+   "teiltyp": "brausekopf",
    "oem_nummer": "124194",
    "ean": null,
    "masse": {},
@@ -1549,7 +1549,7 @@
   {
    "slug": "blanco-brausekopf-118256",
    "name": "Blanco Brausekopf LINUS-S HD anthrazit komplett (118256)",
-   "teiltyp": "sonstiges",
+   "teiltyp": "brausekopf",
    "oem_nummer": "118256",
    "ean": null,
    "masse": {},
@@ -1568,7 +1568,7 @@
   {
    "slug": "blanco-brausekopf-118999",
    "name": "Blanco Brausekopf LINUS-S/ALTA-S HD Edelstahl gebürstet (118999)",
-   "teiltyp": "sonstiges",
+   "teiltyp": "brausekopf",
    "oem_nummer": "118999",
    "ean": null,
    "masse": {},
@@ -1587,7 +1587,7 @@
   {
    "slug": "blanco-brausekopf-120583",
    "name": "Blanco Brausekopf DARAS-S HD anthrazit komplett (120583)",
-   "teiltyp": "sonstiges",
+   "teiltyp": "brausekopf",
    "oem_nummer": "120583",
    "ean": null,
    "masse": {},
@@ -1607,7 +1607,7 @@
   {
    "slug": "blanco-brausekopf-128689",
    "name": "Blanco Brausekopf chrom komplett (128689)",
-   "teiltyp": "sonstiges",
+   "teiltyp": "brausekopf",
    "oem_nummer": "128689",
    "ean": null,
    "masse": {},

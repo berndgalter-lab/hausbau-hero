@@ -68,16 +68,18 @@ Umgesetzt ohne Datenbank-Änderung: Die Vorlage zerlegt das Artikel-HTML (`src/l
 
 ## 4. Seitentyp Marke (`/ersatzteile/<marke>`)
 
-Aufgebaut wie ein Weg in drei Schritten, so wie der Pössl-Hub bei womo-teile:
+Die Seite bedient vier Einstiege: Nummer schon da, etwas ist kaputt, Modell bekannt, Teileart bekannt. Reihenfolge:
 
-1. **Einstieg:** 2–3 Sätze, was die Marke baut und wie man bei ihr Teile findet.
-2. **Schritt 1: Nummer finden.** Wo sie steht, wie sie aussieht (Beispiel mit Format), was die letzte Stelle bedeutet. Später mit eigenem Foto.
-3. **Schritt 2: Serie wählen.** Karten nach Produkttyp (Waschtisch, Dusche, Küche, Spülkasten …) mit bekannten Nummern. Dazu die Suche nach Artikelnummer.
-4. **Häufige Probleme:** die Problem-Seiten der Marke.
-5. **Achtung, Verwechslungsgefahr:** die Widersprüche, nach oben geholt und in Leser-Sprache („138069 oder 138067? Händler verwechseln Einzel- und Doppelgarnitur“).
-6. **Ersatzteil-Garantie:** kurzer Faktenkasten (Garantie, Verfügbarkeit, Quelle), ohne Rechercheprotokoll.
-7. **Alle Teile nach Art:** kompakte Tabelle mit Nummer, Name, Link zur Teil-Seite. Kein Kaufknopf je Zeile.
-8. **Quellen** mit lesbaren Namen statt Domains.
+1. **Kopf:** H1, 2–3 Sätze, was die Marke baut und was meistens kaputtgeht. Darunter die Suche („Du hast schon eine Nummer?“) und Sprungmarken zu den Abschnitten.
+2. **Etwas ist kaputt?** Die Problem-Seiten der Marke als Karten.
+3. **So findest du die richtige Nummer:** wo sie steht, Format mit Beispielen, was tun ohne Unterlagen. Absätze mit Leerzeile trennen, jeder Absatz ein Gedanke. Kein Weg zum Hersteller-Katalog.
+4. **Ersatzteile nach Modell:** Karten nach Produkttyp, größte Gruppe zuerst, zwei Spalten auch mobil. Name ohne Markennamen, darunter Teile-Anzahl und erste Nummer.
+5. **Ersatzteile nach Art:** Sprungmarken je Art, dann Listen mit Name, Nummer, Preis ab. Kein Kaufknopf je Zeile. „Weitere Teile“ klein halten, lieber eine eigene Art anlegen (Label in `TEILTYP_LABEL`).
+6. **Achtung, Verwechslungsgefahr:** die Widersprüche, je Fall aufklappbar.
+7. **Wie lange gibt es Ersatzteile?** kurzer Faktenkasten ohne Rechercheprotokoll.
+8. **Quellen** eingeklappt am Ende.
+
+Kein sichtbarer Link zum Ersatzteil-Shop des Herstellers (`hersteller_ersatzteil_url` bleibt nur als Datenfeld). Wer die Nummer hat, soll hier das Teil finden, nicht beim Hersteller.
 
 ## 5. Seitentyp Serie (`/ersatzteile/<marke>/<serie>`)
 

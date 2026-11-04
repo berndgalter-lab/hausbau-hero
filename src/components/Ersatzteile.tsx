@@ -173,25 +173,65 @@ export function GuenstigstesAngebot({ teil, angebote }: { teil: Teil; angebote: 
   );
 }
 
-export function Quellen({ urls, titel = "Quellen" }: { urls: (string | null | undefined)[]; titel?: string }) {
+/** Text aus der Datenbank: Leerzeilen trennen Absätze. */
+export function Absaetze({ text, className }: { text: string; className?: string }) {
+  const absaetze = text.split(/\n\s*\n/).map((a) => a.trim()).filter(Boolean);
+  return (
+    <div className={className}>
+      {absaetze.map((a, i) => (
+        <p key={i} className="whitespace-pre-line">{a}</p>
+      ))}
+    </div>
+  );
+}
+
+export function Quellen({
+  urls,
+  titel = "Quellen",
+  zugeklappt = false,
+}: {
+  urls: (string | null | undefined)[];
+  titel?: string;
+  /** Auf Übersichtsseiten: Quellen eingeklappt, damit der Leser nicht zum Hersteller abwandert. */
+  zugeklappt?: boolean;
+}) {
   const liste = Array.from(new Set(urls.filter((u): u is string => !!u)));
   if (liste.length === 0) return null;
+  const hinweis = (
+    <p className="mt-3 text-xs text-stone-500">
+      Zuordnungen werden aus Herstellerunterlagen und Händlerangaben zusammengetragen, nicht selbst getestet. Prüfe
+      vor dem Kauf die Nummer auf dem alten Teil.
+    </p>
+  );
+  const links = (
+    <ul className="list-disc pl-5 space-y-1">
+      {liste.map((u) => (
+        <li key={u}>
+          <a href={u} target="_blank" rel="nofollow noopener noreferrer" className="text-amber-700 hover:underline break-all">
+            {quelleLabel(u)}
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
+  if (zugeklappt) {
+    return (
+      <section className="mt-10 text-sm text-stone-600">
+        {hinweis}
+        <details className="mt-3">
+          <summary className="cursor-pointer text-stone-500 hover:text-stone-700">
+            {titel} ({liste.length})
+          </summary>
+          <div className="mt-2">{links}</div>
+        </details>
+      </section>
+    );
+  }
   return (
     <section className="mt-10 text-sm text-stone-600">
       <h2 className="text-base font-semibold text-stone-800 mb-2">{titel}</h2>
-      <ul className="list-disc pl-5 space-y-1">
-        {liste.map((u) => (
-          <li key={u}>
-            <a href={u} target="_blank" rel="nofollow noopener noreferrer" className="text-amber-700 hover:underline break-all">
-              {quelleLabel(u)}
-            </a>
-          </li>
-        ))}
-      </ul>
-      <p className="mt-3 text-xs text-stone-500">
-        Zuordnungen werden aus Herstellerunterlagen und Händlerangaben zusammengetragen, nicht selbst getestet. Prüfe
-        vor dem Kauf die Nummer auf dem alten Teil.
-      </p>
+      {links}
+      {hinweis}
     </section>
   );
 }
@@ -203,9 +243,9 @@ export function Quellen({ urls, titel = "Quellen" }: { urls: (string | null | un
 export function Widersprueche({ liste, id }: { liste: Widerspruch[]; id?: string }) {
   if (liste.length === 0) return null;
   return (
-    <section id={id} className="mb-10 scroll-mt-20">
-      <h2 className="text-xl font-bold mb-1">Achtung, Verwechslungsgefahr</h2>
-      <p className="text-sm text-stone-600 mb-4">
+    <section id={id} className="mb-14 scroll-mt-20">
+      <h2 className="text-2xl font-bold mb-2">Achtung, Verwechslungsgefahr</h2>
+      <p className="text-stone-600 mb-5 max-w-2xl">
         Hier nennen Hersteller oder Händler unterschiedliche Nummern. Wir zeigen beide Angaben mit Quelle, statt eine
         zu raten.
       </p>

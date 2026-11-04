@@ -135,6 +135,9 @@ export const TEILTYP_LABEL: Record<string, string> = {
   betaetigungsplatte: "Betätigungsplatten",
   umbauset: "Umbausets",
   ablaufgarnitur: "Ablaufgarnituren",
+  siebkoerbchen: "Siebkörbchen & Stopfen",
+  ueberlauf: "Überläufe",
+  brausekopf: "Brauseköpfe",
   werkzeug: "Werkzeug",
   sonstiges: "Weitere Teile",
 };
