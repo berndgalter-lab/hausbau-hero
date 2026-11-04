@@ -1,0 +1,268 @@
+[
+ {
+  "sortierung": 1,
+  "name": "GROHE Tempesta System 250 Duschsystem mit Thermostatbatterie (26670001)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "26670001",
+  "ean": "4005176766879",
+  "einsatzbereich": "Thermostat-Duschsystem mit sparsamer Kopfbrause",
+  "kurzbeschreibung": "Duschsystem mit Aufputz-Thermostat für die vorhandenen Wandanschlüsse, 250-mm-Kopfbrause und Handbrause mit zwei Strahlarten. Mit 7,3 l/min (3 bar) braucht es wenig Wasser.",
+  "vorteile": [
+   "Thermostat mit 38-°C-Sperre; die Aquadimmer-Funktion schaltet zwischen Kopf- und Handbrause",
+   "7,3 l/min bei 3 bar, laut GROHE für Durchlauferhitzer ab 18 kW geeignet",
+   "Vier Oberflächen, Höhe per Ersatzrohr um 150 mm anpassbar"
+  ],
+  "nachteile": [
+   "Die Kopfbrause liefert laut GROHE 7,3 l/min und hat nur eine Strahlart, das ist eher sanft als kräftig",
+   "Von der Anschlussmitte bis zur Decke braucht es mindestens 1.180 mm",
+   "Die Handbrause hat nur zwei Strahlarten"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "bauart": "Thermostat",
+   "montage": "Aufputz",
+   "druck": "Hochdruck",
+   "kopfbrause_mm": 250,
+   "kopfbrause": "rund, Ø 250 mm, 1 Strahlart",
+   "handbrause": "Ø 110 mm, 2 Strahlarten",
+   "hoehe_mm": 1132,
+   "hoehe": "1.132 mm ab Anschlussmitte, mind. 1.180 mm bis zur Decke",
+   "anschluss": "1/2\", S-Anschlüsse, 150 ± 15 mm",
+   "nachruesten": "ersetzt die Aufputz-Armatur an den Wandanschlüssen",
+   "sicherheitssperre_c": 38,
+   "durchfluss_l_min": 7.3,
+   "durchlauferhitzer": "ab 18 kW",
+   "oberflaechen": [
+    "Chrom (26670001)",
+    "Mattschwarz (266702431, EAN 4067393015970)",
+    "Warm Sunset gebürstet (26670DL1, EAN 4067393113492)",
+    "Cool Sunrise gebürstet (26670GN1, EAN 4067393115106)"
+   ]
+  }
+ },
+ {
+  "sortierung": 2,
+  "name": "GROHE Euphoria System 260 Duschsystem mit Thermostatbatterie (27296003)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "27296003",
+  "ean": "4005176647963",
+  "einsatzbereich": "Regenbrause mit Thermostat und drei Strahlarten",
+  "kurzbeschreibung": "Aufputz-Duschsystem mit CoolTouch-Thermostat und 260-mm-Kopfbrause mit drei Strahlarten. Der obere Wandhalter lässt sich auf vorhandene Bohrlöcher einstellen.",
+  "vorteile": [
+   "Kopfbrause mit drei Strahlarten und 16 l/min bei 3 bar",
+   "Thermostat mit 38-°C-Sperre und CoolTouch; SprayDimmer reduziert die Menge stufenlos",
+   "Oberer Wandhalter verstellbar, passend für vorhandene Bohrlöcher"
+  ],
+  "nachteile": [
+   "16 l/min sind mehr, als ein 18-kW-Durchlauferhitzer bei 38 °C liefert (Stiebel Eltron: 9,2 l/min bei 10 °C Kaltwasser)",
+   "Von der Anschlussmitte bis zur Decke braucht es mindestens 1.200 mm",
+   "Nur in Chrom"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "bauart": "Thermostat",
+   "montage": "Aufputz",
+   "druck": "Hochdruck",
+   "kopfbrause_mm": 260,
+   "kopfbrause": "rund, Ø 260 mm, 3 Strahlarten",
+   "handbrause": "Ø 110 mm, 3 Strahlarten",
+   "hoehe_mm": 1116,
+   "hoehe": "1.116 mm ab Anschlussmitte, mind. 1.200 mm bis zur Decke",
+   "anschluss": "1/2\", S-Anschlüsse, 150 ± 15 mm",
+   "nachruesten": "ersetzt die Aufputz-Armatur; oberer Halter verstellbar für vorhandene Bohrlöcher",
+   "sicherheitssperre_c": 38,
+   "durchfluss_l_min": 16,
+   "durchlauferhitzer": "ab 18 kW",
+   "oberflaechen": [
+    "Chrom (27296003)"
+   ]
+  }
+ },
+ {
+  "sortierung": 3,
+  "name": "hansgrohe Croma Select S Showerpipe 280 1jet mit Thermostat (26790000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "26790000",
+  "ean": "4011097801711",
+  "einsatzbereich": "Große Kopfbrause mit hansgrohe-Thermostat",
+  "kurzbeschreibung": "Showerpipe mit Ecostat-Comfort-Thermostat, 280-mm-Kopfbrause und Handbrause mit drei Strahlarten. Die Heißwasserbegrenzung lässt sich einstellen.",
+  "vorteile": [
+   "Thermostat Ecostat Comfort mit 40-°C-Sperre und einstellbarer Heißwasserbegrenzung",
+   "280-mm-Kopfbrause mit 15,7 l/min bei 3 bar und QuickClean-Noppen",
+   "Regeleinheit als Ersatzteil (98282000) erhältlich"
+  ],
+  "nachteile": [
+   "Braucht mindestens 1,3 bar Fließdruck",
+   "Deutlich teurer als die anderen Systeme hier",
+   "Für Durchlauferhitzer nennt hansgrohe keine Mindestleistung. Bei 15,7 l/min an der Kopfbrause muss der Durchlauferhitzer groß genug sein"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "bauart": "Thermostat",
+   "montage": "Aufputz",
+   "druck": "Hochdruck",
+   "kopfbrause_mm": 280,
+   "kopfbrause": "rund, Ø 280 mm, 1 Strahlart",
+   "handbrause": "3 Strahlarten",
+   "hoehe_mm": 1213,
+   "hoehe": "1.213 mm ab Anschlussmitte, Rohr kürzbar",
+   "anschluss": "G 1/2 (DN 15), Stichmaß 150 ± 12 mm",
+   "nachruesten": "ersetzt die Aufputz-Armatur an den Wandanschlüssen",
+   "sicherheitssperre_c": 40,
+   "durchfluss_l_min": 15.7,
+   "durchlauferhitzer": "geeignet",
+   "oberflaechen": [
+    "Chrom (26790000)"
+   ]
+  }
+ },
+ {
+  "sortierung": 4,
+  "name": "Schütte TRENTO Überkopf-Brauseset mit Thermostatarmatur, Chrom (60140)",
+  "hersteller": "Schütte",
+  "hersteller_nr": "60140",
+  "ean": "4008431601403",
+  "einsatzbereich": "Günstiges Markenmodell mit Thermostat",
+  "kurzbeschreibung": "Duschsystem mit Thermostatarmatur, rechteckiger Kopfbrause (ca. 30 x 20 cm) und Handbrause mit drei Strahlarten. Der Umsteller sitzt in der Duschstange.",
+  "vorteile": [
+   "Deutlich günstiger als die Systeme von GROHE und hansgrohe",
+   "Sicherheitssperre bei 38 °C, bei Bedarf aufhebbar; Thermostat laut Schütte selbst wechselbar",
+   "5 Jahre Herstellergarantie, Antikalk-Noppen"
+  ],
+  "nachteile": [
+   "Lochabstand, Ausgleich der S-Anschlüsse und Durchfluss der Kopfbrause gibt Schütte nicht an",
+   "Eignung für Durchlauferhitzer nennt Schütte nicht",
+   "Schütte gibt 1,5 bis 5 bar Betriebsdruck an; bei höherem Hausdruck vorher prüfen"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "bauart": "Thermostat",
+   "montage": "Aufputz",
+   "druck": "Hochdruck",
+   "kopfbrause_mm": 300,
+   "kopfbrause": "eckig, ca. 300 × 200 mm",
+   "handbrause": "Ø ca. 100 mm, 3 Strahlarten",
+   "hoehe_mm": 1508,
+   "hoehe": "1.508 mm, Stange verstellbar",
+   "anschluss": "1/2\", S-Anschlüsse",
+   "nachruesten": "ersetzt die Aufputz-Armatur an den Wandanschlüssen",
+   "sicherheitssperre_c": 38,
+   "oberflaechen": [
+    "Chrom (60140)",
+    "Schwarz matt (60170, EAN 4008431601700)"
+   ]
+  }
+ },
+ {
+  "sortierung": 5,
+  "name": "hansgrohe Crometta S Showerpipe 240 1jet mit Einhebelmischer (27269000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "27269000",
+  "ean": "4011097775920",
+  "einsatzbereich": "Einhebelmischer statt Thermostat",
+  "kurzbeschreibung": "Showerpipe mit Einhebel-Brausemischer, 240-mm-Kopfbrause und Handbrause mit zwei Strahlarten. Temperatur und Menge stellt man mit einem Hebel ein.",
+  "vorteile": [
+   "Einhebelmischer mit Keramikmischsystem, laut hansgrohe für Durchlauferhitzer mit 18 kW geeignet",
+   "240-mm-Kopfbrause mit 15 l/min bei 3 bar",
+   "Steigrohr lässt sich kürzen"
+  ],
+  "nachteile": [
+   "Braucht mindestens 1,8 bar Fließdruck, mehr als die anderen hansgrohe-Modelle hier",
+   "Keine Thermostatregelung und keine Sicherheitssperre bei 38 oder 40 °C",
+   "Nur in Chrom"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "bauart": "Einhebel",
+   "montage": "Aufputz",
+   "druck": "Hochdruck",
+   "kopfbrause_mm": 240,
+   "kopfbrause": "rund, Ø 240 mm, 1 Strahlart",
+   "handbrause": "2 Strahlarten",
+   "hoehe_mm": 1191,
+   "hoehe": "1.191 mm ab Anschlussmitte, Rohr kürzbar",
+   "anschluss": "G 1/2 (DN 15), Stichmaß 150 ± 12 mm",
+   "nachruesten": "ersetzt die Aufputz-Armatur an den Wandanschlüssen",
+   "durchfluss_l_min": 15,
+   "durchlauferhitzer": "ab 18 kW",
+   "oberflaechen": [
+    "Chrom (27269000)"
+   ]
+  }
+ },
+ {
+  "sortierung": 6,
+  "name": "hansgrohe Vernis Blend Showerpipe 200 1jet Reno (26272000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "26272000",
+  "ean": "4059625328934",
+  "einsatzbereich": "Regendusche nachrüsten an vorhandener Armatur",
+  "kurzbeschreibung": "Showerpipe ohne eigene Armatur mit 205-mm-Kopfbrause und Handbrause. Sie wird per Schlauch an den Abgang der vorhandenen Armatur angeschlossen, die Armatur bleibt.",
+  "vorteile": [
+   "Keine Arbeiten an den Wandanschlüssen; die vorhandene Auf- oder Unterputzarmatur bleibt",
+   "Kommt mit 1 bar Fließdruck aus, die EcoSmart-Variante mit 0,8 bar",
+   "In Chrom und Mattschwarz (26272670)"
+  ],
+  "nachteile": [
+   "Temperaturregelung und Verbrühschutz hängen von der vorhandenen Armatur ab",
+   "Das hansgrohe-Datenblatt nennt höchstens 6 bar Betriebsdruck; bei höherem Hausdruck vorher prüfen",
+   "Der Anschlussschlauch läuft sichtbar von der Armatur zur unteren Konsole"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "bauart": "ohne Armatur",
+   "montage": "Aufputz",
+   "druck": "Hochdruck",
+   "kopfbrause_mm": 205,
+   "kopfbrause": "rund, Ø 205 mm, 1 Strahlart",
+   "handbrause": "2 Strahlarten",
+   "hoehe_mm": 1129,
+   "hoehe": "1.129 mm ab unterer Konsole",
+   "anschluss": "Schlauch G 1/2 an die vorhandene Armatur",
+   "nachruesten": "an den Brauseabgang der vorhandenen Armatur",
+   "durchfluss_l_min": 12.4,
+   "durchlauferhitzer": "geeignet",
+   "oberflaechen": [
+    "Chrom (26272000)",
+    "Mattschwarz (26272670, EAN 4059625330067)"
+   ]
+  }
+ },
+ {
+  "sortierung": 7,
+  "name": "GROHE Tempesta System 250 Flex Duschsystem mit Umstellung für die Wandmontage (26675001)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "26675001",
+  "ean": "4005176766954",
+  "einsatzbereich": "Günstig nachrüsten ohne neue Armatur",
+  "kurzbeschreibung": "Duschsystem ohne eigene Armatur: Der 500-mm-Schlauch kommt an die vorhandene Armatur oder einen Wandabgangsbogen. Der Umsteller wählt Handbrause, Kopfbrause oder Kopfbrause mit weniger Wasser.",
+  "vorteile": [
+   "Die günstigste Lösung zum Nachrüsten in dieser Auswahl",
+   "Umsteller mit drei Stellungen, Handbrause mit drei Strahlarten",
+   "Zwei Halterabstände (620 oder 920 mm) für unterschiedliche Raumhöhen"
+  ],
+  "nachteile": [
+   "Kopfbrause mit 7,9 l/min bei 3 bar, eher sanft als kräftig",
+   "Temperaturregelung und Verbrühschutz hängen von der vorhandenen Armatur ab",
+   "Vor dem Kauf prüfen, dass der Brauseabgang der vorhandenen Armatur ein 1/2-Zoll-Gewinde hat"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "bauart": "ohne Armatur",
+   "montage": "Aufputz",
+   "druck": "Hochdruck",
+   "kopfbrause_mm": 250,
+   "kopfbrause": "rund, Ø 250 mm, 1 Strahlart plus Sparstellung",
+   "handbrause": "Ø 110 mm, 3 Strahlarten",
+   "hoehe_mm": 1036,
+   "hoehe": "736 oder 1.036 mm, je nach Halterabstand",
+   "anschluss": "Schlauch 1/2\" an die vorhandene Armatur",
+   "nachruesten": "an die vorhandene Armatur oder einen Wandanschlussbogen",
+   "durchfluss_l_min": 7.9,
+   "durchlauferhitzer": "ab 18 kW",
+   "oberflaechen": [
+    "Chrom"
+   ]
+  }
+ }
+]

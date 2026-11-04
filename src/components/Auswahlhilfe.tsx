@@ -111,8 +111,11 @@ export default function Auswahlhilfe({ pfad, modelle, fussnote }: { pfad: string
     const a = antworten(m);
     return !a.includes(false) && a.includes(null);
   });
-  // Optionen mit Verweis, zu denen kein Modell passt (z. B. Untertischspeicher → Niederdruck-Ratgeber)
-  const verweise = gewaehlt.filter((o) => o.sonst && !modelle.some((m) => o.passt(m.daten) === true));
+  // Optionen mit Verweis, zu denen kein Modell passt (z. B. Untertischspeicher → Niederdruck-Ratgeber),
+  // oder deren Kombination mit den übrigen Antworten nichts übrig lässt (Vorfenster und Brause)
+  const verweise = gewaehlt.filter(
+    (o) => o.sonst && (passend.length === 0 || !modelle.some((m) => o.passt(m.daten) === true)),
+  );
   const eckdaten = (m: AuswahlModell) => ratgeber.eckdaten(m.daten).filter((x): x is string => !!x);
   const zuruecksetzen = gewaehlt.length > 0 && (
     <button type="button" onClick={() => setWahl({})} className="font-normal text-accent-700 underline decoration-accent-300 underline-offset-2">
@@ -174,8 +177,8 @@ export default function Auswahlhilfe({ pfad, modelle, fussnote }: { pfad: string
           {passend.length === modelle.length
             ? `Alle ${modelle.length} ${ratgeber.mehrzahl}:`
             : passend.length === 0
-              ? `Keine der ${modelle.length} ${ratgeber.mehrzahl} hier passt${unklar.length > 0 ? " sicher" : ""}.`
-              : `${passend.length} von ${modelle.length} ${ratgeber.mehrzahl} ${passend.length === 1 ? "passt" : "passen"}:`}{" "}
+              ? `Von den ${modelle.length} Modellen hier passt keins${unklar.length > 0 ? " sicher" : ""}.`
+              : `${passend.length} von ${modelle.length} Modellen ${passend.length === 1 ? "passt" : "passen"}:`}{" "}
           {zuruecksetzen}
         </p>
         {passend.length > 0 && (

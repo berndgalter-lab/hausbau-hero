@@ -27,7 +27,10 @@
    "sicherheitssperre_c": 38,
    "durchlauferhitzer": "ab 18 kW",
    "kartusche": "TurboStat-Kompaktkartusche 1/2\", Ersatzteil 47439000",
-   "oberflaechen": ["Chrom", "Mattschwarz"]
+   "oberflaechen": [
+    "Chrom",
+    "Mattschwarz"
+   ]
   }
  },
  {
@@ -58,7 +61,10 @@
    "sicherheitssperre_c": 38,
    "durchlauferhitzer": "ab 18 kW",
    "kartusche": "TurboStat-Kompaktkartusche 1/2\", Ersatzteil 47439000",
-   "oberflaechen": ["Chrom", "Phantom Black (34827KF0)"]
+   "oberflaechen": [
+    "Chrom",
+    "Phantom Black (34827KF0)"
+   ]
   }
  },
  {
@@ -89,7 +95,14 @@
    "sicherheitssperre_c": 40,
    "durchlauferhitzer": "geeignet",
    "kartusche": "Regeleinheit, Ersatzteil 98282000",
-   "oberflaechen": ["Chrom", "Mattschwarz (13116670)", "Mattweiß (13116700)", "Brushed Black Chrome (13116340)", "Brushed Bronze (13116140)", "Polished Gold Optic (13116990)"]
+   "oberflaechen": [
+    "Chrom",
+    "Mattschwarz (13116670)",
+    "Mattweiß (13116700)",
+    "Brushed Black Chrome (13116340)",
+    "Brushed Bronze (13116140)",
+    "Polished Gold Optic (13116990)"
+   ]
   }
  },
  {
@@ -120,7 +133,9 @@
    "sicherheitssperre_c": 40,
    "durchlauferhitzer": "geeignet",
    "kartusche": "Regeleinheit, Ersatzteil 94282000",
-   "oberflaechen": ["Chrom"]
+   "oberflaechen": [
+    "Chrom"
+   ]
   }
  },
  {
@@ -150,7 +165,10 @@
    "abgang": "unten",
    "sicherheitssperre_c": 38,
    "kartusche": "Thermostatelement, austauschbar",
-   "oberflaechen": ["Chrom", "Schwarz matt (52466)"]
+   "oberflaechen": [
+    "Chrom",
+    "Schwarz matt (52466)"
+   ]
   }
  },
  {
@@ -179,7 +197,82 @@
    "abgang": "oben oder unten (wahlweise)",
    "sicherheitssperre_c": 38,
    "kartusche": "Dehnstoff-Thermoelement, Ersatzteil 47450000",
-   "oberflaechen": ["Chrom", "Chrom/Gold (34678IG0)", "Weiß (34678L00)", "Weiß/Gold (34678LG0)", "Bronze (34678Z00)"]
+   "oberflaechen": [
+    "Chrom",
+    "Chrom/Gold (34678IG0)",
+    "Weiß (34678L00)",
+    "Weiß/Gold (34678LG0)",
+    "Bronze (34678Z00)"
+   ]
+  }
+ },
+ {
+  "sortierung": 7,
+  "name": "GROHE Grohtherm Unterputz-Thermostat mit 2-Wege-Umstellung, rund (24076000)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "24076000",
+  "ean": "4005176465994",
+  "einsatzbereich": "Unterputz-Dusche mit GROHE Rapido SmartBox, Kopf- und Handbrause",
+  "kurzbeschreibung": "Fertigset für die SmartBox: rechts die Temperatur mit Sperre bei 38 °C, links ein Griff, der das Wasser öffnet, die Menge regelt und zwischen Kopf- und Handbrause umschaltet. Eckig als 24079000, für nur eine Brause als 24075000.",
+  "vorteile": [
+   "Zwei Brausen mit einem Griff: Kopfbrause an Abgang B, Handbrause an Abgang C der SmartBox",
+   "Sperre bei 38 °C, fester Endanschlag bei 43 oder 46 °C einsetzbar",
+   "Kartusche und Rückflussverhinderer werden von vorn getauscht"
+  ],
+  "nachteile": [
+   "Ohne Grundkörper und Brausen. SmartBox, Brausearm mit Kopfbrause, Wandanschlussbogen und Handbrause kommen dazu, als Komplettset heißt das 34872000",
+   "Braucht mindestens 5 l/min und Warmwasser, das mindestens 2 °C wärmer ist als die eingestellte Temperatur",
+   "Nach jeder Wartung an der Kartusche neu auf 38 °C justieren"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "bauart": "Thermostat",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "grundkoerper": "GROHE Rapido SmartBox (35 600 / 35 604)",
+   "abgaenge": 2,
+   "abgang": "Kopf- und Handbrause mit Umstellung",
+   "sicherheitssperre_c": 38,
+   "kartusche": "TurboStat-Kompaktkartusche 3/4\", Ersatzteil 49028000",
+   "rosette": "rund, Ø 158 mm (eckig: 24079000)",
+   "oberflaechen": [
+    "Chrom"
+   ]
+  }
+ },
+ {
+  "sortierung": 8,
+  "name": "hansgrohe Ecostat Comfort E Unterputz-Thermostat für 1 Verbraucher (33710000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "33710000",
+  "ean": "4059625624319",
+  "einsatzbereich": "Unterputz-Dusche mit hansgrohe iBox universal 2 und einer Brause",
+  "kurzbeschreibung": "Fertigset für die iBox universal 2 mit Temperatur- und Mengengriff auf einer eckigen Rosette (155 mm). Sperre bei 40 °C. Für Kopf- und Handbrause gibt es die Variante 33711000.",
+  "vorteile": [
+   "Sperre bei 40 °C, eine Höchsttemperatur wie 42 °C lässt sich zusätzlich einstellen",
+   "Die Griffe sitzen laut hansgrohe unabhängig von der Einbautiefe der iBox gleich hoch",
+   "Auch in Mattschwarz (33710670)"
+  ],
+  "nachteile": [
+   "Nur eine Brause. Für Kopf- und Handbrause braucht es 33711000",
+   "Passt nur auf die iBox universal 2, nicht auf die ältere iBox",
+   "Rosette aus Kunststoff; hansgrohe sagt für dieses Set nichts zum Durchlauferhitzer"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "bauart": "Thermostat",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "grundkoerper": "hansgrohe iBox universal 2",
+   "abgaenge": 1,
+   "abgang": "1 Brause (Hand- oder Kopfbrause)",
+   "sicherheitssperre_c": 40,
+   "kartusche": "Regeleinheit, Ersatzteil 98282000",
+   "rosette": "eckig, □ 155 mm, Kunststoff",
+   "oberflaechen": [
+    "Chrom",
+    "Mattschwarz (33710670)"
+   ]
   }
  }
 ]
