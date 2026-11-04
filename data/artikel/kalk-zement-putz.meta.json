@@ -3,7 +3,12 @@
  "silo": "rohbau",
  "titel": "Kalk-Zement-Putz: Verarbeitung, Kosten und Einsatzbereiche",
  "seo_title": "Kalk-Zement-Putz: Verarbeitung, Kosten und Einsatzbereiche",
- "seo_description": "Kalk-Zement-Putz für Bad, Küche und Fassade: Kosten pro m², Verarbeitung Schritt für Schritt und der Vergleich mit Gipsputz.",
- "altbestand": true,
- "quellen": []
+ "seo_description": "Kalk-Zement-Putz für Bad, Keller und Fassade: Schichtdicken, Verbrauch je mm, Standzeit und Materialkosten pro m² nach Herstellerangaben, dazu der Vergleich mit Gipsputz unter Fliesen.",
+ "quellen": [
+  "https://www.baumit-selbermachen.de/chameleon/public/9da95623-7166-ee7b-3524-dc80cf5dfe27/PDS_Putzmoertel_de_56313.pdf",
+  "https://media.hornbach.de/hb/technicaldatasheet/as.103123005.pdf",
+  "https://www.baumit-selbermachen.de/chameleon/public/79b31f7a-af4d-b40b-deae-f2bf8421888c/PDS_Gips-Kalk-Maschinenputz_de_60585.pdf",
+  "https://www.heinze.de/m2/02/4739402/etc/54/48663254.pdf",
+  "https://www.hornbach.de/p/baumit-putzmoertel-25-kg/7798652/"
+ ]
 }

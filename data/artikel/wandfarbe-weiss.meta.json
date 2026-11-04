@@ -3,7 +3,12 @@
  "silo": "farben",
  "titel": "Wandfarbe Weiß: Welche Deckkraft brauchst du wirklich?",
  "seo_title": "Wandfarbe Weiß: Welche Deckkraft brauchst du wirklich?",
- "seo_description": "Deckkraftklassen erklärt: Welche weiße Wandfarbe lohnt sich? Ergiebigkeit, Kosten pro Liter und Nassabriebklassen.",
- "altbestand": true,
- "quellen": []
+ "seo_description": "Deckvermögen und Nassabrieb nach DIN EN 13300 erklärt: was die Klassen messen, warum die Ergiebigkeit dazugehört und wie du den Farbverbrauch ausrechnest.",
+ "quellen": [
+  "https://toom.de/selbermachen/bauen-renovieren/wand-decke/waende-streichen/deckkraft-von-farben/",
+  "https://www.doerken.com/de/de/content/preview/22429/file/LUCITE%C2%AEHVLP%202in1%20Satin%20Pr%C3%BCfbericht:%20Nassabrieb.pdf",
+  "https://www.caparol.de/caparol_pim_import/caparol_de/broschueren/pdfs/302733_CAP-25150_BRO_Innenfarben.pdf",
+  "https://www.caparol.de/en/product-range/paints/interior-paints/wet-abrasion-class-1-matt-scrub-resistant/indeko-plus",
+  "https://www.keim.com/documents/de-DE/723/TM_Biosil_DE-DE.pdf"
+ ]
 }
