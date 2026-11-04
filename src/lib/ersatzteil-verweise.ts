@@ -39,10 +39,12 @@ const VERWEISE: Record<string, Verweis[]> = {
     { href: "/ersatzteile/hansgrohe/talis-e-waschtisch", titel: "Ersatzteile für hansgrohe Talis E", art: "serie" },
   ],
   "waschtischarmatur-mit-brause": [
-    { href: "/ersatzteile/grohe/europlus-waschtisch", titel: "Ersatzteile für Grohe Europlus Waschtischarmatur", art: "serie" },
-    { href: "/ersatzteile/grohe", titel: "Grohe Ersatzteile: Kartuschen, Strahlregler, Schläuche", art: "marke" },
-    { href: "/ersatzteile/hansgrohe", titel: "hansgrohe Ersatzteile: Kartuschen M1, M3/M2 und Thermostatkartuschen", art: "marke" },
-    { href: "/problem/grohe-armatur-tropft", titel: "Armatur tropft: Ursachen und passende Kartusche", art: "problem" },
+    { href: "/problem/grohe-armatur-tropft", titel: "GROHE-Armatur tropft: Ursachen und passende Kartusche", art: "problem" },
+    { href: "/problem/hansgrohe-armatur-tropft", titel: "hansgrohe-Armatur tropft: Kartusche finden und tauschen", art: "problem" },
+    { href: "/problem/grohe-strahlregler-verkalkt", titel: "Wasserstrahl spritzt: Strahlregler verkalkt", art: "problem" },
+    { href: "/ersatzteile/grohe/europlus-waschtisch", titel: "Ersatzteile für GROHE Europlus", art: "serie" },
+    { href: "/ersatzteile/grohe", titel: "GROHE Ersatzteile: Kartuschen, Strahlregler, Schläuche", art: "marke" },
+    { href: "/ersatzteile/hansgrohe", titel: "hansgrohe Ersatzteile: Kartuschen und Strahlregler", art: "marke" },
   ],
   "niederdruckarmatur-untertischspeicher": [
     { href: "/problem/grohe-armatur-tropft", titel: "GROHE-Armatur tropft auch bei kaltem Speicher: Kartusche tauschen", art: "problem" },

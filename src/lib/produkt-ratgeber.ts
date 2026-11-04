@@ -109,7 +109,7 @@ const WASCHTISCHARMATUR: ProduktRatgeber = {
           passt: (d) => (d.brause ? d.brause.toLowerCase() !== "nein" : null),
           sonst: {
             text: "Mit herausziehbarer Brause gibt es einen eigenen Ratgeber.",
-            href: "/bad/waschtischarmatur-mit-brause",
+            href: "/ratgeber/waschtischarmatur-mit-brause",
             linktext: "Waschtischarmatur mit Brause",
           },
         },
@@ -194,7 +194,76 @@ const NIEDERDRUCKARMATUR: ProduktRatgeber = {
   ],
 };
 
-export const PRODUKT_RATGEBER: ProduktRatgeber[] = [WASCHTISCHARMATUR, NIEDERDRUCKARMATUR];
+const echteBrause = (d: ArmaturDaten): boolean | null => (d.brause ? !/auslauf/i.test(d.brause) && d.brause.toLowerCase() !== "nein" : null);
+
+const WASCHTISCHARMATUR_MIT_BRAUSE: ProduktRatgeber = {
+  pfad: "waschtischarmatur-mit-brause",
+  slug: "waschtischarmatur-mit-brause",
+  silo: "bad",
+  name: "Waschtischarmatur mit Brause",
+  mehrzahl: "Armaturen",
+  fragen: [
+    {
+      key: "warmwasser",
+      label: "Warmwasser",
+      hinweis: "Hängt unter dem Becken ein kleiner offener Boiler mit drei Anschlüssen, ist es ein Untertischspeicher.",
+      optionen: [
+        { label: "zentral oder Durchlauferhitzer", passt: (d) => (d.druck ? d.druck === "Hochdruck" : null) },
+        {
+          label: "Untertischspeicher",
+          passt: (d) => (d.druck ? d.druck === "Niederdruck" : null),
+          sonst: {
+            text: "Alle Brause-Armaturen hier sind Hochdruckarmaturen. Am offenen Untertischspeicher brauchst du eine Niederdruckarmatur, die gibt es bei den Marken hier nur ohne Brause.",
+            href: "/ratgeber/niederdruckarmatur",
+            linktext: "Niederdruckarmaturen ansehen",
+          },
+        },
+      ],
+    },
+    {
+      key: "brause",
+      label: "Brause",
+      hinweis: "Zum Haarewaschen ist ein Brausekopf am Schlauch besser, zum Ausspülen des Beckens reicht ein ausziehbarer Auslauf.",
+      optionen: [
+        { label: "Brausekopf am Schlauch", passt: echteBrause },
+        { label: "ausziehbarer Auslauf reicht", passt: (d) => (d.brause ? /auslauf/i.test(d.brause) : null) },
+      ],
+    },
+    {
+      key: "becken",
+      label: "Becken",
+      hinweis: "Beim Aufsatzbecken bleibt als Freiraum die Auslaufhöhe minus die Höhe des Beckenrands über der Platte.",
+      optionen: [
+        {
+          label: "Einbau- oder Wandbecken",
+          passt: (d) => (typeof d.auslaufhoehe_mm === "number" ? d.auslaufhoehe_mm < AUFSATZ_AB_MM : null),
+        },
+        {
+          label: "Aufsatzbecken",
+          passt: (d) => (typeof d.auslaufhoehe_mm === "number" ? d.auslaufhoehe_mm >= AUFSATZ_AB_MM : null),
+        },
+      ],
+    },
+    {
+      key: "ablauf",
+      label: "Ablauf",
+      hinweis: "Zugstange: Stab hinter der Armatur. Push-Open oder Pop-Up: Druck auf den Stopfen im Becken.",
+      optionen: [
+        { label: "Zugstange", passt: (d) => enthaelt(d.ablauf, /zug/i) },
+        { label: "Push-Open", passt: (d) => enthaelt(d.ablauf, /push|pop/i) },
+      ],
+    },
+  ],
+  eckdaten: (d) => [
+    d.brause ?? null,
+    mm(d.auslaufhoehe_mm, "Auslaufhöhe"),
+    mm(d.ausladung_mm, "Ausladung"),
+    d.ablauf ?? null,
+    typeof d.durchfluss_l_min === "number" ? `${d.durchfluss_l_min.toLocaleString("de-DE")} l/min` : null,
+  ],
+};
+
+export const PRODUKT_RATGEBER: ProduktRatgeber[] = [WASCHTISCHARMATUR, NIEDERDRUCKARMATUR, WASCHTISCHARMATUR_MIT_BRAUSE];
 
 export function ratgeberNachPfad(pfad: string): ProduktRatgeber | null {
   return PRODUKT_RATGEBER.find((r) => r.pfad === pfad) ?? null;
