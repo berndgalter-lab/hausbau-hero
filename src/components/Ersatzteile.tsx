@@ -238,11 +238,14 @@ export function MarkenFragen({
   fragen,
   teile,
   id,
+  titel,
 }: {
   markeName: string;
   fragen: MarkenFrage[];
   teile: Pick<Teil, "slug" | "name">[];
   id?: string;
+  /** Statt „Häufige Fragen zu <Marke>-Ersatzteilen“, z. B. auf Teileart- und Problemseiten. */
+  titel?: string;
 }) {
   if (fragen.length === 0) return null;
   // Kurz wie in der Teile-Liste: ohne Markennamen vorne und ohne Nummer in Klammern hinten.
@@ -265,7 +268,7 @@ export function MarkenFragen({
   return (
     <section id={id} className="mb-14 scroll-mt-20">
       <JsonLd daten={ld} />
-      <h2 className="text-2xl font-bold mb-2">Häufige Fragen zu {markeName}-Ersatzteilen</h2>
+      <h2 className="text-2xl font-bold mb-2">{titel ?? `Häufige Fragen zu ${markeName}-Ersatzteilen`}</h2>
       <p className="text-stone-600 max-w-2xl mb-5">
         Gesammelt aus Foren und Suchanfragen. Jede Antwort nennt ihre Quelle.
       </p>

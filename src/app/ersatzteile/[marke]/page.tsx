@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import TeilBild from "@/components/TeilBild";
+import TeilartSeite from "@/components/TeilartSeite";
+import { teilartNachSlug } from "@/lib/teilarten";
 import { Absaetze, Brotkrumen, JsonLd, MarkenFragen, Quellen, Widersprueche, brotkrumenLd } from "@/components/Ersatzteile";
 import {
   PRODUKTTYP_LABEL,
@@ -23,6 +25,18 @@ export const revalidate = 3600;
 type Props = { params: { marke: string } };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  // /ersatzteile/<teilart> (Eckventil, Perlator …) und /ersatzteile/<marke> teilen sich die Route.
+  // Die Prüfregel stellt sicher, dass kein Marken-Slug wie eine Teileart heißt.
+  const ta = teilartNachSlug(params.marke);
+  if (ta) {
+    const url = `${SITE_URL}/ersatzteile/${ta.slug}`;
+    return {
+      title: ta.seo_title,
+      description: ta.seo_description,
+      alternates: { canonical: url },
+      openGraph: { title: ta.seo_title, description: ta.seo_description, url },
+    };
+  }
   const marke = await markeNachSlug(params.marke);
   if (!marke) return {};
   // Womo-Teile-Erfahrung: "<Marke> Ersatzteile/Ersatzteilkatalog" ist der Suchbegriff, die Artikelnummer der Mehrwert.
@@ -53,6 +67,8 @@ function Abschnitt({ id, titel, intro, children }: { id: string; titel: string; 
 // (Problem, Nummer, Modell, Teileart), darunter die Abschnitte in dieser Reihenfolge.
 // Kein Link zum Hersteller-Shop; gekauft wird auf der Teil-Seite.
 export default async function MarkenHub({ params }: Props) {
+  const ta = teilartNachSlug(params.marke);
+  if (ta) return <TeilartSeite ta={ta} />;
   const marke = await markeNachSlug(params.marke);
   if (!marke) notFound();
 

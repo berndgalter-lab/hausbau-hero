@@ -156,10 +156,82 @@ def pruefe_fragen(datei: str, d: dict) -> None:
             fehler.append(f"{datei}: Frage verweist auf unbekanntes Problem {f['problem']}")
 
 
+def pruefe_teilarten_und_probleme() -> None:
+    """data/teilarten und data/probleme (docs/SEITENAUFBAU.md 4b, 4c): Pflichtfelder, Fragen, Verweise, Registrierung."""
+    root = DATA.parent
+    marken = {}
+    for datei in json.loads((DATA / "ersatzteile" / "index.json").read_text()):
+        d = json.loads((DATA / "ersatzteile" / datei).read_text())
+        marken[d["marke"]["slug"]] = d
+    alle_teile = {t["slug"] for d in marken.values() for t in d.get("teile", [])}
+    marken_probleme = {p["slug"] for d in marken.values() for p in d.get("probleme", [])}
+    bereiche = set(re.findall(r'^    slug: "([a-z0-9-]+)"', (root / "src/lib/bereiche.ts").read_text(), re.M))
+    teilarten = {f.stem for f in (DATA / "teilarten").glob("*.json")}
+    probleme = {f.stem for f in (DATA / "probleme").glob("*.json")}
+
+    for art, ordner, pflicht, registry in [
+        ("teilart", "teilarten", ("slug", "name", "mehrzahl", "genus", "titel", "seo_title", "seo_description", "kurz", "bereiche", "teiltypen", "erkennen", "fragen", "quellen"), "src/lib/teilarten.ts"),
+        ("problem", "probleme", ("slug", "titel", "seo_title", "seo_description", "symptom", "bereich", "ursachen", "pruefen", "marken_probleme", "fragen", "quellen"), "src/lib/probleme-allgemein.ts"),
+    ]:
+        reg = (root / registry).read_text()
+        for f in sorted((DATA / ordner).glob("*.json")):
+            name = f"{ordner}/{f.name}"
+            d = json.loads(f.read_text())
+            for k in pflicht:
+                if k not in d or d[k] in ("", None):
+                    fehler.append(f"{name}: Feld „{k}“ fehlt")
+            if d.get("slug") != f.stem:
+                fehler.append(f"{name}: slug „{d.get('slug')}“ passt nicht zum Dateinamen")
+            if f"{ordner}/{f.stem}.json" not in reg:
+                fehler.append(f"{name}: nicht in {registry} eingetragen")
+            if not d.get("quellen"):
+                fehler.append(f"{name}: keine Quellen")
+            for k in ("titel", "seo_title"):
+                for muster, was in TITEL_VERBOTEN:
+                    if isinstance(d.get(k), str) and muster.search(d[k]):
+                        fehler.append(f"{name}: {was} in {k}")
+            texte_ = [d.get("kurz", ""), d.get("symptom", ""), d.get("fachbetrieb_ab", "")]
+            texte_ += [e.get("text", "") for e in d.get("erkennen", [])]
+            texte_ += [u.get("erklaerung", "") for u in d.get("ursachen", [])]
+            texte_ += list(d.get("pruefen", []))
+            for t in texte_:
+                m = NOTIZ.search(t or "")
+                if m:
+                    fehler.append(f"{name}: Notiz-Sprache („{m.group(0)}“)")
+            if art == "teilart":
+                if d.get("genus") not in ("m", "f", "n"):
+                    fehler.append(f"{name}: genus muss m, f oder n sein")
+                if d.get("slug") in marken:
+                    fehler.append(f"{name}: slug ist auch eine Marke, /ersatzteile/{d['slug']} wäre doppelt belegt")
+                for b in d.get("bereiche", []):
+                    if b not in bereiche:
+                        fehler.append(f"{name}: unbekannter Bereich {b}")
+                for p in d.get("probleme", []):
+                    if p not in probleme and p not in marken_probleme:
+                        fehler.append(f"{name}: unbekanntes Problem {p}")
+                for pr in d.get("produkte", []):
+                    if pr.get("amazon_asin") and not re.fullmatch(r"[A-Z0-9]{10}", pr["amazon_asin"]):
+                        fehler.append(f"{name}: ungültige ASIN {pr['amazon_asin']}")
+            else:
+                if d.get("bereich") not in bereiche:
+                    fehler.append(f"{name}: unbekannter Bereich {d.get('bereich')}")
+                for p in d.get("marken_probleme", []):
+                    if p not in marken_probleme:
+                        fehler.append(f"{name}: unbekanntes Marken-Problem {p}")
+                for u in d.get("ursachen", []):
+                    if u.get("teilart") and u["teilart"] not in teilarten:
+                        fehler.append(f"{name}: Ursache verweist auf unbekannte Teileart {u['teilart']}")
+                    if u.get("haeufigkeit") not in (None, "häufig", "gelegentlich", "selten"):
+                        fehler.append(f"{name}: Häufigkeit „{u.get('haeufigkeit')}“ unbekannt")
+            pruefe_fragen(name, {"marke": {"fragen": d.get("fragen", [])}, "teile": [{"slug": s} for s in alle_teile],
+                                 "probleme": [{"slug": s} for s in marken_probleme | probleme]})
+
+
 def main() -> int:
     streng = "--streng" in sys.argv
     pruefe_artikel()
     pruefe_ersatzteile(streng)
+    pruefe_teilarten_und_probleme()
     for h in hinweise:
         print(f"HINWEIS  {h}")
     for f in fehler:

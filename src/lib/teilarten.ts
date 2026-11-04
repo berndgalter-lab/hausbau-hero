@@ -1,0 +1,70 @@
+import type { MarkenFrage } from "@/lib/ersatzteile";
+
+// Teileart-Seiten unter /ersatzteile/<teilart> (docs/SEITENAUFBAU.md, Abschnitt 4b): ein Teil, das in vielen
+// Marken steckt (Eckventil, Perlator, Siphon …), markenübergreifend erklärt. Inhalt aus data/teilarten/<slug>.json,
+// fest im Code eingebunden (TEILARTEN unten), damit die Seite ohne Import in die Datenbank auskommt.
+// Live-Daten (unsere Teile, Shop-Preise) kommen weiter aus der Datenbank.
+
+export interface TeilartProdukt {
+  name: string;
+  hersteller?: string;
+  /** Für Bild und Preis aus den Partner-Feeds (Tabelle ean_angebote). */
+  ean?: string;
+  /** Nur geprüfte ASINs der Produktseite, keine Suche. */
+  amazon_asin?: string;
+  /** Ein kurzer Satz, wofür das Produkt passt („3/8" auf 3/8", mit Filter“). */
+  hinweis?: string;
+}
+
+export interface Teilart {
+  slug: string;
+  /** Einzahl, wie in Überschriften: „Eckventil“. */
+  name: string;
+  /** Mehrzahl für Listen: „Eckventile“. */
+  mehrzahl: string;
+  /** Grammatisches Geschlecht für „den passenden Perlator“, „die passende Kartusche“, „das passende Eckventil“. */
+  genus: "m" | "f" | "n";
+  /** H1, als Frage oder mit dem, was die Seite beantwortet. Keine Jahreszahl, keine Anzahl. */
+  titel: string;
+  seo_title: string;
+  seo_description: string;
+  /** Zwei bis drei Sätze oben: was das Teil ist und worauf es ankommt. Leerzeile trennt Absätze. */
+  kurz: string;
+  /** Slugs aus src/lib/bereiche.ts. */
+  bereiche: string[];
+  /** teile.teiltyp: Diese Teile aus den Marken-Dateien erscheinen unter „nach Marke“. */
+  teiltypen: string[];
+  /** So bestimmst du Typ und Größe, in Schritten. */
+  erkennen: { titel: string; text: string }[];
+  groessen?: { titel: string; spalten: string[]; zeilen: string[][]; hinweis?: string };
+  produkte?: TeilartProdukt[];
+  /** Slugs von Problemseiten (markenübergreifend oder je Marke). */
+  probleme?: string[];
+  fragen: MarkenFrage[];
+  quellen: string[];
+}
+
+// Neue Teileart: JSON-Datei in data/teilarten anlegen und hier eintragen.
+const TEILARTEN: Teilart[] = [];
+
+/** „den passenden Perlator“ / „die passende Kartusche“ / „das passende Eckventil“ (Akkusativ). */
+export function denPassenden(t: Pick<Teilart, "name" | "genus">): string {
+  return { m: "den passenden", f: "die passende", n: "das passende" }[t.genus] + " " + t.name;
+}
+
+/** „zum Perlator“ / „zur Kartusche“ / „zum Eckventil“ (Dativ). */
+export function zumZur(t: Pick<Teilart, "name" | "genus">): string {
+  return (t.genus === "f" ? "zur " : "zum ") + t.name;
+}
+
+export function alleTeilarten(): Teilart[] {
+  return TEILARTEN;
+}
+
+export function teilartNachSlug(slug: string): Teilart | null {
+  return TEILARTEN.find((t) => t.slug === slug) ?? null;
+}
+
+export function teilartenImBereich(bereich: string): Teilart[] {
+  return TEILARTEN.filter((t) => t.bereiche.includes(bereich));
+}

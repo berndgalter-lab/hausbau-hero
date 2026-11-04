@@ -4,8 +4,8 @@ import BereichBild from "@/components/BereichBild";
 import { BereichKachel, RatgeberKarten } from "@/components/Bereich";
 import { Brotkrumen, JsonLd, brotkrumenLd } from "@/components/Ersatzteile";
 import { BEREICHE, TEILTYP_SUCHWORT, bereichNachSlug } from "@/lib/bereiche";
-import { bereichDaten } from "@/lib/bereiche-daten";
-import { PRODUKTTYP_LABEL, SITE_URL, TEILTYP_LABEL, alleProbleme } from "@/lib/ersatzteile";
+import { bereichDaten, bereichIstDuenn, sichtbareBereiche } from "@/lib/bereiche-daten";
+import { PRODUKTTYP_LABEL, SITE_URL, TEILTYP_LABEL } from "@/lib/ersatzteile";
 
 export const revalidate = 3600;
 
@@ -21,8 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `${b.name}: Ersatzteile, Probleme und Ratgeber`;
   const description = `${b.kurz} Passende Ersatzteile nach Marke und Modell, Ursachen finden und das richtige Produkt wählen.`;
   const url = `${SITE_URL}/bereich/${b.slug}`;
-  // Ohne Modelle und ohne Probleme ist die Seite nur eine Linkliste: nicht indexieren, bis es Daten gibt.
-  const duenn = b.produkttypen.length === 0 && !(await alleProbleme()).some((p) => b.probleme.test(p.slug));
+  const duenn = bereichIstDuenn(b, await bereichDaten(b));
   return {
     title,
     description,
@@ -46,7 +45,8 @@ function Abschnitt({ titel, children }: { titel: string; children: React.ReactNo
 export default async function BereichSeite({ params }: Props) {
   const b = bereichNachSlug(params.slug);
   if (!b) notFound();
-  const d = await bereichDaten(b);
+  const [d, sichtbar] = await Promise.all([bereichDaten(b), sichtbareBereiche()]);
+  if (!sichtbar.some((x) => x.slug === b.slug)) notFound();
 
   const serienJeMarke = d.marken.map((m) => ({
     marke: m,
@@ -56,7 +56,7 @@ export default async function BereichSeite({ params }: Props) {
     { name: "Start", href: "/" },
     { name: b.name, href: `/bereich/${b.slug}` },
   ];
-  const andere = BEREICHE.filter((x) => x.slug !== b.slug);
+  const andere = sichtbar.filter((x) => x.slug !== b.slug);
 
   return (
     <div className="max-w-4xl">
@@ -73,14 +73,38 @@ export default async function BereichSeite({ params }: Props) {
         </div>
       </header>
 
-      {d.probleme.length > 0 && (
+      {(d.probleme.length > 0 || d.allgemeineProbleme.length > 0) && (
         <Abschnitt titel="Was ist kaputt?">
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {d.allgemeineProbleme.map((p) => (
+              <li key={p.slug}>
+                <a href={`/problem/${p.slug}`} className="group flex h-full flex-col p-4 bg-white border border-amber-200 rounded-xl hover:border-amber-400">
+                  <span className="text-xs text-stone-500">Für alle Marken</span>
+                  <span className="font-semibold text-stone-900 group-hover:text-amber-700">{p.titel}</span>
+                  <span className="text-sm text-stone-600 mt-1 line-clamp-2">{p.symptom}</span>
+                </a>
+              </li>
+            ))}
             {d.probleme.map((p) => (
               <li key={p.id}>
                 <a href={`/problem/${p.slug}`} className="group flex h-full flex-col p-4 bg-white border border-stone-200 rounded-xl hover:border-amber-400">
                   <span className="font-semibold text-stone-900 group-hover:text-amber-700">{p.titel}</span>
                   {p.symptom && <span className="text-sm text-stone-600 mt-1 line-clamp-2">{p.symptom}</span>}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </Abschnitt>
+      )}
+
+      {d.teilarten.length > 0 && (
+        <Abschnitt titel="Teile erklärt">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {d.teilarten.map((t) => (
+              <li key={t.slug}>
+                <a href={`/ersatzteile/${t.slug}`} className="group flex h-full flex-col p-4 bg-white border border-stone-200 rounded-xl hover:border-amber-400">
+                  <span className="font-semibold text-stone-900 group-hover:text-amber-700">{t.titel}</span>
+                  <span className="text-sm text-stone-600 mt-1 line-clamp-2">{t.seo_description}</span>
                 </a>
               </li>
             ))}
