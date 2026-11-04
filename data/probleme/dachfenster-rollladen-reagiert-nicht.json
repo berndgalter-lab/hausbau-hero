@@ -66,7 +66,7 @@
     "Fährt er danach nur kurz und bleibt wieder stehen, ist der Akku verbraucht."
   ],
   "fachbetrieb_ab": "Batterien tauschen, Solarzelle reinigen, Reset und Anlernen machst du selbst. Elektro-Rollläden und Elektrofenster hängen über die Steuereinheit KUX 110 am 230-V-Hausnetz: Arbeiten an Netzanschluss, Kabeln und Steuereinheit gehören zur Elektrofachkraft, auch wenn die Motoren selbst mit 24 V laufen. Einen defekten Fenstermotor oder einen abgesackten Flügel lässt du laut VELUX vom Fachmann prüfen. Steig nicht aufs Dach, um an die Solarzelle zu kommen. Reparaturen am FAKRO ARZ Solar macht laut FAKRO nur ein autorisierter Techniker.",
-  "marken_probleme": [],
+  "marken_probleme": ["velux-dachfenster-rollladen-reagiert-nicht"],
   "fragen": [
     {
       "frage": "Mein VELUX Solar-Rollladen reagiert nicht mehr auf den Wandschalter. Was kann ich selbst prüfen?",

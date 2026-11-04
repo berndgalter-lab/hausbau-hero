@@ -65,7 +65,7 @@
     "Schleift der Flügel, notier, seit wann. Direkt nach dem Einbau ist der Einbauer zuständig."
   ],
   "fachbetrieb_ab": "Wenn der Flügel am Rahmen schleift (am VELUX-Fenster gibt es keine Justierschrauben), wenn Federn oder Sonderfedern getauscht werden müssen, wenn ein Elektro- oder Solarfenster nach Batterie und Kopplung nicht reagiert und nach einer Notschließung: Kundendienst des Herstellers oder der Einbauer. Einen Federtausch berechnet VELUX mit 306 bis 318 € inklusive Anfahrt. Passt die Dachneigung nicht zum Fenster, prüft ein Fachbetrieb den Einbau. Lose sichtbare Schrauben am Roto-Fenster lässt du vom Fachmann prüfen, statt sie selbst anzuziehen.",
-  "marken_probleme": [],
+  "marken_probleme": ["velux-dachfenster-klemmt", "roto-dachfenster-bleibt-nicht-offen", "roto-dachfenster-schliesst-nicht"],
   "fragen": [
     {
       "frage": "Mein VELUX-Dachfenster klemmt und lässt sich nicht mehr schließen. Was kann ich selbst prüfen?",

@@ -69,7 +69,7 @@
       "hinweis": "Nachbau für Roto-Rollladensteuerungen ZEL, nicht von Roto. Typenschild vergleichen."
     }
   ],
-  "probleme": ["dachfenster-rollladen-reagiert-nicht"],
+  "probleme": ["dachfenster-rollladen-reagiert-nicht", "velux-dachfenster-rollladen-reagiert-nicht"],
   "fragen": [
     {
       "frage": "Mein VELUX Solar-Rollladen geht nach ein paar Jahren nicht mehr. Ist der Akku hin?",

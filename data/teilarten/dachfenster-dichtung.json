@@ -74,7 +74,7 @@
       "hinweis": "Obere und untere Flügeldichtung für Roto-Fenster dieser Einbausituation. Mit Typenschild und alter Dichtung vergleichen."
     }
   ],
-  "probleme": ["dachfenster-undicht", "dachfenster-klemmt"],
+  "probleme": ["dachfenster-undicht", "dachfenster-klemmt", "velux-dachfenster-klemmt", "roto-dachfenster-schliesst-nicht"],
   "fragen": [
     {
       "frage": "Kann man die Dichtungen am VELUX-Dachfenster einzeln kaufen und selbst tauschen?",
