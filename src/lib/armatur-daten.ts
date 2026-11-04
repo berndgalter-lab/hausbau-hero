@@ -92,6 +92,8 @@ export interface WcDaten {
   masse_mm?: string;
   einbau?: string;
   farben?: string[];
+  /** Form der Tasten: „rund“, „eckig“ oder „eine Taste“ */
+  tasten?: string;
   // Vorwandelement
   bauhoehe_mm?: number;
   breite_mm?: number;
@@ -103,6 +105,10 @@ export interface WcDaten {
   ablauf?: string;
   schallschutz?: string;
   lieferumfang?: string;
+  /** Größte WC-Ausladung, die das Element laut Hersteller trägt */
+  wc_ausladung_max_mm?: number;
+  /** Anschluss für ein Dusch-WC, z. B. „Leerrohr vorbereitet“ */
+  dusch_wc?: string;
   // Hebeanlage
   einsatz?: string;
   norm?: string;
@@ -129,6 +135,7 @@ export const WC_MERKMALE: { key: keyof WcDaten; label: string; wert: (d: WcDaten
   { key: "spuelkasten", label: "Spülkasten", wert: (d) => text(d.spuelkasten) },
   { key: "betaetigung", label: "Betätigung", wert: (d) => text(d.betaetigung) },
   { key: "drueckerplatten", label: "Drückerplatten", wert: (d) => text(d.drueckerplatten) },
+  { key: "tasten", label: "Tasten", wert: (d) => text(d.tasten) },
   { key: "material", label: "Material", wert: (d) => text(d.material) },
   { key: "masse_mm", label: "Maße (B × H × T)", wert: (d) => (text(d.masse_mm) ? `${text(d.masse_mm)} mm` : null) },
   { key: "einbau", label: "Einbau", wert: (d) => text(d.einbau) },
@@ -137,6 +144,8 @@ export const WC_MERKMALE: { key: keyof WcDaten; label: string; wert: (d: WcDaten
   { key: "einbautiefe_mm", label: "Einbautiefe", wert: (d) => mm(d.einbautiefe_mm) },
   { key: "wc_hoehe_verstellbar", label: "WC-Höhe verstellbar", wert: (d) => text(d.wc_hoehe_verstellbar) },
   { key: "befestigung", label: "WC-Befestigung", wert: (d) => text(d.befestigung) },
+  { key: "wc_ausladung_max_mm", label: "WC-Ausladung bis", wert: (d) => mm(d.wc_ausladung_max_mm) },
+  { key: "dusch_wc", label: "Dusch-WC", wert: (d) => text(d.dusch_wc) },
   { key: "ablauf", label: "Ablauf", wert: (d) => text(d.ablauf) },
   { key: "schallschutz", label: "Schallschutz", wert: (d) => text(d.schallschutz) },
   {
@@ -156,6 +165,9 @@ export const WC_MERKMALE: { key: keyof WcDaten; label: string; wert: (d: WcDaten
 ];
 
 export type ProduktDaten = ArmaturDaten | WcDaten;
+
+/** Daten, wie die Auswahlhilfe der Produkt-Ratgeber sie sieht: Armatur oder WC-Produkt, alle Felder optional. */
+export type RatgeberDaten = Omit<ArmaturDaten, "kategorie"> & Omit<WcDaten, "kategorie"> & { kategorie?: ArmaturKategorie | WcKategorie };
 
 function istWc(d: ProduktDaten): d is WcDaten {
   return !!d.kategorie && d.kategorie in WC_KATEGORIE_NAME;
