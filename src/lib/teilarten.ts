@@ -11,6 +11,10 @@ import thermostatkartusche from "../../data/teilarten/thermostatkartusche.json";
 import brauseschlauch from "../../data/teilarten/brauseschlauch.json";
 import duschablauf from "../../data/teilarten/duschablauf.json";
 import abUndUeberlaufgarnitur from "../../data/teilarten/ab-und-ueberlaufgarnitur.json";
+import dachfensterRollo from "../../data/teilarten/dachfenster-rollo.json";
+import dachfensterHitzeschutz from "../../data/teilarten/dachfenster-hitzeschutz.json";
+import dachfensterDichtung from "../../data/teilarten/dachfenster-dichtung.json";
+import dachfensterAkku from "../../data/teilarten/dachfenster-akku.json";
 
 // Teileart-Seiten unter /ersatzteile/<teilart> (docs/SEITENAUFBAU.md, Abschnitt 4b): ein Teil, das in vielen
 // Marken steckt (Eckventil, Perlator, Siphon …), markenübergreifend erklärt. Inhalt aus data/teilarten/<slug>.json,
@@ -46,6 +50,8 @@ export interface Teilart {
   bereiche: string[];
   /** teile.teiltyp: Diese Teile aus den Marken-Dateien erscheinen unter „nach Marke“. */
   teiltypen: string[];
+  /** Nur Teile dieser Marken (Slugs) unter „nach Marke“, wenn der Teiltyp auch in anderen Bereichen vorkommt (dichtung). */
+  marken?: string[];
   /** So bestimmst du Typ und Größe, in Schritten. */
   erkennen: { titel: string; text: string }[];
   groessen?: { titel: string; spalten: string[]; zeilen: string[][]; hinweis?: string };
@@ -70,6 +76,10 @@ const TEILARTEN: Teilart[] = [
   brauseschlauch as Teilart,
   duschablauf as Teilart,
   abUndUeberlaufgarnitur as Teilart,
+  dachfensterRollo as Teilart,
+  dachfensterHitzeschutz as Teilart,
+  dachfensterDichtung as Teilart,
+  dachfensterAkku as Teilart,
 ];
 
 /** „den passenden Perlator“ / „die passende Kartusche“ / „das passende Eckventil“ (Akkusativ). */

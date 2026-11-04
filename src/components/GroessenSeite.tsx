@@ -1,4 +1,6 @@
 import TeilBild from "@/components/TeilBild";
+import NeukaufKasten from "@/components/Neukauf";
+import { neukaufFuerSerien } from "@/lib/neukauf";
 import { Brotkrumen, GuenstigstesAngebot, JsonLd, KaufButton, MarkenFragen, Quellen, brotkrumenLd } from "@/components/Ersatzteile";
 import { AFFILIATE_REL, mitTrackingId } from "@/lib/affiliate";
 import {
@@ -67,7 +69,10 @@ export default async function GroessenSeite({
       .order("name")
       .then((r) => (r.data ?? []) as Teil[]),
   ]);
-  const angebote = await angeboteFuerTeile([...teile, ...ueberall].map((t) => t.id));
+  const [angebote, neukauf] = await Promise.all([
+    angeboteFuerTeile([...teile, ...ueberall].map((t) => t.id)),
+    neukaufFuerSerien([{ marke: marke.slug, slug: serie.slug, produkttyp: serie.produkttyp }]),
+  ]);
   const hinweisVon = new Map(zuordnungen.map((z) => [z.teil_id, z.hinweis]));
   // Aktuelle Generation zuerst, darin Verdunkelung vor Sichtschutz und Jalousie
   const aktuell = (t: Teil) => (t.oem_nummer ?? t.name).includes(g.code);
@@ -280,6 +285,8 @@ export default async function GroessenSeite({
           </ul>
         </Abschnitt>
       )}
+
+      <NeukaufKasten n={neukauf} />
 
       <MarkenFragen markeName={marke.name} fragen={g.fragen} teile={[...teile, ...ueberall]} id="fragen" titel={`Häufige Fragen zu ${marke.name} ${g.code}`} />
 

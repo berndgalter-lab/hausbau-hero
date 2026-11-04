@@ -1,0 +1,91 @@
+{
+  "teceambia": [
+    {
+      "name": "TECEambia WC-Betätigungsplatte weiß 9240200",
+      "hersteller": "TECE",
+      "ean": "4027255005822",
+      "amazon_asin": "B0030YL1Y2",
+      "hinweis": "Dieselbe Platte 9240200 in Weiß."
+    }
+  ],
+  "tecebase-platte": [
+    {
+      "name": "TECEbase WC-Betätigungsplatte weiß 9240700",
+      "hersteller": "TECE",
+      "ean": "4027255021105",
+      "amazon_asin": "B00DK9NM3A",
+      "hinweis": "Dieselbe Platte 9240700 in Weiß."
+    }
+  ],
+  "teceloop": [
+    {
+      "name": "TECEloop WC-Betätigungsplatte Kunststoff weiß 9240600",
+      "hersteller": "TECE",
+      "ean": null,
+      "amazon_asin": "B0030YUQ52",
+      "hinweis": "Kunststoffplatte 9240600 in Weiß."
+    },
+    {
+      "name": "TECEloop WC-Betätigungsplatte Glas weiß, Tasten weiß 9240650",
+      "hersteller": "TECE",
+      "ean": "4027255017122",
+      "amazon_asin": "B0030Z3ONW",
+      "hinweis": "Glasplatte 9240650 in Weiß."
+    }
+  ],
+  "tecenow": [
+    {
+      "name": "TECEnow WC-Betätigungsplatte weiß 9240400",
+      "hersteller": "TECE",
+      "ean": "4027255045804",
+      "amazon_asin": "B017OGPFLQ",
+      "hinweis": "Dieselbe Platte 9240400 in Weiß."
+    },
+    {
+      "name": "TECEnow WC-Betätigungsplatte schwarz 9240403",
+      "hersteller": "TECE",
+      "ean": "4027255048140",
+      "amazon_asin": "B017OGPLTW",
+      "hinweis": "Dieselbe Platte 9240403 in Schwarz."
+    }
+  ],
+  "tecesquare": [
+    {
+      "name": "TECEsquare WC-Betätigungsplatte Glas weiß, Tasten weiß 9240800",
+      "hersteller": "TECE",
+      "ean": "4027255022300",
+      "amazon_asin": "B00BUKJSLQ",
+      "hinweis": "Glasplatte 9240800 in Weiß."
+    },
+    {
+      "name": "TECEsquare WC-Betätigungsplatte Glas weiß, Tasten Edelstahl 9240801",
+      "hersteller": "TECE",
+      "ean": "4027255022317",
+      "amazon_asin": "B00KCQU37C",
+      "hinweis": "Glasplatte 9240801, weiß mit Edelstahltasten."
+    },
+    {
+      "name": "TECEsquare WC-Betätigungsplatte Edelstahl gebürstet 9240830",
+      "hersteller": "TECE",
+      "ean": "4027255041233",
+      "amazon_asin": "B01HKIHSG8",
+      "hinweis": "Metallplatte 9240830, Edelstahl gebürstet."
+    }
+  ],
+  "urinal": [
+    {
+      "name": "TECEnow Urinal-Betätigungsplatte chrom matt für Druckspülergehäuse U1 9242402",
+      "hersteller": "TECE",
+      "ean": "4027255058491",
+      "amazon_asin": "B07BMXRTWC",
+      "hinweis": "Dieselbe Urinalbetätigung 9242402 mit Kartusche für U 1."
+    },
+    {
+      "name": "TECEloop Urinal-Betätigungsplatte Kunststoff weiß 9242600",
+      "hersteller": "TECE",
+      "ean": "4027255016231",
+      "amazon_asin": "B00BPAYI5W",
+      "hinweis": "Dieselbe Urinalbetätigung 9242600 in Weiß."
+    }
+  ]
+}

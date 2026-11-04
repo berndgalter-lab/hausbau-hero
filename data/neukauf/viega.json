@@ -1,0 +1,57 @@
+{
+  "visign-for-life-1-4": [
+    {
+      "name": "Viega Visign for Life 1 WC-Betätigungsplatte 8310.3 weiß-alpin 721886",
+      "hersteller": "Viega",
+      "ean": "4015211721886",
+      "amazon_asin": null,
+      "hinweis": "Dieselbe Platte, im Fachhandel noch erhältlich.de nicht gefunden."
+    }
+  ],
+  "visign-for-style-10-13": [
+    {
+      "name": "Viega Visign for Style 10 Betätigungsplatte 8315.1 weiß 596316",
+      "hersteller": "Viega",
+      "ean": "4015211596316",
+      "amazon_asin": "B00J26N5DC",
+      "hinweis": "Dieselbe Platte 8315.1 in Weiß."
+    },
+    {
+      "name": "Viega Visign for Style 10 Betätigungsplatte 8315.1 chrom 596323",
+      "hersteller": "Viega",
+      "ean": "4015211596323",
+      "amazon_asin": "B00J26XTKQ",
+      "hinweis": "Dieselbe Platte 8315.1 in Chrom."
+    },
+    {
+      "name": "Viega Visign for Style 13 Betätigungsplatte 8333.1 alpinweiß",
+      "hersteller": "Viega",
+      "ean": null,
+      "amazon_asin": "B01MRU7BVT",
+      "hinweis": "Dieselbe Platte 8333.1 in Alpinweiß."
+    }
+  ],
+  "visign-for-style-11-12-more": [
+    {
+      "name": "Viega Visign for Style 12 Betätigungsplatte 8332.1 chrom",
+      "hersteller": "Viega",
+      "ean": null,
+      "amazon_asin": "B01MFD7B6B",
+      "hinweis": "Dieselbe Platte 8332.1 in Chrom."
+    },
+    {
+      "name": "Viega Visign for More 104 Betätigungsplatte 8354.1 Metall chrom",
+      "hersteller": "Viega",
+      "ean": null,
+      "amazon_asin": "B00IPFB326",
+      "hinweis": "Dieselbe Platte 8354.1 aus Metall in Chrom."
+    }
+  ],
+  "visign-prevista": [
+    {
+      "name": "Viega Betätigungsplatte VIEGA WC Betät.-Pl. VISIGN for Life 5 8601.1 aus Kunststoff weiß-alpin",
+      "hersteller": "Viega",
+      "ean": "4015211773731"
+    }
+  ]
+}

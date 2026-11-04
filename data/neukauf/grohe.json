@@ -1,0 +1,523 @@
+{
+  "bauedge-duscharmatur": [
+    {
+      "name": "Grohe Brause-Einhebelmischer BauEdge chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176556524"
+    },
+    {
+      "name": "Grohe Fertigmontageset BauEdge UP-Brause-Einhebelmischer, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176608803"
+    }
+  ],
+  "bauedge-kuechenarmatur": [
+    {
+      "name": "Grohe Spültisch-Einhebelmischer BauEdge 1/2\", mittelh Ausl, int. Vorabs, chr",
+      "hersteller": "Grohe",
+      "ean": "4005176530401"
+    }
+  ],
+  "bauedge-wannenarmatur": [
+    {
+      "name": "Grohe Fertigmontageset BauEdge UP-Wannen-Einhebelmischer, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176608810"
+    }
+  ],
+  "bauedge-waschtisch": [
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer BauEdge 1/2\", S, o. Abl.garn, gl. Körper, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176556302"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer BauEdge 1/2\", S, m Abl.garn a Kunststoff, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176556241"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer BauEdge 1/2\", S, m P-o Abl.garn, gl. Körp, ch",
+      "hersteller": "Grohe",
+      "ean": "4005176554919"
+    }
+  ],
+  "bauloop-kuechenarmatur": [
+    {
+      "name": "Grohe Spültisch-Einhebelmischer BauLoop 1/2\", mittelh Ausl, int. Vorabs, chr",
+      "hersteller": "Grohe",
+      "ean": "4005176530463"
+    }
+  ],
+  "bauloop-waschtisch": [
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer BauLoop 1/2\", S, m Abl.garn a Kunststoff, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176554025"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer BauLoop 1/2\", S, m P-o Abl a KS, gl. Körp, ch",
+      "hersteller": "Grohe",
+      "ean": "4005176554049"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer BauLoop 1/2\", S, m Abl.garn a Kunststoff, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176529566"
+    }
+  ],
+  "concetto-kuechenarmatur": [
+    {
+      "name": "Grohe Spültisch-Einhebelmischer Concetto chrom, Wandmontage",
+      "hersteller": "Grohe",
+      "ean": "4005176887420"
+    },
+    {
+      "name": "Grohe Spültisch-Einhebelmischer Concetto 1/2\", h. Ausl., herausz. Laminarbr., chr",
+      "hersteller": "Grohe",
+      "ean": "4005176466854"
+    },
+    {
+      "name": "Grohe Spültisch-Einhebelmischer Concetto 1/2\", h. Ausl, herausz. Dual Brause, chr",
+      "hersteller": "Grohe",
+      "ean": "4005176466809"
+    }
+  ],
+  "concetto-waschtisch": [
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Concetto 1/2\", S, m Temp.begrenzer, gl. Körp, ch",
+      "hersteller": "Grohe",
+      "ean": "4005176906794"
+    },
+    {
+      "name": "Grohe Einhand-Waschtischbatterie Concetto 32206_1 EcoJoy Kette chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176906787"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Concetto chr, S, m Abl.-Garn., o Durchflussbeg.",
+      "hersteller": "Grohe",
+      "ean": "4005176887338"
+    }
+  ],
+  "essence-waschtisch": [
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Essence 1/2\", S-Size, glatter körper, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176698392"
+    },
+    {
+      "name": "GROHE Einhand-Waschtischbatterie »Essence«, chromfarben",
+      "hersteller": "Grohe",
+      "ean": "4005176339172"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Essence 1/2\", S, m Abl.garn, Mittelstel. ka, ch",
+      "hersteller": "Grohe",
+      "ean": "4005176698446"
+    }
+  ],
+  "eurodisc-cosmopolitan-kuechenarmatur": [
+    {
+      "name": "GROHE Eurodisc Cosmopolitan Küchenarmatur mit ausziehbarer Brause 32257002",
+      "hersteller": "Grohe",
+      "ean": "4005176886591",
+      "amazon_asin": "B006AQEAMC",
+      "hinweis": "Dasselbe Modell in Chrom, flacher Auslauf mit Auszugsbrause."
+    },
+    {
+      "name": "GROHE Eurodisc Cosmopolitan Küchenarmatur mit hohem Auslauf 32259003",
+      "hersteller": "Grohe",
+      "ean": "4005176466908",
+      "amazon_asin": "B07J664K9Z",
+      "hinweis": "Gleiche Serie mit hohem Auslauf, 150° schwenkbar, ohne Auszugsbrause."
+    }
+  ],
+  "eurodisc-cosmopolitan-waschtisch": [
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Eurodisc Cosmopolitan 1/2\", S-Size, glatter Körper, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176908835"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Eurodisc Cosmopolitan 1/2\", M-Size, glatter Körper, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176998768"
+    },
+    {
+      "name": "Grohe Fertigset Eurodisc Cosmopolitan chr, 2-Loch-Waschtischarmatur, Ausladung 17cm",
+      "hersteller": "Grohe",
+      "ean": "4005176887659"
+    }
+  ],
+  "eurodisc-joy-waschtisch": [
+    {
+      "name": "GROHE Eurodisc Joy Waschtischarmatur S-Size mit Zugstangen-Ablauf 23425000",
+      "hersteller": "Grohe",
+      "ean": "4005176993596",
+      "amazon_asin": "B00QIUI7ZQ",
+      "hinweis": "Chrom-Ausführung von 23425LS0 (dort moon white)."
+    },
+    {
+      "name": "GROHE Eurodisc Joy Waschtischarmatur M-Size mit Zugstangen-Ablauf 23427000",
+      "hersteller": "Grohe",
+      "ean": "4005176993619",
+      "amazon_asin": "B00QIUI2WY",
+      "hinweis": "Dasselbe Modell 23427000 in Chrom."
+    }
+  ],
+  "eurodisc-waschtisch": [
+    {
+      "name": "Grohe Einhand-Waschtischbatterie Eurodisc C 33178_2 EcoJoy mit versenkbarer Kette chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176908828"
+    }
+  ],
+  "euroeco-special-waschtisch": [
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Euroeco Special 1/2\", gl Kör, m Gar 1 1/4\", chr",
+      "hersteller": "Grohe",
+      "ean": "4005176871023"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Euroeco Special 1/2\", m Zugstangenablaufg. 1 1/4\", chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176871030"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Euroeco Special chr, gl. Körp, Zugstangenablaufg. 1 1/4",
+      "hersteller": "Grohe",
+      "ean": "4005176871061"
+    }
+  ],
+  "euroeco-waschtisch": [
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Euroeco 1/2\", S, m Abl.garn a Met., Ros., chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176797309"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Euroeco 1/2\", S, m Abl.garn a Kunststoff, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176742651"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Euroeco 1/2\", M-Size, Abl.garn a Kunststoff, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176742767"
+    }
+  ],
+  "europlus-kuechenarmatur": [
+    {
+      "name": "GROHE Europlus Einhand-Spültischbatterie mit Spülbrause 33933002",
+      "hersteller": "Grohe",
+      "ean": "4005176865572",
+      "amazon_asin": null,
+      "hinweis": "Aktuelle Europlus-Küchenarmatur in Chrom.de nicht gefunden."
+    }
+  ],
+  "eurosmart-cosmopolitan-kuechenarmatur": [
+    {
+      "name": "Grohe Spültisch-Einhebelmischer Eurosmart Cosmopolitan c, ND, flach. Ausl., schwenkb. Rohrausl",
+      "hersteller": "Grohe",
+      "ean": "4005176889172"
+    },
+    {
+      "name": "Grohe Spültisch-Einhebelmischer Eurosmart Cosmopolitan 1/2\", h. Ausl., herausz. Dua Brause, chr",
+      "hersteller": "Grohe",
+      "ean": "4005176466922"
+    },
+    {
+      "name": "Grohe Spültisch-Einhebelmischer Eurosmart Cosmopolitan c, int. Vorabsperr., schwenkb. Rohrausl",
+      "hersteller": "Grohe",
+      "ean": "4005176889158"
+    }
+  ],
+  "eurosmart-cosmopolitan-waschtisch": [
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Eurosmart Cosmopolitan 1/2\", S, m Tempbeg, Mit ka, gl. Körp, ch",
+      "hersteller": "Grohe",
+      "ean": "4005176936623"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Eurosmart Cosmopolitan chr, S, versenkb. Ket., m Temp.begrenzer",
+      "hersteller": "Grohe",
+      "ean": "4005176906565"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Eurosmart Cosmopolitan 1/2\", S, m P-op Abl.garn, gl. Körp, ch",
+      "hersteller": "Grohe",
+      "ean": "4005176583353"
+    }
+  ],
+  "eurosmart-duscharmatur": [
+    {
+      "name": "Grohe Brause-Einhebelmischer Eurosmart 1/2\", Wandmontage, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176613562"
+    },
+    {
+      "name": "Grohe Brause-Einhebelmischer Eurosmart Care chrom, Wandmontage",
+      "hersteller": "Grohe",
+      "ean": "4005176644337"
+    },
+    {
+      "name": "Grohe Brause-Einhebelmischer Eurosmart Care chrom, Wandmontage",
+      "hersteller": "Grohe",
+      "ean": "4005176644238"
+    }
+  ],
+  "eurosmart-kuechenarmatur": [
+    {
+      "name": "Grohe Spültisch-Einhebelmischer Eurosmart 1/2, flach. Ausl, ausz Dua Brause, chr",
+      "hersteller": "Grohe",
+      "ean": "4005176635465"
+    }
+  ],
+  "eurosmart-wannenarmatur": [
+    {
+      "name": "Grohe Wannen-Einhebelmischer Eurosmart 1/2\", Wandmontage, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176613456"
+    },
+    {
+      "name": "Grohe Wannen-Einhebelmischer Eurosmart 1/2\", chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176613517"
+    },
+    {
+      "name": "Grohe Wannen-Einhebelmischer Eurosmart Care chrom, Wandmontage",
+      "hersteller": "Grohe",
+      "ean": "4005176644320"
+    }
+  ],
+  "eurosmart-waschtisch": [
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Eurosmart 1/2\", S, m Abl.garn, Mittelstel. ka, ch",
+      "hersteller": "Grohe",
+      "ean": "4005176613234"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Eurosmart 1/2\", S, o. Abl.garn, gl. Körper, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176613210"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Eurosmart 1/2\", S-Size, geneigte Version, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176611568"
+    }
+  ],
+  "eurostyle-cosmopolitan-waschtisch": [
+    {
+      "name": "GROHE Eurostyle Cosmopolitan Waschtischarmatur 23043003",
+      "hersteller": "Grohe",
+      "ean": "4005176472732",
+      "amazon_asin": "B07J6SDT3R",
+      "hinweis": "Dasselbe Modell 23043003 in Chrom."
+    },
+    {
+      "name": "GROHE Eurostyle Cosmopolitan Waschtischarmatur mit Zugstangen-Ablauf 33561002",
+      "hersteller": "Grohe",
+      "ean": null,
+      "amazon_asin": "B0052T2VYW",
+      "hinweis": "Weitere Waschtischarmatur derselben Serie mit Zugstangen-Ablauf."
+    }
+  ],
+  "eurostyle-waschtisch": [
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Eurostyle 1/2\", S, m Abl, ges Heb, Mit ka, ch",
+      "hersteller": "Grohe",
+      "ean": "4005176365003"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Eurostyle 1/2\", S, m Abl, off Heb, innen Was-W, ch",
+      "hersteller": "Grohe",
+      "ean": "4005176334146"
+    },
+    {
+      "name": "Grohe Waschtisch-Einhebelmischer Eurostyle 1/2\", S, m P-op Abl, off Heb, Mit ka, ch",
+      "hersteller": "Grohe",
+      "ean": "4005176584008"
+    }
+  ],
+  "grohtherm-1000": [
+    {
+      "name": "Grohe Thermostat-Brausebatterie Grohtherm 1000 34824_5 mit Brausegarnitur 900mm chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176766367"
+    },
+    {
+      "name": "Grohe Brause-Thermostat Grohtherm 1000 1/2\", Wandmontage, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176695728"
+    },
+    {
+      "name": "Grohe Brause-Thermostat Grohtherm 1000 chrom, DN 15, Wandmontage",
+      "hersteller": "Grohe",
+      "ean": "4005176695759"
+    }
+  ],
+  "grohtherm-1000-performance": [
+    {
+      "name": "Grohe Thermostat-Brausebatterie Grohtherm 1000 Performance chr, DN 15, o. S-Anschlüsse, Wandmontage",
+      "hersteller": "Grohe",
+      "ean": "4005176698668"
+    },
+    {
+      "name": "Grohe Thermostat-Brausebatterie Grohtherm 1000 Performance chrom, DN 15, Wandmontage",
+      "hersteller": "Grohe",
+      "ean": "4005176698651"
+    },
+    {
+      "name": "Grohe Thermostat-Brausebatterie Grohtherm 1000 Performance 34834_1 Br.-grt. 600mm chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176766381"
+    }
+  ],
+  "grohtherm-800": [
+    {
+      "name": "Grohe Brause-Thermostat Grohtherm 800 chrom, DN 15, Wandmontage",
+      "hersteller": "Grohe",
+      "ean": "4005176310089"
+    },
+    {
+      "name": "Grohe Brause-Thermostat Grohtherm 800 chrom, DN 15, Wandmontage",
+      "hersteller": "Grohe",
+      "ean": "4005176310096"
+    },
+    {
+      "name": "Grohe Brause-Thermostat Grohtherm 800 m Brausegrt, 1/2\", Wandmontage, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176766466"
+    }
+  ],
+  "grohtherm-800-cosmopolitan": [
+    {
+      "name": "Grohe Thermostat-Brausebatterie Grohtherm 800 Cosmopolitan chr, DN 15, Wandmont., ohne S-Anschlüsse",
+      "hersteller": "Grohe",
+      "ean": "4005176612046"
+    },
+    {
+      "name": "Grohe Thermostat-Brausebatterie Grohtherm 800 Cosmopolitan chrom, DN 15, Wandmontage",
+      "hersteller": "Grohe",
+      "ean": "4005176612022"
+    }
+  ],
+  "grohtherm-special": [
+    {
+      "name": "Grohe Brausethermostat Grohtherm Special 1/2\", Wandmontage, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176354090"
+    },
+    {
+      "name": "Grohe Brausethermostat Grohtherm Special chrom, Wandmontage, DN 15",
+      "hersteller": "Grohe",
+      "ean": "4005176351570"
+    },
+    {
+      "name": "Grohe WT-Thermostat Grohtherm Special chrom, Wandmontage, DN 15",
+      "hersteller": "Grohe",
+      "ean": "4005176351563"
+    }
+  ],
+  "minta-kuechenarmatur": [
+    {
+      "name": "Grohe Spültisch-Einhebelmischer Minta 1/2\", U-Ausl., herausz. Dual-Brause, chr",
+      "hersteller": "Grohe",
+      "ean": "4005176465123"
+    },
+    {
+      "name": "Grohe Spültisch-Einhebelmischer Minta 1/2\", L-Ausl., herausz. Dual-Brause, chr",
+      "hersteller": "Grohe",
+      "ean": "4005176314988"
+    },
+    {
+      "name": "Grohe Spültisch-Einhebelmischer Minta 1/2\", ND, L-Ausl., ausz. Laminarbr., chr",
+      "hersteller": "Grohe",
+      "ean": "4005176304743"
+    }
+  ],
+  "precision-flow": [
+    {
+      "name": "Grohe Brause-Thermostat Precision Flow verchromt",
+      "hersteller": "Grohe",
+      "ean": "4005176632488"
+    }
+  ],
+  "precision-trend": [
+    {
+      "name": "GROHE Thermostat-Brausebatterie »Precision Trend«, chromfarben",
+      "hersteller": "Grohe",
+      "ean": "4005176323386"
+    }
+  ],
+  "start-edge-waschtisch": [
+    {
+      "name": "GROHE Start Edge Waschtischarmatur mit Push-Open-Ablauf 23898001",
+      "hersteller": "Grohe",
+      "ean": "4005176554957",
+      "amazon_asin": "B08WWHH7CV",
+      "hinweis": "Dasselbe Modell 23898001 in Chrom."
+    },
+    {
+      "name": "GROHE Start Edge Waschtischarmatur für Aufsatzbecken XL-Size 23777001",
+      "hersteller": "Grohe",
+      "ean": "4005176556456",
+      "amazon_asin": "B08WWJRGL1",
+      "hinweis": "Dasselbe Modell 23777001, hoher Auslauf für Aufsatzbecken."
+    },
+    {
+      "name": "GROHE Start Edge Waschtischarmatur S-Size mit Push-Open-Ablauf 23900001",
+      "hersteller": "Grohe",
+      "ean": "4005176555046",
+      "amazon_asin": "B08WX6FXT7",
+      "hinweis": "Kleine S-Size derselben Serie mit Push-Open-Ablauf."
+    }
+  ],
+  "start-kuechenarmatur": [
+    {
+      "name": "Grohe Küchenarmatur Start Einhebelmischer, QuickFix, chrom (30531001)",
+      "hersteller": "Grohe",
+      "ean": "4005176728082"
+    }
+  ],
+  "start-loop-waschtisch": [
+    {
+      "name": "GROHE Start Loop Waschtischarmatur XL-Size mit Push-Open-Ablauf 23781000",
+      "hersteller": "Grohe",
+      "ean": "4005176388811",
+      "amazon_asin": "B07HGMZH66",
+      "hinweis": "Dasselbe Modell 23781000, hoher Auslauf für Aufsatzbecken."
+    }
+  ],
+  "start-waschtisch": [
+    {
+      "name": "GROHE Waschtischarmatur »Start«, Anschluss: 1/2\", Chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176624117"
+    },
+    {
+      "name": "Grohe Quickfix Waschtischarmatur Start S-Size",
+      "hersteller": "Grohe",
+      "ean": "4005176782015"
+    }
+  ],
+  "zedra-kuechenarmatur": [
+    {
+      "name": "Grohe Spültischmischer Zedra SmartC chrom, herausziehbare Dual-Brause",
+      "hersteller": "Grohe",
+      "ean": "4005176466649"
+    },
+    {
+      "name": "Grohe Spültischmischer Zedra SmartC herausz. Ausl. mit Laminarstrahl, chrom",
+      "hersteller": "Grohe",
+      "ean": "4005176521942"
+    },
+    {
+      "name": "Grohe Spültischmischer Zedra SmartC chrom, herausziehbare Brause",
+      "hersteller": "Grohe",
+      "ean": "4005176466496"
+    }
+  ]
+}

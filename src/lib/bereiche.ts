@@ -139,7 +139,7 @@ export const BEREICHE: Bereich[] = [
     produkttypen: ["dachfenster"],
     teiltypen: ["rollo", "plissee", "hitzeschutz", "insektenschutz", "dichtung", "pflege", "akku", "fernbedienung", "griff", "rollladen"],
     probleme: /dachfenster/,
-    ratgeber: [],
+    ratgeber: ["dachfenster-sonnenschutz"],
   },
 ];
 

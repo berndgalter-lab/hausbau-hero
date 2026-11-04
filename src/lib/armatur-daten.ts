@@ -1,5 +1,5 @@
 // Technische Daten in produkte.technische_daten und ihre Anzeige in der Vergleichstabelle:
-// Armaturen (auch im Armaturen-Vergleich) sowie Drückerplatten und Vorwandelemente.
+// Armaturen (auch im Armaturen-Vergleich), Drückerplatten, Vorwandelemente und Dachfenster-Sonnenschutz.
 // Ohne Datenbank-Import, damit auch der Vergleich im Browser (Client-Komponente) es nutzen kann.
 
 // Druckminderer laufen mit, weil der Ratgeber dieselbe Auswahlhilfe nutzt; im Armaturen-Vergleich fehlen sie.
@@ -241,31 +241,94 @@ export const WC_MERKMALE: { key: keyof WcDaten; label: string; wert: (d: WcDaten
   { key: "farben", label: "Farben", wert: (d) => (Array.isArray(d.farben) && d.farben.length > 0 ? d.farben.join(", ") : null) },
 ];
 
-export type ProduktDaten = ArmaturDaten | WcDaten;
+// ---------- Dachfenster-Sonnenschutz: Rollos, Plissees, Markisen, Insektenschutz ----------
 
-/** Daten, wie die Auswahlhilfe der Produkt-Ratgeber sie sieht: Armatur oder WC-Produkt, alle Felder optional. */
-export type RatgeberDaten = Omit<ArmaturDaten, "kategorie"> & Omit<WcDaten, "kategorie"> & { kategorie?: ArmaturKategorie | WcKategorie };
+/** Wofür ein Sonnenschutz taugt, Schlüssel für die Auswahlhilfe. */
+export type SonnenschutzZweck = "verdunkeln" | "hitze" | "sicht" | "insekten";
+/** Auf welche Fenster er passt: VELUX nach Code-Generation (MK04 / M04 / 304), Roto, oder frei nach Glasmaß. */
+export type FensterGeneration = "velux-ab-2013" | "velux-2000-2013" | "velux-1991-2000" | "roto" | "glasmass";
+
+export interface SonnenschutzDaten {
+  kategorie?: "sonnenschutz";
+  /** Produktart, z. B. „Verdunkelungsrollo“, „Hitzeschutz-Markise“ */
+  art?: string;
+  /** Typenbezeichnung des Herstellers, z. B. „DKL MK04 1025S“ */
+  typ?: string;
+  zweck?: SonnenschutzZweck[];
+  montage?: "innen" | "außen";
+  bedienung?: "von Hand" | "Solar" | "elektrisch";
+  herkunft?: "Original" | "Nachbau";
+  generationen?: FensterGeneration[];
+  /** Für welche Fenster, in Lesersprache: „VELUX GGL/GGU/GPL/GPU ab 2013, Größe MK04“ */
+  passend_fuer?: string;
+  /** Größe als Code und Maß, z. B. „MK04 (78 × 98 cm)“ */
+  groesse?: string;
+  befestigung?: string;
+  /** Was der Hersteller zur Wirkung sagt, z. B. „hält bis zu 86 % der Wärme ab“ */
+  wirkung?: string;
+  material?: string;
+  farbe?: string;
+}
+
+const ZWECK_NAME: Record<SonnenschutzZweck, string> = {
+  verdunkeln: "verdunkeln",
+  hitze: "Hitze abhalten",
+  sicht: "Sichtschutz",
+  insekten: "Insektenschutz",
+};
+
+export const SONNENSCHUTZ_MERKMALE: { key: keyof SonnenschutzDaten; label: string; wert: (d: SonnenschutzDaten) => string | null }[] = [
+  { key: "art", label: "Art", wert: (d) => text(d.art) },
+  { key: "typ", label: "Typ", wert: (d) => text(d.typ) },
+  { key: "zweck", label: "Wofür", wert: (d) => (Array.isArray(d.zweck) && d.zweck.length > 0 ? d.zweck.map((z) => ZWECK_NAME[z] ?? z).join(", ") : null) },
+  { key: "montage", label: "Montage", wert: (d) => text(d.montage) },
+  { key: "bedienung", label: "Bedienung", wert: (d) => text(d.bedienung) },
+  { key: "herkunft", label: "Original oder Nachbau", wert: (d) => text(d.herkunft) },
+  { key: "passend_fuer", label: "Passt auf", wert: (d) => text(d.passend_fuer) },
+  { key: "groesse", label: "Größe", wert: (d) => text(d.groesse) },
+  { key: "befestigung", label: "Befestigung", wert: (d) => text(d.befestigung) },
+  { key: "wirkung", label: "Wirkung laut Hersteller", wert: (d) => text(d.wirkung) },
+  { key: "material", label: "Material", wert: (d) => text(d.material) },
+  { key: "farbe", label: "Farbe", wert: (d) => text(d.farbe) },
+];
+
+export type ProduktDaten = ArmaturDaten | WcDaten | SonnenschutzDaten;
+
+/** Daten, wie die Auswahlhilfe der Produkt-Ratgeber sie sieht: Armatur, WC-Produkt oder Sonnenschutz, alle Felder optional. */
+export type RatgeberDaten = Omit<ArmaturDaten, "kategorie" | "montage" | "material"> &
+  Omit<WcDaten, "kategorie" | "material"> &
+  Omit<SonnenschutzDaten, "kategorie" | "montage" | "material"> & {
+    kategorie?: ArmaturKategorie | WcKategorie | "sonnenschutz";
+    montage?: string;
+    material?: string;
+  };
 
 function istWc(d: ProduktDaten): d is WcDaten {
   return !!d.kategorie && d.kategorie in WC_KATEGORIE_NAME;
 }
 
-/** Technische Daten jeder bekannten Kategorie (Armatur, Drückerplatte, Vorwandelement, Hebeanlage). */
+function istSonnenschutz(d: ProduktDaten): d is SonnenschutzDaten {
+  return d.kategorie === "sonnenschutz";
+}
+
+/** Technische Daten jeder bekannten Kategorie (Armatur, Drückerplatte, Vorwandelement, Hebeanlage, Sonnenschutz). */
 export function produktDaten(td: unknown): ProduktDaten | null {
   if (!td || typeof td !== "object" || Array.isArray(td)) return null;
   const d = td as ProduktDaten;
-  return armaturDaten(d) ?? (istWc(d) ? d : null);
+  return armaturDaten(d) ?? (istWc(d) || istSonnenschutz(d) ? d : null);
 }
 
 /**
  * Nur Merkmale, die mindestens ein Produkt der Liste hat. Die Zeilen richten sich nach der
- * Kategorie des ersten Produkts; eine Kaufberatung mischt Armaturen und WC-Produkte nicht.
+ * Kategorie des ersten Produkts; eine Kaufberatung mischt Armaturen, WC-Produkte und Sonnenschutz nicht.
  */
 export function merkmaleFuer(daten: (ProduktDaten | null)[]): { key: string; label: string; wert: (d: ProduktDaten) => string | null }[] {
   const erstes = daten.find((d): d is ProduktDaten => !!d);
   const liste =
-    erstes && istWc(erstes)
-      ? WC_MERKMALE.map((m) => ({ ...m, wert: (d: ProduktDaten) => (istWc(d) ? m.wert(d) : null) }))
-      : MERKMALE.map((m) => ({ ...m, wert: (d: ProduktDaten) => (istWc(d) ? null : m.wert(d)) }));
+    erstes && istSonnenschutz(erstes)
+      ? SONNENSCHUTZ_MERKMALE.map((m) => ({ ...m, wert: (d: ProduktDaten) => (istSonnenschutz(d) ? m.wert(d) : null) }))
+      : erstes && istWc(erstes)
+        ? WC_MERKMALE.map((m) => ({ ...m, wert: (d: ProduktDaten) => (istWc(d) ? m.wert(d) : null) }))
+        : MERKMALE.map((m) => ({ ...m, wert: (d: ProduktDaten) => (istWc(d) || istSonnenschutz(d) ? null : m.wert(d as ArmaturDaten)) }));
   return liste.filter((m) => daten.some((d) => d && m.wert(d) !== null));
 }

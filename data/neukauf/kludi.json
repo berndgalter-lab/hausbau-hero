@@ -1,0 +1,141 @@
+{
+  "bingo-star": [
+    {
+      "name": "Kludi Bingo Star Spültisch-Einhandmischer 428030578",
+      "hersteller": "Kludi",
+      "ean": "4021344070418",
+      "amazon_asin": "B0099NX83K",
+      "hinweis": "Chrom, Standardausführung."
+    },
+    {
+      "name": "Kludi Bingo Star Spültisch-Einhandmischer Niederdruck 428090575",
+      "hersteller": "Kludi",
+      "ean": null,
+      "amazon_asin": "B0017VL7E4",
+      "hinweis": "Chrom, Niederdruck für offene Speicher/Boiler."
+    }
+  ],
+  "bozz": [
+    {
+      "name": "Kludi Bozz Waschtisch-Einhandmischer 75 382700576",
+      "hersteller": "Kludi",
+      "ean": "4017080091718",
+      "amazon_asin": "B095SWGVY3",
+      "hinweis": "Chrom, mit Ablaufgarnitur (dasselbe Modell)."
+    },
+    {
+      "name": "Kludi Bozz Waschtisch-Einhandmischer 75 382770576",
+      "hersteller": "Kludi",
+      "ean": "4017080091749",
+      "amazon_asin": "B095T1BKVN",
+      "hinweis": "Chrom (dasselbe Modell)."
+    },
+    {
+      "name": "Kludi Bozz Waschtisch-Einhandmischer 100 382800576",
+      "hersteller": "Kludi",
+      "ean": "4017080091442",
+      "amazon_asin": "B09167CLF5",
+      "hinweis": "Chrom, höherer Auslauf, mit Ablaufgarnitur."
+    }
+  ],
+  "l-ine": [
+    {
+      "name": "Kludi L-ine S Spültisch-Einhandmischer mit Ausziehbrause 408510575",
+      "hersteller": "Kludi",
+      "ean": "4021344080226",
+      "amazon_asin": "B00V3GE4X4",
+      "hinweis": "Chrom, Ausziehauslauf (dasselbe Modell)."
+    },
+    {
+      "name": "Kludi L-ine S Spültisch-Einhandmischer 408030575",
+      "hersteller": "Kludi",
+      "ean": "4021344080219",
+      "amazon_asin": "B00V3GDTDK",
+      "hinweis": "Chrom, fester Auslauf."
+    }
+  ],
+  "mx": [
+    {
+      "name": "Kludi MX Spültisch-Einhandmischer 399040562",
+      "hersteller": "Kludi",
+      "ean": "4021344058287",
+      "amazon_asin": "B002VPNJFU",
+      "hinweis": "Chrom (dasselbe Modell)."
+    },
+    {
+      "name": "Kludi MX Spültisch-Einhandmischer Niederdruck 399070562",
+      "hersteller": "Kludi",
+      "ean": "4021344058232",
+      "amazon_asin": "B002VPGLPA",
+      "hinweis": "Chrom, Niederdruck."
+    },
+    {
+      "name": "Kludi MX Spültisch-Einhandmischer mit Ausziehbrause 399410562",
+      "hersteller": "Kludi",
+      "ean": "4021344058256",
+      "amazon_asin": "B002VPO134",
+      "hinweis": "Chrom, Ausziehauslauf."
+    }
+  ],
+  "objekta-kueche": [
+    {
+      "name": "Kludi Objekta Spültisch-Einhandmischer 325740575",
+      "hersteller": "Kludi",
+      "ean": "4017080080804",
+      "amazon_asin": "B00YEU8PBS",
+      "hinweis": "Chrom, schwenkbarer Auslauf."
+    }
+  ],
+  "objekta-mix": [
+    {
+      "name": "Kludi Objekta Waschtisch-Einhandmischer 322330575",
+      "hersteller": "Kludi",
+      "ean": "4017080075619",
+      "amazon_asin": "B00AWKH51A",
+      "hinweis": "Chrom, mit Ablaufgarnitur; aktuelle Objekta-Waschtischarmatur als Nachfolger von Objekta Mix / Objekta Mix New."
+    }
+  ],
+  "objekta-therm-e": [
+    {
+      "name": "Kludi Objekta Brause-Thermostat Aufputz 352000538",
+      "hersteller": "Kludi",
+      "ean": "4017080875813",
+      "amazon_asin": "B0029995CO",
+      "hinweis": "Chrom, Dusche (dasselbe Modell)."
+    }
+  ],
+  "pure-solid": [
+    {
+      "name": "Kludi Pure&Solid Waschtisch-Einhandmischer 100 342900575",
+      "hersteller": "Kludi",
+      "ean": "4017080088251",
+      "amazon_asin": "B07N2RY6KW",
+      "hinweis": "Chrom, mit Ablaufgarnitur."
+    }
+  ],
+  "scope": [
+    {
+      "name": "Kludi Scope Spültisch-Einhandmischer 339390575",
+      "hersteller": "Kludi",
+      "ean": "4017080071727",
+      "amazon_asin": "B005C9XX6C",
+      "hinweis": "Chrom, DN 10."
+    },
+    {
+      "name": "Kludi Scope XL Spültisch-Einhandmischer 339330575",
+      "hersteller": "Kludi",
+      "ean": "4017080071710",
+      "amazon_asin": "B005C9XWS6",
+      "hinweis": "Chrom, DN 10, hoher Auslauf."
+    }
+  ],
+  "zenta": [
+    {
+      "name": "Kludi Zenta Waschtisch-Einhandmischer 382550575",
+      "hersteller": "Kludi",
+      "ean": "4017080060059",
+      "amazon_asin": "B00299061I",
+      "hinweis": "Chrom, hoher Auslauf."
+    }
+  ]
+}

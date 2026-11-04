@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import TeilBild from "@/components/TeilBild";
 import NeukaufKasten from "@/components/Neukauf";
-import { neukaufFuerBereich } from "@/lib/neukauf";
-import { neukaufBereich } from "@/lib/bereiche";
+import { neukaufFuerSerien } from "@/lib/neukauf";
 import {
   Angebote,
   Brotkrumen,
@@ -100,8 +99,8 @@ export default async function TeilSeite({ params }: Props) {
   const serien = await serienNachIds(zuordnungen.map((z) => z.serie_id));
   const bild = teilBild(teil, angebote);
   const serieVon = new Map(serien.map((s) => [s.id, s]));
-  // Neukauf-Hinweis nach dem Bereich der passenden Serien, z. B. Kartusche einer Waschtischarmatur.
-  const neukauf = await neukaufFuerBereich(neukaufBereich({ produkttypen: serien.map((s) => s.produkttyp), teiltyp: teil.teiltyp }));
+  // Neukauf-Hinweis mit den Neugeräten der Serien, in die das Teil passt (Kartusche der Eurosmart → neue Eurosmart).
+  const neukauf = await neukaufFuerSerien(serien.map((s) => ({ marke: marke.slug, slug: s.slug, produkttyp: s.produkttyp })));
 
   const pfad = [
     { name: "Start", href: "/" },

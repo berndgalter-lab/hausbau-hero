@@ -1,0 +1,396 @@
+[
+ {
+  "sortierung": 1,
+  "name": "VELUX Verdunkelungsrollo DKL MK04 1025S, weiß",
+  "hersteller": "VELUX",
+  "hersteller_nr": "DKL MK04 1025S",
+  "ean": "5702326647970",
+  "einsatzbereich": "Schlafzimmer unter dem Dach mit VELUX-Fenster ab 2013, Größe MK04 (78 × 98 cm).",
+  "kurzbeschreibung": "Das reguläre Verdunkelungsrollo von VELUX mit seitlichen Führungsschienen. Es wird in die Halterungen am Fensterrahmen geklickt, ohne Bohren und ohne Zuschneiden. Das S am Ende steht für silberne Schienen, SWL für weiße. Gibt es für jede Fenstergröße mit eigenem Code.",
+  "vorteile": [
+    "Dunkelt fast vollständig ab, die Schienen halten den Stoff auch in der Schräge an der Scheibe",
+    "In die vorhandenen Halterungen geklickt, kein Messen",
+    "3 Jahre Garantie laut VELUX"
+  ],
+  "nachteile": [
+    "Bestell nach dem Code auf deinem Typenschild: Dieses Rollo ist für MK04, für ein M04-Fenster gibt es DKL M04",
+    "Gegen Hitze hilft es wenig, weil die Sonne schon durch die Scheibe ist",
+    "Fehlen am Fenster die Halterungen, brauchst du das Montageset ZOZ 230"
+  ],
+  "technische_daten": {
+    "kategorie": "sonnenschutz",
+    "art": "Verdunkelungsrollo",
+    "typ": "DKL MK04 1025S",
+    "zweck": ["verdunkeln"],
+    "montage": "innen",
+    "bedienung": "von Hand",
+    "herkunft": "Original",
+    "generationen": ["velux-ab-2013"],
+    "passend_fuer": "VELUX ab 2013, Größe MK04",
+    "groesse": "MK04 (78 × 98 cm)",
+    "befestigung": "in Halterungen am Rahmen geklickt",
+    "farbe": "weiß, Schienen silber"
+  }
+ },
+ {
+  "sortierung": 2,
+  "name": "VELUX Verdunkelungsrollo DKL M04 1025S, weiß",
+  "hersteller": "VELUX",
+  "hersteller_nr": "DKL M04 1025S",
+  "ean": "5702325138776",
+  "einsatzbereich": "VELUX-Fenster von etwa 2000 bis 2013 mit Code M04 (78 × 98 cm), also ohne K im Code.",
+  "kurzbeschreibung": "Dasselbe Verdunkelungsrollo wie das DKL MK04, aber für die Vorgängergeneration. VELUX schreibt vor, Zubehör nach dem Code des eigenen Fensters zu bestellen. Die Ausführung mit silbernen Schienen (S) bringt die Halterungen für die Vorgängergeneration mit.",
+  "vorteile": [
+    "Original für Fenster mit Code ohne K",
+    "Halterungen für die Vorgängergeneration im Paket",
+    "Dunkelt fast vollständig ab"
+  ],
+  "nachteile": [
+    "Nur für M04, nicht für MK04 und nicht für 304",
+    "Die Ausführung mit weißen Schienen (SWL) hat laut VELUX keine Halterungen für die Vorgängergeneration dabei"
+  ],
+  "technische_daten": {
+    "kategorie": "sonnenschutz",
+    "art": "Verdunkelungsrollo",
+    "typ": "DKL M04 1025S",
+    "zweck": ["verdunkeln"],
+    "montage": "innen",
+    "bedienung": "von Hand",
+    "herkunft": "Original",
+    "generationen": ["velux-2000-2013"],
+    "passend_fuer": "VELUX 2000 bis 2013, Größe M04",
+    "groesse": "M04 (78 × 98 cm)",
+    "befestigung": "in Halterungen am Rahmen geklickt",
+    "farbe": "weiß, Schienen silber"
+  }
+ },
+ {
+  "sortierung": 3,
+  "name": "VELUX Verdunkelungsrollo Classic DBL M04 4288, weiß",
+  "hersteller": "VELUX",
+  "hersteller_nr": "DBL M04 4288",
+  "ean": "5702328726956",
+  "einsatzbereich": "Günstiger Ersatz für ein altes Rollo an einem VELUX-Fenster von vor 2013, Code M04.",
+  "kurzbeschreibung": "Das Classic-Rollo ist die preiswerte Ersatzvariante von VELUX, ausdrücklich für Fenster mit Baujahr vor 2013. Es gibt nur vier Farben, und es wird auf die vorhandenen Halterungen geklickt. VELUX nennt eine Einbauzeit unter 15 Minuten.",
+  "vorteile": [
+    "Deutlich günstiger als das DKL",
+    "Original von VELUX, passt auf die vorhandenen Halterungen",
+    "In unter 15 Minuten getauscht"
+  ],
+  "nachteile": [
+    "Nur für Fenster von vor 2013, nicht für Codes mit K",
+    "Nur vier Farben: grau, beige, schwarz, weiß"
+  ],
+  "technische_daten": {
+    "kategorie": "sonnenschutz",
+    "art": "Verdunkelungsrollo",
+    "typ": "DBL M04 4288",
+    "zweck": ["verdunkeln"],
+    "montage": "innen",
+    "bedienung": "von Hand",
+    "herkunft": "Original",
+    "generationen": ["velux-2000-2013"],
+    "passend_fuer": "VELUX vor 2013, Größe M04",
+    "groesse": "M04 (78 × 98 cm)",
+    "befestigung": "in Halterungen am Rahmen geklickt",
+    "farbe": "weiß"
+  }
+ },
+ {
+  "sortierung": 4,
+  "name": "VELUX Sichtschutzrollo RFL MK04 1028S, weiß",
+  "hersteller": "VELUX",
+  "hersteller_nr": "RFL MK04 1028S",
+  "ean": "5702326642456",
+  "einsatzbereich": "Bad oder Arbeitszimmer, wenn Licht hereinsoll, aber niemand hineinsehen.",
+  "kurzbeschreibung": "Ein lichtdurchlässiges Rollo mit Führungsschienen, das blendet und gegen Einblick schützt, aber nicht abdunkelt. Montiert wird es wie das Verdunkelungsrollo in den Halterungen am Rahmen.",
+  "vorteile": [
+    "Raum bleibt hell, Sicht von außen ist gedämpft",
+    "In Führungsschienen, bleibt in der Schräge an der Scheibe"
+  ],
+  "nachteile": [
+    "Verdunkelt nicht",
+    "Bringt gegen Hitze nur wenig, weil es innen hängt"
+  ],
+  "technische_daten": {
+    "kategorie": "sonnenschutz",
+    "art": "Sichtschutzrollo",
+    "typ": "RFL MK04 1028S",
+    "zweck": ["sicht"],
+    "montage": "innen",
+    "bedienung": "von Hand",
+    "herkunft": "Original",
+    "generationen": ["velux-ab-2013"],
+    "passend_fuer": "VELUX ab 2013, Größe MK04",
+    "groesse": "MK04 (78 × 98 cm)",
+    "befestigung": "in Halterungen am Rahmen geklickt",
+    "farbe": "weiß"
+  }
+ },
+ {
+  "sortierung": 5,
+  "name": "VELUX Plissee FHL MK04 1016S, weiß",
+  "hersteller": "VELUX",
+  "hersteller_nr": "FHL MK04 1016S",
+  "ean": "5702326782398",
+  "einsatzbereich": "Sichtschutz mit Tageslicht, wenn du nur einen Teil des Fensters abdecken willst.",
+  "kurzbeschreibung": "Ein lichtdurchlässiges Faltrollo, das sich von oben und von unten bedienen und an beliebiger Stelle im Fenster parken lässt. Es dämpft das Licht und schützt vor Einblick.",
+  "vorteile": [
+    "Frei positionierbar, zum Beispiel nur das untere Drittel zu",
+    "Bestellt nach Typenschild, kein Messen"
+  ],
+  "nachteile": [
+    "Verdunkelt nicht",
+    "Teurer als das Sichtschutzrollo in derselben Größe"
+  ],
+  "technische_daten": {
+    "kategorie": "sonnenschutz",
+    "art": "Plissee",
+    "typ": "FHL MK04 1016S",
+    "zweck": ["sicht"],
+    "montage": "innen",
+    "bedienung": "von Hand",
+    "herkunft": "Original",
+    "generationen": ["velux-ab-2013"],
+    "passend_fuer": "VELUX ab 2013, Größe MK04",
+    "groesse": "MK04 (78 × 98 cm)",
+    "befestigung": "in Halterungen am Rahmen geklickt",
+    "farbe": "weiß"
+  }
+ },
+ {
+  "sortierung": 6,
+  "name": "VELUX Hitzeschutz-Markise MHL MK00 5060",
+  "hersteller": "VELUX",
+  "hersteller_nr": "MHL MK00 5060",
+  "ean": "5702326005305",
+  "einsatzbereich": "Dachzimmer, das im Sommer zu heiß wird, an VELUX-Schwingfenstern GGL und GGU mit 78 cm Breite.",
+  "kurzbeschreibung": "Ein transparentes, schwarzes Gewebe außen vor der Scheibe. Laut VELUX-Datenblatt senkt es die Erwärmung durchs Fenster um bis zu 73 %, in einer VELUX-Raumsimulation war der Raum bis zu 4,2 °C kühler. Montiert wird von innen: Fenster drehen, Haken außen am Flügel anschrauben, Markise einhängen. Die 00 im Code heißt: passt auf alle Höhen dieser Breite.",
+  "vorteile": [
+    "Hält die Wärme ab, bevor sie durchs Glas kommt",
+    "Eine Markise für MK04 bis MK10, M04 bis M10 und 304 bis 310",
+    "Ausblick bleibt, das Gewebe ist durchsichtig"
+  ],
+  "nachteile": [
+    "Verdunkelt nicht, dafür zusätzlich ein Rollo innen",
+    "Nicht zusammen mit einem Rollladen oder anderem Außenschutz",
+    "Nur ganz auf oder ganz zu, und nicht mit nachgerüstetem Motor KMG/KSX"
+  ],
+  "technische_daten": {
+    "kategorie": "sonnenschutz",
+    "art": "Hitzeschutz-Markise",
+    "typ": "MHL MK00 5060",
+    "zweck": ["hitze"],
+    "montage": "außen",
+    "bedienung": "von Hand",
+    "herkunft": "Original",
+    "generationen": ["velux-ab-2013", "velux-2000-2013", "velux-1991-2000"],
+    "passend_fuer": "VELUX GGL und GGU, Breite 78 cm, alle drei Generationen",
+    "groesse": "MK00 (für MK04 bis MK10)",
+    "befestigung": "an Haken außen am Flügel, Montage von innen",
+    "wirkung": "bis zu 73 % weniger Erwärmung durchs Fenster",
+    "material": "Kunststoffgewebe, wasserabweisend",
+    "farbe": "schwarz, transparent"
+  }
+ },
+ {
+  "sortierung": 7,
+  "name": "VELUX Insektenschutzrollo ZIL MK06 0000SWL",
+  "hersteller": "VELUX",
+  "hersteller_nr": "ZIL MK06 0000SWL",
+  "ean": "5702328853669",
+  "einsatzbereich": "Schlafzimmer mit VELUX-Fenster, das im Sommer nachts offen stehen soll.",
+  "kurzbeschreibung": "Ein Fliegengitter als Rollo, das nicht am Flügel, sondern am Innenfutter oder an der Wand sitzt. So schwenkt das Fenster weiter frei. Die Größe richtet sich nach Breite und Höhe der Innenverkleidung, nicht nach dem Fenstercode, also vorher messen.",
+  "vorteile": [
+    "Fenster lässt sich mit heruntergezogenem Netz öffnen",
+    "Mit allen VELUX-Innenrollos und der Markise kombinierbar",
+    "Passt zur aktuellen und zur vorherigen Fenstergeneration"
+  ],
+  "nachteile": [
+    "Größe nach der Innenverkleidung messen, der Fenstercode allein reicht nicht",
+    "Nicht für mehrere Fenster nebeneinander und nicht für 3-in-1-Fenster"
+  ],
+  "technische_daten": {
+    "kategorie": "sonnenschutz",
+    "art": "Insektenschutzrollo",
+    "typ": "ZIL MK06 0000SWL",
+    "zweck": ["insekten"],
+    "montage": "innen",
+    "bedienung": "von Hand",
+    "herkunft": "Original",
+    "generationen": ["velux-ab-2013", "velux-2000-2013"],
+    "passend_fuer": "VELUX ab 2000, Größe nach Innenverkleidung",
+    "groesse": "MK06 (78 × 118 cm)",
+    "befestigung": "am Innenfutter oder an der Wand",
+    "farbe": "schwarzes Netz, weiße Kassette"
+  }
+ },
+ {
+  "sortierung": 8,
+  "name": "DTCH Verdunkelungsrollo für VELUX MK04, schwarz",
+  "hersteller": "DTCH",
+  "amazon_asin": "B0BFXJJNDQ",
+  "einsatzbereich": "Günstiges Verdunkeln an einem VELUX MK04, wenn es kein Original sein muss.",
+  "kurzbeschreibung": "Ein Nachbau eines anderen Herstellers, der laut Anbieter auf VELUX MK04 passt. Er kostet rund die Hälfte des Originals.",
+  "vorteile": [
+    "Etwa halb so teuer wie das VELUX-Rollo"
+  ],
+  "nachteile": [
+    "Nachbau, nicht von VELUX: Passform und Befestigung beschreibt nur der Anbieter",
+    "Prüf vor dem Kauf, ob dein Code und Fenstertyp ausdrücklich genannt sind"
+  ],
+  "technische_daten": {
+    "kategorie": "sonnenschutz",
+    "art": "Verdunkelungsrollo",
+    "zweck": ["verdunkeln"],
+    "montage": "innen",
+    "bedienung": "von Hand",
+    "herkunft": "Nachbau",
+    "generationen": ["velux-ab-2013"],
+    "passend_fuer": "laut Anbieter VELUX MK04",
+    "groesse": "MK04",
+    "farbe": "schwarz"
+  }
+ },
+ {
+  "sortierung": 9,
+  "name": "Itzala Verdunkelungsrollo kompatibel mit VELUX SK06, grau",
+  "hersteller": "Itzala",
+  "amazon_asin": "B0D2J1GRM5",
+  "einsatzbereich": "Großes VELUX-Fenster SK06 (114 × 118 cm), wenn das Original zu teuer ist.",
+  "kurzbeschreibung": "Ein Nachbau mit vielen Bewertungen bei Amazon, angeboten für VELUX SK06 und weitere Codes. Er kostet etwa die Hälfte des Originals in dieser Größe.",
+  "vorteile": [
+    "Deutlich günstiger als das Original in SK06"
+  ],
+  "nachteile": [
+    "Nachbau, nicht von VELUX: Passform beschreibt nur der Anbieter",
+    "Prüf vor dem Kauf, ob dein Code und Fenstertyp ausdrücklich genannt sind"
+  ],
+  "technische_daten": {
+    "kategorie": "sonnenschutz",
+    "art": "Verdunkelungsrollo",
+    "zweck": ["verdunkeln"],
+    "montage": "innen",
+    "bedienung": "von Hand",
+    "herkunft": "Nachbau",
+    "generationen": ["velux-ab-2013"],
+    "passend_fuer": "laut Anbieter VELUX SK06",
+    "groesse": "SK06",
+    "farbe": "grau"
+  }
+ },
+ {
+  "sortierung": 10,
+  "name": "Lichtblick Sonnenschutz Thermofix 47 × 96,9 cm, beige",
+  "hersteller": "Lichtblick",
+  "ean": "4250434123967",
+  "einsatzbereich": "Mietwohnung oder Übergangslösung gegen Sonne, ohne zu bohren, für ein Fenster der Größe FK06.",
+  "kurzbeschreibung": "Ein Stoff mit silberner Rückseite, der Sonne zurückwirft und mit Saugnäpfen an der Scheibe sitzt. Gewählt wird nach dem Glasmaß, nicht nach dem Fenstercode. Er hängt innen, hilft also weniger gegen Hitze als eine Markise außen.",
+  "vorteile": [
+    "Sehr günstig, ohne Bohren, ohne Werkzeug",
+    "Passt auf Dachfenster jeder Marke, wenn das Glasmaß stimmt"
+  ],
+  "nachteile": [
+    "Nachbau, sitzt mit Saugnäpfen auf der Scheibe statt in Schienen",
+    "Innen montiert, gegen Hitze schwächer als ein Außenschutz",
+    "Ob er ganz abdunkelt, beschreiben die Shops unterschiedlich"
+  ],
+  "technische_daten": {
+    "kategorie": "sonnenschutz",
+    "art": "Hitzeschutz innen",
+    "zweck": ["hitze"],
+    "montage": "innen",
+    "bedienung": "von Hand",
+    "herkunft": "Nachbau",
+    "generationen": ["glasmass"],
+    "passend_fuer": "nach Glasmaß, laut Anbieter für FK06",
+    "groesse": "47 × 96,9 cm",
+    "befestigung": "Saugnäpfe, ohne Bohren",
+    "material": "Polyester, Rückseite silber beschichtet",
+    "farbe": "beige"
+  }
+ },
+ {
+  "sortierung": 11,
+  "name": "Lichtblick Plissee Haftfix 47,3 × 100 cm, weiß",
+  "hersteller": "Lichtblick",
+  "ean": "4250434122199",
+  "einsatzbereich": "Sichtschutz ohne Bohren, etwa in der Mietwohnung, nach Glasmaß.",
+  "kurzbeschreibung": "Ein Plissee ohne Bohren, gewählt nach dem Glasmaß. Laut Anbieter passt die Größe 47,3 × 100 cm zu VELUX F06 und FK06.",
+  "vorteile": [
+    "Kostet einen Bruchteil des Originals",
+    "Ohne Bohren, auch für andere Marken nach Glasmaß"
+  ],
+  "nachteile": [
+    "Nachbau, Halt und Passform beschreibt nur der Anbieter",
+    "Glasmaß vorher genau messen"
+  ],
+  "technische_daten": {
+    "kategorie": "sonnenschutz",
+    "art": "Plissee",
+    "zweck": ["sicht"],
+    "montage": "innen",
+    "bedienung": "von Hand",
+    "herkunft": "Nachbau",
+    "generationen": ["glasmass"],
+    "passend_fuer": "nach Glasmaß, laut Anbieter für F06 und FK06",
+    "groesse": "47,3 × 100 cm",
+    "befestigung": "ohne Bohren",
+    "farbe": "weiß"
+  }
+ },
+ {
+  "sortierung": 12,
+  "name": "Roto Verdunkelungsrollo ZRV",
+  "hersteller": "Roto",
+  "amazon_asin": "B08KTKWRMC",
+  "einsatzbereich": "Roto-Fenster der Baureihen Designo R6 und R8, i8 und Classic.",
+  "kurzbeschreibung": "Das Original-Verdunkelungsrollo von Roto mit silberner Führungsschiene. Bestellt wird nach Baureihe und Größe vom Roto-Typenschild, das du in der Putzstellung siehst.",
+  "vorteile": [
+    "Original von Roto, passend zur Baureihe"
+  ],
+  "nachteile": [
+    "Teuer im Vergleich zu VELUX-Rollos ähnlicher Größe",
+    "Baureihe und Größe vom Typenschild mit dem Angebot vergleichen"
+  ],
+  "technische_daten": {
+    "kategorie": "sonnenschutz",
+    "art": "Verdunkelungsrollo",
+    "typ": "ZRV",
+    "zweck": ["verdunkeln"],
+    "montage": "innen",
+    "bedienung": "von Hand",
+    "herkunft": "Original",
+    "generationen": ["roto"],
+    "passend_fuer": "Roto Designo R6, R8, i8, Classic",
+    "farbe": "Schiene silber"
+  }
+ },
+ {
+  "sortierung": 13,
+  "name": "eXsun Sonnenschutz für Roto 7/11 (52 × 96 cm)",
+  "hersteller": "eXsun",
+  "amazon_asin": "B089T72MY1",
+  "einsatzbereich": "Günstiger Sonnenschutz ohne Bohren für ein Roto-Fenster der Größe 7/11.",
+  "kurzbeschreibung": "Ein Nachbau, den der Anbieter für Roto 7/11 mit 52 × 96 cm Glasfläche verkauft, ohne Bohren und ohne Nageln.",
+  "vorteile": [
+    "Sehr günstig, ohne Werkzeug"
+  ],
+  "nachteile": [
+    "Nachbau, Passform und Halt beschreibt nur der Anbieter",
+    "Glasmaß vorher messen"
+  ],
+  "technische_daten": {
+    "kategorie": "sonnenschutz",
+    "art": "Hitzeschutz innen",
+    "zweck": ["hitze", "verdunkeln"],
+    "montage": "innen",
+    "bedienung": "von Hand",
+    "herkunft": "Nachbau",
+    "generationen": ["roto"],
+    "passend_fuer": "laut Anbieter Roto 7/11",
+    "groesse": "52 × 96 cm",
+    "befestigung": "ohne Bohren"
+  }
+ }
+]

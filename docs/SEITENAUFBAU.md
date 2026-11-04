@@ -79,7 +79,11 @@ Im Code durchgesetzt, gilt für alle Seiten (alte Beiträge eingeschlossen):
 
 **Neuen Bereich anlegen:** Zeile in `HAUPTBEREICHE`, dann erst die Daten (Marken-Datei mit Serien, Teilen, Problemen), dann den Eintrag in `BEREICHE` und eine Zeichnung. Keine Kachel ohne Inhalt dahinter.
 
-**Neukauf-Hinweis:** Teil-, Modell- und Problemseiten zeigen den Kasten „Lieber eine neue Armatur?“ (`src/components/Neukauf.tsx`), wenn der Bereich einen `neukauf`-Eintrag hat: ein Satz, wann sich Neukauf mehr lohnt, bis zu drei Modelle aus dem Ratgeber mit Bild und günstigstem Partnershop-Preis, Link zum Ratgeber. Ohne Angebot mit Preis gibt es keinen Kasten. Kauflinks bleiben Textzeilen (Platzierung `neukauf`, Awin-`clickref` `hh-neukauf`). Mit `nurBei` lässt sich der Hinweis auf passende Seiten begrenzen (Drückerplatte nicht bei „Spülkasten läuft nach“).
+**Neukauf-Hinweis:** Der Kasten „Lieber eine neue Armatur?“ (`src/components/Neukauf.tsx`) zeigt nur Neugeräte, die zum Gerät der Seite passen, nie irgendeins aus dem Ratgeber:
+- **Serien- und Größenseiten** (und Teileseiten, deren Teil nur in einer Serie steckt): bis zu drei Neugeräte derselben Serie bzw. ihres Nachfolgers, beim Dachfenster dieselbe Größe. Die Modelle stehen je Marke in `data/neukauf/<marke>.json` (Serien-Slug → Liste mit Name, EAN, ggf. `amazon_asin`, `shop_link`, `hinweis`). Reihenfolge der Kaufzeile: Partnershop aus dem Feed mit Preis und Foto desselben Shops, sonst Amazon (ohne Foto), sonst ein Awin-Deeplink auf eine Shopseite ohne Feed-Eintrag (VELUX-Fenster bei hagebau, Größe im Shop wählen). Der Feed-Abgleich liest die EANs aus denselben Dateien. Steckt ein Teil in mehreren Serien, gibt es keinen Kasten.
+- **Problemseiten** (kein bestimmtes Gerät): bis zu drei Modelle aus dem Ratgeber des Bereichs, wenn der Bereich einen `neukauf`-Eintrag hat.
+
+Ohne kaufbares Modell gibt es keinen Kasten. Amazon-ASINs nur, wenn amazon.de/dp/<ASIN> genau dieses Modell zeigt und es lieferbar ist. Kauflinks bleiben Textzeilen (Platzierung `neukauf`, Awin-`clickref` `hh-neukauf`). Mit `nurBei` lässt sich der Hinweis auf passende Seiten begrenzen (Drückerplatte nicht bei „Spülkasten läuft nach“).
 
 **Bilder:** Fotos nur von Produkten und Teilen, und nur aus den Partner-Feeds (`ean_angebote.bild_url`, `teile.bild_url`), ausgeliefert über die Bildoptimierung (`TeilBild`). Bereiche bekommen Zeichnungen, keine Fotos.
 
@@ -248,6 +252,7 @@ Ein Teil, das in vielen Marken steckt, markenübergreifend erklärt: Eckventil, 
 
 - **Reihenfolge auf der Seite:** Titel, kurze Antwort, Sprungmarken, „So findest du den/die/das passende …“ (Schritte), Größentabelle, passende Produkte mit Bild und Preis, unsere Originalteile nach Marke, Probleme, Fragen, Link zum Bereich, Quellen eingeklappt.
 - **genus** (`m`/`f`/`n`) steuert „den passenden Perlator“, „die passende Kartusche“, „das passende Eckventil“.
+- **marken** (optional, Marken-Slugs) begrenzt „nach Marke“ auf diese Marken. Nötig, wenn ein Teiltyp in mehreren Bereichen vorkommt: `dichtung` steckt in Armaturen und in Dachfenstern, die Seite `dachfenster-dichtung` zeigt nur VELUX und Roto.
 - **Produkte:** nur mit EAN (für Bild und Preis aus `ean_angebote`) oder geprüfter ASIN der Produktseite. Ohne Preis und ohne ASIN erscheint ein Produkt nicht.
 - **Fragen** nach den Regeln aus 4a: vorher in Foren recherchieren (gutefrage, haustechnikdialog, bauexpertenforum, Google „Ähnliche Fragen“), nur belegte Antworten. Rohdaten nach `data/recherche/fragen/<slug>.json`.
 - **Kein Marken-Slug** darf wie eine Teileart heißen, die Route `/ersatzteile/[marke]` prüft zuerst die Teileart. Das Prüfskript lehnt Doppelungen ab.

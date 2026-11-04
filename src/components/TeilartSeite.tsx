@@ -54,7 +54,8 @@ export default async function TeilartSeite({ ta }: { ta: Teilart }) {
   const markeVon = new Map(marken.map((m) => [m.id, m]));
   const teileJeMarke = gruppiere(teile, (t) => t.marke_id)
     .map(([id, liste]) => ({ marke: markeVon.get(id), liste }))
-    .filter((g) => g.marke);
+    // Teiltypen wie „dichtung“ gibt es in mehreren Bereichen; ta.marken begrenzt auf die Marken dieser Teileart.
+    .filter((g) => g.marke && (!ta.marken || ta.marken.includes(g.marke.slug)));
 
   const produktZeilen = produkte.map((p) => {
     const n = normEan(p.ean);
