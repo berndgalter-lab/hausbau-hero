@@ -55,7 +55,7 @@ Belege in Klammern: GSC-Impressionen und Position; „nur Suggest“ heißt, die
 ### Restlicher Sanitärbereich (danach, in dieser Reihenfolge)
 
 1. **WC/Vorwand (erledigt, Branch `feat/wc-vorwand`):** `geberit-sigma-drueckerplatte` neu (Kompatibilität je Spülkasten, Sigma-Modelle, Sigma30 = Sigma20 eckig seit 2025, Friatec), `vorwandelement-wc` neu (6 Elemente von Geberit, TECE, GROHE, Viega, Komplettset, Kosten), neu `vorwandelement-wc-hoehe` (1.167 Impr., Pos. 45) und `tece-vs-geberit` (234 Impr., Pos. 8–11). Die Datentabelle kennt jetzt auch Drückerplatten und Vorwandelemente. Offen: Für Geberit Duofix, DuofixBasic, TECEprofil und Viega Prevista führt keiner der drei Partnershops die EAN, dort gibt es nur den Amazon-Suchlink; die meisten Amazon-ASINs dieses Bereichs sind noch nicht über die Modellnummer bestätigt (Amazon hat den Abgleich gesperrt).
-2. **Hebeanlagen:** `kleinhebeanlage` neu, `hebeanlage-kosten` neu (218 Impr., Pos. 20–43).
+2. **Hebeanlagen (erledigt, Branch `feat/hebeanlagen`):** `kleinhebeanlage` neu (Einsatzgrenzen nach DIN EN 12050-3, Einbau, Wartung, Kondensat; 6 Geräte von Grundfos und SFA), neu `hebeanlage-kosten` (Listen- und Shoppreise, Einbau, Schacht, Wartung, Strom, Rückstauverschluss, Förderung; 218 Impr., Pos. 20–43). Offen: SFA und Kessel führt keiner der Partnershops; Amazon-ASINs dieses Bereichs sind nicht bestätigt (Amazon-Sperre), dort stehen Suchlinks.
 3. **Dusche:** `komplettdusche-ratgeber` überarbeiten.
 4. **Problemlöser markenübergreifend:** `spuelkasten-laeuft-nach`, `thermostat-wird-nicht-warm`, `armatur-tropft` (die Marken-Varianten gibt es schon).
 

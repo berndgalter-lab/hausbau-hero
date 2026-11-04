@@ -79,9 +79,9 @@ export function armaturDaten(td: unknown): ArmaturDaten | null {
   return d.kategorie && d.kategorie in KATEGORIE_NAME ? d : null;
 }
 
-// ---------- WC: Drückerplatten und Vorwandelemente ----------
+// ---------- WC und Haustechnik: Drückerplatten, Vorwandelemente, Hebeanlagen ----------
 
-export type WcKategorie = "drueckerplatte" | "vorwandelement";
+export type WcKategorie = "drueckerplatte" | "vorwandelement" | "hebeanlage";
 
 export interface WcDaten {
   kategorie?: WcKategorie;
@@ -103,14 +103,28 @@ export interface WcDaten {
   ablauf?: string;
   schallschutz?: string;
   lieferumfang?: string;
+  // Hebeanlage
+  einsatz?: string;
+  norm?: string;
+  foerderhoehe_max_m?: number;
+  foerdermenge?: string;
+  zulaeufe?: string;
+  druckleitung?: string;
+  leistung_w?: number;
+  behaelter_l?: number;
+  geraeusch_db?: number;
+  schneidwerk?: string;
 }
 
 export const WC_KATEGORIE_NAME: Record<WcKategorie, string> = {
   drueckerplatte: "Drückerplatte",
   vorwandelement: "Vorwandelement",
+  hebeanlage: "Hebeanlage",
 };
 
 export const WC_MERKMALE: { key: keyof WcDaten; label: string; wert: (d: WcDaten) => string | null }[] = [
+  { key: "einsatz", label: "Einsatz", wert: (d) => text(d.einsatz) },
+  { key: "norm", label: "Norm", wert: (d) => text(d.norm) },
   { key: "passend_fuer", label: "Passt auf", wert: (d) => text(d.passend_fuer) },
   { key: "spuelkasten", label: "Spülkasten", wert: (d) => text(d.spuelkasten) },
   { key: "betaetigung", label: "Betätigung", wert: (d) => text(d.betaetigung) },
@@ -125,6 +139,18 @@ export const WC_MERKMALE: { key: keyof WcDaten; label: string; wert: (d: WcDaten
   { key: "befestigung", label: "WC-Befestigung", wert: (d) => text(d.befestigung) },
   { key: "ablauf", label: "Ablauf", wert: (d) => text(d.ablauf) },
   { key: "schallschutz", label: "Schallschutz", wert: (d) => text(d.schallschutz) },
+  {
+    key: "foerderhoehe_max_m",
+    label: "Förderhöhe max.",
+    wert: (d) => (typeof d.foerderhoehe_max_m === "number" ? `${d.foerderhoehe_max_m.toLocaleString("de-DE")} m` : null),
+  },
+  { key: "foerdermenge", label: "Fördermenge max.", wert: (d) => text(d.foerdermenge) },
+  { key: "zulaeufe", label: "Zuläufe", wert: (d) => text(d.zulaeufe) },
+  { key: "druckleitung", label: "Druckleitung", wert: (d) => text(d.druckleitung) },
+  { key: "schneidwerk", label: "Schneidwerk", wert: (d) => text(d.schneidwerk) },
+  { key: "leistung_w", label: "Leistung", wert: (d) => (typeof d.leistung_w === "number" ? `${d.leistung_w.toLocaleString("de-DE")} W` : null) },
+  { key: "behaelter_l", label: "Behälter", wert: (d) => (typeof d.behaelter_l === "number" ? `${d.behaelter_l.toLocaleString("de-DE")} l` : null) },
+  { key: "geraeusch_db", label: "Geräusch", wert: (d) => (typeof d.geraeusch_db === "number" ? `${d.geraeusch_db} dB(A)` : null) },
   { key: "lieferumfang", label: "Lieferumfang", wert: (d) => text(d.lieferumfang) },
   { key: "farben", label: "Farben", wert: (d) => (Array.isArray(d.farben) && d.farben.length > 0 ? d.farben.join(", ") : null) },
 ];
@@ -135,7 +161,7 @@ function istWc(d: ProduktDaten): d is WcDaten {
   return !!d.kategorie && d.kategorie in WC_KATEGORIE_NAME;
 }
 
-/** Technische Daten jeder bekannten Kategorie (Armatur, Drückerplatte, Vorwandelement). */
+/** Technische Daten jeder bekannten Kategorie (Armatur, Drückerplatte, Vorwandelement, Hebeanlage). */
 export function produktDaten(td: unknown): ProduktDaten | null {
   if (!td || typeof td !== "object" || Array.isArray(td)) return null;
   const d = td as ProduktDaten;
