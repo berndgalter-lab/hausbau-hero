@@ -7,7 +7,19 @@
 // Platzierung verkauft. Ohne Env-Variable bleibt der Tag aus der Datenbank.
 // Nur Tracking-IDs setzen, die in PartnerNet wirklich existieren.
 
-export type Platzierung = "box" | "text" | "rechner" | "teil" | "angebot" | "vergleich" | "neukauf";
+export type Platzierung = "box" | "text" | "rechner" | "teil" | "angebot" | "vergleich" | "neukauf" | "quelle";
+
+/** Amazon-Tag für alle Links, für die keine eigene Tracking-ID gesetzt ist. */
+export const AMAZON_STANDARD_TAG = "hausbauhero-21";
+
+// Awin: Publisher-ID und Programm-IDs der Partnershops. Direkte Links auf diese Shops (etwa in Quellen)
+// laufen als Awin-Deeplink, sonst wird der Kauf nicht zugeordnet.
+const AWIN_PUBLISHER = "930939";
+const AWIN_SHOPS: Record<string, string> = {
+  "contorion.de": "14578",
+  "otto.de": "14336",
+  "hagebau.de": "11513",
+};
 
 // Direkter Zugriff, damit Next.js die Werte beim Build einsetzt.
 const TAGS: Partial<Record<Platzierung, string | undefined>> = {
@@ -74,15 +86,44 @@ export function mitClickref(url: string, platzierung: Platzierung): string {
 
 export function mitTrackingId(url: string, platzierung: Platzierung): string {
   if (istAwinUrl(url)) return mitClickref(url, platzierung);
-  const tag = TAGS[platzierung];
-  if (!tag || !isAmazonUrl(url)) return url;
+  if (!isAmazonUrl(url)) return url;
   try {
     const u = new URL(url);
+    // Eigene Tracking-ID der Platzierung, sonst der vorhandene Tag, sonst der Standard-Tag
+    const tag = TAGS[platzierung] || u.searchParams.get("tag") || AMAZON_STANDARD_TAG;
     u.searchParams.set("tag", tag);
     return u.toString();
   } catch {
     return url;
   }
+}
+
+/** Awin-Programm-ID, wenn die URL eine Produkt- oder Kategorieseite eines Partnershops ist (nicht media.…-PDFs). */
+function awinShop(url: string): string | null {
+  try {
+    const u = new URL(url);
+    if (!/^(www\.)?[^.]+\.de$/i.test(u.hostname)) return null;
+    return AWIN_SHOPS[u.hostname.replace(/^www\./, "").toLowerCase()] ?? null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Macht aus einem beliebigen externen Link einen Partnerlink, wenn das geht: Amazon-Produktseite mit Tag,
+ * Partnershop als Awin-Deeplink, Awin-Link mit clickref. Gibt null zurück, wenn kein Partner dahintersteht.
+ */
+export function alsPartnerlink(url: string, platzierung: Platzierung): string | null {
+  if (istAmazonSuche(url)) return null;
+  if (isAmazonUrl(url) || istAwinUrl(url)) return mitTrackingId(url, platzierung);
+  const shop = awinShop(url);
+  if (!shop) return null;
+  const u = new URL("https://www.awin1.com/cread.php");
+  u.searchParams.set("awinmid", shop);
+  u.searchParams.set("awinaffid", AWIN_PUBLISHER);
+  u.searchParams.set("ued", url);
+  u.searchParams.set("clickref", `hh-${platzierung}`);
+  return u.toString();
 }
 
 // Externe Links im Artikel-HTML: Amazon-Suchlinks werden zu Text, sonst neuer Tab, rel="sponsored" für Partnerlinks
@@ -103,8 +144,9 @@ export function bereiteArtikelHtmlVor(html: string): string {
       .replace(/\s(rel|target)="[^"]*"/gi, "")
       .replace(/\s+/g, " ")
       .trim();
-    const partner = istPartnerUrl(href);
-    const ziel = partner ? mitTrackingId(href, "text") : href;
+    const partnerlink = alsPartnerlink(href.replace(/&amp;/g, "&"), "text");
+    const partner = !!partnerlink;
+    const ziel = partnerlink ? partnerlink.replace(/&/g, "&amp;") : href;
     const rel = partner ? AFFILIATE_REL : "nofollow noopener noreferrer";
     const daten = partner ? ' data-platzierung="text"' : "";
     return `<a ${rest ? rest + " " : ""}href="${ziel}" target="_blank" rel="${rel}"${daten}>`;
