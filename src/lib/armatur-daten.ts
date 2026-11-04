@@ -23,6 +23,18 @@ export interface ArmaturDaten {
   umsteller?: string;
   temperaturbegrenzer?: string;
   oberflaechen?: string[];
+  /** Unterputz: Grundkörper, auf den das Fertigset passt, z. B. „GROHE Rapido SmartBox“ */
+  grundkoerper?: string;
+  /** Unterputz: Zahl der Abgänge (Wanne und Brause = 2) */
+  abgaenge?: number;
+  /** Unterputz: Form und Maß der Wandrosette, z. B. „rund, Ø 158 mm“ */
+  rosette?: string;
+  /** Unterputz-Wanne: Sicherung gegen Rückfließen nach EN 1717, „eingebaut“ oder z. B. „nachrüstbar (GROHE 14055)“ */
+  rueckflusssicherung?: string;
+  /** Duschthermostat: wo die Brause angeschlossen wird, „unten“, „oben“ oder „oben oder unten (wahlweise)“ */
+  abgang?: string;
+  /** Eignung für Durchlauferhitzer laut Hersteller, z. B. „geeignet“ oder „ab 18 kW“ */
+  durchlauferhitzer?: string;
 }
 
 export const KATEGORIE_NAME: Record<ArmaturKategorie, string> = {
@@ -65,6 +77,12 @@ export const MERKMALE: { key: keyof ArmaturDaten; label: string; wert: (d: Armat
   },
   { key: "temperaturbegrenzer", label: "Temperaturbegrenzer", wert: (d) => text(d.temperaturbegrenzer) },
   { key: "umsteller", label: "Umsteller Wanne/Brause", wert: (d) => text(d.umsteller) },
+  { key: "grundkoerper", label: "Grundkörper", wert: (d) => text(d.grundkoerper) },
+  { key: "abgaenge", label: "Abgänge", wert: (d) => (typeof d.abgaenge === "number" ? String(d.abgaenge) : null) },
+  { key: "rosette", label: "Rosette", wert: (d) => text(d.rosette) },
+  { key: "rueckflusssicherung", label: "Sicherung EN 1717", wert: (d) => text(d.rueckflusssicherung) },
+  { key: "abgang", label: "Brauseabgang", wert: (d) => text(d.abgang) },
+  { key: "durchlauferhitzer", label: "Durchlauferhitzer", wert: (d) => text(d.durchlauferhitzer) },
   { key: "anschluss", label: "Anschluss", wert: (d) => text(d.anschluss) },
   {
     key: "oberflaechen",

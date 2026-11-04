@@ -41,7 +41,7 @@ export const BEREICHE: Bereich[] = [
     produkttypen: ["thermostat", "duscharmatur", "wannenarmatur"],
     teiltypen: ["thermostatkartusche", "kartusche", "schlauch", "dichtung"],
     probleme: /thermostat/,
-    ratgeber: ["badewannenarmatur-ratgeber", "komplettdusche-ratgeber"],
+    ratgeber: ["badewannenarmatur-ratgeber", "badewannenarmatur-unterputz", "duschthermostat", "komplettdusche-ratgeber"],
   },
   {
     slug: "wc-spuelkasten",

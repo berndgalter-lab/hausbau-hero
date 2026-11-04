@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
+import { weiterleitungsZiel } from '@/lib/produkt-ratgeber';
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
@@ -43,8 +44,9 @@ export async function middleware(request: NextRequest) {
       .single();
 
     if (data?.neue_url) {
-      console.log(`[middleware] 301: ${path} → ${data.neue_url}`);
-      return NextResponse.redirect(new URL(data.neue_url, request.url), 301);
+      const ziel = weiterleitungsZiel(data.neue_url);
+      console.log(`[middleware] 301: ${path} → ${ziel}`);
+      return NextResponse.redirect(new URL(ziel, request.url), 301);
     }
   } catch {
     // DB not reachable — pass through

@@ -42,6 +42,7 @@ Das sind dünne Seiten, und davon viele. Genau das wertet Google seit den Update
 7. **Leser-Sprache in allen sichtbaren Feldern.** Was offen oder ungeprüft ist, gehört in `nicht_geprueft` oder ein neues Feld `intern`, nicht in Beschreibungen.
 8. **Affiliate-Hinweis einmal, am Ende**, plus Sternchen an den Shop-Links.
 9. **Unser eigener Vorteil gehört nach oben:** Kompatibilität, Nummern-Verwechslungen, Widersprüche zwischen Händlern. Das hat keine Testseite und kein Shop.
+10. **Keine Seiten je Farbe, Oberfläche oder „die besten X“.** „Waschtischarmatur schwarz“, „weiße Badewannenarmatur“ oder „die 7 besten …“ sind das alte Affiliate-Muster. Farbe und Oberfläche sind eine Frage in der Auswahlhilfe des Ratgebers, was zur Beschichtung wichtig ist, steht als Hinweis unter dieser Frage oder im Erklärteil. Alte Farbseiten leiten auf den Ratgeber weiter. Einen eigenen Ratgeber bekommt nur, was anders funktioniert oder anders eingebaut wird (Niederdruck, Unterputz, Thermostat).
 
 ### Was nach Affiliate-Seite aussieht, gibt es nicht mehr
 
@@ -79,7 +80,7 @@ Im Code durchgesetzt, gilt für alle Seiten (alte Beiträge eingeschlossen):
 
 ## 3. Seitentyp Produkt-Ratgeber (`/ratgeber/<produkt>`)
 
-Vorbild ist womo-teile (`/ratgeber/dieselheizung`): Die Seite beantwortet „Welche passt zu mir?“ mit einer Auswahlhilfe, nicht mit einer Liste „Die besten …“. Im neuen Aufbau: `/ratgeber/waschtischarmatur`, `/ratgeber/niederdruckarmatur`, `/ratgeber/waschtischarmatur-mit-brause`, `/ratgeber/badewannenarmatur`.
+Vorbild ist womo-teile (`/ratgeber/dieselheizung`): Die Seite beantwortet „Welche passt zu mir?“ mit einer Auswahlhilfe, nicht mit einer Liste „Die besten …“. Im neuen Aufbau: `/ratgeber/waschtischarmatur`, `/ratgeber/niederdruckarmatur`, `/ratgeber/waschtischarmatur-mit-brause`, `/ratgeber/badewannenarmatur`, `/ratgeber/badewannenarmatur-unterputz`, `/ratgeber/duschthermostat`.
 
 ### URL-Schema
 
