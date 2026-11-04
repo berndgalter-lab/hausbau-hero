@@ -1074,7 +1074,7 @@
    "name": "Grohe Niederdruck-Kartusche 46 mm (46409000)",
    "teiltyp": "kartusche",
    "oem_nummer": "46409000",
-   "ean": null,
+   "ean": "4005176177668",
    "masse": {
     "durchmesser_mm": 46
    },
@@ -1095,7 +1095,7 @@
    "name": "Grohe Kartusche Eurodisc Joy (46907000)",
    "teiltyp": "kartusche",
    "oem_nummer": "46907000",
-   "ean": null,
+   "ean": "4005176319815",
    "masse": {},
    "beschreibung": "Kartusche (GROHE FeatherControl) der Eurodisc-Joy-Waschtischarmaturen laut Grohe-Ersatzteilliste. Eine eigene Grohe-Produktseite dafür kennen wir nicht.",
    "preis_spanne": null,
@@ -1159,7 +1159,7 @@
    "name": "Grohe TurboStat Kartusche 1/2\" für vertauschte Anschlüsse (47175000)",
    "teiltyp": "thermostatkartusche",
    "oem_nummer": "47175000",
-   "ean": null,
+   "ean": "4005176803895",
    "masse": {
     "anschluss_zoll": "1/2"
    },
@@ -1204,7 +1204,7 @@
    "name": "Grohe Thermostat-Kompaktkartusche 1/2\" Precision Flow (49175000)",
    "teiltyp": "thermostatkartusche",
    "oem_nummer": "49175000",
-   "ean": null,
+   "ean": "4005176685835",
    "masse": {
     "anschluss_zoll": "1/2"
    },
@@ -1225,7 +1225,7 @@
    "name": "Grohe Thermoelement 1/2\" (47450000)",
    "teiltyp": "thermostatkartusche",
    "oem_nummer": "47450000",
-   "ean": null,
+   "ean": "4005176076190",
    "masse": {
     "anschluss_zoll": "1/2"
    },
@@ -1247,7 +1247,7 @@
    "name": "Grohe Rückflussverhinderer (08565000)",
    "teiltyp": "sonstiges",
    "oem_nummer": "08565000",
-   "ean": null,
+   "ean": "4005176019739",
    "masse": {},
    "beschreibung": "Rückflussverhinderer in den Anschlüssen von Aufputz-Thermostaten (laut grohe.de u. a. Grohtherm 800 Brause Pos. 7.2, Wanne Pos. 6.2; Grohtherm 1000 34143003). Defekte Rückflussverhinderer oder verschmutzte Siebe führen laut Grohe zu falscher Temperatur bzw. geringem Durchfluss.",
    "preis_spanne": null,
@@ -1289,7 +1289,7 @@
    "name": "Grohe Mousseur M24x1 Außengewinde, 13,5–15 l/min (13929000)",
    "teiltyp": "strahlregler",
    "oem_nummer": "13929000",
-   "ean": null,
+   "ean": "4005176025440",
    "masse": {
     "gewinde": "M24x1 AG"
    },
@@ -1310,7 +1310,7 @@
    "name": "Grohe Mousseur M22x1 Innengewinde (13935000)",
    "teiltyp": "strahlregler",
    "oem_nummer": "13935000",
-   "ean": null,
+   "ean": "4005176263859",
    "masse": {
     "gewinde": "M22x1 IG"
    },
@@ -1378,7 +1378,7 @@
    "name": "Grohe Montageschlüssel (19017000)",
    "teiltyp": "werkzeug",
    "oem_nummer": "19017000",
-   "ean": null,
+   "ean": "4005176212024",
    "masse": {},
    "beschreibung": "In Ersatzteillisten (u. a. Start DN 15 M-Size, Eurosmart M-Size) als Sonderzubehör (*) geführter Montageschlüssel. Eigenständige Produktdaten nicht geprüft.",
    "preis_spanne": null,
@@ -1398,7 +1398,7 @@
    "name": "Grohe Metall-Brauseschlauch 1500 mm G1/2 x M15x1 (46092000)",
    "teiltyp": "schlauch",
    "oem_nummer": "46092000",
-   "ean": null,
+   "ean": "4005176057755",
    "masse": {
     "laenge_mm": 1500,
     "gewinde": "G1/2 x M15x1"
@@ -1472,7 +1472,7 @@
    "name": "Grohe Metallbrauseschlauch 1/2 x M15x1 x 1500 (45352000)",
    "teiltyp": "schlauch",
    "oem_nummer": "45352000",
-   "ean": null,
+   "ean": "4005176055546",
    "masse": {
     "laenge_mm": 1500,
     "gewinde": "1/2 x M15x1"
@@ -1495,7 +1495,7 @@
    "name": "Grohe Spülbrause (46592000)",
    "teiltyp": "sonstiges",
    "oem_nummer": "46592000",
-   "ean": null,
+   "ean": "4005176833618",
    "masse": {},
    "beschreibung": "Herausziehbare Spülbrause (Brausekopf) – kein Schlauch, obwohl Drittanbieter die Nummer bei Ersatzschläuchen mit aufführen. Passende Armaturen nicht verifiziert.",
    "preis_spanne": null,
@@ -1559,7 +1559,7 @@
    "name": "Grohe O-Ring Ø13,5 x 2,75 mm (0128500M)",
    "teiltyp": "dichtung",
    "oem_nummer": "0128500M",
-   "ean": null,
+   "ean": "4005176000614",
    "masse": {
     "innen_mm": 13.5,
     "schnur_mm": 2.75
