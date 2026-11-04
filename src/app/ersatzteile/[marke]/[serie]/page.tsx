@@ -93,20 +93,20 @@ export default async function SerienSeite({ params }: Props) {
       <JsonLd daten={brotkrumenLd(pfad)} />
       <Brotkrumen teile={[pfad[0], pfad[1], pfad[2], { name: serie.name }]} />
 
-      <h1 className="text-3xl font-bold mb-2">{serie.name}: Ersatzteile</h1>
+      <h1 className="text-[2.25rem] sm:text-5xl leading-[1.1] font-semibold mb-2">{serie.name}: Ersatzteile</h1>
       <p className="text-sm text-stone-500 mb-6">
         {[PRODUKTTYP_LABEL[serie.produkttyp] ?? serie.produkttyp, jahre && `Baujahre ${jahre}`].filter(Boolean).join(" · ")}
       </p>
       {serie.beschreibung && <p className="text-stone-700 mb-6 leading-relaxed">{serie.beschreibung}</p>}
 
-      <section className="mb-8 p-5 bg-white border border-stone-200 rounded-xl">
-        <h2 className="text-lg font-bold mb-2">Ist das meine {serie.produkttyp === "spuelkasten" ? "Spülkasten-Serie" : "Serie"}?</h2>
+      <section className="mb-8 p-5 bg-white rounded-2xl ring-1 ring-stone-900/[0.07]">
+        <h2 className="text-xl font-semibold leading-tight mb-2">Ist das meine {serie.produkttyp === "spuelkasten" ? "Spülkasten-Serie" : "Serie"}?</h2>
         {merkmale ? (
           <p className="text-sm text-stone-700 leading-relaxed whitespace-pre-line">{merkmale}</p>
         ) : (
           <p className="text-sm text-stone-700 leading-relaxed">
             Sicher erkennst du die Serie nur an der Artikelnummer.{" "}
-            <a href={`/ersatzteile/${marke.slug}#nummer`} className="text-amber-700 hover:underline">
+            <a href={`/ersatzteile/${marke.slug}#nummer`} className="text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600">
               So findest du die Nummer bei {marke.name}
             </a>
             .
@@ -120,9 +120,9 @@ export default async function SerienSeite({ params }: Props) {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">Passende Ersatzteile</h2>
+        <h2 className="text-2xl font-semibold leading-tight mb-3">Passende Ersatzteile</h2>
         {mehrfach.length > 0 && (
-          <div className="mb-4 p-4 bg-amber-50 border border-amber-200 rounded-lg text-sm text-stone-700">
+          <div className="mb-4 p-4 bg-accent-50 rounded-xl text-sm text-stone-700">
             <strong>Achtung:</strong> Für diese Serie gibt es mehrere {mehrfach.join(" und ")}. Welches Teil passt,
             hängt von der genauen Modellnummer deiner Armatur ab – sie steht in der Spalte „Hinweis“.
           </div>
@@ -130,7 +130,7 @@ export default async function SerienSeite({ params }: Props) {
         {zeilen.length === 0 ? (
           <p className="text-sm text-stone-600">Für diese Serie sind noch keine belegten Zuordnungen erfasst.</p>
         ) : (
-          <div className="overflow-x-auto bg-white border border-stone-200 rounded-xl">
+          <div className="overflow-x-auto border-y border-stone-200">
             <table className="w-full text-sm">
               <thead className="bg-stone-50 text-stone-500">
                 <tr>
@@ -140,14 +140,14 @@ export default async function SerienSeite({ params }: Props) {
                   <th className="px-4 py-2"></th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-stone-100">
+              <tbody className="divide-y divide-stone-200">
                 {zeilen.map(({ z, t }) => (
                   <tr key={t.id} className="align-top">
                     <td className="px-4 py-3">
                       <div className="flex gap-3">
                         <TeilBild url={t.bild_url} alt={t.name} groesse={48} />
                         <div>
-                          <a href={`/teil/${t.slug}`} className="font-medium hover:text-amber-700">{t.name}</a>
+                          <a href={`/teil/${t.slug}`} className="font-medium hover:text-accent-700">{t.name}</a>
                           <div className="text-xs text-stone-500">{TEILTYP_LABEL[t.teiltyp] ?? t.teiltyp}</div>
                         </div>
                       </div>
@@ -157,7 +157,7 @@ export default async function SerienSeite({ params }: Props) {
                       <SicherheitBadge sicherheit={z.sicherheit} />
                       {z.hinweis && <div className="text-xs text-stone-600 mt-1">{z.hinweis}</div>}
                       {z.quelle_url && (
-                        <a href={z.quelle_url} target="_blank" rel="nofollow noopener noreferrer" className="text-xs text-amber-700 hover:underline">
+                        <a href={z.quelle_url} target="_blank" rel="nofollow noopener noreferrer" className="text-xs text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600">
                           {hostVon(z.quelle_url)}
                         </a>
                       )}
@@ -180,7 +180,7 @@ export default async function SerienSeite({ params }: Props) {
       <Quellen urls={[...serie.quellen, ...zuordnungen.map((z) => z.quelle_url)]} />
 
       <p className="mt-8 text-sm">
-        <a href={`/ersatzteile/${marke.slug}`} className="text-amber-700 hover:underline">← Alle {marke.name}-Serien</a>
+        <a href={`/ersatzteile/${marke.slug}`} className="text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600">← Alle {marke.name}-Serien</a>
       </p>
     </div>
   );

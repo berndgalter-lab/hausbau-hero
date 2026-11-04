@@ -7,12 +7,15 @@ import { angeboteFuerEans, normEan, type EanAngebot } from "@/lib/kaufberatung";
 import ArticleContent from "@/components/ArticleContent";
 import { getPassendeRechner } from "@/lib/rechner-zuordnung";
 import { ersatzteilVerweise } from "@/lib/ersatzteil-verweise";
-import { zerlegeArtikel } from "@/lib/artikel-aufbau";
+import { mitAnkern, zerlegeArtikel, type Gliederungspunkt } from "@/lib/artikel-aufbau";
 import { armaturDaten } from "@/lib/armatur-daten";
 import ModellFinder from "@/components/ModellFinder";
 import { ratgeberNachSlug, weiterleitungsZiel } from "@/lib/produkt-ratgeber";
 import {
   AffiliateHinweis,
+  ArtikelPfad,
+  ArtikelRahmen,
+  KaputtVerweise,
   KurzeAntwort,
   MethodenKasten,
   ModellAbschnitt,
@@ -120,6 +123,15 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
     }));
 
   const verweise = ersatzteilVerweise(seite.slug);
+  const rumpf = mitAnkern(aufbau?.rumpf ?? "");
+  const gliederung: Gliederungspunkt[] = [
+    ...(aufbau?.wichtigstes ? [{ id: "kurz", titel: aufbau.wichtigstesTitel ?? "Das Wichtigste vorab" }] : []),
+    ...rumpf.gliederung,
+    ...(hauptProdukte.length > 0 ? [{ id: "modelle", titel: "Die Modelle im Einzelnen" }] : []),
+    ...(hauptProdukte.filter((p: any) => p.technische_daten).length >= 2 ? [{ id: "daten", titel: "Technische Daten" }] : []),
+    ...(verweise.length > 0 ? [{ id: "ersatzteile", titel: "Wenn etwas kaputt geht" }] : []),
+    ...(aufbau?.quellen ? [{ id: "quellen", titel: "Quellen" }] : []),
+  ];
   // Reine Ratgeber ohne Produkte und ohne Partnerlinks im Text brauchen keinen Affiliate-Hinweis.
   const hatPartnerlinks =
     hauptProdukte.length > 0 ||
@@ -141,7 +153,7 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
   }
 
   return (
-    <div className="max-w-3xl mx-auto">
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -157,37 +169,44 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
         }}
       />
 
-      <nav className="text-sm text-stone-500 mb-4">
-        <a href="/" className="hover:text-stone-700">Start</a>
-        <span className="mx-2">›</span>
-        <a href={`/${params.silo}`} className="hover:text-stone-700">{siloName}</a>
-        <span className="mx-2">›</span>
-        <span className="text-stone-900">{seite.titel}</span>
-      </nav>
-
-      <h1 className="text-3xl font-bold text-stone-900 mb-3">{seite.titel}</h1>
-
+      <ArtikelRahmen
+        gliederung={gliederung}
+        kopf={
+          <header>
+            <ArtikelPfad teile={[{ name: "Start", href: "/" }, { name: siloName, href: `/${params.silo}` }, { name: seite.titel }]} />
+            <h1 className="text-[2.25rem] leading-[1.1] text-stone-900 sm:text-5xl">{seite.titel}</h1>
+            {aufbau?.einstieg && (
+              <div className="mt-6">
+                <ArticleContent html={aufbau.einstieg} gross />
+              </div>
+            )}
+            {aufbau && (
+              <div className="mt-6">
+                <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} />
+              </div>
+            )}
+          </header>
+        }
+      >
       {aufbau ? (
         <>
-          <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} />
-          {aufbau.einstieg && <ArticleContent html={aufbau.einstieg} />}
           {aufbau.methode && <MethodenKasten html={aufbau.methode} ohneTest={aufbau.ohneTest} />}
           {aufbau.wichtigstes && <KurzeAntwort html={aufbau.wichtigstes} titel={aufbau.wichtigstesTitel ?? "Das Wichtigste vorab"} />}
           {finderModelle.length >= 3 && <ModellFinder modelle={finderModelle} />}
-          {aufbau.rumpf && <ArticleContent html={aufbau.rumpf} />}
+          {rumpf.html && <ArticleContent html={rumpf.html} />}
         </>
       ) : (
-        <div className="bg-stone-50 border border-stone-200 rounded-xl p-8 text-center">
+        <div className="border-y border-stone-200 py-10 text-center">
           <p className="text-stone-600 mb-4">Dieser Artikel wird gerade überarbeitet.</p>
-          <a href={`/${params.silo}`} className="text-amber-600 font-medium hover:underline">
-            Zurück zu {siloName} →
+          <a href={`/${params.silo}`} className="weiterlink">
+            Zurück zu {siloName}
           </a>
         </div>
       )}
 
       {hauptProdukte.length > 0 && (
-        <section className="mt-12">
-          <h2 className="text-2xl font-bold text-stone-900 mb-2">Die Modelle im Einzelnen</h2>
+        <section id="modelle" className="mt-16 scroll-mt-24">
+          <h2 className="text-[1.75rem] font-semibold leading-tight text-stone-900 mb-2">Die Modelle im Einzelnen</h2>
           <div>
             {hauptProdukte.map((p: any) => (
               <ModellAbschnitt key={p.id} produkt={p} angebote={angebote[p.id]} />
@@ -200,9 +219,9 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
       <VergleichsTabelle produkte={hauptProdukte} angebote={angebote} />
 
       {werkzeuge.length > 0 && (
-        <section className="mt-10">
-          <h2 className="text-lg font-bold mb-3">Werkzeug für dieses Projekt</h2>
-          <div className="grid gap-3">
+        <section className="mt-16">
+          <h2 className="text-xl font-semibold mb-3">Werkzeug für dieses Projekt</h2>
+          <div className="divide-y divide-stone-200 border-y border-stone-200">
             {werkzeuge.map((p: any) => (
               <ProduktKarte key={p.id} produkt={p} />
             ))}
@@ -210,21 +229,7 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
         </section>
       )}
 
-      {verweise.length > 0 && (
-        <section className="mt-12 p-6 bg-white border border-stone-200 rounded-xl">
-          <h2 className="text-lg font-bold mb-1">Wenn etwas kaputt geht</h2>
-          <p className="text-sm text-stone-600 mb-4">Passende Ersatzteile und Hilfe bei typischen Problemen:</p>
-          <ul className="space-y-2">
-            {verweise.map((v) => (
-              <li key={v.href}>
-                <a href={v.href} className="text-amber-700 font-medium hover:underline">
-                  {v.titel} →
-                </a>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
+      <KaputtVerweise verweise={verweise} />
 
       {passendeRechner.length > 0 && (
         <div className="mt-8 text-sm text-stone-600">
@@ -232,7 +237,7 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
           {passendeRechner.map((r, i) => (
             <span key={r.slug}>
               {i > 0 && ", "}
-              <a href={`/rechner/${r.slug}`} className="text-amber-700 hover:underline">{r.name}</a>
+              <a href={`/rechner/${r.slug}`} className="text-accent-700 underline decoration-accent-300 underline-offset-2">{r.name}</a>
             </span>
           ))}
         </div>
@@ -240,6 +245,7 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
 
       {aufbau?.quellen && <Quellen html={aufbau.quellen} />}
       {hatPartnerlinks && <AffiliateHinweis />}
-    </div>
+      </ArtikelRahmen>
+    </>
   );
 }

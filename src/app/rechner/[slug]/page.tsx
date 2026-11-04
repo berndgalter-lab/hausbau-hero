@@ -229,7 +229,7 @@ export default function RechnerPage() {
   if (loading) {
     return (
       <div className="py-20 text-center">
-        <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-amber-200 border-t-amber-600" />
+        <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-accent-200 border-t-accent-600" />
         <p className="mt-4 text-stone-400">Lade Rechner...</p>
       </div>
     );
@@ -241,7 +241,7 @@ export default function RechnerPage() {
         <p className="text-lg font-semibold text-stone-700">
           {error || "Rechner nicht gefunden."}
         </p>
-        <a href="/rechner" className="mt-4 inline-block text-amber-600 hover:text-amber-700 font-medium">
+        <a href="/rechner" className="mt-4 inline-block text-accent-600 hover:text-accent-700 font-medium">
           ← Zurück zur Übersicht
         </a>
       </div>
@@ -292,17 +292,17 @@ export default function RechnerPage() {
       />
       <nav className="text-sm text-stone-500 mb-4">
         <a href="/" className="hover:text-stone-700">Start</a>
-        <span className="mx-2">›</span>
+        <span aria-hidden className="mx-2 text-stone-300">/</span>
         <a href="/rechner" className="hover:text-stone-700">Rechner</a>
-        <span className="mx-2">›</span>
+        <span aria-hidden className="mx-2 text-stone-300">/</span>
         <span className="text-stone-900">{rechner.name}</span>
       </nav>
 
-      <h1 className="text-3xl font-bold mb-2">{rechner.name}</h1>
+      <h1 className="text-[2.25rem] sm:text-5xl leading-[1.1] font-semibold mb-2">{rechner.name}</h1>
       <p className="text-stone-600 mb-8">{rechner.beschreibung}</p>
 
-      <div className="bg-white border border-stone-200 rounded-xl p-6 mb-8">
-        <h2 className="text-lg font-bold mb-4">Deine Angaben</h2>
+      <div className="bg-white rounded-2xl ring-1 ring-stone-900/[0.07] p-6 mb-8">
+        <h2 className="text-xl font-semibold leading-tight mb-4">Deine Angaben</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {rechner.eingabefelder.map((feld: any) => (
             <div key={feld.name}>
@@ -344,7 +344,7 @@ export default function RechnerPage() {
         </div>
         <button
           onClick={handleBerechnen}
-          className="mt-6 w-full bg-amber-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-amber-700 transition-colors text-lg"
+          className="mt-6 w-full bg-stone-900 text-white font-semibold py-3.5 px-6 rounded-full hover:bg-accent-700 transition-colors text-base"
         >
           Berechnen
         </button>
@@ -367,8 +367,8 @@ export default function RechnerPage() {
           )}
 
           {material.length > 0 && (
-            <div className="bg-white border border-stone-200 rounded-xl p-6 mb-6">
-              <h2 className="text-lg font-bold mb-2">Materialliste</h2>
+            <div className="bg-white rounded-2xl ring-1 ring-stone-900/[0.07] p-6 mb-6">
+              <h2 className="text-xl font-semibold leading-tight mb-2">Materialliste</h2>
               <p className="text-xs text-stone-500 mb-4">
                 Preise sind grobe Richtwerte. Mit * markierte Links sind Partnerlinks: Kaufst du darüber, bekommen wir
                 eine Provision, der Preis ändert sich für dich nicht.
@@ -400,7 +400,7 @@ export default function RechnerPage() {
                               target="_blank"
                               rel={AFFILIATE_REL}
                               data-platzierung="rechner"
-                              className="text-amber-700 hover:underline font-medium text-xs whitespace-nowrap"
+                              className="text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600 font-medium text-xs whitespace-nowrap"
                             >
                               Amazon*
                             </a>
@@ -423,8 +423,8 @@ export default function RechnerPage() {
           )}
 
           {werkzeuge.length > 0 && (
-            <div className="bg-white border border-stone-200 rounded-xl p-6 mb-6">
-              <h2 className="text-lg font-bold mb-1">Werkzeug für dieses Projekt</h2>
+            <div className="bg-white rounded-2xl ring-1 ring-stone-900/[0.07] p-6 mb-6">
+              <h2 className="text-xl font-semibold leading-tight mb-1">Werkzeug für dieses Projekt</h2>
               <p className="text-sm text-stone-600 mb-4">
                 Das brauchst du für dieses Projekt:
               </p>
@@ -432,7 +432,7 @@ export default function RechnerPage() {
                 {werkzeuge.map((w) => (
                   <div
                     key={w.id}
-                    className="flex items-center justify-between bg-white rounded-lg p-3 border border-stone-200"
+                    className="flex items-center justify-between py-3 border-b border-stone-200"
                   >
                     <div>
                       <div className="font-medium text-sm">{w.name}</div>
@@ -446,7 +446,7 @@ export default function RechnerPage() {
                         target="_blank"
                         rel={AFFILIATE_REL}
                               data-platzierung="rechner"
-                        className="text-amber-700 hover:underline text-xs font-medium whitespace-nowrap"
+                        className="text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600 text-xs font-medium whitespace-nowrap"
                       >
                         Amazon*
                       </a>
@@ -460,26 +460,26 @@ export default function RechnerPage() {
           {material.length > 0 && (
             <button
               onClick={generatePDF}
-              className="w-full mb-6 bg-stone-800 text-white font-semibold py-3 px-6 rounded-lg hover:bg-stone-700 transition-colors text-sm flex items-center justify-center gap-2"
+              className="w-full mb-6 bg-white ring-1 ring-stone-300 text-stone-900 font-semibold py-3 px-6 rounded-full hover:ring-stone-500 transition-colors text-sm flex items-center justify-center gap-2"
             >
               Materialliste als PDF speichern
             </button>
           )}
 
           {ratgeber && (
-            <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
-              <h2 className="text-lg font-bold mb-2">Ratgeber zum Thema</h2>
+            <div className="bg-accent-50 rounded-xl p-6 mb-6">
+              <h2 className="text-xl font-semibold leading-tight mb-2">Ratgeber zum Thema</h2>
               <a
                 href={artikelUrl((ratgeber.silos as any)?.slug || "rohbau", ratgeber.slug)}
                 className="group block"
               >
-                <div className="font-medium group-hover:text-amber-700 transition-colors">
+                <div className="font-medium group-hover:text-accent-700 transition-colors">
                   {ratgeber.titel}
                 </div>
                 {ratgeber.seo_description && (
                   <p className="text-sm text-stone-600 mt-1">{ratgeber.seo_description}</p>
                 )}
-                <span className="inline-block mt-2 text-amber-600 text-sm font-medium">
+                <span className="inline-block mt-2 text-accent-600 text-sm font-medium">
                   Weiterlesen →
                 </span>
               </a>

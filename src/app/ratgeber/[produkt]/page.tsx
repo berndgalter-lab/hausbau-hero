@@ -5,11 +5,11 @@ import { produktLink } from "@/components/ProduktKarte";
 import VergleichsTabelle from "@/components/VergleichsTabelle";
 import ArticleContent from "@/components/ArticleContent";
 import Auswahlhilfe, { type AuswahlModell, type KaufLink } from "@/components/Auswahlhilfe";
-import { AffiliateHinweis, HaeufigeFragen, KurzeAntwort, Pruefvermerk, Quellen } from "@/components/Ratgeber";
+import { AffiliateHinweis, ArtikelPfad, ArtikelRahmen, HaeufigeFragen, KaputtVerweise, KurzeAntwort, Pruefvermerk, Quellen } from "@/components/Ratgeber";
 import { angeboteFuerEans, bildAusAngeboten, normEan, type EanAngebot } from "@/lib/kaufberatung";
 import { mitTrackingId } from "@/lib/affiliate";
 import { armaturDaten } from "@/lib/armatur-daten";
-import { zerlegeArtikel } from "@/lib/artikel-aufbau";
+import { mitAnkern, zerlegeArtikel, type Gliederungspunkt } from "@/lib/artikel-aufbau";
 import { ersatzteilVerweise } from "@/lib/ersatzteil-verweise";
 import { formatEuro, formatStand, zeigePreis } from "@/lib/ersatzteile";
 import { PRODUKT_RATGEBER, ratgeberNachPfad } from "@/lib/produkt-ratgeber";
@@ -74,7 +74,6 @@ export default async function ProduktRatgeberSeite({ params }: { params: { produ
   const seite = await ladeSeite(ratgeber.slug);
   if (!seite || !seite.content_md) notFound();
 
-  const bereich = (seite as any).silos as { name: string; slug: string } | null;
   const url = `${BASIS}/ratgeber/${ratgeber.pfad}`;
 
   const { data: produktDaten, error } = await supabase
@@ -113,6 +112,17 @@ export default async function ProduktRatgeberSeite({ params }: { params: { produ
 
   const aufbau = zerlegeArtikel(seite.content_md, { fragen: true });
   const verweise = ersatzteilVerweise(seite.slug);
+  const rumpf = mitAnkern(aufbau.rumpf);
+  const zeigtTabelle = produkte.filter((p) => p.technische_daten).length >= 2;
+  const gliederung: Gliederungspunkt[] = [
+    ...(aufbau.wichtigstes ? [{ id: "kurz", titel: aufbau.wichtigstesTitel ?? "Kurz gesagt" }] : []),
+    ...(modelle.length > 0 ? [{ id: "auswahl", titel: "Welche passt?" }] : []),
+    ...rumpf.gliederung,
+    ...(zeigtTabelle ? [{ id: "daten", titel: "Technische Daten" }] : []),
+    ...(verweise.length > 0 ? [{ id: "ersatzteile", titel: "Wenn etwas kaputt geht" }] : []),
+    ...(aufbau.fragen.length > 0 ? [{ id: "fragen", titel: "Häufige Fragen" }] : []),
+    ...(aufbau.quellen ? [{ id: "quellen", titel: "Quellen" }] : []),
+  ];
   const fussnote = [
     "Maße und Ausstattung laut Hersteller.",
     preisStand ? `Bilder und Preise von den Partnershops, inkl. MwSt., zzgl. Versand, Stand ${formatStand(preisStand)} Uhr.` : null,
@@ -121,7 +131,7 @@ export default async function ProduktRatgeberSeite({ params }: { params: { produ
     .join(" ");
 
   return (
-    <div className="max-w-3xl mx-auto">
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -130,54 +140,50 @@ export default async function ProduktRatgeberSeite({ params }: { params: { produ
             "@type": "BreadcrumbList",
             itemListElement: [
               { "@type": "ListItem", position: 1, name: "Start", item: BASIS },
-              ...(bereich ? [{ "@type": "ListItem", position: 2, name: bereich.name, item: `${BASIS}/${bereich.slug}` }] : []),
-              { "@type": "ListItem", position: bereich ? 3 : 2, name: ratgeber.name, item: url },
+              { "@type": "ListItem", position: 2, name: "Ratgeber", item: `${BASIS}/ratgeber` },
+              { "@type": "ListItem", position: 3, name: ratgeber.name, item: url },
             ],
           }),
         }}
       />
 
-      <nav className="text-sm text-stone-500 mb-4">
-        <a href="/" className="hover:text-stone-700">Start</a>
-        {bereich && (
-          <>
-            <span className="mx-2">›</span>
-            <a href={`/${bereich.slug}`} className="hover:text-stone-700">{bereich.name}</a>
-          </>
-        )}
-        <span className="mx-2">›</span>
-        <span className="text-stone-900">{ratgeber.name}</span>
-      </nav>
+      <ArtikelRahmen
+        gliederung={gliederung}
+        kopf={
+          <header>
+            <ArtikelPfad
+              teile={[
+                { name: "Start", href: "/" },
+                { name: "Ratgeber", href: "/ratgeber" },
+                { name: ratgeber.name },
+              ]}
+            />
+            <h1 className="text-[2.25rem] leading-[1.1] text-stone-900 sm:text-5xl">{seite.titel}</h1>
+            {aufbau.einstieg && (
+              <div className="mt-6">
+                <ArticleContent html={aufbau.einstieg} gross />
+              </div>
+            )}
+            <div className="mt-6">
+              <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} methode={aufbau.ohneTest ? "Datenblattvergleich, kein Test" : null} />
+            </div>
+          </header>
+        }
+      >
+        {aufbau.wichtigstes && <KurzeAntwort html={aufbau.wichtigstes} titel={aufbau.wichtigstesTitel ?? "Kurz gesagt"} />}
 
-      <h1 className="text-3xl font-bold text-stone-900 mb-3">{seite.titel}</h1>
-      {aufbau.einstieg && <ArticleContent html={aufbau.einstieg} />}
-      <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} methode={aufbau.ohneTest ? "Datenblattvergleich, kein Test" : null} />
+        <Auswahlhilfe pfad={ratgeber.pfad} modelle={modelle} fussnote={fussnote} />
 
-      {aufbau.wichtigstes && <KurzeAntwort html={aufbau.wichtigstes} titel={aufbau.wichtigstesTitel ?? "Kurz gesagt"} />}
+        {rumpf.html && <ArticleContent html={rumpf.html} />}
 
-      <Auswahlhilfe pfad={ratgeber.pfad} modelle={modelle} fussnote={fussnote} />
+        <VergleichsTabelle produkte={produkte} angebote={angebote} />
 
-      {aufbau.rumpf && <ArticleContent html={aufbau.rumpf} />}
+        <KaputtVerweise verweise={verweise} />
 
-      <VergleichsTabelle produkte={produkte} angebote={angebote} />
-
-      {verweise.length > 0 && (
-        <section className="mt-12 p-6 bg-white border border-stone-200 rounded-xl">
-          <h2 className="text-lg font-bold mb-1">Wenn etwas kaputt geht</h2>
-          <p className="text-sm text-stone-600 mb-4">Ersatzteile und Hilfe bei typischen Problemen:</p>
-          <ul className="space-y-2">
-            {verweise.map((v) => (
-              <li key={v.href}>
-                <a href={v.href} className="text-amber-700 font-medium hover:underline">{v.titel} →</a>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      <HaeufigeFragen fragen={aufbau.fragen} />
-      {aufbau.quellen && <Quellen html={aufbau.quellen} />}
-      {modelle.some((m) => m.kauf.length > 0) && <AffiliateHinweis />}
-    </div>
+        <HaeufigeFragen fragen={aufbau.fragen} />
+        {aufbau.quellen && <Quellen html={aufbau.quellen} />}
+        {modelle.some((m) => m.kauf.length > 0) && <AffiliateHinweis />}
+      </ArtikelRahmen>
+    </>
   );
 }

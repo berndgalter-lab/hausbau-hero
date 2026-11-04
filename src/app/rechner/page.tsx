@@ -1,5 +1,6 @@
 import { supabase } from "@/lib/supabase";
 import type { Metadata } from "next";
+import { Brotkrumen } from "@/components/Ersatzteile";
 
 export const revalidate = 300;
 
@@ -22,12 +23,8 @@ export default async function RechnerUebersicht() {
 
   return (
     <div>
-      <nav className="text-sm text-stone-500 mb-4">
-        <a href="/" className="hover:text-stone-700">Start</a>
-        <span className="mx-2">›</span>
-        <span className="text-stone-900">Rechner</span>
-      </nav>
-      <h1 className="text-3xl font-bold mb-2">Rechner</h1>
+      <Brotkrumen teile={[{ name: "Start", href: "/" }, { name: "Rechner" }]} />
+      <h1 className="text-[2.25rem] sm:text-5xl leading-[1.1] font-semibold mb-2">Rechner</h1>
       <p className="text-stone-600 mb-8 max-w-2xl">
         Material berechnen, bevor du einkaufst: Jeder Rechner erstellt eine Materialliste mit Mengen und
         Richtpreisen.
@@ -37,9 +34,9 @@ export default async function RechnerUebersicht() {
           <a
             key={r.slug}
             href={`/rechner/${r.slug}`}
-            className="group flex flex-col p-5 bg-white border border-stone-200 rounded-xl hover:border-amber-400 hover:shadow-md transition-all"
+            className="group flex flex-col p-5 bg-stone-100/80 rounded-2xl transition-colors hover:bg-accent-50"
           >
-            <span className="font-semibold group-hover:text-amber-700">{r.name}</span>
+            <span className="font-semibold group-hover:text-accent-700">{r.name}</span>
             {r.beschreibung && <span className="text-sm text-stone-600 mt-1">{r.beschreibung}</span>}
           </a>
         ))}

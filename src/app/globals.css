@@ -2,4 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
-body { font-feature-settings: "ss01", "ss02"; }
+/* Grundschrift Geist, Überschriften Newsreader (Variablen aus layout.tsx). Gegliedert wird über
+   Abstand, Haarlinien und Schrift, nicht über Rahmenkästen. */
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    font-feature-settings: "ss01", "cv11";
+    text-rendering: optimizeLegibility;
+  }
+  h1,
+  h2 {
+    font-family: theme("fontFamily.serif");
+    letter-spacing: -0.015em;
+    font-optical-sizing: auto;
+  }
+  h1 {
+    text-wrap: balance;
+    font-weight: 600;
+  }
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  ::selection {
+    background: theme("colors.accent.100");
+    color: theme("colors.stone.900");
+  }
+  :focus-visible {
+    outline: 2px solid theme("colors.accent.500");
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+}
+
+@layer components {
+  /* Abschnitt über die volle Fensterbreite, auch innerhalb des Inhaltsrahmens aus layout.tsx */
+  .vollbreit {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+  }
+
+  /* Kleine Überzeile über Abschnitten: „Kurz gesagt“, „Häufig gesucht“ */
+  .ueberzeile {
+    @apply text-xs font-semibold uppercase tracking-[0.12em] text-accent-700;
+  }
+
+  /* Kauflink: Textlink mit Sternchen, gut erkennbar, aber kein Knopf (docs/SEITENAUFBAU.md, Grundsatz 6) */
+  .kauflink {
+    @apply font-medium text-accent-700 underline decoration-accent-300 decoration-1 underline-offset-[3px] hover:decoration-accent-600 hover:text-accent-800;
+  }
+
+  /* Pfeil-Link „Alle Ratgeber →“ */
+  .weiterlink {
+    @apply inline-flex items-center gap-1 text-sm font-medium text-accent-700 hover:text-accent-900;
+  }
+  .weiterlink::after {
+    content: "→";
+    transition: transform 0.15s ease;
+  }
+  .weiterlink:hover::after {
+    transform: translateX(2px);
+  }
+}
+
+/* Breite Tabellen im Artikeltext scrollen auf dem Handy seitlich, statt die Seite zu sprengen */
+@media (max-width: 767px) {
+  .prose table {
+    display: block;
+    overflow-x: auto;
+  }
+}

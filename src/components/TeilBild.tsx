@@ -24,7 +24,7 @@ export default function TeilBild({
   return (
     <figure className="shrink-0" style={{ width: groesse }}>
       <div
-        className="relative bg-white border border-stone-200 rounded-lg overflow-hidden"
+        className="relative bg-white ring-1 ring-stone-900/[0.06] rounded-xl overflow-hidden"
         style={{ width: groesse, height: groesse }}
       >
         <Image

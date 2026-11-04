@@ -3,6 +3,7 @@ import { BereichKachel, RatgeberKarten } from "@/components/Bereich";
 import { ratgeberKarten, sichtbareBereiche } from "@/lib/bereiche-daten";
 import { problemAllgemeinNachSlug } from "@/lib/probleme-allgemein";
 import { alleMarken } from "@/lib/ersatzteile";
+import SuchFeld from "@/components/SuchFeld";
 
 export const revalidate = 300;
 
@@ -37,6 +38,27 @@ const RECHNER = [
   { href: "/rechner/estrich", titel: "Estrich", text: "Materialmenge und Trocknungszeit" },
 ];
 
+const SO_GEHTS = [
+  { titel: "Symptom oder Nummer", text: "Du sagst, was nicht funktioniert, oder gibst die Nummer vom alten Teil ein." },
+  { titel: "Ursache und Modell", text: "Wir zeigen, welches Teil dahintersteckt und woran du dein Modell erkennst." },
+  { titel: "Teil mit Originalnummer", text: "Mit Quelle zur Zuordnung und den Shops, die es gerade vorrätig haben." },
+];
+
+const GRUNDSAETZE = [
+  {
+    titel: "Nummern aus Herstellerunterlagen",
+    text: "Jede Zuordnung von Teil zu Modell hat eine Quelle: Ersatzteilliste, Datenblatt oder Explosionszeichnung.",
+  },
+  {
+    titel: "Kein Test, den es nicht gab",
+    text: "Wir vergleichen Datenblätter und sagen das auch so. Keine Testsieger, keine Sterne, keine Abzeichen.",
+  },
+  {
+    titel: "Reparieren vor Neukauf",
+    text: "Neu kaufen empfehlen wir dort, wo das Teil fehlt oder fast so viel kostet wie ein neues Gerät.",
+  },
+];
+
 // Startseite nach dem Muster von womo-teile (docs/SEITENAUFBAU.md, Abschnitt 2a): oben zwei Einstiege
 // (Nummer suchen, Problem), dann die Bereiche im Haus, Marken, Ratgeber zum Neukauf und Rechner.
 export default async function Home() {
@@ -48,58 +70,72 @@ export default async function Home() {
 
   return (
     <div>
-      <section className="-mx-4 -mt-8 px-4 pt-12 pb-12 md:pt-16 bg-stone-100 border-b border-stone-200">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-center text-stone-900">
-            Ersatzteile und Reparatur rund ums Haus
-          </h1>
-          <p className="mt-3 text-lg text-stone-600 text-center">Was ist kaputt? Fang dort an, wo du gerade stehst.</p>
+      <section className="vollbreit -mt-8 border-b border-stone-200 sm:-mt-10">
+        <div className="mx-auto grid max-w-6xl gap-12 px-5 pb-14 pt-12 sm:px-6 md:pt-20 lg:grid-cols-[1.35fr_1fr] lg:gap-16 lg:pb-20">
+          <div>
+            <p className="ueberzeile">Ersatzteile und Reparatur rund ums Haus</p>
+            <h1 className="mt-4 text-[2.5rem] leading-[1.05] text-stone-900 sm:text-6xl">
+              Was ist kaputt? Wir finden das passende Teil.
+            </h1>
+            <p className="mt-5 max-w-xl text-lg leading-relaxed text-stone-600">
+              Für Armatur, Thermostat, Spülkasten und Spüle: mit Originalnummer, passendem Modell und der Quelle, aus der
+              die Zuordnung stammt.
+            </p>
 
-          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
-            <form action="/ersatzteile" method="get" role="search" className="flex flex-col p-5 bg-white border border-stone-200 rounded-xl">
-              <label htmlFor="start-suche" className="font-semibold text-stone-900">
-                Teil oder Artikelnummer
-              </label>
-              <span className="text-sm text-stone-500">Die Nummer steht auf dem alten Teil, der Rechnung oder der Anleitung.</span>
-              <input
+            <div className="mt-8">
+              <SuchFeld
                 id="start-suche"
-                name="q"
-                type="search"
-                placeholder="z. B. 46048000 oder Füllventil"
-                className="mt-3 px-4 py-3 border border-stone-300 rounded-lg focus:outline-none focus:border-amber-500"
+                platzhalter="Nummer oder Teil"
+                hinweis="Die Nummer steht auf dem alten Teil, der Rechnung oder der Anleitung."
               />
-              <button type="submit" className="mt-3 py-3 bg-amber-600 text-white font-semibold rounded-lg hover:bg-amber-700">
-                Suchen
-              </button>
-            </form>
+            </div>
 
-            <div className="flex flex-col p-5 bg-white border border-stone-200 rounded-xl">
-              <span className="font-semibold text-stone-900">Etwas funktioniert nicht</span>
-              <span className="text-sm text-stone-500">Erst die Ursache finden, dann das passende Teil.</span>
-              <ul className="mt-3 grid grid-cols-1 gap-2">
+            <div className="mt-9">
+              <p className="text-sm font-medium text-stone-900">Oder direkt zum Problem:</p>
+              <ul className="mt-3 flex flex-wrap gap-2">
                 {HAEUFIG.map((h) => (
                   <li key={h.text}>
                     <a
                       href={h.href}
-                      className="flex justify-between px-4 py-2.5 bg-stone-50 border border-stone-200 rounded-lg text-stone-800 hover:border-amber-400 hover:text-amber-700"
+                      className="inline-flex items-center gap-1.5 rounded-full bg-stone-100 px-4 py-2 text-sm text-stone-800 transition-colors hover:bg-accent-50 hover:text-accent-800"
                     >
-                      {h.text} <span aria-hidden className="text-stone-400">›</span>
+                      {h.text}
                     </a>
                   </li>
                 ))}
+                <li>
+                  <a href="/problem" className="inline-flex px-3 py-2 text-sm font-medium text-accent-700 hover:text-accent-900">
+                    Alle Probleme →
+                  </a>
+                </li>
               </ul>
-              <a href="/problem" className="mt-3 text-sm text-amber-700 hover:underline">
-                Alle Probleme ansehen →
-              </a>
             </div>
           </div>
+
+          <aside className="lg:pt-10" aria-label="So funktioniert es">
+            <ol className="border-t border-stone-900">
+              {SO_GEHTS.map((s, i) => (
+                <li key={s.titel} className="grid grid-cols-[2.5rem_1fr] border-b border-stone-200 py-5">
+                  <span className="font-serif text-2xl leading-none text-accent-700">{i + 1}</span>
+                  <span>
+                    <span className="block font-semibold text-stone-900">{s.titel}</span>
+                    <span className="mt-1 block text-sm leading-relaxed text-stone-600">{s.text}</span>
+                  </span>
+                </li>
+              ))}
+            </ol>
+          </aside>
         </div>
       </section>
 
-      <section className="mt-12 mb-12">
-        <h2 className="text-2xl font-bold mb-1">Wo ist das Problem?</h2>
-        <p className="text-stone-600 mb-5">Wähle die Stelle im Haus. Dort stehen Probleme, Teile und Marken.</p>
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+      <section className="mt-16 sm:mt-20">
+        <div className="mb-8 flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <h2 className="text-3xl text-stone-900 sm:text-4xl">Wo ist das Problem?</h2>
+            <p className="mt-2 text-stone-600">Wähle die Stelle im Haus. Dort stehen Probleme, Teile und Marken.</p>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 gap-3 min-[420px]:grid-cols-2 lg:grid-cols-3 sm:gap-4">
           {bereiche.map((b) => (
             <BereichKachel key={b.slug} b={b} />
           ))}
@@ -107,48 +143,76 @@ export default async function Home() {
       </section>
 
       {marken.length > 0 && (
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-1">Ersatzteile nach Marke</h2>
-          <p className="text-stone-600 mb-5">Mit Originalnummer, passenden Modellen und häufigen Fragen.</p>
-          <div className="flex flex-wrap gap-2">
-            {marken.map((m) => (
-              <a
-                key={m.id}
-                href={`/ersatzteile/${m.slug}`}
-                className="px-4 py-2 bg-white border border-stone-200 rounded-lg font-medium text-stone-800 hover:border-amber-400 hover:text-amber-700"
-              >
-                {m.name}
-              </a>
-            ))}
+        <section className="mt-16 border-y border-stone-200 py-8 sm:mt-20">
+          <div className="flex flex-col gap-5 md:flex-row md:items-center md:gap-10">
+            <h2 className="shrink-0 font-sans text-sm font-semibold text-stone-900">
+              Ersatzteile nach Marke
+              <span className="block font-normal text-stone-500">mit Originalnummer</span>
+            </h2>
+            <ul className="flex flex-wrap gap-x-7 gap-y-3">
+              {marken.map((m) => (
+                <li key={m.id}>
+                  <a href={`/ersatzteile/${m.slug}`} className="font-serif text-xl text-stone-700 transition-colors hover:text-accent-700 sm:text-2xl">
+                    {m.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
       )}
 
       {ratgeber.length > 0 && (
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-1">Neu kaufen statt reparieren</h2>
-          <p className="text-stone-600 mb-5">Welches Produkt passt zu deiner Situation? Mit Maßen aus den Datenblättern.</p>
+        <section className="mt-16 sm:mt-20">
+          <div className="mb-6 flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <p className="ueberzeile">Ratgeber</p>
+              <h2 className="mt-3 text-3xl text-stone-900 sm:text-4xl">Neu kaufen statt reparieren</h2>
+              <p className="mt-2 max-w-xl leading-relaxed text-stone-600">
+                Welches Produkt passt zu deiner Situation? Mit Maßen aus den Datenblättern, ohne Testsieger.
+              </p>
+            </div>
+            <a href="/ratgeber" className="weiterlink">Alle Ratgeber</a>
+          </div>
           <RatgeberKarten liste={ratgeber} />
-          <a href="/ratgeber" className="inline-block mt-4 text-sm text-amber-700 hover:underline">
-            Alle Ratgeber →
-          </a>
         </section>
       )}
 
-      <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-1">Rechner</h2>
-        <p className="text-stone-600 mb-5">Für die Planung: wie viel Material du brauchst.</p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-          {RECHNER.map((r) => (
-            <a key={r.href} href={r.href} className="group block p-4 bg-white border border-stone-200 rounded-xl hover:border-amber-400">
-              <span className="block font-semibold text-stone-900 group-hover:text-amber-700">{r.titel}</span>
-              <span className="block text-sm text-stone-600 mt-1">{r.text}</span>
-            </a>
-          ))}
+      <section className="vollbreit mt-20 bg-stone-100 sm:mt-24">
+        <div className="mx-auto max-w-6xl px-5 py-14 sm:px-6 sm:py-16">
+          <h2 className="max-w-xl text-3xl text-stone-900 sm:text-4xl">So arbeiten wir</h2>
+          <div className="mt-10 grid gap-8 md:grid-cols-3 md:gap-10">
+            {GRUNDSAETZE.map((g) => (
+              <div key={g.titel} className="border-t-2 border-accent-600 pt-5">
+                <h3 className="font-semibold text-stone-900">{g.titel}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-stone-600">{g.text}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
-      <p className="mb-8 max-w-3xl text-sm text-stone-500 leading-relaxed">
+      <section className="mt-16 sm:mt-20">
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <h2 className="text-3xl text-stone-900">Rechner</h2>
+            <p className="mt-2 text-stone-600">Für die Planung: wie viel Material du brauchst.</p>
+          </div>
+          <a href="/rechner" className="weiterlink">Alle Rechner</a>
+        </div>
+        <ul className="mt-6 grid border-t border-stone-200 sm:grid-cols-3">
+          {RECHNER.map((r) => (
+            <li key={r.href} className="border-b border-stone-200 sm:border-b-0 sm:border-r sm:px-6 sm:first:pl-0 sm:last:border-r-0">
+              <a href={r.href} className="group block py-5">
+                <span className="block font-semibold text-stone-900 group-hover:text-accent-700">{r.titel}</span>
+                <span className="mt-1 block text-sm text-stone-600">{r.text}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <p className="mt-16 max-w-3xl text-sm leading-relaxed text-stone-500">
         Auf hausbau-hero.de findest du Ersatzteile für Armaturen, Thermostate, Spülkästen und Küchenspülen von Grohe,
         hansgrohe, Ideal Standard, Geberit, Blanco und Franke, mit Original-Artikelnummer und der Quelle, aus der die
         Zuordnung stammt. Die Problemlöser führen vom Symptom zum Teil, die Ratgeber helfen, wenn sich ein Neukauf mehr lohnt.

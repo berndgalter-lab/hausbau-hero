@@ -8,10 +8,10 @@ export const metadata: Metadata = {
 export default function ImpressumPage() {
   return (
     <div className="max-w-3xl">
-      <h1 className="text-3xl font-bold mb-8">Impressum</h1>
+      <h1 className="text-[2.25rem] sm:text-5xl leading-[1.1] font-semibold mb-8">Impressum</h1>
 
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">Angaben gemäß § 5 DDG</h2>
+        <h2 className="text-2xl font-semibold leading-tight mb-3">Angaben gemäß § 5 DDG</h2>
         <p className="text-stone-700 leading-relaxed">
           BG Online Media UG (haftungsbeschränkt)
           <br />
@@ -37,7 +37,7 @@ export default function ImpressumPage() {
           Telefon: +49 176 22372958
           <br />
           E-Mail:{" "}
-          <a href="mailto:info@hausbau-hero.de" className="text-amber-600 hover:text-amber-700">
+          <a href="mailto:info@hausbau-hero.de" className="text-accent-600 hover:text-accent-700">
             info@hausbau-hero.de
           </a>
         </p>
@@ -50,7 +50,7 @@ export default function ImpressumPage() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">
+        <h2 className="text-2xl font-semibold leading-tight mb-3">
           Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
         </h2>
         <p className="text-stone-700 leading-relaxed">
@@ -63,7 +63,7 @@ export default function ImpressumPage() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">EU-Streitschlichtung</h2>
+        <h2 className="text-2xl font-semibold leading-tight mb-3">EU-Streitschlichtung</h2>
         <p className="text-stone-700 leading-relaxed">
           Die Europäische Kommission stellt eine Plattform zur
           Online-Streitbeilegung (OS) bereit:{" "}
@@ -71,7 +71,7 @@ export default function ImpressumPage() {
             href="https://ec.europa.eu/consumers/odr/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-amber-600 hover:text-amber-700 break-all"
+            className="text-accent-600 hover:text-accent-700 break-all"
           >
             https://ec.europa.eu/consumers/odr/
           </a>
@@ -82,7 +82,7 @@ export default function ImpressumPage() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">
+        <h2 className="text-2xl font-semibold leading-tight mb-3">
           Verbraucherstreitbeilegung / Universalschlichtungsstelle
         </h2>
         <p className="text-stone-700">
@@ -93,7 +93,7 @@ export default function ImpressumPage() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">
+        <h2 className="text-2xl font-semibold leading-tight mb-3">
           Hinweis zu Affiliate-Links
         </h2>
         <p className="text-stone-700 leading-relaxed mb-3">
@@ -110,7 +110,7 @@ export default function ImpressumPage() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">Haftung für Inhalte</h2>
+        <h2 className="text-2xl font-semibold leading-tight mb-3">Haftung für Inhalte</h2>
         <p className="text-stone-700 leading-relaxed mb-3">
           Als Diensteanbieter sind wir gemäß § 7 Abs. 1 DDG für eigene
           Inhalte auf diesen Seiten nach den allgemeinen Gesetzen
@@ -130,7 +130,7 @@ export default function ImpressumPage() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">Haftung für Links</h2>
+        <h2 className="text-2xl font-semibold leading-tight mb-3">Haftung für Links</h2>
         <p className="text-stone-700 leading-relaxed mb-3">
           Unser Angebot enthält Links zu externen Websites Dritter, auf
           deren Inhalte wir keinen Einfluss haben. Deshalb können wir für
@@ -150,7 +150,7 @@ export default function ImpressumPage() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">Urheberrecht</h2>
+        <h2 className="text-2xl font-semibold leading-tight mb-3">Urheberrecht</h2>
         <p className="text-stone-700 leading-relaxed mb-3">
           Die durch die Seitenbetreiber erstellten Inhalte und Werke auf
           diesen Seiten unterliegen dem deutschen Urheberrecht. Die
@@ -165,7 +165,7 @@ export default function ImpressumPage() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">Markenrechte</h2>
+        <h2 className="text-2xl font-semibold leading-tight mb-3">Markenrechte</h2>
         <p className="text-stone-700">
           Alle auf dieser Website genannten Markennamen,
           Produktbezeichnungen und Logos sind Eigentum der jeweiligen
