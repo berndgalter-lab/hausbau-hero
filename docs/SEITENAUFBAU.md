@@ -43,6 +43,16 @@ Das sind dünne Seiten, und davon viele. Genau das wertet Google seit den Update
 8. **Affiliate-Hinweis einmal, am Ende**, plus Sternchen an den Shop-Links.
 9. **Unser eigener Vorteil gehört nach oben:** Kompatibilität, Nummern-Verwechslungen, Widersprüche zwischen Händlern. Das hat keine Testseite und kein Shop.
 
+### Was nach Affiliate-Seite aussieht, gibt es nicht mehr
+
+Im Code durchgesetzt, gilt für alle Seiten (alte Beiträge eingeschlossen):
+
+- Amazon-Suchlinks (`amazon.de/s?k=…`) sind nie Kauflinks: `istAmazonSuche` in `src/lib/affiliate.ts`. Im Artikeltext wird der Link zu reinem Text, auf Teil-, Rechner- und Produktseiten entfällt er.
+- Ein Produkt bekommt im Ratgeber nur einen Abschnitt, wenn es eine ASIN oder EAN hat. Gattungsbegriffe wie „Kondensatpumpe“ erscheinen nicht.
+- Abschnitte „Unsere Empfehlungen“ alter Beiträge (Budget-Tipp, Premium-Tipp) blendet die Vorlage aus.
+- Keine orangefarbenen Kaufknöpfe, keine Abzeichen, keine Emojis in Navigation und Überschriften. Kaufen ist ein Textlink mit Sternchen, erklärt einmal pro Seite.
+- Navigation: „Bad-Ratgeber“ und „Armaturen-Datenblätter“ statt „Bad-Kaufberatung“ und „Armaturen-Vergleich“ (URLs bleiben).
+
 ## 3. Seitentyp Ratgeber (bisher „Kaufberatung“)
 
 URL bleibt `/bad/<slug>`. Reihenfolge:

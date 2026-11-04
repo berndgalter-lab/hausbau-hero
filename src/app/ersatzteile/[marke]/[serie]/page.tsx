@@ -156,7 +156,7 @@ export default async function SerienSeite({ params }: Props) {
                       )}
                     </td>
                     <td className="px-4 py-3 text-right">
-                      <KaufButton teil={t} markeName={marke.name} klein />
+                      <KaufButton teil={t} />
                       <GuenstigstesAngebot teil={t} angebote={angebote} />
                     </td>
                   </tr>

@@ -1,7 +1,7 @@
 import { supabase } from "@/lib/supabase";
 import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
-import ProduktKarte from "@/components/ProduktKarte";
+import ProduktKarte, { produktLink } from "@/components/ProduktKarte";
 import VergleichsTabelle from "@/components/VergleichsTabelle";
 import { angeboteFuerEans, normEan, type EanAngebot } from "@/lib/kaufberatung";
 import ArticleContent from "@/components/ArticleContent";
@@ -83,7 +83,9 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
   }
 
   const werkzeuge = produkte.filter((p: any) => p.ist_werkzeug);
-  const hauptProdukte = produkte.filter((p: any) => !p.ist_werkzeug);
+  // Nur nachprüfbare Modelle (ASIN oder EAN). Gattungsbegriffe mit Amazon-Suchlink („Kondensatpumpe“)
+  // aus alten Beiträgen bekommen keinen eigenen Abschnitt.
+  const hauptProdukte = produkte.filter((p: any) => !p.ist_werkzeug && (p.amazon_asin || normEan(p.ean)));
 
   // Shop-Angebote und Bilder der Partnershops, über die EAN der Produkte
   const nachEan = await angeboteFuerEans(hauptProdukte.map((p: any) => p.ean));
@@ -108,7 +110,10 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
 
   const verweise = ersatzteilVerweise(seite.slug);
   // Reine Ratgeber ohne Produkte und ohne Partnerlinks im Text brauchen keinen Affiliate-Hinweis.
-  const hatPartnerlinks = produkte.length > 0 || /amazon\.de|awin1\.com/i.test(seite.content_md ?? "");
+  const hatPartnerlinks =
+    hauptProdukte.length > 0 ||
+    werkzeuge.some((p: any) => produktLink(p)) ||
+    /amazon\.de\/(dp|gp)\/|awin1\.com/i.test(seite.content_md ?? "");
 
   const rechnerSlugs = getPassendeRechner(seite.slug, seite.passende_rechner);
   let passendeRechner: { name: string; slug: string }[] = [];

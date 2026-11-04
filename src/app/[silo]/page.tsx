@@ -93,7 +93,6 @@ export default async function SiloPage({ params }: { params: { silo: string } })
       </nav>
 
       <div className="flex items-center gap-3 mb-2">
-        {silo.icon && <span className="text-4xl">{silo.icon}</span>}
         <h1 className="text-3xl font-bold">{silo.name}</h1>
       </div>
       {silo.beschreibung && (
@@ -118,9 +117,8 @@ export default async function SiloPage({ params }: { params: { silo: string } })
               <a
                 key={r.slug}
                 href={`/rechner/${r.slug}`}
-                className="group flex items-center gap-4 p-4 bg-amber-50 border border-amber-200 rounded-xl hover:border-amber-400 transition-all"
+                className="group flex items-center gap-4 p-4 bg-white border border-stone-200 rounded-xl hover:border-amber-400 transition-all"
               >
-                <span className="text-2xl">🔢</span>
                 <div>
                   <div className="font-semibold group-hover:text-amber-700 transition-colors">
                     {r.name}

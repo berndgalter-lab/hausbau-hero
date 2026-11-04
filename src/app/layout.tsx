@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/next";
 export const metadata: Metadata = {
   metadataBase: new URL("https://hausbau-hero.de"),
   title: {
-    default: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Kaufberatung",
+    default: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Ratgeber",
     template: "%s | Hausbau Hero",
   },
   description:
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     locale: "de_DE",
     siteName: "Hausbau Hero",
     url: "https://hausbau-hero.de",
-    title: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Kaufberatung",
+    title: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Ratgeber",
     description:
       "Das passende Ersatzteil für Armatur und Spülkasten finden – mit Artikelnummern und Quellen.",
     images: [
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Kaufberatung",
+        alt: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Ratgeber",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Kaufberatung",
+    title: "Hausbau Hero — Sanitär-Ersatzteile & Bad-Ratgeber",
     description:
       "Das passende Ersatzteil für Armatur und Spülkasten finden – mit Artikelnummern und Quellen.",
     images: ["/opengraph-image"],

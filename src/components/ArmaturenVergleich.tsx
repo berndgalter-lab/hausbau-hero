@@ -46,7 +46,7 @@ function Auswahl<T extends string>({ label, wert, optionen, setze }: {
       {[{ wert: "alle" as const, label: "Alle" }, ...optionen].map((o) => (
         <button key={o.wert} type="button" onClick={() => setze(o.wert)} aria-pressed={wert === o.wert}
           className={`text-sm px-3 py-1 rounded-full border transition-colors ${
-            wert === o.wert ? "bg-amber-600 border-amber-600 text-white" : "bg-white border-stone-300 text-stone-700 hover:border-amber-500"
+            wert === o.wert ? "bg-stone-800 border-stone-800 text-white" : "bg-white border-stone-300 text-stone-700 hover:border-amber-500"
           }`}>
           {o.label}
         </button>
@@ -57,20 +57,18 @@ function Auswahl<T extends string>({ label, wert, optionen, setze }: {
 
 function Kaufen({ p, klein = false }: { p: VergleichsProdukt; klein?: boolean }) {
   return (
-    <div className={klein ? "space-y-1" : "flex flex-wrap gap-2"}>
+    <div className={klein ? "space-y-1" : "flex flex-wrap gap-x-3 gap-y-1"}>
       {p.amazon && (
         <a href={p.amazon} target="_blank" rel={AFFILIATE_REL} data-platzierung="vergleich" data-kennung={p.kennung}
-          className={klein ? "block text-amber-700 font-semibold hover:underline"
-            : "bg-amber-600 text-white text-sm font-semibold px-3 py-1.5 rounded-lg hover:bg-amber-700"}>
-          Amazon →
+          className={klein ? "block text-amber-700 font-semibold hover:underline" : "text-sm text-amber-700 font-medium hover:underline"}>
+          Amazon*
         </a>
       )}
       {p.angebote.map((a) => (
         <a key={a.id} href={a.url} target="_blank" rel={AFFILIATE_REL} data-platzierung="vergleich" data-shop={a.shop}
           data-kennung={p.kennung}
-          className={klein ? "block text-amber-700 hover:underline whitespace-nowrap"
-            : "bg-white border border-amber-600 text-amber-700 text-sm font-semibold px-3 py-1.5 rounded-lg hover:bg-amber-50 whitespace-nowrap"}>
-          {a.preisText} bei {a.shopName} →
+          className={klein ? "block text-amber-700 hover:underline whitespace-nowrap" : "text-sm text-amber-700 font-medium hover:underline whitespace-nowrap"}>
+          {a.shopName} {a.preisText}*
         </a>
       ))}
     </div>

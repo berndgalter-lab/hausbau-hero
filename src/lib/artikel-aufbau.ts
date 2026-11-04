@@ -3,6 +3,7 @@
 //   Einstieg · <p><em>Hinweis: … (Stand: …)</em></p> · <h2>Das Wichtigste vorab</h2> · … · <h2>Quellen</h2>
 // Statt „Das Wichtigste vorab“ gehen auch „Kurz gesagt“ und „Die wichtigsten … auf einen Blick“.
 // Fehlt ein Teil (alte Beiträge), bleibt er leer und alles Übrige steht im Rumpf.
+// Abschnitte „Unsere Empfehlungen“ alter Beiträge (Budget-Tipp, Amazon-Suchlinks) entfallen ganz.
 
 export interface ArtikelAufbau {
   /** Absätze vor der ersten Zwischenüberschrift, ohne den Methoden-Hinweis */
@@ -51,6 +52,11 @@ export function zerlegeArtikel(html: string): ArtikelAufbau {
   rest = wichtig.rest;
   const quellen = abschnitt(rest, /Quellen/);
   rest = quellen.rest;
+  for (let i = 0; i < 3; i++) {
+    const kauf = abschnitt(rest, /Unsere (?:Material-)?Empfehlungen?/);
+    if (kauf.titel === null) break;
+    rest = kauf.rest;
+  }
 
   const ersteH2 = rest.search(/<h2[\s>]/i);
   const einstieg = ersteH2 === -1 ? rest : rest.slice(0, ersteH2);

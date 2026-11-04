@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://hausbau-hero.de/rechner" },
 };
 
-const ICONS: Record<string, string> = { sanitaer: "🚰", fliesen: "🔲", estrich: "🏗️" };
 
 export default async function RechnerUebersicht() {
   let rechner: { slug: string; name: string; beschreibung: string | null }[] = [];
@@ -40,7 +39,6 @@ export default async function RechnerUebersicht() {
             href={`/rechner/${r.slug}`}
             className="group flex flex-col p-5 bg-white border border-stone-200 rounded-xl hover:border-amber-400 hover:shadow-md transition-all"
           >
-            <span className="text-3xl mb-3">{ICONS[r.slug] ?? "🔢"}</span>
             <span className="font-semibold group-hover:text-amber-700">{r.name}</span>
             {r.beschreibung && <span className="text-sm text-stone-600 mt-1">{r.beschreibung}</span>}
           </a>
