@@ -121,6 +121,7 @@ def norm_ean(s):
 
 
 TEILARTEN_ORDNER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "teilarten")
+NEUKAUF_ORDNER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "neukauf")
 
 
 def teilart_eans(ordner=TEILARTEN_ORDNER):
@@ -130,6 +131,17 @@ def teilart_eans(ordner=TEILARTEN_ORDNER):
         if name.endswith(".json"):
             with open(os.path.join(ordner, name), encoding="utf-8") as f:
                 eans |= {e for e in (norm_ean(p.get("ean")) for p in json.load(f).get("produkte", [])) if e}
+    return eans
+
+
+def neukauf_eans(ordner=NEUKAUF_ORDNER):
+    """EANs der Neugeräte je Serie (data/neukauf/<marke>.json: Serie → Modelle), für den Neukauf-Kasten."""
+    eans = set()
+    for name in sorted(os.listdir(ordner)) if os.path.isdir(ordner) else []:
+        if name.endswith(".json"):
+            with open(os.path.join(ordner, name), encoding="utf-8") as f:
+                for modelle in json.load(f).values():
+                    eans |= {e for e in (norm_ean(m.get("ean")) for m in modelle) if e}
     return eans
 
 
@@ -532,7 +544,8 @@ def main():
     # Offline (--produkte-json) nur mit ausdrücklich angegebenem Ordner, damit Tests nicht von den echten Seiten abhängen.
     if args.teilarten_ordner or not args.produkte_json:
         produkt_eans |= teilart_eans(args.teilarten_ordner or TEILARTEN_ORDNER)
-    print(f"Kaufberatungs- und Teileart-Produkte mit EAN: {len(produkt_eans)}")
+        produkt_eans |= neukauf_eans()
+    print(f"Kaufberatungs-, Teileart- und Neukauf-Produkte mit EAN: {len(produkt_eans)}")
 
     dateien = dict(x.split("=", 1) for x in args.feed_datei)
     if not dateien and args.cached:

@@ -1,0 +1,147 @@
+{
+  "eckventil-comfort": [
+    {
+      "name": "Schell Eckventil COMFORT G 1/2 AGxG 3/8 AG, m Reg-Funkt., verchromt",
+      "hersteller": "Schell",
+      "ean": "4021163105292"
+    },
+    {
+      "name": "Schell Eckventil COMFORT G 1/2 AGxG 3/8 AG, m regul. u ASAG, vc",
+      "hersteller": "Schell",
+      "ean": "4021163105582"
+    },
+    {
+      "name": "Schell Eckventil COMFORT G 3/8 AG, m Reg-Funkt. u. ASAG, verchromt",
+      "hersteller": "Schell",
+      "ean": "4021163105353"
+    }
+  ],
+  "eckventil-comfort-filter": [
+    {
+      "name": "Schell Eckventil COMFORT G 3/8 AG, o. ASAG E, m Filter verchromt",
+      "hersteller": "Schell",
+      "ean": "4021163164176"
+    }
+  ],
+  "eckventil-comfort-spuelkasten": [
+    {
+      "name": "SCHELL Eckventil COMFORT mit Regulierfunktion für Spülkasten 05 033 06 99",
+      "hersteller": "Schell",
+      "ean": "4021163106213",
+      "amazon_asin": null,
+      "hinweis": "Dasselbe Ventil 050330699, verchromt.de nicht gefunden."
+    }
+  ],
+  "geraeteventil-comfort": [
+    {
+      "name": "Schell Geräteventil COMFORT G 3/8 IGxG 3/8 AG, f Eckv., m RV, vc",
+      "hersteller": "Schell",
+      "ean": "4021163129892"
+    },
+    {
+      "name": "Schell Geräteventil COMFORT G 3/8 IGxG 3/8 AG, f Eckv., m RV/RB, vc",
+      "hersteller": "Schell",
+      "ean": "4021163135725"
+    }
+  ],
+  "kombi-eckventil-comfort": [
+    {
+      "name": "Schell Kombi-Eckventil COMFORT G 1/2 AG, m Rückflussverh., verchromt",
+      "hersteller": "Schell",
+      "ean": "4021163129991"
+    },
+    {
+      "name": "Schell Kombi-Eckventil COMFORT G 1/2 AG, Sicherh., m ASAG E, m RV, vc",
+      "hersteller": "Schell",
+      "ean": "4021163129977"
+    },
+    {
+      "name": "Schell Kombi-Eckventil COMFORT G 3/8 AG, m ASAG E, m RV, verchromt",
+      "hersteller": "Schell",
+      "ean": "4021163129861"
+    }
+  ],
+  "petit-sc": [
+    {
+      "name": "Schell Selbstschluss-Standvtl. PETIT SC Messing verchromt, HD-M",
+      "hersteller": "Schell",
+      "ean": "4021163161205"
+    }
+  ],
+  "polar-ii": [
+    {
+      "name": "Schell Außenarmatur POLAR II DN 15, froststicher, mvc, kompl., m RB",
+      "hersteller": "Schell",
+      "ean": "4021163152074"
+    },
+    {
+      "name": "Schell Außenarmatur POLAR II DN 15, frosts., mvc, Inst.-Bausatz, m RB",
+      "hersteller": "Schell",
+      "ean": "4021163152067"
+    },
+    {
+      "name": "Schell Außenarmatur POLAR II DN 15, frosts., mvc, Inst.-Bausatz, o RB",
+      "hersteller": "Schell",
+      "ean": "4021163152081"
+    }
+  ],
+  "puris-sc": [
+    {
+      "name": "Schell Selbstschluss-Waschtischarmatur PURIS SC HD-K, verchromt",
+      "hersteller": "Schell",
+      "ean": "4021163141412"
+    },
+    {
+      "name": "Schell Selbstschluss-Waschtischarmatur PURIS SC HD-M, verchromt",
+      "hersteller": "Schell",
+      "ean": "4021163145397"
+    }
+  ],
+  "schellomat": [
+    {
+      "name": "SCHELL SCHELLOMAT WC-Druckspüler DN 20 mit Hebel 02 202 06 99",
+      "hersteller": "Schell",
+      "ean": "4021163100365",
+      "amazon_asin": "B00IE5IPNM",
+      "hinweis": "Dasselbe Modell 022020699, verchromt, 6 l."
+    },
+    {
+      "name": "SCHELL SCHELLOMAT WC-Druckspüler DN 20 mit Hebel 02 204 06 99",
+      "hersteller": "Schell",
+      "ean": "4021163100464",
+      "amazon_asin": "B00LE9UIVW",
+      "hinweis": "Dasselbe Modell 022040699, verchromt, 6–14 l."
+    }
+  ],
+  "schellomat-basic": [
+    {
+      "name": "Schell WC-Druckspüler SCHELLOMAT BASIC DN 20, verchromt",
+      "hersteller": "Schell",
+      "ean": "4021163141658"
+    },
+    {
+      "name": "Schell WC-Druckspüler SCHELLOMAT BASIC SV DN 20, mit Vorabsperrung, verchromt",
+      "hersteller": "Schell",
+      "ean": "4021163141665"
+    },
+    {
+      "name": "Schell WC-Druckspüler SCHELLOMAT BASIC ND, DN 25, verchromt",
+      "hersteller": "Schell",
+      "ean": "4021163148459"
+    }
+  ],
+  "schellomat-silent-eco": [
+    {
+      "name": "Schell WC-Druckspüler SCHELLOMAT SILENT ECO DN 20, Zweimengenspülung, verchromt",
+      "hersteller": "Schell",
+      "ean": "4021163141672"
+    }
+  ],
+  "schellomat-wc-spuelventil": [
+    {
+      "name": "Schell WC-Spülventil SCHELLOMAT DN 20, G 3/4 AG, m 3-Stern, verchromt",
+      "hersteller": "Schell",
+      "ean": "4021163136807"
+    }
+  ]
+}

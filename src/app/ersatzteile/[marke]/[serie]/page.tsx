@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import NeukaufKasten from "@/components/Neukauf";
-import { neukaufFuerBereich } from "@/lib/neukauf";
-import { neukaufBereich } from "@/lib/bereiche";
+import { neukaufFuerSerien } from "@/lib/neukauf";
 import { notFound } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import TeilBild from "@/components/TeilBild";
@@ -84,7 +83,7 @@ export default async function SerienSeite({ params }: Props) {
   const [teile, angebote, neukauf] = await Promise.all([
     teileNachIds(teilIds),
     angeboteFuerTeile(teilIds),
-    neukaufFuerBereich(neukaufBereich({ produkttypen: [serie.produkttyp] })),
+    neukaufFuerSerien([{ marke: marke.slug, slug: serie.slug, produkttyp: serie.produkttyp }]),
   ]);
   const teilVon = new Map(teile.map((t) => [t.id, t]));
   const zeilen = zuordnungen

@@ -1,0 +1,340 @@
+{
+  "croma-select-s-showerpipe": [
+    {
+      "name": "hansgrohe Brausesystem Croma Select S 959mm Brausestange, m Thermostat, weiß/chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097745169"
+    },
+    {
+      "name": "hansgrohe Showerpipe Croma Select S 280 1jet, mit Einhebelmischer, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097801704"
+    },
+    {
+      "name": "hansgrohe Showerpipe Croma Select S 280 1jet, mit Wannenthermostat, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097801698"
+    }
+  ],
+  "ecostat-1001-aeltere": [
+    {
+      "name": "hansgrohe Ecostat 1001 CL Brausethermostat Aufputz 13211000",
+      "hersteller": "hansgrohe",
+      "ean": "4011097799582",
+      "amazon_asin": "B01MG2DCK9",
+      "hinweis": "Nachfolger der älteren Ecostat-1001-Brausethermostate, Chrom."
+    },
+    {
+      "name": "hansgrohe Ecostat 1001 CL Wannenthermostat Aufputz 13201000",
+      "hersteller": "hansgrohe",
+      "ean": "4011097799599",
+      "amazon_asin": "B01M3T396K",
+      "hinweis": "Nachfolger der älteren Ecostat-1001-Wannenthermostate, Chrom."
+    }
+  ],
+  "ecostat-1001-cl": [
+    {
+      "name": "hansgrohe Brausethermostat Ecostat 1001 CL 296x100mm, AP, 1 Verbraucher, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097799582"
+    },
+    {
+      "name": "hansgrohe Wannen-Thermostat Ecostat 1001 CL 296x102mm, AP, 2 Verb, Ausl. 182mm, chr",
+      "hersteller": "hansgrohe",
+      "ean": "4011097799599"
+    }
+  ],
+  "ecostat-1001-sl": [
+    {
+      "name": "hansgrohe Ecostat 1001 CL Brausethermostat Aufputz 13211000",
+      "hersteller": "hansgrohe",
+      "ean": "4011097799582",
+      "amazon_asin": "B01MG2DCK9",
+      "hinweis": "Nachfolger des Ecostat 1001 SL Brausethermostats 13261000, Chrom."
+    },
+    {
+      "name": "hansgrohe Ecostat 1001 CL Wannenthermostat Aufputz 13201000",
+      "hersteller": "hansgrohe",
+      "ean": "4011097799599",
+      "amazon_asin": "B01M3T396K",
+      "hinweis": "Nachfolger des Ecostat 1001 SL Wannenthermostats, Chrom."
+    }
+  ],
+  "ecostat-comfort": [
+    {
+      "name": "hansgrohe Brausethermostat Ecostat Comfort 304x103mm, AP, 1 Verbraucher, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097678856"
+    },
+    {
+      "name": "hansgrohe Wannen-Thermostat Ecostat Comfort 305x188mm, AP, 2 Verb, Ausl. 177mm, chr",
+      "hersteller": "hansgrohe",
+      "ean": "4011097678832"
+    },
+    {
+      "name": "hansgrohe Wannen-Thermostat Ecostat Comfort 305x188mm, AP, 2 Verb, A 177mm, m.-we",
+      "hersteller": "hansgrohe",
+      "ean": "4059625229804"
+    }
+  ],
+  "finoris-waschtisch": [
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer Finoris CSt, A 139mm, m Push-Open-Ablaufg., ch",
+      "hersteller": "hansgrohe",
+      "ean": "4059625334461"
+    },
+    {
+      "name": "hansgrohe Fertigmontageset Finoris UP-Waschtisch-Einhebelmischer, f Wd-mont., Ausl. 168mm, ch",
+      "hersteller": "hansgrohe",
+      "ean": "4059625337820"
+    },
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer 230 Finoris m Schwenkausl., Push-Open-Ablaufg., ch",
+      "hersteller": "hansgrohe",
+      "ean": "4059625336564"
+    }
+  ],
+  "focus-m41-kuechenarmatur": [
+    {
+      "name": "hansgrohe Spültisch-Einhebelmischer 160 Focus M41 1jet, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097641904"
+    },
+    {
+      "name": "hansgrohe Spültisch-Einhebelmischer 160 Focus M41 EcoSmart 1jet, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4059625196694"
+    },
+    {
+      "name": "hansgrohe Spültisch-Einhebelmischer 160 Focus M41 ND, 1jet, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097641898"
+    }
+  ],
+  "focus-waschtisch": [
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer Focus 70 CoolSt m ZugstAblGar, KW i Mittelstel., chr",
+      "hersteller": "hansgrohe",
+      "ean": "4011097734026"
+    },
+    {
+      "name": "HANSGROHE Waschtischarmatur »Focus«, Chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097706160"
+    },
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer 100 Focus LowFlow o. Zugst.Abl.Gar., 3,5 l/min, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097719313"
+    }
+  ],
+  "logis-m31-kuechenarmatur": [
+    {
+      "name": "hansgrohe Spültisch-Einhebelmischer 160 Logis M31 1jet, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097766454"
+    },
+    {
+      "name": "hansgrohe Spültisch-Einhebelmischer 120 Logis M31 ND, 1jet, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097766461"
+    },
+    {
+      "name": "hansgrohe Spültisch-Einhebelmischer 260 Logis M31 1jet, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097766430"
+    }
+  ],
+  "logis-waschtisch": [
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer Logis AP, f Wandmont., Ausladung 194mm, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097769981"
+    },
+    {
+      "name": "HANSGROHE Waschtischarmatur »Logis«, Messing",
+      "hersteller": "hansgrohe",
+      "ean": "4011097738420"
+    },
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer 70 Logis ND, f off WW-Bere, m Pus-Op-Abl, chr",
+      "hersteller": "hansgrohe",
+      "ean": "4011097738673"
+    }
+  ],
+  "metris-waschtisch": [
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer 110 Metris CoolSt m ZugstAblGar, KW i Mittelstel., chr",
+      "hersteller": "hansgrohe",
+      "ean": "4011097691527"
+    },
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer 110 Metris EcoSm. + m Zugst.Abl.Gar., 3,5 l/min, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097719337"
+    },
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer 100 Metris m Zugst.Abl.Gar., f HWB, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097661032"
+    }
+  ],
+  "novus-waschtisch": [
+    {
+      "name": "hansgrohe Novus 100 Waschtischarmatur mit Zugstangen-Ablauf 71030000",
+      "hersteller": "hansgrohe",
+      "ean": "4059625008997",
+      "amazon_asin": "B075KNJXLB",
+      "hinweis": "Dasselbe Modell 71030000 in Chrom."
+    },
+    {
+      "name": "hansgrohe Novus 70 Waschtischarmatur ohne Ablaufgarnitur 71021000",
+      "hersteller": "hansgrohe",
+      "ean": "4059625009031",
+      "amazon_asin": "B075KM4H21",
+      "hinweis": "Novus 70 wie 71020000, aber ohne Ablaufgarnitur."
+    }
+  ],
+  "raindance-select-e-showerpipe": [
+    {
+      "name": "hansgrohe Raindance Select E 300 2jet Showerpipe mit ShowerTablet Select, weiß/chrom 27126400",
+      "hersteller": "hansgrohe",
+      "ean": "4011097716947",
+      "amazon_asin": "B00GI0GA7I",
+      "hinweis": "Dasselbe Modell 27126400 in Weiß/Chrom."
+    },
+    {
+      "name": "hansgrohe Raindance Select E 300 Showerpipe mit ShowerTablet Select, chrom 27126000",
+      "hersteller": "hansgrohe",
+      "ean": null,
+      "amazon_asin": "B00GJ1A8WE",
+      "hinweis": "Gleiche Showerpipe in Chrom."
+    }
+  ],
+  "rebris-s-waschtisch": [
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer Rebris S 80 CoolSt m Zugst.Abl.Gar., 4 l/m. b 3 bar, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4059625418413"
+    },
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer Rebris S 110 CoolSt m Zugst.Abl.Gar., 4 l/m. b 3 bar, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4059625418376"
+    },
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer Rebris S 210 m Schwenkausl., Zugst.Abl.Gar., chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4059625401699"
+    }
+  ],
+  "showerselect-thermostat": [
+    {
+      "name": "hansgrohe Thermostat ShowerSelect Comfort S UP, f 1 Verbr. u. 1 zus. Abgang, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4059625465547"
+    },
+    {
+      "name": "hansgrohe Thermostat ShowerSelect Comfort E UP, f 1 Verbr. u. 1 zus. Abgang, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4059625466001"
+    },
+    {
+      "name": "hansgrohe Thermostat ShowerSelect Comfort E UP, f 2 Verb, o. Sich.Kombi EN 1717, chr",
+      "hersteller": "hansgrohe",
+      "ean": "4059625465684"
+    }
+  ],
+  "talis-e-duscharmatur": [
+    {
+      "name": "hansgrohe Brause-Einhebelmischer Talis E AP, 1 Verbraucher, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097770918"
+    }
+  ],
+  "talis-e-waschtisch": [
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer 80 Talis E EcoSm. + m Zugst.Abl.Gar., 3,5 l/min, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097770659"
+    },
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer 110 Talis E EcoSm. + m Zugst.Abl.Gar., 3,5 l/min, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097778495"
+    },
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer 80 Talis E ND, f off WW-Bere, m Zugst.Abl.Gar., chr",
+      "hersteller": "hansgrohe",
+      "ean": "4011097770772"
+    }
+  ],
+  "talis-m51-kuechenarmatur": [
+    {
+      "name": "hansgrohe Spültisch-Einhebelmischer 260 Talis M51 EcoSmart 1jet, 4,5 l/min, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4059625198155"
+    },
+    {
+      "name": "hansgrohe Spültisch-Einhebelmischer 260 Talis M51 1jet, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097772455"
+    },
+    {
+      "name": "hansgrohe Spültisch-Einhebelmischer 220 Talis M51 1jet, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4011097823621"
+    }
+  ],
+  "talis-m54-kuechenarmatur": [
+    {
+      "name": "hansgrohe Spültisch-Einhebelmischer Talis M54-270 1jet, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4059625255216"
+    },
+    {
+      "name": "hansgrohe Spültisch-Einhebelmischer 220 Talis M54 EcoSmart 1jet, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4059625269664"
+    },
+    {
+      "name": "hansgrohe Spültisch-Einhebelmischer Talis M54-U220 1jet, chrom",
+      "hersteller": "hansgrohe",
+      "ean": "4059625255308"
+    }
+  ],
+  "vernis-blend-waschtisch": [
+    {
+      "name": "hansgrohe Waschtischarmatur Vernis Blend 70",
+      "hersteller": "hansgrohe",
+      "ean": "4059625316122"
+    },
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer 70 Vernis Blend m isolierter WF, Zugst.Abl.Gar., chr",
+      "hersteller": "hansgrohe",
+      "ean": "4059625324974"
+    },
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer 100 Vernis Blend m isolierter WF, Zugst.Abl.Gar., chr",
+      "hersteller": "hansgrohe",
+      "ean": "4059625324981"
+    }
+  ],
+  "vernis-shape-waschtisch": [
+    {
+      "name": "hansgrohe Waschtischmischer 70 Vernis Shape Chrom 71566000",
+      "hersteller": "hansgrohe",
+      "ean": "4059625321423"
+    },
+    {
+      "name": "hansgrohe Waschtisch-Einhebelmischer 70 Vernis Shape CoolSt m ZugstAblGar, isolierter Wasserf., chr",
+      "hersteller": "hansgrohe",
+      "ean": "4059625321393"
+    },
+    {
+      "name": "hansgrohe Fertigmontageset Vernis Shape UP-Waschtisch-Einhebelmischer, f Wd, m Ausl. 207mm, chr",
+      "hersteller": "hansgrohe",
+      "ean": "4059625325315"
+    }
+  ]
+}

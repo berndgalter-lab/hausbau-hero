@@ -1,0 +1,284 @@
+{
+  "andano": [
+    {
+      "name": "BLANCO ANDANO 500-U, Edelstahl Seidenglanz (522967)",
+      "hersteller": "Blanco",
+      "ean": "4020684670142",
+      "amazon_asin": "B01MRQU4K3",
+      "hinweis": "Unterbaubecken, dasselbe Modell."
+    },
+    {
+      "name": "BLANCO ANDANO 500-IF, Edelstahl Seidenglanz (522965)",
+      "hersteller": "Blanco",
+      "ean": "4020684670128",
+      "amazon_asin": "B01NBDYUER",
+      "hinweis": "Einbaubecken mit Flachrand (IF) für Einbau von oben."
+    },
+    {
+      "name": "BLANCO ANDANO 500/180-U, Hauptbecken links, Edelstahl (522991)",
+      "hersteller": "Blanco",
+      "ean": "4020684670388",
+      "amazon_asin": "B071X85Y5V",
+      "hinweis": "Unterbau-Doppelbecken in der Ausführung Hauptbecken links."
+    }
+  ],
+  "classic-pro": [
+    {
+      "name": "BLANCO CLASSIC Pro 5 S-IF, Edelstahl Seidenglanz (523663)",
+      "hersteller": "Blanco",
+      "ean": "4020684684965",
+      "amazon_asin": "B079NWK742",
+      "hinweis": "Dasselbe Modell, für 50-cm-Unterschrank."
+    },
+    {
+      "name": "BLANCO CLASSIC Pro 45 S-IF, Edelstahl Seidenglanz (523661)",
+      "hersteller": "Blanco",
+      "ean": "4020684684941",
+      "amazon_asin": "B079NXL9QH",
+      "hinweis": "Dasselbe Modell, für 45-cm-Unterschrank."
+    }
+  ],
+  "dalago-6": [
+    {
+      "name": "BLANCO DALAGO 6, SILGRANIT anthrazit (514197)",
+      "hersteller": "Blanco",
+      "ean": "4020684417198",
+      "amazon_asin": "B003Z7VSHO",
+      "hinweis": "Dasselbe Modell."
+    },
+    {
+      "name": "BLANCO DALAGO 6, SILGRANIT schwarz (525873)",
+      "hersteller": "Blanco",
+      "ean": "4020684731614",
+      "amazon_asin": "B0865SZ5FG",
+      "hinweis": "DALAGO 6 in schwarz."
+    },
+    {
+      "name": "BLANCO DALAGO 6-F, SILGRANIT schwarz (525875)",
+      "hersteller": "Blanco",
+      "ean": "4020684731591",
+      "amazon_asin": "B0865VZ873",
+      "hinweis": "Vorfenster-Variante DALAGO 6-F in schwarz."
+    }
+  ],
+  "daras-s": [
+    {
+      "name": "BLANCO DARAS-S Küchenarmatur mit Auszugsbrause, chrom (517731)",
+      "hersteller": "Blanco",
+      "ean": "4020684515238",
+      "amazon_asin": "B00AMXGGNU",
+      "hinweis": "DARAS-S in chrom."
+    },
+    {
+      "name": "BLANCO DARAS-S Küchenarmatur mit Auszugsbrause, anthrazit (517732)",
+      "hersteller": "Blanco",
+      "ean": "4020684515245",
+      "amazon_asin": "B00AMXGILK",
+      "hinweis": "DARAS-S in anthrazit."
+    }
+  ],
+  "legra-6": [
+    {
+      "name": "BLANCO LEGRA 6, SILGRANIT anthrazit (523332)",
+      "hersteller": "Blanco",
+      "ean": "4020684681070",
+      "amazon_asin": "B07DHZTC54",
+      "hinweis": "LEGRA 6 in anthrazit."
+    },
+    {
+      "name": "BLANCO LEGRA 6, SILGRANIT schwarz (526084)",
+      "hersteller": "Blanco",
+      "ean": "4020684729505",
+      "amazon_asin": "B0865NKWGX",
+      "hinweis": "LEGRA 6 in schwarz."
+    }
+  ],
+  "legra-6-s": [
+    {
+      "name": "BLANCO LEGRA 6 S, SILGRANIT schwarz (526086)",
+      "hersteller": "Blanco",
+      "ean": "4020684729482",
+      "amazon_asin": "B0865WMLBZ",
+      "hinweis": "Dasselbe Modell."
+    },
+    {
+      "name": "BLANCO LEGRA 6 S, SILGRANIT softweiß (527088)",
+      "hersteller": "Blanco",
+      "ean": "4020684785761",
+      "amazon_asin": "B0BQJSCG9G",
+      "hinweis": "LEGRA 6 S in softweiß."
+    }
+  ],
+  "linus-s": [
+    {
+      "name": "BLANCO LINUS-S Küchenarmatur mit Auszugsbrause, chrom (512402)",
+      "hersteller": "Blanco",
+      "ean": "4020684317634",
+      "amazon_asin": "B0034JU2QG",
+      "hinweis": "LINUS-S Hochdruck in chrom."
+    },
+    {
+      "name": "BLANCO LINUS-S Küchenarmatur mit Auszugsbrause, anthrazit (516688)",
+      "hersteller": "Blanco",
+      "ean": "4020684489157",
+      "amazon_asin": "B00477POKI",
+      "hinweis": "Dasselbe Modell (anthrazit)."
+    }
+  ],
+  "metra-45-s": [
+    {
+      "name": "Blanco Granitspüle METRA 45 S, rechteckig, aus SILGRANIT®",
+      "hersteller": "Blanco",
+      "ean": "4020684505086"
+    },
+    {
+      "name": "Blanco Granitspüle METRA 45 S, eckig, 50/78 cm, erhältlich in mehreren Farben",
+      "hersteller": "Blanco",
+      "ean": "4020684731201"
+    }
+  ],
+  "metra-5-s": [
+    {
+      "name": "BLANCO METRA 5 S, SILGRANIT anthrazit (513044)",
+      "hersteller": "Blanco",
+      "ean": "4020684363563",
+      "amazon_asin": "B004DIIB9M",
+      "hinweis": "Dasselbe Modell."
+    },
+    {
+      "name": "BLANCO METRA 5 S-F, SILGRANIT schwarz (525921)",
+      "hersteller": "Blanco",
+      "ean": "4020684731133",
+      "amazon_asin": "B0865Z39ZQ",
+      "hinweis": "Vorfenster-Variante METRA 5 S-F in schwarz."
+    }
+  ],
+  "metra-6-s": [
+    {
+      "name": "BLANCO METRA 6 S, SILGRANIT anthrazit (513053)",
+      "hersteller": "Blanco",
+      "ean": "4020684363914",
+      "amazon_asin": "B00SNMMRVW",
+      "hinweis": "METRA 6 S mit Restebecken in anthrazit."
+    },
+    {
+      "name": "BLANCO METRA 6 S Compact, SILGRANIT anthrazit (513473)",
+      "hersteller": "Blanco",
+      "ean": "4020684394192",
+      "amazon_asin": "B004DIPF6O",
+      "hinweis": "Dasselbe Modell (Compact)."
+    }
+  ],
+  "mida-s": [
+    {
+      "name": "BLANCO MIDA-S Küchenarmatur mit Auszugsbrause, chrom (521454)",
+      "hersteller": "Blanco",
+      "ean": "4020684646420",
+      "amazon_asin": "B01CFLC7R0",
+      "hinweis": "MIDA-S in chrom."
+    },
+    {
+      "name": "BLANCO MIDA-S Küchenarmatur mit Auszugsbrause, anthrazit (521455)",
+      "hersteller": "Blanco",
+      "ean": "4020684646437",
+      "amazon_asin": "B01CFLC92S",
+      "hinweis": "Dasselbe Modell (anthrazit)."
+    }
+  ],
+  "subline-500-u": [
+    {
+      "name": "BLANCO SUBLINE 500-U, SILGRANIT anthrazit (523432)",
+      "hersteller": "Blanco",
+      "ean": "4020684682572",
+      "amazon_asin": "B07CGMZP3C",
+      "hinweis": "Unterbaubecken SUBLINE 500-U in anthrazit."
+    },
+    {
+      "name": "BLANCO SUBLINE 500-U, SILGRANIT schwarz (525995)",
+      "hersteller": "Blanco",
+      "ean": "4020684730396",
+      "amazon_asin": "B0865PLQLJ",
+      "hinweis": "SUBLINE 500-U in schwarz."
+    }
+  ],
+  "tipo-45-s": [
+    {
+      "name": "Blanco Edelstahlspüle TIPO 45 S, eckig, 50/86 cm, zum wechselseitigen Einbau geeignet",
+      "hersteller": "Blanco",
+      "ean": "4020684741170"
+    }
+  ],
+  "tipo-6-s": [
+    {
+      "name": "BLANCO TIPO II 6 S, Edelstahl Naturfinish, mit Ablauffernbedienung (526622)",
+      "hersteller": "Blanco",
+      "ean": "4020684747936",
+      "amazon_asin": "B09GS491TB",
+      "hinweis": "Aktuelle Ausführung der TIPO 6 S (Nachfolger TIPO II 6 S)."
+    }
+  ],
+  "tipo-xl-6-s": [
+    {
+      "name": "BLANCO TIPO XL 6 S, Edelstahl Naturfinish (514243)",
+      "hersteller": "Blanco",
+      "ean": "4020684423014",
+      "amazon_asin": "B07QYBB7QQ",
+      "hinweis": "TIPO XL 6 S mit großem Einzelbecken."
+    }
+  ],
+  "zia-45-s-compact": [
+    {
+      "name": "Blanco Granitspüle ZIA 45 S Compact, eckig, 50/68 cm, erhältlich in mehreren Farben",
+      "hersteller": "Blanco",
+      "ean": "4020684730266"
+    }
+  ],
+  "zia-5-s": [
+    {
+      "name": "BLANCO ZIA 5 S, SILGRANIT anthrazit (520502)",
+      "hersteller": "Blanco",
+      "ean": "4020684623414",
+      "amazon_asin": "B00ZU0C61Q",
+      "hinweis": "Dasselbe Modell."
+    },
+    {
+      "name": "BLANCO ZIA 5 S, SILGRANIT softweiß (527203)",
+      "hersteller": "Blanco",
+      "ean": null,
+      "amazon_asin": "B0CN7DBNSY",
+      "hinweis": "ZIA 5 S in softweiß."
+    }
+  ],
+  "zia-6-s": [
+    {
+      "name": "BLANCO ZIA 6 S, SILGRANIT anthrazit (514740)",
+      "hersteller": "Blanco",
+      "ean": "4020684433037",
+      "amazon_asin": "B002AGTE8G",
+      "hinweis": "Dasselbe Modell."
+    },
+    {
+      "name": "BLANCO ZIA 6 S, SILGRANIT schwarz (526020)",
+      "hersteller": "Blanco",
+      "ean": null,
+      "amazon_asin": "B0865SZ3K5",
+      "hinweis": "ZIA 6 S in schwarz."
+    }
+  ],
+  "zia-xl-6-s": [
+    {
+      "name": "BLANCO ZIA XL 6 S, SILGRANIT anthrazit (517558)",
+      "hersteller": "Blanco",
+      "ean": "4020684508704",
+      "amazon_asin": "B005610X50",
+      "hinweis": "ZIA XL 6 S in anthrazit."
+    },
+    {
+      "name": "BLANCO ZIA XL 6 S Compact, SILGRANIT schwarz (526018)",
+      "hersteller": "Blanco",
+      "ean": "4020684730167",
+      "amazon_asin": "B0865W2DLL",
+      "hinweis": "Dasselbe Modell (Compact, schwarz)."
+    }
+  ]
+}

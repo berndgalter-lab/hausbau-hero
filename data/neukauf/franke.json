@@ -1,0 +1,77 @@
+{
+  "atlas": [
+    {
+      "name": "Franke Atlas Neo Hochdruckarmatur mit Zugauslauf, Edelstahl (115.0521.435)",
+      "hersteller": "Franke",
+      "ean": "7612985444873",
+      "amazon_asin": "B07MVFXSL1",
+      "hinweis": "Aktuelle Atlas-Generation (Atlas Neo) mit ausziehbarer Brause, Nachfolger der Atlas."
+    },
+    {
+      "name": "Franke Atlas Neo Hochdruckarmatur mit Zugauslauf, anthrazit (115.0628.210)",
+      "hersteller": "Franke",
+      "ean": "7612985911214",
+      "amazon_asin": "B0983TF3BJ",
+      "hinweis": "Atlas Neo mit Zugauslauf in anthrazit, Nachfolger der Atlas."
+    }
+  ],
+  "etn-614": [
+    {
+      "name": "Franke Eurostar ETN 614 Nova, Edelstahl ungebürstet (101.0301.755)",
+      "hersteller": "Franke",
+      "ean": "7612981128968",
+      "amazon_asin": "B0F1DFY2TW",
+      "hinweis": "Aktuelle Ausführung der Eurostar ETN 614 (Nova)."
+    }
+  ],
+  "euroform-efx-614": [
+    {
+      "name": "Franke Euroform EFX 614-78 Edelstahlspüle mit Excenter (101.0024.026)",
+      "hersteller": "Franke",
+      "ean": null,
+      "amazon_asin": "B00102O184",
+      "hinweis": "Dasselbe Modell."
+    }
+  ],
+  "maris-urban": [
+    {
+      "name": "Franke Maris MRG 611-62, Fragranit Black Matt (114.0627.368)",
+      "hersteller": "Franke",
+      "ean": "7612985906883",
+      "amazon_asin": "B098TN69FD",
+      "hinweis": "Aktuelle Maris-Einbauspüle MRG 611-62."
+    },
+    {
+      "name": "Franke Urban UBG 611-78, Fragranit Glacier (114.0682.550)",
+      "hersteller": "Franke",
+      "ean": "7612986234473",
+      "amazon_asin": "B0C27V9TW5",
+      "hinweis": "Aktuelle Urban-Einbauspüle UBG 611-78."
+    }
+  ],
+  "strata-stg-614": [
+    {
+      "name": "Franke Strata STG 614-78, Fragranit steingrau (114.0303.671)",
+      "hersteller": "Franke",
+      "ean": "7612981139148",
+      "amazon_asin": "B00IN2JG7U",
+      "hinweis": "STG 614-78 in steingrau."
+    },
+    {
+      "name": "Franke Strata STG 614-78, Fragranit Black Matt (114.0657.828)",
+      "hersteller": "Franke",
+      "ean": "7612986092035",
+      "amazon_asin": "B0BFK5RTJH",
+      "hinweis": "STG 614-78 in Black Matt."
+    }
+  ],
+  "taros-gaia": [
+    {
+      "name": "Franke Taros Neo Hochdruckarmatur mit Zugauslauf, Edelstahl (115.0596.383)",
+      "hersteller": "Franke",
+      "ean": "7612985750370",
+      "amazon_asin": "B091TT4PWD",
+      "hinweis": "Aktuelle Taros-Generation mit Zugauslauf, Nachfolger von Taros/Gaia mit Zugauslauf."
+    }
+  ]
+}

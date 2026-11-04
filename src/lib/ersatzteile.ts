@@ -2,7 +2,7 @@ import { supabase } from "@/lib/supabase";
 import { istAmazonSuche, mitTrackingId } from "@/lib/affiliate";
 
 export const SITE_URL = "https://hausbau-hero.de";
-const STANDARD_TAG = "hausbauhero-21";
+export const STANDARD_TAG = "hausbauhero-21";
 
 export type Sicherheit = "hersteller" | "zwei_quellen" | "eine_quelle";
 
