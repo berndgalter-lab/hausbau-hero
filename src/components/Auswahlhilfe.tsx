@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { ArmaturDaten } from "@/lib/armatur-daten";
+import type { RatgeberDaten } from "@/lib/armatur-daten";
 import { ratgeberNachPfad, type AuswahlOption } from "@/lib/produkt-ratgeber";
 import { AFFILIATE_REL } from "@/lib/affiliate";
 import TeilBild from "@/components/TeilBild";
@@ -25,7 +25,7 @@ export interface AuswahlModell {
   kurzbeschreibung: string | null;
   vorteile: string[];
   nachteile: string[];
-  daten: ArmaturDaten;
+  daten: RatgeberDaten;
   bild: { url: string; shop: string } | null;
   kauf: KaufLink[];
 }
@@ -175,8 +175,8 @@ export default function Auswahlhilfe({ pfad, modelle, fussnote }: { pfad: string
           {passend.length === modelle.length
             ? `Alle ${modelle.length} ${ratgeber.mehrzahl}:`
             : passend.length === 0
-              ? `Keine der ${modelle.length} ${ratgeber.mehrzahl} hier passt${unklar.length > 0 ? " sicher" : ""}.`
-              : `${passend.length} von ${modelle.length} ${ratgeber.mehrzahl} ${passend.length === 1 ? "passt" : "passen"}:`}{" "}
+              ? `${ratgeber.keine ?? "Keine"} der ${modelle.length} ${ratgeber.mehrzahl} hier passt${unklar.length > 0 ? " sicher" : ""}.`
+              : `${passend.length} von ${modelle.length} ${ratgeber.mehrzahlDativ ?? ratgeber.mehrzahl} ${passend.length === 1 ? "passt" : "passen"}:`}{" "}
           {zuruecksetzen}
         </p>
         {passend.length > 0 && (
