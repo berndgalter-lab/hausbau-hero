@@ -108,7 +108,7 @@ export default async function MarkenHub({ params }: Props) {
       <Brotkrumen teile={[pfad[0], pfad[1], { name: marke.name }]} />
 
       <h1 className="text-3xl font-bold mb-3">{marke.name} Ersatzteile finden</h1>
-      {marke.beschreibung && <p className="text-stone-700 mb-6 leading-relaxed max-w-3xl">{marke.beschreibung}</p>}
+      {marke.beschreibung && <p className="text-stone-700 mb-6 leading-relaxed max-w-3xl whitespace-pre-line">{marke.beschreibung}</p>}
 
       <ol className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
         {wegweiser.map((w, i) => (
@@ -227,7 +227,7 @@ export default async function MarkenHub({ params }: Props) {
       {marke.ersatzteil_garantie && (
         <section className="mb-10 p-5 bg-stone-50 border border-stone-200 rounded-xl">
           <h2 className="text-lg font-bold mb-2">Garantie und Ersatzteil-Verfügbarkeit</h2>
-          <p className="text-sm text-stone-700 leading-relaxed">{marke.ersatzteil_garantie}</p>
+          <p className="text-sm text-stone-700 leading-relaxed whitespace-pre-line">{marke.ersatzteil_garantie}</p>
         </section>
       )}
 

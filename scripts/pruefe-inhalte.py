@@ -2,8 +2,9 @@
 """Prüfregel für die Inhalte in data/ (docs/SEITENAUFBAU.md, Abschnitt 6).
 
 Ratgeber (data/artikel): Verstöße sind Fehler, der Lauf endet mit Code 1.
-Ersatzteile (data/ersatzteile): Notiz-Sprache wird vorerst nur gemeldet, bis die Marken-Dateien
-gesäubert sind (Schritt 3). Danach `--streng` im Workflow setzen.
+Ersatzteile (data/ersatzteile): Notiz-Sprache ist mit --streng ein Fehler (so läuft der Workflow),
+ohne nur ein Hinweis. Was nur aus einer Suchergebnis-Vorschau stammt, heißt im Text
+„(nicht im Original geprüft)“.
 
 Aufruf: python3 scripts/pruefe-inhalte.py [--streng]
 """
@@ -82,6 +83,7 @@ def pruefe_ersatzteile(streng: bool) -> None:
             ("marke", [d["marke"]], ("beschreibung", "nummer_hinweis", "ersatzteil_garantie")),
             ("serien", d.get("serien", []), ("erkennungsmerkmale", "beschreibung")),
             ("teile", d.get("teile", []), ("beschreibung",)),
+            ("zuordnungen", d.get("zuordnungen", []), ("hinweis",)),
             ("probleme", d.get("probleme", []), ("symptom", "fachbetrieb_ab")),
             ("widersprueche", d.get("widersprueche", []), ("thema", "aussage_a", "aussage_b")),
         ]
@@ -90,7 +92,7 @@ def pruefe_ersatzteile(streng: bool) -> None:
                 for f, wert in texte(e, felder):
                     m = NOTIZ.search(wert)
                     if m:
-                        wer = e.get("slug") or e.get("thema") or bereich
+                        wer = e.get("slug") or e.get("thema") or e.get("serie_slug") or bereich
                         ziel.append(f"{datei}: {bereich} {wer}: Notiz-Sprache in {f} („{m.group(0)}“)")
 
 

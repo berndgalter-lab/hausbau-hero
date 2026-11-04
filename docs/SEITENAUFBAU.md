@@ -99,6 +99,6 @@ Ein Skript (`scripts/pruefe-inhalte.py`, läuft im CI vor dem Merge) lehnt ab:
 
 1. Vorlagen umbauen: Ratgeber, Marke, Serie. Prüfvermerk und Methodenkasten als eigene Bausteine. **Erledigt** (Branch `feat/seitenaufbau`), dünne Serien sind schon `noindex` und fehlen in der Sitemap.
 2. Die vier Ratgeber umstellen: Titel, Produktfelder, kurze Antwort. Der Fließtext bleibt größtenteils. **Erledigt:** Titel als Frage, Abzeichen-Felder entfernt, „Passt für“ konkret, Spalte „Preisklasse“ entfernt, Niederdruck-Beitrag mit Quellenliste.
-3. Die sechs Marken-Dateien sprachlich säubern (Beschreibung, Nummer-Hinweis, Garantie, Widersprüche).
+3. Die sechs Marken-Dateien sprachlich säubern (Beschreibung, Nummer-Hinweis, Garantie, Widersprüche). **Erledigt:** Lesertexte mit Absätzen, Grohe-Notizen zu Erkennungsmerkmalen geleert, Angaben aus Suchergebnis-Vorschauen als „(nicht im Original geprüft)“ gekennzeichnet. Prüfregel läuft jetzt mit `--streng`.
 4. Dünne Serien auf `noindex`, Prüfregel ins CI. **Erledigt:** `scripts/pruefe-inhalte.py`, Workflow `inhalte-pruefen`. Ersatzteile vorerst nur als Hinweis, nach Schritt 3 mit `--streng`.
 5. Danach erst neue Seiten (WC/Vorwand), gleich im neuen Aufbau.
