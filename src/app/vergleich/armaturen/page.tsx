@@ -32,7 +32,11 @@ export default async function ArmaturenVergleichSeite() {
     .eq("ist_werkzeug", false);
   if (error) console.error("[vergleich] Produkte:", error.message);
 
-  const roh = ((data as any[]) ?? []).filter((p) => armaturDaten(p.technische_daten));
+  // Druckminderer und Duschsysteme ohne eigene Armatur sind keine Armaturen
+  const roh = ((data as any[]) ?? []).filter((p) => {
+    const d = armaturDaten(p.technische_daten);
+    return d && d.kategorie !== "druckminderer" && d.bauart !== "ohne Armatur";
+  });
   const nachEan = await angeboteFuerEans(roh.map((p) => p.ean));
 
   // Dasselbe Modell kann in mehreren Kaufberatungen stehen: einmal zeigen, alle Artikel verlinken.

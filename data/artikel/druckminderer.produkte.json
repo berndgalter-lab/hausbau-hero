@@ -1,0 +1,218 @@
+[
+ {
+  "sortierung": 1,
+  "name": "Resideo Braukmann Druckminderer D06F-LF, R 3/4\" (D06F-3/4LFA)",
+  "hersteller": "Resideo",
+  "hersteller_nr": "D06F-3/4LFA",
+  "ean": "4019837148812",
+  "einsatzbereich": "Hausanschluss oder Etagen-/Wohnungsleitung DN 20 hinter einem vorhandenen Trinkwasserfilter; Kaltwasser bis 30 °C.",
+  "kurzbeschreibung": "Bleifreier Membran-Druckminderer mit druckentlastetem Ventileinsatz und Einstellskala, Nachfolger des D06F-3/4A. Regelbereich 1,5–6 bar, ab Werk 3 bar, Anschlusstüllen R 3/4\" im Lieferumfang. Das eingebaute Sieb (0,16 mm) schützt nur das Ventil und ersetzt keinen Trinkwasserfilter. Auch in 1/2\" (D06F-1/2LFA), 1\" (D06F-1LFA) und 1 1/4\" (D06F-11/4LFA).",
+  "vorteile": [
+   "Sollwert direkt an der Einstellskala ablesbar; Einbau waagerecht oder senkrecht möglich",
+   "Ventileinsatz (D06FA-1/2LF), Sieb und Siebtasse einzeln als Ersatzteil erhältlich",
+   "bleifreie Ausführung nach EU-Richtlinie 2020/2184, DVGW-zertifiziert, schallschutzgeprüft (Gruppe 1)"
+  ],
+  "nachteile": [
+   "Kein Manometer im Lieferumfang: zum Einstellen ein Manometer (z. B. M07M-A10) mitbestellen",
+   "Kein Trinkwasserfilter: Ein Filter muss vorgeschaltet sein",
+   "Mit Kunststoff-Siebtasse höchstens 16 bar Vordruck und 30 °C; für mehr die LFB-Variante mit Messing-Siebtasse wählen"
+  ],
+  "technische_daten": {
+   "kategorie": "druckminderer",
+   "bauart": "Druckminderer",
+   "anschluss": "R 3/4\" Außengewinde-Anschlusstüllen (DN 20)",
+   "anschluss_zoll": "3/4\"",
+   "filter": "nein, nur Schutzsieb",
+   "rueckspuelung": "nein",
+   "rueckflussverhinderer": "nein",
+   "eingangsdruck_max_bar": 16,
+   "ausgangsdruck": "1,5–6 bar, ab Werk 3 bar",
+   "manometer": "Zubehör (M07M)",
+   "einbaulage": "horizontal oder vertikal",
+   "temperatur_max_c": 30,
+   "durchfluss": "kvs 3,1 m³/h; 2,3 m³/h bei 2 m/s nach DIN EN 1567",
+   "norm": "DIN EN 1567, DVGW, bleifrei",
+   "material": "Messing, Siebtasse Kunststoff"
+  }
+ },
+ {
+  "sortierung": 2,
+  "name": "SYR Druckminderer 315 DN 25 (0315.25.000)",
+  "hersteller": "SYR",
+  "hersteller_nr": "0315.25.000",
+  "ean": "4017905000192",
+  "einsatzbereich": "Hausanschluss DN 25 hinter einem vorhandenen Filter, auch für Wohnungs- und Etagenleitungen.",
+  "kurzbeschreibung": "Druckminderer aus Rotguss mit Ausgangsdruckanzeige im Einstellrad, beidseitigen Verschraubungen und koaxialem Schmutzfänger. Alle Funktionsteile sitzen in einer Kartusche, die sich ohne Ausbau der Armatur und ohne Spezialwerkzeug tauschen lässt. Auch in 1/2\" (0315.15.000), 3/4\" (0315.20.000) und 1 1/4\" (0315.32.000).",
+  "vorteile": [
+   "Ausgangsdruck ohne separates Manometer ablesbar, Federkappe um 360° drehbar",
+   "Kartusche (DN 25: 0315.25.904) im eingebauten Zustand austauschbar; Einbaulage beliebig",
+   "DVGW-zugelassen, erfüllt DIN EN 1567, Schallschutz Klasse 1"
+  ],
+  "nachteile": [
+   "Kein Trinkwasserfilter, nur Schmutzfänger: Filter vorschalten",
+   "Betriebstemperatur höchstens 30 °C (Sonderausführung 80 °C)",
+   "SYR nennt im Datenblatt 16 bar Eingangsdruck, in der Gebrauchsanleitung 25 bar. Liegt der Versorgungsdruck über 16 bar, beim Hersteller nachfragen"
+  ],
+  "technische_daten": {
+   "kategorie": "druckminderer",
+   "bauart": "Druckminderer",
+   "anschluss": "beidseitige Verschraubungen, Gehäuseanschluss G 1\" (DN 25)",
+   "anschluss_zoll": "1\"",
+   "filter": "nein, nur Schmutzfänger",
+   "rueckspuelung": "nein",
+   "rueckflussverhinderer": "nein",
+   "eingangsdruck_max_bar": 16,
+   "ausgangsdruck": "1,5–6 bar, ab Werk 4 bar",
+   "manometer": "Anzeige im Einstellrad",
+   "einbaulage": "beliebig",
+   "temperatur_max_c": 30,
+   "durchfluss": "3,6 m³/h Spitzendurchfluss Wohnbau nach DIN EN 1567 (2 m/s); Druckabfall 1,1 bar bei maximalem Durchfluss",
+   "norm": "DIN EN 1567, DVGW",
+   "material": "Rotguss"
+  }
+ },
+ {
+  "sortierung": 3,
+  "name": "Resideo Braukmann Filterkombination MiniPlus FK06, R 3/4\" (FK06-3/4AA)",
+  "hersteller": "Resideo",
+  "hersteller_nr": "FK06-3/4AA",
+  "ean": "4019837042721",
+  "einsatzbereich": "Kleinere Hausanschlüsse und Wohnungsleitungen DN 20, wenn Filter und Druckminderer in einem kompakten Gerät sitzen sollen und wenig Platz ist.",
+  "kurzbeschreibung": "Kompakte Kombination aus Druckminderer und 100-µm-Feinfilter in einer Klarsicht-Filtertasse. Abgelagerter Schmutz wird über einen Kugelhahn ausgespült, auch währenddessen fließt gefiltertes Wasser. Eine Rückspülung des Siebs hat das Gerät nicht; das Sieb wird bei Bedarf gewechselt. Auch in 1\" (FK06-1AA) und 1 1/4\" (FK06-11/4AA).",
+  "vorteile": [
+   "kurze Einbaulänge (160 mm bei 3/4\")",
+   "Verschmutzung durch die Klarsicht-Tasse sichtbar, Ausspülen ohne Werkzeug",
+   "Ventileinsatz, Filtertasse mit Sieb und Ersatzsieb einzeln erhältlich"
+  ],
+  "nachteile": [
+   "Keine Rückspülung: Das Sieb (AS06-1/2A, 5 Stück) muss bei Verschmutzung getauscht werden",
+   "Nur waagerechter Einbau mit Filtertasse nach unten",
+   "Kein Manometer und kein Rückflussverhinderer im Lieferumfang; Resideo empfiehlt einen Rückflussverhinderer vor dem Filter"
+  ],
+  "technische_daten": {
+   "kategorie": "druckminderer",
+   "bauart": "Filter-Druckminderer",
+   "anschluss": "R 3/4\" Außengewinde mit Gewindetüllen (DN 20)",
+   "anschluss_zoll": "3/4\"",
+   "filter": "Feinfilter 100 µm, ausspülbar",
+   "rueckspuelung": "nein",
+   "rueckflussverhinderer": "nein",
+   "eingangsdruck_max_bar": 16,
+   "ausgangsdruck": "1,5–6 bar",
+   "manometer": "Zubehör (M07M)",
+   "einbaulage": "waagerecht mit Filtertasse nach unten",
+   "temperatur_max_c": 30,
+   "durchfluss": "kvs 2,9 m³/h",
+   "norm": "DVGW",
+   "material": "Messing, Filtertasse Kunststoff"
+  }
+ },
+ {
+  "sortierung": 4,
+  "name": "Riegler Rückspülfilter mit Druckregler, DVGW-geprüft, R 1 (Typ 100.53)",
+  "hersteller": "Riegler",
+  "hersteller_nr": "100.53",
+  "ean": "4047322011877",
+  "einsatzbereich": "Hausanschluss DN 25 an der öffentlichen Versorgung oder an einer Brunnenanlage, wenn Filter und Druckregler kombiniert werden sollen.",
+  "kurzbeschreibung": "DVGW-geprüfter Rückspülfilter (90–110 µm) mit integriertem Membran-Druckregler mit entlastetem Einsitzventil, Regelbereich 2–6 bar, Anschluss R 1 (Riegler-Ident-Nr. 101424). Gereinigt wird von Hand über Rückspülhebel und Drehgriff; das Spülwasser läuft über einen Schlauchanschluss ab. Auch in 3/4\" (100.52) und 1 1/4\" (100.54).",
+  "vorteile": [
+   "Rückspülung von Hand über Hebel und Drehgriff, das Spülwasser läuft über einen Schlauchanschluss ab",
+   "Einbau in waagerechte oder senkrechte Leitungen",
+   "Filtereinsatz (100/421) und Filterbehälter (100/422) als Ersatzteile im Riegler-Programm"
+  ],
+  "nachteile": [
+   "Regelbereich beginnt erst bei 2 bar",
+   "Manometer und Durchfluss stehen nur beim Händler, nicht in den Riegler-Unterlagen; die Werkseinstellung ist nicht angegeben",
+   "Kein Rückflussverhinderer; für Spülwasser einen Schlauch zum Ablauf vorsehen"
+  ],
+  "technische_daten": {
+   "kategorie": "druckminderer",
+   "bauart": "Filter-Druckminderer",
+   "anschluss": "R 1 Rohrverschraubung (DN 25)",
+   "anschluss_zoll": "1\"",
+   "filter": "Rückspülfilter 90–110 µm",
+   "rueckspuelung": "manuell",
+   "rueckflussverhinderer": "nein",
+   "eingangsdruck_max_bar": 16,
+   "ausgangsdruck": "2,0–6,0 bar (Regelbereich)",
+   "manometer": "im Lieferumfang (Händlerangabe)",
+   "einbaulage": "waagerechte oder senkrechte Leitungen",
+   "temperatur_max_c": 30,
+   "durchfluss": "kvs 3,5 m³/h (Händlerangabe)",
+   "norm": "DVGW",
+   "material": "Messing, Filterbehälter Kunststoff"
+  }
+ },
+ {
+  "sortierung": 5,
+  "name": "Grünbeck Automatikfilter pureliQ:AD25 mit Druckminderer, 1\" (101 475)",
+  "hersteller": "Grünbeck",
+  "hersteller_nr": "101475",
+  "ean": "4031246701068",
+  "einsatzbereich": "Hausanschluss DN 25 im Ein- oder Zweifamilienhaus, wenn die Rückspülung nicht von Hand erledigt werden soll und Strom sowie Abwasseranschluss vorhanden sind.",
+  "kurzbeschreibung": "Automatikfilter mit 100-µm-Edelstahl-Filterelement und Druckminderer mit Manometer im Filterkopf. Die Steuerung löst die Rückspülung alle 7, 30, 60 oder 90 Tage aus (ab Werk 60 Tage), manuell jederzeit. Der Nachdruck ist von 1 bis 6 bar einstellbar, ab Werk 4 bar. Auch in 3/4\" (101470) und 1 1/4\" (101480).",
+  "vorteile": [
+   "Rückspülung läuft automatisch, ein Vorgang dauert etwa 50 Sekunden und braucht bei 4 bar etwa 14 Liter",
+   "drehbarer Anschlussflansch für waagerechte oder senkrechte Leitungen; Wasserzählerverschraubung im Lieferumfang",
+   "Abdeckung schützt Filterglocke und Element vor UV-Licht, ein Sichtfenster zeigt die Verschmutzung"
+  ],
+  "nachteile": [
+   "Braucht eine Schuko-Steckdose mit Dauerstrom im Umkreis von etwa 1,2 m und einen Kanalanschluss DN 50",
+   "Kein Rückflussverhinderer integriert",
+   "Wartung alle 6 Monate; Grünbeck empfiehlt nach 5 Jahren den Tausch von Filterelement, Dichtungen und Rückspülventil (Service Kits)"
+  ],
+  "technische_daten": {
+   "kategorie": "druckminderer",
+   "bauart": "Filter-Druckminderer",
+   "anschluss": "1\" Wasserzählerverschraubung mit drehbarem Klick-Anschlussflansch (DN 25)",
+   "anschluss_zoll": "1\"",
+   "filter": "Rückspülfilter 100 µm",
+   "rueckspuelung": "automatisch",
+   "rueckflussverhinderer": "nein",
+   "eingangsdruck_max_bar": 16,
+   "ausgangsdruck": "1–6 bar, ab Werk 4 bar",
+   "manometer": "im Filterkopf",
+   "einbaulage": "waagerechte oder senkrechte Rohrleitung (drehbarer Anschlussflansch)",
+   "temperatur_max_c": 30,
+   "durchfluss": "3,6 m³/h nach DIN EN 1567",
+   "norm": "DIN EN 13443-1, DIN EN 1567, DVGW",
+   "material": "Kunststoff und Messing"
+  }
+ },
+ {
+  "sortierung": 6,
+  "name": "SYR Hauswasserstation 2000 Plus DN 20 (2000.20.018)",
+  "hersteller": "SYR",
+  "hersteller_nr": "2000.20.018",
+  "ean": "4017905055932",
+  "einsatzbereich": "Neubau oder Erneuerung der Hauseingangsinstallation DN 20 direkt hinter dem Wasserzähler, wenn Rückflussverhinderer, Filter, Druckminderer und Absperrung in einem Gerät sitzen sollen.",
+  "kurzbeschreibung": "Hauswasserstation mit ausbaubarem Rückflussverhinderer samt Prüfvorrichtung im Anschlussflansch, Kugelhahn als Wartungsabsperrung, halbautomatischem Rückspülfilter und Druckminderer (1,5–6 bar, ab Werk 4 bar) sowie Eingangs- und Ausgangsmanometer. Die Rückspülung wird von Hand per Drehgriff ausgelöst (SYR nennt den Filter halbautomatisch); mit der Rückspülautomatik RSA läuft sie automatisch. Auch in 1\" (2000.25.018) und 1 1/4\" (2000.32.018).",
+  "vorteile": [
+   "ersetzt laut SYR die Einzelarmaturen einschließlich KFR-Ventil und hält die Reihenfolge nach DIN 1988 ein",
+   "Anschlussflansch und zwei Manometer im Lieferumfang",
+   "Wartungsanzeige im Kugelhahngriff blinkt alle zwei Monate; Rückspülautomatik RSA laut SYR ohne Werkzeug nachrüstbar"
+  ],
+  "nachteile": [
+   "Platzbedarf: etwa 400 mm von Rohrmitte bis Boden",
+   "Rückspülwasser braucht einen Ablauf (z. B. HT-Muffe DN 50) oder ein Auffanggefäß",
+   "Höchstens 30 °C und 16 bar; in senkrechten Leitungen nur mit Fließrichtung nach oben einbaubar"
+  ],
+  "technische_daten": {
+   "kategorie": "druckminderer",
+   "bauart": "Hauswasserstation",
+   "anschluss": "R 3/4\" Gewindeverschraubung am mitgelieferten Anschlussflansch (DN 20)",
+   "anschluss_zoll": "3/4\"",
+   "filter": "Rückspülfilter 90–125 µm",
+   "rueckspuelung": "manuell",
+   "rueckflussverhinderer": "ja",
+   "eingangsdruck_max_bar": 16,
+   "ausgangsdruck": "1,5–6 bar, ab Werk 4 bar",
+   "manometer": "Eingang und Ausgang",
+   "einbaulage": "senkrecht oder waagerecht, Hauptachse vorzugsweise senkrecht; in senkrechten Leitungen nur mit Fließrichtung nach oben",
+   "temperatur_max_c": 30,
+   "durchfluss": "2,3 m³/h bei 1,1 bar Δp",
+   "norm": "DIN EN 13443, DIN EN 1567, DVGW",
+   "material": "Rotguss und Kunststoff"
+  }
+ }
+]
