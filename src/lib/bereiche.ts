@@ -18,6 +18,17 @@ export interface Bereich {
   probleme: RegExp;
   /** Ratgeber als Slug in der Tabelle seiten (Silo bad). */
   ratgeber: string[];
+  /**
+   * Neukauf-Hinweis auf Teil-, Modell- und Problemseiten: Ratgeber, aus dem die Modelle kommen,
+   * und ein Satz, wann sich der Neukauf mehr lohnt als die Reparatur. Fehlt er, zeigt die Seite keinen Hinweis.
+   */
+  neukauf?: {
+    ratgeber: string;
+    titel: string;
+    text: string;
+    /** Nur auf diesen Seiten statt überall im Bereich, z. B. die Drückerplatte nicht bei „Spülkasten läuft nach“. */
+    nurBei?: { teiltypen?: string[]; produkttypen?: string[]; probleme?: RegExp };
+  };
 }
 
 export const BEREICHE: Bereich[] = [
@@ -29,8 +40,14 @@ export const BEREICHE: Bereich[] = [
       "Am Waschtisch geht fast immer dasselbe kaputt: die Kartusche, wenn die Armatur tropft oder der Hebel schwer geht, und der Strahlregler, wenn der Strahl spritzt. Die passende Kartusche hängt am Modell der Armatur, nicht am Durchmesser allein.",
     produkttypen: ["waschtischarmatur"],
     teiltypen: ["kartusche", "strahlregler", "dichtung", "betaetigung"],
-    probleme: /armatur-tropft|hebel|strahlregler|ceramix/,
+    // Küchenmarken gehören zur Küche, auch wenn dort eine Armatur tropft.
+    probleme: /^(?!blanco|franke).*(armatur-tropft|hebel|strahlregler|ceramix)/,
     ratgeber: ["waschtischarmatur-ratgeber", "waschtischarmatur-mit-brause", "niederdruckarmatur-untertischspeicher"],
+    neukauf: {
+      ratgeber: "waschtischarmatur-ratgeber",
+      titel: "Lieber eine neue Armatur?",
+      text: "Gibt es die Kartusche nicht mehr, tropft die Armatur an mehreren Stellen oder kostet das Ersatzteil fast so viel wie neu, ist eine neue Armatur oft die bessere Wahl.",
+    },
   },
   {
     slug: "dusche-badewanne",
@@ -42,6 +59,11 @@ export const BEREICHE: Bereich[] = [
     teiltypen: ["thermostatkartusche", "kartusche", "schlauch", "dichtung"],
     probleme: /thermostat/,
     ratgeber: ["badewannenarmatur-ratgeber", "komplettdusche-ratgeber"],
+    neukauf: {
+      ratgeber: "badewannenarmatur-ratgeber",
+      titel: "Lieber eine neue Armatur?",
+      text: "Gibt es das Ersatzteil nicht mehr oder ist der Armaturenkörper selbst undicht, ist eine neue Armatur oft die bessere Wahl. Bei Aufputz-Armaturen achte auf das Anschlussmaß.",
+    },
   },
   {
     slug: "wc-spuelkasten",
@@ -53,6 +75,12 @@ export const BEREICHE: Bereich[] = [
     teiltypen: ["fuellventil", "spuelventil", "betaetigungsplatte", "umbauset", "dichtung"],
     probleme: /spuelkasten|spuelung/,
     ratgeber: ["geberit-sigma-drueckerplatte", "vorwandelement-wc", "vorwandelement-wc-hoehe", "tece-vs-geberit"],
+    neukauf: {
+      ratgeber: "geberit-sigma-drueckerplatte",
+      titel: "Neue Drückerplatte?",
+      text: "Ist die Betätigungsplatte gebrochen, vergilbt oder klemmt die Taste, tauschst du sie als Ganzes. Welche passt, hängt am Spülkasten.",
+      nurBei: { teiltypen: ["betaetigungsplatte"], produkttypen: ["betaetigungsplatte"], probleme: /loest-nicht-aus|drueckerplatte/ },
+    },
   },
   {
     slug: "kueche",
@@ -93,6 +121,39 @@ export const TEILTYP_SUCHWORT: Record<string, string> = {
   ablaufgarnitur: "Ablaufgarnitur",
   siebkoerbchen: "Siebkörbchen",
 };
+
+/** Passt ein Teil in Serien mehrerer Bereiche, zählt der Bereich mit den meisten Serien. */
+function haeufigsterBereich(produkttypen: string[]): Bereich | null {
+  const zahl = new Map<Bereich, number>();
+  for (const t of produkttypen) {
+    const b = bereichFuerProdukttyp(t);
+    if (b) zahl.set(b, (zahl.get(b) ?? 0) + 1);
+  }
+  return Array.from(zahl.entries()).sort((a, b) => b[1] - a[1])[0]?.[0] ?? null;
+}
+
+/**
+ * Bereich, dessen Neukauf-Hinweis auf dieser Seite gezeigt wird, oder null. Der Bereich ergibt sich aus
+ * Problem-Slug oder Produkttyp; „nurBei“ schränkt ihn weiter ein.
+ */
+export function neukaufBereich(k: { problem?: string; produkttypen?: string[]; teiltyp?: string }): Bereich | null {
+  const b = k.problem ? bereichFuerProblem(k.problem) : haeufigsterBereich(k.produkttypen ?? []);
+  const nur = b?.neukauf?.nurBei;
+  if (!b?.neukauf || !nur) return b?.neukauf ? b : null;
+  const passt =
+    (k.problem !== undefined && !!nur.probleme?.test(k.problem)) ||
+    (k.teiltyp !== undefined && !!nur.teiltypen?.includes(k.teiltyp)) ||
+    (k.produkttypen ?? []).some((t) => nur.produkttypen?.includes(t));
+  return passt ? b : null;
+}
+
+export function bereichFuerProdukttyp(typ: string): Bereich | null {
+  return BEREICHE.find((b) => b.produkttypen.includes(typ)) ?? null;
+}
+
+export function bereichFuerProblem(slug: string): Bereich | null {
+  return BEREICHE.find((b) => b.probleme.test(slug)) ?? null;
+}
 
 export function bereichNachSlug(slug: string): Bereich | null {
   return BEREICHE.find((b) => b.slug === slug) ?? null;
