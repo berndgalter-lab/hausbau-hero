@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import NeukaufKasten from "@/components/Neukauf";
+import { neukaufFuerBereich } from "@/lib/neukauf";
+import { neukaufBereich } from "@/lib/bereiche";
 import { notFound } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import TeilBild from "@/components/TeilBild";
@@ -62,7 +65,11 @@ export default async function SerienSeite({ params }: Props) {
   const merkmale = serie.erkennungsmerkmale && !NOTIZ_SPRACHE.test(serie.erkennungsmerkmale) ? serie.erkennungsmerkmale : null;
 
   const teilIds = zuordnungen.map((z) => z.teil_id);
-  const [teile, angebote] = await Promise.all([teileNachIds(teilIds), angeboteFuerTeile(teilIds)]);
+  const [teile, angebote, neukauf] = await Promise.all([
+    teileNachIds(teilIds),
+    angeboteFuerTeile(teilIds),
+    neukaufFuerBereich(neukaufBereich({ produkttypen: [serie.produkttyp] })),
+  ]);
   const teilVon = new Map(teile.map((t) => [t.id, t]));
   const zeilen = zuordnungen
     .map((z) => ({ z, t: teilVon.get(z.teil_id) }))
@@ -166,6 +173,8 @@ export default async function SerienSeite({ params }: Props) {
           </div>
         )}
       </section>
+
+      <NeukaufKasten n={neukauf} />
 
       <NummerPruefen />
       <Quellen urls={[...serie.quellen, ...zuordnungen.map((z) => z.quelle_url)]} />

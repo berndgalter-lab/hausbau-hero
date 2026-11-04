@@ -76,6 +76,8 @@ Im Code durchgesetzt, gilt für alle Seiten (alte Beiträge eingeschlossen):
 
 **Neuen Bereich anlegen:** erst die Daten (Marken-Datei mit Serien, Teilen, Problemen), dann den Eintrag in `BEREICHE` und eine Zeichnung. Keine Kachel ohne Inhalt dahinter.
 
+**Neukauf-Hinweis:** Teil-, Modell- und Problemseiten zeigen den Kasten „Lieber eine neue Armatur?“ (`src/components/Neukauf.tsx`), wenn der Bereich einen `neukauf`-Eintrag hat: ein Satz, wann sich Neukauf mehr lohnt, bis zu drei Modelle aus dem Ratgeber mit Bild und günstigstem Partnershop-Preis, Link zum Ratgeber. Ohne Angebot mit Preis gibt es keinen Kasten. Kauflinks bleiben Textzeilen (Platzierung `neukauf`, Awin-`clickref` `hh-neukauf`). Mit `nurBei` lässt sich der Hinweis auf passende Seiten begrenzen (Drückerplatte nicht bei „Spülkasten läuft nach“).
+
 **Bilder:** Fotos nur von Produkten und Teilen, und nur aus den Partner-Feeds (`ean_angebote.bild_url`, `teile.bild_url`), ausgeliefert über die Bildoptimierung (`TeilBild`). Bereiche bekommen Zeichnungen, keine Fotos.
 
 ## 3. Seitentyp Produkt-Ratgeber (`/ratgeber/<produkt>`)

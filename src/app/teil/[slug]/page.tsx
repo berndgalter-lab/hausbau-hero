@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import TeilBild from "@/components/TeilBild";
+import NeukaufKasten from "@/components/Neukauf";
+import { neukaufFuerBereich } from "@/lib/neukauf";
+import { neukaufBereich } from "@/lib/bereiche";
 import {
   Angebote,
   Brotkrumen,
@@ -95,6 +98,8 @@ export default async function TeilSeite({ params }: Props) {
   const [zuordnungen, angebote] = await Promise.all([zuordnungenFuerTeil(teil.id), angeboteFuerTeile([teil.id])]);
   const serien = await serienNachIds(zuordnungen.map((z) => z.serie_id));
   const serieVon = new Map(serien.map((s) => [s.id, s]));
+  // Neukauf-Hinweis nach dem Bereich der passenden Serien, z. B. Kartusche einer Waschtischarmatur.
+  const neukauf = await neukaufFuerBereich(neukaufBereich({ produkttypen: serien.map((s) => s.produkttyp), teiltyp: teil.teiltyp }));
 
   const pfad = [
     { name: "Start", href: "/" },
@@ -139,6 +144,8 @@ export default async function TeilSeite({ params }: Props) {
         </section>
         <Angebote teil={teil} angebote={angebote} />
       </div>
+
+      <NeukaufKasten n={neukauf} />
 
       <section className="mb-8">
         <h2 className="text-xl font-bold mb-3">Passt zu</h2>
