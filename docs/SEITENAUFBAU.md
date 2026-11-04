@@ -33,7 +33,7 @@ Das sind dünne Seiten, und davon viele. Genau das wertet Google seit den Update
 
 ## 2. Grundsätze für alle Seiten
 
-1. **Eine Frage pro Seite, im Titel.** „Waschtischarmatur: welche passt zu Becken und Warmwasser?“ statt „6 Modelle im Vergleich (2026)“. Keine Anzahl, keine Jahreszahl im Titel.
+1. **Eine Frage pro Seite, im Titel.** „Waschtischarmatur: welche passt zu Becken und Warmwasser?“ statt „6 Modelle im Vergleich (2026)“. Keine Anzahl, keine Jahreszahl im Titel, auch nicht in der URL.
 2. **Erst die Antwort, dann die Produkte.** Kein Produktblock vor dem ersten Absatz.
 3. **Stand und Quellen sichtbar unter der Überschrift**, wie der Prüfvermerk bei womo-teile: „Geprüft am 4.11.2026 · 19 Quellen“. Das Datum steht nur da, wenn wirklich geprüft wurde.
 4. **Methode offen sagen:** „Datenblattvergleich, kein Test“ als eigener kurzer Kasten.
@@ -53,28 +53,53 @@ Im Code durchgesetzt, gilt für alle Seiten (alte Beiträge eingeschlossen):
 - Keine orangefarbenen Kaufknöpfe, keine Abzeichen, keine Emojis in Navigation und Überschriften. Kaufen ist ein Textlink mit Sternchen, erklärt einmal pro Seite.
 - Navigation: „Bad-Ratgeber“ und „Armaturen-Datenblätter“ statt „Bad-Kaufberatung“ und „Armaturen-Vergleich“ (URLs bleiben).
 
-## 3. Seitentyp Ratgeber (bisher „Kaufberatung“)
+## 3. Seitentyp Produkt-Ratgeber (`/ratgeber/<produkt>`)
 
-URL bleibt `/bad/<slug>`. Reihenfolge:
+Vorbild ist womo-teile (`/ratgeber/dieselheizung`): Die Seite beantwortet „Welche passt zu mir?“ mit einer Auswahlhilfe, nicht mit einer Liste „Die besten …“. Erste Seite im neuen Aufbau: `/ratgeber/waschtischarmatur`.
 
-| # | Baustein | Inhalt |
+### URL-Schema
+
+- **`/ratgeber/<produkt>`**, Produkt in der Einzahl, ohne Kategorie, ohne „-ratgeber“, ohne Jahreszahl: `/ratgeber/waschtischarmatur`, später `/ratgeber/niederdruckarmatur`, `/ratgeber/badewannenarmatur`, `/ratgeber/drueckerplatte`.
+- Die alte URL `/<silo>/<slug>` leitet dauerhaft weiter (308, von Google wie 301 behandelt). Die Weiterleitung, die Sitemap, das Canonical und alle internen Links (`artikelUrl()`) ergeben sich aus dem Eintrag in `src/lib/produkt-ratgeber.ts`. Nichts davon wird von Hand gepflegt.
+- Der Slug in `data/artikel` bleibt der alte (`waschtischarmatur-ratgeber`), damit der stündliche Import dieselbe Zeile in `seiten` trifft. Keine Datenbank-Änderung nötig.
+- Reine Wissensbeiträge ohne Produktauswahl (Estrich, Wandfarbe …) bleiben unter `/<silo>/<slug>`.
+
+### Reihenfolge auf der Seite
+
+| # | Baustein | Woher |
 |---|---|---|
-| 1 | Überschrift | Die Frage des Lesers |
-| 2 | Einstieg | 2–3 Sätze mit konkreten Zahlen (Preisspanne laut Shops, worauf es ankommt) |
-| 3 | Prüfvermerk | Datum, Zahl der Quellen, Sprung zur Quellenliste |
-| 4 | Die kurze Antwort | 3–4 Sätze, für die meisten Leser reicht das |
-| 5 | Finder | 2–3 Fragen (Warmwasser: zentral, Durchlauferhitzer, Untertischspeicher · Becken: Einbau oder Aufsatz · Brause ja/nein), darunter die passenden Modelle. Daten aus `technische_daten`, dieselben wie unter `/vergleich/armaturen` |
-| 6 | Wissen | Die bisherigen Abschnitte (Größe, Ablaufgarnitur, Oberflächen, Anschluss) |
-| 7 | Die Modelle | Je Modell ein kurzer Abschnitt in Fließtext: wofür es passt, worauf achten (z. B. 33265003 vs. 33265002), Bild mit Quelle, eine Kaufzeile |
-| 8 | Datentabelle | Wie heute, aber nach den Modellen |
-| 9 | Wenn es kaputt geht | Links auf die passenden Serien- und Problem-Seiten. Kein Vergleichsportal hat das |
-| 10 | Quellen, Affiliate-Hinweis | Am Ende |
+| 1 | Überschrift als Frage | `titel` in der Meta-Datei |
+| 2 | Einstieg, 2–3 Sätze mit Zahlen | Absätze vor der ersten `<h2>` |
+| 3 | Prüfvermerk: Stand · „Datenblattvergleich, kein Test“ · Zahl der Quellen | `<p><em>Hinweis: … (Stand: …)</em></p>` und die Liste unter „Quellen“ |
+| 4 | Kurz gesagt: 3–4 Sätze | `<h2>Kurz gesagt</h2>` |
+| 5 | **Auswahlhilfe** (Hauptteil): Fragen mit „egal“, darunter die passenden Modelle mit Bild, Eckdaten, „Passt für“, Kaufzeile; aufklappbar Beschreibung, „Spricht dafür“, „Worauf achten“ | Fragen in `produkt-ratgeber.ts`, Produkte aus `<slug>.produkte.json`, Bild und Preis aus den Partner-Feeds über die EAN |
+| 6 | Kurzer Erklärteil: nur, was die Auswahl nicht schon sagt | übrige `<h2>`-Abschnitte |
+| 7 | Technische Daten im Vergleich | `technische_daten` |
+| 8 | Wenn etwas kaputt geht | `src/lib/ersatzteil-verweise.ts` |
+| 9 | Häufige Fragen, aufklappbar, mit Quelle je Antwort, dazu `FAQPage`-Daten | `<h2>Häufige Fragen</h2>`, je Frage eine `<h3>` |
+| 10 | Quellen, Affiliate-Hinweis | `<h2>Quellen</h2>` |
 
-Raus: Box „Auf einen Blick“, Abzeichen, Plus/Minus-Karten, „Kategorie:“, „Passende Rechner“ (nur noch, wenn der Beitrag den Rechner wirklich braucht).
+Nicht mehr auf der Seite: „Welches Modell für wen?“, „Die Modelle im Einzelnen“ und jede andere Liste, die Modelle der Reihe nach empfiehlt. Was zu einem Modell wichtig ist (Verwechslungsgefahr mit einer ähnlichen Nummer, fehlende Angaben), steht in dessen `nachteile` und erscheint unter „Worauf achten“. Keine Abzeichen, keine Kaufknöpfe, kein Absatz „Probleme und Ersatzteile“ im Text (dafür gibt es Baustein 8).
 
-Umgesetzt ohne Datenbank-Änderung: Die Vorlage zerlegt das Artikel-HTML (`src/lib/artikel-aufbau.ts`). Den Prüfvermerk liefern „(Stand: …)“ aus dem Hinweis „nicht selbst getestet“ und die Zahl der Einträge unter „Quellen“, den Methodenkasten liefert derselbe Hinweis. Neue Beiträge brauchen deshalb genau diese Bausteine im HTML. Je Produkt erscheinen `einsatzbereich` als „Passt für“, `vorteile` als „Spricht dafür“ und `nachteile` als „Worauf achten“. `ist_testsieger` und `ist_preistipp` zeigt die Vorlage nicht mehr an, sie fliegen beim Umstellen der Beiträge aus den Produktdateien.
+### Auswahlhilfe
 
-`/vergleich/armaturen` bleibt unter der URL (177 Impressionen), heißt aber „Armaturen-Datenblätter nebeneinander“ und bekommt denselben Prüfvermerk und Methodenkasten.
+- Jede Frage hat „egal“ als erste Option und ist vorausgewählt. Ohne Auswahl stehen alle Modelle da.
+- Eine Option prüft ein Feld aus `technische_daten` und sagt je Modell: passt, passt nicht, oder keine Angabe. Modelle ohne Angabe stehen getrennt („Dazu nennt der Hersteller nichts“), statt als passend zu gelten.
+- Fällt eine Wahl aus dem Beitrag heraus (Untertischspeicher → Niederdruck, Brause → eigener Ratgeber), verweist `sonst` auf den passenden Ratgeber, statt eine leere Liste zu zeigen.
+- Unter einer Frage höchstens ein Satz, der erklärt, woran man die Antwort erkennt.
+- Bild nur, wenn ein Partnershop eins liefert, sonst ein leeres Feld „kein Bild“. Bilder laufen über `TeilBild` (Next.js-Bildoptimierung, keine IP an Shops).
+- Kaufzeile: bis zu drei Partnershops mit Preis, dann Amazon nur mit ASIN, alles als Textlink mit Sternchen.
+
+### Neuen Produkt-Ratgeber anlegen
+
+1. Beitrag wie bisher in `data/artikel/` anlegen (`<slug>.html`, `.produkte.json`, `.meta.json`, Slug in `index.json`). HTML-Aufbau: Einstieg, Hinweis mit Stand, „Kurz gesagt“, Erklärabschnitte, „Häufige Fragen“ (je `<h3>` eine Frage, Antwort mit „Quelle: <a>…</a>“), „Quellen“.
+2. Jedes Produkt mit `ean` oder `amazon_asin` und `technische_daten` (Schlüssel siehe `src/lib/armatur-daten.ts`), `einsatzbereich` konkret, `nachteile` mit allem, worauf man beim Kauf achten muss.
+3. In `src/lib/produkt-ratgeber.ts` einen Eintrag ergänzen: `pfad`, `slug`, `silo`, `name`, `mehrzahl`, die Fragen und die Eckdaten der Ergebniszeile. Fragen nur zu Merkmalen, nach denen Leser wirklich unterscheiden (Warmwasser, Becken, Montage), nicht zu jedem Datenfeld.
+4. Prüfregel laufen lassen: `python3 -I scripts/pruefe-inhalte.py --streng`.
+
+Umstellen der übrigen Bad-Kaufberatungen (Brause, Niederdruck, Badewanne, Drückerplatte, Vorwandelement): je Beitrag Schritt 3 und den Text nach der Tabelle oben kürzen. Bis dahin laufen sie in der alten Vorlage `src/app/[silo]/[slug]/page.tsx` mit `ModellFinder`; der fällt weg, wenn der letzte umgestellt ist.
+
+`/vergleich/armaturen` bleibt unter der URL (177 Impressionen), heißt aber „Armaturen-Datenblätter nebeneinander“.
 
 ## 4. Seitentyp Marke (`/ersatzteile/<marke>`)
 

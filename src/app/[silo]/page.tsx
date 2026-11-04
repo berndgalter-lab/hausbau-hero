@@ -1,3 +1,4 @@
+import { artikelUrl } from "@/lib/produkt-ratgeber";
 import { supabase } from "@/lib/supabase";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -138,7 +139,7 @@ export default async function SiloPage({ params }: { params: { silo: string } })
             {seiten.map((s: any) => (
               <a
                 key={s.slug}
-                href={`/${params.silo}/${s.slug}`}
+                href={artikelUrl(params.silo, s.slug)}
                 className="block p-4 bg-white border border-stone-200 rounded-lg hover:border-amber-400 transition-all"
               >
                 <div className="font-medium">{s.titel}</div>

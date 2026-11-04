@@ -4,6 +4,7 @@
 // Statt „Das Wichtigste vorab“ gehen auch „Kurz gesagt“ und „Die wichtigsten … auf einen Blick“.
 // Fehlt ein Teil (alte Beiträge), bleibt er leer und alles Übrige steht im Rumpf.
 // Abschnitte „Unsere Empfehlungen“ alter Beiträge (Budget-Tipp, Amazon-Suchlinks) entfallen ganz.
+// Nur Produkt-Ratgeber (Option fragen): „Häufige Fragen“, je Frage eine <h3> mit Fragezeichen, darunter die Antwort bis zur nächsten <h3>.
 
 export interface ArtikelAufbau {
   /** Absätze vor der ersten Zwischenüberschrift, ohne den Methoden-Hinweis */
@@ -21,6 +22,18 @@ export interface ArtikelAufbau {
   /** Inhalt unter „Quellen“, ohne Überschrift */
   quellen: string | null;
   quellenAnzahl: number;
+  /** Fragen und Antworten aus „Häufige Fragen“, leer wenn der Abschnitt fehlt */
+  fragen: { frage: string; antwort: string }[];
+}
+
+function fragenAus(html: string | null): { frage: string; antwort: string }[] {
+  if (!html) return [];
+  return html
+    .split(/(?=<h3[\s>])/i)
+    .map((teil) => /^<h3[^>]*>([\s\S]*?)<\/h3>([\s\S]*)$/i.exec(teil.trim()))
+    .filter((m): m is RegExpExecArray => !!m)
+    .map((m) => ({ frage: m[1].replace(/<[^>]+>/g, "").trim(), antwort: m[2].trim() }))
+    .filter((f) => f.frage && f.antwort);
 }
 
 /** Schneidet den Abschnitt unter einer h2 mit diesem Titel heraus (bis zur nächsten h2). */
@@ -35,7 +48,7 @@ function abschnitt(html: string, titel: RegExp): { inhalt: string | null; titel:
   return { inhalt: html.slice(nach, ende).trim(), titel: m[1].trim(), rest: html.slice(0, start) + html.slice(ende) };
 }
 
-export function zerlegeArtikel(html: string): ArtikelAufbau {
+export function zerlegeArtikel(html: string, { fragen: mitFragen = false } = {}): ArtikelAufbau {
   let rest = html;
 
   let methode: string | null = null;
@@ -52,6 +65,8 @@ export function zerlegeArtikel(html: string): ArtikelAufbau {
   rest = wichtig.rest;
   const quellen = abschnitt(rest, /Quellen/);
   rest = quellen.rest;
+  const fragen = mitFragen ? abschnitt(rest, /Häufige Fragen/) : { inhalt: null, rest };
+  rest = fragen.rest;
   for (let i = 0; i < 3; i++) {
     const kauf = abschnitt(rest, /Unsere (?:Material-)?Empfehlungen?/);
     if (kauf.titel === null) break;
@@ -72,5 +87,6 @@ export function zerlegeArtikel(html: string): ArtikelAufbau {
     rumpf: rumpf.trim(),
     quellen: quellen.inhalt,
     quellenAnzahl: quellen.inhalt ? (quellen.inhalt.match(/<li[\s>]/gi) ?? []).length : 0,
+    fragen: fragenAus(fragen.inhalt),
   };
 }

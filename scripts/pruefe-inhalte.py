@@ -30,6 +30,15 @@ TITEL_VERBOTEN = [
 ABZEICHEN = ("ist_testsieger", "ist_preistipp")
 ABZEICHEN_TEXT = re.compile(r"Testsieger|Preis-Tipp|Unsere Empfehlung", re.I)
 
+# Produkt-Ratgeber unter /ratgeber/<produkt>: Slugs aus src/lib/produkt-ratgeber.ts
+PRODUKT_RATGEBER = set(
+    re.findall(r'\bslug:\s*"([^"]+)"', (DATA.parent / "src/lib/produkt-ratgeber.ts").read_text())
+)
+# Listen, die Modelle der Reihe nach empfehlen. Im Produkt-Ratgeber übernimmt das die Auswahlhilfe.
+LISTEN_ABSCHNITT = re.compile(
+    r"<h2[^>]*>\s*(Die besten|Welches Modell für wen|Die Modelle im Einzelnen|Unsere Favoriten)[^<]*</h2>", re.I
+)
+
 fehler: list[str] = []
 hinweise: list[str] = []
 
@@ -70,8 +79,23 @@ def pruefe_artikel() -> None:
         quellen = re.search(r"<h2[^>]*>\s*Quellen\s*</h2>(.*?)(?=<h2|\Z)", html, re.S | re.I)
         if not quellen or "<li" not in quellen.group(1):
             aufbau.append(f"{slug}.html: Abschnitt „Quellen“ mit Liste fehlt")
+        if slug in PRODUKT_RATGEBER:
+            pruefe_produkt_ratgeber(slug, html)
         if re.search(r"\bButtons?\b", html):
             fehler.append(f"{slug}.html: verweist auf „Buttons“, die es nicht mehr gibt")
+
+
+def pruefe_produkt_ratgeber(slug: str, html: str) -> None:
+    liste = LISTEN_ABSCHNITT.search(html)
+    if liste:
+        fehler.append(f"{slug}.html: Abschnitt {liste.group(0)!r}, im Produkt-Ratgeber macht das die Auswahlhilfe")
+    fragen = re.search(r"<h2[^>]*>\s*Häufige Fragen\s*</h2>(.*?)(?=<h2|\Z)", html, re.S | re.I)
+    if not fragen:
+        fehler.append(f"{slug}.html: Abschnitt „Häufige Fragen“ fehlt")
+        return
+    for frage in re.findall(r"<h3[^>]*>(.*?)</h3>", fragen.group(1), re.S):
+        if not frage.strip().endswith("?"):
+            fehler.append(f"{slug}.html: Frage ohne Fragezeichen: {frage.strip()!r}")
 
 
 def texte(eintrag: dict, felder: tuple[str, ...]):

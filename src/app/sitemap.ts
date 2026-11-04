@@ -1,5 +1,6 @@
 import { supabase } from "@/lib/supabase";
 import { serieIstDuenn } from "@/lib/ersatzteile";
+import { artikelUrl } from "@/lib/produkt-ratgeber";
 
 export default async function sitemap() {
   const baseUrl = "https://hausbau-hero.de";
@@ -72,7 +73,7 @@ export default async function sitemap() {
         const siloSlug = s.silos?.slug;
         if (siloSlug) {
           dynamicPages.push({
-            url: `${baseUrl}/${siloSlug}/${s.slug}`,
+            url: `${baseUrl}${artikelUrl(siloSlug, s.slug)}`,
             lastModified: new Date(s.updated_at),
             changeFrequency: "monthly",
             priority: 0.6,

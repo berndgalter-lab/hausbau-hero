@@ -30,11 +30,13 @@ const VERWEISE: Record<string, Verweis[]> = {
     { href: "/problem/geberit-spuelkasten-fuellt-nicht", titel: "Spülkasten füllt nicht oder nur langsam", art: "problem" },
   ],
   "waschtischarmatur-ratgeber": [
-    { href: "/ersatzteile/grohe", titel: "Grohe Ersatzteile: Kartuschen, Strahlregler, Schläuche", art: "marke" },
-    { href: "/ersatzteile/grohe/eurosmart-waschtisch", titel: "Ersatzteile für Grohe Eurosmart Waschtischarmatur", art: "serie" },
-    { href: "/problem/grohe-armatur-tropft", titel: "Armatur tropft: Ursachen und passende Kartusche", art: "problem" },
+    { href: "/problem/grohe-armatur-tropft", titel: "GROHE-Armatur tropft: Ursachen und passende Kartusche", art: "problem" },
+    { href: "/problem/hansgrohe-armatur-tropft", titel: "hansgrohe-Armatur tropft: Kartusche finden und tauschen", art: "problem" },
     { href: "/problem/grohe-strahlregler-verkalkt", titel: "Wasserstrahl spritzt: Strahlregler verkalkt", art: "problem" },
-    { href: "/ersatzteile/hansgrohe", titel: "hansgrohe Ersatzteile: Kartuschen M1, M3/M2", art: "marke" },
+    { href: "/ersatzteile/grohe/eurosmart-waschtisch", titel: "Ersatzteile für GROHE Eurosmart", art: "serie" },
+    { href: "/ersatzteile/grohe/essence-waschtisch", titel: "Ersatzteile für GROHE Essence", art: "serie" },
+    { href: "/ersatzteile/hansgrohe/logis-waschtisch", titel: "Ersatzteile für hansgrohe Logis", art: "serie" },
+    { href: "/ersatzteile/hansgrohe/talis-e-waschtisch", titel: "Ersatzteile für hansgrohe Talis E", art: "serie" },
   ],
   "waschtischarmatur-mit-brause": [
     { href: "/ersatzteile/grohe/europlus-waschtisch", titel: "Ersatzteile für Grohe Europlus Waschtischarmatur", art: "serie" },

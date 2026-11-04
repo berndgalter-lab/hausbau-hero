@@ -1,3 +1,4 @@
+import { artikelUrl } from "@/lib/produkt-ratgeber";
 import { supabase } from "@/lib/supabase";
 import type { Metadata } from "next";
 import { alleMarken, alleProbleme } from "@/lib/ersatzteile";
@@ -117,7 +118,7 @@ export default async function Home() {
           <h2 className="text-2xl font-bold mb-4">Bad-Ratgeber</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {badArtikel.map((a: any) => (
-              <a key={a.slug} href={`/bad/${a.slug}`} className="block p-4 bg-white border border-stone-200 rounded-lg hover:border-amber-400">
+              <a key={a.slug} href={artikelUrl("bad", a.slug)} className="block p-4 bg-white border border-stone-200 rounded-lg hover:border-amber-400">
                 <div className="font-medium">{a.titel}</div>
                 {a.seo_description && <div className="text-sm text-stone-600 mt-1 line-clamp-2">{a.seo_description}</div>}
               </a>
