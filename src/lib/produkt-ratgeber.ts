@@ -645,6 +645,11 @@ export const PRODUKT_RATGEBER: ProduktRatgeber[] = [
   KLEINHEBEANLAGE,
 ];
 
+/** Sprungmarke eines Modells in der Auswahlhilfe, Ziel der Produktkacheln. */
+export function modellAnker(id: string): string {
+  return `modell-${id}`;
+}
+
 export function ratgeberNachPfad(pfad: string): ProduktRatgeber | null {
   return PRODUKT_RATGEBER.find((r) => r.pfad === pfad) ?? null;
 }
