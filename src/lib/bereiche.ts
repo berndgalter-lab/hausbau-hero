@@ -58,7 +58,7 @@ export const BEREICHE: Bereich[] = [
     produkttypen: ["thermostat", "duscharmatur", "wannenarmatur"],
     teiltypen: ["thermostatkartusche", "kartusche", "schlauch", "dichtung"],
     probleme: /thermostat/,
-    ratgeber: ["badewannenarmatur-ratgeber", "komplettdusche-ratgeber"],
+    ratgeber: ["badewannenarmatur-ratgeber", "badewannenarmatur-unterputz", "duschthermostat", "komplettdusche-ratgeber"],
     neukauf: {
       ratgeber: "badewannenarmatur-ratgeber",
       titel: "Lieber eine neue Armatur?",

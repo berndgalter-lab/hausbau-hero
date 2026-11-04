@@ -8,9 +8,11 @@ import TeilBild from "@/components/TeilBild";
 // Technische Daten aller Produkte einer Kaufberatung nebeneinander, aus produkte.technische_daten.
 // Erscheint nur, wenn mindestens zwei Produkte Daten haben. Fehlende Angaben stehen als „k. A.“ da:
 // lieber eine Lücke als eine geschätzte Zahl.
-export default function VergleichsTabelle({ produkte, angebote }: {
+// Im Produkt-Ratgeber eingeklappt und ohne Kaufzeile: Gekauft wird dort in der Auswahlhilfe.
+export default function VergleichsTabelle({ produkte, angebote, eingeklappt = false }: {
   produkte: Produkt[];
   angebote: Record<string, EanAngebot[]>;
+  eingeklappt?: boolean;
 }) {
   const mitDaten = produkte.filter((p) => produktDaten(p.technische_daten));
   if (mitDaten.length < 2) return null;
@@ -19,9 +21,8 @@ export default function VergleichsTabelle({ produkte, angebote }: {
   const merkmale = merkmaleFuer(daten);
   const bilder = mitDaten.map((p) => bildAusAngeboten(angebote[p.id] ?? []));
 
-  return (
-    <section className="mt-10 mb-8">
-      <h2 className="text-2xl font-bold mb-1">Technische Daten im Vergleich</h2>
+  const tabelle = (
+    <>
       <p className="text-sm text-stone-500 mb-4">
         Herstellerangaben. „k. A.“ heißt: keine verlässliche Angabe gefunden.
         {sindArmaturen && (
@@ -60,7 +61,7 @@ export default function VergleichsTabelle({ produkte, angebote }: {
                 ))}
               </tr>
             ))}
-            <tr>
+            {!eingeklappt && <tr>
               <th scope="row" className="sticky left-0 bg-white p-3 text-left text-stone-500 font-medium">Kaufen</th>
               {mitDaten.map((p) => {
                 const link = produktLink(p);
@@ -82,10 +83,28 @@ export default function VergleichsTabelle({ produkte, angebote }: {
                   </td>
                 );
               })}
-            </tr>
+            </tr>}
           </tbody>
         </table>
       </div>
+    </>
+  );
+
+  if (eingeklappt) {
+    return (
+      <details className="group mt-12 border border-stone-200 rounded-xl bg-white">
+        <summary className="flex items-center justify-between gap-3 cursor-pointer list-none px-5 py-4">
+          <h2 className="text-lg font-bold text-stone-900">Alle Datenblattwerte nebeneinander</h2>
+          <span className="text-stone-400 group-open:rotate-180 transition-transform">▾</span>
+        </summary>
+        <div className="px-5 pb-5">{tabelle}</div>
+      </details>
+    );
+  }
+  return (
+    <section className="mt-10 mb-8">
+      <h2 className="text-2xl font-bold mb-1">Technische Daten im Vergleich</h2>
+      {tabelle}
     </section>
   );
 }

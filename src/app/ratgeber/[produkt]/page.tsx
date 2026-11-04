@@ -8,7 +8,7 @@ import Auswahlhilfe, { type AuswahlModell, type KaufLink } from "@/components/Au
 import { AffiliateHinweis, HaeufigeFragen, KurzeAntwort, Pruefvermerk, Quellen } from "@/components/Ratgeber";
 import { angeboteFuerEans, bildAusAngeboten, normEan, type EanAngebot } from "@/lib/kaufberatung";
 import { mitTrackingId } from "@/lib/affiliate";
-import { armaturDaten } from "@/lib/armatur-daten";
+import { produktDaten as datenAus, type RatgeberDaten } from "@/lib/armatur-daten";
 import { zerlegeArtikel } from "@/lib/artikel-aufbau";
 import { ersatzteilVerweise } from "@/lib/ersatzteil-verweise";
 import { formatEuro, formatStand, zeigePreis } from "@/lib/ersatzteile";
@@ -97,7 +97,7 @@ export default async function ProduktRatgeberSeite({ params }: { params: { produ
     .reduce<string | null>((m, a) => (!m || a.stand < m ? a.stand : m), null);
 
   const modelle: AuswahlModell[] = produkte
-    .map((p) => ({ p, daten: armaturDaten(p.technische_daten) }))
+    .map((p) => ({ p, daten: datenAus(p.technische_daten) as RatgeberDaten | null }))
     .filter((x) => x.daten)
     .map(({ p, daten }) => ({
       id: p.id,
@@ -159,7 +159,7 @@ export default async function ProduktRatgeberSeite({ params }: { params: { produ
 
       {aufbau.rumpf && <ArticleContent html={aufbau.rumpf} />}
 
-      <VergleichsTabelle produkte={produkte} angebote={angebote} />
+      <VergleichsTabelle produkte={produkte} angebote={angebote} eingeklappt />
 
       {verweise.length > 0 && (
         <section className="mt-12 p-6 bg-white border border-stone-200 rounded-xl">

@@ -23,7 +23,7 @@ const nextConfig = {
       { source: '/category/ersatzteile/:path*', destination: '/ersatzteile', permanent: true },
       { source: '/category/:path*', destination: '/', permanent: true },
 
-      { source: '/farben/badewannenarmatur-unterputz', destination: '/ratgeber/badewannenarmatur', permanent: true },
+      { source: '/farben/badewannenarmatur-unterputz', destination: '/ratgeber/badewannenarmatur-unterputz', permanent: true },
     ];
   },
 };

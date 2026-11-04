@@ -42,6 +42,7 @@ Das sind dünne Seiten, und davon viele. Genau das wertet Google seit den Update
 7. **Leser-Sprache in allen sichtbaren Feldern.** Was offen oder ungeprüft ist, gehört in `nicht_geprueft` oder ein neues Feld `intern`, nicht in Beschreibungen.
 8. **Affiliate-Hinweis einmal, am Ende**, plus Sternchen an den Shop-Links.
 9. **Unser eigener Vorteil gehört nach oben:** Kompatibilität, Nummern-Verwechslungen, Widersprüche zwischen Händlern. Das hat keine Testseite und kein Shop.
+10. **Keine Seiten je Farbe, Oberfläche oder „die besten X“.** „Waschtischarmatur schwarz“, „weiße Badewannenarmatur“ oder „die 7 besten …“ sind das alte Affiliate-Muster. Farbe und Oberfläche sind eine Frage in der Auswahlhilfe des Ratgebers, was zur Beschichtung wichtig ist, steht als Hinweis unter dieser Frage oder im Erklärteil. Alte Farbseiten leiten auf den Ratgeber weiter. Einen eigenen Ratgeber bekommt nur, was anders funktioniert oder anders eingebaut wird (Niederdruck, Unterputz, Thermostat).
 
 ### Was nach Affiliate-Seite aussieht, gibt es nicht mehr
 
@@ -81,11 +82,11 @@ Im Code durchgesetzt, gilt für alle Seiten (alte Beiträge eingeschlossen):
 
 ## 3. Seitentyp Produkt-Ratgeber (`/ratgeber/<produkt>`)
 
-Vorbild ist womo-teile (`/ratgeber/dieselheizung`): Die Seite beantwortet „Welche passt zu mir?“ mit einer Auswahlhilfe, nicht mit einer Liste „Die besten …“. Im neuen Aufbau: `/ratgeber/waschtischarmatur`, `/ratgeber/niederdruckarmatur`, `/ratgeber/waschtischarmatur-mit-brause`, `/ratgeber/badewannenarmatur`.
+Vorbild ist womo-teile (`/ratgeber/dieselheizung`): Die Seite beantwortet „Welche passt zu mir?“ mit einer Auswahlhilfe, nicht mit einer Liste „Die besten …“. Im neuen Aufbau: `/ratgeber/waschtischarmatur`, `/ratgeber/niederdruckarmatur`, `/ratgeber/waschtischarmatur-mit-brause`, `/ratgeber/badewannenarmatur`, `/ratgeber/badewannenarmatur-unterputz`, `/ratgeber/duschthermostat`.
 
 ### URL-Schema
 
-- **`/ratgeber/<produkt>`**, Produkt in der Einzahl, ohne Kategorie, ohne „-ratgeber“, ohne Jahreszahl: `/ratgeber/waschtischarmatur`, `/ratgeber/niederdruckarmatur`, `/ratgeber/waschtischarmatur-mit-brause` (eigene Produktart, weil Leser gezielt danach suchen), `/ratgeber/badewannenarmatur`, später `/ratgeber/drueckerplatte`.
+- **`/ratgeber/<produkt>`**, Produkt in der Einzahl, ohne Kategorie, ohne „-ratgeber“, ohne Jahreszahl: `/ratgeber/waschtischarmatur`, `/ratgeber/niederdruckarmatur`, `/ratgeber/waschtischarmatur-mit-brause` (eigene Produktart, weil Leser gezielt danach suchen), `/ratgeber/badewannenarmatur`, `/ratgeber/vorwandelement`, `/ratgeber/drueckerplatte` (Geberit), `/ratgeber/kleinhebeanlage`.
 - Die alte URL `/<silo>/<slug>` leitet dauerhaft weiter (308, von Google wie 301 behandelt). Die Weiterleitung, die Sitemap, das Canonical und alle internen Links (`artikelUrl()`) ergeben sich aus dem Eintrag in `src/lib/produkt-ratgeber.ts`. Nichts davon wird von Hand gepflegt.
 - Der Slug in `data/artikel` bleibt der alte (`waschtischarmatur-ratgeber`), damit der stündliche Import dieselbe Zeile in `seiten` trifft. Keine Datenbank-Änderung nötig.
 - Reine Wissensbeiträge ohne Produktauswahl (Estrich, Wandfarbe …) bleiben unter `/<silo>/<slug>`.
@@ -124,7 +125,20 @@ Nicht mehr auf der Seite: „Welches Modell für wen?“, „Die Modelle im Einz
 3. In `src/lib/produkt-ratgeber.ts` einen Eintrag ergänzen: `pfad`, `slug`, `silo`, `name`, `mehrzahl`, die Fragen und die Eckdaten der Ergebniszeile. Fragen nur zu Merkmalen, nach denen Leser wirklich unterscheiden (Warmwasser, Becken, Montage), nicht zu jedem Datenfeld.
 4. Prüfregel laufen lassen: `python3 -I scripts/pruefe-inhalte.py --streng`.
 
-Umstellen der übrigen Bad-Kaufberatungen (Drückerplatte, Vorwandelement): je Beitrag Schritt 3 und den Text nach der Tabelle oben kürzen. Bis dahin laufen sie in der alten Vorlage `src/app/[silo]/[slug]/page.tsx` mit `ModellFinder`; der fällt weg, wenn der letzte umgestellt ist.
+Alle Bad-Beiträge mit Modellen sind umgestellt (4. November 2026), `ModellFinder` gibt es nicht mehr. Die Auswahlhilfe nimmt auch WC-Produkte (`RatgeberDaten` in `src/lib/armatur-daten.ts`): Für sächliche Wörter gibt es `mehrzahlDativ` und `keine` („3 von 6 Elementen“, „Keines der 6 Elemente“).
+
+Die technischen Daten stehen eingeklappt als „Alle Datenblattwerte nebeneinander“ unter dem Erklärteil, ohne Kaufzeile: Gekauft wird nur in der Auswahlhilfe. Die Werte bleiben im HTML, für Suchmaschinen und KI-Antworten.
+
+### Seitentyp Wissensbeitrag (`/<silo>/<slug>`)
+
+Beiträge ohne Produktauswahl (Vorwandelement-Höhe, TECE oder Geberit, Hebeanlage-Kosten, Komplettdusche) laufen in `src/app/[silo]/[slug]/page.tsx`: Frage, Einstieg, Prüfvermerk, „Kurz gesagt“, Erklärteil, „Wenn etwas kaputt geht“, häufige Fragen (aufklappbar, mit `FAQPage`-Daten), Quellen. Keine Produktkarten, keine Tabelle mit Kaufzeile; `<slug>.produkte.json` ist `[]`. Wo eine Kaufauswahl hilft, verlinkt der Text auf den Produkt-Ratgeber.
+
+### Überschriften
+
+- Jede `<h2>` benennt, was darunter steht, in Lesersprache. Gern als Frage, die Leser wirklich stellen („Passt das WC auf das Element?“). Keine Keyword-Ketten, keine Doppelpunkt-Zweiteiler zum Anpreisen, keine Jahreszahl.
+- Was nur eine Teilfrage beantwortet („TECE oder Geberit?“, „Was kostet der Einbau?“, „Sigma oder Omega?“), ist eine häufige Frage mit Quelle, kein eigener Abschnitt.
+- `<h3>` nur in „Häufige Fragen“ oder wenn ein Abschnitt wirklich Unterpunkte hat. Im Erklärteil lieber Absätze.
+- Keine Listen „Fettes Wort: Erklärung“; das gehört in Sätze.
 
 `/vergleich/armaturen` bleibt unter der URL (177 Impressionen), heißt aber „Armaturen-Datenblätter nebeneinander“.
 
