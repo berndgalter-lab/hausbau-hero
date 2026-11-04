@@ -1,0 +1,404 @@
+{
+  "thema": "WC-Sitz-Befestigung: welche passt? (von oben/unten, Lochabstand, Quick-Release, Absenkautomatik, Scharnier-Nummern V&B/Duravit/Laufen)",
+  "stand": "2026-11-04",
+  "fragen": [
+    {
+      "frage": "Welchen Lochabstand haben WC-Sitze, ist das genormt?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/sind-die-wc-deckel-genormt",
+        "https://www.gutefrage.net/frage/ist-der-befestigungslochabstand-bei-stand-wc-schuesseln-genormt",
+        "https://www.haustechnikdialog.de/Forum/t/43233/WC-Sitze-genormt-",
+        "https://www.gutefrage.net/frage/wc-sitz-wechseln-was-muss-ich-beim-kauf-beachten"
+      ],
+      "antwort_belegt": "Der häufigste Abstand der beiden Befestigungslöcher (Mitte zu Mitte) liegt bei 155 mm: so bei Laufen Pro, Pressalit Objecta und mehreren Villeroy-&-Boch-Sitzen (Subway Compact, O.novo 9M38, Omnia architectura). Ein Herstellerdatenblatt geht von 155 mm ± 3 mm und Löchern mit Ø 15 mm aus und empfiehlt bei abweichendem Lochabstand ein Exzenterscharnier. Neuere V&B-Sitze wie Subway 2.0, Subway 3.0 und Architectura 9M83 sind für 180 mm ausgelegt, der O.novo-Sitz 8823 61 für 150 mm. Einen Beleg für 160 mm als gängiges Maß haben wir nicht gefunden.",
+      "quellen": [
+        "https://www.cac.laufen.com/laufen-services/productSheet30/CAC/en/H8969513000001/",
+        "https://pressalit.com/de-de/wc-sitze/wc-sitze/pressalit-objecta-projecta-projecta-plus-54/p-54011-ba1999/",
+        "https://img.nordwest.com/15852_0e996745866531fc9a8f60f6b08880fc_de.pdf",
+        "https://media.hornbach.at/hb/datasheet/as.46293245.pdf",
+        "https://media.hornbach.de/hb/datasheet/as.46299055.pdf",
+        "https://img.nordwest.com/12605_6dae9c7a9d4fac4c3e4be43ab8bafb27_de.pdf",
+        "https://documents.unidomo.de/de/vbdbde_9m68s1_9m68q1_subway_2_0.pdf",
+        "https://www.meinhausshop.de/media/pdf/93_191_57--DBL-01-de.pdf",
+        "https://media.hornbach.de/hb/datasheet/as.46830822.pdf",
+        "https://img.nordwest.com/15852_a97d95b00608bef731fb175dbac70da2_de.pdf"
+      ]
+    },
+    {
+      "frage": "Was muss ich messen, damit der neue WC-Sitz passt?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wie-vermesse-ich-eine-toilettenbrille-das-ich-weiss-die-ist-genau-richtig",
+        "https://www.gutefrage.net/frage/wc-sitz-wechseln-was-muss-ich-beim-kauf-beachten",
+        "https://www.haustechnikdialog.de/Forum/t/214711/Laufen-WC-Sitz-passt-nicht-richtig-auf-Laufen-Wand-WC"
+      ],
+      "antwort_belegt": "Duravit nennt vier Faktoren, von denen die Passform abhängt: Form des Sitzes, Länge und Breite der Brille sowie den Abstand der Bohrlöcher für die Befestigung. Laufen gibt im Datenblatt zusätzlich den Abstand von der Lochmitte bis zur Vorderkante der Keramik an (bei Laufen Pro 430 mm). Am sichersten ist der Abgleich über die Artikelnummer der Keramik: Hersteller listen im Datenblatt, zu welchen WCs ein Sitz passt.",
+      "quellen": [
+        "https://www.duravit.com/de-de/service/wc-sitz-finder/",
+        "https://www.cac.laufen.com/laufen-services/productSheet30/CAC/en/H8969513000001/",
+        "https://www.unicor.rs/pdf/TF01_896950_GLOBAL_en_20200307.pdf"
+      ]
+    },
+    {
+      "frage": "Was ist der Unterschied zwischen Befestigung von oben und von unten?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wand-wc---deckelwechsel---keine-unteren-loecher-fuer-schrauben",
+        "https://www.gutefrage.net/frage/wie-eine-klobrille-mit-versteckter-befestigung-austauschen",
+        "https://www.gutefrage.net/frage/wc-sitz-wackelt-befestigung-von-oben-mutter-nicht-erreichbar"
+      ],
+      "antwort_belegt": "Bei der Befestigung von unten wird der Sitz mit Schraube und Mutter durch die Keramik verschraubt, dafür muss die Unterseite erreichbar sein (z. B. Pressalit Objecta: Montage von unten). Bei der Befestigung von oben sitzt ein Spreiz- oder Kippanker im Loch, der beim Anziehen von oben klemmt; das braucht man bei Wand-WCs mit Blindlöchern oder nicht erreichbarer Unterseite. Laufen nennt das bei Pro-Sitzen „hollow space fixation“, Villeroy & Boch spricht beim Subway Compact von einem „von oben montierbarem Universal-Kipp-Stripp-Anker-Scharnier“.",
+      "quellen": [
+        "https://pressalit.com/de-de/wc-sitze/wc-sitze/pressalit-objecta-projecta-projecta-plus-54/p-54011-ba1999/",
+        "https://www.laufen.com/products/wc-seat-cover-removable-lowering-system-stainless-steel-hinges-H896951...0001",
+        "https://www.unicor.rs/pdf/TF01_896950_GLOBAL_en_20200307.pdf",
+        "https://img.nordwest.com/15852_0e996745866531fc9a8f60f6b08880fc_de.pdf",
+        "https://img.nordwest.com/15852_2ec6303bfb6de15d053ecfda19957790_de.pdf"
+      ]
+    },
+    {
+      "frage": "Mein WC-Sitz wackelt bzw. hat sich gelöst. Wie bekomme ich ihn wieder fest?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/toilettendeckel-wackelt",
+        "https://www.gutefrage.net/frage/wc-sitz-wackelt-befestigung-von-oben-mutter-nicht-erreichbar",
+        "https://www.gutefrage.net/frage/wc-sitz-mit-absenkautomatik-locker",
+        "https://www.gutefrage.net/frage/wc-deckel-befestigen-ohne-das-er-rutscht"
+      ],
+      "antwort_belegt": null,
+      "quellen": []
+    },
+    {
+      "frage": "Welches Scharnier gehört zu meinem Villeroy-&-Boch-Sitz (z. B. Subway 9M55S1)?",
+      "fundstellen": [
+        "https://www.ebay.de/itm/227044454633",
+        "https://www.amazon.de/dp/B01IR8Q7JY"
+      ],
+      "antwort_belegt": "Laut V&B-Datenblatt gehört zum Subway-Sitz 9M55S1 (Soft Closing und Quick Release) und 9M55Q1 (nur Quick Release) das Universal-Kipp-Stripp-Anker-Scharnier 9220 55 61, das für Lochabstände von 138 bis 218 mm ausgelegt ist. Die Endung 61 steht für die Scharnieroberfläche Edelstahl. Die Modellnummer steht im Datenblatt des Sitzes, zu jeder Serie gibt V&B dort die Scharnier- und Ersatzteilnummern an (Tabelle unter fakten).",
+      "quellen": [
+        "https://img.nordwest.com/15852_95e668d988f51bdbfc14b66db1abd924_de.pdf"
+      ]
+    },
+    {
+      "frage": "Passt das Scharnier vom alten Subway auf Subway 2.0 oder umgekehrt?",
+      "fundstellen": [
+        "https://www.amazon.de/dp/B01IR8Q7JY"
+      ],
+      "antwort_belegt": "Nicht automatisch: Subway 2.0 (9M68S1/9M68Q1) nutzt das Festscharnier 9222 24 61 bei 180 mm Lochabstand, Subway 2.0 Slim (9M78S1) das Scharnier 9224 74 61, der ältere Subway 9M55S1 das Universal-Kipp-Stripp-Anker-Scharnier 9220 55 61 (138–218 mm). Maßgeblich sind Sitzmodell und Lochabstand der Keramik.",
+      "quellen": [
+        "https://documents.unidomo.de/de/vbdbde_9m68s1_9m68q1_subway_2_0.pdf",
+        "https://media.hornbach.ch/hb/datasheet/as.46293779.pdf",
+        "https://img.nordwest.com/15852_95e668d988f51bdbfc14b66db1abd924_de.pdf"
+      ]
+    },
+    {
+      "frage": "Die Absenkautomatik (SoftClose) funktioniert nicht mehr. Muss ich den ganzen Sitz tauschen?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wc-sitz-mit-absenkautomatik-reparieren--ersatzteil-moeglich",
+        "https://www.gutefrage.net/frage/kann-man-die-absenkautomatik-einer-klobrille-nachstellen-und-wenn-wie",
+        "https://www.gutefrage.net/frage/wc-absenkautomatik-stottert-beim-senken-was-kann-ich-tun",
+        "https://www.gutefrage.net/frage/wc-soft-close--duravit"
+      ],
+      "antwort_belegt": "Bei vielen Markensitzen gibt es die Dämpfer als Ersatzteil. Villeroy & Boch führt im Datenblatt ein eigenes Soft-Closing-Paket, etwa 9222 91 00 für Subway 9M55S1 und Subway 2.0, 9224 77 00 für Subway 2.0 Slim, 9209 48 00 für Subway 3.0 und das Soft-Close-Dämpferset 9221 64 00 für O.novo 9M38S1. Für Duravit Starck 3 listet ein Händler die Ersatz-Softcloseautomatik 1004270000. Die Teilenummer steht im Datenblatt deines Sitzmodells.",
+      "quellen": [
+        "https://img.nordwest.com/15852_95e668d988f51bdbfc14b66db1abd924_de.pdf",
+        "https://documents.unidomo.de/de/vbdbde_9m68s1_9m68q1_subway_2_0.pdf",
+        "https://media.hornbach.ch/hb/datasheet/as.46293779.pdf",
+        "https://www.meinhausshop.de/media/pdf/93_191_57--DBL-01-de.pdf",
+        "https://media.hornbach.at/hb/datasheet/as.46293245.pdf",
+        "https://www.megabad.com/duravit-ersatzteile-softcloseautomatik-starck-3-wc-a-384442.htm"
+      ]
+    },
+    {
+      "frage": "Wie nehme ich einen abnehmbaren Sitz (Quick Release) ab?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/toilettenbrille-geht-nicht-ab",
+        "https://www.gutefrage.net/frage/wie-kriege-ich-den-toilettensitz-ab",
+        "https://www.gutefrage.net/frage/wc-sitz-defekt"
+      ],
+      "antwort_belegt": null,
+      "quellen": []
+    },
+    {
+      "frage": "Welche Scharniere gibt es als Ersatzteil für Duravit Starck 3, DuraStyle und ME by Starck?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wc-soft-close--duravit"
+      ],
+      "antwort_belegt": "Ein Fachhändler listet für Starck 3 mit Absenkautomatik (0063890000) und Starck 2/Happy D. (0066990000) den Scharniersatz 0061381000, die Absenkautomatik ist dort nicht enthalten. Für Architec und Starck 3 ohne SoftClose gibt es das Scharnierpaar 0061121000, für DuraStyle 0060590000 den Scharniersatz 0061761000. Duravit selbst zeigt Explosionszeichnungen mit Teilenummern erst nach kostenloser Registrierung und braucht dafür die Artikel- oder Seriennummer des Produkts.",
+      "quellen": [
+        "https://www.megabad.com/hersteller-duravit-ersatzteile-ersatzscharniersatz-wc-sitz-a-105064.htm",
+        "https://www.megabad.com/hersteller-duravit-ersatzteile-starck-3-ersatzscharnierpaar-a-109303.htm",
+        "https://www.megabad.com/hersteller-duravit-ersatzteile-scharniersatz-durastyle-wc-a-481917.htm",
+        "https://www.duravit.com/de-de/service/ersatzteilsuche/"
+      ]
+    },
+    {
+      "frage": "Welcher Sitz und welches Scharnier passt auf Laufen Pro?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/214711/Laufen-WC-Sitz-passt-nicht-richtig-auf-Laufen-Wand-WC"
+      ],
+      "antwort_belegt": "Laufen gibt für den Pro-Sitz H8969513000001 (abnehmbar, Absenkautomatik, Edelstahlscharniere) 155 mm Lochabstand und 430 mm von Lochmitte bis Vorderkante an und listet die passenden Pro-Keramiken im Datenblatt. Die Pro-Sitze 89695.0 und 89896.6 werden mit Hohlraumbefestigung (von oben) geliefert, das Montagezubehör liegt bei.",
+      "quellen": [
+        "https://www.cac.laufen.com/laufen-services/productSheet30/CAC/en/H8969513000001/",
+        "https://www.unicor.rs/pdf/TF01_896950_GLOBAL_en_20200307.pdf",
+        "https://www.meinhausshop.de/media/pdf/93_155_91--DBL-01-de.pdf"
+      ]
+    },
+    {
+      "frage": "Was taugen universelle Befestigungssets aus dem Baumarkt oder Onlinehandel?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/befestigenaustauschen-der-klobrille",
+        "https://www.ebay.de/itm/204785445055"
+      ],
+      "antwort_belegt": null,
+      "quellen": []
+    },
+    {
+      "frage": "Wo finde ich die Artikelnummer meines WC-Sitzes, um das passende Scharnier zu bestimmen?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/hilfe--wer-weiss-wie-man-wc-sitz-keramag-renova-nr-1-abbaut"
+      ],
+      "antwort_belegt": "Pressalit verweist für die Montage auf die Anleitungen (Videos und PDF) beim jeweiligen Produkt im Katalog. Duravit nennt für die Ersatzteilsuche die Artikel- oder Seriennummer des Produkts als Voraussetzung; die Nummern stehen laut Duravit auch auf dem Produktetikett der Verpackung. Wo die Nummer am WC-Sitz selbst steht, gibt keiner der geprüften Hersteller allgemein an.",
+      "quellen": [
+        "https://pressalit.com/en-us/guidance-and-support/faq",
+        "https://www.duravit.com/de-de/service/ersatzteilsuche/"
+      ]
+    }
+  ],
+  "fakten": [
+    {
+      "aussage": "Tabelle Scharnier-/Befestigungsnummern Villeroy & Boch (laut Hersteller-Datenblatt, Format: Sitzmodell | Serie | Scharnier | Lochabstand | weitere Ersatzteile)",
+      "quellen": []
+    },
+    {
+      "aussage": "9M55S1 / 9M55Q1 | Subway (SC/QR bzw. QR) | 9220 55 61 Universal-Kipp-Stripp-Anker-Scharnier mit Quick Release | 138–218 mm | 9222 05 00 Abdeckkappen, 9218 96 00 Ersatzteil Kipp-Stripp-Anker, 9222 91 00 Soft-Closing-Paket, 9220 24 00 Quick-Release-Paket, 9220 81 00 Puffer",
+      "quellen": [
+        "https://img.nordwest.com/15852_95e668d988f51bdbfc14b66db1abd924_de.pdf"
+      ]
+    },
+    {
+      "aussage": "9M5561 | Subway | 9223 70 61 Scharnier Edelstahl/Kunststoff | Mittenabstand 155 mm | 9223 68 00 Pufferset",
+      "quellen": [
+        "https://img.nordwest.com/15852_808fd987408ec33f451afcaa5adfbed7_de.pdf"
+      ]
+    },
+    {
+      "aussage": "9M6661 | Subway Compact | 9224 08 61 von oben montierbares Universal-Kipp-Stripp-Anker-Scharnier | 155 mm | 9220 81 00 Puffer",
+      "quellen": [
+        "https://img.nordwest.com/15852_0e996745866531fc9a8f60f6b08880fc_de.pdf"
+      ]
+    },
+    {
+      "aussage": "9M68S1 / 9M68Q1 | Subway 2.0 | 9222 24 61 Festscharnier mit Quick Release | 180 mm | 9222 91 00 Soft-Closing-Paket / 9220 24 00 Dämpferattrappen-Paket, 9220 81 00 Puffer",
+      "quellen": [
+        "https://documents.unidomo.de/de/vbdbde_9m68s1_9m68q1_subway_2_0.pdf",
+        "https://media.hornbach.at/hb/datasheet/as.47508406.pdf"
+      ]
+    },
+    {
+      "aussage": "9M69S1 / 9M69Q1 | Subway 2.0 Compact | 9222 24 61 Festscharnier mit Quick Release (Text: von oben montierbares Universal-Kipp-Stripp-Anker-Scharnier) | 180 mm | 9222 92 00 Soft-Closing-Paket / 9220 24 00 Quick-Release-Paket, 9220 81 00 Puffer",
+      "quellen": [
+        "https://img.nordwest.com/15852_2ec6303bfb6de15d053ecfda19957790_de.pdf"
+      ]
+    },
+    {
+      "aussage": "9M7461 | Subway 2.0 Sitzring ohne Deckel | 9224 07 61 Festscharnier | 180 mm | 9220 81 00 Puffer",
+      "quellen": [
+        "https://img.nordwest.com/15852_6d066723813f71a5ef7bef5a780c4819_de.pdf"
+      ]
+    },
+    {
+      "aussage": "9M78S1 | Subway 2.0 Slim | 9224 74 61 Festscharnier | 180 mm | 9224 04 00 Ersatzteil Kipp-Stripp-Anker, 9224 77 00 Soft-Closing-Paket, 9224 86 00 Puffer",
+      "quellen": [
+        "https://media.hornbach.ch/hb/datasheet/as.46293779.pdf"
+      ]
+    },
+    {
+      "aussage": "8M42S1 | Subway 3.0 (SC/QR) | 9224 74 61 Festscharnier mit Quick Release | 180 mm | 9209 48 00 Soft-Closing-Paket, 9209 47 00 Puffer",
+      "quellen": [
+        "https://www.meinhausshop.de/media/pdf/93_191_57--DBL-01-de.pdf"
+      ]
+    },
+    {
+      "aussage": "9M38S1 (Art. 9M38S101) | O.novo (SC/QR) | 9224 17 61 Scharnier mit Quick Release | Mittenabstand 155 mm | 9224 21 01 Pufferset, 9221 64 00 Soft-Close-Dämpferset",
+      "quellen": [
+        "https://media.hornbach.at/hb/datasheet/as.46293245.pdf"
+      ]
+    },
+    {
+      "aussage": "8823 61 | O.novo (Sandwich) | 8823 01 61 Festscharnier | 150 mm | 9220 80 00 Puffer",
+      "quellen": [
+        "https://img.nordwest.com/15852_a97d95b00608bef731fb175dbac70da2_de.pdf"
+      ]
+    },
+    {
+      "aussage": "9M8361 | Architectura | 9224 56 61 Scharnier | Mittenabstand 180 mm | 9219 48 00 Pufferset",
+      "quellen": [
+        "https://media.hornbach.de/hb/datasheet/as.46830822.pdf"
+      ]
+    },
+    {
+      "aussage": "9M6061 | Architectura (QR) | 9224 56 61 Scharnier mit Quick Release | Mittenabstand 155 mm | 9224 22 01 Pufferset (gleiche Scharniernummer wie 9M8361 bei anderem Mittenabstand, laut den beiden Datenblättern)",
+      "quellen": [
+        "https://img.nordwest.com/15852_bf776f83e2b39567f6650ccf776bb8c9_de.pdf"
+      ]
+    },
+    {
+      "aussage": "98M9D1 | Omnia architectura | 9222 35 61 Festscharnier mit Kipp-Stripp-Anker | 155 mm | 9222 02 00 Puffer",
+      "quellen": [
+        "https://media.hornbach.de/hb/datasheet/as.46299055.pdf"
+      ]
+    },
+    {
+      "aussage": "V&B-Datenblätter: Endziffern 61 bei Scharniernummern = Scharnieroberfläche Edelstahl; Sitze aus durchgefärbtem Duroplast, max. Belastbarkeit Ringsitz 240 kg (O.novo 9M38/Architectura 9M6061: 250 kg).",
+      "quellen": [
+        "https://img.nordwest.com/15852_95e668d988f51bdbfc14b66db1abd924_de.pdf",
+        "https://media.hornbach.at/hb/datasheet/as.46293245.pdf",
+        "https://img.nordwest.com/15852_bf776f83e2b39567f6650ccf776bb8c9_de.pdf"
+      ]
+    },
+    {
+      "aussage": "Tabelle Duravit-Ersatzteile (Händlerangaben megabad, nicht vom Hersteller bestätigt): 0061381000 Scharniersatz für Starck 3 0063890000 und Starck 2/Happy D. 0066990000 (ohne Absenkautomatik im Lieferumfang); 0061121000 Scharnierpaar Architec/Starck 3 ohne SoftClose; 1004270000 Ersatz-Softcloseautomatik für Sitze 006969, 006389, 002109, 006949 (ersetzt 1002590000); 0061761000 Scharniersatz für DuraStyle 0060590000; 0020081000 Scharnier-Set für WC-Sitz mit Absenkautomatik, Edelstahl (Seite nennt keine Serie, Nummernkreis 0020 entspricht ME by Starck-Sitzen).",
+      "quellen": [
+        "https://www.megabad.com/hersteller-duravit-ersatzteile-ersatzscharniersatz-wc-sitz-a-105064.htm",
+        "https://www.megabad.com/hersteller-duravit-ersatzteile-starck-3-ersatzscharnierpaar-a-109303.htm",
+        "https://www.megabad.com/duravit-ersatzteile-softcloseautomatik-starck-3-wc-a-384442.htm",
+        "https://www.megabad.com/hersteller-duravit-ersatzteile-scharniersatz-durastyle-wc-a-481917.htm",
+        "https://www.megabad.com/duravit-ersatzteile-scharnier-set-wc-sitz-a-1466218.htm"
+      ]
+    },
+    {
+      "aussage": "Duravit Starck 3 Sitz 0063890000: Edelstahlscharniere, abnehmbar, mit Absenkautomatik (Duravit-Spec-Sheet).",
+      "quellen": [
+        "https://image.frankwebb.com/ProductInfo/0063890000-spec.pdf"
+      ]
+    },
+    {
+      "aussage": "Duravit-Montageanleitung D-Code-WC-Sitz gilt für die Artikel 0067310000, 0067410000 und 0061391000 (nur Bildanleitung, keine Maße im Text).",
+      "quellen": [
+        "https://duravit.vn/dimg/991504238.pdf"
+      ]
+    },
+    {
+      "aussage": "Duravit: Passform von Sitz und Keramik hängt von Form, Länge und Breite der Brille sowie dem Abstand der Bohrlöcher ab; der WC-Sitz-Finder bestimmt den Sitz anhand von drei Fotos.",
+      "quellen": [
+        "https://www.duravit.com/de-de/service/wc-sitz-finder/"
+      ]
+    },
+    {
+      "aussage": "Duravit-Ersatzteilsuche: Suche per Name, Artikel-/Modellnummer oder EAN; Explosionszeichnungen mit Teilenummern nach kostenloser Registrierung.",
+      "quellen": [
+        "https://www.duravit.com/de-de/service/ersatzteilsuche/"
+      ]
+    },
+    {
+      "aussage": "Laufen Pro H8969513000001: Abstand Lochmitten 155 mm, Lochmitte bis Vorderkante 430 mm, Scharnier Edelstahl, Quick Release, Soft Close, Hohlraumbefestigung (hollow space fixation), 450 x 380 mm.",
+      "quellen": [
+        "https://www.cac.laufen.com/laufen-services/productSheet30/CAC/en/H8969513000001/",
+        "https://www.laufen.com/products/wc-seat-cover-removable-lowering-system-stainless-steel-hinges-H896951...0001"
+      ]
+    },
+    {
+      "aussage": "Laufen Pro Sitz Spezial 89695.0: Duroplast, Hohlraumbefestigung, abnehmbar, Montagezubehör inkl.; technische Zeichnung zeigt 155 mm Lochabstand.",
+      "quellen": [
+        "https://www.unicor.rs/pdf/TF01_896950_GLOBAL_en_20200307.pdf"
+      ]
+    },
+    {
+      "aussage": "Herstellerdatenblatt (Sitz Pool Aktiv, über Nordwest): Sitzlängen gelten für Keramiken mit Lochabstand 155 mm ± 3 mm und Löchern Ø 15 mm; bei abweichendem Lochabstand wird ein Exzenterscharnier empfohlen. Sitz erfüllt mit Edelstahlscharnier DIN 19516.",
+      "quellen": [
+        "https://img.nordwest.com/12605_6dae9c7a9d4fac4c3e4be43ab8bafb27_de.pdf"
+      ]
+    },
+    {
+      "aussage": "Pressalit Objecta (54): Scharnierabstand 155 mm, Montage von unten, Festscharniere BA1 aus V2A-Edelstahl.",
+      "quellen": [
+        "https://pressalit.com/de-de/wc-sitze/wc-sitze/pressalit-objecta-projecta-projecta-plus-54/p-54011-ba1999/"
+      ]
+    }
+  ],
+  "asins": [
+    {
+      "asin": "B01IR8Q7JY",
+      "titel": "Villeroy & Boch 9220 55 61 Subway Juego Fijación Tapa WC",
+      "geprueft": true,
+      "wie": "amazon.de/dp/B01IR8Q7JY am 2026-11-04 geöffnet; Titel und Modellnummer 9220 55 61 in den Produktdetails bestätigt (Titel teils spanisch)"
+    },
+    {
+      "asin": "B06ZYX8Z2P",
+      "titel": "Villeroy & Boch Soft Closing Paket 92229200",
+      "geprueft": true,
+      "wie": "amazon.de/dp geöffnet; Herstellernummer 92229200 im Titel (= 9222 92 00, Soft-Closing-Paket Subway 2.0 Compact laut V&B-Datenblatt); keine Modellnummer in den Details gefunden"
+    },
+    {
+      "asin": "B003IT6ILA",
+      "titel": "WENKO Edelstahl-Befestigung für WC-Sitze - WC-Sitz Befestigungsersatz-Set, Edelstahl rostfrei, Matt",
+      "geprueft": true,
+      "wie": "amazon.de/dp geöffnet; Titel und Modellnummer 290219100 bestätigt"
+    },
+    {
+      "asin": "B0BNX67619",
+      "titel": "ZFYQ WC Sitz Befestigungsset, Universal Schrauben Zubehör für Toilettensit, Geeignet für die Meisten Top-Fix Toilettendeckel Silver",
+      "geprueft": true,
+      "wie": "amazon.de/dp geöffnet; Titel und Modellnummer MTZJL02 bestätigt (No-Name-Set für Befestigung von oben)"
+    },
+    {
+      "asin": "B073TSML9H",
+      "titel": "Villeroy & Boch Festscharnier",
+      "geprueft": false,
+      "wie": "amazon.de/dp geöffnet, aber keine Herstellernummer auf der Seite; laut Suchergebnis für Subway 2.0 Slim 9M78 (wäre 9224 74 61), nicht bestätigt"
+    },
+    {
+      "asin": "B0CP39M1T4",
+      "titel": "Zocipro WC-Sitz Befestigung (6 Stück, Blindloch)",
+      "geprueft": false,
+      "wie": "nur aus Suchergebnis, Seite nicht geöffnet"
+    }
+  ],
+  "eans": [],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "Wie ziehe ich einen WC-Sitz mit Befestigung von oben nach, wenn die Mutter nicht erreichbar ist bzw. der Spreizdübel durchdreht?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wc-sitz-wackelt-befestigung-von-oben-mutter-nicht-erreichbar",
+        "https://www.gutefrage.net/frage/toilettendeckel-wackelt"
+      ]
+    },
+    {
+      "frage": "Wie bekomme ich eine festgerostete oder mitdrehende Mutter von unten ab?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wie-loese-ich-diese-viereckige-mutter",
+        "https://www.gutefrage.net/frage/wc-sitz-abmontieren-komische-schraubenmutter",
+        "https://www.gutefrage.net/frage/klobrille-wechseln-schrauben-um-die-ecke"
+      ]
+    },
+    {
+      "frage": "Wie nehme ich einen Quick-Release-Sitz ab und setze ihn wieder ein?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/toilettenbrille-geht-nicht-ab",
+        "https://www.gutefrage.net/frage/wie-kriege-ich-den-toilettensitz-ab"
+      ]
+    },
+    {
+      "frage": "Kann man die Absenkautomatik nachstellen oder nachrüsten?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/kann-man-die-absenkautomatik-einer-klobrille-nachstellen-und-wenn-wie",
+        "https://www.gutefrage.net/frage/kann-man-am-toilettendeckel-eine-absenkautomatik-nachruesten"
+      ]
+    },
+    {
+      "frage": "Welches Scharnier passt auf Laufen Pro (H891954 laut Händler für H897671, H892551, H891951, H896951 – Quelle nicht abrufbar)?",
+      "fundstellen": [
+        "https://www.neuesbad.de/ArboroPDFCreator?id=221363"
+      ]
+    },
+    {
+      "frage": "Welche Ersatzscharniere gibt es für Duravit D-Code und Laufen Kartell?",
+      "fundstellen": []
+    },
+    {
+      "frage": "Wie wechsle ich den Sitz bei Keramag/Geberit Renova Nr. 1 oder iCon mit Befestigung von oben?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wie-die-klobrille-von-keramag-renova-nr-1-toilette-austauschen",
+        "https://www.gutefrage.net/frage/hilfe--wer-weiss-wie-man-wc-sitz-keramag-renova-nr-1-abbaut"
+      ]
+    }
+  ]
+}

@@ -19,12 +19,14 @@
     {
       "ursache": "Füllventil schaltet nicht ab, Wasser läuft über den Überlauf",
       "erklaerung": "Steht das Wasser im Kasten bis zum Rand des Überlaufrohrs und rinnt dort hinein, liegt es am Füllventil. Entweder ist die Füllhöhe zu hoch eingestellt, oder das Ventil schließt nicht mehr, weil Membran oder Dichtung verkalkt sind. Das zeigt sich erst am Ende des Füllvorgangs, nicht direkt nach dem Spülen. Füllhöhe niedriger stellen, Sieb und Membran reinigen, sonst Dichtungsset oder Füllventil tauschen.",
-      "haeufigkeit": "gelegentlich"
+      "haeufigkeit": "gelegentlich",
+      "teilart": "fuellventil"
     },
     {
       "ursache": "Schwimmer klemmt",
       "erklaerung": "Hängt der Schwimmer an der Kastenwand, am Gestänge oder durch Kalk fest, steigt er nicht mit dem Wasser und das Füllventil bleibt offen. Schaumstoffschwimmer können sich mit Wasser vollsaugen. Schwimmer von Hand lösen und prüfen, ob er sich frei bewegt.",
-      "haeufigkeit": "gelegentlich"
+      "haeufigkeit": "gelegentlich",
+      "teilart": "fuellventil"
     },
     {
       "ursache": "Betätigung drückt dauerhaft auf das Spülventil",
