@@ -40,3 +40,20 @@ GitHub braucht dafür **nur ein Secret**: `AWIN_FEED_URL` (dieselbe Feed-URL wie
   Branch `feed-probe` und geht nicht live.
 - Protokoll in Supabase: `select * from intern.feed_importe order by id desc limit 5;`
 - Neuer Shop: in `SHOPS` im Skript ergänzen und dessen Bild-Host in `src/lib/bild-hosts.json` eintragen.
+
+## Inhalte ohne Datenbank-Zugriff veröffentlichen
+
+Supabase liest stündlich aus dem main-Branch (`supabase/migrations/20261104_inhalte_aus_github.sql`):
+
+- **Ersatzteile:** `data/ersatzteile/<marke>.json` anlegen (Schema wie `grohe.json`), Dateiname in
+  `data/ersatzteile/index.json` eintragen, nach main mergen. Läuft zur Minute 37 ein.
+- **Kaufberatungen:** `data/artikel/<slug>.html`, `<slug>.produkte.json` und `<slug>.meta.json`
+  (`slug`, `silo`, `titel`, `seo_title`, `seo_description`, `quellen`) anlegen, Slug in `data/artikel/index.json`
+  eintragen, nach main mergen. Läuft zur Minute 47 ein.
+- Geändert wird nur, was sich seit dem letzten Lauf geändert hat. Protokoll:
+  `select pfad, importiert, ergebnis from intern.datei_importe order by importiert desc;`
+
+Offen bei Hansgrohe (`data/ersatzteile/hansgrohe.json`, Feld `nicht_geprueft`): Die 59 Zuordnungen „Herstellerangabe“
+beruhen auf Suchergebnis-Auszügen von hansgrohe-Seiten und sollten stichprobenartig im Browser gegengeprüft werden.
+In der Kaufberatung Niederdruckarmatur sind zwei ASINs noch ungeprüft weggelassen: B008CEOCQE (GROHE 32955000),
+B003WF1NHY (hansgrohe 31804000).
