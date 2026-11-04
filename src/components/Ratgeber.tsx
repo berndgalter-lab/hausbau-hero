@@ -23,20 +23,20 @@ export function Pruefvermerk({ stand, quellenAnzahl }: { stand: string | null; q
   );
 }
 
-/** Wie die Angaben zustande kommen. Text aus dem Artikel (Hinweis „nicht selbst getestet“). */
-export function MethodenKasten({ html }: { html: string }) {
+/** Wie die Angaben zustande kommen. Text aus dem Hinweis im Artikel. */
+export function MethodenKasten({ html, ohneTest }: { html: string; ohneTest: boolean }) {
   return (
     <aside className="border-l-4 border-stone-300 bg-stone-50 rounded-r-lg px-4 py-3 mb-8 text-sm text-stone-600">
-      <p className="font-semibold text-stone-800 mb-1">Datenblattvergleich, kein Test</p>
+      <p className="font-semibold text-stone-800 mb-1">{ohneTest ? "Datenblattvergleich, kein Test" : "Woher die Angaben stammen"}</p>
       <p dangerouslySetInnerHTML={{ __html: html }} />
     </aside>
   );
 }
 
-export function KurzeAntwort({ html }: { html: string }) {
+export function KurzeAntwort({ html, titel }: { html: string; titel: string }) {
   return (
     <section className="bg-amber-50 border border-amber-200 rounded-xl px-5 py-4 mb-10">
-      <h2 className="text-lg font-bold text-stone-900 mb-2">Das Wichtigste vorab</h2>
+      <h2 className="text-lg font-bold text-stone-900 mb-2">{titel}</h2>
       <div
         className="prose prose-stone max-w-none prose-li:my-1 prose-a:text-amber-700 prose-a:no-underline hover:prose-a:underline"
         dangerouslySetInnerHTML={{ __html: html }}

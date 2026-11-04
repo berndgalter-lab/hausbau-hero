@@ -52,12 +52,13 @@ def pruefe_artikel() -> None:
 
         html = (ordner / f"{slug}.html").read_text()
         hinweis = re.search(r"<p>\s*<em>\s*Hinweis:(.*?)</em>\s*</p>", html, re.S | re.I)
-        if not hinweis or "nicht selbst getestet" not in hinweis.group(1):
-            fehler.append(f"{slug}.html: Methoden-Hinweis „<p><em>Hinweis: … nicht selbst getestet …</em></p>“ fehlt")
+        if not hinweis:
+            fehler.append(f"{slug}.html: Methoden-Hinweis „<p><em>Hinweis: … (Stand: …)</em></p>“ fehlt")
         elif not re.search(r"Stand:\s*[^)]+\)", hinweis.group(1)):
             fehler.append(f"{slug}.html: „(Stand: …)“ im Methoden-Hinweis fehlt")
-        if not re.search(r"<h2[^>]*>\s*Das Wichtigste vorab\s*</h2>", html, re.I):
-            fehler.append(f"{slug}.html: Abschnitt „Das Wichtigste vorab“ fehlt")
+        # Gleiche Überschriften wie in src/lib/artikel-aufbau.ts
+        if not re.search(r"<h2[^>]*>\s*(Das Wichtigste vorab|Kurz gesagt|Die wichtigsten [^<]{0,40} auf einen Blick)\s*</h2>", html, re.I):
+            fehler.append(f"{slug}.html: Abschnitt „Das Wichtigste vorab“ (oder „Kurz gesagt“) fehlt")
         quellen = re.search(r"<h2[^>]*>\s*Quellen\s*</h2>(.*?)(?=<h2|\Z)", html, re.S | re.I)
         if not quellen or "<li" not in quellen.group(1):
             fehler.append(f"{slug}.html: Abschnitt „Quellen“ mit Liste fehlt")

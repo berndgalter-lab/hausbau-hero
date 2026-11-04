@@ -107,7 +107,8 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
     }));
 
   const verweise = ersatzteilVerweise(seite.slug);
-  const hatPartnerlinks = hauptProdukte.length > 0 || werkzeuge.length > 0;
+  // Reine Ratgeber ohne Produkte und ohne Partnerlinks im Text brauchen keinen Affiliate-Hinweis.
+  const hatPartnerlinks = produkte.length > 0 || /amazon\.de|awin1\.com/i.test(seite.content_md ?? "");
 
   const rechnerSlugs = getPassendeRechner(seite.slug, seite.passende_rechner);
   let passendeRechner: { name: string; slug: string }[] = [];
@@ -154,8 +155,8 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
         <>
           <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} />
           {aufbau.einstieg && <ArticleContent html={aufbau.einstieg} />}
-          {aufbau.methode && <MethodenKasten html={aufbau.methode} />}
-          {aufbau.wichtigstes && <KurzeAntwort html={aufbau.wichtigstes} />}
+          {aufbau.methode && <MethodenKasten html={aufbau.methode} ohneTest={aufbau.ohneTest} />}
+          {aufbau.wichtigstes && <KurzeAntwort html={aufbau.wichtigstes} titel={aufbau.wichtigstesTitel ?? "Das Wichtigste vorab"} />}
           {finderModelle.length >= 3 && <ModellFinder modelle={finderModelle} />}
           {aufbau.rumpf && <ArticleContent html={aufbau.rumpf} />}
         </>
