@@ -30,7 +30,7 @@ Datengrundlage:
 
 Kaputte Links in den alten Beiträgen: `/rechner/handwerkerkosten`, `/rechner/trockenbau`, `/rechner/foerdermittel`, `/rechner/eigenleistung`, `/rechner/gewerk-reihenfolge`. Es gibt nur noch die Rechner `sanitaer`, `fliesen` und `estrich`. Die Links verschwinden mit dem Neuschreiben.
 
-Von den 43 umgeleiteten Alt-Seiten im Bad-Silo bleiben alle Weiterleitungen. Drei davon werden wieder eigene Seiten, sobald sie geschrieben sind: `waschtischarmatur-schwarz`, `waschtischarmatur-hoher-auslauf`, `badewannenarmatur-unterputz`. Der Artikel-Import setzt eine umgeleitete Seite dafür wieder auf aktiv (Migration `20261105_kaufberatung_angebote.sql`).
+Von den 43 umgeleiteten Alt-Seiten im Bad-Silo bleiben alle Weiterleitungen. Zwei davon werden wieder eigene Seiten, sobald sie geschrieben sind: `waschtischarmatur-hoher-auslauf` und `badewannenarmatur-unterputz`. Die Farbseiten (`waschtischarmatur-schwarz`, `-schwarz-matt`, `-weiss`, `-gold`, `badewannenarmatur-schwarz`) bleiben Weiterleitungen auf den passenden Ratgeber, die Farbe ist dort eine Frage der Auswahlhilfe (`docs/SEITENAUFBAU.md`, Grundsatz 10). Der Artikel-Import setzt eine umgeleitete Seite dafür wieder auf aktiv (Migration `20261105_kaufberatung_angebote.sql`).
 
 ## 2. Keyword-Karte: was neu dazukommt
 
@@ -43,9 +43,8 @@ Belege in Klammern: GSC-Impressionen und Position; „nur Suggest“ heißt, die
 | `/bad/waschtischarmatur-ratgeber` | beste waschtischarmatur, waschtischarmatur test, wasserfall armatur nachteile | 109 Impr., Pos. 10–17 | in diesem Branch |
 | `/bad/badewannenarmatur-ratgeber` | badewannenarmatur testsieger, badewannenarmatur test, beste badewannenarmatur, aufputz | 169 Impr., Pos. 9–15 | in diesem Branch |
 | `/vergleich/armaturen` | badarmaturen test, test badarmaturen, schwarze badarmaturen testsieger | 177 Impr., Pos. 12–36 | in diesem Branch |
-| `/bad/badewannenarmatur-unterputz` | unterputz armatur badewanne, badewannenarmatur unterputz, wannenarmatur unterputz | 220 Impr., Pos. 19–54 | als Nächstes |
-| `/bad/thermostat-dusche` | thermostat dusche ja oder nein, dusche thermostat oder einhebelmischer, aufputz thermostat | 87 Begriffe, nur Suggest | als Nächstes |
-| `/bad/waschtischarmatur-schwarz` | waschtischarmatur schwarz, armatur schwarz erfahrungen, badewannenarmatur schwarz | 11 Impr. + Suggest-Top-10 | als Nächstes |
+| `/ratgeber/badewannenarmatur-unterputz` | unterputz armatur badewanne, badewannenarmatur unterputz, wannenarmatur unterputz | 220 Impr., Pos. 19–54 | Branch `feat/armaturen-ergaenzen` |
+| `/ratgeber/duschthermostat` | thermostat dusche ja oder nein, dusche thermostat oder einhebelmischer, aufputz thermostat | 87 Begriffe, nur Suggest | Branch `feat/armaturen-ergaenzen` |
 | `/bad/waschtischarmatur-hoher-auslauf` | waschtischarmatur hoch, armatur aufsatzwaschbecken | Suggest-Top-10, Altseite hatte 25 Impr. | danach |
 | `/bad/duschsystem-aufputz` | duschsystem aufputz, regendusche nachrüsten | 74 Begriffe, nur Suggest | danach |
 | `/bad/kuechenarmatur-ausziehbar` | küchenarmatur ausziehbar, küchenarmatur mit brause | 32 Begriffe, nur Suggest | danach |

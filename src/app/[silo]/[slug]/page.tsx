@@ -10,7 +10,7 @@ import { ersatzteilVerweise } from "@/lib/ersatzteil-verweise";
 import { zerlegeArtikel } from "@/lib/artikel-aufbau";
 import { armaturDaten } from "@/lib/armatur-daten";
 import ModellFinder from "@/components/ModellFinder";
-import { ratgeberNachSlug } from "@/lib/produkt-ratgeber";
+import { ratgeberNachSlug, weiterleitungsZiel } from "@/lib/produkt-ratgeber";
 import {
   AffiliateHinweis,
   KurzeAntwort,
@@ -66,7 +66,7 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
   if (!seite) notFound();
 
   if (seite.status === "redirect" && seite.redirect_to) {
-    permanentRedirect(seite.redirect_to);
+    permanentRedirect(weiterleitungsZiel(seite.redirect_to));
   }
 
   if (seite.status !== "aktiv") notFound();

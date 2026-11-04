@@ -32,8 +32,10 @@ export interface ProduktRatgeber {
   silo: string;
   /** Kurzer Name für Brotkrumen und Listen, z. B. „Waschtischarmatur“. */
   name: string;
-  /** Mehrzahl für die Ergebnisliste: „3 von 6 Armaturen passen“. */
+  /** Mehrzahl für die Ergebnisliste: „3 von 6 Armaturen passen“, „Keine der 6 Armaturen“. Muss in beiden Sätzen stimmen, darum „Armaturen“ statt „Thermostate“. */
   mehrzahl: string;
+  /** Überschrift der Auswahlhilfe, wenn „Welche <name> passt?“ nicht stimmt (der Duschthermostat). */
+  frage?: string;
   fragen: AuswahlFrage[];
   /** Eckdaten in der Ergebniszeile, kurz und in dieser Reihenfolge. */
   eckdaten: (d: ArmaturDaten) => (string | null)[];
@@ -118,10 +120,12 @@ const WASCHTISCHARMATUR: ProduktRatgeber = {
     {
       key: "farbe",
       label: "Farbe",
-      hinweis: "Schwarz ist bei GROHE und hansgrohe lackiert oder pulverbeschichtet und laut GROHE weniger strapazierfähig als Chrom.",
+      hinweis: "Mattschwarz und Mattweiß sind bei GROHE und hansgrohe lackiert oder pulverbeschichtet und laut GROHE weniger strapazierfähig als Chrom, PVD-Töne wie Gold oder Bronze bewertet GROHE so gut wie Chrom.",
       optionen: [
         { label: "Chrom", passt: (d) => hatOberflaeche(d, /chrom/i) },
         { label: "Schwarz", passt: (d) => hatOberflaeche(d, /schwarz|black/i) },
+        { label: "Weiß", passt: (d) => hatOberflaeche(d, /weiß|white/i) },
+        { label: "Gold oder Bronze", passt: (d) => hatOberflaeche(d, /gold|bronze/i) },
       ],
     },
   ],
@@ -292,9 +296,9 @@ const BADEWANNENARMATUR: ProduktRatgeber = {
           label: "Unterputz",
           passt: (d) => (d.montage ? d.montage === "Unterputz" : null),
           sonst: {
-            text: "Bei Unterputz tauschst du nur das Fertigset, und das muss zum Grundkörper in der Wand passen. Wie du ihn erkennst, steht unten bei den Fragen.",
-            href: "#fragen",
-            linktext: "Zu den Fragen",
+            text: "Bei Unterputz tauschst du nur das Fertigset, und das muss zum Grundkörper in der Wand passen. Dafür gibt es einen eigenen Ratgeber.",
+            href: "/ratgeber/badewannenarmatur-unterputz",
+            linktext: "Unterputz-Wannenarmatur",
           },
         },
       ],
@@ -340,7 +344,120 @@ const BADEWANNENARMATUR: ProduktRatgeber = {
   ],
 };
 
-export const PRODUKT_RATGEBER: ProduktRatgeber[] = [WASCHTISCHARMATUR, NIEDERDRUCKARMATUR, WASCHTISCHARMATUR_MIT_BRAUSE, BADEWANNENARMATUR];
+const istSmartBox = (d: ArmaturDaten) => enthaelt(d.grundkoerper, /smartbox/i);
+
+const BADEWANNENARMATUR_UNTERPUTZ: ProduktRatgeber = {
+  pfad: "badewannenarmatur-unterputz",
+  slug: "badewannenarmatur-unterputz",
+  silo: "bad",
+  name: "Unterputz-Wannenarmatur",
+  mehrzahl: "Armaturen",
+  fragen: [
+    {
+      key: "grundkoerper",
+      label: "Grundkörper in der Wand",
+      hinweis: "Griff und Rosette abnehmen: Die GROHE SmartBox ist rund mit GROHE-Logo, die erste hansgrohe iBox hat einen achteckigen Rahmen, die iBox 2 einen quadratischen Körper.",
+      optionen: [
+        { label: "GROHE Rapido SmartBox", passt: istSmartBox },
+        // „iBox universal“ ohne folgende 2: die erste iBox (seit 2001)
+        { label: "hansgrohe iBox universal (achteckig)", passt: (d) => enthaelt(d.grundkoerper, /iBox universal(?! 2)/i) },
+        { label: "hansgrohe iBox universal 2 (quadratisch)", passt: (d) => enthaelt(d.grundkoerper, /iBox universal 2/i) },
+        {
+          label: "GROHE Rapido E oder Rapido T",
+          passt: (d) => enthaelt(d.grundkoerper, /Rapido [ET]\b/),
+          sonst: {
+            text: "Auf die älteren Körper Rapido E und Rapido T passen die Sets für die SmartBox nicht. Du brauchst ein Fertigset mit dem Vermerk „für 35 501 000“ oder „für Rapido T 35 500“.",
+            href: "#fragen",
+            linktext: "Mehr dazu bei den Fragen",
+          },
+        },
+      ],
+    },
+    {
+      key: "regelung",
+      label: "Regelung",
+      hinweis: "Ein Thermostat hält die Temperatur und sperrt bei 38 oder 40 °C, braucht aber mehr Wasserdruck.",
+      optionen: [
+        { label: "Thermostat", passt: (d) => (d.bauart ? d.bauart === "Thermostat" : null) },
+        { label: "Einhebel", passt: (d) => (d.bauart ? d.bauart === "Einhebel" : null) },
+      ],
+    },
+    {
+      key: "farbe",
+      label: "Farbe",
+      hinweis: "Schwarz hat eine eigene Artikelnummer, sie steht beim Modell. Prüf im Shop, dass Farbe und Nummer zusammenpassen.",
+      optionen: [
+        { label: "Chrom", passt: (d) => hatOberflaeche(d, /chrom/i) },
+        { label: "Schwarz", passt: (d) => hatOberflaeche(d, /schwarz|black/i) },
+      ],
+    },
+  ],
+  eckdaten: (d) => [
+    d.grundkoerper ? (istSmartBox(d) ? "GROHE Rapido SmartBox" : d.grundkoerper) : null,
+    d.bauart ?? null,
+    typeof d.sicherheitssperre_c === "number" ? `Sperre bei ${d.sicherheitssperre_c} °C` : null,
+    d.rosette ? `Rosette ${d.rosette}` : null,
+    d.rueckflusssicherung ? `EN 1717: ${d.rueckflusssicherung}` : null,
+  ],
+};
+
+const DUSCHTHERMOSTAT: ProduktRatgeber = {
+  pfad: "duschthermostat",
+  slug: "duschthermostat",
+  silo: "bad",
+  name: "Duschthermostat",
+  mehrzahl: "Armaturen",
+  frage: "Welcher Duschthermostat passt?",
+  fragen: [
+    {
+      key: "warmwasser",
+      label: "Warmwasser",
+      hinweis: "Hängt unter dem Becken oder in der Küche ein kleiner offener Boiler, ist es ein Untertischspeicher. Daran funktioniert kein Thermostat.",
+      optionen: [
+        { label: "zentral (Heizung oder Speicher)", passt: (d) => (d.druck ? d.druck === "Hochdruck" : null) },
+        {
+          label: "Durchlauferhitzer",
+          passt: (d) => (d.durchlauferhitzer ? true : null),
+        },
+        {
+          label: "offener Untertischspeicher",
+          passt: (d) => (d.druck ? d.druck === "Niederdruck" : null),
+          sonst: {
+            text: "Thermostate laufen laut GROHE nicht an drucklosen (offenen) Speichern. Dort brauchst du eine Niederdruckarmatur.",
+          },
+        },
+      ],
+    },
+    {
+      key: "abgang",
+      label: "Brauseabgang",
+      hinweis: "Unten hängt der Schlauch zur Handbrause, oben eine fest montierte Kopfbrause.",
+      optionen: [
+        { label: "unten", passt: (d) => enthaelt(d.abgang, /unten/i) },
+        { label: "oben", passt: (d) => enthaelt(d.abgang, /oben/i) },
+      ],
+    },
+    {
+      key: "farbe",
+      label: "Farbe",
+      hinweis: "Farben haben eine eigene Artikelnummer, sie steht beim Modell. Prüf im Shop, dass Farbe und Nummer zusammenpassen.",
+      optionen: [
+        { label: "Chrom", passt: (d) => hatOberflaeche(d, /chrom/i) },
+        { label: "Schwarz", passt: (d) => hatOberflaeche(d, /schwarz|black/i) },
+        { label: "Weiß", passt: (d) => hatOberflaeche(d, /weiß|white/i) },
+        { label: "Gold oder Bronze", passt: (d) => hatOberflaeche(d, /gold|bronze/i) },
+      ],
+    },
+  ],
+  eckdaten: (d) => [
+    typeof d.sicherheitssperre_c === "number" ? `Sperre bei ${d.sicherheitssperre_c} °C` : null,
+    d.abgang ? `Abgang ${d.abgang}` : null,
+    d.durchlauferhitzer ? `Durchlauferhitzer: ${d.durchlauferhitzer}` : null,
+    d.anschluss ?? null,
+  ],
+};
+
+export const PRODUKT_RATGEBER: ProduktRatgeber[] = [WASCHTISCHARMATUR, NIEDERDRUCKARMATUR, WASCHTISCHARMATUR_MIT_BRAUSE, BADEWANNENARMATUR, BADEWANNENARMATUR_UNTERPUTZ, DUSCHTHERMOSTAT];
 
 export function ratgeberNachPfad(pfad: string): ProduktRatgeber | null {
   return PRODUKT_RATGEBER.find((r) => r.pfad === pfad) ?? null;
@@ -354,4 +471,10 @@ export function ratgeberNachSlug(slug: string): ProduktRatgeber | null {
 export function artikelUrl(silo: string, slug: string): string {
   const r = ratgeberNachSlug(slug);
   return r ? `/ratgeber/${r.pfad}` : `/${silo}/${slug}`;
+}
+
+/** Ziel einer Weiterleitung aus der Datenbank: zeigt es auf /<silo>/<slug> eines Produkt-Ratgebers, gleich auf /ratgeber/<pfad>, ohne zweite Weiterleitung. */
+export function weiterleitungsZiel(url: string): string {
+  const teile = url.match(/^\/([^/?#]+)\/([^/?#]+)\/?$/);
+  return teile ? artikelUrl(teile[1], teile[2]) : url;
 }

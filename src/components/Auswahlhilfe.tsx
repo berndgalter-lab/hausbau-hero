@@ -125,7 +125,7 @@ export default function Auswahlhilfe({ pfad, modelle, fussnote }: { pfad: string
   return (
     <section id="auswahl" className="scroll-mt-20 border border-stone-200 rounded-xl bg-white mb-10">
       <div className="p-4 sm:p-5">
-        <h2 className="text-xl font-bold text-stone-900">Welche {ratgeber.name} passt?</h2>
+        <h2 className="text-xl font-bold text-stone-900">{ratgeber.frage ?? `Welche ${ratgeber.name} passt?`}</h2>
         <p className="text-sm text-stone-500 mb-4">Wähle aus, was bei dir zutrifft. Die Liste darunter passt sich an.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
           {ratgeber.fragen.map((f) => (
