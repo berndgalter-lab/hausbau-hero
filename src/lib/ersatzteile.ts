@@ -174,7 +174,7 @@ export const SICHERHEIT_LABEL: Record<Sicherheit, { text: string; klasse: string
   },
   zwei_quellen: {
     text: "2 Quellen",
-    klasse: "bg-amber-100 text-amber-800",
+    klasse: "bg-accent-100 text-accent-800",
     erklaerung: "Zwei unabhängige Händler oder Datenblätter nennen dieselbe Zuordnung.",
   },
   eine_quelle: {

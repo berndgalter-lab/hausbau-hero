@@ -13,8 +13,8 @@ export const revalidate = 3600;
 type Props = { params: { slug: string } };
 
 const HAEUFIGKEIT_KLASSE: Record<string, string> = {
-  häufig: "bg-red-100 text-red-800",
-  gelegentlich: "bg-amber-100 text-amber-800",
+  häufig: "bg-accent-700 text-white",
+  gelegentlich: "bg-accent-100 text-accent-800",
   selten: "bg-stone-200 text-stone-700",
 };
 
@@ -62,40 +62,44 @@ export default async function ProblemSeite({ params }: Props) {
     <div className="max-w-3xl">
       <JsonLd daten={brotkrumenLd(pfad)} />
       <Brotkrumen teile={[pfad[0], pfad[1], { name: p.titel }]} />
-      <h1 className="text-3xl font-bold mb-3">{p.titel}</h1>
+      <p className="ueberzeile mb-3">Problemlöser</p>
+      <h1 className="text-[2.25rem] sm:text-5xl leading-[1.1] font-semibold mb-4">{p.titel}</h1>
       {oben && (
         <p className="mb-4 text-sm">
-          <a href={`/problem/${oben.slug}`} className="text-amber-700 hover:underline">
-            Für alle Marken: {oben.titel} →
+          <a href={`/problem/${oben.slug}`} className="weiterlink">
+            Für alle Marken: {oben.titel}
           </a>
         </p>
       )}
-      {p.symptom && <p className="text-stone-700 mb-8 leading-relaxed">{p.symptom}</p>}
+      {p.symptom && <p className="text-lg text-stone-700 mb-10 leading-relaxed">{p.symptom}</p>}
 
       {p.ursachen.length > 0 && (
-        <section className="mb-8">
-          <h2 className="text-xl font-bold mb-3">Mögliche Ursachen</h2>
-          <ol className="space-y-3">
+        <section className="mb-12">
+          <h2 className="text-[1.75rem] font-semibold leading-tight mb-4">Mögliche Ursachen</h2>
+          <ol className="divide-y divide-stone-200 border-y border-stone-200">
             {p.ursachen.map((u, i) => (
-              <li key={i} className="p-4 bg-white border border-stone-200 rounded-lg">
+              <li key={i} className="flex gap-4 py-6">
+                <span className="w-7 shrink-0 font-serif text-3xl leading-none text-accent-700">{i + 1}</span>
+                <div className="min-w-0 flex-1">
                 <div className="flex flex-wrap items-center gap-2">
-                  <span className="font-semibold">{u.ursache}</span>
+                  <span className="font-semibold text-stone-900">{u.ursache}</span>
                   {u.haeufigkeit && (
-                    <span className={`text-xs px-2 py-0.5 rounded ${HAEUFIGKEIT_KLASSE[u.haeufigkeit] ?? "bg-stone-100"}`}>{u.haeufigkeit}</span>
+                    <span className={`text-xs font-medium px-2 py-0.5 rounded-full ${HAEUFIGKEIT_KLASSE[u.haeufigkeit] ?? "bg-stone-100"}`}>{u.haeufigkeit}</span>
                   )}
                 </div>
                 {(u.teil_slugs ?? []).map((slug) => {
                   const t = teilVon.get(slug);
                   if (!t || !marke) return null;
                   return (
-                    <div key={slug} className="mt-2 flex flex-col sm:flex-row sm:items-center gap-2 text-sm">
-                      <a href={`/teil/${t.slug}`} className="flex-1 text-amber-700 hover:underline">
+                    <div key={slug} className="mt-2.5 flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 text-sm">
+                      <a href={`/teil/${t.slug}`} className="flex-1 text-stone-800 underline decoration-stone-300 underline-offset-2 hover:text-accent-700 hover:decoration-accent-400">
                         {t.name}{t.oem_nummer && ` (${t.oem_nummer})`}
                       </a>
                       <KaufButton teil={t} />
                     </div>
                   );
                 })}
+                </div>
               </li>
             ))}
           </ol>
@@ -103,9 +107,9 @@ export default async function ProblemSeite({ params }: Props) {
       )}
 
       {p.schritte.length > 0 && (
-        <section className="mb-8">
-          <h2 className="text-xl font-bold mb-3">So gehst du vor</h2>
-          <ol className="list-decimal pl-5 space-y-2 text-stone-700">
+        <section className="mb-12">
+          <h2 className="text-[1.75rem] font-semibold leading-tight mb-4">So gehst du vor</h2>
+          <ol className="list-decimal pl-6 space-y-3 text-stone-700 leading-relaxed marker:font-semibold marker:text-accent-700">
             {p.schritte.map((s, i) => <li key={i}>{s}</li>)}
           </ol>
         </section>
@@ -114,14 +118,15 @@ export default async function ProblemSeite({ params }: Props) {
       <NeukaufKasten n={neukauf} />
 
       {p.fachbetrieb_ab && (
-        <section className="mb-8 p-4 bg-stone-100 border border-stone-200 rounded-lg text-sm">
-          <strong>Ab hier zum Installateur:</strong> {p.fachbetrieb_ab}
+        <section className="mb-12 flex gap-3 rounded-xl bg-stone-100 px-5 py-4 text-[0.938rem] leading-relaxed text-stone-800">
+          <span aria-hidden className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-stone-900 text-xs font-bold text-white">!</span>
+          <span><strong>Ab hier zum Installateur:</strong> {p.fachbetrieb_ab}</span>
         </section>
       )}
 
       {marke && (
         <p className="text-sm">
-          <a href={`/ersatzteile/${marke.slug}`} className="text-amber-700 hover:underline">Alle {marke.name}-Ersatzteile →</a>
+          <a href={`/ersatzteile/${marke.slug}`} className="weiterlink">Alle {marke.name}-Ersatzteile</a>
         </p>
       )}
       <Quellen urls={p.quellen} />

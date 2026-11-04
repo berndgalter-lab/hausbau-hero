@@ -30,14 +30,14 @@ export function produktLink(produkt: Produkt): string | null {
 export default function ProduktKarte({ produkt }: { produkt: Produkt }) {
   const link = produktLink(produkt);
   return (
-    <div className="flex items-center justify-between gap-3 bg-white rounded-lg p-3 border border-stone-200">
+    <div className="flex items-center justify-between gap-3 py-3">
       <div>
         <div className="font-medium text-sm">{produkt.name}</div>
         {produkt.kurzbeschreibung && <div className="text-xs text-stone-500">{produkt.kurzbeschreibung}</div>}
       </div>
       {link && (
         <a href={link} target="_blank" rel={AFFILIATE_REL} data-platzierung="box" data-kennung={produkt.name.slice(0, 80)}
-          className="text-amber-700 text-sm font-medium hover:underline whitespace-nowrap">
+          className="kauflink text-sm whitespace-nowrap">
           Amazon*
         </a>
       )}

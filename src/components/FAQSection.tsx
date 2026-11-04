@@ -24,11 +24,11 @@ export default function FAQSection({ faqs, rechnerName }: { faqs: FAQ[]; rechner
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
       />
-      <h2 className="text-lg font-bold mb-4">Häufige Fragen zum {rechnerName}</h2>
+      <h2 className="text-xl font-semibold leading-tight mb-4">Häufige Fragen zum {rechnerName}</h2>
       <div className="space-y-3">
         {faqs.map((f, i) => (
-          <details key={i} className="group bg-white border border-stone-200 rounded-lg">
-            <summary className="flex items-center justify-between cursor-pointer p-4 text-sm font-medium text-stone-800 hover:text-amber-700">
+          <details key={i} className="group bg-white rounded-2xl ring-1 ring-stone-900/[0.07]">
+            <summary className="flex items-center justify-between cursor-pointer p-4 text-sm font-medium text-stone-800 hover:text-accent-700">
               {f.q}
               <span className="ml-2 text-stone-400 group-open:rotate-180 transition-transform">▾</span>
             </summary>

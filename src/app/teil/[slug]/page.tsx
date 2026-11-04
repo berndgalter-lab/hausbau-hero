@@ -109,63 +109,75 @@ export default async function TeilSeite({ params }: Props) {
   ];
   const masse = Object.entries(teil.masse ?? {});
 
+  const zeilen: [string, React.ReactNode][] = [
+    ["Marke", marke.name],
+    ...(teil.oem_nummer ? [["Artikelnummer", <span key="n" className="font-mono font-medium">{teil.oem_nummer}</span>] as [string, React.ReactNode]] : []),
+    ...(teil.ean ? [["EAN", <span key="e" className="font-mono">{teil.ean}</span>] as [string, React.ReactNode]] : []),
+    ...masse.map(([k, v]) => [massName(k), massWert(k, v)] as [string, React.ReactNode]),
+    ...(teil.verschleissteil !== null ? [["Verschleißteil", teil.verschleissteil ? "ja" : "nein"] as [string, React.ReactNode]] : []),
+    ...(teil.preis_spanne ? [["Preis ca.", teil.preis_spanne] as [string, React.ReactNode]] : []),
+  ];
+
   return (
-    <div className="max-w-4xl">
+    <div>
       <JsonLd daten={brotkrumenLd(pfad)} />
       <Brotkrumen teile={[pfad[0], pfad[1], pfad[2], { name: teil.name }]} />
 
-      <div className="text-sm text-stone-500 mb-1">{TEILTYP_LABEL[teil.teiltyp] ?? teil.teiltyp}</div>
-      <h1 className="text-3xl font-bold mb-4">
-        {teil.name}
-        {teil.oem_nummer && <span className="block text-lg font-semibold text-stone-500 mt-1">Originalnummer {teil.oem_nummer}</span>}
-      </h1>
-      {teil.beschreibung && <p className="text-stone-700 mb-6 leading-relaxed">{teil.beschreibung}</p>}
+      <div className="grid gap-x-14 gap-y-10 lg:grid-cols-[minmax(0,1fr)_22rem]">
+        <div className="lg:col-start-1">
+          <p className="ueberzeile">{TEILTYP_LABEL[teil.teiltyp] ?? teil.teiltyp}</p>
+          <h1 className="mt-3 text-[2.25rem] sm:text-5xl leading-[1.1] font-semibold">{teil.name}</h1>
+          {teil.oem_nummer && (
+            <p className="mt-3 inline-flex items-center gap-2 rounded-full bg-stone-100 px-3 py-1 text-sm text-stone-700">
+              Originalnummer <span className="font-mono font-semibold text-stone-900">{teil.oem_nummer}</span>
+            </p>
+          )}
+          {teil.beschreibung && <p className="mt-5 max-w-2xl text-lg text-stone-700 leading-relaxed">{teil.beschreibung}</p>}
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-        <section className="md:col-span-2 p-5 bg-white border border-stone-200 rounded-xl flex flex-col sm:flex-row gap-5">
-          <TeilBild url={teil.bild_url} alt={teil.name} shop={angebote.find((a) => a.shop === teil.bild_shop)?.shop_name ?? null} />
-          <div className="flex-1 min-w-0">
-          <h2 className="text-lg font-bold mb-3">Steckbrief</h2>
-          <dl className="grid grid-cols-[max-content_1fr] gap-x-4 gap-y-2 text-sm">
-            <dt className="text-stone-500">Marke</dt>
-            <dd>{marke.name}</dd>
-            {teil.oem_nummer && (<><dt className="text-stone-500">Artikelnummer</dt><dd className="font-medium">{teil.oem_nummer}</dd></>)}
-            {teil.ean && (<><dt className="text-stone-500">EAN</dt><dd>{teil.ean}</dd></>)}
-            {masse.map(([k, v]) => (
-              <span key={k} className="contents">
-                <dt className="text-stone-500">{massName(k)}</dt>
-                <dd>{massWert(k, v)}</dd>
-              </span>
-            ))}
-            {teil.verschleissteil !== null && (<><dt className="text-stone-500">Verschleißteil</dt><dd>{teil.verschleissteil ? "ja" : "nein"}</dd></>)}
-            {teil.preis_spanne && (<><dt className="text-stone-500">Preis ca.</dt><dd>{teil.preis_spanne}</dd></>)}
-          </dl>
+          <section className="mt-10 grid gap-8 sm:grid-cols-[auto_1fr]">
+            <TeilBild url={teil.bild_url} alt={teil.name} shop={angebote.find((a) => a.shop === teil.bild_shop)?.shop_name ?? null} groesse={200} />
+            <div className="min-w-0">
+              <h2 className="font-sans text-base font-semibold text-stone-900 mb-2">Steckbrief</h2>
+              <dl className="divide-y divide-stone-200 border-y border-stone-200 text-sm">
+                {zeilen.map(([k, v]) => (
+                  <div key={k} className="grid grid-cols-[9rem_1fr] gap-3 py-2.5">
+                    <dt className="text-stone-500">{k}</dt>
+                    <dd className="text-stone-900">{v}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </section>
+        </div>
+
+        <aside className="lg:col-start-2 lg:row-span-2 lg:row-start-1">
+          <div className="lg:sticky lg:top-24">
+            <Angebote teil={teil} angebote={angebote} />
           </div>
-        </section>
-        <Angebote teil={teil} angebote={angebote} />
-      </div>
+        </aside>
 
+        <div className="min-w-0 lg:col-start-1">
       <NeukaufKasten n={neukauf} />
 
-      <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">Passt zu</h2>
+      <section className="mb-12">
+        <h2 className="text-3xl font-semibold leading-tight mb-5">Passt zu</h2>
         {zuordnungen.length === 0 ? (
           <p className="text-sm text-stone-600">Noch keine belegten Zuordnungen erfasst.</p>
         ) : (
-          <ul className="divide-y divide-stone-100 bg-white border border-stone-200 rounded-xl">
+          <ul className="divide-y divide-stone-200 border-y border-stone-200">
             {zuordnungen.map((z) => {
               const s = serieVon.get(z.serie_id);
               if (!s) return null;
               return (
-                <li key={z.serie_id} className="px-4 py-3 text-sm">
+                <li key={z.serie_id} className="py-3.5 text-sm">
                   <div className="flex flex-wrap items-center gap-2">
-                    <a href={`/ersatzteile/${marke.slug}/${s.slug}`} className="font-medium hover:text-amber-700">{s.name}</a>
+                    <a href={`/ersatzteile/${marke.slug}/${s.slug}`} className="font-medium hover:text-accent-700">{s.name}</a>
                     {baujahre(s) && <span className="text-xs text-stone-500">{baujahre(s)}</span>}
                     <SicherheitBadge sicherheit={z.sicherheit} />
                   </div>
                   {z.hinweis && <div className="text-xs text-stone-600 mt-1">{z.hinweis}</div>}
                   {z.quelle_url && (
-                    <a href={z.quelle_url} target="_blank" rel="nofollow noopener noreferrer" className="text-xs text-amber-700 hover:underline">
+                    <a href={z.quelle_url} target="_blank" rel="nofollow noopener noreferrer" className="text-xs text-stone-500 underline decoration-stone-300 underline-offset-2 hover:text-accent-700">
                       Beleg: {hostVon(z.quelle_url)}
                     </a>
                   )}
@@ -177,9 +189,9 @@ export default async function TeilSeite({ params }: Props) {
       </section>
 
       {(teil.selbst_tauschbar !== null || teil.werkzeug || teil.dauer_min) && (
-        <section className="mb-8 p-5 bg-white border border-stone-200 rounded-xl">
-          <h2 className="text-lg font-bold mb-3">Selbst tauschen?</h2>
-          <ul className="text-sm space-y-1">
+        <section className="mb-10">
+          <h2 className="text-2xl font-semibold leading-tight mb-3">Selbst tauschen?</h2>
+          <ul className="text-[0.938rem] space-y-1.5 text-stone-700">
             {teil.selbst_tauschbar !== null && (
               <li><strong>Selbst machbar:</strong> {teil.selbst_tauschbar ? "ja" : "besser vom Installateur"}</li>
             )}
@@ -192,6 +204,8 @@ export default async function TeilSeite({ params }: Props) {
 
       <NummerPruefen />
       <Quellen urls={[...teil.quellen, ...zuordnungen.map((z) => z.quelle_url)]} />
+        </div>
+      </div>
     </div>
   );
 }

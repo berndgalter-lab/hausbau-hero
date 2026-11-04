@@ -90,3 +90,40 @@ export function zerlegeArtikel(html: string, { fragen: mitFragen = false } = {})
     fragen: fragenAus(fragen.inhalt),
   };
 }
+
+export interface Gliederungspunkt {
+  id: string;
+  titel: string;
+}
+
+function ankerAus(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/ß/g, "ss")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 60);
+}
+
+/** Gibt jeder h2 ohne id einen Anker und liefert die Gliederung für das Inhaltsverzeichnis. */
+export function mitAnkern(html: string): { html: string; gliederung: Gliederungspunkt[] } {
+  const gliederung: Gliederungspunkt[] = [];
+  const vergeben = new Set<string>();
+  const neu = html.replace(/<h2([^>]*)>([\s\S]*?)<\/h2>/gi, (m, attr: string, inhalt: string) => {
+    const titel = inhalt.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+    if (!titel) return m;
+    const vorhanden = /\sid="([^"]+)"/i.exec(attr)?.[1];
+    let id = vorhanden ?? (ankerAus(titel) || "abschnitt");
+    if (!vorhanden) {
+      const basis = id;
+      for (let i = 2; vergeben.has(id); i++) id = `${basis}-${i}`;
+    }
+    vergeben.add(id);
+    gliederung.push({ id, titel });
+    return vorhanden ? m : `<h2${attr} id="${id}">${inhalt}</h2>`;
+  });
+  return { html: neu, gliederung };
+}
