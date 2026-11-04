@@ -1,0 +1,202 @@
+[
+ {
+  "sortierung": 1,
+  "name": "GROHE Eurosmart Einhand-Wannenbatterie, Fertigmontageset (24043003)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "24043003",
+  "ean": "4005176613548",
+  "einsatzbereich": "Rapido SmartBox in der Wand, einfacher Einhebelmischer für Wanne und Handbrause",
+  "kurzbeschreibung": "Einhebel-Fertigset für die GROHE Rapido SmartBox: Hebel und runde Rosette aus Metall (158 mm), 46-mm-Kartusche, automatische Umstellung zwischen Wanne und Brause.",
+  "vorteile": [
+   "Passt auf die SmartBox 35 600 und 35 604, die Wand bleibt zu (GROHE)",
+   "Rosette lässt sich nach der Montage um bis zu 6° geradestellen (GROHE)",
+   "Sitzt die Box zu tief, gibt es Verlängerungen mit 25 mm (14056) und 50 mm (14057)"
+  ],
+  "nachteile": [
+   "Kein Thermostat und keine 38-°C-Sperre",
+   "Passt nicht auf den älteren Körper Rapido E; der Vorgänger dafür war 19450002 (GROHE-Übersicht alt/neu)",
+   "Bei Wannenfüllgarnitur zusätzlich die Sicherungseinrichtung 14055 einbauen (EN 1717)",
+   "Bei GROHE nur in Chrom"
+  ],
+  "technische_daten": {
+   "kategorie": "wanne",
+   "bauart": "Einhebel",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "grundkoerper": "GROHE Rapido SmartBox (35 600 / 35 604)",
+   "abgaenge": 2,
+   "umsteller": "automatisch (Wanne/Brause)",
+   "kartusche_mm": 46,
+   "kartusche": "SilkMove, Ersatzteil 46048000",
+   "rosette": "rund, Ø 158 mm",
+   "rueckflusssicherung": "nachrüstbar (GROHE 14055)",
+   "oberflaechen": ["Chrom"]
+  }
+ },
+ {
+  "sortierung": 2,
+  "name": "GROHE Grohtherm Thermostat-Wannenbatterie mit 2-Wege-Umstellung, rund (24077000)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "24077000",
+  "ean": "4005176466007",
+  "einsatzbereich": "Rapido SmartBox in der Wand, Thermostat mit 38-°C-Sperre für Haushalte mit Kindern",
+  "kurzbeschreibung": "Zweigriff-Thermostat für die SmartBox: rechts die Temperatur mit Sperre bei 38 °C, links ein Griff zum Öffnen, Regeln der Menge und Umschalten zwischen Wanne und Brause. Eckig als 24080000.",
+  "vorteile": [
+   "Hält die Temperatur laut GROHE auch bei schwankendem Wasserdruck",
+   "Sperre bei 38 °C, fester Endanschlag bei 43 oder 46 °C einsetzbar",
+   "Mit den Vorabsperrungen 14053 lässt sich die Kartusche warten, ohne das Haus abzusperren"
+  ],
+  "nachteile": [
+   "Empfohlener Fließdruck 1,5 bis 5 bar, Warmwasser mindestens 2 °C wärmer als die eingestellte Temperatur",
+   "Nach jeder Wartung an der Thermostatkartusche neu auf 38 °C justieren (GROHE-Anleitung)",
+   "Passt nicht auf den älteren Körper Rapido T; der Vorgänger dafür war der Grohtherm 1000 19986000",
+   "Bei Wannenfüllgarnitur zusätzlich die Sicherungseinrichtung 14055 einbauen (EN 1717)"
+  ],
+  "technische_daten": {
+   "kategorie": "wanne",
+   "bauart": "Thermostat",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "grundkoerper": "GROHE Rapido SmartBox (35 600 / 35 604)",
+   "abgaenge": 2,
+   "sicherheitssperre_c": 38,
+   "umsteller": "Griff zum Öffnen, Mengeregeln und Umstellen (Aquadimmer)",
+   "kartusche": "TurboStat-Kompaktkartusche 3/4\", Ersatzteil 49028000",
+   "rosette": "rund, Ø 158 mm (eckig: 24080000)",
+   "rueckflusssicherung": "nachrüstbar (GROHE 14055)",
+   "oberflaechen": ["Chrom"]
+  }
+ },
+ {
+  "sortierung": 3,
+  "name": "GROHE Grohtherm SmartControl Thermostat mit 2 Absperrventilen, rund (29119000)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "29119000",
+  "ean": "4005176412257",
+  "einsatzbereich": "Rapido SmartBox in der Wand, Wanneneinlauf und Handbrause sollen auch gleichzeitig laufen",
+  "kurzbeschreibung": "Thermostat mit zwei Druckknöpfen: Drücken öffnet oder schließt Wanneneinlauf und Handbrause, Drehen regelt die Menge. Beide Abgänge können gleichzeitig laufen. Eckig als 29124000.",
+  "vorteile": [
+   "Wanneneinlauf und Handbrause einzeln schaltbar, auch gleichzeitig",
+   "Rückflussverhinderer und Schmutzfangsiebe sind schon eingebaut, eine Verlängerung liegt bei",
+   "Bei GROHE in 13 Oberflächen, darunter Matt Black (291192430)"
+  ],
+  "nachteile": [
+   "GROHE führt das Set als Thermostat mit zwei Ventilen, nicht ausdrücklich als Wannenbatterie. Für die Wannenfüllgarnitur gibt GROHE die Sicherungseinrichtung 14055 frei",
+   "Mindestdurchfluss 5 l/min, empfohlener Fließdruck 1,5 bis 5 bar",
+   "Ventilkartuschen (48359000) und Thermostatkartusche sind zwei Ersatzteile statt einem"
+  ],
+  "technische_daten": {
+   "kategorie": "wanne",
+   "bauart": "Thermostat",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "grundkoerper": "GROHE Rapido SmartBox (35 600 / 35 604)",
+   "abgaenge": 2,
+   "sicherheitssperre_c": 38,
+   "umsteller": "kein Umsteller, zwei Absperrventile (gleichzeitig nutzbar)",
+   "kartusche": "TurboStat 49028000, Ventilkartuschen 48359000",
+   "rosette": "rund, Ø 158 mm (eckig: 29124000)",
+   "rueckflusssicherung": "nachrüstbar (GROHE 14055)",
+   "oberflaechen": ["Chrom", "Matt Black (291192430)", "Hard Graphite", "Hard Graphite gebürstet", "Nickel", "Nickel gebürstet", "Warm Sunset", "Warm Sunset gebürstet", "Supersteel", "Cool Sunrise", "Cool Sunrise gebürstet", "Satin Graphite", "Satin Steel"]
+  }
+ },
+ {
+  "sortierung": 4,
+  "name": "hansgrohe Logis Einhebel-Wannenmischer Unterputz für iBox universal (71405000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "71405000",
+  "ean": "4011097738246",
+  "einsatzbereich": "hansgrohe iBox universal in der Wand, einfacher Einhebelmischer",
+  "kurzbeschreibung": "Einhebelmischer für die iBox mit quadratischer Rosette (155 mm) und einem Umsteller, der beim Zudrehen von selbst auf Wanne zurückspringt. Mit Sicherungskombination nach EN 1717 heißt er 71407000.",
+  "vorteile": [
+   "Passt ohne Adapter auf die erste iBox universal (seit 2001)",
+   "Warmwasserbegrenzung einstellbar",
+   "Auch in Mattschwarz (71405670)"
+  ],
+  "nachteile": [
+   "Auf der iBox universal 2 nur mit der Adapterplatte 13588000",
+   "Diese Nummer hat keine Sicherung gegen Rückfließen. Bei Wannenfüll- und Überlaufgarnitur nimm 71407000",
+   "Am Durchlauferhitzer rät hansgrohe von der Warmwassersperre ab"
+  ],
+  "technische_daten": {
+   "kategorie": "wanne",
+   "bauart": "Einhebel",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "grundkoerper": "hansgrohe iBox universal (iBox universal 2 mit Adapterplatte 13588000)",
+   "abgaenge": 2,
+   "umsteller": "springt beim Zudrehen auf Wanne zurück",
+   "kartusche": "Keramik, Ersatzteil 92730000",
+   "temperaturbegrenzer": "einstellbar",
+   "rosette": "eckig, □ 155 mm",
+   "rueckflusssicherung": "als Variante 71407000",
+   "oberflaechen": ["Chrom", "Mattschwarz (71405670)"]
+  }
+ },
+ {
+  "sortierung": 5,
+  "name": "hansgrohe Vernis Blend Einhebel-Wannenmischer Unterputz mit Sicherungskombination (71467000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "71467000",
+  "ean": "4059625363690",
+  "einsatzbereich": "hansgrohe iBox universal in der Wand, Wanne mit Wannenfüll- und Überlaufgarnitur",
+  "kurzbeschreibung": "Runder Einhebelmischer (150 mm) für die iBox mit eingebauter Sicherungskombination nach EN 1717. Laut hansgrohe für Durchlauferhitzer geeignet.",
+  "vorteile": [
+   "Sicherung gegen Rückfließen nach EN 1717 schon eingebaut",
+   "Laut hansgrohe für Durchlauferhitzer geeignet",
+   "Auch in Mattschwarz (71467670)"
+  ],
+  "nachteile": [
+   "Die Rückflussverhinderer müssen laut Anleitung mindestens einmal im Jahr geprüft werden",
+   "Auf der iBox universal 2 nur mit der Adapterplatte 13588000",
+   "Ohne Sicherungskombination heißt das Set 71466000; beim Kauf auf die Nummer achten"
+  ],
+  "technische_daten": {
+   "kategorie": "wanne",
+   "bauart": "Einhebel",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "grundkoerper": "hansgrohe iBox universal (iBox universal 2 mit Adapterplatte 13588000)",
+   "abgaenge": 2,
+   "umsteller": "springt beim Zudrehen auf Wanne zurück",
+   "kartusche": "Keramik, Ersatzteil 92730000",
+   "rosette": "rund, Ø 150 mm",
+   "rueckflusssicherung": "eingebaut",
+   "durchlauferhitzer": "geeignet",
+   "oberflaechen": ["Chrom", "Mattschwarz (71467670)"]
+  }
+ },
+ {
+  "sortierung": 6,
+  "name": "hansgrohe Ecostat Comfort E Thermostat Unterputz für 2 Verbraucher mit Sicherungskombination (33716000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "33716000",
+  "ean": "4059625624661",
+  "einsatzbereich": "neue hansgrohe iBox universal 2 in der Wand, Thermostat für Wanne und Handbrause",
+  "kurzbeschreibung": "Thermostat für die iBox universal 2 mit eingebauter Sicherungskombination nach EN 1717: Temperatur und Menge getrennt regelbar, Sperre bei 40 °C, eine Höchsttemperatur lässt sich zusätzlich voreinstellen.",
+  "vorteile": [
+   "Sicherung gegen Rückfließen nach EN 1717 schon eingebaut",
+   "Höchsttemperatur voreinstellbar, zum Beispiel 42 °C (hansgrohe)",
+   "Auch in Mattschwarz (33716670)"
+  ],
+  "nachteile": [
+   "Passt nur auf die iBox universal 2. Steckt eine ältere iBox in der Wand, muss der Grundkörper getauscht werden",
+   "Rosette aus Kunststoff, die Griffe sind aus Metall",
+   "Rückflussverhinderer jährlich prüfen; den Thermostat ab und zu ganz auf warm und ganz auf kalt drehen, damit er leichtgängig bleibt"
+  ],
+  "technische_daten": {
+   "kategorie": "wanne",
+   "bauart": "Thermostat",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "grundkoerper": "hansgrohe iBox universal 2",
+   "abgaenge": 2,
+   "sicherheitssperre_c": 40,
+   "umsteller": "Mengengriff für zwei Verbraucher",
+   "kartusche": "Thermostatkartusche, Rückflussverhinderer 94928000",
+   "rosette": "eckig, □ 155 mm, Kunststoff",
+   "rueckflusssicherung": "eingebaut",
+   "oberflaechen": ["Chrom", "Mattschwarz (33716670)"]
+  }
+ }
+]

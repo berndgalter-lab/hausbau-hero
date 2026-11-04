@@ -42,6 +42,7 @@ Das sind dünne Seiten, und davon viele. Genau das wertet Google seit den Update
 7. **Leser-Sprache in allen sichtbaren Feldern.** Was offen oder ungeprüft ist, gehört in `nicht_geprueft` oder ein neues Feld `intern`, nicht in Beschreibungen.
 8. **Affiliate-Hinweis einmal, am Ende**, plus Sternchen an den Shop-Links.
 9. **Unser eigener Vorteil gehört nach oben:** Kompatibilität, Nummern-Verwechslungen, Widersprüche zwischen Händlern. Das hat keine Testseite und kein Shop.
+10. **Keine Seiten je Farbe, Oberfläche oder „die besten X“.** „Waschtischarmatur schwarz“, „weiße Badewannenarmatur“ oder „die 7 besten …“ sind das alte Affiliate-Muster. Farbe und Oberfläche sind eine Frage in der Auswahlhilfe des Ratgebers, was zur Beschichtung wichtig ist, steht als Hinweis unter dieser Frage oder im Erklärteil. Alte Farbseiten leiten auf den Ratgeber weiter. Einen eigenen Ratgeber bekommt nur, was anders funktioniert oder anders eingebaut wird (Niederdruck, Unterputz, Thermostat).
 
 ### Was nach Affiliate-Seite aussieht, gibt es nicht mehr
 
@@ -81,7 +82,7 @@ Im Code durchgesetzt, gilt für alle Seiten (alte Beiträge eingeschlossen):
 
 ## 3. Seitentyp Produkt-Ratgeber (`/ratgeber/<produkt>`)
 
-Vorbild ist womo-teile (`/ratgeber/dieselheizung`): Die Seite beantwortet „Welche passt zu mir?“ mit einer Auswahlhilfe, nicht mit einer Liste „Die besten …“. Im neuen Aufbau: `/ratgeber/waschtischarmatur`, `/ratgeber/niederdruckarmatur`, `/ratgeber/waschtischarmatur-mit-brause`, `/ratgeber/badewannenarmatur`.
+Vorbild ist womo-teile (`/ratgeber/dieselheizung`): Die Seite beantwortet „Welche passt zu mir?“ mit einer Auswahlhilfe, nicht mit einer Liste „Die besten …“. Im neuen Aufbau: `/ratgeber/waschtischarmatur`, `/ratgeber/niederdruckarmatur`, `/ratgeber/waschtischarmatur-mit-brause`, `/ratgeber/badewannenarmatur`, `/ratgeber/badewannenarmatur-unterputz`, `/ratgeber/duschthermostat`.
 
 ### URL-Schema
 
@@ -219,6 +220,59 @@ Jede neue Marke wird gegen diesen Katalog recherchiert. Was zur Marke passt und 
 **Für alle Marken**
 - Wie lange gibt es Ersatzteile, wie lange gilt die Garantie?
 - Wo kaufe ich Originalteile, verkauft der Hersteller direkt?
+
+## 4b. Seitentyp Teileart (`/ersatzteile/<teilart>`)
+
+Ein Teil, das in vielen Marken steckt, markenübergreifend erklärt: Eckventil, Perlator, Kartusche, Siphon, Ablaufgarnitur, Füllventil, WC-Sitz-Befestigung … Die Reihenfolge der Seiten steht in `docs/KEYWORDS-SANITAER.md`.
+
+**Daten:** `data/teilarten/<slug>.json`, eingetragen in `src/lib/teilarten.ts` (Zeile `import <name> from "../../data/teilarten/<slug>.json";` und in die Liste `TEILARTEN`). Kein Import in die Datenbank, die Seite liest die Datei beim Bauen. Unsere Teile und Shop-Preise kommen weiter aus der Datenbank.
+
+```json
+{
+  "slug": "eckventil", "name": "Eckventil", "mehrzahl": "Eckventile", "genus": "n",
+  "titel": "Eckventil: welche Größe passt?", "seo_title": "…", "seo_description": "…",
+  "kurz": "2–3 Sätze. Leerzeile = neuer Absatz.",
+  "bereiche": ["wasseranschluss", "waschtisch"],
+  "teiltypen": ["eckventil"],
+  "erkennen": [{"titel": "Anschluss an der Wand messen", "text": "…"}],
+  "groessen": {"titel": "Gängige Größen", "spalten": ["Anschluss", "Abgang", "Typisch für"], "zeilen": [["1/2\"", "3/8\"", "Waschtisch"]], "hinweis": "…"},
+  "produkte": [{"name": "…", "hersteller": "…", "ean": "…", "amazon_asin": "…", "hinweis": "…"}],
+  "probleme": ["wasserhahn-tropft"],
+  "fragen": [{"frage": "…?", "antwort": "…", "kategorie": "kompatibilitaet", "quellen": ["url"], "teile": [], "problem": null}],
+  "quellen": ["url"]
+}
+```
+
+- **Reihenfolge auf der Seite:** Titel, kurze Antwort, Sprungmarken, „So findest du den/die/das passende …“ (Schritte), Größentabelle, passende Produkte mit Bild und Preis, unsere Originalteile nach Marke, Probleme, Fragen, Link zum Bereich, Quellen eingeklappt.
+- **genus** (`m`/`f`/`n`) steuert „den passenden Perlator“, „die passende Kartusche“, „das passende Eckventil“.
+- **Produkte:** nur mit EAN (für Bild und Preis aus `ean_angebote`) oder geprüfter ASIN der Produktseite. Ohne Preis und ohne ASIN erscheint ein Produkt nicht.
+- **Fragen** nach den Regeln aus 4a: vorher in Foren recherchieren (gutefrage, haustechnikdialog, bauexpertenforum, Google „Ähnliche Fragen“), nur belegte Antworten. Rohdaten nach `data/recherche/fragen/<slug>.json`.
+- **Kein Marken-Slug** darf wie eine Teileart heißen, die Route `/ersatzteile/[marke]` prüft zuerst die Teileart. Das Prüfskript lehnt Doppelungen ab.
+
+## 4c. Seitentyp Problem für alle Marken (`/problem/<slug>`)
+
+„Spülkasten läuft nach“, „Wasserhahn tropft“, „Spülung löst nicht aus“: markenübergreifend, mit Links zu den Varianten je Marke (Tabelle `probleme`). Die Markenvariante verlinkt zurück („Für alle Marken: …“).
+
+**Daten:** `data/probleme/<slug>.json`, eingetragen in `src/lib/probleme-allgemein.ts` wie oben.
+
+```json
+{
+  "slug": "spuelkasten-laeuft-nach", "titel": "Spülkasten läuft nach", "seo_title": "…", "seo_description": "…",
+  "symptom": "1–2 Sätze, woran man es erkennt.", "bereich": "wc-spuelkasten",
+  "ursachen": [{"ursache": "Dichtung am Spülventil verschlissen", "erklaerung": "2–4 Sätze", "haeufigkeit": "häufig", "teilart": "spuelkasten"}],
+  "pruefen": ["Schritt 1", "Schritt 2"],
+  "fachbetrieb_ab": "…",
+  "marken_probleme": ["geberit-spuelkasten-laeuft-nach", "ideal-standard-spuelkasten-laeuft-nach"],
+  "fragen": [ … wie oben … ],
+  "quellen": ["url"]
+}
+```
+
+- **Slug** nach dem häufigsten Suchwort („wasserhahn-tropft“, nicht „armatur-tropft“).
+- **Reihenfolge:** Titel, Symptom, Ursachen nach Häufigkeit (mit Link zur Teileart), Prüfschritte, Grenze zum Installateur, Varianten nach Marke, Fragen, Neukauf-Hinweis, Bereich, Quellen.
+- Die Startseite verlinkt „Etwas funktioniert nicht“ auf diese Seiten, sobald es sie gibt (`HAEUFIG` in `src/app/page.tsx`), vorher auf den Bereich.
+
+**Bereiche:** Ein Bereich erscheint erst, wenn er Inhalt hat (Modelle, Ratgeber, Teilearten oder Probleme). „Wasseranschluss & Leitung“ ist angelegt und wird sichtbar, sobald die erste Teileart (Eckventil) oder das erste Problem dort steht.
 
 ## 5. Seitentyp Serie (`/ersatzteile/<marke>/<serie>`)
 

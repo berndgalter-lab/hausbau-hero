@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { BereichKachel, RatgeberKarten } from "@/components/Bereich";
-import { BEREICHE } from "@/lib/bereiche";
-import { ratgeberKarten } from "@/lib/bereiche-daten";
+import { ratgeberKarten, sichtbareBereiche } from "@/lib/bereiche-daten";
+import { problemAllgemeinNachSlug } from "@/lib/probleme-allgemein";
 import { alleMarken } from "@/lib/ersatzteile";
 
 export const revalidate = 300;
@@ -14,12 +14,13 @@ export const metadata: Metadata = {
 };
 
 // Schnellwege aus dem Kopf: das Symptom, wie man es sagt, und der Bereich, in dem es gelöst wird.
+// Gibt es die markenübergreifende Problemseite, führt der Link dorthin, sonst in den Bereich.
 const HAEUFIG = [
-  { text: "Armatur tropft", href: "/bereich/waschtisch" },
-  { text: "Spülkasten läuft nach", href: "/bereich/wc-spuelkasten" },
-  { text: "Thermostat wird nicht warm", href: "/bereich/dusche-badewanne" },
-  { text: "Spüle dichtet nicht", href: "/bereich/kueche" },
-];
+  { text: "Wasserhahn tropft", problem: "wasserhahn-tropft", bereich: "waschtisch" },
+  { text: "Spülkasten läuft nach", problem: "spuelkasten-laeuft-nach", bereich: "wc-spuelkasten" },
+  { text: "Thermostat wird nicht warm", problem: "thermostat-wird-nicht-warm", bereich: "dusche-badewanne" },
+  { text: "Spüle dichtet nicht", problem: "spuele-dichtet-nicht", bereich: "kueche" },
+].map((h) => ({ text: h.text, href: problemAllgemeinNachSlug(h.problem) ? `/problem/${h.problem}` : `/bereich/${h.bereich}` }));
 
 const RATGEBER_START = [
   "waschtischarmatur-ratgeber",
@@ -39,9 +40,10 @@ const RECHNER = [
 // Startseite nach dem Muster von womo-teile (docs/SEITENAUFBAU.md, Abschnitt 2a): oben zwei Einstiege
 // (Nummer suchen, Problem), dann die Bereiche im Haus, Marken, Ratgeber zum Neukauf und Rechner.
 export default async function Home() {
-  const [marken, ratgeber] = await Promise.all([
+  const [marken, ratgeber, bereiche] = await Promise.all([
     alleMarken().catch(() => []),
     ratgeberKarten(RATGEBER_START).catch(() => []),
+    sichtbareBereiche(),
   ]);
 
   return (
@@ -97,8 +99,8 @@ export default async function Home() {
       <section className="mt-12 mb-12">
         <h2 className="text-2xl font-bold mb-1">Wo ist das Problem?</h2>
         <p className="text-stone-600 mb-5">Wähle die Stelle im Haus. Dort stehen Probleme, Teile und Marken.</p>
-        <div className="grid grid-cols-2 lg:grid-cols-5 gap-3">
-          {BEREICHE.map((b) => (
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {bereiche.map((b) => (
             <BereichKachel key={b.slug} b={b} />
           ))}
         </div>
