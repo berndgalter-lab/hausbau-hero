@@ -71,7 +71,7 @@ export const BEREICHE: Bereich[] = [
     kurz: "Spülkasten läuft nach, füllt nicht, Taste hängt.",
     einleitung:
       "Am Spülkasten sind es zwei Teile: das Füllventil, wenn er nicht oder nur langsam füllt, und das Spülventil mit Dichtung, wenn Wasser nachläuft. Welche passen, hängt an Hersteller und Baujahr des Spülkastens.",
-    produkttypen: ["spuelkasten", "betaetigungsplatte"],
+    produkttypen: ["spuelkasten", "betaetigungsplatte", "druckspueler"],
     teiltypen: ["fuellventil", "spuelventil", "betaetigungsplatte", "umbauset", "dichtung"],
     probleme: /spuelkasten|spuelung/,
     ratgeber: ["geberit-sigma-drueckerplatte", "vorwandelement-wc", "vorwandelement-wc-hoehe", "tece-vs-geberit"],
@@ -106,9 +106,9 @@ export const BEREICHE: Bereich[] = [
     kurz: "Eckventil undicht, Wasserdruck zu hoch, Ventil klemmt.",
     einleitung:
       "Zwischen Wasserleitung und Armatur sitzen Teile, an die man selten denkt: das Eckventil unter dem Waschbecken, das Geräteventil für die Waschmaschine und der Druckminderer am Hausanschluss. Geht eines davon kaputt, ist meist die Größe des Anschlusses die wichtigste Frage.",
-    produkttypen: [],
-    teiltypen: [],
-    probleme: /eckventil|druckminderer|wasserdruck/,
+    produkttypen: ["eckventil", "geraeteventil", "aussenventil"],
+    teiltypen: ["eckventil", "geraeteventil", "oberteil", "filter"],
+    probleme: /eckventil|geraeteventil|aussenventil|druckminderer|wasserdruck/,
     ratgeber: ["druckminderer"],
   },
   {
@@ -138,6 +138,10 @@ export const TEILTYP_SUCHWORT: Record<string, string> = {
   umbauset: "Umbau",
   ablaufgarnitur: "Ablaufgarnitur",
   siebkoerbchen: "Siebkörbchen",
+  eckventil: "Eckventil",
+  geraeteventil: "Geräteventil",
+  oberteil: "Oberteil",
+  filter: "Filter",
 };
 
 /** Passt ein Teil in Serien mehrerer Bereiche, zählt der Bereich mit den meisten Serien. */
