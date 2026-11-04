@@ -1,0 +1,222 @@
+{
+  "slug": "dachfenster-dichtung",
+  "name": "Dachfenster-Dichtung",
+  "mehrzahl": "Dichtungen und Pflegeteile",
+  "genus": "f",
+  "titel": "Dachfenster-Dichtung, Filter und Pflege-Set: was passt zu meinem Fenster?",
+  "seo_title": "Dachfenster-Dichtung, Lüftungsfilter, Pflege-Set ZZZ 220: was passt?",
+  "seo_description": "VELUX-Dichtung tauschen, Filter der Lüftungsklappe wechseln, Scharniere fetten: welches Pflege-Set (ZZZ 220 oder 220K) zu welcher Fenstergeneration passt, wie du den Flügel aushängst und wann es keine Teile mehr gibt.",
+  "kurz": "Am Dachfenster verschleißen drei Dinge: die Gummidichtungen zwischen Flügel und Rahmen, die Schaumdichtung an der Lüftungsklappe und der Luftfilter darin. Dazu brauchen die Scharniere alle paar Jahre Fett. Filter, Schaumdichtung und Fett gibt es bei VELUX zusammen im Pflege-Set, die Gummidichtungen einzeln.\n\nWelches Set passt, entscheidet die Generation: Steht im Größencode ein K (MK04, SK06), ist das Fenster ab Mai 2013 gebaut und braucht das ZZZ 220K. Ohne K (M04, S06) passt das ZZZ 220.",
+  "bereiche": ["dachfenster"],
+  "teiltypen": ["dichtung", "pflege"],
+  "erkennen": [
+    {
+      "titel": "Typenschild lesen",
+      "text": "Öffne das Fenster. Das Typenschild sitzt bei VELUX rechts oder links hinter der Griffleiste und nennt Fenstertyp (zum Beispiel GGL, GPU), Größe und Produktionscode. Ein K in der Größe (MK04) heißt: gebaut ab Mai 2013. Ohne K (M04) stammt das Fenster aus der Zeit bis April 2013."
+    },
+    {
+      "titel": "Welche Dichtung ist es?",
+      "text": "Die Gummidichtungen sitzen rundum zwischen Flügel und Blendrahmen, in eine Nut gedrückt und meist mit Metallklammern gehalten. Die Schaumdichtung klebt unter der Lüftungsklappe in der Griffleiste, dahinter liegt der Luftfilter als Streifen. Zieht es oder ist der Rahmen nass, prüf zuerst, ob die Gummidichtung rundum anliegt oder gerissen, hart oder plattgedrückt ist."
+    },
+    {
+      "titel": "Pflege-Set nach Generation wählen",
+      "text": "Das VELUX-Kombi-Pflege-Set enthält Scharnierfett, 3 m Luftfilter und 3 m Schaumdichtung und reicht je nach Fenstergröße für 2 bis 5 Fenster. ZZZ 220K ist für die Größen CK02 bis UK10 (ab 2013) und hat zusätzlich ein Werkzeug zum Entsichern der Lüftungsklappe. ZZZ 220 passt zu C02 bis U10 und zu den alten Zahlen- und Y-Codes."
+    },
+    {
+      "titel": "Gummidichtung tauschen: Flügel aushängen",
+      "text": "Für die Dichtungen zwischen Flügel und Rahmen muss der Flügel meist heraus, wegen des Gewichts zu zweit. Beim Schwingfenster (GGL, GGU) haben die Scharniere eine Schraube oder einen Druckknopf, den du mit einem Schraubendreher eindrückst. Beim Klapp-Schwingfenster (GPL, GPU) entspannst du vorher die Federn. Beim Einhängen rastet der Druckknopf beim Schließen von selbst wieder ein."
+    },
+    {
+      "titel": "Roto: nach Baureihe und Einbausituation",
+      "text": "Roto verkauft Flügeldichtungen als Satz, abhängig von Baureihe und Einbausituation des Fensters, die auf dem Typenschild stehen. Roto-Dichtungen pflegst du mit Silikonspray oder Dichtungspflegemittel und streichst sie nie mit Farbe über."
+    }
+  ],
+  "groessen": {
+    "titel": "Welches Pflege-Set zu welchem VELUX-Fenster?",
+    "spalten": ["Größencode auf dem Typenschild", "gebaut", "Pflege-Set"],
+    "zeilen": [
+      ["CK02 bis UK10 (mit K, z. B. MK04)", "ab Mai 2013", "ZZZ 220K"],
+      ["C02 bis U10 (ohne K, z. B. M04)", "bis April 2013", "ZZZ 220"],
+      ["102 bis 810, 021 bis 147, Y21 bis Y99", "ältere Fenster", "ZZZ 220"]
+    ],
+    "hinweis": "Für Fenster, die vor 2000 gebaut wurden, liefert VELUX keine Ersatzteile mehr, auch keine Dichtungen. Filter und Schaumdichtung aus dem Pflege-Set werden auf Länge geschnitten."
+  },
+  "produkte": [
+    {
+      "name": "VELUX Kombi-Pflege-Set ZZZ 220K",
+      "hersteller": "VELUX",
+      "amazon_asin": "B00N33EXN6",
+      "hinweis": "Für Fenster ab Mai 2013 (Größen mit K, CK02 bis UK10). Scharnierfett, Luftfilter, Schaumdichtung, Entsicherungswerkzeug."
+    },
+    {
+      "name": "VELUX Kombi-Pflege-Set ZZZ 220",
+      "hersteller": "VELUX",
+      "amazon_asin": "B00N33F1ZA",
+      "hinweis": "Für Fenster bis April 2013 (C02 bis U10) und ältere Codes."
+    },
+    {
+      "name": "VELUX Scharnierfett, Tube 30 g",
+      "hersteller": "VELUX",
+      "amazon_asin": "B09HVNSZPK",
+      "hinweis": "Nur Fett, wenn Filter und Schaumdichtung noch gut sind."
+    },
+    {
+      "name": "VELUX Schaumdichtung für die Lüftungsklappe, 44 mm, Holzfenster",
+      "hersteller": "VELUX",
+      "amazon_asin": "B00EV0JRD6",
+      "hinweis": "Meterware für die Lüftungsklappe von Holzfenstern."
+    },
+    {
+      "name": "Roto Flügeldichtungssatz 61/62/84H",
+      "hersteller": "Roto",
+      "amazon_asin": "B08ZSVBCDS",
+      "hinweis": "Obere und untere Flügeldichtung für Roto-Fenster dieser Einbausituation. Mit Typenschild und alter Dichtung vergleichen."
+    }
+  ],
+  "probleme": ["dachfenster-undicht", "dachfenster-klemmt"],
+  "fragen": [
+    {
+      "frage": "Kann man die Dichtungen am VELUX-Dachfenster einzeln kaufen und selbst tauschen?",
+      "antwort": "Ja. Die Dichtungen zwischen Flügel und Blendrahmen gibt es laut VELUX als Ersatzteil zum Selbsteinbau. Sie sind in eine Nut gedrückt und meist mit Metallklammern befestigt, du brauchst Schraubendreher, Hammer und Tacker. Meist musst du dafür den Flügel aushängen, wegen des Gewichts zu zweit.",
+      "kategorie": "bezug",
+      "quellen": [
+        "https://www.velux.de/faq?category=b51a9b6e-192b-496b-9a65-bca8822126fb&gem=99f22f85-2f2f-4b3e-ae30-8c87489b53b0",
+        "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=66b85fe4-9796-4226-989d-1e8d158a96ee"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welche Generation hat mein VELUX-Fenster?",
+      "antwort": "Das Typenschild sitzt bei geöffnetem Fenster rechts oder links hinter der Griffleiste. Steht in der Größe ein K (zum Beispiel MK04, SK06), ist das Fenster ab Mai 2013 gebaut. Größen ohne K (M04, S06) stammen aus der Produktion bis April 2013. Danach richten sich Anleitung, Pflege-Set und Ersatzteile.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://www.velux.de/service/dachfenster-bedienung-pflege-wartung",
+        "https://contenthub.velux.com/api/public/content/product-guide_453273"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Was ist im VELUX-Pflege-Set ZZZ 220 drin, und brauche ich ZZZ 220 oder ZZZ 220K?",
+      "antwort": "Beide enthalten Scharnierfett, 3 m Luftfilter und 3 m Schaumdichtung für die Lüftungsklappe, genug für 2 bis 5 Fenster. ZZZ 220K ist für die Größen CK02 bis UK10 (Fenster ab 2013) und hat zusätzlich ein Werkzeug zum Entsichern der Lüftungsklappe. ZZZ 220 passt zu C02 bis U10 und älteren Codes. Bei der Fettmenge im 220K nennen Händler 30 g oder 50 g.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.obi.de/p/1302579/velux-kombi-pflege-set-220k",
+        "https://www.obi.de/p/1302561/velux-kombi-pflege-set-zzz-220",
+        "https://benz24.de/velux-kombi-pflege-set-zzz-220k.html"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie oft muss ich ein VELUX-Dachfenster warten und die Scharniere fetten?",
+      "antwort": "VELUX empfiehlt eine jährliche Sichtprüfung von Fenster und Rollladen. Laut den Anleitungen für GGU, GGL, GPU und GPL der aktuellen Generation schmierst du die gezeigten Beschläge alle fünf Jahre oder bei Bedarf. Den Luftfilter reinigst du bei Bedarf und tauschst ihn, wenn er verschmutzt ist.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.velux.de/faq?category=2f3bc86b-eee5-4398-8604-c8712027dfa9&gem=e47d0692-eaf5-40a2-bef8-f447fa33c13a",
+        "https://contenthub.velux.com/api/public/content/product-guide_453273",
+        "https://contenthub.velux.com/api/public/content/product-guide_453275"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Die Schaumdichtung an der Lüftungsklappe ist kaputt. Wie tausche ich sie?",
+      "antwort": "Die Schaumdichtung steckt im Pflege-Set ZZZ 220 oder 220K. Zum Tausch drückst du die beiden Haken am Flügel nach innen, hebelst die Klappe mit dem Kunststoffwerkzeug aus und löst die zwei Schrauben. Dann ziehst du die alte Dichtung mit einem Spachtel ab und klebst die auf Länge geschnittene neue auf.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.velux.de/faq?category=b51a9b6e-192b-496b-9a65-bca8822126fb&gem=ca478373-a221-48f6-b28a-45c52a61d54f",
+        "https://cdn.pressebox.de/a/eda4aeffe84a5e36/attachments/0679505.attachment/filename/velux_inspektion_140625.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie reinige oder wechsle ich den Luftfilter in der Lüftungsklappe?",
+      "antwort": "Schwenk das Fenster in die Putzstellung und stell es mit dem Riegel fest. Dann nimmst du den Filterstreifen aus der Filterleiste und reinigst ihn mit einem normalen Reinigungsmittel. Einen neuen Filterstreifen aus dem Pflege-Set kürzt du auf Länge und setzt ihn in den Lüftungsschlitz.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://contenthub.velux.com/api/public/content/product-guide_453273",
+        "https://cdn.pressebox.de/a/eda4aeffe84a5e36/attachments/0679505.attachment/filename/velux_inspektion_140625.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie hänge ich den Flügel eines VELUX-Fensters aus, um die Dichtung zu wechseln?",
+      "antwort": "Beim Klapp-Schwingfenster (GPL, GPU) entspannst du zuerst die Federn, je nach Ausführung über rote Kunststoffteile, die Gleitteile oder die Kupplungsplatte. Danach hat das Scharnier eine Schraube oder einen Druckknopf. Den Druckknopf drückst du mit einem Schraubendreher ein und hebst den Flügel heraus. Beim Einhängen rastet er beim Schließen von selbst aus. Du brauchst eine zweite Person.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://contenthub.velux.com/api/public/content/product-guide_450525",
+        "https://www.velux.de/faq?category=b51a9b6e-192b-496b-9a65-bca8822126fb&gem=46928b6c-fd9a-4736-ac43-e021bc9558f1"
+      ],
+      "teile": [],
+      "problem": "dachfenster-klemmt"
+    },
+    {
+      "frage": "Wie pflege ich die Dichtungen, damit das Fenster im Winter dicht bleibt und nicht festfriert?",
+      "antwort": "VELUX rät, die Dichtungen an Rahmen und Flügel mit einem feuchten Tuch zu reinigen, bei starker Verschmutzung mit etwas Spülmittel, und sie mit Silikonspray geschmeidig zu halten. Das Silikon darf nicht auf die Scheibe. Streich die Dichtungen nie mit Farbe über, sonst dichten sie laut Roto nicht mehr.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.velux.de/faq?category=2f3bc86b-eee5-4398-8604-c8712027dfa9&gem=7ed32ba8-2873-425f-ad38-78b565d451a2",
+        "https://contenthub.velux.com/api/public/content/product-guide_453273",
+        "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/operating-and-maintenance-instructions/designo/roof-window-designo-r8.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Gibt es für ein sehr altes VELUX-Fenster noch Dichtungen?",
+      "antwort": "VELUX liefert Ersatzteile mindestens 20 Jahre nach Produktionsende. Für Fenster, die vor 2000 gebaut wurden, gibt es keine Ersatzteile mehr, für die Typen VL, VK, VG und VX von vor März 2001 auch keine Reparatur. Bei Fenstern über 20 Jahren prüft der Servicetechniker vor Ort, ob sich eine Reparatur noch lohnt.",
+      "kategorie": "verfuegbarkeit",
+      "quellen": [
+        "https://www.velux.de/faq?category=b51a9b6e-192b-496b-9a65-bca8822126fb&gem=d5f913d4-4d09-4ab0-92f1-35db634f808b",
+        "https://www.velux.de/faq?category=b51a9b6e-192b-496b-9a65-bca8822126fb&gem=c3251491-219c-44b1-aeb4-2af00d250a48"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Was kostet eine Wartung durch den VELUX-Kundendienst?",
+      "antwort": "Laut VELUX ab 84 € pro Fenster plus 115 € Anfahrt, inklusive Mehrwertsteuer. Geprüft werden alle Funktionen und die Lüftungsklappe, der Luftfilter wird erneuert, die Dichtung der Klappe bei Bedarf, der Eindeckrahmen gereinigt. Für Fenster aus dem Jahr 2000 oder älter bietet VELUX die Wartung nicht mehr an.",
+      "kategorie": "bezug",
+      "quellen": [
+        "https://www.velux.de/service/kundendienst",
+        "https://contenthub.velux.com/api/public/content/4b1f0-2a213-40401_downloadOriginal"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie pflege ich Dichtung und Beschläge an einem Roto-Dachfenster?",
+      "antwort": "Roto empfiehlt, Fenster und Ausstattung ein- bis zweimal im Jahr nach der Bedienungsanleitung zu warten. Für das Klapp-Schwingfenster R8 nennt die Anleitung einmal jährlich einen Tropfen säurefreies Öl, zum Beispiel Nähmaschinenöl, an den gezeigten Stellen. Die Dichtungen pflegst du mit Silikonspray oder Dichtungspflegemittel.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.roto-frank.com/de/dst/pflege-und-wartung",
+        "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/operating-and-maintenance-instructions/designo/roof-window-designo-r8.pdf",
+        "https://www.roto-frank.com/de-ch/dst/blog/dachfenster-kaelteschutz"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://www.velux.de/service/dachfenster-bedienung-pflege-wartung",
+    "https://www.velux.de/service/kundendienst",
+    "https://contenthub.velux.com/api/public/content/product-guide_453273",
+    "https://contenthub.velux.com/api/public/content/product-guide_453275",
+    "https://contenthub.velux.com/api/public/content/product-guide_450525",
+    "https://contenthub.velux.com/api/public/content/4b1f0-2a213-40401_downloadOriginal",
+    "https://www.velux.de/faq?category=b51a9b6e-192b-496b-9a65-bca8822126fb&gem=99f22f85-2f2f-4b3e-ae30-8c87489b53b0",
+    "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=66b85fe4-9796-4226-989d-1e8d158a96ee",
+    "https://www.velux.de/faq?category=b51a9b6e-192b-496b-9a65-bca8822126fb&gem=ca478373-a221-48f6-b28a-45c52a61d54f",
+    "https://www.velux.de/faq?category=2f3bc86b-eee5-4398-8604-c8712027dfa9&gem=7ed32ba8-2873-425f-ad38-78b565d451a2",
+    "https://www.velux.de/faq?category=b51a9b6e-192b-496b-9a65-bca8822126fb&gem=d5f913d4-4d09-4ab0-92f1-35db634f808b",
+    "https://cdn.pressebox.de/a/eda4aeffe84a5e36/attachments/0679505.attachment/filename/velux_inspektion_140625.pdf",
+    "https://www.obi.de/p/1302579/velux-kombi-pflege-set-220k",
+    "https://www.obi.de/p/1302561/velux-kombi-pflege-set-zzz-220",
+    "https://www.roto-frank.com/de/dst/pflege-und-wartung",
+    "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/operating-and-maintenance-instructions/designo/roof-window-designo-r8.pdf"
+  ]
+}

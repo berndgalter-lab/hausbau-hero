@@ -8,6 +8,11 @@ export interface Verweis {
 }
 
 const VERWEISE: Record<string, Verweis[]> = {
+  "dachfenster-sonnenschutz": [
+    { href: "/problem/dachfenster-rollladen-reagiert-nicht", titel: "Solar-Rollladen reagiert nicht: Akku, Funk, Reset", art: "problem" },
+    { href: "/problem/dachfenster-undicht", titel: "Dachfenster undicht, tropft oder zieht", art: "problem" },
+    { href: "/problem/dachfenster-klemmt", titel: "Dachfenster klemmt oder bleibt nicht offen", art: "problem" },
+  ],
   "geberit-sigma-drueckerplatte": [
     { href: "/ersatzteile/geberit", titel: "Geberit Ersatzteile nach Spülkasten-Typ", art: "marke" },
     { href: "/ersatzteile/geberit/up320-sigma-12", titel: "Ersatzteile für Spülkasten UP320 (Sigma, 12 cm)", art: "serie" },

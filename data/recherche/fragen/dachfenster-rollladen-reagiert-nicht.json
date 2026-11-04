@@ -1,0 +1,437 @@
+{
+  "thema": "Dachfenster-Rollladen, Solarfenster oder Elektrofenster reagiert nicht auf Fernbedienung oder Funk-Wandschalter (VELUX INTEGRA Solar/Elektro, kurz Roto und FAKRO)",
+  "stand": "2026-11-04",
+  "fragen": [
+    {
+      "frage": "Mein VELUX Solar-Rollladen reagiert nicht mehr auf den Wandschalter. Was kann ich selbst prüfen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 6,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wieso-laesst-sich-mein-velux-solarrollladen-nicht-mehr-bewegen-und-kann-man-da-ohne-monteur-etwas-machen",
+        "https://www.gutefrage.net/frage/velux-rolladen-funktioniert-nicht",
+        "https://www.gutefrage.net/frage/velux-rollladen-faehrt-nicht-mehr-herunter--was-tun",
+        "https://www.mikrocontroller.net/topic/534723",
+        "https://www.smarthomeassistent.de/velux-ssl-solar-rollladen-akkutausch-nach-6-jahren/",
+        "https://www.gutefrage.net/frage/rolladen-velux"
+      ],
+      "antwort": "Erst die Batterien im Funk-Wandschalter tauschen (KLI 313: 2 x AAA, halten bis zu 1 Jahr). Dann die Solarzelle oben am Rollladen ansehen: VELUX nennt Verschmutzung, Schäden und lange Verschattung durch Dachüberstand, Bäume, Laub oder Schnee als Ursache. Fährt der Rollladen nach Sonne wieder ein paar Mal und bleibt dann stehen, ist meist der Akku verbraucht (erwartete Lebensdauer bis 10 Jahre). Erst danach Reset und neu anlernen.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/0f677-a6472-6949a_downloadOriginal",
+        "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=f0dff869-76c3-4f2c-8b28-22d1302ec3d5",
+        "https://www.mikrocontroller.net/topic/534723",
+        "https://www.gutefrage.net/frage/velux-rollladen-faehrt-nicht-mehr-herunter--was-tun"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Wie mache ich einen Reset am VELUX Solar-Rollladen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/neueinstellung-von-velux-rollladen.143875/",
+        "https://www.gutefrage.net/frage/warum-funktioniert-meine-velux-bedienung-nicht",
+        "https://www.gutefrage.net/frage/velux--rollade-reagiert-nicht-mehr"
+      ],
+      "antwort": "Der Reset-Knopf sitzt außen am Topkasten; du nimmst die Abdeckung auf der Seite der Solarzelle ab. Beim Modular Motor (ohne EIN/AUS-Schalter) hältst du den Knopf 10 Sekunden, beim älteren Motor mit Schalter stellst du den Schalter auf EIN und drückst den P-Knopf 10 Sekunden. Der Rollladen fährt dann kurz auf und ab. Danach hast du 10 Minuten Zeit, ihn am Wandschalter anzumelden.",
+      "antwort_quellen": [
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=1bddbf76-597c-4659-8f11-586340fd5201",
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=d62c95ae-175e-4faa-83e3-2d594bf4b303",
+        "https://ersatzteile.veluxshop.de/-/media/spareparts/product%20pdf/velux-anleitung-rollladen-austausch-motor-solarzelle-v22.pdf",
+        "https://www.velux.co.uk/get-started/touch-support/installation-and-setup-of-velux-touch/nocontrol"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Wie lerne ich den Funk-Wandschalter KLI 313 (oder KLI 310) neu an den Rollladen an?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/warum-funktioniert-meine-velux-bedienung-nicht",
+        "https://www.bauexpertenforum.de/threads/neueinstellung-von-velux-rollladen.143875/",
+        "https://www.mikrocontroller.net/topic/534723",
+        "https://www.gutefrage.net/frage/velux--rollade-reagiert-nicht-mehr"
+      ],
+      "antwort": "Zuerst den Rollladen zurücksetzen (Reset-/P-Knopf am Motor 10 Sekunden). Dann innerhalb von 10 Minuten den PAIR-Knopf auf der Unterseite des KLI mit einer Büroklammer 1 Sekunde drücken. Zum Schluss STOP und gleich danach RUNTER drücken: Der Rollladen fährt bis in beide Endlagen und speichert sie. Willst du vorher alte Produkte aus dem KLI löschen: erst GEAR-Knopf (Zahnrad) 1 Sekunde, dann PAIR-Knopf 1 Sekunde.",
+      "antwort_quellen": [
+        "https://ersatzteile.veluxshop.de/-/media/spareparts/product%20pdf/velux-anleitung-rollladen-austausch-motor-solarzelle-v22.pdf",
+        "https://www.velux.de/faq?category=6506ed64-9288-4bbf-8fbe-eea4acecf280&gem=a6e7d5df-8428-4465-aeb9-e7e2f4b7c03c",
+        "https://www.velux.de/faq?category=6506ed64-9288-4bbf-8fbe-eea4acecf280&gem=48960354-8db5-475a-95ba-0358302ca668"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Ich habe eine neue Fernbedienung, aber sie findet Fenster und Rollladen nicht, weil die noch an der alten hängen. Was tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/warum-funktioniert-meine-velux-bedienung-nicht",
+        "https://www.mikrocontroller.net/topic/477737"
+      ],
+      "antwort": "Alte Kopplungen blockieren neue. Du setzt deshalb jedes Produkt einzeln zurück: am Solarfenster und Elektrofenster den Reset-Knopf am Fenstermotor, am Solar-Rollladen den Reset-Knopf am Topkasten, bei Elektro-Rollläden den Reset an der Steuereinheit KUX 110 oder am Fenstermotor, an den sie angeschlossen sind. Danach meldest du die Produkte am neuen Schalter oder Control Pad an. Ältere Fernbedienungen haben eigene Abläufe; die Anleitungen schickt VELUX auf Anfrage zu.",
+      "antwort_quellen": [
+        "https://www.velux.co.uk/get-started/touch-support/installation-and-setup-of-velux-touch/nocontrol",
+        "https://www.velux.de/fachkunden/faq?category=26572643-0da5-4170-b093-1992834fb5a6&gem=3ddc4665-d0e1-4111-b3fc-665815e69d61",
+        "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=6b75002a-9abb-4df2-ad26-99a6121de06d",
+        "https://www.velux.de/fachkunden/faq?category=6b4bb06a-9db2-441c-a4f7-e8a7a468cea7&gem=e155b32d-12b1-44aa-8bc4-b98a0ddb5fed"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Das Control Pad KLR 200 zeigt „Keine Verbindung“. Was bedeutet das?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.mikrocontroller.net/topic/477737"
+      ],
+      "antwort": "VELUX nennt vier Ursachen: Der Motor hat keinen Strom (Elektro: Netzstecker und Kabel prüfen; Solar: Solarpanel und Stecker prüfen, Solarzelle reinigen, Verschattung vermeiden), eine Wand schwächt das Funksignal zu stark, das Produkt ist außer Reichweite (im Raum etwa 20 m), oder am Produkt wurde ein Reset gemacht und es muss neu eingelernt werden. Gegen Reichweitenprobleme empfiehlt VELUX das Interface KLF 200.",
+      "antwort_quellen": [
+        "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=f0dff869-76c3-4f2c-8b28-22d1302ec3d5"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Mein VELUX Solarfenster öffnet nicht, Meldung „Manuelle Bedienung“ oder „Eingeschränkt durch Stromfluss“. Woran liegt das?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/velux-solarfenster-oeffnet-nicht-warum",
+        "https://www.bauexpertenforum.de/threads/velux-solar-fenster-oeffnet-nicht-mehr.138836/",
+        "https://www.mikrocontroller.net/topic/477737"
+      ],
+      "antwort": "„Manuelle Bedienung“ heißt laut VELUX meist, dass das Fenster von Hand über die Griffleiste geöffnet und nicht ganz geschlossen wurde: Schließ es von Hand, die Griffleiste darf nicht in Lüftungsstellung stehen. Seltener ist der Flügel abgesackt oder der Empfänger im Motor defekt, dann hilft ein Fachmann. „Eingeschränkt durch Stromfluss“ bzw. „Betrieb eingeschränkt“ bringen Nutzer mit einem tief entladenen Akku oder einer defekten Solarzelle in Verbindung.",
+      "antwort_quellen": [
+        "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=059c0876-a5b6-45b5-9d0e-164f5f0538f3",
+        "https://www.gutefrage.net/frage/velux-solarfenster-oeffnet-nicht-warum",
+        "https://www.bauexpertenforum.de/threads/velux-solar-fenster-oeffnet-nicht-mehr.138836/"
+      ],
+      "sicherheit": "teilweise belegt"
+    },
+    {
+      "frage": "Rollladen fährt nur ein Stück runter und dann wieder hoch. Ist der Akku leer?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/rolladen-velux",
+        "https://www.gutefrage.net/frage/velux-dachfenster--rollade-reagiert-nicht-mehr",
+        "https://www.gutefrage.net/frage/velux--rollade-reagiert-nicht-mehr"
+      ],
+      "antwort": "Bei Solar-Rollläden berichten Nutzer, dass ein schwacher Akku genau so aussieht. VELUX selbst nennt für einen Rollladen, der nicht mehr ganz öffnet oder schließt, einen Neustart des Motors und das neue Einlernen der Endlagen (STOP, dann RUNTER). Hat es geschneit oder gefroren, können vereiste Lamellen oder Schnee den Panzer blockieren; FAKRO meldet das beim ARZ Solar mit dreimaligem Blinken der LED wegen zu hohem Strom.",
+      "antwort_quellen": [
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=cf00c7c7-f35e-4e02-aff9-52d29d81f2a4",
+        "https://www.velux.de/faq?category=6506ed64-9288-4bbf-8fbe-eea4acecf280&gem=a6e7d5df-8428-4465-aeb9-e7e2f4b7c03c",
+        "https://www.fakro.de/att/LOCAL/DE/ARZ-Solar.pdf",
+        "https://www.gutefrage.net/frage/rolladen-velux"
+      ],
+      "sicherheit": "teilweise belegt"
+    },
+    {
+      "frage": "Muss ich den VELUX Rollladen stromlos machen, um ihn zu resetten?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.mikrocontroller.net/topic/477737",
+        "https://www.mikrocontroller.net/topic/511971",
+        "https://knx-user-forum.de/forum/öffentlicher-bereich/gebäudetechnik-ohne-knx-eib/29034-velux-aussenrolladen-laufen-gegenläufig"
+      ],
+      "antwort": "Solar-Rollläden haben keinen Netzanschluss; der Reset läuft über den Knopf am Motor, ältere Motoren schaltest du mit dem EIN/AUS-Schalter am Motor aus und an, den Modular Motor mit 2x bzw. 1x Drücken des Multifunktionsknopfs. Bei Elektro-Rollläden sitzt der Reset-Knopf an der Steuereinheit KUX 110 oder am Fenstermotor. Forennutzer nehmen bei Elektrogeräten zusätzlich die Sicherung für etwa eine Minute heraus; eine VELUX-Vorgabe dazu haben wir nicht gefunden.",
+      "antwort_quellen": [
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=d62c95ae-175e-4faa-83e3-2d594bf4b303",
+        "https://ersatzteile.veluxshop.de/-/media/spareparts/product%20pdf/velux-anleitung-rollladen-austausch-motor-solarzelle-v22.pdf",
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=54926596-5434-477e-8963-15b411547a11",
+        "https://www.velux.de/fachkunden/faq?category=26572643-0da5-4170-b093-1992834fb5a6&gem=3ddc4665-d0e1-4111-b3fc-665815e69d61",
+        "https://www.mikrocontroller.net/topic/477737"
+      ],
+      "sicherheit": "teilweise belegt"
+    },
+    {
+      "frage": "Mein VELUX Elektro-Rollladen bzw. Elektrofenster INTEGRA reagiert nicht. Darf ich da selbst ran?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.mikrocontroller.net/topic/511971",
+        "https://knx-user-forum.de/forum/öffentlicher-bereich/gebäudetechnik-ohne-knx-eib/29034-velux-aussenrolladen-laufen-gegenläufig",
+        "https://www.mikrocontroller.net/topic/477737"
+      ],
+      "antwort": "Batterien im Wandschalter tauschen, Reset und neu anlernen kannst du selbst: Der Reset-Knopf sitzt an der Steuereinheit KUX 110 oder am Fenstermotor. VELUX-Motoren laufen mit 24 V DC, die Steuereinheit hängt aber am 230-V-Hausnetz. Arbeiten an Netzanschluss, Kabeln und Steuereinheit gehören zur Elektrofachkraft; beim Tausch eines Fenstermotors empfiehlt VELUX ebenfalls einen Fachmann.",
+      "antwort_quellen": [
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=54926596-5434-477e-8963-15b411547a11",
+        "https://www.velux.de/fachkunden/faq?category=26572643-0da5-4170-b093-1992834fb5a6&gem=3ddc4665-d0e1-4111-b3fc-665815e69d61",
+        "https://www.velux.de/faq?category=b7809ff5-727b-4884-b72c-f6cc872cf23b&gem=1f69cb55-dfbe-4d01-8924-1fa2afb2227a",
+        "https://www.velux.de/faq?category=b7809ff5-727b-4884-b72c-f6cc872cf23b&gem=2052ecdf-6aaf-4287-9eaf-9499e27d013e",
+        "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=059c0876-a5b6-45b5-9d0e-164f5f0538f3"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Das Elektro- oder Solarfenster geht nicht mehr zu. Wie schließe ich es von Hand?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/velux-solar-fenster-oeffnet-nicht-mehr.138836/",
+        "https://www.gutefrage.net/frage/velux-solarfenster-oeffnet-nicht-warum"
+      ],
+      "antwort": "VELUX beschreibt eine Notschließung für das elektrische Klapp-Schwing-Fenster in einem Servicedokument und rät, danach sofort den Kundendienst zu beauftragen. Steckt die Kette im Kettenbeschlag, muss der Beschlag von Hand geöffnet werden, damit das Fenster ganz aufgeht; danach ist ein Reset nötig. Bei Regen schließt der Regensensor das Fenster automatisch.",
+      "antwort_quellen": [
+        "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=69e9541c-21b0-4014-87fe-f2fb2576cc3f",
+        "https://www.velux.de/fachkunden/faq?category=6b4bb06a-9db2-441c-a4f7-e8a7a468cea7&gem=e58de8da-fe65-4407-940d-31a19165ab0c",
+        "https://www.velux.de/faq?category=6506ed64-9288-4bbf-8fbe-eea4acecf280&gem=0dd509db-9094-4a8b-badd-a5cfebecb8ea"
+      ],
+      "sicherheit": "teilweise belegt"
+    },
+    {
+      "frage": "Kann ich mit einer Somfy- oder anderen io-homecontrol-Fernbedienung den VELUX Rollladen steuern?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/neueinstellung-von-velux-rollladen.143875/"
+      ],
+      "antwort": "VELUX INTEGRA nutzt io-homecontrol auf 868 MHz. Das Control Pad KLR 200 kann auch Somfy-Produkte mit io-homecontrol bedienen; für die Einbindung verweist VELUX auf die Somfy-Anleitung. Für Rollläden und Markisen ist der Wandschalter KLI 313 vorgesehen, für Fenstermotoren der KLI 311, für innenliegenden Sonnenschutz der KLI 312.",
+      "antwort_quellen": [
+        "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=d3741621-f4f7-4aed-a727-3a19812f9a11",
+        "https://www.velux.de/fachkunden/faq?category=8c1cc26b-eaf6-44f6-8aa3-c6670eae7bc9&gem=139a3f1c-db1b-4a3e-a207-82ecc354159d",
+        "https://contenthub.velux.com/api/public/content/39f88-20c6d-5f411_downloadOriginal"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Roto Solar-Rollladen: Wie lerne ich eine neue Fernbedienung an, wenn er nicht reagiert?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/roto-fernbedienung-solar-anlernen.138677/",
+        "https://www.bauexpertenforum.de/threads/roto-dachfenster-solar-rollladen-schliesst-nur-zu-50.143675/"
+      ],
+      "antwort": "In den gefundenen Forenbeiträgen bleibt die Frage unbeantwortet, und eine Roto-Herstelleranleitung haben wir nicht geöffnet. Halte dich an die Bedienungsanleitung deines Modells (Typenschild, z. B. ZRO S) oder frag den Roto-Kundendienst.",
+      "antwort_quellen": [],
+      "sicherheit": "nicht belegt"
+    },
+    {
+      "frage": "FAKRO ARZ Solar reagiert nicht auf die Fernbedienung. Was kann ich tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Prüf den Ladestand: Kanal wählen, STOPP 3 Sekunden halten, bis die Kanal-LED blinkt, dann ÖFFNEN drücken; 1 bis 4 LEDs zeigen etwa 25 bis 100 %. Mit der Taste „Manuelle Steuerung“ oben rechts an der Führungsschiene kannst du den Rollladen direkt fahren (schließen, stoppen, öffnen im Wechsel). Ist er nicht mehr im Z-Wave-Netz, ordnest du ihn mit IN/EX an der Fernbedienung und Taste P am Rollladen innerhalb von 10 Sekunden neu zu. Blinkt die Diode dreimal, ist der Strom zu hoch: Panzer auf Schnee, Laub oder Eis prüfen.",
+      "antwort_quellen": [
+        "https://www.fakro.de/att/LOCAL/DE/ARZ-Solar.pdf"
+      ],
+      "sicherheit": "belegt"
+    }
+  ],
+  "fakten": [
+    {
+      "fakt": "VELUX-FAQ: Solarprodukte haben den Reset-Knopf direkt am Produkt (Steuereinheit integriert); Elektrofenster am Fenstermotor; manuelle oder nachgerüstete Fenster sowie Elektro-Rollläden und Elektro-Sonnenschutz an der externen Steuereinheit KUX 110, sofern nicht direkt an ein Elektrofenster angeschlossen. Bei Auslieferung sind Produkte mit dem Wandschalter gekoppelt.",
+      "quelle": "https://www.velux.de/fachkunden/faq?category=26572643-0da5-4170-b093-1992834fb5a6&gem=3ddc4665-d0e1-4111-b3fc-665815e69d61"
+    },
+    {
+      "fakt": "VELUX-FAQ SSL: Reset-Knopf am Topkasten (außen), Abdeckung auf der Seite der Solarzelle abnehmen. Modular Motor: EIN 1x drücken innerhalb 1 s, AUS 2x drücken innerhalb 1 s, RESET 10 s drücken.",
+      "quelle": "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=1bddbf76-597c-4659-8f11-586340fd5201"
+    },
+    {
+      "fakt": "VELUX-Anleitung V22: P-Knopf am Motor 10 s drücken (Schalter auf EIN), danach Registrierung innerhalb von 10 Minuten; KLI 313: PAIR-Knopf 1 s; KLI 110: RESET max. 1 s; kleiner Handsender: RESET kurz mit Büroklammer; danach STOP und RUNTER nacheinander, Rollladen speichert obere und untere Endlage.",
+      "quelle": "https://ersatzteile.veluxshop.de/-/media/spareparts/product%20pdf/velux-anleitung-rollladen-austausch-motor-solarzelle-v22.pdf"
+    },
+    {
+      "fakt": "VELUX (UK-Support, Touch): Bei verlorener oder defekter Bedienung jedes Produkt zurücksetzen, weil alte Kopplungen neue blockieren. Solarfenster/Elektrofenster: Fenster von Hand öffnen, hellgrauen Reset-Knopf am Motor halten, bis sich die Kette kurz bewegt. Solar-Rollladen/-Markise: rechte Endkappe am Topkasten abnehmen, Reset halten bis kurzes Auf/Ab. Solar-Innenrollo: flachen Reset-Schalter unter der Motoreinheit nach rechts schieben und halten bis kurzes Auf/Ab. Kabelgebundene Rollläden/Markisen: Motor-Reset automatisch.",
+      "quelle": "https://www.velux.co.uk/get-started/touch-support/installation-and-setup-of-velux-touch/nocontrol"
+    },
+    {
+      "fakt": "VELUX-FAQ Schwingfenster mit KLI 311: Strom einschalten, Fenster manuell öffnen (offenes Fenster vorher per Test-Knopf schließen), Test-Knopf am Fenstermotor mindestens 10 s drücken, Motor bewegt sich kurz; innerhalb von 10 Minuten PAIR-Knopf am KLI 1 s drücken; Fenster manuell schließen.",
+      "quelle": "https://www.velux.de/fachkunden/faq?category=6b4bb06a-9db2-441c-a4f7-e8a7a468cea7&gem=e155b32d-12b1-44aa-8bc4-b98a0ddb5fed"
+    },
+    {
+      "fakt": "VELUX-FAQ KLI 310/311/312/313 löschen: Büroklammer 1 s in Öffnung über Zahnrad (GEAR), dann 1 s in Öffnung über den zwei Rechtecken (PAIR); alle eingelernten Produkte sind gelöscht.",
+      "quelle": "https://www.velux.de/faq?category=6506ed64-9288-4bbf-8fbe-eea4acecf280&gem=48960354-8db5-475a-95ba-0358302ca668"
+    },
+    {
+      "fakt": "VELUX-FAQ: Mitgelieferter KLI ist vorprogrammiert, Inbetriebnahme durch Batterien einlegen bzw. Kontaktstreifen ziehen; bei Solar-Rollladen und Solar-Hitzeschutzmarkise danach STOPP und RUNTER kurz nacheinander für die Endlagen. Hat der KLI Produkte verloren oder wird er ersetzt, müssen die Produkte neu eingelernt werden.",
+      "quelle": "https://www.velux.de/faq?category=6506ed64-9288-4bbf-8fbe-eea4acecf280&gem=a6e7d5df-8428-4465-aeb9-e7e2f4b7c03c"
+    },
+    {
+      "fakt": "VELUX-FAQ KLR 200 'Keine Verbindung': Ursachen (1) Motor ohne Strom (Elektro: Netzstecker, Kabel zur Steuereinheit, Anschlussklemme Motor; Solar: Solarpanel, Steckverbindungen, Verschmutzung, Verschattung), (2) Funksignal durch Hindernis geschwächt, (3) außer Reichweite, im Raum ca. 20 m, Abhilfe Interface KLF 200, (4) Reset am Produkt, neu einlernen.",
+      "quelle": "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=f0dff869-76c3-4f2c-8b28-22d1302ec3d5"
+    },
+    {
+      "fakt": "VELUX-FAQ KLR 200 'Manuelle Bedienung': meist Fenster per Griffleiste geöffnet und nicht vollständig geschlossen (nicht in Lüftungsstellung); selten abgesackter Flügel (Fachmann) oder defekter Empfänger im Fenstermotor (Motortausch, Fachmann empfohlen).",
+      "quelle": "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=059c0876-a5b6-45b5-9d0e-164f5f0538f3"
+    },
+    {
+      "fakt": "VELUX-FAQ: Endlagen SSL/SML neu einlernen, wenn der Rollladen nicht mehr fährt oder nicht komplett öffnet/schließt: Neustart des Motors und anschließende Einstellung der Endlagen; Vorgehen unterscheidet sich bei SML und SSL (Videos).",
+      "quelle": "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=cf00c7c7-f35e-4e02-aff9-52d29d81f2a4"
+    },
+    {
+      "fakt": "VELUX-FAQ: Alle io-Produkte von VELUX werden mit 24 V DC Motoren betrieben; 230-V-Motoren gibt es nicht im Sortiment. Steuereinheit KUX 110 nur innen, max. 50 °C, nicht überdeckt, nicht in Feuchträumen; 2-adriges Motorkabel 8 m, 0,75 mm².",
+      "quelle": "https://www.velux.de/faq?category=b7809ff5-727b-4884-b72c-f6cc872cf23b&gem=2052ecdf-6aaf-4287-9eaf-9499e27d013e"
+    },
+    {
+      "fakt": "VELUX-FAQ: Elektro-Rollladen SML-Reset an der Steuereinheit: bei Anschluss an Elektrofenster Reset-Knopf am Fenstermotor, sonst an der KUX 110.",
+      "quelle": "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=54926596-5434-477e-8963-15b411547a11"
+    },
+    {
+      "fakt": "VELUX Solarfenster GGU: Motor im Markisenkasten, Betrieb −10 °C bis +60 °C; Funk 868 MHz io-homecontrol; Wandschalter 2 x AAA, bis 1 Jahr, Betrieb 5–45 °C, Reichweite innen ca. 30 m.",
+      "quelle": "https://contenthub.velux.com/api/public/content/39f88-20c6d-5f411_downloadOriginal"
+    },
+    {
+      "fakt": "VELUX-FAQ: INTEGRA Elektro- und Solarfenster ab Baujahr 2013 lassen sich bei Regen öffnen: STOPP und AUF am KLI 311 kurz gleichzeitig drücken, Fenster öffnet 50 % und bleibt 15 Minuten offen.",
+      "quelle": "https://www.velux.de/faq?category=6506ed64-9288-4bbf-8fbe-eea4acecf280&gem=0dd509db-9094-4a8b-badd-a5cfebecb8ea"
+    },
+    {
+      "fakt": "FAKRO ARZ Solar: 12 V DC, Z-Wave 868,4 MHz; Tasten (manuelle Steuerung, Programmiertaste P, LEDs) an der oberen rechten Führungsschiene; INCLUDE: IN/EX an Fernbedienung, innerhalb 10 s Taste P am Rollladen; dreimaliges Blinken = Strom zu hoch, Panzer auf Schnee/Blätter/Eis prüfen; bei Frost/Schnee kann Bedienung unmöglich werden; Reparaturen nur durch autorisierte Service-Techniker.",
+      "quelle": "https://www.fakro.de/att/LOCAL/DE/ARZ-Solar.pdf"
+    }
+  ],
+  "ursachen": [
+    {
+      "ursache": "Batterien im Funk-Wandschalter oder in der Fernbedienung leer",
+      "erkennen": "Kein Produkt reagiert auf diesen Schalter; andere Bedienungen funktionieren. KLI 313: 2 x AAA, Lebensdauer bis 1 Jahr.",
+      "abhilfe": "Batterien tauschen. Hilft das nicht, Schalter neu anlernen.",
+      "quelle": "https://contenthub.velux.com/api/public/content/0f677-a6472-6949a_downloadOriginal"
+    },
+    {
+      "ursache": "Akku des Solarprodukts leer, weil Solarzelle verschmutzt oder verschattet (Dachüberstand, Bäume, Laub, Schnee, Winter)",
+      "erkennen": "Produkt reagiert nicht oder nur nach sonnigen Tagen; Control Pad meldet 'Keine Verbindung'.",
+      "abhilfe": "Solarzelle von innen bei geöffnetem, gesichertem Flügel reinigen, Verschattung beseitigen, einige sonnige Tage laden lassen.",
+      "quelle": "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=f0dff869-76c3-4f2c-8b28-22d1302ec3d5"
+    },
+    {
+      "ursache": "Akku verbraucht (Alterung)",
+      "erkennen": "Rollladen fährt nach Sonne zwei, drei Mal und bleibt dann stehen; Alter um 6–10 Jahre (VELUX: Lebensdauer bis 10 Jahre).",
+      "abhilfe": "Motor-/Solarzellen-Set ZOZ 221 S22 bzw. S21 einbauen oder Kundendienst; Nachbau-Akkus gibt es von Drittanbietern.",
+      "quelle": "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=d62c95ae-175e-4faa-83e3-2d594bf4b303"
+    },
+    {
+      "ursache": "Solarzelle defekt",
+      "erkennen": "Akku wird trotz Sonne nicht geladen; sichtbare Schäden an Panel oder Stecker.",
+      "abhilfe": "Solarpanel und Steckverbindungen prüfen; Solarzelle wird mit dem Austausch-Set mitgeliefert und beim Motortausch immer mitgetauscht.",
+      "quelle": "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=f0dff869-76c3-4f2c-8b28-22d1302ec3d5"
+    },
+    {
+      "ursache": "Funkverbindung verloren oder Produkt zurückgesetzt",
+      "erkennen": "Neue oder ersetzte Bedienung findet das Produkt nicht; KLR 200 zeigt 'Keine Verbindung'.",
+      "abhilfe": "Reset am Produkt (Solar-Rollladen: Knopf am Topkasten 10 s), innerhalb 10 Minuten am KLI PAIR 1 s, dann STOP und RUNTER.",
+      "quelle": "https://www.velux.de/faq?category=6506ed64-9288-4bbf-8fbe-eea4acecf280&gem=a6e7d5df-8428-4465-aeb9-e7e2f4b7c03c"
+    },
+    {
+      "ursache": "Funkreichweite zu gering oder Hindernis",
+      "erkennen": "Funktioniert nur aus der Nähe; 'Keine Verbindung' auf KLR 200.",
+      "abhilfe": "Näher herangehen; Interface KLF 200 als Signalverstärker.",
+      "quelle": "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=f0dff869-76c3-4f2c-8b28-22d1302ec3d5"
+    },
+    {
+      "ursache": "Fenster von Hand geöffnet und nicht ganz geschlossen",
+      "erkennen": "KLR 200 meldet 'Manuelle Bedienung'.",
+      "abhilfe": "Fenster von Hand vollständig schließen, Griffleiste nicht in Lüftungsstellung.",
+      "quelle": "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=059c0876-a5b6-45b5-9d0e-164f5f0538f3"
+    },
+    {
+      "ursache": "Endlagen verloren",
+      "erkennen": "Rollladen öffnet oder schließt nicht mehr ganz.",
+      "abhilfe": "Motor neu starten und Endlagen neu einlernen (STOP, dann RUNTER).",
+      "quelle": "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=cf00c7c7-f35e-4e02-aff9-52d29d81f2a4"
+    },
+    {
+      "ursache": "Panzer blockiert durch Schnee, Eis oder Laub (Blockier-/Überstromerkennung)",
+      "erkennen": "FAKRO ARZ Solar: Diode blinkt dreimal. Bei VELUX berichten Nutzer nach Schneefall von Knacken und Stillstand.",
+      "abhilfe": "Panzer und Führungsschienen frei machen und reinigen, Tauwetter abwarten.",
+      "quelle": "https://www.fakro.de/att/LOCAL/DE/ARZ-Solar.pdf"
+    },
+    {
+      "ursache": "Temperatur außerhalb des Betriebsbereichs",
+      "erkennen": "Solarfenster reagiert bei starkem Frost nicht.",
+      "abhilfe": "VELUX GGU-Fenstermotor arbeitet zwischen −10 °C und +60 °C; wärmere Phase abwarten.",
+      "quelle": "https://contenthub.velux.com/api/public/content/39f88-20c6d-5f411_downloadOriginal"
+    },
+    {
+      "ursache": "Empfänger im Fenstermotor oder Motor defekt",
+      "erkennen": "Batterien, Reset und Anlernen ohne Erfolg.",
+      "abhilfe": "Motortausch durch Fachmann bzw. VELUX-Kundendienst.",
+      "quelle": "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=059c0876-a5b6-45b5-9d0e-164f5f0538f3"
+    }
+  ],
+  "pruefschritte": [
+    {
+      "ursache": "Schritt 1: Batterien",
+      "erkennen": "Wandschalter/Fernbedienung ohne Reaktion",
+      "abhilfe": "Batterien tauschen (KLI 313: 2 x AAA).",
+      "quelle": "https://contenthub.velux.com/api/public/content/0f677-a6472-6949a_downloadOriginal"
+    },
+    {
+      "ursache": "Schritt 2: Andere Bedienung testen",
+      "erkennen": "Gehen andere Produkte am selben Schalter, liegt es am Produkt, nicht am Schalter.",
+      "abhilfe": "Bei Gruppenschaltern Einzelschalter prüfen.",
+      "quelle": "https://www.velux.de/faq?category=6506ed64-9288-4bbf-8fbe-eea4acecf280&gem=a6e7d5df-8428-4465-aeb9-e7e2f4b7c03c"
+    },
+    {
+      "ursache": "Schritt 3: Display-Meldung (KLR 200/KLR 300)",
+      "erkennen": "'Keine Verbindung' oder 'Manuelle Bedienung'",
+      "abhilfe": "Nach VELUX-FAQ vorgehen (Strom/Solar prüfen, Reichweite, Fenster ganz schließen).",
+      "quelle": "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=f0dff869-76c3-4f2c-8b28-22d1302ec3d5"
+    },
+    {
+      "ursache": "Schritt 4: Solarzelle und Stecker",
+      "erkennen": "Verschmutzt, verschattet, beschädigt",
+      "abhilfe": "Von innen bei gesichertem Flügel reinigen; einige sonnige Tage laden lassen.",
+      "quelle": "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=f0dff869-76c3-4f2c-8b28-22d1302ec3d5"
+    },
+    {
+      "ursache": "Schritt 5: Reset am Produkt",
+      "erkennen": "Produkt fährt nach Reset kurz auf und ab",
+      "abhilfe": "Solar-Rollladen: Knopf am Topkasten 10 s (alter Motor: Schalter EIN, P-Knopf 10 s). Fenster: Test-/Reset-Knopf am Fenstermotor mind. 10 s.",
+      "quelle": "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=1bddbf76-597c-4659-8f11-586340fd5201"
+    },
+    {
+      "ursache": "Schritt 6: Neu anlernen",
+      "erkennen": "Innerhalb 10 Minuten nach Reset",
+      "abhilfe": "KLI: PAIR 1 s mit Büroklammer; dann STOP und RUNTER für die Endlagen.",
+      "quelle": "https://ersatzteile.veluxshop.de/-/media/spareparts/product%20pdf/velux-anleitung-rollladen-austausch-motor-solarzelle-v22.pdf"
+    },
+    {
+      "ursache": "Schritt 7: Akku prüfen",
+      "erkennen": "Rollladen fährt nur kurz oder nach Sonne wenige Male",
+      "abhilfe": "Akku/Motor-Set tauschen oder Kundendienst; FAKRO: Ladestand über STOPP 3 s + ÖFFNEN abfragen.",
+      "quelle": "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=d62c95ae-175e-4faa-83e3-2d594bf4b303"
+    }
+  ],
+  "fachbetrieb_ab": [
+    {
+      "ursache": "230-V-Anschluss bei Elektroprodukten (Elektrorollladen SML/SMG/SMH, INTEGRA Elektrofenster mit Netzanschluss, Steuereinheit KUX 110)",
+      "erkennen": "Produkt hat Netzkabel bzw. Steuereinheit am Hausnetz",
+      "abhilfe": "Batterietausch, Reset und Anlernen selbst; Arbeiten an Netzanschluss, Kabel und Steuereinheit nur durch Elektrofachkraft.",
+      "quelle": "https://www.velux.de/faq?category=b7809ff5-727b-4884-b72c-f6cc872cf23b&gem=2052ecdf-6aaf-4287-9eaf-9499e27d013e"
+    },
+    {
+      "ursache": "Fenstermotor oder Empfänger defekt, abgesackter Flügel",
+      "erkennen": "'Manuelle Bedienung' trotz geschlossenem Fenster, Reset ohne Wirkung",
+      "abhilfe": "VELUX empfiehlt Fachmann bzw. Kundendienst.",
+      "quelle": "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=059c0876-a5b6-45b5-9d0e-164f5f0538f3"
+    },
+    {
+      "ursache": "Elektrofenster schließt nicht mehr",
+      "erkennen": "Fenster offen, elektrische Schließung geht nicht",
+      "abhilfe": "Notschließung laut Servicedokument, danach sofort Kundendienst.",
+      "quelle": "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=69e9541c-21b0-4014-87fe-f2fb2576cc3f"
+    },
+    {
+      "ursache": "FAKRO ARZ Solar Reparatur",
+      "erkennen": "Defekt am Rollladen",
+      "abhilfe": "Laut FAKRO nur durch vom Hersteller autorisierte Service-Techniker.",
+      "quelle": "https://www.fakro.de/att/LOCAL/DE/ARZ-Solar.pdf"
+    },
+    {
+      "ursache": "Arbeiten auf dem Dach",
+      "erkennen": "Solarzelle nicht von innen erreichbar",
+      "abhilfe": "VELUX: Arbeiten am Dach sind gefährlich, nur von innen bei geöffnetem, gesichertem Flügel; sonst Kundendienst.",
+      "quelle": "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=f0dff869-76c3-4f2c-8b28-22d1302ec3d5"
+    }
+  ],
+  "nicht_belegt": [
+    "Akku abstecken für 30 Sekunden als Reset: keine Hersteller-Fundstelle. Ein Forennutzer steckte am Solarfenster den Akkustecker ab, danach lautete die Meldung 'Verbindung kann nicht hergestellt werden'; ein anderer hatte mit kurzem Ziehen des Steckers oben rechts Erfolg.",
+    "Stromlos machen (Sicherung 1 Minute bzw. KUX 5 Minuten) als Reset bei Elektroprodukten: nur Forenangaben, keine VELUX-Vorgabe gefunden.",
+    "Überhitzungsschutz am VELUX Rollladenmotor: keine Herstellerangabe; nur Betriebstemperatur des GGU-Fenstermotors (−10 bis +60 °C) belegt.",
+    "Hindernis-/Blockiererkennung am VELUX SSL: keine Herstellerangabe geöffnet; nur FAKRO (Strombegrenzung, dreimaliges Blinken) belegt.",
+    "Forenaussage, ein VELUX Solar-Rollladen fahre bei schwachem Akku wieder auf, damit man den Akku von innen tauschen kann: von VELUX nicht bestätigt.",
+    "Reset-Dauer für KUX 110 (Foren: 10 bzw. mindestens 15 s): keine VELUX-Angabe geöffnet.",
+    "Roto Solar-Rollladen ZRO (Fernbedienung anlernen, Reset, Akku): keine Roto-Herstellerquelle geöffnet; die Forenthreads sind unbeantwortet.",
+    "Bedeutung der KLR-200-Meldung 'Betrieb eingeschränkt' / 'Eingeschränkt durch Stromfluss': keine VELUX-Erklärung gefunden, nur Forenaussagen (tief entladener Akku).",
+    "Typbezeichnungen KMX/KMG für Elektrofenster aus dem Auftrag nicht in geöffneten VELUX-Quellen bestätigt; belegt sind SML/SMG/SMH (Elektro-Rollläden) und KUX 110."
+  ]
+}

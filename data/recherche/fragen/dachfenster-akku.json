@@ -1,0 +1,299 @@
+{
+  "thema": "Akku für Solar-Rollladen, Solar-Markise und Solarfenster am Dachfenster (VELUX SSL/SSS, GGL/GGU Solar, MSL/DSL/FSL; Roto ZRO/ZEL Solar; FAKRO ARZ Solar)",
+  "stand": "2026-11-04",
+  "fragen": [
+    {
+      "frage": "Mein VELUX Solar-Rollladen geht nach ein paar Jahren nicht mehr. Ist der Akku hin?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wieso-laesst-sich-mein-velux-solarrollladen-nicht-mehr-bewegen-und-kann-man-da-ohne-monteur-etwas-machen",
+        "https://www.gutefrage.net/frage/velux-rollladen-faehrt-nicht-mehr-herunter--was-tun",
+        "https://www.mikrocontroller.net/topic/534723",
+        "https://www.smarthomeassistent.de/velux-ssl-solar-rollladen-akkutausch-nach-6-jahren/",
+        "https://www.gutefrage.net/frage/rolladen-velux"
+      ],
+      "antwort": "Das ist die häufigste Ursache. VELUX gibt für den Akku des SSL eine erwartete Lebensdauer von bis zu 10 Jahren an; ein voller Akku reicht für bis zu 100 Fahrten ohne Nachladen. In Foren fallen Akkus oft nach 6 bis 7 Jahren aus, typisch ist ein Rollladen, der nach zwei, drei Fahrten wieder stehen bleibt. Prüf vorher die Batterien im Funk-Wandschalter und ob die Solarzelle verschmutzt oder verschattet ist.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/0f677-a6472-6949a_downloadOriginal",
+        "https://www.mikrocontroller.net/topic/534723",
+        "https://www.smarthomeassistent.de/velux-ssl-solar-rollladen-akkutausch-nach-6-jahren/",
+        "https://www.gutefrage.net/frage/velux-rollladen-faehrt-nicht-mehr-herunter--was-tun"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Wie tausche ich den Akku vom VELUX Solar-Rollladen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.mikrocontroller.net/topic/534723",
+        "https://www.smarthomeassistent.de/velux-ssl-solar-rollladen-akkutausch-nach-6-jahren/",
+        "https://www.bauexpertenforum.de/threads/velux-solar-fenster-oeffnet-nicht-mehr.138836/",
+        "https://www.gutefrage.net/frage/velux-dachfenster--rollade-reagiert-nicht-mehr"
+      ],
+      "antwort": "VELUX bietet keinen einzelnen Akku an, sondern beantwortet die Frage mit dem Austausch-Set: Modular Motor plus Solarzelle (ZOZ 221 S22 ab Baujahr BA01 / Januar 2011, ZOZ 221 S21 für ältere Rollläden). Der Motor sitzt hinter der seitlichen Abdeckung des Topkastens; du schaltest ihn aus, ziehst den Stecker der Solarzelle ab, löst zwei Torx-Schrauben (T15) und ziehst den Motor aus der Welle. Die Solarzelle sitzt in der Revisionsklappe und wird mit getauscht. Danach muss der Motor neu am Wandschalter angemeldet werden.",
+      "antwort_quellen": [
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=d62c95ae-175e-4faa-83e3-2d594bf4b303",
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=6ce69d76-57f0-47e3-8503-f1f5d0bb5342",
+        "https://ersatzteile.veluxshop.de/-/media/spareparts/product%20pdf/velux-anleitung-rollladen-austausch-motor-solarzelle-v22.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Welcher Akku passt in meinen VELUX Solar-Rollladen? 946933, 10,8 V, 2000 mAh?",
+      "kategorie": "nummer",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.smarthomeassistent.de/velux-ssl-solar-rollladen-akkutausch-nach-6-jahren/",
+        "https://www.mikrocontroller.net/topic/534723",
+        "https://www.dachfensterwelt.de/dachfenster/velux/velux-rollladen/rollladen-ab-bj.-2000/ersatz-akku-velux-ssl-solar-rollladen-motor-stecker-946933"
+      ],
+      "antwort": "Die Nummer 946933 nutzen vor allem Nachbau-Anbieter für einen NiMH-Akkupack mit 10,8 V und etwa 2000 bis 2100 mAh. VELUX selbst nennt im aktuellen SSL-Datenblatt einen NiMH-Akku mit 9,6 V und 2100 mAh; ältere Datenblätter nennen 10,8 V. Miss vor dem Kauf den alten Akku aus (Maße, Stecker) und vergleich das Typenschild des Rollladens. Ein Original-Akku einzeln ist bei VELUX nicht zu finden, nur im Set.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/0f677-a6472-6949a_downloadOriginal",
+        "https://www.dachfensterwelt.de/dachfenster/velux/velux-rollladen/rollladen-ab-bj.-2000/ersatz-akku-velux-ssl-solar-rollladen-motor-stecker-946933",
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=d62c95ae-175e-4faa-83e3-2d594bf4b303"
+      ],
+      "sicherheit": "teilweise belegt"
+    },
+    {
+      "frage": "Welches Austausch-Set brauche ich, S21 oder S22? Woran erkenne ich die Generation?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/velux-solar-fenster-oeffnet-nicht-mehr.138836/",
+        "https://www.mikrocontroller.net/topic/534723"
+      ],
+      "antwort": "Das entscheidet die Ausführungskennziffer auf dem Typenschild des Rollladens. Ausführung E (0_00E, Produktionscode AV05 / Mai 2008 bis BB11 / November 2012, Solarzelle aufgesetzt): nur Set ZOZ 221 S21. Ausführung S (0_00S, ab BA01 / Januar 2011, schwarzer Kunststoffstreifen im Topkasten) und SA (ab 07/2018): Set ZOZ 221 S22. Für Solar-Rollläden Ausführung U (2002 bis 04/2008) gibt es keine Austausch-Sets mehr.",
+      "antwort_quellen": [
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=6ce69d76-57f0-47e3-8503-f1f5d0bb5342",
+        "https://www.velux.de/fachkunden/faq?category=14ee73fd-a370-4661-b776-0adaec9f65cf&gem=1cfe0512-70b2-4d74-af52-c18e6560ba89",
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=d62c95ae-175e-4faa-83e3-2d594bf4b303"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Gilt beim Akku die Grenze „vor/ab Mai 2013“? Welcher Stecker ist richtig?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.dachfensterwelt.de/dachfenster/velux/velux-rollladen/rollladen-ab-bj.-2000/ersatz-akku-velux-ssl-solar-rollladen-motor-stecker-946933"
+      ],
+      "antwort": "Für den Solar-Rollladen nennt VELUX keine Grenze im Mai 2013, sondern die Ausführungen E (bis 11/2012) und S/SA (ab 01/2011 bzw. 07/2018). Das Jahr 2013 taucht bei VELUX beim Solarfenster auf: Für Solarfenster GGL/GGU vor 2013 braucht der Rollladen das Adapterplattenset ZOZ 213. Zum Stecker: Der aktuelle Modular Motor hat rechts einen 3-poligen Anschluss für die Solarzelle, links einen 2-poligen ohne Funktion. Ein Händler schreibt, dass sein Nachbau-Akku an älteren Motoren nur mit umgesetztem Kabel passt und an Motoren ab Juni 2022 (3-polig) gar nicht.",
+      "antwort_quellen": [
+        "https://www.velux.de/fachkunden/faq?category=14ee73fd-a370-4661-b776-0adaec9f65cf&gem=1cfe0512-70b2-4d74-af52-c18e6560ba89",
+        "https://contenthub.velux.com/api/public/content/0f677-a6472-6949a_downloadOriginal",
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=d62c95ae-175e-4faa-83e3-2d594bf4b303",
+        "https://www.dachfensterwelt.de/dachfenster/velux/velux-rollladen/rollladen-ab-bj.-2000/ersatz-akku-velux-ssl-solar-rollladen-motor-stecker-946933"
+      ],
+      "sicherheit": "teilweise belegt"
+    },
+    {
+      "frage": "Wo sitzt der Akku beim Solar-Rollladen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.mikrocontroller.net/topic/534723",
+        "https://www.gutefrage.net/frage/velux-dachfenster--rollade-reagiert-nicht-mehr"
+      ],
+      "antwort": "Beim SSL sitzen Motor, Steuerung und Akku im Topkasten oben am Rollladen, die Solarzelle ist im oberen Abdeckblech bzw. in der Revisionsklappe eingesetzt. Du kommst von der Seite heran, nachdem du die Abdeckkappe des Topkastens abgenommen hast. Ein Händler beschreibt den Akku auf der rechten Seite hinter der Abdeckkappe, von innen gesehen.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/0f677-a6472-6949a_downloadOriginal",
+        "https://ersatzteile.veluxshop.de/-/media/spareparts/product%20pdf/velux-anleitung-rollladen-austausch-motor-solarzelle-v22.pdf",
+        "https://www.dachfensterwelt.de/dachfenster/velux/velux-rollladen/rollladen-ab-bj.-2000/ersatz-akku-velux-ssl-solar-rollladen-motor-stecker-946933"
+      ],
+      "sicherheit": "teilweise belegt"
+    },
+    {
+      "frage": "Was muss ich nach dem Akku- oder Motortausch machen? Reset, anlernen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/neueinstellung-von-velux-rollladen.143875/",
+        "https://www.mikrocontroller.net/topic/534723",
+        "https://www.gutefrage.net/frage/wieso-laesst-sich-mein-velux-solarrollladen-nicht-mehr-bewegen-und-kann-man-da-ohne-monteur-etwas-machen"
+      ],
+      "antwort": "Der neue Motor muss am Funk-Wandschalter oder an der Fernbedienung angemeldet werden. Beim älteren Motor mit EIN/AUS-Schalter: Schalter auf EIN, P-Knopf am Motor 10 Sekunden drücken, dann innerhalb von 10 Minuten anmelden, beim KLI 313 mit dem PAIR-Knopf (1 Sekunde, Büroklammer). Beim Modular Motor ohne Schalter: Multifunktionsknopf 1x drücken = EIN, 2x innerhalb 1 Sekunde = AUS, 10 Sekunden halten = RESET. Zum Schluss STOP und kurz danach RUNTER drücken, dann fährt der Rollladen beide Endlagen an und speichert sie.",
+      "antwort_quellen": [
+        "https://ersatzteile.veluxshop.de/-/media/spareparts/product%20pdf/velux-anleitung-rollladen-austausch-motor-solarzelle-v22.pdf",
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=d62c95ae-175e-4faa-83e3-2d594bf4b303",
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=1bddbf76-597c-4659-8f11-586340fd5201",
+        "https://www.velux.de/faq?category=6506ed64-9288-4bbf-8fbe-eea4acecf280&gem=a6e7d5df-8428-4465-aeb9-e7e2f4b7c03c"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Wie lange hält der Akku vom Solar-Rollladen oder Solarfenster?",
+      "kategorie": "pflege",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wieso-laesst-sich-mein-velux-solarrollladen-nicht-mehr-bewegen-und-kann-man-da-ohne-monteur-etwas-machen",
+        "https://www.mikrocontroller.net/topic/534723",
+        "https://www.smarthomeassistent.de/velux-ssl-solar-rollladen-akkutausch-nach-6-jahren/",
+        "https://www.bauexpertenforum.de/threads/velux-solar-fenster-oeffnet-nicht-mehr.138836/"
+      ],
+      "antwort": "VELUX nennt für den SSL-Akku eine erwartete Lebensdauer von bis zu 10 Jahren. In Foren berichten Nutzer von Ausfällen nach 6 bis 10 Jahren, ein Nutzer hatte einen Nachbau-Akku, der nach rund 6 Monaten aufgab. Der Akku ist ein Verschleißteil: Er altert, auch wenn die Solarzelle in Ordnung ist.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/0f677-a6472-6949a_downloadOriginal",
+        "https://www.smarthomeassistent.de/velux-ssl-solar-rollladen-akkutausch-nach-6-jahren/",
+        "https://www.mikrocontroller.net/topic/534723"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Lädt der Akku im Winter? Mein Rollladen geht bei Schnee nicht.",
+      "kategorie": "pflege",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/velux-dachfenster--rollade-reagiert-nicht-mehr",
+        "https://www.gutefrage.net/frage/velux-rolladen-funktioniert-nicht",
+        "https://www.mikrocontroller.net/topic/534723"
+      ],
+      "antwort": "Bei wenig Licht lädt die Solarzelle weniger, der Akku dient dann nur als Puffer. VELUX nennt Verschmutzung und lange Verschattung der Solarzelle (Dachüberstand, Bäume, Laub, Schnee) als Ursache, wenn ein Solarprodukt nicht mehr reagiert; die Solarzelle soll gereinigt werden. Innenliegende Solar-Rollos laden schlechter, wenn außen ein Rollladen oder eine Markise davor sitzt. FAKRO schreibt für den ARZ Solar, dass bei Frost oder Schnee die Bedienung unmöglich werden kann.",
+      "antwort_quellen": [
+        "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=f0dff869-76c3-4f2c-8b28-22d1302ec3d5",
+        "https://contenthub.velux.com/api/public/content/0f677-a6472-6949a_downloadOriginal",
+        "https://contenthub.velux.com/api/public/content/39f88-20c6d-5f411_downloadOriginal",
+        "https://www.fakro.de/att/LOCAL/DE/ARZ-Solar.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Original-Akku oder Nachbau – lohnt sich der günstige Akku?",
+      "kategorie": "bezug",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.smarthomeassistent.de/velux-ssl-solar-rollladen-akkutausch-nach-6-jahren/",
+        "https://www.mikrocontroller.net/topic/534723",
+        "https://www.bauexpertenforum.de/threads/velux-solar-fenster-oeffnet-nicht-mehr.138836/"
+      ],
+      "antwort": "VELUX verkauft den Akku nicht einzeln, sondern nur im Set mit Motor und Solarzelle; ein Händler bestätigt das für die Sets ZOZ 221 S21 und S22. Nachbau-Akkus mit Stecker gibt es ab rund 50 bis 75 Euro. Erfahrungen sind gemischt: Ein Nutzer berichtet von einem billigen Nachbau, der nach etwa 6 Monaten ausfiel, ein anderer Nachbau hielt mehrere Jahre. Der Tausch des kompletten Solarmoduls durch den VELUX-Kundendienst kostete einen Nutzer rund 440 Euro.",
+      "antwort_quellen": [
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=d62c95ae-175e-4faa-83e3-2d594bf4b303",
+        "https://www.dachfensterwelt.de/dachfenster/velux/velux-rollladen/rollladen-ab-bj.-2000/ersatz-akku-velux-ssl-solar-rollladen-motor-stecker-946933",
+        "https://www.smarthomeassistent.de/velux-ssl-solar-rollladen-akkutausch-nach-6-jahren/",
+        "https://www.bauexpertenforum.de/threads/velux-solar-fenster-oeffnet-nicht-mehr.138836/"
+      ],
+      "sicherheit": "teilweise belegt"
+    },
+    {
+      "frage": "Mein VELUX Solarfenster öffnet nicht mehr, Meldung „Betrieb eingeschränkt“ / „Eingeschränkt durch Stromfluss“. Ist der Akku leer?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/velux-solar-fenster-oeffnet-nicht-mehr.138836/",
+        "https://www.gutefrage.net/frage/velux-solarfenster-oeffnet-nicht-warum"
+      ],
+      "antwort": "In Foren wird die Meldung mit einem tief entladenen Akku in Verbindung gebracht, oft nach einer defekten Solarzelle. VELUX selbst nennt bei Solarprodukten als erstes: Solarpanel und Steckverbindungen auf Schäden prüfen, Solarzelle reinigen, Verschattung verhindern. Ein Nutzer hatte Erfolg, nachdem er den Stecker oben rechts kurz gezogen und wieder gesteckt hatte; einem anderen half nur der Tausch des Solarmoduls durch den Kundendienst.",
+      "antwort_quellen": [
+        "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=f0dff869-76c3-4f2c-8b28-22d1302ec3d5",
+        "https://www.bauexpertenforum.de/threads/velux-solar-fenster-oeffnet-nicht-mehr.138836/",
+        "https://www.gutefrage.net/frage/velux-solarfenster-oeffnet-nicht-warum"
+      ],
+      "sicherheit": "teilweise belegt"
+    },
+    {
+      "frage": "Kann ich den Akku von Roto- oder FAKRO-Solar-Rollläden selbst tauschen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/roto-dachfenster-solar-rollladen-schliesst-nur-zu-50.143675/"
+      ],
+      "antwort": "Beim FAKRO ARZ Solar sitzen Funkmodul, Anschlüsse für Motor, Solarzelle und Batterie sowie der Hauptschalter unter dem rechten Kunststoffgehäuse, von innen gesehen; der Antrieb läuft mit 12 V DC. FAKRO schreibt vor, dass Reparaturen nur ein vom Hersteller autorisierter Service-Techniker ausführt, und den Ladestand kannst du an der Fernbedienung ZWP S8 abfragen. Für Roto-Solar-Rollläden haben wir keine Herstellerangabe zum Akkutausch geöffnet.",
+      "antwort_quellen": [
+        "https://www.fakro.de/att/LOCAL/DE/ARZ-Solar.pdf"
+      ],
+      "sicherheit": "teilweise belegt"
+    }
+  ],
+  "fakten": [
+    {
+      "fakt": "VELUX SSL: Akku NiMH, 9,6 V DC, 2100 mAh; ein voller Akku ermöglicht bis zu 100 Bedienvorgänge ohne Nachladen; erwartete Lebensdauer bis 10 Jahre; der eingelegte Akku muss vor dem ersten Betrieb eingeschaltet werden; Solarpanel im oberen Abdeckblech (Datenblatt de-CH, erstellt 28.10.2026).",
+      "quelle": "https://contenthub.velux.com/api/public/content/0f677-a6472-6949a_downloadOriginal"
+    },
+    {
+      "fakt": "VELUX SSL wird mit vorgepaartem Funk-Wandschalter KLI 313 geliefert: 2 x AAA-Alkali 1,5 V, Batterielebensdauer bis zu 1 Jahr, Reichweite innen ca. 30 m.",
+      "quelle": "https://contenthub.velux.com/api/public/content/0f677-a6472-6949a_downloadOriginal"
+    },
+    {
+      "fakt": "VELUX: Bei solarbetriebenen Innenrollos in Kombination mit Außenrollladen wird die Akkuladefähigkeit der Solarzellen der Innenrollos eingeschränkt oder aufgehoben.",
+      "quelle": "https://contenthub.velux.com/api/public/content/0f677-a6472-6949a_downloadOriginal"
+    },
+    {
+      "fakt": "VELUX: Montage des SSL an Solarfenster GGL/GGU, die vor 2013 hergestellt wurden, erfordert das Adapterplattenset ZOZ 213.",
+      "quelle": "https://contenthub.velux.com/api/public/content/0f677-a6472-6949a_downloadOriginal"
+    },
+    {
+      "fakt": "VELUX-FAQ 'Wie kann ich den Akku meines VELUX Solar Rollladen tauschen?': Antwort ist das Austausch-Set mit Modular Motor; beim Einbau muss immer auch die Solarzelle getauscht werden (im Set enthalten). V22-Set ZOZ 221 S22 ab Baujahr BA01 (Januar 2011), V21-Set ZOZ 221 S21 für 04/2008 bis 12/2010. Für SSL der Baujahre 2006/2007 keine Austausch-Sets mehr.",
+      "quelle": "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=d62c95ae-175e-4faa-83e3-2d594bf4b303"
+    },
+    {
+      "fakt": "VELUX Modular Motor (Solar-Rollladen/-Markise) hat keinen EIN/AUS-Schalter mehr; Bedienung über RESET-/Multifunktionsknopf: EIN 1x drücken innerhalb 1 s, AUS 2x drücken innerhalb 1 s, RESET 10 s drücken. Anschluss rechts 3-polig für die Solarzelle, links 2-polig ohne Funktion. Öffnet und schließt schneller als der Vorgänger.",
+      "quelle": "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=d62c95ae-175e-4faa-83e3-2d594bf4b303"
+    },
+    {
+      "fakt": "VELUX-FAQ Reparatur-Set: ZOZ 221 S21 und S22 unterscheiden sich nur durch die Solarzelle, die Motoren sind identisch. S21 für Produktionscode AV05 (Mai 2008) bis BB11 (November 2012) mit Ausführung 0_00E; S22 für alle Solar-Rollläden ab BA01 (Januar 2011), Ausführung 0_00S. Rollläden vor 04/2008 nutzten eine andere Funkfrequenz.",
+      "quelle": "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=6ce69d76-57f0-47e3-8503-f1f5d0bb5342"
+    },
+    {
+      "fakt": "VELUX-Ersatzteiltabelle SSL: Ausführung U 04/2002–04/2008 keine Ersatzteile; E 05/2008–12/2012 nur ZOZ 221 S21; S 02/2011–11/2018 Ersatzteile ja; SA 07/2018–heute ja. E = Funk, aufgesetztes Solarpanel bzw. kein Kunststoffstreifen im Topkasten; S = Kunststoffstreifen im Topkasten; SA = zusätzlich Funk-Wandschalter. Ersatzteile mindestens 10 Jahre nach Produktionsende.",
+      "quelle": "https://www.velux.de/fachkunden/faq?category=14ee73fd-a370-4661-b776-0adaec9f65cf&gem=1cfe0512-70b2-4d74-af52-c18e6560ba89"
+    },
+    {
+      "fakt": "VELUX-FAQ: Der Reset-Knopf des SSL sitzt am Topkasten (außen); dafür die Abdeckung auf der Seite der Solarzelle abnehmen.",
+      "quelle": "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=1bddbf76-597c-4659-8f11-586340fd5201"
+    },
+    {
+      "fakt": "VELUX-Anleitung Austausch Motor/Solarzelle (V22): Werkzeug Torx T15/T20, PZ2, Schlitz. Linke Abdeckung des Topkastens abnehmen; Motor ausschalten (Schalter nach rechts auf 0); Deckel am Motorkopf lösen, Stecker der Solarzelle abziehen; zwei Schrauben T15 lösen, Motor aus der Welle ziehen. Solarzelle sitzt in der Revisionsklappe. Nach Einbau Motor einschalten (Schalter nach links) und in der Fernbedienung registrieren.",
+      "quelle": "https://ersatzteile.veluxshop.de/-/media/spareparts/product%20pdf/velux-anleitung-rollladen-austausch-motor-solarzelle-v22.pdf"
+    },
+    {
+      "fakt": "VELUX-Anleitung V22, Registrierung: P-Knopf am Motor 10 s drücken, danach muss der Motor innerhalb von 10 Minuten registriert werden. KLI 313: PAIR-Knopf 1 s; KLI 110: Rückseite abnehmen, RESET-Knopf max. 1 s; kleiner Handsender: RESET auf der Rückseite kurz mit Büroklammer; KLR 100: Menü > Systemeinstellungen > Prod. registrieren (bis zu 2 Minuten); KLR 200: (+) > Neues Produkt > Neue Produkte hinzufügen. Danach STOP und RUNTER nacheinander drücken, der Rollladen speichert obere und untere Endlage.",
+      "quelle": "https://ersatzteile.veluxshop.de/-/media/spareparts/product%20pdf/velux-anleitung-rollladen-austausch-motor-solarzelle-v22.pdf"
+    },
+    {
+      "fakt": "VELUX-FAQ: Ein mitgelieferter KLI ist vorprogrammiert; Inbetriebnahme durch Einlegen der Batterien bzw. Ziehen des Kontaktstreifens. Beim Solar-Rollladen und der Solar-Hitzeschutzmarkise danach STOPP und RUNTER kurz nacheinander drücken, um die Endlagen einzustellen.",
+      "quelle": "https://www.velux.de/faq?category=6506ed64-9288-4bbf-8fbe-eea4acecf280&gem=a6e7d5df-8428-4465-aeb9-e7e2f4b7c03c"
+    },
+    {
+      "fakt": "VELUX Solarfenster GGU (Datenblatt de-DE): Motor im Markisenkasten, Betrieb zwischen −10 °C und +60 °C, Stromversorgung über die Solarzelle, Solarpanel mit Regensensor 520 x 20 x 88 mm. Ein Akkutyp ist im aktuellen Datenblatt nicht angegeben. 5 Jahre Garantie auf Elektrokomponenten.",
+      "quelle": "https://contenthub.velux.com/api/public/content/39f88-20c6d-5f411_downloadOriginal"
+    },
+    {
+      "fakt": "VELUX: Bei INTEGRA Solarprodukten, die nicht mehr erreichbar sind, Solarpanel und Steckverbindungen auf Schäden prüfen, Solarzelle bei Verschmutzung reinigen und lange Verschattung (Dachüberstand, Bäume, Laub, Schnee) verhindern; Arbeiten vom Innenraum bei geöffnetem und gesichertem Flügel.",
+      "quelle": "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=f0dff869-76c3-4f2c-8b28-22d1302ec3d5"
+    },
+    {
+      "fakt": "FAKRO ARZ Solar: Betriebsspannung 12 V DC, Nennstrom 1,4 A, Z-Wave 868,4 MHz. Funkmodul, Anschlüsse für Motor, Netzgerät (Solarzelle) und Netzgerät (Batterie) sowie Hauptschalter unter dem rechten Kunststoffgehäuse (von innen gesehen). Reparaturen nur durch vom Hersteller autorisierte Service-Techniker; bei Frost/Schnee kann die Bedienung unmöglich werden.",
+      "quelle": "https://www.fakro.de/att/LOCAL/DE/ARZ-Solar.pdf"
+    },
+    {
+      "fakt": "FAKRO ARZ Solar, Ladestand prüfen: Kanal wählen, STOPP 3 s halten bis Kanal-LED blinkt, dann ÖFFNEN drücken; Anzeige 1 LED ≈ 25 %, 2 ≈ 50 %, 3 ≈ 75 %, 4 = 100 %.",
+      "quelle": "https://www.fakro.de/att/LOCAL/DE/ARZ-Solar.pdf"
+    },
+    {
+      "fakt": "Händlerangabe (Nachbau, kein VELUX-Original): Akku '946933' 10,8 V, 2100 mAh NiMH, 148 x 33 x 31 mm, mit Kabel und Stecker; bei älteren Motoren Kabel länger und Stecker anders; bei Motoren ab Juni 2022 dreipoliger Anschluss, dort passt der Akku nicht. Akku sitzt laut Händler rechts oben im Rollladenkasten hinter der seitlichen Abdeckkappe (von innen gesehen). Motor nach dem Tausch nur eingebaut testen.",
+      "quelle": "https://www.dachfensterwelt.de/dachfenster/velux/velux-rollladen/rollladen-ab-bj.-2000/ersatz-akku-velux-ssl-solar-rollladen-motor-stecker-946933"
+    },
+    {
+      "fakt": "Forum: SSL von 2014 fiel 2021 aus; Nutzer nennen NiMH-Zellen ungewöhnlicher Größe und ca. 7 Jahre Lebensdauer; ein Nutzer fand seinen Akku 2025 bei 0,1 Ah und ersetzte ihn durch einen Nachbau mit 2,1 Ah für ca. 70 Euro.",
+      "quelle": "https://www.mikrocontroller.net/topic/534723"
+    },
+    {
+      "fakt": "Forum: Kundendienst tauschte am Solarfenster GGU das komplette Solarmodul inklusive Akku in ca. 15 Minuten für rund 440 Euro.",
+      "quelle": "https://www.bauexpertenforum.de/threads/velux-solar-fenster-oeffnet-nicht-mehr.138836/"
+    }
+  ],
+  "nicht_belegt": [
+    "VELUX-Nummer 833208 als Vorgänger/Nachfolger des Akkus 946933: keine Fundstelle; auch 946933 selbst ist nur bei Nachbau-Händlern als Akku-Nummer genannt, nicht in einer VELUX-Quelle.",
+    "Generationsgrenze 'vor/ab Mai 2013' für Akku oder Stecker: in keiner VELUX-Quelle gefunden. VELUX nennt für SSL 04/2008 (U→E), 01/2011 (S) und 07/2018 (SA); 2013 nur beim Solarfenster (ZOZ 213, Regen-Übersteuern ab Baujahr 2013). Die Grenze Juni 2022 (3-polig) stammt nur von einem Händler.",
+    "Widerspruch Spannung: aktuelles VELUX-SSL-Datenblatt (de-CH) 9,6 V/2100 mAh, ältere Datenblätter laut Suchergebnis 10,8 V/2100 mAh; Nachbauten 10,8 V. Nicht geklärt, ab wann VELUX umgestellt hat.",
+    "Ob der aktuelle Modular Motor einen Li-Ionen-Akku integriert hat (so ein Händler, meurer-shop) oder NiMH (Datenblatt), ist nicht geklärt.",
+    "Akkutyp und Tausch beim Solarfenster GGL/GGU …30: aktuelles VELUX-Datenblatt nennt keinen Akku; offizielle Tauschanleitung für den Fensterakku nicht gefunden.",
+    "Akkus der Solar-Markise MSL/SSS und der Innenprodukte DSL/FSL: Datenblätter laut Suche widersprüchlich (z. B. DSL 4,8 V/1100 mAh vs. 9,6 V/2000 mAh, bis 10 Jahre), nicht geöffnet.",
+    "Roto Solar (ZEL STG, ZEL SF, ZRO Solar): keine Roto-Herstellerquelle geöffnet; Akkudaten (12 V NiMH, 1800–2300 mAh) nur aus Suchergebnissen und Händlerkopien.",
+    "Die Forenaussage, ein VELUX-Solar-Rollladen fahre bei schwachem Akku wieder auf, damit man den Akku von innen tauschen kann, ist von VELUX nicht bestätigt.",
+    "Eine velux.de- oder dam.velux.com-Fassung der Anleitung 'Austausch Motor/Solarzelle V22' wurde nicht gefunden; Quelle nur Hersteller-Shop (ersatzteile.veluxshop.de)."
+  ]
+}

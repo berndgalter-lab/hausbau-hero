@@ -1,0 +1,438 @@
+{
+  "thema": "Rollo, Plissee und Jalousie für Dachfenster (VELUX, Roto): Original oder Nachbau, Generation und Größencode",
+  "fragen": [
+    {
+      "frage": "Welches Rollo passt auf mein Dachfenster, was bedeuten die Angaben auf dem Typenschild?",
+      "kategorie": "nummer",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/welche-rollo-groesse-fuer-dachfenster",
+        "https://www.gutefrage.net/frage/dachfenster-verdunkeln-in-mietwohnung",
+        "https://www.gutefrage.net/frage/velux-rollo-reparieren",
+        "https://www.bauexpertenforum.de/threads/roto-dachfenster-falsches-typenschild.143304/"
+      ],
+      "antwort": "Bestellt wird nach Fenstertyp und Größencode vom Typenschild, nicht nach gemessenen Maßen. Bei VELUX sitzt das Schild bei geöffnetem Fenster oben am Flügel hinter der Griffleiste, bei Roto ist es in der Putzstellung durch die Scheibe zu sehen. Der Größencode beschreibt das Außenmaß des Blendrahmens, deshalb ist die gemessene Scheibe immer kleiner als die Zahl auf dem Schild.",
+      "antwort_quellen": [
+        "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/faltrollos-plissees",
+        "https://contenthub.velux.com/api/public/content/fc421-86d01-1f435_downloadOriginal",
+        "https://www.roto-frank.com/de/dst/service/typenschild",
+        "https://www.roto-dachfenster.de/fileadmin/DE/servicecenter/produktdatenblaetter/Produktdatenblatt_Designo_Einbaurahmen_Aufkeil_Einzel_mit_Standardmass.pdf"
+      ]
+    },
+    {
+      "frage": "Passt ein Rollo MK04 auch auf mein Fenster mit M04 oder 304?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/welche-rollo-groesse-fuer-dachfenster",
+        "https://www.gutefrage.net/frage/frage-zu-dachfensterrollos-"
+      ],
+      "antwort": "MK04, M04 und 304 bezeichnen dieselbe Rahmengröße 78 × 98 cm aus drei Fenstergenerationen. VELUX schreibt vor, Zubehör immer nach dem Code des eigenen Fensters zu bestellen: Fenster der aktuellen Generation haben das K im Code (MK04), für ein Fenster der Vorgängergeneration bestellst du die Variante ohne K, also zum Beispiel DKL M04. Für Fenster, die vor 2002 gekauft wurden (Codes wie 304), verweist VELUX auf den Kundenservice.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/84e13-9ab66-6b493_downloadOriginal",
+        "https://contenthub.velux.com/api/public/content/fc421-86d01-1f435_downloadOriginal"
+      ]
+    },
+    {
+      "frage": "Mein Fenster ist von vor 2013, gibt es dafür noch ein Original-Verdunkelungsrollo?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/bezug-vom-velux-fenster-rollo-wechseln-moeglich",
+        "https://www.gutefrage.net/frage/dachfenster-fliegengitter"
+      ],
+      "antwort": "Ja. VELUX bietet dafür das Verdunkelungsrollo Classic (DBL) an, ausdrücklich für Dachfenster mit Baujahr vor 2013. Es gibt dieses Rollo in vier Grundfarben, es wird auf die vorhandenen Halterungen geklickt, und VELUX nennt eine Einbauzeit unter 15 Minuten.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/b8668-bdbf8-4e461_downloadOriginal",
+        "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen"
+      ]
+    },
+    {
+      "frage": "Was ist der Unterschied zwischen DKL und DBL (Classic)?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/kennt-einer-eine-guenstige-dachfensterrollo-alternative",
+        "https://www.gutefrage.net/frage/frage-zu-dachfensterrollos-"
+      ],
+      "antwort": "DKL ist das reguläre VELUX-Verdunkelungsrollo mit großer Farbauswahl und Seitenschienen in Aluminium oder Weiß. DBL heißt bei VELUX Verdunkelungsrollo Classic oder Basis-Verdunkelungsrollo: eine preiswerte Ersatzvariante in vier Farben (4204, 4230, 4249, 4288), die nur für Fenster mit Baujahr vor 2013 gedacht ist.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/b8668-bdbf8-4e461_downloadOriginal",
+        "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen",
+        "https://contenthub.velux.com/api/public/content/84e13-9ab66-6b493_downloadOriginal"
+      ]
+    },
+    {
+      "frage": "Wie baue ich das alte VELUX-Rollo aus, der Kasten oben sitzt fest?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wie-velux-verdunkelungsrollo-ggl-ausbauen",
+        "https://www.gutefrage.net/frage/wie-demontiere-ich-ein-velux-verdunkelungsrollo-dkl-45at11ka-um-die-spanfeder-zu-ueberpruefen-bzw-zu-reparieren",
+        "https://www.gutefrage.net/frage/dachfenster-verdunkeln-in-mietwohnung"
+      ],
+      "antwort": "VELUX-Rollos werden in vorinstallierte Halterungen am Fensterrahmen geklickt, die Seitenschienen sind angeschraubt. Beim Ausbau kommen also zuerst die Schienen ab, dann wird der Kasten aus den Halterungen gelöst. Eine genaue Ausbauanleitung von VELUX habe ich nicht geöffnet; in den Foren beschreiben Nutzer, dass der Kasten mit kräftigem Zug zu sich hin aus der Halterung springt.",
+      "antwort_quellen": [
+        "https://www.velux.de/produkte/sonnenschutz-und-rolladen/hitzeschutz-waermeschutz-sonnenschutz-fuer-dachfenster",
+        "https://www.velux.de/produkte/sonnenschutz-und-rolladen/verdunkelung-plus-kombi-verdunkelungsrollo-plissee"
+      ]
+    },
+    {
+      "frage": "Die Schnur am Verdunkelungsrollo ist gerissen, kann ich das reparieren?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/velux-rollo-reparieren",
+        "https://www.gutefrage.net/frage/bezug-vom-velux-fenster-rollo-wechseln-moeglich"
+      ],
+      "antwort": "Das hängt vom Rollo ab. Hat der Kasten oben eine auf Gehrung geschnittene Ecke, gibt es bei VELUX eine neue Schnur und die Endkappe als Ersatzteil, dazu ein Anleitungsvideo. Bei Rollos mit rechtwinkliger oberer Ecke gibt es laut VELUX keine Ersatzteile mehr, dann bleibt nur ein neues Rollo.",
+      "antwort_quellen": [
+        "https://www.velux.de/support/wiki/verdunkelungsrollo-schnurdefekt"
+      ]
+    },
+    {
+      "frage": "Kann ich nur den Stoff (Bezug) vom Rollo tauschen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/bezug-vom-velux-fenster-rollo-wechseln-moeglich",
+        "https://www.gutefrage.net/frage/velux-rollo-reparieren"
+      ],
+      "antwort": "Einen Ersatzbezug für Verdunkelungsrollos nennt VELUX auf den geöffneten Seiten nicht. Ersatzteile gibt es nur für Rollos mit Gehrungsecke (Schnur und Endkappe), für ältere Rollos mit rechtwinkliger Ecke empfiehlt VELUX ein neues Rollo. Für Fenster vor 2013 ist das Classic-Rollo die günstigste Original-Lösung.",
+      "antwort_quellen": [
+        "https://www.velux.de/support/wiki/verdunkelungsrollo-schnurdefekt",
+        "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen"
+      ]
+    },
+    {
+      "frage": "Am Fenster fehlen die Halterungen oder sind abgebrochen, was brauche ich?",
+      "kategorie": "bezug",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wie-velux-verdunkelungsrollo-ggl-ausbauen"
+      ],
+      "antwort": "Für fehlende oder beschädigte Halterungen am Fenster nennt VELUX das Montageset ZOZ 230. Bei Elektro-Rollos kommt ein Montagesatz Leitungsführung ZOZ 241, 242, 243 oder 244 dazu, wenn das Fenster keine vorinstallierten elektrischen Zubehörträger hat.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/84e13-9ab66-6b493_downloadOriginal",
+        "https://contenthub.velux.com/api/public/content/product-guide_454573"
+      ]
+    },
+    {
+      "frage": "Wofür sind die Haltekrallen beim Sichtschutzrollo, und halten die am Kunststofffenster?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/velux-rollo-fuer-ein-kunstofffenster"
+      ],
+      "antwort": "Beim Sichtschutzrollo RHL halten drei Haltekrallen das Rollo in drei festen Positionen, stufenlos ist es nicht. Das Rollo selbst wird auf die vorinstallierten Halterungen geklickt. Wie die Krallen an einem Kunststofffenster befestigt werden, steht in den von mir geöffneten VELUX-Unterlagen nicht.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/d2f76-ab2f4-a4489_downloadOriginal"
+      ]
+    },
+    {
+      "frage": "Das neue Original-Rollo wirft in den Seitenschienen Falten, kann man das einstellen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/velux-verdunkelungsrollo.28625/"
+      ],
+      "antwort": "Dazu habe ich keine Herstellerangabe gefunden. Prüfe zuerst, ob Rollogröße und Fenstercode übereinstimmen und ob die Schienen nach Anleitung sitzen, denn VELUX-Rollos werden passgenau ohne Messen und Zuschneiden geliefert.",
+      "antwort_quellen": [
+        "https://www.velux.de/produkte/sonnenschutz-und-rolladen/hitzeschutz-waermeschutz-sonnenschutz-fuer-dachfenster"
+      ]
+    },
+    {
+      "frage": "Gibt es ein günstigeres Rollo als das Original, und passt ein normales Rollo oder Plissee?",
+      "kategorie": "bezug",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/kennt-einer-eine-guenstige-dachfensterrollo-alternative",
+        "https://www.gutefrage.net/frage/frage-zu-dachfensterrollos-",
+        "https://www.gutefrage.net/frage/kann-man-normale-rollos-auch-an-dachfenster-bauen",
+        "https://www.gutefrage.net/frage/unterschied-normales-plissee-und-plissees-fuer-dachfenster",
+        "https://www.frag-mutti.de/forum/thread/33789-rollo-im-dachfenster"
+      ],
+      "antwort": "Die günstigste Original-Lösung für Fenster vor 2013 ist das Classic-Rollo DBL. VELUX-Rollos haben seitliche Führungsschienen und werden in Halterungen am Rahmen eingeklickt, dadurch liegen sie auch in der Schräge an. Ob ein bestimmter Nachbau passt, lässt sich aus Herstellerunterlagen nicht beantworten; entscheidend ist, dass er für deinen Fenstertyp und Größencode angeboten wird.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/b8668-bdbf8-4e461_downloadOriginal",
+        "https://www.velux.de/produkte/sonnenschutz-und-rolladen/hitzeschutz-waermeschutz-sonnenschutz-fuer-dachfenster"
+      ]
+    },
+    {
+      "frage": "Brauche ich zum Anbringen eines Rollos oder Plissees einen Bohrer?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/dachfenster-verdunkeln-in-mietwohnung",
+        "https://www.gutefrage.net/frage/velux-dachfenster-abdunkeln",
+        "https://www.gutefrage.net/frage/guenstiger-klemmrolloverdunkelung-fuer-alte-dachfenster"
+      ],
+      "antwort": "Bei Original-Rollos für VELUX-Fenster nicht: Die meisten Verdunkelungsrollos werden laut VELUX ohne Bohren und ohne zusätzliches Werkzeug an den im Rahmen integrierten Halterungen befestigt. Plissees bestellst du ebenfalls nach Fenstertyp und Größe vom Typenschild, ein Ausmessen ist nicht nötig.",
+      "antwort_quellen": [
+        "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/verdunkelung",
+        "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/faltrollos-plissees"
+      ]
+    },
+    {
+      "frage": "Ich habe ein Roto-Fenster, welches Rollo brauche ich?",
+      "kategorie": "nummer",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/roto-dachfenster-falsches-typenschild.143304/",
+        "https://www.gutefrage.net/frage/welche-rollo-groesse-fuer-dachfenster"
+      ],
+      "antwort": "Auch bei Roto zählen Baureihe und Größe vom Typenschild, das du in der Putzstellung durch die Scheibe siehst. Die Größe steht für das Außenmaß des Blendrahmens: 074/118 heißt 740 × 1180 mm, 114/140 heißt 1140 × 1400 mm. Die Glasfläche ist deshalb deutlich kleiner als die Zahl auf dem Schild.",
+      "antwort_quellen": [
+        "https://www.roto-frank.com/de/dst/service/typenschild",
+        "https://www.roto-dachfenster.de/fileadmin/DE/servicecenter/produktdatenblaetter/Produktdatenblatt_Designo_Einbaurahmen_Aufkeil_Einzel_mit_Standardmass.pdf"
+      ]
+    }
+  ],
+  "fakten": [
+    {
+      "fakt": "VELUX unterscheidet auf der Typenschild-Seite drei Zeiträume: seit 2013, 2000 bis 2013 und 1991 bis 2000.",
+      "quelle": "https://www.velux.de/service/typenschild"
+    },
+    {
+      "fakt": "Fenster aus dem VES-Sortiment (1991 bis Mitte 2000) haben ein messingfarbenes Typenschild rechts oben am Flügel hinter der Griffleiste; Beispiel: GGL 306 3059 00 AE 10D. Die zwei Buchstaben in der Seriennummer geben das Fertigungsjahr an (z. B. AE = 1996).",
+      "quelle": "https://contenthub.velux.com/api/public/content/fc421-86d01-1f435_downloadOriginal"
+    },
+    {
+      "fakt": "Die Größen des VES-Sortiments (102, 104, 204, 206, 304, 306, 308, 310, 406, 408, 410, 606, 608, 610, 808, 810) entsprechen den neuen Größen CK02 … UK10; die Blendrahmen-Außenmaße sind identisch. Bei 102 bis 206 weichen die Innenfutter-Nutmaße ab.",
+      "quelle": "https://contenthub.velux.com/api/public/content/fc421-86d01-1f435_downloadOriginal"
+    },
+    {
+      "fakt": "Produktionscodes im Typenschild: BC = 2013, BB = 2012, AI = 2000, AA = 1992, O = 1991 (vollständige Liste auf der Seite).",
+      "quelle": "https://www.velux.de/service/typenschild"
+    },
+    {
+      "fakt": "Zubehör wird nach dem Größencode des Fensters bestellt. Die aktuelle Generation (ab 2013) hat ein K im Code (MK06), die Vorgängergeneration 2002 bis 2013 denselben Code ohne K (M06). Beispiel aus der Preisliste: DML M04 1085 für ein Fenster M04. Für Fenster, die vor 2002 gekauft wurden, soll man den Kundenservice fragen.",
+      "quelle": "https://contenthub.velux.com/api/public/content/84e13-9ab66-6b493_downloadOriginal"
+    },
+    {
+      "fakt": "Rollos gibt es mit silbernen oder weißen Führungsschienen: DKL MK06 1025S = silberne Schienen, DKL MK06 1025SWL = weiße Schienen.",
+      "quelle": "https://contenthub.velux.com/api/public/content/84e13-9ab66-6b493_downloadOriginal"
+    },
+    {
+      "fakt": "Rollos mit weißen Führungsschienen enthalten kein Paket Montagehalterungen für Fenster der Vorgängergeneration. Bei beschädigten oder fehlenden Halterungen am Fenster ist das Montageset ZOZ 230 nötig.",
+      "quelle": "https://contenthub.velux.com/api/public/content/84e13-9ab66-6b493_downloadOriginal"
+    },
+    {
+      "fakt": "Elektrische Innenrollos brauchen einen Montagesatz Leitungsführung ZOZ 241/242/243/244, wenn das Fenster keine vorinstallierten elektrischen Zubehörträger hat.",
+      "quelle": "https://contenthub.velux.com/api/public/content/product-guide_454573"
+    },
+    {
+      "fakt": "Das Verdunkelungsrollo Classic passt zu VELUX Dachfenstern mit Baujahr vor 2013, gibt es in vier Grundfarben (4204, 4230, 4249, 4288) und wird auf die vorinstallierten Halterungen geklickt.",
+      "quelle": "https://contenthub.velux.com/api/public/content/b8668-bdbf8-4e461_downloadOriginal"
+    },
+    {
+      "fakt": "VELUX Austausch-Rollos sind für Fenster gedacht, die vor 2013 hergestellt wurden; das Basic-Verdunkelungsrollo lässt sich in weniger als 15 Minuten einbauen.",
+      "quelle": "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/rollos-ersetzen"
+    },
+    {
+      "fakt": "VELUX Dachfenster werden mit vorinstallierten Montagewinkeln geliefert; der Sonnenschutz wird eingeklickt, danach werden die vormontierten Seitenschienen angebracht. Messen oder Anpassen ist nicht nötig.",
+      "quelle": "https://www.velux.de/produkte/sonnenschutz-und-rolladen/hitzeschutz-waermeschutz-sonnenschutz-fuer-dachfenster"
+    },
+    {
+      "fakt": "Die meisten Verdunkelungsrollos werden ohne Bohren und ohne zusätzliches Werkzeug an den im Rahmen integrierten Halterungen befestigt. Garantie: 3 Jahre für manuelle, 5 Jahre für elektrische und solarbetriebene Rollos.",
+      "quelle": "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/verdunkelung"
+    },
+    {
+      "fakt": "Schnur gerissen: Für Verdunkelungsrollos mit auf Gehrung geschnittener oberer Ecke gibt es Schnur und Endkappe als Ersatzteil; für Rollos mit rechtwinkliger oberer Ecke gibt es keine Ersatzteile mehr.",
+      "quelle": "https://www.velux.de/support/wiki/verdunkelungsrollo-schnurdefekt"
+    },
+    {
+      "fakt": "Sichtschutzrollo RHL: drei Haltekrallen, Rollo lässt sich in drei vordefinierten Positionen einstellen; Montage durch Einklicken in vorinstallierte Halterungen. Farbcodes 1028, 1086, 4161, 9050.",
+      "quelle": "https://contenthub.velux.com/api/public/content/d2f76-ab2f4-a4489_downloadOriginal"
+    },
+    {
+      "fakt": "Pakete mit Hitzeschutz-Markise: ROP = RHL + MHL, ROZ = RHZ + MHL, DOP = DKL + MHL, FOP = Wabenplissee + MHL. ROP und ROZ tragen Größencodes wie CK00, FK00 und passen auf alle Längen einer Fensterbreite.",
+      "quelle": "https://contenthub.velux.com/api/public/content/84e13-9ab66-6b493_downloadOriginal"
+    },
+    {
+      "fakt": "Jalousie PAL: wird in vormontierte Halterungen gedrückt, Lamellen über einen Schiebegriff in der rechten Führungsschiene verstellbar, geeignet für Bad und Küche.",
+      "quelle": "https://contenthub.velux.com/api/public/content/d1099-12220-f546d_downloadOriginal"
+    },
+    {
+      "fakt": "Plissees werden nach Fenstertyp und Größe vom Typenschild bestellt; das Typenschild sitzt bei geöffnetem Fenster rechts oder links hinter der Griffleiste, sein Aussehen hängt vom Baujahr ab.",
+      "quelle": "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/faltrollos-plissees"
+    },
+    {
+      "fakt": "Elektro-Rollo RML passt in GGL, GGU, GPL, GPU, GGLS und GPLS (jeweils auch Elektro-Varianten); es ist nicht mit anderem innen liegendem Sonnenschutz kombinierbar, wohl aber mit außen liegendem und mit Insektenschutz ZIL.",
+      "quelle": "https://contenthub.velux.com/api/public/content/2e23c-78022-174db_downloadOriginal"
+    },
+    {
+      "fakt": "Roto: Das Typenschild ist in der Putzstellung zu sehen; die Typenbezeichnung steht hinter einer roten Klappe oder auf einer grauen Platte. Beim Innen-Sonnenschutz ist dessen Typenschild in der Putzstellung durch die Scheibe erkennbar.",
+      "quelle": "https://www.roto-frank.com/de/dst/service/typenschild"
+    },
+    {
+      "fakt": "Roto-Größen sind Blendrahmen-Außenmaße, z. B. 074/118 = 740/1180 mm, 094/140 = 940/1400 mm, 114/140 = 1140/1400 mm.",
+      "quelle": "https://www.roto-dachfenster.de/fileadmin/DE/servicecenter/produktdatenblaetter/Produktdatenblatt_Designo_Einbaurahmen_Aufkeil_Einzel_mit_Standardmass.pdf"
+    }
+  ],
+  "groessen_spalten": [
+    "neu (ab 2013)",
+    "Generation 2000/2002 bis 2013 (ein Buchstabe + 2 Ziffern)",
+    "VES-Sortiment 1991 bis 2000/2002 (3 Ziffern)",
+    "vor 1991 (nur home4u, nicht von VELUX bestätigt)",
+    "Blendrahmen-Außenmaß B x H cm (nicht Flügel)"
+  ],
+  "groessen_tabelle": [
+    [
+      "CK02",
+      "C02",
+      "102",
+      "021 / Y21",
+      "55 x 78"
+    ],
+    [
+      "CK04",
+      "C04",
+      "104",
+      "023 / Y23",
+      "55 x 98"
+    ],
+    [
+      "CK06",
+      "C06",
+      "-",
+      "-",
+      "55 x 118"
+    ],
+    [
+      "FK06",
+      "F06",
+      "206",
+      "035 / Y35",
+      "66 x 118"
+    ],
+    [
+      "FK08",
+      "F08",
+      "-",
+      "-",
+      "66 x 140"
+    ],
+    [
+      "MK04",
+      "M04",
+      "304",
+      "043 / Y43",
+      "78 x 98"
+    ],
+    [
+      "MK06",
+      "M06",
+      "306",
+      "045 / Y45",
+      "78 x 118"
+    ],
+    [
+      "MK08",
+      "M08",
+      "308",
+      "047 / Y47",
+      "78 x 140"
+    ],
+    [
+      "MK10",
+      "M10",
+      "310",
+      "-",
+      "78 x 160"
+    ],
+    [
+      "PK06",
+      "P06",
+      "406",
+      "065 / Y65",
+      "94 x 118"
+    ],
+    [
+      "PK08",
+      "P08",
+      "408",
+      "067 / Y67",
+      "94 x 140"
+    ],
+    [
+      "PK10",
+      "P10",
+      "410",
+      "-",
+      "94 x 160"
+    ],
+    [
+      "SK06",
+      "S06",
+      "606",
+      "085 / Y85",
+      "114 x 118"
+    ],
+    [
+      "SK08",
+      "S08",
+      "608",
+      "087 / Y87",
+      "114 x 140"
+    ],
+    [
+      "SK10",
+      "S10",
+      "610",
+      "089 / Y89",
+      "114 x 160"
+    ],
+    [
+      "UK04",
+      "U04",
+      "804",
+      "-",
+      "134 x 98"
+    ],
+    [
+      "UK08",
+      "U08",
+      "808",
+      "107 / Y97",
+      "134 x 140"
+    ],
+    [
+      "UK10",
+      "U10",
+      "810",
+      "109 / Y99",
+      "134 x 160"
+    ]
+  ],
+  "groessen_quellen": [
+    "https://contenthub.velux.com/api/public/content/43c5b-09c50-11488_downloadOriginal",
+    "https://contenthub.velux.com/api/public/content/fc421-86d01-1f435_downloadOriginal",
+    "https://contenthub.velux.com/api/public/content/332ca-f2c26-324f1_downloadOriginal",
+    "https://contenthub.velux.com/api/public/content/84e13-9ab66-6b493_downloadOriginal",
+    "https://www.home4u.de/Ratgeber/Wohndachfenster/velux-masstabelle/"
+  ],
+  "groessen_hinweise": [
+    "Spalten 1 bis 3 und Maße für CK02, CK04, FK06, FK08, MK04 bis UK10 stammen aus dem tschechischen VELUX-Technikblatt zur Markise MHL (Größencode ab 2013 / 2002 bis 2013 / bis 2002 / B x H cm) und decken sich mit VELUX-Dokument 7099 (VES-Größe zu neuer Größe) und der spanischen VELUX-Größentabelle (mm).",
+    "CK06 = C06 laut spanischer VELUX-Größentabelle (550 x 1178 mm); ein dreistelliger VES-Code für CK06 ist dort nicht aufgeführt.",
+    "FK08 = F08 laut tschechischem VELUX-Technikblatt und Preisliste; kein VES-Code.",
+    "Die Spalte 'vor 1991' (z. B. 043 / Y43) stammt nur von home4u.de. home4u ordnet zudem 304 usw. der Zeit 'bis 1991' zu und M04 der Zeit '1991–2013'; VELUX selbst nennt für die dreistelligen Codes 1991 bis Mitte 2000 (Dok. 7099) bzw. 'bis 2002' (CZ). Ich bin VELUX gefolgt.",
+    "Grenze zwischen VES und Buchstabencode: VELUX Deutschland nennt Mitte 2000, VELUX Tschechien 2002.",
+    "VELUX gibt die Maße als Außenmaß des Blendrahmens an (CZ-Preisliste: 'Vnější rozměr okna', mit Innenmaß z. B. 725 x 919 mm für 78 x 98)."
+  ],
+  "nicht_belegt": [
+    "Ob ein DKL MK04 physisch auf ein M04-Fenster passt: VELUX sagt nur, man solle nach dem Fenstercode bestellen (M04 → DKL M04). Eine ausdrückliche Aussage 'passt nicht' habe ich nur bei Händlern gesehen.",
+    "Ob man an Fenstern der Vorgängergeneration (M04) den neuen Zubehörträger nachrüsten kann, damit Rollos der K-Generation passen: nicht gefunden. Belegt ist nur ZOZ 230 als Ersatz für fehlende oder beschädigte Halterungen.",
+    "Rollos für Fenster vor 1991 (VL/VU, Codes wie 043 oder Y43): VELUX verweist für Fenster vor 2002 an den Kundenservice; ob es dafür eigene Rollovarianten gibt, ist offen.",
+    "Spalte 'vor 1991' der Größentabelle (Y-Codes, 021/043 …) nur aus home4u.de; keine zweite Quelle, VELUX bestätigt sie nicht.",
+    "'Pick&Click' als offizieller VELUX-Name: auf den geöffneten VELUX-Seiten steht nur 'vorinstallierte Halterungen/Montagewinkel'; der Begriff kommt in Foren und bei Händlern vor.",
+    "ZOZ 137 (Haltekrallen): Artikelnummer und Zweck nicht gefunden.",
+    "DBL Classic für Größen C02 bis U08 und 306 bis 808: nur bei Händlern gelesen, nicht in VELUX-Unterlagen.",
+    "Raffrollo: kein VELUX-Produkt dieser Art gefunden.",
+    "Befestigung der RHL-Haltekrallen am Kunststofffenster (Nageln/Schrauben): keine Herstellerangabe geöffnet.",
+    "Ausbau-Anleitung für eingeklickte Rollos: keine VELUX-Anleitung geöffnet, nur Forenaussagen.",
+    "Roto-Notation 7/11 = 074/118: nur bei Händlern (baustoffshop.de) und im Bauexpertenforum-Thread (11/14 neben 114/140) gesehen, nicht in einer Roto-Quelle.",
+    "FAKRO: keine Herstellerseite geöffnet; Größen wie 78 x 118 (Code 06) nur bei Händlern.",
+    "Reddit-Threads (r/selbermachen 'Altes VELUX Rollo demontieren', 'Velux Verdunklungsrollo lässt sich nicht bewegen') ließen sich nicht öffnen und sind deshalb nicht als Fundstelle eingetragen."
+  ]
+}

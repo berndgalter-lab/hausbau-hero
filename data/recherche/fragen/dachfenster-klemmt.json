@@ -1,0 +1,380 @@
+{
+  "thema": "Dachfenster klemmt, lässt sich schwer öffnen oder schließen, bleibt nicht offen",
+  "fragen": [
+    {
+      "frage": "Mein VELUX-Dachfenster klemmt und lässt sich nicht mehr schließen. Was kann ich selbst prüfen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/velux-dachfenster-klemmt",
+        "https://www.gutefrage.net/frage/velux-fenster-schliesst-nicht-mehr",
+        "https://www.gutefrage.net/frage/dachfenster-velux-schliesst-nicht-mehr-richtig",
+        "https://www.gutefrage.net/frage/velux-dachfenster-geht-nicht-mehr-zu"
+      ],
+      "antwort": "VELUX nennt als häufige Ursachen falsch eingestellte Federn, verschmutzte Scharniere, trockene Laufteile, eine abgenutzte Griffstange oder Schmutz zwischen Flügel und Rahmen. Prüf zuerst, ob etwas zwischen Flügel und Rahmen liegt, etwa Schmutz oder Reste von Dichtungsmaterial, und ob die Metallteile geschmiert sind. Ein Klapp-Schwingfenster, das nach dem ersten Öffnen offen stehen bleibt, ist meist nicht defekt: Zum Schließen genügt etwas kräftigerer Druck nach unten.",
+      "antwort_quellen": [
+        "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen"
+      ]
+    },
+    {
+      "frage": "Ich habe das Fenster ganz herumgedreht und jetzt geht es nicht mehr zu. Wie löse ich die Sperre?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/hilfe---dachfenster-zu-weit-angekippt---geht-nicht-mehr-zu",
+        "https://www.gutefrage.net/frage/velux-dachfenster-geht-nicht-mehr-zu",
+        "https://www.gutefrage.net/frage/velux-dachfenster-reinigen"
+      ],
+      "antwort": "In der Putzstellung wird der umgedrehte Flügel mit Riegeln im Rahmen festgestellt: beim GGU mit dem Sicherungsriegel in der unteren Buchse, beim GPL mit beiden Sicherungsriegeln in den unteren Buchsen. Schieb diese Riegel zurück, dann lässt sich der Flügel wieder zurückschwenken. Die Sturmsicherung beim GGU ist ein Riegel oben rechts hinter der Lüftungsklappe, der in eine Buchse im Blendrahmen greift.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/product-guide_453273",
+        "https://contenthub.velux.com/api/public/content/product-guide_453275"
+      ]
+    },
+    {
+      "frage": "Mein Klapp-Schwingfenster (GPU/GPL) bleibt nicht offen stehen und fällt zu. Was tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/velux-dachfenster-gpu-p06-mit-solarrolladen-bleibt-nicht-offen",
+        "https://www.gutefrage.net/frage/velux-klapp-schwingfenster-gpu-klappt-geht-nicht-auf",
+        "https://www.gutefrage.net/frage/velux-ggu-p08-bleibt-nicht-offen",
+        "https://www.bauexpertenforum.de/threads/velux-ggu-sk08-einstellen.109740/"
+      ],
+      "antwort": "Laut VELUX-Anleitung muss der Flügel in jeder Öffnungsstellung stehen bleiben. Prüf zuerst, ob die Beschläge auf beiden Seiten in die Federn eingerastet sind: Fenster mit der Griffleiste schließen, dann mit dem Bedienungsgriff aufklappen und den Flügel dabei nach oben drücken, bis die Beschläge einrasten. Bleibt er trotzdem nicht stehen, justierst du die Federn wie in der Anleitung abgebildet; die Einstellung hängt von der Dachneigung ab.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/product-guide_453275",
+        "https://contenthub.velux.com/api/public/content/product-guide_453277",
+        "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=4684d621-63b1-47eb-9ae1-73222d398b5f"
+      ]
+    },
+    {
+      "frage": "Mein Klapp-Schwingfenster springt von selbst ganz auf. Kann ich die Federn einstellen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/hilfe---dachfenster-zu-weit-angekippt---geht-nicht-mehr-zu",
+        "https://www.gutefrage.net/frage/velux-klapp-schwingfenster-gpu-klappt-geht-nicht-auf"
+      ],
+      "antwort": "VELUX-Klapp-Schwingfenster der aktuellen Baureihe sind für 15° bis 55° Dachneigung zugelassen, die Federn werden beim Einbau auf die Dachneigung eingestellt und können danach nachjustiert werden. Liegt die Dachneigung über 55°, sind die Werksfedern zu stark und lassen sich nicht passend einstellen. Dann helfen Sonderfedern, die der VELUX-Kundendienst einbaut.",
+      "antwort_quellen": [
+        "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=4684d621-63b1-47eb-9ae1-73222d398b5f",
+        "https://contenthub.velux.com/api/public/content/3d9ea-edbc8-284b0_downloadOriginal",
+        "https://contenthub.velux.com/api/public/content/product-guide_453275"
+      ]
+    },
+    {
+      "frage": "Mein Schwingfenster (GGU/GGL) fällt bei flachem Dach immer zu. Ist das ein Defekt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/velux-ggu-sk08-einstellen.109740/",
+        "https://www.gutefrage.net/frage/velux-ggu-p08-bleibt-nicht-offen"
+      ],
+      "antwort": "Nicht unbedingt. Laut VELUX liegt der Flügel eines Schwingfensters in geöffneter Stellung fast flach, bei geringer Dachneigung ist der Öffnungswinkel kleiner. Bei einem neuen Fenster sollst du die Scharniere reinigen und überschüssiges Fett entfernen. Ist die Dachneigung für das Modell zu gering, lass die Einbausituation von einem zertifizierten Installateur prüfen.",
+      "antwort_quellen": [
+        "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen"
+      ]
+    },
+    {
+      "frage": "Die Griffleiste meines neuen GGL lässt sich nicht mehr in die Schließstellung bringen. Wo ist die Entriegelung?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/velux-dachfenster-laesst-sich-nicht-mehr-schliessen"
+      ],
+      "antwort": "Beim VELUX-Schwingfenster öffnest du das Fenster, indem du die Griffleiste zweimal abwinkelst; zum Schließen schwenkst du den Flügel nach oben und kippst die Griffleiste zweimal zurück. Leicht abgewinkelt ist sie in Lüftungsstellung, das Fenster bleibt dann verriegelt. VELUX rät, bei Problemen zuerst die Griffleiste in der Lüftungsstellung zu kontrollieren, weil sie zum Öffnen zweimal einrasten muss.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/product-guide_453273",
+        "https://contenthub.velux.com/api/public/content/product-guide_453271",
+        "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen"
+      ]
+    },
+    {
+      "frage": "Der Flügel schleift am Rahmen oder ist abgesackt. Kann ich ihn nachjustieren?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wie-leicht-sollte-sich-ein-velux-dachfenster-schliessen-lassen",
+        "https://www.gutefrage.net/frage/velux-fenster-schliesst-nicht-mehr"
+      ],
+      "antwort": "Laut VELUX gibt es am Dachfenster keine Justierschrauben für eine nachträgliche Korrektur, der Flügel wird beim Einbau ausgerichtet. Schleift er direkt nach dem Einbau, muss der Handwerker nachbessern. Kommt es später dazu, wende dich an den Handwerker, der eingebaut hat, oder beauftrage den VELUX-Kundendienst.",
+      "antwort_quellen": [
+        "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=7d80d6e9-e93b-4434-975e-fb8e08d9bb5a"
+      ]
+    },
+    {
+      "frage": "Womit schmiere ich die Scharniere vom Dachfenster und wie oft?",
+      "kategorie": "pflege",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/velux-dachfenster-klemmt",
+        "https://www.gutefrage.net/frage/velux-fenster-schliesst-nicht-mehr"
+      ],
+      "antwort": "Für VELUX-Fenster gibt es Scharnierfett im Kombi-Pflege-Set ZZZ 220 bzw. ZZZ 220K, VELUX zeigt die Anwendung in Videos für beide Generationen. Die Anleitungen der aktuellen Generation sagen: gezeigte Beschläge alle fünf Jahre oder bei Bedarf schmieren. Für Roto-Fenster R8 nennt Roto einmal jährlich einen Tropfen säurefreies Öl, etwa Nähmaschinen- oder Motorenöl, an den gezeigten Stellen.",
+      "antwort_quellen": [
+        "https://www.velux.de/faq?category=2f3bc86b-eee5-4398-8604-c8712027dfa9&gem=782176ca-90b5-4800-9851-a64b2837c749",
+        "https://contenthub.velux.com/api/public/content/product-guide_453273",
+        "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/operating-and-maintenance-instructions/designo/roof-window-designo-r8.pdf"
+      ]
+    },
+    {
+      "frage": "Wie hänge ich den Flügel eines VELUX GGL oder GGU aus und wieder ein?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wie-haenge-ich-ein-velux-dachfenster-aus",
+        "https://www.gutefrage.net/frage/veluxfenster-aushaengen",
+        "https://www.gutefrage.net/frage/dachfenster-velux-gpu--laesst-sich-nicht-mehr-schliessen-"
+      ],
+      "antwort": "VELUX hat dafür eine eigene Anleitung für alle Typen. Bei Schwingfenstern GGL/GGU haben die Scharniere entweder eine Schraube oder einen Druckknopf; den Druckknopf drückst du zum Beispiel mit einem Schraubendreher ein und nimmst den Flügel heraus. Beim Einhängen rastet der Druckknopf beim Schließen automatisch wieder aus. Bei Klapp-Schwingfenstern entspannst du vorher die Federn und hängst sie danach wieder ein, indem du den Flügel nach oben drückst, bis die Beschläge auf beiden Seiten einrasten.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/product-guide_450525",
+        "https://www.velux.de/faq?category=b51a9b6e-192b-496b-9a65-bca8822126fb&gem=46928b6c-fd9a-4736-ac43-e021bc9558f1"
+      ]
+    },
+    {
+      "frage": "Mein Elektro-Klapp-Schwingfenster steht offen und schließt nicht mehr. Kann ich es von Hand schließen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/velux-solarfenster-oeffnet-nicht-warum",
+        "https://www.bauexpertenforum.de/threads/velux-solar-fenster-oeffnet-nicht-mehr.138836/"
+      ],
+      "antwort": "Ja, VELUX beschreibt eine Notschließung in einem eigenen Servicedokument. Du brauchst einen flachen Schraubendreher (etwa 5 mm), eine Kneifzange, zwei Spanngurte und eine Dachlatte, die rund 50 cm länger als die Fensterbreite ist. Dabei werden die Bolzen der Motorkette entriegelt und die Kette ausgehängt. Zur Reparatur sollst du danach sofort den VELUX-Kundendienst beauftragen.",
+      "antwort_quellen": [
+        "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=69e9541c-21b0-4014-87fe-f2fb2576cc3f",
+        "https://contenthub.velux.com/api/public/content/a798d-78290-ec4ec_downloadOriginal"
+      ]
+    },
+    {
+      "frage": "Mein Solarfenster öffnet nicht, die Fernbedienung meldet „Betrieb eingeschränkt“. Was kann ich tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/velux-solar-fenster-oeffnet-nicht-mehr.138836/",
+        "https://www.gutefrage.net/frage/velux-solarfenster-oeffnet-nicht-warum"
+      ],
+      "antwort": "VELUX rät: Fernbedienung aus kurzer Entfernung testen, Batterien prüfen, zugängliche Kabel und Stecker auf festen Sitz und Korrosion ansehen und Fenster und Fernbedienung neu koppeln. Die Griffleiste muss beim Motorbetrieb geschlossen sein. Hilft das nicht, kann ein Motor-Reset nötig sein, dafür empfiehlt VELUX den Kundendienst. Einen Solarset-Tausch berechnet der Kundendienst laut Preisliste mit 422 bis 456 € inklusive Anfahrt.",
+      "antwort_quellen": [
+        "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen",
+        "https://contenthub.velux.com/api/public/content/8478c-553ee-b84fd_downloadOriginal"
+      ]
+    },
+    {
+      "frage": "Was kostet es, die Federn am Klapp-Schwingfenster vom VELUX-Kundendienst tauschen zu lassen?",
+      "kategorie": "bezug",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/velux-ggu-sk08-einstellen.109740/",
+        "https://www.gutefrage.net/frage/velux-klapp-schwingfenster-gpu-klappt-geht-nicht-auf"
+      ],
+      "antwort": "Laut VELUX-Preisübersicht (Stand 01.07.2026) kostet ein Momentfedertausch durch den Kundendienst je nach Fenstergröße 306 bis 318 €, inklusive Ersatzteil, Entsorgung, Anfahrt und Arbeitszeit. Die Preise gelten bis 2 m Einbauhöhe an der Fensterunterkante. Sonderfedern für Dachneigungen über 55° baut ebenfalls der Kundendienst ein.",
+      "antwort_quellen": [
+        "https://contenthub.velux.com/api/public/content/8478c-553ee-b84fd_downloadOriginal",
+        "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=4684d621-63b1-47eb-9ae1-73222d398b5f"
+      ]
+    },
+    {
+      "frage": "Mein Roto-Klapp-Schwingfenster springt auf oder fällt zu. Wie stelle ich die Federn nach?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/hilfe---dachfenster-zu-weit-angekippt---geht-nicht-mehr-zu",
+        "https://www.bauexpertenforum.de/threads/velux-ggu-sk08-einstellen.109740/"
+      ],
+      "antwort": "In der Roto-Anleitung für das R8 steht: Springt der Flügel auf oder fällt er zu, stellst du die Federkraft mit dem Spannschlüssel gleichmäßig auf beiden Seiten nach, Plus für mehr und Minus für weniger Spannung. Bleibt der Flügel nicht in der gewünschten Stellung, kannst du zusätzlich die Flügelbremsen nachstellen. Roto zeigt das Einstellen von R6, R7 und R8 sowie das Bremse-Einstellen beim R8 in Service-Videos.",
+      "antwort_quellen": [
+        "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/operating-and-maintenance-instructions/designo/roof-window-designo-r8.pdf",
+        "https://www.roto-frank.com/de/dst/pflege-und-wartung"
+      ]
+    }
+  ],
+  "fakten": [
+    {
+      "fakt": "Typische Ursachen für schwergängige VELUX-Fenster: falsch eingestellte Federn, verschmutzte Scharniere, trockene Laufteile, abgenutzte Griffstange, Schmutz zwischen Flügel und Rahmen.",
+      "quelle": "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen"
+    },
+    {
+      "fakt": "Klapp-Schwingfenster, die nach dem ersten Öffnen offen stehen, sind in der Regel nicht defekt; zum Schließen etwas kräftiger nach unten drücken.",
+      "quelle": "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen"
+    },
+    {
+      "fakt": "Schwingfenster: Zum Öffnen muss die Griffleiste zweimal einrasten; Griffleiste in der Lüftungsstellung kontrollieren.",
+      "quelle": "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen"
+    },
+    {
+      "fakt": "GPL/GPU: Der Flügel muss in jeder Öffnungsstellung stehen bleiben; sonst erst prüfen, ob die Beschläge beidseitig in die Federn einrasten (Abschnitt A), dann Federn justieren (Abschnitt B). Federjustierung hängt von der Dachneigung ab.",
+      "quelle": "https://contenthub.velux.com/api/public/content/product-guide_453275"
+    },
+    {
+      "fakt": "Kopplung Feder/Beschlag (GPL): Fenster mit Griffleiste schließen, mit Bedienungsgriff aufklappen und Flügel nach oben drücken; die Beschläge rasten beidseitig automatisch ein.",
+      "quelle": "https://contenthub.velux.com/api/public/content/product-guide_453275"
+    },
+    {
+      "fakt": "Öffnungsbegrenzer für GPL: ZZZ 164K; darf nicht in Fenster montiert werden, die als Notausstieg dienen.",
+      "quelle": "https://contenthub.velux.com/api/public/content/product-guide_453275"
+    },
+    {
+      "fakt": "Klapp-Schwing-Fenster der aktuellen Baureihe: zugelassen für 15° bis 55° Dachneigung; Federn werden beim Einbau eingestellt und können nachjustiert werden; über 55° Sonderfedern über den Kundendienst.",
+      "quelle": "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=4684d621-63b1-47eb-9ae1-73222d398b5f"
+    },
+    {
+      "fakt": "GPU, GPL und VKU sind mit Sonderfedern von 55° bis 75° einsetzbar, GTU (SK08) und GTL bis 65°; Nachrüstung in eingebaute Fenster über den VELUX-Service.",
+      "quelle": "https://contenthub.velux.com/api/public/content/3d9ea-edbc8-284b0_downloadOriginal"
+    },
+    {
+      "fakt": "Schwingfenster liegen geöffnet fast flach; bei geringer Dachneigung ist der Öffnungswinkel kleiner. Bei neuen Fenstern Scharniere reinigen und überschüssiges Fett entfernen; Mindestdachneigung prüfen lassen.",
+      "quelle": "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen"
+    },
+    {
+      "fakt": "Am VELUX-Dachfenster gibt es keine Justierschrauben für eine nachträgliche Korrektur; schleift der Flügel, muss der Einbauer nachbessern oder der Kundendienst prüfen.",
+      "quelle": "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=7d80d6e9-e93b-4434-975e-fb8e08d9bb5a"
+    },
+    {
+      "fakt": "Putzstellung GGU: Flügel bis zum Anschlag herumschwenken und mit dem Sicherungsriegel in der unteren Buchse fixieren. Sturm- und Kindersicherung: Riegel oben rechts hinter der Lüftungsklappe in die Buchse im Blendrahmen schieben.",
+      "quelle": "https://contenthub.velux.com/api/public/content/product-guide_453273"
+    },
+    {
+      "fakt": "Putzstellung GPL: Bedienungsgriff senkrecht, Griffleiste abwinkeln, Flügel bis zum Anschlag schwenken und mit beiden Sicherungsriegeln in den unteren Buchsen feststellen.",
+      "quelle": "https://contenthub.velux.com/api/public/content/product-guide_453275"
+    },
+    {
+      "fakt": "Beschläge der aktuellen VELUX-Generation alle fünf Jahre bzw. bei Bedarf schmieren.",
+      "quelle": "https://contenthub.velux.com/api/public/content/product-guide_453277"
+    },
+    {
+      "fakt": "Flügel aushängen (VELUX): Scharniere mit Schraube oder Druckknopf; Druckknopf eindrücken; beim Einhängen rastet er beim Schließen automatisch aus. Klapp-Schwingfenster vorher Federn entspannen (je nach Ausführung rote Kunststoffteile, Gleitteile anheben oder Kupplungsplatte anheben).",
+      "quelle": "https://contenthub.velux.com/api/public/content/product-guide_450525"
+    },
+    {
+      "fakt": "Federstangen-Konstruktion bei Klapp-Schwingfenstern unterscheidet sich vor und ab Februar 2021; VELUX verlinkt je ein Video.",
+      "quelle": "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=c6c9f2cb-2ec4-4312-9d34-eca447565b3c"
+    },
+    {
+      "fakt": "Notschließung Elektro-GPU: Werkzeug Schraubendreher flach ca. 5 mm, Kneifzange, 2 Spanngurte (je mind. 2 m), Dachlatte ca. 50 cm länger als Fensterbreite; Bolzen der Kette entriegeln, Kette aushängen.",
+      "quelle": "https://contenthub.velux.com/api/public/content/a798d-78290-ec4ec_downloadOriginal"
+    },
+    {
+      "fakt": "Elektro-/Solarfenster: Fernbedienung aus kurzer Distanz testen, Batterien prüfen, Kabel/Stecker prüfen, neu koppeln; Griffleiste muss geschlossen sein; Motor-Reset mit dünnem Werkzeug, dafür Kundendienst empfohlen; nach über 10 Jahren Prüfung der elektrischen und mechanischen Bauteile.",
+      "quelle": "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen"
+    },
+    {
+      "fakt": "Solar-GGL: VELUX gibt 5 Jahre Garantie auf Elektro- bzw. Solarkomponenten.",
+      "quelle": "https://contenthub.velux.com/api/public/content/6bdac-d8cb1-d541a_downloadOriginal"
+    },
+    {
+      "fakt": "Kundendienstpreise (Stand 01.07.2026, inkl. Teil, Entsorgung, Anfahrt, Arbeitszeit, bis 2 m Einbauhöhe): Momentfedertausch 306 bis 318 €, Solarsettausch 422 bis 456 €.",
+      "quelle": "https://contenthub.velux.com/api/public/content/8478c-553ee-b84fd_downloadOriginal"
+    },
+    {
+      "fakt": "VELUX-Dachfenster über 20 Jahre: Ersatzteilverfügbarkeit eingeschränkt, Reparaturmöglichkeit prüft der Servicetechniker vor Ort.",
+      "quelle": "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=dfc73925-83a8-43d0-9c86-55339c5185cd"
+    },
+    {
+      "fakt": "Roto R8: Springt der Flügel auf oder fällt zu, Federkraft mit Spannschlüssel gleichmäßig an beiden Seiten nachstellen (+ mehr, – weniger Spannung); Flügelbremsen bei Bedarf nachstellen.",
+      "quelle": "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/operating-and-maintenance-instructions/designo/roof-window-designo-r8.pdf"
+    },
+    {
+      "fakt": "Roto R8 Flügel aushängen: Flügelbolzensicherungen mit einem Stift (dünner Nagel oder Schraube) offenhalten, Gasdruckfeder entfernen (falls vorhanden); Einhängen in umgekehrter Reihenfolge, danach Flügelabdeckblech aufstecken und Sicherungsstift einrasten lassen.",
+      "quelle": "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/operating-and-maintenance-instructions/designo/roof-window-designo-r8.pdf"
+    },
+    {
+      "fakt": "Roto R8: Wartung einmal jährlich mit einem Tropfen säurefreiem Öl an den gezeigten Stellen.",
+      "quelle": "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/operating-and-maintenance-instructions/designo/roof-window-designo-r8.pdf"
+    },
+    {
+      "fakt": "RotoQ Q4: maximal bis zur Putzstellung öffnen, nicht manuell weiter aufdrücken (Produktschäden); jährlich ölen.",
+      "quelle": "https://www.roto-frank.com/hubfs/01_Website/02_Services/Pflege%20und%20Wartung/Bedienungs-%20und%20Wartungsanleitungen/rotoq/bedienungsanleitung-wartungsanleitung-rotoq-q-4-de.pdf"
+    },
+    {
+      "fakt": "Roto bietet Service-Videos zum Einstellen von WDF R6, R7, R8, zur Bremse R8 sowie zum Tausch von Gleitschiene und Fensterflügel beim R8.",
+      "quelle": "https://www.roto-frank.com/de/dst/pflege-und-wartung"
+    }
+  ],
+  "ursachen": [
+    {
+      "ursache": "Putzstellung oder Sicherungsriegel noch eingerastet",
+      "erkennen": "Flügel steht nach dem Putzen oder zu weitem Öffnen fest und lässt sich nicht zurückschwenken.",
+      "abhilfe": "Sicherungs-/Putzriegel aus der Buchse im Rahmen zurückschieben.",
+      "quelle": "https://contenthub.velux.com/api/public/content/product-guide_453273"
+    },
+    {
+      "ursache": "Federbeschläge beim Klapp-Schwingfenster nicht eingerastet",
+      "erkennen": "Flügel bleibt nicht in jeder Öffnungsstellung stehen, Klappfunktion schwer.",
+      "abhilfe": "Fenster mit Griffleiste schließen, mit Bedienungsgriff aufklappen und Flügel nach oben drücken, bis die Beschläge beidseitig einrasten.",
+      "quelle": "https://contenthub.velux.com/api/public/content/product-guide_453275"
+    },
+    {
+      "ursache": "Federn nicht auf die Dachneigung eingestellt",
+      "erkennen": "Flügel fällt zu, öffnet zu schnell oder braucht viel Kraft.",
+      "abhilfe": "Federn nach Anleitung justieren; über 55° Dachneigung Sonderfedern über den Kundendienst.",
+      "quelle": "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=4684d621-63b1-47eb-9ae1-73222d398b5f"
+    },
+    {
+      "ursache": "Dachneigung zu gering (Schwingfenster)",
+      "erkennen": "Schwingfenster öffnet nur flach und fällt zu.",
+      "abhilfe": "Einbausituation und Mindestdachneigung vom zertifizierten Installateur prüfen lassen; bei neuen Fenstern überschüssiges Fett an Scharnieren entfernen.",
+      "quelle": "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen"
+    },
+    {
+      "ursache": "Scharniere oder Laufteile trocken oder verschmutzt",
+      "erkennen": "Fenster schwergängig, quietscht, klemmt beim Öffnen oder Schließen.",
+      "abhilfe": "Beschläge reinigen und mit Scharnierfett schmieren (VELUX alle 5 Jahre bzw. bei Bedarf, Roto jährlich Öl).",
+      "quelle": "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen"
+    },
+    {
+      "ursache": "Fremdkörper zwischen Flügel und Rahmen",
+      "erkennen": "Fenster schließt an einer Stelle nicht ganz, Widerstand beim Zudrücken.",
+      "abhilfe": "Schmutz und Reste von Dichtungsmaterial entfernen.",
+      "quelle": "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen"
+    },
+    {
+      "ursache": "Griffleiste in falscher Stellung",
+      "erkennen": "Griffleiste lässt sich nicht in Schließstellung bringen oder Fenster öffnet nicht.",
+      "abhilfe": "Griffleiste prüfen: zum Öffnen zweimal abwinkeln, zum Schließen Flügel hochschwenken und zweimal zurückkippen.",
+      "quelle": "https://contenthub.velux.com/api/public/content/product-guide_453273"
+    },
+    {
+      "ursache": "Flügel schleift am Blendrahmen",
+      "erkennen": "Scheuerspuren, Schließen nur mit Kraft, direkt nach Einbau oder später.",
+      "abhilfe": "Keine Justierschrauben vorhanden: Einbauer nachbessern lassen oder VELUX-Kundendienst.",
+      "quelle": "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=7d80d6e9-e93b-4434-975e-fb8e08d9bb5a"
+    },
+    {
+      "ursache": "Elektro-/Solarfenster: Batterie, Funk oder Akku",
+      "erkennen": "Fenster reagiert nicht, öffnet nur bis zur Lüftung oder Fehlermeldung auf der Fernbedienung.",
+      "abhilfe": "Fernbedienung nah testen, Batterien, Stecker prüfen, neu koppeln, Griffleiste schließen; Reset oder Solarset-Tausch über Kundendienst; Notschließung bei Elektro-GPU nach Servicedokument.",
+      "quelle": "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen"
+    },
+    {
+      "ursache": "Roto: Federkraft oder Flügelbremse verstellt",
+      "erkennen": "Flügel springt auf, fällt zu oder bleibt nicht in der gewünschten Stellung.",
+      "abhilfe": "Federkraft mit Spannschlüssel beidseitig gleich nachstellen, Flügelbremsen nachstellen.",
+      "quelle": "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/operating-and-maintenance-instructions/designo/roof-window-designo-r8.pdf"
+    }
+  ],
+  "pruefschritte": [
+    "Fenstertyp und Größe vom Typenschild ablesen (hinter der Griffleiste) und passende Bedienungsanleitung holen.",
+    "Steht der Flügel in Putzstellung? Sicherungsriegel an den Seiten bzw. unten zurückschieben.",
+    "Griffleiste prüfen: Lüftungsstellung, Öffnen (zweimal abwinkeln), Schließen (zweimal zurückkippen).",
+    "Zwischen Flügel und Rahmen nach Schmutz, Laub oder Dichtungsresten sehen.",
+    "Scharniere und Beschläge ansehen: verschmutzt, trocken? Reinigen und mit Scharnierfett schmieren.",
+    "Klapp-Schwingfenster: Rasten die Beschläge beidseitig in die Federn ein? Erst danach Federn nach Anleitung justieren.",
+    "Dachneigung bekannt? Klapp-Schwing über 55° braucht Sonderfedern; sehr flaches Dach beim Schwingfenster prüfen lassen.",
+    "Elektro/Solar: Batterien der Fernbedienung, Abstand, Stecker, Kopplung, Griffleiste geschlossen?",
+    "Schleift der Flügel: Seit wann? Direkt nach Einbau Einbauer kontaktieren."
+  ],
+  "fachbetrieb_ab": "Wenn der Flügel am Rahmen schleift (am VELUX-Fenster gibt es keine Justierschrauben), wenn Federn oder Sonderfedern getauscht werden müssen, wenn ein Elektro- oder Solarfenster nach Kopplung und Batterieprüfung nicht reagiert (Motor-Reset, Solarset) und nach einer Notschließung: VELUX-Kundendienst oder der Einbauer. Bei zu geringer oder zu steiler Dachneigung prüft ein zertifizierter Installateur die Einbausituation. Bei Roto lose sichtbare Schrauben nicht selbst festziehen, sondern vom Fachmann prüfen lassen. Bei Fenstern über 20 Jahren prüft der Servicetechniker, ob sich die Reparatur lohnt.",
+  "nicht_belegt": [
+    "Bedeutung der Fehlermeldung „Betrieb eingeschränkt … durch Strom-/Akkuversorgung“ am Solarfenster: nur Forum (tiefentladener Akku), keine Herstellerangabe gefunden.",
+    "Andere Friktionsfedern (VAS 454582) für Schwingfenster GGU/GGL bei geringer Dachneigung oder schwerem Rollladen: nur Forenbericht (bauexpertenforum), keine VELUX-Seite.",
+    "Rollladen-Ausstellarme ZOZ 217 für Klapp-Schwingfenster mit Rollladen und die Aussage, dass ein heruntergefahrener Rollladen den Flügel zu schwer macht: nur Händlerantwort auf gutefrage.",
+    "Genaue Bildschritte der VELUX-Federjustierung (Abbildungen 5A/6A, 5B/6B in der GPL-Anleitung) stehen nicht im Text.",
+    "Lage und Form des Druckknopfs am GGL/GGU-Scharnier sowie die nötige Flügelstellung zum Aushängen: nur in Abbildungen der Anleitung VAS 450525.",
+    "Zuordnung der Preiszeilen V21/V22 in der Momentfeder-Preisliste aus dem PDF-Text nicht eindeutig; Spanne 306 bis 318 € bzw. 422 bis 456 € belegt.",
+    "Roto Gleiterführung: nur Service-Video-Titel „Gleitschiene austauschen“ (R8, WSA R8), keine Textanleitung ausgewertet.",
+    "T-Verschluss-Zapfen mit der Rohrzange nachbiegen: nur Forentipp (gutefrage), keine Herstellerangabe.",
+    "Sprühöl statt Scharnierfett an VELUX-Beschlägen: nur Forentipp, VELUX nennt Scharnierfett aus dem Pflege-Set."
+  ]
+}

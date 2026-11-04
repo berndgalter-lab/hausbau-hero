@@ -1,4 +1,4 @@
-import { KATEGORIE_NAME, type ArmaturKategorie, type RatgeberDaten } from "@/lib/armatur-daten";
+import { KATEGORIE_NAME, type ArmaturKategorie, type FensterGeneration, type RatgeberDaten, type SonnenschutzZweck } from "@/lib/armatur-daten";
 
 // Produkt-Ratgeber unter /ratgeber/<pfad>: eine Auswahlhilfe pro Produktart (docs/SEITENAUFBAU.md, Abschnitt 3).
 // Inhalt und Produkte kommen wie bisher aus data/artikel/<slug>.* (Datenbank-Tabellen seiten und produkte).
@@ -847,6 +847,94 @@ const DRUCKMINDERER: ProduktRatgeber = {
   ],
 };
 
+const hatZweck = (d: RatgeberDaten, z: SonnenschutzZweck): boolean | null =>
+  Array.isArray(d.zweck) && d.zweck.length > 0 ? d.zweck.includes(z) : null;
+const passtAn = (d: RatgeberDaten, g: FensterGeneration): boolean | null =>
+  Array.isArray(d.generationen) && d.generationen.length > 0 ? d.generationen.includes(g) || d.generationen.includes("glasmass") : null;
+
+const DACHFENSTER_SONNENSCHUTZ: ProduktRatgeber = {
+  pfad: "dachfenster-sonnenschutz",
+  slug: "dachfenster-sonnenschutz",
+  silo: "rohbau",
+  name: "Dachfenster-Sonnenschutz",
+  mehrzahl: "Produkte",
+  mehrzahlDativ: "Produkten",
+  keine: "Keines",
+  frage: "Welcher Sonnenschutz passt?",
+  fragen: [
+    {
+      key: "zweck",
+      label: "Wofür?",
+      hinweis: "Gegen Hitze hilft am meisten, was die Sonne schon außen vor der Scheibe abfängt.",
+      optionen: [
+        { label: "Raum verdunkeln", passt: (d) => hatZweck(d, "verdunkeln") },
+        { label: "Hitze abhalten", passt: (d) => hatZweck(d, "hitze") },
+        { label: "Sichtschutz, Licht soll rein", passt: (d) => hatZweck(d, "sicht") },
+        { label: "Insekten draußen halten", passt: (d) => hatZweck(d, "insekten") },
+      ],
+    },
+    {
+      key: "montage",
+      label: "Innen oder außen",
+      hinweis: "Die VELUX-Markise wird von innen bei offenem Fenster eingehängt, aufs Dach musst du dafür nicht.",
+      optionen: [
+        { label: "innen", passt: (d) => (d.montage ? d.montage === "innen" : null) },
+        { label: "außen", passt: (d) => (d.montage ? d.montage === "außen" : null) },
+      ],
+    },
+    {
+      key: "bedienung",
+      label: "Bedienung",
+      hinweis: "Fenster, die du nur mit Stange erreichst, bedient man bequemer mit Solar oder Motor.",
+      optionen: [
+        { label: "von Hand", passt: (d) => (d.bedienung ? d.bedienung === "von Hand" : null) },
+        {
+          label: "Solar oder Motor",
+          passt: (d) => (d.bedienung ? d.bedienung !== "von Hand" : null),
+          sonst: {
+            text: "Solar-Rollos und Solar-Rollläden von VELUX führt derzeit keiner unserer Partnershops. Hast du schon einen und er reagiert nicht, liegt es oft am Akku.",
+            href: "/ersatzteile/dachfenster-akku",
+            linktext: "Akku für Solar-Rollladen",
+          },
+        },
+      ],
+    },
+    {
+      key: "herkunft",
+      label: "Original oder Nachbau",
+      hinweis: "Nachbauten kosten oft weniger als die Hälfte, sitzen aber auf eigenen Schienen, Saugnäpfen oder Klebeleisten statt im Zubehörträger.",
+      optionen: [
+        { label: "Original vom Fensterhersteller", passt: (d) => (d.herkunft ? d.herkunft === "Original" : null) },
+        { label: "Nachbau ist in Ordnung", passt: (d) => (d.herkunft ? d.herkunft === "Nachbau" : null) },
+      ],
+    },
+    {
+      key: "fenster",
+      label: "Dein Fenster",
+      hinweis: "Der Code steht auf dem Typenschild, bei VELUX im geöffneten Fenster rechts oder links hinter der Griffleiste.",
+      optionen: [
+        { label: "VELUX, Code wie MK04 (ab 2013)", passt: (d) => passtAn(d, "velux-ab-2013") },
+        { label: "VELUX, Code wie M04 (2000 bis 2013)", passt: (d) => passtAn(d, "velux-2000-2013") },
+        {
+          label: "VELUX, Code wie 304 (1991 bis 2000)",
+          passt: (d) => passtAn(d, "velux-1991-2000"),
+          sonst: {
+            text: "Innenrollos für Fenster, die vor 2002 gekauft wurden, bestellst du laut VELUX über den Kundendienst. Die Hitzeschutz-Markise passt dagegen auch hier: Für 304 bis 310 nimmst du MK00.",
+          },
+        },
+        { label: "Roto", passt: (d) => passtAn(d, "roto") },
+      ],
+    },
+  ],
+  eckdaten: (d) => [
+    d.art ?? null,
+    d.typ ?? null,
+    d.montage ? `${d.montage} montiert` : null,
+    d.herkunft === "Nachbau" ? "Nachbau" : null,
+    d.passend_fuer ?? null,
+  ],
+};
+
 export const PRODUKT_RATGEBER: ProduktRatgeber[] = [
   WASCHTISCHARMATUR,
   NIEDERDRUCKARMATUR,
@@ -860,6 +948,7 @@ export const PRODUKT_RATGEBER: ProduktRatgeber[] = [
   KUECHENARMATUR,
   DUSCHSYSTEM,
   DRUCKMINDERER,
+  DACHFENSTER_SONNENSCHUTZ,
 ];
 
 /** Sprungmarke eines Modells in der Auswahlhilfe, Ziel der Produktkacheln. */

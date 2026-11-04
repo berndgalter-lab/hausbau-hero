@@ -1,0 +1,225 @@
+{
+  "slug": "dachfenster-undicht",
+  "titel": "Dachfenster undicht",
+  "seo_title": "Dachfenster undicht, tropft oder zieht: Ursachen und was du selbst tun kannst",
+  "seo_description": "Dachfenster tropft, der Rahmen ist nass oder es zieht: So unterscheidest du Kondenswasser von Regenwasser, prüfst Dichtung und Lüftungsklappe und erkennst, wann der Dachdecker an Eindeckrahmen und Anschluss muss.",
+  "symptom": "Unter dem Dachfenster ist es nass, Wasser läuft an der Scheibe herunter, tropft aus der Lüftungsklappe oder es zieht. Ob es von außen kommt oder innen entsteht, verrät meist, wann und wo das Wasser auftaucht.",
+  "bereich": "dachfenster",
+  "ursachen": [
+    {
+      "ursache": "Kondenswasser an der Innenscheibe",
+      "erklaerung": "Die Tropfen sitzen zuerst am unteren Scheibenrand und in den Ecken, vor allem nach kalten Nächten, beim Kochen oder Duschen, auch ganz ohne Regen. Laut VELUX ist das kein Mangel am Fenster: Feuchte Raumluft kühlt an der kalten Scheibe ab. Hilfe bringen Stoßlüften drei- bis viermal täglich für 5 bis 15 Minuten, ein Heizkörper unter dem Fenster und eine Luftfeuchte von 30 bis 45 % bei etwa 21 °C. Wisch das Wasser ab, auf Dauer schadet es Holz und Dichtungen.",
+      "haeufigkeit": "häufig"
+    },
+    {
+      "ursache": "Feuchte Raumluft drückt durch die Fensterdichtung",
+      "erklaerung": "Der Rahmen zwischen Flügel und Blendrahmen ist nass oder vereist, die Scheibe selbst bleibt trocken. VELUX erklärt das mit Überdruck im Dachgeschoss, der feuchte Luft durch die Dichtung nach außen drückt, wo sie sich am kalten Rahmen niederschlägt. Prüf, ob die Dichtung rundum anliegt, und tausch sie, wenn sie rissig, hart oder plattgedrückt ist.",
+      "haeufigkeit": "häufig",
+      "teilart": "dachfenster-dichtung"
+    },
+    {
+      "ursache": "Lüftungsklappe bei Frost offen",
+      "erklaerung": "Wasser tropft an der Griffleiste, wenn es draußen kalt ist, auch ohne Schnee. Laut VELUX-Anleitung trifft dann warme, feuchte Innenluft in der offenen Lüftungsklappe auf kalte Außenluft. In Kälteperioden bleibt die Klappe zu, gelüftet wird über das ganze Fenster. Ist die Schaumdichtung der Klappe hinüber, gibt es sie im Pflege-Set.",
+      "haeufigkeit": "gelegentlich",
+      "teilart": "dachfenster-dichtung"
+    },
+    {
+      "ursache": "Fenster bei Starkregen nicht ganz zu",
+      "erklaerung": "Wasser kommt nur bei kräftigem Regen und das Fenster hat keinen Regensensor. Laut VELUX reicht schon ein kleiner Spalt. Schließ das Fenster ganz, bis die Griffleiste einrastet. Bei Elektro- und Solarfenstern prüf, ob der Regensensor sauber ist.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Laub, Moos, Schnee oder Eis am Eindeckrahmen",
+      "erklaerung": "Das Wasser kann am Eindeckrahmen nicht ablaufen und staut sich, typisch im Herbst und bei Tauwetter. VELUX rät, den Eindeckrahmen sauber und frei von Schnee und Eis zu halten. Vieles erreichst du von innen durch das geöffnete Fenster. Aufs Dach nur mit Sicherung oder durch einen Fachbetrieb.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Anschlussprofil, Eindeckrahmen oder Dacheindeckung beschädigt",
+      "erklaerung": "Wasser kommt bei Regen mit Wind oder Starkregen, oft unten am Rahmen oder an der Verkleidung. Ursache sind laut VELUX ein beschädigtes oder schlecht montiertes Anschlussprofil, verrutschte Ziegel oder gerissene Schieferplatten ums Fenster. Das repariert der Dachdecker, nicht du.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Dämmung oder Dampfbremse rund ums Fenster mangelhaft",
+      "erklaerung": "Es zieht oder wird feucht, obwohl die Dichtungen in Ordnung sind, oft mit Spuren unten an der Innenverkleidung. Dämmung und Dämmrahmen sind von innen meist nicht zugänglich. VELUX empfiehlt, die Einbausituation von einem Fachbetrieb prüfen zu lassen. Direkt nach Dämmarbeiten im Winter ist mehr Kondensat normal, bis Holz und Dämmung trocken sind.",
+      "haeufigkeit": "selten"
+    },
+    {
+      "ursache": "Scheibe gesprungen",
+      "erklaerung": "Ein Riss in der Verglasung lässt Feuchte ins Glas oder Wasser ins Zimmer. Klebe eine gesprungene Innenscheibe über Kreuz mit Klebeband ab, damit keine Scherben herunterfallen. Den Scheibentausch empfiehlt VELUX über den Kundendienst, Ersatzscheiben gibt es für Fenster ab Baujahr 2000.",
+      "haeufigkeit": "selten"
+    }
+  ],
+  "pruefen": [
+    "Prüf, ob das Fenster ganz geschlossen und verriegelt und die Lüftungsklappe zu ist.",
+    "Notier, wann es nass wird: nur bei Regen (Wasser von außen) oder bei Kälte ohne Regen (eher Kondenswasser).",
+    "Sieh nach, wo das Wasser ist: auf der Scheibe innen, am Rahmen zwischen Flügel und Blendrahmen, an der Lüftungsklappe oder unter dem Fenster an der Verkleidung.",
+    "Miss nahe am Fenster Temperatur und Luftfeuchte. VELUX nennt etwa 21 °C und 30 bis 45 % als Zielwerte.",
+    "Sieh dir die Dichtungen rundum an: Liegen sie an, sind sie rissig, hart, plattgedrückt oder überstrichen?",
+    "Öffne das Fenster und sieh von innen auf den Eindeckrahmen: Liegen dort Laub, Moos, Schnee oder Eis, ist etwas sichtbar beschädigt? Nicht aufs Dach steigen.",
+    "Lies das Typenschild hinter der Griffleiste ab. Typ, Größe und Produktionscode brauchst du für Garantie, Kundendienst und Ersatzteile."
+  ],
+  "fachbetrieb_ab": "Kommt bei Regen Wasser von außen, obwohl Fenster und Lüftungsklappe zu sind und der Eindeckrahmen frei ist, prüft der Dachdecker Anschlussprofil, Eindeckrahmen, Dacheindeckung, Dämmung und Dampfbremse. Steig dafür nicht ohne Sicherung aufs Dach. Eine gesprungene Scheibe, Beschläge oder Dichtungen, die du nicht selbst tauschen willst, übernimmt der Kundendienst des Herstellers. Bei großflächigem Schimmel hilft laut VELUX nur der Fachmann. Bei Fenstern unter zehn Jahren prüf die Garantie und die Gewährleistung des Einbauers, in der Mietwohnung sagst du dem Vermieter Bescheid.",
+  "marken_probleme": [],
+  "fragen": [
+    {
+      "frage": "Mein Dachfenster tropft. Ist es undicht oder ist das Kondenswasser?",
+      "antwort": "Kläre zuerst, ob die Feuchte von außen kommt oder innen entsteht. Starkes Kondenswasser läuft an der Scheibe herunter und sammelt sich unten am Rahmen, was im Winter wie eine Undichtigkeit aussieht. Kommt Wasser nur bei starkem Regen, lass laut VELUX zuerst Anschlussprofil und Dacheindeckung prüfen.",
+      "kategorie": "reparatur",
+      "quellen": ["https://www.velux.de/magazin/dachfenster-probleme-und-loesungen"],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Ist Kondenswasser innen an der Scheibe ein Mangel am Fenster?",
+      "antwort": "Nein. Laut VELUX hat Kondenswasser eine physikalische Ursache: Feuchte Raumluft kühlt an der kalten Scheibe ab, der Rand ist kühler als die Mitte und beschlägt zuerst. Abhilfe schaffen Lüften und Heizen, VELUX nennt 21 °C und 30 bis 45 % Luftfeuchte als Zielwerte. Wisch das Wasser ab, auf Dauer schadet es Holz und Dichtungen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.velux.de/faq?category=20d40463-da95-473b-886e-ba17096ad15a&gem=8d30b7b5-fabe-4215-ba8c-92a9e46fca96",
+        "https://www.velux.de/magazin/dachfenster-kondenswasser"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie oft und wie lange muss ich lüften, damit das Dachfenster nicht beschlägt?",
+      "antwort": "VELUX empfiehlt Stoßlüften mit Durchzug drei- bis viermal am Tag für 5 bis 15 Minuten, je nach Jahreszeit. Unter dem Dach kann in feuchten Phasen Lüften alle zwei Stunden nötig sein. Fenster auf Kipp kühlen nur aus. Ein Heizkörper unter dem Fenster hält die Scheibe wärmer.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.velux.de/faq?category=20d40463-da95-473b-886e-ba17096ad15a&gem=5a03c7ef-e768-4735-8bc9-f3ad9dc54412",
+        "https://www.velux.de/magazin/dachfenster-kondenswasser"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Rahmen ist nass, zwischen Flügel und Rahmen bildet sich Wasser oder Eis. Woran liegt das?",
+      "antwort": "Warme Luft steigt ins Dachgeschoss und erzeugt dort Überdruck. Der drückt laut VELUX feuchte Luft durch die Fensterdichtung nach außen, wo sie am kalten Rahmen kondensiert. Prüf, ob die Dichtungen rundum anliegen und ob eine gerissen ist. Bei Kälte bleibt die Lüftungsklappe zu.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.velux.de/faq?category=20d40463-da95-473b-886e-ba17096ad15a&gem=c486bffa-8e82-4339-9a5f-f6b12485653b",
+        "https://contenthub.velux.com/api/public/content/product-guide_453273"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Warum tropft im Winter Wasser aus der Lüftungsklappe, obwohl kein Schnee liegt?",
+      "antwort": "Laut VELUX-Bedienungsanleitung kann in Kälteperioden Wasser von einer offenen Lüftungsklappe tropfen, wenn warme, feuchte Innenluft auf kalte Außenluft trifft. In solchen Phasen bleibt die Klappe geschlossen. Zum Lüften öffnest du das ganze Fenster.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://contenthub.velux.com/api/public/content/product-guide_453273",
+        "https://contenthub.velux.com/api/public/content/product-guide_453275"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Bei Regen läuft unten Wasser durchs Dachfenster. Was kann die Ursache sein?",
+      "antwort": "VELUX nennt ein nicht ganz geschlossenes Fenster (vor allem ohne Regensensor), Laub oder Moos, die den Ablauf stören, ein beschädigtes oder schlecht montiertes Anschlussprofil, verrutschte Ziegel oder gerissene Schieferplatten und Mängel an der Dämmung ums Fenster. Halt den Eindeckrahmen frei von Laub. Anschluss und Eindeckung sind Sache des Dachdeckers.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen",
+        "https://contenthub.velux.com/api/public/content/product-guide_453273"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Das Dachfenster ist bei Schnee oder Tauwetter undicht. Was tun?",
+      "antwort": "Schnee und Eis schmelzen am Dachfenster oft zuerst. VELUX rät, den Eindeckrahmen von Schnee und Eis freizuhalten, damit das Schmelzwasser ablaufen kann. Auch Dachrinnen müssen das Wasser ableiten können. Aufs Dach nur mit Sicherung.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.velux.de/faq?category=2f3bc86b-eee5-4398-8604-c8712027dfa9&gem=66bab6f1-bdb4-405c-b542-0d8226a65ee9"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Es zieht unter meinem geschlossenen Dachfenster. Ist die Dichtung kaputt?",
+      "antwort": "Nicht unbedingt. Laut VELUX kühlt Raumluft an der kalten Scheibe ab und fällt nach unten, das spürst du als Zug. Dagegen helfen ein Heizkörper vor dem Fenster, ein Rollladen oder ein Wabenplissee. Zug kann aber auch von einer abgenutzten Dichtung kommen: Prüf, ob sie rundum anliegt und ob sie gerissen oder verhärtet ist.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=bea94095-8220-4b3b-895c-3cde8893d551",
+        "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Woran erkenne ich, ob die kalte Luft vom Fenster oder vom Anschluss ans Dach kommt?",
+      "antwort": "VELUX nennt zwei Ursachen für Zugluft: abgenutzte, plattgedrückte oder verhärtete Dichtungen und eine nicht sauber ausgeführte Montage oder Dämmung ums Fenster. Die Dichtungen siehst du dir selbst an. Sind sie in Ordnung und zieht es trotzdem, soll ein Fachbetrieb die Einbausituation prüfen.",
+      "kategorie": "reparatur",
+      "quellen": ["https://www.velux.de/magazin/dachfenster-probleme-und-loesungen"],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Nach Dämmarbeiten im Winter ist das Dachfenster plötzlich nass. Warum?",
+      "antwort": "Feuchtes Holz und feuchte Dämmung geben in der Bauphase Feuchte ab, die sich an den kältesten Stellen niederschlägt, etwa an den Blechen von Eindeckrahmen und Fenster. VELUX rät, gut zu lüften. Holzteile sollten unter 20 % Feuchte haben, Putz und Estrich ausreichend trocken sein.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.velux.de/faq?category=20d40463-da95-473b-886e-ba17096ad15a&gem=7eb8b5c8-54ea-402b-8fee-2630d14629e7"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Am Dachfenster bildet sich Schimmel. Was kann ich tun?",
+      "antwort": "VELUX empfiehlt, Kondenswasser am Fenster immer abzuwischen und kleine Schimmelspuren mit einem Schimmelentferner zu beseitigen. Bei großflächigem Befall hilft laut VELUX nur der Fachmann. Damit er nicht wiederkommt, lüfte regelmäßig stoß und halte die Luftfeuchte niedrig.",
+      "kategorie": "pflege",
+      "quellen": ["https://www.velux.de/magazin/dachfenster-kondenswasser"],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Die Scheibe meines Dachfensters ist gesprungen. Was jetzt?",
+      "antwort": "Kleb eine beschädigte Innenscheibe vorübergehend über Kreuz mit Klebeband ab, damit keine Scherben in den Raum fallen. Für den Tausch empfiehlt VELUX den Kundendienst, dafür brauchst du die Angaben vom Typenschild. Ersatzscheiben gibt es für Fenster ab Baujahr 2000. Selbst getauscht muss der Flügel heraus, beim Klapp-Schwingfenster erst nach dem Entspannen der Federn.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=c6c9f2cb-2ec4-4312-9d34-eca447565b3c",
+        "https://www.velux.de/faq?category=b51a9b6e-192b-496b-9a65-bca8822126fb&gem=46928b6c-fd9a-4736-ac43-e021bc9558f1"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wer ist zuständig, wenn das Dachfenster undicht ist: Dachdecker oder Hersteller?",
+      "antwort": "Reparaturen am Fenster selbst, also Dichtung, Beschläge und Scheibe, übernimmt der VELUX-Kundendienst mit Originalteilen. Liegt die Ursache bei Anschlussprofil, Dacheindeckung oder Dämmung ums Fenster, prüft ein Fachbetrieb die Einbausituation, meist der Dachdecker. VELUX gibt 10 Jahre Garantie auf Dachfenster samt Isolierverglasung.",
+      "kategorie": "bezug",
+      "quellen": [
+        "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=b10a01e2-e2a2-47ff-a761-1923f0ddd9be",
+        "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen",
+        "https://contenthub.velux.com/api/public/content/f257a-c81eb-a4491_downloadOriginal"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie verhindere ich Kondenswasser an einem Roto-Dachfenster?",
+      "antwort": "Roto nennt dieselben Ursachen: zu viel Luftfeuchte und eine kalte Scheibe innen. Wirksam sind ein Heizkörper unter dem Fenster und öfter kurz und kräftig lüften. In der Anleitung zum RotoQ Q4 steht dreimal täglich Lüften mit ganz geöffnetem Fenster.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/operating-and-maintenance-instructions/designo/roof-window-designo-r8.pdf",
+        "https://www.roto-frank.com/hubfs/01_Website/02_Services/Pflege%20und%20Wartung/Bedienungs-%20und%20Wartungsanleitungen/rotoq/bedienungsanleitung-wartungsanleitung-rotoq-q-4-de.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://www.velux.de/magazin/dachfenster-probleme-und-loesungen",
+    "https://www.velux.de/magazin/dachfenster-kondenswasser",
+    "https://www.velux.de/faq?category=20d40463-da95-473b-886e-ba17096ad15a&gem=8d30b7b5-fabe-4215-ba8c-92a9e46fca96",
+    "https://www.velux.de/faq?category=20d40463-da95-473b-886e-ba17096ad15a&gem=c486bffa-8e82-4339-9a5f-f6b12485653b",
+    "https://www.velux.de/faq?category=20d40463-da95-473b-886e-ba17096ad15a&gem=5a03c7ef-e768-4735-8bc9-f3ad9dc54412",
+    "https://www.velux.de/faq?category=20d40463-da95-473b-886e-ba17096ad15a&gem=7eb8b5c8-54ea-402b-8fee-2630d14629e7",
+    "https://www.velux.de/faq?category=2f3bc86b-eee5-4398-8604-c8712027dfa9&gem=66bab6f1-bdb4-405c-b542-0d8226a65ee9",
+    "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=bea94095-8220-4b3b-895c-3cde8893d551",
+    "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=c6c9f2cb-2ec4-4312-9d34-eca447565b3c",
+    "https://www.velux.de/faq?category=1c4b31eb-6aec-4828-a7a0-839dcc6a283b&gem=b10a01e2-e2a2-47ff-a761-1923f0ddd9be",
+    "https://contenthub.velux.com/api/public/content/product-guide_453273",
+    "https://contenthub.velux.com/api/public/content/product-guide_453275",
+    "https://contenthub.velux.com/api/public/content/f257a-c81eb-a4491_downloadOriginal",
+    "https://www.roto-frank.com/hubfs/01-website/02-service-and-download/operating-and-maintenance-instructions/designo/roof-window-designo-r8.pdf"
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "slug": "dachfenster-hitzeschutz",
+  "name": "Hitzeschutz-Markise",
+  "mehrzahl": "Hitzeschutz-Markisen und Hitzeschutz innen",
+  "genus": "f",
+  "titel": "Hitzeschutz fürs Dachfenster: welche Markise passt, und was bringt innen?",
+  "seo_title": "Hitzeschutz-Markise fürs Dachfenster: welche passt? VELUX MHL MK00 erklärt",
+  "seo_description": "Hitzeschutz-Markise außen oder Sonnenschutz innen: Was die 00 im VELUX-Code (MHL MK00, SK00) bedeutet, auf welche Fenster die Markise passt, wie du sie von innen montierst und wie viel Hitze sie laut VELUX abhält.",
+  "kurz": "Gegen Hitze unter dem Dach hilft am meisten, was außen vor der Scheibe hängt. Die VELUX-Hitzeschutz-Markise MHL senkt laut Datenblatt die Erwärmung durchs Fenster um bis zu 73 %, ein Rollo innen schafft deutlich weniger. Montiert wird die Markise von innen, aufs Dach musst du nicht.\n\nIm Code der Markise steht statt der Höhe eine 00: MHL MK00 passt auf alle Fenster mit 78 cm Breite, also MK04 bis MK10, M04 bis M10 und 304 bis 310.",
+  "bereiche": ["dachfenster"],
+  "teiltypen": ["hitzeschutz"],
+  "erkennen": [
+    {
+      "titel": "Breite vom Typenschild ablesen",
+      "text": "Das Typenschild sitzt bei VELUX im geöffneten Fenster hinter der Griffleiste. Für die Markise zählt nur der Buchstabe für die Breite: C, F, M, P, S oder U. Aus MK06 wird MK00, aus S08 wird SK00, aus 306 wird ebenfalls MK00."
+    },
+    {
+      "titel": "Passt der Fenstertyp?",
+      "text": "Die Markise MHL passt laut VELUX an die Schwingfenster GGL und GGU aller drei Generationen seit 1991. Nicht kombinierbar ist sie mit einem Rollladen oder anderem außen liegenden Sonnenschutz und mit dem Nachrüst-Motor KMG oder KSX. Mit Rollo oder Plissee innen geht sie."
+    },
+    {
+      "titel": "Alte Kleinformate",
+      "text": "Für die alten Größen 102 und 104 nimmst du die Markise 100, für 206 die Markise 200. Für alle anderen alten Zahlencodes gilt der 00-Code der Breite."
+    },
+    {
+      "titel": "Montage von innen",
+      "text": "Du drehst den Flügel um 180°, schraubst die Haken unten an die Außenseite des Flügels und hängst die Markise ein. Beim Schließen rollt sie sich aus. VELUX nennt rund 15 Minuten mit einem Schraubendreher. Lehn dich dabei nicht weit hinaus, das Fenster steht offen."
+    },
+    {
+      "titel": "Innen statt außen?",
+      "text": "Ein Sonnenschutz innen hält das Licht ab, die Wärme ist dann aber schon durch die Scheibe. In einer VELUX-Simulation war ein Dachzimmer mit Verdunkelungsrollo innen bis zu 2,1 °C kühler, mit Markise außen bis zu 4,2 °C. Silberbeschichtete Stoffe mit Saugnäpfen sind eine günstige Übergangslösung, etwa in der Mietwohnung."
+    }
+  ],
+  "groessen": {
+    "titel": "Welche Markise zu welchem Fenster?",
+    "spalten": ["Markise", "Fensterbreite", "passt auf (ab 2013 / 2000 bis 2013 / 1991 bis 2000)"],
+    "zeilen": [
+      ["MHL CK00", "55 cm", "CK02, CK04 / C02, C04"],
+      ["MHL 100", "55 cm", "102, 104"],
+      ["MHL FK00", "66 cm", "FK06, FK08 / F06, F08"],
+      ["MHL 200", "66 cm", "206"],
+      ["MHL MK00", "78 cm", "MK04 bis MK10 / M04 bis M10 / 304 bis 310"],
+      ["MHL PK00", "94 cm", "PK06 bis PK10 / P06 bis P10 / 406 bis 410"],
+      ["MHL SK00", "114 cm", "SK06 bis SK10 / S06 bis S10 / 606 bis 610"],
+      ["MHL UK00", "134 cm", "UK04 bis UK10 / U04 bis U10 / 804 bis 810"]
+    ],
+    "hinweis": "Die Zahl hinter dem Code ist die Farbe, 5060 ist das schwarze, durchsichtige Standardgewebe. Markise und Rollladen schließen sich aus, beide sitzen außen am Fenster."
+  },
+  "produkte": [
+    {
+      "name": "VELUX Hitzeschutz-Markise MHL MK00 5060",
+      "hersteller": "VELUX",
+      "ean": "5702326005305",
+      "hinweis": "Für 78 cm Breite: MK04 bis MK10, M04 bis M10, 304 bis 310."
+    },
+    {
+      "name": "VELUX Hitzeschutz-Markise MHL SK00 5060",
+      "hersteller": "VELUX",
+      "ean": "5702326005602",
+      "hinweis": "Für 114 cm Breite: SK06 bis SK10, S06 bis S10, 606 bis 610."
+    },
+    {
+      "name": "VELUX Hitzeschutz-Markise MHL PK00 5060",
+      "hersteller": "VELUX",
+      "ean": "5702326005404",
+      "hinweis": "Für 94 cm Breite: PK06 bis PK10, P06 bis P10, 406 bis 410."
+    },
+    {
+      "name": "VELUX Hitzeschutz-Markise MHL FK00 5060",
+      "hersteller": "VELUX",
+      "ean": "5702322519479",
+      "hinweis": "Für 66 cm Breite: FK06, FK08, F06, F08."
+    },
+    {
+      "name": "VELUX Hitzeschutz-Markise MHL CK00 5060",
+      "hersteller": "VELUX",
+      "ean": "5702320104820",
+      "hinweis": "Für 55 cm Breite: CK02, CK04, C02, C04."
+    },
+    {
+      "name": "VELUX Hitzeschutz-Markise MHL UK00 5060",
+      "hersteller": "VELUX",
+      "ean": "5702326005800",
+      "hinweis": "Für 134 cm Breite: UK04 bis UK10, U04 bis U10, 804 bis 810."
+    },
+    {
+      "name": "VELUX Hitzeschutz-Markise MHL 100 5060",
+      "hersteller": "VELUX",
+      "ean": "5702326005107",
+      "hinweis": "Für die alten Größen 102 und 104."
+    },
+    {
+      "name": "VELUX Hitzeschutz-Markise MHL 200 5060",
+      "hersteller": "VELUX",
+      "ean": "5702326005206",
+      "hinweis": "Für die alte Größe 206."
+    },
+    {
+      "name": "Lichtblick Sonnenschutz Thermofix 47 × 96,9 cm, beige",
+      "hersteller": "Lichtblick",
+      "ean": "4250434123967",
+      "hinweis": "Innen, mit Saugnäpfen und silberner Rückseite. Nachbau nach Glasmaß, laut Anbieter für FK06."
+    },
+    {
+      "name": "Lichtblick Sonnenschutz Thermofix 59 × 96,9 cm, beige",
+      "hersteller": "Lichtblick",
+      "ean": "4250434123981",
+      "hinweis": "Innen, mit Saugnäpfen und silberner Rückseite. Nachbau nach Glasmaß, vor dem Kauf die Scheibe messen."
+    }
+  ],
+  "probleme": [],
+  "fragen": [
+    {
+      "frage": "Passt die Markise MHL MK00 auf mein Fenster MK04, MK06 oder MK08?",
+      "antwort": "Ja. Bei der Markise steht 00 statt der Höhenziffer, weil eine Markise alle Längen einer Fensterbreite abdeckt. MK00 passt laut VELUX auf MK04, MK06, MK08 und MK10, ebenso auf M04 bis M10 und 304 bis 310. Entsprechend gibt es CK00, FK00, PK00, SK00 und UK00.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://contenthub.velux.com/api/public/content/43c5b-09c50-11488_downloadOriginal",
+        "https://contenthub.velux.com/api/public/content/84e13-9ab66-6b493_downloadOriginal"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Passt die Hitzeschutz-Markise auch an mein altes VELUX-Fenster?",
+      "antwort": "An den Schwingfenstern GGL und GGU ja, laut VELUX für alle drei Generationen seit 1991. Für die alten Größen 102 und 104 nimmst du die Markise 100, für 206 die 200, sonst den 00-Code der Breite (304 wird MK00). Nicht kombinierbar ist die Markise mit einem nachgerüsteten Motor KMG oder KSX.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://contenthub.velux.com/api/public/content/43c5b-09c50-11488_downloadOriginal",
+        "https://contenthub.velux.com/api/public/content/84e13-9ab66-6b493_downloadOriginal"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Hitzeschutz am Dachfenster: innen oder außen, was bringt mehr?",
+      "antwort": "Außen. In einer VELUX-Simulation mit zwei Südfenstern und Münchner Sommerwetter senkten Rollladen und verdunkelnde Markise die Raumtemperatur um bis zu 5,3 °C, die transparente Markise um bis zu 4,2 °C, ein Verdunkelungsrollo innen nur um bis zu 2,1 °C. Innen trifft die Sonne schon auf die Scheibe und heizt den Raum auf.",
+      "kategorie": "kompatibilitaet",
+      "quellen": ["https://www.velux.de/presse-forum/was-hilft-am-besten-gegen-hitze-im-dachgeschoss/"],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie viel Hitze hält die VELUX-Hitzeschutz-Markise wirklich ab?",
+      "antwort": "Das aktuelle Datenblatt der MHL nennt bis zu 73 % weniger Erwärmung, ein älteres bis zu 74 %. Gemeint ist die Wärme, die durchs Fenster kommt, abhängig von der Verglasung, nicht die Raumtemperatur. In der VELUX-Raumsimulation war der Raum mit der Markise bis zu 4,2 °C kühler.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://contenthub.velux.com/api/public/content/58941-3055c-0045b_downloadOriginal",
+        "https://media.hornbach.lu/hb/datasheet/as.47054605.pdf",
+        "https://www.velux.de/presse-forum/was-hilft-am-besten-gegen-hitze-im-dachgeschoss/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Markise oder Rollladen, was ist besser gegen Hitze?",
+      "antwort": "In der VELUX-Simulation schnitten Rollladen und verdunkelnde Markise gleich ab, mit bis zu 5,3 °C weniger. Die transparente Markise brachte bis zu 4,2 °C, lässt dafür Licht und Ausblick. Der Rollladen verdunkelt den Raum ganz und kostet deutlich mehr.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.velux.de/presse-forum/was-hilft-am-besten-gegen-hitze-im-dachgeschoss/",
+        "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/hitzeschutz-aussen/rolllaeden"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Muss ich für die Markise aufs Dach, wie wird sie montiert?",
+      "antwort": "Nein, die Markise wird von innen montiert. VELUX nennt für die Version zum Bedienen von Hand rund 15 Minuten mit einem Schraubendreher. Unten an der Außenseite des Flügels werden Haken angebracht, in die du die Markise einhängst.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://contenthub.velux.com/api/public/content/58941-3055c-0045b_downloadOriginal",
+        "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/hitzeschutz-aussen/hitzeschutzmarkise-tageslicht"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie bediene ich die Markise mit den Haken?",
+      "antwort": "Du drehst den Flügel um 180°, hängst die Markise unten an der Außenseite des Flügels in die Haken und schließt das Fenster, dabei rollt sie sich aus. Zum Aufrollen drehst du das Fenster wieder um und nimmst sie von den Haken, dann rollt sie sich von selbst ein. Halb ausgefahren geht nicht.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://contenthub.velux.com/api/public/content/58941-3055c-0045b_downloadOriginal",
+        "https://media.hornbach.lu/hb/datasheet/as.47054605.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Hält die Markise Wind und Regen aus?",
+      "antwort": "VELUX beschreibt die MHL als windbeständig und in eigenen Prüfständen getestet. Das Gewebe ist wetterbeständig und wasserabweisend und lässt sich mit einem feuchten Tuch reinigen. Eine Windgeschwindigkeit als Grenze nennt VELUX nicht.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://contenthub.velux.com/api/public/content/58941-3055c-0045b_downloadOriginal",
+        "https://media.hornbach.lu/hb/datasheet/as.47054605.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Kann ich Markise und Rollladen gleichzeitig anbringen?",
+      "antwort": "Nein. Die MHL lässt sich laut VELUX nicht mit anderem außen liegenden Sonnenschutz kombinieren, also auch nicht mit einem Rollladen. Mit Rollo oder Plissee innen geht sie.",
+      "kategorie": "kompatibilitaet",
+      "quellen": ["https://media.hornbach.lu/hb/datasheet/as.47054605.pdf"],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Gibt es die Markise im Paket mit einem Rollo innen?",
+      "antwort": "Ja. VELUX bietet Pakete an: Verdunkelungsrollo DKL plus Markise (DOP), Wabenplissee plus Markise (FOP) und Sichtschutzrollo plus Markise (ROP, ROF). Bei Solar-Rollos innen warnt VELUX, dass die Markise davor das Laden des Akkus verringern oder verhindern kann.",
+      "kategorie": "bezug",
+      "quellen": [
+        "https://contenthub.velux.com/api/public/content/84e13-9ab66-6b493_downloadOriginal",
+        "https://contenthub.velux.com/api/public/content/39bce-9a99e-5e47e_downloadOriginal",
+        "https://media.hornbach.lu/hb/datasheet/as.47054605.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Reicht eine Folie oder ein Sonnenschutz innen statt einer Markise?",
+      "antwort": "Er hilft, aber weniger. Was innen hängt, lässt die Sonne erst durch die Scheibe, und der Raum heizt sich auf. In der VELUX-Simulation brachte das Verdunkelungsrollo innen bis zu 2,1 °C, die Markise außen etwa doppelt so viel.",
+      "kategorie": "kompatibilitaet",
+      "quellen": ["https://www.velux.de/presse-forum/was-hilft-am-besten-gegen-hitze-im-dachgeschoss/"],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://contenthub.velux.com/api/public/content/58941-3055c-0045b_downloadOriginal",
+    "https://contenthub.velux.com/api/public/content/43c5b-09c50-11488_downloadOriginal",
+    "https://contenthub.velux.com/api/public/content/84e13-9ab66-6b493_downloadOriginal",
+    "https://contenthub.velux.com/api/public/content/39bce-9a99e-5e47e_downloadOriginal",
+    "https://media.hornbach.lu/hb/datasheet/as.47054605.pdf",
+    "https://www.velux.de/presse-forum/was-hilft-am-besten-gegen-hitze-im-dachgeschoss/",
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/hitzeschutz-aussen",
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/hitzeschutz-aussen/hitzeschutzmarkise-tageslicht",
+    "https://www.velux.de/produkte/sonnenschutz-und-rolllaeden/hitzeschutz-aussen/rolllaeden",
+    "https://www.hornbach.de/p/lichtblick-dachfenster-sonnenschutz-thermofix-beige-47x91-5-cm/6051789/"
+  ]
+}
