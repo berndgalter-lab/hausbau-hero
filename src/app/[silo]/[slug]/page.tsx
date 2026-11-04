@@ -26,11 +26,13 @@ export const revalidate = 0;
 export async function generateMetadata({ params }: { params: { silo: string; slug: string } }): Promise<Metadata> {
   const { data: seite } = await supabase
     .from("seiten")
-    .select("titel, seo_title, seo_description")
+    .select("titel, seo_title, seo_description, silos(slug)")
     .eq("slug", params.slug)
     .single();
 
   if (!seite) return {};
+  // Canonical immer mit der echten Kategorie, auch wenn die Seite unter einer falschen aufgerufen wird
+  const silo = (seite as any).silos?.slug || params.silo;
 
   const title = seite.seo_title || seite.titel;
   const description = seite.seo_description || "";
@@ -38,11 +40,11 @@ export async function generateMetadata({ params }: { params: { silo: string; slu
   return {
     title,
     description,
-    alternates: { canonical: `https://hausbau-hero.de/${params.silo}/${params.slug}` },
+    alternates: { canonical: `https://hausbau-hero.de/${silo}/${params.slug}` },
     openGraph: {
       title: `${title} — Hausbau Hero`,
       description,
-      url: `https://hausbau-hero.de/${params.silo}/${params.slug}`,
+      url: `https://hausbau-hero.de/${silo}/${params.slug}`,
     },
   };
 }
@@ -67,6 +69,10 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
   }
 
   if (seite.status !== "aktiv") notFound();
+
+  // Dieselbe Seite unter einer anderen Kategorie (/bad/silikatfarbe) wäre eine Dublette: auf die echte leiten
+  const echteKategorie = (seite as any).silos?.slug;
+  if (echteKategorie && echteKategorie !== params.silo) permanentRedirect(`/${echteKategorie}/${params.slug}`);
 
   const siloName = (seite as any).silos?.name || params.silo;
 
