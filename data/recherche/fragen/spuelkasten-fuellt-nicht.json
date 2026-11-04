@@ -1,0 +1,166 @@
+{
+  "thema": "Spülkasten füllt nicht oder nur langsam (markenübergreifend)",
+  "stand": "2026-11-04",
+  "fragen": [
+    {
+      "frage": "Der Spülkasten füllt sich nicht mehr. Was prüfe ich zuerst?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/spuelkasten-laeuft-nicht-voll",
+        "https://www.haustechnikdialog.de/Forum/t/54058/Spuelkasten-leer-und-Wasser-laeuft-nicht-nach",
+        "https://www.haustechnikdialog.de/Forum/t/154243/UP-Spuelkasten-fuellt-sich-nicht-mehr",
+        "https://www.gutefrage.net/frage/kein-wasser-mehr-beim-innenliegenden-spuelkasten"
+      ],
+      "antwort_belegt": "Zuerst, ob das Eckventil im Spülkasten offen ist. Danach Filter bzw. Sieb am Füllventil: Das Geberit-Füllventil Typ 383 hat einen leicht zu reinigenden Filter, bei TECE lassen sich Einströmelement und Membran des Pilotventils ausbauen und unter fließendem Wasser reinigen. Geberit nennt bei der Sigma70 auch einen verschmutzten Filter und einen geknickten Panzerschlauch als Ursache dafür, dass keine Spülung möglich ist.",
+      "quellen": [
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/",
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf"
+      ]
+    },
+    {
+      "frage": "Der Kasten füllt sich nur noch ganz langsam. Woran liegt das?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/was-tun-wenn-der-spuelkasten-sehr-lange-braucht-bis-er-sich-wieder-mit-wasser-gefuellt-hat",
+        "https://www.haustechnikdialog.de/Forum/t/189841/Geberit-Spuelkasten-fuellt-sich-langsam",
+        "https://www.bauexpertenforum.de/threads/spuelkasten-fuellt-sich-sehr-sehr-langsam.143624/",
+        "https://www.gutefrage.net/frage/wc-wasserkasten-fuellt-sich-viiieeel-zu-langsam-was-tun"
+      ],
+      "antwort_belegt": "Meist ist der Zulauf verengt: Filter am Füllventil zugesetzt, Panzerschlauch geknickt oder Eckventil nicht ganz offen. TECE schreibt, dass Einströmelement oder Membran des Pilotventils bei sehr schlechtem Wasser verschmutzen können und dann gereinigt werden. Hilft das nicht, ist das Füllventil zu tauschen.",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/",
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf"
+      ]
+    },
+    {
+      "frage": "Nach Arbeiten an der Wasserleitung (Wasser abgestellt) füllt der Spülkasten nicht mehr. Warum?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/toilette-fuellt-sich-nicht",
+        "https://www.bauexpertenforum.de/threads/spuelkasten-fuellt-sich-sehr-sehr-langsam.143624/"
+      ],
+      "antwort_belegt": null,
+      "quellen": []
+    },
+    {
+      "frage": "Das Eckventil im Unterputzkasten ist verkalkt oder lässt sich nicht drehen. Kann ich es tauschen?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/223374/Geberit-Spuelkasten-Eckventil-Verstopft",
+        "https://www.haustechnikdialog.de/Forum/t/215450/Eckventil-Spuelkasten-unkompliziert-ersetzbar-",
+        "https://www.haustechnikdialog.de/Forum/t/247889/Spuelkasten-hat-kein-Eckventil"
+      ],
+      "antwort_belegt": "Für Geberit-Sigma-Kästen (UP320) führt der Ersatzteilkatalog Spindel (240.298.00.1) und Handrad (240.347.00.1) für das Eckventil sowie den kompletten Wasseranschluss (240.847.00.1, ersetzt 240.269.00.1) als Einzelteile. Der Tausch des Wasseranschlusses ist ein Eingriff in die Trinkwasserinstallation.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050"
+      ]
+    },
+    {
+      "frage": "Welches Füllventil passt als Ersatz in meinen Spülkasten?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/185887/Innenleben-Geberit-Unterputzspuelkasten-erneuern",
+        "https://www.gutefrage.net/frage/spuelkasten-innen-tauschen"
+      ],
+      "antwort_belegt": "Geberit: Das Füllventil Typ 383 passt in Geberit-UP-Spülkästen der letzten 50 Jahre; für Sigma UP320 ist das 240.705.00.5 (ersetzt 240.705.00.1). TECE: Das Ersatzfüllventil F 10 (Bestellnummer 9820353) passt in alle TECE-Spülkästen und in viele Spülkästen anderer Hersteller. Dazu gibt es bei TECE ein Ventilhebelset (9820382) und ein Dichtungsset (9820383).",
+      "quellen": [
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf"
+      ]
+    },
+    {
+      "frage": "Kann zu wenig Wasserdruck die Ursache sein?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/79406/WC-Spuelkasten-lange-Fuellzeit-und-geringer-Druck",
+        "https://www.haustechnikdialog.de/Forum/t/244415/Geberit-Duofix-Sigma-70-spuelt-nicht-richtig"
+      ],
+      "antwort_belegt": "Ja, Füllventile brauchen einen Mindestdruck. TECE gibt für das Füllventil F 10 einen Einsatzbereich von 100 bis 10.000 hPa und einen Mindestfließdruck von 500 hPa (0,5 bar) an. Fließt an anderen Zapfstellen auch wenig Wasser, liegt das Problem in der Hausinstallation, nicht im Spülkasten.",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf"
+      ]
+    },
+    {
+      "frage": "Wie stelle ich die Füllhöhe ein, wenn zu wenig Wasser im Kasten ist?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/154999/Problem-Sparspueltaste-ohne-korrekte-Funktion-TECE-Ablaufventil-A1",
+        "https://www.gutefrage.net/frage/wie-kann-ich-bei-einem-geberit-spuelkasten-den-zulauf-einstellen"
+      ],
+      "antwort_belegt": "Bei TECE über die Verstellspindel am Füllventil: Das Wasser soll bis zur oberen Markierung am Überlauf des Ablaufventils und bis zur oberen Markierung im Spülkasten reichen. Das Geberit-Füllventil Typ 383 ist laut Geberit ebenfalls stufenlos über eine Spindel einstellbar.",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/"
+      ]
+    },
+    {
+      "frage": "Der Schwimmer hängt bzw. das Füllventil schließt nicht oder öffnet nicht. Reparieren oder tauschen?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/171659/Geberit-Spuelkasten-Laeuft-staendig-und-fuellt-nicht-Schwimmer-schliesst-nicht-",
+        "https://www.bauexpertenforum.de/threads/fuellventil-verstopft-immer-wieder.147443/"
+      ],
+      "antwort_belegt": "Reinigen lassen sich Filter (Geberit Typ 383) bzw. Einströmelement und Membran (TECE F 10). Für TECE gibt es Ventilhebel- und Dichtungsset als Ersatzteile. Geberit nennt in der Störungstabelle seiner WC-Steuerung bei defektem Füllventil den Austausch des Füllventils als Abhilfe.",
+      "quellen": [
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/",
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+        "https://www.geberitnorthamerica.com/_assets/local-media/instructions/970-390-00-000.pdf"
+      ]
+    }
+  ],
+  "fakten": [
+    {
+      "aussage": "Geberit Füllventil Typ 383: leicht zu reinigender Filter; rückwärtskompatibel für Geberit-UP-Spülkästen der letzten 50 Jahre.",
+      "quellen": [
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/"
+      ]
+    },
+    {
+      "aussage": "Geberit Sigma UP320 Ersatzteile: Füllventil Typ 383 240.705.00.5 (ersetzt 240.705.00.1); Panzerschlauch 241.854.00.1 (ersetzt 240.921.00.1); Wasseranschluss 240.847.00.1 (ersetzt 240.269.00.1); Spindel zu Eckventil 240.298.00.1; Handrad Eckventil 240.347.00.1; Flex-Schlauch Typ 383 246.113.00.1; Renovierungsset Typ 212/383 246.127.00.5.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050"
+      ]
+    },
+    {
+      "aussage": "Geberit Sigma70: verschmutzter Filter oder geknickter Panzerschlauch verhindern das Auslösen der Spülung (Abhilfe: Filter reinigen, Panzerschlauch ersetzen).",
+      "quellen": [
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf"
+      ]
+    },
+    {
+      "aussage": "TECE Füllventil F 10 (Bestellnr. 9820353): passt in alle TECE-Spülkästen und viele Fremdkästen; Einsatzbereich 100–10.000 hPa, Mindestfließdruck 500 hPa; Füllhöhe über Verstellspindel; Einströmelement und Membran des Pilotventils reinigbar; Ersatzteile Ventilhebelset 9820382, Dichtungsset 9820383.",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf"
+      ]
+    },
+    {
+      "aussage": "TECE: Eckventil des UP-Kastens ist ab Werk geschlossen und vormontiert; Anschlussleitung vor Inbetriebnahme durchspülen, Panzerschlauch wird werkzeuglos am Füllventil angeschraubt.",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf"
+      ]
+    }
+  ],
+  "asins": [],
+  "eans": [],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "Füllventil verstopft nach Rohrarbeiten immer wieder – Filter vor dem Eckventil nachrüsten?",
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/fuellventil-verstopft-immer-wieder.147443/",
+        "https://www.gutefrage.net/frage/toilette-fuellt-sich-nicht"
+      ]
+    },
+    {
+      "frage": "Panzerschlauch verstopft – reinigen oder tauschen?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/14584/Spuehlkasten-fuellt-sich-sehr-langsam",
+        "https://www.gutefrage.net/frage/warum-laeuft-das-wasser-im-spuelkasten-nur-langsam-nach"
+      ]
+    },
+    {
+      "frage": "Füllventile für Viega, Sanit, Mepa: welche Nummer, welcher Mindestdruck?",
+      "fundstellen": []
+    },
+    {
+      "frage": "Spülkasten füllt nur tropfenweise – Membran defekt?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/7286/spuelkasten-fuellt-sich-nur-noch-tropfenweise"
+      ]
+    }
+  ]
+}

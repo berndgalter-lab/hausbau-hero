@@ -1,0 +1,202 @@
+{
+  "slug": "wc-sitz-befestigung",
+  "name": "WC-Sitz-Befestigung",
+  "mehrzahl": "WC-Sitz-Befestigungen",
+  "genus": "f",
+  "titel": "WC-Sitz-Befestigung: welche passt?",
+  "seo_title": "WC-Sitz-Befestigung: von oben oder unten, welches Scharnier?",
+  "seo_description": "Lochabstand messen, Befestigung von oben oder unten, Scharnier-Nummern von Villeroy & Boch, Laufen und Duravit, Absenkautomatik als Ersatzteil.",
+  "kurz": "Ob eine Befestigung passt, hängt an zwei Dingen: dem Abstand der beiden Löcher in der Keramik und daran, ob du von unten an die Löcher kommst. Am häufigsten sind 155 mm, neuere Villeroy-&-Boch-Sitze haben 180 mm.\n\nBei Markensitzen gibt es Scharniere und Absenkautomatik meist einzeln. Die Nummer steht im Datenblatt des Sitzes, nicht des WCs.",
+  "bereiche": ["wc-spuelkasten"],
+  "teiltypen": [],
+  "erkennen": [
+    {
+      "titel": "Lochabstand messen",
+      "text": "Den Abstand von Lochmitte zu Lochmitte messen. Viele Sitze sind für 155 mm gebaut, ein Herstellerdatenblatt nennt 155 mm ± 3 mm bei 15 mm Lochdurchmesser. Villeroy & Boch nutzt bei Subway 2.0, Subway 3.0 und Architectura 9M83 180 mm, beim O.novo-Sitz 8823 61 150 mm."
+    },
+    {
+      "titel": "Von oben oder von unten",
+      "text": "Kommst du unter dem WC an die Löcher, wie bei den meisten Stand-WCs, geht eine Befestigung von unten mit Schraube und Mutter. Bei Wand-WCs mit Blindlöchern oder verdeckter Unterseite brauchst du eine Befestigung von oben: Ein Spreiz- oder Kippanker klemmt im Loch, wenn du die Schraube von oben anziehst. Laufen nennt das Hohlraumbefestigung, Villeroy & Boch Kipp-Stripp-Anker."
+    },
+    {
+      "titel": "Abstand zur Vorderkante",
+      "text": "Damit der neue Sitz nicht übersteht, auch die Länge messen: von der Lochmitte bis zur Vorderkante der Keramik. Laufen gibt für den Pro-Sitz 430 mm an. Duravit nennt als Passform-Merkmale Form, Länge und Breite der Brille und den Lochabstand."
+    },
+    {
+      "titel": "Sitzmodell bestimmen",
+      "text": "Für ein Original-Scharnier brauchst du die Nummer des Sitzes. Sie steht im Datenblatt und auf dem Etikett der Verpackung. Bei Villeroy & Boch nennt das Datenblatt je Sitz das Scharnier und die Ersatzteile wie Soft-Closing-Paket und Puffer."
+    },
+    {
+      "titel": "Exzenter bei krummen Maßen",
+      "text": "Weicht der Lochabstand vom Maß des Sitzes ab, hilft ein Exzenterscharnier, das sich ein paar Millimeter verstellen lässt. Das empfiehlt auch der Hersteller im genannten Datenblatt."
+    }
+  ],
+  "groessen": {
+    "titel": "Scharniere nach Sitzmodell",
+    "spalten": ["Sitz", "Serie", "Scharnier", "Lochabstand", "Absenkautomatik einzeln"],
+    "zeilen": [
+      ["V&B 9M55S1, 9M55Q1", "Subway", "9220 55 61, Kipp-Stripp-Anker", "138–218 mm", "9222 91 00"],
+      ["V&B 9M5561", "Subway", "9223 70 61", "155 mm", "–"],
+      ["V&B 9M6661", "Subway Compact", "9224 08 61, von oben", "155 mm", "–"],
+      ["V&B 9M68S1, 9M68Q1", "Subway 2.0", "9222 24 61", "180 mm", "9222 91 00"],
+      ["V&B 9M69S1, 9M69Q1", "Subway 2.0 Compact", "9222 24 61", "180 mm", "9222 92 00"],
+      ["V&B 9M78S1", "Subway 2.0 Slim", "9224 74 61", "180 mm", "9224 77 00"],
+      ["V&B 8M42S1", "Subway 3.0", "9224 74 61", "180 mm", "9209 48 00"],
+      ["V&B 9M38S1", "O.novo", "9224 17 61", "155 mm", "9221 64 00"],
+      ["V&B 8823 61", "O.novo", "8823 01 61", "150 mm", "–"],
+      ["V&B 9M8361", "Architectura", "9224 56 61", "180 mm", "–"],
+      ["V&B 98M9D1", "Omnia architectura", "9222 35 61, Kipp-Stripp-Anker", "155 mm", "–"],
+      ["Laufen H8969513000001", "Pro", "Edelstahl, Hohlraumbefestigung", "155 mm", "Teil des Sitzes"],
+      ["Duravit 0063890000", "Starck 3", "Scharniersatz 0061381000", "–", "1004270000"],
+      ["Duravit 0060590000", "DuraStyle", "Scharniersatz 0061761000", "–", "–"]
+    ],
+    "hinweis": "Villeroy-&-Boch- und Laufen-Angaben aus den Datenblättern der Hersteller. Die Endung 61 bei V&B-Scharnieren steht für Edelstahl. Duravit-Nummern nach Händlerangaben (megabad), Duravit selbst zeigt Ersatzteilzeichnungen erst nach Registrierung."
+  },
+  "produkte": [
+    {
+      "name": "Villeroy & Boch Scharnier 9220 55 61 für Subway",
+      "hersteller": "Villeroy & Boch",
+      "amazon_asin": "B01IR8Q7JY",
+      "hinweis": "Kipp-Stripp-Anker mit Quick Release, für Subway 9M55S1 und 9M55Q1, Lochabstand 138–218 mm"
+    },
+    {
+      "name": "Villeroy & Boch Soft-Closing-Paket 9222 92 00",
+      "hersteller": "Villeroy & Boch",
+      "amazon_asin": "B06ZYX8Z2P",
+      "hinweis": "Ersatz-Absenkautomatik für Subway 2.0 Compact 9M69S1"
+    }
+  ],
+  "fragen": [
+    {
+      "frage": "Welchen Lochabstand haben WC-Sitze, ist das genormt?",
+      "antwort": "Am häufigsten sind 155 mm von Lochmitte zu Lochmitte, etwa bei Laufen Pro, Pressalit Objecta und mehreren Villeroy-&-Boch-Sitzen. Neuere V&B-Sitze wie Subway 2.0, Subway 3.0 und Architectura 9M83 haben 180 mm, der O.novo-Sitz 8823 61 hat 150 mm. Ein Herstellerdatenblatt rechnet mit 155 mm ± 3 mm und empfiehlt bei anderen Maßen ein Exzenterscharnier.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.cac.laufen.com/laufen-services/productSheet30/CAC/en/H8969513000001/",
+        "https://pressalit.com/de-de/wc-sitze/wc-sitze/pressalit-objecta-projecta-projecta-plus-54/p-54011-ba1999/",
+        "https://img.nordwest.com/12605_6dae9c7a9d4fac4c3e4be43ab8bafb27_de.pdf",
+        "https://documents.unidomo.de/de/vbdbde_9m68s1_9m68q1_subway_2_0.pdf",
+        "https://img.nordwest.com/15852_a97d95b00608bef731fb175dbac70da2_de.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Was ist der Unterschied zwischen Befestigung von oben und von unten?",
+      "antwort": "Von unten wird der Sitz mit Schraube und Mutter durch die Keramik verschraubt, dafür muss man unter das WC greifen können. Von oben klemmt ein Spreiz- oder Kippanker im Loch, wenn man die Schraube anzieht. Das braucht man bei Wand-WCs mit Blindlöchern. Laufen nennt das Hohlraumbefestigung, Villeroy & Boch Kipp-Stripp-Anker.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://pressalit.com/de-de/wc-sitze/wc-sitze/pressalit-objecta-projecta-projecta-plus-54/p-54011-ba1999/",
+        "https://www.unicor.rs/pdf/TF01_896950_GLOBAL_en_20200307.pdf",
+        "https://img.nordwest.com/15852_0e996745866531fc9a8f60f6b08880fc_de.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Was muss ich messen, damit ein neuer WC-Sitz passt?",
+      "antwort": "Den Lochabstand, die Länge von der Lochmitte bis zur Vorderkante der Keramik und die Breite. Duravit nennt Form, Länge und Breite der Brille und den Abstand der Bohrlöcher als Passform-Merkmale. Am sichersten ist der Abgleich über die Nummer der Keramik, die Hersteller in den Datenblättern der Sitze aufführen.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.duravit.com/de-de/service/wc-sitz-finder/",
+        "https://www.cac.laufen.com/laufen-services/productSheet30/CAC/en/H8969513000001/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welches Scharnier gehört zum Villeroy-&-Boch-Sitz Subway 9M55S1?",
+      "antwort": "Das Scharnier 9220 55 61 mit Kipp-Stripp-Anker und Quick Release, ausgelegt für 138 bis 218 mm Lochabstand. Es gilt auch für 9M55Q1. Dazu gibt es einzeln das Soft-Closing-Paket 9222 91 00, Abdeckkappen 9222 05 00 und Puffer 9220 81 00.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://img.nordwest.com/15852_95e668d988f51bdbfc14b66db1abd924_de.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Passt das Scharnier vom alten Subway auf Subway 2.0?",
+      "antwort": "Nicht ohne Weiteres. Subway 2.0 (9M68S1) hat das Scharnier 9222 24 61 für 180 mm, Subway 2.0 Slim 9224 74 61, der ältere Subway 9M55S1 das Scharnier 9220 55 61 für 138 bis 218 mm. Es zählt das Sitzmodell und der Lochabstand der Keramik.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://documents.unidomo.de/de/vbdbde_9m68s1_9m68q1_subway_2_0.pdf",
+        "https://media.hornbach.ch/hb/datasheet/as.46293779.pdf",
+        "https://img.nordwest.com/15852_95e668d988f51bdbfc14b66db1abd924_de.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Die Absenkautomatik funktioniert nicht mehr. Muss ich den ganzen Sitz tauschen?",
+      "antwort": "Bei vielen Markensitzen nicht. Villeroy & Boch führt eigene Soft-Closing-Pakete, etwa 9222 91 00 für Subway und Subway 2.0, 9224 77 00 für Subway 2.0 Slim, 9209 48 00 für Subway 3.0 und 9221 64 00 für O.novo 9M38S1. Für Duravit Starck 3 gibt es laut Händler die Absenkautomatik 1004270000.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://img.nordwest.com/15852_95e668d988f51bdbfc14b66db1abd924_de.pdf",
+        "https://media.hornbach.ch/hb/datasheet/as.46293779.pdf",
+        "https://www.meinhausshop.de/media/pdf/93_191_57--DBL-01-de.pdf",
+        "https://media.hornbach.at/hb/datasheet/as.46293245.pdf",
+        "https://www.megabad.com/duravit-ersatzteile-softcloseautomatik-starck-3-wc-a-384442.htm"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welche Scharniere gibt es für Duravit Starck 3 und DuraStyle?",
+      "antwort": "Laut Fachhändler den Scharniersatz 0061381000 für Starck 3 mit Absenkautomatik (0063890000) und Starck 2/Happy D., das Scharnierpaar 0061121000 für Architec und Starck 3 ohne Absenkautomatik und den Scharniersatz 0061761000 für DuraStyle 0060590000. Duravit zeigt die Ersatzteilzeichnungen nach kostenloser Registrierung, dafür braucht man die Artikel- oder Seriennummer.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://www.megabad.com/hersteller-duravit-ersatzteile-ersatzscharniersatz-wc-sitz-a-105064.htm",
+        "https://www.megabad.com/hersteller-duravit-ersatzteile-starck-3-ersatzscharnierpaar-a-109303.htm",
+        "https://www.megabad.com/hersteller-duravit-ersatzteile-scharniersatz-durastyle-wc-a-481917.htm",
+        "https://www.duravit.com/de-de/service/ersatzteilsuche/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welcher Sitz und welche Befestigung passt auf Laufen Pro?",
+      "antwort": "Laufen nennt für den Pro-Sitz H8969513000001 155 mm Lochabstand und 430 mm von der Lochmitte bis zur Vorderkante. Die Pro-Sitze werden mit Hohlraumbefestigung für die Montage von oben geliefert, das Montagezubehör liegt bei.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.cac.laufen.com/laufen-services/productSheet30/CAC/en/H8969513000001/",
+        "https://www.unicor.rs/pdf/TF01_896950_GLOBAL_en_20200307.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wo finde ich die Artikelnummer meines WC-Sitzes?",
+      "antwort": "Auf dem Etikett der Verpackung und im Datenblatt. Duravit braucht für die Ersatzteilsuche die Artikel- oder Seriennummer und sucht auch nach EAN. Ohne Verpackung hilft bei Duravit der WC-Sitz-Finder, der den Sitz anhand von Fotos bestimmt.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://www.duravit.com/de-de/service/ersatzteilsuche/",
+        "https://www.duravit.com/de-de/service/wc-sitz-finder/"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://img.nordwest.com/15852_95e668d988f51bdbfc14b66db1abd924_de.pdf",
+    "https://img.nordwest.com/15852_808fd987408ec33f451afcaa5adfbed7_de.pdf",
+    "https://img.nordwest.com/15852_0e996745866531fc9a8f60f6b08880fc_de.pdf",
+    "https://documents.unidomo.de/de/vbdbde_9m68s1_9m68q1_subway_2_0.pdf",
+    "https://img.nordwest.com/15852_2ec6303bfb6de15d053ecfda19957790_de.pdf",
+    "https://media.hornbach.ch/hb/datasheet/as.46293779.pdf",
+    "https://www.meinhausshop.de/media/pdf/93_191_57--DBL-01-de.pdf",
+    "https://media.hornbach.at/hb/datasheet/as.46293245.pdf",
+    "https://img.nordwest.com/15852_a97d95b00608bef731fb175dbac70da2_de.pdf",
+    "https://media.hornbach.de/hb/datasheet/as.46830822.pdf",
+    "https://media.hornbach.de/hb/datasheet/as.46299055.pdf",
+    "https://www.cac.laufen.com/laufen-services/productSheet30/CAC/en/H8969513000001/",
+    "https://www.unicor.rs/pdf/TF01_896950_GLOBAL_en_20200307.pdf",
+    "https://pressalit.com/de-de/wc-sitze/wc-sitze/pressalit-objecta-projecta-projecta-plus-54/p-54011-ba1999/",
+    "https://img.nordwest.com/12605_6dae9c7a9d4fac4c3e4be43ab8bafb27_de.pdf",
+    "https://www.duravit.com/de-de/service/wc-sitz-finder/",
+    "https://www.duravit.com/de-de/service/ersatzteilsuche/",
+    "https://www.megabad.com/hersteller-duravit-ersatzteile-ersatzscharniersatz-wc-sitz-a-105064.htm",
+    "https://www.megabad.com/hersteller-duravit-ersatzteile-starck-3-ersatzscharnierpaar-a-109303.htm",
+    "https://www.megabad.com/hersteller-duravit-ersatzteile-scharniersatz-durastyle-wc-a-481917.htm",
+    "https://www.megabad.com/duravit-ersatzteile-softcloseautomatik-starck-3-wc-a-384442.htm"
+  ]
+}

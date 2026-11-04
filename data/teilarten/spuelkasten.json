@@ -1,0 +1,262 @@
+{
+  "slug": "spuelkasten",
+  "name": "Spülkasten-Ersatzteil",
+  "mehrzahl": "Spülkasten-Ersatzteile",
+  "genus": "n",
+  "titel": "Spülkasten erkennen: welcher Kasten ist verbaut?",
+  "seo_title": "Spülkasten-Ersatzteile: welcher Kasten ist verbaut?",
+  "seo_description": "Hersteller und Typ des Unterputzspülkastens bestimmen: wo Typ und Nummer bei Geberit, Mepa, TECE, Viega, Sanit, Friatec und Jomo stehen, und welches Spülventil passt.",
+  "kurz": "Welches Ersatzteil passt, hängt fast immer am Spülkasten hinter der Wand, nicht an der Drückerplatte. Deshalb zuerst Hersteller, Typ und Baujahr bestimmen.\n\nDie Angaben stehen bei den meisten Kästen hinter der Betätigungsplatte: auf einem Aufkleber, auf der Schutzplatte oder auf der Rückwand im Kasten. Fehlt der Aufkleber, helfen die Maße der Serviceöffnung und die Form von Spülventil und Füllventil.",
+  "bereiche": [
+    "wc-spuelkasten"
+  ],
+  "teiltypen": [
+    "spuelventil",
+    "umbauset"
+  ],
+  "erkennen": [
+    {
+      "titel": "Platte und Rahmen abnehmen",
+      "text": "Die Betätigungsplatte lässt sich meist nach oben schieben oder nach vorn abziehen, manche sind verschraubt. Dahinter sitzt bei vielen Kästen ein Rahmen oder eine Schutzplatte. Auf deren Rückseite oder daneben steht oft schon der Typ."
+    },
+    {
+      "titel": "Aufkleber oder Aufdruck suchen",
+      "text": "Bei Geberit stehen Typbezeichnung (Sigma, Omega …) und PA-Nummer auf oder hinter der Schutzplatte. Mepa kennzeichnet seine Kästen immer auf der Rückwand im Kasten, je nach Generation als aufgedruckte Seriennummer, als Etikett mit Typ und Baujahr oder als CE-Etikett mit Kenncode. Bei alten Kästen fehlen Aufkleber manchmal oder sind nicht mehr lesbar."
+    },
+    {
+      "titel": "Serviceöffnung messen",
+      "text": "Ohne Aufkleber hilft das Maß der Öffnung hinter der Platte. Bei Geberit sind es 22 × 14 cm bei Sigma 12 cm (UP300, UP320) und Delta UP100, 18 × 11 cm bei Omega und 29,5 × 15,5 cm bei Twinline (UP130, 110.800) und dem alten UP 10.800."
+    },
+    {
+      "titel": "Spülventil ansehen",
+      "text": "Ältere Kästen haben eine Heberglocke, neuere ein Spülventil. Bei Geberit ist die Heberglocke 240.114.00.1 für Unterputzkästen bis Baujahr 1997 gelistet, Sigma, Delta, Omega und UP300 haben das Spülventil Typ 212. Mepa und Viega nennen das Teil Ablaufventil."
+    },
+    {
+      "titel": "Ersatzteilblatt des Herstellers öffnen",
+      "text": "Mit Typ und Baujahr findest du im Ersatzteilblatt die Nummern. Geberit führt jede Baureihe im Online-Katalog mit Baujahren und Maßen, Mepa hat ein Blatt je Kastentyp mit Baujahrgrenzen, Viega ordnet die Sets der Modellnummer zu."
+    }
+  ],
+  "groessen": {
+    "titel": "Woran du den Hersteller erkennst",
+    "spalten": [
+      "Hersteller",
+      "Wo steht der Typ?",
+      "Was hilft außerdem"
+    ],
+    "zeilen": [
+      [
+        "Geberit",
+        "Typ und PA-Nummer auf oder hinter der Schutzplatte",
+        "Maß der Serviceöffnung: 22 × 14 cm (Sigma 12, Delta), 18 × 11 cm (Omega), 29,5 × 15,5 cm (Twinline, UP 10.800)"
+      ],
+      [
+        "Mepa (Sanicontrol)",
+        "Rückwand im Kasten: Seriennummer (A11 bis B21), Etikett mit Typ und Baujahr (A31, B31, E31 …) oder CE-Etikett mit Kenncode wie M-SPK SC A31-V2",
+        "Ersatzteilblatt je Kastentyp mit Baujahrgrenzen"
+      ],
+      [
+        "TECE",
+        "Uni-Spülkasten in den Modulen TECEprofil und TECEbox",
+        "Ersatzteile bis zu 25 Jahre ab Verkauf, Füllventil F10 passt in alle TECE-Kästen"
+      ],
+      [
+        "Viega",
+        "Modellnummer, z. B. 8180.6-94B für Standard 1S",
+        "Kurzbezeichnungen 1H, 1L, 1S, 2H, 2L, 2S, 1C, 2C"
+      ],
+      [
+        "Sanit",
+        "Modellcode, z. B. INEO Solo CC-121-S-UO-2V-2C",
+        "Ersatzteilliste je Modellcode beim Hersteller"
+      ],
+      [
+        "Friatec",
+        "Kastennummern 302003, 302006, 302010, 352005; Reihen Friabloc, Friafix, Friaset, Wimo",
+        "Ersatzteile heute über Sanit"
+      ],
+      [
+        "Jomo",
+        "keine Herstellerunterlage zur Typbestimmung",
+        "heute bei WERIT (WERIfix SLK, SLS)"
+      ]
+    ],
+    "hinweis": "Nach den Ersatzteilunterlagen von Geberit, Mepa, Viega und Sanit, der TECE-Broschüre Sanitärsysteme und der Produktseite von WERIT."
+  },
+  "produkte": [
+    {
+      "name": "Geberit Spülventil Typ 212 komplett 244.820.00.1",
+      "hersteller": "Geberit",
+      "ean": "4025410903877",
+      "amazon_asin": "B09N9JLZ3K",
+      "hinweis": "Für Sigma, Omega, Delta und UP300, ersetzt mehrere ältere Nummern"
+    },
+    {
+      "name": "Geberit Heberglocke universell 240.114.00.1",
+      "hersteller": "Geberit",
+      "amazon_asin": "B004K0ERIC",
+      "hinweis": "Für Geberit-Unterputzkästen bis Baujahr 1997"
+    },
+    {
+      "name": "Geberit Renovierungsset Typ 212-383",
+      "hersteller": "Geberit",
+      "amazon_asin": "B0FFTK3LHN",
+      "hinweis": "Spülventil und Füllventil für UP300, UP320 und Sigma"
+    }
+  ],
+  "probleme": [
+    "spuelkasten-laeuft-nach",
+    "spuelkasten-fuellt-nicht",
+    "spuelung-loest-nicht-aus"
+  ],
+  "fragen": [
+    {
+      "frage": "Wie finde ich heraus, welcher Unterputzspülkasten bei mir verbaut ist?",
+      "antwort": "Betätigungsplatte und Rahmen abnehmen. Dahinter stehen auf einem Aufkleber, auf der Schutzplatte oder auf der Rückwand im Kasten Hersteller und Typ, bei Geberit oft mit PA-Nummer. Bei älteren Kästen können Aufkleber fehlen, dann helfen die Maße der Serviceöffnung.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
+        "https://www.mepa.de/fileadmin/download-ersatzteil/ersatzteil_upsk_identifikationsmerkmale.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie unterscheide ich Geberit Sigma, Delta, Omega und Twinline?",
+      "antwort": "Am einfachsten über die Serviceöffnung: Sigma 12 cm (UP300, UP320) und Delta UP100 haben 22 × 14 cm, Omega 18 × 11 cm, Twinline und der alte UP 10.800 29,5 × 15,5 cm. Sigma und Delta sind gleich groß, dort entscheidet der Aufdruck auf der Schutzplatte oder die Plattenserie.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461060",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461058",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461065",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461070"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie erkenne ich einen Mepa-Spülkasten und seine Generation?",
+      "antwort": "Mepa kennzeichnet immer auf der Rückwand im Kasten. A11, A12, A21 und B11 bis B21 haben eine aufgedruckte Seriennummer. A31, B31, P31, E11 bis E31 und R11 tragen ein Etikett mit Bauhöhe, Typ, Baureihennummer und Herstellungsjahr. Aktuelle Kästen haben ein CE-Etikett mit Kenncode wie M-SPK SC A31-V2.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://www.mepa.de/fileadmin/download-ersatzteil/ersatzteil_upsk_identifikationsmerkmale.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Hat mein Spülkasten eine Heberglocke oder ein Spülventil?",
+      "antwort": "Das hängt vom Baujahr ab. Bei Geberit ist die universelle Heberglocke 240.114.00.1 für Unterputzkästen bis Baujahr 1997 gelistet. Sigma, Omega, Delta und UP300 haben das Spülventil Typ 212 (244.820.00.1). Mepa und Viega nennen das Teil Ablaufventil.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_104604",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+        "https://www.viega.de/de/produkte/Ersatzteile/Vorwand-Spueltechnik/UP-Spuelkaesten-2/UP-Spuelkasten-Standard-1S-8180-6-94B.html"
+      ],
+      "teile": [
+        "geberit-heberglocke-universal-up-240-114-00-1",
+        "geberit-spuelventil-typ-212-244-820-00-1"
+      ],
+      "problem": null
+    },
+    {
+      "frage": "Reicht beim Geberit-Spülventil Typ 212 eine neue Dichtung?",
+      "antwort": "Je nach Baujahr nicht. Beim Sigma UP320 muss bis Baujahr 01/2022, beim Delta UP100 bis 01/2024 das komplette Spülventil 244.820.00.1 getauscht werden. Bei neueren Kästen gibt es die Flachdichtung 244.244.00.1. Die ältere Dichtung 816.418.00.1 passt laut Geberit nicht zum Typ 212.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461060"
+      ],
+      "teile": [
+        "geberit-spuelventil-typ-212-244-820-00-1",
+        "geberit-flachdichtung-spuelventil-typ-212-244-244-00-1"
+      ],
+      "problem": "spuelkasten-laeuft-nach"
+    },
+    {
+      "frage": "Kann ich einen alten Geberit-Kasten auf 2-Mengen-Spülung umrüsten?",
+      "antwort": "Beim Unterputzkasten 10.800 ja, mit dem Umbauset 240.835.00.5, aber erst ab Baujahr 1978 (PA-Nummer I/IX2761/I). Bei den Baujahren 1975 bis 1977 lässt sich das Bassin nicht tauschen.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461070"
+      ],
+      "teile": [
+        "geberit-umbauset-2-mengen-typ-10800-240-835-00-5"
+      ],
+      "problem": null
+    },
+    {
+      "frage": "Wie viel Wasser braucht eine Spülung, und kann ich die Menge ändern?",
+      "antwort": "Üblich sind 6 Liter für die große und 3 Liter für die kleine Spülung. Beim TECE Uni-Spülkasten lässt sich die große Spülung per Schieber zwischen 4,5 und 9 Litern einstellen, die kleine bleibt bei 3 Litern. Viega gibt beim Standard 1S etwa 3 Liter klein und 6 oder 9 Liter groß an.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+        "https://www.viega.de/de/produkte/Ersatzteile/Vorwand-Spueltechnik/UP-Spuelkaesten-2/UP-Spuelkasten-Standard-1S-8180-6-94B.html",
+        "https://www.mepa.de/fileadmin/download-ersatzteil/ersatzteil_upsk_identifikationsmerkmale.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie lange gibt es Ersatzteile für Unterputzspülkästen?",
+      "antwort": "TECE sagt bis zu 25 Jahre ab Verkaufsdatum zu. Mepa gibt 25 Jahre für A31- und B31-Kästen ab Herstellung April 2020, erkennbar am DataMatrix-Code MEPA-PiD. Geberit nennt keine feste Frist, führt im Katalog aber noch Teile für Kästen ab 1975.",
+      "kategorie": "verfuegbarkeit",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+        "https://www.mepa.de/fileadmin/download-ersatzteil/ersatzteil_upsk_identifikationsmerkmale.pdf",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461070"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welche Betätigungsplatte passt auf meinen Spülkasten?",
+      "antwort": "Die Platte muss zum Kastentyp passen, nicht nur optisch gefallen. Geberit bietet auch für nicht mehr gebaute Kästen wie UP300, Artline, Kappa und Twinline passende Platten an, bei sehr alten Kästen kann ein Umbauset nötig sein. Mepa nennt im Ersatzteilblatt je Kasten die Platten, für die es noch Ersatz gibt.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
+        "https://fr.mepa.de/fileadmin/download-ersatzteil/ersatzteil_upsk_eckwc_e31.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Gibt es noch Ersatzteile für Friatec-Spülkästen?",
+      "antwort": "Ja, Sanit führt eine eigene Ersatzteilreihe für Friatec-Vorwandsysteme, unter anderem einen Inliner für Friatec-Unterputzkästen und Reparatursets für das Spülrohr je Bauzeitraum. Das TECE-Füllventil F10 passt laut TECE in die Friatec-Kästen 302003, 302006, 302010 und 352005.",
+      "kategorie": "verfuegbarkeit",
+      "quellen": [
+        "https://www.sanit.com/en/pro-bereich/produkte/spare-parts-for-friatec-pre-wall-install/",
+        "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Gibt es Jomo-Spülkästen noch?",
+      "antwort": "Jomo-Unterputzspülkästen kommen heute von WERIT, die aktuellen Modelle heißen WERIfix SLK und WERIfix SLS. WERIT verweist dabei auf die Erfahrung mit Jomo-Spülkästen.",
+      "kategorie": "verfuegbarkeit",
+      "quellen": [
+        "https://www.werit.eu/en/sanitary/wall-mounted-cisterns/"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
+    "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+    "https://catalog.geberit.de/de-DE/spare-part/SPT_461052",
+    "https://catalog.geberit.de/de-DE/spare-part/SPT_461058",
+    "https://catalog.geberit.de/de-DE/spare-part/SPT_461060",
+    "https://catalog.geberit.de/de-DE/spare-part/SPT_461065",
+    "https://catalog.geberit.de/de-DE/spare-part/SPT_461070",
+    "https://catalog.geberit.de/de-DE/product/PRO_104604",
+    "https://www.mepa.de/fileadmin/download-ersatzteil/ersatzteil_upsk_identifikationsmerkmale.pdf",
+    "https://fr.mepa.de/fileadmin/download-ersatzteil/ersatzteil_upsk_eckwc_e31.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+    "https://www.viega.de/de/produkte/Ersatzteile/Vorwand-Spueltechnik/UP-Spuelkaesten-2/UP-Spuelkasten-Standard-1S-8180-6-94B.html",
+    "https://www.sanit.com/wp-content/uploads/2025/06/up-spuelkasten-ineo-solo-cc-121-s-uo-2v-2c-mit-kleiner-revisionsoeffnung.pdf",
+    "https://www.sanit.com/en/pro-bereich/produkte/spare-parts-for-friatec-pre-wall-install/",
+    "https://www.werit.eu/en/sanitary/wall-mounted-cisterns/"
+  ]
+}
