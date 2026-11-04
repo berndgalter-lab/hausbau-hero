@@ -1,0 +1,238 @@
+{
+  "thema": "Spülung löst nicht aus (Unterputz- und Aufputzspülkästen, markenübergreifend: Geberit, TECE, Viega, Sanit, Mepa, Ideal Standard ProSys)",
+  "stand": "2026-11-04",
+  "fragen": [
+    {
+      "frage": "Ich drücke auf die Taste, aber es passiert nichts. Woran liegt das?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/druecker-von-der-toilettenspuelung-funktionier-nicht-mehr",
+        "https://www.gutefrage.net/frage/taste-von-der-klospuelung-loest-die-spuelung-nicht-mehr-aus",
+        "https://www.gutefrage.net/frage/toilettenspuelung-funktioniert-nicht"
+      ],
+      "antwort_belegt": "Bei mechanischen Unterputzkästen überträgt die Betätigungsplatte den Druck über Stangen auf Haken bzw. Bügel des Ablaufventils. TECE schreibt vor, dass die Betätigungshaken korrekt in den Zugösen des Ablaufventils sitzen und die Betätigungsstangen je nach Wandaufbau eingedreht werden müssen. Sitzen Haken oder Stangen nicht richtig, kommt der Druck nicht am Ventil an. Ist der Kasten leer, weil kein Wasser nachläuft, kann ebenfalls keine Spülung ausgelöst werden.",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Bet%C3%A4tigungen.pdf",
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf"
+      ]
+    },
+    {
+      "frage": "Nach dem Öffnen des Spülkastens (Reinigen, Entkalken) funktioniert die Spülung nicht mehr. Was habe ich falsch gemacht?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/druecker-von-der-toilettenspuelung-funktionier-nicht-mehr",
+        "https://www.gutefrage.net/frage/geberit-up-spuelkasten-spuelt-nur-mit-druck-auf-die-betaetigungstaste",
+        "https://www.haustechnikdialog.de/Forum/t/154999/Problem-Sparspueltaste-ohne-korrekte-Funktion-TECE-Ablaufventil-A1"
+      ],
+      "antwort_belegt": "Häufig sitzen danach Betätigungshaken oder Stangen nicht mehr richtig. Bei TECE ist der Betätigungsbock am Spritzschutz befestigt und wird beim Öffnen komplett mit herausgenommen; beim Wiedereinsetzen müssen die Betätigungshaken in den Zugösen des Ablaufventils sitzen. Bei Geberit liegen Lagerbock und Bügel für die Heberglocke im Kasten, auch sie müssen nach dem Zusammenbau korrekt sitzen.",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Bet%C3%A4tigungen.pdf",
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf"
+      ]
+    },
+    {
+      "frage": "Passt jede Betätigungsplatte auf jeden Spülkasten?",
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/betaetigungsplatte-passt-nicht-an-den-spuelkasten.92543/",
+        "https://www.haustechnikdialog.de/Forum/t/73065/WC-Drueckerplatte-fuer-TECE-System?PostSort=1",
+        "https://www.haustechnikdialog.de/Forum/t/168427/Vigour-Bestaetigungsplatte-Verbindung-zum-Spuelkasten?PostSort=1"
+      ],
+      "antwort_belegt": "Nein, Platten sind an das System des Herstellers gebunden. Geberit-Sigma-Platten passen laut Geberit ausschließlich auf Sigma-Kästen, Sigma und Omega sind nicht untereinander tauschbar; für ältere Kästen wie UP300, Artline, Kappa oder Twinline gibt es weiter kompatible Platten. TECE gibt an, dass bei TECE jede Platte auf jede TECE-Spülkastenversion passt. Viega listet je Platte die passenden Kästen, etwa Visign for More 100 für die UP-Spülkästen 2H, 2L und 2C.",
+      "quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
+        "https://www.tece.com/en/newsblog/each-plate-fits-any-cistern",
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Viega-Betaetigungsplatten/Betaetigungsplatte-8352-1.html"
+      ]
+    },
+    {
+      "frage": "Wie finde ich heraus, welcher Spülkasten bei mir in der Wand sitzt?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/welches-modell-vom-geberit-unterputzkasten-ist-verbaut",
+        "https://www.haustechnikdialog.de/Forum/t/33432/Spuelkasten-Betaetigungsplatte-bekannt-"
+      ],
+      "antwort_belegt": "Laut Geberit müssen Betätigungsplatte und Befestigungsrahmen abgenommen werden; auf oder hinter der Schutzplatte stehen oft die Typbezeichnung oder die PA-Nummer. Geberit empfiehlt, das Abnehmen einem Fachbetrieb zu überlassen. Für Installateure gibt es in der Geberit Pro App einen Produkterkenner, der das Modell per Foto bestimmt.",
+      "quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/"
+      ]
+    },
+    {
+      "frage": "Ich habe eine pneumatische Betätigung (Geberit Sigma70). Was kann ich tun, wenn sie nicht auslöst?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/244415/Geberit-Duofix-Sigma-70-spuelt-nicht-richtig"
+      ],
+      "antwort_belegt": "Bei der Sigma70 wird der Tastendruck pneumatisch zum Servoheber übertragen, das Spülventil öffnet dann hydraulisch über den Leitungsdruck. Geberit nennt als Ursachen, wenn keine Spülung auslöst: verschmutzter Filter, geknickter Panzerschlauch, ein geknickter, verschmutzter oder mit Wasser gefüllter Pneumatikschlauch oder ein undichtes Schlauchende. Vorher Eckventil schließen und die Pneumatikschläuche vom Servoheber trennen. Die Platte selbst soll man laut Geberit nie reparieren, Reparaturen nur durch eine Fachkraft mit Originalteilen.",
+      "quellen": [
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf"
+      ]
+    },
+    {
+      "frage": "Die Spülung löst nur aus, wenn ich die Taste lange oder fest drücke. Ist etwas verstellt?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/geberit-up-spuelkasten-spuelt-nur-mit-druck-auf-die-betaetigungstaste",
+        "https://www.haustechnikdialog.de/Forum/t/178641/Geberit-UP-Spuelkasten-bleibt-haengen-bei-Teilspuelung"
+      ],
+      "antwort_belegt": "Häufige Ursache ist eine falsch eingestellte Stangenlänge. TECE gibt in der Montageanleitung je Platte einen festen Abstand der Stangen zur Wandoberfläche vor (Beispiele 15 mm bzw. 2 mm) und lässt die Betätigungsstangen je nach Wandaufbau abknicken. Bei zu kurzen Stangen kommt der Hub nicht vollständig am Ventil an.",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Bet%C3%A4tigungen.pdf"
+      ]
+    },
+    {
+      "frage": "Nur die kleine Taste (Sparspülung) funktioniert nicht. Woran liegt das?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/154999/Problem-Sparspueltaste-ohne-korrekte-Funktion-TECE-Ablaufventil-A1",
+        "https://www.bauexpertenforum.de/goto/post?id=1499799"
+      ],
+      "antwort_belegt": "Bei Zwei-Mengen-Technik hat jede Taste eine eigene Stange: TECE installiert bei Einmengenbetätigung eine Betätigungsstange, bei Zweimengentechnik zwei. Fehlt eine Stange oder ist sie verstellt, fällt nur diese Menge aus. Beim Geberit Sigma70 nennt Geberit für den Ausfall von Teil- oder Vollmenge einen geknickten, verschmutzten oder mit Wasser gefüllten Pneumatikschlauch.",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Bet%C3%A4tigungen.pdf",
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf"
+      ]
+    },
+    {
+      "frage": "Ich habe ein altes TECE-Ablaufventil A1 gegen A2 getauscht, jetzt passt die Betätigung nicht. Warum?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/206762/TECE-Ablaufventil-A1"
+      ],
+      "antwort_belegt": "Laut TECE müssen beim Austausch des alten Ablaufventils A1 gegen ein neues A2 auch die Betätigungshebel getauscht werden. Das alte Ventil soll mitsamt Ventilsitz und Dichtung entsorgt werden.",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf"
+      ]
+    },
+    {
+      "frage": "Die Spülung (Geberit) muss ich komplett tauschen oder reichen Einzelteile?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/216747/Geberit-UP-Spuelkasten-klemmt-Heberglocke-nicht-zurueck",
+        "https://www.bauexpertenforum.de/threads/unterputzspuelkasten-drueckerstange-gebrochen.120247/"
+      ],
+      "antwort_belegt": "Für Geberit-Unterputzkästen gibt es das Spülventil Typ 212 als Ersatzteil; es ist laut Geberit rückwärtskompatibel mit Sigma-Kästen (UP300) bis Baujahr 2002. Beim Sigma UP320 muss laut Ersatzteilkatalog bis Baujahr 01/2022 das komplette Spülventil getauscht werden. Die Teile werden durch die Revisionsöffnung gewechselt, die Wand bleibt zu.",
+      "quellen": [
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050"
+      ]
+    },
+    {
+      "frage": "Meine elektronische Betätigung (Taster, Infrarot) löst nicht aus. Was prüfe ich?",
+      "fundstellen": [],
+      "antwort_belegt": "Geberit nennt für seine elektronische WC-Steuerung als Ursachen: Softwarestörung (Stromversorgung 10 Sekunden unterbrechen, Steuerung neu starten), Stromausfall, leere Batterien, defekten externen Taster oder Infrarottaster und eine defekte Hebevorrichtung. Kabel und Hebevorrichtung sind Sache des Fachbetriebs.",
+      "quellen": [
+        "https://www.geberitnorthamerica.com/_assets/local-media/instructions/970-390-00-000.pdf"
+      ]
+    },
+    {
+      "frage": "Ab wann sollte ich den Installateur holen?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/spuelkasten-defekt-0"
+      ],
+      "antwort_belegt": "Geberit lässt Bedienung, Pflege und Instandhaltung durch den Nutzer nur so weit zu, wie in der Anleitung beschrieben; Reparaturen sollen mit Originalteilen durch eine Fachkraft erfolgen. Auch das Abnehmen von Platte und Rahmen zur Typbestimmung empfiehlt Geberit dem Fachbetrieb. Im Zweifel rät Geberit allgemein, den Fachmann zu rufen.",
+      "quellen": [
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf",
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/service-fuers-bad/"
+      ]
+    }
+  ],
+  "fakten": [
+    {
+      "aussage": "Geberit Sigma70: Auslösung besteht aus pneumatischem und hydraulischem Teil; Kraft von Platte zum Servoheber pneumatisch, Spülventil öffnet hydraulisch über Leitungsdruck.",
+      "quellen": [
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf"
+      ]
+    },
+    {
+      "aussage": "Geberit Sigma70 Störungstabelle 'Spülung kann nicht ausgelöst werden': Filter verschmutzt → reinigen; Panzerschlauch geknickt → ersetzen; Pneumatikschlauch geknickt/verschmutzt/mit Wasser gefüllt → ersetzen; Ende des Pneumatikschlauchs undicht → undichtes Ende abschneiden. Vorher Eckventil schließen, Pneumatikschläuche vom Servoheber trennen (Quetschgefahr). Platte Sigma70 niemals selbst reparieren.",
+      "quellen": [
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf"
+      ]
+    },
+    {
+      "aussage": "Geberit Sigma70: Bauteile ab/bis Baujahr 2015/2016 unterschiedlich (Lagerbock, Panzerschlauch mit Y-Abzweig, Bügel für Heberglocke).",
+      "quellen": [
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf"
+      ]
+    },
+    {
+      "aussage": "Geberit: Sigma-Platten nur für Sigma-Kästen; Sigma und Omega nicht untereinander kompatibel; für UP300, Artline, Kappa, Twinline weiterhin kompatible Platten erhältlich. Typbezeichnung/PA-Nummer auf oder hinter der Schutzplatte.",
+      "quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/"
+      ]
+    },
+    {
+      "aussage": "Geberit Spülventil Typ 212 rückwärtskompatibel mit Sigma (UP300) bis Baujahr 2002; integrierte Spülstromdrossel 5-stufig.",
+      "quellen": [
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/"
+      ]
+    },
+    {
+      "aussage": "Geberit Sigma UP320 Ersatzteile: Spülventil Typ 212 komplett 244.820.00.1 (ersetzt 240.622.00.1, 241.858.00.1, 241.859.00.1, 244.830.00.1); bis Baujahr 01/2022 komplettes Spülventil tauschen; Lagerbock 241.829.00.1; Typ 212 Bügelset 244.844.00.1.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050"
+      ]
+    },
+    {
+      "aussage": "Geberit elektronische WC-Steuerung, Störung 'Spülung kann nicht ausgelöst werden': Softwarestörung, Stromausfall, Batterien leer, externer Taster/Infrarottaster defekt, Hebevorrichtung defekt.",
+      "quellen": [
+        "https://www.geberitnorthamerica.com/_assets/local-media/instructions/970-390-00-000.pdf"
+      ]
+    },
+    {
+      "aussage": "TECE: Jede TECE-Platte passt auf jede TECE-Spülkastenversion.",
+      "quellen": [
+        "https://www.tece.com/en/newsblog/each-plate-fits-any-cistern"
+      ]
+    },
+    {
+      "aussage": "TECE: Einmengenbetätigung = eine Betätigungsstange, Zweimengentechnik = zwei Stangen. Betätigungshaken müssen korrekt in den Zugösen des Ablaufventils sitzen; Stangen nach Anleitung eindrehen (Beispiele 15 mm bzw. 2 mm zur Wandoberfläche) und je nach Wandaufbau abknicken.",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Bet%C3%A4tigungen.pdf"
+      ]
+    },
+    {
+      "aussage": "TECE: Betätigungsbock ist am Spritzschutz befestigt und wird beim Öffnen komplett herausgenommen. Beim Tausch Ablaufventil A1 → A2 müssen die Betätigungshebel mitgetauscht werden.",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf"
+      ]
+    },
+    {
+      "aussage": "Viega Visign for More 100 (Modell 8352.1): Lieferumfang mit Bowdenzugeinheit, Spülauslösung von vorn oder oben, für UP-Spülkasten 2H, 2L und 2C.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Viega-Betaetigungsplatten/Betaetigungsplatte-8352-1.html"
+      ]
+    }
+  ],
+  "asins": [],
+  "eans": [],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "Wie tausche ich einen gerissenen Bowdenzug bei Viega-Kästen?",
+      "fundstellen": []
+    },
+    {
+      "frage": "Aufputzspülkasten: Hebel/Drücker hängt aus oder Heberglocke hebt nicht – wie repariere ich das?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wenn-bei-der-toilettenspuelung-der-hebel-kaputt-ist-wo-man-runterdrueckt--kann-man-das-selber-reparieren",
+        "https://www.gutefrage.net/frage/druecker-beim-spuelkasten-defekt"
+      ]
+    },
+    {
+      "frage": "Braucht die Sigma70 einen Mindestdruck, und was tun bei schwachem Hauswasserdruck (Hauswasserwerk)?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/244415/Geberit-Duofix-Sigma-70-spuelt-nicht-richtig"
+      ]
+    },
+    {
+      "frage": "Heberglocke kommt nach dem Spülen nicht zurück bzw. klemmt.",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/216747/Geberit-UP-Spuelkasten-klemmt-Heberglocke-nicht-zurueck"
+      ]
+    },
+    {
+      "frage": "Drückerstange gebrochen – woher bekomme ich die passende Stange für Sanit/Mepa/Ideal Standard ProSys?",
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/unterputzspuelkasten-drueckerstange-gebrochen.120247/"
+      ]
+    },
+    {
+      "frage": "TECE und Viega pneumatische Betätigungen: Schlauch/Balg tauschen?",
+      "fundstellen": []
+    }
+  ]
+}

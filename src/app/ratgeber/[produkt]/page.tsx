@@ -5,10 +5,10 @@ import { produktLink } from "@/components/ProduktKarte";
 import VergleichsTabelle from "@/components/VergleichsTabelle";
 import ArticleContent from "@/components/ArticleContent";
 import Auswahlhilfe, { type AuswahlModell, type KaufLink } from "@/components/Auswahlhilfe";
-import { AffiliateHinweis, HaeufigeFragen, KurzeAntwort, Pruefvermerk, Quellen } from "@/components/Ratgeber";
+import { AffiliateHinweis, HaeufigeFragen, KurzeAntwort, ProduktKacheln, Pruefvermerk, Quellen } from "@/components/Ratgeber";
 import { angeboteFuerEans, bildAusAngeboten, normEan, type EanAngebot } from "@/lib/kaufberatung";
 import { mitTrackingId } from "@/lib/affiliate";
-import { armaturDaten } from "@/lib/armatur-daten";
+import { produktDaten as datenAus, type RatgeberDaten } from "@/lib/armatur-daten";
 import { zerlegeArtikel } from "@/lib/artikel-aufbau";
 import { ersatzteilVerweise } from "@/lib/ersatzteil-verweise";
 import { formatEuro, formatStand, zeigePreis } from "@/lib/ersatzteile";
@@ -97,7 +97,7 @@ export default async function ProduktRatgeberSeite({ params }: { params: { produ
     .reduce<string | null>((m, a) => (!m || a.stand < m ? a.stand : m), null);
 
   const modelle: AuswahlModell[] = produkte
-    .map((p) => ({ p, daten: armaturDaten(p.technische_daten) }))
+    .map((p) => ({ p, daten: datenAus(p.technische_daten) as RatgeberDaten | null }))
     .filter((x) => x.daten)
     .map(({ p, daten }) => ({
       id: p.id,
@@ -110,6 +110,19 @@ export default async function ProduktRatgeberSeite({ params }: { params: { produ
       bild: bildAusAngeboten(angebote[p.id] ?? []),
       kauf: kaufLinks(p, angebote[p.id] ?? []),
     }));
+
+  const kacheln = modelle.map((m) => {
+    const p = produkte.find((x) => x.id === m.id);
+    const preise = (angebote[m.id] ?? []).filter(zeigePreis).map((a) => a.preis!);
+    return {
+      id: m.id,
+      name: m.name,
+      hersteller: p?.hersteller ?? null,
+      einsatzbereich: m.einsatzbereich,
+      bild: m.bild,
+      preisAb: preise.length > 0 ? Math.min(...preise) : null,
+    };
+  });
 
   const aufbau = zerlegeArtikel(seite.content_md, { fragen: true });
   const verweise = ersatzteilVerweise(seite.slug);
@@ -155,11 +168,13 @@ export default async function ProduktRatgeberSeite({ params }: { params: { produ
 
       {aufbau.wichtigstes && <KurzeAntwort html={aufbau.wichtigstes} titel={aufbau.wichtigstesTitel ?? "Kurz gesagt"} />}
 
+      <ProduktKacheln kacheln={kacheln} />
+
       <Auswahlhilfe pfad={ratgeber.pfad} modelle={modelle} fussnote={fussnote} />
 
       {aufbau.rumpf && <ArticleContent html={aufbau.rumpf} />}
 
-      <VergleichsTabelle produkte={produkte} angebote={angebote} />
+      <VergleichsTabelle produkte={produkte} angebote={angebote} eingeklappt />
 
       {verweise.length > 0 && (
         <section className="mt-12 p-6 bg-white border border-stone-200 rounded-xl">

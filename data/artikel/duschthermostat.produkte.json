@@ -1,0 +1,185 @@
+[
+ {
+  "sortierung": 1,
+  "name": "GROHE Grohtherm 800 Thermostat-Brausebatterie 1/2\" (34558000)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "34558000",
+  "ean": "4005176310089",
+  "einsatzbereich": "Dusche mit Kindern im Haus, zentrales Warmwasser oder Durchlauferhitzer ab 18 kW",
+  "kurzbeschreibung": "Aufputz-Brausethermostat mit Sperre bei 38 °C, Spartaste am Mengengriff und S-Anschlüssen, die 150 ± 15 mm ausgleichen.",
+  "vorteile": [
+   "SafeStop-Sperre bei 38 °C, ein Endanschlag für 43 °C liegt bei",
+   "Mengengriff mit Spartaste und einstellbarem Anschlag",
+   "Auch ohne S-Anschlüsse (34561000) und in Mattschwarz zu haben"
+  ],
+  "nachteile": [
+   "Elektro- und Gas-Durchlauferhitzer laut GROHE erst ab 18 kW, an drucklosen Speichern gar nicht",
+   "Kein kühles Gehäuse (CoolTouch), das hat erst der Grohtherm 1000 Performance",
+   "Brause und Schlauch kaufst du dazu"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "bauart": "Thermostat",
+   "montage": "Aufputz",
+   "druck": "Hochdruck",
+   "anschluss": "1/2\", S-Anschlüsse, 150 ± 15 mm",
+   "abgang": "unten",
+   "sicherheitssperre_c": 38,
+   "durchlauferhitzer": "ab 18 kW",
+   "kartusche": "TurboStat-Kompaktkartusche 1/2\", Ersatzteil 47439000",
+   "oberflaechen": ["Chrom", "Mattschwarz"]
+  }
+ },
+ {
+  "sortierung": 2,
+  "name": "GROHE Grohtherm 1000 Performance Thermostat-Brausebatterie 1/2\" (34827000)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "34827000",
+  "ean": "4005176698651",
+  "einsatzbereich": "Dusche mit Kindern, wenn das Gehäuse nicht heiß werden soll",
+  "kurzbeschreibung": "Brausethermostat mit CoolTouch-Gehäuse, das außen kühl bleibt, griffigen ProGrip-Griffen und Sperre bei 38 °C. Auch in Phantom Black (34827KF0).",
+  "vorteile": [
+   "CoolTouch-Gehäuse und Griffe mit strukturierter Oberfläche",
+   "SafeStop bei 38 °C, Begrenzer für 43 °C liegt bei",
+   "Auch ohne S-Anschlüsse (34828000) zu haben"
+  ],
+  "nachteile": [
+   "Durchlauferhitzer laut GROHE erst ab 18 kW, an drucklosen Speichern gar nicht",
+   "Bei vertauschten Anschlüssen (warm rechts) braucht es die Kartusche 47175, dann entfällt CoolTouch",
+   "Die ältere Nummer derselben Serie ist 34776000, ohne Metallrosetten. Beim Kauf auf die Nummer achten"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "bauart": "Thermostat",
+   "montage": "Aufputz",
+   "druck": "Hochdruck",
+   "anschluss": "1/2\", S-Anschlüsse, 150 ± 15 mm",
+   "abgang": "unten",
+   "sicherheitssperre_c": 38,
+   "durchlauferhitzer": "ab 18 kW",
+   "kartusche": "TurboStat-Kompaktkartusche 1/2\", Ersatzteil 47439000",
+   "oberflaechen": ["Chrom", "Phantom Black (34827KF0)"]
+  }
+ },
+ {
+  "sortierung": 3,
+  "name": "hansgrohe Ecostat Comfort Brausethermostat Aufputz (13116000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "13116000",
+  "ean": "4011097678856",
+  "einsatzbereich": "Dusche am Durchlauferhitzer oder mit farbigen Armaturen im Bad",
+  "kurzbeschreibung": "Brausethermostat mit Spartaste (EcoStop) und Sperre bei 40 °C, laut hansgrohe für Durchlauferhitzer geeignet und in sechs Oberflächen erhältlich.",
+  "vorteile": [
+   "Laut hansgrohe für Durchlauferhitzer geeignet, Betriebsdruck 1 bis 10 bar",
+   "Sechs Oberflächen, darunter Mattschwarz (13116670) und Mattweiß (13116700)",
+   "Spartaste begrenzt auf 10 l/min"
+  ],
+  "nachteile": [
+   "Sperre erst bei 40 °C, GROHE und Schütte sperren bei 38 °C",
+   "Bei vertauschten Anschlüssen ist die Regeleinheit 92373000 nötig",
+   "Die farbigen Oberflächen kosten im Handel deutlich mehr als Chrom"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "bauart": "Thermostat",
+   "montage": "Aufputz",
+   "druck": "Hochdruck",
+   "anschluss": "G 1/2, S-Anschlüsse, 150 ± 12 mm",
+   "abgang": "unten",
+   "sicherheitssperre_c": 40,
+   "durchlauferhitzer": "geeignet",
+   "kartusche": "Regeleinheit, Ersatzteil 98282000",
+   "oberflaechen": ["Chrom", "Mattschwarz (13116670)", "Mattweiß (13116700)", "Brushed Black Chrome (13116340)", "Brushed Bronze (13116140)", "Polished Gold Optic (13116990)"]
+  }
+ },
+ {
+  "sortierung": 4,
+  "name": "hansgrohe Ecostat 1001 CL Brausethermostat Aufputz (13211000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "13211000",
+  "ean": "4011097799582",
+  "einsatzbereich": "schmaler Thermostat am Durchlauferhitzer, Chrom reicht",
+  "kurzbeschreibung": "Schlanker Brausethermostat mit Metallgriffen, Spartaste und Sperre bei 40 °C, 296 mm breit, nur in Chrom.",
+  "vorteile": [
+   "Laut hansgrohe für Durchlauferhitzer geeignet, Betriebsdruck 1 bis 10 bar",
+   "Schmal: 296 mm breit, Gehäuse 42 mm Durchmesser",
+   "Metallgriffe und Spartaste"
+  ],
+  "nachteile": [
+   "Nur in Chrom",
+   "Sperre erst bei 40 °C",
+   "Bei vertauschten Anschlüssen ist die Regeleinheit 92373000 nötig"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "bauart": "Thermostat",
+   "montage": "Aufputz",
+   "druck": "Hochdruck",
+   "anschluss": "G 1/2, S-Anschlüsse, 150 ± 12 mm",
+   "abgang": "unten",
+   "sicherheitssperre_c": 40,
+   "durchlauferhitzer": "geeignet",
+   "kartusche": "Regeleinheit, Ersatzteil 94282000",
+   "oberflaechen": ["Chrom"]
+  }
+ },
+ {
+  "sortierung": 5,
+  "name": "Schütte LONDON Thermostat-Duscharmatur, Chrom (52465)",
+  "hersteller": "Schütte",
+  "hersteller_nr": "52465",
+  "ean": "4008431524658",
+  "einsatzbereich": "günstiger Thermostat für zentrales Warmwasser",
+  "kurzbeschreibung": "Preiswerter Brausethermostat mit Sperre bei 38 °C, die sich abschalten lässt, und Durchflussbegrenzer. Auch in Schwarz matt (52466).",
+  "vorteile": [
+   "Deutlich günstiger als die Modelle von GROHE und hansgrohe",
+   "Sperre bei 38 °C, Durchflussbegrenzer mit Knopf für vollen Durchfluss",
+   "Das Thermostatelement lässt sich laut Schütte tauschen; 5 Jahre Herstellergarantie"
+  ],
+  "nachteile": [
+   "Laut Schütte nur für 1,5 bis 5 bar",
+   "Schütte nennt weder den Durchfluss noch, wie viel die S-Anschlüsse ausgleichen. Den Lochabstand von 150 mm geben nur Händler an",
+   "Ob er am Durchlauferhitzer funktioniert, sagen nur Händler, nicht Schütte"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "bauart": "Thermostat",
+   "montage": "Aufputz",
+   "druck": "Hochdruck",
+   "anschluss": "1/2\", S-Anschlüsse, 150 mm (Händlerangabe)",
+   "abgang": "unten",
+   "sicherheitssperre_c": 38,
+   "kartusche": "Thermostatelement, austauschbar",
+   "oberflaechen": ["Chrom", "Schwarz matt (52466)"]
+  }
+ },
+ {
+  "sortierung": 6,
+  "name": "GROHE Sentosa Thermostat-Brausebatterie 1/2\" (34678000)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "34678000",
+  "ean": "4005176132704",
+  "einsatzbereich": "Duschsystem mit Kopfbrause, Abgang oben",
+  "kurzbeschreibung": "Brausethermostat, dessen Abgang wahlweise oben oder unten genutzt wird, zum Beispiel für eine fest montierte Kopfbrause. In Chrom, Weiß, Bronze und mit Gold.",
+  "vorteile": [
+   "Brauseabgang wahlweise oben oder unten",
+   "S-Anschlüsse gleichen 150 ± 25 mm aus",
+   "SafeStop bei 38 °C; für vertauschte Anschlüsse gibt es das Thermoelement 47282000"
+  ],
+  "nachteile": [
+   "Keiner unserer Partnershops führt ihn",
+   "GROHE nennt im Datenblatt weder den Durchfluss noch, ob er am Durchlauferhitzer läuft"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "bauart": "Thermostat",
+   "montage": "Aufputz",
+   "druck": "Hochdruck",
+   "anschluss": "1/2\", S-Anschlüsse, 150 ± 25 mm",
+   "abgang": "oben oder unten (wahlweise)",
+   "sicherheitssperre_c": 38,
+   "kartusche": "Dehnstoff-Thermoelement, Ersatzteil 47450000",
+   "oberflaechen": ["Chrom", "Chrom/Gold (34678IG0)", "Weiß (34678L00)", "Weiß/Gold (34678LG0)", "Bronze (34678Z00)"]
+  }
+ }
+]

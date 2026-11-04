@@ -1,26 +1,12 @@
 import { supabase } from "@/lib/supabase";
 import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
-import ProduktKarte, { produktLink } from "@/components/ProduktKarte";
-import VergleichsTabelle from "@/components/VergleichsTabelle";
-import { angeboteFuerEans, normEan, type EanAngebot } from "@/lib/kaufberatung";
 import ArticleContent from "@/components/ArticleContent";
 import { getPassendeRechner } from "@/lib/rechner-zuordnung";
 import { ersatzteilVerweise } from "@/lib/ersatzteil-verweise";
 import { zerlegeArtikel } from "@/lib/artikel-aufbau";
-import { armaturDaten } from "@/lib/armatur-daten";
-import ModellFinder from "@/components/ModellFinder";
-import { ratgeberNachSlug } from "@/lib/produkt-ratgeber";
-import {
-  AffiliateHinweis,
-  KurzeAntwort,
-  MethodenKasten,
-  ModellAbschnitt,
-  PreisStand,
-  Pruefvermerk,
-  Quellen,
-  modellAnker,
-} from "@/components/Ratgeber";
+import { ratgeberNachSlug, weiterleitungsZiel } from "@/lib/produkt-ratgeber";
+import { AffiliateHinweis, HaeufigeFragen, KurzeAntwort, Pruefvermerk, Quellen } from "@/components/Ratgeber";
 
 export const revalidate = 0;
 
@@ -50,8 +36,9 @@ export async function generateMetadata({ params }: { params: { silo: string; slu
   };
 }
 
-// Aufbau nach docs/SEITENAUFBAU.md, Abschnitt 3: Frage, Stand und Quellen, das Wichtigste,
-// Finder, Wissen, die Modelle, Datentabelle, Ersatzteile, Quellen, Affiliate-Hinweis.
+// Wissensbeiträge ohne Produktauswahl (docs/SEITENAUFBAU.md, Abschnitt 3): Frage, Einstieg, Stand,
+// kurze Antwort, Erklärteil, Ersatzteile, häufige Fragen, Quellen. Beiträge mit Modellen stehen als
+// Produkt-Ratgeber unter /ratgeber/<produkt> und werden dorthin geleitet.
 export default async function ArtikelPage({ params }: { params: { silo: string; slug: string } }) {
   const { data: seite, error: seiteError } = await supabase
     .from("seiten")
@@ -66,7 +53,7 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
   if (!seite) notFound();
 
   if (seite.status === "redirect" && seite.redirect_to) {
-    permanentRedirect(seite.redirect_to);
+    permanentRedirect(weiterleitungsZiel(seite.redirect_to));
   }
 
   if (seite.status !== "aktiv") notFound();
@@ -81,50 +68,12 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
 
   const siloName = (seite as any).silos?.name || params.silo;
 
-  let produkte: any[] = [];
-  try {
-    const { data } = await supabase
-      .from("produkte")
-      .select("*")
-      .eq("seite_id", seite.id)
-      .order("sortierung");
-    if (data) produkte = data;
-  } catch (e) {
-    console.error("[ArtikelPage] Produkte query error:", e);
-  }
-
-  const werkzeuge = produkte.filter((p: any) => p.ist_werkzeug);
-  // Nur nachprüfbare Modelle (ASIN oder EAN). Gattungsbegriffe mit Amazon-Suchlink („Kondensatpumpe“)
-  // aus alten Beiträgen bekommen keinen eigenen Abschnitt.
-  const hauptProdukte = produkte.filter((p: any) => !p.ist_werkzeug && (p.amazon_asin || normEan(p.ean)));
-
-  // Shop-Angebote und Bilder der Partnershops, über die EAN der Produkte
-  const nachEan = await angeboteFuerEans(hauptProdukte.map((p: any) => p.ean));
-  const angebote: Record<string, EanAngebot[]> = {};
-  for (const p of hauptProdukte) {
-    const e = normEan(p.ean);
-    if (e && nachEan.has(e)) angebote[p.id] = nachEan.get(e)!;
-  }
   const hasContent = seite.content_md && seite.content_md.trim().length > 50;
-  const aufbau = hasContent ? zerlegeArtikel(seite.content_md) : null;
-
-  const finderModelle = hauptProdukte
-    .map((p: any) => ({ p, daten: armaturDaten(p.technische_daten) }))
-    .filter((x) => x.daten)
-    .map(({ p, daten }) => ({
-      id: p.id,
-      anker: modellAnker(p),
-      name: p.name,
-      einsatzbereich: p.einsatzbereich ?? null,
-      daten: daten!,
-    }));
+  const aufbau = hasContent ? zerlegeArtikel(seite.content_md, { fragen: true }) : null;
 
   const verweise = ersatzteilVerweise(seite.slug);
-  // Reine Ratgeber ohne Produkte und ohne Partnerlinks im Text brauchen keinen Affiliate-Hinweis.
-  const hatPartnerlinks =
-    hauptProdukte.length > 0 ||
-    werkzeuge.some((p: any) => produktLink(p)) ||
-    /amazon\.de\/(dp|gp)\/|awin1\.com/i.test(seite.content_md ?? "");
+  // Affiliate-Hinweis nur bei Partnerlinks im Text
+  const hatPartnerlinks = /amazon\.de\/(dp|gp)\/|awin1\.com/i.test(seite.content_md ?? "");
 
   const rechnerSlugs = getPassendeRechner(seite.slug, seite.passende_rechner);
   let passendeRechner: { name: string; slug: string }[] = [];
@@ -169,11 +118,9 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
 
       {aufbau ? (
         <>
-          <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} />
           {aufbau.einstieg && <ArticleContent html={aufbau.einstieg} />}
-          {aufbau.methode && <MethodenKasten html={aufbau.methode} ohneTest={aufbau.ohneTest} />}
-          {aufbau.wichtigstes && <KurzeAntwort html={aufbau.wichtigstes} titel={aufbau.wichtigstesTitel ?? "Das Wichtigste vorab"} />}
-          {finderModelle.length >= 3 && <ModellFinder modelle={finderModelle} />}
+          <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} methode={aufbau.ohneTest ? "Herstellerangaben, kein Test" : null} />
+          {aufbau.wichtigstes && <KurzeAntwort html={aufbau.wichtigstes} titel={aufbau.wichtigstesTitel ?? "Kurz gesagt"} />}
           {aufbau.rumpf && <ArticleContent html={aufbau.rumpf} />}
         </>
       ) : (
@@ -183,31 +130,6 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
             Zurück zu {siloName} →
           </a>
         </div>
-      )}
-
-      {hauptProdukte.length > 0 && (
-        <section className="mt-12">
-          <h2 className="text-2xl font-bold text-stone-900 mb-2">Die Modelle im Einzelnen</h2>
-          <div>
-            {hauptProdukte.map((p: any) => (
-              <ModellAbschnitt key={p.id} produkt={p} angebote={angebote[p.id]} />
-            ))}
-          </div>
-          <PreisStand angebote={angebote} />
-        </section>
-      )}
-
-      <VergleichsTabelle produkte={hauptProdukte} angebote={angebote} />
-
-      {werkzeuge.length > 0 && (
-        <section className="mt-10">
-          <h2 className="text-lg font-bold mb-3">Werkzeug für dieses Projekt</h2>
-          <div className="grid gap-3">
-            {werkzeuge.map((p: any) => (
-              <ProduktKarte key={p.id} produkt={p} />
-            ))}
-          </div>
-        </section>
       )}
 
       {verweise.length > 0 && (
@@ -238,6 +160,7 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
         </div>
       )}
 
+      {aufbau && <HaeufigeFragen fragen={aufbau.fragen} />}
       {aufbau?.quellen && <Quellen html={aufbau.quellen} />}
       {hatPartnerlinks && <AffiliateHinweis />}
     </div>

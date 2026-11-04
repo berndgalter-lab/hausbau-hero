@@ -1,8 +1,6 @@
-import { AFFILIATE_REL, mitTrackingId } from "@/lib/affiliate";
-import { formatEuro, formatStand, zeigePreis } from "@/lib/ersatzteile";
-import { bildAusAngeboten, type EanAngebot } from "@/lib/kaufberatung";
-import { produktLink, type Produkt } from "@/components/ProduktKarte";
 import TeilBild from "@/components/TeilBild";
+import { formatEuro } from "@/lib/ersatzteile";
+import { modellAnker } from "@/lib/produkt-ratgeber";
 
 // Bausteine der Ratgeber-Vorlage (docs/SEITENAUFBAU.md, Abschnitt 3): erst die Antwort, dann die
 // Modelle. Keine Abzeichen, keine Kaufknöpfe vor dem Text; gekauft wird über eine Textzeile je Modell.
@@ -25,112 +23,83 @@ export function Pruefvermerk({ stand, quellenAnzahl, methode = null }: { stand: 
   );
 }
 
-/** Wie die Angaben zustande kommen. Text aus dem Hinweis im Artikel. */
-export function MethodenKasten({ html, ohneTest }: { html: string; ohneTest: boolean }) {
-  return (
-    <aside className="border-l-4 border-stone-300 bg-stone-50 rounded-r-lg px-4 py-3 mb-8 text-sm text-stone-600">
-      <p className="font-semibold text-stone-800 mb-1">{ohneTest ? "Datenblattvergleich, kein Test" : "Woher die Angaben stammen"}</p>
-      <p dangerouslySetInnerHTML={{ __html: html }} />
-    </aside>
+export interface Kachel {
+  id: string;
+  name: string;
+  hersteller: string | null;
+  einsatzbereich: string | null;
+  bild: { url: string; shop: string } | null;
+  preisAb: number | null;
+}
+
+/** Kurzer Name für die Kachel: „Geberit Duofix mit Sigma …, 112 cm (111.300.00.6)“ → „Geberit Duofix“. */
+export function kurzname(name: string): string {
+  return name.split(/\s+(?:mit|für)\s+|,\s|\s\(/)[0].trim();
+}
+
+/** Die Modelle der Auswahlhilfe als Kacheln unter der kurzen Antwort, je mit Sprung zum Eintrag. */
+export function ProduktKacheln({ kacheln }: { kacheln: Kachel[] }) {
+  if (kacheln.length < 2) return null;
+  // Ein Bildfeld nur, wenn mindestens die Hälfte der Modelle ein Shopbild hat. Sonst wären es vor allem leere Flächen.
+  const mitBild = kacheln.filter((k) => k.bild).length * 2 >= kacheln.length;
+  const platzhalter = (k: Kachel) => (
+    <div className="w-full aspect-square bg-stone-50 flex items-center justify-center text-stone-400 text-sm font-semibold">
+      {k.hersteller ?? "kein Bild"}
+    </div>
   );
+  return (
+    <section aria-label="Die Modelle" className="mb-10">
+      <ul className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        {kacheln.map((k) => (
+          <li key={k.id}>
+            <a href={`#${modellAnker(k.id)}`}
+              className="group flex flex-col h-full bg-white border border-stone-200 rounded-xl overflow-hidden hover:border-stone-400 transition-colors">
+              {mitBild && (k.bild ? <TeilBild url={k.bild.url} alt={k.name} fuellen ersatz={platzhalter(k)} /> : platzhalter(k))}
+              <div className={`p-3 flex flex-col grow ${mitBild ? "border-t border-stone-100" : ""}`}>
+                {!mitBild && k.hersteller && <p className="text-xs font-semibold uppercase tracking-wide text-stone-400 mb-0.5">{k.hersteller}</p>}
+                <p className="font-semibold text-stone-900 leading-snug">{kurzname(k.name)}</p>
+                {k.einsatzbereich && <p className="text-sm text-stone-500 mt-0.5 leading-snug">{k.einsatzbereich}</p>}
+                <p className="text-sm mt-auto pt-2 text-stone-600">
+                  {k.preisAb !== null && <span className="font-medium text-stone-900">ab {formatEuro(k.preisAb)} · </span>}
+                  <span className="text-amber-700 group-hover:underline">zum Modell ↓</span>
+                </p>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+/** Kennzahlen aus einer <dl> im Abschnitt „Kurz gesagt“: <dt> ist die Zahl, <dd> die Erklärung. */
+function kennzahlen(html: string): { zahlen: { wert: string; text: string }[]; rest: string } {
+  const dl = /<dl>([\s\S]*?)<\/dl>/i.exec(html);
+  if (!dl) return { zahlen: [], rest: html };
+  const zahlen = Array.from(dl[1].matchAll(/<dt>([\s\S]*?)<\/dt>\s*<dd>([\s\S]*?)<\/dd>/gi)).map((m) => ({ wert: m[1].trim(), text: m[2].trim() }));
+  return { zahlen, rest: html.replace(dl[0], "") };
 }
 
 export function KurzeAntwort({ html, titel }: { html: string; titel: string }) {
+  const { zahlen, rest } = kennzahlen(html);
   return (
-    <section className="bg-amber-50 border border-amber-200 rounded-xl px-5 py-4 mb-10">
+    <section className="bg-amber-50 border border-amber-200 rounded-xl px-5 py-4 mb-8">
       <h2 className="text-lg font-bold text-stone-900 mb-2">{titel}</h2>
+      {zahlen.length > 0 && (
+        <dl className="grid grid-cols-1 sm:grid-cols-3 gap-2 mb-3">
+          {zahlen.map((z) => (
+            <div key={z.wert} className="bg-white/70 border border-amber-200/70 rounded-lg px-3 py-2">
+              <dt className="text-xl font-bold text-stone-900 tabular-nums">{z.wert}</dt>
+              <dd className="text-sm text-stone-600 leading-snug">{z.text}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
       <div
         className="prose prose-stone max-w-none prose-li:my-1 prose-a:text-amber-700 prose-a:no-underline hover:prose-a:underline"
-        dangerouslySetInnerHTML={{ __html: html }}
+        dangerouslySetInnerHTML={{ __html: rest }}
       />
     </section>
-  );
-}
-
-export function modellAnker(p: Produkt): string {
-  return `modell-${p.id}`;
-}
-
-/** Kaufen als Textzeile: Partnershops mit Preis (nur vorrätig), Amazon nur mit ASIN-Link. */
-function Kaufzeile({ produkt, angebote }: { produkt: Produkt; angebote: EanAngebot[] }) {
-  const amazon = produktLink(produkt);
-  const kennung = (produkt.hersteller_nr || produkt.name).slice(0, 80);
-  if (!amazon && angebote.length === 0) return null;
-  return (
-    <p className="text-sm mt-3">
-      <span className="text-stone-500">Erhältlich bei </span>
-      {angebote.slice(0, 3).map((a, i) => (
-        <span key={a.id}>
-          {i > 0 && ", "}
-          <a href={mitTrackingId(a.url, "angebot")} target="_blank" rel={AFFILIATE_REL} data-platzierung="angebot"
-            data-shop={a.shop} data-kennung={kennung} className="text-amber-700 font-medium hover:underline">
-            {a.shop_name}
-            {zeigePreis(a) ? ` ${formatEuro(a.preis!)}` : ""}
-          </a>
-          *
-        </span>
-      ))}
-      {amazon && (
-        <span>
-          {angebote.length > 0 && ", "}
-          <a href={amazon} target="_blank" rel={AFFILIATE_REL} data-platzierung="box" data-kennung={kennung}
-            className="text-amber-700 font-medium hover:underline">
-            Amazon
-          </a>
-          *
-        </span>
-      )}
-    </p>
-  );
-}
-
-export function ModellAbschnitt({ produkt, angebote = [] }: { produkt: Produkt; angebote?: EanAngebot[] }) {
-  const bild = bildAusAngeboten(angebote);
-  return (
-    <section id={modellAnker(produkt)} className="scroll-mt-20 py-6 border-t border-stone-200 first:border-t-0">
-      <div className="flex items-start gap-4">
-        {bild && <TeilBild url={bild.url} alt={produkt.name} shop={bild.shop} groesse={104} />}
-        <div className="min-w-0">
-          <h3 className="text-xl font-semibold text-stone-900">{produkt.name}</h3>
-          {produkt.einsatzbereich && (
-            <p className="text-sm text-stone-500 mt-0.5">Passt für: {produkt.einsatzbereich}</p>
-          )}
-        </div>
-      </div>
-      {produkt.kurzbeschreibung && <p className="text-stone-700 leading-relaxed mt-3">{produkt.kurzbeschreibung}</p>}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 mt-3 text-sm">
-        {produkt.vorteile && produkt.vorteile.length > 0 && (
-          <div>
-            <p className="font-semibold text-stone-800 mb-1">Spricht dafür</p>
-            <ul className="list-disc pl-5 space-y-1 text-stone-600">
-              {produkt.vorteile.map((v, i) => <li key={i}>{v}</li>)}
-            </ul>
-          </div>
-        )}
-        {produkt.nachteile && produkt.nachteile.length > 0 && (
-          <div>
-            <p className="font-semibold text-stone-800 mb-1">Worauf achten</p>
-            <ul className="list-disc pl-5 space-y-1 text-stone-600">
-              {produkt.nachteile.map((n, i) => <li key={i}>{n}</li>)}
-            </ul>
-          </div>
-        )}
-      </div>
-      <Kaufzeile produkt={produkt} angebote={angebote} />
-    </section>
-  );
-}
-
-/** Zeitpunkt der Shop-Preise, einmal unter allen Modellen statt an jedem. */
-export function PreisStand({ angebote }: { angebote: Record<string, EanAngebot[]> }) {
-  const aeltester = Object.values(angebote)
-    .flat()
-    .reduce<string | null>((m, a) => (!m || a.stand < m ? a.stand : m), null);
-  if (!aeltester) return null;
-  return (
-    <p className="text-xs text-stone-500 mt-2">
-      Shop-Preise inkl. MwSt., zzgl. Versand, Stand {formatStand(aeltester)} Uhr. Maßgeblich ist der Preis im Shop.
-    </p>
   );
 }
 

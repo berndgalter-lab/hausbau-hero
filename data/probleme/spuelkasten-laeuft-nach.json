@@ -1,0 +1,129 @@
+{
+  "slug": "spuelkasten-laeuft-nach",
+  "titel": "Spülkasten läuft nach",
+  "seo_title": "Spülkasten läuft nach: Ursache finden und beheben",
+  "seo_description": "Läuft nach dem Spülen Wasser ins WC, ist meist die Dichtung am Spülventil schuld, sonst das Füllventil. So findest du die Ursache und das passende Ersatzteil.",
+  "symptom": "Nach dem Spülen läuft weiter Wasser ins WC-Becken, als dünnes Rinnsal oder in Schüben, oder der Spülkasten füllt alle paar Minuten kurz nach. Bei Unterputzkästen hört man oft nur ein leises Zischen hinter der Drückerplatte.",
+  "bereich": "wc-spuelkasten",
+  "ursachen": [
+    {
+      "ursache": "Schmutz oder Kalk unter der Dichtung des Spülventils",
+      "erklaerung": "Das Spülventil (bei älteren Kästen die Heberglocke) sitzt mit einer Dichtung auf dem Ablauf. Liegt Kalk oder ein Krümel dazwischen, schließt es nicht mehr dicht, und Wasser rinnt direkt nach dem Spülen weiter ins Becken. Laut Geberit ist das die typische Ursache. Spülventil herausnehmen, Dichtung und Ablaufsitz mit Wasser oder einem trockenen Tuch reinigen, wieder einsetzen und einmal spülen.",
+      "haeufigkeit": "häufig",
+      "teilart": "spuelkasten"
+    },
+    {
+      "ursache": "Dichtung am Spülventil verschlissen",
+      "erklaerung": "Ist die Dichtung rissig, hart oder verformt, hilft Reinigen nicht mehr. Bei Geberit gibt es für das Spülventil Typ 212 die Flachdichtung 244.244.00.1, für ältere Heberglocken 816.418.00.1. Beim Sigma UP320 bis Baujahr 01/2022 und beim Delta UP100 bis 01/2024 tauscht man laut Geberit das ganze Spülventil. Welches Teil passt, hängt am Spülkasten, nicht an der Drückerplatte.",
+      "haeufigkeit": "häufig",
+      "teilart": "spuelkasten"
+    },
+    {
+      "ursache": "Füllventil schaltet nicht ab, Wasser läuft über den Überlauf",
+      "erklaerung": "Steht das Wasser im Kasten bis zum Rand des Überlaufrohrs und rinnt dort hinein, liegt es am Füllventil. Entweder ist die Füllhöhe zu hoch eingestellt, oder das Ventil schließt nicht mehr, weil Membran oder Dichtung verkalkt sind. Das zeigt sich erst am Ende des Füllvorgangs, nicht direkt nach dem Spülen. Füllhöhe niedriger stellen, Sieb und Membran reinigen, sonst Dichtungsset oder Füllventil tauschen.",
+      "haeufigkeit": "gelegentlich",
+      "teilart": "fuellventil"
+    },
+    {
+      "ursache": "Schwimmer klemmt",
+      "erklaerung": "Hängt der Schwimmer an der Kastenwand, am Gestänge oder durch Kalk fest, steigt er nicht mit dem Wasser und das Füllventil bleibt offen. Schaumstoffschwimmer können sich mit Wasser vollsaugen. Schwimmer von Hand lösen und prüfen, ob er sich frei bewegt.",
+      "haeufigkeit": "gelegentlich",
+      "teilart": "fuellventil"
+    },
+    {
+      "ursache": "Betätigung drückt dauerhaft auf das Spülventil",
+      "erklaerung": "Sitzt die Drückerplatte schief oder sind die Drückerstangen zu lang eingestellt, wird das Spülventil nie ganz losgelassen. Platte abnehmen: Hört das Nachlaufen dann auf, Drückerstangen kürzen oder neu einstellen.",
+      "haeufigkeit": "selten",
+      "teilart": "spuelkasten"
+    }
+  ],
+  "pruefen": [
+    "Beobachten, wann das Wasser läuft. Direkt nach dem Spülen spricht für das Spülventil oder die Heberglocke, erst am Ende des Füllens für Füllventil oder Schwimmer.",
+    "Eckventil am Spülkasten schließen. Beim Unterputzkasten sitzt es hinter der Drückerplatte. Läuft weiter Wasser ins Becken und sinkt der Wasserstand, ist das Spülventil undicht. Hört es auf, war es Wasser über den Überlauf.",
+    "Drückerplatte abnehmen und auf dem Typenschild oder Aufkleber im Kasten Hersteller und Typ ablesen. Davon hängt ab, welches Ersatzteil passt.",
+    "Spülventil oder Heberglocke herausnehmen, Dichtung und Ablaufsitz reinigen, wieder einsetzen und einmal spülen. Vorher fotografieren, wie alles saß.",
+    "Ist die Dichtung rissig oder verformt, die passende Dichtung oder das ganze Spülventil tauschen.",
+    "Läuft Wasser über das Überlaufrohr: Füllhöhe am Füllventil niedriger einstellen, Sieb am Zulauf reinigen, Schwimmer gängig machen. Schaltet das Ventil weiter nicht ab, Dichtungsset oder Füllventil tauschen.",
+    "Eckventil wieder öffnen, Kasten füllen lassen und den Wasserstand kontrollieren. Er soll unter dem Rand des Überlaufrohrs bleiben."
+  ],
+  "fachbetrieb_ab": "Wenn das Eckventil im Spülkasten nicht mehr schließt, Wasser in der Vorwand oder am Boden austritt oder das Nachlaufen trotz neuer Dichtung und neuem Füllventil bleibt. Auch wenn beim Entkalken Kalkbrocken in die Spülung gelangt sind: Im ungünstigsten Fall muss dann das WC abgenommen werden.",
+  "marken_probleme": [
+    "geberit-spuelkasten-laeuft-nach",
+    "ideal-standard-spuelkasten-laeuft-nach"
+  ],
+  "fragen": [
+    {
+      "frage": "Nach dem Spülen läuft ein dünnes Rinnsal ins Klo. Was ist kaputt?",
+      "antwort": "Läuft das Wasser direkt nach dem Spülen weiter, schließt das Spülventil oder die Heberglocke nicht dicht. Meist liegt Schmutz oder Kalk zwischen Dichtung und Ablauf, seltener ist die Dichtung verschlissen. Erst reinigen, dann bei Bedarf die Dichtung tauschen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/service-fuers-bad/",
+        "https://www.megabad.com/magazin/?p=18181"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Das Wasser läuft erst nach, wenn der Spülkasten voll ist. Woran liegt das?",
+      "antwort": "Dann schaltet das Füllventil nicht ab, und das Wasser fließt über das Überlaufrohr ins Becken. Ursache ist ein klemmender Schwimmer, eine zu hoch eingestellte Füllhöhe oder ein verkalktes Füllventil. Schwimmer prüfen, Füllhöhe niedriger stellen, Füllventil reinigen und, wenn das nicht reicht, ersetzen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.megabad.com/magazin/?p=18181",
+        "https://toom.de/selbermachen/bad-sanitaer/toiletten-bidets-urinale/unterputzspuelkasten-reparieren/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie stoppe ich das Nachlaufen sofort, wenn niemand kommen kann?",
+      "antwort": "Das Eckventil am Spülkasten schließen. Beim Unterputzkasten sitzt es hinter der Drückerplatte, die man nach oben oder zur Seite abhebt. Ist es fest, hilft vorsichtig eine Wasserpumpenzange. Danach kann man das WC nur noch mit einem Eimer Wasser spülen, bis der Kasten repariert ist.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://toom.de/selbermachen/bad-sanitaer/toiletten-bidets-urinale/unterputzspuelkasten-reparieren/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Soll ich Essig oder Zitronensäure in den Spülkasten geben?",
+      "antwort": "Baumarkt-Anleitungen empfehlen das, Geberit rät eher ab: Das Entkalken des Kasteninneren sei heikel und meist nicht nötig, weil sich größere Kalkplatten lösen und die Spülung verstopfen können. Besser ist es, Spülventil und Füllventil auszubauen und einzeln zu reinigen.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/service-fuers-bad/",
+        "https://toom.de/selbermachen/bad-sanitaer/toiletten-bidets-urinale/unterputzspuelkasten-reparieren/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Reicht eine neue Dichtung, oder brauche ich ein neues Spülventil?",
+      "antwort": "Oft reicht es, die Dichtung zu reinigen. Ist sie rissig, hart oder verformt, gibt es sie einzeln. Das ganze Spülventil lohnt sich, wenn es selbst verkalkt oder beschädigt ist oder nicht mehr in die Ausgangslage zurückkehrt. Bei Geberit gibt es für ältere Unterputzkästen auch Renovierungssets mit Spül- und Füllventil.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/service-fuers-bad/",
+        "https://www.megabad.com/magazin/?p=18181",
+        "https://www.geberit.de/service-support/ersatzteile/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie komme ich beim Unterputzspülkasten an Spülventil und Füllventil?",
+      "antwort": "Über die Öffnung hinter der Drückerplatte. Platte abheben oder abschrauben, Rahmen und Betätigungsstifte abnehmen. Dann lässt sich bei den meisten Kästen das Füllventil zur Seite nehmen und das Spülventil nach einer Klammer oder Drehverriegelung nach oben herausziehen. Die Wand muss dafür nicht geöffnet werden.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://toom.de/selbermachen/bad-sanitaer/toiletten-bidets-urinale/unterputzspuelkasten-reparieren/",
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/service-fuers-bad/"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/service-fuers-bad/",
+    "https://www.geberit.de/service-support/ersatzteile/",
+    "https://www.megabad.com/magazin/?p=18181",
+    "https://toom.de/selbermachen/bad-sanitaer/toiletten-bidets-urinale/unterputzspuelkasten-reparieren/",
+    "https://catalog.geberit.de/de-DE/spare-part/SPT_461050"
+  ]
+}

@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import type { ArmaturDaten } from "@/lib/armatur-daten";
-import { ratgeberNachPfad, type AuswahlOption } from "@/lib/produkt-ratgeber";
+import type { RatgeberDaten } from "@/lib/armatur-daten";
+import { modellAnker, ratgeberNachPfad, type AuswahlOption } from "@/lib/produkt-ratgeber";
 import { AFFILIATE_REL } from "@/lib/affiliate";
 import TeilBild from "@/components/TeilBild";
 
@@ -25,7 +25,7 @@ export interface AuswahlModell {
   kurzbeschreibung: string | null;
   vorteile: string[];
   nachteile: string[];
-  daten: ArmaturDaten;
+  daten: RatgeberDaten;
   bild: { url: string; shop: string } | null;
   kauf: KaufLink[];
 }
@@ -51,7 +51,7 @@ function Kaufzeile({ links }: { links: KaufLink[] }) {
 function Ergebnis({ m, eckdaten }: { m: AuswahlModell; eckdaten: string[] }) {
   const mehr = m.kurzbeschreibung || m.vorteile.length > 0 || m.nachteile.length > 0;
   return (
-    <li className="py-4 first:pt-0 last:pb-0">
+    <li id={modellAnker(m.id)} className="py-4 first:pt-0 last:pb-0 scroll-mt-24">
       <div className="flex gap-3 sm:gap-4">
         {m.bild ? (
           <TeilBild url={m.bild.url} alt={m.name} shop={m.bild.shop} groesse={88} />
@@ -125,7 +125,7 @@ export default function Auswahlhilfe({ pfad, modelle, fussnote }: { pfad: string
   return (
     <section id="auswahl" className="scroll-mt-20 border border-stone-200 rounded-xl bg-white mb-10">
       <div className="p-4 sm:p-5">
-        <h2 className="text-xl font-bold text-stone-900">Welche {ratgeber.name} passt?</h2>
+        <h2 className="text-xl font-bold text-stone-900">{ratgeber.frage ?? `Welche ${ratgeber.name} passt?`}</h2>
         <p className="text-sm text-stone-500 mb-4">Wähle aus, was bei dir zutrifft. Die Liste darunter passt sich an.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
           {ratgeber.fragen.map((f) => (
@@ -175,8 +175,8 @@ export default function Auswahlhilfe({ pfad, modelle, fussnote }: { pfad: string
           {passend.length === modelle.length
             ? `Alle ${modelle.length} ${ratgeber.mehrzahl}:`
             : passend.length === 0
-              ? `Keine der ${modelle.length} ${ratgeber.mehrzahl} hier passt${unklar.length > 0 ? " sicher" : ""}.`
-              : `${passend.length} von ${modelle.length} ${ratgeber.mehrzahl} ${passend.length === 1 ? "passt" : "passen"}:`}{" "}
+              ? `${ratgeber.keine ?? "Keine"} der ${modelle.length} ${ratgeber.mehrzahl} hier passt${unklar.length > 0 ? " sicher" : ""}.`
+              : `${passend.length} von ${modelle.length} ${ratgeber.mehrzahlDativ ?? ratgeber.mehrzahl} ${passend.length === 1 ? "passt" : "passen"}:`}{" "}
           {zuruecksetzen}
         </p>
         {passend.length > 0 && (

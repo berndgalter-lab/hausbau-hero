@@ -5,8 +5,8 @@ export default function ArticleContent({ html }: { html: string }) {
     <article
       className="prose prose-stone prose-lg max-w-none
         prose-headings:text-stone-900 prose-headings:font-bold
-        prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4
-        prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3
+        prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-3 prose-h2:pt-6 prose-h2:border-t prose-h2:border-stone-200
+        prose-h3:text-lg prose-h3:font-semibold prose-h3:text-stone-800 prose-h3:mt-6 prose-h3:mb-2
         prose-p:text-stone-700 prose-p:leading-relaxed prose-p:mb-4
         prose-a:text-amber-600 prose-a:no-underline hover:prose-a:underline
         prose-strong:text-stone-900

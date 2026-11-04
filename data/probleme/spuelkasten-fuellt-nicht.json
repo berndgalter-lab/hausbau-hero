@@ -1,0 +1,123 @@
+{
+  "slug": "spuelkasten-fuellt-nicht",
+  "titel": "Spülkasten füllt nicht",
+  "seo_title": "Spülkasten füllt nicht oder nur langsam: was tun?",
+  "seo_description": "Nach dem Spülen kommt kein Wasser nach oder der Kasten braucht Minuten? Meist ist das Eckventil zu oder der Filter am Füllventil zugesetzt. Prüfschritte und passende Füllventile.",
+  "symptom": "Nach dem Spülen kommt kein Wasser oder nur ein dünner Strahl nach. Der Kasten braucht Minuten statt Sekunden, und die nächste Spülung ist schwach oder bleibt ganz aus.",
+  "bereich": "wc-spuelkasten",
+  "ursachen": [
+    {
+      "ursache": "Eckventil nicht ganz offen",
+      "erklaerung": "Das Eckventil sitzt bei Unterputzkästen im Kasten hinter der Drückerplatte. Ist es nur halb geöffnet, kommt entsprechend wenig Wasser nach. Bei einem neuen TECE-Kasten ist es ab Werk geschlossen.",
+      "haeufigkeit": "häufig"
+    },
+    {
+      "ursache": "Filter am Füllventil zugesetzt",
+      "erklaerung": "Vor dem Füllventil sitzt ein Filter oder Sieb, das Rost und Sand aus der Leitung abfängt. Ist es zu, kommt nur noch wenig Wasser durch. Beim Geberit Typ 383 lässt sich der Filter leicht reinigen, beim TECE F10 Einströmelement und Membran.",
+      "haeufigkeit": "häufig",
+      "teilart": "fuellventil"
+    },
+    {
+      "ursache": "Füllventil verkalkt oder defekt",
+      "erklaerung": "Öffnet das Ventil nicht mehr richtig, obwohl Wasser am Schlauch ankommt, ist es verkalkt oder die Membran beschädigt. Reinigen hilft manchmal, sonst wird das Füllventil getauscht. Für viele Kästen passt das Original des Herstellers oder ein Universalventil.",
+      "haeufigkeit": "gelegentlich",
+      "teilart": "fuellventil"
+    },
+    {
+      "ursache": "Panzerschlauch geknickt",
+      "erklaerung": "Der kurze Schlauch zwischen Eckventil und Füllventil kann beim Zusammenbau knicken oder gequetscht werden. Bei Geberit gibt es ihn einzeln, für den Sigma UP320 zum Beispiel 241.854.00.1.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Zu wenig Wasserdruck",
+      "erklaerung": "Füllventile brauchen einen Mindestdruck, das TECE F10 zum Beispiel 0,5 bar. Kommt auch an anderen Wasserhähnen wenig Wasser, liegt es an der Hausinstallation, nicht am Spülkasten.",
+      "haeufigkeit": "selten"
+    }
+  ],
+  "pruefen": [
+    "Prüfen, ob an anderen Zapfstellen normaler Wasserdruck da ist. Wenn nicht, liegt das Problem vor dem Bad.",
+    "Drückerplatte abnehmen und das Eckventil im Kasten ganz öffnen.",
+    "Eckventil schließen, Panzerschlauch am Füllventil lösen, in einen Eimer halten und das Eckventil kurz öffnen. Kommt kräftig Wasser, liegt es am Füllventil. Kommt wenig, an Eckventil oder Schlauch.",
+    "Schlauch auf Knicke prüfen.",
+    "Filter oder Sieb am Füllventil herausnehmen und unter fließendem Wasser reinigen.",
+    "Schwimmer auf Leichtgängigkeit prüfen und die Füllhöhe so einstellen, dass das Wasser bis zur Markierung reicht.",
+    "Füllt der Kasten danach immer noch nicht, das Füllventil tauschen."
+  ],
+  "fachbetrieb_ab": "Wenn das Eckventil festsitzt, sich nicht öffnen lässt oder undicht ist, wenn der Wasseranschluss im Kasten getauscht werden muss oder wenn schon am Eckventil kaum Wasser ankommt. Der Tausch des Wasseranschlusses ist ein Eingriff in die Trinkwasserinstallation.",
+  "marken_probleme": ["geberit-spuelkasten-fuellt-nicht"],
+  "fragen": [
+    {
+      "frage": "Der Spülkasten füllt sich nicht mehr. Was prüfe ich zuerst?",
+      "antwort": "Ob das Eckventil im Kasten offen ist, danach den Filter am Füllventil. Beim Geberit-Füllventil Typ 383 lässt sich der Filter leicht reinigen, bei TECE kann man Einströmelement und Membran ausbauen und unter fließendem Wasser säubern.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/",
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Kasten füllt sich nur noch ganz langsam. Woran liegt das?",
+      "antwort": "Meist ist der Zulauf verengt: Filter zugesetzt, Panzerschlauch geknickt oder Eckventil nicht ganz offen. TECE schreibt, dass Einströmelement und Membran bei schlechtem Wasser verschmutzen können. Hilft Reinigen nicht, wird das Füllventil getauscht.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Kann zu wenig Wasserdruck die Ursache sein?",
+      "antwort": "Ja. Das TECE F10 braucht mindestens 0,5 bar Fließdruck, das Geberit Typ 383 füllt bei 0,5 bar nur 0,06 Liter pro Sekunde statt 0,16 bei 3 bar. Fließt an anderen Zapfstellen auch wenig Wasser, liegt das Problem in der Hausinstallation.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+        "https://catalog.geberit.de/de-DE/product/PRO_4018657"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Das Eckventil im Unterputzkasten ist verkalkt oder lässt sich nicht drehen. Kann ich es tauschen?",
+      "antwort": "Für den Geberit Sigma UP320 gibt es Spindel (240.298.00.1) und Handrad (240.347.00.1) des Eckventils sowie den ganzen Wasseranschluss (240.847.00.1) einzeln. Der Tausch des Wasseranschlusses ist ein Eingriff in die Trinkwasserinstallation und gehört zum Installateur.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welches Füllventil passt als Ersatz?",
+      "antwort": "Bei Geberit passt das Füllventil Typ 383 in die Unterputzkästen der letzten 50 Jahre, für den Sigma UP320 ist es 240.705.00.5. Das TECE F10 (9820353) passt in alle TECE-Kästen und in viele Kästen anderer Hersteller.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf"
+      ],
+      "teile": ["geberit-fuellventil-typ-383-up-240-705-00-5"],
+      "problem": null
+    },
+    {
+      "frage": "Wie stelle ich die Füllhöhe ein, wenn zu wenig Wasser im Kasten ist?",
+      "antwort": "Über die Verstellspindel am Füllventil. Bei TECE soll das Wasser bis zur oberen Markierung am Überlauf des Ablaufventils und im Kasten reichen. Das Geberit Typ 383 ist ebenfalls stufenlos einstellbar.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/",
+    "https://catalog.geberit.de/de-DE/product/PRO_4018657",
+    "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+    "https://toom.de/selbermachen/bad-sanitaer/toiletten-bidets-urinale/unterputzspuelkasten-reparieren/"
+  ]
+}

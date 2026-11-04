@@ -1,5 +1,8 @@
 import type { MarkenFrage } from "@/lib/ersatzteile";
 import eckventil from "../../data/teilarten/eckventil.json";
+import fuellventil from "../../data/teilarten/fuellventil.json";
+import spuelkasten from "../../data/teilarten/spuelkasten.json";
+import wcSitzBefestigung from "../../data/teilarten/wc-sitz-befestigung.json";
 import perlator from "../../data/teilarten/perlator.json";
 import kartusche from "../../data/teilarten/kartusche.json";
 import siphon from "../../data/teilarten/siphon.json";
@@ -52,6 +55,9 @@ export interface Teilart {
 // Neue Teileart: JSON-Datei in data/teilarten anlegen und hier eintragen.
 const TEILARTEN: Teilart[] = [
   eckventil as Teilart,
+  fuellventil as Teilart,
+  spuelkasten as Teilart,
+  wcSitzBefestigung as Teilart,
   perlator as Teilart,
   kartusche as Teilart,
   siphon as Teilart,

@@ -1,0 +1,278 @@
+{
+  "thema": "Füllventil: welches passt in meinen Spülkasten?",
+  "stand": "2026-11-04",
+  "fragen": [
+    {
+      "frage": "Welches Füllventil passt in meinen Geberit-Unterputzspülkasten?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/152392/Austausch-eines-GEBERIT-Fuellventils-im-Spuelkasten",
+        "https://www.gutefrage.net/frage/wo-find-ich-die-nummer-von-meinem-geberit-spuelkasten"
+      ],
+      "antwort_belegt": "Geberit führt für seine UP-Spülkästen das Füllventil Typ 383 mit seitlichem 3/8\"-Wasseranschluss und Messingnippel, Art.-Nr. 240.705.00.5. Der Ersatzteilkatalog nennt es unter anderem für Sigma 12 cm (UP300 und UP320), Delta 12 cm (UP100), Omega 12 cm und die alten UP-Kästen 10.800 (Baujahre 1975–1987). Beim Delta-Kasten muss zum Ersatzfüllventil zusätzlich der blaue Befestigungsclip 240.923.00.1 bestellt werden.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461052",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461060",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461058",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461070"
+      ]
+    },
+    {
+      "frage": "Was ist der Nachfolger des Geberit-Füllventils Typ 380 (Unifill)?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/geberit-typ-380-fuellventil-nachfolger",
+        "https://www.haustechnikdialog.de/Forum/t/152392/Austausch-eines-GEBERIT-Fuellventils-im-Spuelkasten"
+      ],
+      "antwort_belegt": "Im Geberit-Katalog ersetzt der Typ 383 für UP-Spülkästen (240.705.00.5) die Nummer 240.705.00.1, der Typ 383 für AP-Spülkästen (240.700.00.5) die Nummern 240.700.00.1 und 242.388.00.1. Die Ersatzteilseite für Typ 383 führt die Baureihe ab Baujahr 2024. Zubehör wie Verbindungsrohr, Exzenter und die Halteplatte ist laut Katalog für Typ 380 und 383 gemeinsam gelistet.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_4018657",
+        "https://catalog.geberit.de/de-DE/product/PRO_4467857",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_4566382"
+      ]
+    },
+    {
+      "frage": "Was ist der Unterschied zwischen dem Geberit Typ 383 für UP- und für AP-Spülkästen?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wasseranschluss-bei-wc-spuelkasten"
+      ],
+      "antwort_belegt": "Beide Varianten haben laut Geberit 3/8\"-Anschluss, Messingnippel, einstellbare Füllhöhe und die Maße 6 × 23 cm. Die UP-Variante 240.705.00.5 kommt mit Filter, Konus-Quetschverschraubung und Kupfer-Verbindungsrohr. Die AP-Variante 240.700.00.5 hat Filter und Konus-Quetschverschraubung, aber kein Verbindungsrohr, und ist laut Katalog auch für Keramikspülkästen vorgesehen.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_4018657",
+        "https://catalog.geberit.de/de-DE/product/PRO_4467857"
+      ]
+    },
+    {
+      "frage": "Passt das TECE-Füllventil F 10 auch in Spülkästen anderer Hersteller?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/152392/Austausch-eines-GEBERIT-Fuellventils-im-Spuelkasten"
+      ],
+      "antwort_belegt": "TECE nennt in seiner Passliste neben allen TECE-Spülkästen: Geberit UP320/UP300/Sigma 12 cm, UP200/Kappa 15 cm, UP100/Delta 12 cm, UP120 (Artline), UP130/110.800/Twinline 12 cm, UP170/110.700/Twinline 8 cm, UP700/Unica, Omega 12 cm, NUVO/110.620 und Monolith; Grohe/DAL 320, 330, 336, 337 (6 l, 6–9 l, AV 1, GD 2); Sanit Ineo Plus, Ineo Solo, Ineo 80, Ineo, Ineo In, CC-120-L-FO-2V-L, 982N, 983N, 988C, 980N, 995N; Viega 1H, 1L, 1S, 2H, 2L, 2S, 1C, 2C; Friatec 302003, 302006, 302010, 352005; außerdem Aufputzspülkästen mit 3/8\"-Gewindeanschluss. Mepa und Jomo stehen nicht auf der Liste.",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf"
+      ]
+    },
+    {
+      "frage": "Welche Adapter liegen dem TECE F 10 bei?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wasseranschluss-bei-wc-spuelkasten"
+      ],
+      "antwort_belegt": "Laut TECE-Broschüre gehören zum Lieferumfang: Überwurfmutter M30, Gewindeanschlussnippel 3/8\", ein Grohe-Adapter, eine Befestigungsmutter 3/8\" und das Füllventil selbst mit M30-Gewindeanschluss. Das Datenblatt 9820353 nennt allgemein ein 3/8\"-Metall-Anschlussgewinde sowie Adapter und Befestigungsmutter im Lieferumfang. Einzeln nachkaufbar sind laut Datenblatt Ventilhebelset 9820382, Dichtungsset 9820383, Gewindeanschluss 3/8\" 9820398 und O-Ring M 30 9820587.",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+        "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf"
+      ]
+    },
+    {
+      "frage": "Brauche ich ein Füllventil mit Anschluss seitlich oder unten?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wasseranschluss-bei-wc-spuelkasten",
+        "https://www.gutefrage.net/frage/wc-neuer-wasseranschluss-welcher"
+      ],
+      "antwort_belegt": "Das hängt davon ab, wo der Wasseranschluss in den Kasten kommt. Geberit führt den Typ 383 mit seitlichem Anschluss (3/8\" oder 3/8\" und 1/2\"), dazu die Typen 360 und 323 mit Anschluss unten (jeweils als 3/8\"- und 1/2\"-Variante, Kunststoffnippel). Bei Geberit-AP-Kästen gibt es zusätzlich ein Wasseranschlussset hinten Mitte (240.017.00.1).",
+      "quellen": [
+        "https://catalog.geberit-global.com/en-XI/systems/CH2_100400/products",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_4566382"
+      ]
+    },
+    {
+      "frage": "Was bedeutet 1/2\" bzw. 3/8\" beim Füllventil?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/aufputz-spuelkasten-zulauf-was-bedeutet-beim-fuellventil-12-bzw-38-und-wo-kann-ich-erkennen-was-fuer-eine-staerke-verbaut-ist"
+      ],
+      "antwort_belegt": "Es ist die Gewindegröße des Wasseranschlusses in Zoll. Die gängigen UP-Füllventile Geberit Typ 383 (240.705.00.5) und TECE F 10 (9820353) haben 3/8\". Geberit bietet einzelne Typ-383- und Typ-333-Varianten mit 3/8\" und 1/2\" sowie Typ 360 und 323 (Anschluss unten) wahlweise in 3/8\" oder 1/2\" an.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_4018657",
+        "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+        "https://catalog.geberit-global.com/en-XI/systems/CH2_100400/products"
+      ]
+    },
+    {
+      "frage": "Ist das Zischen beim Befüllen normal, und wie leise ist ein neues Füllventil?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/ist-das-zischen-von-dem-fuellventil-normal-unterputz-spuelkasten"
+      ],
+      "antwort_belegt": "Geberit gibt für den Typ 383 ein Armaturengeräusch von 7 dB(A) bei 3 bar und 13 dB(A) bei 5 bar an, eingestuft in Armaturengruppe I nach DIN 4109. Auch TECE stuft das F 10 in Armaturengruppe I ein. Ob ein bestimmtes Zischen auf einen Defekt hinweist, lässt sich aus den Herstellerangaben nicht ableiten.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_4018657",
+        "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf"
+      ]
+    },
+    {
+      "frage": "Kann ich die Füllhöhe am Füllventil einstellen?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/spuelkasten-laeuft-nicht-voll"
+      ],
+      "antwort_belegt": "Ja, Geberit Typ 383 (UP und AP) und TECE F 10 haben laut Hersteller eine einstellbare Füllhöhe, beim F 10 ist zusätzlich das Auslaufrohr einstellbar. TECE schreibt zum Uni-Spülkasten, dass sich durch Absenken des Wasserstands um etwa 1 cm eine 4/2-Liter-Spülung einstellen lässt.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_4018657",
+        "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+        "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf"
+      ]
+    },
+    {
+      "frage": "Mein Spülkasten braucht ewig zum Füllen. Wie schnell sollte ein Füllventil sein?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/15min-dauert-es-zum-befuellen-des-spuelkasten-9l"
+      ],
+      "antwort_belegt": "Geberit gibt für den Typ 383 einen Durchfluss von 0,06 l/s bei 0,5 bar und 0,16 l/s bei 3 bar an; 6 Liter wären damit bei 3 bar in gut einer halben Minute nachgefüllt. Das TECE F 10 braucht laut Datenblatt mindestens 0,5 bar Fließdruck. Dem Typ 383 liegt ein Filter für Nippel bzw. Panzerschlauch bei.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_4018657",
+        "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf"
+      ]
+    },
+    {
+      "frage": "Welches Füllventil-Set brauche ich für einen Mepa-Spülkasten?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/178571/MEPA-Spuelung-undicht",
+        "https://www.haustechnikdialog.de/Forum/t/39897/Spuelkasten-Mepa"
+      ],
+      "antwort_belegt": "Mepa vergibt die Sets je Kastentyp und teils je Baujahr. Beim Eck-Spülkasten E31 ist es das Füllventil-Set Typ I 590 745 9 für Kästen bis 10.2015 und Typ II 590 746 9 ab 11.2015, jeweils mit Panzerschlauch und Füllventilhalter. Den Kastentyp liest man vom Etikett bzw. Aufdruck auf der Rückwand des Kastens ab.",
+      "quellen": [
+        "https://fr.mepa.de/fileadmin/download-ersatzteil/ersatzteil_upsk_eckwc_e31.pdf",
+        "https://www.mepa.de/fileadmin/download-ersatzteil/ersatzteil_upsk_identifikationsmerkmale.pdf"
+      ]
+    },
+    {
+      "frage": "Welches Füllventil passt in einen Viega-Unterputzspülkasten?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/72483/Unterputzspuelkasten-Viega-oder-Geberit-welcher-Hersteller-ist-besser-"
+      ],
+      "antwort_belegt": "Viega ordnet Füllventilsets dem Kastenmodell zu: Für den UP-Spülkasten Standard 1S (Modell 8180.6-94B, Baujahr 01/1999–05/2007) ist es das Füllventilset Modell 8310.74 (Art.-Nr. 759254). Laut TECE passt das F 10 außerdem in die Viega-Kästen 1H, 1L, 1S, 2H, 2L, 2S, 1C und 2C.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Ersatzteile/Vorwand-Spueltechnik/UP-Spuelkaesten-2/UP-Spuelkasten-Standard-1S-8180-6-94B.html",
+        "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf"
+      ]
+    },
+    {
+      "frage": "Universal-Füllventil oder Originalteil – was ist sinnvoller?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/152392/Austausch-eines-GEBERIT-Fuellventils-im-Spuelkasten",
+        "https://www.haustechnikdialog.de/Forum/t/271511/Stopfen-Dichtung-fuer-Fuellventil-eines-alten-Geberit-Spuelkastens"
+      ],
+      "antwort_belegt": "Herstellerseitig sind zwei Wege belegt: Das Originalteil laut Ersatzteilliste des Kastens (z. B. Geberit 240.705.00.5, beim Delta plus Clip 240.923.00.1) oder ein Universalventil mit Passliste wie das TECE F 10. Für Kästen, die auf keiner Passliste stehen (z. B. Mepa), führt der Hersteller eigene Sets.",
+      "quellen": [
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461060",
+        "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+        "https://fr.mepa.de/fileadmin/download-ersatzteil/ersatzteil_upsk_eckwc_e31.pdf"
+      ]
+    }
+  ],
+  "fakten": [
+    {
+      "aussage": "Geberit Typ 383 für UP-Spülkästen, Art.-Nr. 240.705.00.5 (ersetzt 240.705.00.1): Wasseranschluss seitlich 3/8\", Messingnippel, Füllhöhe einstellbar, B 6 cm × H 23 cm, Fließdruck 10–1000 kPa, Armaturengruppe I (DIN 4109), 7 dB(A) bei 3 bar / 13 dB(A) bei 5 bar, Durchfluss 0,06 l/s bei 0,5 bar und 0,16 l/s bei 3 bar, Wassertemperatur max. 25 °C. Lieferumfang: Filter, Konus-Quetschverschraubung, Kupfer-Verbindungsrohr.",
+      "quellen": ["https://catalog.geberit.de/de-DE/product/PRO_4018657"]
+    },
+    {
+      "aussage": "Geberit Typ 383 für AP-Spülkästen, Art.-Nr. 240.700.00.5 (ersetzt 240.700.00.1 und 242.388.00.1): gleiche Kenndaten wie UP-Variante, zusätzlich für Keramikspülkästen; Lieferumfang Filter und Konus-Quetschverschraubung.",
+      "quellen": ["https://catalog.geberit.de/de-DE/product/PRO_4467857"]
+    },
+    {
+      "aussage": "Geberit Typ 383 ist laut Hersteller für Trinkwasser sowie für Grau- und Regenwasser (pH 5,5–9,5) mit Filteranlage zugelassen.",
+      "quellen": ["https://catalog.geberit.de/de-DE/product/PRO_4018657"]
+    },
+    {
+      "aussage": "Ersatzteile Typ 383: Dichtungsset 245.988.00.1; Flex-Schlauch radialdichtend für Sigma ab BJ 2002 246.113.00.1; Flex-Schlauch flachdichtend für UP 110.800 BJ 1988–2006 und AP 246.115.00.1; Halteplatte für Typ 380 und 383 246.201.00.1; Ersatzteilseite gilt ab Baujahr 2024.",
+      "quellen": ["https://catalog.geberit.de/de-DE/spare-part/SPT_4566382"]
+    },
+    {
+      "aussage": "Geberit Delta UP100 (ab 2005): Originalfüllventil sitzt im weißen Clip Typ 333 (245.931.00.1); für das Ersatzfüllventil Typ 383 ist der blaue Clip Typ 380 (240.923.00.1) zusätzlich zu bestellen.",
+      "quellen": ["https://catalog.geberit.de/de-DE/spare-part/SPT_461060"]
+    },
+    {
+      "aussage": "Geberit-Füllventile mit Anschluss unten: Typ 360 (281.207.00.1 mit 3/8\", 281.208.00.1 mit 1/2\") und Typ 323 (136.753.00.1 mit 3/8\", 136.752.00.1 mit 1/2\"), jeweils Kunststoffnippel. Typ 333 seitlich: 136.723.00.3 (3/8\") und 136.724.00.3 (3/8\" und 1/2\").",
+      "quellen": ["https://catalog.geberit-global.com/en-XI/systems/CH2_100400/products"]
+    },
+    {
+      "aussage": "TECE F 10 Universal, Art.-Nr. 9820353: 3/8\"-Metall-Anschlussgewinde, Fließdruck 0,5–10 bar, Füllhöhe und Auslaufrohr einstellbar, Armaturengruppe I (DIN 4109), inkl. Adapter und Befestigungsmutter (Datenblatt Stand 11.10.2024).",
+      "quellen": ["https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf"]
+    },
+    {
+      "aussage": "TECE F 10 Lieferumfang laut Broschüre: Überwurfmutter M30, Gewindeanschlussnippel 3/8\", Grohe-Adapter, Befestigungsmutter 3/8\", Füllventil mit Gewindeanschluss M30. Normen: DIN EN 14124, DIN 4109, WRAS (Kiwa).",
+      "quellen": ["https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf"]
+    },
+    {
+      "aussage": "TECE F 10 Passliste: Geberit UP320/UP300/Sigma 12, UP200/Kappa 15, UP100/Delta 12, UP120 (Artline)/Kappa 15, UP130/110.800/Twinline 12, UP170/110.700/Twinline 8, UP700/Unica, Omega 12, NUVO/110.620, Monolith; Grohe/DAL 320, 330, 336, 337 (6 l, 6–9 l, AV 1, GD 2); Sanit Ineo Plus, Ineo Solo, Ineo 80, Ineo, Ineo In, CC-120-L-FO-2V-L, 982N, 983N, 988C, 980N, 995N; Viega 1H, 1L, 1S, 2H, 2L, 2S, 1C, 2C; Friatec 302003, 302006, 302010, 352005; AP-Spülkästen mit 3/8\"-Gewindeanschluss.",
+      "quellen": ["https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf"]
+    },
+    {
+      "aussage": "TECE F 10 Einzelersatzteile: Ventilhebelset 9820382, Dichtungsset 9820383, Gewindeanschluss 3/8\" 9820398, O-Ring M 30 Wasseranschluss 9820587.",
+      "quellen": ["https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf"]
+    },
+    {
+      "aussage": "Mepa Eck-Spülkasten E31 (ab 01.2010, Kenncode M-SPK SC E31-V1): Füllventil-Set Typ I 590 745 9 bis 10.2015, Typ II 590 746 9 ab 11.2015, jeweils Füllventil + Panzerschlauch + Füllventilhalter.",
+      "quellen": ["https://fr.mepa.de/fileadmin/download-ersatzteil/ersatzteil_upsk_eckwc_e31.pdf"]
+    },
+    {
+      "aussage": "Viega UP-Spülkasten Standard 1S, Modell 8180.6-94B (01/1999–05/2007): Füllventilset Modell 8310.74 (759254), Ablaufventilset 8310.0 (611224).",
+      "quellen": ["https://www.viega.de/de/produkte/Ersatzteile/Vorwand-Spueltechnik/UP-Spuelkaesten-2/UP-Spuelkasten-Standard-1S-8180-6-94B.html"]
+    }
+  ],
+  "asins": [
+    {
+      "asin": "B074HC9Z2X",
+      "titel": "TECE Füllventil F 10 für Aufputz- und Unterputzspülkästen",
+      "geprueft": true,
+      "wie": "amazon.de/dp/B074HC9Z2X per WebFetch geöffnet, Titel aus <title> bestätigt. Herstellernummer 9820353 und Bewertungsanzahl im abgerufenen Seitenteil nicht gefunden (Seite >1 Mio. Zeichen, nur Ausschnitte lesbar). Produkt eindeutig TECE F 10, Nummer aber nicht auf der Seite bestätigt."
+    },
+    {
+      "asin": "B0DLVJP4PS",
+      "titel": "Geberit Type 383 Schwimmerventil für Spülkasten",
+      "geprueft": true,
+      "wie": "amazon.de/dp/B0DLVJP4PS per WebFetch geöffnet; Titel bestätigt, Herstellernummer 240.705.00.5 im kanonischen URL-Slug (Geberit-Füllventil-Unterputz-Spülkasten-240-705-00-5). Eine Suchvorschau meldet, dass in der Detailtabelle dieses Angebots 240.700.00.5 steht – vor Verlinkung prüfen."
+    },
+    {
+      "asin": "B0DM6ZN3BR",
+      "titel": "Geberit Füllventil Typ 383 für Aufputz Spülkasten, 240.700.00.5",
+      "geprueft": true,
+      "wie": "amazon.de/dp/B0DM6ZN3BR per WebFetch geöffnet; Titel und Herstellernummer 240.700.00.5 im <title> und URL-Slug bestätigt."
+    },
+    {
+      "asin": "B0016L503O",
+      "titel": "Geberit 240705001 Schwimmerventil für Unterputz-, Spülkasten Nr. 240.705, Klein",
+      "geprueft": true,
+      "wie": "amazon.de/dp/B0016L503O per WebFetch geöffnet; Titel mit Herstellernummer 240705001 bestätigt. Das ist die Vorgängernummer 240.705.00.1 (Typ 380/Unifill), nicht der aktuelle Typ 383."
+    },
+    {
+      "asin": "B0016KZD7S",
+      "titel": "Geberit 240700001 Schwimmerventil für Aufputz-, Spülkasten Nr. 240.700, 25.2 x 15.8 x 7 cm",
+      "geprueft": true,
+      "wie": "amazon.de/dp/B0016KZD7S per WebFetch geöffnet; Titel mit 240700001 bestätigt. Vorgängernummer 240.700.00.1 (AP), heute durch 240.700.00.5 ersetzt."
+    },
+    {
+      "asin": "B07WNL9BMC",
+      "titel": "MEPA Füllventil-Set UP-Spülkasten Sanicontrol Typ A31 - 590265",
+      "geprueft": true,
+      "wie": "amazon.de/dp/B07WNL9BMC per WebFetch geöffnet; Titel mit 590265 bestätigt. Die Nummer 590265 habe ich nicht gegen ein Mepa-Ersatzteilblatt A31 abgeglichen."
+    }
+  ],
+  "eans": [],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "Ist Geberit Typ 333 (136.705.00.3) ein Universal-Füllventil für Fremdspülkästen?",
+      "fundstellen": ["https://www.kaufland.de/product/536515398/"]
+    },
+    {
+      "frage": "Was unterscheidet das TECE F 1 vom F 10, und passt das F 10 als Ersatz für das F 1?",
+      "fundstellen": ["https://www.ebay.de/p/23067013124"]
+    },
+    {
+      "frage": "Wo messe ich, ob mein Anschluss 3/8\" oder 1/2\" ist?",
+      "fundstellen": ["https://www.gutefrage.net/frage/aufputz-spuelkasten-zulauf-was-bedeutet-beim-fuellventil-12-bzw-38-und-wo-kann-ich-erkennen-was-fuer-eine-staerke-verbaut-ist"]
+    },
+    {
+      "frage": "Spülung läuft nach: liegt es am Füllventil oder an der Dichtung des Spülventils?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/die-spuelung-meiner-toilette-laeuft-nach-was-kann-ich-tun",
+        "https://www.heizungsforum.de/threads/geberit-spuelkasten-laeuft-nach.25036/"
+      ]
+    },
+    {
+      "frage": "Passt ein Typ-383-Ventil in alte 9-Liter-Kästen, wenn die Halterung abweicht?",
+      "fundstellen": ["https://www.haustechnikdialog.de/Forum/t/152392/Austausch-eines-GEBERIT-Fuellventils-im-Spuelkasten"]
+    },
+    {
+      "frage": "Welches Füllventil passt in Jomo- oder Sanit-Kästen außerhalb der TECE-Passliste (z. B. Sanit 936/937, Jomo SLK)?",
+      "fundstellen": ["https://www.haustechnikdialog.de/Forum/t/248887/Ersatzteile-fuer-alten-VB-Porzellanspuelkasten-JOMO"]
+    }
+  ]
+}
