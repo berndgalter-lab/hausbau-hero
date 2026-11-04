@@ -58,7 +58,7 @@ export const BEREICHE: Bereich[] = [
     produkttypen: ["thermostat", "duscharmatur", "wannenarmatur"],
     teiltypen: ["thermostatkartusche", "kartusche", "schlauch", "dichtung"],
     probleme: /thermostat/,
-    ratgeber: ["badewannenarmatur-ratgeber", "badewannenarmatur-unterputz", "duschthermostat", "komplettdusche-ratgeber"],
+    ratgeber: ["badewannenarmatur-ratgeber", "badewannenarmatur-unterputz", "duschthermostat", "duschsystem", "komplettdusche-ratgeber"],
     neukauf: {
       ratgeber: "badewannenarmatur-ratgeber",
       titel: "Lieber eine neue Armatur?",
@@ -91,7 +91,14 @@ export const BEREICHE: Bereich[] = [
     produkttypen: ["spuele", "kuechenarmatur"],
     teiltypen: ["ablaufgarnitur", "siebkoerbchen", "betaetigung", "kartusche", "schlauch"],
     probleme: /blanco|franke/,
-    ratgeber: [],
+    ratgeber: ["kuechenarmatur"],
+    neukauf: {
+      ratgeber: "kuechenarmatur",
+      titel: "Lieber eine neue Armatur?",
+      text: "Gibt es die Kartusche oder den Brauseschlauch nicht mehr, tropft die Armatur am Gehäuse oder kostet das Ersatzteil fast so viel wie neu, ist eine neue Küchenarmatur oft die bessere Wahl. Achte auf Hoch- oder Niederdruck.",
+      // Nur an der Armatur, nicht bei Siebkorb und Ablauf der Spüle
+      nurBei: { produkttypen: ["kuechenarmatur"], teiltypen: ["kartusche", "schlauch"], probleme: /armatur|brause/ },
+    },
   },
   {
     slug: "wasseranschluss",
@@ -102,7 +109,7 @@ export const BEREICHE: Bereich[] = [
     produkttypen: [],
     teiltypen: [],
     probleme: /eckventil|druckminderer|wasserdruck/,
-    ratgeber: [],
+    ratgeber: ["druckminderer"],
   },
   {
     slug: "hebeanlage",

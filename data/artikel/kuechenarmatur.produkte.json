@@ -1,0 +1,275 @@
+[
+ {
+  "sortierung": 1,
+  "name": "GROHE Minta Küchenarmatur mit herausziehbarer Dual-Spülbrause, C-Auslauf (32321002)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "32321002",
+  "ean": "4005176465109",
+  "einsatzbereich": "Spüle mit Hochdruck-Anschluss, Brause zum Abspülen",
+  "kurzbeschreibung": "Hohe Küchenarmatur mit C-Auslauf, 360° schwenkbar, mit herausziehbarer Brause, die zwischen Laminar- und Brausestrahl umschaltet.",
+  "vorteile": [
+   "GROHE nennt eine Dual-Strahl-Brause mit Umstellung zwischen Laminarstrahl und Brausestrahl.",
+   "Der Rohrauslauf schwenkt laut Datenblatt um 360° und reicht damit auch über ein Doppelbecken.",
+   "Die 46-mm-Kartusche (46048000) und die Spülbrause (48416000) sind als Ersatzteile mit eigener Nummer gelistet."
+  ],
+  "nachteile": [
+   "Unter dem Namen Minta gibt es dieselbe Armatur mit L-Auslauf (30274000) und U-Auslauf (32322002) sowie eine Niederdruck-Minta mit C-Auslauf (32511000); vor dem Kauf die Nummer prüfen.",
+   "Die Brause lässt sich laut Maßzeichnung nur bis 330 mm herausziehen, die hansgrohe-Modelle schaffen bis 500 mm.",
+   "Mit 379 mm Gesamthöhe passt sie nicht unter jedes Fenster oder tief hängende Oberschränke."
+  ],
+  "technische_daten": {
+   "kategorie": "kueche",
+   "bauart": "Einhebel",
+   "montage": "Standmontage",
+   "druck": "Hochdruck",
+   "auslaufhoehe_mm": 185,
+   "ausladung_mm": 223,
+   "gesamthoehe_mm": 379,
+   "brause": "herausziehbare Brause, 2 Strahlarten, Auszug bis 330 mm",
+   "schwenkbereich": "360°",
+   "vorfenster": "nein",
+   "anschluss": "3/8\" Flexschläuche (G 3/8)",
+   "durchfluss_l_min": 9,
+   "kartusche_mm": 46,
+   "kartusche": "SilkMove, Ersatzteil 46048000",
+   "oberflaechen": [
+    "Chrom (32321002)",
+    "Supersteel (32321DC2)",
+    "Hard Graphite (32321A02)",
+    "Hard Graphite gebürstet (32321AL2)",
+    "Warm Sunset (32321DA2)",
+    "Warm Sunset gebürstet (32321DL2)",
+    "Cool Sunrise gebürstet (32321GN2)"
+   ]
+  }
+ },
+ {
+  "sortierung": 2,
+  "name": "hansgrohe Zesis M33 Küchenarmatur 160 mit Ausziehbrause, 2jet (74801000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "74801000",
+  "ean": "4059625339770",
+  "einsatzbereich": "Spüle mit Hochdruck-Anschluss, langer Brauseauszug",
+  "kurzbeschreibung": "Mittelhohe Küchenarmatur mit Ausziehbrause bis 50 cm, Laminar- und Brausestrahl per Taste, Rückstellung beim Schließen, magnetische Brausehalterung.",
+  "vorteile": [
+   "Die Brause lässt sich laut hansgrohe bis 50 cm herausziehen; danach hält sie die magnetische MagFit-Halterung vorn an der Armatur.",
+   "Beim Schließen springt die Armatur automatisch vom Brause- auf den Laminarstrahl zurück.",
+   "hansgrohe gibt sie ausdrücklich für Durchlauferhitzer frei und nennt 8,2 l/min bei 3 bar."
+  ],
+  "nachteile": [
+   "Der Auslauf schwenkt nur 150°, für Doppelbecken mit weit auseinanderliegenden Becken kann das knapp sein.",
+   "Ähnliche Nummern: 74822000 hat eine Metall-Ausziehbrause, 74804000 kommt mit sBox lite; die Ausführung „Edelstahl-Optik“ ist eine Oberfläche, kein Edelstahlkörper."
+  ],
+  "technische_daten": {
+   "kategorie": "kueche",
+   "bauart": "Einhebel",
+   "montage": "Standmontage",
+   "druck": "Hochdruck",
+   "auslaufhoehe_mm": 163,
+   "ausladung_mm": 231,
+   "gesamthoehe_mm": 259,
+   "brause": "herausziehbare Brause, 2 Strahlarten, Auszug bis 500 mm",
+   "schwenkbereich": "150°",
+   "vorfenster": "nein",
+   "anschluss": "3/8\" Flexschläuche (G 3/8)",
+   "durchfluss_l_min": 8.2,
+   "kartusche": "Keramik, Ersatzteil 93895000",
+   "durchlauferhitzer": "geeignet",
+   "oberflaechen": [
+    "Chrom (74801000)",
+    "Mattschwarz (74801670)",
+    "Edelstahl-Optik (74801800)"
+   ]
+  }
+ },
+ {
+  "sortierung": 3,
+  "name": "hansgrohe Talis M54 Küchenarmatur 270 mit Ausziehauslauf, 1jet (72808000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "72808000",
+  "ean": "4059625255278",
+  "einsatzbereich": "Spüle mit Hochdruck-Anschluss, hohe Töpfe, ausziehbarer Auslauf ohne Strahlumstellung",
+  "kurzbeschreibung": "Sehr hohe Küchenarmatur mit L-Auslauf und Ausziehauslauf bis 50 cm; ein Laminarstrahl, Schwenkbereich in vier Stufen einstellbar.",
+  "vorteile": [
+   "Mit 265 mm Auslaufhöhe passen auch hohe Töpfe unter den Auslauf.",
+   "Der Schwenkbereich lässt sich laut hansgrohe auf 60°, 110°, 150° oder 360° begrenzen, damit der Auslauf nicht über die Spüle hinaus dreht.",
+   "Der Auslauf zieht sich bis 50 cm heraus; hansgrohe nennt 8 l/min bei 3 bar und Eignung für Durchlauferhitzer."
+  ],
+  "nachteile": [
+   "Nur ein Laminarstrahl, keine Umstellung auf Brausestrahl.",
+   "Mit 296 mm Höhe ungeeignet unter einem Fenster oder knapp unter Oberschränken.",
+   "Contorion führt eine Niederdruck-Talis M54 270 mit Ausziehauslauf unter fast gleichem Namen (z. B. EAN 4059625448694); für Hochdruck auf die Nummer 72808000 achten."
+  ],
+  "technische_daten": {
+   "kategorie": "kueche",
+   "bauart": "Einhebel",
+   "montage": "Standmontage",
+   "druck": "Hochdruck",
+   "auslaufhoehe_mm": 265,
+   "ausladung_mm": 215,
+   "gesamthoehe_mm": 296,
+   "brause": "ausziehbarer Auslauf, 1 Strahl, Auszug bis 500 mm",
+   "schwenkbereich": "60° bis 360°, einstellbar",
+   "vorfenster": "nein",
+   "anschluss": "3/8\" Flexschläuche (G 3/8)",
+   "durchfluss_l_min": 8,
+   "kartusche": "Keramik, Ersatzteil 93740000",
+   "durchlauferhitzer": "geeignet",
+   "oberflaechen": [
+    "Chrom (72808000)",
+    "Edelstahl-Optik (72808800)",
+    "Mattschwarz (72808670)"
+   ]
+  }
+ },
+ {
+  "sortierung": 4,
+  "name": "GROHE Eurosmart Küchenarmatur, hoher Auslauf (33202003)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "33202003",
+  "ean": "4005176635588",
+  "einsatzbereich": "Spüle mit Hochdruck-Anschluss, einfacher Ersatz ohne Brause",
+  "kurzbeschreibung": "Hohe Küchenarmatur mit schwenkbarem C-Rohrauslauf und Mousseur, ohne Auszug; günstigstes Modell der Auswahl.",
+  "vorteile": [
+   "Hoher Auslauf mit 210 mm, darunter passen auch große Töpfe.",
+   "GROHE nennt 11 l/min bei 3 bar, eine einstellbare Mengenbegrenzung und einen Temperaturbegrenzer in der Kartusche.",
+   "Ohne Brauseschlauch gibt es unter der Spüle kein Gewicht und keinen Schlauchbogen, der im Unterschrank Platz braucht."
+  ],
+  "nachteile": [
+   "Keine Brause und kein ausziehbarer Auslauf.",
+   "Der Auslauf schwenkt nur 150°.",
+   "Leicht zu verwechseln mit der mittelhohen Eurosmart 30463000 und der Eurosmart Cosmopolitan Niederdruck 30194000."
+  ],
+  "technische_daten": {
+   "kategorie": "kueche",
+   "bauart": "Einhebel",
+   "montage": "Standmontage",
+   "druck": "Hochdruck",
+   "auslaufhoehe_mm": 210,
+   "ausladung_mm": 183,
+   "gesamthoehe_mm": 339,
+   "brause": "nein",
+   "schwenkbereich": "150°",
+   "vorfenster": "nein",
+   "anschluss": "3/8\" Flexschläuche (G 3/8)",
+   "durchfluss_l_min": 11,
+   "kartusche_mm": 35,
+   "kartusche": "SilkMove mit Temperaturbegrenzer, Ersatzteil 46374000",
+   "oberflaechen": [
+    "Chrom (33202003)",
+    "Matt Black (332022433)"
+   ]
+  }
+ },
+ {
+  "sortierung": 5,
+  "name": "hansgrohe Logis M31 Küchenarmatur 160 für Vorfenstermontage (71833000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "71833000",
+  "ean": "4011097775487",
+  "einsatzbereich": "Spüle direkt vor einem Fenster mit nach innen öffnendem Flügel",
+  "kurzbeschreibung": "Küchenarmatur für die Montage vor dem Fenster: zum Öffnen des Fensters wird sie nach oben gezogen und auf die Spüle umgelegt.",
+  "vorteile": [
+   "hansgrohe beschreibt sie als „Vorfenstermontage, umlegbar“ mit 51 mm Sockelhöhe.",
+   "Laut Bedienungsanleitung reichen 55 mm Abstand zwischen Arbeitsplatte und Fensterflügel, wenn die Armatur umgelegt ist.",
+   "Laut hansgrohe für Durchlauferhitzer geeignet, 12 l/min bei 3 bar."
+  ],
+  "nachteile": [
+   "Keine Brause und kein Auszug.",
+   "Nur in Chrom; die normale Logis M31 160 (71832000) hat fast denselben Namen, lässt sich aber nicht umlegen.",
+   "Vor dem Kauf den Abstand zwischen Arbeitsplatte und Unterkante des geöffneten Fensterflügels messen."
+  ],
+  "technische_daten": {
+   "kategorie": "kueche",
+   "bauart": "Einhebel",
+   "montage": "Vorfenstermontage",
+   "druck": "Hochdruck",
+   "auslaufhoehe_mm": 166,
+   "ausladung_mm": 220,
+   "gesamthoehe_mm": 246,
+   "brause": "nein",
+   "schwenkbereich": "150°",
+   "vorfenster": "umlegbar",
+   "anschluss": "3/8\" Flexschläuche, 900 mm",
+   "durchfluss_l_min": 12,
+   "kartusche": "Keramik, Ersatzteil 92730000",
+   "durchlauferhitzer": "geeignet",
+   "oberflaechen": [
+    "Chrom (71833000)"
+   ]
+  }
+ },
+ {
+  "sortierung": 6,
+  "name": "GROHE Minta Niederdruck-Küchenarmatur mit herausziehbarem Auslauf (32511000)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "32511000",
+  "ean": "4005176295621",
+  "einsatzbereich": "Spüle mit offenem (drucklosem) Untertischspeicher",
+  "kurzbeschreibung": "Hohe Niederdruck-Küchenarmatur für offene Warmwasserbereiter mit herausziehbarem Auslauf und Laminarstrahl, 360° schwenkbar.",
+  "vorteile": [
+   "GROHE weist sie ausdrücklich als „Niederdruck für offene Warmwasserbereiter“ aus.",
+   "Seltene Kombination: Niederdruck mit herausziehbarem Auslauf und 360° Schwenkbereich.",
+   "Die Niederdruck-Kartusche 46409000 gibt es einzeln als Ersatzteil."
+  ],
+  "nachteile": [
+   "Nur ein Strahl, keine Umstellung auf Brausestrahl; der Auslauf lässt sich höchstens 200 mm herausziehen.",
+   "Sieht der Hochdruck-Minta 32321002 sehr ähnlich; die Niederdruck-Version erkennt man an der Nummer 32511000 und an drei Anschlussschläuchen.",
+   "Laut Montageanleitung dürfen keine Mousseure oder Durchflussbegrenzer in den Auslauf, sonst wird der Speicher beschädigt."
+  ],
+  "technische_daten": {
+   "kategorie": "kueche",
+   "bauart": "Einhebel",
+   "montage": "Standmontage",
+   "druck": "Niederdruck",
+   "auslaufhoehe_mm": 210,
+   "ausladung_mm": 215,
+   "gesamthoehe_mm": 359,
+   "brause": "ausziehbarer Auslauf, 1 Strahl, Auszug bis 200 mm",
+   "schwenkbereich": "360°",
+   "vorfenster": "nein",
+   "anschluss": "3 Flexschläuche G 3/8",
+   "durchfluss_l_min": 8,
+   "kartusche_mm": 46,
+   "kartusche": "SilkMove Niederdruck, Ersatzteil 46409000",
+   "oberflaechen": [
+    "Chrom (32511000)"
+   ]
+  }
+ },
+ {
+  "sortierung": 7,
+  "name": "Hansa Ronda Comfort Niederdruck-Küchenarmatur mit Ausziehbrause (55191133)",
+  "hersteller": "Hansa",
+  "hersteller_nr": "55191133",
+  "ean": "4015474261822",
+  "einsatzbereich": "Spüle mit offenem (drucklosem) Untertischspeicher, Brause gewünscht",
+  "kurzbeschreibung": "Niederdruck-Küchenarmatur für offene Heißwasserbereiter mit Ausziehbrause, zwei Strahlarten und Heißwassersperre.",
+  "vorteile": [
+   "Eine der wenigen Niederdruck-Küchenarmaturen mit Brause und zwei Strahlarten.",
+   "Temperaturbegrenzer und einstellbare Heißwassersperre gehören laut Hansa zum Lieferumfang.",
+   "Laut Ersatzteilliste mit 1400 mm Brauseschlauch und Gegengewicht."
+  ],
+  "nachteile": [
+   "Teurer als die anderen Modelle hier.",
+   "Angeschlossen wird über Kupferrohre Ø 8 mm statt Flexschläuchen; die Arbeitsplatte darf laut Maßzeichnung höchstens 45 mm dick sein.",
+   "Mehrere Ersatzteile sind in der Hansa-Liste als „Ausgelaufen“ markiert; die Hochdruck-Ronda mit Ausziehbrause hat bei Händlern einen fast gleichen Namen."
+  ],
+  "technische_daten": {
+   "kategorie": "kueche",
+   "bauart": "Einhebel",
+   "montage": "Standmontage",
+   "druck": "Niederdruck",
+   "auslaufhoehe_mm": 165,
+   "ausladung_mm": 200,
+   "gesamthoehe_mm": 240,
+   "brause": "herausziehbare Brause, 2 Strahlarten, Schlauch 1.400 mm",
+   "vorfenster": "nein",
+   "anschluss": "3 Kupferrohre Ø 8 mm, G 3/8",
+   "kartusche": "Steuerpatrone, Ersatzteil 59913075",
+   "oberflaechen": [
+    "Chrom (55191133)"
+   ]
+  }
+ }
+]

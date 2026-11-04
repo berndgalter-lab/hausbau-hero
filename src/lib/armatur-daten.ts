@@ -2,7 +2,8 @@
 // Armaturen (auch im Armaturen-Vergleich) sowie Drückerplatten und Vorwandelemente.
 // Ohne Datenbank-Import, damit auch der Vergleich im Browser (Client-Komponente) es nutzen kann.
 
-export type ArmaturKategorie = "waschtisch" | "kueche" | "wanne" | "dusche";
+// Druckminderer laufen mit, weil der Ratgeber dieselbe Auswahlhilfe nutzt; im Armaturen-Vergleich fehlen sie.
+export type ArmaturKategorie = "waschtisch" | "kueche" | "wanne" | "dusche" | "druckminderer";
 
 /** Schlüssel in produkte.technische_daten (alle optional; was fehlt, zeigt die Tabelle als „k. A.“). */
 export interface ArmaturDaten {
@@ -35,6 +36,38 @@ export interface ArmaturDaten {
   abgang?: string;
   /** Eignung für Durchlauferhitzer laut Hersteller, z. B. „geeignet“ oder „ab 18 kW“ */
   durchlauferhitzer?: string;
+  /** Küche: wie weit sich der Auslauf drehen lässt, z. B. „360°“ */
+  schwenkbereich?: string;
+  /** Küche: Vorfenstermontage, z. B. „umlegbar“ oder „nein“ */
+  vorfenster?: string;
+  /** Duschsystem: Kopfbrause, Kantenlänge oder Durchmesser */
+  kopfbrause_mm?: number;
+  /** Duschsystem: Kopfbrause als Text, z. B. „rund, Ø 250 mm, 1 Strahlart“ */
+  kopfbrause?: string;
+  handbrause?: string;
+  /** Duschsystem: Gesamthöhe bzw. Höhe der Brausestange */
+  hoehe_mm?: number;
+  hoehe?: string;
+  /** Duschsystem: wie es an die vorhandene Installation anschließt, z. B. „an Abgang der vorhandenen Armatur“ */
+  nachruesten?: string;
+  /** Druckminderer: Anschlussgröße für die Auswahlhilfe, genau „3/4"“, „1"“ oder „1 1/4"“ */
+  anschluss_zoll?: string;
+  /** Druckminderer: „nein“ oder Feinheit, z. B. „Feinfilter 100 µm“ */
+  filter?: string;
+  /** Druckminderer: „nein“, „manuell“ oder „automatisch“ */
+  rueckspuelung?: string;
+  /** Druckminderer: „ja“, „nein“ oder „nachrüstbar“ */
+  rueckflussverhinderer?: string;
+  eingangsdruck_max_bar?: number;
+  /** Druckminderer: Einstellbereich, z. B. „1,5–6 bar, ab Werk 4 bar“ */
+  ausgangsdruck?: string;
+  manometer?: string;
+  einbaulage?: string;
+  temperatur_max_c?: number;
+  /** Druckminderer: Durchfluss als Text, z. B. kvs-Wert */
+  durchfluss?: string;
+  norm?: string;
+  material?: string;
 }
 
 export const KATEGORIE_NAME: Record<ArmaturKategorie, string> = {
@@ -42,6 +75,7 @@ export const KATEGORIE_NAME: Record<ArmaturKategorie, string> = {
   kueche: "Küche",
   wanne: "Badewanne",
   dusche: "Dusche",
+  druckminderer: "Druckminderer",
 };
 
 const mm = (v: unknown) => (typeof v === "number" ? `${v.toLocaleString("de-DE")} mm` : null);
@@ -83,7 +117,32 @@ export const MERKMALE: { key: keyof ArmaturDaten; label: string; wert: (d: Armat
   { key: "rueckflusssicherung", label: "Sicherung EN 1717", wert: (d) => text(d.rueckflusssicherung) },
   { key: "abgang", label: "Brauseabgang", wert: (d) => text(d.abgang) },
   { key: "durchlauferhitzer", label: "Durchlauferhitzer", wert: (d) => text(d.durchlauferhitzer) },
+  { key: "schwenkbereich", label: "Schwenkbereich", wert: (d) => text(d.schwenkbereich) },
+  { key: "vorfenster", label: "Vorfenstermontage", wert: (d) => text(d.vorfenster) },
+  { key: "kopfbrause", label: "Kopfbrause", wert: (d) => text(d.kopfbrause) },
+  { key: "handbrause", label: "Handbrause", wert: (d) => text(d.handbrause) },
+  { key: "hoehe", label: "Höhe", wert: (d) => text(d.hoehe) ?? mm(d.hoehe_mm) },
+  { key: "nachruesten", label: "Anschluss an", wert: (d) => text(d.nachruesten) },
   { key: "anschluss", label: "Anschluss", wert: (d) => text(d.anschluss) },
+  { key: "filter", label: "Filter", wert: (d) => text(d.filter) },
+  { key: "rueckspuelung", label: "Rückspülung", wert: (d) => text(d.rueckspuelung) },
+  { key: "rueckflussverhinderer", label: "Rückflussverhinderer", wert: (d) => text(d.rueckflussverhinderer) },
+  {
+    key: "eingangsdruck_max_bar",
+    label: "Eingangsdruck max.",
+    wert: (d) => (typeof d.eingangsdruck_max_bar === "number" ? `${d.eingangsdruck_max_bar.toLocaleString("de-DE")} bar` : null),
+  },
+  { key: "ausgangsdruck", label: "Ausgangsdruck", wert: (d) => text(d.ausgangsdruck) },
+  { key: "manometer", label: "Manometer", wert: (d) => text(d.manometer) },
+  { key: "einbaulage", label: "Einbaulage", wert: (d) => text(d.einbaulage) },
+  {
+    key: "temperatur_max_c",
+    label: "Wassertemperatur max.",
+    wert: (d) => (typeof d.temperatur_max_c === "number" ? `${d.temperatur_max_c} °C` : null),
+  },
+  { key: "durchfluss", label: "Durchfluss", wert: (d) => text(d.durchfluss) },
+  { key: "norm", label: "Norm", wert: (d) => text(d.norm) },
+  { key: "material", label: "Material", wert: (d) => text(d.material) },
   {
     key: "oberflaechen",
     label: "Oberflächen",
