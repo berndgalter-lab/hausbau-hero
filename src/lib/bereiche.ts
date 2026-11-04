@@ -52,17 +52,23 @@ export const BEREICHE: Bereich[] = [
   {
     slug: "dusche-badewanne",
     name: "Dusche & Badewanne",
-    kurz: "Thermostat wird nicht warm, Brause tropft.",
+    kurz: "Thermostat wird nicht warm, Ablauf läuft schlecht ab.",
     einleitung:
-      "Bei Dusche und Wanne ist meist der Thermostat schuld: Er wird nur lauwarm, regelt nicht mehr oder verstellt sich. Oft reicht eine neue Thermostatkartusche, die Armatur selbst bleibt an der Wand.",
-    produkttypen: ["thermostat", "duscharmatur", "wannenarmatur"],
-    teiltypen: ["thermostatkartusche", "kartusche", "schlauch", "dichtung"],
-    probleme: /thermostat/,
+      "Bei Dusche und Wanne ist meist der Thermostat schuld: Er wird nur lauwarm, regelt nicht mehr oder verstellt sich. Oft reicht eine neue Thermostatkartusche, die Armatur selbst bleibt an der Wand. Läuft das Wasser schlecht ab oder schließt der Wannenstopfen nicht, helfen meist Tauchrohr, Sieb oder Ventilkegel des Ablaufs.",
+    produkttypen: ["thermostat", "duscharmatur", "wannenarmatur", "duschablauf", "wannenablauf"],
+    teiltypen: ["thermostatkartusche", "kartusche", "duschablauf", "wannenablauf", "schlauch", "dichtung"],
+    probleme: /thermostat|duschablauf|badewanne-ablauf/,
     ratgeber: ["badewannenarmatur-ratgeber", "badewannenarmatur-unterputz", "duschthermostat", "duschsystem", "komplettdusche-ratgeber"],
     neukauf: {
       ratgeber: "badewannenarmatur-ratgeber",
       titel: "Lieber eine neue Armatur?",
       text: "Gibt es das Ersatzteil nicht mehr oder ist der Armaturenkörper selbst undicht, ist eine neue Armatur oft die bessere Wahl. Bei Aufputz-Armaturen achte auf das Anschlussmaß.",
+      // Nicht bei Dusch- und Wannenabläufen: Dort steckt der Ablauf im Boden oder hinter der Wannenschürze.
+      nurBei: {
+        produkttypen: ["thermostat", "duscharmatur", "wannenarmatur"],
+        teiltypen: ["thermostatkartusche", "kartusche", "schlauch"],
+        probleme: /thermostat/,
+      },
     },
   },
   {

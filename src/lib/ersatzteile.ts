@@ -140,6 +140,8 @@ export const PRODUKTTYP_LABEL: Record<string, string> = {
   druckspueler: "Druckspüler",
   wc_sitz: "WC-Sitze",
   waschtisch: "Waschtische",
+  duschablauf: "Duschabläufe",
+  wannenablauf: "Badewannen-Ab- und Überlaufgarnituren",
 };
 
 export const TEILTYP_LABEL: Record<string, string> = {
@@ -165,6 +167,8 @@ export const TEILTYP_LABEL: Record<string, string> = {
   kolben: "Kolben",
   scharnier: "WC-Sitz-Scharniere",
   absenkautomatik: "Absenkautomatik (Soft Close)",
+  duschablauf: "Duschablauf-Teile",
+  wannenablauf: "Wannenablauf-Teile",
   sonstiges: "Weitere Teile",
 };
 
