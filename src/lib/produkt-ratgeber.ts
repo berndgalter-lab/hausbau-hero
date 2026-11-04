@@ -855,7 +855,7 @@ const passtAn = (d: RatgeberDaten, g: FensterGeneration): boolean | null =>
 const DACHFENSTER_SONNENSCHUTZ: ProduktRatgeber = {
   pfad: "dachfenster-sonnenschutz",
   slug: "dachfenster-sonnenschutz",
-  silo: "rohbau",
+  silo: "fenster",
   name: "Dachfenster-Sonnenschutz",
   mehrzahl: "Produkte",
   mehrzahlDativ: "Produkten",
