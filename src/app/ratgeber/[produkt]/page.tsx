@@ -5,7 +5,7 @@ import { produktLink } from "@/components/ProduktKarte";
 import VergleichsTabelle from "@/components/VergleichsTabelle";
 import ArticleContent from "@/components/ArticleContent";
 import Auswahlhilfe, { type AuswahlModell, type KaufLink } from "@/components/Auswahlhilfe";
-import { AffiliateHinweis, HaeufigeFragen, KurzeAntwort, Pruefvermerk, Quellen } from "@/components/Ratgeber";
+import { AffiliateHinweis, HaeufigeFragen, KurzeAntwort, ProduktKacheln, Pruefvermerk, Quellen } from "@/components/Ratgeber";
 import { angeboteFuerEans, bildAusAngeboten, normEan, type EanAngebot } from "@/lib/kaufberatung";
 import { mitTrackingId } from "@/lib/affiliate";
 import { produktDaten as datenAus, type RatgeberDaten } from "@/lib/armatur-daten";
@@ -111,6 +111,19 @@ export default async function ProduktRatgeberSeite({ params }: { params: { produ
       kauf: kaufLinks(p, angebote[p.id] ?? []),
     }));
 
+  const kacheln = modelle.map((m) => {
+    const p = produkte.find((x) => x.id === m.id);
+    const preise = (angebote[m.id] ?? []).filter(zeigePreis).map((a) => a.preis!);
+    return {
+      id: m.id,
+      name: m.name,
+      hersteller: p?.hersteller ?? null,
+      einsatzbereich: m.einsatzbereich,
+      bild: m.bild,
+      preisAb: preise.length > 0 ? Math.min(...preise) : null,
+    };
+  });
+
   const aufbau = zerlegeArtikel(seite.content_md, { fragen: true });
   const verweise = ersatzteilVerweise(seite.slug);
   const fussnote = [
@@ -154,6 +167,8 @@ export default async function ProduktRatgeberSeite({ params }: { params: { produ
       <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} methode={aufbau.ohneTest ? "Datenblattvergleich, kein Test" : null} />
 
       {aufbau.wichtigstes && <KurzeAntwort html={aufbau.wichtigstes} titel={aufbau.wichtigstesTitel ?? "Kurz gesagt"} />}
+
+      <ProduktKacheln kacheln={kacheln} />
 
       <Auswahlhilfe pfad={ratgeber.pfad} modelle={modelle} fussnote={fussnote} />
 

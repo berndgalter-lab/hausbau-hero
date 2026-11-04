@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 
 // Produktbild aus dem Partner-Feed. Läuft über die Bildoptimierung von Next.js:
 // Der Browser lädt das Bild von hausbau-hero.de, nicht vom Shop. So geht keine
@@ -12,14 +12,27 @@ export default function TeilBild({
   alt,
   shop,
   groesse = 160,
+  fuellen = false,
+  ersatz = null,
 }: {
   url: string | null;
   alt: string;
   shop?: string | null;
   groesse?: number;
+  /** Quadrat in voller Breite des Elternelements statt fester Größe (Produktkacheln). */
+  fuellen?: boolean;
+  /** Steht da, wenn es kein Bild gibt oder es nicht lädt. */
+  ersatz?: ReactNode;
 }) {
   const [kaputt, setKaputt] = useState(false);
-  if (!url || kaputt) return null;
+  if (!url || kaputt) return <>{ersatz}</>;
+  if (fuellen) {
+    return (
+      <div className="relative w-full aspect-square bg-white">
+        <Image src={url} alt={alt} fill sizes="(min-width: 640px) 240px, 45vw" className="object-contain p-3" onError={() => setKaputt(true)} />
+      </div>
+    );
+  }
   const klein = groesse < 100;
   return (
     <figure className="shrink-0" style={{ width: groesse }}>
