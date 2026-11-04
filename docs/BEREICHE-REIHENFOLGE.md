@@ -13,7 +13,7 @@ Die Seite ordnet nach Stellen im Haus, nicht nach Produktarten, so wie womo-teil
 | Fenster & Türen | Dachfenster, Rollladen, Insektenschutz, Türen & Schlösser |
 | Außen & Garten | Wasser im Garten, Garagentor |
 
-Ausgebaut wird von innen nach außen. Ein äußerer Hauptbereich kommt erst, wenn die inneren Traffic bringen. Ausnahme: Wasser im Garten darf wegen der Saison vorrücken (Abschnitt 3).
+Ausgebaut wird von innen nach außen. Ein äußerer Hauptbereich kommt erst, wenn die inneren Traffic bringen. Ausnahmen: Wasser im Garten darf wegen der Saison vorrücken (Abschnitt 3). Dachfenster steht seit 4.11.2026 vor Wasserfilter, weil die Teile dort in den Partnershops liegen und man das Zubehör selbst tauscht (`KEYWORDS-WASSERFILTER.md` Abschnitt 8, `KEYWORDS-DACHFENSTER.md`).
 
 ## 2. Woran ein Bereich gemessen wird
 
@@ -33,8 +33,8 @@ Sanitär gilt als fertig, wenn die A-Seiten aus `KEYWORDS-SANITAER.md` stehen (E
 
 | Rang | Bereich | Hauptbereich | Die Frage „welches passt?“ | Warenkorb (geschätzt) | Vor dem Start prüfen |
 |---|---|---|---|---|---|
-| 1 | **Wasserfilter & Enthärtung** | Wasser & Wärme | Filtereinsatz und Ersatzsieb je Rückspülfilter (Judo, BWT, Grünbeck, Honeywell), Salz und Ersatzteile je Enthärtungsanlage | Filter 80–300 €, Anlage 800–2.000 €, dazu Verbrauchsteile | Ersatzteillisten der Hersteller, Bestand in den Feeds |
-| 2 | **Dachfenster** | Fenster & Türen | Rollo, Verdunkelung und Ersatzteile nach dem Code auf dem Typenschild (Velux MK04, CK02 …), Original oder Nachbau | 50–300 € | Größentabellen von Velux und Roto, Nachfrage nach Code-Suchen |
+| 1 | **Dachfenster** | Fenster & Türen | Rollo, Verdunkelung, Hitzeschutz, Dichtung und Akku nach dem Code auf dem Typenschild (VELUX MK04 = M04 = 304, Roto 074/118), Original oder Nachbau | Rollo 50–230 €, Markise 100–160 €, Akku 25–50 € | **Geprüft**, siehe `KEYWORDS-DACHFENSTER.md`: hagebau 667 VELUX-Artikel, neue Größenseite je VELUX-Code. Offen: Planner-Zahlen. |
+| 2 | **Wasserfilter & Enthärtung** (kleiner Zuschnitt) | Wasser & Wärme | Filtereinsatz je Rückspülfilter und Hauswasserstation (Judo, BWT, Resideo), Salz je Enthärtungsanlage; Druckminderer zieht hierher um | Filtereinsatz 25–90 €, Salz wiederkehrend | **Geprüft**, siehe `KEYWORDS-WASSERFILTER.md`: rund neun Seiten, Kauf fast nur über Amazon, Enthärtung endet beim Kundendienst. Offen: Planner-Zahlen; liegt „rückspülfilter“ unter 1.000, fällt der Bereich hinter Rollladen. |
 | 3 | **Rollladen** | Fenster & Türen | Gurtbreite 14 oder 23 mm, Gurtwickler, Wellenprofil SW40/SW60, Motor nach Drehmoment und Gewicht des Panzers; dazu ein Rechner „Welcher Rollladenmotor?“ | Gurt 10–30 €, Motor 80–250 € | Datenblätter Motoren (Somfy, Selve, Schellenberg), Feeds |
 | 4 | **Wasser im Garten** | Außen & Garten | Oberteil für frostsichere Außenwasserhähne (Schell, Kemper), Ersatzteile je Gartenpumpe und Hauswasserwerk (Druckschalter, Rückschlagventil), Kupplungssysteme, Fallrohrfilter nach Rohrdurchmesser | Pumpe 150–600 € | Ersatzteillisten Gardena, Kärcher, Einhell; Saison: bis März online, sonst ein Jahr warten |
 | 5 | **Warmwasser** | Wasser & Wärme | Welcher Durchlauferhitzer oder Untertischspeicher zu Anschluss und Armatur passt (druckfest oder drucklos), schließt an die Niederdruckarmatur an | 200–600 € | Nur Auswahl und Neukauf. Reparatur am Gerät ist Arbeit für die Elektrofachkraft und kommt nicht vor. |
@@ -49,7 +49,7 @@ Unter Bad & Küche, ohne eigenen Bereich: zwei oder drei Datenblatt-Seiten zu Fl
 
 ## 4. Prüfung vor jedem Bereich
 
-Bevor ein Bereich angefangen wird, kommt dieselbe Auswertung wie in `KEYWORDS-SANITAER.md`: Keyword-Planner-Stufen, Google-Suchvorschläge mit Reparatur- oder Kompatibilitätsabsicht, Zählung in den Awin-Feeds und die Frage, ob die Hersteller Ersatzteillisten, Maße oder Kompatibilitätslisten veröffentlichen. Fehlt die Herstellerseite oder ist die Nachfrage deutlich kleiner als angenommen, rutscht der Bereich nach hinten. Das Ergebnis kommt als eigene Datei nach `docs/` (zum Beispiel `KEYWORDS-WASSERFILTER.md`).
+Bevor ein Bereich angefangen wird, kommt dieselbe Auswertung wie in `KEYWORDS-SANITAER.md`: Keyword-Planner-Stufen, Google-Suchvorschläge mit Reparatur- oder Kompatibilitätsabsicht, Zählung in den Awin-Feeds und die Frage, ob die Hersteller Ersatzteillisten, Maße oder Kompatibilitätslisten veröffentlichen. Fehlt die Herstellerseite oder ist die Nachfrage deutlich kleiner als angenommen, rutscht der Bereich nach hinten. Das Ergebnis kommt als eigene Datei nach `docs/`. Bisher geprüft: `KEYWORDS-DACHFENSTER.md` (Rang 1) und `KEYWORDS-WASSERFILTER.md` (Rang 2, verkleinert). Für beide fehlen noch die Planner-Zahlen.
 
 ## 5. Nicht verfolgt
 
