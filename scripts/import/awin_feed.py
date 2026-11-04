@@ -525,8 +525,8 @@ def main():
     if args.produkte_json:
         produkt_eans = {e for e in (norm_ean(p.get("ean")) for p in json.load(open(args.produkte_json, encoding="utf-8"))) if e}
     else:
-        produkt_eans = db.produkt_eans() if db else set()
-    produkt_eans |= teilart_eans()
+        # Mit --produkte-json (offline, Tests) nur die EANs aus der Datei, sonst auch die der Teileart-Seiten.
+        produkt_eans = (db.produkt_eans() if db else set()) | teilart_eans()
     print(f"Kaufberatungs- und Teileart-Produkte mit EAN: {len(produkt_eans)}")
 
     dateien = dict(x.split("=", 1) for x in args.feed_datei)
