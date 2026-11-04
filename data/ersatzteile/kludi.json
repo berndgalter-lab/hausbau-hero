@@ -619,7 +619,7 @@
     "39906"
    ],
    "erkennungsmerkmale": "Typennummer 33535 ist der Unterputz-Wannenmischer MX, 39906 (chrom 399060562) der Spültischmischer mit Geräteanschluss.",
-   "beschreibung": "Einhandmischer-Linie für Küche und Bad. megabad nennt für MX die 41-mm-Kartusche 7685600-00 und für MX-Küchenarmaturen in Niederdruck-Ausführung die 7412900-00.",
+   "beschreibung": "Einhandmischer-Linie für Küche und Bad. megabad nennt für MX die 41-mm-Kartusche 7685600-00 und für MX-Armaturen in Niederdruck-Ausführung die 7412900-00.",
    "quellen": [
     "https://www.megabad.com/kludi-ersatzteile-steuereinheit-41-mm-a-116765.htm",
     "https://www.megabad.com/hersteller-kludi-ersatzteile-ersatzkartusche-k41-niederdruck-a-202914.htm",
@@ -867,17 +867,18 @@
     "durchmesser_mm": 41,
     "hoehe_mm": 62
    },
-   "beschreibung": "41-mm-Keramikkartusche für drucklose Armaturen, laut Kludi-Datenblatt mit voreinstellbarer Heißwasserbegrenzung und einstellbarer Durchflussbegrenzung. megabad nennt sie für Kludi-MX-Küchenarmaturen in Niederdruck-Ausführung.",
-   "preis_spanne": "ca. 42 € (megabad), November 2026",
+   "beschreibung": "41-mm-Keramikkartusche für drucklose Armaturen, laut Kludi-Datenblatt mit voreinstellbarer Heißwasserbegrenzung und einstellbarer Durchflussbegrenzung. megabad und Amazon nennen sie für Kludi-MX-Armaturen in Niederdruck-Ausführung.",
+   "preis_spanne": "ca. 34 € (Amazon), 42 € (megabad), November 2026",
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
    "dauer_min": 30,
    "werkzeug": "Wasser an den Eckventilen absperren. Innensechskant für die Hebelschraube, für die Spannschraube der passende Kludi-Spannschraubenschlüssel oder ein Maulschlüssel, Armaturenfett.",
-   "amazon_asin": null,
+   "amazon_asin": "B01M5J2U2N",
    "quellen": [
     "https://assets.heizung-billiger.de/documents/kldb_7412900-00.pdf",
-    "https://www.megabad.com/hersteller-kludi-ersatzteile-ersatzkartusche-k41-niederdruck-a-202914.htm"
+    "https://www.megabad.com/hersteller-kludi-ersatzteile-ersatzkartusche-k41-niederdruck-a-202914.htm",
+    "https://www.amazon.de/dp/B01M5J2U2N"
    ]
   },
   {
@@ -1068,15 +1069,16 @@
    "oem_nummer": "7522200-00",
    "ean": null,
    "masse": {},
-   "beschreibung": "Oberteil für den Geräteabgang von Spültisch-Multi-Einhandmischern, an den Spül- oder Waschmaschine angeschlossen wird. Laut der Kludi-Ersatzteilliste zur MX 399060562 sitzt es dort zusammen mit dem Multi-Adapter 74097.",
-   "preis_spanne": "ca. 20 € (megabad), November 2026",
+   "beschreibung": "Oberteil für den Geräteabgang von Spültisch-Multi-Einhandmischern, an den Spül- oder Waschmaschine angeschlossen wird, mit Anschlussgewinde G 1/2 und Keramikscheiben. Laut der Kludi-Ersatzteilliste zur MX 399060562 sitzt es dort zusammen mit dem Multi-Adapter 74097.",
+   "preis_spanne": "ca. 26 € (Amazon), 20 € (megabad), November 2026",
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
    "dauer_min": 20,
    "werkzeug": "Wasser absperren, Griff des Geräteventils abnehmen, Oberteil mit einem Maulschlüssel herausdrehen.",
-   "amazon_asin": null,
+   "amazon_asin": "B00D0SO79O",
    "quellen": [
+    "https://www.amazon.de/dp/B00D0SO79O",
     "https://www.megabad.com/hersteller-kludi-ersatzteile-multi-oberteil-a-219955.htm",
     "https://www.dasheimwerkerforum.de/threads/kludi-mx-399060562-spueltischarmatur.17291/"
    ]
@@ -1362,14 +1364,15 @@
    "ean": "4021344066244",
    "masse": {},
    "beschreibung": "Dichtungssatz für den Spültisch-Einhandmischer Zenta.",
-   "preis_spanne": null,
+   "preis_spanne": "ca. 15 € (Amazon), November 2026",
    "verschleissteil": true,
    "selbst_tauschbar": true,
    "schwierigkeit": 2,
    "dauer_min": 30,
    "werkzeug": "Wasser an den Eckventilen absperren. Innensechskant für die Hebelschraube, für die Spannschraube der passende Kludi-Spannschraubenschlüssel oder ein Maulschlüssel, Armaturenfett.",
-   "amazon_asin": null,
+   "amazon_asin": "B01GVPO26A",
    "quellen": [
+    "https://www.amazon.de/dp/B01GVPO26A",
     "https://www.galaxus.de/de/s4/product/kludi-dichtungssatz-zenta-spueltisch-neutral-zubehoer-sanitaerinstallation-58059143"
    ]
   }
@@ -1546,9 +1549,9 @@
   {
    "serie_slug": "mx",
    "teil_slug": "kludi-kartusche-7412900",
-   "hinweis": "megabad: Ersatzkartusche K41 Niederdruck „passend für Kludi MX Küchenarmaturen Niederdruck“",
+   "hinweis": "megabad: Ersatzkartusche K41 Niederdruck „passend für Kludi MX Küchenarmaturen Niederdruck“; Amazon: Niederdruck-Kartusche Ø 41 mm „für KLUDI Armaturen der Serien MX“",
    "quelle_url": "https://www.megabad.com/hersteller-kludi-ersatzteile-ersatzkartusche-k41-niederdruck-a-202914.htm",
-   "sicherheit": "eine_quelle"
+   "sicherheit": "zwei_quellen"
   },
   {
    "serie_slug": "mx",
