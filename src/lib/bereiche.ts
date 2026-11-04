@@ -38,7 +38,7 @@ export const BEREICHE: Bereich[] = [
     kurz: "Armatur tropft, Hebel geht schwer, Strahl spritzt.",
     einleitung:
       "Am Waschtisch geht fast immer dasselbe kaputt: die Kartusche, wenn die Armatur tropft oder der Hebel schwer geht, und der Strahlregler, wenn der Strahl spritzt. Die passende Kartusche hängt am Modell der Armatur, nicht am Durchmesser allein.",
-    produkttypen: ["waschtischarmatur"],
+    produkttypen: ["waschtischarmatur", "waschtisch"],
     teiltypen: ["kartusche", "strahlregler", "dichtung", "betaetigung"],
     // Küchenmarken gehören zur Küche, auch wenn dort eine Armatur tropft.
     probleme: /^(?!blanco|franke).*(armatur-tropft|hebel|strahlregler|ceramix)/,
@@ -71,9 +71,9 @@ export const BEREICHE: Bereich[] = [
     kurz: "Spülkasten läuft nach, füllt nicht, Taste hängt.",
     einleitung:
       "Am Spülkasten sind es zwei Teile: das Füllventil, wenn er nicht oder nur langsam füllt, und das Spülventil mit Dichtung, wenn Wasser nachläuft. Welche passen, hängt an Hersteller und Baujahr des Spülkastens.",
-    produkttypen: ["spuelkasten", "betaetigungsplatte", "druckspueler"],
-    teiltypen: ["fuellventil", "spuelventil", "betaetigungsplatte", "umbauset", "dichtung"],
-    probleme: /spuelkasten|spuelung/,
+    produkttypen: ["spuelkasten", "betaetigungsplatte", "druckspueler", "wc_sitz"],
+    teiltypen: ["fuellventil", "spuelventil", "betaetigungsplatte", "umbauset", "dichtung", "scharnier", "absenkautomatik"],
+    probleme: /spuelkasten|spuelung|wc-sitz|absenkautomatik/,
     ratgeber: ["geberit-sigma-drueckerplatte", "vorwandelement-wc", "vorwandelement-wc-hoehe", "tece-vs-geberit"],
     neukauf: {
       ratgeber: "geberit-sigma-drueckerplatte",
@@ -142,6 +142,8 @@ export const TEILTYP_SUCHWORT: Record<string, string> = {
   geraeteventil: "Geräteventil",
   oberteil: "Oberteil",
   filter: "Filter",
+  scharnier: "Scharnier",
+  absenkautomatik: "Soft-Clos",
 };
 
 /** Passt ein Teil in Serien mehrerer Bereiche, zählt der Bereich mit den meisten Serien. */
