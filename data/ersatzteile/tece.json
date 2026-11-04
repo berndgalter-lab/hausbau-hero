@@ -1,0 +1,1616 @@
+{
+ "marke": {
+  "slug": "tece",
+  "name": "TECE",
+  "beschreibung": "TECE aus Emsdetten baut Vorwandmodule mit Unterputzspülkästen (TECEprofil für den Trockenbau, TECEbox für den Nassbau, TECEbase) und die passenden Betätigungsplatten, etwa TECEnow, TECEloop, TECEsquare und TECEbase, dazu Urinalbetätigungen wie TECEfilo.\n\nFast alle TECE-WC-Module haben denselben Uni-Spülkasten mit 10 Litern Tankvolumen. Kaputt gehen vor allem das Füllventil, die Dichtung unter dem Ablaufventil und die Betätigungsstangen. Für das Füllventil gibt es ein Universal-Ersatzteil, das F 10 (9820353), das laut TECE in alle TECE-Spülkästen passt. Seit Mitte 2009 haben TECE-Spülkästen das Ablaufventil A2 (9820223), das auch das ältere A1 ersetzt.",
+  "nummer_hinweis": "Eine feste Stelle am Spülkasten, an der die Nummer steht, nennt TECE in seinen Unterlagen nicht, und in Foren finden viele Besitzer keine. Der Name auf der Drückerplatte, etwa TECEnow oder TECEloop, gehört nur zur Platte, nicht zum Kasten.\n\nWeiter hilft die Bauart. Fast alle TECE-WC-Module haben den Uni-Spülkasten: 13 cm tief, 10 Liter Tank. Sehr flache Vorwände mit 8 cm Tiefe haben den Octa II, Module mit nur 32 cm Breite den Compact 320. Nimm Platte und Spritzschutz ab und schau auf das Ablaufventil: Sitzt der Schieber für die Spülmenge auf der Rückseite, ist es das A2 (seit Mitte 2009), sitzt er unten am Ventil, das ältere A1. Für beide passt das Umrüstset A2 9820223, für das Füllventil das F 10 9820353.\n\nTECE-Nummern sind siebenstellig. Ersatzteile für die Spültechnik beginnen mit 9820, etwa 9820353. Die Module beginnen mit 9300 (TECEprofil), 9370 oder 9375 (TECEbox) und 9400 (TECEbase), WC-Platten mit 9240, Urinalplatten mit 9242. Händler schreiben die Nummern oft mit Punkten, also 9.820.353. Die Modulnummer steht auf Rechnung, Lieferschein oder in den Unterlagen des Installateurs.",
+  "ersatzteil_garantie": "TECE bestätigt, dass es für einen TECE-Unterputzspülkasten bis zu 25 Jahre ab dem Verkaufsdatum des Herstellers Ersatzteile gibt, die ihn funktionsfähig halten. Das steht in der aktuellen TECE-Broschüre Sanitärsysteme und im Faltblatt zum Uni-Spülkasten. Rechtlich ist das eine Zusage zur Verfügbarkeit, keine Garantie auf den Spülkasten.\n\nEinzelne alte Teile gibt es trotzdem nicht mehr, etwa das Dichtungsset für das frühere Füllventil F1. Dann ersetzt man die ganze Baugruppe: das Füllventil durch das F 10, das Ablaufventil A1 durch das A2.",
+  "hersteller_ersatzteil_url": "https://www.tece.com/de",
+  "quellen": [
+   "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+   "https://www.tece.com/sites/default/files/media-documents/main/2023-07/TECE_Uni_Stammkunden_SF_AT_DS03000477b_low___.pdf",
+   "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+   "https://web.archive.org/web/2020/https://www.tece.com/sites/default/files/media-documents/main/2017-05/TI_2015%20DE%20TECE-Spueltechnik.pdf",
+   "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+   "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+   "https://www.tece.com/en-gb/prefabricated-wall-modules/tecebox/installation-maintenance"
+  ],
+  "fragen": [
+   {
+    "frage": "Wie finde ich heraus, welcher TECE-Spülkasten verbaut ist, wenn keine Nummer zu finden ist?",
+    "antwort": "Der Name auf der Platte, etwa TECEnow, bezeichnet nur die Betätigung. Fast alle TECE-WC-Module haben den Uni-Spülkasten mit gleicher Innentechnik, dafür passen Füllventil F 10 und Ablaufventil A2. Abweichend gebaut sind der flache Octa-Spülkasten (8 cm), der zum Beispiel einen eigenen Füllventilhalter 9820375 hat, und der schmale Compact 320.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-laeuft-nach.34499/",
+     "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+     "https://produktdaten.tece.de/web/tece_IT/de_DE/tece/KAT03TCBOX8CM/na/$catalogue/teceData/PR/9820375/parameters/index.xhtml",
+     "https://tece.com/sites/default/files/media-documents/main/2024-02/datasheet_2024-02-09_11-24-36-871.pdf"
+    ],
+    "teile": [
+     "tece-fuellventil-f10",
+     "tece-ablaufventil-a2"
+    ]
+   },
+   {
+    "frage": "Passt eine Geberit- oder Grohe-Drückerplatte auf meinen TECE-Spülkasten?",
+    "antwort": "Dafür gibt es keine Freigabe. TECE sichert nur zu, dass jede TECE-Platte auf jede TECE-Spülkasten-Variante passt und die Platten untereinander austauschbar sind. In den Forenthreads gehen die Erfahrungen mit fremden Platten auseinander. Eine Ausnahme bei TECE selbst: Auf das TECEbase WC-Set passt laut Datenblatt nur die TECEbase-Platte.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/73065/WC-Drueckerplatte-fuer-TECE-System",
+     "https://www.energiesparhaus.at/forum-wc-betaetigungsplatten/39538",
+     "https://www.tece.com/de/newsblog/jede-platte-passt-auf-jeden-spuelkasten",
+     "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9400400_Datenblatt.pdf"
+    ],
+    "teile": [
+     "tece-tecebase-weiss"
+    ]
+   },
+   {
+    "frage": "Passt das neue TECE-Ablaufventil A2 in einen alten Spülkasten mit A1?",
+    "antwort": "Ja. TECE schreibt, dass das A2 voll kompatibel zum A1 ist, das bis Mitte 2009 eingebaut wurde. Im Umrüstset 9820223 sind A2, Betätigungshebel, zwei Drosseln und Ventilsitz. Die Betätigungshebel werden mit getauscht, alter Ventilsitz und Dichtung kommen weg.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.haustechnikdialog.de/forum/t/154999/problem-sparspueltaste-ohne-korrekte-funktion-tece-ablaufventil-a1",
+     "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+     "https://web.archive.org/web/2020/https://www.tece.com/sites/default/files/media-documents/main/2017-05/TI_2015%20DE%20TECE-Spueltechnik.pdf"
+    ],
+    "teile": [
+     "tece-ablaufventil-a2"
+    ]
+   },
+   {
+    "frage": "Mein TECE-Spülkasten läuft nach dem Spülen weiter und hört erst auf, wenn ich die Taste noch einmal drücke. Was muss ich tauschen?",
+    "antwort": "Meist schließt das Ablaufventil nicht mehr dicht, weil Fußdichtung oder Ventilsitz verkalkt oder verschmutzt sind. Alles lässt sich durch die Öffnung hinter der Platte ausbauen, laut TECE kann die ganze Technikeinheit mit Hebelmechanik herausgenommen werden. Hilft Reinigen nicht, kommen die Fußdichtung 9820233 oder das Umrüstset A2 9820223 hinein, das auch das alte A1 ersetzt. Prüfe vorher, ob Wasser über den Überlauf abfließt: Dann liegt es am Füllventil.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-laeuft-nach.34499/",
+     "https://www.gutefrage.net/frage/tece-toiletten-spuelung-laeuft-komplett-durch-und-stoppt-nicht",
+     "https://www.tece.com/de/sanitaermodule/tece-universalspuelkasten/montage-wartung",
+     "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf"
+    ],
+    "teile": [
+     "tece-fussdichtung-ablaufventil-a2",
+     "tece-ablaufventil-a2"
+    ],
+    "problem": "tece-spuelkasten-laeuft-nach"
+   },
+   {
+    "frage": "Wie stelle ich beim TECE-Spülkasten die Spülmenge ein?",
+    "antwort": "Beim Ablaufventil A2 sitzt ein Schieber auf der Rückseite des Ventils, die Werte 4,5, 6, 7,5 und 9 Liter sind dort markiert. Ab Werk sind 6 Liter eingestellt, die kleine Spülung bleibt immer bei 3 Litern. Beim älteren A1 sitzt der Schieber unten am Ventil. Kommt nach einem Ventiltausch bei der großen Taste zu wenig Wasser, steht der Schieber oft auf 4,5 Liter.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-laeuft-nach.34499/",
+     "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+     "https://web.archive.org/web/2020/https://www.tece.com/sites/default/files/media-documents/main/2017-05/TI_2015%20DE%20TECE-Spueltechnik.pdf",
+     "https://www.tece.com/de/sanitaermodule/tece-universalspuelkasten/montage-wartung"
+    ],
+    "teile": [
+     "tece-ablaufventil-a2"
+    ],
+    "problem": "tece-spuelung-zu-schwach-oder-spritzt"
+   },
+   {
+    "frage": "Bei meiner TECE-Spülung kommt auch bei der Spartaste die volle Wassermenge. Woran liegt das?",
+    "antwort": "Im Forum wurden zwei Ursachen gefunden: zu wenig Wasser im Kasten und eine schwergängige Platte. Laut TECE soll das Wasser bis zur oberen Markierung am Überlauf des Ablaufventils reichen, die Höhe stellt man an der Spindel des Füllventils ein. Zum Eingrenzen die Platte abnehmen und die kleine Spülung direkt an der Mechanik auslösen. Stimmt die Menge dann, liegt es an Platte oder Betätigungsstangen.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.haustechnikdialog.de/forum/t/154999/problem-sparspueltaste-ohne-korrekte-funktion-tece-ablaufventil-a1",
+     "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf"
+    ],
+    "teile": [
+     "tece-fuellventil-f10",
+     "tece-betaetigungsstangen-2003-2020"
+    ],
+    "problem": "tece-spuelung-zu-schwach-oder-spritzt"
+   },
+   {
+    "frage": "Wie bekomme ich die TECE-Betätigungsplatte ab, ohne etwas abzubrechen?",
+    "antwort": "Die Blende ist in einen Befestigungsrahmen eingerastet. TECE beschreibt, sie mit dem Demontagewerkzeug oder vorsichtig mit einem Schraubendreher an den Aussparungen an der Unterseite abzuhebeln. Glasplatten wie TECEloop Glas oder TECEsquare Glas löst man mit den Bügelgriffen mit Saugnäpfen. Dahinter sitzen Befestigungsrahmen und Spritzschutz mit der Hebelmechanik.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/252225/Wie-kann-ich-die-Spueltaste-bei-meinen-Unterputzspuelkasten-entfernen",
+     "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Bet%C3%A4tigungen.pdf",
+     "https://web.archive.org/web/2020/https://www.tece.com/sites/default/files/media-documents/main/2017-05/TI_2015%20DE%20TECE-Spueltechnik.pdf"
+    ],
+    "teile": [
+     "tece-betaetigungsbock"
+    ]
+   },
+   {
+    "frage": "Mein TECE-Spülkasten füllt sich nur noch sehr langsam. Muss das Füllventil raus, und welches passt?",
+    "antwort": "Oft reicht Reinigen: TECE nennt das Einströmelement und die Membran des Pilotventils als Teile, die man ausbaut und unter fließendem Wasser abspült. Vorher prüfen, ob das Eckventil ganz offen ist. Als Ersatz passt das Füllventil F 10 (9820353) laut TECE in alle TECE-Spülkästen.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-wird-nur-langsam-befuellt-zuleitung-undicht.19532/",
+     "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+     "https://www.tece.com/de/magazin/tecenews/fuellventil-f10-passt-immer"
+    ],
+    "teile": [
+     "tece-fuellventil-f10"
+    ],
+    "problem": "tece-spuelkasten-fuellt-nicht"
+   },
+   {
+    "frage": "Am TECE-Spülkasten läuft trotz Entkalken eine dünne Spur in die Schüssel. Was ist noch undicht?",
+    "antwort": "Meist liegt die Glocke des Ablaufventils nicht mehr sauber im Ventilsitz, wegen Kalkresten am Sitz oder einer harten Fußdichtung. Fußdichtung 9820233 und O-Ring 9820005 gibt es einzeln. Beim Umrüstset A2 liefert TECE einen neuen Ventilsitz mit, der alte Sitz mit Dichtung soll laut TECE weg.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.bauexpertenforum.de/threads/hilfe-tece-unterputzspuelkasten-undicht.141175/",
+     "https://www.dasheimwerkerforum.de/threads/problem-mit-wc-spuelkasten.9321/",
+     "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+     "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf"
+    ],
+    "teile": [
+     "tece-fussdichtung-ablaufventil-a2",
+     "tece-o-ring-ventilsitz",
+     "tece-ablaufventil-a2"
+    ],
+    "problem": "tece-spuelkasten-laeuft-nach"
+   },
+   {
+    "frage": "Das TECE-Urinal läuft ständig nach. Welche Kartusche brauche ich?",
+    "antwort": "Beim Urinalspüler U 1 mit manueller Platte ist es die Druckspülerkartusche 9820031. Vor dem Tausch die Vorabsperrung im Spülergehäuse schließen: laut TECE mit einem 3-mm-Innensechskant, eine Vierteldrehung gegen den Uhrzeigersinn. Für elektronische U-1-Spüler gibt es eine eigene elektronische Kartusche.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://spuelkasten-ersatzteile.de/tece/tece-spuelkasten-ersatzteile-tauschen-oder-entkalken/#comment-3153",
+     "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+     "https://documents.pdod.de/tece/tcdb_9242402_de.pdf",
+     "https://haustechnikhamburg.de/shop/tece-urinal-druckspueler-kartusche-9820031/"
+    ],
+    "teile": [
+     "tece-druckspuelerkartusche-u1"
+    ]
+   },
+   {
+    "frage": "Die Spülung am TECE-Spülkasten ist zu schwach oder das spülrandlose WC spritzt. Lässt sich das einstellen?",
+    "antwort": "Ja, über die Drossel im Ventilsitz des Ablaufventils. Das Drosselset 9820337 hat acht Drosseln von 46 mm (etwa 115 % Spüldruck) bis 28 mm (etwa 65 %): kleiner gegen Spritzen, größer oder ganz ohne gegen schwaches Spülen. Kästen ab September 2023 haben eine Spülstromdrossel, die man an einer Spindel verstellt. Außerdem lässt sich die Spülmenge zwischen 4,5 und 9 Litern wählen.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-laeuft-nach.34499/",
+     "https://www.gutefrage.net/frage/wandtoilettenspuelkasten-der-wasserdruck-beim-spuelen-ist-sehr-schwach",
+     "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+     "https://documents.pdod.de/tece/tcdb_9820337_de.pdf",
+     "https://www.tece.com/sites/default/files/media-documents/main/2023-07/TECE_Uni_Stammkunden_SF_AT_DS03000477b_low___.pdf"
+    ],
+    "teile": [
+     "tece-drosselset",
+     "tece-ventilsitz-spuelstromdrossel"
+    ],
+    "problem": "tece-spuelung-zu-schwach-oder-spritzt"
+   },
+   {
+    "frage": "Die Hutmembran im TECE-Füllventil ist gerissen. Gibt es die einzeln?",
+    "antwort": "Für das F 10 führt TECE das Dichtungsset 9820383 und das Ventilhebelset 9820382. Für das ältere F1 gab es das Dichtungsset 9820009, es ist aber kaum noch lieferbar. Dann ist ein neues F 10 der einfachere Weg, es kostet bei Amazon um 20 Euro.",
+    "kategorie": "verfuegbarkeit",
+    "quellen": [
+     "https://www.dasheimwerkerforum.de/threads/fuellventil-tece.34558/",
+     "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+     "https://www.pdod.de/de/articles/tece/9820009",
+     "https://www.amazon.de/dp/B074HC9Z2X"
+    ],
+    "teile": [
+     "tece-fuellventil-f10-dichtungsset",
+     "tece-fuellventil-f10-ventilhebelset",
+     "tece-fuellventil-f1-dichtungsset",
+     "tece-fuellventil-f10"
+    ],
+    "problem": "tece-spuelkasten-fuellt-nicht"
+   },
+   {
+    "frage": "Bekommt man für einen 10 bis 20 Jahre alten TECE-Spülkasten noch Ersatzteile?",
+    "antwort": "In der Regel ja. TECE bestätigt, dass es für Unterputzspülkästen bis zu 25 Jahre ab Verkaufsdatum Ersatzteile gibt. Füllventil F 10 und Ablaufventil A2 ersetzen auch die älteren Ventile F1 und A1. Einzelne Kleinteile alter Ventile, etwa das F1-Dichtungsset, sind aber nicht mehr lieferbar.",
+    "kategorie": "verfuegbarkeit",
+    "quellen": [
+     "https://www.haustechnikdialog.de/forum/t/131192/Tece-Vorwand-mit-Geberit-Spuelkasten-",
+     "https://www.tece.com/de/sanitaermodule/tece-universalspuelkasten/montage-wartung",
+     "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+     "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf"
+    ],
+    "teile": [
+     "tece-fuellventil-f10",
+     "tece-ablaufventil-a2",
+     "tece-fuellventil-f1-dichtungsset"
+    ]
+   },
+   {
+    "frage": "Kann ich den TECE-Spülkasten mit Tabs oder Essig entkalken, oder muss ich die Teile ausbauen?",
+    "antwort": "In den Forenthreads half Einlegen allein meist nicht. Besser ist, Ablaufventil, Ventilsitz und Füllventil auszubauen und mechanisch zu reinigen. Für das Füllventil beschreibt TECE, Einströmelement und Membran des Pilotventils auszubauen und unter fließendem Wasser zu reinigen. Stark verkalkte Dichtungen tauscht man besser.",
+    "kategorie": "pflege",
+    "quellen": [
+     "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-laeuft-nach.34499/",
+     "https://www.bauexpertenforum.de/threads/hilfe-tece-unterputzspuelkasten-undicht.141175/",
+     "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf"
+    ],
+    "teile": [
+     "tece-fussdichtung-ablaufventil-a2",
+     "tece-fuellventil-f10-dichtungsset"
+    ],
+    "problem": "tece-spuelkasten-laeuft-nach"
+   }
+  ]
+ },
+ "serien": [
+  {
+   "slug": "uni-spuelkasten",
+   "name": "TECE Uni-Spülkasten (TECEprofil und TECEbox, 13 cm)",
+   "produkttyp": "spuelkasten",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "9820100",
+    "9820101",
+    "9820103",
+    "9300300",
+    "9300313",
+    "9300322",
+    "9370300",
+    "9375300"
+   ],
+   "erkennungsmerkmale": "Spülkasten 13 cm tief mit 10 Litern Tankvolumen. Die große Spülmenge lässt sich am Schieber auf der Rückseite des Ablaufventils auf 4,5, 6, 7,5 oder 9 Liter stellen, die kleine ist 3 Liter. Der Spülkasten selbst hat je nach Bauhöhe eine eigene Ersatzteilnummer: 9820100 (820 mm), 9820101 (980 mm), 9820103 (1120 mm). Die Module tragen Nummern mit 9300 (TECEprofil) oder 9370 und 9375 (TECEbox).",
+   "beschreibung": "Der Standard-Spülkasten in fast allen TECE-WC-Modulen. Laut TECE hat er immer dieselbe Innentechnik und passt zu allen TECE-Betätigungsplatten. Seit Mitte 2009 ist das Ablaufventil A2 eingebaut, seit 2021 die werkzeuglose Plattenmontage „easy fit“ mit eigenen Betätigungsstangen, seit September 2023 eine Spülstromdrossel, die sich ohne Ausbau des Ablaufventils einstellen lässt.",
+   "quellen": [
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2023-07/TECE_Uni_Stammkunden_SF_AT_DS03000477b_low___.pdf",
+    "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9300300_Datenblatt.pdf",
+    "https://assets.heizung-billiger.de/documents/tcdb_9370300_de.pdf",
+    "https://assets.heizung-billiger.de/documents/tcdb_9375300_de.pdf"
+   ]
+  },
+  {
+   "slug": "spuelkasten-mit-ablaufventil-a1",
+   "name": "Älterer TECE-Spülkasten mit Ablaufventil A1 (bis Mitte 2009)",
+   "produkttyp": "spuelkasten",
+   "baujahr_von": null,
+   "baujahr_bis": 2009,
+   "kennnummern": [
+    "Ablaufventil A1"
+   ],
+   "erkennungsmerkmale": "Die Spülmenge wird beim A1 an einem Schieber im unteren Bereich des Ventils eingestellt, beim A2 an der Rückseite. Laut TECE-Unterlagen von 2015 hatte das A1 die Spülmengen 6 oder 9 Liter und 3 Liter.",
+   "beschreibung": "TECE hat das Ablaufventil A1 bis Mitte 2009 in seine Spülkästen eingebaut. Als Ersatz gibt es das A2 als Umrüstset 9820223, das laut TECE voll kompatibel ist. Dabei werden auch die Betätigungshebel getauscht, der alte Ventilsitz mit Dichtung kommt weg.",
+   "quellen": [
+    "https://web.archive.org/web/2020/https://www.tece.com/sites/default/files/media-documents/main/2017-05/TI_2015%20DE%20TECE-Spueltechnik.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf"
+   ]
+  },
+  {
+   "slug": "base-spuelkasten",
+   "name": "TECE Base-Spülkasten (TECEbase WC-Set)",
+   "produkttyp": "spuelkasten",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "9400400",
+    "9400401",
+    "9820467"
+   ],
+   "erkennungsmerkmale": "TECEbase-Modul mit 10 Litern Tankvolumen und 3-Wege-Eckhahn, Wasseranschluss oben. Im Set 9400400 ist die TECEbase-Platte weiß enthalten.",
+   "beschreibung": "Einfacheres Modul aus der TECEbase-Reihe. Ablaufventil A2, Drosselset und Ventilsitz mit Spülstromdrossel sind laut TECE für Uni- und Base-Spülkästen gedacht. Im Datenblatt des Sets 9400400 steht, dass nur die mitgelieferte TECEbase-Platte passt.",
+   "quellen": [
+    "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9400400_Datenblatt.pdf",
+    "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+    "https://documents.pdod.de/tece/tcdb_9820337_de.pdf",
+    "https://documents.pdod.de/tece/tcdb_9820670_de.pdf"
+   ]
+  },
+  {
+   "slug": "octa-ii-8-cm",
+   "name": "TECE Octa II Spülkasten (8 cm)",
+   "produkttyp": "spuelkasten",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "9820565",
+    "9300500",
+    "9300505",
+    "9370500"
+   ],
+   "erkennungsmerkmale": "Nur 8 cm tief, 7 Liter Tankvolumen, Wasseranschluss oben. Standardspülmenge 6 Liter, einstellbar auf 4,5 Liter, Teilspülung 3 Liter.",
+   "beschreibung": "Flacher Spülkasten für schmale Vorwände, im TECEprofil-Modul 9300505 und als TECEbox-Variante. Laut TECE passen alle TECE-Betätigungsplatten, Montage mit „easy fit“. Im Datenblatt stehen Spülkasten, Spülrohr und Spülrohrdichtung als Ersatzteile, eine eigene Nummer für Füll- oder Ablaufventil nennt TECE dort nicht.",
+   "quellen": [
+    "https://tece.com/sites/default/files/media-documents/main/2024-02/datasheet_2024-02-09_11-24-36-871.pdf",
+    "https://documents.pdod.de/tece/tcdb_9300500_de_ch.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2026-08/TECEbox%20Octa%20II%20cistern%2C%208%20cm%20UK%20Datasheet.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf"
+   ]
+  },
+  {
+   "slug": "compact-320",
+   "name": "TECE Compact 320 Spülkasten (schmales Modul)",
+   "produkttyp": "spuelkasten",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "9820107",
+    "9300600"
+   ],
+   "erkennungsmerkmale": "Modul nur 320 mm breit, 7 Liter Tankvolumen, 3-Wege-Eckhahn, Wasseranschluss oben.",
+   "beschreibung": "Spülkasten für schmale oder verwinkelte Bäder. Spülmengen wie beim Octa II: 6 Liter voreingestellt, 4,5 Liter einstellbar, Teilspülung 3 Liter.",
+   "quellen": [
+    "https://www.tece.com/sites/default/files/media-documents/main/2023-02/9300600_Datenblatt_TECEprofil_Compact-320.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf"
+   ]
+  },
+  {
+   "slug": "tecenow",
+   "name": "TECEnow Betätigungsplatte",
+   "produkttyp": "betaetigungsplatte",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "9240400",
+    "9240403"
+   ],
+   "erkennungsmerkmale": "Sehr flache Kunststoffplatte, nur 5 mm Aufbau, zwei große rechteckige Tasten, 220 x 150 mm.",
+   "beschreibung": "Zweimengen-Platte für Betätigung von vorne oder oben. Die Betätigungsstangen gibt es in zwei Ausführungen: 9820022 für Kästen von 2003 bis 2020 und 9820498 „easy fit“ ab 2021.",
+   "quellen": [
+    "https://documents.pdod.de/tece/tcdb_9240400_de.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf"
+   ]
+  },
+  {
+   "slug": "teceloop",
+   "name": "TECEloop Betätigungsplatte (Kunststoff und Glas)",
+   "produkttyp": "betaetigungsplatte",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "9240600",
+    "9240650",
+    "9240924",
+    "9240925"
+   ],
+   "erkennungsmerkmale": "Zwei runde, gefederte Tasten. Kunststoff 216 x 145 x 6 mm (9240600) oder Glas 220 x 150 x 11 mm (9240650).",
+   "beschreibung": "TECEloop gibt es als fertige Platte und im Baukasten mit frei kombinierbaren Blenden und Tasten. Betätigungsstangen wie bei TECEnow: 9820022 bis 2020, 9820498 ab 2021.",
+   "quellen": [
+    "https://documents.pdod.de/tece/tcdb_9240650_de.pdf",
+    "https://www.pdod.de/de/articles/tece/9240600",
+    "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+    "https://www.amazon.de/dp/B0030YUQ52"
+   ]
+  },
+  {
+   "slug": "tecesquare",
+   "name": "TECEsquare Betätigungsplatte (Glas und Metall)",
+   "produkttyp": "betaetigungsplatte",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "9240800",
+    "9240801",
+    "9240830"
+   ],
+   "erkennungsmerkmale": "Zwei eckige Wippen statt runder Tasten. Glas 220 x 150 x 11 mm (9240800) oder TECEsquare II Metall, nur 3 mm flach (9240830).",
+   "beschreibung": "Die Glasvariante hat eigene Tastenfedern (9820253) und Tasten (9820557). Betätigungsstangen 9820022 bis 2020, 9820498 ab 2021.",
+   "quellen": [
+    "https://documents.pdod.de/tece/tcdb_9240800_de.pdf",
+    "https://documents.pdod.de/tece/tcdb_9240830_de.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf"
+   ]
+  },
+  {
+   "slug": "tecebase-platte",
+   "name": "TECEbase Betätigungsplatte",
+   "produkttyp": "betaetigungsplatte",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "9240700"
+   ],
+   "erkennungsmerkmale": "Einfache Kunststoffplatte 214 x 145 x 18 mm, zwei Tasten, weiß glänzend.",
+   "beschreibung": "Günstige Zweimengen-Platte, auch im TECEbase WC-Set enthalten. Ersatzteile sind das Tastenset 9820241, die Tastenfedern 9820020 und die Betätigungsstangen.",
+   "quellen": [
+    "https://www.pdod.de/de/articles/tece/9240700",
+    "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9400400_Datenblatt.pdf"
+   ]
+  },
+  {
+   "slug": "teceambia",
+   "name": "TECEambia Betätigungsplatte",
+   "produkttyp": "betaetigungsplatte",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "9240200"
+   ],
+   "erkennungsmerkmale": "Kunststoffplatte 214 x 152 x 22 mm mit beidseitig gummigepufferten Tasten.",
+   "beschreibung": "Ältere Platte, die TECE 2017 noch in der Übersicht führte. Im Großhandelsportal pdod steht sie als nicht mehr lieferbar, bei Amazon gibt es sie noch.",
+   "quellen": [
+    "https://www.pdod.de/de/articles/tece/9240200",
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+    "https://www.amazon.de/dp/B0030YL1Y2"
+   ]
+  },
+  {
+   "slug": "urinal",
+   "name": "TECE Urinalbetätigung (Urinalspüler U 1 und TECEfilo U 2)",
+   "produkttyp": "betaetigungsplatte",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "9242402",
+    "9242600",
+    "9242654",
+    "9242435"
+   ],
+   "erkennungsmerkmale": "Manuelle Urinalplatten (TECEnow, TECEloop, TECEsolid Urinal) sitzen auf dem Druckspülergehäuse U 1 und werden mit Druckspülerkartusche geliefert. TECEfilo ist eine schmale Sensorplatte für das Spülergehäuse U 2.",
+   "beschreibung": "Beim U 1 steckt die Technik in der Druckspülerkartusche 9820031. Die Spülmenge stellt man mit einem Sicherungsring auf 1, 2 oder 4 Liter ein, ohne Ring auf 6 bis 8 Liter. Im Spülergehäuse sitzt eine Vorabsperrung, die man mit einem 3-mm-Innensechskant schließt.",
+   "quellen": [
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+    "https://documents.pdod.de/tece/tcdb_9242402_de.pdf",
+    "https://www.pdod.de/de/articles/tece/9820031",
+    "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf"
+   ]
+  }
+ ],
+ "teile": [
+  {
+   "slug": "tece-fuellventil-f10",
+   "name": "TECE Füllventil F 10 Universal",
+   "teiltyp": "fuellventil",
+   "oem_nummer": "9820353",
+   "ean": "4027255058743",
+   "masse": {
+    "anschluss": "3/8 Zoll Metallgewinde, Überwurfmutter M30",
+    "fliessdruck_bar": "0,5–10"
+   },
+   "beschreibung": "Universal-Füllventil für alle TECE-Spülkästen und laut TECE für viele Unter- und Aufputzkästen anderer Hersteller, etwa Geberit Sigma, Delta, Kappa und Omega, Grohe/DAL 320 bis 337, Sanit, Viega und Friatec. Im Lieferumfang sind Überwurfmutter M30, Gewindenippel 3/8 Zoll, ein Grohe-Adapter und eine Befestigungsmutter. Füllhöhe und Auslaufrohr sind einstellbar, Armaturengruppe I nach DIN 4109. In den TECE-Unterlagen von 2015 heißt das Standard-Füllventil noch F1, ab 2017 ist das F 10 das Ersatzteil.",
+   "preis_spanne": "ca. 18–20 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Eckventil im Spülkasten schließen, Betätigungsplatte abnehmen und Spritzschutz mit Betätigungsbock herausnehmen. Eimer und Tuch bereithalten.",
+   "amazon_asin": "B074HC9Z2X",
+   "quellen": [
+    "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+    "https://web.archive.org/web/2020/https://www.tece.com/sites/default/files/media-documents/main/2017-05/TI_2015%20DE%20TECE-Spueltechnik.pdf",
+    "https://www.galaxus.de/de/s4/product/tece-fuellventil-f10-ventil-33048066",
+    "https://www.amazon.de/dp/B074HC9Z2X"
+   ]
+  },
+  {
+   "slug": "tece-fuellventil-f10-dichtungsset",
+   "name": "TECE Dichtungsset für Füllventil F 10",
+   "teiltyp": "dichtung",
+   "oem_nummer": "9820383",
+   "ean": "4027255058590",
+   "beschreibung": "Dichtungen für das Füllventil F 10. Hilft, wenn das Ventil nicht mehr ganz schließt und Wasser über den Überlauf nachläuft.",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Eckventil im Spülkasten schließen, Betätigungsplatte abnehmen und Spritzschutz mit Betätigungsbock herausnehmen. Eimer und Tuch bereithalten.",
+   "amazon_asin": "B07XT3X5F8",
+   "quellen": [
+    "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+    "https://www.pdod.de/de/articles/tece/9820383",
+    "https://www.ean-search.org/?q=TECE+9820383",
+    "https://www.amazon.de/dp/B07XT3X5F8"
+   ],
+   "masse": {},
+   "preis_spanne": null
+  },
+  {
+   "slug": "tece-fuellventil-f10-ventilhebelset",
+   "name": "TECE Ventilhebelset für Füllventil F 10",
+   "teiltyp": "fuellventil",
+   "oem_nummer": "9820382",
+   "ean": "4027255058583",
+   "beschreibung": "Hebel und Schwimmermechanik des F 10 als Ersatzteil, laut TECE-Datenblatt Position 1 der Ersatzteilliste.",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Eckventil im Spülkasten schließen, Betätigungsplatte abnehmen und Spritzschutz mit Betätigungsbock herausnehmen. Eimer und Tuch bereithalten.",
+   "amazon_asin": "B07GWCSL2M",
+   "quellen": [
+    "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+    "https://www.ean-search.org/?q=TECE+9820382",
+    "https://www.amazon.de/dp/B07GWCSL2M"
+   ],
+   "masse": {},
+   "preis_spanne": null
+  },
+  {
+   "slug": "tece-fuellventil-f1-dichtungsset",
+   "name": "TECE Dichtungsset für Füllventil F1",
+   "teiltyp": "dichtung",
+   "oem_nummer": "9820009",
+   "beschreibung": "Dichtungsset für das ältere TECE-Füllventil F1. Im Großhandelsportal pdod und bei eBay steht es als nicht lieferbar. Bekommt man es nicht mehr, ersetzt man das ganze Ventil durch das F 10, das in alle TECE-Spülkästen passt.",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Eckventil im Spülkasten schließen, Betätigungsplatte abnehmen und Spritzschutz mit Betätigungsbock herausnehmen. Eimer und Tuch bereithalten.",
+   "quellen": [
+    "https://www.pdod.de/de/articles/tece/9820009",
+    "https://www.ebay.de/p/1482882418",
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf"
+   ],
+   "masse": {},
+   "preis_spanne": null,
+   "ean": null,
+   "amazon_asin": null
+  },
+  {
+   "slug": "tece-ablaufventil-a2",
+   "name": "TECE Ablaufventil A2 (Umrüstset)",
+   "teiltyp": "spuelventil",
+   "oem_nummer": "9820223",
+   "ean": "4027255023741",
+   "masse": {
+    "spuelmenge_l": "4,5 / 6 / 7,5 / 9 und 3"
+   },
+   "beschreibung": "Ablaufventil für Uni- und Base-Spülkästen, mit Ventilsitz, Drosseln rot und blau und Betätigungshebeln. Seit Mitte 2009 eingebaut und laut TECE voll kompatibel zum Vorgänger A1. Die Spülmenge stellt man am Schieber auf der Rückseite ein.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Eckventil im Spülkasten schließen, Betätigungsplatte abnehmen und Spritzschutz mit Betätigungsbock herausnehmen. Eimer und Tuch bereithalten.",
+   "amazon_asin": "B00D928OF4",
+   "quellen": [
+    "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+    "https://web.archive.org/web/2020/https://www.tece.com/sites/default/files/media-documents/main/2017-05/TI_2015%20DE%20TECE-Spueltechnik.pdf",
+    "https://www.pdod.de/de/articles/tece/9820223",
+    "https://www.galaxus.de/de/s4/product/tece-a2-ablaufventil-ventil-21470158",
+    "https://www.amazon.de/dp/B00D928OF4"
+   ]
+  },
+  {
+   "slug": "tece-fussdichtung-ablaufventil-a2",
+   "name": "TECE Fußdichtung (Glockendichtung) für Ablaufventil A2",
+   "teiltyp": "dichtung",
+   "oem_nummer": "9820233",
+   "ean": "4027255023826",
+   "beschreibung": "Dichtung unten am Ablaufventil A2, die den Spülkasten zum WC hin abdichtet. Ist sie verkalkt, verschmutzt oder hart, läuft Wasser ins Becken nach.",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 20,
+   "werkzeug": "Eckventil im Spülkasten schließen, Betätigungsplatte abnehmen und Spritzschutz mit Betätigungsbock herausnehmen. Eimer und Tuch bereithalten.",
+   "amazon_asin": "B00D91ZAV6",
+   "quellen": [
+    "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+    "https://www.pdod.de/de/articles/tece/9820223",
+    "https://www.ean-search.org/?q=TECE+9820233",
+    "https://www.amazon.de/dp/B00D91ZAV6"
+   ],
+   "masse": {},
+   "preis_spanne": null
+  },
+  {
+   "slug": "tece-ventilsitz-standarddrossel",
+   "name": "TECE Ventilsitz mit Standarddrossel für Ablaufventil A2",
+   "teiltyp": "spuelventil",
+   "oem_nummer": "9820231",
+   "ean": "4027255023802",
+   "beschreibung": "Ventilsitz unter dem Ablaufventil A2 mit eingesetzter Standarddrossel. Laut TECE-Datenblatt hat die Drossel 36 mm, der Amazon-Titel nennt 42 mm (siehe Widersprüche). Neuere Kästen haben stattdessen den Ventilsitz mit einstellbarer Spülstromdrossel.",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Eckventil im Spülkasten schließen, Betätigungsplatte abnehmen und Spritzschutz mit Betätigungsbock herausnehmen. Eimer und Tuch bereithalten.",
+   "amazon_asin": "B01HKIHWVE",
+   "quellen": [
+    "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+    "https://www.ean-search.org/?q=TECE+9820231",
+    "https://www.amazon.de/dp/B01HKIHWVE"
+   ],
+   "masse": {},
+   "preis_spanne": null
+  },
+  {
+   "slug": "tece-ventilsitz-spuelstromdrossel",
+   "name": "TECE Ventilsitz mit einstellbarer Spülstromdrossel",
+   "teiltyp": "spuelventil",
+   "oem_nummer": "9820670",
+   "ean": "4027255095311",
+   "beschreibung": "Ventilsitz für das Ablaufventil A2 in Uni- und Base-Spülkästen. Die Spülstärke stellt man an einer Spindel ein, ohne das Ablaufventil auszubauen. Ab Werk seit September 2023, laut TECE in jedem Uni-Spülkasten nachrüstbar.",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Eckventil im Spülkasten schließen, Betätigungsplatte abnehmen und Spritzschutz mit Betätigungsbock herausnehmen. Eimer und Tuch bereithalten.",
+   "quellen": [
+    "https://documents.pdod.de/tece/tcdb_9820670_de.pdf",
+    "https://www.pdod.de/de/articles/tece/9820223",
+    "https://www.tece.com/sites/default/files/media-documents/main/2023-07/TECE_Uni_Stammkunden_SF_AT_DS03000477b_low___.pdf",
+    "https://www.ean-search.org/?q=TECE+9820670"
+   ],
+   "masse": {},
+   "preis_spanne": null,
+   "amazon_asin": null
+  },
+  {
+   "slug": "tece-drosselset",
+   "name": "TECE Drosselset für Uni- und Base-Spülkästen",
+   "teiltyp": "spuelventil",
+   "oem_nummer": "9820337",
+   "ean": "4027255048133",
+   "masse": {
+    "durchmesser_mm": "46 bis 28"
+   },
+   "beschreibung": "Acht Drosseln von 46 mm (braun, etwa 115 % Spüldruck) bis 28 mm (weiß, etwa 65 %) zum Einsetzen in den Ventilsitz. Spritzt das WC über, nimmt man eine kleinere Drossel, spült es schlecht aus, eine größere oder gar keine.",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Eckventil im Spülkasten schließen, Betätigungsplatte abnehmen und Spritzschutz mit Betätigungsbock herausnehmen. Eimer und Tuch bereithalten.",
+   "amazon_asin": "B0123XYNRC",
+   "quellen": [
+    "https://documents.pdod.de/tece/tcdb_9820337_de.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+    "https://www.megabad.com/documents/14/tece-ersatzteile-spueltechnik-drosselsatz-de-14710.pdf",
+    "https://www.ean-search.org/?q=TECE+9820337",
+    "https://www.amazon.de/dp/B0123XYNRC"
+   ],
+   "preis_spanne": null
+  },
+  {
+   "slug": "tece-o-ring-ventilsitz",
+   "name": "TECE O-Ring für Ventilsitz",
+   "teiltyp": "dichtung",
+   "oem_nummer": "9820005",
+   "beschreibung": "O-Ring zwischen Ventilsitz und Spülkasten, Position 3 der Ersatzteilliste des Ablaufventils A2.",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Eckventil im Spülkasten schließen, Betätigungsplatte abnehmen und Spritzschutz mit Betätigungsbock herausnehmen. Eimer und Tuch bereithalten.",
+   "quellen": [
+    "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+    "https://www.pdod.de/de/articles/tece/9820223"
+   ],
+   "masse": {},
+   "preis_spanne": null,
+   "ean": null,
+   "amazon_asin": null
+  },
+  {
+   "slug": "tece-spuelrohrdichtung",
+   "name": "TECE Spülrohrdichtung",
+   "teiltyp": "dichtung",
+   "oem_nummer": "9820015",
+   "beschreibung": "Dichtung am Spülrohr zwischen Spülkasten und WC-Anschluss. TECE führt sie in den Ersatzteillisten von Uni-, Octa-II-, Compact-320- und Base-Modulen.",
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": 60,
+   "werkzeug": "WC-Keramik abnehmen, je nach Einbau auch Zugang zum Spülrohr hinter der Vorwand nötig",
+   "quellen": [
+    "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9300300_Datenblatt.pdf",
+    "https://tece.com/sites/default/files/media-documents/main/2024-02/datasheet_2024-02-09_11-24-36-871.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2023-02/9300600_Datenblatt_TECEprofil_Compact-320.pdf",
+    "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9400400_Datenblatt.pdf",
+    "https://assets.heizung-billiger.de/documents/tcdb_9370300_de.pdf"
+   ],
+   "masse": {},
+   "preis_spanne": null,
+   "ean": null,
+   "amazon_asin": null
+  },
+  {
+   "slug": "tece-betaetigungsbock",
+   "name": "TECE Betätigungsbock für Spülkasten",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "9820016",
+   "ean": "4027255006546",
+   "beschreibung": "Die Hebelmechanik, die am Spritzschutz sitzt und die Tasten der Platte auf das Ablaufventil überträgt. Man nimmt sie beim Öffnen des Kastens mit dem Spritzschutz heraus.",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Betätigungsplatte abnehmen, Schlitzschraubendreher",
+   "amazon_asin": "B01HKIHSU4",
+   "quellen": [
+    "https://www.pdod.de/de/articles/tece/9820016",
+    "https://web.archive.org/web/2020/https://www.tece.com/sites/default/files/media-documents/main/2017-05/TI_2015%20DE%20TECE-Spueltechnik.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+    "https://www.ean-search.org/?q=TECE+9820016",
+    "https://www.amazon.de/dp/B01HKIHSU4"
+   ],
+   "masse": {},
+   "preis_spanne": null
+  },
+  {
+   "slug": "tece-betaetigungsstangen-2003-2020",
+   "name": "TECE Betätigungsstangen für Spülkästen 2003 bis 2020",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "9820022",
+   "ean": "4027255006584",
+   "beschreibung": "Zwei Stangen zwischen Tasten und Betätigungsbock für Kästen ohne „easy fit“. Sind sie zu lang oder verbogen, hält die Taste das Ventil offen, sind sie zu kurz, löst die Spülung nicht aus.",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Betätigungsplatte abnehmen",
+   "amazon_asin": "B00D92A6WI",
+   "quellen": [
+    "https://documents.pdod.de/tece/tcdb_9240400_de.pdf",
+    "https://documents.pdod.de/tece/tcdb_9240650_de.pdf",
+    "https://www.pdod.de/de/articles/tece/9240700",
+    "https://www.ean-search.org/?q=TECE+9820022",
+    "https://www.amazon.de/dp/B00D92A6WI"
+   ],
+   "masse": {},
+   "preis_spanne": null
+  },
+  {
+   "slug": "tece-betaetigungsstangen-easy-fit",
+   "name": "TECE Betätigungsstangen „easy fit“ (ab 2021)",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "9820498",
+   "beschreibung": "Betätigungsstangen für Spülkästen mit „easy fit“-Montage ab 2021. Sie werden eingesetzt und mit einer Vierteldrehung (45 Grad) fixiert.",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Betätigungsplatte abnehmen",
+   "quellen": [
+    "https://www.pdod.de/de/articles/tece/9820498",
+    "https://documents.pdod.de/tece/tcdb_9240400_de.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2023-07/TECE_Uni_Stammkunden_SF_AT_DS03000477b_low___.pdf"
+   ],
+   "masse": {},
+   "preis_spanne": null,
+   "ean": null,
+   "amazon_asin": null
+  },
+  {
+   "slug": "tece-tastenfedern",
+   "name": "TECE Tastenfedern für Betätigungsplatte, 2 Stück",
+   "teiltyp": "betaetigung",
+   "oem_nummer": "9820020",
+   "ean": "4027255006614",
+   "beschreibung": "Federn unter den Tasten, laut Ersatzteilliste für die TECEbase-Platte. Die TECEsquare-Glasplatte hat eigene Federn (9820253).",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Betätigungsplatte abnehmen",
+   "amazon_asin": "B00D9297XC",
+   "quellen": [
+    "https://www.pdod.de/de/articles/tece/9240700",
+    "https://www.ean-search.org/?q=TECE+9820020",
+    "https://www.amazon.de/dp/B00D9297XC"
+   ],
+   "masse": {},
+   "preis_spanne": null
+  },
+  {
+   "slug": "tece-druckspuelerkartusche-u1",
+   "name": "TECE Druckspülerkartusche U 1 für Urinal",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "9820031",
+   "ean": "4027255011601",
+   "masse": {
+    "spuelmenge_l": "1, 2 oder 4 (mit Sicherungsring), 6–8 ohne"
+   },
+   "beschreibung": "Mechanische Kartusche für das Urinal-Druckspülergehäuse U 1, Ersatzteil der manuellen TECE-Urinalplatten. Läuft das Urinal dauernd oder spült es nicht mehr, wird meist diese Kartusche getauscht.",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Vorabsperrung im Spülergehäuse mit 3-mm-Innensechskant schließen, Urinalplatte abnehmen",
+   "amazon_asin": "B00O7JURIA",
+   "quellen": [
+    "https://www.pdod.de/de/articles/tece/9820031",
+    "https://documents.pdod.de/tece/tcdb_9242402_de.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+    "https://www.ean-search.org/?q=TECE+9820031",
+    "https://www.amazon.de/dp/B00O7JURIA"
+   ],
+   "preis_spanne": null
+  },
+  {
+   "slug": "tece-tecenow-weiss",
+   "name": "TECEnow WC-Betätigungsplatte weiß",
+   "teiltyp": "betaetigungsplatte",
+   "oem_nummer": "9240400",
+   "masse": {
+    "breite_mm": 220,
+    "hoehe_mm": 150,
+    "tiefe_mm": 5
+   },
+   "beschreibung": "Zweimengen-Platte aus Kunststoff mit gummigepufferten Tasten, inklusive Betätigungsstangen und Befestigungsmaterial. Passt laut TECE auf alle TECE-Spülkästen in Standardhöhe.",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Alte Platte abnehmen, Betätigungsstangen prüfen und bei Bedarf kürzen oder tauschen",
+   "amazon_asin": "B017OGPFLQ",
+   "quellen": [
+    "https://documents.pdod.de/tece/tcdb_9240400_de.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+    "https://www.amazon.de/dp/B017OGPFLQ"
+   ],
+   "preis_spanne": null,
+   "ean": null
+  },
+  {
+   "slug": "tece-teceloop-kunststoff-weiss",
+   "name": "TECEloop WC-Betätigungsplatte Kunststoff weiß",
+   "teiltyp": "betaetigungsplatte",
+   "oem_nummer": "9240600",
+   "masse": {
+    "breite_mm": 216,
+    "hoehe_mm": 145,
+    "tiefe_mm": 6
+   },
+   "beschreibung": "Zweimengen-Platte mit runden Tasten. Im Großhandelsportal pdod als nicht lieferbar geführt, bei Amazon erhältlich.",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Alte Platte abnehmen, Betätigungsstangen prüfen und bei Bedarf kürzen oder tauschen",
+   "amazon_asin": "B0030YUQ52",
+   "quellen": [
+    "https://www.pdod.de/de/articles/tece/9240600",
+    "https://www.amazon.de/dp/B0030YUQ52"
+   ],
+   "preis_spanne": null,
+   "ean": null
+  },
+  {
+   "slug": "tece-tecesquare-glas-weiss",
+   "name": "TECEsquare WC-Betätigungsplatte Glas weiß",
+   "teiltyp": "betaetigungsplatte",
+   "oem_nummer": "9240800",
+   "masse": {
+    "breite_mm": 220,
+    "hoehe_mm": 150,
+    "tiefe_mm": 11
+   },
+   "beschreibung": "Glasplatte mit zwei gefederten Wippen. Für den flächenbündigen Einbau gibt es den Einbaurahmen 9240649 separat.",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Alte Platte abnehmen, Betätigungsstangen prüfen und bei Bedarf kürzen oder tauschen",
+   "amazon_asin": "B00BUKJSLQ",
+   "quellen": [
+    "https://documents.pdod.de/tece/tcdb_9240800_de.pdf",
+    "https://www.amazon.de/dp/B00BUKJSLQ"
+   ],
+   "preis_spanne": null,
+   "ean": null
+  },
+  {
+   "slug": "tece-tecebase-weiss",
+   "name": "TECEbase WC-Betätigungsplatte weiß",
+   "teiltyp": "betaetigungsplatte",
+   "oem_nummer": "9240700",
+   "masse": {
+    "breite_mm": 214,
+    "hoehe_mm": 145,
+    "tiefe_mm": 18
+   },
+   "beschreibung": "Einfache Zweimengen-Platte aus Kunststoff, inklusive Betätigungsstangen. Einzige Platte, die laut Datenblatt auf den Base-Spülkasten im TECEbase WC-Set passt.",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Alte Platte abnehmen, Betätigungsstangen prüfen und bei Bedarf kürzen oder tauschen",
+   "amazon_asin": "B00DK9NM3A",
+   "quellen": [
+    "https://www.pdod.de/de/articles/tece/9240700",
+    "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9400400_Datenblatt.pdf",
+    "https://www.amazon.de/dp/B00DK9NM3A"
+   ],
+   "preis_spanne": null,
+   "ean": null
+  },
+  {
+   "slug": "tece-teceambia-weiss",
+   "name": "TECEambia WC-Betätigungsplatte weiß",
+   "teiltyp": "betaetigungsplatte",
+   "oem_nummer": "9240200",
+   "masse": {
+    "breite_mm": 214,
+    "hoehe_mm": 152,
+    "tiefe_mm": 22
+   },
+   "beschreibung": "Kunststoffplatte mit beidseitig gummigepufferten Tasten, inklusive Betätigungsstangen. Im Großhandel nicht mehr lieferbar, bei Amazon noch erhältlich.",
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 15,
+   "werkzeug": "Alte Platte abnehmen, Betätigungsstangen prüfen und bei Bedarf kürzen oder tauschen",
+   "amazon_asin": "B0030YL1Y2",
+   "quellen": [
+    "https://www.pdod.de/de/articles/tece/9240200",
+    "https://www.amazon.de/dp/B0030YL1Y2"
+   ],
+   "preis_spanne": null,
+   "ean": null
+  }
+ ],
+ "zuordnungen": [
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-fuellventil-f10",
+   "hinweis": "Universal-Ersatzteil, laut TECE für alle TECE-Spülkästen",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-fuellventil-f10-dichtungsset",
+   "hinweis": "Dichtungen für das F 10",
+   "quelle_url": "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-fuellventil-f10-ventilhebelset",
+   "hinweis": "Hebelset für das F 10",
+   "quelle_url": "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "spuelkasten-mit-ablaufventil-a1",
+   "teil_slug": "tece-fuellventil-f10",
+   "hinweis": "Universal-Ersatzteil, laut TECE für alle TECE-Spülkästen",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "spuelkasten-mit-ablaufventil-a1",
+   "teil_slug": "tece-fuellventil-f10-dichtungsset",
+   "hinweis": "Dichtungen für das F 10",
+   "quelle_url": "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "spuelkasten-mit-ablaufventil-a1",
+   "teil_slug": "tece-fuellventil-f10-ventilhebelset",
+   "hinweis": "Hebelset für das F 10",
+   "quelle_url": "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "base-spuelkasten",
+   "teil_slug": "tece-fuellventil-f10",
+   "hinweis": "Universal-Ersatzteil, laut TECE für alle TECE-Spülkästen",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "base-spuelkasten",
+   "teil_slug": "tece-fuellventil-f10-dichtungsset",
+   "hinweis": "Dichtungen für das F 10",
+   "quelle_url": "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "base-spuelkasten",
+   "teil_slug": "tece-fuellventil-f10-ventilhebelset",
+   "hinweis": "Hebelset für das F 10",
+   "quelle_url": "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "octa-ii-8-cm",
+   "teil_slug": "tece-fuellventil-f10",
+   "hinweis": "Universal-Ersatzteil, laut TECE für alle TECE-Spülkästen",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "octa-ii-8-cm",
+   "teil_slug": "tece-fuellventil-f10-dichtungsset",
+   "hinweis": "Dichtungen für das F 10",
+   "quelle_url": "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "octa-ii-8-cm",
+   "teil_slug": "tece-fuellventil-f10-ventilhebelset",
+   "hinweis": "Hebelset für das F 10",
+   "quelle_url": "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "compact-320",
+   "teil_slug": "tece-fuellventil-f10",
+   "hinweis": "Universal-Ersatzteil, laut TECE für alle TECE-Spülkästen",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "compact-320",
+   "teil_slug": "tece-fuellventil-f10-dichtungsset",
+   "hinweis": "Dichtungen für das F 10",
+   "quelle_url": "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "compact-320",
+   "teil_slug": "tece-fuellventil-f10-ventilhebelset",
+   "hinweis": "Hebelset für das F 10",
+   "quelle_url": "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-ablaufventil-a2",
+   "hinweis": "Ablaufventil für Uni- und Base-Spülkasten",
+   "quelle_url": "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-fussdichtung-ablaufventil-a2",
+   "hinweis": "Dichtung unten am A2",
+   "quelle_url": "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-o-ring-ventilsitz",
+   "hinweis": "O-Ring am Ventilsitz des A2",
+   "quelle_url": "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-ventilsitz-standarddrossel",
+   "hinweis": "Ventilsitz bis zur Spülstromdrossel von 2023",
+   "quelle_url": "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-ventilsitz-spuelstromdrossel",
+   "hinweis": "Ventilsitz mit einstellbarer Drossel, ab Werk seit September 2023, nachrüstbar",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9820670_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-drosselset",
+   "hinweis": "Drosseln 46 bis 28 mm zum Anpassen des Spüldrucks",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9820337_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "base-spuelkasten",
+   "teil_slug": "tece-ablaufventil-a2",
+   "hinweis": "Ablaufventil für Uni- und Base-Spülkasten",
+   "quelle_url": "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "base-spuelkasten",
+   "teil_slug": "tece-fussdichtung-ablaufventil-a2",
+   "hinweis": "Dichtung unten am A2",
+   "quelle_url": "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "base-spuelkasten",
+   "teil_slug": "tece-o-ring-ventilsitz",
+   "hinweis": "O-Ring am Ventilsitz des A2",
+   "quelle_url": "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "base-spuelkasten",
+   "teil_slug": "tece-ventilsitz-standarddrossel",
+   "hinweis": "Ventilsitz bis zur Spülstromdrossel von 2023",
+   "quelle_url": "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "base-spuelkasten",
+   "teil_slug": "tece-ventilsitz-spuelstromdrossel",
+   "hinweis": "Ventilsitz mit einstellbarer Drossel, ab Werk seit September 2023, nachrüstbar",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9820670_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "base-spuelkasten",
+   "teil_slug": "tece-drosselset",
+   "hinweis": "Drosseln 46 bis 28 mm zum Anpassen des Spüldrucks",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9820337_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "spuelkasten-mit-ablaufventil-a1",
+   "teil_slug": "tece-ablaufventil-a2",
+   "hinweis": "Ersatz für das A1, Betätigungshebel mit tauschen",
+   "quelle_url": "https://web.archive.org/web/2020/https://www.tece.com/sites/default/files/media-documents/main/2017-05/TI_2015%20DE%20TECE-Spueltechnik.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "spuelkasten-mit-ablaufventil-a1",
+   "teil_slug": "tece-fussdichtung-ablaufventil-a2",
+   "hinweis": "Erst nach dem Umbau auf A2; der alte Sitz mit Dichtung des A1 wird entsorgt",
+   "quelle_url": "https://web.archive.org/web/2020/https://www.tece.com/sites/default/files/media-documents/main/2017-05/TI_2015%20DE%20TECE-Spueltechnik.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-fuellventil-f1-dichtungsset",
+   "hinweis": "Nur bei älteren Kästen mit dem Füllventil F1, das TECE 2015 noch als Standard führte; kaum noch lieferbar",
+   "quelle_url": "https://www.ebay.de/p/1482882418",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-spuelrohrdichtung",
+   "hinweis": "Dichtung am Spülrohr",
+   "quelle_url": "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9300300_Datenblatt.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "octa-ii-8-cm",
+   "teil_slug": "tece-spuelrohrdichtung",
+   "hinweis": "Dichtung am Spülrohr",
+   "quelle_url": "https://tece.com/sites/default/files/media-documents/main/2024-02/datasheet_2024-02-09_11-24-36-871.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "compact-320",
+   "teil_slug": "tece-spuelrohrdichtung",
+   "hinweis": "Dichtung am Spülrohr",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2023-02/9300600_Datenblatt_TECEprofil_Compact-320.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "base-spuelkasten",
+   "teil_slug": "tece-spuelrohrdichtung",
+   "hinweis": "Dichtung am Spülrohr",
+   "quelle_url": "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9400400_Datenblatt.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-betaetigungsbock",
+   "hinweis": "Hebelmechanik am Spritzschutz",
+   "quelle_url": "https://www.pdod.de/de/articles/tece/9820016",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-betaetigungsstangen-2003-2020",
+   "hinweis": "Stangen für Kästen von 2003 bis 2020",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9240400_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "spuelkasten-mit-ablaufventil-a1",
+   "teil_slug": "tece-betaetigungsbock",
+   "hinweis": "Hebelmechanik am Spritzschutz",
+   "quelle_url": "https://www.pdod.de/de/articles/tece/9820016",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "spuelkasten-mit-ablaufventil-a1",
+   "teil_slug": "tece-betaetigungsstangen-2003-2020",
+   "hinweis": "Stangen für Kästen von 2003 bis 2020",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9240400_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-betaetigungsstangen-easy-fit",
+   "hinweis": "Stangen für Kästen mit „easy fit“ ab 2021",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9240400_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "octa-ii-8-cm",
+   "teil_slug": "tece-betaetigungsstangen-easy-fit",
+   "hinweis": "Octa II hat „easy fit“-Montage",
+   "quelle_url": "https://tece.com/sites/default/files/media-documents/main/2024-02/datasheet_2024-02-09_11-24-36-871.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "tecenow",
+   "teil_slug": "tece-betaetigungsstangen-2003-2020",
+   "hinweis": "Ersatzstangen für Kästen von 2003 bis 2020",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9240400_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "tecenow",
+   "teil_slug": "tece-betaetigungsstangen-easy-fit",
+   "hinweis": "Ersatzstangen für Kästen mit „easy fit“ ab 2021",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9240400_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "teceloop",
+   "teil_slug": "tece-betaetigungsstangen-2003-2020",
+   "hinweis": "Ersatzstangen für Kästen von 2003 bis 2020",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9240650_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "teceloop",
+   "teil_slug": "tece-betaetigungsstangen-easy-fit",
+   "hinweis": "Ersatzstangen für Kästen mit „easy fit“ ab 2021",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9240650_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "tecesquare",
+   "teil_slug": "tece-betaetigungsstangen-2003-2020",
+   "hinweis": "Ersatzstangen für Kästen von 2003 bis 2020",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9240800_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "tecesquare",
+   "teil_slug": "tece-betaetigungsstangen-easy-fit",
+   "hinweis": "Ersatzstangen für Kästen mit „easy fit“ ab 2021",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9240800_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "tecebase-platte",
+   "teil_slug": "tece-betaetigungsstangen-2003-2020",
+   "hinweis": "Ersatzstangen für Kästen von 2003 bis 2020",
+   "quelle_url": "https://www.pdod.de/de/articles/tece/9240700",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "tecebase-platte",
+   "teil_slug": "tece-betaetigungsstangen-easy-fit",
+   "hinweis": "Ersatzstangen für Kästen mit „easy fit“ ab 2021",
+   "quelle_url": "https://www.pdod.de/de/articles/tece/9240700",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "tecebase-platte",
+   "teil_slug": "tece-tastenfedern",
+   "hinweis": "Tastenfedern, 2 Stück",
+   "quelle_url": "https://www.pdod.de/de/articles/tece/9240700",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "tecenow",
+   "teil_slug": "tece-tecenow-weiss",
+   "hinweis": "Platte weiß glänzend",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9240400_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "teceloop",
+   "teil_slug": "tece-teceloop-kunststoff-weiss",
+   "hinweis": "Kunststoffplatte weiß",
+   "quelle_url": "https://www.pdod.de/de/articles/tece/9240600",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "tecesquare",
+   "teil_slug": "tece-tecesquare-glas-weiss",
+   "hinweis": "Glasplatte weiß",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9240800_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "tecebase-platte",
+   "teil_slug": "tece-tecebase-weiss",
+   "hinweis": "Platte weiß glänzend",
+   "quelle_url": "https://www.pdod.de/de/articles/tece/9240700",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "teceambia",
+   "teil_slug": "tece-teceambia-weiss",
+   "hinweis": "Platte weiß",
+   "quelle_url": "https://www.pdod.de/de/articles/tece/9240200",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "base-spuelkasten",
+   "teil_slug": "tece-tecebase-weiss",
+   "hinweis": "Laut Datenblatt die einzige passende Platte für das Set 9400400",
+   "quelle_url": "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9400400_Datenblatt.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "urinal",
+   "teil_slug": "tece-druckspuelerkartusche-u1",
+   "hinweis": "Kartusche der manuellen Urinalplatten auf dem Gehäuse U 1, nicht für TECEfilo (U 2)",
+   "quelle_url": "https://documents.pdod.de/tece/tcdb_9242402_de.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-tecenow-weiss",
+   "hinweis": "Alle TECE-Platten passen laut TECE auf TECE-Spülkästen in Standardhöhe",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-teceloop-kunststoff-weiss",
+   "hinweis": "Alle TECE-Platten passen laut TECE auf TECE-Spülkästen in Standardhöhe",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-tecesquare-glas-weiss",
+   "hinweis": "Alle TECE-Platten passen laut TECE auf TECE-Spülkästen in Standardhöhe",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "uni-spuelkasten",
+   "teil_slug": "tece-tecebase-weiss",
+   "hinweis": "Alle TECE-Platten passen laut TECE auf TECE-Spülkästen in Standardhöhe",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "octa-ii-8-cm",
+   "teil_slug": "tece-tecenow-weiss",
+   "hinweis": "Alle TECE-Platten passen laut TECE auf TECE-Spülkästen in Standardhöhe",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "octa-ii-8-cm",
+   "teil_slug": "tece-teceloop-kunststoff-weiss",
+   "hinweis": "Alle TECE-Platten passen laut TECE auf TECE-Spülkästen in Standardhöhe",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "octa-ii-8-cm",
+   "teil_slug": "tece-tecesquare-glas-weiss",
+   "hinweis": "Alle TECE-Platten passen laut TECE auf TECE-Spülkästen in Standardhöhe",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "octa-ii-8-cm",
+   "teil_slug": "tece-tecebase-weiss",
+   "hinweis": "Alle TECE-Platten passen laut TECE auf TECE-Spülkästen in Standardhöhe",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "compact-320",
+   "teil_slug": "tece-tecenow-weiss",
+   "hinweis": "Alle TECE-Platten passen laut TECE auf TECE-Spülkästen in Standardhöhe",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "compact-320",
+   "teil_slug": "tece-teceloop-kunststoff-weiss",
+   "hinweis": "Alle TECE-Platten passen laut TECE auf TECE-Spülkästen in Standardhöhe",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "compact-320",
+   "teil_slug": "tece-tecesquare-glas-weiss",
+   "hinweis": "Alle TECE-Platten passen laut TECE auf TECE-Spülkästen in Standardhöhe",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "compact-320",
+   "teil_slug": "tece-tecebase-weiss",
+   "hinweis": "Alle TECE-Platten passen laut TECE auf TECE-Spülkästen in Standardhöhe",
+   "quelle_url": "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+   "sicherheit": "hersteller"
+  }
+ ],
+ "probleme": [
+  {
+   "slug": "tece-spuelkasten-laeuft-nach",
+   "titel": "TECE-Spülkasten läuft nach",
+   "symptom": "Nach dem Spülen läuft weiter Wasser ins WC, entweder als dünne Spur oder so lange, bis man die Taste noch einmal drückt. Manchmal hört man es im Kasten leise laufen.",
+   "ursachen": [
+    {
+     "ursache": "Ablaufventil schließt nicht dicht, weil Fußdichtung oder Ventilsitz verkalkt, verschmutzt oder hart geworden sind",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "tece-fussdichtung-ablaufventil-a2",
+      "tece-ventilsitz-standarddrossel",
+      "tece-o-ring-ventilsitz",
+      "tece-ablaufventil-a2"
+     ]
+    },
+    {
+     "ursache": "Wasserstand zu hoch oder Füllventil schließt nicht ganz, das Wasser läuft über den Überlauf im Ablaufventil ab",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "tece-fuellventil-f10",
+      "tece-fuellventil-f10-dichtungsset",
+      "tece-fuellventil-f1-dichtungsset"
+     ]
+    },
+    {
+     "ursache": "Taste oder Betätigungsstangen halten das Ablaufventil offen, etwa weil die Stangen zu lang sind oder die Platte klemmt",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "tece-betaetigungsstangen-2003-2020",
+      "tece-betaetigungsstangen-easy-fit",
+      "tece-betaetigungsbock"
+     ]
+    },
+    {
+     "ursache": "Altes Ablaufventil A1 (bis Mitte 2009) verschlissen",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "tece-ablaufventil-a2"
+     ]
+    }
+   ],
+   "schritte": [
+    "Eckventil im Spülkasten schließen und beobachten: Hört das Nachlaufen sofort auf, kommt das Wasser über den Überlauf, dann liegt es am Füllventil. Läuft der Kasten leer, ist das Ablaufventil undicht.",
+    "Betätigungsplatte abhebeln: Laut TECE mit dem Demontagewerkzeug oder einem Schraubendreher an den Aussparungen unten, Glasplatten mit Saugnäpfen. Dann Befestigungsrahmen und Spritzschutz mit Betätigungsbock herausnehmen.",
+    "Ablaufventil herausnehmen, Fußdichtung und Ventilsitz von Kalk und Schmutz befreien. Ist die Dichtung hart oder rissig, die Fußdichtung 9820233 tauschen.",
+    "Wasserstand prüfen: Er soll laut TECE bis zur oberen Markierung am Überlauf des Ablaufventils reichen. Steht er höher, an der Verstellspindel des Füllventils niedriger stellen. Schließt das Füllventil nicht, Dichtungsset 9820383 oder ein neues F 10 einsetzen.",
+    "Prüfen, ob die Betätigungsstangen frei gehen und die Tasten nicht dauerhaft drücken. Zu lange Stangen kürzen oder tauschen.",
+    "Ist es noch ein A1 oder hilft Reinigen nicht, das Umrüstset A2 9820223 einbauen. Dabei laut TECE auch die Betätigungshebel tauschen und den alten Ventilsitz mit Dichtung entsorgen."
+   ],
+   "fachbetrieb_ab": "Wenn das Eckventil nicht mehr schließt, an der Vorwand Feuchtigkeit auftritt oder das Spülrohr hinter der Wand undicht ist. Dann muss oft das WC abgenommen werden.",
+   "quellen": [
+    "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+    "https://web.archive.org/web/2020/https://www.tece.com/sites/default/files/media-documents/main/2017-05/TI_2015%20DE%20TECE-Spueltechnik.pdf",
+    "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Bet%C3%A4tigungen.pdf",
+    "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-laeuft-nach.34499/",
+    "https://www.gutefrage.net/frage/tece-toiletten-spuelung-laeuft-komplett-durch-und-stoppt-nicht",
+    "https://www.bauexpertenforum.de/threads/hilfe-tece-unterputzspuelkasten-undicht.141175/"
+   ]
+  },
+  {
+   "slug": "tece-spuelkasten-fuellt-nicht",
+   "titel": "TECE-Spülkasten füllt nicht oder nur langsam",
+   "symptom": "Nach dem Spülen kommt kein oder nur sehr wenig Wasser nach, der Kasten braucht Minuten zum Füllen, und die nächste Spülung ist schwach.",
+   "ursachen": [
+    {
+     "ursache": "Eckventil im Spülkasten nicht ganz offen",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Einströmelement oder Membran des Pilotventils im Füllventil verschmutzt, etwa durch Sand oder Kalk aus der Leitung",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "tece-fuellventil-f10-dichtungsset",
+      "tece-fuellventil-f10"
+     ]
+    },
+    {
+     "ursache": "Füllventil verschlissen, Hutmembran gerissen oder Schwimmer klemmt",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "tece-fuellventil-f10",
+      "tece-fuellventil-f10-ventilhebelset",
+      "tece-fuellventil-f1-dichtungsset"
+     ]
+    },
+    {
+     "ursache": "Zu wenig Wasserdruck: Das F 10 braucht laut TECE mindestens 0,5 bar Fließdruck",
+     "haeufigkeit": "selten",
+     "teil_slugs": []
+    }
+   ],
+   "schritte": [
+    "Eckventil ganz öffnen und prüfen, ob an anderen Zapfstellen normaler Druck anliegt.",
+    "Platte und Spritzschutz abnehmen, Eckventil schließen, Panzerschlauch vom Füllventil lösen und kurz in einen Eimer laufen lassen. Kommt kaum Wasser, sitzt das Problem davor.",
+    "Kommt genug Wasser, das Füllventil reinigen: TECE nennt das Einströmelement und die Membran des Pilotventils als Teile, die man ausbaut und unter fließendem Wasser abspült.",
+    "Ist die Membran gerissen oder bleibt das Ventil träge, das Dichtungsset 9820383 einsetzen oder das ganze Füllventil gegen das F 10 9820353 tauschen. Es passt laut TECE in alle TECE-Spülkästen.",
+    "Danach die Füllhöhe an der Verstellspindel so einstellen, dass das Wasser bis zur oberen Markierung am Überlauf reicht."
+   ],
+   "fachbetrieb_ab": "Wenn aus dem Panzerschlauch kaum Wasser kommt, obwohl das Eckventil offen ist, oder wenn das Eckventil sich nicht mehr bewegen lässt. Dann liegt das Problem in der Zuleitung.",
+   "quellen": [
+    "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+    "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9820353_Datenblatt.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+    "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-wird-nur-langsam-befuellt-zuleitung-undicht.19532/",
+    "https://www.dasheimwerkerforum.de/threads/fuellventil-tece.34558/"
+   ]
+  },
+  {
+   "slug": "tece-spuelung-zu-schwach-oder-spritzt",
+   "titel": "TECE-Spülung zu schwach oder WC spritzt",
+   "symptom": "Die Spülung reinigt das Becken nicht richtig, oder das Wasser spritzt beim Spülen über den Rand, oft bei spülrandlosen WCs. Manchmal kommt auch bei der Spartaste die volle Menge.",
+   "ursachen": [
+    {
+     "ursache": "Spülmenge am Ablaufventil zu niedrig eingestellt, etwa auf 4,5 Liter",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "tece-ablaufventil-a2"
+     ]
+    },
+    {
+     "ursache": "Drossel im Ventilsitz passt nicht zur WC-Keramik",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "tece-drosselset",
+      "tece-ventilsitz-spuelstromdrossel"
+     ]
+    },
+    {
+     "ursache": "Wasserstand zu niedrig, weil das Füllventil zu früh abschaltet",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "tece-fuellventil-f10"
+     ]
+    },
+    {
+     "ursache": "Betätigungsplatte geht schwer, sodass die kleine Taste die große Spülung auslöst",
+     "haeufigkeit": "selten",
+     "teil_slugs": [
+      "tece-betaetigungsstangen-2003-2020",
+      "tece-betaetigungsstangen-easy-fit"
+     ]
+    }
+   ],
+   "schritte": [
+    "Platte und Spritzschutz abnehmen und am Schieber auf der Rückseite des Ablaufventils A2 die große Spülmenge ablesen. Möglich sind 4,5, 6, 7,5 und 9 Liter, ab Werk 6 Liter. Die kleine Spülung bleibt bei 3 Litern.",
+    "Spritzt das WC, eine Drossel mit kleinerem Durchmesser in den Ventilsitz setzen, spült es schlecht aus, eine größere oder gar keine. Das Drosselset 9820337 hat acht Größen von 46 bis 28 mm.",
+    "Bei Kästen ab September 2023 sitzt eine einstellbare Spülstromdrossel im Ventilsitz. Sie wird an der Spindel verstellt, ohne das Ablaufventil auszubauen, und lässt sich als Ventilsitz 9820670 nachrüsten.",
+    "Wasserstand prüfen: Er soll bis zur oberen Markierung am Überlauf reichen. Ist er niedriger, an der Verstellspindel des Füllventils höher stellen.",
+    "Kommt bei der Spartaste die volle Menge, die kleine Spülung bei abgenommener Platte direkt an der Mechanik auslösen. Stimmt die Menge dann, liegt es an Platte oder Stangen."
+   ],
+   "fachbetrieb_ab": "Wenn die Spülung trotz richtiger Menge und Drossel nicht ausreicht. Dann kann die Abwasserleitung zu wenig Gefälle haben oder verstopft sein.",
+   "quellen": [
+    "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+    "https://documents.pdod.de/tece/tcdb_9820337_de.pdf",
+    "https://documents.pdod.de/tece/tcdb_9820670_de.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2023-07/TECE_Uni_Stammkunden_SF_AT_DS03000477b_low___.pdf",
+    "https://www.tece.com/de/sanitaermodule/tece-universalspuelkasten/montage-wartung",
+    "https://www.haustechnikdialog.de/forum/t/154999/problem-sparspueltaste-ohne-korrekte-funktion-tece-ablaufventil-a1",
+    "https://www.gutefrage.net/frage/wandtoilettenspuelkasten-der-wasserdruck-beim-spuelen-ist-sehr-schwach"
+   ]
+  }
+ ],
+ "widersprueche": [
+  {
+   "thema": "Passt jede TECE-Betätigungsplatte auf jeden TECE-Spülkasten?",
+   "aussage_a": "TECE hat über 200 Betätigungsplatten. Alle lassen sich mit allen TECE-Spülkastenvarianten in Standardhöhe kombinieren und untereinander austauschen.",
+   "quelle_a": "https://www.tece.com/sites/default/files/media-documents/main/2025-08/BRO_TECE_Sanitaersysteme_DE_DS03000427h_low.pdf",
+   "aussage_b": "Auf das TECEbase WC-Set mit Base-Spülkasten (9400400) kann nur die mitgelieferte TECEbase-Platte montiert werden, andere Platten oder WC-Armaturen sind nicht kompatibel.",
+   "quelle_b": "https://immotecshop24.de/mediafiles/anleitung_prospekte/tece/9400400_Datenblatt.pdf"
+  },
+  {
+   "thema": "Durchmesser der Standarddrossel im Ventilsitz 9820231",
+   "aussage_a": "Das TECE-Datenblatt zum Ablaufventil A2 nennt den Ventilsitz 9820231 mit Standarddrossel 36 mm.",
+   "quelle_a": "https://spotlight.tece.com/sites/default/files/media-documents/main/2025-02/datasheet_2025-02-05_14-29-34-292.pdf",
+   "aussage_b": "Das Amazon-Angebot zur selben Nummer heißt „Ventilsitz für Ablaufv. A2 inkl. Standarddrossel d: 42“.",
+   "quelle_b": "https://www.amazon.de/dp/B01HKIHWVE"
+  },
+  {
+   "thema": "Farben und Größen der TECE-Drosseln",
+   "aussage_a": "Das neuere Drosselset hat acht Drosseln: braun 46 mm, rot 42 mm, gelb 39 mm, blau 36 mm, grün 34 mm, grau 32 mm, schwarz 30 mm, weiß 28 mm.",
+   "quelle_a": "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+   "aussage_b": "Ein älteres TECE-Ersatzteilblatt nennt vier Drosseln: rot 46 mm, blau 42 mm, grau 39 mm, schwarz 36 mm. Dieselbe Farbe steht dort für einen anderen Durchmesser.",
+   "quelle_b": "https://www.megabad.com/documents/14/tece-ersatzteile-spueltechnik-drosselsatz-de-14710.pdf"
+  },
+  {
+   "thema": "Farbe der Betätigungsstangen 9820022",
+   "aussage_a": "Im Großhandelsportal pdod heißen sie „Betätigungsstangen rot und schwarz (2003-2020)“.",
+   "quelle_a": "https://www.pdod.de/de/articles/tece/9240700",
+   "aussage_b": "Das Amazon-Angebot zur selben Nummer heißt „Betätigungsstangen rot und blau, 9820022“.",
+   "quelle_b": "https://www.amazon.de/dp/B00D92A6WI"
+  }
+ ],
+ "nicht_geprueft": [
+  "Für den ersten Octa-Spülkasten (vor Octa II) und für Octa II nennt TECE in den geöffneten Datenblättern keine eigenen Nummern für Füll- und Ablaufventil. Ob das Ablaufventil A2 dort passt, ist offen; zugeordnet ist nur das F 10, das laut TECE in alle TECE-Spülkästen passt.",
+  "EANs stammen von Galaxus (F 10, A2) und aus ean-search.org (übrige Teile, nur Treffer mit dem TECE-Präfix 4027255). Für O-Ring, Spülrohrdichtung, Betätigungsstangen „easy fit“, das F1-Dichtungsset und die Betätigungsplatten ist keine EAN belegt.",
+  "Die Ersatzteilnummer der TECEfilo-Ventileinheit (Urinal U 2) ist nicht belegt.",
+  "Wo am Spülkasten oder im Revisionsschacht eine Artikelnummer steht, ist weder in den TECE-Unterlagen noch in den Forenthreads belegt. Der Nummer-Hinweis erklärt deshalb, wie man den Kasten an der Bauart erkennt."
+ ]
+}

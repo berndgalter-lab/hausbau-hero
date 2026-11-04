@@ -1,0 +1,450 @@
+{
+  "marke": "TECE",
+  "fragen": [
+    {
+      "frage": "Mein TECE-Spülkasten läuft nach dem Spülen weiter und hört erst auf, wenn ich die Taste nochmal drücke. Was muss ich tauschen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-laeuft-nach.34499/",
+        "https://www.gutefrage.net/frage/tece-toiletten-spuelung-laeuft-komplett-durch-und-stoppt-nicht",
+        "https://www.dasheimwerkerforum.de/threads/problem-mit-wc-spuelkasten.9321/",
+        "https://spuelkasten-ersatzteile.de/tece/tece-spuelkasten-ersatzteile-tauschen-oder-entkalken/#comment-21"
+      ],
+      "forum_antworten": "Heimwerkerforum 2026: Wasser läuft nach, Taste muss nochmals tief gedrückt werden; Antwort: Glocke des Ablaufventils ist meist verschmutzt und senkt sich nicht ganz, ausbauen und mechanisch reinigen, Spülkasten-Tabs seien kontraproduktiv. Nutzer tauschte danach auf das Ablaufventil A2. gutefrage (ca. 2021): Spartaste läuft komplett durch; Antwort: Tauchglocke oder Schwimmerventil verkalkt, alle Teile kommen ohne Fliesenschaden durch die Öffnung der Drückerplatte. Heimwerkerforum 2016: Ablaufventil schließt nicht; Antwort: erst prüfen, ob Wasser über den Überlauf läuft (häufiger als die Glockendichtung), Teile reinigen, Dichtungen tauschen; Reinigen half. Kommentar spuelkasten-ersatzteile.de 2019: große Taste bleibt hängen.",
+      "antwort": "Meist schließt das Ablaufventil nicht mehr dicht, weil Fußdichtung oder Ventilsitz verkalkt oder verschmutzt sind. Alles lässt sich durch die Öffnung hinter der Platte ausbauen, laut TECE kann die ganze Technikeinheit mit Hebelmechanik herausgenommen werden. Hilft Reinigen nicht, kommen die Fußdichtung 9820233 oder das Umrüstset A2 9820223 hinein, das auch das alte A1 ersetzt. Prüfe vorher, ob Wasser über den Überlauf abfließt: Dann liegt es am Füllventil.",
+      "antwort_quellen": [
+        "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-laeuft-nach.34499/",
+        "https://www.gutefrage.net/frage/tece-toiletten-spuelung-laeuft-komplett-durch-und-stoppt-nicht",
+        "https://www.dasheimwerkerforum.de/threads/problem-mit-wc-spuelkasten.9321/",
+        "https://www.tece.com/de/sanitaermodule/tece-universalspuelkasten/montage-wartung",
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [
+        "9820223"
+      ],
+      "passende_teile": [
+        "tece-fussdichtung-ablaufventil-a2",
+        "tece-ablaufventil-a2"
+      ],
+      "auf_der_seite": "Mein TECE-Spülkasten läuft nach dem Spülen weiter und hört erst auf, wenn ich die Taste noch einmal drücke. Was muss ich tauschen?",
+      "passendes_problem": "tece-spuelkasten-laeuft-nach"
+    },
+    {
+      "frage": "Wie stelle ich beim TECE-Spülkasten die Spülmenge ein? Bei der großen Taste kommt nach dem Tausch auf A2 nur wenig Wasser.",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-laeuft-nach.34499/"
+      ],
+      "forum_antworten": "Heimwerkerforum 2026: Nach Einbau des Ablaufventils A2 kommt bei der großen Taste wenig Wasser, Verstellen der Tasten zum blauen Stift half nicht. Antwort: Auf der Glocke stehen 9, 7,5, 6 und 4,5 Liter, mit dem schwarzen Schieber daneben stellt man die Menge ein, im Fall stand er offenbar auf 4,5 Liter.",
+      "antwort": "Beim Ablaufventil A2 sitzt ein Schieber auf der Rückseite des Ventils, die Werte 4,5, 6, 7,5 und 9 Liter sind dort markiert. Ab Werk sind 6 Liter eingestellt, die kleine Spülung bleibt immer bei 3 Litern. Beim älteren A1 sitzt der Schieber unten am Ventil. Kommt nach einem Ventiltausch bei der großen Taste zu wenig Wasser, steht der Schieber oft auf 4,5 Liter.",
+      "antwort_quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+        "https://www.tece.com/de/sanitaermodule/tece-universalspuelkasten/montage-wartung",
+        "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-laeuft-nach.34499/"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [
+        "9820223"
+      ],
+      "passende_teile": [
+        "tece-ablaufventil-a2"
+      ],
+      "auf_der_seite": "Wie stelle ich beim TECE-Spülkasten die Spülmenge ein?",
+      "passendes_problem": "tece-spuelung-zu-schwach-oder-spritzt"
+    },
+    {
+      "frage": "Bei meiner TECE-Spülung kommt bei der Spartaste trotzdem die volle Menge. Woran liegt das?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/154999/problem-sparspueltaste-ohne-korrekte-funktion-tece-ablaufventil-a1",
+        "https://spuelkasten-ersatzteile.de/tece/tece-spuelkasten-ersatzteile-tauschen-oder-entkalken/#comment-15289"
+      ],
+      "forum_antworten": "HaustechnikDialog 2013 (TECEprofil 9300001, TECE Ambia 9240200, Ablaufventil A1): Beide Tasten spülen die große Menge, schon 2007 hatte TECE ein neues Ablaufventil 9820001 auf Garantie geschickt. Lösung im Thread: Füllhöhe am Füllventil bis 2 bis 3 cm unter die Oberkante des Überlaufrohrs erhöhen, danach funktionierte die Spartaste. Kommentar spuelkasten-ersatzteile.de 2022 (TECEsquare Glas): Ursache war eine schwergängige Drückerplatte, beim direkten Drücken auf die Stifte spülte es korrekt.",
+      "antwort": "Im Forum wurden zwei Ursachen gefunden: zu wenig Wasser im Kasten und eine schwergängige Platte. Laut TECE soll das Wasser bis zur oberen Markierung am Überlauf des Ablaufventils reichen, die Höhe stellt man an der Spindel des Füllventils ein. Zum Eingrenzen die Platte abnehmen und die kleine Spülung direkt an der Mechanik auslösen. Stimmt die Menge dann, liegt es an Platte oder Betätigungsstangen.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/forum/t/154999/problem-sparspueltaste-ohne-korrekte-funktion-tece-ablaufventil-a1",
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+        "https://spuelkasten-ersatzteile.de/tece/tece-spuelkasten-ersatzteile-tauschen-oder-entkalken/"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [
+        "9300001",
+        "9240200",
+        "9820001"
+      ],
+      "passende_teile": [
+        "tece-fuellventil-f10",
+        "tece-betaetigungsstangen-2003-2020"
+      ],
+      "auf_der_seite": "Bei meiner TECE-Spülung kommt auch bei der Spartaste die volle Wassermenge. Woran liegt das?",
+      "passendes_problem": "tece-spuelung-zu-schwach-oder-spritzt"
+    },
+    {
+      "frage": "Wie bekomme ich die TECE-Betätigungsplatte ab, ohne etwas abzubrechen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/252225/Wie-kann-ich-die-Spueltaste-bei-meinen-Unterputzspuelkasten-entfernen",
+        "https://www.dasheimwerkerforum.de/threads/problem-mit-wc-spuelkasten.9321/",
+        "https://spuelkasten-ersatzteile.de/tece/tece-spuelkasten-ersatzteile-tauschen-oder-entkalken/#comment-7415"
+      ],
+      "forum_antworten": "HaustechnikDialog 2022: 8 Jahre alter TECE-Kasten, Nutzer bekommt die Platte nicht ab; Antworten vermuten Schieben in eine Richtung und Abheben (bei Geberit nach oben, bei TECE nach links), was im Fall nicht klappte, der Nutzer fand später den Mechanismus per Video. Heimwerkerforum 2016: Platte in eine Richtung schieben und hochklappen, darunter Schrauben oder Plastikriegel des Halters. Kommentar spuelkasten-ersatzteile.de 2021: Bügel mit Saugnäpfen für TECEloop verloren.",
+      "antwort": "Die Blende ist in einen Befestigungsrahmen eingerastet. TECE beschreibt, sie mit dem Demontagewerkzeug oder vorsichtig mit einem Schraubendreher an den Aussparungen an der Unterseite abzuhebeln. Glasplatten wie TECEloop Glas oder TECEsquare Glas löst man mit den Bügelgriffen mit Saugnäpfen. Dahinter sitzen Befestigungsrahmen und Spritzschutz mit der Hebelmechanik.",
+      "antwort_quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Bet%C3%A4tigungen.pdf"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [],
+      "passende_teile": [
+        "tece-betaetigungsbock"
+      ],
+      "auf_der_seite": "Wie bekomme ich die TECE-Betätigungsplatte ab, ohne etwas abzubrechen?"
+    },
+    {
+      "frage": "Mein TECE-Spülkasten füllt sich nur noch sehr langsam. Muss das Füllventil getauscht werden, und welches passt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-wird-nur-langsam-befuellt-zuleitung-undicht.19532/",
+        "https://www.dasheimwerkerforum.de/threads/klopfgeraeusche-toilettenspuelung-bei-neuem-fuellventil.30659/"
+      ],
+      "forum_antworten": "Heimwerkerforum 2013: Kasten füllt sehr langsam, Wasser tritt an der Verschraubung oben aus; Antworten: Einströmteil auf Krümel prüfen, sonst das ganze Füllventil tauschen (15 bis 20 Euro, neuere TECE-Ventile sind schwarz und passen), ein weiterer Nutzer: Schwimmerventil sicher defekt. Heimwerkerforum 2024: Kasten von 2013 füllte langsam, altes Füllventil komplett verkalkt, nach Tausch auf F10 Universal füllte er wieder schnell.",
+      "antwort": "Oft reicht Reinigen: TECE nennt das Einströmelement und die Membran des Pilotventils als Teile, die man ausbaut und unter fließendem Wasser abspült. Vorher prüfen, ob das Eckventil ganz offen ist. Als Ersatz passt das Füllventil F 10 (9820353) laut TECE in alle TECE-Spülkästen.",
+      "antwort_quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+        "https://www.tece.com/de/magazin/tecenews/fuellventil-f10-passt-immer",
+        "https://www.tece.com/de/sanitaermodule/tece-universalspuelkasten/montage-wartung",
+        "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-wird-nur-langsam-befuellt-zuleitung-undicht.19532/"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [
+        "9820353"
+      ],
+      "passende_teile": [
+        "tece-fuellventil-f10"
+      ],
+      "auf_der_seite": "Mein TECE-Spülkasten füllt sich nur noch sehr langsam. Muss das Füllventil raus, und welches passt?",
+      "passendes_problem": "tece-spuelkasten-fuellt-nicht"
+    },
+    {
+      "frage": "Die Hutmembran im TECE-Füllventil ist gerissen. Gibt es die einzeln oder muss das ganze Füllventil raus?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/fuellventil-tece.34558/"
+      ],
+      "forum_antworten": "Heimwerkerforum 2026: Nutzer findet keine passende Hutmembran und will das ganze Füllventil tauschen, bekommt aber den Schlauch nicht vom Ventil. Antwort: Der Schlauch sei mit O-Ring nur gesteckt, ruckeln und fest ziehen oder vorsichtig hebeln.",
+      "antwort": "Für das F 10 führt TECE das Dichtungsset 9820383 und das Ventilhebelset 9820382. Für das ältere F1 gab es das Dichtungsset 9820009, es ist aber kaum noch lieferbar. Dann ist ein neues F 10 der einfachere Weg, es kostet bei Amazon um 20 Euro.",
+      "antwort_quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [
+        "9820383",
+        "9820382",
+        "9820353"
+      ],
+      "passende_teile": [
+        "tece-fuellventil-f10-dichtungsset",
+        "tece-fuellventil-f10-ventilhebelset",
+        "tece-fuellventil-f1-dichtungsset",
+        "tece-fuellventil-f10"
+      ],
+      "auf_der_seite": "Die Hutmembran im TECE-Füllventil ist gerissen. Gibt es die einzeln?",
+      "passendes_problem": "tece-spuelkasten-fuellt-nicht"
+    },
+    {
+      "frage": "Nach dem Einbau eines neuen TECE-Füllventils F10 gibt es beim Schließen einen Schlag in der Leitung. Was kann man tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/klopfgeraeusche-toilettenspuelung-bei-neuem-fuellventil.30659/",
+        "https://www.bauexpertenforum.de/threads/wasserschlag-spuelkasten.142817/"
+      ],
+      "forum_antworten": "Heimwerkerforum 2024: Drei F10 nacheinander (zwei von TECE nachgeschickt) und ein Geberit Impuls380 klopften alle nach einigen Tagen beim Schließen. Vorschläge: Wasserschlag durch abruptes Schließen, Eckventil tauschen oder drosseln, Schwimmer-Gleitflächen fetten; keine gesicherte Lösung. Bauexpertenforum 2025: Neuer TECE-UP-Kasten knallt am Ende der Befüllung; Vorschläge: Druckschlagdämpfer, Eckventil etwas schließen, Druckminderer prüfen; Schließgeschwindigkeit des TECE-Ventils sei nicht einstellbar.",
+      "antwort": null,
+      "antwort_quellen": [],
+      "sicherheit": "unsicher",
+      "tece_nummern": [
+        "9820353"
+      ],
+      "passende_teile": [
+        "tece-fuellventil-f10"
+      ],
+      "auf_der_seite": null,
+      "grund": "Antwort unsicher: zwei Threads mit widersprüchlichen Vermutungen."
+    },
+    {
+      "frage": "Am TECE-Spülkasten läuft trotz Entkalken und neuer Heberglocke immer eine Tropfspur in die Schüssel. Was mache ich falsch?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/hilfe-tece-unterputzspuelkasten-undicht.141175/",
+        "https://www.dasheimwerkerforum.de/threads/problem-mit-wc-spuelkasten.9321/"
+      ],
+      "forum_antworten": "Bauexpertenforum 2024 (Haus von 2013, zwei TECE-Kästen): Nach Entkalken von Glocke, Füllventil und Bassin und Einbau einer neuen Glocke mit Bassinkorb bleibt eine Tropfspur, erst nach millimeterweisem Verschieben der Glocke dicht; im Thread keine Antworten. Heimwerkerforum 2016: gründliches Säubern half, notfalls mehr Anpressdruck an der Glockendichtung.",
+      "antwort": "Meist liegt die Glocke des Ablaufventils nicht mehr sauber im Ventilsitz, wegen Kalkresten am Sitz oder einer harten Fußdichtung. Fußdichtung 9820233 und O-Ring 9820005 gibt es einzeln. Beim Umrüstset A2 liefert TECE einen neuen Ventilsitz mit, der alte Sitz mit Dichtung soll laut TECE weg.",
+      "antwort_quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+        "https://spuelkasten-ersatzteile.de/tece/tece-spuelkasten-ersatzteile-tauschen-oder-entkalken/"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [
+        "9820223"
+      ],
+      "passende_teile": [
+        "tece-fussdichtung-ablaufventil-a2",
+        "tece-o-ring-ventilsitz",
+        "tece-ablaufventil-a2"
+      ],
+      "auf_der_seite": "Am TECE-Spülkasten läuft trotz Entkalken eine dünne Spur in die Schüssel. Was ist noch undicht?",
+      "passendes_problem": "tece-spuelkasten-laeuft-nach"
+    },
+    {
+      "frage": "Der TECE-Spülkasten macht nach dem Spülen ein Tropf- oder Laufgeräusch, aber in der Schüssel kommt kein Wasser an. Woher kommt das?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/149819/Neuer-Tece-Spuelkasten-tropft",
+        "https://www.haustechnikdialog.de/Forum/t/252225/Wie-kann-ich-die-Spueltaste-bei-meinen-Unterputzspuelkasten-entfernen"
+      ],
+      "forum_antworten": "HaustechnikDialog 2012: Neuer TECE-Kasten tropft hörbar, aber kein Wasser in der Schüssel; Antworten: Schwimmerventil schließt nicht richtig, ein Nutzer tauschte das Einlassventil selbst und hatte danach Ruhe. HaustechnikDialog 2022: 8 Jahre alter TECE-Kasten klingt nach dem Füllen weiter, als ob Wasser liefe; Geräusch hört nach Wackeln an der Platte auf, Ursache im Thread nicht geklärt.",
+      "antwort": "Mehrere Forenantworten führen das auf ein Füllventil zurück, das nicht sauber schließt und leise nachfüllt. Abhilfe ist Reinigen oder der Tausch gegen ein neues Füllventil, bei TECE das F10 (9820353).",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/forum/t/149819/Neuer-Tece-Spuelkasten-tropft",
+        "https://www.dasheimwerkerforum.de/threads/problem-mit-wc-spuelkasten.9321/",
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [
+        "9820353"
+      ],
+      "passende_teile": [
+        "tece-fuellventil-f10"
+      ],
+      "auf_der_seite": null,
+      "grund": "Nicht übernommen, Inhalt steckt in den Fragen zum Nachlaufen und zum Füllventil."
+    },
+    {
+      "frage": "Passt eine Geberit- oder Grohe-Drückerplatte auf meinen TECE-Spülkasten?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/73065/WC-Drueckerplatte-fuer-TECE-System",
+        "https://www.energiesparhaus.at/forum-wc-betaetigungsplatten/39538"
+      ],
+      "forum_antworten": "HaustechnikDialog 2007: Frage nach Grohe Skate Air auf TECE; Antworten überwiegend: nur Platten des Kastenherstellers, Geberit-Platten nur bei TECE-Modul mit Geberit-Kasten; ein Nutzer behauptet, Geberit-Platten passten auch auf TECE-Kästen. energiesparhaus.at 2015: Frage nach Geberit-Platte auf TECE-Kasten; Geberit antwortete dem Fragesteller, dass es nicht geht.",
+      "antwort": "Dafür gibt es keine Freigabe. TECE sichert nur zu, dass jede TECE-Platte auf jede TECE-Spülkasten-Variante passt und die Platten untereinander austauschbar sind. In den Forenthreads gehen die Erfahrungen mit fremden Platten auseinander. Eine Ausnahme bei TECE selbst: Auf das TECEbase WC-Set passt laut Datenblatt nur die TECEbase-Platte.",
+      "antwort_quellen": [
+        "https://www.tece.com/de/newsblog/jede-platte-passt-auf-jeden-spuelkasten",
+        "https://www.energiesparhaus.at/forum-wc-betaetigungsplatten/39538",
+        "https://www.haustechnikdialog.de/Forum/t/73065/WC-Drueckerplatte-fuer-TECE-System"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [],
+      "passende_teile": [
+        "tece-tecebase-weiss"
+      ],
+      "auf_der_seite": "Passt eine Geberit- oder Grohe-Drückerplatte auf meinen TECE-Spülkasten?"
+    },
+    {
+      "frage": "Passt eine neue TECE-Platte wie TECEnow, TECEloop oder Square II auf meinen älteren TECE-Spülkasten?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://spuelkasten-ersatzteile.de/tece/tece-spuelkasten-ersatzteile-tauschen-oder-entkalken/#comment-35963"
+      ],
+      "forum_antworten": "Kommentar spuelkasten-ersatzteile.de 2024: Kasten von ca. 2013/2014 mit TECE Square Edelstahl, eine neu bestellte Square-Platte passte nicht; Antwort des Seitenbetreibers: alle TECE-Platten passen, Square und Square II unterscheiden sich nur optisch, Rückfrage, was genau nicht passte.",
+      "antwort": "Laut TECE passt jede TECE-Betätigungsplatte auf jede TECE-Spülkasten-Variante, und die Platten sind untereinander austauschbar. Unterschiede gibt es bei Einbautiefe und Montage: Für Glasplatten, flächenbündige Varianten oder Platten mit Einwurfschacht sind eigene Rahmen oder Bauteile nötig.",
+      "antwort_quellen": [
+        "https://www.tece.com/de/newsblog/jede-platte-passt-auf-jeden-spuelkasten",
+        "https://www.tece.com/de/sanitaermodule/tece-universalspuelkasten/montage-wartung",
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Bet%C3%A4tigungen.pdf"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [],
+      "passende_teile": [],
+      "auf_der_seite": null,
+      "grund": "In die Frage zu fremden Platten eingeflossen (TECE: jede TECE-Platte passt auf jeden TECE-Kasten)."
+    },
+    {
+      "frage": "Wie finde ich heraus, welcher TECE-Spülkasten bei mir verbaut ist, wenn keine Nummer zu finden ist?",
+      "kategorie": "nummer",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-laeuft-nach.34499/",
+        "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-wird-nur-langsam-befuellt-zuleitung-undicht.19532/"
+      ],
+      "forum_antworten": "Heimwerkerforum 2026: Nutzer nennt den Kasten TECE Now und findet keine Seriennummer; Antwort: TECEnow ist nur die Betätigungsplatte, die Nummer sei für die Reparatur erst einmal unerheblich. Heimwerkerforum 2013: Nutzer weiß nicht, ob nur die Drückergarnitur oder der ganze Kasten von TECE ist; Antwort: TECE ist großer Markenhersteller, Ersatzteile gibt es.",
+      "antwort": "Der Name auf der Platte, etwa TECEnow, bezeichnet nur die Betätigung. Fast alle TECE-WC-Module haben den Uni-Spülkasten mit gleicher Innentechnik, dafür passen Füllventil F 10 und Ablaufventil A2. Abweichend gebaut sind der flache Octa-Spülkasten (8 cm), der zum Beispiel einen eigenen Füllventilhalter 9820375 hat, und der schmale Compact 320.",
+      "antwort_quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+        "https://spuelkasten-ersatzteile.de/tece/tece-spuelkasten-ersatzteile-tauschen-oder-entkalken/",
+        "https://produktdaten.tece.de/web/tece_IT/de_DE/tece/KAT03TCBOX8CM/na/$catalogue/teceData/PR/9820375/parameters/index.xhtml"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [
+        "9820353",
+        "9820375"
+      ],
+      "passende_teile": [
+        "tece-fuellventil-f10",
+        "tece-ablaufventil-a2"
+      ],
+      "auf_der_seite": "Wie finde ich heraus, welcher TECE-Spülkasten verbaut ist, wenn keine Nummer zu finden ist?"
+    },
+    {
+      "frage": "Passt das neue TECE-Ablaufventil A2 in einen älteren Spülkasten mit Ablaufventil A1?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/154999/problem-sparspueltaste-ohne-korrekte-funktion-tece-ablaufventil-a1",
+        "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-laeuft-nach.34499/"
+      ],
+      "forum_antworten": "HaustechnikDialog 2013: Kasten mit Ablaufventil A1, Nutzer überlegte ein neues Ventil für 40 bis 64 Euro zu kaufen. Heimwerkerforum 2026: Nutzer tauschte die Glocke direkt gegen die neue Version A2, danach war nur die Spülmenge falsch eingestellt.",
+      "antwort": "Ja. TECE schreibt, dass das A2 voll kompatibel zum A1 ist, das bis Mitte 2009 eingebaut wurde. Im Umrüstset 9820223 sind A2, Betätigungshebel, zwei Drosseln und Ventilsitz. Die Betätigungshebel werden mit getauscht, alter Ventilsitz und Dichtung kommen weg.",
+      "antwort_quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [
+        "9820223"
+      ],
+      "passende_teile": [
+        "tece-ablaufventil-a2"
+      ],
+      "auf_der_seite": "Passt das neue TECE-Ablaufventil A2 in einen alten Spülkasten mit A1?"
+    },
+    {
+      "frage": "Das TECE-Urinal läuft ständig nach. Wie komme ich an die Kartusche und welche passt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://spuelkasten-ersatzteile.de/tece/tece-spuelkasten-ersatzteile-tauschen-oder-entkalken/#comment-3153"
+      ],
+      "forum_antworten": "Kommentar spuelkasten-ersatzteile.de 2021: Separates Urinal rinnt ständig nach; hinter der Drückerplatte eine lange Schraube mit Gummihaube und zwei Schlitzschrauben, Verstellen half nicht; Frage, wie man ans Ventil kommt, ohne das WC zu fluten. Im gelesenen Ausschnitt keine konkrete Lösung.",
+      "antwort": "Beim Urinalspüler U 1 mit manueller Platte ist es die Druckspülerkartusche 9820031. Vor dem Tausch die Vorabsperrung im Spülergehäuse schließen: laut TECE mit einem 3-mm-Innensechskant, eine Vierteldrehung gegen den Uhrzeigersinn. Für elektronische U-1-Spüler gibt es eine eigene elektronische Kartusche.",
+      "antwort_quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+        "https://haustechnikhamburg.de/shop/tece-urinal-druckspueler-kartusche-9820031/",
+        "https://produktdaten.tece.de/web/tece/de_AT/tece/1476710036087/TECE-Ersatzteil%20Urinalkartusche%20elektronisch/$catalogue/teceData/PR/9820089/parameters/index.xhtml"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [
+        "9820031",
+        "9820089"
+      ],
+      "passende_teile": [
+        "tece-druckspuelerkartusche-u1"
+      ],
+      "auf_der_seite": "Das TECE-Urinal läuft ständig nach. Welche Kartusche brauche ich?"
+    },
+    {
+      "frage": "Kann ich den TECE-Spülkasten mit Tabs oder Essigessenz entkalken, oder muss ich die Teile ausbauen?",
+      "kategorie": "pflege",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-laeuft-nach.34499/",
+        "https://www.bauexpertenforum.de/threads/hilfe-tece-unterputzspuelkasten-undicht.141175/",
+        "https://spuelkasten-ersatzteile.de/tece/tece-spuelkasten-ersatzteile-tauschen-oder-entkalken/#comment-21"
+      ],
+      "forum_antworten": "Heimwerkerforum 2026: Spülkasten-Tabs gegen Verschmutzung halfen nicht; Antwort: schlechte Idee, mechanische Reinigung der ausgebauten Teile sei besser. Bauexpertenforum 2024: viel Kalk am Ventilsitz, Teile ausgebaut, eingelegt, Kalkringe mit dem Schraubendreher abgeschabt. Kommentar spuelkasten-ersatzteile.de 2019: Reicht Essigessenz im Kasten?",
+      "antwort": "In den Forenthreads half Einlegen allein meist nicht. Besser ist, Ablaufventil, Ventilsitz und Füllventil auszubauen und mechanisch zu reinigen. Für das Füllventil beschreibt TECE, Einströmelement und Membran des Pilotventils auszubauen und unter fließendem Wasser zu reinigen. Stark verkalkte Dichtungen tauscht man besser.",
+      "antwort_quellen": [
+        "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-laeuft-nach.34499/",
+        "https://www.bauexpertenforum.de/threads/hilfe-tece-unterputzspuelkasten-undicht.141175/",
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [],
+      "passende_teile": [
+        "tece-fussdichtung-ablaufventil-a2",
+        "tece-fuellventil-f10-dichtungsset"
+      ],
+      "auf_der_seite": "Kann ich den TECE-Spülkasten mit Tabs oder Essig entkalken, oder muss ich die Teile ausbauen?",
+      "passendes_problem": "tece-spuelkasten-laeuft-nach"
+    },
+    {
+      "frage": "Bekommt man für einen 10 bis 20 Jahre alten TECE-Spülkasten noch Ersatzteile?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/131192/Tece-Vorwand-mit-Geberit-Spuelkasten-",
+        "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-wird-nur-langsam-befuellt-zuleitung-undicht.19532/",
+        "https://www.dasheimwerkerforum.de/threads/problem-mit-wc-spuelkasten.9321/"
+      ],
+      "forum_antworten": "HaustechnikDialog 2011: Frage, ob man bei TECE später Probleme mit Ersatzteilen hat; Antwort: TECE-Kasten sei einfacher zu reparieren, TECE biete auch Module mit Geberit-Kasten. Heimwerkerforum 2013: TECE ist großer Markenhersteller, es gibt jedes Ersatzteil. Heimwerkerforum 2016: Für TECE bekomme man wenigstens noch Teile.",
+      "antwort": "In der Regel ja. TECE bestätigt, dass es für Unterputzspülkästen bis zu 25 Jahre ab Verkaufsdatum Ersatzteile gibt. Füllventil F 10 und Ablaufventil A2 ersetzen auch die älteren Ventile F1 und A1. Einzelne Kleinteile alter Ventile, etwa das F1-Dichtungsset, sind aber nicht mehr lieferbar.",
+      "antwort_quellen": [
+        "https://www.tece.com/de/sanitaermodule/tece-universalspuelkasten/montage-wartung",
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+        "https://produktdaten.tece.de/web/tece_IT/de_DE/tece/KAT03TCBOX8CM/na/$catalogue/teceData/PR/9820375/parameters/index.xhtml"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [
+        "9820353",
+        "9820223",
+        "9820375"
+      ],
+      "passende_teile": [
+        "tece-fuellventil-f10",
+        "tece-ablaufventil-a2",
+        "tece-fuellventil-f1-dichtungsset"
+      ],
+      "auf_der_seite": "Bekommt man für einen 10 bis 20 Jahre alten TECE-Spülkasten noch Ersatzteile?"
+    },
+    {
+      "frage": "Der Installateur hat die Halterung vom TECE-Füllventil mitgenommen. Welche Halterung brauche ich?",
+      "kategorie": "bezug",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://spuelkasten-ersatzteile.de/tece/tece-spuelkasten-ersatzteile-tauschen-oder-entkalken/#comment-10194"
+      ],
+      "forum_antworten": "Kommentar spuelkasten-ersatzteile.de 2022: Nutzer bestellte einen neuen Schwimmer, die Halterung war nicht dabei und ist nirgends zu finden. Antwort des Seitenbetreibers: Es gibt zwei Halterungen, mit Links auf 9820372 und 9820375.",
+      "antwort": "TECE führt unterschiedliche Füllventilhalter: 9820372 für den Uni-Spülkasten (17 mm, 3/8 Zoll, bis Baujahr 2019) und 9820375 für den Octa-Spülkasten (27 mm, M 30). Für Uni-Kästen ab 2020 ist laut Händler ein anderer Halter nötig; die genaue Nummer dafür ist nicht belegt.",
+      "antwort_quellen": [
+        "https://produktdaten.tece.de/web/tece/de_DE/tece/KAT03TCBOX/TECE-F%C3%BCllventilhalter%20f%C3%BCr%20Uni-Sp%C3%BClkasten%20%2817%20mm%2C%203-8%22%2C%20bis%202019%29/$catalogue/teceData/PR/9820372/index.xhtml",
+        "https://produktdaten.tece.de/web/tece_IT/de_DE/tece/KAT03TCBOX8CM/na/$catalogue/teceData/PR/9820375/parameters/index.xhtml",
+        "https://spuelkasten-ersatzteile.de/tece/tece-spuelkasten-ersatzteile-tauschen-oder-entkalken/"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [
+        "9820372",
+        "9820375"
+      ],
+      "passende_teile": [],
+      "auf_der_seite": null,
+      "grund": "Nicht übernommen: Nummer des Füllventilhalters für Uni-Kästen ab 2020 nicht belegt; die Händlerangabe 9820375 ist laut TECE der Halter für den Octa-Kasten."
+    },
+    {
+      "frage": "Die Spülung am TECE-Spülkasten ist zu schwach oder das spülrandlose WC spritzt. Lässt sich der Spüldruck einstellen?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/tece-spuelkasten-laeuft-nach.34499/",
+        "https://www.gutefrage.net/frage/wandtoilettenspuelkasten-der-wasserdruck-beim-spuelen-ist-sehr-schwach"
+      ],
+      "forum_antworten": "Heimwerkerforum 2026: Bei der großen Taste kommt bei TECE nur wenig Wasser, Ursache war die Spülmengeneinstellung (4,5 Liter). gutefrage 2013 (Wandspülkasten, Hersteller nicht genannt): Spülung sehr schwach; Antworten: Innenteile verkalkt, nach dem Entkalken waren Kalkbrocken in den Einlauflöchern der Keramik, mit Draht freigemacht.",
+      "antwort": "Ja, über die Drossel im Ventilsitz des Ablaufventils. Das Drosselset 9820337 hat acht Drosseln von 46 mm (etwa 115 % Spüldruck) bis 28 mm (etwa 65 %): kleiner gegen Spritzen, größer oder ganz ohne gegen schwaches Spülen. Kästen ab September 2023 haben eine Spülstromdrossel, die man an einer Spindel verstellt. Außerdem lässt sich die Spülmenge zwischen 4,5 und 9 Litern wählen.",
+      "antwort_quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Sp%C3%BCltechnik.pdf",
+        "https://produktdaten.tece.de/web/tece_DE/de_DE/tece/KAT03ZUBEHOERSPUELT/TECE-Drosselset%20f%C3%BCr%20Sp%C3%BClk%C3%A4sten%20mit%20einer%20Bautiefe%20von%2013%20cm/$catalogue/teceData/PG/2009050070%200100/index.xhtml",
+        "https://www.baulinks.de/webplugin/2016/0623.php4"
+      ],
+      "sicherheit": "belegt",
+      "tece_nummern": [
+        "9820337"
+      ],
+      "passende_teile": [
+        "tece-drosselset",
+        "tece-ventilsitz-spuelstromdrossel"
+      ],
+      "auf_der_seite": "Die Spülung am TECE-Spülkasten ist zu schwach oder das spülrandlose WC spritzt. Lässt sich das einstellen?",
+      "passendes_problem": "tece-spuelung-zu-schwach-oder-spritzt"
+    }
+  ]
+}
