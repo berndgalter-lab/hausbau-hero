@@ -1,3 +1,4 @@
+import { istAmazonSuche } from "@/lib/affiliate";
 export interface EingabeFeld {
   name: string
   label: string
@@ -80,8 +81,9 @@ export function amazonLink(asin: string, tag: string = 'hausbauhero-21'): string
   return `https://www.amazon.de/dp/${asin}?tag=${tag}`
 }
 
+/** Link zum Produkt: Partner-URL oder ASIN. Eine Amazon-Suche ist kein Produktlink (siehe istAmazonSuche). */
 export function getAffiliateLink(affiliateUrl?: string, amazonAsin?: string): string | null {
-  if (affiliateUrl) return affiliateUrl
+  if (affiliateUrl && !istAmazonSuche(affiliateUrl)) return affiliateUrl
   if (amazonAsin) return amazonLink(amazonAsin)
   return null
 }
