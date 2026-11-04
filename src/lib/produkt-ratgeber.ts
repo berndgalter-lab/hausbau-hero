@@ -1,4 +1,4 @@
-import type { ArmaturDaten } from "@/lib/armatur-daten";
+import { KATEGORIE_NAME, type ArmaturDaten } from "@/lib/armatur-daten";
 
 // Produkt-Ratgeber unter /ratgeber/<pfad>: eine Auswahlhilfe pro Produktart (docs/SEITENAUFBAU.md, Abschnitt 3).
 // Inhalt und Produkte kommen wie bisher aus data/artikel/<slug>.* (Datenbank-Tabellen seiten und produkte).
@@ -68,7 +68,7 @@ const WASCHTISCHARMATUR: ProduktRatgeber = {
           passt: (d) => (d.druck ? d.druck === "Niederdruck" : null),
           sonst: {
             text: "Am offenen Untertischspeicher darf nur eine Niederdruckarmatur hängen, sonst kann der Speicher unter Druck geraten.",
-            href: "/bad/niederdruckarmatur-untertischspeicher",
+            href: "/ratgeber/niederdruckarmatur",
             linktext: "Niederdruckarmaturen ansehen",
           },
         },
@@ -134,7 +134,67 @@ const WASCHTISCHARMATUR: ProduktRatgeber = {
   ],
 };
 
-export const PRODUKT_RATGEBER: ProduktRatgeber[] = [WASCHTISCHARMATUR];
+const NIEDERDRUCKARMATUR: ProduktRatgeber = {
+  pfad: "niederdruckarmatur",
+  slug: "niederdruckarmatur-untertischspeicher",
+  silo: "bad",
+  name: "Niederdruckarmatur",
+  mehrzahl: "Armaturen",
+  fragen: [
+    {
+      key: "speicher",
+      label: "Untertischspeicher",
+      hinweis: "Drei Schläuche an der alten Armatur heißen offener Speicher. Auf dem Typenschild steht „offen“ oder „drucklos“.",
+      optionen: [
+        { label: "offen", passt: (d) => (d.druck ? d.druck === "Niederdruck" : null) },
+        {
+          label: "druckfest oder keiner",
+          passt: (d) => (d.druck ? d.druck === "Hochdruck" : null),
+          sonst: {
+            text: "Am druckfesten Speicher, am Durchlauferhitzer und an zentralem Warmwasser brauchst du eine normale Hochdruckarmatur.",
+            href: "/ratgeber/waschtischarmatur",
+            linktext: "Waschtischarmaturen ansehen",
+          },
+        },
+      ],
+    },
+    {
+      key: "einsatz",
+      label: "Wofür",
+      optionen: [
+        { label: "Waschtisch", passt: (d) => (d.kategorie ? d.kategorie === "waschtisch" : null) },
+        { label: "Küche", passt: (d) => (d.kategorie ? d.kategorie === "kueche" : null) },
+      ],
+    },
+    {
+      key: "ablauf",
+      label: "Ablauf am Waschtisch",
+      hinweis: "Zugstange: Stab hinter der Armatur. Push-Open: Druck auf den Stopfen im Becken.",
+      optionen: [
+        // Küchenarmaturen haben keine Ablaufgarnitur, sie passen hier also nicht
+        { label: "Zugstange", passt: (d) => (d.kategorie === "waschtisch" ? enthaelt(d.ablauf, /zug/i) : false) },
+        {
+          label: "Push-Open",
+          passt: (d) => (d.kategorie === "waschtisch" ? enthaelt(d.ablauf, /push|pop/i) : false),
+          sonst: {
+            text: "In Niederdruck mit Push-Open gibt es zum Beispiel die hansgrohe Logis 70 (71074000). Achte auf die Nummer, die Hochdruckversion heißt fast gleich.",
+            href: "#fragen",
+            linktext: "Mehr dazu",
+          },
+        },
+      ],
+    },
+  ],
+  eckdaten: (d) => [
+    d.kategorie ? KATEGORIE_NAME[d.kategorie] : null,
+    d.ablauf ? (/zug/i.test(d.ablauf) ? "Zugstangen-Ablauf" : `${d.ablauf}-Ablauf`) : null,
+    mm(d.ausladung_mm, "Ausladung"),
+    typeof d.kartusche_mm === "number" ? `Kartusche ${d.kartusche_mm} mm` : null,
+    typeof d.durchfluss_l_min === "number" ? `${d.durchfluss_l_min.toLocaleString("de-DE")} l/min` : null,
+  ],
+};
+
+export const PRODUKT_RATGEBER: ProduktRatgeber[] = [WASCHTISCHARMATUR, NIEDERDRUCKARMATUR];
 
 export function ratgeberNachPfad(pfad: string): ProduktRatgeber | null {
   return PRODUKT_RATGEBER.find((r) => r.pfad === pfad) ?? null;

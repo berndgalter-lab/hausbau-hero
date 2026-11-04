@@ -55,11 +55,11 @@ Im Code durchgesetzt, gilt für alle Seiten (alte Beiträge eingeschlossen):
 
 ## 3. Seitentyp Produkt-Ratgeber (`/ratgeber/<produkt>`)
 
-Vorbild ist womo-teile (`/ratgeber/dieselheizung`): Die Seite beantwortet „Welche passt zu mir?“ mit einer Auswahlhilfe, nicht mit einer Liste „Die besten …“. Erste Seite im neuen Aufbau: `/ratgeber/waschtischarmatur`.
+Vorbild ist womo-teile (`/ratgeber/dieselheizung`): Die Seite beantwortet „Welche passt zu mir?“ mit einer Auswahlhilfe, nicht mit einer Liste „Die besten …“. Im neuen Aufbau: `/ratgeber/waschtischarmatur`, `/ratgeber/niederdruckarmatur`.
 
 ### URL-Schema
 
-- **`/ratgeber/<produkt>`**, Produkt in der Einzahl, ohne Kategorie, ohne „-ratgeber“, ohne Jahreszahl: `/ratgeber/waschtischarmatur`, später `/ratgeber/niederdruckarmatur`, `/ratgeber/badewannenarmatur`, `/ratgeber/drueckerplatte`.
+- **`/ratgeber/<produkt>`**, Produkt in der Einzahl, ohne Kategorie, ohne „-ratgeber“, ohne Jahreszahl: `/ratgeber/waschtischarmatur`, `/ratgeber/niederdruckarmatur`, später `/ratgeber/badewannenarmatur`, `/ratgeber/drueckerplatte`.
 - Die alte URL `/<silo>/<slug>` leitet dauerhaft weiter (308, von Google wie 301 behandelt). Die Weiterleitung, die Sitemap, das Canonical und alle internen Links (`artikelUrl()`) ergeben sich aus dem Eintrag in `src/lib/produkt-ratgeber.ts`. Nichts davon wird von Hand gepflegt.
 - Der Slug in `data/artikel` bleibt der alte (`waschtischarmatur-ratgeber`), damit der stündliche Import dieselbe Zeile in `seiten` trifft. Keine Datenbank-Änderung nötig.
 - Reine Wissensbeiträge ohne Produktauswahl (Estrich, Wandfarbe …) bleiben unter `/<silo>/<slug>`.
@@ -87,6 +87,7 @@ Nicht mehr auf der Seite: „Welches Modell für wen?“, „Die Modelle im Einz
 - Eine Option prüft ein Feld aus `technische_daten` und sagt je Modell: passt, passt nicht, oder keine Angabe. Modelle ohne Angabe stehen getrennt („Dazu nennt der Hersteller nichts“), statt als passend zu gelten.
 - Fällt eine Wahl aus dem Beitrag heraus (Untertischspeicher → Niederdruck, Brause → eigener Ratgeber), verweist `sonst` auf den passenden Ratgeber, statt eine leere Liste zu zeigen.
 - Unter einer Frage höchstens ein Satz, der erklärt, woran man die Antwort erkennt.
+- Ein Modell erscheint nur mit EAN oder ASIN. Fehlt beides (bei Niederdruck: hansgrohe Logis 70, Kludi BOZZ), kann eine Option per `sonst` auf das Modell hinweisen, bis die EAN belegt ist.
 - Bild nur, wenn ein Partnershop eins liefert, sonst ein leeres Feld „kein Bild“. Bilder laufen über `TeilBild` (Next.js-Bildoptimierung, keine IP an Shops).
 - Kaufzeile: bis zu drei Partnershops mit Preis, dann Amazon nur mit ASIN, alles als Textlink mit Sternchen.
 
@@ -97,7 +98,7 @@ Nicht mehr auf der Seite: „Welches Modell für wen?“, „Die Modelle im Einz
 3. In `src/lib/produkt-ratgeber.ts` einen Eintrag ergänzen: `pfad`, `slug`, `silo`, `name`, `mehrzahl`, die Fragen und die Eckdaten der Ergebniszeile. Fragen nur zu Merkmalen, nach denen Leser wirklich unterscheiden (Warmwasser, Becken, Montage), nicht zu jedem Datenfeld.
 4. Prüfregel laufen lassen: `python3 -I scripts/pruefe-inhalte.py --streng`.
 
-Umstellen der übrigen Bad-Kaufberatungen (Brause, Niederdruck, Badewanne, Drückerplatte, Vorwandelement): je Beitrag Schritt 3 und den Text nach der Tabelle oben kürzen. Bis dahin laufen sie in der alten Vorlage `src/app/[silo]/[slug]/page.tsx` mit `ModellFinder`; der fällt weg, wenn der letzte umgestellt ist.
+Umstellen der übrigen Bad-Kaufberatungen (Brause, Badewanne, Drückerplatte, Vorwandelement): je Beitrag Schritt 3 und den Text nach der Tabelle oben kürzen. Bis dahin laufen sie in der alten Vorlage `src/app/[silo]/[slug]/page.tsx` mit `ModellFinder`; der fällt weg, wenn der letzte umgestellt ist.
 
 `/vergleich/armaturen` bleibt unter der URL (177 Impressionen), heißt aber „Armaturen-Datenblätter nebeneinander“.
 
