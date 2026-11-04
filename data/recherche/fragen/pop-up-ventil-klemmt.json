@@ -1,0 +1,224 @@
+{
+  "thema": "Pop-up-, Push-Open- bzw. Klick-Klack-Ventil am Waschbecken klemmt, geht nicht mehr hoch, schließt nicht oder ist undicht; dazu Zugstangen-Garnituren, deren Stopfen nicht mehr hochgeht",
+  "fragen": [
+    {
+      "frage": "Mein Pop-up-Stöpsel geht nicht mehr hoch. Was kann ich tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 6,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/pop-up-waschbeckenstoepsel-klemmt",
+        "https://www.gutefrage.net/frage/push-up-stoepsel-klemmt",
+        "https://www.gutefrage.net/frage/waschbeckenstoepsel-ohne-hebel-versenktklemmt",
+        "https://www.gutefrage.net/frage/waschbeckenstoepsel-hochkriegen",
+        "https://www.dasheimwerkerforum.de/threads/pop-up-stoepsel-am-waschbecken-geht-nicht-mehr-hoch.4034/",
+        "https://www.dasheimwerkerforum.de/threads/waschbeckenstoepsel-geht-nicht-mehr-hoch.231/"
+      ],
+      "antwort": "Meist sitzen Haare, Seifenreste oder Kalk in der Druckmechanik. Drück den Stopfen noch einmal kräftig, sonst dreh ihn gegen den Uhrzeigersinn ab; bei Grohe ist die Push-Open-Abdeckung ausdrücklich abnehmbar. Reinige Stopfen und Mechanik, leg verkalkte Teile in Entkalker und setz Feder und Stift beim Zusammenbau mittig. Rastet der Stopfen danach nicht mehr, ist die Mechanik verschlissen.",
+      "antwort_quellen": [
+        "https://www.gutefrage.net/frage/pop-up-waschbeckenstoepsel-klemmt",
+        "https://www.gutefrage.net/frage/waschbeckenstoepsel-ohne-hebel-versenktklemmt",
+        "https://www.gutefrage.net/frage/stoepsel-im-waschbecken-stecht-fest",
+        "https://www.grohe.com/en-PJ/product/65807000",
+        "https://images.victorianplumbing.co.uk/products/cruze-basin-installation-pack-chrome/instructions/vp-click-clack-basin-waste-v2-05-24.pdf"
+      ],
+      "sicherheit": "belegt (Forenantworten übereinstimmend, in data/recherche/fragen/ablaufgarnitur.json bereits gelesen; Grohe-Produktseite: abnehmbare Push-Open-Abdeckung)"
+    },
+    {
+      "frage": "Der Stöpsel steckt fest und geht nicht raus. Wie bekomme ich ihn heraus?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 7,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/stoepsel-im-waschbecken-stecht-fest",
+        "https://www.gutefrage.net/frage/stoepsel-steckt-in-waschbecken-fest",
+        "https://www.gutefrage.net/frage/waschbecken-stoepsel-geht-nicht-raus",
+        "https://www.gutefrage.net/frage/stoepsel-im-waschbecken-sitzt-fest-was-kann-ich-tun",
+        "https://www.gutefrage.net/frage/stoepsel-vom-waschbecken-steckt-fest",
+        "https://www.gutefrage.net/frage/wie-kann-ich-den-verklemmten-stoepsel-aus-meinem-waschbecken-kriegen",
+        "https://www.haustechnikdialog.de/Forum/t/65887/Der-Waschbeckenstopfen-steckt-fest",
+        "https://www.dasheimwerkerforum.de/threads/stopsel-waschbecken-loesen.10118/"
+      ],
+      "antwort": "Becken trocken wischen, kräftiges Paketklebeband auf den Stopfen kleben, die Enden hochziehen und dabei gegen den Uhrzeigersinn drehen. Klappt das nicht, Eimer unterstellen, Siphon abschrauben und den Stopfen mit einem Stab von unten hochdrücken. Bei einer Zugstangen-Garnitur zuerst unter dem Becken die Mutter der Kugelstange lösen und die Stange ein Stück herausziehen, sonst hält sie den Stopfen fest.",
+      "antwort_quellen": [
+        "https://www.gutefrage.net/frage/stoepsel-im-waschbecken-stecht-fest",
+        "https://www.gutefrage.net/frage/waschbecken-stoepsel-rausnehmen",
+        "https://graff-designs.com/media/products/inst/IN_2151200_EU_2.pdf"
+      ],
+      "sicherheit": "belegt (Forenantworten übereinstimmend; Graff-Anleitung: Kugelstab läuft durch das „Auge“ im Ablaufverschluss)"
+    },
+    {
+      "frage": "Wie stelle ich die Höhe des Pop-up-Stopfens ein?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/263095/Waschtisch-fuellt-sich-zur-Haelfte-mit-Wasser",
+        "https://www.gutefrage.net/frage/waschbecken-fliesst-nicht-ab-ist-aber-nicht-verstopft"
+      ],
+      "antwort": "Bei vielen Klick-Klack-Stopfen sitzt die Kappe auf einem Gewindebolzen der Mechanik. Kohler beschreibt es so: Kappe festhalten, das Unterteil drehen. Mehr freiliegendes Gewinde ergibt mehr Hub, weniger Gewinde weniger. Bei Zugstangen-Stopfen sitzt die Einstellschraube unten am Stopfen. Bleibt der Abfluss trotz hoch stehendem Stopfen langsam, liegt es meist am Siphon.",
+      "antwort_quellen": [
+        "https://assist.kohler.com/en/bathing/Bath-Clicker-Drain-Not-Clicking-or-Sealing",
+        "https://www.haustechnikdialog.de/Forum/t/263095/Waschtisch-fuellt-sich-zur-Haelfte-mit-Wasser"
+      ],
+      "sicherheit": "belegt für das Prinzip (Kohler-Hilfeseite zu Klick-Ablauf der Wanne, gleiche Mechanik); Werte je Modell nicht"
+    },
+    {
+      "frage": "Der Stöpsel ist zu, aber das Wasser läuft trotzdem ab. Woran liegt das?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/waschbecken-stoepsel-haelt-das-wasser-nicht",
+        "https://www.haustechnikdialog.de/Forum/t/62293/Push-UP-Verschluss-undicht"
+      ],
+      "antwort": "Prüf, ob der Stopfen ganz auf die Mechanik geschraubt ist und ob der Dichtring unter der Kappe richtig sitzt. Kohler nennt beides als häufigste Ursache, ein zu fest angezogener Stopfen kann den Dichtring herausdrücken. Hängen Haare oder Kalk am Ventilsitz, schließt die Kappe nicht plan ab. Steht das Wasser bis zum Überlaufloch, läuft es dort planmäßig ab.",
+      "antwort_quellen": [
+        "https://assist.kohler.com/en/bathing/Bath-Clicker-Drain-Not-Clicking-or-Sealing",
+        "https://www.haustechnikdialog.de/Forum/t/62293/Push-UP-Verschluss-undicht"
+      ],
+      "sicherheit": "belegt (Kohler); Überlauf-Satz ist Grundwissen"
+    },
+    {
+      "frage": "Unter dem Waschbecken tropft es am Pop-up-Ventil. Was ist undicht?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/62293/Push-UP-Verschluss-undicht",
+        "https://www.haustechnikdialog.de/Forum/t/274578/Ablaufgarnitur-undicht",
+        "https://www.gutefrage.net/frage/warum-bleibt-der-ablaufablaufgarnitur-undicht",
+        "https://www.bauexpertenforum.de/threads/bekomme-keuco-ablaufgarnitur-nicht-dicht.105180/"
+      ],
+      "antwort": "Bei Becken mit Überlauf muss das Ventil oben das Beckenwasser und unten den Überlaufkanal abdichten. Prüf die untere Dichtung, die Beilagscheibe und ob die große Mutter fest sitzt. Laut Graff-Anleitung soll die Mutter fest, aber nicht zu stark angezogen werden. Tropft es bei einer Zugstangen-Garnitur am seitlichen Stutzen, ist dort die Überwurfmutter der Kugelstange locker oder eine Halbschale fehlt.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/274578/Ablaufgarnitur-undicht",
+        "https://www.haustechnikdialog.de/Forum/t/62293/Push-UP-Verschluss-undicht",
+        "https://www.gutefrage.net/frage/warum-bleibt-der-ablaufablaufgarnitur-undicht",
+        "https://graff-designs.com/media/products/inst/IN_2151200_EU_2.pdf",
+        "https://images.victorianplumbing.co.uk/products/cruze-basin-installation-pack-chrome/instructions/vp-click-clack-basin-waste-v2-05-24.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Bei meiner Armatur mit Zugstange geht der Stopfen nicht mehr hoch. Was ist kaputt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/waschbecken-stopfen-geht-nicht-mehr-richtig-hoch.30889/",
+        "https://www.haustechnikdialog.de/Forum/t/165178/Waschbeckenstoepsel-hat-keinen-Halt-mehr",
+        "https://www.gutefrage.net/frage/waschbecken-stoepsel-geht-nicht-raus--hebel-kaputt----",
+        "https://www.gutefrage.net/frage/wie-heisst-am-waschbecken-das-kleine-teil-das-am-abfluss-den-stoepselstab-und-den-stab-zum-oeffnen",
+        "https://www.haustechnikdialog.de/Forum/t/75033/Wie-heisst-so-ein-Verbinder-zwischen-Ablaufgarnitur-und-Zugstange"
+      ],
+      "antwort": "Schau unter das Becken. Die Zugstange hängt an einer gelochten Leiste, ein Federclip verbindet die Leiste mit der waagerechten Kugelstange, die durch eine Öse im Stopfen läuft. Ist der Clip abgesprungen, die Mutter an der Leiste locker oder die Kugelstange aus der Öse gerutscht, bewegt sich der Stopfen nicht mehr. Steck den Clip in ein anderes Loch, bis der Stopfen beim Hochziehen schließt, wie es die Graff-Anleitung beschreibt.",
+      "antwort_quellen": [
+        "https://graff-designs.com/media/products/inst/IN_2151200_EU_2.pdf",
+        "https://hardys24.de/media/a0/1f/3e/1716449700/Steinberg_Serie_100_1001750.pdf"
+      ],
+      "sicherheit": "belegt (Graff- und Steinberg-Montageanleitung); Forenfundstellen nur über Suchtreffer gesehen, Seiten blockten den Abruf"
+    },
+    {
+      "frage": "Wie bekomme ich den Stopfen bei einer Zugstangen-Garnitur zum Reinigen heraus?",
+      "kategorie": "pflege",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/waschbecken-stoepsel-rausnehmen",
+        "https://www.haustechnikdialog.de/Forum/t/268335/Waschbecken-Stoepsel-Katzensicher-montieren",
+        "https://www.gutefrage.net/frage/wofuer-ist-eigentliche-die-markierte-stange-bei-waschbecken"
+      ],
+      "antwort": "Bei vielen Garnituren läuft die Kugelstange durch eine Öse unten am Stopfen. Löse unter dem Becken die Überwurfmutter am seitlichen Stutzen, zieh die Kugelstange ein Stück heraus und nimm den Stopfen nach oben ab. Beim Einbau den Stopfen so drehen, dass die Öse zur Seitenöffnung zeigt, Stange durchstecken und die Mutter wieder anziehen.",
+      "antwort_quellen": [
+        "https://www.gutefrage.net/frage/waschbecken-stoepsel-rausnehmen",
+        "https://www.haustechnikdialog.de/Forum/t/268335/Waschbecken-Stoepsel-Katzensicher-montieren",
+        "https://graff-designs.com/media/products/inst/IN_2151200_EU_2.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Mein Waschbecken hat keinen Überlauf. Darf ich ein Pop-up-Ventil einbauen?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/kann-man-ein-push-up-ablaufventil-mit-ueberlauf-auch-fuer-ein-waschbecken-ohne-ueberlauf-verwenden-",
+        "https://www.haustechnikdialog.de/Forum/t/170853/Distanzstueck-fuer-Abflussgarnitur-integrierter-Ueberlauf",
+        "https://www.bauexpertenforum.de/threads/waschbecken-ohne-ueberlauf.142110/"
+      ],
+      "antwort": "Ein verschließbares Pop-up-Ventil gehört nur in ein Becken mit Überlauf, das schreiben hansgrohe und Grohe für ihre Push-Open-Garnituren ausdrücklich. Sonst läuft das Becken bei offenem Hahn über den Rand. Für Becken ohne Überlauf gibt es Ventile ohne seitliche Schlitze, die nicht verschließbar sind, oder Modelle wie das KWC Push Open, das sich in offener Stellung feststellen lässt.",
+      "antwort_quellen": [
+        "https://media.hornbach.at/hb/installationmanual/as.46973468.pdf",
+        "https://www.grohe.com/en-PJ/product/65807000",
+        "https://kwc.com/assets-original/kwc-products/538321/data_sheets/538321-de_CH.pdf",
+        "https://images.victorianplumbing.co.uk/products/cruze-basin-installation-pack-chrome/instructions/vp-click-clack-basin-waste-v2-05-24.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Kann ich das Pop-up-Ventil so einstellen, dass es immer offen bleibt?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/waschbecken-ohne-ueberlauf.142110/"
+      ],
+      "antwort": "Nur bei Ventilen, die das vorsehen. KWC beschreibt sein Push Open als „2 in 1“: zum Öffnen und Schließen drücken oder in offener Stellung arretieren, die Montageanleitung zeigt dafür die Stellung „Always open“. Bei Ventilen ohne diese Funktion hilft nur ein Ventil, das von vornherein nicht verschließbar ist.",
+      "antwort_quellen": [
+        "https://kwc.com/assets-original/kwc-products/538321/data_sheets/538321-de_CH.pdf",
+        "https://kwc.com/assets-original/kwc-products/3600004482/mounting-instruction_3600006916.pdf"
+      ],
+      "sicherheit": "belegt (KWC); Suchvorschlag „immer offen“ aus Keyword-Analyse, Forenfrage dazu nur indirekt"
+    },
+    {
+      "frage": "Das Pop-up-Ventil ist kaputt. Welches neue Ventil passt?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/waschbecken-abflusseingang-tauschen",
+        "https://www.haustechnikdialog.de/Forum/t/111225/ablaufventil-im-handwaschbecken-laesst-sich-nicht-ausbauen",
+        "https://www.haustechnikdialog.de/Forum/t/249456/Ablaufgarnitur-fuer-Waschtisch"
+      ],
+      "antwort": "Entscheidend sind drei Dinge: Überlauf ja oder nein, das Anschlussgewinde unten (am Waschtisch fast immer G 1 1/4) und die Länge passend zur Stärke der Keramik am Ablaufloch. Villeroy & Boch etwa führt ein Universal-Push-Open-Ventil für Becken mit Überlauf und eine Ausführung mit Keramikkappe. Gibt es zu deinem Ventil einen Ersatzstopfen, reicht oft der Stopfen.",
+      "antwort_quellen": [
+        "https://www.heatandplumb.com/media/villeroy-boch/datasheets/file-518229.pdf",
+        "https://www.hansgrohe.de/articledetail-ablaufgarnitur-mit-zugstange-fuer-waschtisch-und-bidetmischer-94139000",
+        "https://assets.heizung-billiger.de/documents/gedb_pro_1774357_de-de.pdf"
+      ],
+      "sicherheit": "belegt (G 1 1/4 und Längen siehe Teileart ablaufgarnitur)"
+    },
+    {
+      "frage": "Wie reinige ich das Pop-up-Ventil, damit es nicht wieder klemmt?",
+      "kategorie": "pflege",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/stoepsel-im-waschbecken-stecht-fest",
+        "https://www.gutefrage.net/frage/waschbecken-fliesst-nicht-ab-ist-aber-nicht-verstopft"
+      ],
+      "antwort": "Nimm den Stopfen ab und wisch Haare und Seifenreste weg, bevor sie in die Mechanik wandern. Victorian Plumbing rät zu warmem Seifenwasser und warnt vor Scheuermitteln und Chlor. Gegen Kalk taugen Reiniger auf Zitronensäurebasis; Salzsäure, Essig- und Ameisensäure können laut Steinberg-Anleitung verchromte Oberflächen dauerhaft schädigen.",
+      "antwort_quellen": [
+        "https://images.victorianplumbing.co.uk/products/cruze-basin-installation-pack-chrome/instructions/vp-click-clack-basin-waste-v2-05-24.pdf",
+        "https://hardys24.de/media/a0/1f/3e/1716449700/Steinberg_Serie_100_1001750.pdf"
+      ],
+      "sicherheit": "belegt (Steinberg-Hinweis gilt für Armaturenoberflächen)"
+    }
+  ],
+  "ursachen": [
+    "Haare, Seife, Kalk in der Druckmechanik (Forum, Grohe abnehmbare Abdeckung)",
+    "Zugstangen-Gestänge: Federclip, Mutter an der Zugleiste, Kugelstange aus Öse (Graff, Steinberg)",
+    "Stopfen nicht ganz aufgeschraubt / Höhe verstellt (Kohler)",
+    "Dichtring unter Kappe verschoben oder verschlissen (Kohler)",
+    "Mechanik verschlissen, rastet nicht mehr (Forum)",
+    "Ventil unten undicht: untere Dichtung, Mutter, Kugelstangen-Stutzen (Forum, Graff)",
+    "Ventil in Dauer-offen-Stellung (KWC)"
+  ],
+  "pruefen": [
+    "Pop-up oder Zugstange bestimmen",
+    "Stopfen drücken bzw. abdrehen, Mechanik reinigen",
+    "Höhe am Gewinde einstellen",
+    "Dichtring prüfen",
+    "Unter dem Becken Gestänge prüfen",
+    "Undichtigkeit lokalisieren"
+  ],
+  "fachbetrieb_ab": "Ventil festkorrodiert, Keramik gefährdet, Becken ohne Überlauf mit falschem Ventil, Mietwohnung",
+  "weitere_fragen_ohne_antwort": [
+    "Welches Gewinde hat der Gewindebolzen für Ersatzstopfen (oft als M8 angeboten)? Herstellerangaben zu hansgrohe, Grohe, Villeroy & Boch, Ideal Standard nicht gefunden.",
+    "Gibt es die Push-Open-Mechanik (Einsatz) einzeln als Ersatzteil bei Grohe, hansgrohe, Ideal Standard? Einzelstopfen bei hansgrohe im Handel gesehen (z. B. Sanitas Troesch, hansgrohe Ventilstopfen Push-Open 3926 627.501.000), Nummer nicht verifiziert.",
+    "Ideal Standard Click-Clack: Herstelleranleitung mit Text zur Reinigung/Höhe nicht gefunden.",
+    "Duravit Push-open-Ventil: „Höhe einstellbar 5 bis 6,5 cm“ nur aus Händlerlisting (Kaufland), Herstellerbeleg fehlt.",
+    "hansgrohe Push-Open-Montageanleitung 50100XXX zeigt Reinigung und Bedienung nur als Bild (Text: SW 4 mm), keine Schrittbeschreibung."
+  ],
+  "hinweise_recherche": "Forenseiten (gutefrage, haustechnikdialog, dasheimwerkerforum) blockten den direkten Abruf (403). Fundstellen stammen aus Suchtreffern (Titel); Antworten stützen sich auf bereits in ablaufgarnitur.json gelesene Forenantworten und auf Hersteller-PDFs (hansgrohe, Grohe-Produktseite, KWC, Graff, Steinberg, Geberit, Villeroy & Boch, Kohler-Hilfeseite)."
+}

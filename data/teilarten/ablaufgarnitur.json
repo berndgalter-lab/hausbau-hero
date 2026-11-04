@@ -75,7 +75,7 @@
       "hinweis": "Nicht verschließbar, für Becken ohne Überlauf."
     }
   ],
-  "probleme": ["spuele-dichtet-nicht", "blanco-ablauffernbedienung-drehknopf-funktioniert-nicht", "franke-excenter-drehknopf-funktioniert-nicht"],
+  "probleme": ["pop-up-ventil-klemmt", "spuele-dichtet-nicht", "blanco-ablauffernbedienung-drehknopf-funktioniert-nicht", "franke-excenter-drehknopf-funktioniert-nicht"],
   "fragen": [
     {
       "frage": "Brauche ich ein Ablaufventil mit oder ohne Überlauf?",

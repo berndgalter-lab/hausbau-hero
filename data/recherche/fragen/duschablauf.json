@@ -1,0 +1,338 @@
+{
+  "thema": "Duschablauf (Duschwannenablauf mit Geruchsverschluss), markenübergreifend: Viega Domoplex/Duoplex/Tempoplex, Kaldewei KA 90/120, Geberit d90, hansgrohe Staro 90",
+  "fragen": [
+    {
+      "frage": "Welcher Duschablauf ist in meiner Duschwanne verbaut?",
+      "kategorie": "nummer",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/221630/Identifizierung-unbekannte-Abdeckhaube-75-mm-fuer-Duschwanne",
+        "https://www.haustechnikdialog.de/Forum/t/109933/Probleme-mit-Viega-Ablaufarmatur-bei-flacher-Duschwanne",
+        "https://www.gutefrage.net/frage/viega-abfluss-in-dusche-verstopft"
+      ],
+      "antwort": "Abdeckung abnehmen und das Ablaufloch der Wanne messen: Viega baut Domoplex und Duoplex für 52 mm, Domoplex 6929 für 65 mm und Tempoplex (6960, 6961, 6962, 6963) für 90 mm. Die Abdeckhaube verrät die Baureihe: Domoplex-Hauben sind rund 75 mm groß und sitzen auf zwei Punkten, Tempoplex-Hauben ab 2006 rund 115 mm auf drei Punkten, ältere Tempoplex 120 mm (1991–2001) oder 112 mm mit Schrauben (2001–2006).",
+      "antwort_quellen": [
+        "https://www.meinhausshop.de/media/pdf/93_727_74--DBL-01-de.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/32f03e397498ba25ac1140940127dded_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/2ffc25f2031e51f1ac11409400d44796_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9180ef046d943215ac11409401bcd4ed_de_DE.pdf",
+        "https://www.tbs-international.fr/doc/be/fr/did.155291/93_228_51--DBL-01-de.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/4e32cc1aaae73a4bac11409400da914f_de_DE.pdf",
+        "https://weinmann-schanz.de/de/en/Installation/Plumbing-installation/Bath-and-shower-tray-accessories/Shower-tray-accessories/Cover-hood/Viega-Domoplex-drain-cover/VIEGA-equipment-set-Domoset-Model-6930-0-chrome-plated-sid1265643.html",
+        "https://www.megabad.com/en/hersteller-viega-ablauftechnik-duschen-tempoplex-ausstattungsset-a-102127.htm",
+        "https://www.galaxus.de/en/s4/product/viega-tempoplex-69560-cover-for-drain-sets-year-1991-2001-sanitary-installation-accessories-25423175",
+        "https://www.galaxus.de/en/s4/product/viega-conversion-kit-tempoplex-695899-d-112mm-chrome-plated-plastic-sanitary-installation-accessorie-25374878",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/641d6a881a1ef2c0ac114094306da7c5_de_DE.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Welche Abdeckhaube passt auf meinen Viega-Duschablauf?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/221630/Identifizierung-unbekannte-Abdeckhaube-75-mm-fuer-Duschwanne",
+        "https://www.gutefrage.net/frage/abdeckung-duschabfluss-laesst-sich-nich-oeffnen"
+      ],
+      "antwort": "Tempoplex, Tempoplex Plus und Tempoplex 60 ab Baujahr 2006/2010: Ausstattungsset 6964.0, Ø 115 mm, drei Aufsteckpunkte. Tempoplex 1991–2001: 6956.0, Ø 120 mm. Tempoplex 2001–05/2006 (6958/6959): Umrüstset 6958.99 mit neuen Schrauben, Ø 112 mm. Domoplex 52 mm: 6930.0 oder 6928.0 (Ø 75 mm); Domoplex 65 mm: 6931.0.",
+      "antwort_quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9ca4fdd59107f0edac11409400fe085a_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/d48e730babf38d1eac1140940079443d_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/f4c6a28abb245cd5ac114094013927d4_de_DE.pdf",
+        "https://www.meinhausshop.de/media/pdf/93_727_74--DBL-01-de.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/5a7b70080397ae31ac11409401a89c25_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/641d6a881a1ef2c0ac114094306da7c5_de_DE.pdf",
+        "https://www.megabad.com/en/hersteller-viega-ablauftechnik-duschen-tempoplex-ausstattungsset-a-102127.htm",
+        "https://www.galaxus.de/en/s4/product/viega-tempoplex-69560-cover-for-drain-sets-year-1991-2001-sanitary-installation-accessories-25423175",
+        "https://www.galaxus.de/en/s4/product/viega-conversion-kit-tempoplex-695899-d-112mm-chrome-plated-plastic-sanitary-installation-accessorie-25374878",
+        "https://weinmann-schanz.de/de/en/Installation/Plumbing-installation/Bath-and-shower-tray-accessories/Shower-tray-accessories/Cover-hood/Viega-Domoplex-drain-cover/VIEGA-equipment-set-Domoset-Model-6930-0-chrome-plated-sid1265643.html"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Brauche ich das Tauchrohr im Duschablauf, ohne läuft es viel besser ab?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/brauche-ich-diese-bloede-tauchrohr-in-der-bodengleichen-dusche",
+        "https://www.bauexpertenforum.de/threads/dusche-geruchsverschluss.111572/",
+        "https://www.bauexpertenforum.de/goto/post?id=841023"
+      ],
+      "antwort": "Ja. Das Tauchrohr bildet mit dem Wasser im Ablauf den Geruchsverschluss; ohne Tauchrohr gibt es keine Sperre gegen Kanalgeruch. Viega führt das Tauchrohr in allen Gebrauchsanleitungen als Teil des Geruchverschlusses. Foren-Antworten: Haare sammeln sich dort absichtlich, damit sie nicht die Leitung zusetzen; also regelmäßig reinigen statt weglassen.",
+      "antwort_quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9180ef046d943215ac11409401bcd4ed_de_DE.pdf",
+        "https://www.tbs-international.fr/doc/be/fr/did.155291/93_228_51--DBL-01-de.pdf",
+        "https://www.gutefrage.net/frage/brauche-ich-diese-bloede-tauchrohr-in-der-bodengleichen-dusche",
+        "https://www.bauexpertenforum.de/goto/post?id=841023"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Aus dem Duschablauf stinkt es, obwohl er sauber ist. Woran liegt das?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/dusche-geruchsverschluss.111572/",
+        "https://www.bauexpertenforum.de/goto/post?id=1399042",
+        "https://www.bauexpertenforum.de/goto/post?id=841023",
+        "https://www.bauexpertenforum.de/goto/post?id=869043",
+        "https://www.energiesparhaus.at/forum/59721"
+      ],
+      "antwort": "Zuerst prüfen: Tauchrohr vorhanden und ganz eingesetzt, Wasser im Geruchsverschluss, seitlicher Reinigungsstopfen dicht und flächenbündig. Bei selten genutzten Duschen verdunstet das Sperrwasser, dann Wasser nachgießen. Wird der Ablauf leergesaugt (WC-Spülung, andere Abflüsse, Dunstabzugshaube in dichter Wohnung), liegt es an Belüftung oder Leitung; das gehört zum Fachbetrieb. Undichte Rohrverbindungen in der Wand können ebenfalls riechen.",
+      "antwort_quellen": [
+        "https://www.tbs-international.fr/doc/be/fr/did.155291/93_228_51--DBL-01-de.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9180ef046d943215ac11409401bcd4ed_de_DE.pdf",
+        "https://www.bauexpertenforum.de/threads/dusche-geruchsverschluss.111572/",
+        "https://www.bauexpertenforum.de/goto/post?id=1399042",
+        "https://www.bauexpertenforum.de/goto/post?id=841023",
+        "https://www.bauexpertenforum.de/goto/post?id=869043",
+        "https://www.energiesparhaus.at/forum/59721"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Die Dusche läuft langsam ab. Was kann ich selbst tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/viega-abfluss-in-dusche-verstopft",
+        "https://www.gutefrage.net/frage/wasser-in-dusche-laeuft-nur-sehr-langsam-ab",
+        "https://www.haustechnikdialog.de/Forum/t/177058/Verstopfung-Viega-Tempoplex-Duschkabine",
+        "https://www.dasheimwerkerforum.de/threads/duschabfluss-laeuft-nicht-richtig-ab.33284/"
+      ],
+      "antwort": "Abdeckhaube abnehmen, Tauchrohr nach oben herausziehen, Haare und Schleim entfernen. Mit Wasser im Ablauf mit der Saugglocke pumpen. Laut Viega kommt man über den seitlichen Stopfen (mit Zange an der Lasche abziehen) an die Abgangsleitung. Läuft es ohne Einsatz schnell, mit eingesetztem Tauchrohr langsam, ist der Ablauf für die Brause eventuell zu klein; läuft es auch ohne Einsatz schlecht, sitzt die Verstopfung in der Leitung.",
+      "antwort_quellen": [
+        "https://www.tbs-international.fr/doc/be/fr/did.155291/93_228_51--DBL-01-de.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9180ef046d943215ac11409401bcd4ed_de_DE.pdf",
+        "https://www.gutefrage.net/frage/viega-abfluss-in-dusche-verstopft"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Viega Tempoplex läuft nur ab, wenn der seitliche graue Stopfen offen ist. Ist das normal?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/viega-tempoplex-ablauf-laeuft-nur-ohne-stopfen-ab",
+        "https://www.haustechnikdialog.de/Forum/t/167419/Viega-Tempoplex-Duschwannenablauf-gluckert-nach"
+      ],
+      "antwort": "Nein. Der Stopfen ist laut Viega nur der Zugang zur Abgangsleitung zum Reinigen und muss flächenbündig mit senkrechter Lasche sitzen; offen umgeht das Wasser den Geruchsverschluss. Antwort im Forum: Läuft es nur offen ab, deutet das auf fehlende Belüftung oder einen Montagefehler hin, das muss der Installateur prüfen.",
+      "antwort_quellen": [
+        "https://www.tbs-international.fr/doc/be/fr/did.155291/93_228_51--DBL-01-de.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9180ef046d943215ac11409401bcd4ed_de_DE.pdf",
+        "https://www.gutefrage.net/frage/viega-tempoplex-ablauf-laeuft-nur-ohne-stopfen-ab"
+      ],
+      "sicherheit": "teilweise"
+    },
+    {
+      "frage": "Ich habe die Schrauben am Duschablauf gelöst, jetzt habe ich Angst, dass er undicht ist.",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/153763/Viega-Tempoplex-ausversehen-aufgeschraubt-nun-undicht-",
+        "https://www.haustechnikdialog.de/Forum/t/142786/Viega-Domoplex-aufgeschraubt-nun-undicht-",
+        "https://www.haustechnikdialog.de/Forum/t/122659/Undichter-Duschablauf-Viega-Tempoplex",
+        "https://www.bauexpertenforum.de/threads/kaldewei-duschtasse-ka90-ablaufgarnitur.135421/"
+      ],
+      "antwort": "Die Schrauben halten über den Befestigungsflansch die Dichtung zwischen Ablauf und Wanne. Viega: Schrauben von Hand mit Schraubendreher, gleichmäßig anziehen, keinen Akkuschrauber. Ob es dicht ist, sieht man nur von unten (Revisionsöffnung) oder durch den Installateur; in der Mietwohnung den Vermieter informieren. Zum Reinigen nur Abdeckhaube und Tauchrohr herausnehmen.",
+      "antwort_quellen": [
+        "https://www.tbs-international.fr/doc/be/fr/did.155291/93_228_51--DBL-01-de.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9180ef046d943215ac11409401bcd4ed_de_DE.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/153763/Viega-Tempoplex-ausversehen-aufgeschraubt-nun-undicht-",
+        "https://www.bauexpertenforum.de/threads/kaldewei-duschtasse-ka90-ablaufgarnitur.135421/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Schafft mein Duschablauf eine Regendusche?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/167419/Viega-Tempoplex-Duschwannenablauf-gluckert-nach",
+        "https://www.bauexpertenforum.de/goto/post?id=1263697"
+      ],
+      "antwort": "Vergleiche die Ablaufleistung mit dem Durchfluss der Brause. Viega: Tempoplex 60 0,55 l/s (33 l/min), Tempoplex 0,64 l/s (38 l/min), Tempoplex Plus 0,85 l/s (51 l/min), jeweils bei 15 mm Anstau. hansgrohe Staro 90: 29 l/min. Kaldewei empfiehlt KA 90 für Brausen bis 18 l/min und bewirbt KA 120 für mehr.",
+      "antwort_quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/4e32cc1aaae73a4bac11409400da914f_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9180ef046d943215ac11409401bcd4ed_de_DE.pdf",
+        "https://www.tbs-international.fr/doc/be/fr/did.155291/93_228_51--DBL-01-de.pdf",
+        "https://img.nordwest.com/12445_4d97981c1659fc30affe54ae9c97b725_de.pdf",
+        "https://files.cdn.kaldewei.com/data/sprachen/russisch/techdata/DB03_21-Export_Print-RUru_ST_AC_waste_fittings_KA90.pdf",
+        "https://media.hornbach.at/hb/technicaldatasheet/as.84029305.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Flacher Duschablauf: Was bedeutet 30 mm Sperrwasser statt 50 mm?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/dusche-geruchsverschluss.111572/",
+        "https://www.haustechnikdialog.de/Forum/t/5939/Flacher-Duschablauf",
+        "https://www.haustechnikdialog.de/Forum/t/159546/Ablaufgarnitur-fuer-flache-Duschwannen-bzw-bodengleiche-Duschen"
+      ],
+      "antwort": "Flachabläufe wie Viega Tempoplex 60 (6963, 60 mm Bauhöhe) und Kaldewei KA 90 flach (4104, 61 mm) haben 30 mm Sperrwasser statt 50 mm. Kaldewei kennzeichnet den KA 90 flach als nicht DIN-EN-274-konform. Viega gibt für die neue Tempoplex 60 (2026) ein allgemeines bauaufsichtliches Prüfzeugnis an. Im Forum wird bei Geruch aus einem 6963 auf das geringe Sperrwasser hingewiesen.",
+      "antwort_quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/4e32cc1aaae73a4bac11409400da914f_de_DE.pdf",
+        "https://files.cdn.kaldewei.com/data/sprachen/russisch/techdata/DB03_21-Export_Print-RUru_ST_AC_waste_fittings_KA90.pdf",
+        "https://www.viega.de/content/dam/viega-assets/viega-worldwide-assets/public-relations/germany/tempoplex/PR_Tempoplex7_DE_2026.docx",
+        "https://www.bauexpertenforum.de/threads/dusche-geruchsverschluss.111572/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Gibt es für einen alten Tempoplex-Ablauf noch Ersatzteile?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/hat-jemand-eine-idee-wie-man-einen-viega-tempoplex-duschablauf-von-2008-verschliessen-kann-suche-stoepsel-etc",
+        "https://www.haustechnikdialog.de/Forum/t/221630/Identifizierung-unbekannte-Abdeckhaube-75-mm-fuer-Duschwanne"
+      ],
+      "antwort": "Ja: Abdeckhaube 6956.0 für 1991–2001, Umrüstset 6958.99 für 2001–05/2006, Tauchrohr 2001–2006, Ausstattungsset 6964.0 ab 2006. Viega schreibt zur 7. Generation (April 2026), dass die neuen Ersatzteile mit älteren Tempoplex-Modellen kompatibel sind; der neue Trockengeruchverschluss passt ab Baujahr 2010.",
+      "antwort_quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/641d6a881a1ef2c0ac114094306da7c5_de_DE.pdf",
+        "https://www.galaxus.de/en/s4/product/viega-tempoplex-69560-cover-for-drain-sets-year-1991-2001-sanitary-installation-accessories-25423175",
+        "https://www.galaxus.de/en/s4/product/viega-conversion-kit-tempoplex-695899-d-112mm-chrome-plated-plastic-sanitary-installation-accessorie-25374878",
+        "https://www.megabad.com/en/hersteller-viega-ablauftechnik-duschen-tempoplex-ausstattungsset-a-102127.htm",
+        "https://www.viega.de/content/dam/viega-assets/viega-worldwide-assets/public-relations/germany/tempoplex/PR_Tempoplex7_DE_2026.docx"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Gibt es ein Haarsieb für den Tempoplex-Ablauf?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/brauche-ich-diese-bloede-tauchrohr-in-der-bodengleichen-dusche",
+        "https://www.gutefrage.net/frage/viega-abfluss-in-dusche-verstopft"
+      ],
+      "antwort": "Viega Siebeinsatz 6961.96 für Tempoplex und Tempoplex Plus/60 ab 2006. Die 7. Generation hat einen neuen 2-Komponenten-Siebeinsatz. Daneben gibt es Nachbau-Haarsiebe „kompatibel mit Viega“.",
+      "antwort_quellen": [
+        "https://weinmann-schanz.de/de/en/Plumbing/Plumbing-installation/Bath-and-shower-tray-accessories/Shower-tray-accessories/Sieve-insert-Viega-Tempoplex/Viega-sieve-insert-for-Tempolex-and-Tempoplex-Plus-60mm-Series-from-2006-onwards-model-6961-96-sid531687.html",
+        "https://www.viega.de/content/dam/viega-assets/viega-worldwide-assets/public-relations/germany/tempoplex/PR_Tempoplex7_DE_2026.docx"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Ich habe eine Kaldewei-Duschwanne. Brauche ich einen Kaldewei-Ablauf?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/kaldewei-duschtasse-ka90-ablaufgarnitur.135421/",
+        "https://www.energiesparhaus.at/forum/59721"
+      ],
+      "antwort": "Kaldewei führt eigene Ablaufgarnituren KA 90 (waagerecht 4103, flach 4104, senkrecht 4105, Deckel 105 mm) und KA 120 (4106/4107/4108, Ablauftopf 128 mm). Ob Fremdabläufe passen, hängt vom Ablaufloch der Wanne ab; nicht abschließend geklärt.",
+      "antwort_quellen": [
+        "https://files.cdn.kaldewei.com/data/sprachen/russisch/techdata/DB03_21-Export_Print-RUru_ST_AC_waste_fittings_KA90.pdf",
+        "https://media.hornbach.at/hb/technicaldatasheet/as.84029305.pdf"
+      ],
+      "sicherheit": "teilweise"
+    }
+  ],
+  "fakten": [
+    {
+      "aussage": "Viega Tempoplex Plus 6960 (ab 01/2010): Ablauföffnung 90 mm, Abgang DN 50 Kugelgelenk, Höhe 90 mm, Sperrwasser 50 mm, 0,85 l/s bei 15 mm Anstau. Bauteile: Abdeckhaube, Tauchrohr, Befestigungsflansch mit Schrauben, Dichtung, Geruchverschluss. Reinigung: Haube ab, Tauchrohr hoch, Stopfen mit Zange an Lasche abziehen (Zugang Abgangsleitung), Stopfen flächenbündig, Lasche senkrecht. Keine Scheuermittel, Kalk-/Zementlöser, säurehaltige Reiniger. Schrauben nur mit Schraubendreher. Dichtung teilen bei Wannenboden > 10 mm.",
+      "quellen": [
+        "https://www.tbs-international.fr/doc/be/fr/did.155291/93_228_51--DBL-01-de.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/f4c6a28abb245cd5ac114094013927d4_de_DE.pdf"
+      ]
+    },
+    {
+      "aussage": "Viega Tempoplex 6961 (für Stahl-/Acryl-Duschwannen) und 6961.1/6962.1 Funktionseinheit: 90 mm, DN 40/50, Höhe 80 mm, Sperrwasser 50 mm, 0,64 l/s bei 15 mm; Abdeckhaube Modell 6964.0 separat.",
+      "quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9180ef046d943215ac11409401bcd4ed_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9ca4fdd59107f0edac11409400fe085a_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/6bfc499cb0800fceac1140940030fed1_de_DE.pdf"
+      ]
+    },
+    {
+      "aussage": "Viega Tempoplex BH 60 mm 6963 / 6963.1: 90 mm, DN 40/50, Höhe 60 mm, Sperrwasser 30 mm, 0,55 l/s bei 15 mm.",
+      "quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/4e32cc1aaae73a4bac11409400da914f_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/d48e730babf38d1eac1140940079443d_de_DE.pdf"
+      ]
+    },
+    {
+      "aussage": "Viega Domoplex 6928.1 (ab 06/2015): Ablauföffnung 52 mm, DN 40/50, Höhe 80 mm, Sperrwasser 50 mm, 0,73 l/s bei 120 mm Anstau; Abdeckhaube 6930.0 oder 6928.0 separat, zwei Befestigungspunkte; bei DN 40 Ablaufbogen absägen.",
+      "quellen": [
+        "https://www.meinhausshop.de/media/pdf/93_727_74--DBL-01-de.pdf"
+      ]
+    },
+    {
+      "aussage": "Viega Domoplex 6929/6929.1: Ablauföffnung 65 mm, Höhe 80 mm, Sperrwasser 50 mm, 0,73 l/s bei 120 mm; Abdeckhaube 6931.0.",
+      "quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/2ffc25f2031e51f1ac11409400d44796_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/5a7b70080397ae31ac11409401a89c25_de_DE.pdf"
+      ]
+    },
+    {
+      "aussage": "Viega Duoplex 6934 (ab 1998): 52 mm, DN 40/50, Höhe 110 mm, Sperrwasser 50 mm, 0,65 l/s bei 120 mm. Domoplex-Standrohr 6928.5 für 52 mm.",
+      "quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/32f03e397498ba25ac1140940127dded_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/67a1d31a08c0c631ac11409400abf633_de_DE.pdf"
+      ]
+    },
+    {
+      "aussage": "Viega Tempoplex-Umrüstset 6958.99 (ab 09/2006) für Tempoplex 6958, 6958.1, 6959, 6959.1 der Baureihe 2001 bis 05.2006: Abdeckhaube + Schrauben mit O-Ring, Haube wird auf Schraubenköpfe gedrückt. Händler: Ø 112 mm.",
+      "quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/641d6a881a1ef2c0ac114094306da7c5_de_DE.pdf",
+        "https://www.galaxus.de/en/s4/product/viega-conversion-kit-tempoplex-695899-d-112mm-chrome-plated-plastic-sanitary-installation-accessorie-25374878"
+      ]
+    },
+    {
+      "aussage": "Tempoplex Abdeckhaube 6956.0 (Art. 192730) Ø 120 mm für Ablaufgarnituren Baujahr 1991–2001 (Händlerangabe).",
+      "quellen": [
+        "https://www.galaxus.de/en/s4/product/viega-tempoplex-69560-cover-for-drain-sets-year-1991-2001-sanitary-installation-accessories-25423175"
+      ]
+    },
+    {
+      "aussage": "Ausstattungsset 6964.0 (Art. 649982) Ø 11,5 cm, drei Aufsteckpunkte, Nachfolger von 560799, für Tempoplex/Tempoplex Plus mit 9-cm-Ablaufloch (Händlerangabe).",
+      "quellen": [
+        "https://www.megabad.com/en/hersteller-viega-ablauftechnik-duschen-tempoplex-ausstattungsset-a-102127.htm"
+      ]
+    },
+    {
+      "aussage": "Domoset 6930.0 verchromt, für Duschwannen mit Ablaufloch Ø 52 mm (Händler: Ø 75 mm).",
+      "quellen": [
+        "https://weinmann-schanz.de/de/en/Installation/Plumbing-installation/Bath-and-shower-tray-accessories/Shower-tray-accessories/Cover-hood/Viega-Domoplex-drain-cover/VIEGA-equipment-set-Domoset-Model-6930-0-chrome-plated-sid1265643.html"
+      ]
+    },
+    {
+      "aussage": "Viega Pressemitteilung 17.03.2026: 7. Generation Tempoplex ab April 2026; 2-Komponenten-Siebeinsatz; Senkkopfschrauben aus Edelstahl (erschweren ungewollten Zugriff); Tempoplex 60 mit 60 mm Bauhöhe, 0,5 l/s, allgemeines bauaufsichtliches Prüfzeugnis; optional Trockengeruchverschluss mit Membran, kompatibel mit allen Tempoplex ab Baujahr 2010; Abdeckhaube 360° drehbar, 3-Punkt-Auflage; Tempoplex Plus mit Revisionsöffnung; neue Ersatzteile mit älteren Tempoplex kompatibel.",
+      "quellen": [
+        "https://www.viega.de/content/dam/viega-assets/viega-worldwide-assets/public-relations/germany/tempoplex/PR_Tempoplex7_DE_2026.docx"
+      ]
+    },
+    {
+      "aussage": "Kaldewei KA 90: 4103 waagerecht (Bauhöhe 81 mm, Anschluss 50 mm, DIN EN 274, Sperrwasser 50 mm), 4104 flach (61 mm, 40 mm, nicht DIN EN 274, Sperrwasser 30 mm), 4105 senkrecht (81 mm, 50 mm, 50 mm Sperrwasser); Deckel außen 105 mm; empfohlen für Brausen bis 18 l/min.",
+      "quellen": [
+        "https://files.cdn.kaldewei.com/data/sprachen/russisch/techdata/DB03_21-Export_Print-RUru_ST_AC_waste_fittings_KA90.pdf"
+      ]
+    },
+    {
+      "aussage": "Kaldewei KA 120: 4106 waagerecht und 4108 senkrecht Bauhöhe 83 mm, Sperrwasser 50 mm; 4107 flach 63 mm, Sperrwasser 30 mm (Kaldewei: entspricht DIN EN 274); Ablauftopf außen 128 mm; geeignet auch für Brausen über 18 l/min.",
+      "quellen": [
+        "https://media.hornbach.at/hb/technicaldatasheet/as.84029305.pdf"
+      ]
+    },
+    {
+      "aussage": "Geberit Duschwannenablauf d90 150.554.21.1: für Ventilloch ø 90 mm, ohne Überlauf, Sperrwasser 50 mm, 0,65 l/s bei 15 mm, Tauchrohr und Geruchsverschlussbecher demontierbar, EN 274-3 güteüberwacht.",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/gedb_art_150554211_2026.pdf"
+      ]
+    },
+    {
+      "aussage": "hansgrohe Staro Komplettset Ablaufgarnitur 90, 60056000: für Ablaufloch Ø 90 mm, 29 l/min bei 15 mm, G 1½ × 40/50, Stauwasserhöhe 50 mm, Baujahr > 10/08.",
+      "quellen": [
+        "https://img.nordwest.com/12445_4d97981c1659fc30affe54ae9c97b725_de.pdf"
+      ]
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    "Welche Viega-Artikelnummer hat die OTTO-Position 801458 („Tempoplex Siphon 90 mm flach Haarsieb“)? Ohne Beleg nicht übernommen.",
+    "Mindest-Ablaufleistung nach DIN EN 274 für Duschwannenabläufe (oft 0,4 l/s bei 15 mm genannt) ohne Normtext oder erreichbare Herstellerseite nicht belegt.",
+    "Passen Viega-Tempoplex-Abläufe in Kaldewei-Stahlduschwannen mit 90-mm-Loch?",
+    "Bodenablauf und Duschrinne (Kessel, Dallmer, Viega Advantix): eigene Seite oder Abschnitt?",
+    "Tauchrohr 450229 (Feed: „Tempoplex ab Bj 2001 bis 2006“) gegen Viega-Unterlage prüfen."
+  ]
+}
