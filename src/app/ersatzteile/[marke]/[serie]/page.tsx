@@ -156,11 +156,8 @@ export default async function SerienSeite({ params }: Props) {
                     <td className="px-4 py-3">
                       <SicherheitBadge sicherheit={z.sicherheit} />
                       {z.hinweis && <div className="text-xs text-stone-600 mt-1">{z.hinweis}</div>}
-                      {z.quelle_url && (
-                        <a href={z.quelle_url} target="_blank" rel="nofollow noopener noreferrer" className="text-xs text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600">
-                          {hostVon(z.quelle_url)}
-                        </a>
-                      )}
+                      {/* Beleg als Text, die Links stehen gesammelt unter „Quellen“. */}
+                      {z.quelle_url && <div className="text-xs text-stone-500 mt-1">Beleg: {hostVon(z.quelle_url)}</div>}
                     </td>
                     <td className="px-4 py-3 text-right">
                       <KaufButton teil={t} />
@@ -177,7 +174,7 @@ export default async function SerienSeite({ params }: Props) {
       <NeukaufKasten n={neukauf} />
 
       <NummerPruefen />
-      <Quellen urls={[...serie.quellen, ...zuordnungen.map((z) => z.quelle_url)]} />
+      <Quellen urls={[...serie.quellen, ...zuordnungen.map((z) => z.quelle_url)]} zugeklappt />
 
       <p className="mt-8 text-sm">
         <a href={`/ersatzteile/${marke.slug}`} className="text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600">← Alle {marke.name}-Serien</a>

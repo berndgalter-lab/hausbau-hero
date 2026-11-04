@@ -176,11 +176,8 @@ export default async function TeilSeite({ params }: Props) {
                     <SicherheitBadge sicherheit={z.sicherheit} />
                   </div>
                   {z.hinweis && <div className="text-xs text-stone-600 mt-1">{z.hinweis}</div>}
-                  {z.quelle_url && (
-                    <a href={z.quelle_url} target="_blank" rel="nofollow noopener noreferrer" className="text-xs text-stone-500 underline decoration-stone-300 underline-offset-2 hover:text-accent-700">
-                      Beleg: {hostVon(z.quelle_url)}
-                    </a>
-                  )}
+                  {/* Beleg als Text, die Links stehen gesammelt unter „Quellen“. */}
+                  {z.quelle_url && <span className="text-xs text-stone-500">Beleg: {hostVon(z.quelle_url)}</span>}
                 </li>
               );
             })}
@@ -203,7 +200,7 @@ export default async function TeilSeite({ params }: Props) {
       )}
 
       <NummerPruefen />
-      <Quellen urls={[...teil.quellen, ...zuordnungen.map((z) => z.quelle_url)]} />
+      <Quellen urls={[...teil.quellen, ...zuordnungen.map((z) => z.quelle_url)]} zugeklappt />
         </div>
       </div>
     </div>

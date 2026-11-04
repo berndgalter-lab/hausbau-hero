@@ -1,4 +1,4 @@
-import { AFFILIATE_REL, mitTrackingId } from "@/lib/affiliate";
+import { AFFILIATE_REL, istHerstellerShop, mitTrackingId } from "@/lib/affiliate";
 import {
   FRAGE_KATEGORIEN,
   SICHERHEIT_LABEL,
@@ -200,9 +200,14 @@ export function Quellen({
     <ul className="list-disc pl-5 space-y-1 marker:text-stone-400">
       {liste.map((u) => (
         <li key={u}>
-          <a href={u} target="_blank" rel="nofollow noopener noreferrer" className="text-stone-700 underline decoration-stone-300 underline-offset-2 hover:text-accent-700 break-all">
-            {quelleLabel(u)}
-          </a>
+          {istHerstellerShop(u) ? (
+            // Ersatzteil-Shop des Herstellers: belegt die Angabe, wird aber nicht verlinkt.
+            <span className="text-stone-700 break-all">{quelleLabel(u)}</span>
+          ) : (
+            <a href={u} target="_blank" rel="nofollow noopener noreferrer" className="text-stone-700 underline decoration-stone-300 underline-offset-2 hover:text-accent-700 break-all">
+              {quelleLabel(u)}
+            </a>
+          )}
         </li>
       ))}
     </ul>
@@ -312,9 +317,7 @@ export function MarkenFragen({
                         {quellen.map((q, i) => (
                           <span key={q}>
                             {i > 0 && ", "}
-                            <a href={q} target="_blank" rel="nofollow noopener noreferrer" className="hover:underline">
-                              {hostVon(q)}
-                            </a>
+                            {hostVon(q)}
                           </span>
                         ))}
                       </p>
@@ -354,20 +357,12 @@ export function Widersprueche({ liste, id }: { liste: Widerspruch[]; id?: string
             <div className="mt-3 space-y-2 text-sm text-stone-700">
               <p>
                 {w.aussage_a}
-                {w.quelle_a && (
-                  <a href={w.quelle_a} target="_blank" rel="nofollow noopener noreferrer" className="ml-1 text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600">
-                    ({hostVon(w.quelle_a)})
-                  </a>
-                )}
+                {w.quelle_a && <span className="ml-1 text-stone-500">({hostVon(w.quelle_a)})</span>}
               </p>
               <p>
                 <span className="font-medium">Dagegen: </span>
                 {w.aussage_b}
-                {w.quelle_b && (
-                  <a href={w.quelle_b} target="_blank" rel="nofollow noopener noreferrer" className="ml-1 text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600">
-                    ({hostVon(w.quelle_b)})
-                  </a>
-                )}
+                {w.quelle_b && <span className="ml-1 text-stone-500">({hostVon(w.quelle_b)})</span>}
               </p>
             </div>
           </details>
