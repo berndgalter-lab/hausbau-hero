@@ -10,6 +10,7 @@ import {
   SITE_URL,
   TEILTYP_LABEL,
   angeboteFuerTeile,
+  teilBild,
   formatEuro,
   gruppiere,
   markeNachSlug,
@@ -259,7 +260,7 @@ export default async function MarkenHub({ params }: Props) {
                   return (
                     <li key={t.id}>
                       <a href={`/teil/${t.slug}`} className="group flex items-center gap-3 px-2 py-3 hover:bg-stone-100/70">
-                        <TeilBild url={t.bild_url} alt={t.name} groesse={40} />
+                        <TeilBild url={teilBild(t, angebote)?.url ?? null} alt={t.name} groesse={40} />
                         <span className="flex-1 min-w-0">
                           <span className="block text-stone-900 group-hover:text-accent-700">{kurzname(t.name, marke.name, t.oem_nummer)}</span>
                           <span className="block text-xs text-stone-500 mt-0.5">

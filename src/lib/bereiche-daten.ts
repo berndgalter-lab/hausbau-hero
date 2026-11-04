@@ -1,5 +1,4 @@
 import { supabase } from "@/lib/supabase";
-import { angeboteFuerEans, bildAusAngeboten, normEan } from "@/lib/kaufberatung";
 import { alleMarken, alleProbleme, type Marke, type Problem, type Serie } from "@/lib/ersatzteile";
 import { artikelUrl } from "@/lib/produkt-ratgeber";
 import { BEREICHE, bereichHatInhalt, type Bereich } from "@/lib/bereiche";
@@ -11,11 +10,9 @@ export interface RatgeberKarte {
   href: string;
   titel: string;
   text: string | null;
-  /** Produktbild aus den Partner-Feeds: das erste Modell des Ratgebers, das eines hat. */
-  bild: { url: string; shop: string } | null;
 }
 
-/** Ratgeber-Karten mit Bild, in der Reihenfolge der Slugs. Fehlt eine Seite oder ist sie nicht aktiv, fällt sie weg. */
+/** Ratgeber-Karten, in der Reihenfolge der Slugs. Fehlt eine Seite oder ist sie nicht aktiv, fällt sie weg. */
 export async function ratgeberKarten(slugs: string[]): Promise<RatgeberKarte[]> {
   if (slugs.length === 0) return [];
   const { data: seiten } = await supabase
@@ -32,32 +29,12 @@ export async function ratgeberKarten(slugs: string[]): Promise<RatgeberKarte[]> 
   }[];
   if (liste.length === 0) return [];
 
-  const { data: produkte } = await supabase
-    .from("produkte")
-    .select("seite_id, ean, sortierung")
-    .in("seite_id", liste.map((s) => s.id))
-    .order("sortierung");
-  const eansJeSeite = new Map<string, string[]>();
-  for (const p of (produkte ?? []) as { seite_id: string; ean: string | null }[]) {
-    if (p.ean) eansJeSeite.set(p.seite_id, [...(eansJeSeite.get(p.seite_id) ?? []), p.ean]);
-  }
-  const angebote = await angeboteFuerEans(Array.from(eansJeSeite.values()).flat());
-
-  const karten = liste.map((s) => {
-    let bild: RatgeberKarte["bild"] = null;
-    for (const ean of eansJeSeite.get(s.id) ?? []) {
-      const n = normEan(ean);
-      bild = n ? bildAusAngeboten(angebote.get(n) ?? []) : null;
-      if (bild) break;
-    }
-    return {
-      slug: s.slug,
-      href: artikelUrl(s.silos?.slug ?? "bad", s.slug),
-      titel: s.titel,
-      text: s.seo_description,
-      bild,
-    };
-  });
+  const karten = liste.map((s) => ({
+    slug: s.slug,
+    href: artikelUrl(s.silos?.slug ?? "bad", s.slug),
+    titel: s.titel,
+    text: s.seo_description,
+  }));
   return slugs.map((slug) => karten.find((k) => k.slug === slug)).filter((k): k is RatgeberKarte => !!k);
 }
 

@@ -1,6 +1,6 @@
 import { AFFILIATE_REL, mitTrackingId } from "@/lib/affiliate";
 import { formatEuro, formatStand, zeigePreis } from "@/lib/ersatzteile";
-import { bildAusAngeboten, type EanAngebot } from "@/lib/kaufberatung";
+import { bildAusAngeboten, VERLINKTE_ANGEBOTE, type EanAngebot } from "@/lib/kaufberatung";
 import { produktLink, type Produkt } from "@/components/ProduktKarte";
 import TeilBild from "@/components/TeilBild";
 import Inhaltsverzeichnis from "@/components/Inhaltsverzeichnis";
@@ -61,7 +61,7 @@ function Kaufzeile({ produkt, angebote }: { produkt: Produkt; angebote: EanAngeb
   return (
     <p className="text-sm mt-3">
       <span className="text-stone-500">Erhältlich bei </span>
-      {angebote.slice(0, 3).map((a, i) => (
+      {angebote.slice(0, VERLINKTE_ANGEBOTE).map((a, i) => (
         <span key={a.id}>
           {i > 0 && ", "}
           <a href={mitTrackingId(a.url, "angebot")} target="_blank" rel={AFFILIATE_REL} data-platzierung="angebot"

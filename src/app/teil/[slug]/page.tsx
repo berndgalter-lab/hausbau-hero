@@ -17,6 +17,7 @@ import {
   SITE_URL,
   TEILTYP_LABEL,
   angeboteFuerTeile,
+  teilBild,
   baujahre,
   hostVon,
   markeNachId,
@@ -97,6 +98,7 @@ export default async function TeilSeite({ params }: Props) {
 
   const [zuordnungen, angebote] = await Promise.all([zuordnungenFuerTeil(teil.id), angeboteFuerTeile([teil.id])]);
   const serien = await serienNachIds(zuordnungen.map((z) => z.serie_id));
+  const bild = teilBild(teil, angebote);
   const serieVon = new Map(serien.map((s) => [s.id, s]));
   // Neukauf-Hinweis nach dem Bereich der passenden Serien, z. B. Kartusche einer Waschtischarmatur.
   const neukauf = await neukaufFuerBereich(neukaufBereich({ produkttypen: serien.map((s) => s.produkttyp), teiltyp: teil.teiltyp }));
@@ -135,7 +137,7 @@ export default async function TeilSeite({ params }: Props) {
           {teil.beschreibung && <p className="mt-5 max-w-2xl text-lg text-stone-700 leading-relaxed">{teil.beschreibung}</p>}
 
           <section className="mt-10 grid gap-8 sm:grid-cols-[auto_1fr]">
-            <TeilBild url={teil.bild_url} alt={teil.name} shop={angebote.find((a) => a.shop === teil.bild_shop)?.shop_name ?? null} groesse={200} />
+            <TeilBild url={bild?.url ?? null} alt={teil.name} shop={bild?.shop?.shop_name ?? null} groesse={200} />
             <div className="min-w-0">
               <h2 className="font-sans text-base font-semibold text-stone-900 mb-2">Steckbrief</h2>
               <dl className="divide-y divide-stone-200 border-y border-stone-200 text-sm">

@@ -177,6 +177,10 @@ export function bereichFuerProblem(slug: string): Bereich | null {
   return BEREICHE.find((b) => b.probleme.test(slug)) ?? null;
 }
 
+export function bereichFuerRatgeber(slug: string): Bereich | null {
+  return BEREICHE.find((b) => b.ratgeber.includes(slug)) ?? null;
+}
+
 /**
  * Hat der Bereich etwas zu zeigen? Ohne Modelle, Ratgeber, Teilearten und Probleme erscheint er weder auf
  * der Startseite noch in der Sitemap, und /bereich/<slug> liefert 404.

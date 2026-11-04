@@ -355,6 +355,17 @@ export async function angeboteFuerTeile(teilIds: string[]): Promise<Angebot[]> {
   return sortiereAngebote((data as Angebot[]) ?? []);
 }
 
+/**
+ * Bild des Teils für Listen und Teileseite. Ein Feed-Foto nur, solange sein Shop ein aktuelles Angebot
+ * für das Teil hat: Es führt dann auf genau den Shop, von dem es stammt (Werbemittel-Regeln bei Awin).
+ */
+export function teilBild(teil: Teil, angebote: Angebot[]): { url: string; shop: Angebot | null } | null {
+  if (!teil.bild_url) return null;
+  const shop = angebote.find((a) => a.teil_id === teil.id && a.shop === teil.bild_shop) ?? null;
+  if (teil.bild_quelle === "awin" && !shop) return null;
+  return { url: teil.bild_url, shop };
+}
+
 export async function teilNachSlug(slug: string): Promise<Teil | null> {
   const { data } = await supabase.from("teile").select("*").eq("slug", slug).maybeSingle();
   return (data as Teil) ?? null;
