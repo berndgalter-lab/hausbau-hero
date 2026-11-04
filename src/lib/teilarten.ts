@@ -1,6 +1,7 @@
 import type { MarkenFrage } from "@/lib/ersatzteile";
 import fuellventil from "../../data/teilarten/fuellventil.json";
 import spuelkasten from "../../data/teilarten/spuelkasten.json";
+import wcSitzBefestigung from "../../data/teilarten/wc-sitz-befestigung.json";
 
 // Teileart-Seiten unter /ersatzteile/<teilart> (docs/SEITENAUFBAU.md, Abschnitt 4b): ein Teil, das in vielen
 // Marken steckt (Eckventil, Perlator, Siphon …), markenübergreifend erklärt. Inhalt aus data/teilarten/<slug>.json,
@@ -50,6 +51,7 @@ export interface Teilart {
 const TEILARTEN: Teilart[] = [
   fuellventil as Teilart,
   spuelkasten as Teilart,
+  wcSitzBefestigung as Teilart,
 ];
 
 /** „den passenden Perlator“ / „die passende Kartusche“ / „das passende Eckventil“ (Akkusativ). */
