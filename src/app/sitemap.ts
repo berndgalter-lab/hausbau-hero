@@ -1,4 +1,5 @@
 import { supabase } from "@/lib/supabase";
+import { serieIstDuenn } from "@/lib/ersatzteile";
 
 export default async function sitemap() {
   const baseUrl = "https://hausbau-hero.de";
@@ -85,17 +86,22 @@ export default async function sitemap() {
 
   // Ersatzteile: Marken, Serien, Teile, Probleme
   try {
-    const [{ data: marken }, { data: serien }, { data: teile }, { data: probleme }] = await Promise.all([
+    const [{ data: marken }, { data: serien }, { data: teile }, { data: probleme }, { data: zuordnungen }] = await Promise.all([
       supabase.from("marken").select("id, slug, updated_at"),
-      supabase.from("serien").select("marke_id, slug, updated_at"),
+      supabase.from("serien").select("id, marke_id, slug, erkennungsmerkmale, updated_at"),
       supabase.from("teile").select("slug, updated_at"),
       supabase.from("probleme").select("slug, updated_at"),
+      supabase.from("serie_teile").select("serie_id"),
     ]);
+    const teileJeSerie = new Map<string, number>();
+    for (const z of zuordnungen ?? []) teileJeSerie.set(z.serie_id, (teileJeSerie.get(z.serie_id) ?? 0) + 1);
     const markeSlug = new Map((marken ?? []).map((m: any) => [m.id, m.slug]));
     for (const m of marken ?? []) {
       dynamicPages.push({ url: `${baseUrl}/ersatzteile/${m.slug}`, lastModified: new Date(m.updated_at), changeFrequency: "weekly", priority: 0.9 });
     }
     for (const s of serien ?? []) {
+      // Dünne Serien sind noindex, also auch nicht in der Sitemap
+      if (serieIstDuenn(s, teileJeSerie.get(s.id) ?? 0)) continue;
       const ms = markeSlug.get(s.marke_id);
       if (ms) dynamicPages.push({ url: `${baseUrl}/ersatzteile/${ms}/${s.slug}`, lastModified: new Date(s.updated_at), changeFrequency: "monthly", priority: 0.8 });
     }

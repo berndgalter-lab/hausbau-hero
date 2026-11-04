@@ -2,9 +2,9 @@
   "marke": {
     "slug": "geberit",
     "name": "Geberit",
-    "beschreibung": "Geberit stellt Unterputz- und Aufputzspülkästen, Füll- und Spülventile sowie die passenden Betätigungsplatten her. Laut Geberit gibt es für jeden Geberit-Unterputzspülkasten ab Baujahr 1964 kompatible Füll- und Spülventile; das aktuelle Füllventil Typ 383 ist laut Hersteller kleiner und deutlich leiser als sein Vorgänger Typ 380. Ersatzteile werden im Geberit-Produktkatalog (catalog.geberit.de, Bereich Ersatzteile) je Spülkastenmodell mit Baujahr-Spanne und Erkennungsmerkmalen (Maße der Serviceöffnung, Kastenmaße) gelistet.",
-    "nummer_hinweis": "Laut Geberit muss zur Identifikation die Betätigungsplatte samt Befestigungsrahmen abgenommen werden; dahinter stehen auf Etiketten oder aufgedruckt auf Abdeckungen die Angaben zum Spülkastentyp. Auf oder hinter der Schutzplatte sind häufig die Typbezeichnung (z. B. Sigma oder Omega) oder die Produktionsnummer (PA-Nummer) gedruckt. Bei älteren Spülkästen können Aufkleber fehlen oder unleserlich sein. Geberit empfiehlt, die Platte von einem Fachbetrieb abnehmen zu lassen, um Schäden zu vermeiden. Für SHK-Profis erkennt der Produkterkenner der Geberit Pro App anhand eines Fotos der Betätigungsplatte alle Geberit-Unterputzspülkästen ab 1964. Händler-Ratgeber nennen zusätzlich eine 9- bzw. 11-stellige Artikelnummer und eine Prüfnummer im Kasteninneren und/oder auf der Rückseite der Betätigungsplatte. Ohne lesbares Schild helfen die im Geberit-Katalog genannten Maße der Serviceöffnung (z. B. Sigma/Delta 12 cm: 22 x 14 cm, Omega 12 cm: 18 x 11 cm).",
-    "ersatzteil_garantie": "Aktuelle Herstelleraussage: Geberit stellt die Spülfunktionalität seiner WC-Unterputzspülkästen 50 Jahre lang sicher (Ersatzteilsicherheit für die austauschbaren mechanischen Teile von Unterputzspülkasten und Betätigungsplatte). Die Ersatzteile müssen nicht baugleich sein (optische Abweichungen oder kleine Komforteinbußen möglich); ausgenommen sind Sonderfunktionen elektronischer Produkte wie Hygienespülung oder DuoFresh-Geruchsabsaugung. Ältere Angaben in Fachpresse und Handel nennen 25 Jahre für Unterputzprodukte und mindestens 10 Jahre für Aufputzprodukte (siehe widersprueche). Es handelt sich um eine Verfügbarkeitszusage, keine Garantie im Rechtssinn.",
+    "beschreibung": "Geberit baut Unterputz- und Aufputzspülkästen, Füll- und Spülventile und die passenden Betätigungsplatten. Laut Geberit gibt es für jeden Unterputzspülkasten ab Baujahr 1964 passende Füll- und Spülventile. Das aktuelle Füllventil Typ 383 ist laut Hersteller kleiner und leiser als der Vorgänger Typ 380.\n\nIm Geberit-Katalog (catalog.geberit.de, Bereich Ersatzteile) stehen die Teile je Spülkastenmodell, mit Baujahren und den Maßen, an denen du das Modell erkennst.",
+    "nummer_hinweis": "Bei Geberit kommt es auf den Spülkastentyp an. Er steht hinter der Betätigungsplatte: Platte und Befestigungsrahmen abnehmen, dann findest du auf Etiketten oder auf der Schutzplatte die Typbezeichnung (etwa Sigma oder Omega) oder die Produktionsnummer (PA-Nummer). Geberit rät, die Platte vom Fachbetrieb abnehmen zu lassen, damit nichts bricht.\n\nBei alten Spülkästen fehlen die Aufkleber oft oder sind unleserlich. Dann hilft die Größe der Serviceöffnung: Sigma und Delta 12 cm haben laut Geberit-Katalog 22 × 14 cm, Omega 12 cm hat 18 × 11 cm. Händler nennen außerdem eine 9- oder 11-stellige Artikelnummer und eine Prüfnummer im Kasten oder auf der Rückseite der Platte.\n\nInstallateure können den Produkterkenner der Geberit Pro App nutzen. Er erkennt anhand eines Fotos der Betätigungsplatte alle Geberit-Unterputzspülkästen ab 1964.",
+    "ersatzteil_garantie": "Geberit sichert für seine WC-Unterputzspülkästen 50 Jahre lang die Spülfunktion zu. Das gilt für die austauschbaren mechanischen Teile von Spülkasten und Betätigungsplatte. Die Ersatzteile müssen nicht baugleich sein, kleine optische Unterschiede oder Komforteinbußen sind möglich. Ausgenommen sind Sonderfunktionen elektronischer Produkte wie Hygienespülung oder DuoFresh. Ältere Angaben im Handel nennen noch 25 Jahre für Unterputz- und 10 Jahre für Aufputzprodukte. Rechtlich ist das eine Verfügbarkeitszusage, keine Garantie.",
     "hersteller_ersatzteil_url": "https://www.geberit.de/service-support/ersatzteile/",
     "quellen": [
       "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
@@ -1790,7 +1790,7 @@
       "thema": "PA-Nummer I/IX2761/I: 10.800 oder 110.800",
       "aussage_a": "Umbauset 240.835.00.5 für Typ 10.800 ist ab Baujahr 1978 (PA-I/IX2761/I) nachrüstbar; Sortimentsübersicht ordnet PA-I/IX2761/I dem 10.800 (1978-1987) und PA-I/IX1153/1 dem 110.800 (1988-1997) zu.",
       "quelle_a": "https://cdn.data.geberit.com/overviews/DE-de/DAS_157948.pdf",
-      "aussage_b": "Katalogseite Twinline 12 cm (UP130, 110.800, 1988-2016) nennt laut Suchauszug PA-Nummer I/IX2761/I.",
+      "aussage_b": "Die Katalogseite Twinline 12 cm (UP130, 110.800, 1988–2016) nennt die PA-Nummer I/IX2761/I (nicht im Original geprüft).",
       "quelle_b": "https://catalog.geberit.de/de-DE/spare-part/SPT_461065"
     },
     {
@@ -1823,7 +1823,7 @@
     },
     {
       "thema": "Baujahre UP300",
-      "aussage_a": "Geberit-Katalog (AT) Sigma UP-Spülkästen 12 cm (UP300): 2000-2017 (laut Suchauszug).",
+      "aussage_a": "Geberit-Katalog (AT), Sigma UP-Spülkästen 12 cm (UP300): 2000–2017 (nicht im Original geprüft).",
       "quelle_a": "https://catalog.geberit.at/de-AT/spare-part/SPT_461052",
       "aussage_b": "Händler-Ratgeber: UP300 etwa 2002 bis ca. 2008 verbaut, danach UP320.",
       "quelle_b": "https://gs-ersatzteilservice.de/ersatzteile-fuer-geberit-spuelkasten-up300-up320-up320y-sigma/"
@@ -1846,14 +1846,14 @@
       "thema": "Baujahr Sigma 8 cm UP720 im Duofix",
       "aussage_a": "Seitentitel: Duofix mit Sigma UP-Spülkasten 8 cm (UP720), ab Baujahr 2016.",
       "quelle_a": "https://catalog.geberit.de/de-DE/spare-part/SPT_461232",
-      "aussage_b": "Laut Suchauszug zeigt dieselbe Seite bei den Erkennungsmerkmalen einen Zeitraum ab 2010.",
+      "aussage_b": "Dieselbe Seite nennt bei den Erkennungsmerkmalen einen Zeitraum ab 2010 (nicht im Original geprüft).",
       "quelle_b": "https://catalog.geberit.de/de-DE/spare-part/SPT_461232"
     },
     {
       "thema": "Baujahre UP-Spülkasten 10.600 / 10.620",
       "aussage_a": "Geberit-Katalog (und Händler): 1967-1978.",
       "quelle_a": "https://catalog.geberit.de/de-DE/spare-part/SPT_461073",
-      "aussage_b": "Geberit-Sortimentsübersicht laut Suchauszug: 10.600 1971-1974, 10.620 1967-1974 (Tabellenauszug unklar).",
+      "aussage_b": "Geberit-Sortimentsübersicht: 10.600 von 1971 bis 1974, 10.620 von 1967 bis 1974. Die Tabelle ist an dieser Stelle nicht eindeutig lesbar.",
       "quelle_b": "https://cdn.data.geberit.com/overviews/DE-de/DAS_157948.pdf"
     },
     {

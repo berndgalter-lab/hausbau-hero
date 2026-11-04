@@ -2,9 +2,7 @@
 // Nur noch die drei verbliebenen Rechner (sanitaer, fliesen, estrich).
 const RECHNER_MAP: Record<string, string[]> = {
   // Bad
-  "waschtischarmatur-ratgeber": ["sanitaer"],
-  "waschtischarmatur-mit-brause": ["sanitaer"],
-  "badewannenarmatur-ratgeber": ["sanitaer"],
+  // Armaturen-Ratgeber bewusst ohne: Der Sanitär-Rechner hilft bei der Armaturwahl nicht.
   "komplettdusche-ratgeber": ["sanitaer", "fliesen"],
   "vorwandelement-wc": ["sanitaer"],
   "geberit-sigma-drueckerplatte": ["sanitaer"],

@@ -2,9 +2,9 @@
  "marke": {
   "slug": "hansgrohe",
   "name": "hansgrohe",
-  "beschreibung": "Armaturen- und Brausenmarke der Hansgrohe SE (zweite Marke: AXOR). hansgrohe betreibt eine Online-Ersatzteilsuche mit Explosionszeichnungen (hansgrohe.de/service/ersatzteilsuche, spares.hansgrohe.com); jede Ersatzteilseite zeigt „alle kompatiblen Produkte“ mit Artikelnummer, Oberfläche und Baujahr. Einhebel-Kartuschen tragen Typbezeichnungen wie M1 (97685000), M3/M2 (92730000), M25XS/M25LXS (93740000/93760000) oder M35 LR/EcoR (95646000/92530000); Thermostate nutzen Temperatur-Regeleinheiten MTC (94282000) oder SMTC (98282000). Welche Kartusche passt, hängt von Artikelnummer und Baujahr ab – nicht nur von der Serie.",
-  "nummer_hinweis": "hansgrohe-Artikelnummern sind 8-stellig. Oberflächenvarianten teilen die ersten fünf Stellen und unterscheiden sich in den letzten drei, z. B. Rebris S 72517000 (Chrom) und 72517670 (Mattschwarz), Talis E 71710000 (Chrom) und 71710700 (Mattweiß), Talis E 71712140 (Brushed Bronze), Talis M54 72804800 (Edelstahl-Finish) – abgeleitet aus Artikellisten, eine offizielle Erklärung haben wir nicht gefunden. Wo die Nummer steht: laut hansgrohe-FAQ bei Waschtisch- und Bidetarmaturen gelasert am Griff, Gewindeschaft oder Armaturenkörper, bei Küchenmischern meist am Griff, bei Ausziehbrausen am Schaft, bei Unterputz-Armaturen auf Rosette oder Funktionsblock, bei Handbrausen am Griff, bei Brauseschläuchen auf der Schlauchmutter; außerdem auf Verpackung und in der Montageanleitung, die auch die Ersatzteilnummern enthält. Ersatzteile haben ebenfalls 8-stellige Nummern (z. B. 92730000). hansgrohe führt je Artikel getrennte Ersatzteillisten nach Baujahr (z. B. „> 05/17“), daher Artikelnummer und Baujahr zusammen prüfen.",
-  "ersatzteil_garantie": "Laut hansgrohe-FAQ ist die Verfügbarkeit von Ersatzteilen 15 Jahre nach Auslauf des Produkts garantiert; pro.hansgrohe.de spricht von einer 15-jährigen Nachkaufgarantie. Daneben gewährt hansgrohe eine freiwillige Herstellergarantie von 5 Jahren; Verschleißteile wie Dichtungen sind ausgenommen, und der Einbau von Nicht-Originalteilen lässt die Garantie entfallen. Produkte können nicht zur Reparatur eingeschickt werden – hansgrohe verweist auf den Installateur.",
+  "beschreibung": "hansgrohe gehört zur Hansgrohe SE (zweite Marke: AXOR) und baut Armaturen und Brausen. Die Online-Ersatzteilsuche (hansgrohe.de/service/ersatzteilsuche) zeigt Explosionszeichnungen, jede Ersatzteilseite listet alle passenden Produkte mit Artikelnummer, Oberfläche und Baujahr.\n\nEinhebel-Kartuschen haben Typnamen wie M1 (97685000), M3/M2 (92730000), M25XS (93740000) oder M35 (95646000), Thermostate Regeleinheiten wie MTC (94282000) oder SMTC (98282000). Welche passt, hängt von Artikelnummer und Baujahr ab, nicht nur von der Serie.",
+  "nummer_hinweis": "hansgrohe-Artikelnummern sind 8-stellig. Laut hansgrohe steht die Nummer direkt auf dem Produkt:\n– Waschtisch- und Bidetarmaturen: gelasert am Griff, Gewindeschaft oder Armaturenkörper\n– Küchenarmaturen: meist am Griff, bei Ausziehbrausen am Schaft\n– Unterputz-Armaturen: auf Rosette oder Funktionsblock\n– Handbrausen am Griff, Brauseschläuche auf der Schlauchmutter\nAußerdem steht sie auf der Verpackung und in der Montageanleitung, die auch die Ersatzteilnummern enthält.\n\nVarianten teilen sich die ersten fünf Stellen, die letzten drei stehen für die Oberfläche: Rebris S 72517000 ist Chrom, 72517670 Mattschwarz, Talis E 71710700 Mattweiß. So zeigen es die Artikellisten, hansgrohe selbst erklärt das Schema nicht.\n\nDie Ersatzteillisten führt hansgrohe je Artikel getrennt nach Baujahr (etwa „> 05/17“). Prüfe deshalb Nummer und Baujahr zusammen.",
+  "ersatzteil_garantie": "Laut hansgrohe gibt es Ersatzteile 15 Jahre nach Auslauf eines Produkts. Dazu kommt eine freiwillige Herstellergarantie von 5 Jahren. Verschleißteile wie Dichtungen sind davon ausgenommen, und mit Nicht-Originalteilen entfällt die Garantie. Einschicken zur Reparatur kannst du nichts, hansgrohe verweist auf den Installateur.",
   "hersteller_ersatzteil_url": "https://www.hansgrohe.de/service/ersatzteilsuche",
   "quellen": [
    "https://www.hansgrohe.de/service/ersatzteilsuche",
@@ -871,7 +871,7 @@
     "gewinde": "M24x1",
     "durchfluss_l_min": 15
    },
-   "beschreibung": "QuickClean-Luftsprudler M24x1 mit 15 l/min für Küchenmischer; laut hansgrohe.de u. a. für Avista-Küchenmischer, laut Suchauszug auch für Focus M41 160 1jet (31806000).",
+   "beschreibung": "QuickClean-Luftsprudler M24x1 mit 15 l/min für Küchenmischer. Laut hansgrohe.de unter anderem für Avista-Küchenmischer, laut derselben Seite auch für den Focus M41 160 1jet (31806000, nicht im Original geprüft).",
    "preis_spanne": null,
    "verschleissteil": true,
    "selbst_tauschbar": true,
@@ -1086,7 +1086,7 @@
    "oem_nummer": "93383000",
    "ean": null,
    "masse": {},
-   "beschreibung": "Dichtung für M25-Kartuschen (auf hansgrohe.de unter AXOR-Ersatzteile geführt); laut Suchauszug auch für Finoris 76010000 gelistet.",
+   "beschreibung": "Dichtung für M25-Kartuschen, auf hansgrohe.de unter den AXOR-Ersatzteilen geführt. Auch für den Finoris 76010000 gelistet (nicht im Original geprüft).",
    "preis_spanne": null,
    "verschleissteil": true,
    "selbst_tauschbar": true,
@@ -1313,7 +1313,7 @@
   {
    "serie_slug": "focus-m41-kuechenarmatur",
    "teil_slug": "hansgrohe-luftsprudler-13955000",
-   "hinweis": "Focus M41 160 1jet 31806000 laut Suchauszug der Ersatzteilseite – siehe Widerspruch zum Gewinde",
+   "hinweis": "Focus M41 160 1jet 31806000 laut hansgrohe-Ersatzteilseite (nicht im Original geprüft). hansgrohe.com nennt für Focus M41 auch einen Luftsprudler mit M22x1, siehe Verwechslungsgefahr. Vor dem Kauf das Gewinde messen.",
    "quelle_url": "https://www.hansgrohe.de/articledetail-quickclean-luftsprudler-13955000",
    "sicherheit": "eine_quelle"
   },
@@ -1446,7 +1446,7 @@
   {
    "serie_slug": "finoris-waschtisch",
    "teil_slug": "hansgrohe-dichtung-m25-kartusche-93383000",
-   "hinweis": "Finoris 76010000 laut Suchauszug der Ersatzteilseite",
+   "hinweis": "Finoris 76010000 laut hansgrohe-Ersatzteilseite (nicht im Original geprüft)",
    "quelle_url": "https://www.hansgrohe.de/articledetail-dichtung-fuer-m25-kartusche-93383000",
    "sicherheit": "eine_quelle"
   },
@@ -1735,7 +1735,7 @@
   },
   {
    "thema": "Luftsprudler-Gewinde beim Focus M41",
-   "aussage_a": "Laut Suchauszug der hansgrohe.de-Seite des QuickClean-Luftsprudlers 13955000 (M24x1, 15 l/min) ist der Focus M41 160 1jet 31806000 kompatibel.",
+   "aussage_a": "Laut der hansgrohe.de-Seite des QuickClean-Luftsprudlers 13955000 (M24x1, 15 l/min) passt er an den Focus M41 160 1jet 31806000 (nicht im Original geprüft).",
    "quelle_a": "https://www.hansgrohe.de/articledetail-quickclean-luftsprudler-13955000",
    "aussage_b": "hansgrohe.com listet den Luftsprudler 95824000 mit M22x1 (15 l/min) für Focus-M41-Küchenmischer. Möglicherweise unterscheiden sich Varianten/Baujahre – vor dem Kauf Gewinde messen.",
    "quelle_b": "https://www.hansgrohe.com/articledetail-hg-aerator-95824000"
