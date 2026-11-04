@@ -1,0 +1,352 @@
+{
+  "marke": "Geberit",
+  "fragen": [
+    {
+      "frage": "Mein Geberit-Spülkasten läuft ständig nach. Woran liegt das und was kann ich selbst tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 6,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/geberit-toiletten-spuelung-wasser-laeuft-immer-weiter",
+        "https://www.gutefrage.net/frage/geberit-spuelung-wasser-laeuft-immer",
+        "https://www.gutefrage.net/frage/wc-unterputz---spuelkasten-tropft-dauernd-wie-kriege-ich-ihn-dicht",
+        "https://www.gutefrage.net/frage/spuellkasten-geberit-tropft",
+        "https://www.haustechnikdialog.de/forum/t/171659/Geberit-Spuelkasten-Laeuft-staendig-und-fuellt-nicht-Schwimmer-schliesst-nicht-",
+        "https://bau.de/forum/sanitaer/12371.php"
+      ],
+      "antwort": "Laut Geberit ist die typische Ursache Schmutz oder Kalk zwischen der Dichtung des Spülventils und dem Abflussloch. Nimm das Spülventil heraus, säubere Dichtung und Sitz mit Wasser oder einem trockenen Tuch, setz es wieder ein und spüle einmal. Ist die Dichtung verschlissen, gibt es sie einzeln: für das Spülventil Typ 212 die Flachdichtung 244.244.00.1, die ältere Flachdichtung 816.418.00.1 passt laut Geberit-Katalog nicht auf Typ 212. Schließ vorher das Eckventil: Bleibt der Wasserstand dann gleich, liegt das Problem eher am Füllventil.",
+      "antwort_quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/service-fuers-bad/",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "geberit-flachdichtung-spuelventil-typ-212-244-244-00-1",
+        "geberit-heberglockendichtung-816-418-00-1",
+        "geberit-spuelventil-typ-212-244-820-00-1"
+      ],
+      "passendes_problem": "geberit-spuelkasten-laeuft-nach"
+    },
+    {
+      "frage": "Wie finde ich heraus, welcher Geberit-Unterputzspülkasten verbaut ist, und wo steht die Typ- oder Identnummer?",
+      "kategorie": "nummer",
+      "haeufigkeit": 6,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/welches-modell-vom-geberit-unterputzkasten-ist-verbaut",
+        "https://www.gutefrage.net/frage/wo-kann-ich-die-ident-nummer-fuer-geberit-up-spuelkasten-finden",
+        "https://www.haustechnikdialog.de/Forum/t/186062/Wie-finde-ich-Geberit-Ersatzteile-",
+        "https://www.haustechnikdialog.de/Forum/t/185657/Geberit-Unterputzspuelkasten-Dichtungen-Typ-ermitteln",
+        "https://www.gutefrage.net/frage/wie-finde-ich-die-richtige-betaetigungsplatte-fuer-einen-unterputz-spuelkasten-von-geberit",
+        "https://bau.net/forum/sanitaer/10440.php"
+      ],
+      "antwort": "Nimm die Betätigungsplatte samt Rahmen ab. Auf oder hinter der Schutzplatte steht meist die Typbezeichnung (zum Beispiel Sigma oder Omega) oder die Produktionsnummer (PA-Nummer), laut Geberit findest du dort in der Regel auch die Artikelnummer. Bei älteren Kästen fehlen Aufkleber manchmal oder sind unleserlich, dann kann ein Installateur den Kasten bestimmen. Fachbetriebe nutzen dafür auch die Geberit Pro App, die Kästen ab 1964 anhand eines Fotos der Platte erkennt.",
+      "antwort_quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
+        "https://www.geberit.de/service-support/ersatzteile/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Welche Betätigungsplatte (Drückerplatte) passt auf meinen Geberit-Spülkasten?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wie-finde-ich-die-richtige-betaetigungsplatte-fuer-einen-unterputz-spuelkasten-von-geberit",
+        "https://www.gutefrage.net/frage/wc-betaetigungsplatte-tauschen",
+        "https://www.gutefrage.net/frage/drueckerplatte-wc",
+        "https://www.haustechnikdialog.de/Forum/t/178685/Unterputzspuelkasten-Betaetigungsplatte-Geberit"
+      ],
+      "antwort": "Platte und Spülkasten müssen zur selben Serie gehören: Sigma-Platten passen nur auf Sigma-Kästen, Omega-Platten nur auf Omega-Kästen. Laut Geberit-Katalog passen Sigma-Platten außerdem nicht auf UP-Spülkästen bis Ende 2001 und nicht auf Delta, Kappa, DuofixPur und KombifixPur. Ob die Tasten rund oder eckig sind, spielt für die Passform keine Rolle. Für Platten anderer Hersteller übernimmt Geberit keine Garantie, dass sie funktionieren.",
+      "antwort_quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
+        "https://catalog.geberit.de/de-DE/product/PRO_100555"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "geberit-betaetigungsplatten-familie-sigma",
+        "geberit-betaetigungsplatten-familie-omega",
+        "geberit-betaetigungsplatten-familie-delta",
+        "geberit-betaetigungsplatten-familie-kappa",
+        "geberit-betaetigungsplatten-familie-twinline"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Der Spülkasten füllt sich nur noch sehr langsam oder gar nicht mehr. Was kann ich tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wie-kann-ich-bei-einem-geberit-spuelkasten-den-zulauf-einstellen",
+        "https://www.bauexpertenforum.de/threads/fuellventil-verstopft-immer-wieder.147443/",
+        "https://www.haustechnikdialog.de/forum/t/171659/Geberit-Spuelkasten-Laeuft-staendig-und-fuellt-nicht-Schwimmer-schliesst-nicht-"
+      ],
+      "antwort": "Prüf zuerst, ob das Eckventil ganz offen ist, und reinige dann Sieb bzw. Filter am Füllventil. Das aktuelle Geberit-Füllventil Typ 383 hat laut Hersteller einen leicht zu reinigenden Filter, die Membran lässt sich zur Wartung ausbauen. Hilft das nicht, tauschst du das Füllventil: Für Unterputzkästen ist das Typ 383 mit der Nummer 240.705.00.5, das den älteren Typ 380 (240.705.00.1) ersetzt.",
+      "antwort_quellen": [
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "geberit-fuellventil-typ-383-up-240-705-00-5",
+        "geberit-dichtungsset-fuellventil-typ-383-245-988-00-1",
+        "geberit-dichtungsset-fuellventil-typ-380-240-771-00-1"
+      ],
+      "passendes_problem": "geberit-spuelkasten-fuellt-nicht"
+    },
+    {
+      "frage": "Passt das neue Füllventil Typ 383 (oder Unifill/Typ 380) in meinen alten Geberit-UP-Spülkasten?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.ebay.de/p/2297704112",
+        "https://www.haustechnikdialog.de/Forum/t/185887/Innenleben-Geberit-Unterputzspuelkasten-erneuern",
+        "https://www.gutefrage.net/frage/spuelkasten-innen-tauschen"
+      ],
+      "antwort": "Laut Geberit passt das Füllventil Typ 383 in Geberit-Unterputzspülkästen der letzten 50 Jahre, der Wasserstand ist stufenlos über eine Spindel einstellbar. Achte auf die richtige Variante: 240.705.00.5 ist für Unterputzkästen, 240.700.00.5 für Aufputzkästen. Käufer berichten, dass je nach Angebot keine Dichtung für den Flexschlauch-Anschluss beiliegt, die solltest du gleich mitbestellen.",
+      "antwort_quellen": [
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+        "https://www.ebay.de/p/2297704112"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "geberit-fuellventil-typ-383-up-240-705-00-5",
+        "geberit-fuellventil-typ-383-ap-240-700-00-5",
+        "geberit-fuellventil-typ-380-up-240-705-00-1"
+      ],
+      "passendes_problem": "geberit-spuelkasten-fuellt-nicht"
+    },
+    {
+      "frage": "Passt das Spülventil Typ 212 in meinen Geberit-Spülkasten, und muss ich das ganze Ventil tauschen?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/News/26351/Einheitliche-Loesung-fuer-alle-Geberit-Unterputz-Spuelkaesten",
+        "https://www.haustechnikdialog.de/Forum/t/225647/Gerberit-UP-Spuelkasten-Glocke-reparieren-austauschen",
+        "https://www.gutefrage.net/frage/passende-heberglocke-finden-toilette"
+      ],
+      "antwort": "Das Spülventil Typ 212 (244.820.00.1) passt laut Geberit-Katalog in Sigma-Kästen UP300/UP320 ab Baujahr 2002, Delta/UP100 ab 2006 und Omega ab 2014, in Alpha-Kästen nur ab 2023 mit mindestens 98 cm Einbauhöhe. Es ersetzt mehrere ältere Nummern, darunter 240.622.00.1 und 241.858.00.1. Beim Sigma UP320 bis Baujahr 01/2022 musst du laut Katalog das komplette Spülventil tauschen, Einzelteile reichen dort nicht. Das Ventil lässt sich durch die Revisionsöffnung aus- und einbauen.",
+      "antwort_quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_1777474",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "geberit-spuelventil-typ-212-244-820-00-1",
+        "geberit-spuelventil-typ-212-244-821-00-1",
+        "geberit-spuelventil-typ-212-omega-244-830-00-1",
+        "geberit-renovierungsset-typ-212-383-246-127-00-5"
+      ],
+      "passendes_problem": "geberit-spuelkasten-laeuft-nach"
+    },
+    {
+      "frage": "Mein UP-Spülkasten ist aus den 80ern oder 90ern (Twinline, 110.800, 10.800). Gibt es noch Teile oder einen Umbausatz?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/welches-modell-vom-geberit-unterputzkasten-ist-verbaut",
+        "https://www.haustechnikdialog.de/Forum/t/186062/Wie-finde-ich-Geberit-Ersatzteile-",
+        "https://bau.net/forum/sanitaer/10440.php"
+      ],
+      "antwort": "Für ältere Kästen bietet Geberit Umbausets an, die die Technik erneuern und auf 2-Mengen-Spülung umstellen. Für den Typ 110.800 der Baujahre 1988 bis 1997 gibt es das Set 240.515.00.5, für ältere Kästen das Set 240.835.00.5, das laut Geberit-Katalog ab Baujahr 1978 nachrüstbar ist und unter anderem Heberglocke, Bassin und Füllventil Typ 383 enthält. Die passende Betätigungsplatte (zum Beispiel Twinline) musst du laut Händlern separat kaufen. Die Zuordnung der Typbezeichnungen 10.800 und 110.800 zu den Baujahren ist in den Quellen nicht einheitlich, prüf deshalb vor dem Kauf die Nummer im Kasten.",
+      "antwort_quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_4020507",
+        "https://cdn.data.geberit.com/overviews/DE-de/DAS_157948.pdf",
+        "https://www.ebay.de/p/3079150236",
+        "https://www.oeg.net/geberit-service-umbau-set-br-wassersparset-816000922"
+      ],
+      "sicherheit": "unsicher",
+      "passende_teile": [
+        "geberit-umbauset-2-mengen-typ-110800-240-515-00-5",
+        "geberit-umbauset-2-mengen-typ-10800-240-835-00-5",
+        "geberit-renovierungsset-2-mengen-typ-110800-246-126-00-5",
+        "geberit-heberglocke-universal-up-240-114-00-1",
+        "geberit-betaetigungsplatten-familie-twinline"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Wie lange liefert Geberit Ersatzteile für Unterputzspülkästen?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/drueckerplatte-wc",
+        "https://www.gutefrage.net/frage/wie-finde-ich-die-richtige-betaetigungsplatte-fuer-einen-unterputz-spuelkasten-von-geberit"
+      ],
+      "antwort": "Geberit gibt für Unterputzspülkästen heute 50 Jahre Ersatzteilsicherheit an: Die Grundfunktion der Spülung bleibt so lange erhalten, ohne dass du den Kasten ersetzen oder die Wand öffnen musst. Ausgenommen sind elektronische Zusatzfunktionen wie Hygienespülung und DuoFresh. Die Ersatzteile können anders aussehen als das Original, ältere Quellen nennen noch 25 Jahre. Einzelne alte Plattenmodelle wie Highline sind laut Forenberichten trotzdem nur noch gebraucht zu bekommen.",
+      "antwort_quellen": [
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/planung-installation/unsere-loesungen-fuer-ihre-beduerfnisse/produktverfuegbarkeit/",
+        "https://www.geberit.de/service-support/ersatzteile/",
+        "https://www.handwerkundbau.at/bauen/haustechnik/brandneuer-geberit-ersatzteilkatalog-7699/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Wo kann ich Geberit-Ersatzteile kaufen, verkauft Geberit direkt?",
+      "kategorie": "bezug",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/186062/Wie-finde-ich-Geberit-Ersatzteile-",
+        "https://www.gutefrage.net/frage/wie-nennt-man-dieses-teil-und-kann-man-das-einzeln-kaufen"
+      ],
+      "antwort": "Geberit verkauft nicht direkt an Endkunden, Ersatzteile bekommst du über den Sanitärfachhandel oder einen Installateur. Baumärkte und Onlinehändler führen gängige Teile wie Füll- und Spülventile unter der Geberit-Artikelnummer (Format 240.xxx.xx.x). Im Online-Ersatzteilkatalog von Geberit kannst du die Artikelnummern je Spülkastentyp nachschlagen und mit dem Angebot vergleichen.",
+      "antwort_quellen": [
+        "https://www.geberit.de/service-support/ersatzteile/",
+        "https://www.hornbach.de/c/bad-sanitaer/spuelkaesten-und-vorwandelemente/ersatzteile-fuer-aufputzspuelkaesten/S14067",
+        "https://catalog.geberit.de/de-DE/spare-part/SPT_461050"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Wie bekomme ich die Betätigungsplatte bzw. Spültaste vom Geberit-Einbauspülkasten ab?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wie-bekomme-ich-den-deckel-spueltaste-von-einem-geberit-einbauspuelkasten-ab",
+        "https://www.gutefrage.net/frage/wc-betaetigungsplatte-tauschen"
+      ],
+      "antwort": "Laut Geberit lässt sich die Betätigungsplatte meist mit wenigen Handgriffen abnehmen, die Wand muss dafür nicht geöffnet werden. Dahinter sitzen Rahmen und Schutzplatte, die du für Arbeiten am Ventil ebenfalls entfernst. Geberit empfiehlt, das Abnehmen von Platte und Rahmen einem Fachbetrieb zu überlassen, um Beschädigungen zu vermeiden. Eine allgemeine Schritt-für-Schritt-Anleitung für alle Plattenserien nennt Geberit nicht, der Ablauf hängt vom Modell ab.",
+      "antwort_quellen": [
+        "https://www.geberit.de/service-support/ersatzteile/",
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/"
+      ],
+      "sicherheit": "unsicher",
+      "passende_teile": [
+        "geberit-betaetigungsplatten-familie-sigma",
+        "geberit-drueckerstange-240-074-00-1"
+      ],
+      "passendes_problem": "geberit-spuelung-loest-nicht-aus"
+    },
+    {
+      "frage": "Welche Heberglocke bzw. welches Spülventil passt in meinen Geberit-Aufputzspülkasten (zum Beispiel AP140)?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/70031/Ersatzteilbestimmung-Geberit-Heberglocke-AP-Spuelkasten",
+        "https://www.gutefrage.net/frage/passende-heberglocke-finden-toilette",
+        "https://www.ebay.de/p/2255994044"
+      ],
+      "antwort": "Das universelle AP-Spülventil 240.113.00.1 passt laut Geberit in die Aufputzkästen AP121, AP123, AP127, AP128.0xx und AP129, aber nicht in AP140, AP130 und den AP128 mit Nummer 128.315.11.1. Für den AP140 mit 2-Mengen-Spülung führt der Geberit-Katalog die Heberglocke 240.428.00.1. Lies vor dem Kauf die Typnummer am Kasten ab und prüf, ob du 1-Mengen-, 2-Mengen- oder Spül-Stopp-Spülung hast.",
+      "antwort_quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_104605",
+        "https://catalog.geberit.at/de-AT/spare-part/SPT_461047"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "geberit-spuelventil-universal-ap-240-113-00-1",
+        "geberit-heberglocke-ap140-2-mengen-240-428-00-1",
+        "geberit-spuelventil-ap140-spuel-stopp-240-950-00-1",
+        "geberit-spuelventil-ap128-2-mengen-243-634-00-1"
+      ],
+      "passendes_problem": "geberit-spuelkasten-laeuft-nach"
+    },
+    {
+      "frage": "Wie stelle ich die Spülmenge (große und kleine Spülung) am Geberit-Spülkasten ein?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wie-kann-ich-bei-einem-geberit-spuelkasten-den-zulauf-einstellen",
+        "https://www.haustechnikdialog.de/News/26351/Einheitliche-Loesung-fuer-alle-Geberit-Unterputz-Spuelkaesten"
+      ],
+      "antwort": "Beim Spülventil Typ 212 stellst du beide Mengen über zwei Schieber direkt am Ventil ein. Die große Spülung reicht laut Geberit von 4 bis 7,5 Liter in festen Stufen, die kleine von 2 bis 4 Liter. Zusätzlich hat das Ventil eine einstellbare Drossel gegen Überspritzen der Keramik. Wie die Schieber genau zu bedienen sind, steht in der Geberit-Montageanleitung zur Spüleinstellung Typ 212.",
+      "antwort_quellen": [
+        "https://catalog.geberit.de/de-DE/product/PRO_1777474",
+        "https://www.geberit.de/sanitaer-rohrleitungssysteme/installations-spuelsysteme/fuell-und-spuelventile/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "geberit-spuelventil-typ-212-244-820-00-1"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Soll ich den Geberit-Spülkasten entkalken, zum Beispiel mit Essig oder Zitronensäure?",
+      "kategorie": "pflege",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://bau.de/forum/sanitaer/11738.php",
+        "https://bau.de/forum/sanitaer/11984.php"
+      ],
+      "antwort": "Geberit rät davon ab, das Innere des Spülkastens zu putzen oder zu entkalken, das sei meist nicht nötig. Gelöste Kalkplatten können die Spülung verstopfen, im schlimmsten Fall muss dann das WC abmontiert werden. Bei Nachlaufen empfiehlt Geberit stattdessen, das Spülventil herauszunehmen und Dichtung und Sitz zu säubern.",
+      "antwort_quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/service-fuers-bad/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": "geberit-spuelkasten-laeuft-nach"
+    },
+    {
+      "frage": "Passen die normalen Ersatzteile auch in einen flachen 8-cm-Spülkasten (Sigma 8 cm, UP700/UP720)?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.plumbersforums.net/threads/compatible-flush-plates-with-geberit-up720-8cm.130422/",
+        "https://www.fixthebog.uk/geberit-242-416-00-1-sigma-slim-8cm-replacement-flush-valve-for-up720"
+      ],
+      "antwort": "Für die 8-cm-Kästen führt Geberit eigene Ersatzteillisten, und Händler geben an, dass die üblichen 12-cm-Teile wegen der geringeren Tiefe nicht passen. Achte beim Kauf darauf, dass ausdrücklich Sigma 8 cm bzw. UP720 genannt ist. Als Spülventil für diese Kästen wird unter anderem 241.290.00.1 angeboten. Die Aussage zur Nicht-Austauschbarkeit stammt von Händlern, nicht direkt von Geberit.",
+      "antwort_quellen": [
+        "https://catalog.geberit-global.com/en-EU/spare-part/SPT_461056",
+        "https://heizung-billiger.de/225446-geberit-heberglocke-mit-bassin-zu-sigma-up-spk-8-cm-geberit-241290001-4025416674474.html"
+      ],
+      "sicherheit": "unsicher",
+      "passende_teile": [
+        "geberit-spuelventil-typ-208-sigma-8cm-241-290-00-1"
+      ],
+      "passendes_problem": null
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "Die Drückerplatte klemmt oder die Spülung löst nur bei kräftigem Druck aus. Was ist kaputt?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/drueckerplatte-wc",
+        "https://ukplumbersforums.co.uk/threads/geberit-flush-sticking.79078/latest"
+      ]
+    },
+    {
+      "frage": "Taugen Nachbau- oder Universal-Füllventile anderer Hersteller (Wirquin, Sanit, TECE F10) für Geberit-Kästen?",
+      "fundstellen": [
+        "https://www.selfio.de/media/pdf/cd/00/c7/9820353-TECE-Fullventil-F10-Universal-Information.pdf",
+        "https://www.ebay.de/p/2297704112"
+      ]
+    },
+    {
+      "frage": "Was kostet es, das Innenleben eines Geberit-UP-Spülkastens vom Installateur tauschen zu lassen?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wc-unterputz-spuelkasten-austauschen-kosten",
+        "https://www.haustechnikdialog.de/Forum/t/185887/Innenleben-Geberit-Unterputzspuelkasten-erneuern"
+      ]
+    },
+    {
+      "frage": "Der Nachlauf beim Füllen ist auf einmal sehr laut. Muss das Füllventil getauscht werden?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wc-nachlauf-auf-einmal-sehr-laut-"
+      ]
+    },
+    {
+      "frage": "Die Betätigungsplatte fehlt oder ist kaputt. Wie verdecke ich die Öffnung, ohne den Spülkasten auszubauen?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wc-betaetigungsplatte-kaputtnicht-vorhanden--wie-kann-ich-das-entstandene-loch--in-der-wand-verdecken-ohne-den-gesamten-spuelkasten-ausbauen-zu-muessen"
+      ]
+    },
+    {
+      "frage": "Nach dem Einbau eines neuen Bassins ist der UP-Spülkasten undicht. Habe ich das falsche Bassin?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/252177/Geberit-UP-Spuelkasten-undicht-falscher-Bassin-"
+      ]
+    },
+    {
+      "frage": "Wo bekomme ich Teile für Geberit-Technik in Villeroy-&-Boch-Spülkästen?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/186062/Wie-finde-ich-Geberit-Ersatzteile-"
+      ]
+    }
+  ],
+  "allgemeine_muster": "Bei Spülkästen dreht sich fast jede Frage zuerst um die Identifikation: Welcher Kasten ist verbaut, wo steht die Nummer, und passt das Teil zu genau dieser Serie und diesem Baujahr. Danach folgen die zwei Dauerbrenner Nachlaufen und langsames Füllen, die fast immer auf Dichtung, Spülventil oder Füllventil zurückgehen. Häufig kommt auch die Frage, ob eine neue Drückerplatte auf einen alten Kasten passt und ob es für 20 bis 40 Jahre alte Unterputzkästen noch Teile oder Umbausätze gibt, damit die Wand nicht geöffnet werden muss."
+}

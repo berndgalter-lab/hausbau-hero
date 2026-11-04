@@ -1,0 +1,325 @@
+{
+  "marke": "Grohe",
+  "fragen": [
+    {
+      "frage": "Mein Grohe-Thermostat wird nur noch lauwarm oder gar nicht mehr warm. Woran liegt das und was kann ich tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 6,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/140314/Grohe-Thermostat-nur-lauwarmes-Wasser-Reparatur-sehr-teuer",
+        "https://www.haustechnikdialog.de/Forum/t/176810/GROHE-EcoStat-1001-Brausethermostat-keine-heisses-Wasser",
+        "https://www.haustechnikdialog.de/forum/t/97220/mischtemperatur-bei-grohe-thermostatarmatur-zu-kalt",
+        "https://www.haustechnikdialog.de/Forum/t/230932/Grohe-Thermostat-Rapido-zu-kaltes-Wasser",
+        "https://www.energiesparhaus.at/forum-brausethermostat-kaputt-kartusche-tauschen/76717",
+        "https://www.haustechnikdialog.de/Forum/t/163799/Grohe-Grohterm-1000-Thermostat-wiederholt-defekt"
+      ],
+      "antwort": "Meist ist das Thermoelement bzw. die Thermostatkartusche verkalkt, oder die Siebe und Rückflussverhinderer in den Anschlüssen sind verschmutzt oder defekt. Grohe empfiehlt, das Thermoelement auf Kalk zu prüfen und bei Bedarf zu ersetzen. Laut Grohe-Wartungsanleitung sperrst du dazu Kalt- und Warmwasser ab, schraubst Thermostateinsatz und Rückflussverhinderer heraus, reinigst und fettest alles mit Armaturenfett und tauschst defekte Teile. In Foren hat oft schon das Reinigen der Siebe oder Entkalken der Kartusche geholfen.",
+      "antwort_quellen": [
+        "https://www.grohe.de/de_de/service/faq/thermostate.html",
+        "https://cdn.cloud.grohe.com/tpi/1000/1900/1970/1974/1974564/original/1974564.pdf",
+        "https://www.haustechnikdialog.de/Forum/p/3855998",
+        "https://www.grohe.de/de_de/grohtherm-800-thermostat-brausebatterie-dn-15-34558000.html"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": ["grohe-thermostatkartusche-47439000", "grohe-thermoelement-47450000", "grohe-rueckflussverhinderer-08565000"],
+      "passendes_problem": "grohe-thermostat-wird-nicht-warm-kalt"
+    },
+    {
+      "frage": "Welche Kartusche passt in meine Grohe-Armatur (28, 35 oder 46 mm)?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wasserhahn-kartusche-wechseln",
+        "https://www.ebay.de/urw/GROHE+Kartusche+46+mm+Nr.+46048000/product-reviews/25032157339",
+        "https://www.kaufland.at/product/300532692/",
+        "https://www.gutefrage.net/frage/wasserhahn-in-der-kueche-tropft",
+        "https://www.gutefrage.net/frage/wie-tausche-ich-eine-kartusche-bei-einer-moen-grohe-badezimmergarnitur-aus"
+      ],
+      "antwort": "Grohe verbaut Einhebelkartuschen in mehreren Durchmessern, unter anderem 28, 35 und 46 mm, und sie sind nicht genormt. Am sichersten ist es, die Artikelnummer der Armatur zu ermitteln und in der Grohe-Ersatzteilsuche die dort genannte Kartusche zu bestellen. Nur nach Maß zu kaufen geht leicht schief: Auf gutefrage passte eine nach Messung bestellte 35-mm-Kartusche nicht. Nimm die alte Kartusche zum Vergleich mit in den Fachhandel.",
+      "antwort_quellen": [
+        "https://www.grohe.com/en-GB/learn-discover/guides-tips/spare-parts-guide",
+        "https://www.hornbach.at/c/bad-sanitaer/badarmaturen/ersatzteile-fuer-armaturen/kartusche-fuer-wasserhahn/S31265/f/Marke=GROHE",
+        "https://www.selbst.de/armatur-kartusche-wechseln-20928.html",
+        "https://www.gutefrage.net/frage/wasserhahn-kartusche-wechseln"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": ["grohe-kartusche-46580000", "grohe-kartusche-48518000", "grohe-kartusche-46374000", "grohe-kartusche-46863000", "grohe-kartusche-46048000"],
+      "passendes_problem": "grohe-armatur-tropft"
+    },
+    {
+      "frage": "Meine Grohe-Armatur tropft. Wie wechsle ich die Kartusche selbst?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wasserhahn-kartusche-wechseln",
+        "https://www.gutefrage.net/frage/wasserhahn-tropft-in-einer-dauerschleife",
+        "https://www.gutefrage.net/frage/wasserhahn-in-der-kueche-tropft",
+        "https://www.gutefrage.net/frage/demontage-einer-sanitaer-armatur",
+        "https://www.gutefrage.net/frage/wie-tausche-ich-eine-kartusche-bei-einer-moen-grohe-badezimmergarnitur-aus"
+      ],
+      "antwort": "Schließ zuerst die Eckventile unter dem Becken, ohne Eckventile die Hauptabsperrung, und verschließ den Abfluss gegen herunterfallende Kleinteile. Dann hebelst du die Abdeckkappe am Hebel ab, löst die Madenschraube darunter, ziehst den Hebel ab und schraubst die Kartuschenmutter auf (je nach Modell etwa 27 oder 30 mm). Die Kartusche lässt sich danach herausziehen, die neue setzt du in umgekehrter Reihenfolge ein und prüfst nach dem Öffnen der Ventile auf Dichtheit.",
+      "antwort_quellen": [
+        "https://www.gutefrage.net/frage/demontage-einer-sanitaer-armatur",
+        "https://www.hausjournal.net/einhebelmischer-kartusche-wechseln",
+        "https://www.hausjournal.net/einhebelmischer-zerlegen",
+        "https://www.leinetal24.de/leben/wohnen/wasserhahn-tropft-ursache-kartusche-wechseln-reparieren-zr-11612589.html",
+        "https://cdn.migros.ch/mservice-documents/4fe8c541f85ed12454eb15d5635783086b2d659b"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": ["grohe-kartusche-46048000", "grohe-kartusche-46374000", "grohe-kartusche-46580000", "grohe-kartusche-46963000"],
+      "passendes_problem": "grohe-armatur-tropft"
+    },
+    {
+      "frage": "Wie finde ich heraus, welches Grohe-Modell bzw. welche Artikelnummer meine Armatur hat?",
+      "kategorie": "nummer",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/wie-nennt-sich-dieses-teil-einer-badarmatur.127222/",
+        "https://www.gutefrage.net/frage/sanitaer-hans-grohe",
+        "https://www.hunker.com/13417603/how-to-identify-older-grohe-faucets/",
+        "https://www.mrkitchenfaucets.com/?p=1507609"
+      ],
+      "antwort": "Grohe bietet dafür eine Ersatzteilsuche im Browser, die dich über Merkmale und Design zum Produkt führt, und die App Grohe Product Finder, die die Armatur per Foto erkennt (aus etwa 45 Grad fotografieren). Kennst du Serie oder Produktnamen, etwa BauEdge, zeigt die Suche die komplette Teileliste. Die Artikelnummer steht außerdem auf Verpackung, Rechnung und Installationsanleitung. Wo sie an der Armatur selbst sitzt, belegt keine Grohe-Quelle.",
+      "antwort_quellen": [
+        "https://www.grohe.com/en-GB/learn-discover/guides-tips/spare-parts-guide",
+        "https://www.grohe.com/de-DE/service-support/ersatzteilsuche",
+        "https://apps.apple.com/be/app/grohe/id1581954344"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Der Hebel meiner Grohe-Armatur geht schwer oder knackt. Kann ich das reparieren oder muss eine neue Kartusche rein?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/grohe-wasserhahn-geht-hart-zu-bewegen",
+        "https://www.gutefrage.net/frage/wasserhahn-ist-schwergaengig-und-knackt-ist-er-rettbar-oder-muss-er-ausgetauscht-werden-und-was-ist-mit-dem-teil",
+        "https://www.gutefrage.net/frage/waschbeckenwasserhahn"
+      ],
+      "antwort": "Ein schwergängiger Hebel kommt fast immer von der Kartusche, meist durch Kalk oder eingetrocknetes Fett. Du kannst die Kartusche ausbauen, Kalk und Schmutz entfernen und die beweglichen Teile mit Armaturenfett einfetten. Bleibt der Hebel danach schwer oder tropft die Armatur bei geschlossenem Hebel, tausch die Kartusche komplett. Wackelt der Hebel nur, reicht oft das Nachziehen der Schraube unter der Abdeckkappe.",
+      "antwort_quellen": [
+        "https://www.hausjournal.net/einhebelmischer-kartusche-fetten",
+        "https://www.sanier.de/badezimmer/schwergaengig-einhebelmischer",
+        "https://www.hausjournal.net/einhebelmischer-geht-schwer",
+        "https://www.gutefrage.net/frage/grohe-wasserhahn-geht-hart-zu-bewegen"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": ["grohe-kartusche-46048000", "grohe-kartusche-46374000", "grohe-kartusche-46580000"],
+      "passendes_problem": "grohe-hebel-schwergaengig-wackelt"
+    },
+    {
+      "frage": "Muss ich den Grohe-Thermostat nach dem Kartuschenwechsel neu einstellen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/96274/Grohe-Thermoelement-selbst-tauschen-",
+        "https://www.bauexpertenforum.de/threads/thermostatkartusche-tauschen.148382/",
+        "https://www.haustechnikdialog.de/Forum/t/252546/Grohe-Thermostat-Duschbatterie-ueberdreht"
+      ],
+      "antwort": "Ja, laut Grohe-Anleitungen ist nach jeder Wartung an der Thermostatkartusche eine Justierung nötig. Du öffnest das Wasser, misst die Auslauftemperatur mit einem Thermometer und drehst die Reguliermutter, bis 38 °C herauskommen. Danach steckst du den Temperaturgriff so auf, dass die Sperrtaste nach oben zeigt, damit die 38-°C-Sperre wieder an der richtigen Stelle sitzt.",
+      "antwort_quellen": [
+        "https://cdn.cloud.grohe.com/tpi/1000/1900/1970/1974/1974564/original/1974564.pdf",
+        "https://static.karwei.nl/dam/271681/6",
+        "https://www.grohe.de/de_de/thermostat-kompaktkartusche-1-2-47439000.html"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": ["grohe-thermostatkartusche-47439000", "grohe-thermostatkartusche-47885000"],
+      "passendes_problem": "grohe-thermostat-wird-nicht-warm-kalt"
+    },
+    {
+      "frage": "Passt die neue blaue Grohe-Kartusche 46048000 in meine alte Armatur mit cremefarbener Kartusche?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.ebay.de/urw/GROHE+Kartusche+46+mm+Nr.+46048000/product-reviews/25032157339",
+        "https://www.kaufland.at/product/300532692/",
+        "https://www.galaxus.de/en/s4/product/grohe-kartusche-46-mm-nr-46048000-sanitary-installation-accessories-22423660"
+      ],
+      "antwort": "Grohe führt 46048000 weiterhin als Ersatz für ältere Serien wie Europlus und Eurodisc (1999 bis 2006), und mehrere Käufer berichten, dass sie in Jahrzehnte alte Europlus-Batterien genau passte. Andere Käufer schreiben aber, die heute gelieferte blaue Ausführung sei nicht baugleich mit der alten cremefarbenen, Griffaufnahme oder Dichtung passten nicht, etwa bei Euroeco 32743. Prüf vor dem Kauf die Ersatzteilliste deiner Armatur und vergleiche die alte Kartusche direkt mit der neuen.",
+      "antwort_quellen": [
+        "https://www.grohe.de/de_de/eurodisc-1999-2006-einhand-waschtischbatterie-dn-15-33176IZ0.html",
+        "https://www.ebay.de/urw/GROHE+Kartusche+46+mm+Nr.+46048000/product-reviews/25032157339",
+        "https://www.kaufland.at/product/300532692/"
+      ],
+      "sicherheit": "unsicher",
+      "unsicher_grund": "Herstellerangabe und Käuferberichte widersprechen sich; welche Armaturen genau betroffen sind, ist nicht belegt.",
+      "passende_teile": ["grohe-kartusche-46048000", "grohe-dichtungsset-46209000"],
+      "passendes_problem": "grohe-armatur-tropft"
+    },
+    {
+      "frage": "Original-Grohe-Kartusche oder günstiger Nachbau: lohnt sich das Original?",
+      "kategorie": "bezug",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/demontage-einer-sanitaer-armatur",
+        "https://www.ebay.de/urw/GROHE+Kartusche+46+mm+Nr.+46048000/product-reviews/25032157339",
+        "https://www.manomano.de/p/stuck-ersatzkartuschen-aus-messing-fur-wasserhahne-keramikscheibenkartusche-warm-und-kaltwasserarmatur-fur-kuche-und-bad-96451787"
+      ],
+      "antwort": "Solange die Armatur noch in der Herstellergarantie ist, nimm Originalteile: Laut Grohe-Garantiebedingungen kann die Garantie entfallen, wenn bei Reparatur oder Wartung andere als Original-Grohe-Ersatzteile verwendet wurden. Auch auf gutefrage wird geraten, die Kartusche vom gleichen Hersteller zu nehmen, weil sonst die Passung meist nicht stimmt. Für Nachbauten gibt es keine Herstellerangabe zur Passform, das Risiko trägst du selbst.",
+      "antwort_quellen": [
+        "https://info.globus-baumarkt.de/media/2b/8a/4a/1638530845/garantie_grohe.pdf",
+        "https://image.hagebau.de/pdf/2000000000079712.pdf",
+        "https://www.gutefrage.net/frage/demontage-einer-sanitaer-armatur"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": ["grohe-kartusche-46048000", "grohe-kartusche-46374000", "grohe-kartusche-46580000"],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Die Kartusche bzw. Mutter sitzt fest. Wie bekomme ich sie heraus, ohne etwas kaputt zu machen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/demontage-einer-sanitaer-armatur",
+        "https://www.bauexpertenforum.de/threads/festgesetzte-unterputzarmatur-waschtisch-loesen.143285/",
+        "https://www.bauexpertenforum.de/goto/post?id=1016512"
+      ],
+      "antwort": "Ursache ist meist Kalk. Wickel ein mit Essig, Zitronensäure oder Entkalker getränktes Tuch um Griff oder Mutter und lass es eine Weile einwirken, vorsichtiges Erwärmen mit dem Föhn kann zusätzlich helfen. Dreh nicht mit Gewalt, sonst kann das Gewinde im Armaturenkörper abreißen. Löst sich nichts, ist das ein Fall für den Installateur.",
+      "antwort_quellen": [
+        "https://www.hausjournal.net/einhebelmischer-kartusche-sitzt-fest",
+        "https://www.gutefrage.net/frage/demontage-einer-sanitaer-armatur",
+        "https://www.bauexpertenforum.de/threads/thermostatkartusche-tauschen.148382/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": "grohe-armatur-tropft"
+    },
+    {
+      "frage": "Thermostatkartusche oder nur Thermoelement: Was ist der Unterschied zwischen Grohe 47439000 und 47450000?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/96274/Grohe-Thermoelement-selbst-tauschen-",
+        "https://www.fixthebog.uk/grohe-universal-thermostatic-tap-cartridge-chrome-plated-47450000"
+      ],
+      "antwort": "Grohe führt 47439000 als komplette Thermostat-Kompaktkartusche 1/2 Zoll für Aufputz-Thermostate wie Grohtherm 800, 1000 und Precision Trend. 47450000 ist dagegen nur das Thermoelement (Dehnstoffelement) für ältere Serien wie Chiara und Sentosa. Händler beschriften beide Teile teils vertauscht, deshalb gibt es Fehlkäufe. Richte dich nach der Ersatzteilliste deines Thermostats bei Grohe, nicht nach dem Händlertitel.",
+      "antwort_quellen": [
+        "https://www.grohe.de/de_de/thermostat-kompaktkartusche-1-2-47439000.html",
+        "https://www.grohe.de/de_de/thermoelement-1-2-47450000.html",
+        "https://www.fixthebog.uk/grohe-universal-thermostatic-tap-cartridge-chrome-plated-47450000"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": ["grohe-thermostatkartusche-47439000", "grohe-thermoelement-47450000"],
+      "passendes_problem": "grohe-thermostat-wird-nicht-warm-kalt"
+    },
+    {
+      "frage": "Wie lange gilt die Grohe-Garantie und bekomme ich Ersatz bei einem Defekt?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/140314/Grohe-Thermostat-nur-lauwarmes-Wasser-Reparatur-sehr-teuer",
+        "https://www.haustechnikdialog.de/Forum/t/163799/Grohe-Grohterm-1000-Thermostat-wiederholt-defekt"
+      ],
+      "antwort": "In den deutschen Grohe-Garantiebedingungen gilt eine Herstellergarantie von 5 Jahren ab Kauf durch den Endkunden. In Österreich gibt es für ausdrücklich gekennzeichnete Produkte eine erweiterte Garantie von 10 Jahren. Die Garantie kann entfallen, wenn Nicht-Originalteile eingebaut wurden. Im HaustechnikDialog berichtet ein Nutzer, dass er von Grohe nach einem Defekt kostenlos eine Ersatzkartusche bekam.",
+      "antwort_quellen": [
+        "https://info.globus-baumarkt.de/media/2b/8a/4a/1638530845/garantie_grohe.pdf",
+        "https://image.hagebau.de/pdf/2000000000079712.pdf",
+        "https://cdn.cloud.grohe.com/Web/local_PDF/de_AT/GROHE_Herstellergarantie_10_Jahre_AT/original/GROHE_Herstellergarantie_10_Jahre_AT.pdf"
+      ],
+      "sicherheit": "unsicher",
+      "unsicher_grund": "Die gefundenen deutschen Garantie-PDFs stammen aus 2013 bis 2016; ob die Bedingungen heute noch so gelten, ist nicht geprüft.",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Wie lange gibt es für Grohe-Armaturen noch Ersatzteile?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/140314/Grohe-Thermostat-nur-lauwarmes-Wasser-Reparatur-sehr-teuer",
+        "https://www.grohe.com/en-GB/service-support/faq/spare-parts-faq"
+      ],
+      "antwort": "Grohe nennt eine Ersatzteilverfügbarkeit von 10 Jahren für Aufputzprodukte und bis zu 15 Jahren für Unterputzprodukte. Für viele ältere Serien wie Europlus oder Eurodisc führt Grohe weiterhin Ersatzkartuschen. Ob die Frist ab Kauf oder ab Produktionsende zählt, geht aus der Grohe-Seite nicht eindeutig hervor.",
+      "antwort_quellen": [
+        "https://www.grohe.com/en-GB/learn-discover/news-events/newsroom/product_grohe-services",
+        "https://www.grohe.de/de_de/kartusche-46048000.html"
+      ],
+      "sicherheit": "unsicher",
+      "unsicher_grund": "Bezugspunkt der Frist (Kauf oder Produktionsende) ist auf der Grohe-Seite nicht klar angegeben.",
+      "passende_teile": ["grohe-kartusche-46048000"],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Der Auszugsschlauch meiner Grohe-Küchenarmatur ist undicht. Welcher Ersatzschlauch passt?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/brauseschlauch-austausch-an-kuechenarmatur-wasser-abdrehen.112510/",
+        "https://www.gutefrage.net/frage/wasserhahn-in-der-kueche-tropft"
+      ],
+      "antwort": "Grohe-Ersatzschläuche sind serienabhängig, deshalb brauchst du zuerst die Artikelnummer der Küchenarmatur. Häufig genannt wird der Original-Brauseschlauch 46092000 mit 1500 mm Länge, für die Essence-Serie gibt es den GrohFlexx-Schlauch 46964. Vor dem Tausch drehst du das Wasser ab und prüfst auch die Anschlüsse und Flexschläuche unter der Spüle, denn die Undichtigkeit sitzt nicht immer am Schlauch selbst.",
+      "antwort_quellen": [
+        "https://www.preissuchmaschine.de/in-Baumarkt/Heizung-Sanitaer/Grohe-Europlus-Brauseschlauch-46092000.html",
+        "https://www.preissuchmaschine.de/preisvergleich/grohe-grohflexx-brauseschlauch-46964-500000275662.html",
+        "https://www.bauexpertenforum.de/threads/brauseschlauch-austausch-an-kuechenarmatur-wasser-abdrehen.112510/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": ["grohe-brauseschlauch-46092000", "grohe-brauseschlauch-48293000"],
+      "passendes_problem": "grohe-armatur-tropft"
+    },
+    {
+      "frage": "Welche Größe hat der Strahlregler (Mousseur) an meiner Grohe-Armatur und wie bekomme ich ihn ab?",
+      "kategorie": "pflege",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/goto/post?id=1016512",
+        "https://www.ebay.de/itm/205711537809"
+      ],
+      "antwort": "Bei Grohe-Waschtischarmaturen ist oft ein Mousseur mit Außengewinde M24x1 verbaut, daneben gibt es M22x1 mit Innengewinde und verdeckte Mousseure in kleineren Größen wie M16,5, M18,5 oder M21,5. Miss den Gewindedurchmesser mit einem Messschieber oder schau in die Ersatzteilliste deiner Armatur. Für verdeckte Mousseure brauchst du den Grohe-Demontageschlüssel 48021000, der laut Käufern aus Kunststoff ist und bei starker Verkalkung brechen kann.",
+      "antwort_quellen": [
+        "https://www.grohe.de/de_de/mousseur-48159000.html",
+        "https://www.grohe.de/de_de/mousseur-13935000.html",
+        "https://www.grohe.de/de_de/demontagewerkzeug-48021000.html",
+        "https://www.amazon.de/-/en/GROHE-48021000-Grooved-Disassembly-Tool/dp/B006WO3MGM"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": ["grohe-mousseur-48159000", "grohe-mousseur-13929000", "grohe-mousseur-13935000", "grohe-mousseur-48270000", "grohe-demontageschluessel-48021000"],
+      "passendes_problem": "grohe-strahlregler-verkalkt"
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "Grohe-Einhebelmischer wird nicht mehr richtig heiß: Ist der Temperaturbegrenzer falsch eingestellt und wie verstelle ich ihn?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/neuer-wasserhahn-kein-warmes-wasser",
+        "https://www.hausbau-forum.de/en/threads/despairing-settings-on-a-shower-fitting.9672"
+      ]
+    },
+    {
+      "frage": "Warm und kalt sind vertauscht angeschlossen (warm rechts). Reicht eine Sonderkartusche wie 47175000?",
+      "fundstellen": [
+        "https://www.ebay.de/p/2254368685",
+        "https://showerspares.com/search/grohe_thermostatic_1_2_compact_cartridge_reversed_inlets_47175_000"
+      ]
+    },
+    {
+      "frage": "Grohe-Thermostat pfeift beim Duschen. Welches Teil ist schuld?",
+      "fundstellen": ["https://www.haustechnikdialog.de/Forum/t/146281/pfeifendes-Geraeusch-Grohe-Thermostat"]
+    },
+    {
+      "frage": "Unterputz-Thermostat (Rapido/iBox) defekt: Muss die Wand aufgestemmt werden?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/59971/Unterputz-Thermostatmischer-defekt-muss-wirklich-aufgestemmt-werden",
+        "https://www.haustechnikdialog.de/Forum/t/232173/Grohe-iBox-Thermostat-defekt-"
+      ]
+    },
+    {
+      "frage": "Thermostatgriff überdreht, Temperatur lässt sich nicht mehr regeln. Was tun?",
+      "fundstellen": ["https://www.haustechnikdialog.de/Forum/t/252546/Grohe-Thermostat-Duschbatterie-ueberdreht"]
+    },
+    {
+      "frage": "Kann ich Ersatzteile direkt bei Grohe bestellen?",
+      "fundstellen": ["https://www.grohe.com/en-GB/service-support/faq/spare-parts-faq"]
+    },
+    {
+      "frage": "Welche Kartusche passt in eine alte Moen-Grohe-Armatur?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wie-tausche-ich-eine-kartusche-bei-einer-moen-grohe-badezimmergarnitur-aus",
+        "https://www.ebay.de/p/1523503322"
+      ]
+    }
+  ],
+  "allgemeine_muster": "Bei Armaturen dreht sich fast alles um die Kartusche: Welche passt, wie baue ich sie aus und lohnt sich Reinigen statt Tauschen. Die zweithäufigste Gruppe sind Thermostate, die nicht mehr die richtige Temperatur liefern, meist wegen Kalk in Kartusche, Sieben oder Rückflussverhinderern. Viele Fragende kennen ihr Modell nicht und versuchen, Teile nach Maß oder Foto zu bestimmen, was oft zu Fehlkäufen führt. Dazu kommen festsitzende, verkalkte Teile und die Frage, ob Nachbauten oder Originalteile sinnvoll sind."
+}

@@ -15,6 +15,19 @@ export interface Marke {
   ersatzteil_garantie: string | null;
   hersteller_ersatzteil_url: string | null;
   quellen: string[];
+  /** Fehlt, solange die Migration 20261105_marken_fragen.sql nicht eingespielt ist. */
+  fragen?: MarkenFrage[];
+}
+
+/** Eine Frage, wie sie in Foren und bei Google gestellt wird, mit belegter Antwort (docs/SEITENAUFBAU.md, Abschnitt 4a). */
+export interface MarkenFrage {
+  frage: string;
+  antwort: string;
+  kategorie: FrageKategorie;
+  quellen: string[];
+  /** Slugs von Teilen derselben Marke, die zur Antwort passen. */
+  teile?: string[];
+  problem?: string | null;
 }
 
 export interface Serie {
@@ -141,6 +154,17 @@ export const TEILTYP_LABEL: Record<string, string> = {
   werkzeug: "Werkzeug",
   sonstiges: "Weitere Teile",
 };
+
+// Gleiche Liste wie FRAGE_KATEGORIEN in scripts/pruefe-inhalte.py; Reihenfolge = Reihenfolge auf der Seite.
+export const FRAGE_KATEGORIEN = {
+  nummer: "Nummer und Modell",
+  kompatibilitaet: "Was passt",
+  reparatur: "Reparatur",
+  verfuegbarkeit: "Verfügbarkeit und Garantie",
+  bezug: "Kaufen",
+  pflege: "Pflege",
+} as const;
+export type FrageKategorie = keyof typeof FRAGE_KATEGORIEN;
 
 export const SICHERHEIT_LABEL: Record<Sicherheit, { text: string; klasse: string; erklaerung: string }> = {
   hersteller: {

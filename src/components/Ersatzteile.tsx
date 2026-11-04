@@ -1,5 +1,6 @@
 import { AFFILIATE_REL, mitTrackingId } from "@/lib/affiliate";
 import {
+  FRAGE_KATEGORIEN,
   SICHERHEIT_LABEL,
   formatEuro,
   formatStand,
@@ -8,6 +9,7 @@ import {
   teilKauflink,
   zeigePreis,
   type Angebot,
+  type MarkenFrage,
   type Sicherheit,
   type Teil,
   type Widerspruch,
@@ -223,6 +225,104 @@ export function Quellen({
       <h2 className="text-base font-semibold text-stone-800 mb-2">{titel}</h2>
       {links}
       {hinweis}
+    </section>
+  );
+}
+
+/**
+ * Häufige Fragen der Marke, nach Kategorie geordnet und je Frage aufklappbar. Jede Antwort
+ * nennt ihre Quelle und verweist, wo es passt, auf Teil- und Problem-Seiten.
+ */
+export function MarkenFragen({
+  markeName,
+  fragen,
+  teile,
+  id,
+}: {
+  markeName: string;
+  fragen: MarkenFrage[];
+  teile: Pick<Teil, "slug" | "name">[];
+  id?: string;
+}) {
+  if (fragen.length === 0) return null;
+  // Kurz wie in der Teile-Liste: ohne Markennamen vorne und ohne Nummer in Klammern hinten.
+  const teilName = new Map(
+    teile.map((t) => [t.slug, t.name.replace(new RegExp(`^${markeName}\\s+`), "").replace(/\s*\([\d.\s]+\)$/, "")]),
+  );
+  const reihenfolge = Object.keys(FRAGE_KATEGORIEN);
+  const gruppen = reihenfolge
+    .map((k) => [k, fragen.filter((f) => f.kategorie === k)] as const)
+    .filter(([, liste]) => liste.length > 0);
+  const ld = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: fragen.map((f) => ({
+      "@type": "Question",
+      name: f.frage,
+      acceptedAnswer: { "@type": "Answer", text: f.antwort },
+    })),
+  };
+  return (
+    <section id={id} className="mb-14 scroll-mt-20">
+      <JsonLd daten={ld} />
+      <h2 className="text-2xl font-bold mb-2">Häufige Fragen zu {markeName}-Ersatzteilen</h2>
+      <p className="text-stone-600 max-w-2xl mb-5">
+        Gesammelt aus Foren und Suchanfragen. Jede Antwort nennt ihre Quelle.
+      </p>
+      {gruppen.map(([kategorie, liste]) => (
+        <div key={kategorie} className="mb-6">
+          <h3 className="font-semibold text-stone-900 mb-3">{FRAGE_KATEGORIEN[kategorie as keyof typeof FRAGE_KATEGORIEN]}</h3>
+          <div className="divide-y divide-stone-200 border border-stone-200 rounded-xl bg-white">
+            {liste.map((f) => {
+              const verweise = (f.teile ?? []).filter((t) => teilName.has(t)).slice(0, 4);
+              // Eine Quelle je Website reicht im Kleingedruckten.
+              const quellen = f.quellen.filter((q, i) => f.quellen.findIndex((x) => hostVon(x) === hostVon(q)) === i);
+              return (
+                <details key={f.frage} className="group px-4 py-3">
+                  <summary className="cursor-pointer font-medium text-stone-800 list-none flex justify-between gap-3">
+                    <span>{f.frage}</span>
+                    <span aria-hidden className="text-stone-400 group-open:rotate-90 transition-transform">›</span>
+                  </summary>
+                  <div className="mt-3 text-stone-700 leading-relaxed max-w-2xl">
+                    <Absaetze text={f.antwort} className="space-y-2" />
+                    {(verweise.length > 0 || f.problem) && (
+                      <ul className="mt-3 flex flex-wrap gap-2 text-sm">
+                        {f.problem && (
+                          <li>
+                            <a href={`/problem/${f.problem}`} className="inline-block px-3 py-1 bg-amber-50 border border-amber-200 rounded-full text-amber-800 hover:border-amber-400">
+                              Ursache finden →
+                            </a>
+                          </li>
+                        )}
+                        {verweise.map((t) => (
+                          <li key={t}>
+                            <a href={`/teil/${t}`} className="inline-block px-3 py-1 bg-stone-100 rounded-full text-stone-700 hover:bg-amber-100 hover:text-amber-800">
+                              {teilName.get(t)}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                    {quellen.length > 0 && (
+                      <p className="mt-3 text-xs text-stone-500">
+                        Quelle:{" "}
+                        {quellen.map((q, i) => (
+                          <span key={q}>
+                            {i > 0 && ", "}
+                            <a href={q} target="_blank" rel="nofollow noopener noreferrer" className="hover:underline">
+                              {hostVon(q)}
+                            </a>
+                          </span>
+                        ))}
+                      </p>
+                    )}
+                  </div>
+                </details>
+              );
+            })}
+          </div>
+        </div>
+      ))}
     </section>
   );
 }

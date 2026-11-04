@@ -1,0 +1,346 @@
+{
+  "marke": "hansgrohe",
+  "fragen": [
+    {
+      "frage": "Wo finde ich die Artikelnummer meiner hansgrohe-Armatur bzw. wie finde ich heraus, welches Modell ich habe?",
+      "kategorie": "nummer",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://bau.de/forum/sanitaer/12279.php",
+        "https://www.bauexpertenforum.de/threads/badarmatur-unterputz-hersteller-unbekannt.112308/",
+        "https://www.gutefrage.net/frage/kennt-jemand-diese-armatur",
+        "https://www.gutefrage.net/frage/kennt-jemand-diese-unterputz-armatur",
+        "https://www.gutefrage.net/frage/wer-ist-der-hersteller-dieser-armatur"
+      ],
+      "antwort": "Bei Armaturen lasert hansgrohe die Artikelnummer auf den Griff, den Gewindeschaft oder den Armaturenkörper, bei Küchenmischern meist auf den Griff und bei Ausziehbrausen hinten auf den Schaft. Bei Unterputzarmaturen steht sie auf der Rosette oder dem Funktionsblock, bei Handbrausen am Griff und bei Brauseschläuchen an der Schlauchmutter. Alternativ findest du sie auf der Verpackung oder in der Montageanleitung. Mit dieser Nummer suchst du in der hansgrohe-Ersatzteilsuche die Explosionszeichnung deines Modells.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.de/service/ersatzteilsuche",
+        "https://www.hansgrohe.com/service/faq/spare-parts-repairs"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Welche Kartusche brauche ich für meine hansgrohe-Armatur?",
+      "kategorie": "nummer",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/sanitaer-hans-grohe",
+        "https://bau.de/forum/sanitaer/12295.php",
+        "https://www.haustechnikdialog.de/Forum/t/235433/Hansgrohe-Kartusche-reinigen",
+        "https://www.hornbach.at/c/bad-sanitaer/badarmaturen/ersatzteile-fuer-armaturen/kartusche-fuer-wasserhahn/S31265/f/Marke=hansgrohe"
+      ],
+      "antwort": "Gib die Artikelnummer der Armatur in der hansgrohe-Ersatzteilsuche ein und wähle das passende Baujahr, denn hansgrohe führt für viele Armaturen je Bauzeitraum eigene Ersatzteillisten. Die Kartuschennummer liest du dann in der Explosionszeichnung ab, statt nach Serie zu raten. Häufig verbaut ist die Keramikkartusche M3/M2 (92730000), daneben gibt es u. a. M1, M25 und M35 in verschiedenen Ausführungen. Zum Vergleich hilft es, die alte Kartusche auszubauen und die Bezeichnung darauf abzulesen.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.de/service/ersatzteilsuche",
+        "https://spares.hansgrohe.com/etk/INT/product/31487000/8796455776099?cid=&lang=de_DE",
+        "https://www.sanier.de/badezimmer/kartusche-beim-wasserhahn-selbst-austauschen"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansgrohe-kartusche-92730000",
+        "hansgrohe-kartusche-97685000",
+        "hansgrohe-kartusche-95646000",
+        "hansgrohe-kartusche-92530000",
+        "hansgrohe-kartusche-93740000",
+        "hansgrohe-kartusche-93760000",
+        "hansgrohe-kartusche-95973001"
+      ],
+      "passendes_problem": "hansgrohe-armatur-tropft"
+    },
+    {
+      "frage": "Meine hansgrohe-Armatur tropft: Wie tausche ich die Kartusche und wie bekomme ich den Hebel ab?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/sanitaer-hans-grohe",
+        "https://www.haustechnikdialog.de/Forum/t/235433/Hansgrohe-Kartusche-reinigen",
+        "https://www.haustechnikdialog.de/Forum/t/236560/Wie-bekomme-ich-die-Kartusche-nun-raus-",
+        "https://www.gutefrage.net/frage/einhebelmischer-kartusche-wechseln-wie-ausbauen",
+        "https://bau.de/forum/installation/12337.php"
+      ],
+      "antwort": "In den hansgrohe-Störungstabellen steht bei tropfender Armatur als Ursache eine defekte Kartusche und als Abhilfe der Tausch. Schließ zuerst die Eckventile, nimm den Griff ab, löse die Spannmutter und zieh die Kartusche heraus. Bei vielen Einhebelmischern sitzt die Griffschraube verdeckt: Im Forum fand ein Nutzer die Innensechskantschraube erst, nachdem er den Hebel ganz hochgestellt hatte. Danach neue Kartusche einsetzen, Mutter anziehen, Griff montieren und das Wasser langsam öffnen.",
+      "antwort_quellen": [
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh1463_pdf.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/235433/Hansgrohe-Kartusche-reinigen",
+        "https://www.gutefrage.net/frage/einhebelmischer-kartusche-wechseln-wie-ausbauen"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansgrohe-kartusche-92730000",
+        "hansgrohe-kartusche-97685000",
+        "hansgrohe-o-ring-set-92604000",
+        "hansgrohe-dichtung-m25-kartusche-93383000"
+      ],
+      "passendes_problem": "hansgrohe-armatur-tropft"
+    },
+    {
+      "frage": "Mein hansgrohe-Thermostat liefert nur noch kaltes oder lauwarmes Wasser. Was ist kaputt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/117308/hansgrohe-UP-Dusch-Thermostat-nur-kaltes-Wasser",
+        "https://bau.de/forum/heizung/11894.php",
+        "https://bau.de/forum/sanitaer/12072.php",
+        "https://www.bauexpertenforum.de/threads/thermostatmischer-kartusche-dusche-funktion.147373/"
+      ],
+      "antwort": "Prüf zuerst, ob an anderen Zapfstellen warmes Wasser ankommt. Ist das so, ist meist die Thermostatkartusche (Temperatur-Regeleinheit) verkalkt, festgegangen oder verschlissen, besonders nach längerer Nichtbenutzung. Laut einem Forenbeitrag sagte der hansgrohe-Werksservice, dass sich das Thermoelement nicht reparieren oder warten lässt; es wird ersetzt. hansgrohe-Anleitungen nennen außerdem zu geringen Versorgungsdruck und verschmutzte Rückflussverhinderer als Ursachen.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/117308/hansgrohe-UP-Dusch-Thermostat-nur-kaltes-Wasser",
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hruh0592_pdf.pdf",
+        "https://manualslib.mx/manual/53835/Hansgrohe-Ecostat-1001-Sl-132411-Serie.html?page=13"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansgrohe-thermostatkartusche-94282000",
+        "hansgrohe-thermostatkartusche-98282000",
+        "hansgrohe-rueckflussverhinderer-96737000"
+      ],
+      "passendes_problem": "hansgrohe-thermostat-wird-nicht-warm"
+    },
+    {
+      "frage": "Welche Thermostatkartusche passt: MTC 94282000 oder SMTC 98282000?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://bau.de/forum/sanitaer/12072.php",
+        "https://www.showerdoc.com/hansgrohe-thermostat-cartridge-98282000/question/mixer-tap-141583",
+        "https://www.haustechnikdialog.de/Forum/t/221621/Hansgrohe-Thermostat-Typ-und-Funktionsbeschreibung-gesucht"
+      ],
+      "antwort": "hansgrohe führt zwei getrennte Regeleinheiten und listet je Artikel und Baujahr genau eine davon. Die MTC 94282000 steckt u. a. in Ecostat 1001 CL, älteren Ecostat 1001 SL und Ecostat E/S Unterputz, die SMTC 98282000 u. a. in Ecostat Comfort, ShowerSelect und Croma Select S Showerpipe. Nachbau-Anbieter machen dazu widersprüchliche Angaben, verlass dich deshalb auf die Ersatzteilliste deines Thermostats mit Artikelnummer und Baujahr.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.co.uk/articledetail-mtc-thermostat-cartridge-94282000",
+        "https://spares.hansgrohe.com/etk/INT/product/13241800/8796221419363.seam?fsid=0x00007651000074C100007431&lang=en_GB&wcms=INT",
+        "https://www.manomano.co.uk/p/94282000-brass-temperature-control-unit-brass-thermostatic-shower-cartridge-34-compatible-with-hansgrohe-ecostat-showers-2-and-3-hole-bath-thermostat-214590602"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansgrohe-thermostatkartusche-94282000",
+        "hansgrohe-thermostatkartusche-98282000"
+      ],
+      "passendes_problem": "hansgrohe-thermostat-wird-nicht-warm"
+    },
+    {
+      "frage": "Mein neuer hansgrohe-Thermostat gibt nur ganz kalt oder ganz heiß und funktioniert verkehrt herum. Sind warm und kalt vertauscht?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/120030/HansGrohe-Ecostat-1001-SL-macht-nur-ganz-kalt-od-ganz-heiss-",
+        "https://www.haustechnikdialog.de/Forum/t/88137/Kalt-Warm-vertauscht"
+      ],
+      "antwort": "Genau dieses Fehlerbild entsteht, wenn Warm- und Kaltwasser vertauscht angeschlossen sind; im Forum bestätigte sich das beim Ecostat 1001 SL. In hansgrohe-Anleitungen (z. B. Ecostat Comfort, Ecostat Universal) ist die Abhilfe der Einbau der Regeleinheit für vertauschte Anschlüsse 92373000. Bei einem Aufputzthermostat half dem Fragesteller auch, die Armatur um 180 Grad gedreht zu montieren.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.de/articledetail-regeleinheit-fuer-vertauschte-anschluesse-92373000",
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2832_pdf.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/120030/HansGrohe-Ecostat-1001-SL-macht-nur-ganz-kalt-od-ganz-heiss-"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansgrohe-regeleinheit-vertauscht-92373000"
+      ],
+      "passendes_problem": "hansgrohe-thermostat-wird-nicht-warm"
+    },
+    {
+      "frage": "Der Temperaturgriff meines hansgrohe-Thermostats dreht sich beim Duschen von selbst Richtung heiß. Woran liegt das?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/167949/Duschthermostat-dreht-automatisch-heisser",
+        "https://bau.de/forum/sanitaer/11511.php"
+      ],
+      "antwort": "Ein Mitarbeiter des hansgrohe-Serviceteams nannte im Forum zwei Ursachen: große Druckunterschiede zwischen Warm- und Kaltwasser oder eine zu leichtgängige Regeleinheit. Betroffene berichten, dass hansgrohe in solchen Fällen eine neue Regeleinheit geschickt hat. Ist die Armatur noch in der Garantie, meld den Fehler beim Installateur oder direkt beim hansgrohe-Service.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/167949/Duschthermostat-dreht-automatisch-heisser"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansgrohe-thermostatkartusche-98282000"
+      ],
+      "passendes_problem": "hansgrohe-thermostat-wird-nicht-warm"
+    },
+    {
+      "frage": "Die Temperatur am hansgrohe-Thermostat stimmt nicht mit der Skala überein oder der Durchlauferhitzer springt nicht an. Wie justiere ich?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/120030/HansGrohe-Ecostat-1001-SL-macht-nur-ganz-kalt-od-ganz-heiss-",
+        "https://bau.de/forum/sanitaer/11511.php"
+      ],
+      "antwort": "Laut hansgrohe-Montageanleitungen musst du nach der Montage die Auslauftemperatur mit einem Thermometer prüfen und den Thermostat justieren, wenn sie von der eingestellten Temperatur abweicht. In älteren Ecostat-Anleitungen steht außerdem, dass in Verbindung mit einem Durchlauferhitzer der ECOSTOP-Anschlagring entfernt werden muss. Das genaue Vorgehen steht im Abschnitt zur Justierung der Anleitung deines Modells.",
+      "antwort_quellen": [
+        "https://documents.unidomo.de/de/Installationsanleitung/Hansgrohe/Hansgrohe-0065-Montageanleitung.pdf",
+        "https://manualslib.es/manual/85283/Hansgrohe-Marin-Thermostat-Set-27097000.html?page=7"
+      ],
+      "sicherheit": "unsicher",
+      "passende_teile": [
+        "hansgrohe-anschlagring-98916000"
+      ],
+      "passendes_problem": "hansgrohe-thermostat-wird-nicht-warm"
+    },
+    {
+      "frage": "Ist eine undichte Kartusche nach zwei, drei Jahren ein Garantiefall bei hansgrohe?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/259183/Grohe-Einhebelmischer-Kartusche-undicht-Garantiefall-nach-2-Jahren-",
+        "https://www.haustechnikdialog.de/Forum/t/167949/Duschthermostat-dreht-automatisch-heisser",
+        "https://www.haustechnikdialog.de/Forum/t/120030/HansGrohe-Ecostat-1001-SL-macht-nur-ganz-kalt-od-ganz-heiss-"
+      ],
+      "antwort": "hansgrohe gibt auf Armaturen und Brausen 5 Jahre Garantie ab Kaufdatum des ersten Endkunden, höchstens aber 6 Jahre ab Herstellung. Ausgeschlossen sind u. a. Kalkablagerungen, Verschleißteile wie Dichtungen und Schläuche sowie Reparaturen mit Nicht-Originalteilen. Den Fehler meldest du schriftlich innerhalb von zwei Monaten nach Entdecken an service@hansgrohe.com oder über das Kontaktformular, mit Kaufbeleg, und baust das Produkt bis zur Rückmeldung nicht aus. Ist der Anspruch unberechtigt, trägst du Versand-, Ausbau- und Arbeitskosten.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.de/service/garantie"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": "hansgrohe-armatur-tropft"
+    },
+    {
+      "frage": "Gibt es für alte oder nicht mehr hergestellte hansgrohe-Armaturen noch Ersatzteile?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/243697/hansgrohe-Allegroh-BJ-84-85-Thermostatelement-Ersatzteil",
+        "https://www.haustechnikdialog.de/Forum/t/156087/Hansgrohe-Temperratur-Regeleinheit-Unterputz-Duschthermo-BJ-1979",
+        "https://www.gutefrage.net/frage/badarmatur-defekt"
+      ],
+      "antwort": "hansgrohe sagt in seiner FAQ zu, Ersatzteile 15 Jahre nach Produktionsende verfügbar zu halten. Die Ersatzteilsuche zeigt auch ausgelaufene Produkte und weist darauf hin, wenn sie nicht mehr im Sortiment sind. Sehr alte Armaturen fehlen dort laut Forum teils ganz, etwa Thermostate von vor 1986. In einem solchen Fall stellte sich das Thermostatelement hinter dem hansgrohe-Griff als Hansa-Teil heraus.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.com/service/faq/spare-parts-repairs",
+        "https://www.hansgrohe.de/service/ersatzteilsuche",
+        "https://www.haustechnikdialog.de/Forum/t/243697/hansgrohe-Allegroh-BJ-84-85-Thermostatelement-Ersatzteil"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Wo bekomme ich hansgrohe-Ersatzteile, und lohnt sich eine Nachbau-Kartusche statt des Originals?",
+      "kategorie": "bezug",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.hornbach.de/shop/Badarmaturen/Ersatzteile-fuer-Armaturen/Kartusche-fuer-Wasserhahn/S29510/artikelliste.html",
+        "https://www.ebay.de/itm/175508757148",
+        "https://www.ebay.de/itm/146374981039",
+        "https://www.haustechnikdialog.de/Forum/t/167949/Duschthermostat-dreht-automatisch-heisser"
+      ],
+      "antwort": "Originalteile findest du über den Ersatzteilshop auf hansgrohe.de, über die Händlersuche im Fachhandel sowie bei Baumärkten und Onlinehändlern; einschicken zur Reparatur kannst du Produkte laut hansgrohe nicht, dafür ist der Installateur zuständig. Die Original-Kartusche M3/M2 92730000 kostete in Stichproben etwa 29 bis 56 Euro. Bei Nachbauten sind die Kompatibilitätsangaben teils widersprüchlich, und die hansgrohe-Garantie schließt Reparaturen mit Nicht-Originalteilen aus.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.com/service/faq/spare-parts-repairs",
+        "https://www.hansgrohe.de/service/garantie",
+        "https://www.hornbach.de/shop/Badarmaturen/Ersatzteile-fuer-Armaturen/Kartusche-fuer-Wasserhahn/S29510/artikelliste.html"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansgrohe-kartusche-92730000",
+        "hansgrohe-thermostatkartusche-94282000"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Der Schlauch meiner hansgrohe-Küchenarmatur mit Ausziehbrause ist undicht. Welcher Ersatzschlauch passt?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/brauseschlauch-austausch-an-kuechenarmatur-wasser-abdrehen.112510/",
+        "https://www.energiesparhaus.at/forum/80968",
+        "https://www.manomano.de/p/ersatzschlauch-fur-hansgrohegrohe-kuchenauszuge-mit-6-adaptern-standard-886240004617400046092000-15m-94876221"
+      ],
+      "antwort": "Den passenden Schlauch liest du in der Ersatzteilliste deiner Küchenarmatur ab, denn hansgrohe verwendet je nach Modell unterschiedliche Schläuche. Der 1,5 m lange 95507000 passt laut hansgrohe z. B. zu Talis M51 200 und Focus M41 240 mit Ausziehbrause, manche neueren Modelle wie Zesis M33 haben einen Quick-Connect-Schlauch. Dreh vor dem Tausch das Wasser an den Eckventilen ab.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.de/articledetail-schlauch-fuer-spueltischmischer-1500mm-95507000",
+        "https://www.megabad.com/hansgrohe-kuechenarmaturen-zesis-m33-einhebel-150-a-2238533.htm"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansgrohe-schlauch-95507000",
+        "hansgrohe-schlauch-93191000"
+      ],
+      "passendes_problem": "hansgrohe-armatur-tropft"
+    },
+    {
+      "frage": "Der Hebel meiner hansgrohe-Armatur ist schwergängig. Reicht Fetten oder muss die Kartusche neu?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wie-mache-ich-eine-schwergaenige-armatur-wieder-leichtgaengig",
+        "https://www.haustechnikdialog.de/Forum/t/159030/Qualitaetsproblem-mit-Hansgrohe-Armaturschwergaengig-",
+        "https://www.bauexpertenforum.de/goto/post?id=1484600"
+      ],
+      "antwort": "In hansgrohe-Störungstabellen steht für eine schwergängige Armatur: Kartusche defekt oder verkalkt, Kartusche austauschen. Im Forum wird zuerst empfohlen, die Kartusche auszubauen, zu entkalken und die Dichtungen mit Armaturenfett zu versehen; die Keramikscheiben selbst sollst du laut Antworten nicht fetten. Bleibt der Hebel danach schwergängig oder tropft die Armatur, ist eine neue Kartusche fällig.",
+      "antwort_quellen": [
+        "https://www.megabad.com/hersteller-hansgrohe-zubehoer-kartuschen-talis-m54-a-1078586.htm",
+        "https://www.gutefrage.net/frage/wie-mache-ich-eine-schwergaenige-armatur-wieder-leichtgaengig",
+        "https://www.sanier.de/badezimmer/schwergaengig-einhebelmischer"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansgrohe-kartusche-92730000",
+        "hansgrohe-o-ring-set-92604000"
+      ],
+      "passendes_problem": "hansgrohe-armatur-tropft"
+    },
+    {
+      "frage": "Womit darf ich hansgrohe-Armaturen und Brausen entkalken, ohne die Oberfläche oder die Garantie zu gefährden?",
+      "kategorie": "pflege",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://wohnglueck.de/artikel/duschkopf-entkalken-54740",
+        "https://www.ebay.de/blog/haus-garten/duschkopf-tropft",
+        "https://www.hausbau-forum.de/threads/qualitaetsprobleme-bei-hansgrohe-armaturen.i3v5x0/"
+      ],
+      "antwort": "hansgrohe rät von Reinigern mit Salzsäure, Ameisensäure oder Chlorbleichlauge ab und erlaubt keine Dampfreiniger. Sprüh den Reiniger aufs Tuch statt direkt auf Armatur oder Brause und spül danach gründlich mit kaltem Wasser nach. Die Silikonnoppen (QuickClean) an Luftsprudlern und Brausedüsen kannst du einfach mit dem Finger abrubbeln. Schäden durch falsche Reinigung und Kalk fallen nicht unter die Garantie.",
+      "antwort_quellen": [
+        "https://assets.hansgrohe.com/celum/web/hg_reinigungsempfehlung_2026.pdf",
+        "https://assets.hansgrohe.com/celum/web/Flyer Pflege und Wartung_DE.pdf",
+        "https://www.hansgrohe.de/service/garantie"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansgrohe-luftsprudler-13955000"
+      ],
+      "passendes_problem": null
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "Wie wechsle ich die Anschlussschläuche an einer Talis S Waschtischarmatur, wenn sie innen im Korpus stecken? (Forenantworten beschreiben Blechklammer und Spezialwerkzeug, aber widersprüchlich)",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/239678/Hansgrohe-Anschlussschlauch-wechseln-Talis-S-32070000-Spezialwerkzeug"
+      ]
+    },
+    {
+      "frage": "Wie repariere ich einen alten hansgrohe-Kugelmischer (Mondial, Allegroh, Uno)? Reicht das Service-Set 13952000 oder lohnt der Umbau auf Keramik?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/badarmatur-defekt",
+        "https://www.haustechnikdialog.de/Forum/t/240442/Reparatur-Hansgrohe-Axor-Allegroh-Kugelmischer-statt-Ceramicumbau-"
+      ]
+    },
+    {
+      "frage": "Passt ein neues hansgrohe-Unterputz-Fertigset auf einen älteren iBox-universal-Grundkörper?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/unterputz-armaturen",
+        "https://www.bauhaus.ch/product-documents/7e/MA_hansgrohe_iBoxuniversal_CH_DE.pdf"
+      ]
+    },
+    {
+      "frage": "Kann ich an meine hansgrohe-Armatur eine Kopf- oder Handbrause eines anderen Herstellers anschließen (Gewinde, konische oder zylindrische Mutter)?",
+      "fundstellen": [
+        "https://www.gutefrage.net/a/frage/passt-hansgrohe-armatur-mit-anderer-kopfbrause"
+      ]
+    },
+    {
+      "frage": "Welcher Strahlregler passt an meinen hansgrohe-Wasserhahn und wie wechsle ich ihn ohne Schlüssel?",
+      "fundstellen": [
+        "https://www.mydealz.de/deals/prime-hansgrohe-wassersparender-luftsprudler-13912000-strahlregler-mit-durchflussbegrenzer-7-lmin-m24x1-gewinde-perlator-chrom-2852851"
+      ]
+    },
+    {
+      "frage": "Welche Regeleinheit brauche ich für einen alten AXOR- bzw. hansgrohe-Unterputzthermostat (z. B. 92601000 bei 80 mm oder 92631000 bei 92 mm Lochabstand)?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/160474/Hansgrohe-UP-Thermostat-Wer-kann-helfen-"
+      ]
+    }
+  ],
+  "allgemeine_muster": "Bei Armaturen und Thermostaten dreht sich fast jede Frage zuerst um die Identifikation: Welches Modell und welches Baujahr habe ich, und welche Kartusche oder Regeleinheit gehört dazu? Danach folgen die immer gleichen Fehlerbilder: Einhebelmischer tropft oder ist schwergängig, Thermostat bleibt kalt, regelt nicht oder verstellt sich, und vertauschte Warm- und Kaltanschlüsse. Häufig kommen dazu die Fragen, wie man den Griff ohne sichtbare Schraube abbekommt, ob der Schaden noch unter die Garantie fällt und ob ein günstiger Nachbau statt des Originals reicht."
+}

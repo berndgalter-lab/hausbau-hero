@@ -1,0 +1,348 @@
+{
+  "marke": "Franke",
+  "fragen": [
+    {
+      "frage": "Wo finde ich die Modell- bzw. Artikelnummer meiner Franke-Spüle oder -Armatur?",
+      "kategorie": "nummer",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.kuechen-forum.de/forum/themen/passendes-siebkoerbchen-fuer-franke-spuele.33028/",
+        "https://www.hausbau-forum.de/threads/franke-ersatzteile-anhand-der-modellnummer-finden-wo-steht-die-nummer.r3u7a0/",
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://www.gutefrage.net/frage/abflusssieb-der-kuechenspuele"
+      ],
+      "antwort": "Franke nennt die zehnstellige Artikelnummer FUN, aufgebaut wie 123.4567.891. Bei Spülen und Becken klebt das Etikett an der Unterseite, bei Armaturen hängt es am Wasserschlauch unter der Armatur. Mit dieser Nummer lassen sich im Franke-Webshop die zugehörigen Ersatzteile anzeigen. Ist kein Etikett mehr da, kannst du laut Küchen-Forum Fotos an den Franke-Kundendienst schicken, der dort weitergeholfen hat.",
+      "antwort_quellen": [
+        "https://www.franke.com/de/de/home-solutions/Support/Ressourcen/how-to-find-fun-code.html",
+        "https://www.tag-der-kueche.de/2016/06/neuer-franke-webshop-ersatzteile-zubehoer-und-pflege-fuer-den-spuelenbereich/",
+        "https://www.kuechen-forum.de/forum/themen/passendes-siebkoerbchen-fuer-franke-spuele.33028/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Der Drehknopf (Excenter) hebt den Stöpsel nicht mehr an, was ist kaputt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://forum.zerspanungsbude.net/viewtopic.php?t=89798",
+        "https://forum.frag-mutti.de/index.php?showtopic=74913",
+        "https://www.haustechnikdialog.de/Forum/t/33319/Exenter-fuer-Spuele-schliesst-nicht-richtig"
+      ],
+      "antwort": "Nimm den Siebkorb heraus und dreh die Schraube bzw. den Stift an seiner Unterseite ein Stück heraus, damit er den Hebel im Ablauf wieder erreicht; der Stift hat oft einen Schlitz für einen Schraubendreher. Hilft das nicht, schau mit einer Lampe unter der Spüle nach, ob sich der Bowdenzug zwischen Drehknopf und Ablaufventil ausgehängt hat. Ist der Zug gerissen oder die Kappe am Knopf gebrochen, werden diese Teile einzeln ersetzt.",
+      "antwort_quellen": [
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://forum.zerspanungsbude.net/viewtopic.php?t=89798"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "franke-bowdenzug-133-0005-633",
+        "franke-bowdenzug-133-0005-632",
+        "franke-drehexcenter-kappe-133-0004-830",
+        "franke-drehexcenter-kappe-133-0024-335",
+        "franke-drehexcenter-kappe-133-0006-158"
+      ],
+      "passendes_problem": "franke-excenter-drehknopf-funktioniert-nicht"
+    },
+    {
+      "frage": "Der Siebkorb ist geschlossen, trotzdem läuft das Wasser ab. Wie bekomme ich den Ablauf wieder dicht?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://www.haustechnikdialog.de/Forum/t/33319/Exenter-fuer-Spuele-schliesst-nicht-richtig",
+        "https://www.kuechen-forum.de/forum/themen/passendes-siebkoerbchen-fuer-franke-spuele.33028/",
+        "https://www.hausbau-forum.de/posts/j5b0s0/"
+      ],
+      "antwort": "Bei Excenter-Siebkörben drehst du die Stellschraube an der Unterseite etwas weiter hinein, damit der Korb tiefer sitzt; das verstellt sich mit der Zeit. Prüf außerdem die Dichtung am Korb auf Risse und Verhärtung, beim Integral-Ventil gibt es die Lippendichtung 133.0060.773 einzeln. Läuft das Wasser dagegen zwischen Becken und Ablaufkelch weg, ist die Garnitur selbst nicht dicht eingesetzt und muss neu eingedichtet werden.",
+      "antwort_quellen": [
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://www.haustechnikdialog.de/Forum/t/33319/Exenter-fuer-Spuele-schliesst-nicht-richtig",
+        "https://www.kaufland.at/product/335458523/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "franke-siebkorbdichtung-integral-133-0060-773",
+        "franke-siebkorb-excenter-133-0005-611",
+        "franke-siebkorb-excenter-133-0008-412"
+      ],
+      "passendes_problem": "franke-siebkorb-dichtet-nicht"
+    },
+    {
+      "frage": "Welcher Siebkorb passt in meine Franke-Spüle (bis oder ab Baujahr 1999)?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.kuechen-forum.de/forum/themen/passendes-siebkoerbchen-fuer-franke-spuele.33028/",
+        "https://www.hausbau-forum.de/threads/franke-siebkorb-fuer-die-spuele-nachkaufen-welche-groesse-passt.r3y0v8/",
+        "https://www.haustechnikdialog.de/Forum/t/256605/Siebkoerbchen-fuer-Spuele-gesucht",
+        "https://de.trustpilot.com/review/www.franke.com"
+      ],
+      "antwort": "Händler unterscheiden bei 3½-Zoll-Abläufen zwischen Spülen bis Baujahr 1999 und ab 1999 sowie zwischen Excenter- und Handbetätigung. Für die ältere Ausführung nennen sie einen Korbdurchmesser von etwa 77 mm, für die neuere etwa 81 bis 82 mm (z. B. 133.0005.611 für Excenter). Miss deshalb den alten Korb und bestimme die Bedienart, bevor du bestellst. Diese Zuordnungen stammen von Händlern, nicht von Franke.",
+      "antwort_quellen": [
+        "https://www.kaufland.at/product/324335818/",
+        "https://www.ebay.de/p/2256000966",
+        "https://www.kilean.de/Siebkorb-manuell-fuer-Franke-Spuelen-bis-1999-/-Ersatzteil-/-Handbedienung-/Siebkorb"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "franke-siebkorb-excenter-133-0005-611",
+        "franke-siebkorb-excenter-133-0005-670",
+        "franke-siebkorb-manuell-133-0005-669",
+        "franke-siebkorb-hand-133-0008-411",
+        "franke-siebkorb-excenter-133-0561-041"
+      ],
+      "passendes_problem": "franke-siebkorb-dichtet-nicht"
+    },
+    {
+      "frage": "Passt ein Siebkorb von einem anderen Hersteller oder ein Nachbau in meine Franke-Spüle?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/256605/Siebkoerbchen-fuer-Spuele-gesucht",
+        "https://www.kuechen-forum.de/forum/themen/passendes-siebkoerbchen-fuer-franke-spuele.33028/"
+      ],
+      "antwort": "Eine verlässliche Angabe zur Passform fremder Siebkörbe in Franke-Abläufen gibt es nicht. Im HaustechnikDialog war ein 1,5-Zoll-Ersatzsieb rund 2 mm zu klein, ein Nutzer musste drei verschiedene Körbe bestellen, bis einer passte, weil Durchmesser und Stiftlänge variieren. Fachleute raten dort bei unklarer Lage eher dazu, die ganze Ablaufgarnitur zu erneuern.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/256605/Siebkoerbchen-fuer-Spuele-gesucht"
+      ],
+      "sicherheit": "unsicher",
+      "passende_teile": [],
+      "passendes_problem": "franke-siebkorb-dichtet-nicht"
+    },
+    {
+      "frage": "Welcher Bowdenzug passt zu meiner Franke-Spüle?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://forum.zerspanungsbude.net/viewtopic.php?t=89798"
+      ],
+      "antwort": "Händler ordnen die Züge nach Baujahr zu: Ab 1999 passt der Zug 133.0005.633 mit Walze an beiden Enden für eine 35-mm-Bohrung, meist 71 cm lang. Für 1994 bis 1999 gibt es einen Zug mit Kugeln, für Spülen vor 1994 nur ein Set, bei dem Zug und Abgangsbogen zusammen getauscht werden. Vergleiche Endstücke und Länge mit dem alten Zug.",
+      "antwort_quellen": [
+        "https://www.kitchenking.de/excenterbedienung-bowdenzug-passend-fuer-franke-spuelen-3-5-zoll-bis-baujahr-1999.html",
+        "https://www.ebay.de/p/1207307964",
+        "https://www.nextag.de/preisvergleich/500001814050_franke-bowdenzug-35-zoll-inkl.html",
+        "https://www.kaufland.de/product/324322186/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "franke-bowdenzug-133-0005-633",
+        "franke-bowdenzug-133-0005-632",
+        "franke-bowdenzug-vor-1994"
+      ],
+      "passendes_problem": "franke-excenter-drehknopf-funktioniert-nicht"
+    },
+    {
+      "frage": "Meine Franke-Küchenarmatur tropft. Kann ich die Kartusche selbst wechseln?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.kuechen-forum.de/forum/themen/franke-kuechenarmatur.41518/",
+        "https://www.hausbau-forum.de/threads/wie-laesst-sich-eine-undichte-kartusche-bei-einer-franke-armatur-wechseln.j8a0v8/",
+        "https://www.haustechnikdialog.de/Forum/t/111510/Franke-Kuechenarmatur-nach-3-4-Jahren-undicht-schon-zum-2-Mal",
+        "https://www.haustechnikdialog.de/Forum/t/22579/Ersatzteile-fuer-Rapetti-Armaturen?page=6&PostSort=1"
+      ],
+      "antwort": "Im Küchen-Forum gilt die Kartusche als häufigste Ursache und als einfach tauschbar. Die Franke-Anleitung zur Sinos beschreibt den Ablauf: Wasser absperren, Griff mit 2,5-mm-Inbus lösen, Nutmutter und Anzeigering abnehmen, Befestigungsmutter mit Schlüsselweite 27 öffnen und die Kartusche herausziehen. Beim Einsetzen müssen die beiden Zentrierstifte im Sitz liegen und die Dichtungen richtig sitzen. Andere Modelle können abweichen, schau in die Anleitung deiner Armatur.",
+      "antwort_quellen": [
+        "https://www.manualslib.de/manual/837305/Franke-Sinos.html?page=7",
+        "https://www.kuechen-forum.de/forum/themen/franke-kuechenarmatur.41518/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "franke-kartusche-133-0372-710"
+      ],
+      "passendes_problem": "franke-kuechenarmatur-tropft"
+    },
+    {
+      "frage": "Welche Ersatzkartusche passt in meine Franke-Armatur, und ist die Farbe (grün oder blau) wichtig?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/22579/Ersatzteile-fuer-Rapetti-Armaturen?page=6&PostSort=1",
+        "https://de.trustpilot.com/review/www.franke.com",
+        "https://www.kuechen-forum.de/forum/themen/franke-kuechenarmatur.41518/"
+      ],
+      "antwort": "Die passende Kartusche hängt vom Armaturenmodell ab, daher brauchst du die Artikelnummer vom Etikett am Wasserschlauch. Für Atlas, Taros und Gaia mit Zugauslauf nennen Händler die 35-mm-Kartusche 133.0372.710. Laut Händlerangabe ist diese Kartusche je nach Fertigungszeitpunkt grün oder blau, die Farbe ist also kein Unterschied in der Passform. Nimm zum Vergleich die alte Kartusche mit.",
+      "antwort_quellen": [
+        "https://www.ebay.de/p/24011497466",
+        "https://www.testberichte.de/heimwerkerbedarf/franke-r-35-mm-armaturkartusche-fuer-atlas-mit-auszugsbrause.html",
+        "https://www.franke.com/de/de/home-solutions/Support/Ressourcen/how-to-find-fun-code.html"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "franke-kartusche-133-0372-710"
+      ],
+      "passendes_problem": "franke-kuechenarmatur-tropft"
+    },
+    {
+      "frage": "Wasser kommt oberhalb oder unterhalb des Schwenkauslaufs heraus, obwohl die Kartusche neu ist. Was tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/111510/Franke-Kuechenarmatur-nach-3-4-Jahren-undicht-schon-zum-2-Mal",
+        "https://www.kuechen-forum.de/forum/themen/franke-kuechenarmatur.41518/"
+      ],
+      "antwort": "Im HaustechnikDialog wird in diesem Fall auf die Dichtringe im Schwenkbereich verwiesen. Bei vielen Franke-Armaturen lässt sich der Auslauf nur nach unten abnehmen, die Armatur muss also ausgebaut werden, und das Teil mit den Dichtringen ist oft eingeschraubt und verklebt. Ein Nutzer hat den Dichtsatz so getauscht und die Chrommanschette mit einem alten Fahrradschlauch unter der Zange vor Kratzern geschützt. Für einzelne ältere Modelle (740/750) gab es laut Forum keinen Dichtsatz.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/111510/Franke-Kuechenarmatur-nach-3-4-Jahren-undicht-schon-zum-2-Mal"
+      ],
+      "sicherheit": "unsicher",
+      "passende_teile": [],
+      "passendes_problem": "franke-kuechenarmatur-tropft"
+    },
+    {
+      "frage": "Die Auszugsbrause tropft an der Verbindung zwischen Schlauch und Brausekopf. Welche Dichtung brauche ich?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/242691/Franke-Armatur-Auszugschlauch-DICHTUNG-gesucht",
+        "https://www.bauexpertenforum.de/threads/brauseschlauch-austausch-an-kuechenarmatur-wasser-abdrehen.112510/"
+      ],
+      "antwort": "Im HaustechnikDialog ging es um eine Franke Ozone mit 1/2-Zoll-Anschluss am Brauseschlauch. Eine normale Flachdichtung machte es dort schlimmer, eine 1/2-Zoll-Fiberdichtung, handfest angezogen, hat das Tropfen beseitigt. Miss vorher die alte Dichtung aus und prüf das Kunststoffgewinde am Schlauchende auf Risse.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/242691/Franke-Armatur-Auszugschlauch-DICHTUNG-gesucht"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Wie lange gilt die Franke-Garantie, und sind Kartusche oder Dichtungen abgedeckt?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.kuechen-forum.de/forum/themen/garantie-von-franke-spuelen-wie-lange.5453/",
+        "https://www.kuechen-forum.de/forum/themen/franke-kuechenarmatur.41518/",
+        "https://www.hausbau-forum.de/posts/l9x2n6/",
+        "https://www.haustechnikdialog.de/Forum/t/111510/Franke-Kuechenarmatur-nach-3-4-Jahren-undicht-schon-zum-2-Mal"
+      ],
+      "antwort": "Laut Franke-AGB für Endkunden gibt Franke auf alle Armaturen fünf Jahre Garantie auf Material und Verarbeitung ab Auslieferung, normaler Verschleiß ist ausgenommen. Nötig sind fachgerechter Einbau und der Kaufbeleg, Ansprüche verjähren ein Jahr nach Entdecken des Fehlers, und Franke entscheidet, ob repariert oder ersetzt wird. Für Spülen nennt diese Seite keine Frist. Deine gesetzlichen Rechte gegenüber dem Verkäufer bleiben davon unberührt.",
+      "antwort_quellen": [
+        "https://www.franke.com/de/de/home-solutions/agbs-b2c.html",
+        "https://www.franke.com/de/de/home-solutions/Support/Garantie.html"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Gibt es für meine alte Franke-Spüle oder -Armatur noch Ersatzteile?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/22579/Ersatzteile-fuer-Rapetti-Armaturen?page=6&PostSort=1",
+        "https://de.trustpilot.com/review/www.franke.com",
+        "https://www.haustechnikdialog.de/Forum/t/111510/Franke-Kuechenarmatur-nach-3-4-Jahren-undicht-schon-zum-2-Mal",
+        "https://www.kuechen-forum.de/forum/themen/passendes-siebkoerbchen-fuer-franke-spuele.33028/"
+      ],
+      "antwort": "Franke schreibt auf der Garantieseite, dass es Ersatzteile für mindestens fünf Jahre nach Auslaufen eines Produkts anstrebt. Bei älteren Armaturen berichten Kunden, dass es die Kartusche oder einen Dichtsatz nicht mehr gab. Für Spülen werden Siebkörbe, Bowdenzüge und Kappen für Baujahre vor 1999 weiter von Händlern angeboten, ein Kunde bekam für eine 25 Jahre alte Spüle noch einen passenden Stöpsel.",
+      "antwort_quellen": [
+        "https://www.franke.com/de/de/home-solutions/Support/Garantie.html",
+        "https://de.trustpilot.com/review/www.franke.com",
+        "https://www.haustechnikdialog.de/Forum/t/111510/Franke-Kuechenarmatur-nach-3-4-Jahren-undicht-schon-zum-2-Mal",
+        "https://www.ebay.de/p/2256000966"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "franke-siebkorb-excenter-133-0005-670",
+        "franke-siebkorb-manuell-133-0005-669",
+        "franke-drehexcenter-kappe-133-0006-158",
+        "franke-bowdenzug-vor-1994"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Wo bekomme ich Original-Ersatzteile von Franke, beim Händler oder direkt beim Hersteller?",
+      "kategorie": "bezug",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.kuechen-forum.de/forum/themen/franke-kuechenarmatur.41518/",
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://www.kuechen-forum.de/forum/themen/passendes-siebkoerbchen-fuer-franke-spuele.33028/"
+      ],
+      "antwort": "Franke betreibt einen eigenen Webshop mit Ersatzteilen für Spülen und Armaturen, in dem du über die Artikelnummer des Produkts die passenden Teile findest. Der Kundendienst Deutschland ist unter +49 7761 52-500 oder hs-kundendienst.de@franke.com erreichbar (Mo bis Do 8 bis 17 Uhr, Fr 8 bis 16 Uhr). Im Küchen-Forum wird außerdem der Weg über den Küchenhändler empfohlen, besonders bei Gewährleistungsfragen.",
+      "antwort_quellen": [
+        "https://webshop.franke.com/de/de/",
+        "https://www.tag-der-kueche.de/2016/06/neuer-franke-webshop-ersatzteile-zubehoer-und-pflege-fuer-den-spuelenbereich/",
+        "https://www.franke.com/de/de/home-solutions/kontakt.html",
+        "https://www.kuechen-forum.de/forum/themen/franke-kuechenarmatur.41518/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Wie pflege ich eine Fragranit-Spüle, und was hilft gegen Flecken am Beckenboden?",
+      "kategorie": "pflege",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.kuechen-forum.de/forum/themen/kratzer-flecken-in-spuelbecken-von-franke.43474/",
+        "https://www.wunderkessel.de/t/fragranit-spuele-gesprungen.79373/",
+        "https://forum.frag-mutti.de/index.php?showtopic=1191"
+      ],
+      "antwort": "Franke empfiehlt für Fragranit etwas Spülmittel und eine Nylonbürste in kreisenden Bewegungen, danach gründlich nachspülen. Die Garantie schließt Schäden durch unsachgemäße Reinigung mit aggressiven Reinigern aus, ebenso Kratzer. Bei den Flecken im Küchen-Forum vermuteten mehrere Antwortende Metallabrieb von Töpfen, eine sichere Lösung fand sich dort aber nicht.",
+      "antwort_quellen": [
+        "https://www.franke.com/de/de/home-solutions/Designinspirationen/Materialien/Fragranit.html",
+        "https://www.franke.com/de/de/home-solutions/Support/Garantie.html",
+        "https://www.kuechen-forum.de/forum/themen/kratzer-flecken-in-spuelbecken-von-franke.43474/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "Der Brauseschlauch der Franke-Armatur mit Zugauslauf zieht sich nicht mehr zurück, woran liegt das?",
+      "fundstellen": [
+        "https://www.hausbau-forum.de/posts/m1b7w6/",
+        "https://www.gutefrage.net/frage/montage-kuechenarmatur-mit-bauseschlauch---schlauch-ist-schwergaengig-rutscht-nicht-zurueck-und-das-im-noch-nicht-eingebauten-zustand"
+      ]
+    },
+    {
+      "frage": "Meine Fragranit-Spüle hat einen Riss oder Sprung, lässt sich das reparieren?",
+      "fundstellen": [
+        "https://www.wunderkessel.de/t/fragranit-spuele-gesprungen.79373/",
+        "https://www.hausbau-forum.de/posts/v1x5l6/",
+        "https://www.woodworker.de/forum/threads/fragranitsp%C3%BCle-reparieren.5287/"
+      ]
+    },
+    {
+      "frage": "Die Franke-Armatur wackelt auf der Spüle, wie ziehe ich sie richtig nach?",
+      "fundstellen": [
+        "https://www.hausbau-forum.de/threads/armatur-wackelt-an-der-spuele-wie-befestige-ich-sie-bei-franke-richtig.m7s2b0/",
+        "https://www.kuechen-forum.de/forum/themen/wasserhahn-montieren-wackelt.14675/"
+      ]
+    },
+    {
+      "frage": "Der Überlauf an meiner älteren Franke-Spüle ist undicht, Dichtung tauschen oder ganze Garnitur?",
+      "fundstellen": [
+        "https://www.blauarbeit.de/auftraege/niederkassel/an-meiner-aelteren-franke-spuele-ist-die-dichtung-am",
+        "https://www.hausbau-forum.de/posts/c2b3j8/"
+      ]
+    },
+    {
+      "frage": "Push-Abfluss (Druckknopf) öffnet nur halb oder ein Teil ist gebrochen, gibt es Einzelteile?",
+      "fundstellen": [
+        "https://forum.zerspanungsbude.net/viewtopic.php?t=89798",
+        "https://de.trustpilot.com/review/www.franke.com"
+      ]
+    },
+    {
+      "frage": "Kann man beim Franke-Siebeinsatz der Brause oder beim Strahlregler nur das Einzelteil statt der ganzen Handbrause kaufen?",
+      "fundstellen": [
+        "https://de.trustpilot.com/review/www.franke.com"
+      ]
+    },
+    {
+      "frage": "Die Edelstahlspüle liegt nicht mehr plan auf der Arbeitsplatte auf, ist das ein Garantiefall?",
+      "fundstellen": [
+        "https://www.kuechen-forum.de/forum/themen/garantie-von-franke-spuelen-wie-lange.5453/"
+      ]
+    }
+  ],
+  "allgemeine_muster": "Bei Küchenspülen dreht sich die Teilesuche fast immer um den Ablauf: Siebkorb, Dichtung, Bowdenzug und Drehknopf, wobei Baujahr und Durchmesser entscheiden und die Leute ihr Modell selten kennen. Bei Küchenarmaturen kommen immer wieder tropfende Kartuschen, undichte Schwenkausläufe und Probleme mit dem Zugauslauf, verbunden mit der Frage, welches Ersatzteil zum Modell gehört. Dazu kommen regelmäßig Garantie- und Kulanzfragen nach drei bis fünf Jahren sowie die Frage, ob es für ältere Produkte überhaupt noch Teile gibt oder ob ein Nachbau passt."
+}

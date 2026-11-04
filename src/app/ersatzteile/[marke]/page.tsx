@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import TeilBild from "@/components/TeilBild";
-import { Absaetze, Brotkrumen, JsonLd, Quellen, Widersprueche, brotkrumenLd } from "@/components/Ersatzteile";
+import { Absaetze, Brotkrumen, JsonLd, MarkenFragen, Quellen, Widersprueche, brotkrumenLd } from "@/components/Ersatzteile";
 import {
   PRODUKTTYP_LABEL,
   SITE_URL,
@@ -87,6 +87,7 @@ export default async function MarkenHub({ params }: Props) {
     { name: "Ersatzteile", href: "/ersatzteile" },
     { name: marke.name, href: `/ersatzteile/${marke.slug}` },
   ];
+  const fragen = marke.fragen ?? [];
   const beispielNummer = teile.find((t) => t.oem_nummer)?.oem_nummer;
   const beispielArt = teileGruppen[0] && TEILTYP_LABEL[teileGruppen[0][0]];
 
@@ -95,6 +96,7 @@ export default async function MarkenHub({ params }: Props) {
     marke.nummer_hinweis && { href: "#nummer", text: "Nummer finden" },
     serien.length > 0 && { href: "#modelle", text: `Nach Modell (${serien.length})` },
     teile.length > 0 && { href: "#teile", text: `Nach Art (${teile.length})` },
+    fragen.length > 0 && { href: "#fragen", text: `Fragen (${fragen.length})` },
     widersprueche.length > 0 && { href: "#verwechslung", text: "Verwechslungsgefahr" },
   ].filter((x): x is { href: string; text: string } => !!x);
 
@@ -271,6 +273,8 @@ export default async function MarkenHub({ params }: Props) {
           ))}
         </Abschnitt>
       )}
+
+      <MarkenFragen markeName={marke.name} fragen={fragen} teile={teile} id="fragen" />
 
       <Widersprueche liste={widersprueche} id="verwechslung" />
 
