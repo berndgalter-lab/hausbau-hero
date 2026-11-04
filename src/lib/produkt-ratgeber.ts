@@ -263,7 +263,84 @@ const WASCHTISCHARMATUR_MIT_BRAUSE: ProduktRatgeber = {
   ],
 };
 
-export const PRODUKT_RATGEBER: ProduktRatgeber[] = [WASCHTISCHARMATUR, NIEDERDRUCKARMATUR, WASCHTISCHARMATUR_MIT_BRAUSE];
+/** Ab dieser Ausladung reicht der Wannenauslauf weit über den Rand. */
+const LANGE_AUSLADUNG_AB_MM = 170;
+
+const BADEWANNENARMATUR: ProduktRatgeber = {
+  pfad: "badewannenarmatur",
+  slug: "badewannenarmatur-ratgeber",
+  silo: "bad",
+  name: "Badewannenarmatur",
+  mehrzahl: "Armaturen",
+  fragen: [
+    {
+      key: "regelung",
+      label: "Regelung",
+      hinweis: "Ein Thermostat hält die Temperatur und sperrt bei 38 oder 40 °C. Mit Kindern im Haus ist das die sicherere Wahl.",
+      optionen: [
+        { label: "Thermostat", passt: (d) => (d.bauart ? d.bauart === "Thermostat" : null) },
+        { label: "Einhebel", passt: (d) => (d.bauart ? d.bauart === "Einhebel" : null) },
+      ],
+    },
+    {
+      key: "montage",
+      label: "Alte Armatur",
+      hinweis: "Aufputz: Die Armatur sitzt auf zwei Wandanschlüssen. Unterputz: Nur Griffe und Rosette schauen aus der Wand.",
+      optionen: [
+        { label: "Aufputz", passt: (d) => (d.montage ? d.montage === "Aufputz" : null) },
+        {
+          label: "Unterputz",
+          passt: (d) => (d.montage ? d.montage === "Unterputz" : null),
+          sonst: {
+            text: "Bei Unterputz tauschst du nur das Fertigset, und das muss zum Grundkörper in der Wand passen. Wie du ihn erkennst, steht unten bei den Fragen.",
+            href: "#fragen",
+            linktext: "Zu den Fragen",
+          },
+        },
+      ],
+    },
+    {
+      key: "warmwasser",
+      label: "Warmwasser",
+      optionen: [
+        { label: "zentral oder Durchlauferhitzer", passt: (d) => (d.druck ? d.druck === "Hochdruck" : null) },
+        {
+          label: "offener Speicher",
+          passt: (d) => (d.druck ? d.druck === "Niederdruck" : null),
+          sonst: { text: "Alle Wannenarmaturen hier sind Hochdruckarmaturen und nicht für offene (drucklose) Speicher geeignet." },
+        },
+      ],
+    },
+    {
+      key: "ausladung",
+      label: "Auslauf",
+      hinweis: "Die Ausladung reicht von der Wand bis zur Auslaufspitze. Hier liegt sie zwischen 161 und 194 mm.",
+      optionen: [
+        { label: "kurz reicht (unter 170 mm)", passt: (d) => (typeof d.ausladung_mm === "number" ? d.ausladung_mm < LANGE_AUSLADUNG_AB_MM : null) },
+        { label: "lang (ab 170 mm)", passt: (d) => (typeof d.ausladung_mm === "number" ? d.ausladung_mm >= LANGE_AUSLADUNG_AB_MM : null) },
+      ],
+    },
+    {
+      key: "farbe",
+      label: "Farbe",
+      hinweis: "Schwarz und Weiß haben meist eine eigene Artikelnummer. Prüf im Shop, dass Farbe und Nummer zusammenpassen.",
+      optionen: [
+        { label: "Chrom", passt: (d) => hatOberflaeche(d, /chrom/i) },
+        { label: "Schwarz", passt: (d) => hatOberflaeche(d, /schwarz|black/i) },
+        { label: "Weiß", passt: (d) => hatOberflaeche(d, /weiß|white/i) },
+      ],
+    },
+  ],
+  eckdaten: (d) => [
+    d.bauart ?? null,
+    mm(d.ausladung_mm, "Ausladung"),
+    typeof d.sicherheitssperre_c === "number" ? `Sperre bei ${d.sicherheitssperre_c} °C` : null,
+    typeof d.durchfluss_l_min === "number" ? `${d.durchfluss_l_min.toLocaleString("de-DE")} l/min` : null,
+    d.umsteller ? `Umsteller: ${d.umsteller}` : null,
+  ],
+};
+
+export const PRODUKT_RATGEBER: ProduktRatgeber[] = [WASCHTISCHARMATUR, NIEDERDRUCKARMATUR, WASCHTISCHARMATUR_MIT_BRAUSE, BADEWANNENARMATUR];
 
 export function ratgeberNachPfad(pfad: string): ProduktRatgeber | null {
   return PRODUKT_RATGEBER.find((r) => r.pfad === pfad) ?? null;

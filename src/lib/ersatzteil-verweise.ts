@@ -55,11 +55,11 @@ const VERWEISE: Record<string, Verweis[]> = {
     { href: "/ersatzteile/grohe", titel: "GROHE Ersatzteile: Kartuschen, Strahlregler, Schläuche", art: "marke" },
   ],
   "badewannenarmatur-ratgeber": [
-    { href: "/ersatzteile/grohe/eurosmart-wannenarmatur", titel: "Ersatzteile für Grohe Eurosmart Wannenbatterie", art: "serie" },
-    { href: "/ersatzteile/grohe/grohtherm-800", titel: "Ersatzteile für Grohe Grohtherm 800 Thermostat", art: "serie" },
-    { href: "/ersatzteile/hansgrohe/ecostat-comfort", titel: "Ersatzteile für hansgrohe Ecostat Comfort Thermostat", art: "serie" },
-    { href: "/problem/grohe-thermostat-wird-nicht-warm-kalt", titel: "Thermostat wird nicht warm oder nicht kalt", art: "problem" },
-    { href: "/problem/hansgrohe-thermostat-wird-nicht-warm", titel: "hansgrohe Thermostat wird nicht warm", art: "problem" },
+    { href: "/problem/grohe-thermostat-wird-nicht-warm-kalt", titel: "GROHE-Thermostat wird nicht warm oder nicht kalt", art: "problem" },
+    { href: "/problem/hansgrohe-thermostat-wird-nicht-warm", titel: "hansgrohe-Thermostat wird nicht warm", art: "problem" },
+    { href: "/ersatzteile/grohe/grohtherm-800", titel: "Ersatzteile für GROHE Grohtherm 800", art: "serie" },
+    { href: "/ersatzteile/grohe/eurosmart-wannenarmatur", titel: "Ersatzteile für GROHE Eurosmart Wannenbatterie", art: "serie" },
+    { href: "/ersatzteile/hansgrohe/ecostat-comfort", titel: "Ersatzteile für hansgrohe Ecostat Comfort", art: "serie" },
   ],
   "komplettdusche-ratgeber": [
     { href: "/ersatzteile/grohe/grohtherm-1000", titel: "Ersatzteile für Grohe Grohtherm 1000 Thermostat", art: "serie" },
