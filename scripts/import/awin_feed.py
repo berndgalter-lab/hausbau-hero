@@ -120,9 +120,11 @@ def norm_ean(s):
     return d if 8 <= len(d) <= 14 else ""
 
 
-def teilart_eans():
+TEILARTEN_ORDNER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "teilarten")
+
+
+def teilart_eans(ordner=TEILARTEN_ORDNER):
     """EANs der Produkte auf den Teileart-Seiten (data/teilarten/*.json, nicht in der Datenbank)."""
-    ordner = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "teilarten")
     eans = set()
     for name in sorted(os.listdir(ordner)) if os.path.isdir(ordner) else []:
         if name.endswith(".json"):
@@ -510,6 +512,7 @@ def main():
     ap.add_argument("--feed-datei", action="append", default=[], metavar="SHOP=PFAD", help="lokaler Feed statt Download")
     ap.add_argument("--teile-json", help="Teile aus Datei statt aus Supabase (offline)")
     ap.add_argument("--produkte-json", help="Kaufberatungs-Produkte [{\"ean\": …}] aus Datei statt aus Supabase (offline)")
+    ap.add_argument("--teilarten-ordner", help="Ordner mit Teileart-Dateien (Standard: data/teilarten; offline nur, wenn angegeben)")
     ap.add_argument("--cached", action="store_true", help="letzten Download aus .cache/awin nutzen")
     args = ap.parse_args()
 
@@ -526,7 +529,9 @@ def main():
         produkt_eans = {e for e in (norm_ean(p.get("ean")) for p in json.load(open(args.produkte_json, encoding="utf-8"))) if e}
     else:
         produkt_eans = db.produkt_eans() if db else set()
-    produkt_eans |= teilart_eans()
+    # Offline (--produkte-json) nur mit ausdrücklich angegebenem Ordner, damit Tests nicht von den echten Seiten abhängen.
+    if args.teilarten_ordner or not args.produkte_json:
+        produkt_eans |= teilart_eans(args.teilarten_ordner or TEILARTEN_ORDNER)
     print(f"Kaufberatungs- und Teileart-Produkte mit EAN: {len(produkt_eans)}")
 
     dateien = dict(x.split("=", 1) for x in args.feed_datei)
