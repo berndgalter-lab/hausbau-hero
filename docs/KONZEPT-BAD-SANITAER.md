@@ -40,6 +40,8 @@ Stand: 3. November 2026. Ersetzt die Fokus-Abschnitte in `UMBAUPLAN.md`.
 
 ## 2. Positionierung
 
+**Erweitert am 4. November 2026:** Bad & Sanitär ist der erste Bereich von „Reparatur und Ersatzteile rund ums Haus“ (`SEITENAUFBAU.md`, Abschnitt 2a). Was hier steht, gilt für diesen Bereich weiter.
+
 > **Hausbau Hero – Bad & Sanitär: das passende Ersatzteil finden, das richtige Produkt wählen, selbst einbauen.**
 
 **Zielgruppe:** Eigentümer und Heimwerker mit einem konkreten Problem (tropft, läuft nach, Teil gebrochen) oder einer konkreten Kaufentscheidung.
