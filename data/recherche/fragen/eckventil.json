@@ -1,0 +1,343 @@
+{
+  "thema": "Eckventil",
+  "fragen": [
+    {
+      "frage": "Welche Größe hat ein Eckventil unter Waschbecken oder Spüle?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/goto/post?id=1113926",
+        "https://www.bauexpertenforum.de/threads/toilettenspuelkasten-altes-ventil-wer-kann-helfen.127247/"
+      ],
+      "antwort": "In Deutschland hat das Eckventil fast immer einen Wandanschluss G 1/2 (DN 15) als Außengewinde. Der Abgang zur Armatur ist G 3/8 (DN 10), meist als Quetschverschraubung für ein 10-mm-Rohr bzw. den Anschlussschlauch der Armatur. Es gibt auch Eckventile mit Wandanschluss G 3/8, deshalb miss das Wandgewinde nach oder lies die Angabe am alten Ventil ab.",
+      "antwort_quellen": [
+        "https://media.contorion.de/content/pdf/ede/de/sldb_054070699_de.pdf",
+        "https://www.megabad.com/documents/10/grohe-specification-sheet-22037al0-de-100932.pdf",
+        "https://media.contorion.de/content/pdf/ede/de/sldb_049020699_de.pdf",
+        "https://static.toom.de/produkte/bilder/5481459/produktdatenblatt_5481459_01.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Ich brauche einen Anschluss für Spül- oder Waschmaschine: neues Eckventil oder Adapter?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/goto/post?id=1113926",
+        "https://www.bauexpertenforum.de/threads/umdrehungszahl-eckventil.139991/"
+      ],
+      "antwort": "Üblich ist ein Kombi-Eckventil: Es ersetzt das alte Eckventil und hat zwei Abgänge, die sich getrennt absperren lassen, einen für die Armatur und einen Geräteanschluss G 3/4 für den Maschinenschlauch. Beim Schell Kombi-Eckventil COMFORT 03 569 06 99 sind das G 1/2 Wandanschluss, Geräteabgang G 3/4 AG und ein zweiter Abgang G 1/2 AG; andere Varianten haben den Armaturenabgang 10 mm / G 3/8.",
+      "antwort_quellen": [
+        "https://www.bauexpertenforum.de/goto/post?id=1113926",
+        "https://neuesbad.de/media/pdf/38/6b/34/sldb_035690699_de.pdf",
+        "https://neuesbad.de/media/pdf/fb/45/37/sldb_035550699_de.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Welches Gewinde hat der Anschluss für den Waschmaschinenschlauch?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/goto/post?id=1113926"
+      ],
+      "antwort": "Geräteventile und Kombi-Eckventile haben für den Maschinenschlauch eine Schlauchverschraubung mit Außengewinde G 3/4 (DN 20). Der Wandanschluss ist in der Regel G 1/2. Das steht so in den Schell-Datenblättern für Geräteschrägsitzventil und Kombi-Eckventil.",
+      "antwort_quellen": [
+        "https://www.schell.eu/de-de/produkte/eckventile-und-geraeteanschluss-armaturen/geraeteanschluss-armaturen/geraeteanschluss-armaturen/geraeteventile/033920699/pdf/",
+        "https://neuesbad.de/media/pdf/38/6b/34/sldb_035690699_de.pdf",
+        "https://neuesbad.de/media/pdf/fb/45/37/sldb_035550699_de.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Was schützt ein Geräteventil oder Kombi-Eckventil gegen Rückfließen ins Trinkwasser?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/eckventil-abzweig-mit-1-2-3-8-abgang-rueckflussverhinderer-und-absperrventil-90-hebel.129232/"
+      ],
+      "antwort": "Ein Rückflussverhinderer (RV, EN 1717 Typ EB) im Geräteabgang verhindert, dass Wasser aus der Maschine zurück in die Leitung läuft. Mit zusätzlichem Rohrbelüfter (RB, EN 1717 Typ HB) ergibt sich die Sicherungskombination HD. Manche Kombi-Eckventile haben nur den RV eingebaut; Schell empfiehlt dazu den Rohrbelüfter 28 602 06 99 und nennt erst diese Kombination HD.",
+      "antwort_quellen": [
+        "https://www.schell.eu/de-de/produkte/eckventile-und-geraeteanschluss-armaturen/geraeteanschluss-armaturen/geraeteanschluss-armaturen/geraeteventile/033920699/pdf/",
+        "https://neuesbad.de/media/pdf/38/6b/34/sldb_035690699_de.pdf",
+        "https://neuesbad.de/media/pdf/fb/45/37/sldb_035550699_de.pdf",
+        "https://media.contorion.de/content/pdf/ede/de/sldb_035500699_de.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Brauche ich Hanf oder Teflonband, wenn das Eckventil selbstdichtend ist?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/goto/post?id=891650",
+        "https://www.bauexpertenforum.de/goto/post?id=1380987",
+        "https://www.bauexpertenforum.de/threads/eckventilwechsel-beim-waschbeckenaustausch.110558/",
+        "https://www.energiesparhaus.at/forum/30119"
+      ],
+      "antwort": "Nein. Bei Schell ASAG easy (selbstdichtendes Gewinde mit Dichtring) ist laut Hersteller kein zusätzliches Dichtmittel erlaubt, weil es sonst zu Spannungsrisskorrosion kommen kann. Der Ring muss 3 mm im Gegengewinde verschwinden; das Ventil darf danach noch in die senkrechte Stellung gedreht werden. Eckventile ohne ASAG dichtest du klassisch mit Dichtfaden, Dichtband oder Hanf ein, und zwar sparsam.",
+      "antwort_quellen": [
+        "https://schell.eu/fileadmin/tx_dmmediacockpit/SCHE-9105_Faltblatt%20ASAG%20easy%20%26%20Raendierung%202024_DT_RZ-Screen_WebHighRes-3.pdf",
+        "https://www.schell.eu/de-de/produkte/eckventile-und-geraeteanschluss-armaturen/eckventile/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Warum ist mein selbstdichtendes Eckventil nach dem Einschrauben undicht?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/goto/post?id=891650"
+      ],
+      "antwort": "Häufige Ursachen laut Fachforum: Der Dichtring wird an einer scharfkantigen Muffe eingeschnitten, oder das Ventil ist nicht weit genug eingeschraubt. Schell verlangt, dass der ASAG-easy-Ring 3 mm im Gegengewinde verschwindet. Zusätzliches Dichtmittel auf den Ring schließt Schell ausdrücklich aus.",
+      "antwort_quellen": [
+        "https://www.bauexpertenforum.de/goto/post?id=891650",
+        "https://schell.eu/fileadmin/tx_dmmediacockpit/SCHE-9105_Faltblatt%20ASAG%20easy%20%26%20Raendierung%202024_DT_RZ-Screen_WebHighRes-3.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Eckventil lässt sich nicht mehr zudrehen oder die Leitung bleibt unter Druck. Was tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.energiesparhaus.at/forum/74075",
+        "https://www.bauexpertenforum.de/threads/eckventil-nicht-gaengig-da-kein-absperrventil.134317/",
+        "https://www.bauexpertenforum.de/goto/post?id=1455181"
+      ],
+      "antwort": "Eckventile werden selten betätigt und sitzen dann oft fest; dreht es zwar bis zum Anschlag, sperrt aber nicht ab, ist meist die Ventildichtung defekt oder Schmutz im Ventil. Die übereinstimmende Empfehlung in den Foren: Hauptabsperrung bzw. Wohnungsabsperrung schließen, Leitung entlasten und das Eckventil komplett tauschen. Kläre vorher, wo du das Wasser für Wohnung oder Haus absperren kannst.",
+      "antwort_quellen": [
+        "https://www.energiesparhaus.at/forum/74075",
+        "https://www.bauexpertenforum.de/threads/eckventil-nicht-gaengig-da-kein-absperrventil.134317/",
+        "https://www.bauexpertenforum.de/goto/post?id=1455181"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Wie viele Umdrehungen braucht ein Eckventil von ganz zu bis ganz auf?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/umdrehungszahl-eckventil.139991/"
+      ],
+      "antwort": "Eine feste Zahl nennt kein Hersteller in den gelesenen Unterlagen. Ein Forenmoderator hält 3 bis 5 Umdrehungen für üblich; geht das Ventil nur etwa eine Umdrehung, hängt es vermutlich. Nur Ventile mit Keramikkartusche kommen mit einer Viertel- bis halben Drehung aus.",
+      "antwort_quellen": [
+        "https://www.bauexpertenforum.de/threads/umdrehungszahl-eckventil.139991/"
+      ],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Was ist der Unterschied zwischen Eckventil mit und ohne Regulierung?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/goto/post?id=1455181"
+      ],
+      "antwort": "Mit Regulierfunktion stellst du über den Griff nicht nur auf und zu, sondern auch die Durchflussmenge für Kalt- und Warmwasser ein und gleichst unterschiedliche Leitungsdrücke aus. Abgesperrt wird bei Schell, indem du den Griff im Uhrzeigersinn bis zum Anschlag drehst. Die Schell-COMFORT-Eckventile sind durchgehend als Eckventil mit Regulierfunktion ausgewiesen.",
+      "antwort_quellen": [
+        "https://www.schell.eu/de-de/produkte/eckventile-und-geraeteanschluss-armaturen/eckventile/",
+        "https://media.contorion.de/content/pdf/ede/de/sldb_054070699_de.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Welches Eckventil brauche ich für den Spülkasten?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/toilettenspuelkasten-altes-ventil-wer-kann-helfen.127247/"
+      ],
+      "antwort": "Auch am Spülkasten ist der Wandanschluss meist G 1/2. Schell bietet für hochhängende Spülkästen Eckventile mit umstellbarer Verschraubung und Abgang als Überwurfmutter G 3/8 Innengewinde an (z. B. 05 034 06 99). Welches Gewinde dein Anschlussschlauch braucht, hängt vom Füllventil ab; im Forum wird teils 1/2 Zoll beidseitig genannt, deshalb Gewinde am Spülkasten und am Ventil nachmessen.",
+      "antwort_quellen": [
+        "https://www.schell.eu/de-at/produkte/eckventile-und-geraeteanschluss-armaturen/eckventile/eckventile/eckventile-spezial-eckventile/050340699/pdf/",
+        "https://media.contorion.de/content/pdf/ede/de/sldb_050450699_de.pdf",
+        "https://www.bauexpertenforum.de/threads/toilettenspuelkasten-altes-ventil-wer-kann-helfen.127247/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Darf ich vom Eckventil am WC-Spülkasten eine Bidet-Handbrause abzweigen?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/eckventil-abzweig-mit-1-2-3-8-abgang-rueckflussverhinderer-und-absperrventil-90-hebel.129232/"
+      ],
+      "antwort": "Laut einer Antwort im Bauexpertenforum ist das nicht zulässig: Wasser in WC-Spülungen gilt als Kategorie 5 und darf nur über einen freien Auslauf mit der Trinkwasserleitung verbunden sein. Eine Hersteller- oder Normquelle dazu habe ich nicht gelesen; frag im Zweifel einen Installateur.",
+      "antwort_quellen": [
+        "https://www.bauexpertenforum.de/threads/eckventil-abzweig-mit-1-2-3-8-abgang-rueckflussverhinderer-und-absperrventil-90-hebel.129232/"
+      ],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Muss ich beim Waschbeckentausch die Eckventile mit tauschen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/eckventilwechsel-beim-waschbeckenaustausch.110558/"
+      ],
+      "antwort": "Pflicht ist es nicht. In der Forumsdiskussion raten die Antwortenden aber dazu, die Eckventile gleich mitzutauschen, am besten gegen selbstdichtende Modelle, und auch neue flexible Anschlussschläuche zu nehmen, weil der Mehraufwand gering ist.",
+      "antwort_quellen": [
+        "https://www.bauexpertenforum.de/threads/eckventilwechsel-beim-waschbeckenaustausch.110558/"
+      ],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Gibt es eine Norm für die Lage der Eckventile unter dem Waschbecken?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/frage-zur-positionierung-der-eckventile-unter-dem-waschbecken.14178"
+      ],
+      "antwort": "Nach einer Fachantwort im Forum gibt es keine einheitliche Norm, an die sich Hersteller von Waschtischen, Unterschränken und Siphons halten müssen. Jeder Hersteller gibt eigene Maße vor, deshalb sollten Waschtisch und Unterschrank vor dem Fliesen feststehen.",
+      "antwort_quellen": [
+        "https://www.bauexpertenforum.de/threads/frage-zur-positionierung-der-eckventile-unter-dem-waschbecken.14178"
+      ],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Wie oft sollte ich Eckventile betätigen, damit sie nicht festsitzen?",
+      "kategorie": "pflege",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/eckventil-nicht-gaengig-da-kein-absperrventil.134317/",
+        "https://www.bauexpertenforum.de/goto/post?id=1380987"
+      ],
+      "antwort": "In Foren wird beschrieben, dass selten bewegte Eckventile festsitzen oder verkalken und dann getauscht werden müssen. Eine Empfehlung mit festem Intervall habe ich bei Schell oder Grohe nicht gefunden. Gelegentliches Zu- und Aufdrehen ist naheliegend, aber nicht durch eine Herstellerangabe belegt.",
+      "antwort_quellen": [
+        "https://www.bauexpertenforum.de/threads/eckventil-nicht-gaengig-da-kein-absperrventil.134317/",
+        "https://www.bauexpertenforum.de/goto/post?id=1380987"
+      ],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Wofür gibt es Eckventile mit Filter und wie reinige ich den Filter?",
+      "kategorie": "pflege",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Schell bietet COMFORT-Eckventile mit Filter (Maschenweite 250 µm) zum Schutz empfindlicher, z. B. elektronisch gesteuerter Armaturen an. Laut Datenblatt reinigst du den Filter bei geschlossenem Eckventil, ohne die Leitung zu entleeren.",
+      "antwort_quellen": [
+        "https://www.megabad.com/documents/84/054280699-de-84357.pdf",
+        "https://media.contorion.de/content/pdf/ede/de/sldb_054300699_de.pdf"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Kann ich am Eckventil nur das Oberteil tauschen, wenn es an der Spindel tropft?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Grohe beschreibt beim Eckventil 22 037 eine Spindelabsperrung mit Fettkammer und doppelter O-Ring-Abdichtung; ein einzeln lieferbares Oberteil dafür habe ich nicht belegt gefunden. Für Schell COMFORT werden Ersatz-Oberteile nur über Händlerangebote genannt, nicht im gelesenen Herstellerkatalog. Da ein neues Eckventil wenig kostet, wird in Foren meist das ganze Ventil getauscht.",
+      "antwort_quellen": [
+        "https://www.megabad.com/documents/10/grohe-specification-sheet-22037al0-de-100932.pdf",
+        "https://www.energiesparhaus.at/forum/74075",
+        "https://www.bauexpertenforum.de/goto/post?id=1455181"
+      ],
+      "sicherheit": "unsicher"
+    }
+  ],
+  "fakten": [
+    {
+      "aussage": "Standard-Eckventil Waschtisch: Wandanschluss DN 15 G 1/2 AG, Abgang Ø 10 mm (DN 10 G 3/8 AG) mit Messing-Konus-Quetschverschraubung mit Längenausgleich (Schell COMFORT 05 407 06 99, lange Bauform, Schubrosette Ø 63 mm, gemäß DIN 3227).",
+      "quellen": [
+        "https://media.contorion.de/content/pdf/ede/de/sldb_054070699_de.pdf"
+      ]
+    },
+    {
+      "aussage": "Grohe Eckventil 22 037: Wandanschluss 1/2\", Abgang 3/8\", Quetschverschraubung Ø 10 mm, Längenausgleich, angerautes Gewinde zum Eindichten, Spindelabsperrung mit Fettkammer und doppelter O-Ring-Abdichtung, Schubrosette Ø 55 mm, Ausladung 80 mm.",
+      "quellen": [
+        "https://www.megabad.com/documents/10/grohe-specification-sheet-22037al0-de-100932.pdf"
+      ]
+    },
+    {
+      "aussage": "Es gibt Eckventile mit Wandanschluss G 3/8: Schell 04 902 06 99 (kurze Bauform, DN 10 G 3/8 AG auf Ø 10 mm) und 04 916 06 99 (G 3/8 AG mit ASAG easy auf Ø 10 mm).",
+      "quellen": [
+        "https://media.contorion.de/content/pdf/ede/de/sldb_049020699_de.pdf",
+        "https://static.toom.de/produkte/bilder/5481459/produktdatenblatt_5481459_01.pdf"
+      ]
+    },
+    {
+      "aussage": "Eckventil 1/2\" auf 1/2\": Schell 05 217 06 99 mit Anschluss und Abgang DN 15 G 1/2 AG.",
+      "quellen": [
+        "https://media.contorion.de/content/pdf/ede/de/sldb_052170699_de.pdf"
+      ]
+    },
+    {
+      "aussage": "Eckventil für (hochhängende) Spülkästen: Schell 05 034 06 99 mit umstellbarer Verschraubung, Anschluss G 1/2 AG, Abgang Überwurfmutter DN 10 G 3/8 IG; Variante 05 045 06 99 mit Klemmring-Verschraubung Ø 15 mm am Wandanschluss.",
+      "quellen": [
+        "https://www.schell.eu/de-at/produkte/eckventile-und-geraeteanschluss-armaturen/eckventile/eckventile/eckventile-spezial-eckventile/050340699/pdf/",
+        "https://media.contorion.de/content/pdf/ede/de/sldb_050450699_de.pdf"
+      ]
+    },
+    {
+      "aussage": "Schell-Eckventile mit Regulierfunktion: Durchfluss für Kalt- und Warmwasser einstellbar, Ausgleich unterschiedlicher Leitungsdrücke; Absperren durch Drehen des Griffs im Uhrzeigersinn bis zum Anschlag. Schell führt Abgänge 1/2\", 3/8\", 3/4\" und Quetschverschraubung, Anschlüsse 1/2\", 3/8\", 3/4\", Quetschverschraubung und Stecktechnik.",
+      "quellen": [
+        "https://www.schell.eu/de-de/produkte/eckventile-und-geraeteanschluss-armaturen/eckventile/"
+      ]
+    },
+    {
+      "aussage": "ASAG easy (Schell): selbstdichtendes Anschlussgewinde mit Dichtring, Montage ohne Dichtmittel; zusätzliches Dichtmittel nicht erlaubt (Spannungsrisskorrosion). Der Ring muss 3 mm im Gegengewinde verschwinden; nachträgliches Ausrichten in senkrechte Stellung möglich. Ventile ohne ASAG haben eine werkseitige Rändierung für Dichtfaden, Dichtband oder Hanf (sparsam einsetzen).",
+      "quellen": [
+        "https://schell.eu/fileadmin/tx_dmmediacockpit/SCHE-9105_Faltblatt%20ASAG%20easy%20%26%20Raendierung%202024_DT_RZ-Screen_WebHighRes-3.pdf"
+      ]
+    },
+    {
+      "aussage": "Erkennung ASAG: Datenblätter nennen 'Anschluss: DN 15 G 1/2 AG mit ASAG easy'; Ventile ohne den Zusatz werden eingedichtet. Beispiel mit ASAG: Schell 05 276 06 99, ohne ASAG: 05 407 06 99.",
+      "quellen": [
+        "https://media.contorion.de/content/pdf/ede/de/sldb_052760699_de.pdf",
+        "https://media.contorion.de/content/pdf/ede/de/sldb_054070699_de.pdf"
+      ]
+    },
+    {
+      "aussage": "Eckventil mit Rückflussverhinderer für Armaturen mit ausziehbarer Handbrause: Schell 05 276 06 99 mit doppeltem Rückflussverhinderer RV (EN 1717: ED), G 1/2 AG mit ASAG easy, Abgang Ø 10 mm.",
+      "quellen": [
+        "https://media.contorion.de/content/pdf/ede/de/sldb_052760699_de.pdf"
+      ]
+    },
+    {
+      "aussage": "Eckventil mit Filter: Schell 05 428 06 99 (mit ASAG easy) bzw. 05 430 06 99, Filter-Maschenweite 250 µm, G 1/2 auf G 3/8; Filterreinigung bei geschlossenem Eckventil ohne Leitungsentleerung.",
+      "quellen": [
+        "https://www.megabad.com/documents/84/054280699-de-84357.pdf",
+        "https://media.contorion.de/content/pdf/ede/de/sldb_054300699_de.pdf"
+      ]
+    },
+    {
+      "aussage": "Kombi-Eckventil Schell COMFORT 03 569 06 99: Anschluss DN 15 G 1/2 AG, Abgänge Schlauchverschraubung Ø 14,5 mm (DN 20 G 3/4 AG) und DN 15 G 1/2 AG, Rückflussverhinderer RV (EN 1717: EB) im Geräteabgang, Fettkammeroberteil; empfohlener Rohrbelüfter 28 602 06 99.",
+      "quellen": [
+        "https://neuesbad.de/media/pdf/38/6b/34/sldb_035690699_de.pdf"
+      ]
+    },
+    {
+      "aussage": "Kombi-Eckventil Schell COMFORT 03 555 06 99: Anschluss G 1/2 AG, Abgänge Ø 10 mm (G 3/8 AG) und G 3/4 AG Schlauchverschraubung, mit RV (EN 1717: EB) und Rohrbelüfter RB (EN 1717: HB) im Geräteabgang, Sicherungseinrichtung HD.",
+      "quellen": [
+        "https://neuesbad.de/media/pdf/fb/45/37/sldb_035550699_de.pdf"
+      ]
+    },
+    {
+      "aussage": "Kombi-Eckventil Schell 03 550 06 99: nur RV im Geräteabgang; in Verbindung mit Rohrbelüfter 28 602 06 99 ergibt sich die Sicherungskombination HD (EN 1717).",
+      "quellen": [
+        "https://media.contorion.de/content/pdf/ede/de/sldb_035500699_de.pdf"
+      ]
+    },
+    {
+      "aussage": "Geräteventil (Waschmaschine) Schell Geräteschrägsitzventil COMFORT 03 392 06 99: Anschluss DN 15 G 1/2 AG, Abgang Schlauchverschraubung Ø 14,5 mm (DN 20 G 3/4 AG), Rohrbelüfter RB + Rückflussverhinderer RV, Sicherungskombination HD nach EN 1717, gemäß DIN 3509.",
+      "quellen": [
+        "https://www.schell.eu/de-de/produkte/eckventile-und-geraeteanschluss-armaturen/geraeteanschluss-armaturen/geraeteanschluss-armaturen/geraeteventile/033920699/pdf/"
+      ]
+    },
+    {
+      "aussage": "Doppelanschluss-Eckventil COMFORT (Schell 03 836/03 837/03 841 06 99): gleichzeitiger Anschluss von Armatur und Haushaltsgerät, RV, ASAG; ist kein Gerät angeschlossen, Geräteanschluss mit Kappe verschließen und Ventil bei Nichtgebrauch schließen.",
+      "quellen": [
+        "https://www.schell.eu/fileadmin/tx_dmmediacockpit/903002300_c.pdf"
+      ]
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    "Ist ein Rohrbelüfter am Waschmaschinenanschluss in Deutschland Pflicht oder reicht ein Rückflussverhinderer (Typ EB)?",
+    "Welche Schell-Oberteil-Nummer passt zu welchem COMFORT-Eckventil (Ersatzteilkatalog nicht gelesen)?",
+    "Welche Lebensdauer haben Eckventile, und ab wann sollten verkalkte Ventile vorsorglich getauscht werden?",
+    "Wie tauscht man das Eckventil im Unterputz-Spülkasten (z. B. Geberit) und welche Ersatzteilnummer passt?",
+    "Kann man ein festgegammeltes Eckventil gangbar machen, ohne es auszubauen (Herstellerangabe)?",
+    "Wie oft sollten Eckventile laut Hersteller betätigt werden?",
+    "Passt ein Flexschlauch 3/8\" direkt an jede 10-mm-Quetschverschraubung oder braucht man einen Adapter?"
+  ]
+}
