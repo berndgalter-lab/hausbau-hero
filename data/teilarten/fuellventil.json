@@ -7,8 +7,12 @@
   "seo_title": "Füllventil für den Spülkasten: welches passt?",
   "seo_description": "Original oder Universal-Füllventil: Geberit Typ 383, TECE F10 und die Sets von Mepa und Viega. Anschluss seitlich oder unten, 3/8 Zoll, Passlisten je Hersteller.",
   "kurz": "Das Füllventil (auch Schwimmerventil) lässt nach dem Spülen Wasser in den Kasten und schließt, wenn der Schwimmer oben ist. Füllt der Kasten nur langsam, zischt er ständig oder läuft er über den Überlauf, ist meist das Füllventil schuld.\n\nIn die meisten Unterputzkästen passt entweder das Original des Herstellers oder ein Universal-Füllventil wie das TECE F10. Entscheidend sind Hersteller und Typ des Kastens und die Lage des Wasseranschlusses.",
-  "bereiche": ["wc-spuelkasten"],
-  "teiltypen": ["fuellventil"],
+  "bereiche": [
+    "wc-spuelkasten"
+  ],
+  "teiltypen": [
+    "fuellventil"
+  ],
   "erkennen": [
     {
       "titel": "Kasten bestimmen",
@@ -33,16 +37,52 @@
   ],
   "groessen": {
     "titel": "Welches Füllventil für welchen Kasten",
-    "spalten": ["Kasten", "Original", "Universal"],
+    "spalten": [
+      "Kasten",
+      "Original",
+      "Universal"
+    ],
     "zeilen": [
-      ["Geberit Sigma UP300/UP320, Omega, 110.800", "Typ 383 UP, 240.705.00.5", "TECE F10"],
-      ["Geberit Delta UP100", "Typ 383 UP, 240.705.00.5, dazu blauer Clip 240.923.00.1", "TECE F10"],
-      ["Geberit Aufputz- und Keramikkästen", "Typ 383 AP, 240.700.00.5", "TECE F10 (bei 3/8\" Anschluss)"],
-      ["Grohe/DAL 320, 330, 336, 337", "Ersatzteilblatt des Kastens", "TECE F10 mit Grohe-Adapter"],
-      ["Sanit Ineo, 980N, 982N, 983N, 988C, 995N", "Ersatzteilblatt des Kastens", "TECE F10"],
-      ["Viega 1H, 1L, 1S, 2H, 2L, 2S, 1C, 2C", "Füllventilset je Modell, z. B. 8310.74 für Standard 1S", "TECE F10"],
-      ["Friatec 302003, 302006, 302010, 352005", "Ersatzteile über Sanit", "TECE F10"],
-      ["Mepa", "Set je Kastentyp, z. B. E31: 590 745 9 bis 10.2015, 590 746 9 ab 11.2015", "nicht auf der TECE-Liste"]
+      [
+        "Geberit Sigma UP300/UP320, Omega, 110.800",
+        "Typ 383 UP, 240.705.00.5",
+        "TECE F10"
+      ],
+      [
+        "Geberit Delta UP100",
+        "Typ 383 UP, 240.705.00.5, dazu blauer Clip 240.923.00.1",
+        "TECE F10"
+      ],
+      [
+        "Geberit Aufputz- und Keramikkästen",
+        "Typ 383 AP, 240.700.00.5",
+        "TECE F10 (bei 3/8\" Anschluss)"
+      ],
+      [
+        "Grohe/DAL 320, 330, 336, 337",
+        "Ersatzteilblatt des Kastens",
+        "TECE F10 mit Grohe-Adapter"
+      ],
+      [
+        "Sanit Ineo, 980N, 982N, 983N, 988C, 995N",
+        "Ersatzteilblatt des Kastens",
+        "TECE F10"
+      ],
+      [
+        "Viega 1H, 1L, 1S, 2H, 2L, 2S, 1C, 2C",
+        "Füllventilset je Modell, z. B. 8310.74 für Standard 1S",
+        "TECE F10"
+      ],
+      [
+        "Friatec 302003, 302006, 302010, 352005",
+        "Ersatzteile über Sanit",
+        "TECE F10"
+      ],
+      [
+        "Mepa",
+        "Set je Kastentyp, z. B. E31: 590 745 9 bis 10.2015, 590 746 9 ab 11.2015",
+        "nicht auf der TECE-Liste"
+      ]
     ],
     "hinweis": "Passliste des TECE F10 nach der TECE-Broschüre Sanitärsysteme. Geberit-Nummern aus dem Geberit-Ersatzteilkatalog. Typ 383 ersetzt die früheren Nummern 240.705.00.1 (UP) und 240.700.00.1 (AP)."
   },
@@ -60,7 +100,11 @@
       "hinweis": "Für Geberit-Aufputz- und Keramikkästen, Anschluss seitlich 3/8\""
     }
   ],
-  "probleme": ["spuelkasten-laeuft-nach", "geberit-spuelkasten-fuellt-nicht", "geberit-spuelkasten-laeuft-ueber"],
+  "probleme": [
+    "spuelkasten-laeuft-nach",
+    "spuelkasten-fuellt-nicht",
+    "geberit-spuelkasten-laeuft-ueber"
+  ],
   "fragen": [
     {
       "frage": "Welches Füllventil passt in meinen Geberit-Unterputzspülkasten?",
@@ -71,7 +115,9 @@
         "https://catalog.geberit.de/de-DE/spare-part/SPT_461060",
         "https://catalog.geberit.de/de-DE/spare-part/SPT_461070"
       ],
-      "teile": ["geberit-fuellventil-typ-383-up-240-705-00-5"],
+      "teile": [
+        "geberit-fuellventil-typ-383-up-240-705-00-5"
+      ],
       "problem": null
     },
     {
@@ -83,7 +129,10 @@
         "https://catalog.geberit.de/de-DE/product/PRO_4467857",
         "https://catalog.geberit.de/de-DE/spare-part/SPT_4566382"
       ],
-      "teile": ["geberit-fuellventil-typ-383-up-240-705-00-5", "geberit-fuellventil-typ-383-ap-240-700-00-5"],
+      "teile": [
+        "geberit-fuellventil-typ-383-up-240-705-00-5",
+        "geberit-fuellventil-typ-383-ap-240-700-00-5"
+      ],
       "problem": null
     },
     {
