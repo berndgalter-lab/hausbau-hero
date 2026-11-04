@@ -1,5 +1,6 @@
 import { AFFILIATE_REL, mitTrackingId } from "@/lib/affiliate";
 import {
+  FRAGE_KATEGORIEN,
   SICHERHEIT_LABEL,
   formatEuro,
   formatStand,
@@ -8,6 +9,7 @@ import {
   teilKauflink,
   zeigePreis,
   type Angebot,
+  type MarkenFrage,
   type Sicherheit,
   type Teil,
   type Widerspruch,
@@ -164,25 +166,163 @@ export function GuenstigstesAngebot({ teil, angebote }: { teil: Teil; angebote: 
   );
 }
 
-export function Quellen({ urls, titel = "Quellen" }: { urls: (string | null | undefined)[]; titel?: string }) {
+/** Text aus der Datenbank: Leerzeilen trennen Absätze. */
+export function Absaetze({ text, className }: { text: string; className?: string }) {
+  const absaetze = text.split(/\n\s*\n/).map((a) => a.trim()).filter(Boolean);
+  return (
+    <div className={className}>
+      {absaetze.map((a, i) => (
+        <p key={i} className="whitespace-pre-line">{a}</p>
+      ))}
+    </div>
+  );
+}
+
+export function Quellen({
+  urls,
+  titel = "Quellen",
+  zugeklappt = false,
+}: {
+  urls: (string | null | undefined)[];
+  titel?: string;
+  /** Auf Übersichtsseiten: Quellen eingeklappt, damit der Leser nicht zum Hersteller abwandert. */
+  zugeklappt?: boolean;
+}) {
   const liste = Array.from(new Set(urls.filter((u): u is string => !!u)));
   if (liste.length === 0) return null;
+  const hinweis = (
+    <p className="mt-3 text-xs text-stone-500">
+      Zuordnungen werden aus Herstellerunterlagen und Händlerangaben zusammengetragen, nicht selbst getestet. Prüfe
+      vor dem Kauf die Nummer auf dem alten Teil.
+    </p>
+  );
+  const links = (
+    <ul className="list-disc pl-5 space-y-1">
+      {liste.map((u) => (
+        <li key={u}>
+          <a href={u} target="_blank" rel="nofollow noopener noreferrer" className="text-amber-700 hover:underline break-all">
+            {quelleLabel(u)}
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
+  if (zugeklappt) {
+    return (
+      <section className="mt-10 text-sm text-stone-600">
+        {hinweis}
+        <details className="mt-3">
+          <summary className="cursor-pointer text-stone-500 hover:text-stone-700">
+            {titel} ({liste.length})
+          </summary>
+          <div className="mt-2">{links}</div>
+        </details>
+      </section>
+    );
+  }
   return (
     <section className="mt-10 text-sm text-stone-600">
       <h2 className="text-base font-semibold text-stone-800 mb-2">{titel}</h2>
-      <ul className="list-disc pl-5 space-y-1">
-        {liste.map((u) => (
-          <li key={u}>
-            <a href={u} target="_blank" rel="nofollow noopener noreferrer" className="text-amber-700 hover:underline break-all">
-              {quelleLabel(u)}
-            </a>
-          </li>
-        ))}
-      </ul>
-      <p className="mt-3 text-xs text-stone-500">
-        Zuordnungen werden aus Herstellerunterlagen und Händlerangaben zusammengetragen, nicht selbst getestet. Prüfe
-        vor dem Kauf die Nummer auf dem alten Teil.
+      {links}
+      {hinweis}
+    </section>
+  );
+}
+
+/**
+ * Häufige Fragen der Marke, nach Kategorie geordnet und je Frage aufklappbar. Jede Antwort
+ * nennt ihre Quelle und verweist, wo es passt, auf Teil- und Problem-Seiten.
+ */
+export function MarkenFragen({
+  markeName,
+  fragen,
+  teile,
+  id,
+}: {
+  markeName: string;
+  fragen: MarkenFrage[];
+  teile: Pick<Teil, "slug" | "name">[];
+  id?: string;
+}) {
+  if (fragen.length === 0) return null;
+  // Kurz wie in der Teile-Liste: ohne Markennamen vorne und ohne Nummer in Klammern hinten.
+  const teilName = new Map(
+    teile.map((t) => [t.slug, t.name.replace(new RegExp(`^${markeName}\\s+`), "").replace(/\s*\([\d.\s]+\)$/, "")]),
+  );
+  const reihenfolge = Object.keys(FRAGE_KATEGORIEN);
+  const gruppen = reihenfolge
+    .map((k) => [k, fragen.filter((f) => f.kategorie === k)] as const)
+    .filter(([, liste]) => liste.length > 0);
+  const ld = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: fragen.map((f) => ({
+      "@type": "Question",
+      name: f.frage,
+      acceptedAnswer: { "@type": "Answer", text: f.antwort },
+    })),
+  };
+  return (
+    <section id={id} className="mb-14 scroll-mt-20">
+      <JsonLd daten={ld} />
+      <h2 className="text-2xl font-bold mb-2">Häufige Fragen zu {markeName}-Ersatzteilen</h2>
+      <p className="text-stone-600 max-w-2xl mb-5">
+        Gesammelt aus Foren und Suchanfragen. Jede Antwort nennt ihre Quelle.
       </p>
+      {gruppen.map(([kategorie, liste]) => (
+        <div key={kategorie} className="mb-6">
+          <h3 className="font-semibold text-stone-900 mb-3">{FRAGE_KATEGORIEN[kategorie as keyof typeof FRAGE_KATEGORIEN]}</h3>
+          <div className="divide-y divide-stone-200 border border-stone-200 rounded-xl bg-white">
+            {liste.map((f) => {
+              const verweise = (f.teile ?? []).filter((t) => teilName.has(t)).slice(0, 4);
+              // Eine Quelle je Website reicht im Kleingedruckten.
+              const quellen = f.quellen.filter((q, i) => f.quellen.findIndex((x) => hostVon(x) === hostVon(q)) === i);
+              return (
+                <details key={f.frage} className="group px-4 py-3">
+                  <summary className="cursor-pointer font-medium text-stone-800 list-none flex justify-between gap-3">
+                    <span>{f.frage}</span>
+                    <span aria-hidden className="text-stone-400 group-open:rotate-90 transition-transform">›</span>
+                  </summary>
+                  <div className="mt-3 text-stone-700 leading-relaxed max-w-2xl">
+                    <Absaetze text={f.antwort} className="space-y-2" />
+                    {(verweise.length > 0 || f.problem) && (
+                      <ul className="mt-3 flex flex-wrap gap-2 text-sm">
+                        {f.problem && (
+                          <li>
+                            <a href={`/problem/${f.problem}`} className="inline-block px-3 py-1 bg-amber-50 border border-amber-200 rounded-full text-amber-800 hover:border-amber-400">
+                              Ursache finden →
+                            </a>
+                          </li>
+                        )}
+                        {verweise.map((t) => (
+                          <li key={t}>
+                            <a href={`/teil/${t}`} className="inline-block px-3 py-1 bg-stone-100 rounded-full text-stone-700 hover:bg-amber-100 hover:text-amber-800">
+                              {teilName.get(t)}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                    {quellen.length > 0 && (
+                      <p className="mt-3 text-xs text-stone-500">
+                        Quelle:{" "}
+                        {quellen.map((q, i) => (
+                          <span key={q}>
+                            {i > 0 && ", "}
+                            <a href={q} target="_blank" rel="nofollow noopener noreferrer" className="hover:underline">
+                              {hostVon(q)}
+                            </a>
+                          </span>
+                        ))}
+                      </p>
+                    )}
+                  </div>
+                </details>
+              );
+            })}
+          </div>
+        </div>
+      ))}
     </section>
   );
 }
@@ -194,9 +334,9 @@ export function Quellen({ urls, titel = "Quellen" }: { urls: (string | null | un
 export function Widersprueche({ liste, id }: { liste: Widerspruch[]; id?: string }) {
   if (liste.length === 0) return null;
   return (
-    <section id={id} className="mb-10 scroll-mt-20">
-      <h2 className="text-xl font-bold mb-1">Achtung, Verwechslungsgefahr</h2>
-      <p className="text-sm text-stone-600 mb-4">
+    <section id={id} className="mb-14 scroll-mt-20">
+      <h2 className="text-2xl font-bold mb-2">Achtung, Verwechslungsgefahr</h2>
+      <p className="text-stone-600 mb-5 max-w-2xl">
         Hier nennen Hersteller oder Händler unterschiedliche Nummern. Wir zeigen beide Angaben mit Quelle, statt eine
         zu raten.
       </p>

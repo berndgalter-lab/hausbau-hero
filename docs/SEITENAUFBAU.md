@@ -78,16 +78,82 @@ Umgesetzt ohne Datenbank-Änderung: Die Vorlage zerlegt das Artikel-HTML (`src/l
 
 ## 4. Seitentyp Marke (`/ersatzteile/<marke>`)
 
-Aufgebaut wie ein Weg in drei Schritten, so wie der Pössl-Hub bei womo-teile:
+Die Seite bedient vier Einstiege: Nummer schon da, etwas ist kaputt, Modell bekannt, Teileart bekannt. Reihenfolge:
 
-1. **Einstieg:** 2–3 Sätze, was die Marke baut und wie man bei ihr Teile findet.
-2. **Schritt 1: Nummer finden.** Wo sie steht, wie sie aussieht (Beispiel mit Format), was die letzte Stelle bedeutet. Später mit eigenem Foto.
-3. **Schritt 2: Serie wählen.** Karten nach Produkttyp (Waschtisch, Dusche, Küche, Spülkasten …) mit bekannten Nummern. Dazu die Suche nach Artikelnummer.
-4. **Häufige Probleme:** die Problem-Seiten der Marke.
-5. **Achtung, Verwechslungsgefahr:** die Widersprüche, nach oben geholt und in Leser-Sprache („138069 oder 138067? Händler verwechseln Einzel- und Doppelgarnitur“).
-6. **Ersatzteil-Garantie:** kurzer Faktenkasten (Garantie, Verfügbarkeit, Quelle), ohne Rechercheprotokoll.
-7. **Alle Teile nach Art:** kompakte Tabelle mit Nummer, Name, Link zur Teil-Seite. Kein Kaufknopf je Zeile.
-8. **Quellen** mit lesbaren Namen statt Domains.
+1. **Kopf:** H1, 2–3 Sätze, was die Marke baut und was meistens kaputtgeht. Darunter die Suche („Du hast schon eine Nummer?“) und Sprungmarken zu den Abschnitten.
+2. **Etwas ist kaputt?** Die Problem-Seiten der Marke als Karten.
+3. **So findest du die richtige Nummer:** wo sie steht, Format mit Beispielen, was tun ohne Unterlagen. Absätze mit Leerzeile trennen, jeder Absatz ein Gedanke. Kein Weg zum Hersteller-Katalog.
+4. **Ersatzteile nach Modell:** Karten nach Produkttyp, größte Gruppe zuerst, zwei Spalten auch mobil. Name ohne Markennamen, darunter Teile-Anzahl und erste Nummer.
+5. **Ersatzteile nach Art:** Sprungmarken je Art, dann Listen mit Name, Nummer, Preis ab. Kein Kaufknopf je Zeile. „Weitere Teile“ klein halten, lieber eine eigene Art anlegen (Label in `TEILTYP_LABEL`).
+6. **Häufige Fragen** (Abschnitt 4a): nach Kategorie, je Frage aufklappbar, mit Quelle und Verweisen auf Teile und Probleme. Dazu `FAQPage`-Daten.
+7. **Achtung, Verwechslungsgefahr:** die Widersprüche, je Fall aufklappbar.
+8. **Wie lange gibt es Ersatzteile?** kurzer Faktenkasten ohne Rechercheprotokoll.
+9. **Quellen** eingeklappt am Ende.
+
+Kein sichtbarer Link zum Ersatzteil-Shop des Herstellers (`hersteller_ersatzteil_url` bleibt nur als Datenfeld). Wer die Nummer hat, soll hier das Teil finden, nicht beim Hersteller.
+
+## 4a. Häufige Fragen je Marke
+
+Unser Mehrwert: die Fragen, die in Foren, bei gutefrage.net, Reddit und in Googles „Ähnliche Fragen“ immer wieder auftauchen, an einer Stelle und mit Beleg beantworten. Die Fragen stehen in `marke.fragen` der Marken-Datei:
+
+```json
+{"frage": "…?", "antwort": "2–4 Sätze", "kategorie": "reparatur", "quellen": ["url"], "teile": ["teil-slug"], "problem": "problem-slug"}
+```
+
+- **Kategorien** (Reihenfolge auf der Seite): `nummer`, `kompatibilitaet`, `reparatur`, `verfuegbarkeit`, `bezug`, `pflege`. Die Liste steht in `FRAGE_KATEGORIEN` (`src/lib/ersatzteile.ts`) und im Prüfskript.
+- **Frage** so, wie Leute sie stellen („Mein Geberit-Spülkasten läuft ständig nach. Woran liegt das?“), mit Markennamen, weil so gesucht wird.
+- **Antwort** nur mit Fakten aus einer Quelle: Herstellerseite, Anleitung, Händlerangabe oder mehrere übereinstimmende Fachforen-Antworten. Unsichere Antworten bleiben in der Recherche und kommen nicht auf die Seite. Kein Wegschicken zum Hersteller-Shop, wenn unsere Seite das Teil zeigt.
+- **Nicht als Beleg:** Seiten mit generiertem Inhalt (z. B. hausbau-forum.de), Suchergebnis-Vorschauen.
+- Das Prüfskript verlangt Fragezeichen, Antwort, Kategorie und Quelle und prüft, ob die verlinkten Teile und Probleme in der Datei stehen.
+
+### Fragenkatalog je Produktkategorie
+
+Jede neue Marke wird gegen diesen Katalog recherchiert. Was zur Marke passt und belegbar ist, kommt in `fragen`; marken-eigene Fragen aus den Foren kommen dazu. Grundlage: Recherche zu Blanco, Franke, Geberit, Grohe, hansgrohe und Ideal Standard (November 2026, je 14 Fragen).
+
+**Küchenspüle** (Blanco, Franke)
+- Wo steht die Artikelnummer der Spüle, und reicht der Modellname?
+- Welches Siebkörbchen passt (Durchmesser, Zapfen für Drehknopf oder ohne, Baujahr)?
+- Der Drehknopf hebt den Stopfen nicht mehr an. Was ist kaputt?
+- Das Siebkörbchen ist zu, trotzdem läuft das Wasser ab. Was tun?
+- Welcher Bowdenzug passt?
+- Passen Siebkörbchen oder Garnituren anderer Hersteller oder Nachbauten?
+- Gibt es für eine alte Spüle noch Teile?
+- Wie pflege ich Granit- oder Edelstahlspülen?
+
+**Küchenarmatur** (Blanco, Franke, Grohe, hansgrohe)
+- Hochdruck oder Niederdruck: welche Kartusche?
+- Die Armatur tropft. Kann ich die Kartusche selbst tauschen, und wie geht der Hebel ab?
+- Der Auslauf lässt sich schwer schwenken oder ist am Auslauf undicht.
+- Die Auszugsbrause zieht nicht zurück, der Brauseschlauch ist undicht: welcher Schlauch passt?
+- Die Armatur wackelt auf der Spüle.
+- Der Strahl spritzt: Strahlregler reinigen, welche Größe?
+
+**Badarmatur und Thermostat** (Grohe, hansgrohe, Ideal Standard)
+- Welche Kartusche passt (Durchmesser, Bauart), und wie finde ich die Bestellnummer?
+- Die Kartusche ist neu, und es tropft immer noch.
+- Hebel schwergängig oder knackt: fetten oder neue Kartusche?
+- Der Thermostat wird nur lauwarm oder kalt.
+- Muss der Thermostat nach dem Tausch neu eingestellt werden? Er funktioniert verkehrt herum.
+- Die Kartusche oder Mutter sitzt fest.
+- Original oder Nachbau?
+- Ist eine undichte Kartusche nach zwei, drei Jahren ein Garantiefall?
+- Gibt es für eine alte Unterputzarmatur noch Teile, oder lässt sie sich umrüsten?
+- Womit entkalken, ohne Oberfläche oder Garantie zu gefährden?
+
+**Spülkasten und WC** (Geberit, Ideal Standard)
+- Welcher Spülkasten ist verbaut, und wo steht die Typ- oder Identnummer?
+- Der Spülkasten läuft ständig nach.
+- Der Spülkasten füllt sich nur langsam oder gar nicht.
+- Welche Betätigungsplatte passt?
+- Passt ein neues Füll- oder Spülventil in den alten Kasten?
+- Gibt es für 20 bis 40 Jahre alte Kästen noch Teile oder Umbausets?
+- Wie geht die Betätigungsplatte ab?
+- Wie stelle ich die Spülmenge ein?
+- Entkalken mit Essig oder Zitronensäure: ja oder nein?
+
+**Für alle Marken**
+- Wie lange gibt es Ersatzteile, wie lange gilt die Garantie?
+- Wo kaufe ich Originalteile, verkauft der Hersteller direkt?
 
 ## 5. Seitentyp Serie (`/ersatzteile/<marke>/<serie>`)
 

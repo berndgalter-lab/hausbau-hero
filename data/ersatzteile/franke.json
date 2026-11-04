@@ -13,6 +13,179 @@
    "https://www.franke.com/de/de/home-solutions/produkte/kuechenspuelen/product-detail-page.html/127.0378.717.html",
    "https://www.franke.com/de/de/home-solutions/produkte/kuechenspuelen/product-detail-page.html/114.0256.610.html",
    "https://www.moebelplus.de/franke-euroform-efl-614-78-101-0017-703-edelstahlspuele-leinen.html"
+  ],
+  "fragen": [
+   {
+    "frage": "Wo finde ich die Modell- bzw. Artikelnummer meiner Franke-Spüle oder -Armatur?",
+    "antwort": "Franke nennt die zehnstellige Artikelnummer FUN, aufgebaut wie 123.4567.891. Bei Spülen und Becken klebt das Etikett an der Unterseite, bei Armaturen hängt es am Wasserschlauch unter der Armatur. Mit dieser Nummer lassen sich im Franke-Webshop die zugehörigen Ersatzteile anzeigen. Ist kein Etikett mehr da, kannst du laut Küchen-Forum Fotos an den Franke-Kundendienst schicken, der dort weitergeholfen hat.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://www.franke.com/de/de/home-solutions/Support/Ressourcen/how-to-find-fun-code.html",
+     "https://www.tag-der-kueche.de/2016/06/neuer-franke-webshop-ersatzteile-zubehoer-und-pflege-fuer-den-spuelenbereich/",
+     "https://www.kuechen-forum.de/forum/themen/passendes-siebkoerbchen-fuer-franke-spuele.33028/"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Der Drehknopf (Excenter) hebt den Stöpsel nicht mehr an, was ist kaputt?",
+    "antwort": "Nimm den Siebkorb heraus und dreh die Schraube bzw. den Stift an seiner Unterseite ein Stück heraus, damit er den Hebel im Ablauf wieder erreicht; der Stift hat oft einen Schlitz für einen Schraubendreher. Hilft das nicht, schau mit einer Lampe unter der Spüle nach, ob sich der Bowdenzug zwischen Drehknopf und Ablaufventil ausgehängt hat. Ist der Zug gerissen oder die Kappe am Knopf gebrochen, werden diese Teile einzeln ersetzt.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+     "https://forum.zerspanungsbude.net/viewtopic.php?t=89798"
+    ],
+    "teile": [
+     "franke-bowdenzug-133-0005-633",
+     "franke-bowdenzug-133-0005-632",
+     "franke-drehexcenter-kappe-133-0004-830",
+     "franke-drehexcenter-kappe-133-0024-335",
+     "franke-drehexcenter-kappe-133-0006-158"
+    ],
+    "problem": "franke-excenter-drehknopf-funktioniert-nicht"
+   },
+   {
+    "frage": "Der Siebkorb ist geschlossen, trotzdem läuft das Wasser ab. Wie bekomme ich den Ablauf wieder dicht?",
+    "antwort": "Bei Excenter-Siebkörben drehst du die Stellschraube an der Unterseite etwas weiter hinein, damit der Korb tiefer sitzt; das verstellt sich mit der Zeit. Prüf außerdem die Dichtung am Korb auf Risse und Verhärtung, beim Integral-Ventil gibt es die Lippendichtung 133.0060.773 einzeln. Läuft das Wasser dagegen zwischen Becken und Ablaufkelch weg, ist die Garnitur selbst nicht dicht eingesetzt und muss neu eingedichtet werden.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+     "https://www.haustechnikdialog.de/Forum/t/33319/Exenter-fuer-Spuele-schliesst-nicht-richtig",
+     "https://www.kaufland.at/product/335458523/"
+    ],
+    "teile": [
+     "franke-siebkorbdichtung-integral-133-0060-773",
+     "franke-siebkorb-excenter-133-0005-611",
+     "franke-siebkorb-excenter-133-0008-412"
+    ],
+    "problem": "franke-siebkorb-dichtet-nicht"
+   },
+   {
+    "frage": "Welcher Siebkorb passt in meine Franke-Spüle (bis oder ab Baujahr 1999)?",
+    "antwort": "Händler unterscheiden bei 3½-Zoll-Abläufen zwischen Spülen bis Baujahr 1999 und ab 1999 sowie zwischen Excenter- und Handbetätigung. Für die ältere Ausführung nennen sie einen Korbdurchmesser von etwa 77 mm, für die neuere etwa 81 bis 82 mm (z. B. 133.0005.611 für Excenter). Miss deshalb den alten Korb und bestimme die Bedienart, bevor du bestellst. Diese Zuordnungen stammen von Händlern, nicht von Franke.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.kaufland.at/product/324335818/",
+     "https://www.ebay.de/p/2256000966",
+     "https://www.kilean.de/Siebkorb-manuell-fuer-Franke-Spuelen-bis-1999-/-Ersatzteil-/-Handbedienung-/Siebkorb"
+    ],
+    "teile": [
+     "franke-siebkorb-excenter-133-0005-611",
+     "franke-siebkorb-excenter-133-0005-670",
+     "franke-siebkorb-manuell-133-0005-669",
+     "franke-siebkorb-hand-133-0008-411",
+     "franke-siebkorb-excenter-133-0561-041"
+    ],
+    "problem": "franke-siebkorb-dichtet-nicht"
+   },
+   {
+    "frage": "Welcher Bowdenzug passt zu meiner Franke-Spüle?",
+    "antwort": "Händler ordnen die Züge nach Baujahr zu: Ab 1999 passt der Zug 133.0005.633 mit Walze an beiden Enden für eine 35-mm-Bohrung, meist 71 cm lang. Für 1994 bis 1999 gibt es einen Zug mit Kugeln, für Spülen vor 1994 nur ein Set, bei dem Zug und Abgangsbogen zusammen getauscht werden. Vergleiche Endstücke und Länge mit dem alten Zug.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.kitchenking.de/excenterbedienung-bowdenzug-passend-fuer-franke-spuelen-3-5-zoll-bis-baujahr-1999.html",
+     "https://www.ebay.de/p/1207307964",
+     "https://www.nextag.de/preisvergleich/500001814050_franke-bowdenzug-35-zoll-inkl.html",
+     "https://www.kaufland.de/product/324322186/"
+    ],
+    "teile": [
+     "franke-bowdenzug-133-0005-633",
+     "franke-bowdenzug-133-0005-632",
+     "franke-bowdenzug-vor-1994"
+    ],
+    "problem": "franke-excenter-drehknopf-funktioniert-nicht"
+   },
+   {
+    "frage": "Meine Franke-Küchenarmatur tropft. Kann ich die Kartusche selbst wechseln?",
+    "antwort": "Im Küchen-Forum gilt die Kartusche als häufigste Ursache und als einfach tauschbar. Die Franke-Anleitung zur Sinos beschreibt den Ablauf: Wasser absperren, Griff mit 2,5-mm-Inbus lösen, Nutmutter und Anzeigering abnehmen, Befestigungsmutter mit Schlüsselweite 27 öffnen und die Kartusche herausziehen. Beim Einsetzen müssen die beiden Zentrierstifte im Sitz liegen und die Dichtungen richtig sitzen. Andere Modelle können abweichen, schau in die Anleitung deiner Armatur.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.manualslib.de/manual/837305/Franke-Sinos.html?page=7",
+     "https://www.kuechen-forum.de/forum/themen/franke-kuechenarmatur.41518/"
+    ],
+    "teile": [
+     "franke-kartusche-133-0372-710"
+    ],
+    "problem": "franke-kuechenarmatur-tropft"
+   },
+   {
+    "frage": "Welche Ersatzkartusche passt in meine Franke-Armatur, und ist die Farbe (grün oder blau) wichtig?",
+    "antwort": "Die passende Kartusche hängt vom Armaturenmodell ab, daher brauchst du die Artikelnummer vom Etikett am Wasserschlauch. Für Atlas, Taros und Gaia mit Zugauslauf nennen Händler die 35-mm-Kartusche 133.0372.710. Laut Händlerangabe ist diese Kartusche je nach Fertigungszeitpunkt grün oder blau, die Farbe ist also kein Unterschied in der Passform. Nimm zum Vergleich die alte Kartusche mit.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.ebay.de/p/24011497466",
+     "https://www.testberichte.de/heimwerkerbedarf/franke-r-35-mm-armaturkartusche-fuer-atlas-mit-auszugsbrause.html",
+     "https://www.franke.com/de/de/home-solutions/Support/Ressourcen/how-to-find-fun-code.html"
+    ],
+    "teile": [
+     "franke-kartusche-133-0372-710"
+    ],
+    "problem": "franke-kuechenarmatur-tropft"
+   },
+   {
+    "frage": "Die Auszugsbrause tropft an der Verbindung zwischen Schlauch und Brausekopf. Welche Dichtung brauche ich?",
+    "antwort": "Im HaustechnikDialog ging es um eine Franke Ozone mit 1/2-Zoll-Anschluss am Brauseschlauch. Eine normale Flachdichtung machte es dort schlimmer, eine 1/2-Zoll-Fiberdichtung, handfest angezogen, hat das Tropfen beseitigt. Miss vorher die alte Dichtung aus und prüf das Kunststoffgewinde am Schlauchende auf Risse.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.haustechnikdialog.de/Forum/t/242691/Franke-Armatur-Auszugschlauch-DICHTUNG-gesucht"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Wie lange gilt die Franke-Garantie, und sind Kartusche oder Dichtungen abgedeckt?",
+    "antwort": "Laut Franke-AGB für Endkunden gibt Franke auf alle Armaturen fünf Jahre Garantie auf Material und Verarbeitung ab Auslieferung, normaler Verschleiß ist ausgenommen. Nötig sind fachgerechter Einbau und der Kaufbeleg, Ansprüche verjähren ein Jahr nach Entdecken des Fehlers, und Franke entscheidet, ob repariert oder ersetzt wird. Für Spülen nennt diese Seite keine Frist. Deine gesetzlichen Rechte gegenüber dem Verkäufer bleiben davon unberührt.",
+    "kategorie": "verfuegbarkeit",
+    "quellen": [
+     "https://www.franke.com/de/de/home-solutions/agbs-b2c.html",
+     "https://www.franke.com/de/de/home-solutions/Support/Garantie.html"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Gibt es für meine alte Franke-Spüle oder -Armatur noch Ersatzteile?",
+    "antwort": "Franke schreibt auf der Garantieseite, dass es Ersatzteile für mindestens fünf Jahre nach Auslaufen eines Produkts anstrebt. Bei älteren Armaturen berichten Kunden, dass es die Kartusche oder einen Dichtsatz nicht mehr gab. Für Spülen werden Siebkörbe, Bowdenzüge und Kappen für Baujahre vor 1999 weiter von Händlern angeboten, ein Kunde bekam für eine 25 Jahre alte Spüle noch einen passenden Stöpsel.",
+    "kategorie": "verfuegbarkeit",
+    "quellen": [
+     "https://www.franke.com/de/de/home-solutions/Support/Garantie.html",
+     "https://de.trustpilot.com/review/www.franke.com",
+     "https://www.haustechnikdialog.de/Forum/t/111510/Franke-Kuechenarmatur-nach-3-4-Jahren-undicht-schon-zum-2-Mal",
+     "https://www.ebay.de/p/2256000966"
+    ],
+    "teile": [
+     "franke-siebkorb-excenter-133-0005-670",
+     "franke-siebkorb-manuell-133-0005-669",
+     "franke-drehexcenter-kappe-133-0006-158",
+     "franke-bowdenzug-vor-1994"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Wo bekomme ich Original-Ersatzteile von Franke, beim Händler oder direkt beim Hersteller?",
+    "antwort": "Franke betreibt einen eigenen Webshop mit Ersatzteilen für Spülen und Armaturen, in dem du über die Artikelnummer des Produkts die passenden Teile findest. Der Kundendienst Deutschland ist unter +49 7761 52-500 oder hs-kundendienst.de@franke.com erreichbar (Mo bis Do 8 bis 17 Uhr, Fr 8 bis 16 Uhr). Im Küchen-Forum wird außerdem der Weg über den Küchenhändler empfohlen, besonders bei Gewährleistungsfragen.",
+    "kategorie": "bezug",
+    "quellen": [
+     "https://webshop.franke.com/de/de/",
+     "https://www.tag-der-kueche.de/2016/06/neuer-franke-webshop-ersatzteile-zubehoer-und-pflege-fuer-den-spuelenbereich/",
+     "https://www.franke.com/de/de/home-solutions/kontakt.html",
+     "https://www.kuechen-forum.de/forum/themen/franke-kuechenarmatur.41518/"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Wie pflege ich eine Fragranit-Spüle, und was hilft gegen Flecken am Beckenboden?",
+    "antwort": "Franke empfiehlt für Fragranit etwas Spülmittel und eine Nylonbürste in kreisenden Bewegungen, danach gründlich nachspülen. Die Garantie schließt Schäden durch unsachgemäße Reinigung mit aggressiven Reinigern aus, ebenso Kratzer. Bei den Flecken im Küchen-Forum vermuteten mehrere Antwortende Metallabrieb von Töpfen, eine sichere Lösung fand sich dort aber nicht.",
+    "kategorie": "pflege",
+    "quellen": [
+     "https://www.franke.com/de/de/home-solutions/Designinspirationen/Materialien/Fragranit.html",
+     "https://www.franke.com/de/de/home-solutions/Support/Garantie.html",
+     "https://www.kuechen-forum.de/forum/themen/kratzer-flecken-in-spuelbecken-von-franke.43474/"
+    ],
+    "teile": [],
+    "problem": null
+   }
   ]
  },
  "serien": [

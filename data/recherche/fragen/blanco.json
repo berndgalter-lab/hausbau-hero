@@ -1,0 +1,357 @@
+{
+  "marke": "Blanco",
+  "fragen": [
+    {
+      "frage": "Mein Blanco-Wasserhahn lässt sich nicht mehr schwenken oder ist schwergängig. Was kann ich tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/290225/Blanco-Wasserhahn-dreht-sich-nicht-mehr",
+        "https://www.haustechnikdialog.de/Forum/t/236989/Kuerchenarmatur-Blanco-Tivo-laesst-sich-nicht-zerlegen",
+        "https://www.energiesparhaus.at/forum/79064",
+        "https://www.bauexpertenforum.de/goto/post?id=1226810",
+        "https://www.haustechnikdialog.de/Forum/t/242660/Blanco-Kuechenarmatur-oeffnen"
+      ],
+      "antwort": "Meist sitzt Kalk zwischen Schwenkauslauf und Armaturenkörper. Bei vielen Armaturen kannst du den Auslauf bei eingebauter Kartusche nach oben abziehen, reinigen und mit trinkwassergeeignetem Armaturenfett wieder aufsetzen; bei anderen geht er nur nach unten ab, dann musst du die Armatur ausbauen. Dreht sich schon die ganze Armatur auf der Spüle mit, hilft meist nur der Ausbau, und bei alten, stark verkalkten Armaturen raten mehrere Fachleute im Forum eher zum Austausch. Fette den Auslauf am besten schon, wenn er anfängt schwer zu gehen.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/290225/Blanco-Wasserhahn-dreht-sich-nicht-mehr",
+        "https://www.haustechnikdialog.de/Forum/t/242660/Blanco-Kuechenarmatur-oeffnen",
+        "https://www.sanier.de/badezimmer/schwergaengig-einhebelmischer"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Die Kartuschenmutter meiner Blanco-Armatur lässt sich nicht lösen. Wie bekomme ich die Kartusche raus?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/242660/Blanco-Kuechenarmatur-oeffnen",
+        "https://www.haustechnikdialog.de/Forum/t/290225/Blanco-Wasserhahn-dreht-sich-nicht-mehr",
+        "https://www.haustechnikdialog.de/Forum/t/236989/Kuerchenarmatur-Blanco-Tivo-laesst-sich-nicht-zerlegen",
+        "https://www.energiesparhaus.at/forum/79064",
+        "https://www.gutefrage.net/frage/austausch-kartusche-an-einhebel-armatur-ohne-schraube-an-der-armatur-moeglich"
+      ],
+      "antwort": "Dreh zuerst die Eckventile zu und nimm den Hebel ab; die Madenschraube dafür steckt oft unter einer Abdeckkappe oder ist nur bei hochgestelltem Hebel zu sehen. Darunter sitzt eine Sicherungsmutter aus Messing, die du nur mit passendem Ring- oder Steckschlüssel und langem Hebel lösen solltest, während du den Auslauf als Gegenhalt nimmst. Zangen und Rollgabelschlüssel verformen das weiche Messing, danach klemmt die Mutter oft endgültig. Blanco verkauft für einige Modelle einen eigenen Schlüssel für die Kartuschensicherungsmutter, und die Schlüsselweite ist je nach Modell verschieden (im Forum etwa 28 mm bei einer Wega-S).",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/242660/Blanco-Kuechenarmatur-oeffnen",
+        "https://www.gutefrage.net/frage/austausch-kartusche-an-einhebel-armatur-ohne-schraube-an-der-armatur-moeglich",
+        "https://www.selbst.de/armatur-kartusche-wechseln-20928.html"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "blanco-schluessel-kartuschenmutter-121865",
+        "blanco-kartuschensicherungsmutter-123918",
+        "blanco-kartuschensicherungsmutter-124432"
+      ],
+      "passendes_problem": "blanco-brause-zieht-nicht-zurueck-armatur-tropft"
+    },
+    {
+      "frage": "Welches Ersatzteil passt zu meiner Blanco-Spüle und wie finde ich die richtige Nummer?",
+      "kategorie": "nummer",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.hausbau-forum.de/category/B/blanco/",
+        "https://forum.electronicwerkstatt.de/phpBB/topic103537_f14_bxtopic_timexDESC_by1_bz0_bs0.html",
+        "https://www.haustechnikdialog.de/Forum/t/264183/Ersatzteil-Blanco-Kuechenspuele-gesucht",
+        "https://www.haustechnikdialog.de/Forum/t/234900/Ueberlaufset-Blanco"
+      ],
+      "antwort": "Blanco ordnet Ersatzteile über die 6-stellige Artikelnummer der Spüle oder Armatur zu, nicht über den Modellnamen. Diese Nummer kannst du auf blanco.de im Ersatzteilbereich eingeben, und auf jeder Teileseite zeigt der Verwendungsnachweis, für welche Spülen das Teil gedacht ist. Bei Händlern steht die Blanco-Nummer meist als Herstellernummer neben der Shop-Artikelnummer. Hast du keine Nummer mehr, bau das alte Teil aus und vergleiche Durchmesser und Bauart, oder frag beim Blanco-Kundendienst nach.",
+      "antwort_quellen": [
+        "https://www.hausbau-forum.de/category/B/blanco/",
+        "https://www.blanco.de/ablauffernbedienungen/zug-ablauffernbedienungrundkunststoffverchromt_179.828.225112/225112",
+        "https://www.moebelplus.de/blanco-supra-500-u-edelstahlspuele-buerstfinish.html",
+        "https://www.blanco.de/kuechenarmaturen/ratgeber/reinigung-und-pflege-armaturen/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Welches Blanco-Siebkörbchen passt, und was tun, wenn es nicht mehr dicht hält?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.ebay.de/p/14027723318",
+        "https://www.testsieger.de/spuelen/4C4P10WYMXHY1-blanco-125555-siebkoerbchen-mit-zapfen-fuer-exzenter-bedienung-edelstahl-82-cm.html",
+        "https://www.guenstiger.de/Produkt/Blanco/Siebkoerbchen_119146.html",
+        "https://forum.electronicwerkstatt.de/phpBB/topic103537_f14_bxtopic_timexDESC_by1_bz0_bs0.html"
+      ],
+      "antwort": "Blanco-Siebkörbchen für das 3½\"-Hauptbecken gibt es mit etwa 79 mm und 82 mm Durchmesser sowie mit langem Zapfen für Exzenter- bzw. Drehknopf-Bedienung oder mit kurzem Zapfen für Becken ohne Fernbedienung. Miss deshalb am alten Körbchen Durchmesser und Zapfenlänge und vergleiche die Nummer, die oft auf dem Körbchen steht. Hält nur die Gummidichtung nicht mehr, kannst du sie einzeln nachkaufen. Die Baujahresangaben der Händler zu einzelnen Körbchen widersprechen sich, verlass dich also lieber auf Maße und Verwendungsnachweis.",
+      "antwort_quellen": [
+        "https://www.guenstiger.de/Produkt/Blanco/Siebkoerbchen_119146.html",
+        "https://www.guenstiger.de/Produkt/Blanco/Siebkoerbchen_79_mm_125590.html",
+        "https://www.testsieger.de/spuelen/4C4P10WYMXHY1-blanco-125555-siebkoerbchen-mit-zapfen-fuer-exzenter-bedienung-edelstahl-82-cm.html",
+        "https://www.ebay.de/p/2256193110"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "blanco-siebkoerbchen-119146",
+        "blanco-siebkoerbchen-125555",
+        "blanco-siebkoerbchen-125590",
+        "blanco-siebkoerbchen-117563",
+        "blanco-dichtung-siebkoerbchen-116116",
+        "blanco-dichtung-siebkoerbchen-117497"
+      ],
+      "passendes_problem": "blanco-spuele-laeuft-nicht-ab-siebkorb-dicht-nicht"
+    },
+    {
+      "frage": "Lohnt sich die Reparatur, und wo bekomme ich Original-Ersatzteile von Blanco?",
+      "kategorie": "bezug",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/242660/Blanco-Kuechenarmatur-oeffnen",
+        "https://www.haustechnikdialog.de/Forum/t/290225/Blanco-Wasserhahn-dreht-sich-nicht-mehr",
+        "https://www.gutefrage.net/frage/austausch-kartusche-an-einhebel-armatur-ohne-schraube-an-der-armatur-moeglich",
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt"
+      ],
+      "antwort": "Blanco verkauft Ersatzteile direkt im eigenen Online-Shop auf blanco.de, bei nicht lieferbaren Teilen gibt es dort eine Benachrichtigungsfunktion. Viele Originalteile werden außerdem bei eBay, Kaufland und Ersatzteilhändlern unter der Blanco-Nummer angeboten; Kartuschen liegen dort etwa bei 18 bis 25 Euro. Bei Kartuschen raten Fachleute im Forum ausdrücklich zum Originalteil des Armaturenherstellers. Bei sehr alten, festgefressenen Armaturen ist laut mehreren Forenantworten der Tausch der ganzen Armatur oft die realistischere Lösung.",
+      "antwort_quellen": [
+        "https://www.blanco.de/ersatzteile/",
+        "https://www.ebay.de/p/13011034903",
+        "https://preisvergleich.heise.de/blanco-kartusche-hd-35mm-hd-ke-121894-a3338401.html?va=b",
+        "https://www.haustechnikdialog.de/Forum/t/242660/Blanco-Kuechenarmatur-oeffnen",
+        "https://www.haustechnikdialog.de/Forum/t/290225/Blanco-Wasserhahn-dreht-sich-nicht-mehr"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "blanco-kartusche-hd-121894",
+        "blanco-kartusche-nd-121491"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Der Drehknopf bzw. die Ablauffernbedienung hebt den Stöpsel nicht mehr an. Was ist kaputt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://forum.electronicwerkstatt.de/phpBB/topic103537_f14_bxtopic_timexDESC_by1_bz0_bs0.html",
+        "https://www.kaufland.de/product/467304114/"
+      ],
+      "antwort": "Häufig ist der Bowdenzug zwischen Knopf und Ablaufventil ausgehängt oder gerissen, oder das Siebkörbchen sitzt nicht richtig auf dem Hubmechanismus. Nimm das Körbchen heraus, reinige Körbchen und Ablauf, und prüf unter der Spüle, ob der Zug an beiden Enden eingehängt ist; bei manchen Garnituren lässt sich die Hubstange nach Lösen einer Feststellschraube nachjustieren. Blanco verkauft Bowdenzug, Drehbetätigung und Zugknopf auch einzeln, sodass du nicht gleich die ganze Garnitur tauschen musst.",
+      "antwort_quellen": [
+        "https://www.gutefrage.net/frage/ablauffernbedienung-zur-bedienung-des-stoepsel-in-der-kuechenspuele-ist-defekt",
+        "https://www.blanco.de/ersatzteile/ersatzteile-fuer-spuelen/bowdenzuege/bowdenzug700mmlang_60.890.139373/139373",
+        "https://www.blanco.de/ablauffernbedienungen/drehbetaetigungedelstahlrund_179.825.119293/119293",
+        "https://www.blanco.de/ablauffernbedienungen/zug-ablauffernbedienungrundkunststoffverchromt_179.828.225112/225112"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "blanco-bowdenzug-139373",
+        "blanco-bowdenzug-128628",
+        "blanco-bowdenzug-120338",
+        "blanco-drehbetaetigung-119293",
+        "blanco-zugknopf-225112",
+        "blanco-siebkoerbchen-119146"
+      ],
+      "passendes_problem": "blanco-ablauffernbedienung-drehknopf-funktioniert-nicht"
+    },
+    {
+      "frage": "Brauche ich für meine Blanco-Armatur eine Hochdruck- oder Niederdruck-Kartusche?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/242660/Blanco-Kuechenarmatur-oeffnen",
+        "https://www.ebay.de/p/2256083693",
+        "https://www.ebay.de/p/5053481025"
+      ],
+      "antwort": "Blanco führt Kartuschen getrennt als HD (Hochdruck) und ND (Niederdruck), und beide Varianten gibt es in 35 mm und 40 mm. Am Durchmesser allein erkennst du also nicht, welche passt. Ob deine Armatur Hoch- oder Niederdruck ist, steht im Datenblatt der Armatur auf blanco.de; Niederdruck brauchst du nur bei einem kleinen Untertisch-Boiler. Fachleute raten, die Originalkartusche über die Armaturen-Artikelnummer oder mit einem Foto beim Hersteller zu bestellen.",
+      "antwort_quellen": [
+        "https://www.ebay.de/p/13011034903",
+        "https://www.ebay.de/p/2256083693",
+        "https://www.ebay.de/p/19012044751",
+        "https://www.blanco.de/armaturen/kano/kano_238.528/527647",
+        "https://www.hornbach.de/projekte/niederdruckarmatur-montieren/",
+        "https://www.haustechnikdialog.de/Forum/t/242660/Blanco-Kuechenarmatur-oeffnen"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "blanco-kartusche-hd-121894",
+        "blanco-kartusche-nd-121491"
+      ],
+      "passendes_problem": "blanco-brause-zieht-nicht-zurueck-armatur-tropft"
+    },
+    {
+      "frage": "Meine Blanco-Niederdruckarmatur tropft nach. Ist sie kaputt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.blanco.de/armaturen/kano/kano_238.528/527647",
+        "https://www.hausjournal.net/niederdruckarmatur-undicht",
+        "https://bau.de/forum/sanitaer/11729.php"
+      ],
+      "antwort": "Laut Blanco ist leichtes Nachtropfen bei einer Niederdruckarmatur normal, weil sie an einem Boiler hängt. Beim Aufheizen dehnt sich das Wasser im Boiler aus und tritt über die Armatur aus. Ein Defekt liegt erst vor, wenn es auch bei ausgeschaltetem Boiler und geschlossenem Hebel weiter tropft; dann sind meist Kalk in der Kartusche oder verschlissene Dichtungen die Ursache, und die Kartusche wird getauscht.",
+      "antwort_quellen": [
+        "https://www.blanco.de/armaturen/kano/kano_238.528/527647",
+        "https://media.hornbach.de/hb/document/as.136973224.pdf",
+        "https://media.hornbach.lu/hb/document/as.122495391.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "blanco-kartusche-nd-121491"
+      ],
+      "passendes_problem": "blanco-brause-zieht-nicht-zurueck-armatur-tropft"
+    },
+    {
+      "frage": "Meine Blanco-Armatur wackelt. Wie ziehe ich sie fest, und welches Befestigungsteil brauche ich?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/armatur-kueche-blanco-linus-s-festziehen-2017",
+        "https://www.bauexpertenforum.de/goto/post?id=1226810",
+        "https://www.gutefrage.net/frage/bekomme-den-wasserhahn-am-spuelbecken-nicht-mehr-fest-blech-zu-duenne"
+      ],
+      "antwort": "Die Armatur wird von unten mit einem Befestigungsteil gegen die Spüle gezogen; bei manchen Blanco-Modellen ist das ein Dreiviertelring mit Mutter, der am Brauseschlauch-Anschluss sitzt und leicht zu übersehen ist. Fehlt das Teil oder ist es verrostet, verkauft Blanco modellbezogene Montagesets, zum Beispiel für die LINUS-S. Für dünne Edelstahlspülen bietet Blanco zusätzlich eine Armaturenstabilisierung (60 mm) an.",
+      "antwort_quellen": [
+        "https://www.bauexpertenforum.de/goto/post?id=1226810",
+        "https://www.gutefrage.net/frage/armatur-kueche-blanco-linus-s-festziehen-2017",
+        "https://www.ebay.de/p/20012036832"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Das alte Blanco-Ablaufventil ist nicht mehr lieferbar. Gibt es Ersatz, passen Teile von Viega oder anderen Herstellern?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/264183/Ersatzteil-Blanco-Kuechenspuele-gesucht",
+        "https://www.haustechnikdialog.de/Forum/t/234900/Ueberlaufset-Blanco",
+        "https://www.blanco.at/kuechenarmaturen/ausfuehrungen/"
+      ],
+      "antwort": "Laut Fachleuten im Haustechnikdialog wurden ältere Blanco-Ablaufgarnituren als Sonderanfertigung von Viega gebaut und waren nie über Viega erhältlich. Viega-Standardteile passen deshalb oft nur, wenn du die Rohrverbindungen anpasst, und Anfragen mit Fotos blieben bei mehreren Kunden erfolglos. Blanco Österreich nennt für die meisten Ersatzteile eine Lieferbarkeit von mindestens bis zu 10 Jahren, ausgelaufene Teile sind im Verwendungsnachweis als nicht verfügbar markiert. Ist ein Einzelteil weg, bleibt meist die komplette aktuelle Garnitur passend zur Spülen-Nummer.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/264183/Ersatzteil-Blanco-Kuechenspuele-gesucht",
+        "https://www.blanco.at/kuechenarmaturen/ausfuehrungen/",
+        "https://www.blanco.de/ablauffernbedienungen/zug-ablauffernbedienungrundkunststoffverchromt_179.828.225112/225112"
+      ],
+      "sicherheit": "unsicher",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Mein Blanco InFino-Ablauf schließt nicht, das Wasser läuft trotz geschlossenem Stopfen ab. Was tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.blanco.de/service/haeufig-gestellte-fragen/",
+        "https://www.blanco.com/int/service/faqs/"
+      ],
+      "antwort": "Laut Blanco ist der Ablauf dann meist nicht defekt, sondern das InFino-System muss neu eingestellt werden. Bei der Fernbedienung PushControl drehst du die Schraube am Stopfen so weit, bis PushControl den Stopfen beim Betätigen leicht anhebt, und drehst sie danach 1,5 Umdrehungen zurück. Damit ist der Ablauf auf die Fernbedienung abgestimmt.",
+      "antwort_quellen": [
+        "https://www.blanco.com/int/service/faqs/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "blanco-infino-stopfen-121711",
+        "blanco-infino-stopfen-121710"
+      ],
+      "passendes_problem": "blanco-spuele-laeuft-nicht-ab-siebkorb-dicht-nicht"
+    },
+    {
+      "frage": "Die Auszugsbrause meiner Blanco-Armatur zieht sich nicht mehr zurück. Woran liegt das?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.blanco.de/kuechenarmaturen/ratgeber/reinigung-und-pflege-armaturen/",
+        "https://www.productreview.com.au/listings/blanco-linus-mixer-tap"
+      ],
+      "antwort": "Blanco empfiehlt, etwas Armaturenfett auf die beweglichen Teile des Schlauchs zu geben, dann gleitet er wieder zurück. Prüf außerdem im Unterschrank, ob das Rückholgewicht am tiefsten Punkt hängt und nicht an Abfalleimer oder Einbauten hängen bleibt. Eine Schlauchbrausenführung im Unterschrank verhindert laut Blanco, dass sich der Schlauch verhakt oder verdreht, und verlorene Gewichte gibt es als Ersatzteil.",
+      "antwort_quellen": [
+        "https://www.blanco.de/kuechenarmaturen/ratgeber/reinigung-und-pflege-armaturen/",
+        "https://cdn.shopify.com/s/files/1/0266/7567/5328/files/Onlineanleitung_Kuechenarmatur_Umschalter.pdf",
+        "https://data.epo.org/publication-server/rest/v1.2/patents/EP1536072NWA2/document.pdf",
+        "https://www.blanco.de/ersatzteile/ersatzteile-fuer-armaturen/spezifische-einzelteile/gewichtfuerbrauseschlauch(225g)kp_93.606.122491/122491"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "blanco-gewicht-brauseschlauch-122491",
+        "blanco-gewicht-brauseschlauch-123888"
+      ],
+      "passendes_problem": "blanco-brause-zieht-nicht-zurueck-armatur-tropft"
+    },
+    {
+      "frage": "Der Brauseschlauch meiner Blanco-Armatur ist undicht. Welcher Schlauch passt, und muss ich zum Tauschen das Wasser abdrehen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/brauseschlauch-austausch-an-kuechenarmatur-wasser-abdrehen.112510/",
+        "https://www.ebay.de/p/28042441418"
+      ],
+      "antwort": "Bei geschlossenem Hebel steht der Brauseschlauch zwar nicht unter Druck, im Forum wird aber trotzdem geraten, Eckventile oder Haupthahn zu schließen und die Armatur kurz zu öffnen, damit kein Druck mehr drauf ist. Blanco-Brauseschläuche sind modellabhängig: Es gibt zum Beispiel einen Universalschlauch mit Dichtungen und O-Ring (Anschluss M15 außen und ½\" innen) und für die MIDA-S einen Schlauch samt Brausekopf. Such die passende Nummer über die Artikelnummer deiner Armatur in der Blanco-Ersatzteilliste.",
+      "antwort_quellen": [
+        "https://www.bauexpertenforum.de/threads/brauseschlauch-austausch-an-kuechenarmatur-wasser-abdrehen.112510/",
+        "https://www.ebay.de/p/28042441418",
+        "https://www.ebay.de/itm/134098242857"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "blanco-brauseschlauch-125763",
+        "blanco-brauseschlauch-116432",
+        "blanco-brauseschlauch-122490",
+        "blanco-brauseschlauch-123685",
+        "blanco-dichtung-brauseschlauch-139346"
+      ],
+      "passendes_problem": "blanco-brause-zieht-nicht-zurueck-armatur-tropft"
+    },
+    {
+      "frage": "Meine Blanco-Armatur spritzt in alle Richtungen. Wie bekomme ich den Strahlregler sauber?",
+      "kategorie": "pflege",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.blanco.de/kuechenarmaturen/ratgeber/reinigung-und-pflege-armaturen/"
+      ],
+      "antwort": "Spritzen kommt laut Blanco meist von Kalk im Strahlregler am Auslauf. Leichte Ablagerungen löst du mit Essig- oder Zitronensäure und einer alten Zahnbürste. Bei festem Kalk schraubst du den Strahlregler gegen den Uhrzeigersinn ab und legst ihn über Nacht in Essigwasser oder Zitronensäure; für manche Modelle brauchst du dafür einen Reinigungsschlüssel aus dem Blanco-Ersatzteilshop.",
+      "antwort_quellen": [
+        "https://www.blanco.de/kuechenarmaturen/ratgeber/reinigung-und-pflege-armaturen/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": "blanco-brause-zieht-nicht-zurueck-armatur-tropft"
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "Wie lange gilt die Blanco-Garantie in Deutschland für Spüle und Armatur? (Händler nennen 2 Jahre Herstellergarantie bei der WEGA-S II, andere Angebote 5 Jahre; offizielle deutsche Bedingungen nicht gefunden)",
+      "fundstellen": [
+        "https://www.baur.de/p/AKLBB1548456527",
+        "https://www.ebay.de/b/Blanco-Spultischarmaturen-Kuchenarmatur/29508/bn_96662814"
+      ]
+    },
+    {
+      "frage": "Wo genau steht die Artikelnummer an einer eingebauten Blanco-Spüle oder Armatur?",
+      "fundstellen": [
+        "https://www.hausbau-forum.de/category/B/blanco/"
+      ]
+    },
+    {
+      "frage": "Bei der Blanco-Doppelspüle hebt sich beim Ablassen des einen Beckens der Stöpsel im anderen Becken an. Was hilft?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/251492/Blanco-Doppelspuele"
+      ]
+    },
+    {
+      "frage": "Ein gebrauchtes Blanco-Überlaufset passt auf die Spüle, aber die Verschraubung nicht an den Ablauf. Welches Teil brauche ich?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/234900/Ueberlaufset-Blanco"
+      ]
+    },
+    {
+      "frage": "Wasser tritt am Dichtring zwischen Armatur und Spüle aus, sobald man den Hebel bewegt. Dichtung oder Kartusche?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/spueltischarmatur-ist-unter-dem-dichtring-auf-dem-spuelenblech-undicht"
+      ]
+    },
+    {
+      "frage": "Wie bekomme ich Kalkflecken aus einer SILGRANIT-Spüle, ohne die Oberfläche zu beschädigen?",
+      "fundstellen": [
+        "https://www.blanco.de/service/haeufig-gestellte-fragen/",
+        "https://www.blanco.co.uk/sinks/advisor/cleaning-and-care-of-silgranit-sinks/"
+      ]
+    }
+  ],
+  "allgemeine_muster": "Bei Küchenspülen und Küchenarmaturen dreht sich fast alles um wenige Verschleißstellen: Ablaufgarnitur mit Siebkorb, Bowdenzug und Drehknopf bei der Spüle, Kartusche, Brauseschlauch und Schwenkauslauf bei der Armatur. Die häufigste Hürde ist nicht die Reparatur selbst, sondern das passende Teil zu finden, weil Modellname und Baujahr nicht reichen und Nummern, Durchmesser oder Hoch- und Niederdruck verwechselt werden. Dazu kommen festgefressene Muttern durch Kalk und die Frage, ob sich die Reparatur gegenüber einem Neukauf noch lohnt. Bei älteren Spülen fragen viele, ob ausgelaufene Teile noch zu bekommen sind oder Fremdteile passen."
+}

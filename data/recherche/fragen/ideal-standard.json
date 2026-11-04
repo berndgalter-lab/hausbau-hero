@@ -1,0 +1,334 @@
+{
+  "marke": "Ideal Standard",
+  "fragen": [
+    {
+      "frage": "Welche Kartusche passt in meine Ideal-Standard-Einhebelarmatur und wie finde ich die Bestellnummer?",
+      "kategorie": "nummer",
+      "haeufigkeit": 8,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/154314/Ideal-Standard-Kartusche-fuer-Duscharmatur",
+        "https://www.haustechnikdialog.de/Forum/t/28091/Kartuschentausch-Ideal-Standard-Waschtischarmatur",
+        "https://www.haustechnikdialog.de/Forum/t/38225/Kartusche-Ideal-Standart",
+        "https://www.haustechnikdialog.de/Forum/t/65638/Welche-Kartusche-fuer-Concept-Badewannen-Armatur",
+        "https://www.haustechnikdialog.de/Forum/t/113937/IDEALux-A5410-UP-Armatur",
+        "https://www.haustechnikdialog.de/Forum/t/131492/Ideal-Standard-UP-Armatur-Einhebelmischer-Typ-",
+        "https://www.gutefrage.net/frage/einarm-mischbatterie---keramik-kartusche-standard-oder-modellspezifisch",
+        "https://bau.de/forum/sanitaer/11806.php"
+      ],
+      "antwort": "Eine Standardkartusche gibt es nicht, Ideal Standard verbaut je nach Serie und Baujahr Durchmesser von 28 bis 53 mm. Bau die alte Kartusche aus, miss den Durchmesser und zähl die Befestigungsschrauben (2 oder 3), denn beides unterscheidet die Generationen. Mit der Produktnummer der Armatur findest du auf idealstandard.de die Ersatzteilliste mit Explosionszeichnung, in der die Kartusche mit Bestellnummer (Format A96xxxxNU) steht. Wenn du die Armatur nicht zuordnen kannst, kann ein Installateur die Kartusche anhand von Maßen und Fotos beim Großhandel bestellen.",
+      "antwort_quellen": [
+        "https://www.idealstandard.de/produkte/ersatzteile/badarmaturen",
+        "https://www.haustechnikdialog.de/Forum/t/154314/Ideal-Standard-Kartusche-fuer-Duscharmatur",
+        "https://www.gutefrage.net/frage/einarm-mischbatterie---keramik-kartusche-standard-oder-modellspezifisch",
+        "https://assets.heizung-billiger.de/documents/isdb_b9490.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "ideal-standard-kartusche-a960500nu",
+        "ideal-standard-kartusche-a962552nu",
+        "ideal-standard-kartusche-a961710nu",
+        "ideal-standard-kartusche-a963785nu",
+        "ideal-standard-kartusche-a861156nu",
+        "ideal-standard-kartusche-a861397nu"
+      ],
+      "passendes_problem": "ideal-standard-armatur-tropft"
+    },
+    {
+      "frage": "Thermostat (CeraTherm 100) regelt nicht mehr oder liefert nur lauwarmes Wasser: Muss die ganze Armatur raus?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.energiesparhaus.at/forum-thermostat-von-armatur-kaputt/69864",
+        "https://www.haustechnikdialog.de/Forum/t/245925/Ideal-STANDARD-Ceratherm-100-nur-lauwarmes-Wasser",
+        "https://www.haustechnikdialog.de/Forum/t/169251/Idealstandard-Wannen-BrauseThermostat",
+        "https://www.haustechnikdialog.de/Forum/t/106170/Thermostatbatterie-Ideal-Standard-guenstig-reparieren-",
+        "https://www.haustechnikdialog.de/Forum/t/141250/Thermostat-Mischbatterie-Reparieren-oder-neu-"
+      ],
+      "antwort": "Meist reicht es, die Thermostatkartusche zu tauschen. Bei einer Aufputz-Wannenarmatur CeraTherm 100 (A4623AA) hat ein Nutzer im Forum die Kartusche A962229NU eingebaut und das Problem damit gelöst, und die Ideal-Standard-Ersatzteilliste für CeraTherm 100/200/300 führt genau diese Kartusche G1/2. Für die neuere Serie Ceratherm T gibt es eine andere Kartusche, prüf also vorher die Produktnummer. Bleibt das Wasser nach dem Tausch lauwarm, nennen Fachforen einen Druckunterschied zwischen Warm- und Kaltwasser als weitere Ursache.",
+      "antwort_quellen": [
+        "https://www.energiesparhaus.at/forum-thermostat-von-armatur-kaputt/69864",
+        "https://idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133054-source/options/download/is-ceratherm-mp-sparesl-de-bathroom100200300",
+        "https://bau.de/forum/sanitaer/12072.php"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "ideal-standard-thermostatkartusche-a962229nu",
+        "ideal-standard-wartungsset-a962230nu",
+        "ideal-standard-thermostatkartusche-a861371nu"
+      ],
+      "passendes_problem": "ideal-standard-thermostat-regelt-nicht"
+    },
+    {
+      "frage": "Meine alte Ceramix-Kartusche (z. B. A961710NU oder 46 mm) gibt es nicht mehr. Was kann ich tun?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/287166/Ersatz-fuer-IDEAl-Standard-Kartusche-A961710NU-",
+        "https://www.haustechnikdialog.de/Forum/t/154191/Ideal-Standard-Ceramix-BJ-1982-erneuern",
+        "https://www.haustechnikdialog.de/Forum/t/173343/IS-Ceramix-alt-A1515",
+        "https://bau.de/forum/sanitaer/11806.php"
+      ],
+      "antwort": "Für die erste Ceramix-Generation mit 46-mm-Kartusche gibt es laut Fachforum keine neue Ersatzkartusche mehr, und auch die 53-mm-Kartusche A961710NU war 2025 kaum noch zu bekommen. Unterputzkörper mit 53-mm-Kartusche (Baujahre etwa 1975 bis 1983) lassen sich mit einem Renovierungsset umrüsten, dabei werden alle Funktionsteile und die Blende erneuert. Körper mit 46-mm-Kartusche aus der Zeit vor 1974 sind laut Händlerangabe nicht umrüstbar, dann bleibt nur der Austausch der Armatur.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/287166/Ersatz-fuer-IDEAl-Standard-Kartusche-A961710NU-",
+        "https://www.haustechnikdialog.de/Forum/t/154191/Ideal-Standard-Ceramix-BJ-1982-erneuern",
+        "https://weinmann-schanz.de/de/en/Plumbing/Bath-fittings/basic-body/Renovation-set-for-bathroom-shower-fitting/Flush-mounted-renovation-set-shower-for-converting-old-flush-mounted-bodies-1974-97-to-current-complete-sets-sid2501943"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "ideal-standard-kartusche-a961710nu",
+        "ideal-standard-kartusche-a962552nu",
+        "ideal-standard-renovierungsset-a963800nu",
+        "ideal-standard-renovierungsset-a963801nu"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Kann ich einen alten Ceramix-Unterputz-Einhebelmischer auf Thermostat umrüsten?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/131186/CERAMIX-Einhebelmischer-gegen-Thermostat-tauschen-",
+        "https://www.haustechnikdialog.de/Forum/t/284624/Einhebel-Armatur-tauschen-gegen-Unterputz-Thermostat-Loesung",
+        "https://www.haustechnikdialog.de/Forum/t/154191/Ideal-Standard-Ceramix-BJ-1982-erneuern"
+      ],
+      "antwort": "Das hängt vom Kartuschendurchmesser im Unterputzkörper ab. Laut einer Antwort im Fachforum geht der Umbau nur bei Körpern mit 53-mm- oder 47-mm-Kartusche, bei 46 mm nicht. Genannt wurde dort 2013 der Umbausatz A5401AA. Ob dieser Satz heute noch lieferbar ist, konnten wir nicht prüfen, frag daher vor dem Kauf beim Fachhandel nach dem aktuellen Umbausatz.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/131186/CERAMIX-Einhebelmischer-gegen-Thermostat-tauschen-",
+        "https://www.haustechnikdialog.de/Forum/t/154191/Ideal-Standard-Ceramix-BJ-1982-erneuern"
+      ],
+      "sicherheit": "unsicher",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Der Ceramix-Hebel ist schwergängig, wackelt oder ist abgebrochen. Kartusche oder Hebel tauschen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/154191/Ideal-Standard-Ceramix-BJ-1982-erneuern",
+        "https://bau.de/forum/installation/12223.php",
+        "https://bau.de/forum/sanitaer/12063.php"
+      ],
+      "antwort": "Ein schwergängiger Hebel kommt meist von einer verkalkten oder verschlissenen Kartusche, Armaturenfett hilft nach Forenberichten nur kurz. Wackelt der Hebel, sitzt laut Ceramix-Ersatzteilliste ein Gewindestift (Innensechskant SW 2,5) im Griff, den du nachziehen kannst. Ein ausgeschlagener oder gebrochener Griffhebel ist einzeln erhältlich, für Ceramix No. 1 in Chrom unter A960754AA. Bei sehr alten Ceramix-Armaturen sind Hebel und Blende teils nicht mehr lieferbar.",
+      "antwort_quellen": [
+        "https://idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133031-source/options/download/is-ceramix-mp-sparesl-de-bathroomidealtherm",
+        "https://www.ebay.de/p/1105175332",
+        "https://bau.de/forum/installation/12223.php",
+        "https://www.haustechnikdialog.de/Forum/t/154191/Ideal-Standard-Ceramix-BJ-1982-erneuern"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "ideal-standard-griffhebel-a960754aa",
+        "ideal-standard-kartusche-a960500nu",
+        "ideal-standard-kartusche-a962552nu",
+        "ideal-standard-kartusche-a961710nu"
+      ],
+      "passendes_problem": "ideal-standard-ceramix-hebel-locker-schwergaengig"
+    },
+    {
+      "frage": "Ich habe die Kartusche getauscht, aber der Wasserhahn tropft immer noch. Woran liegt das?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/56464/Kartusche-gewchselt-Ideal-Standard-Wasserhahn-tropft-",
+        "https://www.haustechnikdialog.de/Forum/t/36431/Probleme-mit-neuer-Kartusche-von-Ideal-Standard"
+      ],
+      "antwort": "Häufig sitzen Kalk oder Rost auf den Dichtflächen im Armaturenkörper, auf denen die neue Kartusche aufliegt. Im Forum wird geraten, die Kartusche noch einmal auszubauen, den Innenkörper und die Sitze gründlich zu reinigen und die Gummidichtungen der Kartusche mit Armaturenfett einzustreichen. Zieh die Befestigungsschrauben danach gleichmäßig und nicht zu fest an.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/56464/Kartusche-gewchselt-Ideal-Standard-Wasserhahn-tropft-",
+        "https://www.haustechnikdialog.de/Forum/t/106170/Thermostatbatterie-Ideal-Standard-guenstig-reparieren-"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "ideal-standard-dichtungsset-a961155nu"
+      ],
+      "passendes_problem": "ideal-standard-armatur-tropft"
+    },
+    {
+      "frage": "Kann ich bei Ideal Standard nur die Dichtungen der Kartusche tauschen statt der ganzen Kartusche?",
+      "kategorie": "bezug",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/38225/Kartusche-Ideal-Standart",
+        "https://www.haustechnikdialog.de/Forum/t/56464/Kartusche-gewchselt-Ideal-Standard-Wasserhahn-tropft-"
+      ],
+      "antwort": "Für die 47-mm-Kartusche führen die Ideal-Standard-Ersatzteillisten von Ceraplan, Ceramix Classic und Ceramix Top-Fix ein eigenes Dichtungs-Set mit der Nummer A961155NU. Das hilft, wenn Wasser unter dem Hebel austritt. Tropft der Auslauf bei geschlossenem Hebel, sind die Keramikscheiben in der Kartusche verschlissen, und dann musst du die ganze Kartusche tauschen. Für andere Durchmesser hat ein Installateur im Forum berichtet, dass die O-Ringe nicht einzeln zu haben sind.",
+      "antwort_quellen": [
+        "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133041-source/options/download",
+        "https://www.idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133025-source/options/download",
+        "https://www.haustechnikdialog.de/Forum/t/38225/Kartusche-Ideal-Standart",
+        "https://www.selbst.de/armatur-kartusche-wechseln-20928.html"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "ideal-standard-dichtungsset-a961155nu",
+        "ideal-standard-kartusche-a960500nu"
+      ],
+      "passendes_problem": "ideal-standard-armatur-tropft"
+    },
+    {
+      "frage": "Wo finde ich die Produktnummer meiner Ideal-Standard-Armatur und wie ist sie aufgebaut?",
+      "kategorie": "nummer",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/25789/Wer-kennt-diese-alte-Id-Standard-Armatur-?PostSort=1",
+        "https://www.haustechnikdialog.de/Forum/t/60634/Von-welchem-Hersteller-ist-diese-Armatur-",
+        "https://www.haustechnikdialog.de/Forum/t/131492/Ideal-Standard-UP-Armatur-Einhebelmischer-Typ-"
+      ],
+      "antwort": "Ideal-Standard-Produktnummern bestehen aus einem Buchstaben, vier Ziffern und einem Oberflächencode, etwa B9490AA, wobei AA für Chrom steht. Die Nummer steht in Rechnung, Montageanleitung und Datenblatt, und die Ersatzteillisten sind danach sortiert. Wo sie an der Armatur selbst steht, haben wir in keiner Herstellerquelle gefunden. Im Forum wird deshalb geraten, ein Foto der Armatur einzustellen oder die alte Kartusche auszumessen.",
+      "antwort_quellen": [
+        "https://assets.heizung-billiger.de/documents/isdb_b9490.pdf",
+        "https://www.idealstandard.de/produkte/ersatzteile/badarmaturen",
+        "https://www.haustechnikdialog.de/Forum/t/154314/Ideal-Standard-Kartusche-fuer-Duscharmatur"
+      ],
+      "sicherheit": "unsicher",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Was bedeutet die Endung NU (oder AA) an der Ideal-Standard-Ersatzteilnummer?",
+      "kategorie": "nummer",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/154314/Ideal-Standard-Kartusche-fuer-Duscharmatur",
+        "https://www.haustechnikdialog.de/Forum/t/106170/Thermostatbatterie-Ideal-Standard-guenstig-reparieren-"
+      ],
+      "antwort": "Die letzten zwei Buchstaben bezeichnen die Oberfläche, AA steht zum Beispiel für Chrom. Laut einem Beitrag im Fachforum steht NU bei Innenteilen wie Kartuschen für eine unbehandelte Oberfläche, das Teil selbst sei dasselbe wie ohne diese Kennung. Eine Bestätigung von Ideal Standard für NU haben wir nicht gefunden.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/154314/Ideal-Standard-Kartusche-fuer-Duscharmatur",
+        "https://www.haustechnikdialog.de/Forum/t/106170/Thermostatbatterie-Ideal-Standard-guenstig-reparieren-"
+      ],
+      "sicherheit": "unsicher",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Die Thermostatkartusche sitzt fest. Wie bekomme ich sie heraus, ohne die Armatur zu beschädigen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/245306/Ausbau-Thermostat-Dusche-Ideal-Standard",
+        "https://www.haustechnikdialog.de/Forum/t/105077/Idealtherm-Ideallux-Kartusche-selbst-wechseln-"
+      ],
+      "antwort": "Sperr vorher das Wasser ab und lass die Leitung drucklos laufen, bei manchen Armaturen geht das nur am Hauptabsperrventil. Löst sich die Kartusche nicht, raten Fachforen zu Entkalker oder Kriechöl und vorsichtigem Ansetzen am Sechskant. Mit Gewalt riskierst du, das Gewinde im Armaturenkörper zu beschädigen. Vor dem Einbau der neuen Kartusche muss der alte Kalk aus dem Körper, sonst dichtet sie nicht.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/245306/Ausbau-Thermostat-Dusche-Ideal-Standard",
+        "https://www.haustechnikdialog.de/Forum/t/105077/Idealtherm-Ideallux-Kartusche-selbst-wechseln-"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "ideal-standard-thermostatkartusche-a962229nu",
+        "ideal-standard-wartungsset-a962230nu"
+      ],
+      "passendes_problem": "ideal-standard-thermostat-regelt-nicht"
+    },
+    {
+      "frage": "Wie lange gibt Ideal Standard Ersatzteile, gibt es eine Nachkaufgarantie?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://bau.de/forum/sanitaer/11806.php",
+        "https://bau.de/forum/installation/12223.php",
+        "https://www.gutefrage.net/frage/einarm-mischbatterie---keramik-kartusche-standard-oder-modellspezifisch"
+      ],
+      "antwort": "Eine einheitliche Zusage für alle Produkte haben wir bei Ideal Standard nicht gefunden. Auf der Produktseite der CeraPlan III nennt der Hersteller eine 10-jährige Nachkaufgarantie auf Verschleißteile, für das Vorwandsystem ProSys sagt eine Pressemitteilung von 2019 eine Ersatzteilverfügbarkeit von 25 Jahren zu. Bei Serien, die vor Jahrzehnten ausgelaufen sind, etwa frühen Ceramix-Modellen, fehlen nach Forenberichten einzelne Teile wie Hauben oder Blenden.",
+      "antwort_quellen": [
+        "https://www.idealstandard.de/products/ceraplan_iii.html",
+        "https://www.idealstandard.de/ueber-uns/presse/2019/prosys-ideal-standard-fuehrt-vielseitige-vorwandsysteme-ein",
+        "https://bau.de/forum/sanitaer/11806.php"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Der Ideal-Standard-Spülkasten läuft nach oder die Heberglocke ist undicht. Welches Teil brauche ich?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/288905/Ideal-Standard-Heberglocke-undicht-",
+        "https://www.gutefrage.net/frage/gibt-es-spuelkaesten-die-auf-ein-ca-30-jahre-altes-ideal-standard-wc-passen"
+      ],
+      "antwort": "Läuft ständig Wasser in die Schüssel, ist meist die Dichtung am Ablaufventil bzw. an der Heberglocke verschlissen, steigt das Wasser bis zum Überlauf, eher das Füllventil. Beim Unterputzsystem ProSys führt die Ideal-Standard-Ersatzteilliste die Ablaufventil-Dichtung RV15567 und eigene Füllventile, an den Spülkasten kommst du werkzeugfrei über die Betätigungsöffnung. Bei älteren Keramikspülkästen kommt es auf den Innendurchmesser der flachen Heberglockendichtung an, für sehr alte Ventile empfehlen Fachforen eine komplette Austauschgarnitur.",
+      "antwort_quellen": [
+        "https://www.sanier.de/badezimmer/unterputz-spuelkasten-reparieren",
+        "https://www.idealstandard.co.uk/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/235420-source/multibrand-prosys-multiproduct-sparesl-nn-isashr009067r009167r014167r027967",
+        "https://www.haustechnikdialog.de/Forum/t/288905/Ideal-Standard-Heberglocke-undicht-",
+        "https://www.galaxus.ch/en/s4/product/ideal-standard-prosys-unterputzspuelkasten-toilet-tanks-33595587"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "ideal-standard-dichtung-rv15567",
+        "ideal-standard-fuellventil-rv15467",
+        "ideal-standard-fuellventil-rv15367",
+        "ideal-standard-spuelventil-rv25367",
+        "ideal-standard-spuelventil-rv25167"
+      ],
+      "passendes_problem": "ideal-standard-spuelkasten-laeuft-nach"
+    },
+    {
+      "frage": "Kann man eine Ideal-Standard-Kartusche öffnen und reparieren, statt sie zu ersetzen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://bau.de/forum/sanitaer/12369.php",
+        "https://www.haustechnikdialog.de/Forum/t/38225/Kartusche-Ideal-Standart"
+      ],
+      "antwort": "Die Ideal-Standard-Unterlagen beschreiben nur den Tausch der kompletten Kartusche, eine Anleitung zum Zerlegen gibt es nicht. Ratgeber und Foren behandeln Einhebelkartuschen als Einheit, die bei Verschleiß ganz ersetzt wird. Ausnahmen sind außen liegende Dichtungen wie beim Dichtungs-Set für Ø47 mm und das Wartungs-Set für die Thermostatkartusche G1/2. Die Aussage im bau.de-Thread stammt teils aus einer automatisch erzeugten Zusammenfassung, deshalb ist sie nur eingeschränkt belastbar.",
+      "antwort_quellen": [
+        "https://bau.de/forum/sanitaer/12369.php",
+        "https://www.selbst.de/armatur-kartusche-wechseln-20928.html",
+        "https://www.haustechnikdialog.de/Forum/t/38225/Kartusche-Ideal-Standart"
+      ],
+      "sicherheit": "unsicher",
+      "passende_teile": [
+        "ideal-standard-dichtungsset-a961155nu",
+        "ideal-standard-wartungsset-a962230nu"
+      ],
+      "passendes_problem": "ideal-standard-armatur-tropft"
+    },
+    {
+      "frage": "Wie löse ich die Top-Fix-Befestigung einer Ideal-Standard-Waschtischarmatur?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://bau.de/forum/sanitaer/11833.php"
+      ],
+      "antwort": "Top-Fix wird von oben montiert und auch von oben gelöst. Im Forum war die Lösung: Zugstange der Ablaufgarnitur abnehmen, oben an der Hebelführung sitzt ein Innensechskant. Damit drehst du die Gewindestange, bis sich der Haltemechanismus unter dem Waschtisch um 90 Grad dreht und durch das Hahnloch passt. Der Fragesteller hat so die Armatur ausgebaut.",
+      "antwort_quellen": [
+        "https://bau.de/forum/sanitaer/11833.php"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "Gibt es einen neuen Spülkasten, der auf ein etwa 30 Jahre altes Ideal-Standard-WC passt?",
+      "fundstellen": ["https://www.gutefrage.net/frage/gibt-es-spuelkaesten-die-auf-ein-ca-30-jahre-altes-ideal-standard-wc-passen"]
+    },
+    {
+      "frage": "Der Schwenkauslauf meiner Ideal-Standard-Küchenarmatur lässt sich kaum noch drehen. Welches Teil ist schuld?",
+      "fundstellen": ["https://www.gutefrage.net/frage/der-arm-meiner-ideal-standard-armatur-laesst-sich-kaum-noch-drehen"]
+    },
+    {
+      "frage": "Lohnt sich ein günstiger Nachbau statt der Original-Thermostatkartusche, die teurer ist als die ganze Armatur?",
+      "fundstellen": ["https://www.haustechnikdialog.de/Forum/t/106170/Thermostatbatterie-Ideal-Standard-guenstig-reparieren-"]
+    },
+    {
+      "frage": "Für eine Ceramix-Duscharmatur von 1984 ist die Haube über der Kartusche nicht mehr lieferbar. Gibt es Alternativen?",
+      "fundstellen": ["https://bau.de/forum/sanitaer/11806.php"]
+    },
+    {
+      "frage": "Welche Kartusche passt in eine Ideal-Standard-Concept-Badewannenarmatur?",
+      "fundstellen": ["https://www.haustechnikdialog.de/Forum/t/65638/Welche-Kartusche-fuer-Concept-Badewannen-Armatur"]
+    },
+    {
+      "frage": "Welches Ersatzscharnier oder welcher Softclose-Dämpfer passt auf meinen Ideal-Standard-WC-Sitz (Connect, Tesi)?",
+      "fundstellen": ["https://www.kaufland.at/product/439182095/"]
+    }
+  ],
+  "allgemeine_muster": "Die meisten Fragen drehen sich darum, welche Kartusche in eine bestimmte Armatur passt, weil weder Modell noch Nummer an der Armatur ablesbar sind und Durchmesser und Befestigung je nach Baujahr wechseln. Danach folgen Fragen zu tropfenden Hähnen und Thermostaten, die nicht mehr regeln, und ob dafür ein Kartuschentausch reicht oder die ganze Armatur raus muss. Bei alten Unterputzarmaturen kommt fast immer die Frage, ob es noch Teile gibt oder ob ein Renovierungsset auf den alten Körper passt. Preisfragen tauchen auf, wenn das Ersatzteil fast so viel kostet wie eine neue Armatur."
+}

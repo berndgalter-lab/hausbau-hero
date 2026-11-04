@@ -28,6 +28,8 @@ TITEL_VERBOTEN = [
     (re.compile(r"\b(Test|Testsieger)\b", re.I), "„Test“ ohne eigenen Test"),
 ]
 ABZEICHEN = ("ist_testsieger", "ist_preistipp")
+# Gleiche Liste wie FRAGE_KATEGORIEN in src/lib/ersatzteile.ts
+FRAGE_KATEGORIEN = ("nummer", "kompatibilitaet", "reparatur", "verfuegbarkeit", "bezug", "pflege")
 ABZEICHEN_TEXT = re.compile(r"Testsieger|Preis-Tipp|Unsere Empfehlung", re.I)
 
 fehler: list[str] = []
@@ -93,6 +95,7 @@ def pruefe_ersatzteile(streng: bool) -> None:
             ("zuordnungen", d.get("zuordnungen", []), ("hinweis",)),
             ("probleme", d.get("probleme", []), ("symptom", "fachbetrieb_ab")),
             ("widersprueche", d.get("widersprueche", []), ("thema", "aussage_a", "aussage_b")),
+            ("fragen", d["marke"].get("fragen", []), ("frage", "antwort")),
         ]
         for bereich, liste, felder in bereiche:
             for e in liste:
@@ -101,6 +104,32 @@ def pruefe_ersatzteile(streng: bool) -> None:
                     if m:
                         wer = e.get("slug") or e.get("thema") or e.get("serie_slug") or bereich
                         ziel.append(f"{datei}: {bereich} {wer}: Notiz-Sprache in {f} („{m.group(0)}“)")
+        pruefe_fragen(datei, d)
+
+
+def pruefe_fragen(datei: str, d: dict) -> None:
+    """Häufige Fragen: jede mit Antwort, Kategorie und Quelle; Verweise auf Teile und Probleme der Datei."""
+    teile = {t["slug"] for t in d.get("teile", [])}
+    probleme = {p["slug"] for p in d.get("probleme", [])}
+    gesehen = set()
+    for f in d["marke"].get("fragen", []):
+        frage = f.get("frage", "")
+        if not frage.endswith("?"):
+            fehler.append(f"{datei}: Frage ohne Fragezeichen: {frage[:60]}")
+        if frage.lower() in gesehen:
+            fehler.append(f"{datei}: Frage doppelt: {frage[:60]}")
+        gesehen.add(frage.lower())
+        if not f.get("antwort"):
+            fehler.append(f"{datei}: Frage ohne Antwort: {frage[:60]}")
+        if f.get("kategorie") not in FRAGE_KATEGORIEN:
+            fehler.append(f"{datei}: Frage mit unbekannter Kategorie „{f.get('kategorie')}“: {frage[:60]}")
+        if not f.get("quellen"):
+            fehler.append(f"{datei}: Frage ohne Quelle: {frage[:60]}")
+        for t in f.get("teile", []):
+            if t not in teile:
+                fehler.append(f"{datei}: Frage verweist auf unbekanntes Teil {t}")
+        if f.get("problem") and f["problem"] not in probleme:
+            fehler.append(f"{datei}: Frage verweist auf unbekanntes Problem {f['problem']}")
 
 
 def main() -> int:
