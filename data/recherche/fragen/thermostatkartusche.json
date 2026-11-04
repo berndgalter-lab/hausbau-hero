@@ -1,0 +1,281 @@
+{
+  "thema": "Thermostatkartusche für Dusche und Wanne (Aufputz- und Unterputz-Thermostate), markenübergreifend",
+  "fragen": [
+    {
+      "frage": "Welche Thermostatkartusche passt in meinen Duschthermostat?",
+      "kategorie": "nummer",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.energiesparhaus.at/forum-brausethermostat-kaputt-kartusche-tauschen/76717",
+        "https://www.gutefrage.net/a/frage/unterputzdurscharmatur-kartusche-tauschen",
+        "https://www.bauexpertenforum.de/threads/kartusche-gesucht.145181/",
+        "https://www.haustechnikdialog.de/Forum/t/260536/Hansa-Armatur-altes-Modell-Ersatz",
+        "https://www.energiesparhaus.at/forum-thermostat-von-armatur-kaputt/69864",
+        "https://www.haustechnikdialog.de/Forum/t/1162/Mischbatterie-Thermostat-regelt-nicht-richtig"
+      ],
+      "antwort": "Thermostatkartuschen sind keine Normteile, jeder Hersteller hat eigene Bauarten und führt je Serie und Baujahr eine bestimmte Kartusche. Du brauchst Hersteller und Artikelnummer der Armatur, dann steht die Kartusche in der Ersatzteilliste (Grohe, hansgrohe, Hansa, Ideal Standard und Kludi listen je Armatur genau eine). Ohne Hersteller wird es schwierig: Im energiesparhaus-Forum fand ein Nutzer für einen FIR-Thermostat nur ähnlich aussehende Teile.",
+      "antwort_quellen": [
+        "https://www.energiesparhaus.at/forum-brausethermostat-kaputt-kartusche-tauschen/76717",
+        "https://www.hansgrohe.co.uk/articledetail-mtc-thermostat-cartridge-94282000",
+        "https://www.hansa.com/de/produkte/59914114/thermostatkartusche-34",
+        "https://idealstandard.de/dfsmedia/9e07a8a15f014cab9f19c3786cffba89/133054-source/options/download/is-ceratherm-mp-sparesl-de-bathroom100200300",
+        "https://assets.heizung-billiger.de/documents/kldb_7480900-00.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/1162/Mischbatterie-Thermostat-regelt-nicht-richtig"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Ich finde die Artikelnummer meines alten Thermostats nicht. Wie komme ich an die richtige Kartusche?",
+      "kategorie": "nummer",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/260536/Hansa-Armatur-altes-Modell-Ersatz",
+        "https://www.haustechnikdialog.de/Forum/t/243697/hansgrohe-Allegroh-BJ-84-85-Thermostatelement-Ersatzteil",
+        "https://www.energiesparhaus.at/forum-brausethermostat-kaputt-kartusche-tauschen/76717"
+      ],
+      "antwort": "Hansa nennt keine feste Stelle an der Armatur, die Nummer steht auf Rechnung, Lieferschein oder Verpackung. Fehlt sie, hilft die Nummer der ausgebauten Kartusche: Auf hansa.com zeigt jede Teileseite die passenden Armaturen, so wurde im Forum ein 30 Jahre alter Thermostat über die Kartusche 59904501 als Hansamat bestimmt. In einem anderen Fall steckte hinter einem alten hansgrohe-Griff ein Hansa-Thermoelement.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/260536/Hansa-Armatur-altes-Modell-Ersatz",
+        "https://www.hansa.com/de/produkte/59904501/thermostatkartusche-g12",
+        "https://stories.hansa.com/de/finden-sie-schnell-hansa-ersatzteile-und-produktdaten-die-sie-brauchen",
+        "https://www.haustechnikdialog.de/Forum/t/243697/hansgrohe-Allegroh-BJ-84-85-Thermostatelement-Ersatzteil"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "1/2 oder 3/4 Zoll: Welche Größe hat meine Thermostatkartusche?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/a/frage/unterputzdurscharmatur-kartusche-tauschen",
+        "https://www.hornbach.de/p/thm-kartusche-3-4-fuer-thermostat-grohtherm-47483000/10445790/"
+      ],
+      "antwort": "Die Zoll-Angabe ist die Nennweite der Armatur, 1/2\" entspricht DN 15, 3/4\" DN 20. Gemessen wird sie nicht an der Kartusche. Grohe führt dieselbe Kompaktkartusche in 1/2\" (47439000) und 3/4\" (47483000), Kludi hat für Unterputz-Thermostate mit G 3/4 eine eigene Regeleinheit (7492700-00), hansgrohe Regeleinheiten in DN 15 und DN 20. Die Größe steht in der Ersatzteilliste oder auf dem Unterputzkörper.",
+      "antwort_quellen": [
+        "https://www.grohe.com/de-DE/produkt/47439000",
+        "https://www.grohe.com/de-DE/produkt/47483000",
+        "https://www.megabad.com/hersteller-kludi-ersatzteile-temperaturregeleinheit-up-thermostate-a-230987.htm"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Haben Aufputz- und Unterputz-Thermostat dieselbe Kartusche?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/a/frage/unterputzdurscharmatur-kartusche-tauschen",
+        "https://www.bauexpertenforum.de/threads/kartusche-gesucht.145181/"
+      ],
+      "antwort": "Das hängt von Hersteller und Serie ab. Kludi trennt: 7672900-00 für Aufputz-Thermostate, 7480900-00 für die Unterputzkörper 35156, 35158 und Flexx.Boxx 88066. Bei hansgrohe steckt die SMTC-Regeleinheit 98282000 dagegen im Aufputz-Thermostat Ecostat Comfort und in ShowerSelect-Unterputz-Thermostaten, bei Hansa die 3.4 in Hansamicra und in Hansavarox-Fertigsets ab 2017.",
+      "antwort_quellen": [
+        "https://assets.heizung-billiger.de/documents/kldb_7672900-00.pdf",
+        "https://assets.heizung-billiger.de/documents/kldb_7480900-00.pdf",
+        "https://www.hansgrohe.de/articledetail-temperatur-regeleinheit-smtc-98282000",
+        "https://www.hansa.com/de/produkte/59914114/thermostatkartusche-34"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Grohe 47439000 oder 47450000: Was ist der Unterschied?",
+      "kategorie": "nummer",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.fixthebog.uk/grohe-universal-thermostatic-tap-cartridge-chrome-plated-47450000",
+        "https://www.kaufland.at/product/300533239/"
+      ],
+      "antwort": "47439000 ist die komplette TurboStat-Kompaktkartusche 1/2\" für Aufputz-Thermostate wie Grohtherm 800 und 1000. 47450000 ist nur das Dehnstoff-Thermoelement 1/2\" für ältere Linien wie Chiara und Sentosa. Händler beschriften beide teils vertauscht (Kaufland listet 47450000 als „Bimetall“, Grohe nennt „Dehnstoff“). Maßgeblich ist die Grohe-Ersatzteilliste.",
+      "antwort_quellen": [
+        "https://www.grohe.com/de-DE/produkt/47439000",
+        "https://www.grohe.com/de-DE/produkt/47450000",
+        "https://www.kaufland.at/product/300533239/"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "hansgrohe MTC oder SMTC: Welche Regeleinheit brauche ich?",
+      "kategorie": "nummer",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.manomano.co.uk/p/94282000-brass-temperature-control-unit-brass-thermostatic-shower-cartridge-34-compatible-with-hansgrohe-ecostat-showers-2-and-3-hole-bath-thermostat-214590602",
+        "https://www.haustechnikdialog.de/Forum/t/117308/hansgrohe-UP-Dusch-Thermostat-nur-kaltes-Wasser"
+      ],
+      "antwort": "Die MTC 94282000 gehört laut hansgrohe in Ecostat 1001 CL, ältere Ecostat 1001 SL und Ecostat E/S Unterputz. Die SMTC 98282000 steckt in Ecostat Comfort, ShowerSelect-Unterputz-Thermostaten und vielen Showerpipes. Nachbau-Anbieter werfen die Nummern teils durcheinander.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.co.uk/articledetail-mtc-thermostat-cartridge-94282000",
+        "https://www.hansgrohe.de/articledetail-temperatur-regeleinheit-smtc-98282000",
+        "https://www.manomano.co.uk/p/94282000-brass-temperature-control-unit-brass-thermostatic-shower-cartridge-34-compatible-with-hansgrohe-ecostat-showers-2-and-3-hole-bath-thermostat-214590602"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Mein Thermostat gibt nur ganz heiß oder ganz kalt und regelt verkehrt herum. Sind die Anschlüsse vertauscht?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/geht-einen-thermostat-duscharmatur-weil-vertauschen-anschluessen",
+        "https://www.haustechnikdialog.de/Forum/t/120030/HansGrohe-Ecostat-1001-SL-macht-nur-ganz-kalt-od-ganz-heiss-",
+        "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers"
+      ],
+      "antwort": "Genau dieses Bild entsteht, wenn Warmwasser rechts statt links ankommt. Dann brauchst du die Kartusche für vertauschte Anschlüsse: Grohe 47175000 (Aufputz-Grohtherm), hansgrohe 92373000, Hansa 59911527 (Hansatempra) oder 59913463 (Hansatempra Style). Grohe weist darauf hin, dass die 47175000 die EN 1111 nicht erfüllt und die CoolTouch-Funktion entfällt.",
+      "antwort_quellen": [
+        "https://www.grohe.com/de-DE/produkt/47175000",
+        "https://www.hansgrohe.de/articledetail-regeleinheit-fuer-vertauschte-anschluesse-92373000",
+        "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2832_pdf.pdf",
+        "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers",
+        "https://www.haustechnikdialog.de/Forum/t/120030/HansGrohe-Ecostat-1001-SL-macht-nur-ganz-kalt-od-ganz-heiss-"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Muss ich den Thermostat nach dem Kartuschentausch neu einstellen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/1162/Mischbatterie-Thermostat-regelt-nicht-richtig",
+        "https://www.bauexpertenforum.de/threads/thermostatkartusche-tauschen.148382/"
+      ],
+      "antwort": "Ja. Laut Grohe-Anleitung misst du nach jeder Wartung die Auslauftemperatur mit einem Thermometer, drehst die Reguliermutter, bis 38 °C kommen, und steckst den Griff so auf, dass die Sperrtaste nach oben zeigt. Hansa beschreibt dasselbe Prinzip: Griff aufsetzen, sodass die Markierung auf 38 °C steht.",
+      "antwort_quellen": [
+        "https://cdn.cloud.grohe.com/tpi/1000/1900/1970/1974/1974564/original/1974564.pdf",
+        "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Die Thermostatkartusche sitzt fest. Wie bekomme ich sie heraus?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/thermostatkartusche-tauschen.148382/",
+        "https://www.haustechnikdialog.de/Forum/t/245306/Ausbau-Thermostat-Dusche-Ideal-Standard",
+        "https://www.bauexpertenforum.de/goto/post?id=1332159"
+      ],
+      "antwort": "Meist ist sie festgekalkt. Fachleute im Forum raten zu Entkalker oder Kriechöl und Ansetzen am Sechskant, aber nicht mit Gewalt, sonst reißt das Gewinde im Armaturenkörper. Bricht nur der Innenteil heraus und der Messingring bleibt im Körper, hilft ein Spezial- oder Stirnlochschlüssel. Für Hansa-Kartuschen nennt Hansa einen 38-mm-Schlüssel.",
+      "antwort_quellen": [
+        "https://www.bauexpertenforum.de/threads/thermostatkartusche-tauschen.148382/",
+        "https://www.haustechnikdialog.de/Forum/t/245306/Ausbau-Thermostat-Dusche-Ideal-Standard",
+        "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Reicht Entkalken, oder muss die Thermostatkartusche neu?",
+      "kategorie": "pflege",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/wasser-wird-in-dusche-nicht-warm",
+        "https://www.gutefrage.net/frage/waermeregler-in-dusche-kaputt",
+        "https://www.haustechnikdialog.de/Forum/t/117308/hansgrohe-UP-Dusch-Thermostat-nur-kaltes-Wasser",
+        "https://www.energiesparhaus.at/forum-brausethermostat-kaputt-kartusche-tauschen/76717"
+      ],
+      "antwort": "Zuerst reinigen: Grohe und Hansa beschreiben, Kartusche, Siebe und Rückflussverhinderer auszubauen, zu reinigen und die Dichtungen zu fetten. Hilft das nicht, wird getauscht. Das Thermoelement selbst lässt sich nicht reparieren, das sagte der hansgrohe-Werksservice laut Forum.",
+      "antwort_quellen": [
+        "https://cdn.cloud.grohe.com/tpi/1000/1900/1970/1974/1974564/original/1974564.pdf",
+        "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers",
+        "https://www.haustechnikdialog.de/Forum/t/117308/hansgrohe-UP-Dusch-Thermostat-nur-kaltes-Wasser"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Original oder Nachbau: Lohnt sich eine billige Ersatz-Thermostatkartusche?",
+      "kategorie": "bezug",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.energiesparhaus.at/forum-brausethermostat-kaputt-kartusche-tauschen/76717",
+        "https://www.manomano.co.uk/p/94282000-brass-temperature-control-unit-brass-thermostatic-shower-cartridge-34-compatible-with-hansgrohe-ecostat-showers-2-and-3-hole-bath-thermostat-214590602"
+      ],
+      "antwort": "Bei Nachbauten widersprechen sich die Passt-zu-Angaben oft, ein Anbieter ordnet etwa einer MTC-Kopie die falsche hansgrohe-Nummer zu. hansgrohe schließt Reparaturen mit Nicht-Originalteilen von der Garantie aus. Die Thermostatkartusche regelt den Verbrühschutz, deshalb lieber das Original nach Ersatzteilliste.",
+      "antwort_quellen": [
+        "https://www.hansgrohe.de/service/garantie",
+        "https://www.manomano.co.uk/p/94282000-brass-temperature-control-unit-brass-thermostatic-shower-cartridge-34-compatible-with-hansgrohe-ecostat-showers-2-and-3-hole-bath-thermostat-214590602"
+      ],
+      "sicherheit": "belegt"
+    },
+    {
+      "frage": "Lohnt sich die neue Thermostatkartusche, oder kaufe ich besser einen neuen Thermostat?",
+      "kategorie": "bezug",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.energiesparhaus.at/forum-brausethermostat-kaputt-kartusche-tauschen/76717",
+        "https://www.gutefrage.net/a/frage/unterputzdurscharmatur-kartusche-tauschen",
+        "https://www.energiesparhaus.at/forum-thermostat-von-armatur-kaputt/69864"
+      ],
+      "antwort": "Original-Kartuschen der großen Marken kosten im Fachhandel (Contorion, Stand 4.11.2026) etwa 50 bis 170 Euro, Sonderausführungen mehr. Bei Markenthermostaten löst der Tausch das Problem meist (Forum: Ideal Standard CeraTherm 100 mit A962229NU). Ohne erkennbaren Hersteller findest du oft keine passende Kartusche, und für manche alte Armaturen gibt es sie nicht mehr, dann bleibt nur ein neuer Thermostat.",
+      "antwort_quellen": [
+        "https://www.energiesparhaus.at/forum-thermostat-von-armatur-kaputt/69864",
+        "https://www.energiesparhaus.at/forum-brausethermostat-kaputt-kartusche-tauschen/76717",
+        "https://www.dasheimwerkerforum.de/threads/rokal-hansa-thermostat-kartusche-ersatz-oder-demontage.23958/"
+      ],
+      "sicherheit": "belegt"
+    }
+  ],
+  "fakten": [
+    {
+      "aussage": "Grohe 47439000 Thermostat-Kompaktkartusche 1/2\", TurboStat mit Dehnstoff-Thermoelement, EAN 4005176811975.",
+      "quellen": [
+        "https://www.grohe.com/de-DE/produkt/47439000"
+      ]
+    },
+    {
+      "aussage": "Grohe 47450000 Thermoelement 1/2\", Dehnstoff, EAN 4005176076190.",
+      "quellen": [
+        "https://www.grohe.com/de-DE/produkt/47450000"
+      ]
+    },
+    {
+      "aussage": "Grohe 47175000 TurboStat Kartusche 1/2\" für seitenverkehrte Anschlüsse (Warmwasser rechts), EAN 4005176803895; passt laut Grohe in Grohtherm SmartControl, 3000 Cosmopolitan, 2000, Cube, 1000, 1000 Performance, 800 Cosmopolitan, 800; erfüllt nicht EN 1111, CoolTouch entfällt.",
+      "quellen": [
+        "https://www.grohe.com/de-DE/produkt/47175000"
+      ]
+    },
+    {
+      "aussage": "Grohe 47483000 Thermostat-Kompaktkartusche 3/4\", EAN 4005176815409, Kompatibilitätsliste auf der Grohe-Seite leer.",
+      "quellen": [
+        "https://www.grohe.com/de-DE/produkt/47483000"
+      ]
+    },
+    {
+      "aussage": "hansgrohe 98282000 Temperatur-Regeleinheit (Wachsdehnstoffelement), u. a. Ecostat Comfort 13116000/13114000, Ecostat Select, Ecostat Square UP, ShowerSelect UP 15763000/15765000, Croma/Raindance/Crometta Showerpipes, ShowerTablet Select.",
+      "quellen": [
+        "https://www.hansgrohe.de/articledetail-temperatur-regeleinheit-smtc-98282000"
+      ]
+    },
+    {
+      "aussage": "EAN-Zuordnung hansgrohe: MTC 94282000 = 4011097239040 (Händlerangaben), 92373000 = 4011097767062 (showerspares), SMTC 98282000 = 4011097606460 (nur Feed-Titel „Temperatur-Regeleinheit SMTC“; Nachbar-Artikel 98283000 hat 4011097606453, passt zur Nummernfolge).",
+      "quellen": [
+        "https://showerspares.com/search/hansgrohe-cartridge-for-exchanged-connections-92373000",
+        "https://www.galaxus.nl/en/s4/product/hansgrohe-mtc-temperature-control-unit-sanitary-installation-accessories-21809262"
+      ]
+    },
+    {
+      "aussage": "Hansa 3.4 (59914114): ohne Absperrung, Schmutzfangsiebe, Wachs-Dehnstoffelement, nicht steigende Spindel; 182 kompatible Produkte, u. a. Micra, Varox Pro, Emotion, Unita, Prisma, Living, Easytherm. EAN 4015474275614.",
+      "quellen": [
+        "https://www.hansa.com/de/produkte/59914114/thermostatkartusche-34"
+      ]
+    },
+    {
+      "aussage": "Hansa-Service: Kartusche und Filter mit Zahnbürste unter fließendem Wasser reinigen, O-Ringe fetten, Sicherungsmutter mit 38-mm-Schlüssel oder Hansa 59914176; Griff so aufsetzen, dass Markierung auf 38 °C steht. Vertauschte Anschlüsse: Hansatempra-Kartusche 59913463 (reversed).",
+      "quellen": [
+        "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers"
+      ]
+    },
+    {
+      "aussage": "Kludi-ASINs geprüft (Titel nennt Kludi und Nummer): B00AOIPNE6 = 7672900-00 Aufputz, B00D0SJG22 = 7480900-00 Unterputz. B00AOIPNF0 trägt den Titel „Kludi 7447000-00 Kartusche für Einhandmischer und Topara Thermostat“, widerspricht dem Kludi-Datenblatt (Zenta), deshalb nicht in produkte[].",
+      "quellen": [
+        "https://www.amazon.de/dp/B00AOIPNE6",
+        "https://www.amazon.de/dp/B00D0SJG22",
+        "https://www.amazon.de/dp/B00AOIPNF0"
+      ]
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    "Ideal Standard A962229NU und A861371NU: kein Partner-Angebot im Feed und keine geprüfte Amazon-ASIN gefunden (Kaufland/eBay führen A962229NU).",
+    "Welche Grohe-Thermostate brauchen die 3/4\"-Kompaktkartusche 47483000? Grohe-Seite nennt keine Armaturen.",
+    "Kludi 7447000-00: Datenblatt sagt Zenta, Amazon-Titel sagt Topara. Klären, bevor die ASIN genutzt wird.",
+    "Garantieverlust durch Nachbau-Kartusche bei Grohe: Grohe-Garantiebedingungen nur indirekt belegt (Recherche grohe.json: unsicher).",
+    "Darf ein Laie die Thermostatkartusche selbst tauschen, oder verlangen Hersteller einen Fachbetrieb? Nur KI-Antworten auf bau.de gefunden, nicht belastbar.",
+    "Mit welchem Mittel entkalken (Essig, Zitronensäure, Hersteller-Entkalker), ohne Dichtungen zu schädigen? Herstellerangaben zu Thermostatkartuschen nicht gefunden.",
+    "Gutefrage-Thread unterputzdurscharmatur-kartusche-tauschen (Hansa UP): Installateure sagen, neue Kartusche sei werkseitig eingestellt und brauche kein Fett. Widerspricht teilweise Grohe/Hansa (Justieren auf 38 °C, Dichtungen fetten). Nicht auf die Seite übernommen.",
+    "Aussage „No-Name-Kartusche oft so teuer wie neue Armatur“ stammt aus einem Suchauszug, im gelesenen gutefrage-Thread nicht enthalten; gestrichen."
+  ]
+}

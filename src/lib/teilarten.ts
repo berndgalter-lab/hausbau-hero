@@ -7,6 +7,7 @@ import perlator from "../../data/teilarten/perlator.json";
 import kartusche from "../../data/teilarten/kartusche.json";
 import siphon from "../../data/teilarten/siphon.json";
 import ablaufgarnitur from "../../data/teilarten/ablaufgarnitur.json";
+import thermostatkartusche from "../../data/teilarten/thermostatkartusche.json";
 
 // Teileart-Seiten unter /ersatzteile/<teilart> (docs/SEITENAUFBAU.md, Abschnitt 4b): ein Teil, das in vielen
 // Marken steckt (Eckventil, Perlator, Siphon …), markenübergreifend erklärt. Inhalt aus data/teilarten/<slug>.json,
@@ -62,6 +63,7 @@ const TEILARTEN: Teilart[] = [
   kartusche as Teilart,
   siphon as Teilart,
   ablaufgarnitur as Teilart,
+  thermostatkartusche as Teilart,
 ];
 
 /** „den passenden Perlator“ / „die passende Kartusche“ / „das passende Eckventil“ (Akkusativ). */
