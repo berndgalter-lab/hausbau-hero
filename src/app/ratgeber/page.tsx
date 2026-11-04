@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { BereichKachel, RatgeberKarten } from "@/components/Bereich";
 import { Brotkrumen, JsonLd, brotkrumenLd } from "@/components/Ersatzteile";
 import { BEREICHE } from "@/lib/bereiche";
-import { ratgeberKarten } from "@/lib/bereiche-daten";
+import { ratgeberKarten, sichtbareBereiche } from "@/lib/bereiche-daten";
 
 export const revalidate = 3600;
 
@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 
 // Übersicht aller Ratgeber, nach Bereich geordnet. Ein Ratgeber, der in keinem Bereich steht, erscheint hier nicht.
 export default async function RatgeberUebersicht() {
+  const sichtbar = await sichtbareBereiche();
   const gruppen = await Promise.all(
     BEREICHE.filter((b) => b.ratgeber.length > 0).map(async (b) => ({ b, liste: await ratgeberKarten(b.ratgeber) })),
   );
@@ -46,8 +47,8 @@ export default async function RatgeberUebersicht() {
         ))}
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">Nach Bereich</h2>
-        <div className="grid grid-cols-2 lg:grid-cols-5 gap-3">
-          {BEREICHE.map((b) => (
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {sichtbar.map((b) => (
             <BereichKachel key={b.slug} b={b} />
           ))}
         </div>

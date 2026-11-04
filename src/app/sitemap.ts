@@ -1,7 +1,9 @@
 import { supabase } from "@/lib/supabase";
 import { serieIstDuenn } from "@/lib/ersatzteile";
 import { artikelUrl } from "@/lib/produkt-ratgeber";
-import { BEREICHE } from "@/lib/bereiche";
+import { bereichDaten, bereichIstDuenn, sichtbareBereiche } from "@/lib/bereiche-daten";
+import { alleTeilarten } from "@/lib/teilarten";
+import { alleProblemeAllgemein } from "@/lib/probleme-allgemein";
 
 export default async function sitemap() {
   const baseUrl = "https://hausbau-hero.de";
@@ -19,7 +21,8 @@ export default async function sitemap() {
     { url: `${baseUrl}/ersatzteile`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/problem`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${baseUrl}/ratgeber`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    ...BEREICHE.filter((b) => b.produkttypen.length > 0).map((b) => ({ url: `${baseUrl}/bereich/${b.slug}`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.9 })),
+    ...alleTeilarten().map((t) => ({ url: `${baseUrl}/ersatzteile/${t.slug}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.9 })),
+    ...alleProblemeAllgemein().map((p) => ({ url: `${baseUrl}/problem/${p.slug}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.9 })),
     { url: `${baseUrl}/vergleich/armaturen`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
     { url: `${baseUrl}/rechner`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${baseUrl}/impressum`, lastModified: now, changeFrequency: "yearly", priority: 0.1 },
@@ -46,6 +49,16 @@ export default async function sitemap() {
   }
 
   const dynamicPages: SitemapEntry[] = [];
+
+  // Bereiche mit Inhalt, ohne die dünnen (noindex)
+  try {
+    for (const b of await sichtbareBereiche()) {
+      if (bereichIstDuenn(b, await bereichDaten(b))) continue;
+      dynamicPages.push({ url: `${baseUrl}/bereich/${b.slug}`, lastModified: now, changeFrequency: "weekly", priority: 0.9 });
+    }
+  } catch (e) {
+    console.error("[Sitemap] Bereiche failed:", e);
+  }
 
   // Rechner dynamisch
   const HIGH_PRIO_RECHNER = new Set(["sanitaer"]);

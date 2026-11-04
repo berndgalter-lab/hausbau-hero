@@ -2,7 +2,9 @@ import { supabase } from "@/lib/supabase";
 import { angeboteFuerEans, bildAusAngeboten, normEan } from "@/lib/kaufberatung";
 import { alleMarken, alleProbleme, type Marke, type Problem, type Serie } from "@/lib/ersatzteile";
 import { artikelUrl } from "@/lib/produkt-ratgeber";
-import type { Bereich } from "@/lib/bereiche";
+import { BEREICHE, bereichHatInhalt, type Bereich } from "@/lib/bereiche";
+import { problemeAllgemeinImBereich, type ProblemAllgemein } from "@/lib/probleme-allgemein";
+import { teilartenImBereich, type Teilart } from "@/lib/teilarten";
 
 export interface RatgeberKarte {
   slug: string;
@@ -65,6 +67,24 @@ export interface BereichDaten {
   probleme: Problem[];
   teile: { teiltyp: string; anzahl: number }[];
   ratgeber: RatgeberKarte[];
+  teilarten: Teilart[];
+  allgemeineProbleme: ProblemAllgemein[];
+}
+
+/** Ohne Modelle und ohne Probleme ist eine Bereichsseite nur eine Linkliste: noindex, nicht in der Sitemap. */
+export function bereichIstDuenn(b: Bereich, d: Pick<BereichDaten, "probleme" | "teilarten" | "allgemeineProbleme">): boolean {
+  return b.produkttypen.length === 0 && d.probleme.length === 0 && d.allgemeineProbleme.length === 0 && d.teilarten.length === 0;
+}
+
+/** Bereiche, die etwas zu zeigen haben, in der Reihenfolge von BEREICHE. */
+export async function sichtbareBereiche(): Promise<Bereich[]> {
+  const probleme = await alleProbleme().catch(() => []);
+  return BEREICHE.filter((b) =>
+    bereichHatInhalt(b, {
+      teilarten: teilartenImBereich(b.slug).length,
+      probleme: problemeAllgemeinImBereich(b.slug).length + probleme.filter((p) => b.probleme.test(p.slug)).length,
+    }),
+  );
 }
 
 export async function bereichDaten(b: Bereich): Promise<BereichDaten> {
@@ -92,5 +112,7 @@ export async function bereichDaten(b: Bereich): Promise<BereichDaten> {
     probleme: probleme.filter((p) => b.probleme.test(p.slug)),
     teile: b.teiltypen.filter((t) => anzahl.get(t)).map((t) => ({ teiltyp: t, anzahl: anzahl.get(t)! })),
     ratgeber,
+    teilarten: teilartenImBereich(b.slug),
+    allgemeineProbleme: problemeAllgemeinImBereich(b.slug),
   };
 }
