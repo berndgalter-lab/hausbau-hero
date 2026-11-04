@@ -737,7 +737,7 @@
    "name": "hansgrohe Keramik Kartusche M1 komplett (97685000)",
    "teiltyp": "kartusche",
    "oem_nummer": "97685000",
-   "ean": null,
+   "ean": "4011097592824",
    "masse": {},
    "beschreibung": "Keramikkartusche „M1“ für Einhebel-Waschtisch- und Bidetmischer. Laut hansgrohe.de u. a. für Talis E 110 (Produktlinie der Ersatzteilseite), Vernis Blend 100, Vernis Shape 100 (71561000), Metris 230 sowie Talis-M51-Küchenmischer (ab 10/17); auf hansgrohe.com zusätzlich Metris M71 220 (> 04/19). Laut Amazon-Angebot inklusive Kartuschendichtung.",
    "preis_spanne": "ca. 37–38 € (Amazon.de-Stichproben 36,99–37,99 €); eBay-Angebote ca. 30–60 € zzgl. Versand",
@@ -759,7 +759,7 @@
    "name": "hansgrohe Kartusche M35 LR (95646000)",
    "teiltyp": "kartusche",
    "oem_nummer": "95646000",
-   "ean": null,
+   "ean": "4011097684680",
    "masse": {},
    "beschreibung": "Kartusche, auf hansgrohe.de „HG Kartusche M35 LR“, auf hansgrohe.com „HG cartridge M35L“ genannt. Laut hansgrohe für LowFlow-Waschtischmischer (Logis 100 LowFlow 3,5 l/min, Focus 100 LowFlow 3,5 l/min, Metris 110 LowFlow 3,5 l/min, Metris S 100 LowFlow 1,9 l/min) sowie Vernis-Blend-Bidetarmaturen. Daneben führt hansgrohe eine Variante 95646001.",
    "preis_spanne": null,
@@ -779,7 +779,7 @@
    "name": "hansgrohe Kartusche M35 EcoR WT (92530000)",
    "teiltyp": "kartusche",
    "oem_nummer": "92530000",
-   "ean": null,
+   "ean": "4011097767253",
    "masse": {},
    "beschreibung": "Kartusche „M35 EcoR WT“. Laut hansgrohe.de u. a. in CoolStart-/EcoSelection-Küchenmischern: Focus M41 160 CoolStart EcoSelection (31816000), Logis M31 120/160 CoolStart EcoSelection (71837000, 71839000).",
    "preis_spanne": null,
@@ -788,7 +788,7 @@
    "schwierigkeit": 2,
    "dauer_min": 30,
    "werkzeug": "Wasser an den Eckventilen bzw. der Hauptabsperrung schließen; Werkzeug zum Lösen der Griffbefestigung (Innensechskant/Schraubendreher je nach Modell), Maulschlüssel für die Kartuschen-Spannmutter, ggf. Armaturenfett.",
-   "amazon_asin": null,
+   "amazon_asin": "B07C94Z537",
    "quellen": [
     "https://www.hansgrohe.de/articledetail-kartusche-m35-ecor-wt-92530000"
    ]
@@ -798,7 +798,7 @@
    "name": "hansgrohe Kartusche M25XS (93740000)",
    "teiltyp": "kartusche",
    "oem_nummer": "93740000",
-   "ean": null,
+   "ean": "4059625297827",
    "masse": {},
    "beschreibung": "Kartusche „M25XS“. Laut hansgrohe in Talis-M54-Küchenmischern 210 mit Ausziehauslauf (z. B. 72802000, Pos. 20, Baujahr > 12/19) sowie Aqittura M91 und Talis Select. hansgrohe führt dazu ein eigenes Service-Dokument (M25XS/M25LXS/M25LAXS).",
    "preis_spanne": null,
@@ -819,7 +819,7 @@
    "name": "hansgrohe Kartusche M25LXS (93760000)",
    "teiltyp": "kartusche",
    "oem_nummer": "93760000",
-   "ean": null,
+   "ean": "4059625297810",
    "masse": {},
    "beschreibung": "Kartusche „M25LXS“. Laut hansgrohe in Talis M54 Einhebel-Küchenmischer 220 1jet (72804000, 72804800, 72804670) und im Finoris-Waschtischmischer 76010000 (> 06/21). Passende Dichtung laut hansgrohe: Dichtung für M25 Kartusche 93383000.",
    "preis_spanne": null,
@@ -828,7 +828,7 @@
    "schwierigkeit": 2,
    "dauer_min": 30,
    "werkzeug": "Wasser an den Eckventilen bzw. der Hauptabsperrung schließen; Werkzeug zum Lösen der Griffbefestigung (Innensechskant/Schraubendreher je nach Modell), Maulschlüssel für die Kartuschen-Spannmutter, ggf. Armaturenfett.",
-   "amazon_asin": null,
+   "amazon_asin": "B0H11VP5DP",
    "quellen": [
     "https://www.hansgrohe.de/articledetail-kartusche-m25lxs-93760000",
     "https://www.hansgrohe.com/articledetail-cartridge-m25lxs-93760000",
@@ -841,7 +841,7 @@
    "name": "hansgrohe Kartusche kpl. M25 Low Flow (95973001)",
    "teiltyp": "kartusche",
    "oem_nummer": "95973001",
-   "ean": null,
+   "ean": "4011097791517",
    "masse": {},
    "beschreibung": "Komplette Kartusche, auf hansgrohe.de „Kartusche M25 Low Flow (USA)“, auf hansgrohe.com „HG Kartusche kpl.“ genannt. Laut hansgrohe u. a. für Talis E 110 LowFlow 3,5 l/min mit Zugstangen-Ablaufgarnitur und – laut Kompatibilitätsliste – Rebris S 110 (72517000, Baujahr > 06/22). Trotz „USA“ im Namen in europäischen Artikeln gelistet (siehe Widersprüche).",
    "preis_spanne": null,
@@ -861,7 +861,7 @@
    "name": "hansgrohe Adapter für Kartusche (98866000)",
    "teiltyp": "sonstiges",
    "oem_nummer": "98866000",
-   "ean": null,
+   "ean": "4011097601854",
    "masse": {},
    "beschreibung": "Adapter für die Kartusche. Laut hansgrohe.de u. a. für Rebris S 110 mit Zugstangen-Ablaufgarnitur (72517000, 72517670) und Talis E 110 LowFlow gelistet. Welche Kartusche er aufnimmt, nennt die Seite im gesehenen Auszug nicht.",
    "preis_spanne": null,
@@ -870,7 +870,7 @@
    "schwierigkeit": 2,
    "dauer_min": 30,
    "werkzeug": "Wasser an den Eckventilen bzw. der Hauptabsperrung schließen; Werkzeug zum Lösen der Griffbefestigung (Innensechskant/Schraubendreher je nach Modell), Maulschlüssel für die Kartuschen-Spannmutter, ggf. Armaturenfett.",
-   "amazon_asin": null,
+   "amazon_asin": "B00HNSYZ6W",
    "quellen": [
     "https://www.hansgrohe.de/articledetail-adapter-fuer-kartusche-98866000"
    ]
@@ -899,7 +899,7 @@
    "name": "hansgrohe Temperatur-Regeleinheit SMTC (98282000)",
    "teiltyp": "thermostatkartusche",
    "oem_nummer": "98282000",
-   "ean": null,
+   "ean": "4011097606460",
    "masse": {},
    "beschreibung": "Thermostatkartusche „SMTC“ (hansgrohe.de: „Temperatur Regeleinheit (SMTC)“; Händler nennen sie auch „T30“). Laut hansgrohe u. a. in Ecostat Comfort Brausethermostat Aufputz 13116000, ShowerSelect-Unterputz-Thermostaten (15765000, Pos. 18), Croma Select S Showerpipe 280 (26891670, Pos. 38) und Raindance Select E Showerpipe 300 mit ShowerTablet Select 300 (27126400). Nicht mit der MTC-Kartusche 94282000 verwechseln.",
    "preis_spanne": "ab ca. 64 € (Amazon.de-Stichprobe, hansgrohe-Angebot ab 64,36 €)",
@@ -908,7 +908,7 @@
    "schwierigkeit": 3,
    "dauer_min": 45,
    "werkzeug": "Wasser absperren; Thermostatgriff abnehmen (Schraubendreher/Innensechskant je nach Modell), Maul- oder Ringschlüssel für die Temperatur-Regeleinheit; nach dem Einbau Mischtemperatur mit einem Thermometer prüfen.",
-   "amazon_asin": null,
+   "amazon_asin": "B00HNSY81O",
    "quellen": [
     "https://www.hansgrohe.de/articledetail-temperatur-regeleinheit-smtc-98282000",
     "https://www.hansgrohe.com/articledetail-thermostat-cartridge-smtc-98282000",
@@ -923,7 +923,7 @@
    "name": "hansgrohe MTC-Thermostatkartusche (94282000)",
    "teiltyp": "thermostatkartusche",
    "oem_nummer": "94282000",
-   "ean": null,
+   "ean": "4011097239040",
    "masse": {},
    "beschreibung": "Thermostatkartusche „MTC“ (Temperatur-Regeleinheit). Laut hansgrohe UK für Ecostat 1001 CL Brause- und Wannenthermostat (13211000, 13201000; Baujahre 04/16–08/19 und > 09/19); laut hansgrohe-Ersatzteilkatalog und Montageanleitungen außerdem in Ecostat 1001 SL (13241800, Baujahr 01/03–12/11), älteren Ecostat 1001/5001 sowie Ecostat E/S Unterputz (15700000, 15721000). hansgrohe-Serviceblatt Ecostat 1001 SL: Tausch bei verschmutzter oder verschlissener Thermokartusche.",
    "preis_spanne": "ca. 75–107 € (Amazon.de hansgrohe-Angebot ab 74,58 €; badexa 107,31 €)",
@@ -932,7 +932,7 @@
    "schwierigkeit": 3,
    "dauer_min": 45,
    "werkzeug": "Wasser absperren; Thermostatgriff abnehmen (Schraubendreher/Innensechskant je nach Modell), Maul- oder Ringschlüssel für die Temperatur-Regeleinheit; nach dem Einbau Mischtemperatur mit einem Thermometer prüfen.",
-   "amazon_asin": null,
+   "amazon_asin": "B0017VFS4E",
    "quellen": [
     "https://www.hansgrohe.co.uk/articledetail-mtc-thermostat-cartridge-94282000",
     "https://spares.hansgrohe.com/etk/INT/product/13241800/8796221419363.seam?fsid=0x00007651000074C100007431&lang=en_GB&wcms=INT",
@@ -948,7 +948,7 @@
    "name": "hansgrohe Regeleinheit für vertauschte Anschlüsse (92373000)",
    "teiltyp": "thermostatkartusche",
    "oem_nummer": "92373000",
-   "ean": null,
+   "ean": "4011097767062",
    "masse": {},
    "beschreibung": "Spezielle Temperatur-Regeleinheit für Thermostate, bei denen Warm- und Kaltwasser vertauscht angeschlossen sind. In hansgrohe-Anleitungen (Ecostat Comfort, Ecostat Universal) lautet die Abhilfe für „Anschlüsse warm/kalt vertauscht“: diese Regeleinheit einbauen. Laut hansgrohe.de u. a. für Ecostat Comfort mattschwarz (13116670).",
    "preis_spanne": null,
@@ -957,7 +957,7 @@
    "schwierigkeit": 3,
    "dauer_min": 45,
    "werkzeug": "Wasser absperren; Thermostatgriff abnehmen (Schraubendreher/Innensechskant je nach Modell), Maul- oder Ringschlüssel für die Temperatur-Regeleinheit; nach dem Einbau Mischtemperatur mit einem Thermometer prüfen.",
-   "amazon_asin": null,
+   "amazon_asin": "B0BVG8WNKF",
    "quellen": [
     "https://www.hansgrohe.de/articledetail-regeleinheit-fuer-vertauschte-anschluesse-92373000",
     "https://assets.hansgrohe.com/mam/celum/celum_assets/16__hrgh2832_pdf.pdf",
@@ -970,7 +970,7 @@
    "name": "hansgrohe Absperreinheit Keramik (94149000)",
    "teiltyp": "sonstiges",
    "oem_nummer": "94149000",
-   "ean": null,
+   "ean": "4011097178745",
    "masse": {},
    "beschreibung": "Keramische Absperreinheit (Mengen-/Absperrventil) für Aufputz-Thermostate. Laut hansgrohe.de u. a. für Ecostat Comfort 13116000 und Ecostat 1001 CL 13211000.",
    "preis_spanne": null,
@@ -979,7 +979,7 @@
    "schwierigkeit": 2,
    "dauer_min": 30,
    "werkzeug": "Wasser absperren; Thermostatgriff abnehmen (Schraubendreher/Innensechskant je nach Modell), Maul- oder Ringschlüssel für die Temperatur-Regeleinheit; nach dem Einbau Mischtemperatur mit einem Thermometer prüfen.",
-   "amazon_asin": null,
+   "amazon_asin": "B0017VFS3K",
    "quellen": [
     "https://www.hansgrohe.de/articledetail-absperreinheit-keramik-94149000",
     "https://www.badexa.de/hansgrohe-ecostat-brausethermostat-1001-cl-dn-15-ab-bj-04-16-62368/"
@@ -990,7 +990,7 @@
    "name": "hansgrohe Rückflussverhinderer DN15 (96737000)",
    "teiltyp": "sonstiges",
    "oem_nummer": "96737000",
-   "ean": null,
+   "ean": "4011097461533",
    "masse": {
     "nennweite": "DN15"
    },
@@ -1012,7 +1012,7 @@
    "name": "hansgrohe Anschlagring Ecostat E/S (98916000)",
    "teiltyp": "sonstiges",
    "oem_nummer": "98916000",
-   "ean": null,
+   "ean": "4011097589756",
    "masse": {},
    "beschreibung": "Anschlagring (laut hansgrohe.com Teil der Sicherheitseinrichtung für die Temperaturbegrenzung) für Ecostat-E/S-Thermostate; laut Kompatibilitätsliste u. a. Crometta Showerpipe 160 1jet mit Thermostat.",
    "preis_spanne": null,
@@ -1031,7 +1031,7 @@
    "name": "hansgrohe Luftsprudler M24x1 mit Durchflussbegrenzer 5 l/min (13185000)",
    "teiltyp": "strahlregler",
    "oem_nummer": "13185000",
-   "ean": null,
+   "ean": "4011097436111",
    "masse": {
     "gewinde": "M24x1",
     "durchfluss_l_min": 5
@@ -1043,7 +1043,7 @@
    "schwierigkeit": 1,
    "dauer_min": 5,
    "werkzeug": "Meist von Hand oder mit passendem Montageschlüssel abschraubbar; Gewinde und Durchfluss des alten Teils vergleichen.",
-   "amazon_asin": null,
+   "amazon_asin": "B00BP48YRQ",
    "quellen": [
     "https://www.hansgrohe.de/articledetail-luftsprudler-m24-x-1-mit-durchflussbegrenzer-5-l-min-13185000"
    ]
@@ -1053,7 +1053,7 @@
    "name": "hansgrohe QuickClean Luftsprudler M24x1 15 l/min (13955000)",
    "teiltyp": "strahlregler",
    "oem_nummer": "13955000",
-   "ean": null,
+   "ean": "4011097146805",
    "masse": {
     "gewinde": "M24x1",
     "durchfluss_l_min": 15
@@ -1065,7 +1065,7 @@
    "schwierigkeit": 1,
    "dauer_min": 5,
    "werkzeug": "Meist von Hand oder mit passendem Montageschlüssel abschraubbar; Gewinde und Durchfluss des alten Teils vergleichen.",
-   "amazon_asin": null,
+   "amazon_asin": "B003NA8CMM",
    "quellen": [
     "https://www.hansgrohe.de/articledetail-quickclean-luftsprudler-13955000"
    ]
@@ -1075,7 +1075,7 @@
    "name": "hansgrohe Luftsprudler M22x1 15 l/min (95824000)",
    "teiltyp": "strahlregler",
    "oem_nummer": "95824000",
-   "ean": null,
+   "ean": "4011097689647",
    "masse": {
     "gewinde": "M22x1",
     "durchfluss_l_min": 15
@@ -1098,7 +1098,7 @@
    "name": "hansgrohe Luftsprudler schwenkbar M24x1 5 l/min (93834000)",
    "teiltyp": "strahlregler",
    "oem_nummer": "93834000",
-   "ean": null,
+   "ean": "4059625368206",
    "masse": {
     "gewinde": "M24x1",
     "durchfluss_l_min": 5
@@ -1120,7 +1120,7 @@
    "name": "hansgrohe Strahlregler M16,5x1 5 l/min (93973000)",
    "teiltyp": "strahlregler",
    "oem_nummer": "93973000",
-   "ean": null,
+   "ean": "4059625372302",
    "masse": {
     "gewinde": "M16,5x1",
     "durchfluss_l_min": 5
@@ -1143,7 +1143,7 @@
    "name": "hansgrohe Strahlformer laminar M18,5x1 (93748000)",
    "teiltyp": "strahlregler",
    "oem_nummer": "93748000",
-   "ean": null,
+   "ean": "4059625308660",
    "masse": {
     "gewinde": "M18,5x1"
    },
@@ -1154,7 +1154,7 @@
    "schwierigkeit": 1,
    "dauer_min": 10,
    "werkzeug": "Montageschlüssel für Strahlformer M18,5x1 (93750000).",
-   "amazon_asin": null,
+   "amazon_asin": "B0CJCKRFT9",
    "quellen": [
     "https://www.hansgrohe.de/articledetail-strahlformer-laminar-m18-5x1-93748000",
     "https://www.hansgrohe.de/articledetail-montageschluessel-fuer-strahlformer-m18-5x1-93750000"
@@ -1165,7 +1165,7 @@
    "name": "hansgrohe Montageschlüssel für Strahlformer M18,5x1 (93750000)",
    "teiltyp": "werkzeug",
    "oem_nummer": "93750000",
-   "ean": null,
+   "ean": "4059625317020",
    "masse": {
     "passt_gewinde": "M18,5x1"
    },
@@ -1187,7 +1187,7 @@
    "name": "hansgrohe Schlauch für Spültischmischer 1500 mm (95507000)",
    "teiltyp": "schlauch",
    "oem_nummer": "95507000",
-   "ean": null,
+   "ean": "4011097646114",
    "masse": {
     "laenge_mm": 1500
    },
@@ -1198,7 +1198,7 @@
    "schwierigkeit": 2,
    "dauer_min": 30,
    "werkzeug": "Wasser absperren; Schlauch unter der Spüle an Armatur und Brause lösen (Maulschlüssel).",
-   "amazon_asin": null,
+   "amazon_asin": "B00HNT2T1O",
    "quellen": [
     "https://www.hansgrohe.de/articledetail-schlauch-fuer-spueltischmischer-1500mm-95507000"
    ]
@@ -1229,7 +1229,7 @@
    "name": "hansgrohe Dichtungsset für Auslauf (92646000)",
    "teiltyp": "dichtung",
    "oem_nummer": "92646000",
-   "ean": null,
+   "ean": "4011097133720",
    "masse": {},
    "beschreibung": "Dichtungsset für den Schwenkauslauf von Küchenmischern; laut hansgrohe.de u. a. Focus M41 280 1jet (31817000) und Talis M51 220 (72814000), laut hansgrohe.com auch Logis M31 260 1jet. In einer Explosionszeichnung Pos. 4 am Auslauf 93147000.",
    "preis_spanne": "UVP 20,11 € (hansgrohe.de)",
