@@ -7,6 +7,7 @@ import {
   alleMarken,
   alleProbleme,
   angeboteFuerTeile,
+  teilBild,
   formatEuro,
   formatStand,
   gruppiere,
@@ -58,7 +59,8 @@ export default async function TeilartSeite({ ta }: { ta: Teilart }) {
   const produktZeilen = produkte.map((p) => {
     const n = normEan(p.ean);
     const alle = n ? produktAngebote.get(n) ?? [] : [];
-    return { p, angebot: alle.find(zeigePreis) ?? null, bild: bildAusAngeboten(alle) };
+    const angebot = alle.find(zeigePreis) ?? null;
+    return { p, angebot, bild: angebot ? bildAusAngeboten([angebot]) : null };
   });
   const aeltester = produktZeilen.reduce<string | null>(
     (m, z) => (z.angebot && (!m || z.angebot.stand < m) ? z.angebot.stand : m),
@@ -217,7 +219,7 @@ export default async function TeilartSeite({ ta }: { ta: Teilart }) {
                     return (
                       <li key={t.id}>
                         <a href={`/teil/${t.slug}`} className="group flex items-center gap-3 px-4 py-3 hover:bg-stone-50">
-                          <TeilBild url={t.bild_url} alt={t.name} groesse={40} />
+                          <TeilBild url={teilBild(t, teilAngebote)?.url ?? null} alt={t.name} groesse={40} />
                           <span className="flex-1 min-w-0">
                             <span className="block text-stone-900 group-hover:text-accent-700">{t.name}</span>
                             <span className="block text-xs text-stone-500 mt-0.5">

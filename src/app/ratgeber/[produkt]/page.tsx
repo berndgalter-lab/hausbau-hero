@@ -6,7 +6,7 @@ import VergleichsTabelle from "@/components/VergleichsTabelle";
 import ArticleContent from "@/components/ArticleContent";
 import Auswahlhilfe, { type AuswahlModell, type KaufLink } from "@/components/Auswahlhilfe";
 import { AffiliateHinweis, ArtikelPfad, ArtikelRahmen, HaeufigeFragen, KaputtVerweise, KurzeAntwort, ProduktKacheln, Pruefvermerk, Quellen } from "@/components/Ratgeber";
-import { angeboteFuerEans, bildAusAngeboten, normEan, type EanAngebot } from "@/lib/kaufberatung";
+import { angeboteFuerEans, bildAusAngeboten, normEan, VERLINKTE_ANGEBOTE, type EanAngebot } from "@/lib/kaufberatung";
 import { mitTrackingId } from "@/lib/affiliate";
 import { produktDaten as datenAus, type RatgeberDaten } from "@/lib/armatur-daten";
 import { mitAnkern, zerlegeArtikel, type Gliederungspunkt } from "@/lib/artikel-aufbau";
@@ -56,7 +56,7 @@ export async function generateMetadata({ params }: { params: { produkt: string }
 /** Kaufzeile: bis zu drei Partnershops mit Preis, dann Amazon (nur mit ASIN). */
 function kaufLinks(p: any, angebote: EanAngebot[]): KaufLink[] {
   const kennung = (p.hersteller_nr || p.name).slice(0, 80);
-  const links: KaufLink[] = angebote.slice(0, 3).map((a) => ({
+  const links: KaufLink[] = angebote.slice(0, VERLINKTE_ANGEBOTE).map((a) => ({
     url: mitTrackingId(a.url, "angebot"),
     text: zeigePreis(a) ? `${formatEuro(a.preis!)} bei ${a.shop_name}` : a.shop_name,
     shop: a.shop,

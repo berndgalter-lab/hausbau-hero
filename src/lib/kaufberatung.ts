@@ -33,9 +33,16 @@ export async function angeboteFuerEans(eans: (string | null | undefined)[]): Pro
   return nachEan;
 }
 
-/** Bild für die Produktkarte: vorrätige Angebote zuerst, dann das günstigste. */
+/** So viele Shops verlinken Kaufzeilen und Vergleich je Modell, günstigste zuerst. */
+export const VERLINKTE_ANGEBOTE = 3;
+
+/**
+ * Bild für die Produktkarte, nur aus den verlinkten Angeboten: Das Foto eines Shops wirbt nie für den Link
+ * eines anderen (Werbemittel-Regeln der Advertiser bei Awin). Wer nur ein Angebot verlinkt, gibt nur das mit.
+ * Unter den verlinkten vorrätige zuerst, dann das günstigste.
+ */
 export function bildAusAngeboten(angebote: EanAngebot[]): { url: string; shop: string } | null {
-  const mitBild = angebote.filter((a) => a.bild_url);
+  const mitBild = angebote.slice(0, VERLINKTE_ANGEBOTE).filter((a) => a.bild_url);
   const a = mitBild.find((x) => x.vorraetig !== false) ?? mitBild[0];
   return a ? { url: a.bild_url!, shop: a.shop_name } : null;
 }

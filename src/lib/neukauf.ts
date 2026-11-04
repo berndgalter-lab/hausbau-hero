@@ -47,7 +47,7 @@ export async function neukaufFuerBereich(b: Bereich | null, anzahl = 3): Promise
     const alle = n ? angebote.get(n) ?? [] : [];
     const angebot = alle.find(zeigePreis);
     if (!angebot) continue;
-    modelle.push({ name: p.name, hersteller: p.hersteller, bild: bildAusAngeboten(alle), angebot });
+    modelle.push({ name: p.name, hersteller: p.hersteller, bild: bildAusAngeboten([angebot]), angebot });
     if (modelle.length >= anzahl) break;
   }
   if (modelle.length === 0) return null;
