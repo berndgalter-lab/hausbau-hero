@@ -248,6 +248,7 @@ Ein Teil, das in vielen Marken steckt, markenübergreifend erklärt: Eckventil, 
 
 - **Reihenfolge auf der Seite:** Titel, kurze Antwort, Sprungmarken, „So findest du den/die/das passende …“ (Schritte), Größentabelle, passende Produkte mit Bild und Preis, unsere Originalteile nach Marke, Probleme, Fragen, Link zum Bereich, Quellen eingeklappt.
 - **genus** (`m`/`f`/`n`) steuert „den passenden Perlator“, „die passende Kartusche“, „das passende Eckventil“.
+- **marken** (optional, Marken-Slugs) begrenzt „nach Marke“ auf diese Marken. Nötig, wenn ein Teiltyp in mehreren Bereichen vorkommt: `dichtung` steckt in Armaturen und in Dachfenstern, die Seite `dachfenster-dichtung` zeigt nur VELUX und Roto.
 - **Produkte:** nur mit EAN (für Bild und Preis aus `ean_angebote`) oder geprüfter ASIN der Produktseite. Ohne Preis und ohne ASIN erscheint ein Produkt nicht.
 - **Fragen** nach den Regeln aus 4a: vorher in Foren recherchieren (gutefrage, haustechnikdialog, bauexpertenforum, Google „Ähnliche Fragen“), nur belegte Antworten. Rohdaten nach `data/recherche/fragen/<slug>.json`.
 - **Kein Marken-Slug** darf wie eine Teileart heißen, die Route `/ersatzteile/[marke]` prüft zuerst die Teileart. Das Prüfskript lehnt Doppelungen ab.

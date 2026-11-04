@@ -8,6 +8,7 @@
   "seo_description": "Verdunkelungsrollo, Sichtschutzrollo oder Plissee fürs Dachfenster: So liest du den Größencode auf dem Typenschild, warum ein MK04-Rollo nicht auf ein M04-Fenster gehört, wofür Zubehörträger und Haltekrallen sind und wann ein Nachbau reicht.",
   "kurz": "Ein Dachfenster-Rollo wird nach dem Größencode auf dem Typenschild bestellt, nicht nach gemessenen Maßen. Bei VELUX heißt dieselbe Größe je nach Baujahr MK04 (ab 2013), M04 (etwa 2000 bis 2013) oder 304 (1991 bis 2000). VELUX schreibt vor, das Rollo mit genau dem Code des eigenen Fensters zu kaufen.\n\nOriginal-Rollos laufen in Seitenschienen und klicken in Halterungen am Rahmen, die sogenannten Zubehörträger. Nachbauten gibt es mit eigenen Schienen für einen bestimmten Code oder nach Glasmaß mit Saugnäpfen oder Klebeleisten.",
   "bereiche": ["dachfenster"],
+  "marken": ["velux", "roto"],
   "teiltypen": ["rollo", "plissee"],
   "erkennen": [
     {

@@ -8,6 +8,7 @@
   "seo_description": "Hitzeschutz-Markise außen oder Sonnenschutz innen: Was die 00 im VELUX-Code (MHL MK00, SK00) bedeutet, auf welche Fenster die Markise passt, wie du sie von innen montierst und wie viel Hitze sie laut VELUX abhält.",
   "kurz": "Gegen Hitze unter dem Dach hilft am meisten, was außen vor der Scheibe hängt. Die VELUX-Hitzeschutz-Markise MHL senkt laut Datenblatt die Erwärmung durchs Fenster um bis zu 73 %, ein Rollo innen schafft deutlich weniger. Montiert wird die Markise von innen, aufs Dach musst du nicht.\n\nIm Code der Markise steht statt der Höhe eine 00: MHL MK00 passt auf alle Fenster mit 78 cm Breite, also MK04 bis MK10, M04 bis M10 und 304 bis 310.",
   "bereiche": ["dachfenster"],
+  "marken": ["velux", "roto"],
   "teiltypen": ["hitzeschutz"],
   "erkennen": [
     {

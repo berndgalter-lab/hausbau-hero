@@ -50,6 +50,8 @@ export interface Teilart {
   bereiche: string[];
   /** teile.teiltyp: Diese Teile aus den Marken-Dateien erscheinen unter „nach Marke“. */
   teiltypen: string[];
+  /** Nur Teile dieser Marken (Slugs) unter „nach Marke“, wenn der Teiltyp auch in anderen Bereichen vorkommt (dichtung). */
+  marken?: string[];
   /** So bestimmst du Typ und Größe, in Schritten. */
   erkennen: { titel: string; text: string }[];
   groessen?: { titel: string; spalten: string[]; zeilen: string[][]; hinweis?: string };

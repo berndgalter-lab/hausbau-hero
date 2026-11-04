@@ -8,6 +8,7 @@
   "seo_description": "VELUX-Dichtung tauschen, Filter der Lüftungsklappe wechseln, Scharniere fetten: welches Pflege-Set (ZZZ 220 oder 220K) zu welcher Fenstergeneration passt, wie du den Flügel aushängst und wann es keine Teile mehr gibt.",
   "kurz": "Am Dachfenster verschleißen drei Dinge: die Gummidichtungen zwischen Flügel und Rahmen, die Schaumdichtung an der Lüftungsklappe und der Luftfilter darin. Dazu brauchen die Scharniere alle paar Jahre Fett. Filter, Schaumdichtung und Fett gibt es bei VELUX zusammen im Pflege-Set, die Gummidichtungen einzeln.\n\nWelches Set passt, entscheidet die Generation: Steht im Größencode ein K (MK04, SK06), ist das Fenster ab Mai 2013 gebaut und braucht das ZZZ 220K. Ohne K (M04, S06) passt das ZZZ 220.",
   "bereiche": ["dachfenster"],
+  "marken": ["velux", "roto"],
   "teiltypen": ["dichtung", "pflege"],
   "erkennen": [
     {

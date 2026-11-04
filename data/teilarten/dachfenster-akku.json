@@ -8,6 +8,7 @@
   "seo_description": "Der Solar-Rollladen am Dachfenster reagiert nicht mehr? Woran du einen verbrauchten Akku erkennst, welches VELUX-Austauschset zu deiner Ausführung passt (S21 oder S22), was Nachbau-Akkus wie 946933 können und wie du den Motor danach neu anlernst.",
   "kurz": "Im Solar-Rollladen sitzt ein Akku, der tagsüber über die Solarzelle lädt. VELUX nennt für den Akku des SSL bis zu 10 Jahre Lebensdauer, Nutzer berichten oft von 6 bis 10 Jahren. Typisch für einen verbrauchten Akku: Der Rollladen fährt nach einem sonnigen Tag zwei, drei Mal und bleibt dann stehen.\n\nVELUX verkauft den Akku nicht einzeln, sondern als Austauschset mit Motor und Solarzelle. Welches Set passt, steht als Ausführung auf dem Typenschild des Rollladens. Einzelne Akkus gibt es nur als Nachbau anderer Anbieter.",
   "bereiche": ["dachfenster"],
+  "marken": ["velux", "roto"],
   "teiltypen": ["akku"],
   "erkennen": [
     {

@@ -885,7 +885,7 @@ const DACHFENSTER_SONNENSCHUTZ: ProduktRatgeber = {
     {
       key: "bedienung",
       label: "Bedienung",
-      hinweis: "Fenster, die du nur mit Stange erreichst, bedient man bequemer mit Solar oder Motor.",
+      hinweis: "Für Fenster, die du gut erreichst, empfiehlt VELUX die Bedienung von Hand. Solar braucht kein Kabel.",
       optionen: [
         { label: "von Hand", passt: (d) => (d.bedienung ? d.bedienung === "von Hand" : null) },
         {
