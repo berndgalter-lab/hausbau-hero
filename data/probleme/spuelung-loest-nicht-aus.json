@@ -1,0 +1,147 @@
+{
+  "slug": "spuelung-loest-nicht-aus",
+  "titel": "Spülung löst nicht aus",
+  "seo_title": "WC-Spülung löst nicht aus: Ursachen und was hilft",
+  "seo_description": "Taste gedrückt, aber keine Spülung? Meist sitzen Drückerstangen oder Haken nicht richtig, oder der Kasten ist leer. Prüfschritte für Unterputzkästen von Geberit, TECE und Viega.",
+  "symptom": "Du drückst die Taste der Betätigungsplatte, und es kommt kein Wasser oder nur ein kurzer Schwall. Manchmal löst nur die große oder nur die kleine Taste aus, oder die Taste geht schwer und bleibt hängen.",
+  "bereich": "wc-spuelkasten",
+  "ursachen": [
+    {
+      "ursache": "Drückerstangen oder Haken greifen nicht",
+      "erklaerung": "Bei mechanischen Unterputzkästen überträgt die Platte den Druck über Stangen auf Haken oder Bügel am Spülventil. Sind die Stangen zu kurz eingestellt, verrutscht oder nach einer Reinigung falsch eingesetzt, kommt der Hub nicht am Ventil an. TECE gibt je Platte einen festen Abstand der Stangen zur Wand vor, und die Haken müssen in den Zugösen des Ablaufventils sitzen.",
+      "haeufigkeit": "häufig",
+      "teilart": "spuelkasten"
+    },
+    {
+      "ursache": "Kein Wasser im Kasten",
+      "erklaerung": "Ist der Kasten leer, weil das Eckventil zu ist oder das Füllventil nicht öffnet, passiert beim Drücken nichts. Das erkennt man daran, dass auch nach Minuten kein Füllgeräusch kommt. Dann liegt das Problem beim Zulauf, nicht bei der Betätigung.",
+      "haeufigkeit": "gelegentlich",
+      "teilart": "fuellventil"
+    },
+    {
+      "ursache": "Spülventil oder Heberglocke klemmt",
+      "erklaerung": "Verkalkte Führungen, ein gebrochener Bügel oder ein verbogener Lagerbock verhindern, dass das Ventil angehoben wird. Bei Geberit gibt es Lagerbock und Bügelset einzeln. Beim Sigma UP320 bis Baujahr 01/2022 wird laut Geberit das ganze Spülventil Typ 212 getauscht.",
+      "haeufigkeit": "gelegentlich",
+      "teilart": "spuelkasten"
+    },
+    {
+      "ursache": "Platte gebrochen oder passt nicht zum Kasten",
+      "erklaerung": "Betätigungsplatten sind an das System des Herstellers gebunden. Eine Geberit-Sigma-Platte passt nur auf Sigma-Kästen, nicht auf Omega. Bei TECE passt jede Platte auf jeden TECE-Kasten. Nach einem Plattenwechsel ist deshalb die erste Frage, ob die Platte zum Kasten gehört.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Pneumatische oder elektronische Betätigung gestört",
+      "erklaerung": "Bei pneumatischen Platten wie der Geberit Sigma70 nennt Geberit einen verschmutzten Filter, einen geknickten Panzerschlauch und einen geknickten, verschmutzten oder mit Wasser gefüllten Pneumatikschlauch. Bei elektronischen Betätigungen sind es oft leere Batterien oder eine Softwarestörung, die sich durch 10 Sekunden ohne Strom beheben lässt.",
+      "haeufigkeit": "selten"
+    }
+  ],
+  "pruefen": [
+    "Hören, ob der Kasten nach dem letzten Spülen gefüllt hat. Kommt kein Füllgeräusch, Eckventil prüfen und bei „Spülkasten füllt nicht“ weitermachen.",
+    "Betätigungsplatte abnehmen und die Taste von Hand am Ventil auslösen: Bügel oder Hebel am Spülventil anheben. Spült es dann, liegt der Fehler bei Platte oder Stangen.",
+    "Stangen prüfen: Sitzen sie gerade, haben sie die vorgeschriebene Länge, sind sie nicht abgebrochen? Bei Zwei-Mengen-Spülung hat jede Taste ihre eigene Stange.",
+    "Haken und Bügel im Kasten prüfen: Sitzen sie in den Ösen des Spülventils? Nach einer Reinigung ist hier oft etwas verrutscht.",
+    "Spült es auch von Hand nicht oder klemmt das Ventil, Spülventil herausnehmen, reinigen und auf Brüche prüfen. Gebrochene Teile ersetzen.",
+    "Bei pneumatischer Platte: Eckventil schließen, Pneumatikschläuche vom Servoheber abziehen und auf Knicke, Schmutz oder Wasser prüfen. Bei elektronischer Betätigung Batterien wechseln oder die Stromversorgung 10 Sekunden unterbrechen.",
+    "Platte wieder aufsetzen und beide Tasten ausprobieren."
+  ],
+  "fachbetrieb_ab": "Wenn das Spülventil auch von Hand nicht auslöst und sich nicht herausnehmen lässt, bei Kabeln und Hebevorrichtung elektronischer Betätigungen und wenn die Platte einer pneumatischen Betätigung selbst defekt ist. Geberit sieht Reparaturen über die Anleitung hinaus nur durch eine Fachkraft mit Originalteilen vor.",
+  "marken_probleme": ["geberit-spuelung-loest-nicht-aus"],
+  "fragen": [
+    {
+      "frage": "Ich drücke auf die Taste, aber es passiert nichts. Woran liegt das?",
+      "antwort": "Meist kommt der Druck nicht am Spülventil an, weil Stangen oder Haken nicht richtig sitzen. Ist der Kasten leer, weil kein Wasser nachläuft, kann ebenfalls keine Spülung auslösen. Platte abnehmen und das Ventil von Hand anheben zeigt, welcher Fall es ist.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Bet%C3%A4tigungen.pdf",
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Nach dem Reinigen des Spülkastens funktioniert die Spülung nicht mehr. Was habe ich falsch gemacht?",
+      "antwort": "Meist sitzen Betätigungshaken oder Stangen nicht mehr richtig. Bei TECE hängt der Betätigungsbock am Spritzschutz und kommt beim Öffnen komplett mit heraus. Beim Einsetzen müssen die Haken wieder in den Zugösen des Ablaufventils sitzen. Bei Geberit müssen Lagerbock und Bügel korrekt eingesetzt sein.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Bet%C3%A4tigungen.pdf",
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Die Spülung löst nur aus, wenn ich die Taste fest drücke. Ist etwas verstellt?",
+      "antwort": "Oft sind die Stangen zu kurz eingestellt, dann kommt nicht der volle Hub am Ventil an. TECE gibt je Platte vor, wie weit die Stangen vor der Wand stehen sollen, und lässt sie je nach Wandaufbau abknicken.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Bet%C3%A4tigungen.pdf"
+      ],
+      "teile": [],
+      "problem": "geberit-spuelung-loest-nicht-aus"
+    },
+    {
+      "frage": "Nur die kleine Taste funktioniert nicht. Woran liegt das?",
+      "antwort": "Bei Zwei-Mengen-Spülung hat jede Taste eine eigene Stange. Fehlt eine oder ist sie verstellt, fällt nur diese Spülmenge aus. Bei der pneumatischen Geberit Sigma70 nennt Geberit dafür einen geknickten, verschmutzten oder mit Wasser gefüllten Pneumatikschlauch.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Bet%C3%A4tigungen.pdf",
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Passt jede Betätigungsplatte auf jeden Spülkasten?",
+      "antwort": "Nein. Geberit-Sigma-Platten passen nur auf Sigma-Kästen, Sigma und Omega sind nicht tauschbar. Bei TECE passt jede Platte auf jede TECE-Kastenversion. Viega nennt je Platte die passenden Kästen, etwa Visign for More 100 für die Kästen 2H, 2L und 2C.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
+        "https://www.tece.com/en/newsblog/each-plate-fits-any-cistern",
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Viega-Betaetigungsplatten/Betaetigungsplatte-8352-1.html"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Ich habe beim TECE-Kasten das Ablaufventil A1 gegen A2 getauscht, jetzt passt die Betätigung nicht. Warum?",
+      "antwort": "Laut TECE müssen beim Wechsel von A1 auf A2 auch die Betätigungshebel getauscht werden. Das alte Ventil kommt samt Ventilsitz und Dichtung raus.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Meine pneumatische Geberit-Platte (Sigma70) löst nicht aus. Was kann ich tun?",
+      "antwort": "Eckventil schließen, die Pneumatikschläuche vom Servoheber abziehen und prüfen. Geberit nennt als Ursachen einen verschmutzten Filter, einen geknickten Panzerschlauch, einen geknickten, verschmutzten oder mit Wasser gefüllten Pneumatikschlauch und ein undichtes Schlauchende, das man abschneidet. Die Platte selbst soll man laut Geberit nicht reparieren.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Meine elektronische Spülung mit Taster oder Infrarot löst nicht aus. Was prüfe ich?",
+      "antwort": "Geberit nennt für seine elektronische WC-Steuerung: Softwarestörung, Stromausfall, leere Batterien, defekter Taster und defekte Hebevorrichtung. Eine Softwarestörung behebt man, indem man die Stromversorgung 10 Sekunden unterbricht. Kabel und Hebevorrichtung sind Sache des Fachbetriebs.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.geberitnorthamerica.com/_assets/local-media/instructions/970-390-00-000.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://cdn.data.geberit.com/documents/966.331.00.0_01.pdf",
+    "https://www.geberitnorthamerica.com/_assets/local-media/instructions/970-390-00-000.pdf",
+    "https://www.geberit.de/badezimmerprodukte/inspirationen/tipps-tricks/welche-geberit-betaetigungsplatte-passt/",
+    "https://catalog.geberit.de/de-DE/spare-part/SPT_461050",
+    "https://www.tece.com/sites/default/files/media-documents/main/2020-02/TI_2019%20DE%20TECE-Bet%C3%A4tigungen.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2017-09/TI_2017%20DE%206-Spu%CC%88ltechnik.pdf",
+    "https://www.tece.com/en/newsblog/each-plate-fits-any-cistern",
+    "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Viega-Betaetigungsplatten/Betaetigungsplatte-8352-1.html"
+  ]
+}
