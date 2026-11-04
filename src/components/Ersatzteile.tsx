@@ -17,14 +17,14 @@ import {
 
 export function Brotkrumen({ teile }: { teile: { name: string; href?: string }[] }) {
   return (
-    <nav className="text-sm text-stone-500 mb-4" aria-label="Brotkrumen">
+    <nav className="mb-6 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-stone-500" aria-label="Brotkrumen">
       {teile.map((t, i) => (
-        <span key={i}>
-          {i > 0 && <span className="mx-2">›</span>}
+        <span key={i} className="flex items-center gap-2">
+          {i > 0 && <span aria-hidden className="text-stone-300">/</span>}
           {t.href ? (
-            <a href={t.href} className="hover:text-stone-700">{t.name}</a>
+            <a href={t.href} className="hover:text-stone-900">{t.name}</a>
           ) : (
-            <span className="text-stone-900">{t.name}</span>
+            <span className="text-stone-700">{t.name}</span>
           )}
         </span>
       ))}
@@ -69,7 +69,7 @@ export function KaufButton({ teil }: { teil: Teil }) {
       rel={AFFILIATE_REL}
       data-platzierung="teil"
       data-kennung={teil.oem_nummer ?? teil.slug}
-      className="text-sm text-amber-700 font-medium hover:underline whitespace-nowrap"
+      className="kauflink text-sm whitespace-nowrap"
     >
       Amazon*
     </a>
@@ -101,7 +101,7 @@ function ShopLink({ a, klein = false, kennung }: { a: Angebot; klein?: boolean; 
       data-platzierung="angebot"
       data-shop={a.shop}
       data-kennung={kennung}
-      className={klein ? "text-xs text-amber-700 hover:underline whitespace-nowrap" : "text-sm text-amber-700 font-medium hover:underline whitespace-nowrap"}
+      className={klein ? "kauflink text-xs font-normal whitespace-nowrap" : "kauflink text-[0.938rem] whitespace-nowrap"}
     >
       {klein ? (zeigePreis(a) ? `${formatEuro(a.preis!)} bei ${a.shop_name}` : a.shop_name) : `Zu ${a.shop_name}`}*
     </a>
@@ -115,8 +115,8 @@ export function Angebote({ teil, angebote }: { teil: Teil; angebote: Angebot[] }
   const nurNummer = angebote.some((a) => a.treffer === "nummer");
   const amazon = teilKauflink(teil);
   return (
-    <section className="p-5 bg-white border border-stone-200 rounded-xl flex flex-col gap-3">
-      <h2 className="text-lg font-bold">Erhältlich bei</h2>
+    <section className="p-5 sm:p-6 bg-white rounded-2xl ring-1 ring-stone-900/[0.07] shadow-[0_1px_2px_rgba(0,0,0,0.04),0_12px_32px_-16px_rgba(0,0,0,0.12)] flex flex-col gap-3">
+      <h2 className="font-sans text-base font-semibold text-stone-900">Erhältlich bei</h2>
       {angebote.length === 0 && !amazon && (
         <p className="text-sm text-stone-600">
           Zu diesem Teil kennen wir noch kein Angebot mit derselben Nummer. Frag im Fachhandel nach der Originalnummer
@@ -124,9 +124,9 @@ export function Angebote({ teil, angebote }: { teil: Teil; angebote: Angebot[] }
         </p>
       )}
       {angebote.length > 0 && (
-        <ul className="divide-y divide-stone-100">
+        <ul className="divide-y divide-stone-200 border-y border-stone-200">
           {angebote.map((a) => (
-            <li key={a.id} className="py-2 flex items-start justify-between gap-3 text-sm">
+            <li key={a.id} className="py-3 flex items-start justify-between gap-3 text-sm">
               <ShopLink a={a} kennung={kennung} />
               <PreisZeile a={a} />
             </li>
@@ -134,7 +134,7 @@ export function Angebote({ teil, angebote }: { teil: Teil; angebote: Angebot[] }
         </ul>
       )}
       {amazon && (
-        <p className={`text-sm ${angebote.length > 0 ? "pt-2 border-t border-stone-100" : ""}`}>
+        <p className="text-sm">
           <KaufButton teil={teil} />
           <span className="text-stone-500"> · Originalteil mit dieser Nummer</span>
         </p>
@@ -197,10 +197,10 @@ export function Quellen({
     </p>
   );
   const links = (
-    <ul className="list-disc pl-5 space-y-1">
+    <ul className="list-disc pl-5 space-y-1 marker:text-stone-400">
       {liste.map((u) => (
         <li key={u}>
-          <a href={u} target="_blank" rel="nofollow noopener noreferrer" className="text-amber-700 hover:underline break-all">
+          <a href={u} target="_blank" rel="nofollow noopener noreferrer" className="text-stone-700 underline decoration-stone-300 underline-offset-2 hover:text-accent-700 break-all">
             {quelleLabel(u)}
           </a>
         </li>
@@ -209,7 +209,7 @@ export function Quellen({
   );
   if (zugeklappt) {
     return (
-      <section className="mt-10 text-sm text-stone-600">
+      <section className="mt-14 border-t border-stone-200 pt-6 text-sm text-stone-600">
         {hinweis}
         <details className="mt-3">
           <summary className="cursor-pointer text-stone-500 hover:text-stone-700">
@@ -221,8 +221,8 @@ export function Quellen({
     );
   }
   return (
-    <section className="mt-10 text-sm text-stone-600">
-      <h2 className="text-base font-semibold text-stone-800 mb-2">{titel}</h2>
+    <section className="mt-14 border-t border-stone-200 pt-6 text-sm text-stone-600">
+      <h2 className="font-sans text-base font-semibold text-stone-900 mb-3">{titel}</h2>
       {links}
       {hinweis}
     </section>
@@ -266,25 +266,25 @@ export function MarkenFragen({
     })),
   };
   return (
-    <section id={id} className="mb-14 scroll-mt-20">
+    <section id={id} className="mb-16 scroll-mt-24">
       <JsonLd daten={ld} />
-      <h2 className="text-2xl font-bold mb-2">{titel ?? `Häufige Fragen zu ${markeName}-Ersatzteilen`}</h2>
+      <h2 className="text-3xl font-semibold leading-tight mb-2">{titel ?? `Häufige Fragen zu ${markeName}-Ersatzteilen`}</h2>
       <p className="text-stone-600 max-w-2xl mb-5">
         Gesammelt aus Foren und Suchanfragen. Jede Antwort nennt ihre Quelle.
       </p>
       {gruppen.map(([kategorie, liste]) => (
-        <div key={kategorie} className="mb-6">
-          <h3 className="font-semibold text-stone-900 mb-3">{FRAGE_KATEGORIEN[kategorie as keyof typeof FRAGE_KATEGORIEN]}</h3>
-          <div className="divide-y divide-stone-200 border border-stone-200 rounded-xl bg-white">
+        <div key={kategorie} className="mb-8">
+          <h3 className="ueberzeile mb-2">{FRAGE_KATEGORIEN[kategorie as keyof typeof FRAGE_KATEGORIEN]}</h3>
+          <div className="divide-y divide-stone-200 border-y border-stone-200">
             {liste.map((f) => {
               const verweise = (f.teile ?? []).filter((t) => teilName.has(t)).slice(0, 4);
               // Eine Quelle je Website reicht im Kleingedruckten.
               const quellen = f.quellen.filter((q, i) => f.quellen.findIndex((x) => hostVon(x) === hostVon(q)) === i);
               return (
-                <details key={f.frage} className="group px-4 py-3">
-                  <summary className="cursor-pointer font-medium text-stone-800 list-none flex justify-between gap-3">
+                <details key={f.frage} className="group py-4">
+                  <summary className="cursor-pointer font-semibold text-stone-900 hover:text-accent-700 list-none flex justify-between items-start gap-4">
                     <span>{f.frage}</span>
-                    <span aria-hidden className="text-stone-400 group-open:rotate-90 transition-transform">›</span>
+                    <span aria-hidden className="mt-0.5 grid h-6 w-6 shrink-0 place-items-center rounded-full bg-stone-100 font-normal text-stone-600 transition-transform group-open:rotate-45">+</span>
                   </summary>
                   <div className="mt-3 text-stone-700 leading-relaxed max-w-2xl">
                     <Absaetze text={f.antwort} className="space-y-2" />
@@ -292,14 +292,14 @@ export function MarkenFragen({
                       <ul className="mt-3 flex flex-wrap gap-2 text-sm">
                         {f.problem && (
                           <li>
-                            <a href={`/problem/${f.problem}`} className="inline-block px-3 py-1 bg-amber-50 border border-amber-200 rounded-full text-amber-800 hover:border-amber-400">
+                            <a href={`/problem/${f.problem}`} className="inline-block px-3 py-1 bg-accent-50 rounded-full text-accent-800 hover:bg-accent-100">
                               Ursache finden →
                             </a>
                           </li>
                         )}
                         {verweise.map((t) => (
                           <li key={t}>
-                            <a href={`/teil/${t}`} className="inline-block px-3 py-1 bg-stone-100 rounded-full text-stone-700 hover:bg-amber-100 hover:text-amber-800">
+                            <a href={`/teil/${t}`} className="inline-block px-3 py-1 bg-stone-100 rounded-full text-stone-700 hover:bg-accent-100 hover:text-accent-800">
                               {teilName.get(t)}
                             </a>
                           </li>
@@ -337,24 +337,25 @@ export function MarkenFragen({
 export function Widersprueche({ liste, id }: { liste: Widerspruch[]; id?: string }) {
   if (liste.length === 0) return null;
   return (
-    <section id={id} className="mb-14 scroll-mt-20">
-      <h2 className="text-2xl font-bold mb-2">Achtung, Verwechslungsgefahr</h2>
+    <section id={id} className="mb-16 scroll-mt-24">
+      <p className="ueberzeile">Das findest du nirgends sonst</p>
+      <h2 className="mt-2 text-3xl font-semibold leading-tight mb-2">Achtung, Verwechslungsgefahr</h2>
       <p className="text-stone-600 mb-5 max-w-2xl">
         Hier nennen Hersteller oder Händler unterschiedliche Nummern. Wir zeigen beide Angaben mit Quelle, statt eine
         zu raten.
       </p>
-      <div className="divide-y divide-stone-200 border border-stone-200 rounded-xl bg-white">
+      <div className="divide-y divide-stone-200 border-y border-stone-200">
         {liste.map((w) => (
-          <details key={w.id} className="group px-4 py-3">
-            <summary className="cursor-pointer font-medium text-stone-800 list-none flex justify-between gap-3">
+          <details key={w.id} className="group py-4">
+            <summary className="cursor-pointer font-semibold text-stone-900 hover:text-accent-700 list-none flex justify-between items-start gap-4">
               <span>{w.thema}</span>
-              <span className="text-stone-400 group-open:rotate-90 transition-transform">›</span>
+              <span aria-hidden className="mt-0.5 grid h-6 w-6 shrink-0 place-items-center rounded-full bg-stone-100 font-normal text-stone-600 transition-transform group-open:rotate-45">+</span>
             </summary>
             <div className="mt-3 space-y-2 text-sm text-stone-700">
               <p>
                 {w.aussage_a}
                 {w.quelle_a && (
-                  <a href={w.quelle_a} target="_blank" rel="nofollow noopener noreferrer" className="ml-1 text-amber-700 hover:underline">
+                  <a href={w.quelle_a} target="_blank" rel="nofollow noopener noreferrer" className="ml-1 text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600">
                     ({hostVon(w.quelle_a)})
                   </a>
                 )}
@@ -363,7 +364,7 @@ export function Widersprueche({ liste, id }: { liste: Widerspruch[]; id?: string
                 <span className="font-medium">Dagegen: </span>
                 {w.aussage_b}
                 {w.quelle_b && (
-                  <a href={w.quelle_b} target="_blank" rel="nofollow noopener noreferrer" className="ml-1 text-amber-700 hover:underline">
+                  <a href={w.quelle_b} target="_blank" rel="nofollow noopener noreferrer" className="ml-1 text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600">
                     ({hostVon(w.quelle_b)})
                   </a>
                 )}
@@ -378,7 +379,7 @@ export function Widersprueche({ liste, id }: { liste: Widerspruch[]; id?: string
 
 export function NummerPruefen() {
   return (
-    <div className="p-4 bg-stone-100 border border-stone-200 rounded-lg text-sm text-stone-700">
+    <div className="rounded-xl bg-accent-50 px-4 py-3.5 text-sm leading-relaxed text-stone-800">
       <strong>Vor dem Bestellen:</strong> Baue das alte Teil aus und vergleiche Nummer, Durchmesser bzw. Gewinde.
       Viele Nachbauten sehen gleich aus, passen aber nicht.
     </div>

@@ -28,7 +28,7 @@ export default async function RatgeberUebersicht() {
     <div className="max-w-4xl">
       <JsonLd daten={brotkrumenLd(pfad)} />
       <Brotkrumen teile={[pfad[0], { name: "Ratgeber" }]} />
-      <h1 className="text-3xl sm:text-4xl font-bold mb-3">Ratgeber: welches Produkt passt?</h1>
+      <h1 className="text-[2.25rem] sm:text-5xl leading-[1.1] font-semibold mb-3">Ratgeber: welches Produkt passt?</h1>
       <p className="text-lg text-stone-700 max-w-2xl mb-10">
         Wenn sich die Reparatur nicht mehr lohnt oder etwas neu dazukommt: was zu deiner Situation passt, mit Maßen aus
         den Datenblättern der Hersteller.
@@ -37,8 +37,8 @@ export default async function RatgeberUebersicht() {
         .filter((g) => g.liste.length > 0)
         .map(({ b, liste }) => (
           <section key={b.slug} className="mb-12">
-            <h2 className="text-2xl font-bold mb-4">
-              <a href={`/bereich/${b.slug}`} className="hover:text-amber-700">
+            <h2 className="text-[1.75rem] font-semibold leading-tight mb-4">
+              <a href={`/bereich/${b.slug}`} className="hover:text-accent-700">
                 {b.name}
               </a>
             </h2>
@@ -46,7 +46,7 @@ export default async function RatgeberUebersicht() {
           </section>
         ))}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-4">Nach Bereich</h2>
+        <h2 className="text-[1.75rem] font-semibold leading-tight mb-4">Nach Bereich</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
           {sichtbar.map((b) => (
             <BereichKachel key={b.slug} b={b} />

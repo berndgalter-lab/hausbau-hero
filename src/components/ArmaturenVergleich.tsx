@@ -46,7 +46,7 @@ function Auswahl<T extends string>({ label, wert, optionen, setze }: {
       {[{ wert: "alle" as const, label: "Alle" }, ...optionen].map((o) => (
         <button key={o.wert} type="button" onClick={() => setze(o.wert)} aria-pressed={wert === o.wert}
           className={`text-sm px-3 py-1 rounded-full border transition-colors ${
-            wert === o.wert ? "bg-stone-800 border-stone-800 text-white" : "bg-white border-stone-300 text-stone-700 hover:border-amber-500"
+            wert === o.wert ? "bg-accent-700 border-accent-700 text-white" : "bg-white border-stone-300 text-stone-700 hover:border-accent-500"
           }`}>
           {o.label}
         </button>
@@ -60,14 +60,14 @@ function Kaufen({ p, klein = false }: { p: VergleichsProdukt; klein?: boolean })
     <div className={klein ? "space-y-1" : "flex flex-wrap gap-x-3 gap-y-1"}>
       {p.amazon && (
         <a href={p.amazon} target="_blank" rel={AFFILIATE_REL} data-platzierung="vergleich" data-kennung={p.kennung}
-          className={klein ? "block text-amber-700 font-semibold hover:underline" : "text-sm text-amber-700 font-medium hover:underline"}>
+          className={klein ? "block text-accent-700 font-semibold hover:underline" : "text-sm kauflink"}>
           Amazon*
         </a>
       )}
       {p.angebote.map((a) => (
         <a key={a.id} href={a.url} target="_blank" rel={AFFILIATE_REL} data-platzierung="vergleich" data-shop={a.shop}
           data-kennung={p.kennung}
-          className={klein ? "block text-amber-700 hover:underline whitespace-nowrap" : "text-sm text-amber-700 font-medium hover:underline whitespace-nowrap"}>
+          className={klein ? "block text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600 whitespace-nowrap" : "text-sm kauflink whitespace-nowrap"}>
           {a.shopName} {a.preisText}*
         </a>
       ))}
@@ -122,7 +122,7 @@ export default function ArmaturenVergleich({ produkte }: { produkte: VergleichsP
 
   return (
     <div>
-      <div className="bg-white border border-stone-200 rounded-xl p-4 mb-6 space-y-3">
+      <div className="bg-white rounded-2xl ring-1 ring-stone-900/[0.07] p-4 mb-6 space-y-3">
         <Auswahl label="Einsatz" wert={kategorie} optionen={optionen.kategorie} setze={setKategorie} />
         <Auswahl label="Druck" wert={druck} optionen={optionen.druck} setze={setDruck} />
         <Auswahl label="Bauart" wert={bauart} optionen={optionen.bauart} setze={setBauart} />
@@ -141,12 +141,12 @@ export default function ArmaturenVergleich({ produkte }: { produkte: VergleichsP
       {gewaehlt.length >= 2 && (
         <section className="mb-8" aria-label="Ausgewählte Modelle nebeneinander">
           <div className="flex items-center justify-between mb-2">
-            <h2 className="text-xl font-bold">{gewaehlt.length} Modelle nebeneinander</h2>
-            <button type="button" onClick={() => setAuswahl([])} className="text-sm text-amber-700 hover:underline">
+            <h2 className="text-2xl font-semibold leading-tight">{gewaehlt.length} Modelle nebeneinander</h2>
+            <button type="button" onClick={() => setAuswahl([])} className="text-sm text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600">
               Auswahl leeren
             </button>
           </div>
-          <div className="overflow-x-auto border border-stone-200 rounded-xl bg-white">
+          <div className="overflow-x-auto border-y border-stone-200">
             <table className="min-w-full text-sm">
               <thead>
                 <tr className="align-top">
@@ -161,7 +161,7 @@ export default function ArmaturenVergleich({ produkte }: { produkte: VergleichsP
                   ))}
                 </tr>
               </thead>
-              <tbody className="divide-y divide-stone-100">
+              <tbody className="divide-y divide-stone-200">
                 {merkmale.map((m) => (
                   <tr key={m.key}>
                     <th scope="row" className="sticky left-0 bg-white p-3 text-left text-stone-500 font-medium">{m.label}</th>
@@ -195,13 +195,13 @@ export default function ArmaturenVergleich({ produkte }: { produkte: VergleichsP
           const aktiv = auswahl.includes(p.id);
           const voll = !aktiv && auswahl.length >= MAX_AUSWAHL;
           return (
-            <li key={p.id} className={`bg-white border rounded-xl p-4 flex flex-col gap-3 ${aktiv ? "border-amber-500 ring-1 ring-amber-500" : "border-stone-200"}`}>
+            <li key={p.id} className={`bg-white border rounded-xl p-4 flex flex-col gap-3 ${aktiv ? "border-accent-500 ring-1 ring-accent-500" : "border-stone-200"}`}>
               <div className="flex gap-3">
                 {p.bild && <TeilBild url={p.bild.url} alt={p.name} shop={p.bild.shop} groesse={96} />}
                 <div className="min-w-0">
                   <div className="flex flex-wrap gap-1.5 mb-1">
                     <span className="bg-stone-100 text-stone-600 text-xs px-2 py-0.5 rounded">{KATEGORIE_NAME[p.daten.kategorie!]}</span>
-                    {p.einsatzbereich && <span className="bg-amber-50 text-amber-800 text-xs px-2 py-0.5 rounded">{p.einsatzbereich}</span>}
+                    {p.einsatzbereich && <span className="bg-accent-50 text-accent-800 text-xs px-2 py-0.5 rounded">{p.einsatzbereich}</span>}
                   </div>
                   <h3 className="font-semibold text-stone-900 leading-snug">{p.name}</h3>
                   {p.kurzbeschreibung && <p className="text-sm text-stone-600 mt-1">{p.kurzbeschreibung}</p>}
@@ -222,7 +222,7 @@ export default function ArmaturenVergleich({ produkte }: { produkte: VergleichsP
               <div className="flex flex-wrap items-center justify-between gap-2 text-sm mt-auto pt-1">
                 <label className={`inline-flex items-center gap-2 ${voll ? "text-stone-400" : "text-stone-700 cursor-pointer"}`}>
                   <input type="checkbox" checked={aktiv} disabled={voll} onChange={() => umschalten(p.id)}
-                    className="accent-amber-600 w-4 h-4" />
+                    className="accent-accent-600 w-4 h-4" />
                   Vergleichen
                 </label>
                 <span className="text-stone-500">
@@ -230,7 +230,7 @@ export default function ArmaturenVergleich({ produkte }: { produkte: VergleichsP
                   {p.artikel.map((a, i) => (
                     <span key={a.href}>
                       {i > 0 && ", "}
-                      <a href={a.href} className="text-amber-700 hover:underline">{a.titel.split(":")[0]}</a>
+                      <a href={a.href} className="text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600">{a.titel.split(":")[0]}</a>
                     </span>
                   ))}
                 </span>

@@ -4,9 +4,9 @@ import type { Metadata } from "next";
 import ArticleContent from "@/components/ArticleContent";
 import { getPassendeRechner } from "@/lib/rechner-zuordnung";
 import { ersatzteilVerweise } from "@/lib/ersatzteil-verweise";
-import { zerlegeArtikel } from "@/lib/artikel-aufbau";
+import { mitAnkern, zerlegeArtikel, type Gliederungspunkt } from "@/lib/artikel-aufbau";
 import { ratgeberNachSlug, weiterleitungsZiel } from "@/lib/produkt-ratgeber";
-import { AffiliateHinweis, HaeufigeFragen, KurzeAntwort, Pruefvermerk, Quellen } from "@/components/Ratgeber";
+import { AffiliateHinweis, ArtikelPfad, ArtikelRahmen, HaeufigeFragen, KaputtVerweise, KurzeAntwort, Pruefvermerk, Quellen } from "@/components/Ratgeber";
 
 export const revalidate = 0;
 
@@ -73,6 +73,14 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
 
   const verweise = ersatzteilVerweise(seite.slug);
   // Affiliate-Hinweis nur bei Partnerlinks im Text
+  const rumpf = mitAnkern(aufbau?.rumpf ?? "");
+  const gliederung: Gliederungspunkt[] = [
+    ...(aufbau?.wichtigstes ? [{ id: "kurz", titel: aufbau.wichtigstesTitel ?? "Kurz gesagt" }] : []),
+    ...rumpf.gliederung,
+    ...(verweise.length > 0 ? [{ id: "ersatzteile", titel: "Wenn etwas kaputt geht" }] : []),
+    ...(aufbau && aufbau.fragen.length > 0 ? [{ id: "fragen", titel: "Häufige Fragen" }] : []),
+    ...(aufbau?.quellen ? [{ id: "quellen", titel: "Quellen" }] : []),
+  ];
   const hatPartnerlinks = /amazon\.de\/(dp|gp)\/|awin1\.com/i.test(seite.content_md ?? "");
 
   const rechnerSlugs = getPassendeRechner(seite.slug, seite.passende_rechner);
@@ -90,7 +98,7 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
   }
 
   return (
-    <div className="max-w-3xl mx-auto">
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -106,47 +114,40 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
         }}
       />
 
-      <nav className="text-sm text-stone-500 mb-4">
-        <a href="/" className="hover:text-stone-700">Start</a>
-        <span className="mx-2">›</span>
-        <a href={`/${params.silo}`} className="hover:text-stone-700">{siloName}</a>
-        <span className="mx-2">›</span>
-        <span className="text-stone-900">{seite.titel}</span>
-      </nav>
-
-      <h1 className="text-3xl font-bold text-stone-900 mb-3">{seite.titel}</h1>
-
+      <ArtikelRahmen
+        gliederung={gliederung}
+        kopf={
+          <header>
+            <ArtikelPfad teile={[{ name: "Start", href: "/" }, { name: siloName, href: `/${params.silo}` }, { name: seite.titel }]} />
+            <h1 className="text-[2.25rem] leading-[1.1] text-stone-900 sm:text-5xl">{seite.titel}</h1>
+            {aufbau?.einstieg && (
+              <div className="mt-6">
+                <ArticleContent html={aufbau.einstieg} gross />
+              </div>
+            )}
+            {aufbau && (
+              <div className="mt-6">
+                <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} methode={aufbau.ohneTest ? "Herstellerangaben, kein Test" : null} />
+              </div>
+            )}
+          </header>
+        }
+      >
       {aufbau ? (
         <>
-          {aufbau.einstieg && <ArticleContent html={aufbau.einstieg} />}
-          <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} methode={aufbau.ohneTest ? "Herstellerangaben, kein Test" : null} />
           {aufbau.wichtigstes && <KurzeAntwort html={aufbau.wichtigstes} titel={aufbau.wichtigstesTitel ?? "Kurz gesagt"} />}
-          {aufbau.rumpf && <ArticleContent html={aufbau.rumpf} />}
+          {rumpf.html && <ArticleContent html={rumpf.html} />}
         </>
       ) : (
-        <div className="bg-stone-50 border border-stone-200 rounded-xl p-8 text-center">
+        <div className="border-y border-stone-200 py-10 text-center">
           <p className="text-stone-600 mb-4">Dieser Artikel wird gerade überarbeitet.</p>
-          <a href={`/${params.silo}`} className="text-amber-600 font-medium hover:underline">
-            Zurück zu {siloName} →
+          <a href={`/${params.silo}`} className="weiterlink">
+            Zurück zu {siloName}
           </a>
         </div>
       )}
 
-      {verweise.length > 0 && (
-        <section className="mt-12 p-6 bg-white border border-stone-200 rounded-xl">
-          <h2 className="text-lg font-bold mb-1">Wenn etwas kaputt geht</h2>
-          <p className="text-sm text-stone-600 mb-4">Passende Ersatzteile und Hilfe bei typischen Problemen:</p>
-          <ul className="space-y-2">
-            {verweise.map((v) => (
-              <li key={v.href}>
-                <a href={v.href} className="text-amber-700 font-medium hover:underline">
-                  {v.titel} →
-                </a>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
+      <KaputtVerweise verweise={verweise} />
 
       {passendeRechner.length > 0 && (
         <div className="mt-8 text-sm text-stone-600">
@@ -154,7 +155,7 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
           {passendeRechner.map((r, i) => (
             <span key={r.slug}>
               {i > 0 && ", "}
-              <a href={`/rechner/${r.slug}`} className="text-amber-700 hover:underline">{r.name}</a>
+              <a href={`/rechner/${r.slug}`} className="text-accent-700 underline decoration-accent-300 underline-offset-2">{r.name}</a>
             </span>
           ))}
         </div>
@@ -163,6 +164,7 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
       {aufbau && <HaeufigeFragen fragen={aufbau.fragen} />}
       {aufbau?.quellen && <Quellen html={aufbau.quellen} />}
       {hatPartnerlinks && <AffiliateHinweis />}
-    </div>
+      </ArtikelRahmen>
+    </>
   );
 }

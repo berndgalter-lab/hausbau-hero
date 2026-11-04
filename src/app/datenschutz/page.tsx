@@ -9,11 +9,11 @@ export const metadata: Metadata = {
 export default function DatenschutzPage() {
   return (
     <div className="max-w-3xl">
-      <h1 className="text-3xl font-bold mb-8">Datenschutzerklärung</h1>
+      <h1 className="text-[2.25rem] sm:text-5xl leading-[1.1] font-semibold mb-8">Datenschutzerklärung</h1>
 
       {/* 1 */}
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">
+        <h2 className="text-2xl font-semibold leading-tight mb-3">
           1. Datenschutz auf einen Blick
         </h2>
 
@@ -57,7 +57,7 @@ export default function DatenschutzPage() {
 
       {/* 2 */}
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">2. Hosting</h2>
+        <h2 className="text-2xl font-semibold leading-tight mb-3">2. Hosting</h2>
 
         <h3 className="text-lg font-semibold mt-5 mb-2">Vercel</h3>
         <p className="text-stone-700 leading-relaxed mb-3">
@@ -85,7 +85,7 @@ export default function DatenschutzPage() {
             href="https://vercel.com/legal/privacy-policy"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-amber-600 hover:text-amber-700 break-all"
+            className="text-accent-600 hover:text-accent-700 break-all"
           >
             https://vercel.com/legal/privacy-policy
           </a>
@@ -94,7 +94,7 @@ export default function DatenschutzPage() {
 
       {/* 3 */}
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">
+        <h2 className="text-2xl font-semibold leading-tight mb-3">
           3. Verantwortliche Stelle
         </h2>
         <p className="text-stone-700 leading-relaxed mb-3">
@@ -112,7 +112,7 @@ export default function DatenschutzPage() {
           E-Mail:{" "}
           <a
             href="mailto:info@hausbau-hero.de"
-            className="text-amber-600 hover:text-amber-700"
+            className="text-accent-600 hover:text-accent-700"
           >
             info@hausbau-hero.de
           </a>
@@ -121,7 +121,7 @@ export default function DatenschutzPage() {
 
       {/* 4 */}
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">4. Ihre Rechte</h2>
+        <h2 className="text-2xl font-semibold leading-tight mb-3">4. Ihre Rechte</h2>
         <p className="text-stone-700 mb-3">
           Sie haben jederzeit das Recht:
         </p>
@@ -137,7 +137,7 @@ export default function DatenschutzPage() {
           Zur Ausübung Ihrer Rechte wenden Sie sich an:{" "}
           <a
             href="mailto:info@hausbau-hero.de"
-            className="text-amber-600 hover:text-amber-700"
+            className="text-accent-600 hover:text-accent-700"
           >
             info@hausbau-hero.de
           </a>
@@ -151,7 +151,7 @@ export default function DatenschutzPage() {
 
       {/* 5 */}
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">
+        <h2 className="text-2xl font-semibold leading-tight mb-3">
           5. Datenerfassung auf dieser Website
         </h2>
 
@@ -183,7 +183,7 @@ export default function DatenschutzPage() {
 
       {/* 5a */}
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">5a. Webanalyse — Vercel Web Analytics</h2>
+        <h2 className="text-2xl font-semibold leading-tight mb-3">5a. Webanalyse — Vercel Web Analytics</h2>
         <p className="text-stone-700 leading-relaxed mb-3">
           Wir nutzen Vercel Web Analytics, einen datenschutzfreundlichen Analysedienst
           von Vercel Inc. (440 N Barranca Ave #4133, Covina, CA 91723, USA). Vercel
@@ -209,7 +209,7 @@ export default function DatenschutzPage() {
             href="https://vercel.com/docs/analytics/privacy-policy"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-amber-600 hover:text-amber-700 break-all"
+            className="text-accent-600 hover:text-accent-700 break-all"
           >
             vercel.com/docs/analytics/privacy-policy
           </a>
@@ -218,7 +218,7 @@ export default function DatenschutzPage() {
 
       {/* 6 */}
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">6. Datenbank</h2>
+        <h2 className="text-2xl font-semibold leading-tight mb-3">6. Datenbank</h2>
 
         <h3 className="text-lg font-semibold mt-5 mb-2">Supabase</h3>
         <p className="text-stone-700 leading-relaxed mb-3">
@@ -237,7 +237,7 @@ export default function DatenschutzPage() {
             href="https://supabase.com/privacy"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-amber-600 hover:text-amber-700 break-all"
+            className="text-accent-600 hover:text-accent-700 break-all"
           >
             supabase.com/privacy
           </a>
@@ -246,7 +246,7 @@ export default function DatenschutzPage() {
 
       {/* 7 */}
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">7. Affiliate-Marketing</h2>
+        <h2 className="text-2xl font-semibold leading-tight mb-3">7. Affiliate-Marketing</h2>
 
         <h3 className="text-lg font-semibold mt-5 mb-2">Affiliate-Links</h3>
         <p className="text-stone-700 leading-relaxed mb-3">
@@ -292,7 +292,7 @@ export default function DatenschutzPage() {
             href="https://www.amazon.de/gp/help/customer/display.html?nodeId=201909010"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-amber-600 hover:text-amber-700 break-all"
+            className="text-accent-600 hover:text-accent-700 break-all"
           >
             https://www.amazon.de/gp/help/customer/display.html?nodeId=201909010
           </a>
@@ -318,7 +318,7 @@ export default function DatenschutzPage() {
             href="https://www.awin.com/de/rechtliches/privacy-policy-DACH"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-amber-600 hover:text-amber-700 break-all"
+            className="text-accent-600 hover:text-accent-700 break-all"
           >
             https://www.awin.com/de/rechtliches/privacy-policy-DACH
           </a>
@@ -327,7 +327,7 @@ export default function DatenschutzPage() {
             href="https://www.awin.com/de/rechtliches/optout"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-amber-600 hover:text-amber-700 break-all"
+            className="text-accent-600 hover:text-accent-700 break-all"
           >
             https://www.awin.com/de/rechtliches/optout
           </a>
@@ -343,7 +343,7 @@ export default function DatenschutzPage() {
 
       {/* 8 */}
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">8. Cookies</h2>
+        <h2 className="text-2xl font-semibold leading-tight mb-3">8. Cookies</h2>
         <p className="text-stone-700 leading-relaxed mb-3">
           Unsere Website selbst verwendet keine Tracking-Cookies. Es
           werden keine cookie-basierten Analysetools wie Google Analytics eingesetzt.
@@ -359,7 +359,7 @@ export default function DatenschutzPage() {
 
       {/* 9 */}
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">9. Schriftarten</h2>
+        <h2 className="text-2xl font-semibold leading-tight mb-3">9. Schriftarten</h2>
         <p className="text-stone-700">
           Diese Website nutzt ausschließlich system-eigene Schriftarten
           bzw. über den eigenen Server ausgelieferte Schriften. Es findet
@@ -370,7 +370,7 @@ export default function DatenschutzPage() {
 
       {/* 10 */}
       <section className="mb-8">
-        <h2 className="text-xl font-bold mb-3">10. Aktualität</h2>
+        <h2 className="text-2xl font-semibold leading-tight mb-3">10. Aktualität</h2>
         <p className="text-stone-700 leading-relaxed mb-3">
           Diese Datenschutzerklärung ist aktuell gültig und hat den Stand:
           März 2026.

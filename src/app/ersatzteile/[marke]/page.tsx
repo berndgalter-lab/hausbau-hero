@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import SuchFeld from "@/components/SuchFeld";
 import TeilBild from "@/components/TeilBild";
 import TeilartSeite from "@/components/TeilartSeite";
 import { teilartNachSlug } from "@/lib/teilarten";
@@ -55,10 +56,10 @@ function kurzname(name: string, marke: string, nummer?: string | null): string {
 
 function Abschnitt({ id, titel, intro, children }: { id: string; titel: string; intro?: string; children: React.ReactNode }) {
   return (
-    <section id={id} className="mb-14 scroll-mt-20">
-      <h2 className="text-2xl font-bold mb-2">{titel}</h2>
+    <section id={id} className="mb-16 scroll-mt-24">
+      <h2 className="text-3xl font-semibold leading-tight mb-2">{titel}</h2>
       {intro && <p className="text-stone-600 max-w-2xl">{intro}</p>}
-      <div className="mt-5">{children}</div>
+      <div className="mt-6">{children}</div>
     </section>
   );
 }
@@ -139,31 +140,19 @@ export default async function MarkenHub({ params }: Props) {
       <Brotkrumen teile={[pfad[0], pfad[1], { name: marke.name }]} />
 
       <header className="mb-12">
-        <h1 className="text-3xl sm:text-4xl font-bold mb-4">{marke.name} Ersatzteile</h1>
+        <h1 className="text-[2.25rem] sm:text-5xl leading-[1.1] font-semibold mb-4">{marke.name} Ersatzteile</h1>
         {marke.beschreibung && (
           <Absaetze text={marke.beschreibung} className="text-lg text-stone-700 leading-relaxed max-w-2xl space-y-3" />
         )}
 
-        <form action="/ersatzteile" method="get" role="search" className="mt-6 p-4 sm:p-5 bg-stone-100 rounded-xl">
-          <label htmlFor="q" className="block font-semibold text-stone-900 mb-2">
-            Du hast schon eine Nummer?
-          </label>
-          <div className="flex gap-2">
-            <input
-              id="q"
-              name="q"
-              type="search"
-              placeholder={`z. B. ${beispielNummer ?? "Kartusche"}`}
-              className="flex-1 min-w-0 px-4 py-3 bg-white border border-stone-300 rounded-lg focus:outline-none focus:border-amber-500"
-            />
-            <button type="submit" className="px-5 py-3 bg-amber-600 text-white font-semibold rounded-lg hover:bg-amber-700">
-              Suchen
-            </button>
-          </div>
-          <p className="text-sm text-stone-500 mt-2">
-            Nummer vom Teil oder einfach, was du suchst{beispielArt && `, etwa „${beispielArt}“`}.
-          </p>
-        </form>
+        <div className="mt-8">
+          <p className="mb-3 font-semibold text-stone-900">Du hast schon eine Nummer?</p>
+          <SuchFeld
+            id="q"
+            platzhalter={`z. B. ${beispielNummer ?? "Kartusche"}`}
+            hinweis={<>Nummer vom Teil oder einfach, was du suchst{beispielArt && `, etwa „${beispielArt}“`}.</>}
+          />
+        </div>
 
         {sprungmarken.length > 1 && (
           <nav aria-label="Auf dieser Seite" className="mt-5 flex flex-wrap gap-2">
@@ -171,7 +160,7 @@ export default async function MarkenHub({ params }: Props) {
               <a
                 key={s.href}
                 href={s.href}
-                className="px-3 py-1.5 text-sm bg-white border border-stone-200 rounded-full text-stone-700 hover:border-amber-400 hover:text-amber-700"
+                className="px-3 py-1.5 text-sm bg-stone-100 rounded-full text-stone-800 transition-colors hover:bg-accent-50 hover:text-accent-800"
               >
                 {s.text}
               </a>
@@ -182,16 +171,16 @@ export default async function MarkenHub({ params }: Props) {
 
       {probleme.length > 0 && (
         <Abschnitt id="probleme" titel="Etwas ist kaputt?" intro="Erst die Ursache finden, dann das passende Teil bestellen.">
-          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <ul className="grid grid-cols-1 border-t border-stone-200 sm:grid-cols-2 sm:gap-x-10 [&>li]:border-b [&>li]:border-stone-200">
             {probleme.map((p) => (
               <li key={p.id}>
                 <a
                   href={`/problem/${p.slug}`}
-                  className="group flex h-full flex-col p-4 bg-white border border-stone-200 rounded-xl hover:border-amber-400"
+                  className="group flex h-full flex-col py-4"
                 >
-                  <span className="font-semibold text-stone-900 group-hover:text-amber-700">{kurzname(p.titel, marke.name)}</span>
+                  <span className="font-semibold text-stone-900 group-hover:text-accent-700">{kurzname(p.titel, marke.name)}</span>
                   {p.symptom && <span className="text-sm text-stone-600 mt-1 line-clamp-2">{p.symptom}</span>}
-                  <span className="mt-auto pt-3 text-sm font-medium text-amber-700">Ursache finden →</span>
+                  <span className="mt-auto pt-2 text-sm font-medium text-accent-700">Ursache finden →</span>
                 </a>
               </li>
             ))}
@@ -201,7 +190,7 @@ export default async function MarkenHub({ params }: Props) {
 
       {marke.nummer_hinweis && (
         <Abschnitt id="nummer" titel="So findest du die richtige Nummer">
-          <div className="p-5 sm:p-6 bg-white border border-stone-200 border-l-4 border-l-amber-500 rounded-xl">
+          <div className="max-w-3xl border-l-2 border-accent-600 pl-5 sm:pl-7">
             <Absaetze text={marke.nummer_hinweis} className="text-stone-700 leading-relaxed space-y-3 max-w-2xl" />
           </div>
         </Abschnitt>
@@ -211,7 +200,7 @@ export default async function MarkenHub({ params }: Props) {
         <Abschnitt id="modelle" titel="Ersatzteile nach Modell" intro="Wähle dein Modell. Auf der Modellseite stehen alle Teile, die dazu passen.">
           {serienGruppen.map(([typ, liste]) => (
             <div key={typ} className="mb-8">
-              <h3 className="font-semibold text-stone-900 mb-3">
+              <h3 className="ueberzeile mb-3">
                 {PRODUKTTYP_LABEL[typ] ?? typ} <span className="font-normal text-stone-400">({liste.length})</span>
               </h3>
               <ul className="grid grid-cols-2 lg:grid-cols-3 gap-2">
@@ -222,9 +211,9 @@ export default async function MarkenHub({ params }: Props) {
                     <li key={s.id}>
                       <a
                         href={`/ersatzteile/${marke.slug}/${s.slug}`}
-                        className="group block h-full px-3 py-2.5 sm:px-4 sm:py-3 bg-white border border-stone-200 rounded-lg hover:border-amber-400"
+                        className="group block h-full px-3 py-2.5 sm:px-4 sm:py-3 bg-stone-100/80 rounded-2xl transition-colors hover:bg-accent-50"
                       >
-                        <span className="block text-sm sm:text-base font-medium text-stone-900 group-hover:text-amber-700">{kurzname(s.name, marke.name)}</span>
+                        <span className="block text-sm sm:text-base font-medium text-stone-900 group-hover:text-accent-700">{kurzname(s.name, marke.name)}</span>
                         <span className="block text-xs text-stone-500 mt-0.5 truncate">
                           {anzahl > 0 && `${anzahl} ${anzahl === 1 ? "Teil" : "Teile"}`}
                           {anzahl > 0 && nummern && " · "}
@@ -252,7 +241,7 @@ export default async function MarkenHub({ params }: Props) {
                 <a
                   key={typ}
                   href={`#art-${typ}`}
-                  className="px-3 py-1.5 text-sm bg-stone-100 rounded-full text-stone-700 hover:bg-amber-100 hover:text-amber-800"
+                  className="px-3 py-1.5 text-sm bg-stone-100 rounded-full text-stone-700 hover:bg-accent-100 hover:text-accent-800"
                 >
                   {TEILTYP_LABEL[typ] ?? typ} <span className="text-stone-400">{liste.length}</span>
                 </a>
@@ -261,25 +250,25 @@ export default async function MarkenHub({ params }: Props) {
           )}
           {teileGruppen.map(([typ, liste]) => (
             <div key={typ} id={`art-${typ}`} className="mb-8 scroll-mt-20">
-              <h3 className="font-semibold text-stone-900 mb-3">
+              <h3 className="ueberzeile mb-3">
                 {TEILTYP_LABEL[typ] ?? typ} <span className="font-normal text-stone-400">({liste.length})</span>
               </h3>
-              <ul className="divide-y divide-stone-100 bg-white border border-stone-200 rounded-xl overflow-hidden">
+              <ul className="divide-y divide-stone-200 border-y border-stone-200">
                 {liste.map((t) => {
                   const preis = guenstigstes.get(t.id);
                   return (
                     <li key={t.id}>
-                      <a href={`/teil/${t.slug}`} className="group flex items-center gap-3 px-4 py-3 hover:bg-stone-50">
+                      <a href={`/teil/${t.slug}`} className="group flex items-center gap-3 px-2 py-3 hover:bg-stone-100/70">
                         <TeilBild url={t.bild_url} alt={t.name} groesse={40} />
                         <span className="flex-1 min-w-0">
-                          <span className="block text-stone-900 group-hover:text-amber-700">{kurzname(t.name, marke.name, t.oem_nummer)}</span>
+                          <span className="block text-stone-900 group-hover:text-accent-700">{kurzname(t.name, marke.name, t.oem_nummer)}</span>
                           <span className="block text-xs text-stone-500 mt-0.5">
                             {t.oem_nummer && <span className="font-mono">Nr. {t.oem_nummer}</span>}
                             {t.oem_nummer && preis !== undefined && " · "}
                             {preis !== undefined && <span>ab {formatEuro(preis)}</span>}
                           </span>
                         </span>
-                        <span aria-hidden className="text-stone-300 group-hover:text-amber-600">›</span>
+                        <span aria-hidden className="text-stone-300 group-hover:text-accent-600">›</span>
                       </a>
                     </li>
                   );
@@ -295,8 +284,8 @@ export default async function MarkenHub({ params }: Props) {
       <Widersprueche liste={widersprueche} id="verwechslung" />
 
       {marke.ersatzteil_garantie && (
-        <section className="mb-10 p-5 bg-stone-50 border border-stone-200 rounded-xl">
-          <h2 className="text-lg font-bold mb-2">Wie lange gibt es Ersatzteile?</h2>
+        <section className="mb-10 p-5 sm:p-6 bg-stone-100 rounded-2xl">
+          <h2 className="text-xl font-semibold leading-tight mb-2">Wie lange gibt es Ersatzteile?</h2>
           <Absaetze text={marke.ersatzteil_garantie} className="text-sm text-stone-700 leading-relaxed space-y-2" />
         </section>
       )}

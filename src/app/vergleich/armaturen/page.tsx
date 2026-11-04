@@ -99,19 +99,19 @@ export default async function ArmaturenVergleichSeite() {
       />
       <nav className="text-sm text-stone-500 mb-4">
         <a href="/" className="hover:text-stone-700">Start</a>
-        <span className="mx-2">›</span>
+        <span aria-hidden className="mx-2 text-stone-300">/</span>
         <a href="/bad" className="hover:text-stone-700">Bad-Kaufberatung</a>
-        <span className="mx-2">›</span>
+        <span aria-hidden className="mx-2 text-stone-300">/</span>
         <span className="text-stone-900">Armaturen-Vergleich</span>
       </nav>
 
-      <h1 className="text-3xl font-bold text-stone-900 mb-3">{TITEL}</h1>
+      <h1 className="text-[2.25rem] sm:text-5xl leading-[1.1] font-semibold text-stone-900 mb-3">{TITEL}</h1>
       <p className="text-stone-600 mb-2 max-w-3xl">
         Alle Armaturen aus unseren Kaufberatungen auf einen Blick. Filtere nach Einsatz und Druck, setze bis zu vier
         Modelle nebeneinander und vergleiche die Preise der Shops. Die Maße stammen aus Herstellerangaben; getestet haben
         wir die Armaturen nicht.
       </p>
-      <div className="bg-amber-50 border border-amber-200 rounded-lg p-3 mb-6 text-sm text-stone-600">
+      <div className="bg-accent-50 rounded-xl p-3 mb-6 text-sm text-stone-600">
         <strong className="text-stone-800">Hinweis:</strong> Die Kaufen-Links sind Partnerlinks. Kaufst du darüber, bekommen
         wir eine Provision, der Preis ändert sich für dich nicht.
       </div>

@@ -33,12 +33,12 @@ export interface AuswahlModell {
 function Kaufzeile({ links }: { links: KaufLink[] }) {
   if (links.length === 0) return null;
   return (
-    <p className="text-sm mt-1.5">
+    <p className="text-sm mt-2">
       {links.map((l, i) => (
         <span key={l.url}>
           {i > 0 && <span className="text-stone-400"> · </span>}
           <a href={l.url} target="_blank" rel={AFFILIATE_REL} data-platzierung={l.platzierung} data-shop={l.shop}
-            data-kennung={l.kennung} className="text-amber-700 font-medium hover:underline">
+            data-kennung={l.kennung} className="kauflink">
             {l.text}
           </a>
           *
@@ -51,12 +51,12 @@ function Kaufzeile({ links }: { links: KaufLink[] }) {
 function Ergebnis({ m, eckdaten }: { m: AuswahlModell; eckdaten: string[] }) {
   const mehr = m.kurzbeschreibung || m.vorteile.length > 0 || m.nachteile.length > 0;
   return (
-    <li id={modellAnker(m.id)} className="py-4 first:pt-0 last:pb-0 scroll-mt-24">
+    <li id={modellAnker(m.id)} className="py-5 first:pt-1 last:pb-1 scroll-mt-24">
       <div className="flex gap-3 sm:gap-4">
         {m.bild ? (
           <TeilBild url={m.bild.url} alt={m.name} shop={m.bild.shop} groesse={88} />
         ) : (
-          <div className="w-[88px] h-[88px] shrink-0 rounded-lg border border-dashed border-stone-200 bg-stone-50 flex items-center justify-center text-[11px] text-stone-400 text-center px-2">
+          <div className="w-[88px] h-[88px] shrink-0 rounded-xl bg-stone-100 flex items-center justify-center text-[11px] text-stone-400 text-center px-2">
             kein Bild
           </div>
         )}
@@ -69,7 +69,7 @@ function Ergebnis({ m, eckdaten }: { m: AuswahlModell; eckdaten: string[] }) {
       </div>
       {mehr && (
         <details className="group mt-2 sm:ml-[104px]">
-          <summary className="text-sm text-stone-500 cursor-pointer hover:text-stone-800 list-none">
+          <summary className="inline-block text-sm font-medium text-stone-500 cursor-pointer hover:text-stone-900 list-none">
             <span className="group-open:hidden">Mehr zu diesem Modell ▾</span>
             <span className="hidden group-open:inline">Weniger ▴</span>
           </summary>
@@ -120,20 +120,21 @@ export default function Auswahlhilfe({ pfad, modelle, fussnote }: { pfad: string
   );
   const eckdaten = (m: AuswahlModell) => ratgeber.eckdaten(m.daten).filter((x): x is string => !!x);
   const zuruecksetzen = gewaehlt.length > 0 && (
-    <button type="button" onClick={() => setWahl({})} className="text-amber-700 hover:underline">
+    <button type="button" onClick={() => setWahl({})} className="font-normal text-accent-700 underline decoration-accent-300 underline-offset-2">
       Auswahl zurücksetzen
     </button>
   );
 
   return (
-    <section id="auswahl" className="scroll-mt-20 border border-stone-200 rounded-xl bg-white mb-10">
-      <div className="p-4 sm:p-5">
-        <h2 className="text-xl font-bold text-stone-900">{ratgeber.frage ?? `Welche ${ratgeber.name} passt?`}</h2>
-        <p className="text-sm text-stone-500 mb-4">Wähle aus, was bei dir zutrifft. Die Liste darunter passt sich an.</p>
+    <section id="auswahl" className="scroll-mt-24 mb-12 -mx-5 sm:mx-0 rounded-none sm:rounded-2xl bg-white shadow-[0_1px_2px_rgba(0,0,0,0.04),0_12px_32px_-16px_rgba(0,0,0,0.12)] ring-1 ring-stone-900/[0.07]">
+      <div className="p-5 sm:p-7">
+        <p className="ueberzeile">Auswahlhilfe</p>
+        <h2 className="mt-2 text-2xl font-semibold leading-tight text-stone-900">{ratgeber.frage ?? `Welche ${ratgeber.name} passt?`}</h2>
+        <p className="text-sm text-stone-500 mt-1 mb-6">Wähle aus, was bei dir zutrifft. Die Liste darunter passt sich an.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
           {ratgeber.fragen.map((f) => (
             <fieldset key={f.key} className={f.optionen.length > 2 ? "md:col-span-2" : undefined}>
-              <legend className="text-sm font-semibold text-stone-800 mb-1.5">{f.label}</legend>
+              <legend className="text-sm font-semibold text-stone-900 mb-2">{f.label}</legend>
               <div className="flex flex-wrap gap-2">
                 {[-1, ...f.optionen.map((_, i) => i)].map((i) => {
                   const aktiv = (wahl[f.key] ?? -1) === i;
@@ -148,7 +149,7 @@ export default function Auswahlhilfe({ pfad, modelle, fussnote }: { pfad: string
                         })
                       }
                       className={`text-sm px-3 py-1.5 rounded-full border transition-colors ${
-                        aktiv ? "bg-stone-800 border-stone-800 text-white" : "bg-white border-stone-300 text-stone-700 hover:border-stone-500"
+                        aktiv ? "bg-accent-700 border-accent-700 text-white" : "bg-white border-stone-300 text-stone-700 hover:border-stone-500"
                       }`}>
                       {i === -1 ? "egal" : f.optionen[i].label}
                     </button>
@@ -161,20 +162,20 @@ export default function Auswahlhilfe({ pfad, modelle, fussnote }: { pfad: string
         </div>
       </div>
 
-      <div className="border-t border-stone-200 bg-stone-50/60 p-4 sm:p-5 rounded-b-xl">
+      <div className="border-t border-stone-200 p-5 sm:p-7">
         {verweise.map((o) => (
-          <p key={o.label} className="text-sm text-stone-700 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2 mb-4">
+          <p key={o.label} className="text-sm text-stone-800 bg-accent-50 rounded-xl px-4 py-3 mb-5">
             {o.sonst!.text}
             {o.sonst!.href && (
               <>
                 {" "}
-                <a href={o.sonst!.href} className="text-amber-700 font-medium hover:underline">{o.sonst!.linktext ?? "Mehr dazu"} →</a>
+                <a href={o.sonst!.href} className="kauflink">{o.sonst!.linktext ?? "Mehr dazu"} →</a>
               </>
             )}
           </p>
         ))}
 
-        <p className="text-sm text-stone-500 mb-3">
+        <p className="text-sm font-medium text-stone-900 mb-3" aria-live="polite">
           {passend.length === modelle.length
             ? `Alle ${modelle.length} ${ratgeber.mehrzahl}:`
             : passend.length === 0
