@@ -44,7 +44,7 @@
     "Füllt der Kasten danach immer noch nicht, das Füllventil tauschen."
   ],
   "fachbetrieb_ab": "Wenn das Eckventil festsitzt, sich nicht öffnen lässt oder undicht ist, wenn der Wasseranschluss im Kasten getauscht werden muss oder wenn schon am Eckventil kaum Wasser ankommt. Der Tausch des Wasseranschlusses ist ein Eingriff in die Trinkwasserinstallation.",
-  "marken_probleme": ["geberit-spuelkasten-fuellt-nicht", "tece-spuelkasten-fuellt-nicht"],
+  "marken_probleme": ["geberit-spuelkasten-fuellt-nicht", "tece-spuelkasten-fuellt-nicht", "viega-spuelkasten-fuellt-nicht"],
   "fragen": [
     {
       "frage": "Der Spülkasten füllt sich nicht mehr. Was prüfe ich zuerst?",

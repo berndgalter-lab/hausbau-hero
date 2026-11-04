@@ -1,0 +1,3633 @@
+{
+  "marke": {
+    "slug": "viega",
+    "name": "Viega",
+    "beschreibung": "Viega aus Attendorn stellt neben Rohrleitungstechnik auch vieles her, was im Bad unsichtbar verbaut ist: Duschabläufe wie Tempoplex und Domoplex, Duschrinnen und Bodenabläufe der Serie Advantix, Ab- und Überlaufgarnituren für Badewannen (Multiplex, Multiplex Trio, Rotaplex, Simplex) sowie Vorwandelemente mit Unterputzspülkasten und Visign-Betätigungsplatten.\n\nAm häufigsten gesucht werden Teile, die man ohne Werkzeug selbst tauscht: Tauchrohr, Haarsieb und Abdeckhaube am Duschablauf, Ventilkegel und Dichtung am Badewannenstopfen. Welches Teil passt, hängt bei Viega an der Baureihe, also am Baujahr. Für den Spülkasten gibt es Füllventil, Ablaufventil und Dichtungssets, ebenfalls nach Generation getrennt.",
+    "nummer_hinweis": "Viega unterscheidet Modellnummer und Artikelnummer. Die Modellnummer beschreibt das Produkt, zum Beispiel 6961 für den Tempoplex-Ablauf oder 6961.96 für dessen Siebeinsatz. Die sechsstellige Artikelnummer steht für eine bestimmte Ausführung, etwa Länge oder Farbe, und wird im Katalog in Dreiergruppen geschrieben (582 951). Händler führen sie meist ohne Leerzeichen.\n\nDie EAN ergibt sich laut Viega aus 4015211 und der Artikelnummer, beim Siebeinsatz also 4015211582951.\n\nWo am eingebauten Ablauf eine Nummer steht, gibt Viega nicht an. Duschabläufe erkennt man am Durchmesser der Abdeckhaube und am Ablaufloch der Wanne, Badewannengarnituren am Ablaufloch (52 mm bei Multiplex und Simplex, 90 mm bei Rotaplex) und daran, ob die Wanne durch den Überlauf gefüllt wird (Trio). Beim Spülkasten hilft die Lage des Revisionsschachts hinter der Platte.",
+    "ersatzteil_garantie": "Eine Frist, wie lange es Ersatzteile gibt, nennt Viega nicht. Der Ersatzteilkatalog reicht aber weit zurück: Für Tempoplex-Abläufe gibt es Tauchrohre der Baureihe bis 1996, für Unterputzspülkästen Teile ab 1999 und für Multiplex Trio ein Umrüstset für Garnituren bis 1995. Einzelne Artikel sind mit „Lieferung nur noch aus Lagervorrat“ gekennzeichnet.\n\nZur neuen Tempoplex-Generation 2026 schreibt Viega, dass der Trockengeruchverschluss auch in Abläufe ab Baujahr 2010 passt.",
+    "hersteller_ersatzteil_url": "https://www.viega.de/de/produkte/entwaesserungstechnik/im-bad/Tempoplex.html",
+    "quellen": [
+      "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und.html",
+      "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer.html",
+      "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf",
+      "https://www.viega.de/de/produkte/entwaesserungstechnik/im-bad/Tempoplex.html",
+      "https://www.viega.de/content/dam/viega-assets/viega-worldwide-assets/public-relations/germany/tempoplex/PR_Tempoplex7_DE_2026.docx",
+      "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9ca4fdd59107f0edac11409400fe085a_de_DE.pdf",
+      "https://www.meinhausshop.de/media/pdf/93_727_66--DBL-01-de.pdf",
+      "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/2b652e6bc65bb687ac1140947255fe72_de_DE.pdf"
+    ],
+    "fragen": [
+      {
+        "frage": "Woran erkenne ich, welcher Viega-Duschablauf eingebaut ist?",
+        "antwort": "Am Ablaufloch und an der Abdeckhaube. Tempoplex sitzt in Wannen mit 90 mm Ablaufloch: Die Haube hat 120 mm Durchmesser bis 2001, 112 mm mit zwei Schrauben von 2001 bis 2006 und 115 mm, nur aufgedrückt, ab 2006. Domoplex sitzt in Wannen mit 52 oder 65 mm Ablaufloch und hat eine kleinere Haube mit 75 oder 90 mm.",
+        "kategorie": "nummer",
+        "quellen": [
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-1997-2001.html",
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2001.html",
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006.html",
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Domoplex.html",
+          "https://www.haustechnikdialog.de/Forum/t/109933/Probleme-mit-Viega-Ablaufarmatur-bei-flacher-Duschwanne"
+        ],
+        "teile": [
+          "viega-tempoplex-abdeckhaube-120",
+          "viega-tempoplex-abdeckhaube-6958-99",
+          "viega-tempoplex-abdeckhaube-6966-01",
+          "viega-domoplex-abdeckhaube-6930-0"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Der Deckel vom Viega-Tempoplex ist kaputt. Welche Abdeckhaube passt?",
+        "antwort": "Das hängt von der Baureihe ab. Bis 2001 passt die Haube 6956.0 mit 120 mm, für die Baureihe 2001 bis Mai 2006 die verschraubte Haube 6958.99 mit 112 mm, die mit neuen Schrauben geliefert wird. Ab 2006 passt die Haube 6966.01, die nur auf drei Punkte gedrückt wird. Im Forum wird geraten, die alten Schrauben einzeln nacheinander zu tauschen.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-1997-2001/Abdeckhaube-6956-0.html",
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2001/Tempoplex-Abdeckhaube-6958-99.html",
+          "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/641d6a881a1ef2c0ac114094306da7c5_de_DE.pdf",
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Abdeckhaube-6966-01.html",
+          "https://www.haustechnikdialog.de/Forum/t/109933/Probleme-mit-Viega-Ablaufarmatur-bei-flacher-Duschwanne",
+          "https://www.gutefrage.net/frage/abdeckung-duschabfluss-laesst-sich-nich-oeffnen"
+        ],
+        "teile": [
+          "viega-tempoplex-abdeckhaube-120",
+          "viega-tempoplex-abdeckhaube-6958-99",
+          "viega-tempoplex-abdeckhaube-6966-01"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Mein Viega-Tempoplex-Duschablauf stinkt. Woran liegt das?",
+        "antwort": "Meist sitzt das Tauchrohr nach dem Reinigen nicht ganz unten oder ist verdreht, dann fehlt der Wasserverschluss. Sinkt der Wasserstand im Ablauf von selbst, etwa nach dem Spülen der Toilette, vermuten die Fachleute im Forum eine fehlende Entlüftung. Für selten benutzte Duschen bietet Viega den Trockengeruchverschluss 6971 an, der in Tempoplex-Abläufe ab Baujahr 2010 passt.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://www.gutefrage.net/frage/warum-stinkt-der-duschabfluss-mit-viega-tauchrohr",
+          "https://www.haustechnikdialog.de/Forum/t/152880/Geruch-aus-dem-Duschablauf",
+          "https://www.haustechnikdialog.de/Forum/t/122659/Undichter-Duschablauf-Viega-Tempoplex",
+          "https://www.viega.de/de/produkte/entwaesserungstechnik/im-bad/Tempoplex.html"
+        ],
+        "teile": [
+          "viega-tempoplex-trockengeruchverschluss-6971",
+          "viega-tempoplex-tauchrohr-6966-99"
+        ],
+        "problem": "viega-duschablauf-stinkt"
+      },
+      {
+        "frage": "Der Viega-Duschablauf läuft schlecht ab. Wie reinige ich ihn?",
+        "antwort": "Haube abheben, das Tauchrohr am Griff nach oben herausziehen, Haare entfernen und durchspülen. Bei Tempoplex ab 2010 kommt man über einen seitlichen Stopfen an die Leitung, laut Viega wird er mit einer Zange an der Lasche gezogen. Danach das Tauchrohr ganz eindrücken und Wasser nachgießen. Die Schrauben des Flanschs nicht lösen, sonst kann der Ablauf undicht werden.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9ca4fdd59107f0edac11409400fe085a_de_DE.pdf",
+          "https://www.gutefrage.net/frage/viega-abfluss-in-dusche-verstopft",
+          "https://www.haustechnikdialog.de/Forum/t/177058/Verstopfung-Viega-Tempoplex-Duschkabine",
+          "https://www.haustechnikdialog.de/Forum/t/142786/Viega-Domoplex-aufgeschraubt-nun-undicht-"
+        ],
+        "teile": [
+          "viega-tempoplex-stopfen-6961-93",
+          "viega-tempoplex-siebeinsatz-6961-96"
+        ],
+        "problem": "viega-duschablauf-laeuft-schlecht-ab"
+      },
+      {
+        "frage": "Ich habe beim Viega-Tempoplex die Schrauben gelöst, jetzt ist er undicht. Was tun?",
+        "antwort": "Die Schrauben ziehen den Ablauf von unten gegen die Duschwanne, die Dichtung liegt zwischen Ablauf und Wannenboden. Mit Silikon lässt sich das laut Forum nicht reparieren. Ist die Dichtung verrutscht, braucht es eine neue, etwa die Tempoplex-Dichtung 6961.95 oder das Montageset 6960.98. Ohne Revisionsöffnung sollte ein Fachbetrieb die Dichtheit prüfen.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://www.haustechnikdialog.de/Forum/t/153763/Viega-Tempoplex-ausversehen-aufgeschraubt-nun-undicht-",
+          "https://www.haustechnikdialog.de/Forum/t/61461/Duschwannenablauf-Viega-undicht",
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Tempoplex-Dichtung-6961-95.html",
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Tempoplex-Montageset-6960-98.html"
+        ],
+        "teile": [
+          "viega-tempoplex-dichtung-6961-95",
+          "viega-tempoplex-montageset-6960-98"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Gibt es ein Haarsieb für den Viega-Tempoplex?",
+        "antwort": "Ja. Für die Baureihe ab 2006 gibt es den Siebeinsatz 6961.96, für die Baureihe 2001 bis 2006 den Siebeinsatz 6958.96 und für die Abläufe ab 2026 den Siebeinsatz 6966.96. Mehrere Nutzer im Forum nennen das Sieb wichtig, weil es Haare abfängt, bevor sie das Tauchrohr zusetzen.",
+        "kategorie": "bezug",
+        "quellen": [
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Siebeinsatz-6961-96.html",
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2001/Tempoplex-Siebeinsatz-6958-96.html",
+          "https://www.haustechnikdialog.de/Forum/t/177058/Verstopfung-Viega-Tempoplex-Duschkabine"
+        ],
+        "teile": [
+          "viega-tempoplex-siebeinsatz-6961-96",
+          "viega-tempoplex-siebeinsatz-2001-2006",
+          "viega-tempoplex-siebeinsatz-6966-96"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Der Stopfen meiner Viega-Multiplex-Badewanne schließt nicht richtig. Was kann ich tun?",
+        "antwort": "Zuerst den Ventilkegel herausziehen und am Griff drehen. Hebt und senkt sich der kleine Hebel im Ablauf, ist meist nur die Höhe falsch eingestellt. Laut Viega soll der Stopfen geöffnet 2 bis 3 cm hochstehen, eingestellt wird das an der Verstellschraube unter dem Kegel, gekontert mit der Mutter. Ist die Lippendichtung am Kegel hart, hilft die Dichtung 6162-268.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://www.meinhausshop.de/media/pdf/93_727_66--DBL-01-de.pdf",
+          "https://www.haustechnikdialog.de/Forum/t/172086/Viega-Multiplex-Ablauf-Garnitur-hilfe",
+          "https://www.dasheimwerkerforum.de/threads/badewannenstoepsel-schliesst-nicht-ueber-drehschalter.16248/"
+        ],
+        "teile": [
+          "viega-verstellschraube-6151-912",
+          "viega-dichtung-ventilkegel-6162-268",
+          "viega-ventilkegel-6168-035"
+        ],
+        "problem": "viega-badewanne-ablauf-schliesst-nicht"
+      },
+      {
+        "frage": "Der Bowdenzug meiner Viega-Badewannengarnitur ist gerissen. Kann man ihn einzeln tauschen?",
+        "antwort": "Viega führt den Bowdenzug als Ersatzteil, in drei Längen und zwei Ausführungen: 6162.19 für Multiplex und Rotaplex ab dem 2. Halbjahr 2014 und Trio-Garnituren ab dem 1. Halbjahr 2015, für ältere Garnituren 6162-152, 6163-152 und 6165-152. Ein Installateur schreibt im Forum, dass der Zug im eingebauten Zustand ohne Zugang hinter der Wanne kaum zu wechseln ist.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-19.html",
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-152.html",
+          "https://www.haustechnikdialog.de/Forum/t/24528/Multiplex-Trio-Seilzug-austauschen",
+          "https://www.dasheimwerkerforum.de/threads/viega-rotaplex-ab-ueberlaufgarnitur-bowdenzug-wechseln.16579/"
+        ],
+        "teile": [
+          "viega-bowdenzug-6162-19-560",
+          "viega-bowdenzug-6162-152-540"
+        ],
+        "problem": "viega-badewanne-ablauf-schliesst-nicht"
+      },
+      {
+        "frage": "Der Einlauf meiner Viega-Multiplex-Trio-Badewanne ist verkalkt. Wie bekomme ich ihn heraus?",
+        "antwort": "Drehgriff abziehen, die verchromte Abdeckung abnehmen und den Einsatz mit den Luftsprudlern herausnehmen; bei den Garnituren ab 2015 nach Lösen von zwei Innensechskantschrauben. Die zentrale Schraube des Zulaufflanschs nicht lösen, er ist gegen die Wanne verspannt. Für die älteren Garnituren bis 2005/2006 gibt es den Zulaufeinsatz 6161.239, der laut Viega für kalkhaltiges Wasser gedacht ist.",
+        "kategorie": "pflege",
+        "quellen": [
+          "https://www.haustechnikdialog.de/Forum/t/22986/Multiplex-Trio-entkalken",
+          "https://www.haustechnikdialog.de/Forum/t/156831/Zulaufteil-Zulaufeinheit-Viega-an-Badewanne-entkalken",
+          "https://www.dasheimwerkerforum.de/threads/wasserzulauf-von-badewanne-demontieren-aber-wie.5255/",
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Zulaufeinsatz-6161-239.html",
+          "https://www.meinhausshop.de/media/pdf/93_969_20--DBL-01-de.pdf"
+        ],
+        "teile": [
+          "viega-zulaufeinsatz-6161-229",
+          "viega-zulaufeinsatz-6161-239",
+          "viega-zulaufeinsatz-6161-249"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Wie bekomme ich die Drehrosette an der Viega Multiplex Trio ab?",
+        "antwort": "Laut Viega-Anleitung wird die Drehrosette in Achsrichtung abgezogen, sie ist nur aufgesteckt. Danach lässt sich die Flanschabdeckung an den markierten Stellen aushebeln. Sitzt eine alte Rosette fest, raten die Antwortenden im Forum, sie mit zwei breiten Schraubendrehern gegenüberliegend vorsichtig abzuhebeln.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://www.meinhausshop.de/media/pdf/93_969_20--DBL-01-de.pdf",
+          "https://www.haustechnikdialog.de/Forum/t/164669/Viega-Multiplex-Trio-Bj-Anfang-90er-Drehrosette-demontieren",
+          "https://www.haustechnikdialog.de/Forum/t/156831/Zulaufteil-Zulaufeinheit-Viega-an-Badewanne-entkalken"
+        ],
+        "teile": [
+          "viega-drehrosette-6161-03-mt1",
+          "viega-drehrosette-6161-92-mt2"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Gibt es für eine alte Viega-Multiplex-Trio-Garnitur aus den 90er-Jahren noch Ersatzteile?",
+        "antwort": "Ja. Viega führt für Trio-Garnituren mit Messing-Zulauf bis Baureihe 1995 das Umrüstset 6161.99 mit Einlaufstück, Zulaufeinsatz, Distanzring, Befestigungselement und Montagehilfe. Ventilkegel, Lippendichtung und Ventiloberteil von Multiplex und Multiplex Trio stehen im Katalog ohne Baujahrsgrenze. Fehlt eine Revisionsöffnung, raten mehrere Fachleute im Forum zum Fachbetrieb.",
+        "kategorie": "verfuegbarkeit",
+        "quellen": [
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Umruestset-6161-99.html",
+          "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015.html",
+          "https://www.haustechnikdialog.de/Forum/t/283098/Instandsetzung-Badewanneneinlauf-Viega-Multiplex-abgebrochen-",
+          "https://www.haustechnikdialog.de/Forum/t/177774/Ersatzteil-Badewannenablauf-gesucht"
+        ],
+        "teile": [
+          "viega-umruestset-6161-99",
+          "viega-ventilkegel-6168-035",
+          "viega-ventiloberteil-6162-955"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Woran erkenne ich, welcher Viega-Spülkasten in der Wand steckt?",
+        "antwort": "Viega unterscheidet die Kästen nach Generation und Bauhöhe: 1H und 1L von 1999 bis 2007, 2H und 2L ab 2007, Prevista 3H und 3L ab 2019. Laut Viega sitzt der Revisionsschacht beim 2H in etwa 1 m Höhe vorn, beim 2L in etwa 75 cm Höhe vorn oder auf der Oberseite. Davon hängt ab, welches Füll- und Ablaufventil passt.",
+        "kategorie": "nummer",
+        "quellen": [
+          "https://assets.heizung-billiger.de/documents/a95c8f27338a52adac1140942e6c076c_de_de.pdf",
+          "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf",
+          "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/2b652e6bc65bb687ac1140947255fe72_de_DE.pdf"
+        ],
+        "teile": [
+          "viega-ablaufventilset-8310-0",
+          "viega-ablaufventilset-8038-0",
+          "viega-prevista-ablaufventilset-8580-1"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Mein Viega-Unterputzspülkasten läuft ständig nach. Ist das Ablauf- oder das Füllventil schuld?",
+        "antwort": "Läuft das Wasser direkt nach dem Spülen weiter, ist die Dichtung am Ablaufventil undicht, meist durch Kalk oder Schmutz. Steigt das Wasser bis zum Überlaufrohr und läuft dort ab, schließt das Füllventil nicht. Viega rät, die Dichtungen zu prüfen und bei Bedarf zu tauschen; es gibt sie als Set 8310.20 für die älteren Kästen und 8580.8 für Prevista.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/2b652e6bc65bb687ac1140947255fe72_de_DE.pdf",
+          "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Dichtungsset-8310-20.html",
+          "https://www.haustechnikdialog.de/Forum/t/27830/Viega-UP-Spuelkasten-zerlegen",
+          "https://www.haustechnikdialog.de/Forum/t/83706/UP-Spuelkasten-laeuft-nach",
+          "https://www.haustechnikdialog.de/Forum/t/180061/Unterputzspuelkasten-laeuft-dauern-nach"
+        ],
+        "teile": [
+          "viega-dichtungsset-8310-20",
+          "viega-prevista-dichtungsset-8580-8",
+          "viega-fuellventilset-8310-75"
+        ],
+        "problem": "viega-spuelkasten-laeuft-nach"
+      },
+      {
+        "frage": "Passt eine Geberit-Betätigungsplatte auf einen Viega-Spülkasten?",
+        "antwort": "Nein. Betätigungsplatten gehören zum Spülkasten desselben Herstellers, darin sind sich die Antworten in den Foren einig. Viega gibt seine Visign-Platten nur für Viega-Kästen an, etwa Visign for Style 10 für 2H, 2L, 2C und 2S. Auf einem älteren 1H-Kasten braucht Visign for Style vorher das Ablaufventilset 8310.0 als Umrüstsatz.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Viega-Betaetigungsplatten/Betaetigungsplatte-8315-1.html",
+          "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/16b93b5a0a2e07e7ac114094013fcb8d_de_AT.pdf",
+          "https://www.haustechnikdialog.de/Forum/t/46263/Drueckerplatten-Geberit-auf-Grohe-Spuelkasten-",
+          "https://www.dasheimwerkerforum.de/threads/druckplatte-nicht-kompatibel.20816/",
+          "https://www.bauexpertenforum.de/threads/betaetigungsplatten-fuer-wc-universell-passend.46245/"
+        ],
+        "teile": [
+          "viega-visign-for-style-10",
+          "viega-ablaufventilset-8310-0"
+        ],
+        "problem": null
+      }
+    ]
+  },
+  "serien": [
+    {
+      "slug": "tempoplex-bis-2001",
+      "name": "Viega Tempoplex (Baureihen bis 2001)",
+      "produkttyp": "duschablauf",
+      "baujahr_von": null,
+      "baujahr_bis": 2001,
+      "kennnummern": [
+        "6956",
+        "6956EX",
+        "6956.4EX",
+        "6956.0"
+      ],
+      "erkennungsmerkmale": "Ablauf für Duschwannen mit 90 mm Ablaufloch. Runde, verchromte Abdeckhaube mit 120 mm Durchmesser. Viega unterscheidet die Baureihe bis 1996 und die Baureihe 1997 bis 2001, beide haben eigene Tauchrohre.",
+      "beschreibung": "Laut Viega-Anleitung 0,45 l/s Ablaufleistung, 80 mm Bauhöhe und 50 mm Sperrwasser. Unter der Haube steckt ein Tauchrohr, das zusammen mit dem Gehäuse den Geruchverschluss bildet.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-1997-2001.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/6f255365fdb771f6ac114094175e71b6_de_DE.pdf"
+      ]
+    },
+    {
+      "slug": "tempoplex-2001-2006",
+      "name": "Viega Tempoplex (Baureihe 2001–2006)",
+      "produkttyp": "duschablauf",
+      "baujahr_von": 2001,
+      "baujahr_bis": 2006,
+      "kennnummern": [
+        "6958",
+        "6958.1",
+        "6959",
+        "6959.1"
+      ],
+      "erkennungsmerkmale": "Ablauf für Duschwannen mit 90 mm Ablaufloch. Die Abdeckhaube mit 112 mm Durchmesser ist mit zwei Schrauben befestigt.",
+      "beschreibung": "Baureihe von 2001 bis Mai 2006. Für sie gibt es das Tauchrohr 6958.1-821, den Siebeinsatz 6958.96 und die verschraubte Abdeckhaube 6958.99.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2001.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/641d6a881a1ef2c0ac114094306da7c5_de_DE.pdf"
+      ]
+    },
+    {
+      "slug": "tempoplex-ab-2006",
+      "name": "Viega Tempoplex (ab Baureihe 2006)",
+      "produkttyp": "duschablauf",
+      "baujahr_von": 2006,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "6961",
+        "6961.1",
+        "6962",
+        "6962.1",
+        "6963",
+        "6963.1",
+        "6966",
+        "6967"
+      ],
+      "erkennungsmerkmale": "Ablauf für Duschwannen mit 90 mm Ablaufloch. Die runde Abdeckhaube mit 115 mm Durchmesser ist auf drei Befestigungspunkte gedrückt und lässt sich ohne Werkzeug abheben. 6963 und 6967 sind die flachen Ausführungen mit 60 mm Bauhöhe, 6962 der senkrechte Ablauf.",
+      "beschreibung": "Laut Viega-Anleitung 6961: 0,64 l/s Ablaufleistung, 80 mm Bauhöhe, 50 mm Sperrwasser. Der flache Tempoplex 60 mm hat 0,55 l/s und nur 30 mm Sperrwasser. Seit 2010 gibt es seitlich einen Stopfen, über den man an die Abwasserleitung kommt. Die Modelle 6966 und 6967 sind die Generation ab 2026, sie nutzen dieselben Hauben, Dichtungen und Tauchrohre.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9180ef046d943215ac11409401bcd4ed_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9ca4fdd59107f0edac11409400fe085a_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/d48e730babf38d1eac1140940079443d_de_DE.pdf",
+        "https://www.viega.de/de/produkte/entwaesserungstechnik/im-bad/Tempoplex.html"
+      ]
+    },
+    {
+      "slug": "tempoplex-plus",
+      "name": "Viega Tempoplex Plus",
+      "produkttyp": "duschablauf",
+      "baujahr_von": 2006,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "6960",
+        "6960.1",
+        "6968"
+      ],
+      "erkennungsmerkmale": "Ablauf für Duschwannen mit 90 mm Ablaufloch mit höherer Ablaufleistung. Gleiche Abdeckhaube wie Tempoplex ab 2006, aber ein eigenes, höheres Tauchrohr.",
+      "beschreibung": "Laut Viega-Anleitung 6960.1: 0,85 l/s Ablaufleistung, 90 mm Bauhöhe, 50 mm Sperrwasser, Ablaufstutzen DN 50 mit Kugelgelenk. Die Generation ab 2026 (Modell 6968) hat eine Revisionsöffnung im Gehäuseboden.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Plus-Baureihe-ab-2006.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/f4c6a28abb245cd5ac114094013927d4_de_DE.pdf",
+        "https://www.viega.de/de/produkte/entwaesserungstechnik/im-bad/Tempoplex.html"
+      ]
+    },
+    {
+      "slug": "domoplex",
+      "name": "Viega Domoplex",
+      "produkttyp": "duschablauf",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "6928",
+        "6928.1",
+        "6928.21",
+        "6929",
+        "6929.1",
+        "6929.21"
+      ],
+      "erkennungsmerkmale": "Ablauf für Duschwannen mit kleinem Ablaufloch: 52 mm bei den Modellen 6928, 65 mm bei 6929. Die Abdeckhaube ist mit 75 bzw. 90 mm deutlich kleiner als bei Tempoplex und sitzt auf zwei Befestigungspunkten.",
+      "beschreibung": "Laut Viega-Anleitungen 80 mm Bauhöhe und 50 mm Sperrwasser. Viega gibt die Ablaufleistung bei 120 mm Anstauhöhe an, also für Duschtassen mit Rand: 0,73 l/s bei den Funktionseinheiten ab 2015, 0,53 l/s beim senkrechten Ablauf.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Domoplex.html",
+        "https://www.meinhausshop.de/media/pdf/93_727_74--DBL-01-de.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/5a7b70080397ae31ac11409401a89c25_de_DE.pdf"
+      ]
+    },
+    {
+      "slug": "advantix-duschrinne-bis-2015",
+      "name": "Viega Advantix-Duschrinne (Baureihe bis 2015)",
+      "produkttyp": "duschablauf",
+      "baujahr_von": null,
+      "baujahr_bis": 2015,
+      "kennnummern": [
+        "4960.80",
+        "4960.81",
+        "4980.10",
+        "4980.30",
+        "4980.40"
+      ],
+      "erkennungsmerkmale": "Duschrinne für bodengleiche Duschen mit Rost. Unter dem Rost sitzen Siebeinsatz und Tauchrohr.",
+      "beschreibung": "Für diese Baureihe gibt es das Tauchrohr 4960.90 und den Siebeinsatz 4973.99.",
+      "quellen": [
+        "https://www.megabad.com/hersteller-viega-ersatzteile-adsvantix-tauchrohr-6-a-659812.htm"
+      ]
+    },
+    {
+      "slug": "advantix-badablauf",
+      "name": "Viega Advantix-Badablauf",
+      "produkttyp": "duschablauf",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "4935.1",
+        "4935.2",
+        "4935.3",
+        "4935.6",
+        "4938",
+        "4939"
+      ],
+      "erkennungsmerkmale": "Bodenablauf im Bad mit quadratischem Rost, zum Beispiel 100 × 100 mm.",
+      "beschreibung": "Laut Viega-Anleitung wird der Ablauf mit mildem Reiniger und Spülbürste gereinigt: Rost abnehmen, Geruchverschluss bzw. Tauchrohr herausnehmen, reinigen, alles wieder einsetzen.",
+      "quellen": [
+        "https://www.meinhausshop.de/media/pdf/93_968_50--DBL-01-de.pdf",
+        "https://www.megabad.com/viega-ersatzteile-advantix-tauchrohr-badablaeufe-a-114066.htm"
+      ]
+    },
+    {
+      "slug": "advantix-vario",
+      "name": "Viega Advantix Vario-Duschrinne",
+      "produkttyp": "duschablauf",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "4965.10",
+        "4966.10"
+      ],
+      "erkennungsmerkmale": "Ablängbare Duschrinne (300 bis 1200 mm) mit Stegrost. 4966.10 ist die flache Sanierungsvariante mit 70 mm Einbauhöhe.",
+      "beschreibung": "Laut Viega-Anleitung 0,4 bis 0,8 l/s Ablaufleistung, mit herausnehmbarem Schmutzfang. Die Sanierungsvariante hat nur 25 mm Sperrwasser. Zum Reinigen werden Abdeckkappen und Stegrost herausgenommen, dann eine Reinigungshilfe eingesetzt und die Rinne mit einer Saugglocke gereinigt.",
+      "quellen": [
+        "https://www.baedermaxx.at/media/pdf/98/03/f9/560883_Duschrinne.pdf",
+        "https://www.meinhausshop.de/media/pdf/93_034_45--DBL-01-de.pdf"
+      ]
+    },
+    {
+      "slug": "multiplex",
+      "name": "Viega Multiplex Ab- und Überlaufgarnitur",
+      "produkttyp": "wannenablauf",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "6162",
+        "6162.1",
+        "6162.45",
+        "6163"
+      ],
+      "erkennungsmerkmale": "Badewannengarnitur für 52 mm Ablaufloch. Am Überlauf sitzt eine Drehrosette, die über einen Bowdenzug den Stopfen im Wannenboden hebt. Nach links drehen schließt, nach rechts öffnet. Viega teilt die Ersatzteile in die Baureihe bis I/2015 und ab II/2015.",
+      "beschreibung": "Laut Anleitung 6162.45 soll der Stopfen geöffnet 2 bis 3 cm hochstehen. Eingestellt wird das an der Verstellschraube unter dem Ventilkegel. Die Länge des Bowdenzugs hängt von der Wanne ab: 560 mm bei Normalwannen, 725 mm bei Mittelablauf, 1070 mm bei Überlänge.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015.html",
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-ab-II2015.html",
+        "https://www.meinhausshop.de/media/pdf/93_727_66--DBL-01-de.pdf",
+        "https://www.viega.co.uk/en/products/Catalogue/Drainage-technology/Drains-for-bathtubs-and-shower-trays/Multiplex/Multiplex-Drainoverflow-6162-45.html"
+      ]
+    },
+    {
+      "slug": "multiplex-trio",
+      "name": "Viega Multiplex Trio Ab-, Über- und Zulaufgarnitur",
+      "produkttyp": "wannenablauf",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "6161",
+        "6161.52",
+        "6161.62",
+        "6161.72"
+      ],
+      "erkennungsmerkmale": "Wie Multiplex, aber die Wanne wird durch den Überlauf gefüllt: Unter der Drehrosette kommt das Wasser aus einem Zulauf mit Strahlregler oder Luftsprudler. Die Designs heißen Visign MT1 bis MT9.",
+      "beschreibung": "Die Zulaufteile haben eigene Baureihen: bis 2005/2006, ab 01/2006 bis I/2015 und ab II/2015. Für Trio-Garnituren mit Messing-Zulauf bis 1995 gibt es ein Umrüstset. Laut Anleitung 6161.62 ist ein Rohrunterbrecher vorgeschrieben.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2.html",
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT3MT5-Baureihe.html",
+        "https://www.meinhausshop.de/media/pdf/93_969_20--DBL-01-de.pdf",
+        "https://www.viega.co.uk/en/products/Catalogue/Drainage-technology/Drains-for-bathtubs-and-shower-trays/Multiplex-Trio/Multiplex-Trio-Drainoverflow-6161-52.html"
+      ]
+    },
+    {
+      "slug": "rotaplex",
+      "name": "Viega Rotaplex und Rotaplex Trio",
+      "produkttyp": "wannenablauf",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "6142",
+        "6142.32",
+        "6145.1"
+      ],
+      "erkennungsmerkmale": "Badewannengarnitur für Wannen mit großem Ablaufloch (90 mm). Statt eines Stopfens hebt sich eine flache Abdeckhaube mit 115 mm Durchmesser. Bedienung über eine Drehrosette am Überlauf, bei Rotaplex Trio mit Wannenfüllung durch den Überlauf.",
+      "beschreibung": "Drehrosetten, Bowdenzüge und Überlaufdichtungen teilt Rotaplex mit Multiplex, die Trio-Zulaufteile mit Multiplex Trio.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Rotaplex-Baureihe-bis-I2015.html",
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Rotaplex-Baureihe-ab-II2015.html",
+        "https://documents.unidomo.de/de/bema_517249.pdf",
+        "https://www.viega.co.uk/en/products/Catalogue/Drainage-technology/Drains-for-bathtubs-and-shower-trays/Rotaplex/Rotaplex-Drainoverflow-6142-32.html"
+      ]
+    },
+    {
+      "slug": "simplex",
+      "name": "Viega Simplex Ab- und Überlaufgarnitur",
+      "produkttyp": "wannenablauf",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "6168.45",
+        "6168.46",
+        "6168.2"
+      ],
+      "erkennungsmerkmale": "Einfachere Badewannengarnitur für 52 mm Ablaufloch mit Drehrosette und flexiblem Überlaufschlauch.",
+      "beschreibung": "Für die Baureihe ab 2009 führt Viega die Rosette 6168.02.",
+      "quellen": [
+        "https://www.viega.co.uk/en/products/Catalogue/Drainage-technology/Drains-for-bathtubs-and-shower-trays/Simplex/Simplex-Drainoverflow-6168-45.html"
+      ]
+    },
+    {
+      "slug": "up-spuelkasten-1h",
+      "name": "Viega UP-Spülkasten 1H (1999–2007)",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 1999,
+      "baujahr_bis": 2007,
+      "kennnummern": [
+        "1H",
+        "8000",
+        "8032",
+        "8039",
+        "8112",
+        "8461",
+        "8161.5",
+        "8161.80",
+        "8161.90",
+        "8310"
+      ],
+      "erkennungsmerkmale": "Unterputzspülkasten in Standardhöhe der ersten Visign-Generation. Verbaut in Viegaswift 8000, 8032, 8039 und 8112, Steptec 8461, Eco Plus 8161.5, 8161.80 und 8161.90 sowie Mono 8310.",
+      "beschreibung": "Ab Werk passen Platten der Serie Visign for Life mit Stifttechnik. Für Visign for Style und Visign for More braucht der Kasten das Ablaufventilset 8310.0 als Umrüstsatz.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von.html",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/16b93b5a0a2e07e7ac114094013fcb8d_de_AT.pdf"
+      ]
+    },
+    {
+      "slug": "up-spuelkasten-1l",
+      "name": "Viega UP-Spülkasten 1L (1999–2007)",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 1999,
+      "baujahr_bis": 2007,
+      "kennnummern": [
+        "1L",
+        "8038",
+        "8037",
+        "8438",
+        "8437",
+        "8138",
+        "8137",
+        "8338",
+        "8337"
+      ],
+      "erkennungsmerkmale": "Niedriger Unterputzspülkasten der ersten Visign-Generation, zum Beispiel unter Fenstern. Verbaut in Viegaswift 8038/8037, Steptec 8438/8437, Eco Plus 8138/8137 und Mono 8338/8337.",
+      "beschreibung": "Ablaufventilset und Umrüstsatz ist hier 8038.0, nicht 8310.0.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1L-Spuelausloesung-von.html",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf"
+      ]
+    },
+    {
+      "slug": "up-spuelkasten-2h",
+      "name": "Viega UP-Spülkasten 2H (ab 2007)",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 2007,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "2H",
+        "8000.2",
+        "8000.3",
+        "8032.2",
+        "8039.2",
+        "8461.2",
+        "8161.2",
+        "8310.2"
+      ],
+      "erkennungsmerkmale": "Unterputzspülkasten in Standardhöhe der zweiten Generation (Visign 2). Verbaut in Viegaswift 8000.2/.3, 8032.2, 8039.2, Steptec 8461.2, Eco Plus 8161.2 und Mono 8310.2. Laut Viega sitzt der Revisionsschacht in etwa 1 m Höhe auf der Vorderseite.",
+      "beschreibung": "Ab Werk 2-Mengen-Ablaufventil mit 3 und 6 Litern. Es passen Visign for Life, Visign for Style und Visign for More.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-2H-Spuelausloesung-von.html",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf",
+        "https://assets.heizung-billiger.de/documents/a95c8f27338a52adac1140942e6c076c_de_de.pdf",
+        "https://www.baulinks.de/webplugin/2007/1568.php4"
+      ]
+    },
+    {
+      "slug": "up-spuelkasten-2l",
+      "name": "Viega UP-Spülkasten 2L (ab 2007)",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 2007,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "2L",
+        "8038.2",
+        "8037.2",
+        "8138.2",
+        "8137.2",
+        "8338.2",
+        "8130.2",
+        "8330.2",
+        "8430.3"
+      ],
+      "erkennungsmerkmale": "Niedriger Unterputzspülkasten der zweiten Generation. Laut Viega sitzt der Revisionsschacht entweder in etwa 75 cm Höhe vorn oder auf der Oberseite.",
+      "beschreibung": "Ab 2014 in Eco Plus 8130.x, Mono 8330.2 und Steptec 8430.x verbaut.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-2L-Spuelausloesung-von.html",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf",
+        "https://assets.heizung-billiger.de/documents/a95c8f27338a52adac1140942e6c076c_de_de.pdf"
+      ]
+    },
+    {
+      "slug": "up-eckspuelkasten-1c-2c",
+      "name": "Viega UP-Eckspülkasten 1C und 2C",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 2005,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "1C",
+        "2C",
+        "8141",
+        "8141.2"
+      ],
+      "erkennungsmerkmale": "Unterputzspülkasten für die Raumecke, verbaut in Eco Plus 8141 (1C, 2005–2007) und 8141.2 (2C, ab 2007).",
+      "beschreibung": "Für beide gibt es das Ersatzteilset 8141.0 mit Ablaufventil und Füllventil.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Eckspuelkaesten-1C-Spuelausloesung.html",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf"
+      ]
+    },
+    {
+      "slug": "up-spuelkasten-standard-1s-2s",
+      "name": "Viega UP-Spülkasten Standard 1S und 2S (Viega Eco)",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "1S",
+        "2S",
+        "8180.5",
+        "8180.6",
+        "8180.25",
+        "8180.26"
+      ],
+      "erkennungsmerkmale": "Unterputzspülkasten der Vorwandelemente Viega Eco: 1S bis 2007 (8180.5, 8180.6), 2S ab 2007 (8180.25, 8180.26).",
+      "beschreibung": "Füllventilset 8310.74 für 1S, 8310.75 für 2S.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-Standard-1S-und-2S.html",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf"
+      ]
+    },
+    {
+      "slug": "prevista-up-spuelkasten",
+      "name": "Viega Prevista UP-Spülkasten 3H und 3L",
+      "produkttyp": "spuelkasten",
+      "baujahr_von": 2019,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "3H",
+        "3L",
+        "8502.38",
+        "8504.38",
+        "8522.38",
+        "8524.38",
+        "8530.38",
+        "8533.38"
+      ],
+      "erkennungsmerkmale": "Unterputzspülkasten der Vorwandtechnik Prevista ab 2019/2020, 3H in Standardhöhe, 3L niedrig. Verbaut zum Beispiel in den Prevista-Dry-WC-Elementen.",
+      "beschreibung": "Laut Viega-Anleitung: Kleinspülmenge 2 bis 4 Liter, Großspülmenge 3,5 bis 7,5 Liter, eingestellt am Ablaufventil. Spritzt das Wasser über den Rand, wird die Spülstromdrossel enger gestellt. Seit März 2022 gibt es einen Filtereinsatz 8580.70 für die Füllventile.",
+      "quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/2b652e6bc65bb687ac1140947255fe72_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/5539ec023e1335f1ac1140941799d7a9_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/5483f5da5d08c2dcac11409416699840_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/f2d712965d0962e0ac114094436723e1_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/58c60890bf404266ac1140945b2d0d5f_de_DE.pdf"
+      ]
+    },
+    {
+      "slug": "visign-for-life-1-4",
+      "name": "Viega Visign for Life 1 bis 4",
+      "produkttyp": "betaetigungsplatte",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "Visign for Life 1",
+        "Visign for Life 2",
+        "Visign for Life 3",
+        "Visign for Life 4",
+        "8310.3"
+      ],
+      "erkennungsmerkmale": "Betätigungsplatten mit Stifttechnik für die Unterputzspülkästen 1H und 2H. Visign for Life 1 hat die Modellnummer 8310.3.",
+      "beschreibung": "Laut Viega behielt die zweite Spülkasten-Generation ab 2007 die Stiftmechanik, damit Visign-for-Life-Platten weiter passen.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Viega-Betaetigungsplatten.html",
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Ersatzteile-fuer-Viega.html",
+        "https://www.baulinks.de/webplugin/2007/1568.php4"
+      ]
+    },
+    {
+      "slug": "visign-for-style-10-13",
+      "name": "Viega Visign for Style 10 und 13",
+      "produkttyp": "betaetigungsplatte",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "8315.1",
+        "8333.1"
+      ],
+      "erkennungsmerkmale": "Kunststoffplatten für die Unterputzspülkästen 2H, 2L, 2C und Standard 2S. Die Platte drückt über zwei Betätigungsstifte auf das Ablaufventil.",
+      "beschreibung": "Betätigungsstifte gibt es als Ersatzteil 8310.31.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Viega-Betaetigungsplatten/Betaetigungsplatte-8315-1.html",
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Viega-Betaetigungsplatten/Betaetigungsplatte-8333-1.html"
+      ]
+    },
+    {
+      "slug": "visign-for-style-11-12-more",
+      "name": "Viega Visign for Style 11, 12 und Visign for More",
+      "produkttyp": "betaetigungsplatte",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "8331.1",
+        "8332.1",
+        "8332.4",
+        "8352.1",
+        "8354.1"
+      ],
+      "erkennungsmerkmale": "Platten mit Bowdenzugbetätigung für die Unterputzspülkästen 2H, 2L und 2C: Visign for Style 11 und 12, Visign for More 100 und 104.",
+      "beschreibung": "Die Bowdenzugeinheit gibt es einzeln als 8310.82.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Viega-Betaetigungsplatten/Betaetigungsplatte-8332-1.html",
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Viega-Betaetigungsplatten/Betaetigungsplatte-8352-1.html",
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Ersatzteile-fuer-Viega/Bowdenzugeinheit-8310-82.html"
+      ]
+    },
+    {
+      "slug": "visign-prevista",
+      "name": "Viega Visign for Life 5 (Prevista)",
+      "produkttyp": "betaetigungsplatte",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "8601.1"
+      ],
+      "erkennungsmerkmale": "Betätigungsplatte für die Prevista-Unterputzspülkästen ab 2019.",
+      "beschreibung": "Laut Viega-Anleitung passt sie in alle Prevista-Unterputzspülkästen.",
+      "quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/2b652e6bc65bb687ac1140947255fe72_de_DE.pdf"
+      ]
+    }
+  ],
+  "teile": [
+    {
+      "slug": "viega-tempoplex-tauchrohr-bis-1996",
+      "name": "Viega Tempoplex-Tauchrohr 6956-632 (Baureihe bis 1996)",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "177829",
+      "masse": {
+        "durchmesser_mm": 54,
+        "hoehe_mm": 70
+      },
+      "beschreibung": "Tauchrohr aus Kunststoff für Tempoplex-Abläufe bis Baureihe 1996, Ø 54 mm, 70 mm hoch. Es bildet zusammen mit dem Gehäuse den Geruchverschluss.",
+      "preis_spanne": "ca. 18 € (megabad, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-1997-2001/Tempoplex-Tauchrohr-6956-632.html",
+        "https://www.megabad.com/hersteller-viega-ersatzteile-tauchrohr-tempoplex-ablaufgarnitur-a-116512.htm"
+      ],
+      "ean": "4015211177829"
+    },
+    {
+      "slug": "viega-tempoplex-tauchrohr-1997-2001",
+      "name": "Viega Tempoplex-Tauchrohr 6956.1-821 (Baureihe 1997–2001)",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "318260",
+      "masse": {
+        "durchmesser_mm": 83,
+        "hoehe_mm": 66
+      },
+      "beschreibung": "Tauchrohr aus Kunststoff für Tempoplex-Abläufe der Baureihe 1997 bis 2001, Ø 83 mm, 66 mm hoch. Diese Abläufe erkennt man an der runden Abdeckhaube mit 120 mm Durchmesser.",
+      "preis_spanne": "ca. 7–8 € (eBay, megabad, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-1997-2001/Tempoplex-Tauchrohr-6956-1-821.html",
+        "https://www.ebay.de/p/1859463890",
+        "https://www.megabad.com/hersteller-viega-ersatzteile-tempoplex-tauchrohr-a-204881.htm"
+      ],
+      "ean": "4015211318260"
+    },
+    {
+      "slug": "viega-tempoplex-dichtung-1997-2001",
+      "name": "Viega Tempoplex-Dichtung 6956.1-182 (Baureihe 1997–2001)",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "318321",
+      "masse": {
+        "innen_mm": 88,
+        "aussen_mm": 115
+      },
+      "beschreibung": "Dichtung für Tempoplex-Abläufe der Baureihe 1997 bis 2001. Viega führt zwei Ausführungen: 318 321 (88/115 mm) liegt oberhalb der Duschwanne, 318 314 (86/114 mm) unterhalb.",
+      "preis_spanne": "ca. 7 € (megabad, November 2026)",
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 60,
+      "werkzeug": "Die untere Dichtung sitzt unter der Duschwanne, an sie kommt man nur über eine Revisionsöffnung oder nach Ausbau der Wanne.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-1997-2001/Tempoplex-Dichtung-6956-1-182.html",
+        "https://www.megabad.com/hersteller-viega-ersatzteile-dichtung-tempoplex-ablaufgarnitur-a-153957.htm"
+      ],
+      "ean": "4015211318321"
+    },
+    {
+      "slug": "viega-tempoplex-abdeckhaube-120",
+      "name": "Viega Tempoplex-Abdeckhaube 6956.0, Ø 120 mm",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "192730",
+      "masse": {
+        "durchmesser_mm": 120
+      },
+      "beschreibung": "Runde Abdeckhaube aus verchromtem Kunststoff mit 120 mm Durchmesser für Tempoplex-Abläufe bis Baujahr 2001.",
+      "preis_spanne": "ca. 28 € (OTTO, eBay, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-1997-2001/Abdeckhaube-6956-0.html",
+        "https://www.ebay.de/p/22034150314"
+      ],
+      "ean": "4015211192730"
+    },
+    {
+      "slug": "viega-tempoplex-tauchrohr-2001-2006",
+      "name": "Viega Tempoplex-Tauchrohr 6958.1-821 (Baureihe 2001–2006)",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "450229",
+      "masse": {
+        "hoehe_mm": 65
+      },
+      "beschreibung": "Tauchrohr aus Kunststoff für Tempoplex-Abläufe der Baureihe 2001 bis 2006 (Modelle 6958, 6958.1, 6959, 6959.1), 65 mm hoch.",
+      "preis_spanne": "ca. 7–12 € (megabad, Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": "B00A7Y1BO8",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2001/Tempoplex-Tauchrohr-6958-1-821.html",
+        "https://www.megabad.com/hersteller-viega-ablauftechnik-duschen-tauchrohr-tempoplex-a-112687.htm",
+        "https://www.amazon.de/dp/B00A7Y1BO8"
+      ],
+      "ean": "4015211450229"
+    },
+    {
+      "slug": "viega-tempoplex-abdeckhaube-6958-99",
+      "name": "Viega Tempoplex-Abdeckhaube 6958.99 mit Schrauben, Ø 112 mm",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "581633",
+      "masse": {
+        "durchmesser_mm": 112
+      },
+      "beschreibung": "Verschraubte Abdeckhaube aus verchromtem Kunststoff mit 112 mm Durchmesser, dazu zwei Schrauben mit O-Ring. Laut Anleitung für die Tempoplex-Modelle 6958, 6958.1, 6959 und 6959.1 der Baureihe 2001 bis Mai 2006. Viega nennt sie Umrüstset, weil die alten Schrauben mitgetauscht werden.",
+      "preis_spanne": "ca. 25–26 € (OTTO, eBay, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "Schraubendreher. Viega schreibt, die Schrauben nur von Hand anzuziehen, nicht mit dem Akkuschrauber.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2001/Tempoplex-Abdeckhaube-6958-99.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/641d6a881a1ef2c0ac114094306da7c5_de_DE.pdf",
+        "https://www.ebay.de/p/2040431200"
+      ],
+      "ean": "4015211581633"
+    },
+    {
+      "slug": "viega-tempoplex-siebeinsatz-2001-2006",
+      "name": "Viega Tempoplex-Siebeinsatz 6958.96 (Baureihe 2001–2006)",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "625221",
+      "masse": null,
+      "beschreibung": "Haarsieb für Tempoplex-Abläufe der Baureihe 2001 bis 2006. Es wird unter die Abdeckhaube in den Ablauf gelegt und fängt Haare ab, bevor sie das Tauchrohr zusetzen.",
+      "preis_spanne": "ca. 7 € (megabad, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2001/Tempoplex-Siebeinsatz-6958-96.html",
+        "https://www.megabad.com/hersteller-viega-ersatzteile-sieb-tempoplex-ablaufgarnitur-a-154352.htm"
+      ],
+      "ean": "4015211625221"
+    },
+    {
+      "slug": "viega-tempoplex-abdeckhaube-6966-01",
+      "name": "Viega Tempoplex-Abdeckhaube 6966.01, verchromt",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "850081",
+      "masse": {
+        "durchmesser_mm": 115
+      },
+      "beschreibung": "Abdeckhaube aus Kunststoff für Tempoplex, Tempoplex Plus, Tempoplex 60 mm und den senkrechten Tempoplex ab Baureihe 2006. Sie wird auf drei Befestigungspunkte gedrückt. 850 081 ist die verchromt glänzende Ausführung, Viega führt sie außerdem in Chrom matt und in Schwarz. Händler nennen sie teils noch mit der älteren Modellnummer 6964.0 und 115 mm Durchmesser.",
+      "preis_spanne": "ca. 27–34 € (OTTO, Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": "B008DCTM7O",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Abdeckhaube-6966-01.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9ca4fdd59107f0edac11409400fe085a_de_DE.pdf",
+        "https://www.amazon.de/dp/B008DCTM7O"
+      ],
+      "ean": "4015211850081"
+    },
+    {
+      "slug": "viega-tempoplex-ausstattungsset-6964-0",
+      "name": "Viega Tempoplex-Ausstattungsset 6964.0",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "649982",
+      "masse": null,
+      "beschreibung": "Abdeckhaube aus verchromtem Kunststoff für die Tempoplex-Funktionseinheiten 6960.1, 6961.1 und 6963.1 ab 2010. In den Viega-Anleitungen dieser Abläufe steht 6964.0 als erforderliches Zubehör. Zum Durchmesser machen Händler unterschiedliche Angaben (112 oder 115 mm).",
+      "preis_spanne": "ca. 25 € (Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": "B00LMEPT6I",
+      "quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9ca4fdd59107f0edac11409400fe085a_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/f4c6a28abb245cd5ac114094013927d4_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/d48e730babf38d1eac1140940079443d_de_DE.pdf",
+        "https://www.amazon.de/dp/B00LMEPT6I"
+      ],
+      "ean": "4015211649982"
+    },
+    {
+      "slug": "viega-tempoplex-tauchrohr-6966-99",
+      "name": "Viega Tempoplex-Tauchrohr 6966.99 (ab Baureihe 2006)",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "839239",
+      "masse": {
+        "durchmesser_mm": 70,
+        "hoehe_mm": 60
+      },
+      "beschreibung": "Strömungsoptimiertes Tauchrohr aus Kunststoff für Tempoplex-Abläufe ab Baureihe 2006, Ø 70 mm, 60 mm hoch. Für Tempoplex Plus und Tempoplex 60 mm gibt es eigene Tauchrohre.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Tempoplex-Tauchrohr-6966-99.html"
+      ],
+      "ean": "4015211839239"
+    },
+    {
+      "slug": "viega-tempoplex-tauchrohr-6961-99",
+      "name": "Viega Tempoplex-Tauchrohr 6961.99 (ab Baujahr 2006)",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "582982",
+      "masse": {
+        "hoehe_mm": 60
+      },
+      "beschreibung": "Tauchrohr für Tempoplex-Abläufe ab Baujahr 2006 in der älteren Ausführung. Im aktuellen Viega-Katalog steht für diese Baureihe das Tauchrohr 6966.99.",
+      "preis_spanne": "ca. 7–10 € (megabad, Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": "B00X5G8NW8",
+      "quellen": [
+        "https://www.megabad.com/hersteller-viega-ersatzteile-tauchrohr-tempoplex-ablaufgarnitur-a-157472.htm",
+        "https://www.ebay.de/p/4031001584",
+        "https://www.amazon.de/dp/B00X5G8NW8"
+      ],
+      "ean": "4015211582982"
+    },
+    {
+      "slug": "viega-tempoplex-plus-tauchrohr-6968-99",
+      "name": "Viega Tempoplex Plus-Tauchrohr 6968.99",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "839482",
+      "masse": {
+        "durchmesser_mm": 70,
+        "hoehe_mm": 68
+      },
+      "beschreibung": "Strömungsoptimiertes Tauchrohr für Tempoplex Plus ab Baureihe 2006, Ø 70 mm, 68 mm hoch.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Plus-Baureihe-ab-2006/Tempoplex-Plus-Tauchrohr-6968-99.html"
+      ],
+      "ean": "4015211839482"
+    },
+    {
+      "slug": "viega-tempoplex-60-tauchrohr-6967-99",
+      "name": "Viega Tempoplex-Tauchrohr 6967.99 für Tempoplex 60 mm",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "839222",
+      "masse": {
+        "durchmesser_mm": 70,
+        "hoehe_mm": 40
+      },
+      "beschreibung": "Tauchrohr für den flachen Tempoplex mit 60 mm Bauhöhe ab Baureihe 2009, Ø 70 mm, 40 mm hoch.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Tempoplex-Tauchrohr-6967-99.html"
+      ],
+      "ean": "4015211839222"
+    },
+    {
+      "slug": "viega-tempoplex-siebeinsatz-6961-96",
+      "name": "Viega Tempoplex-Siebeinsatz 6961.96 (ab Baureihe 2006)",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "582951",
+      "masse": null,
+      "beschreibung": "Haarsieb aus weißem Kunststoff für Tempoplex, Tempoplex Plus und Tempoplex 60 mm ab Baureihe 2006. Es liegt unter der Abdeckhaube und lässt sich zum Leeren herausnehmen.",
+      "preis_spanne": "ca. 7–9 € (megabad, Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": "B00B7GX2PG",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Siebeinsatz-6961-96.html",
+        "https://www.megabad.com/hersteller-viega-ablauftechnik-duschen-haarsieb-tempoplex-a-90102.htm",
+        "https://www.amazon.de/dp/B00B7GX2PG"
+      ],
+      "ean": "4015211582951"
+    },
+    {
+      "slug": "viega-tempoplex-siebeinsatz-6966-96",
+      "name": "Viega Tempoplex-Siebeinsatz 6966.96 (ab Baureihe 2026)",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "840976",
+      "masse": null,
+      "beschreibung": "Haarsieb aus Kunststoff und Gummi für die Tempoplex-Abläufe der Baureihe ab 2026 (Modelle 6966, 6967 und Tempoplex Plus 6968).",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2026/Siebeinsatz-6966-96.html",
+        "https://www.viega.de/de/produkte/entwaesserungstechnik/im-bad/Tempoplex.html"
+      ],
+      "ean": "4015211840976"
+    },
+    {
+      "slug": "viega-tempoplex-dichtung-6961-95",
+      "name": "Viega Tempoplex-Dichtung 6961.95, 116 × 15 mm",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "632663",
+      "masse": {
+        "durchmesser_mm": 116,
+        "hoehe_mm": 15
+      },
+      "beschreibung": "Profildichtung für Tempoplex-Abläufe in Duschwannen mit 90 mm Ablaufloch. Viega führt sie in drei Höhen: 4,5 mm (632 656), 15 mm (632 663) und 26,5 mm (632 670), je mit 116 mm Durchmesser. Die Dichtung sitzt zwischen Ablauf und Wannenboden.",
+      "preis_spanne": "ca. 10 € (megabad, Amazon, November 2026)",
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 60,
+      "werkzeug": "Zum Tausch muss der Ablauf von der Wanne gelöst werden. Ohne Revisionsöffnung unter der Wanne ist das eine Arbeit für den Fachbetrieb.",
+      "amazon_asin": "B00I4W39UY",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Tempoplex-Dichtung-6961-95.html",
+        "https://www.megabad.com/viega-ersatzteile-tempoplex-dichtung-a-162809.htm",
+        "https://www.amazon.de/dp/B00I4W39UY"
+      ],
+      "ean": "4015211632663"
+    },
+    {
+      "slug": "viega-tempoplex-stopfen-6961-93",
+      "name": "Viega Tempoplex-Stopfen 6961.93",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "675387",
+      "masse": {
+        "durchmesser_mm": 30
+      },
+      "beschreibung": "Verschlussstopfen mit 30 mm Durchmesser für Tempoplex und Tempoplex Plus ab Baureihe 2010. Er verschließt die Reinigungsöffnung zur Abwasserleitung und wird laut Viega an der Lasche mit einer Zange herausgezogen.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Zange zum Herausziehen an der Lasche.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Stopfen-6961-93.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9ca4fdd59107f0edac11409400fe085a_de_DE.pdf"
+      ],
+      "ean": "4015211675387"
+    },
+    {
+      "slug": "viega-tempoplex-trockengeruchverschluss-6971",
+      "name": "Viega Trockengeruchverschluss 6971 für Tempoplex",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "839451",
+      "masse": null,
+      "beschreibung": "Geruchverschluss, der ohne Sperrwasser dicht hält. Laut Viega passt er in Tempoplex, Tempoplex Plus und Tempoplex 60 mm ab Baujahr 2010. Er hilft, wenn eine selten benutzte Dusche riecht, weil das Sperrwasser verdunstet.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ablaeufe-fuer-Bade--und-Duschwannen/Tempoplex-Baureihe-ab-2026/Trockengeruchverschluss-6971.html",
+        "https://www.viega.de/de/produkte/entwaesserungstechnik/im-bad/Tempoplex.html"
+      ],
+      "ean": "4015211839451"
+    },
+    {
+      "slug": "viega-tempoplex-montageset-6960-98",
+      "name": "Viega Tempoplex-Montageset 6960.98",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "582975",
+      "masse": null,
+      "beschreibung": "Montageset für Tempoplex-Abläufe mit 90 mm Ablaufloch: Edelstahlflansch, Schrauben und Dichtung. Es wird gebraucht, wenn der Ablauf von der Wanne gelöst wurde und neu abgedichtet werden muss.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 60,
+      "werkzeug": "Schraubendreher. Die Dichtung sitzt unter der Wanne, ohne Revisionsöffnung ist das eine Arbeit für den Fachbetrieb.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Tempoplex-Montageset-6960-98.html"
+      ],
+      "ean": "4015211582975"
+    },
+    {
+      "slug": "viega-domoplex-abdeckhaube-6930-0",
+      "name": "Viega Domoplex-Abdeckhaube 6930.0, Ø 75 mm",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "649968",
+      "masse": {
+        "durchmesser_mm": 75
+      },
+      "beschreibung": "Abdeckhaube aus verchromtem Kunststoff mit 75 mm Durchmesser für Domoplex in Duschwannen mit 52 mm Ablaufloch. Sie sitzt auf zwei Befestigungspunkten.",
+      "preis_spanne": "ca. 8–14 € (OTTO, eBay, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Domoplex/Abdeckhaube-6930-0.html",
+        "https://www.meinhausshop.de/media/pdf/93_727_74--DBL-01-de.pdf",
+        "https://www.ebay.de/p/1525110808"
+      ],
+      "ean": "4015211649968"
+    },
+    {
+      "slug": "viega-domoplex-abdeckhaube-6931-0",
+      "name": "Viega Domoplex-Abdeckhaube 6931.0, Ø 90 mm",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "649975",
+      "masse": {
+        "durchmesser_mm": 90
+      },
+      "beschreibung": "Abdeckhaube aus verchromtem Kunststoff mit 90 mm Durchmesser für Domoplex in Duschwannen mit 65 mm Ablaufloch (Modelle 6929).",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Domoplex/Abdeckhaube-6931-0.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/5a7b70080397ae31ac11409401a89c25_de_DE.pdf"
+      ],
+      "ean": "4015211649975"
+    },
+    {
+      "slug": "viega-domoplex-tauchrohr-1996-2015",
+      "name": "Viega Domoplex-Tauchrohr 6928.1-821 (Baureihe 1996–2015)",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "317232",
+      "masse": {
+        "hoehe_mm": 63
+      },
+      "beschreibung": "Tauchrohr aus Kunststoff für Domoplex-Abläufe der Baureihe 1996 bis 2015, 63 mm hoch.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Domoplex/Domoplex-Tauchrohr-6928-1-821.html"
+      ],
+      "ean": "4015211317232"
+    },
+    {
+      "slug": "viega-domoplex-tauchrohr-6928-821",
+      "name": "Viega Domoplex-Tauchrohr 6928-821 (bis 1996 und ab 2015)",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "290856",
+      "masse": {
+        "hoehe_mm": 63
+      },
+      "beschreibung": "Tauchrohr aus Kunststoff für Domoplex-Abläufe bis Baureihe 1996 und ab Baureihe 2015, 63 mm hoch.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Abdeckhaube lässt sich von Hand abheben, das Tauchrohr am Griff nach oben herausziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Domoplex/Domoplex-Tauchrohr-6928-821.html"
+      ],
+      "ean": "4015211290856"
+    },
+    {
+      "slug": "viega-advantix-tauchrohr-4960-90",
+      "name": "Viega Advantix-Tauchrohr 4960.90, 65 mm",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "668280",
+      "masse": {
+        "hoehe_mm": 65
+      },
+      "beschreibung": "Tauchrohr aus grauem Kunststoff für Advantix-Duschrinnen der Baureihe bis 2015 (4960.80, 4960.81, Duschrinne Wand 4980.30, Grundkörper 4980.10).",
+      "preis_spanne": "ca. 18 € (megabad, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": "Keins. Rost der Duschrinne abnehmen, Tauchrohr herausziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.megabad.com/hersteller-viega-ersatzteile-adsvantix-tauchrohr-6-a-659812.htm"
+      ],
+      "ean": "4015211668280"
+    },
+    {
+      "slug": "viega-advantix-siebeinsatz-4973-99",
+      "name": "Viega Advantix-Siebeinsatz 4973.99, DN 50",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "670276",
+      "masse": null,
+      "beschreibung": "Siebeinsatz aus grauem Kunststoff für Advantix-Duschrinnen bis Baureihe 2015 (4980.40, 4960.80, 4960.81, Duschrinne Wand 4980.30, Grundkörper 4980.10).",
+      "preis_spanne": "ca. 10 € (megabad, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Rost der Duschrinne abnehmen, Sieb herausnehmen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.megabad.com/hersteller-viega-ersatzteile-advantix-siebeinsatz-a-659797.htm"
+      ],
+      "ean": "4015211670276"
+    },
+    {
+      "slug": "viega-advantix-tauchrohr-4935-21",
+      "name": "Viega Advantix-Tauchrohr 4935.21 für Badabläufe, 100 mm",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "686093",
+      "masse": null,
+      "beschreibung": "Tauchrohr für Advantix-Badabläufe DN 50, zum Beispiel die Modelle 4935.1, 4935.2, 4935.3, 4935.6, 4938 und 4939.",
+      "preis_spanne": "ca. 7–11 € (megabad, Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Rost abnehmen, Tauchrohr herausziehen.",
+      "amazon_asin": "B00TINI480",
+      "quellen": [
+        "https://www.megabad.com/viega-ersatzteile-advantix-tauchrohr-badablaeufe-a-114066.htm",
+        "https://www.meinhausshop.de/media/pdf/93_968_50--DBL-01-de.pdf",
+        "https://www.amazon.de/dp/B00TINI480"
+      ],
+      "ean": "4015211686093"
+    },
+    {
+      "slug": "viega-advantix-vario-ablauf-4965-85",
+      "name": "Viega Advantix Vario-Ablauf 4965.85 mit Geruchverschluss",
+      "teiltyp": "duschablauf",
+      "oem_nummer": "686376",
+      "masse": null,
+      "beschreibung": "Ersatzablauf mit Geruchverschluss für den Grundkörper der Advantix Vario-Duschrinne 4965.10, 50 mm, mit Höhenausgleichsstück. Laut Viega darf der Geruchverschluss nur im eingebauten Zustand justiert werden.",
+      "preis_spanne": "ca. 45 € (megabad, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Keins. Abdeckkappen und Stegrost der Rinne herausnehmen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.megabad.com/hersteller-viega-ersatzteile-advantix-vario-ablauf-a-476727.htm",
+        "https://www.baedermaxx.at/media/pdf/98/03/f9/560883_Duschrinne.pdf",
+        "https://www.meinhausshop.de/media/pdf/93_034_45--DBL-01-de.pdf"
+      ],
+      "ean": "4015211686376"
+    },
+    {
+      "slug": "viega-ventilkegel-6168-035",
+      "name": "Viega Ventilkegel 6168-035, verchromt",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "215392",
+      "masse": {
+        "durchmesser_mm": 75
+      },
+      "beschreibung": "Ablaufstopfen für Multiplex und Multiplex Trio. Er steckt lose im Ventiloberteil im Wannenboden. Die Höhe wird an der Verstellschraube eingestellt und mit der Mutter gekontert.",
+      "preis_spanne": "ca. 13–23 € (eBay, Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": "Keins für den Ventilkegel, er steckt lose im Ventiloberteil und lässt sich nach oben herausziehen. Zum Einstellen ein Schraubenschlüssel für die Kontermutter.",
+      "amazon_asin": "B00M976RAY",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Ventilkegel-6168-035.html",
+        "https://www.meinhausshop.de/media/pdf/93_727_66--DBL-01-de.pdf",
+        "https://www.ebay.de/p/2254360813",
+        "https://www.amazon.de/dp/B00M976RAY"
+      ],
+      "ean": "4015211215392"
+    },
+    {
+      "slug": "viega-dichtung-ventilkegel-6162-268",
+      "name": "Viega Lippendichtung 6162-268 für Ventilkegel",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "104740",
+      "masse": {
+        "innen_mm": 26,
+        "aussen_mm": 42,
+        "hoehe_mm": 5
+      },
+      "beschreibung": "Gummidichtung am Ventilkegel von Multiplex und Multiplex Trio, 26 mm innen, 42 mm außen, 5 mm hoch. Ist sie hart oder rissig, hält die Wanne das Wasser nicht.",
+      "preis_spanne": "ca. 6–7 € (eBay, Amazon, November 2026)",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Ventilkegel herausziehen und die Dichtung abziehen.",
+      "amazon_asin": "B0017V48D6",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Dichtung-6162-268.html",
+        "https://www.ebay.de/p/13031006248",
+        "https://www.amazon.de/dp/B0017V48D6"
+      ],
+      "ean": "4015211104740"
+    },
+    {
+      "slug": "viega-verstellschraube-6151-912",
+      "name": "Viega Verstellschraube 6151-912 für Ventilkegel",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "110277",
+      "masse": {
+        "gewinde": "M5",
+        "laenge_mm": 25
+      },
+      "beschreibung": "Gewindestift M5 × 25 mm unter dem Ventilkegel von Multiplex und Multiplex Trio. Mit ihm wird eingestellt, wie weit der Stopfen öffnet und ob er dicht schließt.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": "Keins für den Ventilkegel, er steckt lose im Ventiloberteil und lässt sich nach oben herausziehen. Zum Einstellen ein Schraubenschlüssel für die Kontermutter.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Verstellschraube-6151-912.html",
+        "https://www.meinhausshop.de/media/pdf/93_727_66--DBL-01-de.pdf"
+      ],
+      "ean": "4015211110277"
+    },
+    {
+      "slug": "viega-ventiloberteil-6162-955",
+      "name": "Viega Ventiloberteil 6162-955, Messing verchromt",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "119812",
+      "masse": {
+        "durchmesser_mm": 70,
+        "hoehe_mm": 16
+      },
+      "beschreibung": "Sichtbarer Ablaufring im Wannenboden für Multiplex und Multiplex Trio, Ø 70 mm, 16 mm hoch. Er wird mit der Schraube 6162.45-593 im Ablauf festgeschraubt.",
+      "preis_spanne": "ca. 18 € (Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Schraubendreher oder Schlüssel für die Befestigungsschraube. Darunter liegt die Dichtung 6162.473, die beim Lösen mitgetauscht werden sollte.",
+      "amazon_asin": "B00LCAGCJA",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Ventiloberteil-6162-955.html",
+        "https://www.amazon.de/dp/B00LCAGCJA"
+      ],
+      "ean": "4015211119812"
+    },
+    {
+      "slug": "viega-dichtung-ventiloberteil-6162-473",
+      "name": "Viega Dichtung 6162.473 für Ventiloberteil",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "398378",
+      "masse": {
+        "innen_mm": 43.5,
+        "aussen_mm": 76
+      },
+      "beschreibung": "Dichtung unter dem Ventiloberteil von Multiplex und Multiplex Trio, 43,5 mm innen, 76 mm außen.",
+      "preis_spanne": "ca. 9 € (megabad, November 2026)",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Schraubendreher oder Schlüssel für die Befestigungsschraube des Ventiloberteils.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Dichtung-6162-473.html",
+        "https://www.megabad.com/en/hersteller-viega-ersatzteile-profildichtung-ventiloberteile-multiplex-a-156706.htm"
+      ],
+      "ean": "4015211398378"
+    },
+    {
+      "slug": "viega-bowdenzug-6162-19-560",
+      "name": "Viega Bowdenzug 6162.19, 560 mm (ab 2014/2015)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "721732",
+      "masse": {
+        "laenge_mm": 560
+      },
+      "beschreibung": "Bowdenzug mit Edelstahlseil für Normalwannen, 560 mm lang. Laut Viega für Multiplex und Rotaplex ab dem 2. Halbjahr 2014 und Multiplex Trio und Rotaplex Trio ab dem 1. Halbjahr 2015.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 90,
+      "werkzeug": "Der Bowdenzug liegt hinter der Wannenschürze. Ohne Revisionsöffnung muss die Schürze oder die Fliesenverkleidung geöffnet werden.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-19.html",
+        "https://www.meinhausshop.de/media/pdf/93_727_66--DBL-01-de.pdf"
+      ],
+      "ean": "4015211721732"
+    },
+    {
+      "slug": "viega-bowdenzug-6162-19-725",
+      "name": "Viega Bowdenzug 6162.19, 725 mm (ab 2014/2015)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "721749",
+      "masse": {
+        "laenge_mm": 725
+      },
+      "beschreibung": "Bowdenzug mit Edelstahlseil für Wannen mit Mittelablauf, 725 mm lang. Gültig wie die 560-mm-Ausführung für Garnituren ab 2014/2015.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 90,
+      "werkzeug": "Der Bowdenzug liegt hinter der Wannenschürze. Ohne Revisionsöffnung muss die Schürze oder die Fliesenverkleidung geöffnet werden.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-19.html",
+        "https://www.meinhausshop.de/media/pdf/93_969_20--DBL-01-de.pdf"
+      ],
+      "ean": "4015211721749"
+    },
+    {
+      "slug": "viega-bowdenzug-6162-19-1070",
+      "name": "Viega Bowdenzug 6162.19, 1070 mm (ab 2014/2015)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "721954",
+      "masse": {
+        "laenge_mm": 1070
+      },
+      "beschreibung": "Bowdenzug mit Edelstahlseil für Wannen mit Überlänge, 1070 mm lang. Gültig für Garnituren ab 2014/2015.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 90,
+      "werkzeug": "Der Bowdenzug liegt hinter der Wannenschürze. Ohne Revisionsöffnung muss die Schürze oder die Fliesenverkleidung geöffnet werden.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-19.html"
+      ],
+      "ean": "4015211721954"
+    },
+    {
+      "slug": "viega-bowdenzug-6162-152-540",
+      "name": "Viega Bowdenzug 6162-152, 540 mm (bis 2014/2015)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "135027",
+      "masse": {
+        "laenge_mm": 540
+      },
+      "beschreibung": "Bowdenzug mit Edelstahlseil für Normalwannen, 540 mm lang. Laut Viega für Multiplex und Rotaplex bis zum 1. Halbjahr 2014 und Multiplex Trio und Rotaplex Trio bis zum 1. Halbjahr 2015.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 90,
+      "werkzeug": "Der Bowdenzug liegt hinter der Wannenschürze. Ohne Revisionsöffnung muss die Schürze oder die Fliesenverkleidung geöffnet werden.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-152.html"
+      ],
+      "ean": "4015211135027"
+    },
+    {
+      "slug": "viega-bowdenzug-6163-152-725",
+      "name": "Viega Bowdenzug 6163-152, 725 mm (bis 2014/2015)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "160418",
+      "masse": {
+        "laenge_mm": 725
+      },
+      "beschreibung": "Bowdenzug mit Edelstahlseil für Wannen mit Mittelablauf, 725 mm lang, für Garnituren bis 2014/2015.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 90,
+      "werkzeug": "Der Bowdenzug liegt hinter der Wannenschürze. Ohne Revisionsöffnung muss die Schürze oder die Fliesenverkleidung geöffnet werden.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6163-152.html"
+      ],
+      "ean": "4015211160418"
+    },
+    {
+      "slug": "viega-bowdenzug-6165-152-1070",
+      "name": "Viega Bowdenzug 6165-152, 1070 mm (bis 2014/2015)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "147969",
+      "masse": {
+        "laenge_mm": 1070
+      },
+      "beschreibung": "Bowdenzug mit Edelstahlseil für Wannen mit Überlänge, 1070 mm lang, für Garnituren bis 2014/2015.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 90,
+      "werkzeug": "Der Bowdenzug liegt hinter der Wannenschürze. Ohne Revisionsöffnung muss die Schürze oder die Fliesenverkleidung geöffnet werden.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6165-152.html"
+      ],
+      "ean": "4015211147969"
+    },
+    {
+      "slug": "viega-drehrosette-6162-02-m1",
+      "name": "Viega Drehrosette 6162.02 Visign M1/R1, verchromt",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "280949",
+      "masse": null,
+      "beschreibung": "Drehgriff am Überlauf für Multiplex und Rotaplex im Design Visign M1/R1. Mit ihm wird der Stopfen über den Bowdenzug geöffnet und geschlossen.",
+      "preis_spanne": "ca. 14–26 € (megabad, OTTO, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Rosette wird abgezogen und aufgesteckt.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Drehrosette-6162-02.html",
+        "https://www.megabad.com/en/hersteller-viega-ersatzteile-drehrosette-multiplex-oder-a-233545.htm"
+      ],
+      "ean": "4015211280949"
+    },
+    {
+      "slug": "viega-drehrosette-6162-07-m2",
+      "name": "Viega Drehrosette 6162.07 Visign M2/R2, verchromt",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "554118",
+      "masse": null,
+      "beschreibung": "Drehgriff am Überlauf für Multiplex und Rotaplex im Design Visign M2/R2.",
+      "preis_spanne": "ca. 21–27 € (eBay, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Rosette wird abgezogen und aufgesteckt.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Drehrosette-6162-07.html",
+        "https://www.ebay.de/p/23025653138"
+      ],
+      "ean": "4015211554118"
+    },
+    {
+      "slug": "viega-drehrosette-6162-12-m5",
+      "name": "Viega Drehrosette 6162.12 Visign M5/R5 (ab 2014)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "734602",
+      "masse": null,
+      "beschreibung": "Drehgriff am Überlauf für Multiplex und Rotaplex ab Baureihe 2014 im Design Visign M5/R5.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Rosette wird abgezogen und aufgesteckt.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-ab-II2015/Drehrosette-6162-12.html"
+      ],
+      "ean": "4015211734602"
+    },
+    {
+      "slug": "viega-ausstattungsset-6162-01-m5",
+      "name": "Viega Multiplex-Ausstattungsset 6162.01 Visign M5, verchromt",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "721244",
+      "masse": null,
+      "beschreibung": "Sichtteile für die Multiplex-Garnitur ab 2015: Drehrosette und Ventilkegel im Design Visign M5. Viega führt das Set auch in Chrom matt (735 906), Edelstahl-Optik (735 890), Weiß (735 883) und Schwarz matt (806 118). Ein Käufer meldet, dass es eine Rosette im Design M1 nicht ersetzt.",
+      "preis_spanne": "ca. 9–14 € (Amazon, OTTO, eBay, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": "Keins für den Ventilkegel, er steckt lose im Ventiloberteil und lässt sich nach oben herausziehen. Zum Einstellen ein Schraubenschlüssel für die Kontermutter.",
+      "amazon_asin": "B010EBSOHU",
+      "quellen": [
+        "https://www.viega.co.uk/en/products/Catalogue/Drainage-technology/Drains-for-bathtubs-and-shower-trays/Multiplex/Multiplex-Equipment-set-6162-01.html",
+        "https://www.meinhausshop.de/media/pdf/93_727_66--DBL-01-de.pdf",
+        "https://www.ebay.de/p/19033789939",
+        "https://www.amazon.de/dp/B010EBSOHU"
+      ],
+      "ean": "4015211721244"
+    },
+    {
+      "slug": "viega-ausstattungsset-6167-09-m5",
+      "name": "Viega Ausstattungsset 6167.09 Visign M5/R5 (bis 2014)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "699062",
+      "masse": null,
+      "beschreibung": "Drehrosette und Überlaufrosette im Design Visign M5/R5 für Multiplex, Rotaplex sowie Multiplex Trio F und Rotaplex Trio F bis Baureihe 2014.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": "Keins. Die Rosetten werden abgezogen und aufgesteckt.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Ausstattungsset-6167-09.html"
+      ],
+      "ean": "4015211699062"
+    },
+    {
+      "slug": "viega-drehrosette-6161-03-mt1",
+      "name": "Viega Drehrosette 6161.03 Visign MT1/RT1, verchromt",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "309664",
+      "masse": null,
+      "beschreibung": "Drehgriff für Multiplex Trio und Rotaplex Trio im Design Visign MT1/RT1. Er sitzt auf dem Zulauf, durch den die Wanne gefüllt wird.",
+      "preis_spanne": "ca. 18–22 € (eBay, Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Drehrosette wird in Achsrichtung abgezogen.",
+      "amazon_asin": "B00NLICC1I",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Drehrosette-6161-03.html",
+        "https://www.ebay.de/p/15031009204",
+        "https://www.amazon.de/dp/B00NLICC1I"
+      ],
+      "ean": "4015211309664"
+    },
+    {
+      "slug": "viega-drehrosette-6161-92-mt2",
+      "name": "Viega Drehrosette 6161.92 Visign MT2/RT2 (bis 2015)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "575427",
+      "masse": null,
+      "beschreibung": "Drehgriff für Multiplex Trio und Rotaplex Trio im Design Visign MT2/RT2, Baureihe bis I/2015.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins. Die Drehrosette wird in Achsrichtung abgezogen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Drehrosette-6161-92.html"
+      ],
+      "ean": "4015211575427"
+    },
+    {
+      "slug": "viega-ausstattungsset-6161-01-mt5",
+      "name": "Viega Multiplex Trio-Ausstattungsset 6161.01 Visign MT5",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "725785",
+      "masse": null,
+      "beschreibung": "Sichtteile für Multiplex Trio 6161.52, 6161.62 und 6161.72: Drehrosette, Überlaufrosette und Ventilkegel im Design Visign MT5, verchromt. Weitere Oberflächen haben eigene Nummern.",
+      "preis_spanne": "ca. 84 € (Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "Keins für den Ventilkegel, er steckt lose im Ventiloberteil und lässt sich nach oben herausziehen. Zum Einstellen ein Schraubenschlüssel für die Kontermutter.",
+      "amazon_asin": "B00ZUZ51YU",
+      "quellen": [
+        "https://www.viega.co.uk/en/products/Catalogue/Drainage-technology/Drains-for-bathtubs-and-shower-trays/Multiplex-Trio/Multiplex-Trio-Equipment-set-6161-01.html",
+        "https://www.meinhausshop.de/media/pdf/93_969_20--DBL-01-de.pdf",
+        "https://www.amazon.de/dp/B00ZUZ51YU"
+      ],
+      "ean": "4015211725785"
+    },
+    {
+      "slug": "viega-ausstattungsset-6161-169-mt5",
+      "name": "Viega Ausstattungsset 6161.169 Visign MT5/RT5 (ab 2015)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "734633",
+      "masse": null,
+      "beschreibung": "Drehrosette und Überlaufrosette im Design Visign MT5/RT5 für Multiplex Trio und Rotaplex Trio ab Baureihe II/2015, ohne Ventilkegel.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": "Keins. Die Rosetten werden abgezogen und aufgesteckt.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT3MT5-Baureihe/Ausstattungsset-6161-169.html"
+      ],
+      "ean": "4015211734633"
+    },
+    {
+      "slug": "viega-zulaufeinsatz-6161-229",
+      "name": "Viega Zulaufeinsatz 6161.229 mit Luftsprudler (bis 2005/2006)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "300012",
+      "masse": null,
+      "beschreibung": "Einsatz im Wasserzulauf von Multiplex Trio und Rotaplex Trio der Baureihe bis 2005/2006, mit Metalleinsatz für den Luftsprudler. Verkalkt er, läuft die Wanne nur noch langsam voll.",
+      "preis_spanne": "ca. 34 € (Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Drehrosette abziehen, verchromte Abdeckung abnehmen. Die zentrale Schraube des Zulaufflanschs nicht lösen.",
+      "amazon_asin": "B00JQBZHO8",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Zulaufeinsatz-6161-229.html",
+        "https://www.ebay.de/p/2254268731",
+        "https://www.amazon.de/dp/B00JQBZHO8"
+      ],
+      "ean": "4015211300012"
+    },
+    {
+      "slug": "viega-zulaufeinsatz-6161-239",
+      "name": "Viega Zulaufeinsatz 6161.239 für größeren Durchfluss (bis 2005/2006)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "351076",
+      "masse": null,
+      "beschreibung": "Zulaufeinsatz mit Strahlregler für größeren Durchfluss, laut Viega zum Beispiel bei kalkhaltigem Wasser. Für Multiplex Trio und Rotaplex Trio der Baureihe bis 2005/2006.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Drehrosette abziehen, verchromte Abdeckung abnehmen. Die zentrale Schraube des Zulaufflanschs nicht lösen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Zulaufeinsatz-6161-239.html",
+        "https://www.ebay.de/p/19031009273"
+      ],
+      "ean": "4015211351076"
+    },
+    {
+      "slug": "viega-zulaufeinsatz-6161-249",
+      "name": "Viega Zulaufeinsatz 6161.249 mit Strahlregler (ab 2015)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "734756",
+      "masse": null,
+      "beschreibung": "Zulaufeinsatz mit Strahlregler für Multiplex Trio Visign MT3/MT5 und Rotaplex Trio RT3/RT5 ab Baureihe II/2015. Laut Anleitung 6161.62 lässt sich der Strahl mit dem Finger nach vorn oder hinten richten.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Innensechskantschlüssel 2 mm für die beiden Halteschrauben.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT3MT5-Baureihe/Zulaufeinsatz-6161-249.html",
+        "https://www.meinhausshop.de/media/pdf/93_969_20--DBL-01-de.pdf"
+      ],
+      "ean": "4015211734756"
+    },
+    {
+      "slug": "viega-zulaufflansch-6161-105",
+      "name": "Viega Zulaufflansch 6161.105 (ab 2015)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "734626",
+      "masse": null,
+      "beschreibung": "Zulaufflansch mit Befestigungsschraube für Multiplex Trio Visign MT3/MT5 und Rotaplex Trio RT3/RT5 ab Baureihe II/2015.",
+      "preis_spanne": "ca. 44 € (megabad, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 60,
+      "werkzeug": "Montagehilfe 6161.96. Der Flansch ist gegen die Wanne verspannt; ohne Zugang von hinten ist das eine Arbeit für den Fachbetrieb.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT3MT5-Baureihe/Zulaufflansch-6161-105.html",
+        "https://www.megabad.com/en/viega-ersatzteile-zulaufflansch-a-2279125.htm"
+      ],
+      "ean": "4015211734626"
+    },
+    {
+      "slug": "viega-umruestset-6161-99",
+      "name": "Viega Umrüstset Einlaufstück 6161.99 (Multiplex Trio bis 1995)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "312213",
+      "masse": null,
+      "beschreibung": "Umrüstset für Multiplex Trio mit Messing-Zulauf der Baureihe bis 1995. Laut Viega wird damit das alte Ausstattungsset auf die Ausführung bis 2002 umgestellt. Im Set: Einlaufstück, Zulaufeinsatz, Distanzring, Befestigungselement und Montagehilfe.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 60,
+      "werkzeug": "Montagehilfe aus dem Set. Bei festsitzenden alten Teilen ist das eine Arbeit für den Fachbetrieb.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Umruestset-6161-99.html"
+      ],
+      "ean": "4015211312213"
+    },
+    {
+      "slug": "viega-montagehilfe-6161-96",
+      "name": "Viega Montagehilfe 6161.96 für Multiplex Trio",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "632342",
+      "masse": null,
+      "beschreibung": "Kunststoffschlüssel, mit dem der Zulauf von Multiplex Trio und Rotaplex Trio von der Wannenseite aus angezogen wird.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 15,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Montagehilfe-6161-96.html",
+        "https://www.haustechnikdialog.de/Forum/t/28687/Probleme-mit-Viega-Ein-Ueberlaufgarnitur"
+      ],
+      "ean": "4015211632342"
+    },
+    {
+      "slug": "viega-dichtung-ueberlauf-9959-4",
+      "name": "Viega Überlaufdichtung 9959.4 (bis 2014)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "398385",
+      "masse": {
+        "innen_mm": 48.5,
+        "aussen_mm": 76
+      },
+      "beschreibung": "Dichtung am Überlauf für Multiplex, Multiplex Trio, Rotaplex, Rotaplex Trio und Citaplex bis Baureihe 2014, 48,5 mm innen, 76 mm außen.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 60,
+      "werkzeug": "Die Dichtung sitzt zwischen Wanne und Überlaufkörper. Ohne Zugang hinter der Wannenschürze ist das eine Arbeit für den Fachbetrieb.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Dichtung-9959-4.html"
+      ],
+      "ean": "4015211398385"
+    },
+    {
+      "slug": "viega-dichtung-ueberlauf-6162-475",
+      "name": "Viega Überlaufdichtung 6162.475 (ab 2014)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "734619",
+      "masse": {
+        "innen_mm": 48.5,
+        "aussen_mm": 76
+      },
+      "beschreibung": "Dichtung am Überlauf für Multiplex, Rotaplex und Citaplex ab Baureihe 2014, 48,5 mm innen, 76 mm außen.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 60,
+      "werkzeug": "Die Dichtung sitzt zwischen Wanne und Überlaufkörper. Ohne Zugang hinter der Wannenschürze ist das eine Arbeit für den Fachbetrieb.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-ab-II2015/Dichtung-6162-475.html"
+      ],
+      "ean": "4015211734619"
+    },
+    {
+      "slug": "viega-rotaplex-abdeckhaube-6142-92",
+      "name": "Viega Rotaplex-Abdeckhaube 6142.92, Ø 115 mm",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "695941",
+      "masse": {
+        "durchmesser_mm": 115
+      },
+      "beschreibung": "Verchromte Abdeckhaube über dem großen Ablauf von Rotaplex und Rotaplex Trio, 115 mm Durchmesser. Bei Rotaplex hebt sich die Haube beim Öffnen, einen Stopfen gibt es nicht.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Rotaplex-Baureihe-bis-I2015/Abdeckhaube-6142-92.html"
+      ],
+      "ean": "4015211695941"
+    },
+    {
+      "slug": "viega-rotaplex-ventilkegel-6142-90",
+      "name": "Viega Rotaplex-Ventilkegel 6142.90",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "575397",
+      "masse": null,
+      "beschreibung": "Ventilkegel aus Kunststoff unter der Abdeckhaube von Rotaplex und Rotaplex Trio.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": "Keins. Abdeckhaube abnehmen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Rotaplex-Baureihe-bis-I2015/Ventilkegel-6142-90.html"
+      ],
+      "ean": "4015211575397"
+    },
+    {
+      "slug": "viega-simplex-rosette-6168-02",
+      "name": "Viega Simplex-Rosette 6168.02 (ab 2009)",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "657406",
+      "masse": null,
+      "beschreibung": "Drehrosette für die Simplex-Ab- und Überlaufgarnitur ab Baureihe 2009.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": "Keins.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.co.uk/en/products/Catalogue/Drainage-technology/Spare-parts-for-odour-traps-and-drain/Simplex/Simplex-Rosette-6168-02.html"
+      ],
+      "ean": "4015211657406"
+    },
+    {
+      "slug": "viega-verlaengerungsset-6161-7",
+      "name": "Viega Verlängerungsset 6161.7 für Multiplex",
+      "teiltyp": "wannenablauf",
+      "oem_nummer": "122201",
+      "masse": null,
+      "beschreibung": "Verlängerung für den Ablauf von Multiplex und Multiplex Trio bei dickem Wannenboden. Die Viega-Anleitungen der Funktionseinheiten 6162.45 und 6161.62 nennen es als Zubehör.",
+      "preis_spanne": "ca. 7 € (megabad, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 60,
+      "werkzeug": "Wird beim Einbau der Garnitur gesetzt, nachträglich nur mit Zugang unter der Wanne.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.co.uk/en/products/Catalogue/Drainage-technology/Drains-for-bathtubs-and-shower-trays/Multiplex-Trio/Multiplex-Extension-set-6161-7.html",
+        "https://www.meinhausshop.de/media/pdf/93_727_66--DBL-01-de.pdf",
+        "https://www.megabad.com/en/hersteller-viega-ablauftechnik-badewannen-multiplex-verlaengerung-a-218940.htm"
+      ],
+      "ean": "4015211122201"
+    },
+    {
+      "slug": "viega-ablaufventilset-8310-0",
+      "name": "Viega Ablaufventilset 8310.0 für UP-Spülkasten 1H und 2H",
+      "teiltyp": "spuelventil",
+      "oem_nummer": "611224",
+      "masse": null,
+      "beschreibung": "Ablaufventil mit Ventilsitz, Betätigungsmechanik, Betätigungsstiften, Gewindebolzen und Bügel für die Unterputzspülkästen 1H (1999–2007) und 2H (ab 2007). Das Set ist zugleich der Umrüstsatz, mit dem ein 1H-Kasten Platten der Serien Visign for Style und Visign for More bekommt. Laut Anleitung kann nach dem Tausch auch die alte Platte wieder montiert werden; ab Werk ist die Spülmenge auf 3 und 6 Liter eingestellt.",
+      "preis_spanne": "ca. 65 € (Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 30,
+      "werkzeug": "Betätigungsplatte abnehmen, Eckventil im Spülkasten schließen. Die Teile werden durch die Revisionsöffnung ein- und ausgebaut.",
+      "amazon_asin": "B01MXUYMKY",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Ablaufventilset-8310-0.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/16b93b5a0a2e07e7ac114094013fcb8d_de_AT.pdf",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf",
+        "https://www.amazon.de/dp/B01MXUYMKY"
+      ],
+      "ean": "4015211611224"
+    },
+    {
+      "slug": "viega-ablaufventilset-8038-0",
+      "name": "Viega Ablaufventilset 8038.0 für UP-Spülkasten 1L und 2L",
+      "teiltyp": "spuelventil",
+      "oem_nummer": "611231",
+      "masse": null,
+      "beschreibung": "Ablaufventilset für die niedrigen Unterputzspülkästen 1L und 2L, Spülauslösung von vorn oder oben. Zugleich Umrüstsatz auf Visign for Style und Visign for More.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 30,
+      "werkzeug": "Betätigungsplatte abnehmen, Eckventil im Spülkasten schließen. Die Teile werden durch die Revisionsöffnung ein- und ausgebaut.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1L-Spuelausloesung-von/Ablaufventilset-8038-0.html",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf"
+      ],
+      "ean": "4015211611231"
+    },
+    {
+      "slug": "viega-ersatzteilset-8141-0",
+      "name": "Viega Ersatzteilset 8141.0 für UP-Eckspülkasten 1C und 2C",
+      "teiltyp": "spuelventil",
+      "oem_nummer": "611255",
+      "masse": null,
+      "beschreibung": "Ersatzteilset für die Eckspülkästen 1C und 2C: Ablaufventil mit Ventilsitz, Betätigungsmechanik, Betätigungsstifte, Gewindebolzen, Bügel und Füllventil. Zugleich Umrüstsatz auf Visign for Style und Visign for More.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 40,
+      "werkzeug": "Betätigungsplatte abnehmen, Eckventil im Spülkasten schließen. Die Teile werden durch die Revisionsöffnung ein- und ausgebaut.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Eckspuelkaesten-1C-Spuelausloesung/Ersatzteilset-8141-0.html",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf"
+      ],
+      "ean": "4015211611255"
+    },
+    {
+      "slug": "viega-fuellventilset-8310-74",
+      "name": "Viega Füllventilset 8310.74 für UP-Spülkasten 1H, 1L, 2L und 1S",
+      "teiltyp": "fuellventil",
+      "oem_nummer": "759254",
+      "masse": null,
+      "beschreibung": "Füllventil mit Flexschlauch und Füllventilhalter. Laut Viega-Ersatzteilkatalog für die Unterputzspülkästen 1H, 1L, 2L und Standard 1S.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Betätigungsplatte abnehmen, Eckventil im Spülkasten schließen. Die Teile werden durch die Revisionsöffnung ein- und ausgebaut.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Fuellventilset-8310-74.html",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf"
+      ],
+      "ean": "4015211759254"
+    },
+    {
+      "slug": "viega-fuellventilset-8310-75",
+      "name": "Viega Füllventilset 8310.75 für UP-Spülkasten 2H und 2S",
+      "teiltyp": "fuellventil",
+      "oem_nummer": "718152",
+      "masse": null,
+      "beschreibung": "Füllventil mit Flexschlauch und Füllventilhalter für die Unterputzspülkästen 2H und Standard 2S.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Betätigungsplatte abnehmen, Eckventil im Spülkasten schließen. Die Teile werden durch die Revisionsöffnung ein- und ausgebaut.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-2H-Spuelausloesung-von/Fuellventilset-8310-75.html",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf"
+      ],
+      "ean": "4015211718152"
+    },
+    {
+      "slug": "viega-fuellventilset-8310-72",
+      "name": "Viega Füllventilset 8310.72 für UP-Eckspülkasten 1C und 2C",
+      "teiltyp": "fuellventil",
+      "oem_nummer": "717742",
+      "masse": null,
+      "beschreibung": "Füllventil mit Flexschlauch und Füllventilhalter für die Eckspülkästen 1C und 2C.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Betätigungsplatte abnehmen, Eckventil im Spülkasten schließen. Die Teile werden durch die Revisionsöffnung ein- und ausgebaut.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Eckspuelkaesten-1C-Spuelausloesung/Fuellventilset-8310-72.html",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf"
+      ],
+      "ean": "4015211717742"
+    },
+    {
+      "slug": "viega-dichtungsset-8310-20",
+      "name": "Viega Dichtungsset 8310.20 für UP-Spülkästen",
+      "teiltyp": "dichtung",
+      "oem_nummer": "405557",
+      "masse": null,
+      "beschreibung": "Dichtungen für die Unterputzspülkästen 1H, 2H, 1C, 2C, 1S und 2S: O-Ringe für den Ablaufstutzen, O-Ring für das Eckventil und je eine Dichtung für Ablaufventil, Ablaufventilsitz, Füllventil und Spülrohrbogen.",
+      "preis_spanne": "ca. 6–7 € (eBay, November 2026)",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Betätigungsplatte abnehmen, Eckventil im Spülkasten schließen. Die Teile werden durch die Revisionsöffnung ein- und ausgebaut.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Dichtungsset-8310-20.html",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf",
+        "https://www.ebay.de/p/1661206854"
+      ],
+      "ean": "4015211405557"
+    },
+    {
+      "slug": "viega-eckventil-8310-28",
+      "name": "Viega Eckventil 8310.28 für UP-Spülkästen",
+      "teiltyp": "eckventil",
+      "oem_nummer": "407575",
+      "masse": null,
+      "beschreibung": "Eckventil aus Messing im Unterputzspülkasten, mit Steckverschraubung, Überwurf G⅝ und Abgang G⅜. Passt laut Viega in die Kästen 1H, 1L, 1C, 2H, 2L, 2C, 1S und 2S.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 40,
+      "werkzeug": "Hauptwasserhahn schließen. Der Tausch geschieht durch die Revisionsöffnung; bei festsitzendem Ventil ist das eine Arbeit für den Fachbetrieb.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Eckventil-8310-28.html",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf"
+      ],
+      "ean": "4015211407575"
+    },
+    {
+      "slug": "viega-betaetigungsstifteset-8310-31",
+      "name": "Viega Betätigungsstifteset 8310.31",
+      "teiltyp": "betaetigung",
+      "oem_nummer": "407605",
+      "masse": {
+        "gewinde": "M8",
+        "laenge_mm": 130
+      },
+      "beschreibung": "Zwei Betätigungsstifte M8 × 130 mm aus Kunststoff. Sie übertragen den Druck der Platte auf das Ablaufventil. Laut Viega Ersatzteil für die Platten Visign for Style 10 (8315.1), Visign for Style 13 (8333.1), Standard 1 (8180.1) und Visign for Public 1 (8326.1).",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "Messer zum Kürzen. Laut Viega-Anleitung 8310.0 steht der obere Stift 11 mm, der untere 5 mm vor der Fliese.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Betaetigungsstifteset-8310-31.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/16b93b5a0a2e07e7ac114094013fcb8d_de_AT.pdf"
+      ],
+      "ean": "4015211407605"
+    },
+    {
+      "slug": "viega-bowdenzugeinheit-8310-82",
+      "name": "Viega Bowdenzugeinheit 8310.82",
+      "teiltyp": "betaetigung",
+      "oem_nummer": "604134",
+      "masse": {
+        "laenge_mm": 300
+      },
+      "beschreibung": "Bowdenzugeinheit, 300 mm, für Platten mit Bowdenzugbetätigung: Visign for Style 11 (8331.1) und 12 (8332.1, 8332.4), Visign for More 100 (8352.1) und 104 (8354.1) sowie 8327.1.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Betätigungsplatte abnehmen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Ersatzteile-fuer-Viega/Bowdenzugeinheit-8310-82.html",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf"
+      ],
+      "ean": "4015211604134"
+    },
+    {
+      "slug": "viega-grundrahmen-8310-34",
+      "name": "Viega Grundrahmen 8310.34 für Visign for Life 1–4",
+      "teiltyp": "betaetigung",
+      "oem_nummer": "407643",
+      "masse": null,
+      "beschreibung": "Grundrahmen aus Kunststoff, auf dem die Betätigungsplatten Visign for Life 1, 2, 3 und 4 sitzen.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "Betätigungsplatte abnehmen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Ersatzteile-fuer-Viega/Grundrahmen-8310-34.html",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf"
+      ],
+      "ean": "4015211407643"
+    },
+    {
+      "slug": "viega-visign-for-style-10",
+      "name": "Viega Betätigungsplatte Visign for Style 10, weiß-alpin",
+      "teiltyp": "betaetigungsplatte",
+      "oem_nummer": "596316",
+      "masse": null,
+      "beschreibung": "Zwei-Mengen-Betätigungsplatte aus Kunststoff für die Unterputzspülkästen 2H, 2L, 2C und Standard 2S (Modell 8180.26). Modell 8315.1, außerdem in Chrom (596 323), Chrom matt (596 347), Edelstahl-Optik (597 054) und Schwarz. Auf einem 1H-Kasten braucht sie vorher das Ablaufventilset 8310.0.",
+      "preis_spanne": "ca. 59 € (OTTO, Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "Keins. Die Platte wird auf den Rahmen gesteckt.",
+      "amazon_asin": "B00J26N5DC",
+      "quellen": [
+        "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Viega-Betaetigungsplatten/Betaetigungsplatte-8315-1.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/16b93b5a0a2e07e7ac114094013fcb8d_de_AT.pdf",
+        "https://www.amazon.de/dp/B00J26N5DC"
+      ],
+      "ean": "4015211596316"
+    },
+    {
+      "slug": "viega-prevista-ablaufventilset-8580-1",
+      "name": "Viega Prevista-Ablaufventilset 8580.1 für UP-Spülkasten 3H und 3L",
+      "teiltyp": "spuelventil",
+      "oem_nummer": "786076",
+      "masse": null,
+      "beschreibung": "Zwei-Mengen-Ablaufventil mit Ablaufventilhalter, Dichtung und Spülstromdrossel für die Prevista-Unterputzspülkästen 3H und 3L, Auslösung von vorn oder oben. Laut Anleitung wird die Dichtung am Ventilhalter vor dem Einsetzen gefettet.",
+      "preis_spanne": "ca. 55 € (megabad, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 30,
+      "werkzeug": "Betätigungsplatte abnehmen, Eckventil im Spülkasten schließen. Die Teile werden durch die Revisionsöffnung ein- und ausgebaut.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.co.uk/en/products/Catalogue/Pre-wallflushing-technology/Accessoriesspare-parts/Concealed-cisterns-3H-flush-actuation/Drain-valve-set-8580-1.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/5539ec023e1335f1ac1140941799d7a9_de_DE.pdf",
+        "https://www.megabad.com/en/hersteller-viega-prevista-zubehoer-ablaufventilset-modell-a-1033898.htm"
+      ],
+      "ean": "4015211786076"
+    },
+    {
+      "slug": "viega-prevista-fuellventilset-8580-3",
+      "name": "Viega Prevista-Füllventilset 8580.3 für UP-Spülkasten 3H",
+      "teiltyp": "fuellventil",
+      "oem_nummer": "786090",
+      "masse": null,
+      "beschreibung": "Füllventil mit Halter und Füllschlauch, ⅜ Zoll, für den Prevista-Unterputzspülkasten 3H (Standardhöhe). Fließdruck laut Anleitung 0,15 bis 10 bar.",
+      "preis_spanne": "ca. 61 € (Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Betätigungsplatte abnehmen, Eckventil im Spülkasten schließen. Die Teile werden durch die Revisionsöffnung ein- und ausgebaut.",
+      "amazon_asin": "B0C7KN3K8D",
+      "quellen": [
+        "https://www.viega.co.uk/en/products/Catalogue/Pre-wallflushing-technology/Accessoriesspare-parts/Concealed-cisterns-3H-flush-actuation/Filling-valve-set-8580-3.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/5483f5da5d08c2dcac11409416699840_de_DE.pdf",
+        "https://www.amazon.de/dp/B0C7KN3K8D"
+      ],
+      "ean": "4015211786090"
+    },
+    {
+      "slug": "viega-prevista-fuellventilset-8580-5",
+      "name": "Viega Prevista-Füllventilset 8580.5 für UP-Spülkasten 3L",
+      "teiltyp": "fuellventil",
+      "oem_nummer": "786113",
+      "masse": null,
+      "beschreibung": "Füllventil mit Halter und Füllschlauch, ⅜ Zoll, für den niedrigen Prevista-Unterputzspülkasten 3L. Fließdruck laut Anleitung 0,15 bis 10 bar.",
+      "preis_spanne": "ca. 38 € (megabad, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Betätigungsplatte abnehmen, Eckventil im Spülkasten schließen. Die Teile werden durch die Revisionsöffnung ein- und ausgebaut.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.co.uk/en/products/Catalogue/Pre-wallflushing-technology/Accessoriesspare-parts/Concealed-cisterns-3L-flush-actuation/Filling-valve-set-8580-5.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/f2d712965d0962e0ac114094436723e1_de_DE.pdf",
+        "https://www.megabad.com/en/hersteller-viega-prevista-zubehoer-fuellventilset-modell-a-1033982.htm"
+      ],
+      "ean": "4015211786113"
+    },
+    {
+      "slug": "viega-prevista-dichtungsset-8580-8",
+      "name": "Viega Prevista-Dichtungsset 8580.8 für UP-Spülkasten 3H und 3L",
+      "teiltyp": "dichtung",
+      "oem_nummer": "786137",
+      "masse": null,
+      "beschreibung": "Dichtungen für die Prevista-Spülkästen 3H und 3L: Dichtung am Ablaufventil, O-Ringe am Ablaufventilsitz, O-Ring-Set für den Spülrohrhalter und Doppellippendichtung für den Spülrohrbogen.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Betätigungsplatte abnehmen, Eckventil im Spülkasten schließen. Die Teile werden durch die Revisionsöffnung ein- und ausgebaut.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.co.uk/en/products/Catalogue/Pre-wallflushing-technology/Accessoriesspare-parts/Concealed-cisterns-3H-flush-actuation/Gasket-set-8580-8.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/2b652e6bc65bb687ac1140947255fe72_de_DE.pdf"
+      ],
+      "ean": "4015211786137"
+    },
+    {
+      "slug": "viega-prevista-eckventil-8580-63",
+      "name": "Viega Prevista-Eckventil 8580.63",
+      "teiltyp": "eckventil",
+      "oem_nummer": "799779",
+      "masse": null,
+      "beschreibung": "Eckventil aus Messing mit R-Gewinde für die Prevista-Spülkästen 3H und 3L, mit Spindel 8580.13.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 40,
+      "werkzeug": "Hauptwasserhahn schließen. Der Tausch geschieht durch die Revisionsöffnung.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.co.uk/en/products/Catalogue/Pre-wallflushing-technology/Accessoriesspare-parts/Concealed-cisterns-3H-flush-actuation/Corner-valve-8580-63.html"
+      ],
+      "ean": "4015211799779"
+    },
+    {
+      "slug": "viega-prevista-betaetigungsstiftset-8580-62",
+      "name": "Viega Prevista-Betätigungsstiftset 8580.62",
+      "teiltyp": "betaetigung",
+      "oem_nummer": "792565",
+      "masse": {
+        "laenge_mm": 110
+      },
+      "beschreibung": "Betätigungsstifte mit Befestigungsbolzen, 110 mm, für die Prevista-Spülkästen 3H und 3L und die Prevista-Betätigungsplatten.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "Betätigungsplatte abnehmen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.viega.co.uk/en/products/Catalogue/Pre-wallflushing-technology/Accessoriesspare-parts/Viega-flush-plates/Actuating-rod-set-8580-62.html"
+      ],
+      "ean": "4015211792565"
+    },
+    {
+      "slug": "viega-visign-for-life-5",
+      "name": "Viega Betätigungsplatte Visign for Life 5, weiß-alpin",
+      "teiltyp": "betaetigungsplatte",
+      "oem_nummer": "773731",
+      "masse": null,
+      "beschreibung": "Zwei-Mengen-Betätigungsplatte aus Kunststoff für Prevista, Modell 8601.1. Laut Anleitung passt sie in alle Prevista-Unterputzspülkästen.",
+      "preis_spanne": "ca. 34 € (OTTO, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "Keins.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/2b652e6bc65bb687ac1140947255fe72_de_DE.pdf"
+      ],
+      "ean": "4015211773731"
+    }
+  ],
+  "zuordnungen": [
+    {
+      "serie_slug": "tempoplex-bis-2001",
+      "teil_slug": "viega-tempoplex-tauchrohr-bis-1996",
+      "hinweis": "Baureihe bis 1996",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-1997-2001/Tempoplex-Tauchrohr-6956-632.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-bis-2001",
+      "teil_slug": "viega-tempoplex-tauchrohr-1997-2001",
+      "hinweis": "Baureihe 1997–2001",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-1997-2001/Tempoplex-Tauchrohr-6956-1-821.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-bis-2001",
+      "teil_slug": "viega-tempoplex-dichtung-1997-2001",
+      "hinweis": "Baureihe 1997–2001",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-1997-2001/Tempoplex-Dichtung-6956-1-182.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-bis-2001",
+      "teil_slug": "viega-tempoplex-abdeckhaube-120",
+      "hinweis": "Haube mit 120 mm Durchmesser",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-1997-2001/Abdeckhaube-6956-0.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-2001-2006",
+      "teil_slug": "viega-tempoplex-tauchrohr-2001-2006",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2001/Tempoplex-Tauchrohr-6958-1-821.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-2001-2006",
+      "teil_slug": "viega-tempoplex-abdeckhaube-6958-99",
+      "hinweis": "Modelle 6958, 6958.1, 6959, 6959.1",
+      "quelle_url": "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/641d6a881a1ef2c0ac114094306da7c5_de_DE.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-2001-2006",
+      "teil_slug": "viega-tempoplex-siebeinsatz-2001-2006",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2001/Tempoplex-Siebeinsatz-6958-96.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-ab-2006",
+      "teil_slug": "viega-tempoplex-tauchrohr-6966-99",
+      "hinweis": "nicht für Tempoplex 60 mm",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Tempoplex-Tauchrohr-6966-99.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-ab-2006",
+      "teil_slug": "viega-tempoplex-tauchrohr-6961-99",
+      "hinweis": "ältere Ausführung",
+      "quelle_url": "https://www.megabad.com/hersteller-viega-ersatzteile-tauchrohr-tempoplex-ablaufgarnitur-a-157472.htm",
+      "sicherheit": "zwei_quellen"
+    },
+    {
+      "serie_slug": "tempoplex-ab-2006",
+      "teil_slug": "viega-tempoplex-60-tauchrohr-6967-99",
+      "hinweis": "nur Tempoplex 60 mm (6963, 6967)",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Tempoplex-Tauchrohr-6967-99.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-plus",
+      "teil_slug": "viega-tempoplex-plus-tauchrohr-6968-99",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Plus-Baureihe-ab-2006/Tempoplex-Plus-Tauchrohr-6968-99.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-ab-2006",
+      "teil_slug": "viega-tempoplex-ausstattungsset-6964-0",
+      "hinweis": "Funktionseinheiten 6961.1 und 6963.1",
+      "quelle_url": "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9ca4fdd59107f0edac11409400fe085a_de_DE.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-plus",
+      "teil_slug": "viega-tempoplex-ausstattungsset-6964-0",
+      "hinweis": "Funktionseinheit 6960.1",
+      "quelle_url": "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/f4c6a28abb245cd5ac114094013927d4_de_DE.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-ab-2006",
+      "teil_slug": "viega-tempoplex-abdeckhaube-6966-01",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Abdeckhaube-6966-01.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-plus",
+      "teil_slug": "viega-tempoplex-abdeckhaube-6966-01",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Abdeckhaube-6966-01.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-ab-2006",
+      "teil_slug": "viega-tempoplex-siebeinsatz-6961-96",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Siebeinsatz-6961-96.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-plus",
+      "teil_slug": "viega-tempoplex-siebeinsatz-6961-96",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Siebeinsatz-6961-96.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-ab-2006",
+      "teil_slug": "viega-tempoplex-siebeinsatz-6966-96",
+      "hinweis": "Modelle ab 2026 (6966, 6967, 6968)",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2026/Siebeinsatz-6966-96.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-plus",
+      "teil_slug": "viega-tempoplex-siebeinsatz-6966-96",
+      "hinweis": "Modelle ab 2026 (6966, 6967, 6968)",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2026/Siebeinsatz-6966-96.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-ab-2006",
+      "teil_slug": "viega-tempoplex-dichtung-6961-95",
+      "hinweis": "Höhe 4,5, 15 oder 26,5 mm",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Tempoplex-Dichtung-6961-95.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-plus",
+      "teil_slug": "viega-tempoplex-dichtung-6961-95",
+      "hinweis": "Höhe 4,5, 15 oder 26,5 mm",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Tempoplex-Dichtung-6961-95.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-ab-2006",
+      "teil_slug": "viega-tempoplex-stopfen-6961-93",
+      "hinweis": "ab Baureihe 2010, nicht Tempoplex 60 mm",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Stopfen-6961-93.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-plus",
+      "teil_slug": "viega-tempoplex-stopfen-6961-93",
+      "hinweis": "ab Baureihe 2010, nicht Tempoplex 60 mm",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Stopfen-6961-93.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-ab-2006",
+      "teil_slug": "viega-tempoplex-trockengeruchverschluss-6971",
+      "hinweis": "ab Baujahr 2010",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ablaeufe-fuer-Bade--und-Duschwannen/Tempoplex-Baureihe-ab-2026/Trockengeruchverschluss-6971.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-plus",
+      "teil_slug": "viega-tempoplex-trockengeruchverschluss-6971",
+      "hinweis": "ab Baujahr 2010",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ablaeufe-fuer-Bade--und-Duschwannen/Tempoplex-Baureihe-ab-2026/Trockengeruchverschluss-6971.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-ab-2006",
+      "teil_slug": "viega-tempoplex-montageset-6960-98",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Tempoplex-Montageset-6960-98.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "tempoplex-plus",
+      "teil_slug": "viega-tempoplex-montageset-6960-98",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Tempoplex-Montageset-6960-98.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "domoplex",
+      "teil_slug": "viega-domoplex-abdeckhaube-6930-0",
+      "hinweis": "52 mm Ablaufloch (6928)",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Domoplex/Abdeckhaube-6930-0.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "domoplex",
+      "teil_slug": "viega-domoplex-abdeckhaube-6931-0",
+      "hinweis": "65 mm Ablaufloch (6929)",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Domoplex/Abdeckhaube-6931-0.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "domoplex",
+      "teil_slug": "viega-domoplex-tauchrohr-1996-2015",
+      "hinweis": "Baureihe 1996–2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Domoplex/Domoplex-Tauchrohr-6928-1-821.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "domoplex",
+      "teil_slug": "viega-domoplex-tauchrohr-6928-821",
+      "hinweis": "bis 1996 und ab 2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Domoplex/Domoplex-Tauchrohr-6928-821.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "advantix-duschrinne-bis-2015",
+      "teil_slug": "viega-advantix-tauchrohr-4960-90",
+      "hinweis": null,
+      "quelle_url": "https://www.megabad.com/hersteller-viega-ersatzteile-adsvantix-tauchrohr-6-a-659812.htm",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "advantix-duschrinne-bis-2015",
+      "teil_slug": "viega-advantix-siebeinsatz-4973-99",
+      "hinweis": null,
+      "quelle_url": "https://www.megabad.com/hersteller-viega-ersatzteile-advantix-siebeinsatz-a-659797.htm",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "advantix-badablauf",
+      "teil_slug": "viega-advantix-tauchrohr-4935-21",
+      "hinweis": "Badabläufe DN 50",
+      "quelle_url": "https://www.megabad.com/viega-ersatzteile-advantix-tauchrohr-badablaeufe-a-114066.htm",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "advantix-vario",
+      "teil_slug": "viega-advantix-vario-ablauf-4965-85",
+      "hinweis": "Grundkörper 4965.10",
+      "quelle_url": "https://www.megabad.com/hersteller-viega-ersatzteile-advantix-vario-ablauf-a-476727.htm",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-ventilkegel-6168-035",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Ventilkegel-6168-035.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-ventilkegel-6168-035",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Ventilkegel-6168-035.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-dichtung-ventilkegel-6162-268",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Dichtung-6162-268.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-dichtung-ventilkegel-6162-268",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Dichtung-6162-268.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-verstellschraube-6151-912",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Verstellschraube-6151-912.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-verstellschraube-6151-912",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Verstellschraube-6151-912.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-ventiloberteil-6162-955",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Ventiloberteil-6162-955.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-ventiloberteil-6162-955",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Ventiloberteil-6162-955.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-dichtung-ventiloberteil-6162-473",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Dichtung-6162-473.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-dichtung-ventiloberteil-6162-473",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Dichtung-6162-473.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-bowdenzug-6162-19-560",
+      "hinweis": "Normalwanne, ab 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-19.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-bowdenzug-6162-19-725",
+      "hinweis": "Mittelablauf, ab 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-19.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-bowdenzug-6162-19-1070",
+      "hinweis": "Überlänge, ab 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-19.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-bowdenzug-6162-152-540",
+      "hinweis": "Normalwanne, bis 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-152.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-bowdenzug-6163-152-725",
+      "hinweis": "Mittelablauf, bis 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6163-152.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-bowdenzug-6165-152-1070",
+      "hinweis": "Überlänge, bis 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6165-152.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-bowdenzug-6162-19-560",
+      "hinweis": "Normalwanne, ab 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-19.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-bowdenzug-6162-19-725",
+      "hinweis": "Mittelablauf, ab 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-19.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-bowdenzug-6162-19-1070",
+      "hinweis": "Überlänge, ab 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-19.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-bowdenzug-6162-152-540",
+      "hinweis": "Normalwanne, bis 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-152.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-bowdenzug-6163-152-725",
+      "hinweis": "Mittelablauf, bis 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6163-152.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-bowdenzug-6165-152-1070",
+      "hinweis": "Überlänge, bis 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6165-152.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-bowdenzug-6162-19-560",
+      "hinweis": "Normalwanne, ab 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-19.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-bowdenzug-6162-19-725",
+      "hinweis": "Mittelablauf, ab 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-19.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-bowdenzug-6162-19-1070",
+      "hinweis": "Überlänge, ab 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-19.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-bowdenzug-6162-152-540",
+      "hinweis": "Normalwanne, bis 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6162-152.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-bowdenzug-6163-152-725",
+      "hinweis": "Mittelablauf, bis 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6163-152.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-bowdenzug-6165-152-1070",
+      "hinweis": "Überlänge, bis 2014/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Bowdenzug-6165-152.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-drehrosette-6162-02-m1",
+      "hinweis": "Visign M1/R1",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Drehrosette-6162-02.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-drehrosette-6162-02-m1",
+      "hinweis": "Visign M1/R1",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Drehrosette-6162-02.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-drehrosette-6162-07-m2",
+      "hinweis": "Visign M2/R2",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Drehrosette-6162-07.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-drehrosette-6162-07-m2",
+      "hinweis": "Visign M2/R2",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Drehrosette-6162-07.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-drehrosette-6162-12-m5",
+      "hinweis": "Visign M5/R5, ab 2014",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-ab-II2015/Drehrosette-6162-12.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-drehrosette-6162-12-m5",
+      "hinweis": "Visign M5/R5, ab 2014",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-ab-II2015/Drehrosette-6162-12.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-ausstattungsset-6167-09-m5",
+      "hinweis": "Visign M5/R5, bis 2014",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Ausstattungsset-6167-09.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-ausstattungsset-6167-09-m5",
+      "hinweis": "Visign M5/R5, bis 2014",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Ausstattungsset-6167-09.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-dichtung-ueberlauf-9959-4",
+      "hinweis": "bis Baureihe 2014",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Dichtung-9959-4.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-dichtung-ueberlauf-9959-4",
+      "hinweis": "bis Baureihe 2014",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Dichtung-9959-4.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-dichtung-ueberlauf-9959-4",
+      "hinweis": "bis Baureihe 2014",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Dichtung-9959-4.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-dichtung-ueberlauf-6162-475",
+      "hinweis": "ab Baureihe 2014",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-ab-II2015/Dichtung-6162-475.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-dichtung-ueberlauf-6162-475",
+      "hinweis": "ab Baureihe 2014",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-ab-II2015/Dichtung-6162-475.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-verlaengerungsset-6161-7",
+      "hinweis": "bei dickem Wannenboden",
+      "quelle_url": "https://www.meinhausshop.de/media/pdf/93_727_66--DBL-01-de.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-verlaengerungsset-6161-7",
+      "hinweis": "bei dickem Wannenboden",
+      "quelle_url": "https://www.meinhausshop.de/media/pdf/93_969_20--DBL-01-de.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-drehrosette-6161-03-mt1",
+      "hinweis": "Visign MT1/RT1",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Drehrosette-6161-03.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-drehrosette-6161-92-mt2",
+      "hinweis": "Visign MT2/RT2, bis 2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Drehrosette-6161-92.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-ausstattungsset-6161-169-mt5",
+      "hinweis": "Visign MT5/RT5, ab II/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT3MT5-Baureihe/Ausstattungsset-6161-169.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-zulaufeinsatz-6161-229",
+      "hinweis": "bis 2005/2006",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Zulaufeinsatz-6161-229.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-zulaufeinsatz-6161-239",
+      "hinweis": "bis 2005/2006, für kalkhaltiges Wasser",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Zulaufeinsatz-6161-239.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-zulaufeinsatz-6161-249",
+      "hinweis": "Visign MT3/MT5, ab II/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT3MT5-Baureihe/Zulaufeinsatz-6161-249.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-zulaufflansch-6161-105",
+      "hinweis": "Visign MT3/MT5, ab II/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT3MT5-Baureihe/Zulaufflansch-6161-105.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-montagehilfe-6161-96",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Montagehilfe-6161-96.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-drehrosette-6161-03-mt1",
+      "hinweis": "Rotaplex Trio, Visign RT1",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Drehrosette-6161-03.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-drehrosette-6161-92-mt2",
+      "hinweis": "Rotaplex Trio, Visign RT2",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Drehrosette-6161-92.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-ausstattungsset-6161-169-mt5",
+      "hinweis": "Rotaplex Trio, Visign RT5, ab II/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT3MT5-Baureihe/Ausstattungsset-6161-169.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-zulaufeinsatz-6161-229",
+      "hinweis": "Rotaplex Trio, bis 2005/2006",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Zulaufeinsatz-6161-229.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-zulaufeinsatz-6161-239",
+      "hinweis": "Rotaplex Trio, bis 2005/2006",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Zulaufeinsatz-6161-239.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-zulaufeinsatz-6161-249",
+      "hinweis": "Rotaplex Trio RT3/RT5, ab II/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT3MT5-Baureihe/Zulaufeinsatz-6161-249.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-zulaufflansch-6161-105",
+      "hinweis": "Rotaplex Trio RT3/RT5, ab II/2015",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT3MT5-Baureihe/Zulaufflansch-6161-105.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-montagehilfe-6161-96",
+      "hinweis": "Rotaplex Trio",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Montagehilfe-6161-96.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex",
+      "teil_slug": "viega-ausstattungsset-6162-01-m5",
+      "hinweis": "Funktionseinheiten 6162.1 und 6162.45 ab 2015",
+      "quelle_url": "https://www.viega.co.uk/en/products/Catalogue/Drainage-technology/Drains-for-bathtubs-and-shower-trays/Multiplex/Multiplex-Equipment-set-6162-01.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-ausstattungsset-6161-01-mt5",
+      "hinweis": "6161.52, 6161.62, 6161.72",
+      "quelle_url": "https://www.viega.co.uk/en/products/Catalogue/Drainage-technology/Drains-for-bathtubs-and-shower-trays/Multiplex-Trio/Multiplex-Trio-Equipment-set-6161-01.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "multiplex-trio",
+      "teil_slug": "viega-umruestset-6161-99",
+      "hinweis": "Trio mit Messing-Zulauf bis 1995",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Trio-Visign-MT1MT2/Umruestset-6161-99.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-rotaplex-abdeckhaube-6142-92",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Rotaplex-Baureihe-bis-I2015/Abdeckhaube-6142-92.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rotaplex",
+      "teil_slug": "viega-rotaplex-ventilkegel-6142-90",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Rotaplex-Baureihe-bis-I2015/Ventilkegel-6142-90.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "simplex",
+      "teil_slug": "viega-simplex-rosette-6168-02",
+      "hinweis": "ab Baureihe 2009",
+      "quelle_url": "https://www.viega.co.uk/en/products/Catalogue/Drainage-technology/Spare-parts-for-odour-traps-and-drain/Simplex/Simplex-Rosette-6168-02.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-1h",
+      "teil_slug": "viega-ablaufventilset-8310-0",
+      "hinweis": "auch Umrüstsatz auf Visign for Style und More",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Ablaufventilset-8310-0.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-2h",
+      "teil_slug": "viega-ablaufventilset-8310-0",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Ablaufventilset-8310-0.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-1l",
+      "teil_slug": "viega-ablaufventilset-8038-0",
+      "hinweis": "auch Umrüstsatz auf Visign for Style und More",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1L-Spuelausloesung-von/Ablaufventilset-8038-0.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-2l",
+      "teil_slug": "viega-ablaufventilset-8038-0",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1L-Spuelausloesung-von/Ablaufventilset-8038-0.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-eckspuelkasten-1c-2c",
+      "teil_slug": "viega-ersatzteilset-8141-0",
+      "hinweis": "mit Füllventil",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Eckspuelkaesten-1C-Spuelausloesung/Ersatzteilset-8141-0.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-1h",
+      "teil_slug": "viega-fuellventilset-8310-74",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-1l",
+      "teil_slug": "viega-fuellventilset-8310-74",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-2l",
+      "teil_slug": "viega-fuellventilset-8310-74",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-standard-1s-2s",
+      "teil_slug": "viega-fuellventilset-8310-74",
+      "hinweis": "nur 1S",
+      "quelle_url": "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-2h",
+      "teil_slug": "viega-fuellventilset-8310-75",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-2H-Spuelausloesung-von/Fuellventilset-8310-75.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-standard-1s-2s",
+      "teil_slug": "viega-fuellventilset-8310-75",
+      "hinweis": "nur 2S",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-2H-Spuelausloesung-von/Fuellventilset-8310-75.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-eckspuelkasten-1c-2c",
+      "teil_slug": "viega-fuellventilset-8310-72",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Eckspuelkaesten-1C-Spuelausloesung/Fuellventilset-8310-72.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-1h",
+      "teil_slug": "viega-dichtungsset-8310-20",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Dichtungsset-8310-20.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-2h",
+      "teil_slug": "viega-dichtungsset-8310-20",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Dichtungsset-8310-20.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-eckspuelkasten-1c-2c",
+      "teil_slug": "viega-dichtungsset-8310-20",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Dichtungsset-8310-20.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-standard-1s-2s",
+      "teil_slug": "viega-dichtungsset-8310-20",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Dichtungsset-8310-20.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-1h",
+      "teil_slug": "viega-eckventil-8310-28",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Eckventil-8310-28.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-1l",
+      "teil_slug": "viega-eckventil-8310-28",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Eckventil-8310-28.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-2h",
+      "teil_slug": "viega-eckventil-8310-28",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Eckventil-8310-28.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-2l",
+      "teil_slug": "viega-eckventil-8310-28",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Eckventil-8310-28.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-eckspuelkasten-1c-2c",
+      "teil_slug": "viega-eckventil-8310-28",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Eckventil-8310-28.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-standard-1s-2s",
+      "teil_slug": "viega-eckventil-8310-28",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Eckventil-8310-28.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-2h",
+      "teil_slug": "viega-visign-for-style-10",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Viega-Betaetigungsplatten/Betaetigungsplatte-8315-1.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-2l",
+      "teil_slug": "viega-visign-for-style-10",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Viega-Betaetigungsplatten/Betaetigungsplatte-8315-1.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-eckspuelkasten-1c-2c",
+      "teil_slug": "viega-visign-for-style-10",
+      "hinweis": "nur 2C",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Viega-Betaetigungsplatten/Betaetigungsplatte-8315-1.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "up-spuelkasten-standard-1s-2s",
+      "teil_slug": "viega-visign-for-style-10",
+      "hinweis": "nur 2S (8180.26)",
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Viega-Betaetigungsplatten/Betaetigungsplatte-8315-1.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "prevista-up-spuelkasten",
+      "teil_slug": "viega-prevista-ablaufventilset-8580-1",
+      "hinweis": null,
+      "quelle_url": "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/5539ec023e1335f1ac1140941799d7a9_de_DE.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "prevista-up-spuelkasten",
+      "teil_slug": "viega-prevista-fuellventilset-8580-3",
+      "hinweis": "nur 3H",
+      "quelle_url": "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/5483f5da5d08c2dcac11409416699840_de_DE.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "prevista-up-spuelkasten",
+      "teil_slug": "viega-prevista-fuellventilset-8580-5",
+      "hinweis": "nur 3L",
+      "quelle_url": "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/f2d712965d0962e0ac114094436723e1_de_DE.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "prevista-up-spuelkasten",
+      "teil_slug": "viega-prevista-dichtungsset-8580-8",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.co.uk/en/products/Catalogue/Pre-wallflushing-technology/Accessoriesspare-parts/Concealed-cisterns-3H-flush-actuation/Gasket-set-8580-8.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "prevista-up-spuelkasten",
+      "teil_slug": "viega-prevista-eckventil-8580-63",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.co.uk/en/products/Catalogue/Pre-wallflushing-technology/Accessoriesspare-parts/Concealed-cisterns-3H-flush-actuation/Corner-valve-8580-63.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "prevista-up-spuelkasten",
+      "teil_slug": "viega-prevista-betaetigungsstiftset-8580-62",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.co.uk/en/products/Catalogue/Pre-wallflushing-technology/Accessoriesspare-parts/Viega-flush-plates/Actuating-rod-set-8580-62.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "prevista-up-spuelkasten",
+      "teil_slug": "viega-visign-for-life-5",
+      "hinweis": null,
+      "quelle_url": "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/2b652e6bc65bb687ac1140947255fe72_de_DE.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "visign-prevista",
+      "teil_slug": "viega-prevista-betaetigungsstiftset-8580-62",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.co.uk/en/products/Catalogue/Pre-wallflushing-technology/Accessoriesspare-parts/Viega-flush-plates/Actuating-rod-set-8580-62.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "visign-for-life-1-4",
+      "teil_slug": "viega-grundrahmen-8310-34",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Ersatzteile-fuer-Viega/Grundrahmen-8310-34.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "visign-for-style-10-13",
+      "teil_slug": "viega-betaetigungsstifteset-8310-31",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/UP-Spuelkaesten-1H-Spuelausloesung-von/Betaetigungsstifteset-8310-31.html",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "visign-for-style-11-12-more",
+      "teil_slug": "viega-bowdenzugeinheit-8310-82",
+      "hinweis": null,
+      "quelle_url": "https://www.viega.de/de/produkte/Katalog/Vorwand-Spueltechnik/Ersatzteile-und-Entwaesserungszubehoer/Ersatzteile-fuer-Viega/Bowdenzugeinheit-8310-82.html",
+      "sicherheit": "hersteller"
+    }
+  ],
+  "probleme": [
+    {
+      "slug": "viega-duschablauf-laeuft-schlecht-ab",
+      "titel": "Viega-Duschablauf läuft schlecht ab",
+      "symptom": "Das Wasser steht beim Duschen in der Wanne oder in der Duschrinne und läuft nur langsam ab, manchmal gluckert es im Ablauf.",
+      "ursachen": [
+        {
+          "ursache": "Haare und Seifenreste im Sieb und am Tauchrohr",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "viega-tempoplex-siebeinsatz-2001-2006",
+            "viega-tempoplex-siebeinsatz-6961-96",
+            "viega-tempoplex-siebeinsatz-6966-96",
+            "viega-advantix-siebeinsatz-4973-99"
+          ]
+        },
+        {
+          "ursache": "Tauchrohr verschmutzt, verformt oder nach dem Reinigen nicht richtig eingesetzt",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "viega-tempoplex-tauchrohr-bis-1996",
+            "viega-tempoplex-tauchrohr-1997-2001",
+            "viega-tempoplex-tauchrohr-2001-2006",
+            "viega-tempoplex-tauchrohr-6966-99",
+            "viega-tempoplex-tauchrohr-6961-99",
+            "viega-tempoplex-plus-tauchrohr-6968-99",
+            "viega-tempoplex-60-tauchrohr-6967-99",
+            "viega-domoplex-tauchrohr-1996-2015",
+            "viega-domoplex-tauchrohr-6928-821",
+            "viega-advantix-tauchrohr-4960-90",
+            "viega-advantix-tauchrohr-4935-21"
+          ]
+        },
+        {
+          "ursache": "Ablagerungen in der Abwasserleitung hinter dem Ablauf oder eine fehlende Entlüftung",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        }
+      ],
+      "schritte": [
+        "Abdeckhaube abnehmen. Bei Tempoplex ab 2006 und Domoplex ist sie nur aufgedrückt, bei der Baureihe 2001 bis 2006 mit zwei Schrauben befestigt.",
+        "Sieb herausnehmen und leeren, dann das Tauchrohr am Griff nach oben herausziehen und Haare und Belag entfernen.",
+        "Bei Tempoplex ab 2010 kommt man über den seitlichen Stopfen an die Abwasserleitung. Laut Viega wird er mit einer Zange an der Lasche herausgezogen und später so eingesetzt, dass die Lasche senkrecht steht.",
+        "Den Ablauf vorsichtig reinigen, ohne den Geruchverschluss zu beschädigen. Auf verchromten Teilen keine Scheuermittel oder säurehaltigen Reiniger verwenden.",
+        "Tauchrohr ganz eindrücken, Haube aufsetzen und etwas Wasser nachgießen, damit der Geruchverschluss wieder gefüllt ist.",
+        "Die Schrauben des Flanschs zum Reinigen nicht lösen. Sie halten den Ablauf an der Wanne, danach kann er undicht werden."
+      ],
+      "fachbetrieb_ab": "Wenn das Wasser auch ohne Tauchrohr kaum abläuft. Dann sitzt die Verstopfung in der Leitung und muss mit einer Rohrreinigungsspirale entfernt werden. Ebenso, wenn Wasser unter der Wanne austritt.",
+      "quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9ca4fdd59107f0edac11409400fe085a_de_DE.pdf",
+        "https://www.meinhausshop.de/media/pdf/93_727_74--DBL-01-de.pdf",
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006.html",
+        "https://www.haustechnikdialog.de/Forum/t/177058/Verstopfung-Viega-Tempoplex-Duschkabine",
+        "https://www.gutefrage.net/frage/viega-abfluss-in-dusche-verstopft",
+        "https://www.haustechnikdialog.de/Forum/t/167419/Viega-Tempoplex-Duschwannenablauf-gluckert-nach"
+      ]
+    },
+    {
+      "slug": "viega-duschablauf-stinkt",
+      "titel": "Viega-Duschablauf stinkt",
+      "symptom": "Aus dem Duschablauf riecht es nach Kanal, vor allem wenn die Dusche einige Tage nicht benutzt wurde.",
+      "ursachen": [
+        {
+          "ursache": "Tauchrohr nach dem Reinigen nicht ganz eingedrückt oder verdreht eingesetzt",
+          "haeufigkeit": "häufig",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Sperrwasser verdunstet, weil die Dusche selten benutzt wird",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "viega-tempoplex-trockengeruchverschluss-6971"
+          ]
+        },
+        {
+          "ursache": "Tauchrohr oder Dichtung beschädigt",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "viega-tempoplex-tauchrohr-bis-1996",
+            "viega-tempoplex-tauchrohr-1997-2001",
+            "viega-tempoplex-tauchrohr-2001-2006",
+            "viega-tempoplex-tauchrohr-6966-99",
+            "viega-tempoplex-tauchrohr-6961-99",
+            "viega-tempoplex-plus-tauchrohr-6968-99",
+            "viega-tempoplex-60-tauchrohr-6967-99",
+            "viega-domoplex-tauchrohr-1996-2015",
+            "viega-domoplex-tauchrohr-6928-821",
+            "viega-advantix-tauchrohr-4960-90",
+            "viega-advantix-tauchrohr-4935-21"
+          ]
+        },
+        {
+          "ursache": "Das Sperrwasser wird aus der Leitung gesaugt, etwa weil die Entlüftung fehlt",
+          "haeufigkeit": "selten",
+          "teil_slugs": []
+        }
+      ],
+      "schritte": [
+        "Abdeckhaube abnehmen und prüfen, ob das Tauchrohr ganz unten sitzt. Es muss vollständig eingedrückt sein.",
+        "Tauchrohr herausziehen, reinigen und auf Risse prüfen. Ein beschädigtes Tauchrohr gegen das passende Ersatzteil der Baureihe tauschen.",
+        "Wasser nachgießen, damit der Geruchverschluss gefüllt ist. Tempoplex hat 50 mm Sperrwasser, der flache Tempoplex 60 mm nur 30 mm.",
+        "Riecht es nur nach längeren Pausen, hilft der Trockengeruchverschluss 6971. Laut Viega passt er in Tempoplex, Tempoplex Plus und Tempoplex 60 mm ab Baujahr 2010.",
+        "Sinkt der Wasserstand im Ablauf von selbst, zum Beispiel nach dem Spülen der Toilette, liegt es an der Leitung oder der Entlüftung."
+      ],
+      "fachbetrieb_ab": "Wenn der Wasserstand im Ablauf ohne Benutzung sinkt oder es gluckert, sobald woanders Wasser abläuft. Dann muss die Entlüftung der Abwasserleitung geprüft werden.",
+      "quellen": [
+        "https://www.viega.de/de/produkte/entwaesserungstechnik/im-bad/Tempoplex.html",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/9180ef046d943215ac11409401bcd4ed_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/d48e730babf38d1eac1140940079443d_de_DE.pdf",
+        "https://www.gutefrage.net/frage/warum-stinkt-der-duschabfluss-mit-viega-tauchrohr",
+        "https://www.haustechnikdialog.de/Forum/t/152880/Geruch-aus-dem-Duschablauf",
+        "https://www.haustechnikdialog.de/Forum/t/122659/Undichter-Duschablauf-Viega-Tempoplex"
+      ]
+    },
+    {
+      "slug": "viega-badewanne-ablauf-schliesst-nicht",
+      "titel": "Viega-Badewannenablauf schließt nicht",
+      "symptom": "Die Wanne verliert Wasser, obwohl der Stopfen geschlossen ist, oder der Stopfen bewegt sich beim Drehen am Griff nicht mehr ganz nach unten oder oben.",
+      "ursachen": [
+        {
+          "ursache": "Ventilkegel zu hoch oder zu tief eingestellt",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "viega-verstellschraube-6151-912"
+          ]
+        },
+        {
+          "ursache": "Lippendichtung am Ventilkegel hart oder rissig",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "viega-dichtung-ventilkegel-6162-268",
+            "viega-ventilkegel-6168-035"
+          ]
+        },
+        {
+          "ursache": "Bowdenzug gerissen oder ausgehängt",
+          "haeufigkeit": "selten",
+          "teil_slugs": [
+            "viega-bowdenzug-6162-19-560",
+            "viega-bowdenzug-6162-19-725",
+            "viega-bowdenzug-6162-19-1070",
+            "viega-bowdenzug-6162-152-540",
+            "viega-bowdenzug-6163-152-725",
+            "viega-bowdenzug-6165-152-1070"
+          ]
+        }
+      ],
+      "schritte": [
+        "Ventilkegel nach oben aus dem Ablauf ziehen. Er ist nicht verriegelt, klemmt aber manchmal; dann mit leichtem Drehen ziehen.",
+        "Am Griff drehen und beobachten, ob sich der kleine Hebel im Ablauf hebt und senkt. Bewegt er sich, ist die Mechanik in Ordnung.",
+        "Lippendichtung am Ventilkegel prüfen. Ist sie hart oder rissig, die Dichtung 6162-268 oder den ganzen Kegel tauschen.",
+        "Höhe einstellen: Laut Viega soll der Stopfen geöffnet 2 bis 3 cm hochstehen. Dazu die Verstellschraube unter dem Kegel drehen und mit der Mutter kontern.",
+        "Bewegt sich der Hebel beim Drehen am Griff nicht, ist der Bowdenzug gerissen oder ausgehängt. Die Länge hängt von der Wanne ab (540/560, 725 oder 1070 mm), die Ausführung vom Baujahr der Garnitur."
+      ],
+      "fachbetrieb_ab": "Wenn der Bowdenzug getauscht werden muss und es keine Revisionsöffnung gibt. Dann muss die Wannenschürze geöffnet werden, oft wird dabei gleich die ganze Garnitur erneuert.",
+      "quellen": [
+        "https://www.meinhausshop.de/media/pdf/93_727_66--DBL-01-de.pdf",
+        "https://www.meinhausshop.de/media/pdf/93_969_20--DBL-01-de.pdf",
+        "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015.html",
+        "https://www.haustechnikdialog.de/Forum/t/172086/Viega-Multiplex-Ablauf-Garnitur-hilfe",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstoepsel-schliesst-nicht-ueber-drehschalter.16248/",
+        "https://www.dasheimwerkerforum.de/threads/badewannenstopfen-ruehrt-sich-nicht-was-tun.23447/",
+        "https://www.dasheimwerkerforum.de/threads/viega-rotaplex-ab-ueberlaufgarnitur-bowdenzug-wechseln.16579/"
+      ]
+    },
+    {
+      "slug": "viega-spuelkasten-laeuft-nach",
+      "titel": "Viega-Spülkasten läuft nach",
+      "symptom": "Nach dem Spülen läuft weiter Wasser ins WC, als dünnes Rinnsal oder in kurzen Schüben, und der Spülkasten füllt immer wieder nach.",
+      "ursachen": [
+        {
+          "ursache": "Dichtung am Ablaufventil verschmutzt, verkalkt oder beschädigt",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "viega-dichtungsset-8310-20",
+            "viega-prevista-dichtungsset-8580-8",
+            "viega-ablaufventilset-8310-0",
+            "viega-ablaufventilset-8038-0",
+            "viega-prevista-ablaufventilset-8580-1"
+          ]
+        },
+        {
+          "ursache": "Füllventil schließt nicht, das Wasser läuft über den Überlauf ab",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "viega-fuellventilset-8310-74",
+            "viega-fuellventilset-8310-75",
+            "viega-fuellventilset-8310-72",
+            "viega-prevista-fuellventilset-8580-3",
+            "viega-prevista-fuellventilset-8580-5"
+          ]
+        }
+      ],
+      "schritte": [
+        "Betätigungsplatte abnehmen und das Eckventil im Spülkasten schließen.",
+        "Spülkasten bestimmen: Beim 2H sitzt der Revisionsschacht laut Viega in etwa 1 m Höhe vorn, beim 2L in etwa 75 cm Höhe vorn oder auf der Oberseite. Prevista-Kästen (3H, 3L) gibt es seit 2019.",
+        "Laut Viega die Dichtung an Ablaufventil und Füllventil prüfen und bei Bedarf tauschen. Die Dichtungen gibt es als Set: 8310.20 für die älteren Kästen, 8580.8 für Prevista.",
+        "Läuft das Wasser erst am Ende des Füllens über das Überlaufrohr, schließt das Füllventil nicht. Dann das Füllventilset für den eigenen Kasten tauschen.",
+        "Beim Einsetzen eines neuen Prevista-Ablaufventils die Dichtung am Ventilhalter laut Anleitung einfetten.",
+        "Eckventil öffnen, Kasten füllen lassen und einmal spülen."
+      ],
+      "fachbetrieb_ab": "Wenn das Eckventil im Spülkasten nicht mehr schließt oder Wasser in der Vorwand austritt.",
+      "quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/2b652e6bc65bb687ac1140947255fe72_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/5539ec023e1335f1ac1140941799d7a9_de_DE.pdf",
+        "https://assets.heizung-billiger.de/documents/a95c8f27338a52adac1140942e6c076c_de_de.pdf",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/27830/Viega-UP-Spuelkasten-zerlegen",
+        "https://www.haustechnikdialog.de/Forum/t/83706/UP-Spuelkasten-laeuft-nach"
+      ]
+    },
+    {
+      "slug": "viega-spuelkasten-fuellt-nicht",
+      "titel": "Viega-Spülkasten füllt nicht",
+      "symptom": "Nach dem Spülen füllt sich der Spülkasten nicht oder nur sehr langsam, die nächste Spülung kommt nur schwach.",
+      "ursachen": [
+        {
+          "ursache": "Eckventil im Spülkasten geschlossen",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Filter oder Membran im Füllventil verschmutzt oder verkalkt",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "viega-prevista-fuellventilset-8580-3",
+            "viega-prevista-fuellventilset-8580-5",
+            "viega-fuellventilset-8310-74",
+            "viega-fuellventilset-8310-75",
+            "viega-fuellventilset-8310-72"
+          ]
+        }
+      ],
+      "schritte": [
+        "Laut Viega zuerst abwarten, ob der Kasten noch füllt, und prüfen, ob das Eckventil offen ist.",
+        "Betätigungsplatte abnehmen, Eckventil schließen und das Füllventil herausnehmen.",
+        "Bei Prevista den Filter im Füllventil unter fließendem Wasser reinigen, ebenso das Membranventil. Das Membranventil laut Viega nicht zerlegen.",
+        "Ventilsitz reinigen, alles wieder einsetzen und das Eckventil öffnen. Seit März 2022 bietet Viega für die Prevista-Füllventile einen Filtereinsatz 8580.70 an.",
+        "Füllt der Kasten danach weiter nicht, das Füllventilset für den eigenen Kasten tauschen."
+      ],
+      "fachbetrieb_ab": "Wenn das Eckventil klemmt oder sich nicht öffnen lässt.",
+      "quellen": [
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/2b652e6bc65bb687ac1140947255fe72_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/f2d712965d0962e0ac114094436723e1_de_DE.pdf",
+        "https://pspstmsimanuals.blob.core.windows.net/pub-production/Manuals/58c60890bf404266ac1140945b2d0d5f_de_DE.pdf",
+        "https://www.viega.co.uk/content/dam/viegadm/download-assets/en_gb/Viega_T7_UK_K_2023.pdf"
+      ]
+    }
+  ],
+  "widersprueche": [
+    {
+      "thema": "Modellnummer der Tempoplex-Abdeckhaube 850 081",
+      "aussage_a": "Der Viega-Katalog führt den Artikel 850 081 als Abdeckhaube Modell 6966.01, verchromt glänzend, für Tempoplex ab Baureihe 2006.",
+      "quelle_a": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2006/Abdeckhaube-6966-01.html",
+      "aussage_b": "Bei Amazon heißt derselbe Artikel „Tempoplex Abdeckung 115 mm, Modell 6964.0“; OTTO nennt ihn „Farbset 6964.0 SB“.",
+      "quelle_b": "https://www.amazon.de/dp/B008DCTM7O"
+    },
+    {
+      "thema": "Durchmesser des Tempoplex-Ausstattungssets 6964.0",
+      "aussage_a": "Das Amazon-Angebot für den Artikel 649 982 nennt 112 mm.",
+      "quelle_a": "https://www.amazon.de/dp/B00LMEPT6I",
+      "aussage_b": "Die Haube, die auf die Tempoplex-Funktionseinheiten ab 2006 passt, hat laut Viega-Katalog 115 mm. 112 mm hat die verschraubte Haube 6958.99 der Baureihe 2001 bis 2006.",
+      "quelle_b": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Tempoplex-Baureihe-ab-2001/Tempoplex-Abdeckhaube-6958-99.html"
+    },
+    {
+      "thema": "Lippendichtung 6162-268 auch für Rotaplex Trio?",
+      "aussage_a": "Viega nennt die Dichtung für den Ventilkegel von Multiplex und Multiplex Trio.",
+      "quelle_a": "https://www.viega.de/de/produkte/Katalog/Entwaesserungstechnik/Ersatzteile-fuer-Geruchverschluesse-und/Multiplex-Baureihe-bis-I2015/Dichtung-6162-268.html",
+      "aussage_b": "Ein eBay-Katalogeintrag nennt sie zusätzlich für Rotaplex Trio. Rotaplex hat aber einen eigenen Ventilkegel 6142.90 ohne diese Dichtung.",
+      "quelle_b": "https://www.ebay.de/p/13031006248"
+    }
+  ],
+  "nicht_geprueft": [
+    "Wo am verbauten Ablauf oder Spülkasten eine Nummer steht, nennt Viega nicht. Erkennen lassen sich die Abläufe am Durchmesser der Abdeckhaube und am Ablaufloch, die Spülkästen an Lage und Höhe des Revisionsschachts.",
+    "Tempoplex 6965 (ab 12/2020, mit Glocke statt Tauchrohr): Das Haarfangsieb 6965.90 hat in der Anleitung keine Artikelnummer, deshalb fehlt die Serie hier.",
+    "Advantix-Duschrinnen ab 2016 (Grundkörper 4982.10/4982.20): Die Geruchverschluss-Einsätze 4982.92, 4982.93 und 4982.94 stehen in den Viega-Anleitungen ohne Artikelnummer.",
+    "UP-Spülkasten 1F (Mono Tec, Mono Slim) mit Füllventilset 8310.73 und Ablaufventilset 8308.81 ist nicht aufgenommen.",
+    "Ob Prevista-Betätigungsplatten auf die älteren Kästen 2H und 2L passen, sagt Viega nicht.",
+    "TECE nennt in der Passliste des Universal-Füllventils F10 die Viega-Kästen 1H, 1L, 1S, 2H, 2L, 2S, 1C und 2C, nicht aber Prevista. Das ist eine TECE-Angabe, sie steht deshalb nicht bei den Viega-Teilen.",
+    "Bei Amazon gibt es die Sets „Multiset 6162.0“ (103 378) und „Multiset Trio 6161.05“ (306 847). Für welche Garnituren sie gelten, steht nur im Angebotstitel; sie sind deshalb nicht aufgenommen.",
+    "Das gesuchte „Viega Ablaufventil 7622“ ist laut Händlerangabe ein Ablaufventil für Küchenspülen (7622.31, Artikel 104 849) und gehört nicht zu Bad und WC."
+  ]
+}
