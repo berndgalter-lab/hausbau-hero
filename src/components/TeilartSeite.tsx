@@ -263,7 +263,7 @@ export default async function TeilartSeite({ ta }: { ta: Teilart }) {
         </p>
       )}
 
-      <Quellen urls={ta.quellen} zugeklappt />
+      <Quellen urls={[...ta.quellen, ...ta.fragen.flatMap((f) => f.quellen)]} zugeklappt />
       <JsonLd
         daten={{
           "@context": "https://schema.org",

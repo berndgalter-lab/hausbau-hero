@@ -115,7 +115,7 @@ export default async function ProblemAllgemeinSeite({ p }: { p: ProblemAllgemein
           </a>
         </p>
       )}
-      <Quellen urls={p.quellen} zugeklappt />
+      <Quellen urls={[...p.quellen, ...p.fragen.flatMap((f) => f.quellen)]} zugeklappt />
     </div>
   );
 }

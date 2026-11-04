@@ -290,7 +290,15 @@ export default async function MarkenHub({ params }: Props) {
         </section>
       )}
 
-      <Quellen urls={marke.quellen} zugeklappt />
+      {/* Belege aus Fragen und Widersprüchen stehen dort nur als Text, verlinkt werden sie hier. */}
+      <Quellen
+        urls={[
+          ...marke.quellen,
+          ...fragen.flatMap((f) => f.quellen),
+          ...widersprueche.flatMap((w) => [w.quelle_a, w.quelle_b]),
+        ]}
+        zugeklappt
+      />
     </div>
   );
 }
