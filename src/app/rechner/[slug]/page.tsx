@@ -367,10 +367,10 @@ export default function RechnerPage() {
 
           {material.length > 0 && (
             <div className="bg-white border border-stone-200 rounded-xl p-6 mb-6">
-              <h2 className="text-lg font-bold mb-2">📋 Materialliste</h2>
+              <h2 className="text-lg font-bold mb-2">Materialliste</h2>
               <p className="text-xs text-stone-500 mb-4">
-                Affiliate-Hinweis: Die Materialliste enthält Links zu Amazon.
-                Bei Kauf erhalten wir eine kleine Provision — für dich ändert sich der Preis nicht.
+                Preise sind grobe Richtwerte. Mit * markierte Links sind Partnerlinks: Kaufst du darüber, bekommen wir
+                eine Provision, der Preis ändert sich für dich nicht.
               </p>
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
@@ -399,9 +399,9 @@ export default function RechnerPage() {
                               target="_blank"
                               rel={AFFILIATE_REL}
                               data-platzierung="rechner"
-                              className="text-amber-600 hover:text-amber-700 font-medium text-xs whitespace-nowrap"
+                              className="text-amber-700 hover:underline font-medium text-xs whitespace-nowrap"
                             >
-                              Auf Amazon →
+                              Amazon*
                             </a>
                           )}
                         </td>
@@ -422,8 +422,8 @@ export default function RechnerPage() {
           )}
 
           {werkzeuge.length > 0 && (
-            <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
-              <h2 className="text-lg font-bold mb-1">🔧 Werkzeug-Checkliste</h2>
+            <div className="bg-white border border-stone-200 rounded-xl p-6 mb-6">
+              <h2 className="text-lg font-bold mb-1">Werkzeug für dieses Projekt</h2>
               <p className="text-sm text-stone-600 mb-4">
                 Das brauchst du für dieses Projekt:
               </p>
@@ -431,7 +431,7 @@ export default function RechnerPage() {
                 {werkzeuge.map((w) => (
                   <div
                     key={w.id}
-                    className="flex items-center justify-between bg-white rounded-lg p-3 border border-amber-100"
+                    className="flex items-center justify-between bg-white rounded-lg p-3 border border-stone-200"
                   >
                     <div>
                       <div className="font-medium text-sm">{w.name}</div>
@@ -445,9 +445,9 @@ export default function RechnerPage() {
                         target="_blank"
                         rel={AFFILIATE_REL}
                               data-platzierung="rechner"
-                        className="bg-amber-600 text-white text-xs font-semibold px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors whitespace-nowrap"
+                        className="text-amber-700 hover:underline text-xs font-medium whitespace-nowrap"
                       >
-                        Auf Amazon →
+                        Amazon*
                       </a>
                     )}
                   </div>
@@ -461,13 +461,13 @@ export default function RechnerPage() {
               onClick={generatePDF}
               className="w-full mb-6 bg-stone-800 text-white font-semibold py-3 px-6 rounded-lg hover:bg-stone-700 transition-colors text-sm flex items-center justify-center gap-2"
             >
-              📄 Materialliste als PDF speichern
+              Materialliste als PDF speichern
             </button>
           )}
 
           {ratgeber && (
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-6">
-              <h2 className="text-lg font-bold mb-2">📖 Ratgeber zum Thema</h2>
+              <h2 className="text-lg font-bold mb-2">Ratgeber zum Thema</h2>
               <a
                 href={`/${(ratgeber.silos as any)?.slug || "rohbau"}/${ratgeber.slug}`}
                 className="group block"

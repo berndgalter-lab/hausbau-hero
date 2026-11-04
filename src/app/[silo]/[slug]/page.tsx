@@ -1,7 +1,7 @@
 import { supabase } from "@/lib/supabase";
 import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
-import ProduktKarte from "@/components/ProduktKarte";
+import ProduktKarte, { produktLink } from "@/components/ProduktKarte";
 import VergleichsTabelle from "@/components/VergleichsTabelle";
 import { angeboteFuerEans, normEan, type EanAngebot } from "@/lib/kaufberatung";
 import ArticleContent from "@/components/ArticleContent";
@@ -26,11 +26,13 @@ export const revalidate = 0;
 export async function generateMetadata({ params }: { params: { silo: string; slug: string } }): Promise<Metadata> {
   const { data: seite } = await supabase
     .from("seiten")
-    .select("titel, seo_title, seo_description")
+    .select("titel, seo_title, seo_description, silos(slug)")
     .eq("slug", params.slug)
     .single();
 
   if (!seite) return {};
+  // Canonical immer mit der echten Kategorie, auch wenn die Seite unter einer falschen aufgerufen wird
+  const silo = (seite as any).silos?.slug || params.silo;
 
   const title = seite.seo_title || seite.titel;
   const description = seite.seo_description || "";
@@ -38,11 +40,11 @@ export async function generateMetadata({ params }: { params: { silo: string; slu
   return {
     title,
     description,
-    alternates: { canonical: `https://hausbau-hero.de/${params.silo}/${params.slug}` },
+    alternates: { canonical: `https://hausbau-hero.de/${silo}/${params.slug}` },
     openGraph: {
       title: `${title} — Hausbau Hero`,
       description,
-      url: `https://hausbau-hero.de/${params.silo}/${params.slug}`,
+      url: `https://hausbau-hero.de/${silo}/${params.slug}`,
     },
   };
 }
@@ -68,6 +70,10 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
 
   if (seite.status !== "aktiv") notFound();
 
+  // Dieselbe Seite unter einer anderen Kategorie (/bad/silikatfarbe) wäre eine Dublette: auf die echte leiten
+  const echteKategorie = (seite as any).silos?.slug;
+  if (echteKategorie && echteKategorie !== params.silo) permanentRedirect(`/${echteKategorie}/${params.slug}`);
+
   const siloName = (seite as any).silos?.name || params.silo;
 
   let produkte: any[] = [];
@@ -83,7 +89,9 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
   }
 
   const werkzeuge = produkte.filter((p: any) => p.ist_werkzeug);
-  const hauptProdukte = produkte.filter((p: any) => !p.ist_werkzeug);
+  // Nur nachprüfbare Modelle (ASIN oder EAN). Gattungsbegriffe mit Amazon-Suchlink („Kondensatpumpe“)
+  // aus alten Beiträgen bekommen keinen eigenen Abschnitt.
+  const hauptProdukte = produkte.filter((p: any) => !p.ist_werkzeug && (p.amazon_asin || normEan(p.ean)));
 
   // Shop-Angebote und Bilder der Partnershops, über die EAN der Produkte
   const nachEan = await angeboteFuerEans(hauptProdukte.map((p: any) => p.ean));
@@ -108,7 +116,10 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
 
   const verweise = ersatzteilVerweise(seite.slug);
   // Reine Ratgeber ohne Produkte und ohne Partnerlinks im Text brauchen keinen Affiliate-Hinweis.
-  const hatPartnerlinks = produkte.length > 0 || /amazon\.de|awin1\.com/i.test(seite.content_md ?? "");
+  const hatPartnerlinks =
+    hauptProdukte.length > 0 ||
+    werkzeuge.some((p: any) => produktLink(p)) ||
+    /amazon\.de\/(dp|gp)\/|awin1\.com/i.test(seite.content_md ?? "");
 
   const rechnerSlugs = getPassendeRechner(seite.slug, seite.passende_rechner);
   let passendeRechner: { name: string; slug: string }[] = [];

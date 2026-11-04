@@ -1,5 +1,5 @@
 import { supabase } from "@/lib/supabase";
-import { mitTrackingId } from "@/lib/affiliate";
+import { istAmazonSuche, mitTrackingId } from "@/lib/affiliate";
 
 export const SITE_URL = "https://hausbau-hero.de";
 const STANDARD_TAG = "hausbauhero-21";
@@ -176,12 +176,11 @@ export function gruppiere<T>(liste: T[], schluessel: (x: T) => string): [string,
   return Array.from(m.entries());
 }
 
-/** Kauflink: Produktlink über die ASIN, sonst Amazon-Suche nach Marke + Originalnummer. */
-export function teilKauflink(teil: Teil, markeName: string): string | null {
-  if (teil.affiliate_url) return mitTrackingId(teil.affiliate_url, "teil");
+/** Amazon-Link nur zum geprüften Produkt (ASIN oder Partner-URL), nie zur Suche (docs/SEITENAUFBAU.md). */
+export function teilKauflink(teil: Teil): string | null {
+  if (teil.affiliate_url && !istAmazonSuche(teil.affiliate_url)) return mitTrackingId(teil.affiliate_url, "teil");
   if (teil.amazon_asin) return mitTrackingId(`https://www.amazon.de/dp/${teil.amazon_asin}?tag=${STANDARD_TAG}`, "teil");
-  const suche = [markeName, teil.oem_nummer || teil.name].join(" ");
-  return mitTrackingId(`https://www.amazon.de/s?k=${encodeURIComponent(suche).replace(/%20/g, "+")}&tag=${STANDARD_TAG}`, "teil");
+  return null;
 }
 
 /** Angebote älter als das zeigen wir nicht: Dann ist der Feed-Lauf ausgefallen und der Preis womöglich falsch. */

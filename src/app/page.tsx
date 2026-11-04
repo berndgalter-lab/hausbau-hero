@@ -5,28 +5,25 @@ import { alleMarken, alleProbleme } from "@/lib/ersatzteile";
 export const revalidate = 300;
 
 export const metadata: Metadata = {
-  title: { absolute: "Hausbau Hero — Sanitär-Ersatzteile finden & Bad-Kaufberatung" },
+  title: { absolute: "Hausbau Hero — Sanitär-Ersatzteile finden & Bad-Ratgeber" },
   description:
-    "Welches Ersatzteil passt zu deiner Armatur oder deinem Spülkasten? Teile nach Marke und Serie mit Originalnummer und Quelle – plus Kaufberatung fürs Bad.",
+    "Welches Ersatzteil passt zu deiner Armatur oder deinem Spülkasten? Teile nach Marke und Serie mit Originalnummer und Quelle – plus Ratgeber fürs Bad.",
   alternates: { canonical: "https://hausbau-hero.de" },
 };
 
 const EINSTIEGE = [
   {
     href: "/ersatzteile",
-    icon: "🔩",
     titel: "Ersatzteil finden",
     text: "Kartusche, Füllventil, Strahlregler: nach Marke und Serie – mit Originalnummer.",
   },
   {
     href: "/bad",
-    icon: "🚿",
     titel: "Produkt auswählen",
     text: "Vorwandelement, Drückerplatte, Armatur: Was passt zu deiner Situation?",
   },
   {
     href: "/problem",
-    icon: "🛠️",
     titel: "Problem lösen",
     text: "Spülkasten läuft nach, Armatur tropft: Ursachen und das passende Teil.",
   },
@@ -81,7 +78,6 @@ export default async function Home() {
             href={e.href}
             className="group flex flex-col p-6 bg-white border-2 border-stone-200 rounded-xl hover:border-amber-400 hover:shadow-lg transition-all"
           >
-            <span className="text-3xl mb-3">{e.icon}</span>
             <span className="text-lg font-bold group-hover:text-amber-700">{e.titel}</span>
             <span className="text-sm text-stone-600 mt-1">{e.text}</span>
           </a>
@@ -118,7 +114,7 @@ export default async function Home() {
 
       {badArtikel.length > 0 && (
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-4">Bad-Kaufberatung</h2>
+          <h2 className="text-2xl font-bold mb-4">Bad-Ratgeber</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {badArtikel.map((a: any) => (
               <a key={a.slug} href={`/bad/${a.slug}`} className="block p-4 bg-white border border-stone-200 rounded-lg hover:border-amber-400">

@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Prüfregel für die Inhalte in data/ (docs/SEITENAUFBAU.md, Abschnitt 6).
 
-Ratgeber (data/artikel): Verstöße sind Fehler, der Lauf endet mit Code 1.
+Ratgeber (data/artikel): Verstöße sind Fehler, der Lauf endet mit Code 1. Ältere Beiträge mit
+"altbestand": true in der Meta-Datei haben noch keine Quellen und keinen Methoden-Hinweis; das wird
+dort nur gemeldet. Titel, Abzeichen, Suchlinks und Empfehlungs-Abschnitte gelten für alle.
 Ersatzteile (data/ersatzteile): Notiz-Sprache ist mit --streng ein Fehler (so läuft der Workflow),
 ohne nur ein Hinweis. Was nur aus einer Suchergebnis-Vorschau stammt, heißt im Text
 „(nicht im Original geprüft)“.
@@ -52,17 +54,22 @@ def pruefe_artikel() -> None:
                     fehler.append(f"{slug}.produkte.json: {name}: Abzeichen in einsatzbereich: {p['einsatzbereich']!r}")
 
         html = (ordner / f"{slug}.html").read_text()
+        if re.search(r"amazon\.de/s[?/]", html):
+            fehler.append(f"{slug}.html: Amazon-Suchlink (nur Produktlinks mit ASIN)")
+        if re.search(r"<h2[^>]*>\s*Unsere (Material-)?Empfehlungen?\s*</h2>", html, re.I):
+            fehler.append(f"{slug}.html: Abschnitt „Unsere Empfehlungen“")
+        aufbau = hinweise if meta.get("altbestand") else fehler
         hinweis = re.search(r"<p>\s*<em>\s*Hinweis:(.*?)</em>\s*</p>", html, re.S | re.I)
         if not hinweis:
-            fehler.append(f"{slug}.html: Methoden-Hinweis „<p><em>Hinweis: … (Stand: …)</em></p>“ fehlt")
+            aufbau.append(f"{slug}.html: Methoden-Hinweis „<p><em>Hinweis: … (Stand: …)</em></p>“ fehlt")
         elif not re.search(r"Stand:\s*[^)]+\)", hinweis.group(1)):
-            fehler.append(f"{slug}.html: „(Stand: …)“ im Methoden-Hinweis fehlt")
+            aufbau.append(f"{slug}.html: „(Stand: …)“ im Methoden-Hinweis fehlt")
         # Gleiche Überschriften wie in src/lib/artikel-aufbau.ts
         if not re.search(r"<h2[^>]*>\s*(Das Wichtigste vorab|Kurz gesagt|Die wichtigsten [^<]{0,40} auf einen Blick)\s*</h2>", html, re.I):
-            fehler.append(f"{slug}.html: Abschnitt „Das Wichtigste vorab“ (oder „Kurz gesagt“) fehlt")
+            aufbau.append(f"{slug}.html: Abschnitt „Das Wichtigste vorab“ (oder „Kurz gesagt“) fehlt")
         quellen = re.search(r"<h2[^>]*>\s*Quellen\s*</h2>(.*?)(?=<h2|\Z)", html, re.S | re.I)
         if not quellen or "<li" not in quellen.group(1):
-            fehler.append(f"{slug}.html: Abschnitt „Quellen“ mit Liste fehlt")
+            aufbau.append(f"{slug}.html: Abschnitt „Quellen“ mit Liste fehlt")
         if re.search(r"\bButtons?\b", html):
             fehler.append(f"{slug}.html: verweist auf „Buttons“, die es nicht mehr gibt")
 

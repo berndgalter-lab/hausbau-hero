@@ -68,7 +68,7 @@ export default async function ErsatzteileUebersicht({ searchParams }: Props) {
                         {t.oem_nummer && <> · Nr. {t.oem_nummer}</>}
                       </div>
                     </div>
-                    {marke && <KaufButton teil={t} markeName={marke.name} klein />}
+                    <KaufButton teil={t} />
                   </li>
                 );
               })}

@@ -62,7 +62,7 @@ export default async function ProblemSeite({ params }: Props) {
                       <a href={`/teil/${t.slug}`} className="flex-1 text-amber-700 hover:underline">
                         {t.name}{t.oem_nummer && ` (${t.oem_nummer})`}
                       </a>
-                      <KaufButton teil={t} markeName={marke.name} klein />
+                      <KaufButton teil={t} />
                     </div>
                   );
                 })}

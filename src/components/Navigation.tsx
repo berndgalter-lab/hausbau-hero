@@ -5,11 +5,11 @@ import { useState } from "react";
 // Feste Hauptnavigation für den Fokus Bad & Sanitär. Die alten Kategorien
 // (Farben, Rohbau, Werkzeuge …) sind weiter erreichbar, aber nicht mehr verlinkt.
 const PUNKTE = [
-  { href: "/ersatzteile", label: "Ersatzteile", icon: "🔩" },
-  { href: "/bad", label: "Bad-Kaufberatung", icon: "🚿" },
-  { href: "/vergleich/armaturen", label: "Armaturen-Vergleich", icon: "⚖️" },
-  { href: "/problem", label: "Problemlöser", icon: "🛠️" },
-  { href: "/rechner", label: "Rechner", icon: "🧮" },
+  { href: "/ersatzteile", label: "Ersatzteile" },
+  { href: "/bad", label: "Bad-Ratgeber" },
+  { href: "/vergleich/armaturen", label: "Armaturen-Datenblätter" },
+  { href: "/problem", label: "Problemlöser" },
+  { href: "/rechner", label: "Rechner" },
 ];
 
 export default function Navigation() {
@@ -51,7 +51,6 @@ export default function Navigation() {
                 href={p.href}
                 className="block py-2 text-sm font-medium text-stone-700 hover:text-amber-600"
               >
-                <span className="mr-2">{p.icon}</span>
                 {p.label}
               </a>
             ))}
