@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import NeukaufKasten from "@/components/Neukauf";
+import { neukaufFuerBereich } from "@/lib/neukauf";
+import { neukaufBereich } from "@/lib/bereiche";
 import { notFound } from "next/navigation";
 import { Brotkrumen, JsonLd, KaufButton, Quellen, brotkrumenLd } from "@/components/Ersatzteile";
 import { SITE_URL, markeNachId, problemNachSlug, teileNachSlugs } from "@/lib/ersatzteile";
@@ -26,7 +29,10 @@ export default async function ProblemSeite({ params }: Props) {
   const p = await problemNachSlug(params.slug);
   if (!p) notFound();
   const marke = p.marke_id ? await markeNachId(p.marke_id) : null;
-  const teile = await teileNachSlugs(Array.from(new Set(p.ursachen.flatMap((u) => u.teil_slugs ?? []))));
+  const [teile, neukauf] = await Promise.all([
+    teileNachSlugs(Array.from(new Set(p.ursachen.flatMap((u) => u.teil_slugs ?? [])))),
+    neukaufFuerBereich(neukaufBereich({ problem: p.slug })),
+  ]);
   const teilVon = new Map(teile.map((t) => [t.slug, t]));
 
   const pfad = [
@@ -80,6 +86,8 @@ export default async function ProblemSeite({ params }: Props) {
           </ol>
         </section>
       )}
+
+      <NeukaufKasten n={neukauf} />
 
       {p.fachbetrieb_ab && (
         <section className="mb-8 p-4 bg-stone-100 border border-stone-200 rounded-lg text-sm">
