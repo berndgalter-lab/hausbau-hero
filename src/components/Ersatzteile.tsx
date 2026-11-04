@@ -4,6 +4,7 @@ import {
   formatEuro,
   formatStand,
   hostVon,
+  quelleLabel,
   teilKauflink,
   zeigePreis,
   type Angebot,
@@ -182,7 +183,7 @@ export function Quellen({ urls, titel = "Quellen" }: { urls: (string | null | un
         {liste.map((u) => (
           <li key={u}>
             <a href={u} target="_blank" rel="nofollow noopener noreferrer" className="text-amber-700 hover:underline break-all">
-              {hostVon(u)}
+              {quelleLabel(u)}
             </a>
           </li>
         ))}
@@ -195,37 +196,48 @@ export function Quellen({ urls, titel = "Quellen" }: { urls: (string | null | un
   );
 }
 
-export function Widersprueche({ liste }: { liste: Widerspruch[] }) {
+/**
+ * Wo Händler oder Hersteller verschiedene Nummern nennen. Das hat kein Shop und kein Katalog,
+ * deshalb steht es auf der Marken-Seite weit oben, je Fall aufklappbar.
+ */
+export function Widersprueche({ liste, id }: { liste: Widerspruch[]; id?: string }) {
   if (liste.length === 0) return null;
   return (
-    <section className="mt-10 p-5 bg-amber-50 border border-amber-200 rounded-xl">
-      <h2 className="text-lg font-bold mb-1">Achtung: widersprüchliche Angaben</h2>
+    <section id={id} className="mb-10 scroll-mt-20">
+      <h2 className="text-xl font-bold mb-1">Achtung, Verwechslungsgefahr</h2>
       <p className="text-sm text-stone-600 mb-4">
-        Hier nennen Hersteller oder Händler unterschiedliche Zuordnungen. Wir zeigen beide, statt eine zu raten.
+        Hier nennen Hersteller oder Händler unterschiedliche Nummern. Wir zeigen beide Angaben mit Quelle, statt eine
+        zu raten.
       </p>
-      <ul className="space-y-4 text-sm">
+      <div className="divide-y divide-stone-200 border border-stone-200 rounded-xl bg-white">
         {liste.map((w) => (
-          <li key={w.id}>
-            <div className="font-semibold text-stone-800">{w.thema}</div>
-            <div className="mt-1">
-              A: {w.aussage_a}
-              {w.quelle_a && (
-                <a href={w.quelle_a} target="_blank" rel="nofollow noopener noreferrer" className="ml-1 text-amber-700 hover:underline">
-                  ({hostVon(w.quelle_a)})
-                </a>
-              )}
+          <details key={w.id} className="group px-4 py-3">
+            <summary className="cursor-pointer font-medium text-stone-800 list-none flex justify-between gap-3">
+              <span>{w.thema}</span>
+              <span className="text-stone-400 group-open:rotate-90 transition-transform">›</span>
+            </summary>
+            <div className="mt-3 space-y-2 text-sm text-stone-700">
+              <p>
+                {w.aussage_a}
+                {w.quelle_a && (
+                  <a href={w.quelle_a} target="_blank" rel="nofollow noopener noreferrer" className="ml-1 text-amber-700 hover:underline">
+                    ({hostVon(w.quelle_a)})
+                  </a>
+                )}
+              </p>
+              <p>
+                <span className="font-medium">Dagegen: </span>
+                {w.aussage_b}
+                {w.quelle_b && (
+                  <a href={w.quelle_b} target="_blank" rel="nofollow noopener noreferrer" className="ml-1 text-amber-700 hover:underline">
+                    ({hostVon(w.quelle_b)})
+                  </a>
+                )}
+              </p>
             </div>
-            <div>
-              B: {w.aussage_b}
-              {w.quelle_b && (
-                <a href={w.quelle_b} target="_blank" rel="nofollow noopener noreferrer" className="ml-1 text-amber-700 hover:underline">
-                  ({hostVon(w.quelle_b)})
-                </a>
-              )}
-            </div>
-          </li>
+          </details>
         ))}
-      </ul>
+      </div>
     </section>
   );
 }

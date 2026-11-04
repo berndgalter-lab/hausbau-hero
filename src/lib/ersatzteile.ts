@@ -221,6 +221,42 @@ export function hostVon(url: string): string {
   }
 }
 
+/**
+ * Lesbarer Name einer Quelle aus der URL: Domain plus letzter sprechender Pfadteil,
+ * z. B. „grohe.com: ersatzteilsuche leitfaden“ statt nur „grohe.com“.
+ */
+export function quelleLabel(url: string): string {
+  try {
+    const u = new URL(url);
+    const host = u.hostname.replace(/^www\./, "");
+    const teil = u.pathname
+      .split("/")
+      .filter(Boolean)
+      .map((x) => decodeURIComponent(x).replace(/\.(html?|php|aspx?|pdf)$/i, ""))
+      .reverse()
+      .find((x) => /[a-zäöü]{3}/i.test(x) && !/^(de|de-de|at|ch|en|produkte?|p|s)$/i.test(x));
+    const pdf = /\.pdf$/i.test(u.pathname) ? " (PDF)" : "";
+    return teil ? `${host}: ${teil.replace(/[-_+]+/g, " ").slice(0, 70)}${pdf}` : host + pdf;
+  } catch {
+    return url;
+  }
+}
+
+/**
+ * Rechercheprotokoll statt Lesertext („Keine belastbaren Merkmale recherchiert“). Solche Felder
+ * blendet die Vorlage aus; sie gehören in nicht_geprueft (docs/SEITENAUFBAU.md, Abschnitt 6).
+ */
+export const NOTIZ_SPRACHE = /recherchiert|nicht gefunden|haben wir nicht gefunden|belegt keine|keine .{0,30}quelle|Suchauszug|Marketingaussage/i;
+
+/** Mindestens so viele belegte Teile braucht eine Serie, um indexiert zu werden. */
+export const SERIE_MIN_TEILE = 2;
+
+/** Serie ohne genug Substanz für eine eigene Seite: noindex, bleibt als Karte auf der Marken-Seite. */
+export function serieIstDuenn(serie: Pick<Serie, "erkennungsmerkmale">, anzahlTeile: number): boolean {
+  const merkmale = serie.erkennungsmerkmale && !NOTIZ_SPRACHE.test(serie.erkennungsmerkmale);
+  return anzahlTeile < SERIE_MIN_TEILE && !merkmale;
+}
+
 // ---------- Abfragen ----------
 
 export async function alleMarken(): Promise<Marke[]> {
