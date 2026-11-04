@@ -1,0 +1,347 @@
+{
+  "marke": "Hansa",
+  "fragen": [
+    {
+      "frage": "Welche Ersatzkartusche passt in meine Hansaronda-Armatur (Hansaeco 4.8, 59904601)?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/139202/Hilfe-Hansa-Bad-Amatur-versucht-die-kartusche-zu-tauschen-"
+      ],
+      "forum_antworten": "Thread 2012 (Hansaronda, Bad). Ein Nutzer nennt als Ersatzteilnummer 59904601 (Eco-Steuerpatrone), schränkt aber ein, er kenne das Baujahr nicht; ein zweiter Nutzer bestätigt: Die Eco müsse auf die Ronda passen. Nach dem Tausch tropfte die Armatur im Fall weiter, da der Schaden an den Anschlussröhrchen/der Armatur lag, nicht an der Kartusche.",
+      "antwort": "Das hängt vom Alter ab. Ältere Hansaronda-Armaturen haben laut Hansa die 4.8-Kartusche 59904601 (Hansaeco), die Generation ab etwa 2010, zum Beispiel 03092273 oder 03131173, die 35-mm-Kartusche 59913075 oder 59912324. Die Hansa-Teileseite der 59904601 listet unter „Kompatible Produkte“ über 200 Hansaronda-Armaturen. Am sichersten ist die Ersatzteilliste zur eigenen Artikelnummer.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/139202/Hilfe-Hansa-Bad-Amatur-versucht-die-kartusche-zu-tauschen-",
+        "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+        "https://www.hansa.com/de/produkte/03092273/waschtischbatterie",
+        "https://www.hansa.com/de/produkte/03131173/waschtischbatterie-niederdruck"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansa-kartusche-59904601",
+        "hansa-kartusche-59913075",
+        "hansa-kartusche-59912324"
+      ],
+      "passendes_problem": "hansa-armatur-tropft"
+    },
+    {
+      "frage": "Ich habe die Kartusche 59904601 (4.8 Eco) in eine ca. 30 Jahre alte Hansa-Duschbatterie eingebaut und es kommt kein Wasser mehr. Woran liegt das?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/235681/Kein-Wasser-mehr-nach-Kartuschen-Tausch-Hansa"
+      ],
+      "forum_antworten": "Thread 2020, Unterputz. Kartusche war nach Messen von Durchmesser und Optik bestellt, Stift bei 3 Uhr korrekt eingerastet. Nutzer raten, ohne Kartusche zu spülen und den Wandanschlussbogen/Rückflussverhinderer zu prüfen. Ursache im Fall: der Wandanschlussbogen war zugesetzt (Sand, Kalk), nicht die Kartusche. Ein Antwortender meint, die Kartusche habe keine eingebaute Drosselung (widerspricht den Hansa-Angaben, siehe Wasserbremse). Nur ein Einzelfall.",
+      "antwort": null,
+      "antwort_quellen": [
+        "https://www.hansa.com/de/products/59904601"
+      ],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Hat die Hansa-Eco-Kartusche eine Wasserbremse / Mengenbegrenzung, und gibt es die Kartusche auch ohne?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/235681/Kein-Wasser-mehr-nach-Kartuschen-Tausch-Hansa"
+      ],
+      "forum_antworten": "Im Thread zitiert der Fragesteller die Hansa-Beschreibung (Wasserbremse bei ca. 50 %, einstellbare Heißwassersperre, Mengenbegrenzung bis ca. 6 l/min). Ein Antwortender behauptet dagegen, die Kartusche habe keine Drosselung. Die Herstellerseiten klären das: 59904601 (4.8) und 59912324 (3.5 Eco) haben die Wasserbremse; 59913075 ist laut Ihrem Hintergrund die Classic ohne Eco.",
+      "antwort": "Ja. Hansa beschreibt die 4.8-Kartusche 59904601 und die 3.5-Kartusche 59912324 mit einer Wasserbremse bei etwa 50 % der Wassermenge. Ohne Wasserbremse gibt es die 3.5 Classic (59913075) und die 4.8 Classic (59911437), Letztere listet Hansa aber nur für Hansamedipro. Alle haben eine einstellbare Mengenbegrenzung bis etwa 6 l/min.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/235681/Kein-Wasser-mehr-nach-Kartuschen-Tausch-Hansa",
+        "https://www.hansa.com/de/produkte/59904601/kartusche-48",
+        "https://www.hansa.com/de/produkte/59912324/kartusche-35",
+        "https://www.hansa.com/de/produkte/59913075/kartusche-35-classic",
+        "https://www.hansa.com/de/produkte/59911437/kartusche-48-classic"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansa-kartusche-59904601",
+        "hansa-kartusche-59912324",
+        "hansa-kartusche-59913075",
+        "hansa-kartusche-59911437"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Wie baue ich bei einer Hansa-Armatur Hebel und Deckel ab und bekomme die Kartusche heraus?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/10383/Kartusche-austauschen-bei-einer-Hansa-Armatur",
+        "https://www.haustechnikdialog.de/Forum/t/139202/Hilfe-Hansa-Bad-Amatur-versucht-die-kartusche-zu-tauschen-",
+        "https://bau.net/forum/sanitaer/12306.php",
+        "https://www.dasheimwerkerforum.de/threads/hansa-kartusche.32547/"
+      ],
+      "forum_antworten": "Übereinstimmend: Wasser absperren; Madenschraube/Imbus unter Abdeckung lösen, Hebel kräftig nach oben abziehen (sitzt oft fest); weißen gesteckten Zackenring mit Schraubendreher abhebeln; darunter liegt die große Messing-Überwurfmutter, die gegen den Uhrzeigersinn gelöst wird; Kartusche herausziehen, die Nase unten gehört beim Einbau in die Aussparung. Warnung: Nicht mit Rohr-/Pumpenzange (verformt die Mutter) - Engländer oder Hansa-Kartuschenschlüssel; ein Nutzer nennt dafür 45 und 50 mm, in anderen Threads 34 mm bzw. SW45/46 (je nach Serie unterschiedlich). Bei der Eco-Kartusche liegt kein Schlüssel bei. Wird die Madenschraube zu weit herausgedreht, klemmt sie in der alten Kartusche. Auch Nutzer 2019 bestätigt Hebel ziehen, dann Abdeckung mit zwei Löchern, 34-mm-Schlüssel (einzelne Antwort).",
+      "antwort": "Wasser absperren, dann die Madenschraube am Hebel mit einem Innensechskant lösen und den Hebel nach oben abziehen; er sitzt oft fest. Darunter liegt eine Abdeckung und die Messingmutter der Kartusche, die gegen den Uhrzeigersinn herausgedreht wird. In den Foren wird übereinstimmend vor der Rohrzange gewarnt, weil sie die Mutter verformt. Die Schlüsselweite hängt von der Kartusche ab, für die 3.5-Kartuschen nennt Hansa eine Spannmutter M40x1 mit Schlüsselweite 30.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/10383/Kartusche-austauschen-bei-einer-Hansa-Armatur",
+        "https://www.haustechnikdialog.de/Forum/t/139202/Hilfe-Hansa-Bad-Amatur-versucht-die-kartusche-zu-tauschen-",
+        "https://www.dasheimwerkerforum.de/threads/hansa-kartusche.32547/",
+        "https://www.hansa.com/de/produkte/51522293/waschtischbatterie"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansa-kartusche-59913075",
+        "hansa-kartusche-59904601"
+      ],
+      "passendes_problem": "hansa-armatur-tropft"
+    },
+    {
+      "frage": "Die zentrale Mutter der Hansa-Kartusche ist festgekalkt und lässt sich nicht lösen - was tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/120990/dringend-hansa-kartusche-wechseln",
+        "https://forum.zerspanungsbude.net/viewtopic.php?t=55720"
+      ],
+      "forum_antworten": "HTD 2010: Mutter SW45/46; Tipps: Hansa-Montageschlüssel mit leichten Hammerschlägen in Öffnungsrichtung bei Gegenhalten der Armatur; Zitronensäure einwirken lassen; ein Nutzer warnt, Essig/Säuren entzinnen Messing und greifen Chrom an. Fragesteller löste sie mit 46er Nuss und Hammer, reinigte, fettete die Gewinde, Kartusche lief wieder leicht. Zerspanungsbude 2021 (Hansavarox 4000, SW36): Mutter halb lösen, mit zwei Schlitzschraubendrehern zwischen Mutter und gezahntem Ring hebeln, Kartusche kommt mit einem Plopp; O-Ringe mit Armaturenfett schmieren. Erfahrungsberichte einzelner Nutzer.",
+      "antwort": "In beiden Forenfällen ging die Mutter mit passendem Schlüssel oder Nuss und leichten Schlägen in Öffnungsrichtung auf, während die Armatur gegengehalten wurde. Eine Rohrzange ist ungeeignet, sie verformt die Mutter. Nach dem Lösen wurden Gewinde und O-Ringe gereinigt und mit Armaturenfett eingesetzt. Wer die Armatur dabei verdrehen oder die Wand beschädigen könnte, überlässt das besser einem Installateur.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/120990/dringend-hansa-kartusche-wechseln",
+        "https://forum.zerspanungsbude.net/viewtopic.php?t=55720",
+        "https://www.haustechnikdialog.de/Forum/t/10383/Kartusche-austauschen-bei-einer-Hansa-Armatur"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": "hansa-armatur-tropft"
+    },
+    {
+      "frage": "Mein Hansa-Einhebelmischer geht schwer - muss die Kartusche getauscht werden?",
+      "kategorie": "pflege",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/120990/dringend-hansa-kartusche-wechseln",
+        "https://www.haustechnikdialog.de/Forum/t/10383/Kartusche-austauschen-bei-einer-Hansa-Armatur",
+        "https://www.haustechnikdialog.de/Forum/t/13828/Reparieren-von-Hansa-Unterputzthemostat"
+      ],
+      "forum_antworten": "Alle Fragesteller wollen die Kartusche wegen Schwergängigkeit tauschen. In einem Fall brachte Zerlegen, Reinigen, Entkalken und neues Fetten die Leichtgängigkeit zurück. Zum Thermostat (2004): nach 20 Jahren sei meist ein neuer nötig. Keine Herstellerangabe zur Ursache gefunden; Hansa-Produktseiten erwähnen 'Fettdepots' in den Keramikscheiben.",
+      "antwort": null,
+      "antwort_quellen": [],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Meine Hansavarox/Hansa-Unterputzarmatur tropft, obwohl ich eine neue Kartusche eingebaut habe. Woran liegt das?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/165890/Trotz-neuer-Steuerpatrone-Hansa-tropft-es",
+        "https://www.gutefrage.net/frage/aus-meiner-hansa-unterputzarmatur-tropft-wasser-trotz-des-einbaus-der-neuen-kartusche-tropft-es-weiterhin-an-was-kann-das-liegen",
+        "https://www.dasheimwerkerforum.de/threads/hansa-up-einhebelmischer.9235/",
+        "https://www.haustechnikdialog.de/Forum/t/139202/Hilfe-Hansa-Bad-Amatur-versucht-die-kartusche-zu-tauschen-",
+        "https://forum.zerspanungsbude.net/viewtopic.php?t=55720"
+      ],
+      "forum_antworten": "gutefrage 2017: in seltenen Fällen ist der Einbaukörper defekt; Leitung beim Einbau nicht gespült, Schmutz auf dem Kartuschensitz; Kartusche ausbauen, Leitungen spülen, sonst Werkskundendienst über Installateur. dasheimwerkerforum 2016: neue Kartusche in der Wanne dicht, Dusche tropft weiter, Vermutung Haarriss/unebene Auflage im Einbaukörper; Installateur könne die Kunststoffauflage tauschen; Hansa selbst verwies an den Installateur. HTD 2014: Hansavarox tropft weiter; Brausetropfen auch durch Kalk oder fehlenden Entleerventil (Brauseschlauch-Entleerventil als Lösung). Zerspanungsbude 2021: Gussfehler im Gehäuse an der Dichtfläche; Gehäuse nicht mehr als Ersatzteil, nur Umbausatz auf aktuelle Technik. Mehrere Quellen stimmen überein (Einbaukörper/Auflagefläche, Verschmutzung); Details bleiben Nutzerangaben. HTD 2012/2013: auch bei Waschtisch-/Einhebelmischer tropft es weiter, wenn die Armatur selbst undicht ist.",
+      "antwort": "Mehrere Forenbeiträge nennen dieselben Ursachen: Schmutz auf dem Kartuschensitz, weil die Leitung beim Tausch nicht gespült wurde, oder eine beschädigte Dichtfläche im Unterputz-Einbaukörper. Erst die Kartusche wieder ausbauen, die Leitung kurz spülen und den Sitz reinigen. Ist die Dichtfläche im Einbaukörper beschädigt, gibt es den Körper laut Forum nicht als Ersatzteil, sondern nur einen Umbausatz über den Installateur.",
+      "antwort_quellen": [
+        "https://www.gutefrage.net/frage/aus-meiner-hansa-unterputzarmatur-tropft-wasser-trotz-des-einbaus-der-neuen-kartusche-tropft-es-weiterhin-an-was-kann-das-liegen",
+        "https://www.haustechnikdialog.de/Forum/t/165890/Trotz-neuer-Steuerpatrone-Hansa-tropft-es",
+        "https://www.dasheimwerkerforum.de/threads/hansa-up-einhebelmischer.9235/",
+        "https://forum.zerspanungsbude.net/viewtopic.php?t=55720"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansa-kartusche-59913075",
+        "hansa-funktionseinheit-59914418"
+      ],
+      "passendes_problem": "hansa-armatur-tropft"
+    },
+    {
+      "frage": "Die Thermostat-Regeleinheit meiner Hansa-Dusche (Hansamat/Hansavarox, 59904501) tropft oder schließt nicht - ist sie reparierbar oder muss sie neu?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gs-forum.eu/threads/hansa-thermostat-regel-einheit-reparierbar.142126/",
+        "https://www.wer-weiss-was.de/t/unterputz-mischbatterie-hansa-tropft-u-leckt/7054969",
+        "https://groups.google.com/g/de.rec.heimwerken/c/dceUkyc0x1E"
+      ],
+      "forum_antworten": "gs-forum 2018 (Hansa Varox 4000): Tropfen ca. 20 l/Tag, Einheit nach Einbau einer neuen (ca. 120 EUR) dicht; O-Ringe ca. 30x2 mm einzeln ersetzbar, Thermostat selbst nicht einzeln erhältlich; Keramikdichtung/Kalk als Ursache. wer-weiss-was 2012: 59 904 501 tropft trotz Reinigung, Preis 150 EUR genannt (ein Antwortender widerspricht, Hansa-Kartusche koste weniger); Hinweise Kalk und zu hoher Druck, Druckminderer prüfen. Usenet 2011: 59 904 501 gelistet im Hansa-Ersatzteilkatalog, Entkalken half nicht. Hansa-Produktseite: 59904501 ist Regelteil für Hansamat/Hansavario 0808; ob es beim Hansavarox 4000 dieselbe Nummer ist, folgt nur aus Nutzerangaben.",
+      "antwort": "Im Forum wurde ein Hansavarox 4000, der rund 20 Liter am Tag tropfte, erst mit einer neuen Regeleinheit wieder dicht; einzelne O-Ringe lassen sich tauschen, das Thermostatelement nicht. Für Fertigsets auf dem Einbaukörper Hansavarox 4000/4001 nennt Hansa die Temperaturreglereinheit mit Absperrung 59912843, für die Fertigsets Hansavarox Pro ab 2017 die Thermostatkartusche 3.4 (59914114).",
+      "antwort_quellen": [
+        "https://www.gs-forum.eu/threads/hansa-thermostat-regel-einheit-reparierbar.142126/",
+        "https://www.hansa.com/de/produkte/59912843/thermostatkartusche-12-varox",
+        "https://www.hansa.com/de/produkte/40579083/fertigset-fr-brause-batterie",
+        "https://www.hansa.com/de/produkte/59914114/thermostatkartusche-34"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansa-thermostatkartusche-59912843",
+        "hansa-thermostatkartusche-59914114"
+      ],
+      "passendes_problem": "hansa-thermostat-wird-nicht-warm"
+    },
+    {
+      "frage": "Meine Hansa-Thermostat-Duscharmatur (Unterputz) wird nicht mehr richtig heiß oder wechselt zwischen kalt und warm - was kann ich tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.holzheizer-forum.de/forum/thread/53265-hansa-up-duscharmatur-wird-nicht-heiss-wechselt-kalt-warm/",
+        "https://www.haustechnikdialog.de/Forum/t/13828/Reparieren-von-Hansa-Unterputzthemostat"
+      ],
+      "forum_antworten": "Holzheizer 2017 (Hansamat): Trotz neuer Temperaturregeleinheit (59904501) und einem neuen Rückflussverhinderer (59901610) blieb der Fehler; Lösung: auch den zweiten Rückflussverhinderer tauschen (immer paarweise), der zweite war stark verschmutzt. Hansa-Blog: Filter in den Anschlüssen reinigen, Warm/Kalt nicht vertauscht, Thermostatkartusche mit 38-mm-Schlüssel öffnen und reinigen, O-Ringe fetten; bei vertauschten Anschlüssen Regelteil 59913463 (Tempra Style, warm/kalt vertauscht) oder Hansamicra 58152171.",
+      "antwort": "Hansa nennt als häufige Ursache zugesetzte Filter in der Thermostatkartusche und empfiehlt, die Filter zu reinigen und zu prüfen, ob Warm- und Kaltwasser vertauscht angeschlossen sind. Bei Hansamat-Unterputzthermostaten löste im Forum erst der Tausch beider Rückflussverhinderer (59901610) das Problem. Hilft beides nicht, die Thermostatkartusche aus der Ersatzteilliste der eigenen Armatur tauschen.",
+      "antwort_quellen": [
+        "https://stories.hansa.com/en/the-top-7-shower-thermostat-maintenance-qas-for-installers",
+        "https://www.holzheizer-forum.de/forum/thread/53265-hansa-up-duscharmatur-wird-nicht-heiss-wechselt-kalt-warm/",
+        "https://www.hansa.com/de/produkte/59901610/rckschlagventil",
+        "https://www.hansa.com/de/produkte/59913463/thermostatkartusche-hc-reversed"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansa-rueckflussverhinderer-59901610",
+        "hansa-thermostatkartusche-59914114",
+        "hansa-thermostatkartusche-59913463"
+      ],
+      "passendes_problem": "hansa-thermostat-wird-nicht-warm"
+    },
+    {
+      "frage": "Hansa-Wannenbatterie (Hansamix/Hansaligna, Unterputz) tropft aus einer Öffnung oben - was ist defekt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/128784/Hansa-Einhand-Wannen-Batterie-tropft"
+      ],
+      "forum_antworten": "2011: Händlerservice vermutete Kartusche (Kalk), Forum riet zum Installateur und nannte ein anderes Teil (Sprengringzange nötig); Ergebnis: Belüftungsventil defekt, selbst tauschbar. 2017 ein zweiter Fall bei Hansaligna (Bj. 2014): Belüfterventil wiederholt undicht, Entkalken hilft nur zeitweise. Zwei Fälle in einem Thread, keine Herstellerangabe.",
+      "antwort": null,
+      "antwort_quellen": [],
+      "sicherheit": "unsicher"
+    },
+    {
+      "frage": "Mein Hansa-Thermostat ist ca. 30 Jahre alt, ich finde keine Typenbezeichnung - woran erkenne ich Modell und Ersatzteil?",
+      "kategorie": "nummer",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/260536/Hansa-Armatur-altes-Modell-Ersatz"
+      ],
+      "forum_antworten": "2022: Antwort 1: Kartusche 59904501 sei ein Hansamat 1977-1997 mit Vorabsperrung und Rückflussventilen. Antwort 2: eindeutig Hansa, der Ersatzteilkatalog sei im Netz zum Download. Hansa-Produktseite 59904501 bestätigt Regelteil für Hansamat/Hansavario 0808.",
+      "antwort": "Hansa nennt keine feste Stelle an der Armatur, an der die Artikelnummer steht. Sie steht auf Rechnung, Lieferschein oder Verpackung. Fehlt sie, hilft die Ersatzteilnummer der alten Kartusche weiter: Auf hansa.com zeigt jede Teileseite, in welche Armaturen das Teil passt. So ließ sich im Forum ein 30 Jahre alter Thermostat über die Kartusche 59904501 als Hansamat bestimmen.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/260536/Hansa-Armatur-altes-Modell-Ersatz",
+        "https://www.hansa.com/de/produkte/59904501/thermostatkartusche-g12",
+        "https://stories.hansa.com/de/finden-sie-schnell-hansa-ersatzteile-und-produktdaten-die-sie-brauchen"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansa-thermostatkartusche-59904501"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Gibt es für alte Hansa-Armaturen (z. B. Rokal/Hansamat, 20-30 Jahre alt) noch Ersatzteile?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/rokal-hansa-thermostat-kartusche-ersatz-oder-demontage.23958/",
+        "https://www.energiesparhaus.at/forum/35675",
+        "https://www.haustechnikdialog.de/Forum/t/260536/Hansa-Armatur-altes-Modell-Ersatz",
+        "https://www.haustechnikdialog.de/Forum/t/13828/Reparieren-von-Hansa-Unterputzthemostat"
+      ],
+      "forum_antworten": "dasheimwerkerforum 2022: Fragesteller berichtet, Hansa habe für seine Rokal-Format-Thermostatkartusche (1992, Marke Rokal gehört zu Hansa) keine Ersatzteile oder Infos mehr; Nutzer raten zu Sanitärfachgeschäften mit Restbestand oder Austausch der Armatur. energiesparhaus.at 2014: Ein Nutzer hat nach über 20 Jahren noch einen neuen Einsatz bekommen; die Behauptung, Hansa liefere Teile für Modelle der 70er, ist ungeprüft. HTD 2022: Hansamat-Kartusche 59904501 ist noch bei Hansa gelistet. Hansa-Garantieseite: 10 Jahre Verfügbarkeitsgarantie nur für Armaturen nach 1.1.2012, ab Herstelldatum.",
+      "antwort": "Hansa garantiert Ersatzteile zehn Jahre ab Herstelldatum, aber nur für Armaturen, die nach dem 1.1.2012 hergestellt wurden. Viele ältere Teile sind trotzdem noch gelistet, zum Beispiel das Hansamat-Regelteil 59904501 oder die 4.8-Kartusche 59904601. Für manche Altarmaturen, etwa Rokal-Thermostate, bekam ein Forennutzer von Hansa keine Teile mehr.",
+      "antwort_quellen": [
+        "https://www.hansa.com/de/guarantee",
+        "https://www.hansa.com/de/produkte/59904501/thermostatkartusche-g12",
+        "https://www.dasheimwerkerforum.de/threads/rokal-hansa-thermostat-kartusche-ersatz-oder-demontage.23958/",
+        "https://www.haustechnikdialog.de/Forum/t/260536/Hansa-Armatur-altes-Modell-Ersatz"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "hansa-thermostatkartusche-59904501",
+        "hansa-kartusche-59904601"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Wie lange gilt die Hansa-Garantie, und gilt sie auch für die Kartusche? (Armatur tropft nach 2 Jahren)",
+      "kategorie": "bezug",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/128784/Hansa-Einhand-Wannen-Batterie-tropft"
+      ],
+      "forum_antworten": "Fragesteller: Armatur etwas älter als 2 Jahre, 'nicht mehr in der Garantie'; Händler-Servicemann sagt, die Steuerpatrone gehe durch Kalk kaputt; Forum: nach 2 Jahren unüblich. Hansa-Garantieseite (DE/AT): 2 Jahre auf Herstellungs-/Materialfehler, 5 Jahre auf Einhebelmischer-Kartusche, Magnetventil, Sensor, Thermostatkartusche; Ausschluss bei Kalk/Verschmutzung und bei fehlenden Hansa-Originalteilen; es wird nur das Funktionsteil getauscht, nicht der Einbau; Mangel in der Regel binnen 14 Tagen melden.",
+      "antwort": "Möglicherweise ja. Hansa gibt zwei Jahre Garantie auf Herstellungs- und Materialfehler, für Einhebel- und Thermostatkartuschen aber fünf Jahre. Ersetzt wird dann nur das Teil, Ein- und Ausbau zahlt Hansa nicht. Ausgeschlossen sind Schäden durch Kalk oder verschmutztes Wasser, und der Mangel muss im Regelfall binnen 14 Tagen beim Händler oder bei Hansa gemeldet werden.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/128784/Hansa-Einhand-Wannen-Batterie-tropft",
+        "https://www.hansa.com/de/guarantee"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": "hansa-armatur-tropft"
+    },
+    {
+      "frage": "Wo bekomme ich Hansa-Ersatzteile - direkt beim Hersteller oder nur über den Installateur?",
+      "kategorie": "bezug",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/hansa-up-einhebelmischer.9235/",
+        "https://www.haustechnikdialog.de/Forum/t/10383/Kartusche-austauschen-bei-einer-Hansa-Armatur",
+        "https://www.dasheimwerkerforum.de/threads/hansa-kartusche.32547/"
+      ],
+      "forum_antworten": "dasheimwerkerforum 2016: Hansa-Antwort auf eine Kundenanfrage verweist auf den Installateur (dreistufiger Vertrieb Industrie - Handel - Handwerk). HTD 2004: Preis der Eco-Kartusche beim Installateur erfragen, Schlüssel liegt nicht bei. Hansa-Garantieseite und Hansa-Blog: Ersatzteile über Produktnummer oder Designlinie auf hansa.com suchen, Reklamation beim Vertragspartner. Online-Händler führen die Teile ebenfalls (Händlerangabe, nicht einzeln geprüft).",
+      "antwort": "Hansa verkauft über den Fachhandel. Ein Forennutzer bekam auf seine Anfrage von Hansa den Hinweis, sich an einen Installateur zu wenden. Die Teile selbst findest du auf hansa.com über die Produktnummer oder die Designlinie und kannst sie mit der Hansa-Nummer bei Händlern bestellen. Für die Garantie zählt, dass Hansa-Originalteile verbaut sind.",
+      "antwort_quellen": [
+        "https://www.dasheimwerkerforum.de/threads/hansa-up-einhebelmischer.9235/",
+        "https://stories.hansa.com/de/finden-sie-schnell-hansa-ersatzteile-und-produktdaten-die-sie-brauchen",
+        "https://www.hansa.com/de/guarantee"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Wie lange hält eine Hansa-Kartusche, und kann man Dichtungen/O-Ringe einzeln tauschen statt die ganze Kartusche?",
+      "kategorie": "pflege",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gs-forum.eu/threads/hansa-thermostat-regel-einheit-reparierbar.142126/",
+        "https://www.wer-weiss-was.de/t/unterputz-mischbatterie-hansa-tropft-u-leckt/7054969",
+        "https://forum.zerspanungsbude.net/viewtopic.php?t=55720"
+      ],
+      "forum_antworten": "Nutzer berichten von Tropfen nach 3-4 Jahren (Hansavarox-Thermostateinheit); O-Ringe ersetzen sei möglich, den Thermostat selbst gebe es nicht einzeln. Zerspanungsbude: Austausch der drei O-Ringe am Zulauf brachte nichts, nach der 10. Kartusche keine Ursache gefunden; Hansa habe bei einer Serie 2007 30 Kartuschen kulant ersetzt. Hinweis auf Kalk und hohen Wasserdruck (Druckminderer prüfen). Nur Nutzererfahrungen.",
+      "antwort": null,
+      "antwort_quellen": [],
+      "sicherheit": "unsicher"
+    }
+  ],
+  "garantie": {
+    "de_seite": "https://www.hansa.com/de/guarantee (selbst geladen, deutsche Fassung, gilt laut Seite für Deutschland und Österreich; die Seite /en/guarantee ist die UK-Fassung)",
+    "dauer": {
+      "2_jahre": "Herstellungs- und Materialfehler, ab Kaufdatum oder ab Herstelldatumstempel",
+      "5_jahre": "Funktionsteile: Einhebelmischer-Kartusche, Magnetventil, Sensor, Thermostatkartusche (ohne Ein-/Ausbaukosten, nur Teiletausch)",
+      "10_jahre": "Verfügbarkeitsgarantie für Funktionskomponenten und Ersatzteile aller Armaturen, hergestellt nach 1.1.2012; ab Herstelldatumstempel; deckt keine Kosten/Installation"
+    },
+    "bedingungen": [
+      "gilt nur für Erstkäufer/Verbraucher, nicht übertragbar",
+      "nur mit Hansa-Originalteilen: 'mit Hansa Originalteilen ausgestattet sind'",
+      "Ausschluss bei Kalk, Verschmutzung, falscher Montage, mangelnder Wartung",
+      "Mängel im Regelfall binnen 14 Tagen nach Entdecken melden",
+      "Hansa darf Ersatzteil durch ein anderes geeignetes ersetzen"
+    ],
+    "zitate": [
+      "'zehn (10) Jahre Verfügbarkeitsgarantie für Funktionskomponenten und Ersatzteile' - https://www.hansa.com/de/guarantee",
+      "'mit Hansa Originalteilen ausgestattet sind' - https://www.hansa.com/de/guarantee",
+      "'Für einen Zeitraum von zwei (2) Jahren garantieren wir' - https://www.hansa.com/de/guarantee"
+    ],
+    "urls": [
+      "https://www.hansa.com/de/guarantee",
+      "https://www.hansa.com/en/guarantee (UK)"
+    ]
+  },
+  "nummer_fundort": {
+    "hersteller_aussage": "Keine Aussage von Hansa gefunden, wo die Artikelnummer an der Armatur steht (hansa.com/de/guarantee, /de/faq, /de/ersatzteile, /de-at/hansa360, stories.hansa.com selbst gelesen). Hansa nennt nur: Suche nach Produktnummer oder Designlinie (und PIX-Code in der App) sowie einen 'Herstelldatumstempel' am Produkt (Datum, keine Artikelnummer).",
+    "urls": [
+      "https://stories.hansa.com/de/finden-sie-schnell-hansa-ersatzteile-und-produktdaten-die-sie-brauchen",
+      "https://www.hansa.com/de/guarantee",
+      "https://www.hansa.com/de-at/hansa360"
+    ],
+    "zitate": [
+      "'nach der Produktnummer oder der Designlinie' - stories.hansa.com/de/finden-sie-schnell-hansa-ersatzteile-und-produktdaten-die-sie-brauchen",
+      "'Herstelldatumstempel des Produkts' - hansa.com/de/guarantee (bezieht sich auf Datum)"
+    ],
+    "haendler_allgemein": "heimwerk.org (allgemein, nicht Hansa-spezifisch, selbst geladen): 'meist auf der Armatur, in der Montageanleitung oder auf der Originalverpackung' - https://heimwerk.org/alte-hansa-unterputz-armatur-austauschen",
+    "forum_hinweise": "HTD 260536 (2022): Fragesteller findet an der 30 Jahre alten Armatur keine Type; Antworten bestimmen das Modell über die Kartuschennummer 59904501 (Hansamat). Nicht geprüft: Aussagen aus Suchvorschauen, die Nummer stehe nur auf der Rechnung.",
+    "sicherheit": "unsicher"
+  },
+  "allgemeine_muster": "Bei Hansa dreht sich fast alles um die Kartusche: welche passt (3.5, 4.8 oder 4.0, mit oder ohne Wasserbremse), wie Hebel und Mutter abgehen und warum es trotz neuer Kartusche weitertropft. Die zweite Gruppe sind Unterputz-Thermostate (Hansamat, Hansavarox), die nicht mehr warm werden oder tropfen. Viele Fragende haben 20 bis 30 Jahre alte Armaturen ohne Unterlagen und bestimmen das Modell über die Nummer der alten Kartusche."
+}
