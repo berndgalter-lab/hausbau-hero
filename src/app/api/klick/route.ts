@@ -4,7 +4,7 @@ import { supabase } from "@/lib/supabase";
 // Nimmt Klicks auf Affiliate-Links entgegen (navigator.sendBeacon aus KlickZaehler).
 // Alles wird streng geprüft: Nur bekannte Werte und saubere Pfade landen in der Tabelle.
 
-const PLATZIERUNGEN = new Set(["box", "text", "rechner", "teil", "uebersicht", "angebot", "vergleich"]);
+const PLATZIERUNGEN = new Set(["box", "text", "rechner", "teil", "uebersicht", "angebot", "vergleich", "neukauf", "quelle"]);
 const ZIEL_HOSTS = new Set(["www.amazon.de", "amazon.de", "www.awin1.com", "awin1.com"]);
 const BOT = /bot|crawl|spider|slurp|headless|lighthouse|preview|facebookexternalhit/i;
 
