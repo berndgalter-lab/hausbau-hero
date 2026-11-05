@@ -5,7 +5,7 @@ import { supabase } from "@/lib/supabase";
 // Alles wird streng geprüft: Nur bekannte Werte und saubere Pfade landen in der Tabelle.
 
 const PLATZIERUNGEN = new Set(["box", "text", "rechner", "teil", "uebersicht", "angebot", "vergleich", "neukauf", "quelle"]);
-const ZIEL_HOSTS = new Set(["www.amazon.de", "amazon.de", "www.awin1.com", "awin1.com"]);
+const ZIEL_HOSTS = new Set(["www.amazon.de", "amazon.de", "www.awin1.com", "awin1.com", "www.ebay.de", "ebay.de"]);
 const BOT = /bot|crawl|spider|slurp|headless|lighthouse|preview|facebookexternalhit/i;
 
 function sauberPfad(roh: unknown): string | null {
@@ -55,7 +55,7 @@ export async function POST(req: NextRequest) {
     ziel_host: host,
     platzierung,
     kennung: sauberKennung(body.kennung),
-    shop: host.includes("amazon") ? "amazon" : sauberShop(body.shop),
+    shop: host.includes("amazon") ? "amazon" : host.includes("ebay") ? "ebay" : sauberShop(body.shop),
   });
   if (error) console.error("[klick] Speichern fehlgeschlagen:", error.message);
 
