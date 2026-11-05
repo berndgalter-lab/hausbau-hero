@@ -6,6 +6,8 @@ import { bereichDaten, bereichIstDuenn, sichtbareBereiche } from "@/lib/bereiche
 import { alleTeilarten } from "@/lib/teilarten";
 import { alleProblemeAllgemein } from "@/lib/probleme-allgemein";
 
+export const revalidate = 3600;
+
 export default async function sitemap() {
   const baseUrl = "https://hausbau-hero.de";
   const now = new Date();
