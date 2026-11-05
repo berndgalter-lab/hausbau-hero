@@ -22,6 +22,7 @@ import rollladengurt from "../../data/teilarten/rollladengurt.json";
 import rollladenmotor from "../../data/teilarten/rollladenmotor.json";
 import rollladenHandsender from "../../data/teilarten/rollladen-handsender.json";
 import rollladenWelle from "../../data/teilarten/rollladen-welle.json";
+import rollladenLamellen from "../../data/teilarten/rollladen-lamellen.json";
 
 // Teileart-Seiten unter /ersatzteile/<teilart> (docs/SEITENAUFBAU.md, Abschnitt 4b): ein Teil, das in vielen
 // Marken steckt (Eckventil, Perlator, Siphon …), markenübergreifend erklärt. Inhalt aus data/teilarten/<slug>.json,
@@ -94,6 +95,7 @@ const TEILARTEN: Teilart[] = [
   rollladenmotor as Teilart,
   rollladenHandsender as Teilart,
   rollladenWelle as Teilart,
+  rollladenLamellen as Teilart,
 ];
 
 /** „den passenden Perlator“ / „die passende Kartusche“ / „das passende Eckventil“ (Akkusativ). */

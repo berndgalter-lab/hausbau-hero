@@ -1,0 +1,213 @@
+{
+  "thema": "Rollladen fährt nicht ganz hoch oder runter: Endlagen am Rohrmotor verstellt oder gelöscht (mechanisch mit Stellschrauben oder Einstelltastern, elektronisch per Sender oder Einstellkabel), Hindernis, Stopper, Adapter, Parallelschaltung, Gurtbetrieb; wer darf einstellen (Schellenberg, Somfy, Becker, Rademacher, Selve, Heim & Haus)",
+  "fragen": [
+    {
+      "frage": "Mein elektrischer Rollladen fährt nicht mehr ganz hoch. Ist der Motor kaputt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 6,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/elektrischer-rollladen-faehrt-nicht-ganz-hoch",
+        "https://www.gutefrage.net/frage/elektrischer-rolladen-faehrt-nicht-komplett-runter--motor-bleibt-stehen",
+        "https://knx-user-forum.de/forum/öffentlicher-bereich/knx-eib-forum/1419007-rollladen-fährt-nicht-komplett-hoch",
+        "https://knx-user-forum.de/forum/öffentlicher-bereich/gebäudetechnik-ohne-knx-eib/2034883-rolladen-spinnt-geht-immer-weniger-hoch",
+        "https://www.bauexpertenforum.de/threads/rolladenmotor-verstellt-oder-defekt.148365/",
+        "Google-Suchvorschläge: „rollladen geht nicht ganz hoch/runter“, „rolladenmotor defekt symptome“"
+      ],
+      "antwort": "Meist nicht. Bleibt er immer an derselben Stelle stehen, hat sich die Endlage verstellt. Schellenberg schreibt, dass sich Endlagen durch Temperaturunterschiede zwischen Winter und Sommer etwas verschieben und dann nachgestellt werden müssen. Hält er an wechselnden Stellen, klemmt eher der Panzer oder ein Hindernis löst die Abschaltung aus. In Foren hilft in beiden Fällen meist das neue Einstellen der Endlagen, kein neuer Motor.",
+      "antwort_quellen": [
+        "https://asset.conrad.com/media10/add/160267/c1/-/de/001228925ML01/navodila-za-uporabo-1228925-cevni-motor-schellenberg-smarthome-10mi-standard-10508-vlecna-sila-maks-15-kg.pdf",
+        "https://www.gutefrage.net/frage/elektrischer-rollladen-faehrt-nicht-ganz-hoch",
+        "https://www.gutefrage.net/frage/elektrischer-rolladen-faehrt-nicht-komplett-runter--motor-bleibt-stehen",
+        "https://knx-user-forum.de/forum/öffentlicher-bereich/knx-eib-forum/1419007-rollladen-fährt-nicht-komplett-hoch"
+      ]
+    },
+    {
+      "frage": "Wie stelle ich die Endlagen mit den zwei Schrauben am Rollladenmotor ein?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/elektrischer-rolladen-faehrt-nicht-komplett-runter--motor-bleibt-stehen",
+        "https://www.gutefrage.net/frage/rolladenmotor-wie-endlagen-einstellen",
+        "https://www.bauexpertenforum.de/threads/rollladenmotor-endlagereinstellung-bei-julius-mayer-rollladenmotor.144837/",
+        "Google-Suchvorschläge: „rollladenmotor einstellen 2 schrauben“, „endlage einstellen“ (131 Vorschläge mit Endlage/Endschalter)"
+      ],
+      "antwort": "Rademacher beschreibt das bei der RolloTube Basis so: Jede Schraube gehört zu einer Endlage, die Schraube am Pfeil nach oben zum unteren Endpunkt, die am Pfeil nach unten zum oberen. Drehen Richtung Plus verlängert den Laufweg, Minus verkürzt ihn, maßgeblich ist der Aufdruck am Motorkopf. Gedreht wird mit dem beiliegenden Einstellwerkzeug. Schellenberg lässt einen neuen STANDARD-Motor zuerst nur bis etwa 90 Prozent hochfahren und korrigiert dann mit der Einstellschraube. Ob du das selbst machen sollst, sagen die Anleitungen unterschiedlich.",
+      "antwort_quellen": [
+        "https://www.manualslib.de/manual/802723/Rademacher-Rollotube-Basis-Rtbs.html?page=11",
+        "https://asset.conrad.com/media10/add/160267/c1/-/de/001228925ML01/navodila-za-uporabo-1228925-cevni-motor-schellenberg-smarthome-10mi-standard-10508-vlecna-sila-maks-15-kg.pdf",
+        "https://www.gutefrage.net/frage/rolladenmotor-wie-endlagen-einstellen"
+      ]
+    },
+    {
+      "frage": "Darf ich die Endlagen am Rollladenmotor selbst einstellen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "docs/KEYWORDS-ROLLLADEN.md Abschnitt 4 und 6 (offene Grenzfrage)",
+        "https://www.gutefrage.net/frage/elektrischer-rolladen-faehrt-nicht-komplett-runter--motor-bleibt-stehen"
+      ],
+      "antwort": "Mit dem Handsender ja, das beschreiben Somfy, Selve und Heim & Haus in den Anleitungen für Benutzer. Am Motorkopf kommt es auf den Hersteller an. Schellenberg richtet die STANDARD-Anleitung an Kunden und beschreibt die Korrektur mit der Einstellschraube. Somfy nennt beim LT 50 Fachpersonal als zuständig, Becker und Rademacher lassen Arbeiten an der Anlage nur von Fachleuten machen. Einstellkabel und Einstellsets werden an die Motoradern geklemmt, das macht die Elektrofachkraft.",
+      "antwort_quellen": [
+        "https://asset.conrad.com/media10/add/160267/c1/-/de/001228925ML01/navodila-za-uporabo-1228925-cevni-motor-schellenberg-smarthome-10mi-standard-10508-vlecna-sila-maks-15-kg.pdf",
+        "https://avosdim.com/media/DE/motor/mot-lt50/notice/anleitung-somfy-lt50-lt60.pdf",
+        "https://produktcenter.becker-antriebe.com/out/media/BAPIM001/Pixelboxx/rp%202010%20300%20286%200%20de.pdf",
+        "https://www.manualslib.de/manual/802723/Rademacher-Rollotube-Basis-Rtbs.html?page=5",
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf",
+        "https://www.heimhaus.de/fileadmin/FAQ_l_Rollladen_elekt_Endlagen_verstellen.pdf"
+      ]
+    },
+    {
+      "frage": "Am Somfy-Motor sind ein weißer und ein gelber Knopf. Wie stelle ich damit die Endlagen ein?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/rolladenmotor-wie-endlagen-einstellen",
+        "Google-Suchvorschläge: „rollladenmotor endlage einstellen gelb weiß“"
+      ],
+      "antwort": "Das sind die Einstelltaster des Somfy LT 50. Laut Anleitung nimmst du die Schutzkappe ab und drückst beide Taster, bis sie einrasten. Dann fährst du den Rollladen in die gewünschte obere Endlage und drückst den Taster, der in Fahrtrichtung hinten liegt, er rastet aus. Unten genauso mit dem vorderen Taster, danach kommt die Kappe wieder drauf. Welcher Taster oben und welcher unten ist, hängt davon ab, auf welcher Seite der Motorkopf sitzt. Somfy nennt für diese Einstellung Fachpersonal.",
+      "antwort_quellen": [
+        "https://avosdim.com/media/DE/motor/mot-lt50/notice/anleitung-somfy-lt50-lt60.pdf",
+        "https://www.gutefrage.net/frage/rolladenmotor-wie-endlagen-einstellen"
+      ]
+    },
+    {
+      "frage": "Wie justiere ich die Endlagen beim Somfy-io-Motor mit dem Sender nach?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "Google-Suchvorschläge: „somfy endlagen einstellen“, „somfy io endlage“, „somfy endlagen ohne fernbedienung“ (docs/KEYWORDS-ROLLLADEN.md, Marken-Tabelle)"
+      ],
+      "antwort": "Beim Oximo io fährst du die Endlage an, die du ändern willst. Dann drückst du AUF und AB gleichzeitig, bis sich der Rollladen nach etwa 5 Sekunden kurz bewegt. Mit AUF und AB stellst du die neue Position ein und hältst my etwa 2 Sekunden, bis er wieder kurz bestätigt. Das gilt für fest eingestellte Endlagen. Endlagen mit Drehmomenterkennung stellen sich nach 56 Fahrten oder einem Stromausfall selbst neu ein.",
+      "antwort_quellen": [
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf"
+      ]
+    },
+    {
+      "frage": "Der Rollladen fährt oben in den Kasten und wickelt sich zu weit auf. Was tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://knx-user-forum.de/forum/öffentlicher-bereich/knx-eib-forum/1528320-geiger-solidline-rollladenmotoren-verlieren-endlage",
+        "https://www.bauexpertenforum.de/threads/rollladenmotor-endlagereinstellung-bei-julius-mayer-rollladenmotor.144837/",
+        "Google-Suchvorschläge: „rollladen fährt zu weit hoch“, „rollladen im kasten verschwunden“"
+      ],
+      "antwort": "Stopp ihn sofort am Schalter und fahr ihn ein Stück herunter. So macht es Schellenberg beim Einstellen, wenn der Motor oben nicht von selbst abschaltet. Becker nennt für „überfährt die obere Endlage“ abgerissene Anschläge: instand setzen, Endlagen löschen und neu einstellen. Beim mechanischen Motor wird die obere Endlage mit der zugehörigen Schraube Richtung Minus verkürzt. Ohne Motor fehlt meist ein Anschlagstopfen an der Endleiste.",
+      "antwort_quellen": [
+        "https://produktcenter.becker-antriebe.com/out/media/BAPIM001/Pixelboxx/rp%202010%20300%20286%200%20de.pdf",
+        "https://www.manualslib.de/manual/802723/Rademacher-Rollotube-Basis-Rtbs.html?page=11",
+        "https://asset.conrad.com/media10/add/160267/c1/-/de/001228925ML01/navodila-za-uporabo-1228925-cevni-motor-schellenberg-smarthome-10mi-standard-10508-vlecna-sila-maks-15-kg.pdf",
+        "https://www.schellenberg.de/wissens-wert/detailansicht/das-rollladen-abc/"
+      ]
+    },
+    {
+      "frage": "Mein Becker-Rollladen bleibt oben immer ein kleines Stück offen. Ist das ein Fehler?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "Google-Suchvorschläge: „becker motor endlagen“, „becker reset“ (docs/KEYWORDS-ROLLLADEN.md, Marken-Tabelle)"
+      ],
+      "antwort": "Nicht unbedingt. Becker-Antriebe der Reihe RP haben einen Festfrierschutz: Ist er eingeschaltet, stoppt der Rollladen kurz vor dem oberen Anschlag und fährt nur jedes 32. Mal ganz dagegen. Becker nennt das in der Störungstabelle als Grund, wenn die eingelernte Endlage oben nicht erreicht wird. Ausschalten lässt er sich nur, indem beide Endlagen gelöscht und neu eingestellt werden.",
+      "antwort_quellen": [
+        "https://produktcenter.becker-antriebe.com/out/media/BAPIM001/Pixelboxx/rp%202010%20300%20286%200%20de.pdf"
+      ]
+    },
+    {
+      "frage": "Zwei Rollläden hängen an einem Schalter, und einer bleibt immer vor dem Ende stehen. Warum?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/elektrischer-rollladen-faehrt-nicht-ganz-hoch"
+      ],
+      "antwort": "Wenn der erste Motor seine Endlage erreicht und abschaltet, bleibt der zweite mit stehen, weil beide ohne Trennung an derselben Leitung hängen. Becker verbietet, Rohrantriebe mit mechanischer Endabschaltung parallel zu schalten, Selve schreibt das für Kondensatormotoren. Abhilfe ist ein Trennrelais oder eine Gruppensteuerung, das baut die Elektrofachkraft ein.",
+      "antwort_quellen": [
+        "https://www.gutefrage.net/frage/elektrischer-rollladen-faehrt-nicht-ganz-hoch",
+        "https://produktcenter.becker-antriebe.com/out/media/BAPIM001/Pixelboxx/m05%202010%20300%20135%200%20de.pdf",
+        "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf"
+      ]
+    },
+    {
+      "frage": "Nach einem Reset fährt mein Rollladen nur noch, solange ich die Taste drücke. Was fehlt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "Google-Suchvorschläge: „somfy reset“, „endlagen löschen“, „elero endlagen löschen“"
+      ],
+      "antwort": "Die Endlagen. Ein Werksreset löscht bei Somfy neben den Sendern auch die Endlagen. Somfy schreibt, dass der Oximo io erst nach dem Speichern der Endlagen auf kurzen Tastendruck ganz durchfährt. Lern zuerst den Sender wieder an und stell dann die obere und untere Endlage nach Anleitung ein. Becker-Motoren der Reihe RP zeigen fehlende Endlagen durch kurzes Stoppen und Weiterfahren an.",
+      "antwort_quellen": [
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf",
+        "https://produktcenter.becker-antriebe.com/out/media/BAPIM001/Pixelboxx/rp%202010%20300%20286%200%20de.pdf"
+      ]
+    }
+  ],
+  "fakten": [
+    {
+      "fakt": "Schellenberg Rohrmotor STANDARD (20106/20110/20610/20615/20620/20640, Anleitung MA015/12.17): Anleitung richtet sich an Kunden („Sehr geehrte Kundin, sehr geehrter Kunde“). „Arbeiten an elektrischen Anlagen dürfen nur von zugelassenen Elektrofachkräften ausgeführt werden.“ Endlagen mechanisch; Endlagen können sich durch Temperaturunterschiede leicht verschieben, „im Bedarfsfall kann eine erneute Feineinstellung der Endlagen notwendig sein“. Motor und Laufring bis zum Anschlag in die Welle, sonst Endlageneinstellung nicht möglich. Rollladen beim Einstellen nur bis max. 90 % hochfahren, sonst per Schalter anhalten, „Die Korrektur der Endlage muss nun manuell über die entsprechende Einstellschraube vorgenommen werden.“ Symbol: + läuft weiter, − stoppt früher. Einschaltdauer 4 min, 15 min Abkühlen. Vor Arbeiten Rollladen gegen Herabfallen sichern, Dritte fernhalten.",
+      "quelle": "https://asset.conrad.com/media10/add/160267/c1/-/de/001228925ML01/navodila-za-uporabo-1228925-cevni-motor-schellenberg-smarthome-10mi-standard-10508-vlecna-sila-maks-15-kg.pdf"
+    },
+    {
+      "fakt": "Somfy LT 50 / LT 60 (Ref. 5072340, Rev. 02-05/2011): „Errichten, Prüfen, in Betrieb setzen und Fehlerbehebung der Anlage darf nur von einer Elektrofachkraft (laut VDE 0100-200) durchgeführt werden.“ Bei verstellten Endlagen Anlage nicht benutzen. Einstelltaster weiß/gelb, Zuordnung je Einbauseite; Schutzkappe ab, beide Taster einrasten, AUF bis gewünschte obere Endlage, in AUF-Richtung hinten liegenden Taster drücken (rastet aus); unten analog vorderer Taster. Fehlertabelle: obere/untere Endlage wird nicht erreicht → Endlage einstellen → „Fachpersonal“; Antrieb stoppt nicht in Endlagen → Adapter falsch montiert → Fachpersonal; keine Netzspannung, Thermoschutz → Anwender.",
+      "quelle": "https://avosdim.com/media/DE/motor/mot-lt50/notice/anleitung-somfy-lt50-lt60.pdf"
+    },
+    {
+      "fakt": "Somfy Oximo io: Verkabelung durch Elektrofachkraft nach DIN VDE 1000-10. Endlagenarten je nach starren/flexiblen Wellenverbindern und Stoppern. Erst nach Speichern der Endlagen Impulsmodus. „Rollladen stoppt zu früh“ → Adapter prüfen, Endlagen prüfen. Nachjustieren manuell fixer Endlagen: Endlage anfahren, AUF+AB ca. 5 s, mit AUF/AB justieren, my ca. 2 s. Endlagen mit Drehmomenterkennung stellen sich nach 56 Zyklen oder Stromausfall neu ein. Werksreset (Netz 2 s aus, 10 s ein, 2 s aus, ein; PROG halten) setzt in Auslieferungszustand zurück, an der Sicherung alle Antriebe.",
+      "quelle": "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf"
+    },
+    {
+      "fakt": "Becker RP (R8/17…R40/17): „Arbeiten und sonstige Tätigkeiten, einschließlich Wartungs- und Reinigungsarbeiten, an Elektroinstallationen und der übrigen Anlage selbst, dürfen nur von Fachpersonal, insbesondere Elektro-Fachpersonal durchgeführt werden“ (auch unter Hinweise für den Benutzer). Einstellen mit Schaltergarnitur, Knebelschalter oder Einstellset, nur für Inbetriebnahme. Endlagen-Status-Indikator: kurzes Stoppen und Weiterfahren = keine Endlage. Festfrierschutz oben stoppt kurz vor dem Anschlag, fährt jedes 32. Mal dagegen; deaktivieren nur durch Löschen und Neueinstellen. Was tun wenn: überfährt obere Endlage → Anschläge abgerissen; überfährt untere → Aufhängungen gebrochen; jeweils instand setzen, Endlagen löschen, neu programmieren.",
+      "quelle": "https://produktcenter.becker-antriebe.com/out/media/BAPIM001/Pixelboxx/rp%202010%20300%20286%200%20de.pdf"
+    },
+    {
+      "fakt": "Becker M05 (mechanische Endabschaltung, Handkurbel): Endlagen mit Einstellhilfe 4933 300 019 0 über Einstellschraube; „Montieren Sie keine mechanischen Anschläge, um eventuelle Längenänderungen des Rollladenpanzers zu berücksichtigen. Sichern Sie die einzelnen Lamellen gegen seitliches Verschieben.“ Hinweis für Elektrofachkraft: Antriebe mit mechanischer Endabschaltung dürfen nicht parallel geschaltet werden.",
+      "quelle": "https://produktcenter.becker-antriebe.com/out/media/BAPIM001/Pixelboxx/m05%202010%20300%20135%200%20de.pdf"
+    },
+    {
+      "fakt": "Rademacher RolloTube Basis: „Die Montage, der elektrische Anschluss und die Wartung dürfen nur durch eine sachkundige Person mit geeigneter Ausbildung bzw. durch einen Rollladenfachbetrieb nach den Anweisungen in dieser Anleitung erfolgen.“ Endpunkte über zwei Einstellschrauben mit Einstellwerkzeug; Pfeil nach oben = unterer Endpunkt, Pfeil nach unten = oberer; + verlängert. Was tun: Adapter vom Limitring abgerutscht, Walzenkapsel nicht fixiert → stoppt nicht; Vereisung/Hindernis → bleibt im Hochlauf stehen; 4 min Betriebsdauer, 20 min abkühlen.",
+      "quelle": "https://www.manualslib.de/manual/802723/Rademacher-Rollotube-Basis-Rtbs.html?page=11"
+    },
+    {
+      "fakt": "Selve TR (BA 04.2002): Abschaltung über mechanische Drehmomenterkennung, obere Einstellschraube mit beiliegender Kugelkopfeinstellhilfe vorspannen, untere nicht vorspannen. „Der Anschluss des Motors darf nur durch autorisiertes Elektrofachpersonal durchgeführt werden.“ Unterer Stab mit Anschlagschiene oder Anschlagwinkel. „Kondensatormotoren dürfen nicht parallel geschaltet werden!“",
+      "quelle": "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf"
+    },
+    {
+      "fakt": "Heim & Haus Bedienhinweis „Elektronische Endlagen verstellen“: für Funk-Rollläden, mit eingelerntem Handsender; AUF+AB ca. 5 s, mit Pfeiltasten Position, Stopp/my ca. 2 s. Haftungsausschluss für Arbeiten, die nicht von autorisiertem Fachpersonal ausgeführt wurden.",
+      "quelle": "https://www.heimhaus.de/fileadmin/FAQ_l_Rollladen_elekt_Endlagen_verstellen.pdf"
+    },
+    {
+      "fakt": "gutefrage: Rollladen bleibt 20 cm vor oben stehen, zwei Motoren an einem Schalter; Antwort: ohne Trennrelais bleibt der zweite stehen, wenn der erste die Endlage erreicht. Andere Antwort: Endpunkt verstellt, neu einstellen.",
+      "quelle": "https://www.gutefrage.net/frage/elektrischer-rollladen-faehrt-nicht-ganz-hoch"
+    },
+    {
+      "fakt": "gutefrage: Rollladen fährt nicht komplett runter; Antworten: mechanischer Motor → Endlage mit Stellschraube (Inbus) nachstellen; hält an wechselnden Stellen → Hinderniserkennung, neu einlernen, ggf. Setzkabel; Funkmotor → Endlagen per Fernbedienung.",
+      "quelle": "https://www.gutefrage.net/frage/elektrischer-rolladen-faehrt-nicht-komplett-runter--motor-bleibt-stehen"
+    },
+    {
+      "fakt": "KNX-Forum: Rollladen stoppt nach Auffahren auf Blumentopf ca. 20 cm zu früh; Antworten: Endlage am Motor verstellt, mechanisch per Inbus oder elektronisch nach Anleitung neu einstellen; Aktor hat damit wenig zu tun.",
+      "quelle": "https://knx-user-forum.de/forum/öffentlicher-bereich/knx-eib-forum/1419007-rollladen-fährt-nicht-komplett-hoch"
+    },
+    {
+      "fakt": "Schellenberg Gurtlänge: Fenster- oder Türhöhe mal 2,5.",
+      "quelle": "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladengurte/46002"
+    }
+  ],
+  "ursachen": [
+    "Endlage am Motor verstellt (Temperatur, Hindernis) – häufig",
+    "Endlagen nach Reset/Stromausfall gelöscht oder neu gesetzt – gelegentlich",
+    "Panzer klemmt, Hinderniserkennung schaltet ab – gelegentlich, Verweis rollladen-klemmt",
+    "Stopper oder Aufhängung abgerissen – gelegentlich",
+    "Gurtbetrieb: Stopper fehlt, Gurt zu kurz – gelegentlich",
+    "Motor/Adapter nicht richtig in der Welle – selten",
+    "Zwei Motoren parallel an einem Schalter – selten"
+  ],
+  "fachbetrieb_ab": "Per Sender: selbst (Somfy io, Selve commeo, Heim & Haus). Stellschrauben/Taster am Motorkopf: Schellenberg STANDARD beschreibt es in der Kundenanleitung, Elektrofachkraft nur für Arbeiten an der elektrischen Anlage; Selve TR beschreibt Einstellung, Elektrofachpersonal nur für Anschluss; Somfy LT 50 nennt Fachpersonal für Endlagen und Elektrofachkraft für Errichten, Prüfen, Inbetriebnahme, Fehlerbehebung; Rademacher Basis: Montage, Anschluss, Wartung sachkundige Person oder Rollladenfachbetrieb; Becker: alle Arbeiten an der Anlage Fachpersonal. Einstellkabel/Einstellset an Motoradern: Elektrofachkraft.",
+  "nicht_belegt": [
+    "Ob das Verstellen der Stellschrauben rechtlich eine Elektroarbeit ist: keine Norm- oder Herstelleraussage, die das allgemein regelt. Auf der Seite deshalb nur, was jede Anleitung selbst sagt.",
+    "Rademacher RolloTube Basis: Original-PDF von service.rademacher.de nur über Login-Weiterleitung, Inhalt über manualslib.de (Seiten 5, 11, 13) gelesen.",
+    "Schellenberg STANDARD-Anleitung: als PDF über conrad.com (Dateiname nennt 10508, Inhalt ist die Anleitung der STANDARD-Motoren 20106 bis 20641, MA015/12.17); Drehrichtung und Umdrehungen nur in Abbildungen.",
+    "Somfy Oximo WT und Einstellkabel: Woundwo-PDF ohne Textebene, nicht ausgewertet; auf der Seite nur allgemein „Einstellkabel“.",
+    "Elero, Jarolift, Geiger: Endlagenwege je Marke nicht ausgewertet, bleibt bei rollladenmotor-reagiert-nicht und den Markenseiten.",
+    "Smart-Home-Aktor mit zu kurzer Fahrzeit als Ursache (Loxone/KNX-Foren): nur Forenmeinungen, nicht als eigene Ursache übernommen.",
+    "Gurt zu kurz als Ursache für „geht nicht ganz hoch“: aus der Schellenberg-Längenregel abgeleitet, kein Forenfall mit genau diesem Befund.",
+    "Becker M05 „keine mechanischen Anschläge montieren“: Widerspruch zum üblichen Anschlagstopfen bei Gurtbetrieb; gilt für Rohrantriebe mit mechanischer Endabschaltung, auf der Seite nicht ausgeführt.",
+    "bau.de-Forenseiten (generierte Zusammenfassungen) nicht als Beleg verwendet."
+  ]
+}

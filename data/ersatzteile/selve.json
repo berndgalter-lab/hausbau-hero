@@ -1,0 +1,1876 @@
+{
+ "marke": {
+  "slug": "selve",
+  "name": "Selve",
+  "beschreibung": "Selve aus Lüdenscheid baut Rohrmotoren, Funksender und Rollladenteile. In vielen Häusern steckt ein Selve-Motor in der Welle: der SE Plus, der SE Pro mit Hinderniserkennung, dessen Vorgänger SEL Plus mit grünem Motorrohr, der Plug-&-Play-Antrieb SEE oder noch der alte TR. Dazu kommen Gurtwickler, Gurtscheiben und die Hochschiebesicherung SecuBlock.\n\nDie meisten Fragen drehen sich um Funk und Endlagen. Welcher Sender passt, hängt an der Endung am Motor: „-R“ für iveo, „-com“ für commeo, „-RC“ für beides, aber nicht gleichzeitig. Endlagen stellt der SE Pro mit jedem Schalter selbst ein; für feste Punkte gibt es den Einstellschalter. Einbau und Anschluss der 230-V-Motoren macht die Elektrofachkraft, so steht es in den Selve-Anleitungen.",
+  "nummer_hinweis": "Typ und Größe stehen auf dem Typenschild am Motor, etwa „SE Pro 2/10“ oder „SEL Plus 2/10-RC“. Weil der Motor in der Welle steckt, siehst du es meist erst bei offenem Rollladenkasten.\n\nDie erste Zahl der Größe ist die Baureihe: 1 = 35 mm Motor für SW40, 2 = 45 mm für SW60, 3 = 58 mm für SW70. Die zweite Zahl ist das Drehmoment in Nm. Die Endung zeigt den Funk: ohne Endung kein Funk, „-R“ iveo und intronic, „-RC“ commeo oder iveo, „-com“ nur commeo.\n\nSelve-Artikelnummern sind sechsstellig und werden in den Tabellen mit Leerzeichen geschrieben, etwa 38 20 40 für den SE Plus 2/10 oder 41 21 30 für den SE Pro 2/10. Sender beginnen mit 297 (commeo) oder 298 (iveo), Einstellschalter mit 290 oder 291.\n\nOhne Typenschild hilft die Farbe des Motorrohrs (grau beim SE Pro, grün beim SEL Plus), die Zahl der Adern im Kabel (vier ohne Funk, fünf mit Funk) und der Wellendurchmesser. Den Motor ausbauen oder abklemmen sollte dafür die Elektrofachkraft.",
+  "ersatzteil_garantie": "Eine Frist für Ersatzteile nennt Selve nicht. Für iveo liefert Selve nach eigener Aussage weiter Ersatzteile, entwickelt das System aber nicht weiter. Anleitungen ausgelaufener Motoren wie SEL Plus, SE Plus-R oder TR stehen weiter auf selve.de.\n\nSchäden durch falsche Verkabelung, Gewalt, Eingriffe in den Antrieb oder Missachtung der Sicherheitshinweise fallen laut Anleitung nicht unter die Gewährleistung. Selve beliefert nur Fachbetriebe, kaufen kannst du über Händler.",
+  "hersteller_ersatzteil_url": "https://oxomi.com/p/3001315/catalog/10636958",
+  "quellen": [
+   "https://www.selve.de/home/produkte/antriebe/se-plus/sw10016/",
+   "https://www.selve.de/home/produkte/antriebe/se-plus-rc-funk/sw10017/",
+   "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+   "https://www.selve.de/home/produkte/antriebe/se-pro-rc-funk/sw10013/",
+   "https://www.selve.de/home/produkte/antriebe/see/sw10011/",
+   "https://www.selve.de/home/produkte/antriebe/see-rc-funk/sw10012/",
+   "https://selve.de/en/service-downloads/faq",
+   "https://www.selve.de/en/pressebereich/anything-is-possible-with-just-one-radio-system",
+   "https://www.selve.de/service-downloads/bedienungsanleitungen-broschueren-und-kataloge/ausgelaufene-produkte/",
+   "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+   "https://www.manualslib.de/manual/461713/Selve-Se-Plus-Rc.html?page=41",
+   "https://www.selve.de/media/e7/20/7c/1627563308/SELVE_BA_SEL_Plus_SES_D_GB_F_NL_PL_web_bis-2019.pdf",
+   "https://www.selve.de/media/9e/4d/87/1660900300/SELVE_BA_SEL_Plus_SES_RC_D_GB_F_NL_PL_web_bis-2019.pdf",
+   "https://www.selve.de/media/6c/ce/7b/1660900299/SELVE_BA_SE-Plus-R_SEL-Plus-R_SEM-Plus-R_SES-R_bis-2015.pdf",
+   "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf",
+   "https://www.selve.de/home/produkte/steuerungen/commeo/commeo-send-1-10/sw10033/",
+   "https://www.selve.de/home/produkte/steuerungen/commeo/commeo-multi-send/sw10030/",
+   "https://www.selve.de/home/produkte/steuerungen/commeo/commeo-wall-send/sw10032/",
+   "https://www.selve.de/home/produkte/steuerungen/iveo/iveo-send-10/sw10042/",
+   "https://www.selve.de/home/produkte/steuerungen/iveo/iveo-wall-send/sw10043/",
+   "https://www.selve.de/media/8e/07/ce/1622811818/046_iveo_Send_1.pdf",
+   "https://www.selve.de/home/produkte/rollladenbauteile/secublock/sw10052/",
+   "https://www.selve.de/home/produkte/rollladenbauteile/secufix-secufix-push-go/sw10051/",
+   "https://www.selve.de/home/produkte/rollladenbauteile/aufhaengefedern/sw10081/",
+   "https://www.selve.de/home/produkte/rollladenbauteile/gurtwickler/sw10047/",
+   "https://www.selve.de/home/produkte/rollladenbauteile/gurtscheiben-und-begrenzungsscheiben/sw10085/",
+   "https://www.rolluikonderdelen.nl/de/marken/selve/motoren-fuer-rolllaeden/verschiedene-typen-von-selve-rohrmotoren/",
+   "https://www.caliso.de/motorzubehoer/selve/adapter-mitnehmer-baureihe-2-sw60-bis-30nm",
+   "https://www.enobi.de/rohrmotore/mechanisches-zubehoer/selve-adapter-mitnehmer/se0101",
+   "https://www.haustechnikdialog.de/Forum/t/210647/SELVE-SEL-plus-2-10-Dreck-austauschen-gegen-was-",
+   "https://forum.fhem.de/index.php?topic=91783.0",
+   "https://www.haustechnikdialog.de/forum/t/78042/SELVE-SER-Rohrmotore-vergessen-Endlagen"
+  ],
+  "fragen": [
+   {
+    "frage": "commeo oder iveo: Woran erkenne ich, welches Funksystem mein Selve-Rollladen hat?",
+    "antwort": "Schau auf die Endung hinter dem Motortyp. „-R“ heißt iveo oder das ältere intronic, „-com“ heißt nur commeo. „-RC“ steht für „radio commeo“ und nimmt commeo oder iveo, aber nie beide gleichzeitig. Der Name steht auch auf dem Sender: commeo-Sender zeigen über eine LED die Rückmeldung des Motors, iveo-Sender senden nur in eine Richtung.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://selve.de/en/service-downloads/faq",
+     "https://www.manualslib.de/manual/461713/Selve-Se-Plus-Rc.html?page=41",
+     "https://www.selve.de/media/6c/ce/7b/1660900299/SELVE_BA_SE-Plus-R_SEL-Plus-R_SEM-Plus-R_SES-R_bis-2015.pdf",
+     "https://set-gmbh.de/Selve-Commeo-Send-1-hand-held-radio-transmitter",
+     "https://www.selve.de/home/produkte/steuerungen/iveo/iveo-send-10/sw10042/"
+    ],
+    "teile": [
+     "selve-commeo-send-1-297713",
+     "selve-iveo-send-1-298713"
+    ],
+    "problem": "selve-rollladen-reagiert-nicht"
+   },
+   {
+    "frage": "Wo finde ich die Typbezeichnung und Artikelnummer meines Selve-Motors?",
+    "antwort": "Selve verweist für die technischen Daten auf das Typenschild am Antrieb. Dort stehen Typ und Größe, etwa SE Pro 2/10. Weil der Motor in der Welle steckt, siehst du das Typenschild meist erst bei geöffnetem Rollladenkasten. Ohne Typenschild hilft die Anleitung aus der Bauakte oder die Farbe des Motorrohrs: grau beim SE Pro, grün beim älteren SEL Plus.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+     "https://selve.de/en/service-downloads/faq"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Was bedeutet „2/10“ in der Typbezeichnung meines Selve-Rollladenmotors?",
+    "antwort": "Die erste Zahl ist die Baureihe, die zweite das Drehmoment in Nm. Baureihe 1 hat 35 mm Durchmesser und passt ab der Welle SW40, Baureihe 2 hat 45 mm und passt ab SW50, in der Praxis meist SW60. Baureihe 3 hat 58 mm für SW70. Ein SE Pro 2/10 ist also ein 45-mm-Motor mit 10 Nm, laut Selve gut für 25 kg Rollladen bei 1,5 m Höhe.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+     "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+     "https://www.selve.de/home/produkte/antriebe/se-plus/sw10016/"
+    ],
+    "teile": [
+     "selve-se-pro-2-10-412130"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Mein Selve SEL Plus ist kaputt. Welcher Motor ersetzt ihn?",
+    "antwort": "Selve nennt den SE Pro als Nachfolger des SEL Plus, alle Funktionen sind übernommen, das Motorrohr ist grau statt grün. Für den SEL Plus-RC ist es der SE Pro-RC. Nimm dieselbe Größe, also aus SEL Plus 2/10 wird SE Pro 2/10. Adapter und Steckerleitung der Baureihe 2 werden separat bestellt; den Tausch macht die Elektrofachkraft.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://selve.de/en/service-downloads/faq",
+     "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+     "https://www.rolluikonderdelen.nl/de/marken/selve/motoren-fuer-rolllaeden/verschiedene-typen-von-selve-rohrmotoren/"
+    ],
+    "teile": [
+     "selve-se-pro-2-10-412130",
+     "selve-se-pro-2-10-rc-413130",
+     "selve-adapterset-sw60-baureihe-2"
+    ],
+    "problem": "selve-rollladen-reagiert-nicht"
+   },
+   {
+    "frage": "Passt ein Selve-commeo-Handsender an meinen älteren SEL Plus-R?",
+    "antwort": "Nein. Motoren mit „-R“ nehmen nur iveo- und intronic-Sender, commeo ist ein anderes Funksystem. Für einen SEL Plus-R brauchst du einen iveo-Sender wie den iveo Send 1. commeo funktioniert erst an Motoren mit „-RC“ oder „-com“.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://selve.de/en/service-downloads/faq",
+     "https://www.selve.de/media/6c/ce/7b/1660900299/SELVE_BA_SE-Plus-R_SEL-Plus-R_SEM-Plus-R_SES-R_bis-2015.pdf"
+    ],
+    "teile": [
+     "selve-iveo-send-1-298713"
+    ],
+    "problem": "selve-rollladen-reagiert-nicht"
+   },
+   {
+    "frage": "Kann ich an meinem Selve-„-RC“-Motor einen commeo- und einen iveo-Sender gleichzeitig benutzen?",
+    "antwort": "Nein. Ein „-RC“-Motor arbeitet mit commeo oder mit iveo, nicht mit beiden zugleich. Bis zu 16 Sender desselben Systems passen in einen Motor. Wechselst du später das System, musst du alle Sender des anderen Systems neu einlernen.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://selve.de/en/service-downloads/faq",
+     "https://www.manualslib.de/manual/461713/Selve-Se-Plus-Rc.html?page=41"
+    ],
+    "teile": [
+     "selve-commeo-send-1-297713",
+     "selve-iveo-send-1-298713"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Welchen Selve-Motor brauche ich für eine SW40- oder SW60-Welle?",
+    "antwort": "In die Mini-Welle SW40 gehört ein Motor der Baureihe 1 mit 35 mm, etwa SE Pro 1/10, die Adapter für SW40 liegen bei. In die SW60-Welle gehört Baureihe 2 mit 45 mm plus Adapterset. Das Drehmoment richtet sich nach dem Rollladengewicht: Selve gibt für 10 Nm 25 kg bei 1,5 m und 20 kg bei 2,5 m Höhe an, für 20 Nm 45 und 37 kg.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+     "https://www.selve.de/home/produkte/antriebe/se-plus/sw10016/",
+     "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf"
+    ],
+    "teile": [
+     "selve-se-pro-1-10-410240",
+     "selve-se-pro-2-10-412130",
+     "selve-se-pro-2-20-412170",
+     "selve-adapterset-sw60-baureihe-2"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Wie stelle ich die Endlagen an meinem Selve SE Pro ohne Einstellkabel ein?",
+    "antwort": "Der SE Pro steht ab Werk im automatischen Modus, dafür reicht ein normaler Rollladenschalter. Fahr nach oben gegen den Anschlag und halte den Schalter, dann fährt der Motor selbst nach unten bis zum unteren Anschlag und speichert beide Endlagen. Oben braucht es einen stabilen Anschlag, unten eine Begrenzung wie die Fensterbank. Feste Punkte, etwa mit Hochschiebesicherung, gehen nur mit dem Einstellschalter 290103 oder 291009.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+     "https://selve.de/en/service-downloads/faq"
+    ],
+    "teile": [
+     "selve-universal-einstellschalter-291009",
+     "selve-einstellschalter-290103"
+    ],
+    "problem": "selve-rollladen-endlagen-einstellen"
+   },
+   {
+    "frage": "Wie setze ich die Endlagen meines Selve SE Pro zurück?",
+    "antwort": "Mit Einstellschalter: anschließen und die E-Taste 1 Sekunde drücken, dann sind beide Endlagen gelöscht. Mit normalem Schalter, wenn oben auf Anschlag mit Entlastung eingestellt ist: hochfahren, bis der Motor oben abschaltet, dann fünfmal 3 Sekunden AUF mit je 1 Sekunde Pause und danach AUF halten. Der Motor fährt nach unten, die Endlagen sind gelöscht und du stellst sie neu ein.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+     "https://selve.de/en/service-downloads/faq"
+    ],
+    "teile": [
+     "selve-universal-einstellschalter-291009"
+    ],
+    "problem": "selve-rollladen-endlagen-einstellen"
+   },
+   {
+    "frage": "Mein Selve-Rollladen hat plötzlich die Endlagen vergessen. Woran kann das liegen?",
+    "antwort": "Selve-Antriebe wie der SE Pro haben eine Reset-Folge über den Schalter: mehrmals hintereinander 3 Sekunden AUF. Ein Smart-Home-Aktor kann so eine Folge ungewollt senden; in einem Forum berichtet ein Nutzer genau das bei einem SEL Plus, und der Selve-Support bestätigte ihm die versteckte Reset-Folge. Danach stellst du die Endlagen neu ein.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+     "https://forum.fhem.de/index.php?topic=91783.0"
+    ],
+    "teile": [],
+    "problem": "selve-rollladen-endlagen-einstellen"
+   },
+   {
+    "frage": "Mein Selve-Rollladen bleibt beim Herunterfahren stehen und fährt ein Stück zurück. Ist der Motor kaputt?",
+    "antwort": "Meist nicht. SE Pro, SE Pro-RC und SEE haben eine Hinderniserkennung nach unten und fahren das Hindernis frei. Stoppt der Rollladen beim Hochfahren, hat der Überlastschutz angesprochen, zum Beispiel weil der Panzer festgefroren ist. Läuft gar nichts mehr, hat oft der Thermoschutz nach 4 Minuten Betrieb abgeschaltet; dann 5 bis 20 Minuten warten.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+     "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+     "https://www.selve.de/home/produkte/antriebe/see/sw10011/"
+    ],
+    "teile": [],
+    "problem": "selve-rollladen-stoppt-von-selbst"
+   },
+   {
+    "frage": "Brauche ich für meinen Selve-Motor feste Verbinder wie SecuBlock statt Aufhängefedern?",
+    "antwort": "Kommt auf den Motor an. Der SE Pro läuft mit normalen Aufhängefedern, starre Verbinder sind optional. Der SEE braucht starre Wellenverbinder oder Hochschiebesicherungen und oben einen festen Anschlag. SecuBlock passt auf SW40 bis SW60, nur zusammen mit Motor oder Kurbelgetriebe, und es müssen mindestens zwei je Rollladen sein.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+     "https://www.selve.de/home/produkte/antriebe/see/sw10011/",
+     "https://www.selve.de/home/produkte/rollladenbauteile/secublock/sw10052/"
+    ],
+    "teile": [
+     "selve-secublock-rapid-maxi-3-gliedrig-4-stueck",
+     "selve-secufix-rapid-2-gliedrig"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Darf ich einen Selve-Rollladenmotor selbst anschließen?",
+    "antwort": "Nein. Selve schreibt in den Anleitungen, dass der Anschluss nur durch autorisiertes Fachpersonal erfolgen darf, bei TR-Motoren durch autorisiertes Elektrofachpersonal. Auch der Einstellschalter wird an die 230-V-Leitung geklemmt. Den passenden Motor, Adapter, Aufhängung und Sender kannst du selbst aussuchen.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+     "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf",
+     "https://www.selve.de/media/6c/ce/7b/1660900299/SELVE_BA_SE-Plus-R_SEL-Plus-R_SEM-Plus-R_SES-R_bis-2015.pdf"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Gibt es für Selve-iveo-Sender noch Ersatz?",
+    "antwort": "Ja. Selve schreibt, dass für iveo weiter Ersatzteile geliefert werden, das System aber nicht mehr weiterentwickelt wird. Auf der Selve-Seite stehen der iveo Send 10 und der iveo Wall Send. Für neue Anlagen empfiehlt Selve commeo.",
+    "kategorie": "verfuegbarkeit",
+    "quellen": [
+     "https://selve.de/en/service-downloads/faq",
+     "https://www.selve.de/home/produkte/steuerungen/iveo/iveo-send-10/sw10042/",
+     "https://www.selve.de/home/produkte/steuerungen/iveo/iveo-wall-send/sw10043/"
+    ],
+    "teile": [
+     "selve-iveo-send-1-298713"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Kann ich Selve-Teile direkt bei Selve kaufen?",
+    "antwort": "Nein, Selve beliefert ausschließlich Fachbetriebe und verweist Privatkunden auf die Händlersuche. Motoren, Sender und Rollladenteile bekommst du bei Fachhändlern und Online-Shops, Gurtwickler und SecuBlock zum Beispiel auch bei OTTO.",
+    "kategorie": "bezug",
+    "quellen": [
+     "https://www.selve.de/home/produkte/rollladenbauteile/gurtscheiben-und-begrenzungsscheiben/sw10085/",
+     "https://www.selve.de/home/produkte/rollladenbauteile/secublock/sw10052/",
+     "https://www.otto.de/p/S00CZ0BW/"
+    ],
+    "teile": [],
+    "problem": null
+   }
+  ],
+  "tabellen": [
+   {
+    "id": "motorreihen",
+    "titel": "Selve-Rohrmotoren: Größe, Welle, Gewicht und Artikelnummer",
+    "spalten": [
+     "Größe",
+     "Welle, Ø Motor",
+     "Rollladengewicht bei 1,5 m / 2,5 m",
+     "SE Plus",
+     "SE Plus-RC",
+     "SE Pro",
+     "SE Pro-RC"
+    ],
+    "zeilen": [
+     [
+      "1/4",
+      "SW40, 35 mm",
+      "10 / 8 kg",
+      "–",
+      "381110",
+      "–",
+      "–"
+     ],
+     [
+      "1/6",
+      "SW40, 35 mm",
+      "14 / 11 kg",
+      "380120",
+      "381120",
+      "410220",
+      "411220"
+     ],
+     [
+      "1/7",
+      "SW40, 35 mm",
+      "17 / 14 kg",
+      "–",
+      "381130",
+      "–",
+      "–"
+     ],
+     [
+      "1/10",
+      "SW40, 35 mm",
+      "25 / 20 kg",
+      "380140",
+      "381140",
+      "410240",
+      "411240"
+     ],
+     [
+      "2/6-S",
+      "SW60, 45 mm (kurz)",
+      "14 / 11 kg",
+      "384020",
+      "–",
+      "414100",
+      "–"
+     ],
+     [
+      "2/7",
+      "SW60, 45 mm",
+      "19 / 15 kg",
+      "382020",
+      "383020",
+      "412110",
+      "413110"
+     ],
+     [
+      "2/10",
+      "SW60, 45 mm",
+      "25 / 20 kg",
+      "382040",
+      "383040",
+      "412130",
+      "413130"
+     ],
+     [
+      "2/15",
+      "SW60, 45 mm",
+      "35 / 29 kg",
+      "382050",
+      "383050",
+      "412150",
+      "413150"
+     ],
+     [
+      "2/20",
+      "SW60, 45 mm",
+      "45 / 37 kg",
+      "382060",
+      "383060",
+      "412170",
+      "413170"
+     ],
+     [
+      "2/30",
+      "SW60, 45 mm",
+      "67 / 56 kg",
+      "382070",
+      "383070",
+      "412180",
+      "413180"
+     ],
+     [
+      "2/40",
+      "SW60, 45 mm",
+      "88 / 72 kg",
+      "382080",
+      "383080",
+      "412190",
+      "413190"
+     ],
+     [
+      "2/50",
+      "SW60, 45 mm",
+      "102 / 83 kg",
+      "382190",
+      "383190",
+      "412293",
+      "413293"
+     ],
+     [
+      "3/50",
+      "SW70, 58 mm",
+      "99 / 81 kg",
+      "386013",
+      "387013",
+      "–",
+      "–"
+     ],
+     [
+      "3/80",
+      "SW70, 58 mm",
+      "154 / 130 kg",
+      "386143",
+      "387143",
+      "–",
+      "–"
+     ],
+     [
+      "3/120",
+      "SW70, 58 mm",
+      "232 / 200 kg",
+      "386153",
+      "387153",
+      "–",
+      "–"
+     ]
+    ],
+    "hinweis": "Werte und Nummern aus den Selve-Produktseiten (Selve schreibt die Nummern mit Leerzeichen, etwa 38 20 40). Die erste Zahl der Größe ist die Baureihe, die zweite das Drehmoment in Nm. Die ältere Reihe TR hat andere Werte: TR 2/17 schafft 37 / 30 kg, TR 2/25 52 / 45 kg, TR 2/40 73 / 65 kg. Den Motor schließt die Elektrofachkraft an."
+   },
+   {
+    "id": "funk",
+    "titel": "Welcher Sender passt? Die Endung am Motor entscheidet",
+    "spalten": [
+     "Endung am Motor",
+     "Beispiele",
+     "Passende Sender",
+     "Passt nicht"
+    ],
+    "zeilen": [
+     [
+      "keine",
+      "SE Plus, SE Pro, SEL Plus, SEE, TR",
+      "kein Funk; Wandschalter oder Zeitschaltuhr am Kabel",
+      "Funksender"
+     ],
+     [
+      "-R (bis 2015)",
+      "SE Plus-R, SEL Plus-R, SES-R",
+      "iveo und intronic, 868,3 MHz, bis 16 Sender",
+      "commeo"
+     ],
+     [
+      "-RC",
+      "SE Plus-RC, SE Pro-RC, SEL Plus-RC, SEE-RC",
+      "commeo oder iveo, bis 16 Sender",
+      "commeo und iveo zugleich; nach einem Systemwechsel alle Sender neu einlernen"
+     ],
+     [
+      "-com",
+      "SE Solar-com, SI Pro-com, SE Breeze-com",
+      "nur commeo",
+      "iveo und intronic"
+     ]
+    ],
+    "hinweis": "Nach der Selve-FAQ und den Anleitungen. „RC“ steht für „radio commeo“. iveo ist das 2012 umbenannte intronic, einseitig ohne Rückmeldung; commeo funkt in beide Richtungen und ist das neuere System. Für iveo liefert Selve weiter Ersatzteile, entwickelt es aber nicht weiter."
+   },
+   {
+    "id": "tr",
+    "titel": "Ältere Baureihe TR (Anleitung 04.2002)",
+    "spalten": [
+     "Typ",
+     "Artikelnummer",
+     "Welle",
+     "Drehmoment",
+     "Rollladengewicht bei 1,5 m / 2,5 m"
+    ],
+    "zeilen": [
+     [
+      "TR 1/6",
+      "340030",
+      "SW40",
+      "6 Nm",
+      "14 / 11 kg"
+     ],
+     [
+      "TR 1/10",
+      "340040",
+      "SW40",
+      "10 Nm",
+      "25 / 20 kg"
+     ],
+     [
+      "TR 2/10",
+      "342000",
+      "SW60",
+      "10 Nm",
+      "25 / 20 kg"
+     ],
+     [
+      "TR 2/17",
+      "342010",
+      "SW60",
+      "17 Nm",
+      "37 / 30 kg"
+     ],
+     [
+      "TR 2/25",
+      "342030",
+      "SW60",
+      "25 Nm",
+      "52 / 45 kg"
+     ],
+     [
+      "TR 2/40",
+      "342040",
+      "SW60",
+      "40 Nm",
+      "73 / 65 kg"
+     ]
+    ],
+    "hinweis": "Der TR schaltet mechanisch über das Drehmoment ab, eingestellt mit der oberen Einstellschraube. Wer einen TR ersetzt, wählt einen aktuellen Motor derselben Welle und mindestens desselben Gewichts."
+   }
+  ]
+ },
+ "serien": [
+  {
+   "slug": "se-plus",
+   "name": "Selve SE Plus",
+   "produkttyp": "rollladenmotor",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "SE Plus",
+    "SE Plus 1/6",
+    "SE Plus 1/10",
+    "SE Plus 2/10",
+    "SE Plus 2/15",
+    "SE Plus 2/20",
+    "380120",
+    "380140",
+    "382020",
+    "382040",
+    "382050",
+    "382060",
+    "382070",
+    "382080",
+    "382190"
+   ],
+   "erkennungsmerkmale": "Rohrmotor mit elektronischer Endabschaltung und vieradrigem Kabel ohne Funkempfänger. Auf dem Typenschild steht „SE Plus“ und die Größe wie 2/10: die erste Zahl ist die Baureihe (1 = 35 mm Durchmesser für SW40, 2 = 45 mm für SW60, 3 = 58 mm für SW70), die zweite das Drehmoment in Nm. Artikelnummern beginnen mit 380, 382, 384 oder 386.",
+   "beschreibung": "Universalantrieb für Rollläden, Markisen und Screens mit 4 Minuten Betriebszeit. Die Endlagen werden als „Punkt zu Anschlag“ oder „Punkt zu Punkt“ eingestellt, dafür gibt es den Selve-Einstellschalter. Baureihe 2 braucht ein Adapterset für die Welle und eine steckbare Anschlussleitung, beides wird separat bestellt. Selve: Der Anschluss des Antriebs darf nur durch autorisiertes Fachpersonal erfolgen, Einbau, Anschluss und Tausch macht deshalb die Elektrofachkraft.",
+   "quellen": [
+    "https://www.selve.de/home/produkte/antriebe/se-plus/sw10016/",
+    "https://www.otto.de/p/S04GQ0G9/",
+    "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf"
+   ]
+  },
+  {
+   "slug": "se-plus-rc",
+   "name": "Selve SE Plus-RC (Funk)",
+   "produkttyp": "rollladenmotor",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "SE Plus-RC",
+    "SE Plus 2/10-RC",
+    "SE Plus 2/15-RC",
+    "SE Plus 1/10-RC",
+    "381110",
+    "381120",
+    "381130",
+    "381140",
+    "383020",
+    "383040",
+    "383050",
+    "383060",
+    "383070",
+    "383080"
+   ],
+   "erkennungsmerkmale": "Wie der SE Plus, aber mit eingebautem Funkempfänger und fünfadriger Leitung. Die Endung „-RC“ steht hinter der Größe, etwa SE Plus 2/10-RC. Artikelnummern beginnen mit 381, 383 oder 387.",
+   "beschreibung": "Funkantrieb mit elektronischer Endabschaltung. Selve gibt an, dass „-RC“-Antriebe mit commeo- und mit iveo-Sendern laufen, aber nicht mit beiden zugleich. Bis zu 16 Sender passen in einen Motor. Endlagen stellst du mit einem commeo-Sender oder dem Einstellschalter ein. Selve: Der Anschluss des Antriebs darf nur durch autorisiertes Fachpersonal erfolgen, Einbau, Anschluss und Tausch macht deshalb die Elektrofachkraft.",
+   "quellen": [
+    "https://www.selve.de/home/produkte/antriebe/se-plus-rc-funk/sw10017/",
+    "https://selve.de/en/service-downloads/faq",
+    "https://www.manualslib.de/manual/461713/Selve-Se-Plus-Rc.html?page=41"
+   ]
+  },
+  {
+   "slug": "se-pro",
+   "name": "Selve SE Pro",
+   "produkttyp": "rollladenmotor",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "SE Pro",
+    "SE Pro 1/10",
+    "SE Pro 2/10",
+    "SE Pro 2/15",
+    "SE Pro 2/20",
+    "410220",
+    "410240",
+    "414100",
+    "412110",
+    "412130",
+    "412150",
+    "412170",
+    "412180",
+    "412190",
+    "412293"
+   ],
+   "erkennungsmerkmale": "Motorrohr grau (beim Vorgänger SEL Plus grün). Typenschild mit „SE Pro“ und Größe wie 2/10. Vieradrige Leitung, kein Funk. Artikelnummern beginnen mit 410, 412 oder 414.",
+   "beschreibung": "Rollladenantrieb mit Hinderniserkennung nach unten und lernendem Überlastschutz nach oben (Festfrierschutz). Selve nennt ihn den Nachfolger des SEL Plus mit allen Funktionen. Die Endlagen stellt er im automatischen Modus mit jedem Rollladenschalter selbst ein, für feste untere Punkte braucht man den Einstellschalter 290103 oder 291009. Nur für einteilige Anlagen. Selve: Der Anschluss des Antriebs darf nur durch autorisiertes Fachpersonal erfolgen, Einbau, Anschluss und Tausch macht deshalb die Elektrofachkraft.",
+   "quellen": [
+    "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+    "https://selve.de/en/service-downloads/faq",
+    "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf"
+   ]
+  },
+  {
+   "slug": "se-pro-rc",
+   "name": "Selve SE Pro-RC (Funk)",
+   "produkttyp": "rollladenmotor",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "SE Pro-RC",
+    "SE Pro 2/10-RC",
+    "SE Pro 2/15-RC",
+    "SE Pro 2/20-RC",
+    "SE Pro 1/10-RC",
+    "411220",
+    "411240",
+    "413110",
+    "413130",
+    "413150",
+    "413170",
+    "413180",
+    "413190",
+    "413293"
+   ],
+   "erkennungsmerkmale": "Grauer Rohrmotor mit Funkempfänger, fünfadrige Leitung, Endung „-RC“ hinter der Größe. Artikelnummern beginnen mit 411 oder 413.",
+   "beschreibung": "SE Pro mit eingebautem Empfänger für commeo und iveo, mit SELVE Home kompatibel. Ersteinstellung „Auf – Ab – Fertig“ mit einem commeo-Sender; die Endlagen lassen sich mit dem Sender löschen und neu setzen. Einbau mit normalen Aufhängefedern möglich. Selve: Der Anschluss des Antriebs darf nur durch autorisiertes Fachpersonal erfolgen, Einbau, Anschluss und Tausch macht deshalb die Elektrofachkraft.",
+   "quellen": [
+    "https://www.selve.de/home/produkte/antriebe/se-pro-rc-funk/sw10013/",
+    "https://selve.de/en/service-downloads/faq"
+   ]
+  },
+  {
+   "slug": "see",
+   "name": "Selve SEE und SEE-RC (Plug & Play)",
+   "produkttyp": "rollladenmotor",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "SEE",
+    "SEE-RC",
+    "SEE 2/10",
+    "SEE 2/10-RC",
+    "380340",
+    "384320",
+    "382320",
+    "382340",
+    "382350",
+    "382360",
+    "382370",
+    "381340",
+    "383320",
+    "383340",
+    "383350",
+    "383360",
+    "383370"
+   ],
+   "erkennungsmerkmale": "Typenschild mit „SEE“ und Größe wie 2/10, die Funkversion trägt „-RC“. Beispiele: SEE 2/10 hat die Artikelnummer 382340, SEE 2/10-RC 383340.",
+   "beschreibung": "Antrieb, der nach dem Anschluss beide Endlagen selbst findet. Er braucht starre Wellenverbinder oder Hochschiebesicherungen und oben einen festen Anschlag. Die Funkversion SEE-RC läuft mit commeo- oder iveo-Sendern. Selve: Der Anschluss des Antriebs darf nur durch autorisiertes Fachpersonal erfolgen, Einbau, Anschluss und Tausch macht deshalb die Elektrofachkraft.",
+   "quellen": [
+    "https://www.selve.de/home/produkte/antriebe/see/sw10011/",
+    "https://www.selve.de/home/produkte/antriebe/see-rc-funk/sw10012/"
+   ]
+  },
+  {
+   "slug": "sel-plus",
+   "name": "Selve SEL Plus (bis 2019, Vorgänger des SE Pro)",
+   "produkttyp": "rollladenmotor",
+   "baujahr_von": null,
+   "baujahr_bis": 2019,
+   "kennnummern": [
+    "SEL Plus",
+    "SEL Plus 2/7",
+    "SEL Plus 2/10",
+    "SEL Plus 2/15",
+    "SES"
+   ],
+   "erkennungsmerkmale": "Grünes Motorrohr, Typenschild mit „SEL Plus“ und Größe wie 2/10. Vieradrige Leitung (gelb-grün PE, schwarz AB, braun AUF, blau N).",
+   "beschreibung": "Elektronischer Rollladenmotor mit automatischer Endlagen-Einstellung und Hinderniserkennung. Selve hat ihn durch den SE Pro ersetzt, der alle Funktionen übernimmt. Die Anleitung (Stand bis 2019) steht bei Selve unter „Ausgelaufene Produkte“. Selve: Der Anschluss des Antriebs darf nur durch autorisiertes Fachpersonal erfolgen, Einbau, Anschluss und Tausch macht deshalb die Elektrofachkraft.",
+   "quellen": [
+    "https://www.selve.de/media/e7/20/7c/1627563308/SELVE_BA_SEL_Plus_SES_D_GB_F_NL_PL_web_bis-2019.pdf",
+    "https://selve.de/en/service-downloads/faq",
+    "https://www.selve.de/service-downloads/bedienungsanleitungen-broschueren-und-kataloge/ausgelaufene-produkte/",
+    "https://www.rolluikonderdelen.nl/de/marken/selve/motoren-fuer-rolllaeden/verschiedene-typen-von-selve-rohrmotoren/"
+   ]
+  },
+  {
+   "slug": "sel-plus-rc",
+   "name": "Selve SEL Plus-RC (Funk, bis 2019)",
+   "produkttyp": "rollladenmotor",
+   "baujahr_von": null,
+   "baujahr_bis": 2019,
+   "kennnummern": [
+    "SEL Plus-RC",
+    "SEL Plus 2/10-RC",
+    "SES-RC"
+   ],
+   "erkennungsmerkmale": "Grünes Motorrohr mit Funkempfänger, Endung „-RC“. Auf der Anleitung steht „commeo/iveo“.",
+   "beschreibung": "Funkversion des SEL Plus für commeo- und iveo-Sender. Der Nachfolger ist der SE Pro-RC. Selve: Der Anschluss des Antriebs darf nur durch autorisiertes Fachpersonal erfolgen, Einbau, Anschluss und Tausch macht deshalb die Elektrofachkraft.",
+   "quellen": [
+    "https://www.selve.de/media/9e/4d/87/1660900300/SELVE_BA_SEL_Plus_SES_RC_D_GB_F_NL_PL_web_bis-2019.pdf",
+    "https://www.selve.de/service-downloads/bedienungsanleitungen-broschueren-und-kataloge/ausgelaufene-produkte/",
+    "https://www.rolluikonderdelen.nl/de/marken/selve/motoren-fuer-rolllaeden/verschiedene-typen-von-selve-rohrmotoren/",
+    "https://selve.de/en/service-downloads/faq"
+   ]
+  },
+  {
+   "slug": "sel-plus-r",
+   "name": "Selve SE Plus-R, SEL Plus-R (Funk, bis 2015)",
+   "produkttyp": "rollladenmotor",
+   "baujahr_von": null,
+   "baujahr_bis": 2015,
+   "kennnummern": [
+    "SEL Plus-R",
+    "SE Plus-R",
+    "SEM Plus-R",
+    "SES-R",
+    "intronic"
+   ],
+   "erkennungsmerkmale": "Funkmotor mit Endung „-R“ und fünfadriger Leitung. Diese Motoren empfangen 868,3 MHz und nehmen nur iveo- und intronic-Sender.",
+   "beschreibung": "Ältere Funkmotoren für das System intronic, das 2012 in iveo umbenannt wurde. Bis zu 16 Sender je Motor. Endlagen werden mit einem intronic- oder iveo-Sender oder dem Einstellschalter für Funk-Antriebe 290109 eingestellt. commeo-Sender passen nicht. Selve: Der Anschluss des Antriebs darf nur durch autorisiertes Fachpersonal erfolgen, Einbau, Anschluss und Tausch macht deshalb die Elektrofachkraft.",
+   "quellen": [
+    "https://www.selve.de/media/6c/ce/7b/1660900299/SELVE_BA_SE-Plus-R_SEL-Plus-R_SEM-Plus-R_SES-R_bis-2015.pdf",
+    "https://selve.de/en/service-downloads/faq",
+    "https://www.selve.de/service-downloads/bedienungsanleitungen-broschueren-und-kataloge/ausgelaufene-produkte/"
+   ]
+  },
+  {
+   "slug": "tr",
+   "name": "Selve TR (Baureihe aus 2002)",
+   "produkttyp": "rollladenmotor",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "TR",
+    "TR 1/6",
+    "TR 1/10",
+    "TR 2/10",
+    "TR 2/17",
+    "TR 2/25",
+    "TR 2/40",
+    "340030",
+    "340040",
+    "342000",
+    "342010",
+    "342030",
+    "342040"
+   ],
+   "erkennungsmerkmale": "Älterer Rohrmotor mit zwei Einstellschrauben am Motorkopf. TR1 gehört in die SW40-Welle, TR2 in die SW60-Welle.",
+   "beschreibung": "Der TR schaltet über eine mechanische Drehmomenterkennung ab. Oben stellt man die Abschaltkraft mit der oberen Einstellschraube ein, die untere bleibt ab Werk ohne Vorspannung. Der Panzer darf nur mit Sicherungs- und Befestigungsfedern oder direkt an der Welle hängen. Die Einstellanleitung ist von 04.2002. Selve: Der Anschluss des Antriebs darf nur durch autorisiertes Fachpersonal erfolgen, Einbau, Anschluss und Tausch macht deshalb die Elektrofachkraft.",
+   "quellen": [
+    "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf",
+    "https://www.selve.de/service-downloads/bedienungsanleitungen-broschueren-und-kataloge/ausgelaufene-produkte/"
+   ]
+  },
+  {
+   "slug": "aufputz-gurtwickler-mini",
+   "name": "Selve Aufputz-Gurtwickler Mini",
+   "produkttyp": "gurtwickler",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "084803",
+    "084601",
+    "Aufputz-Gurtwickler",
+    "Mini-Gurtwickler"
+   ],
+   "erkennungsmerkmale": "Schmaler Aufschraubwickler, um 180° schwenkbar, Gehäuse zum Aufklappen. Für Mini-Gurt (Selve schreibt 14 oder 15 mm). Lochabstand je nach Ausführung 145 oder 155 mm, Gurt bis 5 m.",
+   "beschreibung": "Selve baut seine Gurtwickler in Bad Arolsen, mit Federdose aus Metall. Den Lochabstand misst du zwischen den beiden Schraublöchern am alten Wickler; der neue muss passen.",
+   "quellen": [
+    "https://www.selve.de/home/produkte/rollladenbauteile/gurtwickler/sw10047/",
+    "https://www.otto.de/p/S0RAX02B/",
+    "https://www.ebay.de/p/2256046821",
+    "https://www.amazon.de/dp/B01N7TOYXY"
+   ]
+  }
+ ],
+ "teile": [
+  {
+   "slug": "selve-se-plus-2-10-382040",
+   "name": "Selve SE Plus 2/10, 10 Nm, SW60 (382040)",
+   "teiltyp": "rollladenmotor",
+   "oem_nummer": "382040",
+   "ean": "4039092088555",
+   "masse": {
+    "drehmoment_nm": 10,
+    "welle": "SW60",
+    "durchmesser_mm": 45,
+    "kg_1_5m": 25,
+    "kg_2_5m": 20
+   },
+   "beschreibung": "Rohrmotor mit elektronischer Endabschaltung, 45 mm Durchmesser, für die Achtkantwelle SW60. Selve gibt 25 kg Rollladengewicht bei 1,5 m Höhe und 20 kg bei 2,5 m an. Kabelgebunden, ohne Funk. Selve: Der Anschluss des Antriebs darf nur durch autorisiertes Fachpersonal erfolgen, Einbau, Anschluss und Tausch macht deshalb die Elektrofachkraft.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.selve.de/home/produkte/antriebe/se-plus/sw10016/",
+    "https://www.otto.de/p/S04GQ0G9/"
+   ]
+  },
+  {
+   "slug": "selve-se-pro-1-10-410240",
+   "name": "Selve SE Pro 1/10, 10 Nm, SW40 (410240)",
+   "teiltyp": "rollladenmotor",
+   "oem_nummer": "410240",
+   "ean": null,
+   "masse": {
+    "drehmoment_nm": 10,
+    "welle": "SW40",
+    "durchmesser_mm": 35,
+    "kg_1_5m": 25,
+    "kg_2_5m": 20
+   },
+   "beschreibung": "SE Pro der Baureihe 1 mit 35 mm Durchmesser für die Mini-Welle SW40, mit Hinderniserkennung. 25 kg bei 1,5 m, 20 kg bei 2,5 m Rollladenhöhe. Adapter für SW40 liegen bei. Selve: Der Anschluss des Antriebs darf nur durch autorisiertes Fachpersonal erfolgen, Einbau, Anschluss und Tausch macht deshalb die Elektrofachkraft.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/"
+   ]
+  },
+  {
+   "slug": "selve-se-pro-2-10-412130",
+   "name": "Selve SE Pro 2/10, 10 Nm, SW60 (412130)",
+   "teiltyp": "rollladenmotor",
+   "oem_nummer": "412130",
+   "ean": null,
+   "masse": {
+    "drehmoment_nm": 10,
+    "welle": "SW60",
+    "durchmesser_mm": 45,
+    "kg_1_5m": 25,
+    "kg_2_5m": 20
+   },
+   "beschreibung": "SE Pro mit 45 mm Durchmesser für die SW60-Welle, Hinderniserkennung und Festfrierschutz. 25 kg bei 1,5 m, 20 kg bei 2,5 m. Adapterset und Steckerleitung werden separat bestellt. Selve: Der Anschluss des Antriebs darf nur durch autorisiertes Fachpersonal erfolgen, Einbau, Anschluss und Tausch macht deshalb die Elektrofachkraft.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+    "https://www.der-sonnenschutz-shop.de/de/selve-se-pro-2-10-universalmotor-412130.html"
+   ]
+  },
+  {
+   "slug": "selve-se-pro-2-20-412170",
+   "name": "Selve SE Pro 2/20, 20 Nm, SW60 (412170)",
+   "teiltyp": "rollladenmotor",
+   "oem_nummer": "412170",
+   "ean": null,
+   "masse": {
+    "drehmoment_nm": 20,
+    "welle": "SW60",
+    "durchmesser_mm": 45,
+    "kg_1_5m": 45,
+    "kg_2_5m": 37
+   },
+   "beschreibung": "SE Pro für schwere oder hohe Rollläden an der SW60-Welle: 45 kg bei 1,5 m, 37 kg bei 2,5 m Höhe. Selve: Der Anschluss des Antriebs darf nur durch autorisiertes Fachpersonal erfolgen, Einbau, Anschluss und Tausch macht deshalb die Elektrofachkraft.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/"
+   ]
+  },
+  {
+   "slug": "selve-se-plus-2-10-rc-383040",
+   "name": "Selve SE Plus 2/10-RC Funk, 10 Nm, SW60 (383040)",
+   "teiltyp": "rollladenmotor",
+   "oem_nummer": "383040",
+   "ean": null,
+   "masse": {
+    "drehmoment_nm": 10,
+    "welle": "SW60",
+    "durchmesser_mm": 45,
+    "kg_1_5m": 25,
+    "kg_2_5m": 20
+   },
+   "beschreibung": "SE Plus mit Funkempfänger für commeo oder iveo, 45 mm Durchmesser, 25 kg bei 1,5 m, 20 kg bei 2,5 m. Selve: Der Anschluss des Antriebs darf nur durch autorisiertes Fachpersonal erfolgen, Einbau, Anschluss und Tausch macht deshalb die Elektrofachkraft.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.selve.de/home/produkte/antriebe/se-plus-rc-funk/sw10017/"
+   ]
+  },
+  {
+   "slug": "selve-se-pro-2-10-rc-413130",
+   "name": "Selve SE Pro 2/10-RC Funk, 10 Nm, SW60 (413130)",
+   "teiltyp": "rollladenmotor",
+   "oem_nummer": "413130",
+   "ean": null,
+   "masse": {
+    "drehmoment_nm": 10,
+    "welle": "SW60",
+    "durchmesser_mm": 45,
+    "kg_1_5m": 25,
+    "kg_2_5m": 20
+   },
+   "beschreibung": "SE Pro mit Funkempfänger für commeo und iveo, Hinderniserkennung, 25 kg bei 1,5 m, 20 kg bei 2,5 m. Selve: Der Anschluss des Antriebs darf nur durch autorisiertes Fachpersonal erfolgen, Einbau, Anschluss und Tausch macht deshalb die Elektrofachkraft.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.selve.de/home/produkte/antriebe/se-pro-rc-funk/sw10013/"
+   ]
+  },
+  {
+   "slug": "selve-commeo-send-1-297713",
+   "name": "Selve commeo Send 1, 1-Kanal-Handsender (297713)",
+   "teiltyp": "rollladen-handsender",
+   "oem_nummer": "297713",
+   "ean": "4039092107010",
+   "masse": {
+    "kanaele": 1,
+    "batterie": "2 × AAA",
+    "frequenz": "868 MHz"
+   },
+   "beschreibung": "Handsender mit einem Kanal und Rückmeldung (bidirektional) für Funkmotoren mit „-RC“ oder „-com“. Zwei AAA-Batterien, Wandhalter dabei. Den Sender lernst du am Motor selbst an. Passt nicht an „-R“-Motoren.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": "B07V3VP1PR",
+   "quellen": [
+    "https://webshop.kluxen.de/SELVE-297713-commeo-Send-1--Funk-Handsender--item-01611619",
+    "https://www.amazon.de/dp/B07V3VP1PR",
+    "https://www.selve.de/home/produkte/steuerungen/commeo/commeo-send-1-10/sw10033/",
+    "https://selve.de/en/service-downloads/faq"
+   ]
+  },
+  {
+   "slug": "selve-commeo-send-1-297761",
+   "name": "Selve commeo Send 1, neues Design (297761)",
+   "teiltyp": "rollladen-handsender",
+   "oem_nummer": "297761",
+   "ean": null,
+   "masse": {
+    "kanaele": 1,
+    "batterie": "2 × AAA"
+   },
+   "beschreibung": "Aktueller 1-Kanal-Handsender im Design „commeo 2.0“ mit matter Oberfläche und Magnet-Wandhalter, 2 × AAA. Gleiches Funksystem wie der ältere commeo Send 1.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.selve.de/home/produkte/steuerungen/commeo/commeo-send-1-10/sw10033/",
+    "https://www.rolluikonderdelen.nl/en/commeo-send-1-channel-handheld-transmitter-163746569.html",
+    "https://www.der-sonnenschutz-shop.de/de/selve-commeo-send-1-funk-handsender-weiss-297761.html"
+   ]
+  },
+  {
+   "slug": "selve-commeo-multi-send-297724",
+   "name": "Selve commeo Multi Send, Design 1.0 (297724)",
+   "teiltyp": "rollladen-handsender",
+   "oem_nummer": "297724",
+   "ean": "4039092105641",
+   "masse": {},
+   "beschreibung": "Handsender mit Display und Zeitschaltuhr für mehrere Motoren im Design 1.0. Selve verkauft inzwischen den commeo Multi Send mit 32 Kanälen und 16 Gruppen. Nur über den Multi Send gibt es beim SE Solar-com den leisen Modus.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.unielektro.de/SELVE-297724-commeo-Multi-Send-Funk-Handsender--item-01611623",
+    "https://www.ebay.de/p/2080453351",
+    "https://www.selve.de/home/produkte/steuerungen/commeo/commeo-multi-send/sw10030/",
+    "https://selve.de/en/service-downloads/faq"
+   ]
+  },
+  {
+   "slug": "selve-commeo-wall-send-297766",
+   "name": "Selve commeo Wall Send, 1-Kanal-Wandsender (297766)",
+   "teiltyp": "rollladen-handsender",
+   "oem_nummer": "297766",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Funk-Wandsender mit einem Kanal, batteriebetrieben und ohne Elektroanschluss. Das Maß 50 × 50 mm passt mit Adapterrahmen in viele Schalterprogramme.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://fenstergigant.net/en/products/380064",
+    "https://www.selve.de/home/produkte/steuerungen/commeo/commeo-wall-send/sw10032/"
+   ]
+  },
+  {
+   "slug": "selve-iveo-send-1-298713",
+   "name": "Selve iveo Send 1, 1-Kanal-Handsender (298713)",
+   "teiltyp": "rollladen-handsender",
+   "oem_nummer": "298713",
+   "ean": null,
+   "masse": {
+    "kanaele": 1,
+    "batterie": "2 × AAA",
+    "frequenz": "868,3 MHz"
+   },
+   "beschreibung": "Handsender ohne Rückmeldung (unidirektional) für iveo und die älteren intronic-Motoren mit „-R“, läuft auch an „-RC“-Motoren. 868,3 MHz, 2 × AAA. Selve liefert für iveo weiter Ersatzteile, entwickelt das System aber nicht weiter.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": "B06X6K7NF8",
+   "quellen": [
+    "https://www.selve.de/media/8e/07/ce/1622811818/046_iveo_Send_1.pdf",
+    "https://www.amazon.de/dp/B06X6K7NF8",
+    "https://www.selve.de/home/produkte/steuerungen/iveo/iveo-send-10/sw10042/",
+    "https://selve.de/en/service-downloads/faq"
+   ]
+  },
+  {
+   "slug": "selve-universal-einstellschalter-291009",
+   "name": "Selve Universal-Einstellschalter für SE-Antriebe (291009)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "291009",
+   "ean": "4039092120354",
+   "masse": {},
+   "beschreibung": "Einstellkabel mit AUF-, AB- und E-Taste für die Endlagen aller SE-, SE-RC- und SE-SMI-Antriebe, umschaltbar für vier- und fünfadrige Leitungen. Die Adern werden farbgleich an die Motorleitung geklemmt, das ist eine Arbeit an 230 V und gehört zur Elektrofachkraft.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": "B06VX7WS26",
+   "quellen": [
+    "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+    "https://selve.de/en/service-downloads/faq",
+    "https://www.ebay.de/p/25057552186",
+    "https://elecena.pl/product/21749235/291009-motor-adjustment-switch-with-quick-connect-terminals",
+    "https://www.amazon.de/dp/B06VX7WS26"
+   ]
+  },
+  {
+   "slug": "selve-einstellschalter-290103",
+   "name": "Selve Einstellschalter für elektronische Antriebe (290103)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "290103",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Älterer Einstellschalter für vieradrige Selve-Antriebe wie SEL Plus und SE Pro. Damit lassen sich Endlagen manuell setzen und mit 1 Sekunde E-Taste löschen. Anschluss an der Motorleitung macht die Elektrofachkraft.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.selve.de/media/e7/20/7c/1627563308/SELVE_BA_SEL_Plus_SES_D_GB_F_NL_PL_web_bis-2019.pdf",
+    "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf"
+   ]
+  },
+  {
+   "slug": "selve-einstellschalter-funk-290109",
+   "name": "Selve Einstellschalter für Funk-Antriebe (290109)",
+   "teiltyp": "sonstiges",
+   "oem_nummer": "290109",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Einstellschalter für die fünfadrigen Funkmotoren SE Plus-R, SEL Plus-R und SES-R aus der Zeit bis 2015. Anschluss an der Motorleitung macht die Elektrofachkraft.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.selve.de/media/6c/ce/7b/1660900299/SELVE_BA_SE-Plus-R_SEL-Plus-R_SEM-Plus-R_SES-R_bis-2015.pdf"
+   ]
+  },
+  {
+   "slug": "selve-secublock-rapid-maxi-3-gliedrig-4-stueck",
+   "name": "Selve SecuBlock rapid Maxi, 3-gliedrig, 4 Stück",
+   "teiltyp": "rollladen-aufhaengung",
+   "oem_nummer": null,
+   "ean": "4060247114102",
+   "masse": {
+    "glieder": 3,
+    "stueck": 4,
+    "welle": "SW40 bis SW60"
+   },
+   "beschreibung": "Hochschiebesicherung, die den Panzer fest mit der Welle verbindet. Wird ohne Schrauben in die Rechtecklochung 5,5 × 8 mm gehängt und mit einer 30°-Drehung verriegelt. Für SW40 bis SW60, nur mit Motor oder Kurbelgetriebe, mindestens zwei je Rollladen.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Münze oder Schraubendreher",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.otto.de/p/S00CZ0BW/",
+    "https://www.selve.de/home/produkte/rollladenbauteile/secublock/sw10052/",
+    "https://rolluikonderdelen.nl/en/secublock-rapid-rigid-connection.html"
+   ]
+  },
+  {
+   "slug": "selve-secublock-rapid-maxi-2-gliedrig-4-stueck",
+   "name": "Selve SecuBlock rapid Maxi, 2-gliedrig, 4 Stück",
+   "teiltyp": "rollladen-aufhaengung",
+   "oem_nummer": null,
+   "ean": null,
+   "masse": {
+    "glieder": 2,
+    "stueck": 4
+   },
+   "beschreibung": "Kürzere SecuBlock-Ausführung für kleinere Rollladenkästen. Laut Händlerangabe für Achtkantwellen 50 und 60 und Lamellen von 8 bis 14 mm Stärke.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Münze oder Schraubendreher",
+   "amazon_asin": "B0CVL1XLQF",
+   "quellen": [
+    "https://www.amazon.de/dp/B0CVL1XLQF",
+    "https://www.selve.de/home/produkte/rollladenbauteile/secublock/sw10052/"
+   ]
+  },
+  {
+   "slug": "selve-secufix-rapid-2-gliedrig",
+   "name": "Selve SecuFix rapid, 2-gliedrig, 1 Stück",
+   "teiltyp": "rollladen-aufhaengung",
+   "oem_nummer": null,
+   "ean": "4260525219806",
+   "masse": {
+    "glieder": 2,
+    "stueck": 1,
+    "welle": "SW40 bis SW60"
+   },
+   "beschreibung": "Starrer Wellenverbinder für Antriebe, die unten über das Drehmoment abschalten. Mit Motoren ohne Auflaufschutz (Spindel-Endabschaltung) müssen die Endlagen genau stimmen, sonst nimmt das System Schaden. Mindestens zwei je Rollladen.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.otto.de/p/S0DCX0J2/",
+    "https://www.selve.de/home/produkte/rollladenbauteile/secufix-secufix-push-go/sw10051/"
+   ]
+  },
+  {
+   "slug": "selve-adapterset-sw60-baureihe-2",
+   "name": "Selve Adapterset SW60 für Antriebe der Baureihe 2 (Laufring 288020)",
+   "teiltyp": "rollladen-welle",
+   "oem_nummer": "288020",
+   "ean": null,
+   "masse": {
+    "welle": "SW60",
+    "baureihe": 2
+   },
+   "beschreibung": "Laufring und Kupplungsadapter, mit denen ein Selve-Motor der Baureihe 2 (45 mm) in die Achtkantwelle SW60 passt. Selve liefert Baureihe 2 ohne Adapter aus. Der Kupplungsadapter hängt am Drehmoment, Händler nennen 288226 (bis 30 Nm) und 288225.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.caliso.de/motorzubehoer/selve/adapter-mitnehmer-baureihe-2-sw60-bis-30nm",
+    "https://www.enobi.de/rohrmotore/mechanisches-zubehoer/selve-adapter-mitnehmer/se0101",
+    "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+    "https://www.selve.de/home/produkte/antriebe/se-plus/sw10016/"
+   ]
+  },
+  {
+   "slug": "selve-gurtscheibe-mini-sw40",
+   "name": "Selve Gurtscheibe Mini für SW40 und 14/15-mm-Gurt",
+   "teiltyp": "rollladen-welle",
+   "oem_nummer": null,
+   "ean": "4060247096491",
+   "masse": {
+    "welle": "SW40",
+    "gurtbreite_mm": "14/15"
+   },
+   "beschreibung": "Kunststoff-Gurtscheibe für die Achtkantwelle SW40 und Mini-Gurt. Selve führt Gurtscheiben von 85 bis 215 mm Durchmesser, die Größe richtet sich nach Rollladenhöhe und Platz im Kasten.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 60,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.otto.de/p/S0SAY0R2/",
+    "https://www.selve.de/home/produkte/rollladenbauteile/gurtscheiben-und-begrenzungsscheiben/sw10085/"
+   ]
+  },
+  {
+   "slug": "selve-aufputz-gurtwickler-084803",
+   "name": "Selve Aufputz-Gurtwickler mit Scharnier, 5 m Gurt (084803)",
+   "teiltyp": "gurtwickler",
+   "oem_nummer": "084803",
+   "ean": "4039092004913",
+   "masse": {
+    "gurtlaenge_m": 5
+   },
+   "beschreibung": "Schwenkbarer Aufputzwickler mit Scharnier, damit der Gurt ohne Bruch des Gehäuses getauscht werden kann. Federsystem auf 20.000 Bewegungen getestet, Gurt 5 m vormontiert.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Schraubendreher",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.ebay.de/p/2256046821",
+    "https://www.otto.de/p/S0RAX02B/"
+   ]
+  },
+  {
+   "slug": "selve-aufputz-gurtwickler-15mm-5-stueck",
+   "name": "Selve Aufputz-Gurtwickler schwenkbar, 15 mm, 5 m Gurt, 5 Stück",
+   "teiltyp": "gurtwickler",
+   "oem_nummer": "084803",
+   "ean": "4060247096606",
+   "masse": {
+    "gurtbreite_mm": 15,
+    "gurtlaenge_m": 5,
+    "lochabstand_mm": 155,
+    "stueck": 5
+   },
+   "beschreibung": "Fünferpack des Aufputzwicklers mit Scharniersystem, Lochabstand 155 mm, grauer Gurt 15 mm × 5 m.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Schraubendreher",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.otto.de/p/S0RAX02B/"
+   ]
+  },
+  {
+   "slug": "selve-aufputz-gurtwickler-15mm-10-stueck",
+   "name": "Selve Aufputz-Gurtwickler schwenkbar, 15 mm, 5 m Gurt, 10 Stück",
+   "teiltyp": "gurtwickler",
+   "oem_nummer": "084803",
+   "ean": "4060247096613",
+   "masse": {
+    "gurtbreite_mm": 15,
+    "gurtlaenge_m": 5,
+    "lochabstand_mm": 155,
+    "stueck": 10
+   },
+   "beschreibung": "Zehnerpack desselben Wicklers, Lochabstand 155 mm, Gurt 15 mm × 5 m.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Schraubendreher",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.otto.de/p/S0RAX02B/"
+   ]
+  },
+  {
+   "slug": "selve-mini-gurtwickler-084601",
+   "name": "Selve Mini-Gurtwickler Aufputz, schwenkbar, ohne Gurt, Lochabstand 145 mm (084601)",
+   "teiltyp": "gurtwickler",
+   "oem_nummer": "084601",
+   "ean": "4039092004579",
+   "masse": {
+    "lochabstand_mm": 145
+   },
+   "beschreibung": "Schwenkbarer Aufputzwickler für Mini-Gurt, weiß, ohne Gurtband. Lochabstand 145 mm.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 45,
+   "werkzeug": "Schraubendreher",
+   "amazon_asin": "B01N7TOYXY",
+   "quellen": [
+    "https://www.amazon.de/dp/B01N7TOYXY"
+   ]
+  }
+ ],
+ "zuordnungen": [
+  {
+   "serie_slug": "se-plus",
+   "teil_slug": "selve-se-plus-2-10-382040",
+   "hinweis": "Typ 2/10 in der Selve-Tabelle",
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-plus/sw10016/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-plus",
+   "teil_slug": "selve-universal-einstellschalter-291009",
+   "hinweis": "Selve-Video: Universal-Einstellschalter für alle SE..-Antriebe",
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-plus/sw10016/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-plus",
+   "teil_slug": "selve-adapterset-sw60-baureihe-2",
+   "hinweis": "Nur Baureihe 2 (2/…); Adapter muss separat bestellt werden",
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-plus/sw10016/",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "se-plus",
+   "teil_slug": "selve-secublock-rapid-maxi-3-gliedrig-4-stueck",
+   "hinweis": "SecuBlock nur mit Antrieb oder Kurbelgetriebe, Welle SW40 bis SW60",
+   "quelle_url": "https://www.selve.de/home/produkte/rollladenbauteile/secublock/sw10052/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-plus-rc",
+   "teil_slug": "selve-se-plus-2-10-rc-383040",
+   "hinweis": "Typ 2/10-RC in der Selve-Tabelle",
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-plus-rc-funk/sw10017/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-plus-rc",
+   "teil_slug": "selve-commeo-send-1-297713",
+   "hinweis": "„-RC“ läuft mit commeo; nicht zugleich mit iveo",
+   "quelle_url": "https://selve.de/en/service-downloads/faq",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-plus-rc",
+   "teil_slug": "selve-commeo-send-1-297761",
+   "hinweis": null,
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-plus-rc-funk/sw10017/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-plus-rc",
+   "teil_slug": "selve-commeo-wall-send-297766",
+   "hinweis": null,
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-plus-rc-funk/sw10017/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-plus-rc",
+   "teil_slug": "selve-commeo-multi-send-297724",
+   "hinweis": null,
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-plus-rc-funk/sw10017/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-plus-rc",
+   "teil_slug": "selve-iveo-send-1-298713",
+   "hinweis": "„-RC“ läuft auch mit iveo, aber nicht zugleich mit commeo",
+   "quelle_url": "https://selve.de/en/service-downloads/faq",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-plus-rc",
+   "teil_slug": "selve-universal-einstellschalter-291009",
+   "hinweis": "fünfadrige Leitung",
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-plus-rc-funk/sw10017/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-plus-rc",
+   "teil_slug": "selve-adapterset-sw60-baureihe-2",
+   "hinweis": "Nur Baureihe 2",
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-plus-rc-funk/sw10017/",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "se-pro",
+   "teil_slug": "selve-se-pro-2-10-412130",
+   "hinweis": null,
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro",
+   "teil_slug": "selve-se-pro-2-20-412170",
+   "hinweis": null,
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro",
+   "teil_slug": "selve-se-pro-1-10-410240",
+   "hinweis": "Baureihe 1 für SW40",
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro",
+   "teil_slug": "selve-universal-einstellschalter-291009",
+   "hinweis": "Nur für manuelle Endlagen nötig, automatisch geht es mit jedem Schalter",
+   "quelle_url": "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro",
+   "teil_slug": "selve-einstellschalter-290103",
+   "hinweis": "Alternative zu 291009",
+   "quelle_url": "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro",
+   "teil_slug": "selve-secublock-rapid-maxi-3-gliedrig-4-stueck",
+   "hinweis": "Mit Hochschiebesicherung empfiehlt Selve einen manuell gesetzten unteren Punkt",
+   "quelle_url": "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro",
+   "teil_slug": "selve-secublock-rapid-maxi-2-gliedrig-4-stueck",
+   "hinweis": "Für SW50 und SW60 laut Händler",
+   "quelle_url": "https://www.selve.de/home/produkte/rollladenbauteile/secublock/sw10052/",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "se-pro",
+   "teil_slug": "selve-secufix-rapid-2-gliedrig",
+   "hinweis": "Starre Verbinder optional",
+   "quelle_url": "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro",
+   "teil_slug": "selve-adapterset-sw60-baureihe-2",
+   "hinweis": "Nur Baureihe 2",
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "se-pro-rc",
+   "teil_slug": "selve-se-pro-2-10-rc-413130",
+   "hinweis": null,
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-pro-rc-funk/sw10013/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro-rc",
+   "teil_slug": "selve-commeo-send-1-297713",
+   "hinweis": "Nur ein Funksystem je Motor",
+   "quelle_url": "https://selve.de/en/service-downloads/faq",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro-rc",
+   "teil_slug": "selve-commeo-send-1-297761",
+   "hinweis": null,
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-pro-rc-funk/sw10013/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro-rc",
+   "teil_slug": "selve-commeo-wall-send-297766",
+   "hinweis": null,
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-pro-rc-funk/sw10013/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro-rc",
+   "teil_slug": "selve-commeo-multi-send-297724",
+   "hinweis": null,
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-pro-rc-funk/sw10013/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro-rc",
+   "teil_slug": "selve-iveo-send-1-298713",
+   "hinweis": "Nur ein Funksystem je Motor",
+   "quelle_url": "https://selve.de/en/service-downloads/faq",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro-rc",
+   "teil_slug": "selve-universal-einstellschalter-291009",
+   "hinweis": "Für zwei feste Endpunkte; sonst reicht der commeo-Sender",
+   "quelle_url": "https://selve.de/en/service-downloads/faq",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro-rc",
+   "teil_slug": "selve-secublock-rapid-maxi-3-gliedrig-4-stueck",
+   "hinweis": null,
+   "quelle_url": "https://www.selve.de/home/produkte/rollladenbauteile/secublock/sw10052/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro-rc",
+   "teil_slug": "selve-secufix-rapid-2-gliedrig",
+   "hinweis": null,
+   "quelle_url": "https://www.selve.de/home/produkte/rollladenbauteile/secufix-secufix-push-go/sw10051/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "se-pro-rc",
+   "teil_slug": "selve-adapterset-sw60-baureihe-2",
+   "hinweis": "Nur Baureihe 2",
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/se-pro-rc-funk/sw10013/",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "see",
+   "teil_slug": "selve-secublock-rapid-maxi-3-gliedrig-4-stueck",
+   "hinweis": "SEE braucht starre Wellenverbinder oder Hochschiebesicherungen",
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/see/sw10011/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "see",
+   "teil_slug": "selve-secublock-rapid-maxi-2-gliedrig-4-stueck",
+   "hinweis": "Kürzere Ausführung für kleine Kästen",
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/see/sw10011/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "see",
+   "teil_slug": "selve-secufix-rapid-2-gliedrig",
+   "hinweis": null,
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/see/sw10011/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "see",
+   "teil_slug": "selve-commeo-send-1-297713",
+   "hinweis": "Nur SEE-RC",
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/see-rc-funk/sw10012/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "see",
+   "teil_slug": "selve-iveo-send-1-298713",
+   "hinweis": "Nur SEE-RC",
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/see-rc-funk/sw10012/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "see",
+   "teil_slug": "selve-adapterset-sw60-baureihe-2",
+   "hinweis": "Nur Baureihe 2",
+   "quelle_url": "https://www.selve.de/home/produkte/antriebe/see/sw10011/",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "sel-plus",
+   "teil_slug": "selve-se-pro-2-10-412130",
+   "hinweis": "Nachfolger des SEL Plus 2/10; Selve hat alle Funktionen übernommen",
+   "quelle_url": "https://selve.de/en/service-downloads/faq",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sel-plus",
+   "teil_slug": "selve-einstellschalter-290103",
+   "hinweis": "Für den manuellen Einstellmodus",
+   "quelle_url": "https://www.selve.de/media/e7/20/7c/1627563308/SELVE_BA_SEL_Plus_SES_D_GB_F_NL_PL_web_bis-2019.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sel-plus",
+   "teil_slug": "selve-universal-einstellschalter-291009",
+   "hinweis": "Händlerangabe: für SE, SEL, SES mit und ohne Funk",
+   "quelle_url": "https://www.ebay.de/p/25057552186",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "sel-plus",
+   "teil_slug": "selve-adapterset-sw60-baureihe-2",
+   "hinweis": "Für den Ersatzmotor; ob der alte Adapter weiterpasst, am Motor prüfen",
+   "quelle_url": "https://www.enobi.de/rohrmotore/mechanisches-zubehoer/selve-adapter-mitnehmer/se0101",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "sel-plus-rc",
+   "teil_slug": "selve-se-pro-2-10-rc-413130",
+   "hinweis": "Nachfolger laut Händler",
+   "quelle_url": "https://www.rolluikonderdelen.nl/de/marken/selve/motoren-fuer-rolllaeden/verschiedene-typen-von-selve-rohrmotoren/",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "sel-plus-rc",
+   "teil_slug": "selve-commeo-send-1-297713",
+   "hinweis": "„-RC“ nimmt commeo oder iveo",
+   "quelle_url": "https://selve.de/en/service-downloads/faq",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sel-plus-rc",
+   "teil_slug": "selve-iveo-send-1-298713",
+   "hinweis": "„-RC“ nimmt commeo oder iveo",
+   "quelle_url": "https://selve.de/en/service-downloads/faq",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sel-plus-rc",
+   "teil_slug": "selve-universal-einstellschalter-291009",
+   "hinweis": null,
+   "quelle_url": "https://www.ebay.de/p/25057552186",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "sel-plus-r",
+   "teil_slug": "selve-iveo-send-1-298713",
+   "hinweis": "„-R“-Motoren nehmen nur iveo und intronic",
+   "quelle_url": "https://selve.de/en/service-downloads/faq",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "sel-plus-r",
+   "teil_slug": "selve-einstellschalter-funk-290109",
+   "hinweis": null,
+   "quelle_url": "https://www.selve.de/media/6c/ce/7b/1660900299/SELVE_BA_SE-Plus-R_SEL-Plus-R_SEM-Plus-R_SES-R_bis-2015.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "aufputz-gurtwickler-mini",
+   "teil_slug": "selve-aufputz-gurtwickler-084803",
+   "hinweis": null,
+   "quelle_url": "https://www.ebay.de/p/2256046821",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "aufputz-gurtwickler-mini",
+   "teil_slug": "selve-aufputz-gurtwickler-15mm-5-stueck",
+   "hinweis": "Lochabstand 155 mm",
+   "quelle_url": "https://www.otto.de/p/S0RAX02B/",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "aufputz-gurtwickler-mini",
+   "teil_slug": "selve-aufputz-gurtwickler-15mm-10-stueck",
+   "hinweis": "Lochabstand 155 mm",
+   "quelle_url": "https://www.otto.de/p/S0RAX02B/",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "aufputz-gurtwickler-mini",
+   "teil_slug": "selve-mini-gurtwickler-084601",
+   "hinweis": "Lochabstand 145 mm, ohne Gurt",
+   "quelle_url": "https://www.amazon.de/dp/B01N7TOYXY",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "aufputz-gurtwickler-mini",
+   "teil_slug": "selve-gurtscheibe-mini-sw40",
+   "hinweis": "Gegenstück auf der Welle im Kasten, für SW40",
+   "quelle_url": "https://www.otto.de/p/S0SAY0R2/",
+   "sicherheit": "eine_quelle"
+  }
+ ],
+ "probleme": [
+  {
+   "slug": "selve-rollladen-endlagen-einstellen",
+   "titel": "Selve-Rollladen hält nicht an der richtigen Stelle: Endlagen neu einstellen",
+   "symptom": "Der Rollladen fährt oben gegen den Kasten, bleibt kurz vor dem Ziel stehen, fährt unten nicht ganz zu oder die Richtungen AUF und AB sind vertauscht. Bei manchen Motoren zuckt er nur kurz, als wäre er im Einstellmodus.",
+   "ursachen": [
+    {
+     "ursache": "Die Endlagen sind gelöscht. Am SE Pro löscht schon ein Schalter, der fünfmal 3 Sekunden AUF mit 1 Sekunde Pause bekommt, beide Endlagen. In einem Forum berichtet ein Nutzer, dass ein Smart-Home-Aktor das bei einem SEL Plus ungewollt ausgelöst hat.",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Die Endlagen wurden in falscher Reihenfolge gespeichert oder Schwarz und Braun am Schalter sind vertauscht. Dann sind AUF und AB verdreht.",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Im automatischen Modus fehlt oben ein fester Anschlag oder unten eine Begrenzung, auf die der Rollladen auflaufen kann.",
+     "haeufigkeit": "selten",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Für feste Endpunkte, etwa mit Hochschiebesicherung, braucht der SE Pro den Einstellschalter; der normale Schalter kann nur den automatischen Modus.",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "selve-universal-einstellschalter-291009",
+      "selve-einstellschalter-290103"
+     ]
+    },
+    {
+     "ursache": "Beim alten TR hält die obere Einstellschraube die Abschaltkraft. Ist sie zu schwach vorgespannt, bleibt der Rollladen oben vor dem Ziel stehen.",
+     "haeufigkeit": "selten",
+     "teil_slugs": []
+    }
+   ],
+   "schritte": [
+    "Am Typenschild nachsehen, welcher Motor verbaut ist: SE Pro, SE Plus, SEL Plus, SEE oder TR, mit oder ohne „-RC“ bzw. „-R“. Davon hängt ab, wie die Endlagen gesetzt werden.",
+    "Funkmotor mit „-RC“ und commeo-Sender: SELECT 3 Sekunden drücken, bis die LED langsam orange blinkt, dann STOP 9 Sekunden halten, das löscht die Endlagen. Mit AUF bis zum Anschlag fahren und AUF halten, der Motor fährt selbst nach unten und speichert beide Endlagen.",
+    "SE Pro mit normalem Schalter (oben Anschlag mit Entlastung): Rollladen hochfahren, bis er oben selbst abschaltet. Dann den Schalter fünfmal 3 Sekunden auf AUF stellen, jeweils 1 Sekunde Pause, danach AUF halten. Der Motor fährt nach unten und schaltet ab, die alten Endlagen sind gelöscht.",
+    "Neu einstellen im automatischen Modus: nach oben gegen den Anschlag fahren, Schalter halten, der Motor fährt nach unten bis zum unteren Anschlag und speichert. Danach eine Probefahrt machen.",
+    "Sind AUF und AB vertauscht, die Endlagen neu einstellen. Liegt es an vertauschten Adern am Schalter, ist das eine Arbeit für die Elektrofachkraft.",
+    "Beim Einstellen nicht ständig hin und her fahren: Selve-Motoren haben 4 Minuten Betriebszeit, danach braucht der Thermoschutz 5 bis 20 Minuten Pause."
+   ],
+   "fachbetrieb_ab": "Sobald der Einstellschalter an die Motorleitung geklemmt oder am Schalter umverdrahtet werden muss. Selve lässt den Anschluss nur von autorisiertem Fachpersonal machen.",
+   "quellen": [
+    "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+    "https://selve.de/en/service-downloads/faq",
+    "https://www.selve.de/home/produkte/antriebe/se-pro-rc-funk/sw10013/",
+    "https://www.selve.de/media/e7/20/7c/1627563308/SELVE_BA_SEL_Plus_SES_D_GB_F_NL_PL_web_bis-2019.pdf",
+    "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf",
+    "https://forum.fhem.de/index.php?topic=91783.0"
+   ]
+  },
+  {
+   "slug": "selve-rollladen-reagiert-nicht",
+   "titel": "Selve-Rollladenmotor reagiert nicht",
+   "symptom": "Der Rollladen bewegt sich weder per Schalter noch per Handsender, oder nur einzelne Rollläden reagieren nicht mehr auf den Funksender.",
+   "ursachen": [
+    {
+     "ursache": "Der Thermoschutz hat nach langer Laufzeit abgeschaltet. Selve gibt 4 Minuten Betriebszeit an und nennt 5 bis 20 Minuten Wartezeit.",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Die Batterie im Handsender ist leer. commeo Send und iveo Send brauchen zwei AAA-Zellen, der commeo Wall Send eine CR2032.",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "selve-commeo-send-1-297713",
+      "selve-iveo-send-1-298713"
+     ]
+    },
+    {
+     "ursache": "Sender und Motor passen nicht zusammen: „-R“-Motoren nehmen nur iveo und intronic, „-com“-Motoren nur commeo. An einem „-RC“-Motor läuft immer nur ein System; nach einem Wechsel müssen alle Sender neu eingelernt werden.",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "selve-commeo-send-1-297713",
+      "selve-commeo-send-1-297761",
+      "selve-iveo-send-1-298713"
+     ]
+    },
+    {
+     "ursache": "Der elektrische Anschluss ist fehlerhaft oder die Sicherung ist aus.",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Der Motor ist defekt. Bei SEL Plus aus den 2010er Jahren berichten mehrere Forennutzer, dass die Motoren nach einigen Jahren zu stocken begannen und dann ausfielen.",
+     "haeufigkeit": "selten",
+     "teil_slugs": [
+      "selve-se-pro-2-10-412130",
+      "selve-se-pro-2-10-rc-413130"
+     ]
+    }
+   ],
+   "schritte": [
+    "20 Minuten warten und dann erneut fahren, falls der Rollladen vorher oft hintereinander gefahren ist.",
+    "Batterie im Handsender tauschen. Reagiert der Rollladen danach per Wandschalter, aber nicht per Funk, liegt es am Sender oder am Einlernen.",
+    "Am Motor oder in der Anleitung nachsehen, welche Endung der Motor hat (-R, -RC, -com), und prüfen, ob der Sender zum System passt.",
+    "Einen neuen Sender am Motor einlernen. Bei einem „-RC“-Motor, der vom iveo- auf das commeo-System wechselt, alle Sender neu einlernen und den Motor danach kurz vom Netz trennen.",
+    "Sicherung prüfen. Fahren mehrere Rollläden im selben Stromkreis nicht, liegt es eher an der Versorgung als am Motor."
+   ],
+   "fachbetrieb_ab": "Wenn Sicherung und Sender in Ordnung sind und der Motor trotzdem stumm bleibt. Messen, Anschluss prüfen und den Motor tauschen darf nur die Elektrofachkraft.",
+   "quellen": [
+    "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+    "https://selve.de/en/service-downloads/faq",
+    "https://www.manualslib.de/manual/461713/Selve-Se-Plus-Rc.html?page=41",
+    "https://www.selve.de/home/produkte/steuerungen/commeo/commeo-send-1-10/sw10033/",
+    "https://www.selve.de/home/produkte/steuerungen/commeo/commeo-wall-send/sw10032/",
+    "https://www.selve.de/home/produkte/steuerungen/iveo/iveo-send-10/sw10042/",
+    "https://www.haustechnikdialog.de/Forum/t/210647/SELVE-SEL-plus-2-10-Dreck-austauschen-gegen-was-"
+   ]
+  },
+  {
+   "slug": "selve-rollladen-stoppt-von-selbst",
+   "titel": "Selve-Rollladen stoppt beim Fahren von selbst",
+   "symptom": "Der Rollladen bleibt beim Herunter- oder Hochfahren stehen, fährt beim Ab-Fahren ein Stück zurück oder läuft stockend und braucht mehrere Anläufe.",
+   "ursachen": [
+    {
+     "ursache": "Die Hinderniserkennung hat beim Herunterfahren angesprochen, etwa wegen eines Gegenstands, einer verkanteten Lamelle oder Eis in der Schiene. SE Pro, SE Pro-RC und SEE fahren das Hindernis danach frei.",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Der Überlastschutz hat beim Hochfahren abgeschaltet, zum Beispiel bei festgefrorenem Rollladen oder weil der Motor für den Panzer zu schwach ist.",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "selve-se-pro-2-20-412170"
+     ]
+    },
+    {
+     "ursache": "Eine Aufhängung oder Hochschiebesicherung ist gerissen, der Panzer hängt schief und klemmt.",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "selve-secublock-rapid-maxi-3-gliedrig-4-stueck",
+      "selve-secufix-rapid-2-gliedrig"
+     ]
+    },
+    {
+     "ursache": "Der Thermoschutz hat nach mehr als 4 Minuten Laufzeit abgeschaltet.",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Alterung: Bei SEL Plus 2/10 berichten mehrere Nutzer in einem Fachforum, dass die Motoren nach Wochen ohne Betätigung stocken und mehrere Anläufe brauchen.",
+     "haeufigkeit": "selten",
+     "teil_slugs": [
+      "selve-se-pro-2-10-412130"
+     ]
+    }
+   ],
+   "schritte": [
+    "Fahrbereich frei machen und den Rollladen ganz hochfahren. Danach einmal ohne Hindernis ganz herunterfahren.",
+    "Im Winter prüfen, ob der Panzer unten oder in den Schienen angefroren ist. Nicht mit Gewalt hochfahren, sondern abwarten.",
+    "Bei geschlossenem Rollladen von außen ansehen, ob eine Lamelle seitlich verrutscht ist oder der Panzer schief hängt.",
+    "Stoppt der Motor beim Hochfahren regelmäßig, ist er womöglich zu schwach. Die Selve-Tabelle nennt das zulässige Rollladengewicht je Typ für 1,5 und 2,5 m Höhe.",
+    "Stockt ein älterer Motor bei jedem Start, ist ein Tausch durch die Elektrofachkraft meist der Weg; Nachfolger des SEL Plus ist der SE Pro."
+   ],
+   "fachbetrieb_ab": "Wenn der Rollladenkasten geöffnet und der Motor ausgebaut werden muss oder der Motor bei jedem Start stockt. Den Motor tauscht und schließt die Elektrofachkraft an.",
+   "quellen": [
+    "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+    "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+    "https://www.selve.de/home/produkte/antriebe/see/sw10011/",
+    "https://selve.de/en/service-downloads/faq",
+    "https://www.haustechnikdialog.de/Forum/t/210647/SELVE-SEL-plus-2-10-Dreck-austauschen-gegen-was-"
+   ]
+  }
+ ],
+ "widersprueche": [
+  {
+   "thema": "Mini-Gurt bei Selve: 14 oder 15 mm breit?",
+   "aussage_a": "Auf der Selve-Seite zu Gurtwicklern heißt es, Mini-Wickler hätten eine Gurtbreite von 15 mm.",
+   "quelle_a": "https://www.selve.de/home/produkte/rollladenbauteile/gurtwickler/sw10047/",
+   "aussage_b": "Dieselbe Seite nennt bei den Produktvorteilen 14 mm (Mini) und 23 mm (Neubau bzw. Maxi). Die Selve-Gurtscheibe bei OTTO ist für 14/15-mm-Gurt angegeben. Miss den alten Gurt nach.",
+   "quelle_b": "https://www.otto.de/p/S0SAY0R2/"
+  },
+  {
+   "thema": "Welcher Einstellschalter gehört an welchen Selve-Motor?",
+   "aussage_a": "Die Anleitung der Funkmotoren SE Plus-R und SEL Plus-R (bis 2015) nennt den Einstellschalter für Funk-Antriebe 290109.",
+   "quelle_a": "https://www.selve.de/media/6c/ce/7b/1660900299/SELVE_BA_SE-Plus-R_SEL-Plus-R_SEM-Plus-R_SES-R_bis-2015.pdf",
+   "aussage_b": "Die Anleitung des SE Pro und die Selve-FAQ nennen 290103 oder den Universal-Einstellschalter 291009, der für vier- und fünfadrige Leitungen umschaltbar ist.",
+   "quelle_b": "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf"
+  },
+  {
+   "thema": "Kupplungsadapter im Selve-Adapterset SW60: 288226 oder 288225?",
+   "aussage_a": "Ein Händler nennt für das Set aus Laufring 288020 den Kupplungsadapter 288226 (bis 30 Nm).",
+   "quelle_a": "https://www.caliso.de/motorzubehoer/selve/adapter-mitnehmer-baureihe-2-sw60-bis-30nm",
+   "aussage_b": "Ein anderer Händler nennt als Vergleichsnummern 288020 und 288225. Der Kupplungsadapter hängt am Drehmoment des Motors.",
+   "quelle_b": "https://www.enobi.de/rohrmotore/mechanisches-zubehoer/selve-adapter-mitnehmer/se0101"
+  }
+ ],
+ "nicht_geprueft": [
+  "„Easy“ als Selve-Motorreihe: Auf selve.de gibt es keinen Antrieb mit diesem Namen. Die Plug-&-Play-Reihe heißt SEE; ob „SEE“ für „SE Easy“ steht, sagt Selve nicht. Sie ist als Serie „SEE und SEE-RC“ angelegt.",
+  "Kabelfahne mit Artikelnummer am Motorkabel: Selve nennt in den Anleitungen nur das Typenschild. Ob neuere Motoren zusätzlich eine Kabelfahne haben, ist ungeprüft.",
+  "Selve-Artikelnummern für SecuBlock rapid Maxi (3- und 2-gliedrig), SecuFix rapid und die Mini-Gurtscheibe: Die OTTO-Angebote (Marktplatz NOBILY) nennen keine Selve-Nummer, die EANs beginnen mit 406024 bzw. 426052 statt mit Selves 4039092. Ein niederländischer Händler führt für SecuBlock rapid die SKU 289510.",
+  "OTTO-Gurtwickler-Sets (5 und 10 Stück): Die Beschreibung (Scharniersystem, 20.000 Zyklen, 180° schwenkbar) stimmt mit dem Selve-Wickler 084803 überein; dass es dieselbe Selve-Nummer ist, steht im Angebot nicht.",
+  "EAN des iveo Send 1 (298713): ein Preisvergleich nennt 4039092095218, die Seite war nicht abrufbar. Eingetragen ist nur die ASIN B06X6K7NF8; das Amazon-Angebot ist derzeit nicht lieferbar.",
+  "Kupplungsadapter im Adapterset SW60: 288226 oder 288225 je nach Händler, Zuordnung zu den Drehmomenten offen.",
+  "Artikelnummern der Größen 3/60 und 3/70 (SE Plus) und 1/4, 1/7 (nur -RC) stehen auf den Selve-Seiten; in der Tabelle sind nur die gängigen Größen aufgeführt.",
+  "SE Plus-RC-Anleitung (manualslib): Rücksetzen auf Werkseinstellung mit commeo zeigt Selve nur im Video; der genaue Tastenweg ist nicht aus der Anleitung übernommen.",
+  "Garantiedauer für Selve-Antriebe: Die Selve-Seite „Qualitätsversprechen“ nennt keine Jahreszahl."
+ ]
+}
