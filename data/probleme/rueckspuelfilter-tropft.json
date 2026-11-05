@@ -56,7 +56,11 @@
     "Notier Hersteller, Typ und Anschlussgröße vom Gehäuse oder Typenschild. Damit findest du Filtereinsatz, Dichtungssatz und Filtertasse."
   ],
   "fachbetrieb_ab": "Den Filter rückspülen, ansehen und den Druck ablesen machst du als Betreiber selbst. Einbau, Austausch des ganzen Geräts und Arbeiten am Anschluss oder Flansch sind nach § 12 Abs. 2 AVBWasserV Sache des Wasserversorgers oder eines Installationsunternehmens, das im Installateurverzeichnis eingetragen ist. Die Hersteller ziehen die Grenze noch früher: Resideo lässt die Instandhaltung von einem Installationsunternehmen machen, Grünbeck den Wechsel von Dichtungen, Rückspülventil und Filterglocke von einer Fachkraft, SYR Installation und Wartung nur von einem autorisierten Fachbetrieb, Judo Reparaturen nur von Fachpersonal, BWT den Tausch der Verschleißteile vom Kundendienst oder einem autorisierten Installateur. Hört das Tropfen nach mehrmaligem Rückspülen nicht auf oder ist die Filtertasse gerissen, ruf den Installateur. In der Mietwohnung sagst du dem Vermieter Bescheid.",
-  "marken_probleme": [],
+  "marken_probleme": [
+    "judo-rueckspuelfilter-tropft",
+    "bwt-rueckspuelfilter-tropft",
+    "resideo-rueckspuelfilter-tropft"
+  ],
   "fragen": [
     {
       "frage": "Wie oft muss ich den Rückspülfilter rückspülen?",
