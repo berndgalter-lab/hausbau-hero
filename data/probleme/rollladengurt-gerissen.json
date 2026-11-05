@@ -58,7 +58,10 @@
     "Sieh dir den Weg des Gurts an: Läuft er schräg, scheuert er an einer Kante, fehlt die Leitrolle in der Gurtführung? Das korrigierst du beim Gurtwechsel gleich mit."
   ],
   "fachbetrieb_ab": "Gurt, Gurtscheibe, Gurtführung und mechanischen Gurtwickler tauschst du selbst, wenn du von innen an den Rollladenkasten kommst. Beim Vorbaurollladen sitzt der Kasten außen. Im Erdgeschoss geht das von der Leiter, im Obergeschoss brauchst du ein Gerüst oder einen Hubsteiger. ROMA nennt die Reparatur bei Fenstern in großer Höhe mit außenliegender Revisionsklappe besonders gefährlich, das ist ein Fall für den Rollladenbauer. Dasselbe gilt, wenn der Kasten zugeputzt ist und es keine Revisionsöffnung gibt. Rollläden mit Rohrmotor haben keinen Gurt: Arbeiten an Motor und Anschluss macht laut Selve und Schellenberg eine Elektrofachkraft, ebenso nach Schellenberg die Montage eines elektrischen Gurtwicklers mit Netzstecker. In der Mietwohnung sagst du dem Vermieter Bescheid.",
-  "marken_probleme": [],
+  "marken_probleme": [
+    "schellenberg-rollladengurt-gerissen",
+    "schellenberg-gurtwickler-zieht-nicht-ein"
+  ],
   "fragen": [
     {
       "frage": "Der Rollladengurt ist gerissen, und der Rollladen ist ganz unten. Was jetzt?",

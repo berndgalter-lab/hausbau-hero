@@ -7,10 +7,21 @@
   "seo_title": "Gurtwickler wechseln: welcher Lochabstand, Mini oder Maxi, Auf- oder Unterputz?",
   "seo_description": "Welcher Gurtwickler passt? Lochabstand messen, Mini (14 mm) oder Maxi (23 mm), Aufschraub- oder Einlasswickler, Gurtlänge und Mauerkasten. Mit Schellenberg-Nummern von 50000 bis 50801 und den Grenzen beim elektrischen Gurtwickler.",
   "kurz": "Der Gurtwickler rollt den Rollladengurt auf, eine vorgespannte Feder zieht ihn dabei ein. Welcher passt, hängt an vier Dingen: Bauart (auf Wand oder Rahmen geschraubt oder in einen Mauerkasten eingelassen), Gurtbreite (Mini 14 mm, Maxi 23 mm), Lochabstand der Befestigung und wie viel Gurt er aufnehmen kann.\n\nEinen mechanischen Gurtwickler tauschst du selbst. Elektrische Gurtwickler mit Netzanschluss sollen laut Schellenberg und Rademacher von einer Elektrofachkraft angeschlossen und in Betrieb genommen werden, bei Schellenberg ausdrücklich auch die Ausführung mit Netzstecker. Hier geht es bei ihnen deshalb nur um die Auswahl.",
-  "bereiche": ["rollladen"],
-  "teiltypen": ["gurtwickler"],
-  "marken": ["schellenberg", "somfy", "rademacher", "selve"],
-  "probleme": ["rollladengurt-gerissen"],
+  "bereiche": [
+    "rollladen"
+  ],
+  "teiltypen": [
+    "gurtwickler"
+  ],
+  "marken": [
+    "schellenberg",
+    "somfy",
+    "rademacher",
+    "selve"
+  ],
+  "probleme": [
+    "rollladengurt-gerissen"
+  ],
   "erkennen": [
     {
       "titel": "Alten Wickler ausbauen",
@@ -43,27 +54,147 @@
   ],
   "groessen": {
     "titel": "Bauart, Gurtbreite, Lochabstand und Kapazität",
-    "spalten": ["Bauart", "Gurtbreite", "Lochabstand", "Gurt bis", "Beispiel"],
+    "spalten": [
+      "Bauart",
+      "Gurtbreite",
+      "Lochabstand",
+      "Gurt bis",
+      "Beispiel"
+    ],
     "zeilen": [
-      ["Einlasswickler (Unterputz)", "Maxi, 18–23 mm", "10,5 cm", "5,0 m", "Schellenberg 50100"],
-      ["Einlasswickler (Unterputz)", "Maxi, 18–23 mm", "13,5 cm", "5,6 m", "Schellenberg 50000"],
-      ["Einlasswickler (Unterputz)", "Maxi, bis 23 mm", "16,0 cm", "5,3 m", "Schellenberg 50200"],
-      ["Einlasswickler (Unterputz)", "Maxi, bis 23 mm", "18,5 cm", "5,6 m", "Schellenberg 50400"],
-      ["Einlasswickler für Untersetzungsgetriebe", "Maxi, 23 mm", "18,5 cm", "12 m", "Schellenberg 50300"],
-      ["Einlasswickler (Unterputz)", "Maxi, bis 23 mm", "21,5 cm", "12 m", "Schellenberg 11400"],
-      ["Einlasswickler mit Abdeckplatte", "Maxi, 23 mm", "26,0 cm", "12 m", "Schellenberg 11500"],
-      ["Einlasswickler mit Mauerkasten, inkl. Gurt", "Mini, 14 mm", "11,8 cm", "5 m", "Schellenberg 50603"],
-      ["Halbeinlasswickler, inkl. Gurt", "Mini, 14 mm", "13,5 cm", "5 m", "Schellenberg 50505"],
-      ["Aufschraubwickler, aufklappbar", "Mini, 14 mm", "15,5 cm", "5,0 m", "Schellenberg 50151"],
-      ["Aufschraubwickler, inkl. Gurt", "Mini, 14 mm", "14,5 cm", "5,0 m", "Schellenberg 50503"],
-      ["Aufschraubwickler Flexo, aufklappbar", "Mini, 14 mm", "14–15,5 cm verstellbar", "5,0 m", "Schellenberg 50153"],
-      ["Aufschraubwickler Flexo, inkl. Gurt", "Mini, 14 mm", "15–16,5 cm verstellbar", "7,0 m", "Schellenberg 50145"],
-      ["Getriebewickler Flexo, inkl. Gurt", "Mini, 14 mm", "17,5–19 cm verstellbar", "9,0 m", "Schellenberg 50147"],
-      ["Wickler für die Fensterlaibung, inkl. Gurt", "Mini, 14 mm", "9,5 cm", "5 m", "Schellenberg 50703"],
-      ["Aufschraubwickler, inkl. Gurt", "Maxi, 23 mm", "17,0 cm", "5,3 m", "Schellenberg 50801"],
-      ["Elektrisch, Unterputz", "Maxi, 23 mm", "13,5 oder 16,5 cm", "4,3 m", "Schellenberg RolloDrive 45 (22745)"],
-      ["Elektrisch, Aufputz", "14 und 23 mm", "–", "6 m (1,0 mm Gurt), 3 m (1,7 mm)", "Schellenberg RolloDrive 55"],
-      ["Elektrisch, Unterputz, 45 kg Zugkraft", "23 mm, Minigurt als eigene Variante", "Gurtkasten ab 36 mm breit", "7,6 m (1,0 mm Gurt), 6,2 m (1,3 mm)", "Rademacher RolloTron Standard 1300"]
+      [
+        "Einlasswickler (Unterputz)",
+        "Maxi, 18–23 mm",
+        "10,5 cm",
+        "5,0 m",
+        "Schellenberg 50100"
+      ],
+      [
+        "Einlasswickler (Unterputz)",
+        "Maxi, 18–23 mm",
+        "13,5 cm",
+        "5,6 m",
+        "Schellenberg 50000"
+      ],
+      [
+        "Einlasswickler (Unterputz)",
+        "Maxi, bis 23 mm",
+        "16,0 cm",
+        "5,3 m",
+        "Schellenberg 50200"
+      ],
+      [
+        "Einlasswickler (Unterputz)",
+        "Maxi, bis 23 mm",
+        "18,5 cm",
+        "5,6 m",
+        "Schellenberg 50400"
+      ],
+      [
+        "Einlasswickler für Untersetzungsgetriebe",
+        "Maxi, 23 mm",
+        "18,5 cm",
+        "12 m",
+        "Schellenberg 50300"
+      ],
+      [
+        "Einlasswickler (Unterputz)",
+        "Maxi, bis 23 mm",
+        "21,5 cm",
+        "12 m",
+        "Schellenberg 11400"
+      ],
+      [
+        "Einlasswickler mit Abdeckplatte",
+        "Maxi, 23 mm",
+        "26,0 cm",
+        "12 m",
+        "Schellenberg 11500"
+      ],
+      [
+        "Einlasswickler mit Mauerkasten, inkl. Gurt",
+        "Mini, 14 mm",
+        "11,8 cm",
+        "5 m",
+        "Schellenberg 50603"
+      ],
+      [
+        "Halbeinlasswickler, inkl. Gurt",
+        "Mini, 14 mm",
+        "13,5 cm",
+        "5 m",
+        "Schellenberg 50505"
+      ],
+      [
+        "Aufschraubwickler, aufklappbar",
+        "Mini, 14 mm",
+        "15,5 cm",
+        "5,0 m",
+        "Schellenberg 50151"
+      ],
+      [
+        "Aufschraubwickler, inkl. Gurt",
+        "Mini, 14 mm",
+        "14,5 cm",
+        "5,0 m",
+        "Schellenberg 50503"
+      ],
+      [
+        "Aufschraubwickler Flexo, aufklappbar",
+        "Mini, 14 mm",
+        "14–15,5 cm verstellbar",
+        "5,0 m",
+        "Schellenberg 50153"
+      ],
+      [
+        "Aufschraubwickler Flexo, inkl. Gurt",
+        "Mini, 14 mm",
+        "15–16,5 cm verstellbar",
+        "7,0 m",
+        "Schellenberg 50145"
+      ],
+      [
+        "Getriebewickler Flexo, inkl. Gurt",
+        "Mini, 14 mm",
+        "17,5–19 cm verstellbar",
+        "9,0 m",
+        "Schellenberg 50147"
+      ],
+      [
+        "Wickler für die Fensterlaibung, inkl. Gurt",
+        "Mini, 14 mm",
+        "9,5 cm",
+        "5 m",
+        "Schellenberg 50703"
+      ],
+      [
+        "Aufschraubwickler, inkl. Gurt",
+        "Maxi, 23 mm",
+        "17,0 cm",
+        "5,3 m",
+        "Schellenberg 50801"
+      ],
+      [
+        "Elektrisch, Unterputz",
+        "Maxi, 23 mm",
+        "13,5 oder 16,5 cm",
+        "4,3 m",
+        "Schellenberg RolloDrive 45 (22745)"
+      ],
+      [
+        "Elektrisch, Aufputz",
+        "14 und 23 mm",
+        "–",
+        "6 m (1,0 mm Gurt), 3 m (1,7 mm)",
+        "Schellenberg RolloDrive 55"
+      ],
+      [
+        "Elektrisch, Unterputz, 45 kg Zugkraft",
+        "23 mm, Minigurt als eigene Variante",
+        "Gurtkasten ab 36 mm breit",
+        "7,6 m (1,0 mm Gurt), 6,2 m (1,3 mm)",
+        "Rademacher RolloTron Standard 1300"
+      ]
     ],
     "hinweis": "Maße und Kapazitäten nach Schellenberg und Rademacher. „Gurt bis“ ist die größte Gurtlänge, die der Wickler aufnimmt; bei dickerem Gurt ist es weniger. Die Abdeckplatte muss zum Lochabstand passen und gehört bei den Schellenberg-Einlasswicklern nicht zum Lieferumfang. Die Einlasswickler 50000 bis 50400 nennt Schellenberg für Fenster und Türen bis 2,30 m Höhe, 11400 und 11500 bis 2,50 m."
   },
@@ -219,7 +350,7 @@
     },
     {
       "frage": "Darf ich einen elektrischen Gurtwickler selbst anschließen?",
-      "antwort": "Laut den Herstelleranleitungen nicht. Schellenberg schreibt für RolloDrive 45 und 55, dass elektrischer Anschluss, Montage und Inbetriebnahme eine ausgebildete Elektrofachkraft übernimmt, auch wenn der Antrieb über Netzteil und Stecker läuft. Die Steckdose muss frei zugänglich sein. Rademacher verlangt beim RolloTron Standard für den Anschluss eine zugelassene Elektrofachkraft, egal ob über Kabel mit Stecker oder feste Zuleitung.",
+      "antwort": "Laut den Herstelleranleitungen nicht. Schellenberg schreibt für den RolloDrive 55, dass elektrischer Anschluss, Montage und Inbetriebnahme eine ausgebildete Elektrofachkraft übernimmt, auch wenn der Antrieb über Netzteil und Stecker läuft. Beim RolloDrive 45, der am Gerät mit 24 V läuft, stand das in der Anleitung von 2021 ebenfalls, die aktuelle Montageanleitung nennt es nicht mehr. Die Steckdose muss frei zugänglich sein. Rademacher verlangt beim RolloTron Standard für den Anschluss eine zugelassene Elektrofachkraft, egal ob über Kabel mit Stecker oder feste Zuleitung.",
       "kategorie": "reparatur",
       "quellen": [
         "https://schellenberg-shop.de/media/af/e7/5d/1747747186/montageanleitung-rollodrive-55-schellenberg.pdf",
@@ -247,6 +378,7 @@
     "https://schellenberg-shop.de/media/af/e7/5d/1747747186/montageanleitung-rollodrive-55-schellenberg.pdf",
     "https://media.elv.com/file/106644_rollotron_standard_data.pdf",
     "https://media.elv.com/file/106644_rollotron_standard_um.pdf",
-    "https://medium.rademacher.de/static/33/9b/c0/8e61ea470a2e58fcff8269390145bb3c94/Einbaumaße%201700.pdf"
+    "https://medium.rademacher.de/static/33/9b/c0/8e61ea470a2e58fcff8269390145bb3c94/Einbaumaße%201700.pdf",
+    "https://schellenberg-shop.de/media/eb/14/f3/1747747186/22745-rollodrive-45-montageanleitung.pdf"
   ]
 }

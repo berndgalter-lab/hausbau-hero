@@ -65,7 +65,10 @@
     "Hilft das alles nicht, ruf eine Elektrofachkraft."
   ],
   "fachbetrieb_ab": "Batterie tauschen, Sender anlernen, Endlagen mit dem Sender einstellen und den Motor über Sicherung oder Schalter zurücksetzen machst du selbst, die Hersteller beschreiben das in den Anleitungen für Benutzer. Alles, was am 230-V-Netz hängt, gehört zur Elektrofachkraft: Motor ausbauen, tauschen oder anschließen, Unterputz-Schalter, Zeitschaltuhr oder Funkempfänger mit Netzanschluss, Leitungen und Abzweigdosen. Somfy verlangt für die Verkabelung des Oximo io eine Elektrofachkraft nach DIN VDE 1000-10, Schellenberg und Jarolift lassen alle Arbeiten an elektrischen Anlagen nur von Elektrofachkräften ausführen. Öffne den Motor nicht.",
-  "marken_probleme": [],
+  "marken_probleme": [
+    "schellenberg-rollladenmotor-reagiert-nicht",
+    "schellenberg-elektrischer-gurtwickler-stoppt"
+  ],
   "fragen": [
     {
       "frage": "Der Handsender leuchtet, aber der Rollladen bewegt sich nicht. Was prüfe ich?",
