@@ -15,6 +15,8 @@ import dachfensterRollo from "../../data/teilarten/dachfenster-rollo.json";
 import dachfensterHitzeschutz from "../../data/teilarten/dachfenster-hitzeschutz.json";
 import dachfensterDichtung from "../../data/teilarten/dachfenster-dichtung.json";
 import dachfensterAkku from "../../data/teilarten/dachfenster-akku.json";
+import filtereinsatz from "../../data/teilarten/filtereinsatz.json";
+import regeneriersalz from "../../data/teilarten/regeneriersalz.json";
 
 // Teileart-Seiten unter /ersatzteile/<teilart> (docs/SEITENAUFBAU.md, Abschnitt 4b): ein Teil, das in vielen
 // Marken steckt (Eckventil, Perlator, Siphon …), markenübergreifend erklärt. Inhalt aus data/teilarten/<slug>.json,
@@ -80,6 +82,8 @@ const TEILARTEN: Teilart[] = [
   dachfensterHitzeschutz as Teilart,
   dachfensterDichtung as Teilart,
   dachfensterAkku as Teilart,
+  filtereinsatz as Teilart,
+  regeneriersalz as Teilart,
 ];
 
 /** „den passenden Perlator“ / „die passende Kartusche“ / „das passende Eckventil“ (Akkusativ). */

@@ -57,6 +57,15 @@ const ZEICHNUNG: Record<string, React.ReactNode> = {
       <path d="M62 14v6" />
     </>
   ),
+  wasserfilter: (
+    <>
+      <path d="M8 26h22M66 26h22" />
+      <path d="M30 18h36v16H30z" />
+      <path d="M36 34v30a12 12 0 0 0 24 0V34" />
+      <path d="M42 44v18M48 44v18M54 44v18" strokeDasharray="2 4" />
+      <path d="M48 76v10M42 86h12" />
+    </>
+  ),
   dachfenster: (
     <>
       <path d="M8 74L48 18l40 56" />
@@ -205,6 +214,16 @@ const RATGEBER_ZEICHNUNG: Record<string, React.ReactNode> = {
       <path d="M12 86h16M48 86h16" />
       <rect x="25" y="18" width="26" height="20" rx="2" />
       <path d="M80 14v72M74 20l6-6 6 6M74 80l6 6 6-6" />
+    </>
+  ),
+  rueckspuelfilter: (
+    <>
+      <path d="M8 22h22M66 22h22" />
+      <path d="M30 14h36v16H30z" />
+      <path d="M36 30v28a12 12 0 0 0 24 0V30" />
+      <path d="M42 40v16M48 40v16M54 40v16" strokeDasharray="2 4" />
+      <path d="M48 70v8" />
+      <path d="M40 82h16M44 78h8" />
     </>
   ),
   druckminderer: (

@@ -1,6 +1,8 @@
 # Wasserfilter & Enthärtung: lohnt sich der Bereich?
 
-Stand: 4. November 2026. Prüfung nach `BEREICHE-REIHENFOLGE.md` Abschnitt 4 für den Bereich auf Rang 1 (Hauptbereich „Wasser & Wärme“). Aufbau wie `KEYWORDS-SANITAER.md`, Seitentypen und URLs nach `SEITENAUFBAU.md` Abschnitt 2a. Gebaut ist noch nichts.
+Stand: 4. November 2026. Prüfung nach `BEREICHE-REIHENFOLGE.md` Abschnitt 4 für den Bereich auf Rang 1 (Hauptbereich „Wasser & Wärme“). Aufbau wie `KEYWORDS-SANITAER.md`, Seitentypen und URLs nach `SEITENAUFBAU.md` Abschnitt 2a.
+
+**Gebaut am 5. November 2026 (kleiner Zuschnitt):** Bereich `wasserfilter` mit Druckminderer, Teilearten `filtereinsatz` und `regeneriersalz`, Probleme `rueckspuelfilter-tropft` und `enthaertungsanlage-verbraucht-kein-salz`, Ratgeber `/ratgeber/rueckspuelfilter`, Marken Judo, BWT und Resideo. Die Planner-Abfrage aus Abschnitt 8 ist weiter offen.
 
 ## Kurzfassung
 

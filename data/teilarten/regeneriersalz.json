@@ -1,0 +1,239 @@
+{
+  "slug": "regeneriersalz",
+  "name": "Regeneriersalz",
+  "mehrzahl": "Regeneriersalze",
+  "genus": "n",
+  "titel": "Regeneriersalz: welches Salz gehört in meine Enthärtungsanlage?",
+  "seo_title": "Regeneriersalz für die Enthärtungsanlage: Tabletten, DIN EN 973 Typ A, Verbrauch",
+  "seo_description": "Welches Salz Judo, Grünbeck, BWT, SYR, Conel und Aqmos vorschreiben, warum Speise-, Streu- und Spülmaschinensalz nicht hineingehören, wie viel Salz eine Anlage im Jahr braucht und wie du richtig nachfüllst.",
+  "kurz": "Eine Enthärtungsanlage spült ihr Harz regelmäßig mit Salzsole und braucht dafür Regeneriersalz, also sehr reines Natriumchlorid. Alle großen Hersteller verlangen Salz nach DIN EN 973 Typ A, die meisten ausdrücklich in Tablettenform. Grünbeck lässt bei der softliQ nur Tabletten zu, Judo nennt für die i-soft TGA auch Block oder grobkörniges Salz.\n\nSpeise-, Streu- und Poolsalz gehören nicht in die Anlage. Salz nachfüllen und den Vorrat kontrollieren ist Aufgabe des Betreibers. Alles, wofür die Anlage geöffnet wird, also Injektor, Harz oder Steuerventil, ist laut den Anleitungen Sache von Kundendienst oder Fachhandwerk.",
+  "bereiche": ["wasserfilter"],
+  "teiltypen": ["salz"],
+  "marken": ["judo", "bwt", "resideo", "syr", "gruenbeck"],
+  "erkennen": [
+    {
+      "titel": "Anlage und Typenschild bestimmen",
+      "text": "Schau auf das Typenschild oder in die Anleitung, welche Anlage du hast, zum Beispiel Judo i-soft, Grünbeck softliQ:SD21, BWT Perla oder SYR LEX Plus 10 Connect. Manche Hersteller schreiben für verschiedene Baureihen unterschiedliche Salzformen vor, deshalb reicht der Markenname allein nicht."
+    },
+    {
+      "titel": "In der Anleitung nachlesen",
+      "text": "Das zulässige Salz steht in der Betriebsanleitung unter „Regeneriermittel“, „Salzbefüllung“ oder „Salztabletten nachfüllen“. Grünbeck schreibt für softliQ:SC und softliQ:SD nur Salztabletten nach EN 973 Typ A vor. Judo und BWT verlangen DIN EN 973 Typ A, SYR EN 973, und alle drei nennen Tabletten als Beispiel. Was dort ausgeschlossen ist, wie Sanitabs bei der BWT Perla, füllst du nicht ein."
+    },
+    {
+      "titel": "Auf der Packung DIN EN 973 Typ A suchen",
+      "text": "DIN EN 973 regelt die Reinheit von Natriumchlorid zum Regenerieren von Ionenaustauschern für Trinkwasser. Typ A ist die reinste Stufe, und die verlangen Judo, Grünbeck, BWT und Aqmos. Auf vielen Säcken steht noch die alte Bezeichnung DIN 19604. Steht auf der Packung gar keine Norm, wie oft bei Spülmaschinensalz, nimm ein anderes Salz."
+    },
+    {
+      "titel": "Tabletten oder Granulat wählen",
+      "text": "Tabletten sind gepresstes Siedesalz und lösen sich gleichmäßig auf. Bei Grünbeck softliQ, Aqmos R2D2 und Conel sind sie Pflicht oder ausdrücklich empfohlen. Von den Anleitungen in der Tabelle unten nennt nur Judo für die i-soft TGA ausdrücklich auch Salzblöcke oder grobes Salz von 7 bis 15 mm. Feines Salz kann die Ansaugdüse zusetzen. Wechselst du die Sorte, misch Tabletten und loses Salz nicht im Behälter."
+    },
+    {
+      "titel": "Wie viel nachfüllen",
+      "text": "Regeneriersalz gibt es meist in 25-kg-Säcken, und darauf sind die Anlagen eingestellt. Der Salzbehälter fasst je nach Anlage 25 bis 50 kg. Füll nach, bevor der Vorrat ganz aufgebraucht ist: Judo meldet „Salzvorrat prüfen!“ unter 5 kg, und SYR rät, den Vorrat nicht so weit abnehmen zu lassen, dass die Sole über dem Salz steht. Hat deine Anlage eine Salzanzeige, gibst du die nachgefüllte Menge im Menü ein."
+    },
+    {
+      "titel": "Salzbrücke und Klumpen vermeiden",
+      "text": "Das Salz muss immer bis über den Wasserstand im Behälter reichen. Bildet sich oben eine feste Kruste mit einem Hohlraum darunter, löst sich kein Salz mehr, und die Anlage verbraucht scheinbar nichts. Grünbeck verlangt bei der halbjährlichen Wartung, dass das Salz nicht verklumpt ist, und Verkrustungen löst du mit einem geeigneten Werkzeug. Lager die Säcke trocken und schütte das Salz direkt aus der geöffneten Packung ein."
+    }
+  ],
+  "groessen": {
+    "titel": "Welches Salz schreibt der Hersteller vor?",
+    "spalten": ["Anlage", "Salz laut Anleitung", "Salzbehälter und Verbrauch", "Besonderheit"],
+    "zeilen": [
+      ["Judo i-soft, i-soft SAFE+", "Regeneriersalz nach DIN EN 973 Typ A, Judo nennt Tabletten von Broxo oder Solvay", "Behälter 50 kg, ca. 200 g je Regeneration", "Bei anderem Salz Behälter öfter reinigen und Ansaugsieb öfter tauschen lassen. Warnung unter 5 kg Vorrat."],
+      ["Judo i-soft TGA", "Regeneriersalz nach DIN EN 973 in Lebensmittelqualität, als Block, Tabletten oder grobkörnig 7 bis 15 mm", "25 bis 50 kg bei der Erstbefüllung", "Bei anderem Salz Behälter öfter reinigen und Ansaugsieb öfter tauschen lassen."],
+      ["Grünbeck softliQ:SC18, SC23", "Nur Salztabletten nach EN 973 Typ A, andere Regeneriermittel sind nicht zulässig", "Max. 35 kg, 0,15 bis 0,55 kg (SC18) bzw. 0,27 bis 0,95 kg (SC23) je Vollregeneration", "Tablettenstand immer über dem Wasserstand. Grünbeck-Tabletten: Best.-Nr. 127 001."],
+      ["Grünbeck softliQ:SD18, SD21, SD23", "Nur Salztabletten nach DIN EN 973 Typ A", "Bis 35 kg, 0,15 bis 0,95 kg je Regeneration je nach Größe", "Wasserstand normal ca. 1 cm über dem Siebboden, Salz darf nicht verklumpt sein."],
+      ["BWT Perla", "Tabletten nach DIN EN 973 Typ A, z. B. Perla Tabs (früher Clarosal)", "Max. 32 kg, ca. 0,25 kg je Regeneration", "Nicht mit Sanitabs oder Sanisal betreiben. Packung vor dem Einfüllen sauber machen."],
+      ["SYR LEX Plus 10 S Connect, SL Connect", "Regeneriersalz nach EN 973 (früher DIN 19604), SYR nennt Tabletten von Broxo oder Solvay", "25 kg, ca. 0,95 kg je Regeneration", "Mengenangaben gelten für Tabletten. Mit Pellets, Klötzen oder Bruchsalz weichen sie ab."],
+      ["Conel Clear-Serie", "Regeneriersalz in Tablettenform nach DIN EN 973", "25 kg bei der Erstbefüllung, ca. 95 g je Regeneration (Zweisäuler ca. 200 g)", "Ein 25-kg-Sack reicht für mindestens 250 Regenerationen."],
+      ["Aqmos R2D2-32, -48, -72", "Nur Salztabletten aus hochreinem Siedesalz nach DIN EN 973 Typ A, kein Streusalz, kein Bruchsalz", "Behälter darf bis oben gefüllt werden (R2D2-48: max. 40 kg, 1,92 kg je Regeneration)", "Salz muss mindestens über dem Wasserpegel liegen."]
+    ],
+    "hinweis": "Angaben aus den Betriebsanleitungen der jeweiligen Baureihe. Bei älteren oder anderen Modellen gilt, was in deiner Anleitung steht. Wenn dort eine Marke empfohlen wird (Broxo, Solvay, Perla Tabs), darfst du laut Judo und BWT auch anderes Salz nach DIN EN 973 Typ A verwenden."
+  },
+  "produkte": [
+    {
+      "name": "BWT Perla Tabs Regeneriersalz, 25 kg",
+      "hersteller": "BWT",
+      "amazon_asin": "B01ELIAYT8",
+      "hinweis": "Tabletten nach DIN EN 973 Typ A, Art.-Nr. 94239. BWT nennt sie in der Perla-Anleitung als Beispiel."
+    },
+    {
+      "name": "BWT Perla Tabs Regeneriersalz, 10 kg",
+      "hersteller": "BWT",
+      "amazon_asin": "B07KRC9659",
+      "hinweis": "Dieselben Tabletten im 10-kg-Beutel (Art.-Nr. 94244), leichter zu tragen."
+    },
+    {
+      "name": "Axal Pro Salztabletten, 25 kg",
+      "hersteller": "Axal",
+      "ean": "4003885059992",
+      "amazon_asin": "B07WHY5VMX",
+      "hinweis": "Siedesalztabletten nach EN 973 Typ A, 25 mm Durchmesser."
+    },
+    {
+      "name": "esco Regenit Salztabletten, 25 kg",
+      "hersteller": "esco",
+      "amazon_asin": "B0191I9NZO",
+      "hinweis": "Siedesalztabletten nach EN 973 Typ A."
+    },
+    {
+      "name": "Saltech Plus Salztabletten, 25 kg",
+      "hersteller": "Salinen Austria",
+      "amazon_asin": "B0941R46K4",
+      "hinweis": "Siedesalztabletten nach EN 973."
+    },
+    {
+      "name": "Salpina Salztabletten, 2 x 10 kg",
+      "hersteller": "Salinen Austria",
+      "amazon_asin": "B09P3FQLQ2",
+      "hinweis": "Tabletten nach EN 973 Typ A in 10-kg-Säcken."
+    }
+  ],
+  "probleme": ["enthaertungsanlage-verbraucht-kein-salz"],
+  "fragen": [
+    {
+      "frage": "Welches Salz brauche ich für meine Enthärtungsanlage?",
+      "antwort": "Regeneriersalz nach DIN EN 973 Typ A, bei den meisten Anlagen in Tablettenform. Grünbeck lässt für softliQ:SC und softliQ:SD nur Salztabletten nach EN 973 Typ A zu, Aqmos nur Tabletten aus Siedesalz. Judo und SYR verlangen DIN EN 973 und nennen Tabletten von Broxo oder Solvay. Was genau gilt, steht in der Anleitung deiner Anlage.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf",
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+        "https://documents.unidomo.de/de/syis150001011.pdf",
+        "https://media.hornbach.at/hb/ownersmanual/as.60157989.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Salztabletten oder loses Salz (Granulat): was ist besser für die Enthärtungsanlage?",
+      "antwort": "Tabletten. Grünbeck softliQ, Aqmos R2D2 und Conel verlangen oder empfehlen ausdrücklich Tabletten, Grünbeck lässt anderes gar nicht zu. Judo nennt für die i-soft TGA auch Block oder grobkörniges Salz von 7 bis 15 mm. Feines Salz kann laut einem Judo-Mitarbeiter im Forum die Ansaugdüse mit Schlamm zusetzen. Tabletten und loses Salz solltest du nicht mischen.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+        "https://assets.heizung-billiger.de/documents/jdis1703162_202012.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/180386/Spuelmaschienensalz-in-Enthaertungsanlage-",
+        "https://www.haustechnikdialog.de/Forum/t/164119/Wasserenthaertungsanlage-Feinsalz-oder-Salztabletten"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Kann ich Speisesalz oder Streusalz in die Enthärtungsanlage füllen?",
+      "antwort": "Nein. Speisesalz enthält Zusätze wie Rieselhilfen, die mit der Zeit den Ionenaustauscher beeinträchtigen. Streusalz enthält neben Natriumchlorid Begleitstoffe aus dem Gestein. Aqmos schließt Streusalz und Bruchsalz ausdrücklich aus, weil sie die Anlage verschmutzen und schwer beschädigen können. Grünbeck lässt außer Tabletten nach EN 973 Typ A gar kein anderes Regeneriermittel zu.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.chemie.de/lexikon/Regeneriersalz.html",
+        "https://media.hornbach.at/hb/ownersmanual/as.60157989.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/144283/Regeneriersalz-fuer-Entkalkungsanlage-Judo-aus-dem-Baumarkt-"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Darf Spülmaschinensalz statt Regeneriersalz in die Enthärtungsanlage im Keller?",
+      "antwort": "Besser nicht. Spülmaschinensalz ist ebenfalls Natriumchlorid, aber grobkörnig statt in Tablettenform, und oft steht auf der Packung keine DIN EN 973. Grünbeck softliQ und Aqmos R2D2 lassen nur Tabletten zu. Wenn deine Anleitung körniges Salz erlaubt, wie Judo bei der i-soft TGA, muss es trotzdem DIN EN 973 erfüllen. Übrig gebliebenes Spülmaschinensalz nimmst du für den Geschirrspüler.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/180386/Spuelmaschienensalz-in-Enthaertungsanlage-",
+        "https://www.bosch-home.com/ch/de/specials/geschirrspueler-salz",
+        "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf",
+        "https://assets.heizung-billiger.de/documents/jdis1703162_202012.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Muss ich das Salz vom Hersteller kaufen, zum Beispiel BWT Perla Tabs für die BWT Perla?",
+      "antwort": "Nein. BWT schreibt in der Perla-Anleitung, dass alle handelsüblichen Regeneriermittel nach DIN EN 973 Typ A eingesetzt werden können, Perla Tabs nennt sie als Beispiel. Ausgeschlossen sind Sanitabs und Sanisal. Judo empfiehlt Broxo oder Solvay, erlaubt aber anderes Salz nach DIN EN 973 Typ A. Dann sollst du den Salzbehälter öfter reinigen und das Ansaugsieb öfter tauschen lassen, falls sich Schlamm absetzt.",
+      "kategorie": "bezug",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/bwt_perla.pdf",
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Auf meinem Salz steht nur „EN 973“ ohne „Typ A“. Ist das ein Problem?",
+      "antwort": "Judo, Grünbeck, BWT und Aqmos verlangen in ihren Anleitungen ausdrücklich Typ A, die reinste Stufe der Norm. Im HaustechnikDialog berichtet ein Betreiber, dass ein Grünbeck-Techniker bei der Inbetriebnahme auf dem Zusatz „Typ A“ bestand, weil sonst Verschmutzungen etwa am Injektor drohen. Kauf deshalb Salz, auf dessen Packung „EN 973 Typ A“ steht.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/144283/Regeneriersalz-fuer-Entkalkungsanlage-Judo-aus-dem-Baumarkt-",
+        "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf",
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie viel Salz verbraucht eine Enthärtungsanlage im Jahr?",
+      "antwort": "Das hängt von Wassermenge und Härte ab. Grünbeck gibt für die softliQ:SD 0,025 bis 0,040 kg Salz je Kubikmeter und Grad deutscher Härte an, um die enthärtet wird. Bei 100 m³ im Jahr und einer Enthärtung von 20 auf 8 °dH sind das also etwa 30 bis 48 kg. Ein Judo-Mitarbeiter nennt im Forum für seine i-soft plus von 14–16 auf 5 °dH zwei bis zweieinhalb 25-kg-Sack im Jahr.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/180386/Spuelmaschienensalz-in-Enthaertungsanlage-"
+      ],
+      "teile": [],
+      "problem": "enthaertungsanlage-verbraucht-kein-salz"
+    },
+    {
+      "frage": "Das Salz im Behälter ist verklumpt oder hat eine Kruste. Was tun?",
+      "antwort": "Grünbeck nennt das bei der halbjährlichen Wartung: Das Salz darf nicht verklumpt sein, Verkrustungen löst du mit einem geeigneten Werkzeug. Unter einer Kruste kann ein Hohlraum entstehen, dann löst sich kein Salz und die Anlage meldet Salzmangel oder verbraucht scheinbar nichts. Lager das Salz trocken, schütte es direkt aus der Packung ein und vermeide angebrochene Säcke, so steht es in der Judo-Anleitung.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf",
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+        "https://www.energiesparhaus.at/forum-wartung-enthaertungsanlage-gruenbeck-sc18/71761_3"
+      ],
+      "teile": [],
+      "problem": "enthaertungsanlage-verbraucht-kein-salz"
+    },
+    {
+      "frage": "Wann und wie fülle ich Salz nach?",
+      "antwort": "Spätestens, wenn die Anlage einen niedrigen Salzstand meldet, besser vorher. Judo warnt unter 5 kg Vorrat, Grünbeck verlangt, dass die Tabletten immer über dem Wasserstand liegen. Deckel abnehmen, Salz einfüllen, Deckel schließen und bei Anlagen mit Salzanzeige die Menge bestätigen, bei Judo ist 25 kg voreingestellt. Den Salzvorrat sollst du laut Judo mindestens alle zwei Monate kontrollieren.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+        "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf",
+        "https://documents.unidomo.de/de/syis150001011.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Was darf ich an der Enthärtungsanlage selbst machen, und was macht der Kundendienst?",
+      "antwort": "Laut Judo ist der Betreiber für Salz nachfüllen zuständig, prüft alle zwei Monate Salzvorrat, Dichtheit und Displaymeldungen und entfernt halbjährlich Salzablagerungen im Siphon. Die jährliche Wartung machen Kundendienst oder Fachhandwerk. Das Öffnen der Geräte und der Austausch wasserdruckbelasteter Teile ist nur konzessionierten Personen erlaubt. Injektor, Harz und Steuerventil sind deshalb ein Fall für den Kundendienst.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+        "https://assets.heizung-billiger.de/documents/jdis1703162_202012.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1703372_202209.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1703162_202012.pdf",
+    "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+    "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf",
+    "https://assets.heizung-billiger.de/documents/bwt_perla.pdf",
+    "https://documents.unidomo.de/de/syis150001011.pdf",
+    "https://assets.heizung-billiger.de/documents/syis150001012.pdf",
+    "https://www.manualslib.de/manual/650504/Conel-Clear-Serie.html?page=28",
+    "https://www.manualslib.de/manual/650504/Conel-Clear-Serie.html?page=63",
+    "https://media.hornbach.at/hb/ownersmanual/as.60157989.pdf",
+    "https://media.hornbach.at/hb/technicaldatasheet/as.60158374.pdf",
+    "https://cdn.shopify.com/s/files/1/0753/8979/6676/files/PI-0816-AXAL_Pro_Tablets_Siedesalztabletten.pdf",
+    "https://www.manomano.de/p/esco-regenit-salztabletten-25-kg-wasserenthaertung-hochreines-siedesalz-antikalk-5898868",
+    "https://www.chemie.de/lexikon/Regeneriersalz.html",
+    "https://www.bosch-home.com/ch/de/specials/geschirrspueler-salz",
+    "https://www.haustechnikdialog.de/Forum/t/180386/Spuelmaschienensalz-in-Enthaertungsanlage-",
+    "https://www.haustechnikdialog.de/Forum/t/164119/Wasserenthaertungsanlage-Feinsalz-oder-Salztabletten",
+    "https://www.haustechnikdialog.de/Forum/t/144283/Regeneriersalz-fuer-Entkalkungsanlage-Judo-aus-dem-Baumarkt-",
+    "https://www.energiesparhaus.at/forum-wartung-enthaertungsanlage-gruenbeck-sc18/71761_3"
+  ]
+}

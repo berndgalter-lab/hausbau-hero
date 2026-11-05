@@ -1,0 +1,208 @@
+{
+  "slug": "enthaertungsanlage-verbraucht-kein-salz",
+  "titel": "Enthärtungsanlage verbraucht kein Salz",
+  "seo_title": "Enthärtungsanlage verbraucht kein Salz: Ursachen und Prüfschritte",
+  "seo_description": "Das Salz wird nicht weniger, das Wasser wieder hart? Oft ist es eine Salzbrücke, falsches Salz oder eine falsche Härteeinstellung. Was du prüfst und was der Kundendienst macht.",
+  "symptom": "Der Salzstand im Behälter sinkt über Wochen kaum, obwohl Wasser verbraucht wird. Oft wird das Wasser wieder hart, im Salzbehälter steht kein oder zu viel Wasser, oder das Display meldet Salzmangel, obwohl noch Salz drin ist.",
+  "bereich": "wasserfilter",
+  "ursachen": [
+    {
+      "ursache": "Salzbrücke: das Salz ist verkrustet",
+      "erklaerung": "Das Salz backt über dem Wasser zu einer festen Decke zusammen, darunter entsteht ein Hohlraum. Der Behälter sieht voll aus, aber das Wasser erreicht kein Salz mehr, und es bildet sich keine Sole. Grünbeck nennt beim softliQ „Hohlraum unter Salz“ als Ursache der Meldung „Salzvorrat verbraucht“, BWT bei der Perla eine Verkrustung unter dem Füllstandssensor. Beide raten, die Kruste zu lösen und das Salz aufzulockern.",
+      "haeufigkeit": "häufig",
+      "teilart": "regeneriersalz"
+    },
+    {
+      "ursache": "Wenig Wasserverbrauch: die Anlage regeneriert selten",
+      "erklaerung": "Moderne Anlagen regenerieren nach der verbrauchten Wassermenge, nicht nach dem Kalender. Grünbeck regeneriert beim softliQ nur die verbrauchte Kapazität und nimmt dafür nur so viel Salz wie nötig, bei der Judo i-soft SAFE+ braucht eine komplette Regeneration etwa 200 g. In einem kleinen Haushalt sinkt der Salzstand deshalb langsam, ohne dass etwas kaputt ist. Wird kaum Wasser entnommen, regenerieren SYR LEX Plus und Grünbeck softliQ spätestens nach vier Tagen aus Hygienegründen von selbst.",
+      "haeufigkeit": "häufig"
+    },
+    {
+      "ursache": "Falsches Salz",
+      "erklaerung": "Regeneriersalz muss DIN EN 973 Typ A erfüllen. Grünbeck lässt beim softliQ:SC nur Salztabletten zu, Judo empfiehlt Tabletten und erlaubt Feinsalz beim i-soft plus nur mit Gewebesack. Bei anderen Salzen, die Schlamm oder Schmutz absetzen, verlangt Judo, den Salzbehälter öfter zu reinigen und das Ansaugsieb öfter tauschen zu lassen.",
+      "haeufigkeit": "gelegentlich",
+      "teilart": "regeneriersalz"
+    },
+    {
+      "ursache": "Stromausfall, falsche Uhrzeit oder Umgehung offen",
+      "erklaerung": "Ohne Strom regeneriert die Anlage nicht. Grünbeck meldet einen Stromausfall von mehr als fünf Minuten und regeneriert, sobald der Strom zurück ist; dauerte er länger als drei Tage, muss bei fest eingestellter Regenerationszeit die Uhr neu gestellt werden. Steht das Umgehungsventil nach einer Wartung noch auf Umgehung, fließt das Wasser an der Anlage vorbei. Dann wird weder Salz verbraucht noch enthärtet.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Wasserhärte falsch eingestellt oder Verschneidung verstellt",
+      "erklaerung": "Die Steuerung rechnet mit der eingestellten Rohwasserhärte aus, wann das Harz erschöpft ist. Stimmt der Wert nicht, regeneriert sie zu selten, braucht wenig Salz und lässt hartes Wasser durch. SYR nennt als Ursache für hartes Wasser falsche Ein- und Ausgangshärte in der Steuerung und eine verschmutzte Turbine an der Verschneidung, BWT eine falsch eingestellte Verschneidung. Grünbeck verlangt nach einer geänderten Rohwasserhärte eine manuelle Regeneration.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Zu wenig Wasserdruck oder Abwasserschlauch zu hoch",
+      "erklaerung": "Zum Ansaugen der Sole braucht die Anlage Druck. Grünbeck verlangt mindestens 2,0 bar Fließdruck, SYR mindestens 2 bar Eingangsdruck. Judo nennt für die Meldung „Salzmangel“ außerdem einen zu hoch verlegten Abwasserschlauch und einen schlecht angeschlossenen Saugschlauch zum Salzbehälter.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Ansaugsieb oder Soleventil zugesetzt",
+      "erklaerung": "Die Sole wird bei Judo über ein Ansaugsieb, bei Grünbeck über ein Soleventil aus dem Salzbehälter gesaugt. Sind sie zugesetzt, kommt keine Sole an, und das Salz bleibt liegen. Judo lässt das Ansaugsieb zusammen mit dem Leitwert-Sensor jährlich tauschen (Verschleißteilset 2201382), Grünbeck reinigt Soleventil und Elektroden bei der jährlichen Wartung. Beides macht der Kundendienst.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Schwimmer im Salzbehälter hängt",
+      "erklaerung": "Bei vielen Anlagen regelt ein Schwimmer, wie viel Wasser in den Salzbehälter nachläuft. Hängt er fest, bleibt der Behälter trocken oder läuft voll. SYR nennt bei der LEX Plus ein verschmutztes Schwimmerteil als Störungsursache, BWT zählt den Salzmangelschwimmer zu den Baugruppen der Wartung. In einem Forenfall hing der Schwimmer nach dem Überfüllen in seinem Rohr fest; nachdem er gelöst war, lief wieder Wasser nach.",
+      "haeufigkeit": "selten"
+    },
+    {
+      "ursache": "Injektor verstopft",
+      "erklaerung": "Der Injektor saugt während der Regeneration die Sole an. Ist er oder sein Sieb verstopft, bleibt das Salz liegen, oder der Salzbehälter läuft voll Wasser. Grünbeck nennt Injektor und Injektorsieb als Ursache für „Salzvorrat verbraucht“ und schickt dafür den Kundendienst. Bei Judo i-soft SAFE+ und i-soft plus heißt das Teil Ersatzteilset Injektor 2201470.",
+      "haeufigkeit": "selten"
+    },
+    {
+      "ursache": "Antrieb oder Steuerung defekt",
+      "erklaerung": "Läuft gar keine Regeneration mehr, kann der Antrieb des Steuerventils oder die Steuerung defekt sein. Judo zeigt dann „Störung Reg. Antrieb“, SYR nennt Steuerungseinheit und Antriebsmotor als Ursache, wenn die Anlage nicht regeneriert. Das repariert der Kundendienst.",
+      "haeufigkeit": "selten"
+    }
+  ],
+  "pruefen": [
+    "Display oder Statusanzeige ablesen und die Meldung notieren, zum Beispiel „Salzmangel“, „Störung“ oder „Stromausfall“. Bei BWT steht ein gelbes Logo für einen Hinweis, ein rotes für eine Störung.",
+    "Prüfen, ob die Anlage Strom hat, ob die Uhrzeit stimmt und ob das Umgehungsventil auf Betrieb steht.",
+    "Deckel abnehmen und mit einem sauberen Stiel vorsichtig ins Salz stechen. Stößt du auf eine feste Kruste mit Hohlraum darunter, die Kruste lösen und das Salz auflockern.",
+    "Wasserstand im Salzbehälter ansehen. Grünbeck schreibt: Das Salz muss immer höher stehen als das Wasser. Ist der Behälter trocken oder fast voll Wasser, das notieren.",
+    "Salz prüfen: Steht DIN EN 973 Typ A auf dem Sack, und ist es die Form, die deine Anleitung verlangt (bei Grünbeck softliQ nur Tabletten)? Bei Judo und SYR nach dem Nachfüllen die eingefüllte Menge im Menü eingeben.",
+    "Härte nach der Anlage mit Härtemessbesteck oder Teststreifen für Gesamthärte messen, das Wasser vorher laufen lassen. Zum Vergleich die Härte vor der Anlage messen oder beim Wasserversorger erfragen.",
+    "Die in der Steuerung eingestellte Rohwasserhärte mit dem Wert des Wasserversorgers vergleichen.",
+    "Nach dem Nachfüllen eine halbe Stunde warten, damit sich Sole bildet, dann eine Regeneration von Hand starten, wie es die Anleitung beschreibt. Danach prüfen, ob der Wasserstand im Salzbehälter gesunken ist.",
+    "Abwasserschlauch auf Knicke und Höhe prüfen und den Wasserdruck am Manometer ablesen. Grünbeck und SYR verlangen mindestens 2 bar.",
+    "Verbraucht die Anlage danach immer noch kein Salz oder bleibt das Wasser hart, den Kundendienst rufen und Geräte-ID oder Seriennummer bereithalten."
+  ],
+  "fachbetrieb_ab": "Sobald die Anlage geöffnet werden muss. Judo schreibt: „Das Öffnen der Geräte und der Austausch von wasserdruckbelasteten Teilen darf nur durch konzessionierte Personen erfolgen.“ Injektor, Soleventil, Steuerventil, Antrieb und Harz sind Sache des Kundendiensts oder eines vom Hersteller geschulten Fachbetriebs. Bei Judo i-soft SAFE+ und i-soft plus heißen die Teile Ersatzteilset Injektor (2201470) und Verschleißteilset Leitwert-Sensor und Ansaugsieb (2201382); mit diesen Nummern weißt du, wonach du fragst. Auch die Wartung nach DIN EN 806-5 machen Kundendienst oder Fachhandwerk: BWT verlangt sie für die Perla halbjährlich, Judo, Grünbeck und SYR mindestens einmal im Jahr. Du selbst kontrollierst alle zwei Monate Salz, Dichtheit und Meldungen.",
+  "marken_probleme": [],
+  "fragen": [
+    {
+      "frage": "Meine Enthärtungsanlage verbraucht kein Salz mehr. Woran liegt das?",
+      "antwort": "Am häufigsten an einer Salzbrücke: Das Salz ist oben verkrustet, darunter ist ein Hohlraum. Grünbeck nennt außerdem zu niedrigen Wasserdruck sowie einen verstopften Injektor oder ein verstopftes Soleventil, SYR eine ausgeschaltete Anlage, fehlenden Strom oder eine defekte Steuerung. Kruste lösen und Strom prüfen kannst du selbst, für Injektor und Ventile kommt der Kundendienst.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+        "https://documents.unidomo.de/de/syis150001010.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie viel Salz verbraucht eine Enthärtungsanlage normalerweise?",
+      "antwort": "Das hängt von Wasserhärte, Wassermenge und Anlage ab. Judo gibt für die i-soft SAFE+ etwa 200 g je kompletter Regeneration an, SYR für die LEX Plus 10 Connect etwa 0,95 kg. In einem Forum berichten Besitzer von einem bis zehn 25-kg-Säcken im Jahr. BWT und Grünbeck raten, den Salzverbrauch regelmäßig im Verhältnis zur verbrauchten Wassermenge zu beurteilen.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+        "https://documents.unidomo.de/de/syis150001010.pdf",
+        "https://www.energiesparhaus.at/forum-salztabletten-fuer-enthaertungsanlage/72477_1",
+        "https://assets.heizung-billiger.de/documents/bwt_perla.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Ist es normal, dass Wasser im Salzbehälter steht?",
+      "antwort": "Ja, im Salzbehälter bildet sich aus Wasser und Salz die Sole für die Regeneration. Grünbeck schreibt aber, dass das Salz immer höher stehen muss als das Wasser. SYR rät, den Salzvorrat nicht so weit sinken zu lassen, dass die Flüssigkeit über dem Salz steht, weil der Pegel sonst beim Nachfüllen stark ansteigt und die Steuerung eine Störung meldet.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+        "https://documents.unidomo.de/de/syis150001010.pdf",
+        "https://www.gutefrage.net/frage/wann-muss-ich-bei-einer-wasserenthaertungsanlage-das-salz-nachfuellen"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Im Salzbehälter steht viel zu viel Wasser, er läuft fast über. Was tun?",
+      "antwort": "Judo beschreibt für die i-soft plus: Störung zurücksetzen, eine Regeneration von Hand auslösen und nach etwa 20 Minuten prüfen, ob der Solestand gesunken ist. Wenn ja, eine zweite Regeneration starten, wenn nein, den Kundendienst rufen und die Anlage auf Umgehung stellen. Nach dem Nachfüllen eines ganz leeren Behälters kann der Solestand laut Judo auch zeitweise steigen. Bleibt er hoch, saugt die Anlage keine Sole mehr an; im Forum wird dann zuerst der Injektor genannt.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.unidomo.de/tpl/download/Judo_i-soft-plus_Betriebsanleitung.pdf",
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/251159/Enthaertungsanlage-Solebehaelter-voll-mit-Wasser-Cillit-Mephisto-Uno-BWT-Aqua-Smart"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Die Anlage meldet Salzmangel, obwohl der Behälter voll ist. Warum?",
+      "antwort": "Bei der BWT Perla kann sich Salz unter dem Füllstandssensor verkrusten; BWT rät, das Salz zu lockern und umzurühren. Grünbeck nennt für „Salzvorrat verbraucht“ einen Hohlraum unter dem Salz, zu wenig Wasserdruck oder einen verstopften Injektor. Bei Judo kommt „Salzmangel“ auch bei zu hoch verlegtem Abwasserschlauch, zu geringem Druck oder schlecht angeschlossenem Saugschlauch. Die Judo i-soft SAFE+ berechnet den Salzvorrat, deshalb musst du nach dem Nachfüllen die Menge im Menü bestätigen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/bwt_perla.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie prüfe ich, ob die Anlage noch enthärtet?",
+      "antwort": "Miss die Härte nach der Anlage mit einem Härtemessbesteck oder Teststreifen. Judo rät, die Probe am Umgehungsventil oder an einer nahen Zapfstelle bei voll geöffnetem Hahn zu nehmen, das Wasser vorher laufen zu lassen und währenddessen nirgends sonst viel Wasser zu zapfen. Liegt der Wert deutlich über der eingestellten Wunschhärte, enthärtet die Anlage nicht richtig. Grünbeck sieht diese Messung bei der Inspektion alle zwei Monate vor.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Darf ich loses Salz oder Granulat statt Tabletten einfüllen?",
+      "antwort": "Das hängt vom Hersteller ab. Grünbeck lässt beim softliQ:SC nur Salztabletten nach EN 973 Typ A zu. Judo nennt für die i-soft plus Block, Tabletten oder grobkörniges Salz mit 7 bis 15 mm, Feinsalz nur mit Gewebesack, und die Salzart wird im Menü eingestellt. BWT erlaubt alle handelsüblichen Regeneriermittel nach DIN EN 973 Typ A, SYR empfiehlt Tabletten.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+        "https://www.unidomo.de/tpl/download/Judo_i-soft-plus_Betriebsanleitung.pdf",
+        "https://assets.heizung-billiger.de/documents/bwt_perla.pdf",
+        "https://documents.unidomo.de/de/syis150001010.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Meine Judo i-soft zeigt „Achtung! Störung“. Was bedeutet das?",
+      "antwort": "Die zweite Zeile nennt die Ursache. Bei „Besalzung“ den Solestand im Salzbehälter prüfen und die Meldung löschen; kommt sie wieder, den Kundendienst rufen. „Füllzeit“ heißt, dass die Wasserversorgung unterbrochen sein kann. Bei „Reg. Antrieb“ oder „Nachfüllen“ Netzgerät ausstecken, Batterien herausnehmen, Umgehungsventil auf Umgehung stellen und den Kundendienst rufen. Gelöscht wird mit OK oder indem du das Netzgerät fünf Sekunden aussteckst.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Was muss ich nach einem Stromausfall an der Enthärtungsanlage tun?",
+      "antwort": "Grünbeck empfiehlt nach einem längeren Stromausfall eine manuelle Regeneration und, wenn er länger als drei Tage dauerte und die Regenerationszeit fest eingestellt ist, die Uhr neu zu stellen. Die Judo i-soft SAFE+ überbrückt kurze Ausfälle mit zwei 9-V-Blockbatterien (6LR61), deren Ladezustand du alle zwei Monate prüfen sollst. BWT nennt eine unterbrochene Stromversorgung als Ursache, wenn kein Weichwasser kommt.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+        "https://assets.heizung-billiger.de/documents/bwt_perla.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welche Verschleißteile hat die Judo i-soft, und wer tauscht sie?",
+      "antwort": "Für i-soft SAFE+ und i-soft plus nennt Judo das Verschleißteilset Leitwert-Sensor und Ansaugsieb (2201382), das jährlich getauscht wird, das Ersatzteilset Injektor (2201470) und bei der SAFE+ das Verschleißteilset Druckregler (2200582) alle vier Jahre. Reparaturen dürfen laut Judo nur geschulte Fachhandwerker oder der Kundendienst machen. Bei SYR heißt das entsprechende Set Wartungsset 1500.01.900 mit Dichtungen und Chlorzelle, Tausch etwa alle zwei Jahre durch den Fachhandwerker.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+        "https://www.unidomo.de/tpl/download/Judo_i-soft-plus_Betriebsanleitung.pdf",
+        "https://documents.unidomo.de/de/syis150001010.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+    "https://www.unidomo.de/tpl/download/Judo_i-soft-plus_Betriebsanleitung.pdf",
+    "https://assets.heizung-billiger.de/documents/bwt_perla.pdf",
+    "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+    "https://documents.unidomo.de/de/syis150001010.pdf",
+    "https://www.energiesparhaus.at/forum-salztabletten-fuer-enthaertungsanlage/72477_1",
+    "https://www.energiesparhaus.at/forum-wasserenthaertungsanlage-wasserstand-im-salzbehaelter-etc/76025",
+    "https://www.haustechnikdialog.de/Forum/t/251159/Enthaertungsanlage-Solebehaelter-voll-mit-Wasser-Cillit-Mephisto-Uno-BWT-Aqua-Smart",
+    "https://www.gutefrage.net/frage/wann-muss-ich-bei-einer-wasserenthaertungsanlage-das-salz-nachfuellen"
+  ]
+}

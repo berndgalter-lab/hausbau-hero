@@ -1,0 +1,257 @@
+{
+  "thema": "Filtereinsatz für Rückspülfilter, Hauswasserfilter und Hauswasserstation (Resideo/Honeywell, SYR, Judo, Grünbeck, BWT), dazu Dichtungen und Filtertasse",
+  "fragen": [
+    {
+      "frage": "Wo finde ich heraus, welcher Filtereinsatz in meinen Hauswasserfilter gehört?",
+      "kategorie": "nummer",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/237031/Wasserfilter-Filterkerze-wechseln-welche-ist-die-richtige-",
+        "https://www.haustechnikdialog.de/Forum/t/178750/Alter-Wasserfilter-Hauswasserfilter-Welcher-Einsatz-",
+        "https://www.haustechnikdialog.de/Forum/t/9470/Filtereinsatz-fuer-Wasserfilter-Cillit",
+        "https://www.haustechnikdialog.de/Forum/t/165016/Hauswasserfilter-wechseln"
+      ],
+      "antwort": "Auf dem Typenschild am Filter. Bei Grünbeck pureliQ sitzt es seitlich und nennt Produktbezeichnung, Anschlussnennweite und Filterfeinheit. Die Bestellnummer des Einsatzes steht dann in der Ersatzteilliste der Anleitung. Grünbeck bittet bei Anfragen um Filtertyp, Filtergröße und Seriennummer. Resideo (Honeywell, Braukmann) ordnet die Einsätze zusätzlich nach Baureihe, also nach Baujahr.",
+      "antwort_quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf"
+      ]
+    },
+    {
+      "frage": "Ich habe einen SYR Drufi. Passt der Filtereinsatz 2315.00.908 oder 2315.00.930?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/71908/Drufi-Feinfilter-wechseln",
+        "https://www.haustechnikdialog.de/Forum/t/119388/filtervlies-fuer-drufi-dff"
+      ],
+      "antwort": "Das hängt von der Generation ab. In den alten Drufi DFR und FR gehört das Filterelement 2315.00.908 (90 µm), dort spülst du über einen Kugelhahn zurück. In den Drufi+ DFR und FR gehört der Filtereinsatz 2315.00.930 (90 µm) oder 2315.01.946 (40 µm), dort drehst du zum Rückspülen einen Knopf um 90°. Die Nummern stehen in den Ersatzteillisten der beiden Anleitungen.",
+      "antwort_quellen": [
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/9.2315.40_1902_en_2019-08-14.pdf"
+      ]
+    },
+    {
+      "frage": "Welcher Einsatz passt in den Honeywell F76S oder die Hauswasserstation HS10S, alte oder neue Baureihe?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/134358/Rueckspuelfilter-Austausch-Filtereinsatz",
+        "https://www.haustechnikdialog.de/Forum/t/145263/wasserfiltereinsatz-tauschen-oder-neuer-filter-"
+      ],
+      "antwort": "Bei der Baureihe 1997 bis 2006 passt für ½\" bis 1¼\" der AF11S-1A mit 100 µm. Ab 2007 hat ½\" bis ¾\" einen eigenen Einsatz, den AF11S-1/2A, für 1\" bis 1¼\" bleibt es der AF11S-1A. Filter mit Double-Spin-Technik brauchen die AF11DS-Einsätze. Für 1½\" und 2\" ist es in beiden Baureihen der AF11S-11/2A. So steht es im Ersatzteilkatalog von Resideo.",
+      "antwort_quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf"
+      ]
+    },
+    {
+      "frage": "Welche Maschenweite brauche ich für den Filtereinsatz?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/237031/Wasserfilter-Filterkerze-wechseln-welche-ist-die-richtige-",
+        "https://www.haustechnikdialog.de/Forum/t/119388/filtervlies-fuer-drufi-dff"
+      ],
+      "antwort": "Für Trinkwasser sind 80 bis 100 µm üblich: Grünbeck, Judo, BWT und Resideo liefern 100 µm, SYR 90 µm, ältere Grünbeck Boxer K 80 µm. Feinere Kerzen mit 5, 20 oder 50 µm sind laut Grünbeck nach DIN EN 13443-1 nicht für Trinkwasserinstallationen zugelassen. Judo schreibt, dass Filter mit Sondermaschenweiten kein DIN-DVGW-Zeichen tragen dürfen. Ein feineres Sieb verschmutzt außerdem schneller.",
+      "antwort_quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://www.unidomo.de/tpl/download/Judo_JPF-QC_Betriebsanleitung.pdf",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/9.2315.40_1902_en_2019-08-14.pdf"
+      ]
+    },
+    {
+      "frage": "Passt ein Nachbau oder ein Einsatz von einem anderen Hersteller?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/123885/Rueckspuelfilter-erneuern-",
+        "https://www.haustechnikdialog.de/Forum/t/119388/filtervlies-fuer-drufi-dff",
+        "https://www.haustechnikdialog.de/Forum/t/9470/Filtereinsatz-fuer-Wasserfilter-Cillit"
+      ],
+      "antwort": "Die Hersteller verlangen Originalteile. Judo schreibt in der Anleitung zum PROFI-QC, dass nur Original-Ersatzteile verwendet werden dürfen und die Prüfzeichen nur dann gültig sind. Grünbeck (pureliQ) und BWT (E1) fordern ebenfalls Original-Ersatzteile für Wartung und Reparatur.",
+      "antwort_quellen": [
+        "https://www.unidomo.de/tpl/download/Judo_JPF-QC_Betriebsanleitung.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://assets.heizung-billiger.de/documents/bwt_e1_einhebelfilter_man.pdf"
+      ]
+    },
+    {
+      "frage": "Wie oft muss man den Filtereinsatz wechseln?",
+      "kategorie": "pflege",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/237031/Wasserfilter-Filterkerze-wechseln-welche-ist-die-richtige-",
+        "https://www.haustechnikdialog.de/Forum/t/123885/Rueckspuelfilter-erneuern-",
+        "https://www.haustechnikdialog.de/Forum/t/131108/Rueckspuelfilter-statt-Filterkerze",
+        "https://www.haustechnikdialog.de/Forum/t/165016/Hauswasserfilter-wechseln",
+        "https://www.bauexpertenforum.de/threads/hilfe-bei-filter-an-der-hauptwasserleitung.101656/"
+      ],
+      "antwort": "Beim Wechsel- oder Kerzenfilter spätestens alle sechs Monate, so schreiben es BWT für den E1 und Grünbeck für pureliQ und Boxer K nach DIN EN 806-5. Beim Rückspülfilter wird das Sieb spätestens alle sechs Monate rückgespült, Grünbeck und Judo empfehlen alle zwei Monate. Judo nennt für den versilberten Siebeinsatz des PROFI-QC einen Tausch nach drei Jahren, wenn der Keimschutz erhalten bleiben soll.",
+      "antwort_quellen": [
+        "https://assets.heizung-billiger.de/documents/bwt_e1_einhebelfilter.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+        "https://www.unidomo.de/tpl/download/Judo_JPF-QC_Betriebsanleitung.pdf"
+      ]
+    },
+    {
+      "frage": "Kann ich den Filtereinsatz reinigen oder rückspülen, statt ihn zu wechseln?",
+      "kategorie": "pflege",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/123885/Rueckspuelfilter-erneuern-",
+        "https://www.haustechnikdialog.de/Forum/t/131108/Rueckspuelfilter-statt-Filterkerze",
+        "https://www.bauexpertenforum.de/threads/hilfe-bei-filter-an-der-hauptwasserleitung.101656/"
+      ],
+      "antwort": "Nur beim Rückspülfilter. Dort reinigt die Rückspülung das Sieb, bei Grünbeck Boxer R drehst du dafür den Spülgriff bis zum Anschlag und hältst ihn 5 bis 10 Sekunden. Eine Filterkerze im Wechselfilter darf laut Grünbeck nicht gereinigt werden, weil das hygienisch nicht sicher ist. Sie wird entsorgt und ersetzt.",
+      "antwort_quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf"
+      ]
+    },
+    {
+      "frage": "Darf ich den Filtereinsatz selbst wechseln?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/165016/Hauswasserfilter-wechseln",
+        "https://www.energiesparhaus.at/forum-wasserfilterwechsel-ohne-absperrventil/52770_1",
+        "https://bau.de/forum/trinkwasser/10286.php"
+      ],
+      "antwort": "Den Filter einbauen und wesentlich verändern darf nur ein eingetragener Installateur (§ 12 Abs. 2 AVBWasserV). Beim Einsatz unterscheiden sich die Hersteller: BWT zählt das Erneuern des Filterelements im E1 zu den Pflichten des Betreibers, Dichtungen und Druckminderer tauscht das Fachpersonal. Grünbeck beschreibt den Kerzenwechsel im pureliQ Schritt für Schritt, Verschleißteile wechselt die Fachkraft. SYR sagt für den Drufi, dass Installation und Wartung nur ein autorisierter Fachbetrieb macht, Judo lässt den Siebeinsatz des PROFI-QC von autorisiertem Personal tauschen.",
+      "antwort_quellen": [
+        "https://www.gesetze-im-internet.de/avbwasserv/__12.html",
+        "https://assets.heizung-billiger.de/documents/bwt_e1_einhebelfilter_man.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+        "https://www.unidomo.de/tpl/download/Judo_JPF-QC_Betriebsanleitung.pdf"
+      ]
+    },
+    {
+      "frage": "Warum soll man den neuen Filtereinsatz nicht mit bloßen Händen anfassen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/237031/Wasserfilter-Filterkerze-wechseln-welche-ist-die-richtige-"
+      ],
+      "antwort": "Aus hygienischen Gründen, das Trinkwasser fließt danach durch den Einsatz. Grünbeck schreibt für Boxer K und pureliQ vor, die neue Kerze und das Stützgewebe nur mit Hygienehandschuhen anzufassen. Beim pureliQ schiebst du die Kerze noch in der Folie über das Stützgewebe. BWT bietet für den E1 den Hygienetresor an, damit du beim Tausch keine wasserberührten Teile anfassen musst.",
+      "antwort_quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://assets.heizung-billiger.de/documents/bwt_e1_einhebelfilter_man.pdf"
+      ]
+    },
+    {
+      "frage": "Welcher Einsatz passt in den Grünbeck Boxer K, KX oder pureliQ?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/237031/Wasserfilter-Filterkerze-wechseln-welche-ist-die-richtige-",
+        "https://www.haustechnikdialog.de/Forum/t/145263/wasserfiltereinsatz-tauschen-oder-neuer-filter-"
+      ],
+      "antwort": "In den pureliQ:K und KD gehört die Filterkerze 101272 mit 100 µm (2 Stück), so steht es in der Grünbeck-Anleitung. Händler führen dieselbe Nummer auch für den Boxer KX und KDX. Der ältere Boxer K und KD nach der Anleitung von 2015 hat dagegen 80 µm, dort ist die Filterkerze 103075 angegeben. In die Rückspülfilter Boxer R und RD gehört das Filterelement 101632E.",
+      "antwort_quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://www.testberichte.de/heimwerkerbedarf/gruenbeck-ersatzfilterkerze-100-m-groesse-1-fuer-pureliq-k-kd-boxer-kx-kdx-2-stueck-101272e.html",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf"
+      ]
+    }
+  ],
+  "fakten": [
+    {
+      "fakt": "Resideo-Katalog 2022/23: F76S und HS10S Baureihe ab 2007 mit 100-µm-Einsätzen AF11S-1/2A (½\"–¾\"), AF11S-1A (1\"–1¼\"), AF11S-11/2A (1½\"–2\"); für Double Spin AF11DS-1/2A und AF11DS-1A (dazu 20, 50, 200, 300, 500 µm).",
+      "quelle": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf"
+    },
+    {
+      "fakt": "Resideo-Katalog: F76S und HS10S Baureihe 1997–2006 mit AF11S-1A für ½\"–1¼\" und AF11S-11/2A für 1½\"–2\", Varianten B (20 µm), C (50), D (200), E (300), F (500).",
+      "quelle": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf"
+    },
+    {
+      "fakt": "Resideo-Katalog: Filterführung mit oder ohne Double Spin liegt nur den Ersatzeinsätzen AF11DS und AF11S von ½\" bis 1¼\" bei.",
+      "quelle": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf"
+    },
+    {
+      "fakt": "Resideo-Katalog: FK06 MiniPlus-FK (ab 2002) Ersatzsieb 100 µm AS06-1/2A für ½\"+¾\", AS06-1A für 1\"+1¼\" (5 Stück); FF06 MiniPlus-FF (ab 1997) AS06-1/2A für ½\", AS06-1A für ¾\"–1¼\".",
+      "quelle": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf"
+    },
+    {
+      "fakt": "Resideo-Katalog: O-Ring-Satz F76S/HS10S 0900747 (½\"–1¼\") und 0900748 (1½\"–2\"), Klarsicht-Filtertasse KF11S-1A und KF11S-11/2A, Doppelringschlüssel ZR10K-3/4, ZR10K-1, ZR10K-11/2.",
+      "quelle": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf"
+    },
+    {
+      "fakt": "SYR Drufi DFR/FR (alt): Filterelement 2315.00.908, Dichtungssatz 2315.00.931, Filtertasse DFR/FR/DFF 2315.00.912; Filterelement 90 µm unten, 125 µm oben; Rückspülen durch Öffnen und Schließen des Kugelhahns, spätestens alle 2 Monate; Installation und Wartung nur durch autorisierten Fachbetrieb.",
+      "quelle": "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf"
+    },
+    {
+      "fakt": "SYR Drufi+ DFR/FR: Filtereinsatz 2315.00.930 (90 µm) oder 2315.01.946 (40 µm), Filtertassenschlüssel 2000.25.907; Rückspülen durch Drehen des Rückspülknopfs um 90°, spätestens alle sechs Monate; nur Fachinstallateure dürfen installieren und warten.",
+      "quelle": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/9.2315.40_1902_en_2019-08-14.pdf"
+    },
+    {
+      "fakt": "Judo EHF 100, Bestellnummer 8080030, 100 µm, 2 Stück, für MHF ½\"–1¼\".",
+      "quelle": "https://judo.eu/en/produkt/judo-helvetia-cartridge-filter-with-screw-connection-mhf-%C2%BE-1%C2%BC/"
+    },
+    {
+      "fakt": "Judo nennt 8080030 auch für JSY-EC-K ¾\"–1¼\" und JUKO-EC-KD ¾\"–1¼\", mit Ringdichtung.",
+      "quelle": "https://judo.eu/en/produkt/judo-speedy-ec-k-dn20-dn32/"
+    },
+    {
+      "fakt": "Judo PROFI-QC ¾\"–1¼\" (Anleitung 1702283, 2014/06): Verschleißteilset Siebeinsatz 0,1 mm und Saugrohr 2020722 (Intervall 3 Jahre), Dichtungssatz 2010335 (4 Jahre); Silberschicht nach ca. 3 Jahren verbraucht, Wechsel durch autorisiertes Personal; nur Original-Ersatzteile; Rückspülung alle zwei Monate empfohlen; Öffnen und Tausch druckbelasteter Teile nur durch konzessionierte Personen.",
+      "quelle": "https://www.unidomo.de/tpl/download/Judo_JPF-QC_Betriebsanleitung.pdf"
+    },
+    {
+      "fakt": "Grünbeck Boxer R/RD (Anleitung März 2014): Filterelement 100 µm R/RD, A/AD 101 632e, Dichtungssatz BOXER/FS-B 101 635e; Rückspülung spätestens alle sechs Monate, Grünbeck empfiehlt alle zwei Monate; defekte Bauteile durch Fachpersonal; Einbau nur durch eingetragenes Installationsunternehmen nach § 12 (2) AVBWasserV.",
+      "quelle": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf"
+    },
+    {
+      "fakt": "Grünbeck Boxer K/KD (Anleitung März 2015): Filterkerzen 80 µm 103 075, Filterfeinheit 80 µm; Filterkerze alle sechs Monate wechseln; neuer Einsatz darf nicht mit bloßen Händen berührt werden.",
+      "quelle": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf"
+    },
+    {
+      "fakt": "Grünbeck pureliQ:K/KD: Filterkerze 100 µm 2 Stück 101 272; Filterkerze darf nicht gereinigt werden; Kerzen mit 5, 20, 50 µm laut DIN EN 13443-1 nicht für Trinkwasserinstallationen zulässig; neue Kerze und Stützgewebe nicht mit bloßen Händen berühren, Hygienehandschuhe; Wechsel der Verschleißteile nur durch Fachkraft; Typenschild seitlich am Filter.",
+      "quelle": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf"
+    },
+    {
+      "fakt": "Händler (Heizungsdiscount24, Otto, Kaufland) führen 101272E für pureliQ:K/KD und Boxer KX/KDX ¾\"–1¼\".",
+      "quelle": "https://www.testberichte.de/heimwerkerbedarf/gruenbeck-ersatzfilterkerze-100-m-groesse-1-fuer-pureliq-k-kd-boxer-kx-kdx-2-stueck-101272e.html"
+    },
+    {
+      "fakt": "BWT E1 neu EHF/HWS und E1 HydroModul: Filterelement 2er Pack DE 10386, AT 810386 (100 µm), halbjährlich; Hygienetresor DE 20393, AT 820393, spätestens alle 12 Monate; Erneuern des Filterelements ist Betreiberpflicht, Austausch der Verschleißteile durch Fachpersonal nach DIN EN 806-5; nur Original-Ersatzteile.",
+      "quelle": "https://assets.heizung-billiger.de/documents/bwt_e1_einhebelfilter_man.pdf"
+    },
+    {
+      "fakt": "BWT E1 Produktdatenblatt 02/2021: Filterelement spätestens nach 6 Monaten wechseln.",
+      "quelle": "https://assets.heizung-billiger.de/documents/bwt_e1_einhebelfilter.pdf"
+    },
+    {
+      "fakt": "BWT 1-902393 Filterelement mit Abstreifer: Händler (ManoMano, Kaufland) nennen Avanti, Bolero RF und HWS, Diago; Amazon-Titel im BWT-Store nennt Diago.",
+      "quelle": "https://www.testberichte.de/heimwerkerbedarf/bwt-filterelement-mit-abstreifer.html"
+    },
+    {
+      "fakt": "§ 12 Abs. 2 AVBWasserV: Errichtung und wesentliche Veränderungen nur durch Wasserversorger oder eingetragenes Installationsunternehmen; Anschlussnehmer verantwortlich für Errichtung, Änderung und Unterhaltung (Abs. 1).",
+      "quelle": "https://www.gesetze-im-internet.de/avbwasserv/__12.html"
+    },
+    {
+      "fakt": "Amazon-Produktseiten am 5.11.2026 geprüft: Titel mit Originalmarke und Herstellernummer für B00BHEH2QI, B011O24TA4, B00ITUJT9Q, B0070NKXXO, B00DYTF1MQ, B077HGSXQH, B00DYPIY7O, B07D73KVVF, B004IR8AVC, B0017V0NUS.",
+      "quelle": "https://www.amazon.de/dp/B00BHEH2QI"
+    }
+  ],
+  "nicht_belegt": [
+    "Judo GUBI-E: keine Ersatzteilliste mit Filtereinsatz-Nummer; die Amazon-ASIN B07CRX2JN7 ist das ganze Gerät, kein Einsatz.",
+    "Judo Clear K/KD mit EHF 100: nur in der Bereichsanalyse genannt, ohne Herstellerunterlage.",
+    "Judo Siebeinsatz-Set 2170606: Herstellerangabe nur für den BIKO, für JPF oder GUBI nur ein Händler.",
+    "BWT Galileo und Amadeus mit 1-902393: nur ein Händler. Maschenweite von 1-902393: nur ein Händler (100 µm).",
+    "BWT Avanti: Händler nennen Avanti, teils mit Einschränkung auf Baujahr ab 2003.",
+    "BWT 10994 (Gr. 1) und Dichtungssets 1-902345 und 7084233: Zuordnung zu Geräten nicht in Herstellerunterlagen geprüft.",
+    "Honeywell FF06-1AA (B0017V45TI) ist ein ganzer Filter, kein Einsatz; nicht in die Produktliste.",
+    "Woran man Double Spin am Gerät erkennt: Hinweis aus einer englischen Anleitung (Turbinenschaufeln, drehender Rotor), keine deutsche Herstellerangabe geprüft.",
+    "Ab wann der Drufi+ gebaut wird (ein Händler nennt 05/2011): keine SYR-Angabe.",
+    "SYR Drufi+ Filtertasse 2315.00.912: in der Drufi+-Anleitung ohne Nummer, nur für den alten Drufi belegt.",
+    "Ob der Tausch eines Filtereinsatzes eine wesentliche Veränderung nach § 12 AVBWasserV ist, lässt der Gesetzestext offen.",
+    "Riegler und Oventrop (Contorion): Einsatznummern nicht geprüft.",
+    "Forenaussage, dass Einsätze anderer Hersteller passen (haustechnikdialog 123885): widerspricht den Herstellerangaben, nicht übernommen."
+  ]
+}

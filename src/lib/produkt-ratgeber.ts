@@ -904,6 +904,102 @@ const DRUCKMINDERER: ProduktRatgeber = {
   ],
 };
 
+/** Gibt es das Gerät in dieser Größe? Fehlt die Liste, zählt die Größe des gezeigten Artikels. */
+const gibtEsIn = (d: RatgeberDaten, zoll: string): boolean | null =>
+  Array.isArray(d.groessen_zoll) && d.groessen_zoll.length > 0
+    ? d.groessen_zoll.includes(zoll)
+    : d.anschluss_zoll
+      ? d.anschluss_zoll === zoll
+      : null;
+
+// Einstieg für den Hauswasserfilter. Kombigeräte mit Druckminderer stehen auch hier; Druckminderer ohne Filter
+// nur in /ratgeber/druckminderer.
+const RUECKSPUELFILTER: ProduktRatgeber = {
+  pfad: "rueckspuelfilter",
+  slug: "rueckspuelfilter",
+  silo: "bad",
+  name: "Rückspülfilter",
+  mehrzahl: "Filter",
+  mehrzahlDativ: "Filtern",
+  keine: "Keiner",
+  frage: "Welcher Rückspülfilter passt?",
+  fragen: [
+    {
+      key: "druckminderer",
+      label: "Druckminderer",
+      hinweis: "Kann der Ruhedruck über 5 bar steigen oder sitzt hinter dem Zähler noch kein Druckminderer, nimm ein Gerät mit eingebautem.",
+      optionen: [
+        {
+          label: "mit Druckminderer",
+          passt: (d) => (d.druckminderer ? d.druckminderer === "ja" : null),
+        },
+        {
+          label: "ohne",
+          passt: (d) => (d.druckminderer ? d.druckminderer !== "ja" : null),
+          sonst: {
+            text: "Brauchst du nur einen Druckminderer hinter einem vorhandenen Filter, steht das im Druckminderer-Ratgeber.",
+            href: "/ratgeber/druckminderer",
+            linktext: "Druckminderer ansehen",
+          },
+        },
+      ],
+    },
+    {
+      key: "anschluss",
+      label: "Anschluss",
+      hinweis: "3/4 Zoll ist DN 20, 1 Zoll DN 25, 1 1/4 Zoll DN 32; gezeigt ist meist die 1-Zoll-Ausführung, die Nummern der anderen Größen stehen beim Modell.",
+      optionen: [
+        { label: "3/4 Zoll", passt: (d) => gibtEsIn(d, '3/4"') },
+        { label: "1 Zoll", passt: (d) => gibtEsIn(d, '1"') },
+        { label: "1 1/4 Zoll", passt: (d) => gibtEsIn(d, '1 1/4"') },
+      ],
+    },
+    {
+      key: "rueckspuelung",
+      label: "Rückspülung",
+      hinweis: "Von Hand heißt: alle zwei Monate ein Handrad oder einen Kugelhahn drehen. Die Automatik braucht Steckdose und Abwasseranschluss.",
+      optionen: [
+        { label: "von Hand", passt: (d) => (d.rueckspuelung ? d.rueckspuelung === "manuell" : null) },
+        {
+          label: "automatisch ab Werk",
+          passt: (d) => (d.rueckspuelung ? d.rueckspuelung === "automatisch" : null),
+        },
+        {
+          label: "von Hand, Automatik später nachrüsten",
+          passt: (d) =>
+            d.rueckspuelung === "automatisch" ? false : d.rueckspuelautomatik ? /nachrüstbar/i.test(d.rueckspuelautomatik) : null,
+        },
+      ],
+    },
+    {
+      key: "flansch",
+      label: "Was sitzt schon in der Leitung?",
+      hinweis: "Bleibt ein vorhandener Anschlussflansch drin, setzt der Installateur nur das neue Gerät derselben Marke darauf.",
+      optionen: [
+        {
+          label: "JUDO-Drehflansch mit Bajonett",
+          passt: (d) => enthaelt(d.anschlusssystem, /judo/i),
+        },
+        {
+          label: "SYR-Flansch (Drufi, Hauswasserstation 2000)",
+          passt: (d) => enthaelt(d.anschlusssystem, /syr/i),
+        },
+        {
+          label: "BWT-Anschlussmodul (Infinity)",
+          passt: (d) => enthaelt(d.anschlusssystem, /bwt/i),
+        },
+      ],
+    },
+  ],
+  eckdaten: (d) => [
+    d.bauart ?? null,
+    d.anschluss_zoll ? `Anschluss ${d.anschluss_zoll}` : d.groessen_zoll ? `${d.groessen_zoll.join(", ")} je nach Flansch` : null,
+    d.rueckspuelung ? (d.rueckspuelung === "manuell" ? "Rückspülung von Hand" : "Rückspülung automatisch") : null,
+    d.druckminderer === "nachrüstbar" ? "Druckminderer nachrüstbar" : null,
+    d.filter ?? null,
+  ],
+};
+
 const hatZweck = (d: RatgeberDaten, z: SonnenschutzZweck): boolean | null =>
   Array.isArray(d.zweck) && d.zweck.length > 0 ? d.zweck.includes(z) : null;
 const passtAn = (d: RatgeberDaten, g: FensterGeneration): boolean | null =>
@@ -1006,6 +1102,7 @@ export const PRODUKT_RATGEBER: ProduktRatgeber[] = [
   KUECHENARMATUR,
   DUSCHSYSTEM,
   DRUCKMINDERER,
+  RUECKSPUELFILTER,
   DACHFENSTER_SONNENSCHUTZ,
 ];
 
