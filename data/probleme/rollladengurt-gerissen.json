@@ -1,0 +1,201 @@
+{
+  "slug": "rollladengurt-gerissen",
+  "titel": "Rollladengurt gerissen",
+  "seo_title": "Rollladengurt gerissen: Rollladen sichern, Kasten öffnen, Gurt wechseln",
+  "seo_description": "Rollladengurt gerissen, ausgehängt oder er zieht sich nicht mehr ein: So sicherst du den Rollladen, findest die Ursache, misst Breite und Länge für den neuen Gurt und erkennst, wann beim Vorbaurollladen der Fachbetrieb ran sollte.",
+  "symptom": "Der Gurt hängt lose aus der Gurtführung oder ist ganz im Rollladenkasten verschwunden, und der Rollladen ist heruntergefallen oder steckt halb offen fest. Oder der Gurt ist noch ganz, hängt aber durch und wird vom Wickler nicht mehr eingezogen.",
+  "bereich": "rollladen",
+  "ursachen": [
+    {
+      "ursache": "Gurt verschlissen, ausgefranst oder spröde",
+      "erklaerung": "Der häufigste Fall. Der Gurt ist ein Verschleißteil und reißt nach Jahren an der Stelle, die am meisten reibt, oft knapp über dem Wickler oder an der Gurtführung. Vorher sieht man ausgefranste Kanten, dünne oder spröde Stellen. Ist er nur unten kaputt, reicht ein Reparaturset, sonst kommt ein neuer Gurt in derselben Breite rein.",
+      "haeufigkeit": "häufig",
+      "teilart": "rollladengurt"
+    },
+    {
+      "ursache": "Feder im Gurtwickler lahm oder gebrochen",
+      "erklaerung": "Der Gurt ist ganz, hängt aber durch, und der Wickler zieht ihn nicht mehr ein, oder er rollt sich nur noch zum Teil auf. Die Feder hat über die Jahre an Spannung verloren oder ist gebrochen. Ist sie nur entspannt, weil der Gurt ausgehängt war, lässt sie sich wieder vorspannen. Sonst kommt ein neuer Wickler mit passendem Lochabstand rein. Die Federtrommel ist vorgespannt und kann zurückschnellen.",
+      "haeufigkeit": "häufig",
+      "teilart": "gurtwickler"
+    },
+    {
+      "ursache": "Gurt aus dem Wickler gesprungen oder nicht richtig eingehängt",
+      "erklaerung": "Der Rollladen ist plötzlich ganz heruntergerauscht, der Gurt ist aber nicht gerissen, sondern hängt frei. Er hat sich von der Federtrommel gelöst. Dann wird der Wickler ausgebaut, der Gurt unter der Gurtbremse neu eingefädelt, an der Trommel befestigt und die Feder vorgespannt. Beim Vorbaurollladen geht das nur, wenn du an den Kasten außen kommst.",
+      "haeufigkeit": "gelegentlich",
+      "teilart": "gurtwickler"
+    },
+    {
+      "ursache": "Gurt oben an der Gurtscheibe ausgerissen oder Haken abgebrochen",
+      "erklaerung": "Der Gurt ist ganz im Kasten verschwunden oder hängt mit sauberem Ende herunter. Er ist oben am Gurthaken ausgerissen, oder der Haken an der Gurtscheibe ist abgebrochen. Hier muss der Rollladenkasten auf. Fehlt der Haken, hilft eine neue Gurtscheibe passend zu Welle und Gurtbreite, als Notlösung eine Blechschraube durch den Gurt in die Scheibe.",
+      "haeufigkeit": "gelegentlich",
+      "teilart": "rollladengurt"
+    },
+    {
+      "ursache": "Gurtführung oder Wickler sitzen schief, der Gurt scheuert",
+      "erklaerung": "Der Gurt franst immer an derselben Stelle aus, meist am Austritt aus der Wand oder am Wickler. Selve verlangt, dass der Wickler lotrecht unter der Gurtführung sitzt, Rademacher, dass der Gurt möglichst senkrecht einläuft. Eine Gurtführung mit Leitrolle verringert laut Schellenberg den Verschleiß. Ohne diese Korrektur reißt auch der neue Gurt wieder.",
+      "haeufigkeit": "gelegentlich",
+      "teilart": "rollladengurt"
+    },
+    {
+      "ursache": "Rollladen klemmt oder ist zu schwer",
+      "erklaerung": "Der Gurt reißt beim Hochziehen, obwohl er noch gut aussah, oder der Rollladen lief schon vorher schwer. Klemmt der Panzer in den Führungsschienen oder hängt Schnee oder Eis daran, zieht man mit viel mehr Kraft, als der Gurt aushält. Erst die Ursache beheben (siehe „Rollladen klemmt“), dann den Gurt tauschen. Ein überdehnter Gurt gehört ausgetauscht.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Verbindung zwischen Rollladen und Welle gerissen",
+      "erklaerung": "Das sieht aus wie ein gerissener Gurt, ist aber die Aufhängung: Die Bänder oder Federn, die den Rollladenpanzer an der Welle halten, sind ab. Der Gurt bewegt die Welle dann noch, der Rollladen aber nicht mehr, oder er ist ganz in den Kasten gerutscht. Bei alten Häusern sind es Gurtbänder, die mit Klammern an der Welle sitzen, bei neueren Aufhängefedern oder feste Verbinder.",
+      "haeufigkeit": "selten"
+    }
+  ],
+  "pruefen": [
+    "Ist der Rollladen unten, lass ihn unten. So kann nichts mehr herunterfallen, und so beginnen auch Schellenberg und ROMA den Gurtwechsel.",
+    "Steht er oben oder halb offen, greif nicht darunter und lehn dich nicht hinaus. Sichern kannst du ihn mit einem Keil, einer Schraubzwinge oder Klemmzwinge in den seitlichen Führungsschienen oder, bei offenem Kasten, mit einem Schraubendreher in der Welle.",
+    "Sieh nach, wo der Gurt gerissen ist: unten am Wickler, mitten im sichtbaren Stück oder oben im Kasten. Hängt der Gurt noch ganz am Wickler, aber der Rollladen bewegt sich nicht, ist eher die Aufhängung zwischen Rollladen und Welle ab.",
+    "Stell fest, welchen Kasten du hast. Einbaukasten: Revisionsdeckel innen über dem Fenster, oft übertapeziert, die Schrauben sitzen unter der Tapete. Vorbaukasten: Kasten außen vor der Fassade, der Deckel ist von außen verschraubt oder vernietet.",
+    "Miss die Gurtbreite: 14 oder 15 mm ist Mini, 23 mm ist Maxi, selten 18 mm.",
+    "Miss den alten Gurt aus oder rechne Höhe von Fenster oder Tür mal 2,5. Für eine 2,20 m hohe Balkontür sind das 5,5 m.",
+    "Prüf den Wickler: Zieht er den Gurt kräftig und ganz ein? Wenn nicht, ist die Feder lahm und der Wickler sollte mit getauscht werden. Notier den Lochabstand der Befestigung, damit der neue in den alten Mauerkasten passt. Federtrommel nicht aufmachen, sie ist vorgespannt.",
+    "Sieh dir den Weg des Gurts an: Läuft er schräg, scheuert er an einer Kante, fehlt die Leitrolle in der Gurtführung? Das korrigierst du beim Gurtwechsel gleich mit."
+  ],
+  "fachbetrieb_ab": "Gurt, Gurtscheibe, Gurtführung und mechanischen Gurtwickler tauschst du selbst, wenn du von innen an den Rollladenkasten kommst. Beim Vorbaurollladen sitzt der Kasten außen. Im Erdgeschoss geht das von der Leiter, im Obergeschoss brauchst du ein Gerüst oder einen Hubsteiger. ROMA nennt die Reparatur bei Fenstern in großer Höhe mit außenliegender Revisionsklappe besonders gefährlich, das ist ein Fall für den Rollladenbauer. Dasselbe gilt, wenn der Kasten zugeputzt ist und es keine Revisionsöffnung gibt. Rollläden mit Rohrmotor haben keinen Gurt: Arbeiten an Motor und Anschluss macht laut Selve und Schellenberg eine Elektrofachkraft, ebenso nach Schellenberg die Montage eines elektrischen Gurtwicklers mit Netzstecker. In der Mietwohnung sagst du dem Vermieter Bescheid.",
+  "marken_probleme": [],
+  "fragen": [
+    {
+      "frage": "Der Rollladengurt ist gerissen, und der Rollladen ist ganz unten. Was jetzt?",
+      "antwort": "Lass den Rollladen unten, das ist die sichere Stellung, und auch ROMA und Schellenberg beginnen den Gurtwechsel mit geschlossenem Rollladen. Miss die Breite des alten Gurts, rechne die Länge aus (Höhe mal 2,5) und kauf den passenden Gurt. Dann öffnest du Rollladenkasten und Wickler, hakst den alten Gurt oben an der Gurtscheibe aus und den neuen ein.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.roma.de/blog/gerissenen-rollladengurt-reparieren",
+        "https://media.hornbach.at/hb/ownersmanual/as.187241953.pdf",
+        "https://www.schellenberg.de/einbau-storys/einlasswickler"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Gurt ist gerissen, der Rollladen ist oben oder hängt halb. Kann ich ihn hochschieben?",
+      "antwort": "Einfach von unten hochschieben klappt meist nicht, der Panzer staucht sich im Kasten. Bei offenem Kasten drehst du die Welle von Hand, bis der Rollladen aufgerollt ist, und blockierst sie, etwa mit einem Schraubendreher. Ohne offenen Kasten berichten Forennutzer, dass man den Panzer Stück für Stück nach oben drückt und mit Keilen oder einer Schraubzwinge in den Führungsschienen festklemmt.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gutefrage.net/frage/rolladengurt-gerissen---kann-man-den-rolladen-hochschieben",
+        "https://www.gutefrage.net/frage/rolladengurt-gerissen-wie-rolladen-oeffnen",
+        "https://www.haustechnikdialog.de/forum/t/89815/gurt-von-vorbaurolladen-gerissen"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie öffne ich den Rollladenkasten, wenn der Deckel übertapeziert ist?",
+      "antwort": "Meist ist innen eine Platte vor den Kasten geschraubt, die links und rechts etwas übersteht. Such die Fugen, schneid die Tapete dort auf und leg die Schrauben frei. Bei manchen Holzkästen ist die ganze Frontplatte mit vielen kleinen Nägeln befestigt. Ist alles verputzt oder vergipst und es gibt keine Revisionsöffnung, hilft nur aufstemmen oder der Zugang von außen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gutefrage.net/frage/rollladen-haengt-und-rollladengurt-gerissen",
+        "https://www.bauexpertenforum.de/threads/rolladengurt-gerissen-revisionsklappe-oeffnen.117899/",
+        "https://www.bauexpertenforum.de/threads/rolladengurt-fest-und-jetzt.130853/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Beim Vorbaurollladen ist der Gurt gerissen. Wie komme ich an die Gurtscheibe?",
+      "antwort": "Von innen gar nicht, der Kasten muss außen geöffnet werden. Oft ist der Deckel vorne unten vernietet; im Haustechnikdialog wurden die Nieten ausgebohrt, danach ließ sich der Gurt wechseln. Manche Kästen hängen nur an den Führungsschienen, dann wird beim Abschrauben der Schienen alles locker. Zu zweit geht es leichter. Im Obergeschoss brauchst du Gerüst oder Hubsteiger, oder du lässt es den Rollladenbauer machen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.haustechnikdialog.de/forum/t/166767/Rolladengurt-wechseln-bei-Vorbaurolladen",
+        "https://www.haustechnikdialog.de/forum/t/89815/gurt-von-vorbaurolladen-gerissen",
+        "https://www.bauexpertenforum.de/threads/gerissener-rolladengurt.143667/",
+        "https://www.roma.de/blog/gerissenen-rollladengurt-reparieren"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Gurt ist aus dem Wickler gesprungen und wickelt sich nach dem Einhängen nicht mehr auf. Was habe ich falsch gemacht?",
+      "antwort": "Die Feder im Wickler hat beim Herausspringen ihre Spannung verloren. Dreh die Federtrommel vor dem Einhängen ein paar Umdrehungen gegen die Aufrollrichtung, halt sie fest und häng dann den Gurt ein. Schellenberg führt den Gurt dabei unterhalb der Gurtbremse in den Wickler. Vorsicht, die gespannte Trommel kann zurückschnellen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gutefrage.net/frage/fensterrolladen-gurtwickler-wickelt-sicht-nicht-mehr-auf",
+        "https://media.hornbach.at/hb/ownersmanual/as.187241953.pdf",
+        "https://www.schellenberg.de/einbau-storys/gurtfix/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Gurt hängt durch und zieht sich nicht mehr ein. Ist der Wickler kaputt?",
+      "antwort": "Häufig hat die Feder nach Jahren an Spannung verloren. Manchmal ist auch nur der Gurt verdreht; dann hilft es, den Rollladen ganz hochzuziehen und langsam abzulassen oder den Gurt im Wickler neu aufzurollen. Zieht der Wickler danach immer noch schwach, ist ein neuer Wickler mit gleichem Lochabstand die sichere Lösung. Schellenberg rät, Wickler mit vormontiertem Gurt nicht zu öffnen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gutefrage.net/frage/der-gurt-im-rollo-zieht-sich-nicht-mehr-ein",
+        "https://www.roma.de/blog/gerissenen-rollladengurt-reparieren",
+        "https://schellenberg-shop.de/media/e5/6e/f4/1733928985/50703-montageanleitung-gurtwickler.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Beim Gurtwechsel ist der Haken an der Gurtscheibe abgebrochen. Was tun?",
+      "antwort": "Als schnelle Lösung drehst du eine Blechschraube durch den Gurt in die Gurtscheibe. Sauberer ist eine neue Scheibe: Dafür den Rollladen von der Welle lösen, die Achse auf einer Seite in die Welle schieben und die Welle aus den Lagern heben. Für Maxi-Wellen mit 60 mm und 23-mm-Gurt passt zum Beispiel die Schellenberg-Gurtscheibe 11700.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.haustechnikdialog.de/forum/t/115137/Rolladen-Haken-von-Gurtscheibe-abgebrochen",
+        "https://www.haustechnikdialog.de/forum/t/126509/Rolladengurt-wechseln",
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/gurtscheiben/11700"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Gurt zwischen Rollladen und Welle ist gerissen. Wie repariere ich das?",
+      "antwort": "Das ist nicht der Bedienungsgurt, sondern die Aufhängung, die den Panzer an der Welle hält. Bei älteren Häusern sind es Gurtbänder, die mit Blechklammern an der Welle sitzen. Im Haustechnikdialog wurden die Klammern mit einem Schraubendreher aufgebogen, ein neues Stück Gurt doppelt eingelegt und die Klammern mit dem Hammer wieder zugeklopft.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/250123/Gurt-zwischen-Rolladenpanzer-und-Welle-gerissen-70er-Jahre-Haus",
+        "https://www.bauexpertenforum.de/threads/rolladengurt-fest-und-jetzt.130853/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Ich wohne zur Miete. Muss ich den gerissenen Gurt selbst reparieren?",
+      "antwort": "Der Rollladen gehört zur Mietsache, und nach § 535 BGB muss der Vermieter sie in vertragsgemäßem Zustand erhalten. Du musst den Schaden nach § 536c BGB unverzüglich melden. Ob du kleine Reparaturen selbst zahlst, regelt dein Mietvertrag.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gesetze-im-internet.de/bgb/__535.html",
+        "https://www.gesetze-im-internet.de/bgb/__536c.html",
+        "https://www.gutefrage.net/frage/der-gurt-im-rollo-zieht-sich-nicht-mehr-ein"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://www.roma.de/blog/gerissenen-rollladengurt-reparieren",
+    "https://www.schellenberg.de/einbau-storys/gurtfix/",
+    "https://www.schellenberg.de/einbau-storys/einlasswickler",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladengurte/36002",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/gurtscheiben/11700",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/gurtfuehrungen/15650",
+    "https://media.hornbach.at/hb/ownersmanual/as.187241953.pdf",
+    "https://schellenberg-shop.de/media/e5/6e/f4/1733928985/50703-montageanleitung-gurtwickler.pdf",
+    "https://schellenberg-shop.de/media/af/e7/5d/1747747186/montageanleitung-rollodrive-55-schellenberg.pdf",
+    "https://www.selve.de/home/produkte/rollladenbauteile/gurtwickler/sw10047/",
+    "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf",
+    "https://medium.rademacher.de/static/db/eb/9c/f19e9ce790e578e8b2c8a7d5cce4816273/Bedienungsanleitung%20RolloTron%20Comfort%20DuoFern%201800%20DE.pdf",
+    "https://www.gesetze-im-internet.de/bgb/__535.html",
+    "https://www.gesetze-im-internet.de/bgb/__536c.html",
+    "https://www.gutefrage.net/frage/rolladengurt-gerissen---kann-man-den-rolladen-hochschieben",
+    "https://www.gutefrage.net/frage/rolladengurt-gerissen-wie-rolladen-oeffnen",
+    "https://www.gutefrage.net/frage/rollladen-haengt-und-rollladengurt-gerissen",
+    "https://www.gutefrage.net/frage/fensterrolladen-gurtwickler-wickelt-sicht-nicht-mehr-auf",
+    "https://www.gutefrage.net/frage/der-gurt-im-rollo-zieht-sich-nicht-mehr-ein",
+    "https://www.haustechnikdialog.de/forum/t/89815/gurt-von-vorbaurolladen-gerissen",
+    "https://www.haustechnikdialog.de/forum/t/166767/Rolladengurt-wechseln-bei-Vorbaurolladen",
+    "https://www.haustechnikdialog.de/forum/t/126509/Rolladengurt-wechseln",
+    "https://www.haustechnikdialog.de/forum/t/115137/Rolladen-Haken-von-Gurtscheibe-abgebrochen",
+    "https://www.haustechnikdialog.de/Forum/t/250123/Gurt-zwischen-Rolladenpanzer-und-Welle-gerissen-70er-Jahre-Haus",
+    "https://www.bauexpertenforum.de/threads/gerissener-rolladengurt.143667/",
+    "https://www.bauexpertenforum.de/threads/rolladengurt-gerissen-revisionsklappe-oeffnen.117899/",
+    "https://www.bauexpertenforum.de/threads/rolladengurt-fest-und-jetzt.130853/"
+  ]
+}

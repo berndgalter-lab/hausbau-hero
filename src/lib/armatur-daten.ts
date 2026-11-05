@@ -367,14 +367,89 @@ export const WASSERFILTER_MERKMALE: { key: keyof WasserfilterDaten; label: strin
   { key: "material", label: "Material", wert: (d) => text(d.material) },
 ];
 
-export type ProduktDaten = ArmaturDaten | WcDaten | SonnenschutzDaten | WasserfilterDaten;
+// ---------- Rollladenantriebe zum Nachrüsten: elektrische Gurtwickler, Akku-Wickler, Rohrmotor-Sets ----------
+// Eigene Kategorie wie beim Wasserfilter: armaturDaten() kennt sie nicht, der Armaturen-Vergleich bleibt unberührt.
+
+/** Wo der Antrieb sitzt: anstelle des alten Gurtwicklers (in der Wand oder davor) oder als Motor in der Welle. */
+export type RollladenBauform = "gurtwickler-unterputz" | "gurtwickler-aufputz" | "rohrmotor";
+/** Woher der Strom kommt. Ein Gerät kann mehrere Wege haben (RolloTron: Stecker oder feste Zuleitung). */
+export type RollladenStrom = "steckdose" | "festanschluss" | "akku" | "solar";
+/** Mini: Gurt 14/15 mm, Achtkantwelle SW 40. Maxi: Gurt 23 mm, Welle SW 60. */
+export type RollladenSystem = "mini" | "maxi";
+
+export interface RollladenantriebDaten {
+  kategorie?: "rollladenantrieb";
+  /** In Lesersprache, z. B. „elektrischer Gurtwickler, Unterputz“ */
+  antriebsart?: string;
+  bauform?: RollladenBauform;
+  stromquellen?: RollladenStrom[];
+  /** z. B. „230 V über Netzteil mit Stecker“ */
+  stromversorgung?: string;
+  systeme?: RollladenSystem[];
+  /** Gurtwickler: Gurtbandbreite, z. B. „23 mm (Maxi)“ */
+  gurtbreite?: string;
+  /** Rohrmotor: Welle, z. B. „Achtkantwelle SW 60“ */
+  welle?: string;
+  /** Wie der Hersteller sie nennt: „max. 30 kg“, „Endzugkraft 7 kg“ */
+  zugkraft?: string;
+  drehmoment_nm?: number;
+  /** Abstand der Befestigungslöcher der Blende, bei Unterputz-Wicklern entscheidend für den Mauerkasten */
+  lochabstand?: string;
+  /** Zulässige Rollladenfläche laut Hersteller, z. B. „5 m² Kunststoff, 2,5 m² Aluminium“ */
+  rollladenflaeche?: string;
+  /** Wickelkapazität bei Gurtwicklern, z. B. „6 m bei 1,0 mm Gurtstärke“ */
+  wickelkapazitaet?: string;
+  /** „ohne“ oder das Funksystem, z. B. „Somfy io-homecontrol“, „Rademacher DuoFern“ */
+  funksystem?: string;
+  /** Was er ohne Funk kann: Zeitschaltuhr, Sonnenautomatik, Wandsender */
+  steuerung?: string;
+  /** Was die Herstelleranleitung zum Einbau sagt */
+  einbau_durch?: string;
+  lieferumfang?: string;
+}
+
+const STROM_NAME: Record<RollladenStrom, string> = {
+  steckdose: "Steckdose",
+  festanschluss: "feste Zuleitung",
+  akku: "Akku",
+  solar: "Solar",
+};
+
+export const ROLLLADENANTRIEB_MERKMALE: { key: keyof RollladenantriebDaten; label: string; wert: (d: RollladenantriebDaten) => string | null }[] = [
+  { key: "antriebsart", label: "Antriebsart", wert: (d) => text(d.antriebsart) },
+  {
+    key: "stromquellen",
+    label: "Strom",
+    wert: (d) => (Array.isArray(d.stromquellen) && d.stromquellen.length > 0 ? d.stromquellen.map((s) => STROM_NAME[s] ?? s).join(" oder ") : null),
+  },
+  { key: "stromversorgung", label: "Stromversorgung", wert: (d) => text(d.stromversorgung) },
+  {
+    key: "systeme",
+    label: "Mini oder Maxi",
+    wert: (d) => (Array.isArray(d.systeme) && d.systeme.length > 0 ? d.systeme.map((s) => (s === "mini" ? "Mini" : "Maxi")).join(" und ") : null),
+  },
+  { key: "gurtbreite", label: "Gurtbreite", wert: (d) => text(d.gurtbreite) },
+  { key: "welle", label: "Welle", wert: (d) => text(d.welle) },
+  { key: "zugkraft", label: "Zugkraft", wert: (d) => text(d.zugkraft) },
+  { key: "drehmoment_nm", label: "Drehmoment", wert: (d) => (typeof d.drehmoment_nm === "number" ? `${d.drehmoment_nm.toLocaleString("de-DE")} Nm` : null) },
+  { key: "lochabstand", label: "Lochabstand", wert: (d) => text(d.lochabstand) },
+  { key: "rollladenflaeche", label: "Rollladenfläche max.", wert: (d) => text(d.rollladenflaeche) },
+  { key: "wickelkapazitaet", label: "Wickelkapazität", wert: (d) => text(d.wickelkapazitaet) },
+  { key: "funksystem", label: "Funk", wert: (d) => text(d.funksystem) },
+  { key: "steuerung", label: "Steuerung", wert: (d) => text(d.steuerung) },
+  { key: "einbau_durch", label: "Einbau laut Hersteller", wert: (d) => text(d.einbau_durch) },
+  { key: "lieferumfang", label: "Lieferumfang", wert: (d) => text(d.lieferumfang) },
+];
+
+export type ProduktDaten = ArmaturDaten | WcDaten | SonnenschutzDaten | WasserfilterDaten | RollladenantriebDaten;
 
 /** Daten, wie die Auswahlhilfe der Produkt-Ratgeber sie sieht: Armatur, WC-Produkt, Sonnenschutz oder Wasserfilter, alle Felder optional. */
 export type RatgeberDaten = Omit<ArmaturDaten, "kategorie" | "montage" | "material"> &
   Omit<WcDaten, "kategorie" | "material"> &
   Omit<SonnenschutzDaten, "kategorie" | "montage" | "material"> &
-  Omit<WasserfilterDaten, "kategorie" | "material"> & {
-    kategorie?: ArmaturKategorie | WcKategorie | "sonnenschutz" | "rueckspuelfilter";
+  Omit<WasserfilterDaten, "kategorie" | "material"> &
+  Omit<RollladenantriebDaten, "kategorie"> & {
+    kategorie?: ArmaturKategorie | WcKategorie | "sonnenschutz" | "rueckspuelfilter" | "rollladenantrieb";
     montage?: string;
     material?: string;
   };
@@ -391,11 +466,15 @@ function istWasserfilter(d: ProduktDaten): d is WasserfilterDaten {
   return d.kategorie === "rueckspuelfilter";
 }
 
-/** Technische Daten jeder bekannten Kategorie (Armatur, Drückerplatte, Vorwandelement, Hebeanlage, Sonnenschutz, Wasserfilter). */
+function istRollladenantrieb(d: ProduktDaten): d is RollladenantriebDaten {
+  return d.kategorie === "rollladenantrieb";
+}
+
+/** Technische Daten jeder bekannten Kategorie (Armatur, Drückerplatte, Vorwandelement, Hebeanlage, Sonnenschutz, Wasserfilter, Rollladenantrieb). */
 export function produktDaten(td: unknown): ProduktDaten | null {
   if (!td || typeof td !== "object" || Array.isArray(td)) return null;
   const d = td as ProduktDaten;
-  return armaturDaten(d) ?? (istWc(d) || istSonnenschutz(d) || istWasserfilter(d) ? d : null);
+  return armaturDaten(d) ?? (istWc(d) || istSonnenschutz(d) || istWasserfilter(d) || istRollladenantrieb(d) ? d : null);
 }
 
 /**
@@ -405,7 +484,9 @@ export function produktDaten(td: unknown): ProduktDaten | null {
 export function merkmaleFuer(daten: (ProduktDaten | null)[]): { key: string; label: string; wert: (d: ProduktDaten) => string | null }[] {
   const erstes = daten.find((d): d is ProduktDaten => !!d);
   const liste =
-    erstes && istWasserfilter(erstes)
+    erstes && istRollladenantrieb(erstes)
+      ? ROLLLADENANTRIEB_MERKMALE.map((m) => ({ ...m, wert: (d: ProduktDaten) => (istRollladenantrieb(d) ? m.wert(d) : null) }))
+      : erstes && istWasserfilter(erstes)
       ? WASSERFILTER_MERKMALE.map((m) => ({ ...m, wert: (d: ProduktDaten) => (istWasserfilter(d) ? m.wert(d) : null) }))
       : erstes && istSonnenschutz(erstes)
       ? SONNENSCHUTZ_MERKMALE.map((m) => ({ ...m, wert: (d: ProduktDaten) => (istSonnenschutz(d) ? m.wert(d) : null) }))

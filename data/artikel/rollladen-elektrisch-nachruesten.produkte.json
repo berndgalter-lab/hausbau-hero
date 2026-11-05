@@ -1,0 +1,326 @@
+[
+  {
+    "sortierung": 1,
+    "name": "Schellenberg RolloDrive 45, elektrischer Gurtwickler Unterputz, Maxi (22745)",
+    "hersteller": "Schellenberg",
+    "hersteller_nr": "22745",
+    "ean": "4003971227458",
+    "einsatzbereich": "Leichter Kunststoffrollladen bis 4 m² mit 23-mm-Gurt, dessen alter Einlasswickler einen Lochabstand von 135 oder 165 mm hat und neben dem eine Steckdose sitzt.",
+    "kurzbeschreibung": "Elektrischer Gurtwickler, der anstelle des alten Einlasswicklers in den Mauerkasten kommt. Strom über ein Steckernetzteil mit 24 V Ausgang. Zwei Schaltzeiten für Auf und Ab und eine Sonnenautomatik. Die Blende hat Bohrungen für 135 und 165 mm Lochabstand.",
+    "vorteile": [
+      "Passt in Mauerkästen mit 135 oder 165 mm Lochabstand, ohne Stemmen",
+      "Netzteil mit Stecker, keine feste Zuleitung nötig",
+      "Sonnenautomatik einstellbar von 3.000 bis 10.000 Lux"
+    ],
+    "nachteile": [
+      "Schellenberg verlangt laut Anleitung, dass eine ausgebildete Elektrofachkraft Anschluss, Montage und Inbetriebnahme übernimmt, auch bei der Variante mit Stecker",
+      "Schwach: 2,5 Nm, Endzugkraft 7 kg, höchstens 4 m² Kunststoff bei 3 kg/m². Für Alu- oder Holzrollläden nicht gedacht",
+      "Nur für 23-mm-Gurt, Wickelkapazität 5,5 m bei 1,0 mm Gurtstärke. Das Netzteilkabel darf nicht verlängert werden",
+      "Kein Funk"
+    ],
+    "technische_daten": {
+      "kategorie": "rollladenantrieb",
+      "antriebsart": "elektrischer Gurtwickler, Unterputz",
+      "bauform": "gurtwickler-unterputz",
+      "stromquellen": ["steckdose"],
+      "stromversorgung": "230 V über Steckernetzteil, 24 V DC am Gerät",
+      "systeme": ["maxi"],
+      "gurtbreite": "23 mm (Maxi)",
+      "zugkraft": "Endzugkraft 7 kg",
+      "drehmoment_nm": 2.5,
+      "lochabstand": "135 oder 165 mm",
+      "rollladenflaeche": "4,0 m² bei 3 kg/m²",
+      "wickelkapazitaet": "5,5 m bei 1,0 mm, 4,3 m bei 1,3 mm Gurtstärke",
+      "funksystem": "ohne",
+      "steuerung": "Tasten, 2 Schaltzeiten, Sonnenautomatik",
+      "einbau_durch": "Elektrofachkraft (laut Anleitung)"
+    }
+  },
+  {
+    "sortierung": 2,
+    "name": "Schellenberg RolloDrive 55, elektrischer Gurtwickler Aufputz (22725)",
+    "hersteller": "Schellenberg",
+    "hersteller_nr": "22725",
+    "ean": "4003971227557",
+    "einsatzbereich": "Rollladen bis 5 m² Kunststoff oder 2,5 m² Aluminium, Mini- oder Maxigurt, wenn der Gurtwickler vor die Wand kommen soll und eine Steckdose am Fenster ist.",
+    "kurzbeschreibung": "Aufputz-Gurtwickler mit Netzteil und Stecker, der vor die Wand geschraubt wird. Der alte Wickler kommt heraus, der Mauerkasten bleibt leer oder wird abgedeckt. Zeitschaltuhr mit LED-Anzeige, Sonnenautomatik von 2.000 bis 20.000 Lux. Nimmt 23-mm- und 14-mm-Gurt.",
+    "vorteile": [
+      "Für Mini- und Maxigurt, der Lochabstand des alten Wicklers spielt keine Rolle",
+      "Deutlich kräftiger als der RolloDrive 45: 8 Nm, max. 30 kg Zugkraft",
+      "Stoppt bei Überschreiten von 4 Minuten Laufzeit und ist nach etwa 60 Minuten wieder bereit"
+    ],
+    "nachteile": [
+      "Schellenberg verlangt laut Anleitung eine ausgebildete Elektrofachkraft für Anschluss, Montage und Inbetriebnahme, obwohl das Gerät einen Stecker hat",
+      "Am Einsatzort muss eine frei zugängliche 230-V-Steckdose sein",
+      "Gehäuse sitzt sichtbar auf der Wand, rund 102 × 246 mm, mindestens 850 mm über dem Boden",
+      "Kein Funk"
+    ],
+    "technische_daten": {
+      "kategorie": "rollladenantrieb",
+      "antriebsart": "elektrischer Gurtwickler, Aufputz",
+      "bauform": "gurtwickler-aufputz",
+      "stromquellen": ["steckdose"],
+      "stromversorgung": "230 V über Netzteil mit Stecker",
+      "systeme": ["mini", "maxi"],
+      "gurtbreite": "23 mm (Maxi) und 14 mm (Mini)",
+      "zugkraft": "max. 30 kg",
+      "drehmoment_nm": 8,
+      "rollladenflaeche": "5,0 m² Kunststoff, 2,5 m² Aluminium",
+      "wickelkapazitaet": "6 m bei 1,0 mm, 3 m bei 1,7 mm Gurtstärke",
+      "funksystem": "ohne",
+      "steuerung": "Zeitschaltuhr, Sonnenautomatik",
+      "einbau_durch": "Elektrofachkraft (laut Anleitung)"
+    }
+  },
+  {
+    "sortierung": 3,
+    "name": "Rademacher RolloTron Standard 1300-UW, elektrischer Gurtwickler Unterputz",
+    "hersteller": "Rademacher",
+    "hersteller_nr": "1423 45 19",
+    "ean": "4031909018601",
+    "einsatzbereich": "Maxi-Rollladen bis etwa 6 m² bei 4 kg/m² mit 23-mm-Gurt, Mauerkasten mit 165 oder 185 mm Lochabstand, Strom über Steckdose oder eine Zuleitung vom Elektriker.",
+    "kurzbeschreibung": "Unterputz-Gurtwickler mit Zeitschaltuhr, Sonnen- und Dämmerungsautomatik und Hinderniserkennung. Strom über das beiliegende Kabel mit Eurostecker oder über eine fest verlegte Zuleitung. Eine Variante für 15-mm-Gurt heißt RolloTron Standard Minigurt 1340.",
+    "vorteile": [
+      "Max. 45 kg Zugkraft, Wickelkapazität 7,6 m bei 1,0 mm Gurtstärke",
+      "Stecker oder feste Zuleitung, je nachdem was am Fenster ist",
+      "Hinderniserkennung: stoppt, wenn der Rollladen beim Ablassen auf etwas trifft"
+    ],
+    "nachteile": [
+      "Rademacher schreibt in der Anleitung, dass der elektrische Anschluss durch eine zugelassene Elektrofachkraft erfolgen muss",
+      "Lochabstand 165 oder 185 mm. Hat der alte Wickler 135 mm, passt die Blende nicht ohne Anpassung",
+      "Nur für trockene Räume (IP20), Kurzzeitbetrieb 4 Minuten",
+      "Kein Funk. Mit DuoFern gibt es den RolloTron Standard DuoFern"
+    ],
+    "technische_daten": {
+      "kategorie": "rollladenantrieb",
+      "antriebsart": "elektrischer Gurtwickler, Unterputz",
+      "bauform": "gurtwickler-unterputz",
+      "stromquellen": ["steckdose", "festanschluss"],
+      "stromversorgung": "230 V, Kabel mit Eurostecker oder feste Zuleitung",
+      "systeme": ["maxi"],
+      "gurtbreite": "23 mm (Maxi)",
+      "zugkraft": "max. 45 kg",
+      "drehmoment_nm": 10,
+      "lochabstand": "165 oder 185 mm",
+      "rollladenflaeche": "ca. 6 m² bei 4 kg/m², ca. 3 m² bei 7 kg/m²",
+      "wickelkapazitaet": "7,6 m bei 1,0 mm, 6,2 m bei 1,3 mm Gurtstärke",
+      "funksystem": "ohne",
+      "steuerung": "Zeitschaltuhr, Sonnen- und Dämmerungsautomatik",
+      "einbau_durch": "Elektrofachkraft für den Anschluss (laut Anleitung)"
+    }
+  },
+  {
+    "sortierung": 4,
+    "name": "Rademacher RolloTron Standard DuoFern Plus 1405-UW, Funk-Gurtwickler Unterputz",
+    "hersteller": "Rademacher",
+    "hersteller_nr": "1423 60 11",
+    "ean": "4031909018687",
+    "einsatzbereich": "Großer oder schwerer Maxi-Rollladen bis etwa 10 m² bei 4 kg/m², wenn schon Rademacher DuoFern im Haus ist oder eine HomePilot-Zentrale steuern soll.",
+    "kurzbeschreibung": "Unterputz-Gurtwickler mit DuoFern-Funk auf 434,5 MHz und 14 Nm. Lässt sich mit DuoFern-Handsendern, der Handzentrale oder dem HomePilot bedienen; Zeit-, Sonnen- und Dämmerungsautomatik laufen auch ohne Zentrale. Die Plus-Variante hat mehr Wickelkapazität und Zugkraft als der 1400.",
+    "vorteile": [
+      "Max. 60 kg Zugkraft, Wickelkapazität 15 m bei 1,0 mm Gurtstärke",
+      "DuoFern: bis zu 20 Geräte, Reichweite im Gebäude etwa 10 bis 15 m",
+      "Lüftungs- und Sonnenposition einstellbar"
+    ],
+    "nachteile": [
+      "230-V-Anschluss: Rademacher verlangt in den RolloTron-Anleitungen eine zugelassene Elektrofachkraft",
+      "Größeres Gehäuse als der 1300: Lochabstand 215 oder 245 mm, Gehäusehöhe 180 mm. Vorher den Mauerkasten messen",
+      "DuoFern versteht keine Sender von Somfy, Schellenberg oder anderen Herstellern"
+    ],
+    "technische_daten": {
+      "kategorie": "rollladenantrieb",
+      "antriebsart": "Funk-Gurtwickler, Unterputz",
+      "bauform": "gurtwickler-unterputz",
+      "stromquellen": ["steckdose", "festanschluss"],
+      "stromversorgung": "230 V",
+      "systeme": ["maxi"],
+      "gurtbreite": "23 mm (Maxi)",
+      "zugkraft": "max. 60 kg",
+      "drehmoment_nm": 14,
+      "lochabstand": "215 oder 245 mm",
+      "rollladenflaeche": "ca. 10 m² bei 4 kg/m², ca. 6 m² bei 7 kg/m²",
+      "wickelkapazitaet": "15 m bei 1,0 mm, 12 m bei 1,3 mm Gurtstärke",
+      "funksystem": "Rademacher DuoFern (434,5 MHz)",
+      "steuerung": "Tasten, Zeit-, Sonnen- und Dämmerungsautomatik, Funk",
+      "einbau_durch": "Elektrofachkraft für den Anschluss (laut Anleitung)"
+    }
+  },
+  {
+    "sortierung": 5,
+    "name": "WIR elektronik eWickler Comfort eW420 Akku, Unterputz, 23 mm",
+    "hersteller": "WIR elektronik",
+    "hersteller_nr": "1001-000066",
+    "ean": "4057158002529",
+    "einsatzbereich": "Kleiner, leichter Kunststoffrollladen bis 1,6 m² mit 23-mm-Gurt an einem Fenster ohne Steckdose, Mauerkasten mit 165 oder 185 mm Lochabstand.",
+    "kurzbeschreibung": "Unterputz-Gurtwickler mit eingebautem LiPo-Akku (14,8 V, 1.000 mAh). Geladen wird über das mitgelieferte Steckernetzteil, laut WIR hält eine Ladung je nach Rollladengewicht 4 bis 8 Wochen. Wochenprogramm und Astrofunktion stellt man am Display ein. Als eW420-M für Minigurt.",
+    "vorteile": [
+      "Kein Stromanschluss am Fenster nötig",
+      "Lochabstand 165 oder 185 mm wie bei vielen Unterputzwicklern",
+      "Astrofunktion: fährt nach Sonnenauf- und -untergang, dazu Wochen- und Wochenendprogramm"
+    ],
+    "nachteile": [
+      "Sehr schwach: 2 Nm, max. 5,5 kg Zugkraft, nur 1,6 m² bei 3,5 kg/m². Für Alu und Holz deutlich weniger",
+      "Akku alle paar Wochen mit dem Netzteil laden, das Kabel ist 1,8 m lang",
+      "Wickelkapazität 6,3 m bei 1 mm Gurtstärke",
+      "Kein Funk"
+    ],
+    "technische_daten": {
+      "kategorie": "rollladenantrieb",
+      "antriebsart": "Akku-Gurtwickler, Unterputz",
+      "bauform": "gurtwickler-unterputz",
+      "stromquellen": ["akku"],
+      "stromversorgung": "LiPo-Akku 14,8 V, 1.000 mAh, Laden mit Steckernetzteil",
+      "systeme": ["maxi"],
+      "gurtbreite": "23 mm (Maxi)",
+      "zugkraft": "max. 5,5 kg",
+      "drehmoment_nm": 2,
+      "lochabstand": "165 oder 185 mm",
+      "rollladenflaeche": "1,6 m² bei 3,5 kg/m²",
+      "wickelkapazitaet": "6,3 m bei 1 mm Gurtstärke",
+      "funksystem": "ohne",
+      "steuerung": "Display, Wochenprogramm, Astrofunktion",
+      "einbau_durch": "selbst einschrauben, laden am Steckernetzteil",
+      "lieferumfang": "Gurtwickler, Steckernetzteil, 2 Schrauben, Wickelradabdeckung, Entriegelungsclip"
+    }
+  },
+  {
+    "sortierung": 6,
+    "name": "WIR elektronik eWickler Comfort eW320-M Akku, Aufputz, Minigurt",
+    "hersteller": "WIR elektronik",
+    "hersteller_nr": "1001-000069",
+    "ean": "4057158003045",
+    "einsatzbereich": "Mini-Rollladen aus Kunststoff bis 1,6 m² mit 14- oder 15-mm-Gurt, wenn am Fenster kein Strom ist und der Wickler vor die Wand oder an den Fensterrahmen soll.",
+    "kurzbeschreibung": "Aufputz-Gurtwickler mit LiPo-Akku, der den alten Schwenkwickler ersetzt. Wird an die Wand (Dübel S6) oder an den Fensterrahmen geschraubt, ohne Stemmen. Geladen wird über das Steckernetzteil, eine Ladung reicht laut WIR 4 bis 8 Wochen.",
+    "vorteile": [
+      "Kein Stromanschluss und kein Mauerkasten nötig",
+      "Wand- oder Rahmenmontage, Befestigungslöcher 213 mm auseinander",
+      "Astrofunktion und Wochenprogramm wie beim Unterputzmodell"
+    ],
+    "nachteile": [
+      "Für Minigurt 12 bis 15 mm, max. 5,5 kg Zugkraft, 1,6 m² bei 3,5 kg/m²",
+      "Gehäuse 193 × 136 × 37 mm sitzt sichtbar vor der Wand",
+      "Akku regelmäßig laden",
+      "Kein Funk"
+    ],
+    "technische_daten": {
+      "kategorie": "rollladenantrieb",
+      "antriebsart": "Akku-Gurtwickler, Aufputz",
+      "bauform": "gurtwickler-aufputz",
+      "stromquellen": ["akku"],
+      "stromversorgung": "LiPo-Akku 14,8 V, 1.000 mAh, Laden mit Steckernetzteil",
+      "systeme": ["mini"],
+      "gurtbreite": "12 bis 15 mm (Mini)",
+      "zugkraft": "max. 5,5 kg",
+      "drehmoment_nm": 2,
+      "lochabstand": "213 mm (Aufputz)",
+      "rollladenflaeche": "1,6 m² bei 3,5 kg/m²",
+      "wickelkapazitaet": "6,3 m bei 1 mm Gurtstärke",
+      "funksystem": "ohne",
+      "steuerung": "Display, Wochenprogramm, Astrofunktion",
+      "einbau_durch": "selbst einschrauben, laden am Steckernetzteil"
+    }
+  },
+  {
+    "sortierung": 7,
+    "name": "Somfy RS100 Solar io 6/15 Kit, Solar-Rohrmotor (1245894)",
+    "hersteller": "Somfy",
+    "hersteller_nr": "1245894",
+    "ean": "3660849680060",
+    "einsatzbereich": "Maxi-Rollladen ohne Stromanschluss, dessen Kasten sich öffnen lässt und dessen Welle mindestens SW 50 hat, wenn Somfy io schon im Haus ist oder kommen soll.",
+    "kurzbeschreibung": "Funk-Rohrmotor mit 6 Nm, NiMH-Akku (9,6 V) und Solarpanel (2,5 W). Der Motor sitzt in der Welle, Akku und Panel kommen auf dieselbe Seite des Rollladens. Gesteuert wird mit einem io-Sender oder über TaHoma. Laut Somfy reicht der Akku ohne Sonne für 45 Tage bei mindestens 2 Fahrten am Tag. Es gibt die Kits auch mit 3, 10, 15 und 20 Nm.",
+    "vorteile": [
+      "Kein Kabel und keine Steckdose: Strom kommt vom Panel",
+      "Hinderniserkennung und Festfriererkennung",
+      "7 Jahre Materialgarantie laut Somfy, Austauschkosten nicht enthalten"
+    ],
+    "nachteile": [
+      "Somfy schreibt in den Anleitungen zu Akku und Solarpanel, dass eine Elektrofachkraft nach DIN VDE 1000-10 installiert",
+      "Rohrinnendurchmesser mindestens 47 mm, also keine Mini-Welle SW 40",
+      "Automatische Endlage unten nur mit festen Wellenverbindern statt Federn, oben nur mit Stopper oder Winkelendschiene",
+      "Kein Sender im Kit. Nicht kompatibel mit Smoove io (sensitiv), Composio io, Impresario io und Unterputz-Sender io",
+      "Nach mehr als einem halben Jahr Lagerung braucht der Akku eventuell das Ladegerät 9028028, das nicht dabei ist"
+    ],
+    "technische_daten": {
+      "kategorie": "rollladenantrieb",
+      "antriebsart": "Solar-Rohrmotor mit Funk",
+      "bauform": "rohrmotor",
+      "stromquellen": ["solar"],
+      "stromversorgung": "Solarpanel 2,5 W, NiMH-Akku 9,6 V",
+      "systeme": ["maxi"],
+      "welle": "Achtkantwelle ab SW 50 (Rohr innen mind. 47 mm)",
+      "drehmoment_nm": 6,
+      "funksystem": "Somfy io-homecontrol",
+      "steuerung": "io-Sender (nicht im Kit), TaHoma",
+      "einbau_durch": "Elektrofachkraft (laut Somfy-Anleitung)",
+      "lieferumfang": "Antrieb mit Kabelbaum, Solarpanel, NiMH-Batterie"
+    }
+  },
+  {
+    "sortierung": 8,
+    "name": "Somfy Modernisierungskit Funk io 15/17, Rohrmotor-Set 230 V (1039943)",
+    "hersteller": "Somfy",
+    "hersteller_nr": "1039943",
+    "ean": "3660849562939",
+    "einsatzbereich": "Maxi-Rollladen mit 60er Achtkantwelle bis 7,5 m² Kunststoff oder 5,5 m² Aluminium, wenn eine Elektrofachkraft die 230-V-Leitung zum Kasten legt.",
+    "kurzbeschreibung": "Set mit Funk-Rohrmotor RS100 io (15 Nm), Funk-Wandsender Smoove 1 io Pure, Adapter und Mitnehmer für die 60er Welle, Motorlager, Kugellager, Teleskopwalzenkapsel, Clip-Verbindern und 3 m Kabel. Endlagen automatisch oder fest, Zwischenposition einstellbar.",
+    "vorteile": [
+      "Alles für die 60er Welle in einem Karton, auch Lager und Walzenkapsel",
+      "Wandsender liegt bei, keine Schalterleitung nötig",
+      "Hinderniserkennung und Festfrierschutz"
+    ],
+    "nachteile": [
+      "230 V: Anschluss nur durch einen Elektrobetrieb, der beim Netzbetreiber eingetragen ist",
+      "Nur für Achtkantwelle SW 60. Für Mini (SW 40) gibt es das Kit 9/16 (1038132)",
+      "Für eine Kurbel- oder Gurtanlage muss der Kasten offen und die Welle ausgebaut werden"
+    ],
+    "technische_daten": {
+      "kategorie": "rollladenantrieb",
+      "antriebsart": "Funk-Rohrmotor-Set, 230 V",
+      "bauform": "rohrmotor",
+      "stromquellen": ["festanschluss"],
+      "stromversorgung": "230 V, feste Zuleitung",
+      "systeme": ["maxi"],
+      "welle": "Achtkantwelle SW 60",
+      "drehmoment_nm": 15,
+      "rollladenflaeche": "7,5 m² Kunststoff, 5,5 m² Aluminium",
+      "funksystem": "Somfy io-homecontrol",
+      "steuerung": "Funk-Wandsender Smoove 1 io Pure (im Set)",
+      "einbau_durch": "Elektrofachkraft (230-V-Anschluss)",
+      "lieferumfang": "Antrieb, Wandsender, Adapter, Mitnehmer, Motorlager, Kugellager, Teleskopwalzenkapsel, Clip-Verbinder, Schnellanschlussklemmen, 3 m Kabel"
+    }
+  },
+  {
+    "sortierung": 9,
+    "name": "Somfy Modernisierungskit Standard 9/14, Rohrmotor-Set 230 V für Mini (1023027)",
+    "hersteller": "Somfy",
+    "hersteller_nr": "1023027",
+    "ean": "3660849562489",
+    "einsatzbereich": "Mini-Rollladen mit 40er Achtkantwelle bis 5 m² Kunststoff oder 3,5 m² Aluminium, wenn an der Wand ein Rollladenschalter sitzen soll und eine Elektrofachkraft anschließt.",
+    "kurzbeschreibung": "Set mit Rohrmotor (9 Nm, 14 U/min), Adapter und Mitnehmer für die 40er Welle, Motorlager, Kugellager, Teleskopwalzenkapsel, Befestigungsfedern und 3 m Kabel. Gesteuert wird über einen Schalter oder eine Steuerung, die nicht dabei ist. Endlagen fest.",
+    "vorteile": [
+      "Passt auf die Mini-Welle SW 40",
+      "Lager und Walzenkapsel im Set",
+      "Kein Funk, also keine Senderfrage"
+    ],
+    "nachteile": [
+      "230 V: Anschluss und Rollladenschalter nur durch einen Elektrobetrieb, der beim Netzbetreiber eingetragen ist",
+      "Schalter oder Steuerung extra kaufen",
+      "Keine Hinderniserkennung genannt, Endlagen fest eingestellt"
+    ],
+    "technische_daten": {
+      "kategorie": "rollladenantrieb",
+      "antriebsart": "Rohrmotor-Set, 230 V",
+      "bauform": "rohrmotor",
+      "stromquellen": ["festanschluss"],
+      "stromversorgung": "230 V, feste Zuleitung",
+      "systeme": ["mini"],
+      "welle": "Achtkantwelle SW 40",
+      "drehmoment_nm": 9,
+      "rollladenflaeche": "5 m² Kunststoff, 3,5 m² Aluminium",
+      "funksystem": "ohne",
+      "steuerung": "Rollladenschalter (nicht im Set)",
+      "einbau_durch": "Elektrofachkraft (230-V-Anschluss)",
+      "lieferumfang": "Antrieb, Adapter, Mitnehmer, Motorlager, Kugellager, Teleskopwalzenkapsel, Befestigungsfedern, Schnellanschlussklemmen, 3 m Kabel"
+    }
+  }
+]

@@ -12,6 +12,9 @@ import dachfensterKlemmt from "../../data/probleme/dachfenster-klemmt.json";
 import dachfensterRollladenReagiertNicht from "../../data/probleme/dachfenster-rollladen-reagiert-nicht.json";
 import rueckspuelfilterTropft from "../../data/probleme/rueckspuelfilter-tropft.json";
 import enthaertungsanlageVerbrauchtKeinSalz from "../../data/probleme/enthaertungsanlage-verbraucht-kein-salz.json";
+import rollladengurtGerissen from "../../data/probleme/rollladengurt-gerissen.json";
+import rollladenmotorReagiertNicht from "../../data/probleme/rollladenmotor-reagiert-nicht.json";
+import rollladenKlemmt from "../../data/probleme/rollladen-klemmt.json";
 
 // Markenübergreifende Problemseiten unter /problem/<slug> (docs/SEITENAUFBAU.md, Abschnitt 4c), z. B.
 // „Spülkasten läuft nach“. Inhalt aus data/probleme/<slug>.json, fest eingebunden (PROBLEME unten).
@@ -61,6 +64,9 @@ const PROBLEME: ProblemAllgemein[] = [
   dachfensterRollladenReagiertNicht as ProblemAllgemein,
   rueckspuelfilterTropft as ProblemAllgemein,
   enthaertungsanlageVerbrauchtKeinSalz as ProblemAllgemein,
+  rollladengurtGerissen as ProblemAllgemein,
+  rollladenmotorReagiertNicht as ProblemAllgemein,
+  rollladenKlemmt as ProblemAllgemein,
 ];
 
 export function alleProblemeAllgemein(): ProblemAllgemein[] {

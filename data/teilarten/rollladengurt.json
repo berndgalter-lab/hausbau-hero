@@ -1,0 +1,245 @@
+{
+  "slug": "rollladengurt",
+  "name": "Rollladengurt",
+  "mehrzahl": "Rollladengurte",
+  "genus": "m",
+  "titel": "Rollladengurt: welche Breite und welche Länge passen?",
+  "seo_title": "Rollladengurt wechseln: Mini 14 mm oder Maxi 23 mm, richtige Länge, Gurt einfädeln",
+  "seo_description": "Welcher Rollladengurt passt? So misst du die Gurtbreite (Mini 14 mm, Maxi 23 mm), rechnest die Länge aus, findest Gurtscheibe und Wickler dazu und fädelst den neuen Gurt richtig ein. Mit Reparaturset ohne Kasten öffnen.",
+  "kurz": "Beim Rollladengurt zählen zwei Maße: die Breite und die Länge. Die Breite folgt dem Rollladensystem. Mini-Rollläden haben einen 14 mm breiten Gurt, bei Selve und Rademacher heißt dasselbe System 15 mm. Maxi-Rollläden haben 23 mm, selten 18 mm. Die Länge rechnet Schellenberg so aus: Höhe von Fenster oder Tür mal 2,5.\n\nDer Gurt ist oben an der Gurtscheibe auf der Rollladenwelle eingehakt und unten an der Federtrommel im Gurtwickler. Ist er nur unten verschlissen, gibt es Reparatursets, mit denen du ein neues Stück annietest, ohne den Rollladenkasten zu öffnen.",
+  "bereiche": ["rollladen"],
+  "teiltypen": ["rollladengurt"],
+  "marken": ["schellenberg", "somfy", "rademacher", "selve"],
+  "erkennen": [
+    {
+      "titel": "Gurtbreite messen",
+      "text": "Leg ein Lineal quer über den alten Gurt. Rund 14 oder 15 mm heißt Mini-System, 23 mm heißt Maxi-System. Schellenberg führt für Maxi auch 18 mm breite Gurte. Kauf genau die Breite, die du misst: Gurtscheibe, Gurtführung und Wickler sind auf diese Breite gebaut."
+    },
+    {
+      "titel": "Mini oder Maxi an Welle und Lamellen gegenprüfen",
+      "text": "Bist du unsicher, hilft der Blick auf den Rollladen. Beim Mini-System sind die einzelnen Lamellen 37 mm hoch und die Achtkantwelle hat 40 mm Durchmesser. Beim Maxi-System sind es 52 mm und 60 mm. Schellenberg markiert Mini-Verpackungen grün und Maxi-Verpackungen blau."
+    },
+    {
+      "titel": "Länge bestimmen",
+      "text": "Am genauesten ist der alte Gurt, wenn du ihn ganz ausbauen kannst. Sonst gilt die Faustregel von Schellenberg: Höhe von Fenster oder Tür mal 2,5. Für ein 1,40 m hohes Fenster sind das 3,5 m, für eine 2,20 m hohe Balkontür 5,5 m. Gurte gibt es meist in 4,5, 6 und 12 m, den Rest schneidest du ab."
+    },
+    {
+      "titel": "Wickler und Gurtscheibe mitdenken",
+      "text": "Der Wickler muss die ganze Länge aufnehmen. Ein Mini-Aufschraubwickler von Schellenberg fasst 5 m, die Maxi-Einlasswickler 5,0 bis 5,6 m, Einlasswickler mit großer Federdose bis 12 m. Oben im Kasten prüfst du den Gurthaken an der Gurtscheibe. Ist er abgebrochen, kommt eine neue Scheibe passend zur Welle dazu."
+    },
+    {
+      "titel": "Beim elektrischen Gurtwickler auf die Stärke achten",
+      "text": "Elektrische Gurtwickler haben eine feste Wickelkapazität, die von der Gurtstärke abhängt. Der Schellenberg RolloDrive 55 nimmt 6 m Gurt mit 1,0 mm Stärke auf, aber nur 3 m mit 1,7 mm. Rademacher nennt für den RolloTron Comfort DuoFern 7,6 m bei 1,0 mm und 5,2 m bei 1,5 mm. Die Gurtstärke steht beim Gurt in den technischen Daten."
+    },
+    {
+      "titel": "Ganzer Gurt oder Reparaturset?",
+      "text": "Ist der Gurt nur unten am Wickler ausgefranst oder gerissen, reicht ein Reparaturset wie der Gurtfix von Schellenberg. Das neue Stück wird etwa 10 cm unter der Gurtführung an den alten Gurt genietet, der Kasten bleibt zu. Ist der Gurt oben gerissen oder überall spröde, kommt ein neuer ganzer Gurt rein."
+    }
+  ],
+  "groessen": {
+    "titel": "Mini und Maxi im Vergleich",
+    "spalten": ["Merkmal", "System Mini", "System Maxi"],
+    "zeilen": [
+      ["Gurtbreite", "14 mm (Selve, Rademacher: 15 mm)", "23 mm, bei Schellenberg auch 18 mm"],
+      ["Gurtstärke (Schellenberg)", "1,4 mm", "1,7 mm"],
+      ["Achtkantwelle", "40 mm (SW40)", "60 mm (SW60)"],
+      ["Lamellenhöhe", "37 mm", "52 mm"],
+      ["Gurtscheibe (Schellenberg)", "Ø 10 cm, mit Walzenhülse (81000)", "Ø 17 cm (11700) oder 19 cm (11900)"],
+      ["Gurtwickler", "Mini-Wickler, z. B. Aufschraubwickler 50503, Lochabstand 14,5 cm", "Maxi-Einlasswickler, Lochabstand 10,5 bis 26 cm"],
+      ["Wickelkapazität mechanischer Wickler", "bis 5 m (50503)", "5,0 bis 5,6 m, mit großer Federdose bis 12 m"],
+      ["Gurtlängen im Handel", "6 m, 12 m", "4,5 m, 6 m, 12 m"],
+      ["Gurtlänge für 1,40 m Fensterhöhe", "3,5 m", "3,5 m"],
+      ["Gurtlänge für 2,20 m Türhöhe", "5,5 m", "5,5 m"]
+    ],
+    "hinweis": "Faustregel für die Länge nach Schellenberg: Höhe von Fenster oder Tür mal 2,5. Im Haustechnikdialog wird auch Höhe mal 2 plus 1 m genannt, das ergibt bei niedrigen Fenstern etwas mehr. Die Maxi-Einlasswickler mit 5,0 bis 5,6 m gibt Schellenberg für Fenster und Türen bis 2,30 m Höhe an, die großen (11400, 11500) bis 2,50 m. Mini und Maxi sind Systembezeichnungen von Schellenberg und keine Norm. Andere Hersteller nennen die Breiten „Mini“ (14 bis 15 mm) und „Neubau“ oder „Standard“ (23 mm)."
+  },
+  "produkte": [
+    {
+      "name": "Schellenberg Rollladengurt Mini 14 mm × 6 m, grau (46002)",
+      "hersteller": "Schellenberg",
+      "ean": "4003971460022",
+      "hinweis": "Für Mini-Rollläden mit 14 mm Gurtbreite, 1,4 mm stark. Was über die nötige Länge hinausgeht, schneidest du ab."
+    },
+    {
+      "name": "Schellenberg Rollladengurt Maxi 23 mm × 6 m, grau (36002)",
+      "hersteller": "Schellenberg",
+      "ean": "4003971360025",
+      "hinweis": "Für Maxi-Rollläden mit 23 mm Gurtbreite, 1,7 mm stark. Die gängige Größe für Fenster und Balkontüren."
+    },
+    {
+      "name": "Schellenberg Rollladengurt Maxi 23 mm × 12 m, grau (31202)",
+      "hersteller": "Schellenberg",
+      "ean": "4003971312024",
+      "hinweis": "Für zwei Fenster auf einmal oder für Einlasswickler mit großer Federdose bis 12 m."
+    },
+    {
+      "name": "Rathgeber Rollladengurt 22/23 mm × 6 m, creme",
+      "hersteller": "Rathgeber",
+      "ean": "4330816006344",
+      "hinweis": "Maxi-Breite, laut Anbieter 380 kg Reißfestigkeit."
+    },
+    {
+      "name": "Schellenberg Gurtfix Mini 14 mm × 4,3 m, grau (44302)",
+      "hersteller": "Schellenberg",
+      "ean": "4003971443025",
+      "hinweis": "Reparaturset: neues Gurtstück mit Edelstahlstreifen und Nieten, Montage ohne Öffnen des Rollladenkastens."
+    },
+    {
+      "name": "Schellenberg Gurtfix Maxi 23 mm × 4,3 m, grau (34302)",
+      "hersteller": "Schellenberg",
+      "ean": "4003971343028",
+      "hinweis": "Reparaturset für Maxi-Gurte, wenn der Gurt nur im unteren Teil verschlissen ist."
+    },
+    {
+      "name": "Schellenberg Gurtscheibe Maxi Ø 17 cm (11700)",
+      "hersteller": "Schellenberg",
+      "ean": "4003971117001",
+      "hinweis": "Für 23-mm-Gurte und 60-mm-Achtkantwellen, wenn der Gurthaken der alten Scheibe abgebrochen ist."
+    },
+    {
+      "name": "Schellenberg Gurtscheibe Mini Ø 10 cm (81000)",
+      "hersteller": "Schellenberg",
+      "ean": "4003971810001",
+      "hinweis": "Für 14-mm-Gurte und 40-mm-Achtkantwellen, mit eingebauter Walzenhülse."
+    }
+  ],
+  "probleme": ["rollladengurt-gerissen"],
+  "fragen": [
+    {
+      "frage": "Mini oder Maxi: Welche Gurtbreite hat mein Rollladen?",
+      "antwort": "Miss den alten Gurt quer. Mini-Rollläden haben 14 mm, bei Selve und Rademacher als 15 mm angegeben. Maxi-Rollläden haben 23 mm, bei Schellenberg gibt es für Maxi auch 18 mm. Zur Kontrolle: Beim Mini-System sind die Lamellen 37 mm hoch und die Achtkantwelle hat 40 mm, beim Maxi-System 52 mm und 60 mm.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladengurte/36002",
+        "https://www.selve.de/home/produkte/rollladenbauteile/gurtwickler/sw10047/",
+        "https://medium.rademacher.de/static/db/eb/9c/f19e9ce790e578e8b2c8a7d5cce4816273/Bedienungsanleitung%20RolloTron%20Comfort%20DuoFern%201800%20DE.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie lang muss der neue Rollladengurt sein?",
+      "antwort": "Schellenberg rechnet Höhe von Fenster oder Tür mal 2,5, bei 1,40 m also 3,5 m. Im Haustechnikdialog wird zusätzlich Fensterhöhe mal 2 plus 1 m genannt, oder du misst den alten Gurt aus. Lieber etwas länger kaufen und den Rest abschneiden, solange der Wickler die Länge aufnimmt.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladengurte/46002",
+        "https://media.hornbach.at/hb/ownersmanual/as.187241953.pdf",
+        "https://www.haustechnikdialog.de/forum/t/89815/gurt-von-vorbaurolladen-gerissen"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welchen Gurt brauche ich für eine Balkontür?",
+      "antwort": "Nach der Faustregel braucht eine 2,20 m hohe Tür 5,5 m Gurt, also einen 6-m-Gurt, den du kürzt. Prüf, ob der Wickler das fasst: Schellenbergs Maxi-Einlasswickler nehmen 5,0 bis 5,6 m auf und sind für Fenster und Türen bis 2,30 m Höhe gedacht. Für bis 2,50 m und schwere Rollläden gibt es Einlasswickler mit großer Federdose für Gurte bis 12 m.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.schellenberg.de/einbau-storys/einlasswickler",
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/einlasswickler/50300",
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladengurte/36002"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Spielt die Gurtstärke eine Rolle, zum Beispiel beim elektrischen Gurtwickler?",
+      "antwort": "Ja, weil der Gurt im Wickler aufgerollt wird. Schellenberg-Gurte sind als Mini 1,4 mm und als Maxi 1,7 mm stark. Der elektrische RolloDrive 55 fasst 6 m Gurt mit 1,0 mm, aber nur 3 m mit 1,7 mm. Rademacher gibt für den RolloTron Comfort DuoFern 7,6 m bei 1,0 mm, 6,2 m bei 1,3 mm und 5,2 m bei 1,5 mm an.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://schellenberg-shop.de/media/af/e7/5d/1747747186/montageanleitung-rollodrive-55-schellenberg.pdf",
+        "https://medium.rademacher.de/static/db/eb/9c/f19e9ce790e578e8b2c8a7d5cce4816273/Bedienungsanleitung%20RolloTron%20Comfort%20DuoFern%201800%20DE.pdf",
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladengurte/36002",
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladengurte/46002"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie fädle ich den neuen Gurt in den Gurtwickler ein?",
+      "antwort": "Schellenberg beschreibt es so: Rollladen schließen, neuen Gurt an der Gurtscheibe einhaken und durch Drehen der Welle aufwickeln, bis das lose Ende etwa 20 cm unter dem Wickler hängt. Dann den Gurt unterhalb der Gurtbremse in den Wickler führen, an der Federtrommel befestigen und die Feder spannen. Dafür drehst du die Trommel gegen die Aufrollrichtung ein paar Umdrehungen vor und hältst sie fest. Die vorgespannte Feder kann zurückschnellen, trag Handschuhe.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://media.hornbach.at/hb/ownersmanual/as.187241953.pdf",
+        "https://www.schellenberg.de/einbau-storys/einlasswickler",
+        "https://www.gutefrage.net/frage/fensterrolladen-gurtwickler-wickelt-sicht-nicht-mehr-auf",
+        "https://www.schellenberg.de/einbau-storys/gurtfix/"
+      ],
+      "teile": [],
+      "problem": "rollladengurt-gerissen"
+    },
+    {
+      "frage": "Wie befestige ich den Gurt oben an der Gurtscheibe?",
+      "antwort": "Bei heutigen Gurtscheiben hängst du das obere Ende in den Gurthaken der Scheibe. Dafür schneidest du den Gurt etwa 5 cm vor dem Ende mittig auf, höchstens 5 mm lang, und hakst ihn ein. An älteren Wellen ist der Gurt oft angeschraubt statt eingehakt, dort schraubst du den neuen Gurt wieder fest. Wickle den Gurt danach durch Drehen der Welle auf und achte auf die Drehrichtung.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/gurtscheiben/11700",
+        "https://www.haustechnikdialog.de/forum/t/126509/Rolladengurt-wechseln",
+        "https://www.bauexpertenforum.de/threads/gerissener-rolladengurt.143667/",
+        "https://schellenberg-shop.de/media/e5/6e/f4/1733928985/50703-montageanleitung-gurtwickler.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Kann ich den Rollladengurt tauschen, ohne den Rollladenkasten zu öffnen?",
+      "antwort": "Teilweise. Mit einem Reparaturset wie dem Gurtfix von Schellenberg nietest du ein neues Gurtstück etwa 10 cm unter der Gurtführung an den alten Gurt, der Kasten bleibt zu. Das geht, wenn der Gurt unten verschlissen ist. Für einen ganz neuen Gurt oder einen Riss oben an der Welle muss der Kasten auf. ROMA nennt Reparatursets eine vorübergehende Lösung, weil der restliche alte Gurt meist auch abgenutzt ist.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.schellenberg.de/einbau-storys/gurtfix/",
+        "https://www.roma.de/blog/gerissenen-rollladengurt-reparieren"
+      ],
+      "teile": [],
+      "problem": "rollladengurt-gerissen"
+    },
+    {
+      "frage": "Mein Rollladengurt franst immer wieder aus. Woran liegt das?",
+      "antwort": "Meist läuft der Gurt schräg oder scheuert an einer Kante. Selve schreibt, der Wickler soll lotrecht unter der Gurtführung sitzen, Rademacher, dass der Gurt möglichst senkrecht einlaufen soll, und empfiehlt bei schwergängigen Rollläden eine Umlenkrolle. Eine Gurtführung mit Leitrolle, wie die Schellenberg Duo, verringert laut Hersteller den Verschleiß.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.selve.de/home/produkte/rollladenbauteile/gurtwickler/sw10047/",
+        "https://medium.rademacher.de/static/db/eb/9c/f19e9ce790e578e8b2c8a7d5cce4816273/Bedienungsanleitung%20RolloTron%20Comfort%20DuoFern%201800%20DE.pdf",
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/gurtfuehrungen/15650",
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/gurtfuehrungen/51203"
+      ],
+      "teile": [],
+      "problem": "rollladengurt-gerissen"
+    },
+    {
+      "frage": "Wie reinige und pflege ich einen Rollladengurt?",
+      "antwort": "Schellenberg nennt Hausmittel: Backpulver mit Wasser als Paste, Essigwasser, Spülmittel oder Teppichreiniger, mit einer Bürste einreiben und feucht abwischen. Danach den Gurt gut trocknen lassen, bevor du den Rollladen bewegst, sonst kommt Feuchtigkeit in Wickler und Kasten. Den trockenen Gurt mit einer Kerze einreiben, das hält ihn geschmeidig.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.schellenberg.de/wissens-wert/detailansicht/rollladengurte-mit-hausmitteln-einfach-reinigen"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladengurte/36002",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladengurte/46002",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladengurte/31202",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladengurte/41202",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladengurte/34502",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/gurtscheiben/11700",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/gurtscheiben/11900",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/gurtscheiben/81000",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/aufschraubwickler/50503",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/einlasswickler/50300",
+    "https://www.schellenberg.de/einbau-storys/einlasswickler",
+    "https://www.schellenberg.de/einbau-storys/gurtfix/",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/gurtfuehrungen/15650",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/gurtfuehrungen/51203",
+    "https://www.schellenberg.de/wissens-wert/detailansicht/rollladengurte-mit-hausmitteln-einfach-reinigen",
+    "https://media.hornbach.at/hb/ownersmanual/as.187241953.pdf",
+    "https://schellenberg-shop.de/media/e5/6e/f4/1733928985/50703-montageanleitung-gurtwickler.pdf",
+    "https://schellenberg-shop.de/media/af/e7/5d/1747747186/montageanleitung-rollodrive-55-schellenberg.pdf",
+    "https://www.selve.de/home/produkte/rollladenbauteile/gurtwickler/sw10047/",
+    "https://medium.rademacher.de/static/db/eb/9c/f19e9ce790e578e8b2c8a7d5cce4816273/Bedienungsanleitung%20RolloTron%20Comfort%20DuoFern%201800%20DE.pdf",
+    "https://www.roma.de/blog/gerissenen-rollladengurt-reparieren",
+    "https://www.haustechnikdialog.de/forum/t/89815/gurt-von-vorbaurolladen-gerissen",
+    "https://www.haustechnikdialog.de/forum/t/126509/Rolladengurt-wechseln",
+    "https://www.bauexpertenforum.de/threads/gerissener-rolladengurt.143667/",
+    "https://www.gutefrage.net/frage/fensterrolladen-gurtwickler-wickelt-sicht-nicht-mehr-auf"
+  ]
+}

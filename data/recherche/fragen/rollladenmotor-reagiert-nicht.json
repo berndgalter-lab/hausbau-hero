@@ -1,0 +1,176 @@
+{
+  "thema": "Elektrischer Rollladen / Funk-Rohrmotor reagiert nicht: Batterie, Anlernen, Thermoschutz, Sicherung, Vereisung, Endlagen, Reset je Hersteller (ohne Dachfenster)",
+  "fragen": [
+    {
+      "frage": "Der Handsender leuchtet, aber der Rollladen bewegt sich nicht. Was prüfe ich?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Wenn die LED leuchtet, hat der Sender Strom. Becker und Elero nennen dann drei Gründe: Der Empfänger ist zu weit weg, der Sender ist nicht eingelernt, oder der Empfänger ist ausgeschaltet oder defekt. Geh näher heran, prüf die Sicherung und lern den Sender neu an. Beim Rademacher DuoFern Handsender zeigt eine orange blinkende LED dagegen eine fast leere Batterie.",
+      "antwort_quellen": [
+        "https://voleda.fr/notice/ec541-2_4034_630_201_0_de_en_fr_nl.pdf",
+        "https://aluprof.com/files/product_documents/3218688TempoTel_2_867_868_915_181220001_EN_0911.pdf",
+        "https://asset.conrad.com/media10/add/160267/c1/-/de/001078807ML01/upute-za-rukovanje-1078807-32480366-standaard-9491-rademacher-duofern-6-kanalni-radijski-daljinski-upravljac.pdf"
+      ]
+    },
+    {
+      "frage": "Mein Rollladen ist ein paar Mal hoch und runter gefahren und geht jetzt gar nicht mehr. Ist der Motor kaputt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Wahrscheinlich nicht. Rohrmotoren sind für Kurzzeitbetrieb gebaut, Schellenberg und Jarolift nennen 4 Minuten Einschaltdauer. Danach schaltet der Thermoschutz ab. Laut Schellenberg ist der Motor nach mindestens 20 Minuten Abkühlen wieder betriebsbereit.",
+      "antwort_quellen": [
+        "https://schellenberg-shop.de/media/pdf/3f/22/e3/21106-21110-21210-21220-21240-garantiebedingungen.pdf",
+        "https://www.manualslib.de/manual/743405/Jarolift-Tdef-Serie.html?page=3",
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf"
+      ]
+    },
+    {
+      "frage": "Wie lerne ich einen neuen Sender an einen Somfy-RTS-Motor an, wenn der alte weg ist?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Schalt die Netzspannung 2 Sekunden aus, 10 Sekunden ein, nochmal 2 Sekunden aus und dann wieder ein. Der Antrieb bestätigt mit einer etwa 5 Sekunden langen Bewegung. Drück dann am neuen Sender kurz PROG, der Rollladen fährt kurz auf und ab. Dabei löscht der Motor alle bisher eingelernten Sender. Hältst du PROG statt kurz so lange, bis er zweimal bestätigt, setzt du ihn ganz in den Auslieferungszustand zurück, auch die Endlagen.",
+      "antwort_quellen": [
+        "https://avosdim.com/media/DE/motor/mot-altus-rts-50/notice/anleitung-somfy-altus-50-rts.pdf"
+      ]
+    },
+    {
+      "frage": "Wie setze ich einen Somfy-io-Motor (Oximo io) zurück?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Netzspannung 2 Sekunden aus, 10 Sekunden ein, 2 Sekunden aus, dann wieder ein. Der Motor bestätigt mit einer Bewegung von etwa 5 Sekunden. Dann PROG am Sender halten, bis der Rollladen zweimal kurz auf und ab fährt. Danach ist der Motor im Auslieferungszustand, Sender und Endlagen müssen neu eingestellt werden. Machst du das an der Sicherung, setzt du laut Somfy alle Antriebe an dieser Sicherung zurück.",
+      "antwort_quellen": [
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf"
+      ]
+    },
+    {
+      "frage": "Mein Schellenberg-Funkmotor reagiert nicht mehr auf den Handsender. Wie lerne ich ihn neu an?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Zuerst bringst du den Motor in Lernbereitschaft, je nach Artikelnummer. Bei 20506, 20510, 20810, 20820 und 20840 schaltest du ihn 5 Sekunden spannungsfrei und wieder ein. Bei 21106, 21110, 21210, 21220 und 21240 schaltest du ihn 5 Sekunden spannungsfrei und dann im Sekundentakt an, aus, an, zusammen höchstens 3 Sekunden. Der Motor piept und ruckt kurz vor und zurück, die Lernbereitschaft hält etwa 15 Minuten. Dann startest du am Handsender mit der P-Taste im Batteriefach den Programmiermodus und koppelst nach Anleitung.",
+      "antwort_quellen": [
+        "https://www.globus-baumarkt.de/media/13/8b/cf/1665206840/4003971200161_12390959_BDA_28042021__63275769.pdf"
+      ]
+    },
+    {
+      "frage": "Wie lerne ich einen Becker-Centronic-Handsender neu ein?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Schalt die Spannung des Empfängers aus und nach 5 Sekunden wieder ein, oder drück die Einlerntaste am Empfänger. Er ist dann 3 Minuten lernbereit. Drück in dieser Zeit die Einlerntaste des Senders, etwa mit einem Kugelschreiber, bis der Empfänger quittiert. Der erste Sender wird so zum Mastersender, über ihn lernst du weitere Sender ein und stellst bei Antrieben mit eingebautem Empfänger die Endlagen ein.",
+      "antwort_quellen": [
+        "https://voleda.fr/notice/ec541-2_4034_630_201_0_de_en_fr_nl.pdf"
+      ]
+    },
+    {
+      "frage": "Wie lerne ich einen Elero-Handsender wie den TempoTel 2 neu ein?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Schalt die Sicherung aus und ein paar Sekunden später wieder ein, der Empfänger ist dann etwa 5 Minuten lernbereit. Drück die P-Taste hinten am Sender etwa 1 Sekunde, der Rollladen fährt auf und ab. Drück AUF, sobald er nach oben fährt, und AB, sobald er nach unten fährt, jeweils innerhalb von einer Sekunde. Bleibt er stehen, ist der Kanal eingelernt. Alle Empfänger an derselben Zuleitung sind dabei gleichzeitig im Lernmodus.",
+      "antwort_quellen": [
+        "https://aluprof.com/files/product_documents/3218688TempoTel_2_867_868_915_181220001_EN_0911.pdf"
+      ]
+    },
+    {
+      "frage": "Mein Jarolift-Rollladen reagiert nicht auf den Handsender. Wie lerne ich ihn neu an?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Drück die Lerntaste am Motorkopf, der Motor vibriert kurz und ist 5 Sekunden im Lernmodus. Kommst du nicht an die Taste, nimm den Motor kurz vom Netz. Drück dann innerhalb von 5 Sekunden AUF und AB gleichzeitig und kurz STOP, der Motor vibriert zur Bestätigung. Die TDEF-Motoren passen zu allen Jarolift-TDRC-Sendern ab Produktionsdatum 03/2010.",
+      "antwort_quellen": [
+        "https://www.manualslib.de/manual/743405/Jarolift-Tdef-Serie.html?page=5",
+        "https://www.manualslib.de/manual/743405/Jarolift-Tdef-Serie.html?page=3"
+      ]
+    },
+    {
+      "frage": "Der Selve-Rollladen fährt nicht mehr ganz hoch oder runter. Wie stelle ich die Endlagen mit dem commeo-Sender neu ein?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Für den SE Pro-RC beschreibt Selve das so: SELECT am Sender 3 Sekunden drücken, bis die LED langsam orange blinkt, dann STOP 9 Sekunden halten, das löscht die alten Endlagen. Mit AUF bis zum Anschlag fahren und AUF gedrückt halten, nach 1 bis 2 Sekunden fährt der Motor selbst nach unten und speichert beide Endlagen. Ohne festen Anschlag oben hältst du nach SELECT STOP 6 Sekunden und speicherst untere und obere Endlage je mit STOP 3 Sekunden.",
+      "antwort_quellen": [
+        "https://selve.de/en/service-downloads/faq"
+      ]
+    },
+    {
+      "frage": "Der Rollladen am Dachfenster reagiert nicht. Gilt das hier auch?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Nur zum Teil. Solar- und Elektro-Rollläden am Dachfenster von VELUX und Roto haben eigene Akkus, Solarzellen und eigene Reset-Wege am Topkasten oder an der Steuereinheit. Dafür gibt es eine eigene Seite mit Batterie, Akku, Reset und Anlernen für VELUX.",
+      "antwort_quellen": [
+        "https://www.velux.de/faq?category=60b89426-0c4a-45cb-9363-b142e09646d4&gem=f0dff869-76c3-4f2c-8b28-22d1302ec3d5",
+        "https://www.velux.de/fachkunden/faq?category=e76fdb61-d176-4aad-9488-06d2d75883d4&gem=1bddbf76-597c-4659-8f11-586340fd5201"
+      ]
+    }
+  ],
+  "fakten": [
+    {
+      "fakt": "Schellenberg Rohrmotoren 21106–21240: Kurzzeitbetrieb 4 min Einschaltdauer, Abschaltung bei Überhitzung, nach mind. 20 min Abkühlen wieder betriebsbereit; im Winter auf Vereisung prüfen; Endlagen verschieben sich durch Temperaturunterschiede leicht; Produkt nicht öffnen.",
+      "quelle": "https://schellenberg-shop.de/media/pdf/3f/22/e3/21106-21110-21210-21220-21240-garantiebedingungen.pdf"
+    },
+    {
+      "fakt": "Jarolift TDEF: Einschaltdauer 4 min; Lerntaste am Motorkopf → 5 s Lernmodus, alternativ kurz vom Netz; AUF+AB gleichzeitig, STOP kurz; Kopieren: AUF+AB, 8× STOP am alten Sender.",
+      "quelle": "https://www.manualslib.de/manual/743405/Jarolift-Tdef-Serie.html?page=5"
+    },
+    {
+      "fakt": "Somfy Oximo io: „Motor funktioniert nicht“ → Verdrahtung, Thermoschutz (warten), Batterie, Kompatibilität der Fernbedienung, Einlernen, Funkstörungen; Hindernis beim Hochfahren → erst Abwärtsbefehl; Endlagen auf Drehmomenterkennung stellen sich nach 56 Zyklen oder Stromausfall neu ein.",
+      "quelle": "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf"
+    },
+    {
+      "fakt": "Somfy Altus RTS: Antrieb reagiert nicht → Spannungsversorgung prüfen, Sender aktiviert?; Einphasenkondensatormotor; Ersetzen eines verloren gegangenen Senders und Werksreset über 2/10/2 s.",
+      "quelle": "https://avosdim.com/media/DE/motor/mot-altus-rts-50/notice/anleitung-somfy-altus-50-rts.pdf"
+    },
+    {
+      "fakt": "Becker EC541-II „Was tun wenn“: Antrieb läuft nicht → neue Batterie, richtig einlegen, Entfernung verringern, Sender einlernen.",
+      "quelle": "https://voleda.fr/notice/ec541-2_4034_630_201_0_de_en_fr_nl.pdf"
+    },
+    {
+      "fakt": "Elero TempoTel 2 Fehlerbehebung: Statusanzeige dunkel → Batterien; rot/orange → außer Reichweite, Empfänger aus/defekt, nicht eingelernt; Einlernen nach Sicherung aus/ein ca. 5 min.",
+      "quelle": "https://aluprof.com/files/product_documents/3218688TempoTel_2_867_868_915_181220001_EN_0911.pdf"
+    },
+    {
+      "fakt": "Selve SE Pro-RC mit commeo: Endlagen löschen über SELECT 3 s, STOP 9 s; automatisch oder manuell neu setzen.",
+      "quelle": "https://selve.de/en/service-downloads/faq"
+    },
+    {
+      "fakt": "Schellenberg Funkmotoren Lernbereitschaft Option A/B, ca. 15 min offen; max. 5 Motoren an einer Stromzuleitung, besser einzeln spannungsfrei schaltbar.",
+      "quelle": "https://www.globus-baumarkt.de/media/13/8b/cf/1665206840/4003971200161_12390959_BDA_28042021__63275769.pdf"
+    }
+  ],
+  "ursachen": [
+    "Batterie im Handsender leer",
+    "Sender nicht angelernt oder zu weit weg",
+    "Thermoschutz nach langer Laufzeit",
+    "Kein Strom am Motor: Sicherung, Schalter, Zeitschaltuhr",
+    "Mehrere Motoren an der Sicherung zurückgesetzt",
+    "Endlagen verstellt oder gelöscht",
+    "Rollladen festgefroren oder blockiert",
+    "Motor, Kondensator oder Empfänger defekt"
+  ],
+  "pruefschritte": [
+    "Tausch die Batterie im Handsender. Die Sorte steht in den technischen Daten der Anleitung, bei Somfy Situo io und Becker EC541-II ist es eine CR 2430.",
+    "Probier, ob der Rollladen mit einem anderen Sender oder am Wandschalter fährt. Wenn ja, liegt es am Sender, nicht am Motor.",
+    "Geh mit dem Sender näher an den Rollladen heran.",
+    "Ist der Rollladen gerade oft hintereinander gefahren, lass ihn mindestens 20 Minuten in Ruhe und versuch es dann noch einmal.",
+    "Sieh im Sicherungskasten nach, ob die Sicherung oder der FI-Schalter ausgelöst hat.",
+    "Im Winter: Prüf von innen, ob der Panzer festgefroren ist oder etwas in der Führungsschiene klemmt. Gib einen Abwärtsbefehl und dann wieder einen Aufwärtsbefehl.",
+    "Lern den Sender neu an, so wie es die Anleitung deines Motors beschreibt. Schaltest du dafür die Sicherung aus und ein, sind alle Motoren an dieser Sicherung betroffen.",
+    "Fährt der Rollladen danach nur ein Stück, stell die Endlagen mit dem Sender neu ein.",
+    "Hilft das alles nicht, ruf eine Elektrofachkraft."
+  ],
+  "fachbetrieb_ab": "Batterie tauschen, Sender anlernen, Endlagen mit dem Sender einstellen und den Motor über Sicherung oder Schalter zurücksetzen machst du selbst, die Hersteller beschreiben das in den Anleitungen für Benutzer. Alles, was am 230-V-Netz hängt, gehört zur Elektrofachkraft: Motor ausbauen, tauschen oder anschließen, Unterputz-Schalter, Zeitschaltuhr oder Funkempfänger mit Netzanschluss, Leitungen und Abzweigdosen. Somfy verlangt für die Verkabelung des Oximo io eine Elektrofachkraft nach DIN VDE 1000-10, Schellenberg und Jarolift lassen alle Arbeiten an elektrischen Anlagen nur von Elektrofachkräften ausführen. Öffne den Motor nicht.",
+  "nicht_belegt": [
+    "Thermoschalter spricht nach 1–2 Minuten Blockade an (haustechnikdialog, Forenaussage): nicht übernommen, Herstellerzahl 4 min Einschaltdauer reicht.",
+    "Becker-Motor bleibt bei unter −5 °C stehen (haustechnikdialog, Einzelfall): nicht übernommen.",
+    "Defekter Siebkondensator im Empfänger-Netzteil (haustechnikdialog, Einzelfall): nur allgemein als „Empfänger defekt“.",
+    "Rademacher RolloTron/RolloTube Reset- und Anmeldeweg am Antrieb: Rademacher-Service-PDF nicht lesbar; nur Handsender-Seite übernommen.",
+    "Selve: Anlernen eines neuen commeo/iveo-Senders am SE Plus-RC nicht im Volltext; nur Endlagen.",
+    "Becker-Motor-Reset (nicht Sender): keine Becker-Motoranleitung gelesen.",
+    "Ob mechanische Endlagen (Stellschrauben am Motorkopf) Laienarbeit sind: offen, deshalb nur Endlagen per Sender."
+  ]
+}

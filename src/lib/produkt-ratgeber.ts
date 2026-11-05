@@ -1088,6 +1088,94 @@ const DACHFENSTER_SONNENSCHUTZ: ProduktRatgeber = {
   ],
 };
 
+const hatStrom = (d: RatgeberDaten, ...quellen: string[]): boolean | null =>
+  Array.isArray(d.stromquellen) && d.stromquellen.length > 0 ? d.stromquellen.some((s) => quellen.includes(s)) : null;
+const istSystem = (d: RatgeberDaten, s: "mini" | "maxi"): boolean | null =>
+  Array.isArray(d.systeme) && d.systeme.length > 0 ? d.systeme.includes(s) : null;
+
+// Gurtwickler, Akku-Wickler, Solar- und 230-V-Rohrmotoren zum Nachrüsten (Bereich Rollladen).
+const ROLLLADEN_ELEKTRISCH_NACHRUESTEN: ProduktRatgeber = {
+  pfad: "rollladen-elektrisch-nachruesten",
+  slug: "rollladen-elektrisch-nachruesten",
+  silo: "fenster",
+  name: "Rollladenantrieb",
+  mehrzahl: "Antriebe",
+  mehrzahlDativ: "Antrieben",
+  keine: "Keiner",
+  frage: "Welcher Antrieb passt zu deinem Rollladen?",
+  fragen: [
+    {
+      key: "heute",
+      label: "Was ist heute dran?",
+      hinweis: "Kommt ein Gurtband aus der Wand, kann ein elektrischer Gurtwickler den alten ersetzen. Eine Kurbel lässt sich nur durch einen Motor in der Welle ersetzen.",
+      optionen: [
+        { label: "Gurtband", passt: (d) => (d.bauform ? true : null) },
+        {
+          label: "Kurbel",
+          passt: (d) => (d.bauform ? d.bauform === "rohrmotor" : null),
+          sonst: {
+            text: "Bei einer Kurbel kommen Kurbelgetriebe und Stange heraus, der Motor sitzt dann in der Welle.",
+            href: "/ersatzteile/rollladenmotor",
+            linktext: "Rollladenmotor nach Welle und Drehmoment",
+          },
+        },
+      ],
+    },
+    {
+      key: "strom",
+      label: "Strom am Fenster",
+      hinweis: "Schellenberg und Rademacher verlangen für Gurtwickler mit Stecker eine frei zugängliche Steckdose am Einbauort.",
+      optionen: [
+        { label: "Steckdose in der Nähe", passt: (d) => hatStrom(d, "steckdose") },
+        { label: "kein Strom, kein Kabel", passt: (d) => hatStrom(d, "akku", "solar") },
+        { label: "Elektriker legt eine Leitung", passt: (d) => hatStrom(d, "festanschluss") },
+      ],
+    },
+    {
+      key: "system",
+      label: "Mini oder Maxi",
+      hinweis: "Miss den Gurt: 14 bis 15 mm breit ist Mini (Welle SW 40), 23 mm ist Maxi (Welle SW 60).",
+      optionen: [
+        {
+          label: "Mini, Gurt 14 oder 15 mm",
+          passt: (d) => istSystem(d, "mini"),
+          sonst: {
+            text: "Den WIR eWickler eW420 gibt es als eW420-M auch für Minigurt, den Rademacher RolloTron Standard als 1340 für 15-mm-Gurt.",
+          },
+        },
+        { label: "Maxi, Gurt 23 mm", passt: (d) => istSystem(d, "maxi") },
+      ],
+    },
+    {
+      key: "funk",
+      label: "Funk",
+      hinweis: "Funksysteme verschiedener Hersteller verstehen sich nicht. Auch Somfy io und Somfy RTS sind getrennte Systeme.",
+      optionen: [
+        { label: "brauche ich nicht", passt: (d) => (d.funksystem ? true : null) },
+        { label: "Somfy io", passt: (d) => enthaelt(d.funksystem, /\bio\b/i) },
+        { label: "Rademacher DuoFern", passt: (d) => enthaelt(d.funksystem, /duofern/i) },
+        {
+          label: "Somfy RTS",
+          passt: (d) => enthaelt(d.funksystem, /\bRTS\b/),
+          sonst: {
+            text: "RTS-Sender steuern keine io-Motoren. Welcher Sender zu welchem Motor passt, steht bei den Handsendern.",
+            href: "/ersatzteile/rollladen-handsender",
+            linktext: "Rollladen-Handsender nach Funksystem",
+          },
+        },
+      ],
+    },
+  ],
+  eckdaten: (d) => [
+    d.antriebsart ?? null,
+    d.stromversorgung ?? null,
+    d.gurtbreite ? `Gurt ${d.gurtbreite}` : d.welle ?? null,
+    d.lochabstand ? `Lochabstand ${d.lochabstand}` : null,
+    d.zugkraft ?? (typeof d.drehmoment_nm === "number" ? `${d.drehmoment_nm} Nm` : null),
+    d.funksystem && d.funksystem !== "ohne" ? `Funk: ${d.funksystem}` : null,
+  ],
+};
+
 export const PRODUKT_RATGEBER: ProduktRatgeber[] = [
   WASCHTISCHARMATUR,
   NIEDERDRUCKARMATUR,
@@ -1104,6 +1192,7 @@ export const PRODUKT_RATGEBER: ProduktRatgeber[] = [
   DRUCKMINDERER,
   RUECKSPUELFILTER,
   DACHFENSTER_SONNENSCHUTZ,
+  ROLLLADEN_ELEKTRISCH_NACHRUESTEN,
 ];
 
 /** Sprungmarke eines Modells in der Auswahlhilfe, Ziel der Produktkacheln. */

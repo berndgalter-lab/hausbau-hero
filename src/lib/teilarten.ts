@@ -17,6 +17,11 @@ import dachfensterDichtung from "../../data/teilarten/dachfenster-dichtung.json"
 import dachfensterAkku from "../../data/teilarten/dachfenster-akku.json";
 import filtereinsatz from "../../data/teilarten/filtereinsatz.json";
 import regeneriersalz from "../../data/teilarten/regeneriersalz.json";
+import gurtwickler from "../../data/teilarten/gurtwickler.json";
+import rollladengurt from "../../data/teilarten/rollladengurt.json";
+import rollladenmotor from "../../data/teilarten/rollladenmotor.json";
+import rollladenHandsender from "../../data/teilarten/rollladen-handsender.json";
+import rollladenWelle from "../../data/teilarten/rollladen-welle.json";
 
 // Teileart-Seiten unter /ersatzteile/<teilart> (docs/SEITENAUFBAU.md, Abschnitt 4b): ein Teil, das in vielen
 // Marken steckt (Eckventil, Perlator, Siphon …), markenübergreifend erklärt. Inhalt aus data/teilarten/<slug>.json,
@@ -84,6 +89,11 @@ const TEILARTEN: Teilart[] = [
   dachfensterAkku as Teilart,
   filtereinsatz as Teilart,
   regeneriersalz as Teilart,
+  gurtwickler as Teilart,
+  rollladengurt as Teilart,
+  rollladenmotor as Teilart,
+  rollladenHandsender as Teilart,
+  rollladenWelle as Teilart,
 ];
 
 /** „den passenden Perlator“ / „die passende Kartusche“ / „das passende Eckventil“ (Akkusativ). */

@@ -1,0 +1,166 @@
+{
+  "thema": "Rollladenwelle (Achtkantwelle SW40, SW50, SW60, SW70), Walzenkapsel, Wandlager und Kugellager, Gurtscheibe, Wellenverlängerung, Wellenadapter für Rohrmotoren, Aufhängung und feste Wellenverbinder (Schellenberg, Somfy, Rademacher, Selve, ROMA)",
+  "fragen": [
+    {
+      "frage": "Wie finde ich heraus, ob ich eine SW40- oder SW60-Rollladenwelle habe?",
+      "kategorie": "nummer",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/132009/Rolladen-Holzwelle-ersetzen-SW-40-oder-SW-60-",
+        "https://www.3t-motors.de/Rolladenwelle-SW60-oder-SW40-Das-richtige-Format-bestimmen",
+        "https://www.bauexpertenforum.de/threads/rollladenwelle-ausbauen.102366/",
+        "Google-Suchvorschläge: „rolladenwelle sw40 oder sw60“, „rollladenwelle messen“ (docs/KEYWORDS-ROLLLADEN.md)"
+      ],
+      "antwort": "Kasten öffnen und quer über die Welle messen: rund 40 mm ist SW40 (Mini), rund 60 mm ist SW60 (Maxi). Einen ersten Hinweis gibt der Gurt. Bei Schellenberg gehört ein 14 mm breiter Gurt zum Mini-System mit 40-mm-Welle, ein Gurt mit 18 bis 23 mm zum Maxi-System mit 60-mm-Welle. ROMA setzt SW60 bei größeren, schwereren und motorisierten Rollläden ein.",
+      "antwort_quellen": [
+        "https://www.schellenberg.de/wissens-wert/detailansicht/das-rollladen-abc/",
+        "https://www.roma.de/produkte/rollladen/rollladenwellen",
+        "https://jalousiescout.at/aussenliegend/rollladen/rollladenwellen"
+      ]
+    },
+    {
+      "frage": "Die Walzenkapsel ist gebrochen. Welche passt in meine Welle?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/was-ist-das-plastikteil-beim-oeffnen-des-rolladenkastens-heruntergefallen",
+        "https://www.bauexpertenforum.de/threads/rollladenwelle-ausbauen.102366/",
+        "Google-Suchvorschläge: „rollladenwelle walzenkapsel“, „rollladen ausbauen walzenkapsel“"
+      ],
+      "antwort": "Die Kapsel muss zum Wellenprofil passen. Schellenberg hat für Mini (40 mm) die Walzenhülse 80200 mit 104 mm Länge, für Maxi (60 mm) die 80100 mit 150 mm, die 80300 mit 72 mm und die ausziehbare 80500, die bis zu 90 mm ausgleicht. Für SW70 führt Rademacher eine eigene Walzenkapsel. Die Kapsel schiebst du in die Welle, setzt den Stahlbolzen ins Wandlager und schraubst sie fest. Bei einem Motor nie im Bereich des Motors schrauben.",
+      "antwort_quellen": [
+        "https://www.schellenberg.de/wissens-wert/detailansicht/welche-walzenhuelse-fuer-welche-rollladenwelle/",
+        "https://www.schellenberg.de/80100",
+        "https://www.schellenberg.de/80200",
+        "https://www.schellenberg.de/80500"
+      ]
+    },
+    {
+      "frage": "Die neue Achtkantwelle ist zu lang oder zu kurz. Kann ich sie kürzen oder verlängern?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/rollladenwelle-ausbauen.102366/",
+        "Google-Suchvorschläge: „achtkantwelle verlängerung“, „rollladenwelle länge 2/3/4 m“"
+      ],
+      "antwort": "Ja. Schellenberg-Achtkantwellen kürzt du mit der Metallsäge, zum Verlängern steckst du eine Achtkantwellen-Verlängerung bis zum Anschlag auf. Dabei müssen die Nuten übereinanderliegen, damit die Vierkantlöcher für die Aufhängungen eine Linie bilden. Gemessen wird der Abstand zwischen den beiden Wandlagern. Kleine Differenzen gleicht im Maxi-System die ausziehbare Walzenhülse 80500 aus, bis zu 90 mm.",
+      "antwort_quellen": [
+        "https://www.schellenberg.de/einbau-storys/rollladenwellen-mit-achtkantprofil/",
+        "https://www.schellenberg.de/wissens-wert/detailansicht/die-perfekte-rollladenwelle/",
+        "https://www.schellenberg.de/80500"
+      ]
+    },
+    {
+      "frage": "Welches Wandlager und welches Kugellager brauche ich, und muss ich das Lager tauschen?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/rollade-klemmt-im-kasten",
+        "https://www.gutefrage.net/frage/rollo-geht-nicht-mehr-hoch-und-runter-gurt-nicht-gerissen-keine-lamellen-verschoben",
+        "Google-Suchvorschläge: „rollladenwelle kugellager“"
+      ],
+      "antwort": "Im Maxi-System passen das Schellenberg-Wandlager 83500 und das Kugellager 83800 mit 12 mm Innendurchmesser zu Wellen mit 60 und 70 mm. Für die 40-mm-Welle gibt es das Wandlager Mini. Schellenberg nennt verschmutzte und verschlissene Kugellager als mögliche Ursache, wenn der Rollladen klemmt: erst den Schmutz entfernen, bei starker Abnutzung das Lager tauschen.",
+      "antwort_quellen": [
+        "https://www.schellenberg.de/83500",
+        "https://www.schellenberg.de/83800",
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/wandlager/"
+      ]
+    },
+    {
+      "frage": "Kann ich eine alte Holzwelle durch eine Stahlwelle ersetzen?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/132009/Rolladen-Holzwelle-ersetzen-SW-40-oder-SW-60-",
+        "https://www.gutefrage.net/frage/rolladen-klemmt-2"
+      ],
+      "antwort": "Ja, das ist der übliche Weg. Schellenberg schreibt, dass Achtkantwellen aus verzinktem Stahl alte Rund- und Holzwellen ersetzen und für gängige Panzer aus Kunststoff und Aluminium passen. Alte Holzwellen sind oft ebenfalls achtkantig, etwa mit SW60. Die neue Welle braucht neue Walzenkapseln, Lager und Aufhängungen im selben System. Wer später einen Motor einbauen will, braucht ohnehin eine Achtkantwelle.",
+      "antwort_quellen": [
+        "https://www.schellenberg.de/wissens-wert/detailansicht/die-perfekte-rollladenwelle/",
+        "https://www.schellenberg.de/wissens-wert/detailansicht/das-rollladen-abc/",
+        "https://www.haustechnikdialog.de/forum/t/132009/Rolladen-Holzwelle-ersetzen-SW-40-oder-SW-60-"
+      ]
+    },
+    {
+      "frage": "Welcher Rohrmotor passt in eine SW40- oder SW60-Welle?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.3t-motors.de/Rolladenwelle-SW60-oder-SW40-Das-richtige-Format-bestimmen",
+        "https://www.bauexpertenforum.de/threads/rollladenwelle-ausbauen.102366/",
+        "Google-Suchvorschläge: „rohrmotor sw70“, „welcher rolladenmotor“, „adapterset für achtkantwelle sw 60“"
+      ],
+      "antwort": "Für SW40 nimmst du einen Motor der Mini-Klasse, für SW60 einen der Maxi- oder Medium-Klasse. Rademacher baut die RolloTube Small mit 35 mm für SW40 und die Medium mit 45 mm für SW60, Somfy die 40er-Reihe für SW40, die 50er ab SW50 und den LT 60 ab SW70. Selve ordnet TR1 der SW40 und TR2 der SW60 zu. Das Drehmoment richtet sich nach dem Panzergewicht, Somfy und Schellenberg veröffentlichen dafür Tabellen. Den Anschluss macht die Elektrofachkraft.",
+      "antwort_quellen": [
+        "https://avosdim.com/media/DE/motor/mot-oximo-io/desc/somfy-zugkrafttabelle.pdf",
+        "https://medium.rademacher.de/static/4a/c3/e0/275d9e618f03b8ea9ef52c95a9657b3fdc/Datenblatt%20RTBM.pdf",
+        "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf",
+        "https://schellenberg-shop.de/media/pdf/11/4f/51/schellenberg-rohrmotor-standard-vergleich.pdf"
+      ]
+    },
+    {
+      "frage": "Ich rüste auf Motor um. Brauche ich andere Aufhängungen?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/rolladen-schief.117749/",
+        "Google-Suchvorschläge: „aufhängefeder rollladen sw60“, „hochschiebesicherung“, „befestigungsfeder sw60“"
+      ],
+      "antwort": "Oft ja. In der Somfy-Zugkrafttabelle sind bei mehreren Antrieben feste Verbinder vorgeschrieben, bei anderen sind Federn nur mit der Einstellung „unten fix“ möglich. Selve sieht seine starren Verbinder SecuFix und SecuBlock vor allem für Motoren vor, die über das Drehmoment abschalten. Die Schellenberg-Hochschiebesicherung 16000 ist nur für Rollläden ohne Motor, die Universal-Sicherung 16007 auch für Motor und Kurbel.",
+      "antwort_quellen": [
+        "https://avosdim.com/media/DE/motor/mot-oximo-io/desc/somfy-zugkrafttabelle.pdf",
+        "https://d.otto.de/files/ec57b393-de92-47ae-9b13-18c45a3baad1.pdf",
+        "https://www.schellenberg.de/16000",
+        "https://www.schellenberg.de/16007"
+      ]
+    },
+    {
+      "frage": "Wie viele Aufhängungen brauche ich, und wie werden sie eingehängt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/rolladen-zieht-sich-auf-der-linken-seite-nach-unten-wie-beheben",
+        "https://www.gutefrage.net/frage/rolladen-geht-nicht-mehr-hoch--kann-ich-es-selber-machen",
+        "Google-Suchvorschläge: „rollladen feder tauschen“, „aufhängefeder rollladen ausgehängt“"
+      ],
+      "antwort": "Schellenberg schiebt die Aufhängungen auf das oberste Profil des Panzers und hakt sie in die Vierkantlöcher der Welle, im Abstand von etwa 50 cm. Selve verlangt mindestens zwei Hochschiebesicherungen, die äußeren so weit außen wie möglich, und höchstens 800 mm Abstand, bei leichten Kunststoffpanzern weniger. Fehlt eine Aufhängung oder ist sie gerissen, hängt der Panzer schief.",
+      "antwort_quellen": [
+        "https://www.schellenberg.de/19400",
+        "https://www.schellenberg.de/19200",
+        "https://d.otto.de/files/ec57b393-de92-47ae-9b13-18c45a3baad1.pdf",
+        "https://www.gutefrage.net/frage/rolladen-zieht-sich-auf-der-linken-seite-nach-unten-wie-beheben"
+      ]
+    }
+  ],
+  "fakten": [
+    {"fakt": "Schellenberg Rollladen-ABC: System MINI Achtkantwelle 40 mm, Gurtbreite 14 mm, Profil-Deckhöhe 37 mm, Tiefe 8 mm; System MAXI Achtkantwelle 60 mm, Gurtbreite 18–23 mm, Deckhöhe 52 mm, Tiefe 14 mm. Anschlagstopfen oder -winkel an der Endleiste verhindern das Einziehen in den Kasten. Für den Austausch wichtig: Gurtbreite, Profilhöhe, max. Durchmesser des aufgewickelten Panzers.", "quelle": "https://www.schellenberg.de/wissens-wert/detailansicht/das-rollladen-abc/"},
+    {"fakt": "Schellenberg: Walzenhülse steckt in der Welle, Stahlbolzen ins Wandlager; mit Motor nur auf einer Seite eine Walzenhülse. Vierkantlöcher nach oben. Walzenhülse mit Schrauben fixieren, nie im Bereich des Motors. Farbleitsystem grün = Mini 40 mm, blau = Maxi 60 mm. Maxi in zwei festen Längen oder ausziehbar (80500, bis 90 mm).", "quelle": "https://www.schellenberg.de/wissens-wert/detailansicht/welche-walzenhuelse-fuer-welche-rollladenwelle/"},
+    {"fakt": "Schellenberg Artikel: 80100 Walzenhülse 150 × Ø 60 mm (EAN 4003971801009), 80300 72 × Ø 60 mm, 80200 104 × Ø 40 mm (EAN 4003971802006), 80500 ausziehbar Ø 60 mm, bis 90 mm (EAN 4003971805007).", "quelle": "https://www.schellenberg.de/80100"},
+    {"fakt": "Schellenberg 83500 Wandlager Maxi mit Kugellager für Achtkantwellen Ø 60 und 70 mm, 80 × 60 × 18 mm, EAN 4003971835004; 83800 Kugellager Maxi 2 Stück, 12 mm Innendurchmesser, für 60 und 70 mm, EAN 4003971838005.", "quelle": "https://www.schellenberg.de/83500"},
+    {"fakt": "Schellenberg Wandlager-Kategorie: Mini-Lager für Ø 40 mm, Maxi für Ø 60 und 70 mm; verschmutzte und verschlissene Kugellager als mögliche Ursache, wenn der Rollladen klemmt; reinigen, bei starker Abnutzung tauschen.", "quelle": "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/wandlager/"},
+    {"fakt": "Schellenberg Gurtscheibe Maxi 11700 Ø 170 mm, 23 mm Gurt, Welle 60 mm, EAN 4003971117001; Gurtscheibe Mini 81000 Ø 100 mm mit integrierter Walzenhülse, 14 mm Gurt, Welle 40 mm, EAN 4003971810001.", "quelle": "https://www.schellenberg.de/11700"},
+    {"fakt": "Schellenberg Rollladenaufhängung Maxi 19400 (EAN 4003971194002) und Mini 19200 (EAN 4003971192008), Edelstahl, 3er-Pack, für manuell und elektrisch betriebene Rollläden; auf oberstes Profil schieben, in Vierkantlochung einhaken, Abstand ca. 50 cm. Mini mit Einhängeklammer 19300 bei Motor.", "quelle": "https://www.schellenberg.de/19400"},
+    {"fakt": "Schellenberg Hochschiebesicherung 16000 für alle gängigen manuell betriebenen Rollläden; Universal-Hochschiebesicherung 16007 für Motor oder Kurbel, Wellen 40, 50, 60 mm, Vierkantlochabstände 58, 65, 73 mm; Schraube darf den Motor nicht berühren.", "quelle": "https://www.schellenberg.de/16007"},
+    {"fakt": "Schellenberg Wellen: Maxi 86010 (100 cm), 86015 (150 cm), Verlängerung Maxi 86003; Mini 86115 (150 cm), Verlängerung Mini 86114 (Gesamtlänge 100 cm). Kürzen mit Metallsäge; Achtkantwellen ersetzen Rund- und Holzwellen.", "quelle": "https://www.schellenberg.de/wissens-wert/detailansicht/die-perfekte-rollladenwelle/"},
+    {"fakt": "Schellenberg Montage-Tipp: Kastenbreite zwischen den Wandlagern messen, Verlängerung bis Anschlag stecken, Nuten übereinander, Vierkantstanzungen in einer Linie; Motor ganz einschieben, Vierkantlöcher oben.", "quelle": "https://www.schellenberg.de/einbau-storys/rollladenwellen-mit-achtkantprofil/"},
+    {"fakt": "Somfy Zugkrafttabelle (5 069 991, 10/10): 40er-Antriebe für SW40, 50er für SW60 mit kleinster Welle SW50, LT 60 für SW70; Auswahlmatrix mit Zeilen „Montage mit Federn möglich“ (teils nur „unten fix“) und „Montage mit festen Verbindern notwendig“; Verbinder-Tabelle: feste Verbinder Mini/Standard für SW60, Schnellverbinder SW40/50/60, Clip-Verbinder SW50/60, Hochschiebesicherung SW40–70, Profildicke 8 bis 14 mm.", "quelle": "https://avosdim.com/media/DE/motor/mot-oximo-io/desc/somfy-zugkrafttabelle.pdf"},
+    {"fakt": "Rademacher Datenblatt RolloTube Basis: Small 35 mm, adaptiert für Achtkantstahlwelle SW40 (Adapter 9440 15 00, Lager 9440 15 05); Medium 45 mm, adaptiert für SW60 (Lager 9440 15 04).", "quelle": "https://medium.rademacher.de/static/4a/c3/e0/275d9e618f03b8ea9ef52c95a9657b3fdc/Datenblatt%20RTBM.pdf"},
+    {"fakt": "Rademacher CLIM 20/16 PZ: Außendurchmesser 45 mm, SW40 nein, SW50, SW60, SW70 ja (Händlertabelle).", "quelle": "https://www.elektro-wandelt.de/Rademacher-CLIM-20-16PZ-Rohrmotor-C-line-elektr-20Nm-SW60.html"},
+    {"fakt": "Selve TR (04.2002): Rollladengewichte für Stahlwelle SW40 (TR1) bzw. SW60 (TR2); Panzer nur mit Sicherungs- und Befestigungsfedern oder direkt an der Welle, keine Gurtbefestigung; Anschluss nur durch Elektrofachpersonal.", "quelle": "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf"},
+    {"fakt": "Selve SecuFix (SW60) und SecuBlock / SecuBlock XL: vor allem für drehmomentabhängig abschaltende Motoren; mindestens zwei Stück; SecuBlock rapid für SW40, SW50, SW60, XL für SW60 × 0,9 mm bis SW70 × 1,5 mm; Abstand max. 800 mm, bei leichten Kunststoffpanzern kleiner; oberster Stab mindestens halbe Profilhöhe in der Führungsschiene, zu viele Stäbe beeinträchtigen die Funktion.", "quelle": "https://d.otto.de/files/ec57b393-de92-47ae-9b13-18c45a3baad1.pdf"},
+    {"fakt": "ROMA: zwei Wellensysteme SW40 (kompakte, standardgroße Elemente) und SW60 (größere, schwerere, motorisierte Elemente); 230-V-Anschluss nur durch Elektrofachkraft.", "quelle": "https://www.roma.de/produkte/rollladen/rollladenwellen"},
+    {"fakt": "Hornbach-Artikel DIWARO: Stahlwelle SW60 Achtkant, Wandstärke 0,6 mm mit innenliegendem Falz; verstärkte Ausführung 1,0 mm.", "quelle": "https://www.hornbach.de/p/rolladen-stahlwelle-sw-60-achtkant-wandstaerke-0-6-mm-mit-innenliegendem-falz-laenge-1000-mm/12694305/"},
+    {"fakt": "Feeds 4.11.2026: Rademacher Teleskop-Achtkantstahlwelle SW60 1,1–1,85 m (EAN 04031909014368), Walzenkapsel SW70 Einstecklänge 67 mm (04031909002358), Stahlwelle SW40 2 m (04031909002594), Adapter-Sets AM45-SW50 (04031909013330) und AMI45-SW70 (04031909015938) bei Contorion; Schellenberg Verlängerung Mini 100 cm (4003971861140) bei hagebau; Schellenberg 80100, 11700, 81000, 19400 und Selve SecuBlock rapid Maxi 3-gliedrig (4060247114102) bei OTTO.", "quelle": "data/recherche: feed-rollladen-final.json (Awin hagebau, Contorion, OTTO)"},
+    {"fakt": "Amazon-Produktseiten am 5.11.2026 geöffnet: B00DCT8D28 „Schellenberg Maxi 83500 Wall Bearing for Octagonal Shafts with 60 to 70 mm“, B00DCT8GDY „Schellenberg 83800 Maxi Ball Bearings (Pack of 2)“; B00DCT89DG als Schellenberg 80100 in der Empfehlungsleiste beider Seiten.", "quelle": "https://www.amazon.de/dp/B00DCT8D28"}
+  ],
+  "nicht_belegt": [
+    "Wandstärke von SW40-Wellen: keine Hersteller- oder Händlerangabe mit Zahl.",
+    "Messregel „über die Flächen, nicht über die Ecken“: nur aus der Definition der Schlüsselweite abgeleitet, ohne Herstellerbeleg; auf der Seite nur „quer über die Welle messen“.",
+    "Walzenkapsel, Lager und Gurtscheibe für SW50: keine Teile mit Nummer.",
+    "Rademacher Kugellagereinsatz 4024 (EAN 04031909002006) und Gegenlager 4021/4022: welche Wellen und Kapseln, nicht geklärt; nicht in die Produktliste.",
+    "hagebau „Schellenberg Wandlager MAXI; MINI“ (EAN 4003971203056) ist laut Artikelnummer das Leiselauf-Wandlager 20305 für Rohrmotoren, kein Kugellager-Wandlager; nicht in die Produktliste.",
+    "Welche Somfy-Antriebe genau feste Verbinder brauchen: Spaltenzuordnung im PDF-Text nicht eindeutig lesbar, auf der Seite nur allgemein formuliert.",
+    "Kaiser Nienhaus Welle SW60 0,9 mm und SW70 1,0 mm: nur Händlertitel bei Galaxus, nicht übernommen.",
+    "Somfy-Motordurchmesser in mm (40er, 50er, LT 60): in der Zugkrafttabelle nicht angegeben, auf der Seite nur Baureihen."
+  ]
+}

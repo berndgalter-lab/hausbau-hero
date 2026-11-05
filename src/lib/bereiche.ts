@@ -172,6 +172,12 @@ export const BEREICHE: Bereich[] = [
     teiltypen: ["rollladengurt", "gurtwickler", "rollladen-welle", "rollladen-aufhaengung", "rollladen-handsender", "rollladenmotor", "rollladen-lamellen"],
     probleme: /^(?!dachfenster).*(rollladen|rolladen|gurtwickler)/,
     ratgeber: ["rollladen-elektrisch-nachruesten"],
+    neukauf: {
+      ratgeber: "rollladen-elektrisch-nachruesten",
+      titel: "Gleich elektrisch?",
+      text: "Muss der Gurtwickler ohnehin raus, passt oft ein elektrischer Wickler in denselben Mauerkasten. Entscheidend sind Lochabstand und Gurtbreite. Den Anschluss ans Stromnetz verlangen die Hersteller durch eine Elektrofachkraft.",
+      nurBei: { teiltypen: ["gurtwickler", "rollladengurt"], produkttypen: ["gurtwickler"], probleme: /gurt/ },
+    },
   },
 ];
 
