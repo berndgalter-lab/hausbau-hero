@@ -207,7 +207,7 @@ export function Quellen({
             // Ersatzteil-Shop des Herstellers: belegt die Angabe, wird aber nicht verlinkt.
             <span className="text-stone-700 break-all">{quelleLabel(u)}</span>
           ) : (
-            <a href={partnerlink ?? u} target="_blank" rel={partnerlink ? AFFILIATE_REL : "nofollow noopener noreferrer"} className="text-stone-700 underline decoration-stone-300 underline-offset-2 hover:text-accent-700 break-all">
+            <a href={partnerlink ?? u} target="_blank" rel={partnerlink ? AFFILIATE_REL : "nofollow noopener noreferrer"} data-platzierung={partnerlink ? "quelle" : undefined} className="text-stone-700 underline decoration-stone-300 underline-offset-2 hover:text-accent-700 break-all">
               {quelleLabel(u)}
             </a>
           )}

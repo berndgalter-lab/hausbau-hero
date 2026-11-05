@@ -82,8 +82,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const teil = await teilNachSlug(params.slug);
   if (!teil) return {};
   const marke = await markeNachId(teil.marke_id);
-  // Gesucht wird mit Marke und Nummer ("geberit 240.705.00.1"), darum beides in den Titel.
-  const title = [teil.name, teil.oem_nummer && `(${teil.oem_nummer})`].filter(Boolean).join(" ");
+  // Gesucht wird mit Marke und Nummer ("geberit 240.705.00.1"), darum beides in den Titel. Steht die Nummer schon im Namen, nicht doppelt.
+  const nummerFehlt = teil.oem_nummer && !teil.name.includes(teil.oem_nummer);
+  const title = [teil.name, nummerFehlt && `(${teil.oem_nummer})`].filter(Boolean).join(" ");
   const description = `${teil.name}${teil.oem_nummer ? ` – Originalnummer ${teil.oem_nummer}` : ""}: passende ${marke?.name ?? ""} Modelle, Maße und Einbau-Hinweise.`;
   const url = `${SITE_URL}/teil/${teil.slug}`;
   return { title, description, alternates: { canonical: url }, openGraph: { title, description, url } };
