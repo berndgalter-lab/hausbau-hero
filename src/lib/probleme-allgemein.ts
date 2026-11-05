@@ -11,6 +11,8 @@ import dachfensterUndicht from "../../data/probleme/dachfenster-undicht.json";
 import dachfensterKlemmt from "../../data/probleme/dachfenster-klemmt.json";
 import dachfensterRollladenReagiertNicht from "../../data/probleme/dachfenster-rollladen-reagiert-nicht.json";
 import rueckspuelfilterTropft from "../../data/probleme/rueckspuelfilter-tropft.json";
+import enthaertungsanlageFehlermeldung from "../../data/probleme/enthaertungsanlage-fehlermeldung.json";
+import druckmindererDefekt from "../../data/probleme/druckminderer-defekt.json";
 import enthaertungsanlageVerbrauchtKeinSalz from "../../data/probleme/enthaertungsanlage-verbraucht-kein-salz.json";
 import rollladengurtGerissen from "../../data/probleme/rollladengurt-gerissen.json";
 import rollladenmotorReagiertNicht from "../../data/probleme/rollladenmotor-reagiert-nicht.json";
@@ -69,6 +71,8 @@ const PROBLEME: ProblemAllgemein[] = [
   rollladenmotorReagiertNicht as ProblemAllgemein,
   rollladenKlemmt as ProblemAllgemein,
   rollladenEndlageFalsch as ProblemAllgemein,
+  druckmindererDefekt as ProblemAllgemein,
+  enthaertungsanlageFehlermeldung as ProblemAllgemein,
 ];
 
 export function alleProblemeAllgemein(): ProblemAllgemein[] {

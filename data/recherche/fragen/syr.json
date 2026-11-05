@@ -1,0 +1,333 @@
+{
+  "marke": "SYR",
+  "fragen": [
+    {
+      "frage": "Habe ich einen alten SYR Drufi oder einen Drufi+? Woran erkenne ich das?",
+      "kategorie": "nummer",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/232227/Drufi-DFR",
+        "https://www.haustechnikdialog.de/forum/t/191737/Drufi-tropft",
+        "https://www.dasheimwerkerforum.de/threads/rueckspuelfilter-syr-drufi-dfr-reaktivieren.27067/"
+      ],
+      "antwort": "An der Rückspülung. Beim alten Drufi, gebaut bis April 2011 (auch Classic und Logic), öffnest und schließt du einen Kugelhahn mit Hebel unten an der Filtertasse. Beim Drufi+ drehst du einen Griff um 90 Grad, der Trichter ist angebaut und ein Anzeigering mit Schieber zeigt den Monat der nächsten Rückspülung. Steht „Drufi+“ auf der Haube, ist es eindeutig.",
+      "antwort_quellen": [
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen"
+      ],
+      "sicherheit": "hersteller",
+      "passende_teile": [
+        "syr-filtereinsatz-2315-00-908",
+        "syr-filtereinsatz-2315-00-930"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Welcher Filtereinsatz passt in meinen SYR Drufi DFR: 2315.00.908 oder 2315.00.930?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/71908/Drufi-Feinfilter-wechseln",
+        "https://www.haustechnikdialog.de/forum/t/137014/Druckminderer-Filter-ersetzen-",
+        "https://www.dasheimwerkerforum.de/threads/rueckspuelfilter-syr-drufi-dfr-reaktivieren.27067/"
+      ],
+      "antwort": "In den alten Drufi DFR und FR bis April 2011 und in die Hauswasserstation 2000 dieser Zeit gehört das Filterelement 2315.00.908 (90 µm). In den Drufi+ DFR und FR und in die Hauswasserstation 2000 Plus gehört der Filtereinsatz komplett 2315.00.930 (90 µm), feiner gibt es ihn mit 40 µm als 2315.01.946. Die beiden Generationen sind nicht untereinander tauschbar.",
+      "antwort_quellen": [
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/9.2315.40_1902_en_2019-08-14.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf"
+      ],
+      "sicherheit": "hersteller",
+      "passende_teile": [
+        "syr-filtereinsatz-2315-00-908",
+        "syr-filtereinsatz-2315-00-930",
+        "syr-filtereinsatz-2315-01-946"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Welche Druckminderer-Patrone brauche ich für meinen SYR Drufi?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/137014/Druckminderer-Filter-ersetzen-",
+        "https://www.haustechnikdialog.de/forum/t/179150/DRUFI-DFR-Wasserdruck-einstellen",
+        "https://www.haustechnikdialog.de/Forum/t/232227/Drufi-DFR"
+      ],
+      "antwort": "Das hängt von Generation und Baujahr ab. Der alte Drufi DFR und die Hauswasserstationen bis April 2011 haben die Patrone mit Einstellgriff 2315.00.910. Beim Drufi+ DFR und DFF und bei der Hauswasserstation 2000 Plus gilt bis Baujahr 2015 die 2315.01.925 und ab 2016 die 2315.01.970. Der Duo DFR hat die Kartusche 0312.20.928. Den Tausch macht der Installateur, weil in der Federhaube eine gespannte Feder sitzt.",
+      "antwort_quellen": [
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Drufi+_DFR_2024-01-17.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2000_-_HWS_2000+_15_08_2024.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf"
+      ],
+      "sicherheit": "hersteller",
+      "passende_teile": [
+        "syr-druckminderer-patrone-2315-00-910",
+        "syr-druckminderer-patrone-2315-01-925",
+        "syr-druckminderer-patrone-2315-01-970",
+        "syr-druckminderer-kartusche-0312-20-928"
+      ],
+      "passendes_problem": "syr-wasserdruck-steigt"
+    },
+    {
+      "frage": "Passt ein neuer SYR Drufi+ auf den Flansch meines alten Drufi?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/232227/Drufi-DFR",
+        "https://www.dasheimwerkerforum.de/threads/rueckspuelfilter-syr-drufi-dfr-reaktivieren.27067/",
+        "https://www.haustechnikdialog.de/Forum/t/119388/filtervlies-fuer-drufi-dff"
+      ],
+      "antwort": "In der Regel ja. Beide Generationen werden auf die SYR-Drufi-Flansche geschraubt, also Universalflansch, HWS-Flansch 2000 oder Pressflansch in DN 20 bis DN 32. Im HaustechnikDialog berichtet ein Besitzer, SYR habe ihm bestätigt, dass der Flansch bis auf ein Sondermodell seit 30 Jahren gleich ist. Den Filterkopf tauscht trotzdem der eingetragene Installateur, und die Flanschschrauben werden über Kreuz angezogen.",
+      "antwort_quellen": [
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Drufi+_DFR_2024-01-17.pdf",
+        "https://v1.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Flanschprogramm_2024-01-17.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/232227/Drufi-DFR",
+        "https://www.dasheimwerkerforum.de/threads/rueckspuelfilter-syr-drufi-dfr-reaktivieren.27067/"
+      ],
+      "sicherheit": "zwei_quellen",
+      "passende_teile": [
+        "syr-flanschdichtung-2315-00-931"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Mein SYR Drufi tropft. Muss der ganze Filter getauscht werden?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/134484/drufi-dfr-2315-rueckspuelfilter-tropft",
+        "https://www.haustechnikdialog.de/forum/t/191737/Drufi-tropft",
+        "https://www.haustechnikdialog.de/Forum/t/232227/Drufi-DFR",
+        "https://www.haustechnikdialog.de/forum/t/75165/Undichte-Filtertasse-vom-DRUFI-DFF-Loesung-"
+      ],
+      "antwort": "Meist nicht, die Teile gibt es einzeln. Tropft es aus dem Trichter, hängt oft Schmutz im Rückspülventil, dann hilft mehrmaliges Rückspülen. Kommt das Wasser oben an der Filtertasse, ist es meist der O-Ring, am Einstellgriff eher die Druckminderer-Patrone, oben am Druckmesser das Manometer. Bei einer gerissenen Tasse oder Wasser am Flansch ruf den Installateur.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/forum/t/191737/Drufi-tropft",
+        "https://www.haustechnikdialog.de/Forum/t/232227/Drufi-DFR",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf"
+      ],
+      "sicherheit": "zwei_quellen",
+      "passende_teile": [
+        "syr-o-ring-filtertasse-2315-00-936",
+        "syr-o-ring-filtertasse-2315-01-922",
+        "syr-druckminderer-patrone-2315-01-970"
+      ],
+      "passendes_problem": "syr-rueckspuelfilter-tropft"
+    },
+    {
+      "frage": "Wie stelle ich den Wasserdruck am SYR Drufi DFR ein?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/179150/DRUFI-DFR-Wasserdruck-einstellen",
+        "https://www.haustechnikdialog.de/forum/t/137014/Druckminderer-Filter-ersetzen-",
+        "https://www.haustechnikdialog.de/Forum/t/232227/Drufi-DFR"
+      ],
+      "antwort": "Im Ruhedruck, also wenn kein Wasser läuft. Beim Drufi+ drehst du den Einstellgriff bis zum Anschlag Richtung „−“, öffnest und schließt kurz einen Hahn und drehst dann Richtung „+“, bis das Manometer den gewünschten Wert zeigt. Beim alten Drufi löst du vorher die Sechskantmutter eine Viertelumdrehung und ziehst sie danach wieder an. Ab Werk sind 4 bar eingestellt, möglich sind 1,5 bis 6 bar.",
+      "antwort_quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+        "https://www.haustechnikdialog.de/forum/t/179150/DRUFI-DFR-Wasserdruck-einstellen"
+      ],
+      "sicherheit": "hersteller",
+      "passende_teile": [],
+      "passendes_problem": "syr-druckminderer-einstellen"
+    },
+    {
+      "frage": "Der Druck am SYR Drufi steigt über den eingestellten Wert. Ist der Druckminderer kaputt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/279135/Druckschlag-und-undichter-DRUFI-",
+        "https://www.haustechnikdialog.de/forum/t/179150/DRUFI-DFR-Wasserdruck-einstellen"
+      ],
+      "antwort": "Nicht unbedingt. SYR nennt als wahrscheinlichste Ursache einen geschlossenen Warmwasserspeicher, dessen Rückflussverhinderer in der Sicherheitsgruppe nicht mehr dicht ist. Schalte die Speicherheizung ab und zapfe etwas Warmwasser: Steigt der Druck dann nicht mehr, liegt es am Speicher. Steigt er weiter, ist die Patrone verschlissen.",
+      "antwort_quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/279135/Druckschlag-und-undichter-DRUFI-"
+      ],
+      "sicherheit": "hersteller",
+      "passende_teile": [
+        "syr-druckminderer-patrone-2315-01-970",
+        "syr-druckminderer-patrone-2315-00-910"
+      ],
+      "passendes_problem": "syr-wasserdruck-steigt"
+    },
+    {
+      "frage": "Wie oft muss ich den SYR Drufi rückspülen?",
+      "kategorie": "pflege",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/191737/Drufi-tropft",
+        "https://www.haustechnikdialog.de/forum/t/137014/Druckminderer-Filter-ersetzen-",
+        "https://www.gutefrage.net/frage/rueckspuelfilter-am-wasseranschluss-reinigen",
+        "https://www.haustechnikdialog.de/forum/t/161525/Rueckspuelfilter-SYR"
+      ],
+      "antwort": "Sobald der Durchfluss nachlässt, spätestens aber alle sechs Monate nach DIN EN 806-5, so steht es in der Anleitung des Drufi+. Die alte Drufi-Anleitung nannte noch alle zwei Monate nach DIN 1988. Beim Drufi+ stellst du danach den Monat der nächsten Rückspülung am Anzeigering ein. Wer jedes Quartal spült, liegt nach Einschätzung im HaustechnikDialog richtig.",
+      "antwort_quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+        "https://www.haustechnikdialog.de/forum/t/191737/Drufi-tropft",
+        "https://www.gutefrage.net/frage/rueckspuelfilter-am-wasseranschluss-reinigen"
+      ],
+      "sicherheit": "hersteller",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Was ist der Unterschied zwischen SYR Drufi DFR und DFF, und welches Gewebe gehört in den DFF?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/161525/Rueckspuelfilter-SYR",
+        "https://www.haustechnikdialog.de/Forum/t/119388/filtervlies-fuer-drufi-dff"
+      ],
+      "antwort": "Der DFR ist ein Rückspülfilter: Das Edelstahlsieb bleibt drin und wird regelmäßig zurückgespült. Der DFF ist ein Feinfilter mit Nylongewebe, das spätestens alle sechs Monate gewechselt wird. Das Ersatzgewebe für Drufi DFF/FF und Drufi+ DFF/FF ist 2000.25.900 (90 µm, fünf Stück mit O-Ring). Vliese anderer Hersteller zuzuschneiden lehnen Fachleute im HaustechnikDialog ab, weil schon ein kleiner Spalt die Filterwirkung aufhebt.",
+      "antwort_quellen": [
+        "https://assets.heizung-billiger.de/documents/syis231500082.pdf",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+        "https://www.haustechnikdialog.de/Forum/t/119388/filtervlies-fuer-drufi-dff",
+        "https://www.haustechnikdialog.de/forum/t/161525/Rueckspuelfilter-SYR"
+      ],
+      "sicherheit": "hersteller",
+      "passende_teile": [
+        "syr-filtergewebe-2000-25-900"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Auf meinem SYR Duo DFR steht DN 20, das Gewinde hat aber 1 Zoll. Ist das falsch?",
+      "kategorie": "nummer",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/druckminderer-rueckspuelventil-wechseln.140659/",
+        "https://www.haustechnikdialog.de/Forum/t/292660/SYR-Duo-DFR-2314-DN25-Durchfluss"
+      ],
+      "antwort": "Das SYR-Datenblatt ist hier selbst nicht eindeutig. In der Maßtabelle stehen beide Ausführungen als DN 20, einmal mit Anschluss R ¾ und einmal mit R 1, im Text heißt die 1-Zoll-Ausführung DN 25. Für beide nennt SYR 2,3 m³/h bei 1,1 bar Druckverlust. Für Ersatzteile spielt es keine Rolle, Filterelement und Kartusche sind dieselben.",
+      "antwort_quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf",
+        "https://www.bauexpertenforum.de/threads/druckminderer-rueckspuelventil-wechseln.140659/",
+        "https://www.haustechnikdialog.de/Forum/t/292660/SYR-Duo-DFR-2314-DN25-Durchfluss"
+      ],
+      "sicherheit": "hersteller",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Welcher Filtereinsatz passt in meinen SYR Duo?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/druckminderer-rueckspuelventil-wechseln.140659/",
+        "https://www.haustechnikdialog.de/Forum/t/292660/SYR-Duo-DFR-2314-DN25-Durchfluss"
+      ],
+      "antwort": "Für den Duo bis Dezember 2012 führt SYR den Rückspülfiltereinsatz 2340.00.900. Neuere Duo DFR und Duo FR haben laut Datenblatt das Filterelement 2350.00.903. Die Druckminderer-Kartusche des Duo DFR ist in beiden Fällen die 0312.20.928.",
+      "antwort_quellen": [
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf",
+        "https://assets.heizung-billiger.de/documents/sydb231420001.pdf"
+      ],
+      "sicherheit": "hersteller",
+      "passende_teile": [
+        "syr-rueckspuelfiltereinsatz-duo-2340-00-900",
+        "syr-filterelement-duo-2350-00-903",
+        "syr-druckminderer-kartusche-0312-20-928"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Was darf ich an der SYR LEX Plus 10 Connect selbst machen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/169142/Syr-Lex-10-Wasserenthaertung-guenstig-trotz-DVGW"
+      ],
+      "antwort": "Salz nachfüllen, vierteljährlich die Härteeinstellung prüfen und Meldungen quittieren. Dichtungs-Set und Chlorzelle tauscht laut SYR alle zwei Jahre der Fachhandwerker, er reinigt auch einmal im Jahr Salzbehälter und Chlorzelle. SYR empfiehlt dafür das Wartungsset 1500.01.900. Für die Wartung wird die Haube abgenommen und die Anlage drucklos gemacht.",
+      "antwort_quellen": [
+        "https://documents.unidomo.de/de/syis150001010.pdf",
+        "https://documents.unidomo.de/de/syis150001011.pdf",
+        "https://assets.heizung-billiger.de/documents/syis150001012.pdf"
+      ],
+      "sicherheit": "hersteller",
+      "passende_teile": [
+        "syr-lex-wartungsset-1500-01-900",
+        "syr-lex-dichtungsset-1500-01-921"
+      ],
+      "passendes_problem": "syr-enthaertungsanlage-fehlermeldung"
+    },
+    {
+      "frage": "Welches Salz gehört in die SYR LEX Plus 10?",
+      "kategorie": "pflege",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Regeneriersalz nach EN 973, früher DIN 19604. SYR empfiehlt Tabletten von Broxo oder Solvay. Die Mengenangaben in der Anleitung gelten für Tabletten, mit Industriesalz wie Salzpellets, Salzklötzen oder Bruchsalz können sie abweichen. Lass den Vorrat nicht so weit sinken, dass die Sole über dem Salz steht, sonst meldet die Steuerung beim Nachfüllen eine Störung. Je Regeneration braucht die Anlage etwa 0,95 kg.",
+      "antwort_quellen": [
+        "https://documents.unidomo.de/de/syis150001010.pdf",
+        "https://documents.unidomo.de/de/syis150001011.pdf"
+      ],
+      "sicherheit": "hersteller",
+      "passende_teile": [],
+      "passendes_problem": "syr-enthaertungsanlage-fehlermeldung"
+    },
+    {
+      "frage": "Gibt es für einen alten SYR Drufi von vor 2011 noch Ersatzteile?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/232227/Drufi-DFR",
+        "https://www.dasheimwerkerforum.de/threads/rueckspuelfilter-syr-drufi-dfr-reaktivieren.27067/",
+        "https://www.haustechnikdialog.de/Forum/t/1636/Batterie-fuer-SYR-Drufi"
+      ],
+      "antwort": "Ja. SYR führt eine eigene Liste „Zubehör/Ersatzteile der Vorgänger-Armaturen“ mit Filtereinsatz 2315.00.908, Patrone 2315.00.910, Filtertasse 2315.00.912, O-Ring 2315.00.936, Manometer 2315.00.921 und Flanschdichtung 2315.00.931 für Drufi, Drufi Classic und Drufi Logic bis April 2011. Ist der Filter sehr alt oder lange nicht gespült worden, raten Fachleute in Foren eher zum neuen Drufi+ auf dem vorhandenen Flansch.",
+      "antwort_quellen": [
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+        "https://www.haustechnikdialog.de/Forum/t/232227/Drufi-DFR",
+        "https://www.dasheimwerkerforum.de/threads/rueckspuelfilter-syr-drufi-dfr-reaktivieren.27067/"
+      ],
+      "sicherheit": "hersteller",
+      "passende_teile": [
+        "syr-filtereinsatz-2315-00-908",
+        "syr-druckminderer-patrone-2315-00-910",
+        "syr-filtertasse-2315-00-912",
+        "syr-o-ring-filtertasse-2315-00-936"
+      ],
+      "passendes_problem": null
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "Lohnt es sich, einen Drufi DFR nach fünf Jahren Stillstand wieder in Betrieb zu nehmen, oder gleich neu? (Forum rät aus Hygienegründen eher zum Neukauf, ohne Herstelleraussage)",
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/rueckspuelfilter-syr-drufi-dfr-reaktivieren.27067/"
+      ]
+    },
+    {
+      "frage": "Woher bekomme ich die Batterie für den Memoryclip des alten Drufi? (Anleitung nennt CR 2032; SYR verwies 2003 auf den Handel)",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/1636/Batterie-fuer-SYR-Drufi",
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf"
+      ]
+    },
+    {
+      "frage": "Hat der Duo DFR in DN 25 mehr Durchfluss als in DN 20? (SYR nennt für beide 2,3 m³/h bei 1,1 bar; Einbaulänge 100 oder 110 mm im Forum strittig)",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/292660/SYR-Duo-DFR-2314-DN25-Durchfluss"
+      ]
+    },
+    {
+      "frage": "Warum schlägt beim Bauwasser der Hahn hinter dem Drufi zu und der Druck steigt auf 7 bar? (keine Antwort im Thread)",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/279135/Druckschlag-und-undichter-DRUFI-"
+      ]
+    }
+  ],
+  "allgemeine_muster": "Bei SYR dreht sich fast alles um den Drufi im Keller: Welche Generation ist es, welcher Einsatz und welche Patrone passen, und warum tropft er. Die Antwort hängt an der Grenze April 2011 (Drufi und Drufi+) und beim Drufi+ zusätzlich an 2015/2016 für Patrone und Filtertasse. Zweitens kommen Fragen zum Druck: wie man ihn einstellt und warum er steigt, wobei SYR den Warmwasserspeicher als häufigste Ursache nennt. Bei der Enthärtung (LEX Plus 10) geht es um Salz und Meldungen; alles, wofür die Haube abkommt, macht laut SYR der Fachhandwerker. gutefrage liefert zu SYR kaum eigene Fragen, der HaustechnikDialog dafür viele."
+}

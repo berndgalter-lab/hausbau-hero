@@ -73,7 +73,8 @@
   ],
   "fachbetrieb_ab": "Sobald die Anlage geöffnet werden muss. Judo schreibt: „Das Öffnen der Geräte und der Austausch von wasserdruckbelasteten Teilen darf nur durch konzessionierte Personen erfolgen.“ Injektor, Soleventil, Steuerventil, Antrieb und Harz sind Sache des Kundendiensts oder eines vom Hersteller geschulten Fachbetriebs. Bei Judo i-soft SAFE+ und i-soft plus heißen die Teile Ersatzteilset Injektor (2201470) und Verschleißteilset Leitwert-Sensor und Ansaugsieb (2201382); mit diesen Nummern weißt du, wonach du fragst. Auch die Wartung nach DIN EN 806-5 machen Kundendienst oder Fachhandwerk: BWT verlangt sie für die Perla halbjährlich, Judo, Grünbeck und SYR mindestens einmal im Jahr. Du selbst kontrollierst alle zwei Monate Salz, Dichtheit und Meldungen.",
   "marken_probleme": [
-    "judo-enthaertungsanlage-verbraucht-kein-salz"
+    "judo-enthaertungsanlage-verbraucht-kein-salz",
+    "gruenbeck-enthaertungsanlage-verbraucht-kein-salz"
   ],
   "fragen": [
     {

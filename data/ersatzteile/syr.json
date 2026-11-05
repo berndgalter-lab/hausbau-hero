@@ -1,0 +1,1977 @@
+{
+  "marke": {
+    "slug": "syr",
+    "name": "SYR",
+    "beschreibung": "SYR ist die Marke der Hans Sasserath GmbH & Co. KG aus Korschenbroich. Am bekanntesten ist der Drufi: ein Rückspülfilter direkt hinter dem Wasserzähler, als FR ohne und als DFR mit Druckminderer, dazu die Feinfilter FF und DFF. Daneben gibt es die Hauswasserstation 2000 mit Rückflussverhinderer im Flansch, den kompakten Duo, den Druckminderer 315 und die Enthärtungsanlagen der Reihe LEX Plus 10 Connect.\n\nGesucht werden vor allem Filtereinsatz, Druckminderer-Patrone, Filtertasse und O-Ring. Welche Nummer passt, hängt an der Generation: Bis April 2011 baute SYR den Drufi, seit Mai 2011 den Drufi+, und die beiden haben verschiedene Einsätze und Patronen. Einbau und Wartung ordnet SYR einem autorisierten Fachbetrieb zu, an der Enthärtungsanlage füllt der Betreiber nur Salz nach und prüft die Härte.",
+    "nummer_hinweis": "Die Typbezeichnung steht auf dem Gerät und in der Anleitung, etwa „Drufi+ DFR“, „HWS 2000+“ oder „DUO DFR“. Die Werksnummer beginnt bei Drufi und Hauswasserstation 2000 mit 2315 oder 2000, beim Duo mit 2314, beim Druckminderer 315 mit 0315 und bei der LEX Plus 10 mit 1500. Ersatzteile haben dasselbe Format, zum Beispiel 2315.00.930 für den Filtereinsatz des Drufi+.\n\nOb du einen alten Drufi oder einen Drufi+ hast, siehst du an der Rückspülung. Beim alten Drufi (bis April 2011, auch Drufi Classic und Drufi Logic) öffnest und schließt du einen Kugelhahn mit Hebel unten an der Filtertasse, daneben sitzt ein Ablaufring mit Schlauchtülle und oft ein Memoryclip mit Leuchtdiode. Beim Drufi+ drehst du einen Rückspülgriff um 90 Grad, der Ablauftrichter ist angebaut, und ein Anzeigering mit Schieber zeigt den Monat der nächsten Rückspülung.\n\nDFR heißt Rückspülfilter mit Druckminderer, FR ohne Druckminderer. DFF und FF sind Feinfilter mit einem Gewebe, das gewechselt statt rückgespült wird. Hat dein Gerät ein Manometer und unten einen Einstellgriff, steckt ein Druckminderer drin.\n\nOhne Typenschild hilft die Bauzeit: Wurde das Haus vor Mai 2011 gebaut und nie umgerüstet, ist es meist der alte Drufi. Bei der Druckminderer-Patrone des Drufi+ zählt außerdem, ob das Gerät bis 2015 oder ab 2016 gebaut wurde.",
+    "ersatzteil_garantie": "Für die Enthärtungsanlagen LEX Plus 10 Connect, 10 S Connect und 10 SL Connect nennt SYR 24 Monate Gewährleistung ab dem Installationsdatum. Wer die Inspektionsintervalle nicht einhält, kann den Anspruch nach der Anleitung verlieren.\n\nFür ältere Filter führt SYR eine eigene Liste „Zubehör/Ersatzteile der Vorgänger-Armaturen“: Darin stehen der Drufi bis April 2011, die Hauswasserstationen von 1999 bis April 2011 und der Duo bis Dezember 2012 mit Filtereinsatz, Patrone, Filtertasse und Dichtungen. 2003 schrieb der damalige SYR-Vertriebsleiter im HaustechnikDialog von einer zehnjährigen Ersatzteilsicherung für das Handwerk. Eine aktuelle Frist veröffentlicht SYR nicht.",
+    "hersteller_ersatzteil_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+    "quellen": [
+      "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+      "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+      "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/9.2315.40_1902_en_2019-08-14.pdf",
+      "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Drufi+_DFR_2024-01-17.pdf",
+      "https://assets.heizung-billiger.de/documents/syis231500082.pdf",
+      "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/2315.00.082-2018-09-17.pdf",
+      "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+      "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2000_-_HWS_2000+_15_08_2024.pdf",
+      "https://v1.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Flanschprogramm_2024-01-17.pdf",
+      "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf",
+      "https://assets.heizung-billiger.de/documents/sydb231420001.pdf",
+      "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/0315_-_Druckminderer_2024-08-16.pdf",
+      "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.0002.21_2347-2024_02.pdf",
+      "https://documents.unidomo.de/de/syis150001010.pdf",
+      "https://documents.unidomo.de/de/syis150001011.pdf",
+      "https://assets.heizung-billiger.de/documents/syis150001012.pdf",
+      "https://www.gesetze-im-internet.de/avbwasserv/__12.html",
+      "https://www.haustechnikdialog.de/Forum/t/1636/Batterie-fuer-SYR-Drufi"
+    ],
+    "fragen": [
+      {
+        "frage": "Habe ich einen alten SYR Drufi oder einen Drufi+? Woran erkenne ich das?",
+        "antwort": "An der Rückspülung. Beim alten Drufi, gebaut bis April 2011 (auch Classic und Logic), öffnest und schließt du einen Kugelhahn mit Hebel unten an der Filtertasse. Beim Drufi+ drehst du einen Griff um 90 Grad, der Trichter ist angebaut und ein Anzeigering mit Schieber zeigt den Monat der nächsten Rückspülung. Steht „Drufi+“ auf der Haube, ist es eindeutig.",
+        "kategorie": "nummer",
+        "quellen": [
+          "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+          "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+          "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen"
+        ],
+        "teile": [
+          "syr-filtereinsatz-2315-00-908",
+          "syr-filtereinsatz-2315-00-930"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Welcher Filtereinsatz passt in meinen SYR Drufi DFR: 2315.00.908 oder 2315.00.930?",
+        "antwort": "In den alten Drufi DFR und FR bis April 2011 und in die Hauswasserstation 2000 dieser Zeit gehört das Filterelement 2315.00.908 (90 µm). In den Drufi+ DFR und FR und in die Hauswasserstation 2000 Plus gehört der Filtereinsatz komplett 2315.00.930 (90 µm), feiner gibt es ihn mit 40 µm als 2315.01.946. Die beiden Generationen sind nicht untereinander tauschbar.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+          "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+          "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/9.2315.40_1902_en_2019-08-14.pdf",
+          "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf"
+        ],
+        "teile": [
+          "syr-filtereinsatz-2315-00-908",
+          "syr-filtereinsatz-2315-00-930",
+          "syr-filtereinsatz-2315-01-946"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Welche Druckminderer-Patrone brauche ich für meinen SYR Drufi?",
+        "antwort": "Das hängt von Generation und Baujahr ab. Der alte Drufi DFR und die Hauswasserstationen bis April 2011 haben die Patrone mit Einstellgriff 2315.00.910. Beim Drufi+ DFR und DFF und bei der Hauswasserstation 2000 Plus gilt bis Baujahr 2015 die 2315.01.925 und ab 2016 die 2315.01.970. Der Duo DFR hat die Kartusche 0312.20.928. Den Tausch macht der Installateur, weil in der Federhaube eine gespannte Feder sitzt.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+          "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+          "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Drufi+_DFR_2024-01-17.pdf",
+          "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2000_-_HWS_2000+_15_08_2024.pdf",
+          "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf"
+        ],
+        "teile": [
+          "syr-druckminderer-patrone-2315-00-910",
+          "syr-druckminderer-patrone-2315-01-925",
+          "syr-druckminderer-patrone-2315-01-970",
+          "syr-druckminderer-kartusche-0312-20-928"
+        ],
+        "problem": "syr-wasserdruck-steigt"
+      },
+      {
+        "frage": "Passt ein neuer SYR Drufi+ auf den Flansch meines alten Drufi?",
+        "antwort": "In der Regel ja. Beide Generationen werden auf die SYR-Drufi-Flansche geschraubt, also Universalflansch, HWS-Flansch 2000 oder Pressflansch in DN 20 bis DN 32. Im HaustechnikDialog berichtet ein Besitzer, SYR habe ihm bestätigt, dass der Flansch bis auf ein Sondermodell seit 30 Jahren gleich ist. Den Filterkopf tauscht trotzdem der eingetragene Installateur, und die Flanschschrauben werden über Kreuz angezogen.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+          "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Drufi+_DFR_2024-01-17.pdf",
+          "https://v1.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Flanschprogramm_2024-01-17.pdf",
+          "https://www.haustechnikdialog.de/Forum/t/232227/Drufi-DFR",
+          "https://www.dasheimwerkerforum.de/threads/rueckspuelfilter-syr-drufi-dfr-reaktivieren.27067/"
+        ],
+        "teile": [
+          "syr-flanschdichtung-2315-00-931"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Mein SYR Drufi tropft. Muss der ganze Filter getauscht werden?",
+        "antwort": "Meist nicht, die Teile gibt es einzeln. Tropft es aus dem Trichter, hängt oft Schmutz im Rückspülventil, dann hilft mehrmaliges Rückspülen. Kommt das Wasser oben an der Filtertasse, ist es meist der O-Ring, am Einstellgriff eher die Druckminderer-Patrone, oben am Druckmesser das Manometer. Bei einer gerissenen Tasse oder Wasser am Flansch ruf den Installateur.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://www.haustechnikdialog.de/forum/t/191737/Drufi-tropft",
+          "https://www.haustechnikdialog.de/Forum/t/232227/Drufi-DFR",
+          "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+          "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf"
+        ],
+        "teile": [
+          "syr-o-ring-filtertasse-2315-00-936",
+          "syr-o-ring-filtertasse-2315-01-922",
+          "syr-druckminderer-patrone-2315-01-970"
+        ],
+        "problem": "syr-rueckspuelfilter-tropft"
+      },
+      {
+        "frage": "Wie stelle ich den Wasserdruck am SYR Drufi DFR ein?",
+        "antwort": "Im Ruhedruck, also wenn kein Wasser läuft. Beim Drufi+ drehst du den Einstellgriff bis zum Anschlag Richtung „−“, öffnest und schließt kurz einen Hahn und drehst dann Richtung „+“, bis das Manometer den gewünschten Wert zeigt. Beim alten Drufi löst du vorher die Sechskantmutter eine Viertelumdrehung und ziehst sie danach wieder an. Ab Werk sind 4 bar eingestellt, möglich sind 1,5 bis 6 bar.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+          "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+          "https://www.haustechnikdialog.de/forum/t/179150/DRUFI-DFR-Wasserdruck-einstellen"
+        ],
+        "teile": [],
+        "problem": "syr-druckminderer-einstellen"
+      },
+      {
+        "frage": "Der Druck am SYR Drufi steigt über den eingestellten Wert. Ist der Druckminderer kaputt?",
+        "antwort": "Nicht unbedingt. SYR nennt als wahrscheinlichste Ursache einen geschlossenen Warmwasserspeicher, dessen Rückflussverhinderer in der Sicherheitsgruppe nicht mehr dicht ist. Schalte die Speicherheizung ab und zapfe etwas Warmwasser: Steigt der Druck dann nicht mehr, liegt es am Speicher. Steigt er weiter, ist die Patrone verschlissen.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+          "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+          "https://www.haustechnikdialog.de/Forum/t/279135/Druckschlag-und-undichter-DRUFI-"
+        ],
+        "teile": [
+          "syr-druckminderer-patrone-2315-01-970",
+          "syr-druckminderer-patrone-2315-00-910"
+        ],
+        "problem": "syr-wasserdruck-steigt"
+      },
+      {
+        "frage": "Wie oft muss ich den SYR Drufi rückspülen?",
+        "antwort": "Sobald der Durchfluss nachlässt, spätestens aber alle sechs Monate nach DIN EN 806-5, so steht es in der Anleitung des Drufi+. Die alte Drufi-Anleitung nannte noch alle zwei Monate nach DIN 1988. Beim Drufi+ stellst du danach den Monat der nächsten Rückspülung am Anzeigering ein. Wer jedes Quartal spült, liegt nach Einschätzung im HaustechnikDialog richtig.",
+        "kategorie": "pflege",
+        "quellen": [
+          "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+          "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+          "https://www.haustechnikdialog.de/forum/t/191737/Drufi-tropft",
+          "https://www.gutefrage.net/frage/rueckspuelfilter-am-wasseranschluss-reinigen"
+        ],
+        "teile": [],
+        "problem": null
+      },
+      {
+        "frage": "Was ist der Unterschied zwischen SYR Drufi DFR und DFF, und welches Gewebe gehört in den DFF?",
+        "antwort": "Der DFR ist ein Rückspülfilter: Das Edelstahlsieb bleibt drin und wird regelmäßig zurückgespült. Der DFF ist ein Feinfilter mit Nylongewebe, das spätestens alle sechs Monate gewechselt wird. Das Ersatzgewebe für Drufi DFF/FF und Drufi+ DFF/FF ist 2000.25.900 (90 µm, fünf Stück mit O-Ring). Vliese anderer Hersteller zuzuschneiden lehnen Fachleute im HaustechnikDialog ab, weil schon ein kleiner Spalt die Filterwirkung aufhebt.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://assets.heizung-billiger.de/documents/syis231500082.pdf",
+          "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+          "https://www.haustechnikdialog.de/Forum/t/119388/filtervlies-fuer-drufi-dff",
+          "https://www.haustechnikdialog.de/forum/t/161525/Rueckspuelfilter-SYR"
+        ],
+        "teile": [
+          "syr-filtergewebe-2000-25-900"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Auf meinem SYR Duo DFR steht DN 20, das Gewinde hat aber 1 Zoll. Ist das falsch?",
+        "antwort": "Das SYR-Datenblatt ist hier selbst nicht eindeutig. In der Maßtabelle stehen beide Ausführungen als DN 20, einmal mit Anschluss R ¾ und einmal mit R 1, im Text heißt die 1-Zoll-Ausführung DN 25. Für beide nennt SYR 2,3 m³/h bei 1,1 bar Druckverlust. Für Ersatzteile spielt es keine Rolle, Filterelement und Kartusche sind dieselben.",
+        "kategorie": "nummer",
+        "quellen": [
+          "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf",
+          "https://www.bauexpertenforum.de/threads/druckminderer-rueckspuelventil-wechseln.140659/",
+          "https://www.haustechnikdialog.de/Forum/t/292660/SYR-Duo-DFR-2314-DN25-Durchfluss"
+        ],
+        "teile": [],
+        "problem": null
+      },
+      {
+        "frage": "Welcher Filtereinsatz passt in meinen SYR Duo?",
+        "antwort": "Für den Duo bis Dezember 2012 führt SYR den Rückspülfiltereinsatz 2340.00.900. Neuere Duo DFR und Duo FR haben laut Datenblatt das Filterelement 2350.00.903. Die Druckminderer-Kartusche des Duo DFR ist in beiden Fällen die 0312.20.928.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+          "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf",
+          "https://assets.heizung-billiger.de/documents/sydb231420001.pdf"
+        ],
+        "teile": [
+          "syr-rueckspuelfiltereinsatz-duo-2340-00-900",
+          "syr-filterelement-duo-2350-00-903",
+          "syr-druckminderer-kartusche-0312-20-928"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Was darf ich an der SYR LEX Plus 10 Connect selbst machen?",
+        "antwort": "Salz nachfüllen, vierteljährlich die Härteeinstellung prüfen und Meldungen quittieren. Dichtungs-Set und Chlorzelle tauscht laut SYR alle zwei Jahre der Fachhandwerker, er reinigt auch einmal im Jahr Salzbehälter und Chlorzelle. SYR empfiehlt dafür das Wartungsset 1500.01.900. Für die Wartung wird die Haube abgenommen und die Anlage drucklos gemacht.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://documents.unidomo.de/de/syis150001010.pdf",
+          "https://documents.unidomo.de/de/syis150001011.pdf",
+          "https://assets.heizung-billiger.de/documents/syis150001012.pdf"
+        ],
+        "teile": [
+          "syr-lex-wartungsset-1500-01-900",
+          "syr-lex-dichtungsset-1500-01-921"
+        ],
+        "problem": "syr-enthaertungsanlage-fehlermeldung"
+      },
+      {
+        "frage": "Welches Salz gehört in die SYR LEX Plus 10?",
+        "antwort": "Regeneriersalz nach EN 973, früher DIN 19604. SYR empfiehlt Tabletten von Broxo oder Solvay. Die Mengenangaben in der Anleitung gelten für Tabletten, mit Industriesalz wie Salzpellets, Salzklötzen oder Bruchsalz können sie abweichen. Lass den Vorrat nicht so weit sinken, dass die Sole über dem Salz steht, sonst meldet die Steuerung beim Nachfüllen eine Störung. Je Regeneration braucht die Anlage etwa 0,95 kg.",
+        "kategorie": "pflege",
+        "quellen": [
+          "https://documents.unidomo.de/de/syis150001010.pdf",
+          "https://documents.unidomo.de/de/syis150001011.pdf"
+        ],
+        "teile": [],
+        "problem": "syr-enthaertungsanlage-fehlermeldung"
+      },
+      {
+        "frage": "Gibt es für einen alten SYR Drufi von vor 2011 noch Ersatzteile?",
+        "antwort": "Ja. SYR führt eine eigene Liste „Zubehör/Ersatzteile der Vorgänger-Armaturen“ mit Filtereinsatz 2315.00.908, Patrone 2315.00.910, Filtertasse 2315.00.912, O-Ring 2315.00.936, Manometer 2315.00.921 und Flanschdichtung 2315.00.931 für Drufi, Drufi Classic und Drufi Logic bis April 2011. Ist der Filter sehr alt oder lange nicht gespült worden, raten Fachleute in Foren eher zum neuen Drufi+ auf dem vorhandenen Flansch.",
+        "kategorie": "verfuegbarkeit",
+        "quellen": [
+          "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+          "https://www.haustechnikdialog.de/Forum/t/232227/Drufi-DFR",
+          "https://www.dasheimwerkerforum.de/threads/rueckspuelfilter-syr-drufi-dfr-reaktivieren.27067/"
+        ],
+        "teile": [
+          "syr-filtereinsatz-2315-00-908",
+          "syr-druckminderer-patrone-2315-00-910",
+          "syr-filtertasse-2315-00-912",
+          "syr-o-ring-filtertasse-2315-00-936"
+        ],
+        "problem": null
+      }
+    ],
+    "tabellen": [
+      {
+        "id": "drufi-generationen",
+        "titel": "Drufi, Drufi+, Hauswasserstation und Duo: welche Teile?",
+        "spalten": [
+          "Gerät",
+          "Bauzeit",
+          "So erkennst du es",
+          "Filtereinsatz",
+          "Druckminderer-Patrone",
+          "Filtertasse"
+        ],
+        "zeilen": [
+          [
+            "Drufi DFR / FR (auch Classic, Logic)",
+            "bis 04/2011",
+            "Kugelhahn mit Hebel, Ablaufring",
+            "2315.00.908",
+            "2315.00.910 (DFR)",
+            "2315.00.912"
+          ],
+          [
+            "Hauswasserstation 2000",
+            "1999 bis 04/2011",
+            "Drufi-Kopf auf langem Flansch mit Absperrgriff, Kugelhahn",
+            "2315.00.908",
+            "2315.00.910",
+            "2315.00.912"
+          ],
+          [
+            "Drufi+ DFR",
+            "ab 05/2011",
+            "90-Grad-Griff, Anzeigering, Manometer",
+            "2315.00.930 (40 µm: 2315.01.946)",
+            "2315.01.925 bis 2015, 2315.01.970 ab 2016",
+            "2315.01.914 bis 2015, 2315.01.971 ab 2016"
+          ],
+          [
+            "Drufi+ FR",
+            "ab 05/2011",
+            "90-Grad-Griff, kein Manometer",
+            "2315.00.930 (40 µm: 2315.01.946)",
+            "keine",
+            "2315.01.915"
+          ],
+          [
+            "Hauswasserstation 2000 Plus",
+            "ab 05/2011",
+            "Drufi+ DFR auf HWS-Flansch mit zwei Manometern",
+            "2315.00.930",
+            "2315.01.925 bis 2015, 2315.01.970 ab 2016",
+            "2315.01.914 bis 2015, 2315.01.971 ab 2016"
+          ],
+          [
+            "Drufi DFF / FF und Drufi+ DFF / FF",
+            "alle",
+            "kein Rückspülgriff, Filterkerze mit Nylongewebe",
+            "Gewebe 2000.25.900 (5 Stück)",
+            "wie Drufi bzw. Drufi+ (nur DFF)",
+            "je nach Generation"
+          ],
+          [
+            "Duo DFR / FR",
+            "bis 12/2012",
+            "integrierter drehbarer Flansch, Kugelhahn",
+            "2340.00.900",
+            "0312.20.928 (DFR)",
+            "2314.00.900"
+          ],
+          [
+            "Duo DFR / FR",
+            "ab 2013",
+            "integrierter drehbarer Flansch, Kugelhahn",
+            "2350.00.903",
+            "0312.20.928 (DFR)",
+            "2350.00.904"
+          ]
+        ],
+        "hinweis": "Nummern aus den SYR-Anleitungen und Datenblättern und aus der SYR-Liste der Vorgänger-Ersatzteile. Filtertassen-Schlüssel: 2000.25.907 für Drufi+ und HWS 2000 Plus, 2000.25.903 für den alten Drufi und die Hauswasserstationen bis 04/2011."
+      },
+      {
+        "id": "druckminderer-315",
+        "titel": "Kartusche für den SYR Druckminderer 315",
+        "spalten": [
+          "Nennweite",
+          "Anschluss",
+          "Kartusche"
+        ],
+        "zeilen": [
+          [
+            "DN 15 und DN 20",
+            "G ½ und G ¾",
+            "0315.20.904"
+          ],
+          [
+            "DN 25",
+            "G 1",
+            "0315.25.904"
+          ],
+          [
+            "DN 32 bis DN 50",
+            "G 1¼ bis G 2",
+            "0315.32.902"
+          ]
+        ],
+        "hinweis": "Kartuschen mit Ausgangsdruckanzeige für den Druckminderer 315 und 315 AB laut SYR-Datenblatt. Der Druckminderer 315.2 hat andere Nummern."
+      }
+    ]
+  },
+  "serien": [
+    {
+      "slug": "drufi-fr-bis-2011",
+      "name": "SYR Drufi FR (bis 04/2011)",
+      "produkttyp": "rueckspuelfilter",
+      "baujahr_von": null,
+      "baujahr_bis": 2011,
+      "kennnummern": [
+        "Drufi FR",
+        "Drufi Classic FR",
+        "Drufi Logic FR"
+      ],
+      "erkennungsmerkmale": "Rückspülfilter ohne Manometer und ohne Einstellgriff. Zurückgespült wird über einen Kugelhahn mit Hebel unten an der Filtertasse, darunter sitzt ein Ablaufring mit Schlauchtülle. Ab 2006 lag ein Memoryclip mit Leuchtdiode bei, der an die Rückspülung erinnert.",
+      "beschreibung": "Der alte Drufi FR wurde laut SYR bis April 2011 gebaut, als Drufi, Drufi Classic und Drufi Logic, in DN 20 bis DN 32. Er sitzt auf dem SYR-Universalflansch, dem HWS-Flansch 2000 oder dem Pressflansch. Filtereinsatz, Filtertasse und Dichtungen gibt es weiter als Vorgänger-Ersatzteile. Mit Patrone und Manometer lässt er sich laut SYR zum DFR aufrüsten.",
+      "quellen": [
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen"
+      ]
+    },
+    {
+      "slug": "drufi-dfr-bis-2011",
+      "name": "SYR Drufi DFR (bis 04/2011)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": null,
+      "baujahr_bis": 2011,
+      "kennnummern": [
+        "Drufi DFR",
+        "Drufi Classic DFR",
+        "Drufi Logic DFR"
+      ],
+      "erkennungsmerkmale": "Rückspülfilter mit Manometer oben und einem Einstellgriff mit Sechskantmutter unten an der Filtertasse. Zurückgespült wird über einen Kugelhahn mit Hebel, nicht über einen Drehgriff. Im HaustechnikDialog ist von der alten Generation mit blauer Abdeckung die Rede.",
+      "beschreibung": "Rückspülfilter mit eingebautem Druckminderer (1,5 bis 6 bar, ab Werk 4 bar), gebaut bis April 2011 in DN 20 bis DN 32. Zum Einstellen des Drucks löst man die Sechskantmutter eine Viertelumdrehung. Die Teile sind andere als beim Drufi+: Filterelement 2315.00.908 statt 2315.00.930, Patrone 2315.00.910 statt 2315.01.970.",
+      "quellen": [
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+        "https://www.haustechnikdialog.de/Forum/t/232227/Drufi-DFR"
+      ]
+    },
+    {
+      "slug": "drufi-plus-fr",
+      "name": "SYR Drufi+ FR (ab 05/2011)",
+      "produkttyp": "rueckspuelfilter",
+      "baujahr_von": 2011,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "2315.00.081",
+        "Drufi+ FR"
+      ],
+      "erkennungsmerkmale": "Aufschrift „Drufi+ FR“, kein Manometer. Zum Rückspülen drehst du den Griff um 90 Grad im Uhrzeigersinn. Der Ablauftrichter ist angebaut, ein Anzeigering mit Schieber zeigt den Monat der nächsten Rückspülung.",
+      "beschreibung": "Halbautomatischer Rückspülfilter nach DIN EN 13443-1 für DN 20 bis DN 32, Edelstahl-Filterelement mit 90 µm unten und 125 µm oben. Er passt auf die SYR-Drufi-Flansche. Die Filtertasse des FR (2315.01.915) ist eine andere als die des DFR.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/9.2315.40_1902_en_2019-08-14.pdf"
+      ]
+    },
+    {
+      "slug": "drufi-plus-dfr",
+      "name": "SYR Drufi+ DFR (ab 05/2011)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": 2011,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "2315.00.080",
+        "Drufi+ DFR"
+      ],
+      "erkennungsmerkmale": "Aufschrift „Drufi+ DFR“, Ausgangsdruck-Manometer oben, Einstellgriff unter der Filtertasse. Rückgespült wird mit einem Griff, den du um 90 Grad drehst. Patrone und Filtertasse unterscheiden sich je nach Baujahr bis 2015 oder ab 2016.",
+      "beschreibung": "Rückspülfilter mit Druckminderer nach DIN EN 1567, einstellbar von 1,5 bis 6 bar, ab Werk 4 bar. Den Ausgangsdruck lässt SYR jährlich prüfen und die Patrone bei Bedarf reinigen oder ersetzen. Eine Rückspülautomatik (2316.00.081) lässt sich nachrüsten.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/9.2315.40_1902_en_2019-08-14.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Drufi+_DFR_2024-01-17.pdf"
+      ]
+    },
+    {
+      "slug": "drufi-plus-ff-dff",
+      "name": "SYR Drufi+ FF und DFF (Feinfilter)",
+      "produkttyp": "rueckspuelfilter",
+      "baujahr_von": 2011,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "2315.00.083",
+        "2315.00.082",
+        "Drufi+ FF",
+        "Drufi+ DFF"
+      ],
+      "erkennungsmerkmale": "Aufschrift „Drufi+ FF“ oder „Drufi+ DFF“, kein Rückspülgriff und kein Ablauftrichter. In der Filtertasse sitzt eine Filterkerze mit Nylongewebe. Der DFF hat zusätzlich Manometer und Einstellgriff.",
+      "beschreibung": "Feinfilter ohne Rückspülung: Das Filtergewebe wird spätestens alle sechs Monate gewechselt, alle zwei Monate soll man es ansehen. Beim Wechsel schreibt SYR Einweghandschuhe vor. Ein Rückspülfilter Drufi+ FR oder DFR passt auf denselben Flansch.",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/syis231500082.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/2315.00.082-2018-09-17.pdf"
+      ]
+    },
+    {
+      "slug": "hws-2000-bis-2011",
+      "name": "SYR Hauswasserstation 2000 (1999 bis 04/2011)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": 1999,
+      "baujahr_bis": 2011,
+      "kennnummern": [
+        "HWS 2000",
+        "Hauswasserstation 2000"
+      ],
+      "erkennungsmerkmale": "Drufi-Filterkopf auf einem langen Flansch mit Absperrgriff, zwei Manometern und Entleerung. Rückgespült wird wie beim alten Drufi über einen Kugelhahn, bis 2006 mit LED-Anzeige am Kugelhahn.",
+      "beschreibung": "Ältere Hauswasserstation aus Rückflussverhinderer, Rückspülfilter und Druckminderer. Laut SYR-Vorgängerliste nutzt sie dieselben Verschleißteile wie der alte Drufi: Filtereinsatz 2315.00.908, Patrone 2315.00.910, Filtertasse 2315.00.912. Die Manometer haben die Nummern 2000.00.906 (0 bis 10 bar) und 2000.00.907 (0 bis 25 bar).",
+      "quellen": [
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen"
+      ]
+    },
+    {
+      "slug": "hws-2000-plus",
+      "name": "SYR Hauswasserstation 2000 Plus (ab 05/2011)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": 2011,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "HWS 2000+",
+        "Hauswasserstation 2000 Plus"
+      ],
+      "erkennungsmerkmale": "Drufi+ DFR auf dem HWS-Flansch 2000 mit Kugelhahn als Wartungsabsperrung, Eingangs- und Ausgangsmanometer und Entleerungsventil. Rückgespült wird mit dem 90-Grad-Griff des Drufi+.",
+      "beschreibung": "Komplettstation aus Rückflussverhinderer mit Prüfvorrichtung, Rückspülfilter und Druckminderer, DN 20 bis DN 32. Filtereinsatz, Patrone und Filtertasse sind dieselben wie beim Drufi+ DFR. Den Rückflussverhinderer lässt SYR einmal im Jahr prüfen.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2000_-_HWS_2000+_15_08_2024.pdf",
+        "https://v1.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Flanschprogramm_2024-01-17.pdf"
+      ]
+    },
+    {
+      "slug": "duo-dfr-bis-2012",
+      "name": "SYR Duo DFR (bis 12/2012)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": null,
+      "baujahr_bis": 2012,
+      "kennnummern": [
+        "Duo DFR 2314",
+        "2314.20.000"
+      ],
+      "erkennungsmerkmale": "Kompakter Rückspülfilter mit integriertem, voll drehbarem Anschlussflansch, Manometer und Kugelhahn zum Rückspülen. Für Geräte bis Dezember 2012 führt SYR eigene Vorgänger-Ersatzteile.",
+      "beschreibung": "Ältere Ausführung des Duo DFR. Laut SYR gehören dazu der Rückspülfiltereinsatz 2340.00.900, die Druckmindererpatrone 0312.20.928 und das Manometer 2000.00.906. Ab 2013 hat der Duo das Filterelement 2350.00.903.",
+      "quellen": [
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen"
+      ]
+    },
+    {
+      "slug": "duo-dfr",
+      "name": "SYR Duo DFR (ab 2013)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": 2013,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "2314.20.000",
+        "2314.25.000",
+        "Duo DFR"
+      ],
+      "erkennungsmerkmale": "Aufschrift „DUO DFR“, integrierter drehbarer Anschlussflansch, Wartungsanzeige oben auf dem Filter. Zum Rückspülen öffnest du den Kugelhahn und drehst das Unterteil zwei- bis dreimal nach links oder rechts. Es gibt ihn mit Anschluss R ¾ und R 1.",
+      "beschreibung": "Einstiegsmodell der SYR-Filter mit Druckminderer. Der Filtereinsatz ist aus Kunststoff mit Edelstahlgewebe (90 µm unten, 125 µm oben). Die Teileliste nennt Filterelement 2350.00.903, Druckminderer-Kartusche 0312.20.928, Filtertasse 2350.00.904 und Manometer 2000.00.906.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Englisch/2314.20.000-2018-09-05.pdf"
+      ]
+    },
+    {
+      "slug": "duo-fr",
+      "name": "SYR Duo FR",
+      "produkttyp": "rueckspuelfilter",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "Duo FR 2314",
+        "Duo FR"
+      ],
+      "erkennungsmerkmale": "Wie der Duo DFR, aber ohne Manometer und Einstellgriff. Integrierter, voll drehbarer Anschlussflansch, Rückspülung über den Kugelhahn.",
+      "beschreibung": "Manueller Rückspülfilter in DN 20 und DN 25, auch für einzelne Geräte wie Spülmaschine oder Warmwasserbereiter gedacht. Das Datenblatt nennt Filterelement 2350.00.903, O-Ring 2350.00.907, Filtertasse mit Kugelhahn 2350.00.904 und Montageschlüssel 2350.00.906. Für Geräte bis Dezember 2012 führt SYR den Einsatz 2340.00.900.",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/sydb231420001.pdf",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen"
+      ]
+    },
+    {
+      "slug": "druckminderer-315",
+      "name": "SYR Druckminderer 315 und 315 AB",
+      "produkttyp": "druckminderer",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "0315",
+        "Druckminderer 315",
+        "315 AB"
+      ],
+      "erkennungsmerkmale": "Rotguss-Gehäuse mit drehbarer Federkappe und grüner Ausgangsdruckanzeige im Einstellrad, deshalb oft ohne eigenes Manometer. Im Einstellgriff sitzt eine Sicherungsschraube.",
+      "beschreibung": "Reiner Druckminderer nach DIN EN 1567 von DN 15 bis DN 50, Ausgangsdruck 1,5 bis 6 bar, ab Werk 4 bar. Alle Funktionsteile sitzen in einer Kartusche mit Schmutzfänger (0,25 mm), die sich laut SYR ohne Ausbau der Armatur tauschen lässt. Die Kartusche hängt an der Nennweite: DN 15 und 20, DN 25 oder DN 32 bis 50.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/0315_-_Druckminderer_2024-08-16.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.0002.21_2347-2024_02.pdf"
+      ]
+    },
+    {
+      "slug": "lex-plus-10-connect",
+      "name": "SYR LEX Plus 10 Connect",
+      "produkttyp": "enthaertungsanlage",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "1500.01.010",
+        "LEX Plus 10 Connect"
+      ],
+      "erkennungsmerkmale": "Einsäulen-Enthärtungsanlage im Kabinett mit Salzbehälter, angeschlossen über ein Umgehungs- und Verschneideventil (1500.01.916).",
+      "beschreibung": "Enthärtungsanlage nach dem Ionenaustauschverfahren mit SYR-Connect-Steuerung. Der Betreiber füllt Salz nach EN 973 nach und prüft vierteljährlich die Härteeinstellung. Dichtungsset und Chlorinator (1500.01.933) tauscht der Fachhandwerker etwa alle zwei Jahre, SYR empfiehlt dafür das Wartungsset 1500.01.900.",
+      "quellen": [
+        "https://documents.unidomo.de/de/syis150001010.pdf"
+      ]
+    },
+    {
+      "slug": "lex-plus-10-s-connect",
+      "name": "SYR LEX Plus 10 S Connect",
+      "produkttyp": "enthaertungsanlage",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "1500.01.011",
+        "LEX Plus 10 S Connect"
+      ],
+      "erkennungsmerkmale": "Wie die LEX Plus 10 Connect, aber mit Sandwich-Anschlussarmatur samt Verschneideventil (1500.01.941). Das Magnetventil sitzt auf der gegenüberliegenden Seite.",
+      "beschreibung": "Enthärtungsanlage mit 25-kg-Salzvorrat, etwa 0,95 kg Salz je Regeneration und 50 Minuten Regenerationsdauer. Ab 5 bar Ruhedruck verlangt SYR einen zentralen Druckminderer. Wartungsset 1500.01.900, Dichtungs-Set 1500.01.921 und Chlorzelle 1500.01.920 gehören zum Fachhandwerker.",
+      "quellen": [
+        "https://documents.unidomo.de/de/syis150001011.pdf"
+      ]
+    },
+    {
+      "slug": "lex-plus-10-sl-connect",
+      "name": "SYR LEX Plus 10 SL Connect",
+      "produkttyp": "enthaertungsanlage",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "1500.01.012",
+        "LEX Plus 10 SL Connect"
+      ],
+      "erkennungsmerkmale": "LEX Plus 10 mit Verschneideeinheit samt Leckageschutz: Die Anlage kann die Hauptleitung absperren und meldet Volumen-, Zeit- und Durchflussleckagen. Auf dem Display leuchtet bei einer Störung eine rote LED.",
+      "beschreibung": "Enthärtungsanlage mit eingebautem Leckageschutz. Nach einer Leckagemeldung quittierst du sie am Gerät, in der SYR-App oder auf syrconnect.de, dann öffnet die Absperrung wieder. Die Verschleißteile sind dieselben wie bei der S-Ausführung.",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/syis150001012.pdf"
+      ]
+    }
+  ],
+  "teile": [
+    {
+      "slug": "syr-filtereinsatz-2315-00-908",
+      "name": "SYR Filterelement 90 µm für Drufi DFR/FR bis 04/2011 (2315.00.908)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "2315.00.908",
+      "masse": {
+        "maschenweite": "90 µm unten, 125 µm oben",
+        "nennweite": "DN 20 bis DN 32"
+      },
+      "beschreibung": "Edelstahl-Filterelement für den alten Drufi DFR und FR (auch Classic und Logic) und die Hauswasserstation 2000 bis April 2011, laut SYR mit Filtertassen-O-Ring. In den Drufi+ passt es nicht, dort gehört 2315.00.930 hinein. Eine feinere Ausführung mit 20 µm hat die Nummer 2315.00.960.",
+      "preis_spanne": "ca. 55 € (Amazon, November 2026)",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 30,
+      "werkzeug": "Montageschlüssel für die Filtertasse (2000.25.903), Eimer. SYR ordnet Installation und Wartung des Filters einem autorisierten Fachbetrieb zu.",
+      "amazon_asin": "B00DYTF1MQ",
+      "quellen": [
+        "https://www.amazon.de/dp/B00DYTF1MQ",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf"
+      ]
+    },
+    {
+      "slug": "syr-druckminderer-patrone-2315-00-910",
+      "name": "SYR Druckmindererpatrone mit Einstellgriff für Drufi bis 04/2011 (2315.00.910)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "2315.00.910",
+      "masse": {
+        "nennweite": "bis DN 32"
+      },
+      "beschreibung": "Druckminderer-Patrone mit Einstellgriff für den alten Drufi DFR und DFF und die Hauswasserstationen bis April 2011. Mit ihr und dem Manometer lässt sich ein Drufi FR zum DFR aufrüsten; für den Umbau eines FF zum DFF braucht man laut Händlerangabe zusätzlich die Filtertasse mit Bohrung 2315.00.912.",
+      "preis_spanne": "ca. 100–140 € (Amazon, November 2026)",
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 45,
+      "werkzeug": "Montageschlüssel für die Filtertasse. In der Federhaube sitzt eine gespannte Feder, der Tausch ist Sache des Installateurs.",
+      "amazon_asin": "B00DY3KLPO",
+      "quellen": [
+        "https://www.amazon.de/dp/B00DY3KLPO",
+        "https://www.amazon.de/dp/B006ZYMAIK",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf"
+      ]
+    },
+    {
+      "slug": "syr-filtertasse-2315-00-912",
+      "name": "SYR Filtertasse mit O-Ring für Drufi DFR, FR, DFF bis 04/2011 (2315.00.912)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "2315.00.912",
+      "masse": {},
+      "beschreibung": "Klarsicht-Filtertasse mit O-Ring für den alten Drufi DFR, FR und DFF und die Hauswasserstation 2000 bis April 2011. Der Drufi FF hat eine eigene Tasse (2315.00.959). Nach einem harten Stoß lässt SYR Kunststoffteile auch ohne sichtbaren Schaden tauschen.",
+      "preis_spanne": "ca. 140 € (Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": 30,
+      "werkzeug": "Montageschlüssel für die Filtertasse. SYR ordnet Installation und Wartung des Filters einem autorisierten Fachbetrieb zu.",
+      "amazon_asin": "B00DYT8ZTM",
+      "quellen": [
+        "https://www.amazon.de/dp/B00DYT8ZTM",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf"
+      ]
+    },
+    {
+      "slug": "syr-o-ring-filtertasse-2315-00-936",
+      "name": "SYR O-Ring für Drufi-Filtertasse bis 04/2011 (2315.00.936)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "2315.00.936",
+      "masse": {},
+      "beschreibung": "O-Ring zwischen Filtertasse und Gehäuse beim alten Drufi und der Hauswasserstation 2000 bis April 2011. Ein Ring liegt auch dem Filterelement 2315.00.908 und den Filtergeweben bei. Für den Drufi+ gibt es einen anderen O-Ring (2315.01.922).",
+      "preis_spanne": "ca. 9 € (Amazon, November 2026)",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Montageschlüssel für die Filtertasse. SYR ordnet Installation und Wartung des Filters einem autorisierten Fachbetrieb zu.",
+      "amazon_asin": "B0085LP4X4",
+      "quellen": [
+        "https://www.amazon.de/dp/B0085LP4X4",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen"
+      ]
+    },
+    {
+      "slug": "syr-flanschdichtung-2315-00-931",
+      "name": "SYR Flanschdichtung mit Inbusschrauben und Schlüssel (2315.00.931)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "2315.00.931",
+      "masse": {},
+      "beschreibung": "Dichtung zwischen Filterkopf und Anschlussflansch samt Innensechskantschrauben und Schlüssel. SYR führt sie für den alten Drufi, die Hauswasserstationen bis April 2011 und als Dichtungssatz für die Hauswasserstation 2000 Plus. Die Schrauben werden über Kreuz angezogen.",
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 45,
+      "werkzeug": "Innensechskantschlüssel (liegt bei). Arbeiten am Anschlussflansch sind nach § 12 AVBWasserV Sache des eingetragenen Installateurs.",
+      "amazon_asin": "B00DYTFJ9G",
+      "quellen": [
+        "https://www.amazon.de/dp/B00DYTFJ9G",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2000_-_HWS_2000+_15_08_2024.pdf",
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf"
+      ]
+    },
+    {
+      "slug": "syr-manometer-2315-00-921",
+      "name": "SYR Manometer 0–10 bar für Drufi bis 04/2011 (2315.00.921)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "2315.00.921",
+      "masse": {
+        "messbereich": "0 bis 10 bar",
+        "anschluss": "G ¼ waagerecht"
+      },
+      "beschreibung": "Ausgangsdruck-Manometer für den alten Drufi DFR und DFF. SYR warnt, das Manometer nicht einzuhanfen, weil sonst der Ventilkörper beschädigt wird. Am Drufi+ sitzt das Manometer 2315.01.920.",
+      "preis_spanne": "ca. 27 € (Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Gabelschlüssel. Vorher Druck ablassen. SYR ordnet Installation und Wartung des Filters einem autorisierten Fachbetrieb zu.",
+      "amazon_asin": "B00IPBLZUK",
+      "quellen": [
+        "https://www.amazon.de/dp/B00IPBLZUK",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf"
+      ]
+    },
+    {
+      "slug": "syr-filtereinsatz-2315-00-930",
+      "name": "SYR Filtereinsatz komplett 90 µm für Drufi+ DFR/FR und HWS 2000 Plus (2315.00.930)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "2315.00.930",
+      "masse": {
+        "maschenweite": "90 µm unten, 125 µm oben",
+        "nennweite": "DN 20 bis DN 32"
+      },
+      "beschreibung": "Kompletter Filtereinsatz mit Edelstahlgewebe für den Drufi+ DFR und FR und die Hauswasserstation 2000 Plus ab Mai 2011. In den alten Drufi passt er nicht. Feinere Einsätze führt SYR in den Anleitungen mit 40 µm (2315.01.946) und 20 µm (2315.01.965).",
+      "preis_spanne": "ca. 65 € (Amazon, November 2026)",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 30,
+      "werkzeug": "Filtertassenschlüssel 2000.25.907, Eimer. SYR ordnet Installation und Wartung des Filters einem autorisierten Fachbetrieb zu.",
+      "amazon_asin": "B077HGSXQH",
+      "quellen": [
+        "https://www.amazon.de/dp/B077HGSXQH",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/9.2315.40_1902_en_2019-08-14.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf"
+      ]
+    },
+    {
+      "slug": "syr-filtereinsatz-2315-01-946",
+      "name": "SYR Filtereinsatz 40 µm für Drufi+ DFR/FR (2315.01.946)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "2315.01.946",
+      "masse": {
+        "maschenweite": "40 µm unten, 55 µm oben"
+      },
+      "beschreibung": "Feinerer Filtereinsatz für den Drufi+ DFR und FR, laut englischer SYR-Anleitung von 2019. Die deutsche Anleitung von 2018 nennt an dieser Stelle einen 20-µm-Einsatz mit der Nummer 2315.01.965. Ein feineres Sieb verschmutzt schneller und muss öfter rückgespült werden.",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 30,
+      "werkzeug": "Filtertassenschlüssel 2000.25.907, Eimer. SYR ordnet Installation und Wartung des Filters einem autorisierten Fachbetrieb zu.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/9.2315.40_1902_en_2019-08-14.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf"
+      ]
+    },
+    {
+      "slug": "syr-druckminderer-patrone-2315-01-970",
+      "name": "SYR Druckminderer-Patrone für Drufi+ DFR/DFF und HWS 2000 Plus ab 2016 (2315.01.970)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "2315.01.970",
+      "masse": {
+        "einstellbereich": "1,5 bis 6 bar"
+      },
+      "beschreibung": "Patrone für den Drufi+ DFR, den Drufi+ DFF und die Hauswasserstation 2000 Plus ab Baujahr 2016. SYR lässt den Ausgangsdruck jährlich prüfen, die Membran unter kaltem Wasser reinigen und die Patrone bei Verschleiß tauschen. Für Geräte bis 2015 gilt 2315.01.925.",
+      "preis_spanne": "ca. 129 € (Amazon, November 2026)",
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 45,
+      "werkzeug": "Filtertassenschlüssel 2000.25.907. Auf den Sitz der Feder achten. Der Tausch ist Sache des Installateurs.",
+      "amazon_asin": "B07K7LMHPV",
+      "quellen": [
+        "https://www.amazon.de/dp/B07K7LMHPV",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Drufi+_DFR_2024-01-17.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2000_-_HWS_2000+_15_08_2024.pdf",
+        "https://assets.heizung-billiger.de/documents/syis231500082.pdf"
+      ]
+    },
+    {
+      "slug": "syr-druckminderer-patrone-2315-01-925",
+      "name": "SYR Druckminderer-Patrone für Drufi+ DFR/DFF bis 2015 (2315.01.925)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "2315.01.925",
+      "masse": {
+        "einstellbereich": "1,5 bis 6 bar"
+      },
+      "beschreibung": "Patrone für Drufi+ DFR, Drufi+ DFF und Hauswasserstation 2000 Plus, gebaut von Mai 2011 bis 2015. Ab 2016 haben die Geräte die Patrone 2315.01.970 und eine andere Filtertasse.",
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 45,
+      "werkzeug": "Filtertassenschlüssel 2000.25.907. Der Tausch ist Sache des Installateurs.",
+      "amazon_asin": "B01DXSDKSO",
+      "quellen": [
+        "https://www.amazon.de/dp/B01DXSDKSO",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Drufi+_DFR_2024-01-17.pdf",
+        "https://assets.heizung-billiger.de/documents/syis231500082.pdf"
+      ]
+    },
+    {
+      "slug": "syr-filtertasse-2315-01-914",
+      "name": "SYR Filtertasse komplett für Drufi+ DFR bis 2015 (2315.01.914)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "2315.01.914",
+      "masse": {},
+      "beschreibung": "Komplette Filtertasse für den Drufi+ DFR und die Hauswasserstation 2000 Plus bis Baujahr 2015. Ab 2016 gehört die Tasse 2315.01.971 dazu, der Drufi+ FR hat die Tasse 2315.01.915.",
+      "preis_spanne": "ca. 140 € (Amazon, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": 30,
+      "werkzeug": "Filtertassenschlüssel 2000.25.907. SYR ordnet Installation und Wartung des Filters einem autorisierten Fachbetrieb zu.",
+      "amazon_asin": "B077HQN7QW",
+      "quellen": [
+        "https://www.amazon.de/dp/B077HQN7QW",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Drufi+_DFR_2024-01-17.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2000_-_HWS_2000+_15_08_2024.pdf"
+      ]
+    },
+    {
+      "slug": "syr-filtertasse-2315-01-971",
+      "name": "SYR Filtertasse komplett für Drufi+ DFR ab 2016 (2315.01.971)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "2315.01.971",
+      "masse": {},
+      "beschreibung": "Komplette Filtertasse für den Drufi+ DFR und die Hauswasserstation 2000 Plus ab Baujahr 2016. Laut SYR muss der O-Ring locker über dem obersten Gewindegang liegen und darf nicht über das Gewinde gestreift werden.",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": 30,
+      "werkzeug": "Filtertassenschlüssel 2000.25.907. SYR ordnet Installation und Wartung des Filters einem autorisierten Fachbetrieb zu.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Drufi+_DFR_2024-01-17.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf"
+      ]
+    },
+    {
+      "slug": "syr-filtertasse-2315-01-915",
+      "name": "SYR Filtertasse komplett für Drufi+ FR (2315.01.915)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "2315.01.915",
+      "masse": {},
+      "beschreibung": "Filtertasse für den Drufi+ FR ohne Druckminderer. Sie hat keinen Einstellgriff und unterscheidet sich deshalb von der Tasse des DFR.",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": 30,
+      "werkzeug": "Filtertassenschlüssel 2000.25.907. SYR ordnet Installation und Wartung des Filters einem autorisierten Fachbetrieb zu.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf"
+      ]
+    },
+    {
+      "slug": "syr-o-ring-filtertasse-2315-01-922",
+      "name": "SYR O-Ring Filtertasse für Drufi+ (2315.01.922)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "2315.01.922",
+      "masse": {},
+      "beschreibung": "O-Ring der Filtertasse am Drufi+ DFR. Er liegt locker über dem obersten Gewindegang, so steht es in der Anleitung. Tropft es oben am Übergang zwischen Tasse und Gehäuse, kommt zuerst er in Frage.",
+      "preis_spanne": "ca. 9 € (Amazon, November 2026)",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Filtertassenschlüssel 2000.25.907. SYR ordnet Installation und Wartung des Filters einem autorisierten Fachbetrieb zu.",
+      "amazon_asin": "B077HVDVS1",
+      "quellen": [
+        "https://www.amazon.de/dp/B077HVDVS1",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Drufi+_DFR_2024-01-17.pdf"
+      ]
+    },
+    {
+      "slug": "syr-manometer-2315-01-920",
+      "name": "SYR Manometer für Drufi+ DFR und DFF (2315.01.920)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "2315.01.920",
+      "masse": {
+        "messbereich": "0 bis 10 bar"
+      },
+      "beschreibung": "Ausgangsdruck-Manometer des Drufi+ DFR und DFF. Am alten Drufi sitzt das Manometer 2315.00.921, an der Hauswasserstation 2000 Plus die Manometer 2000.00.906 und 2000.00.907.",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Gabelschlüssel. Vorher Druck ablassen. SYR ordnet Installation und Wartung des Filters einem autorisierten Fachbetrieb zu.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/9.2315.40_1902_en_2019-08-14.pdf",
+        "https://assets.heizung-billiger.de/documents/syis231500082.pdf"
+      ]
+    },
+    {
+      "slug": "syr-filtertassenschluessel-2000-25-907",
+      "name": "SYR Filtertassen-Schlüssel für Drufi+ und HWS 2000 Plus (2000.25.907)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "2000.25.907",
+      "masse": {},
+      "beschreibung": "Schlüssel zum Abschrauben der Filtertasse am Drufi+ DFR, FR, DFF und FF und an der Hauswasserstation 2000 Plus. Für den alten Drufi und die Hauswasserstationen bis April 2011 nennt SYR den Montageschlüssel 2000.25.903.",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://assets.heizung-billiger.de/documents/syis231500082.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen"
+      ]
+    },
+    {
+      "slug": "syr-rueckflussverhinderer-2000-00-921",
+      "name": "SYR Rückflussverhinderer für HWS-Flansch 2000 (2000.00.921)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "2000.00.921",
+      "masse": {},
+      "beschreibung": "Rückflussverhinderer mit Prüfvorrichtung im HWS-Flansch 2000, also in der Hauswasserstation 2000 Plus. SYR lässt ihn einmal im Jahr prüfen, er lässt sich aus dem Flansch ausbauen. Bei Hauswasserstationen bis 2005 hat er die Nummer 2000.00.910.",
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 45,
+      "werkzeug": "Arbeiten am Anschlussflansch gehören zum eingetragenen Installateur (§ 12 AVBWasserV).",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2000_-_HWS_2000+_15_08_2024.pdf",
+        "https://v1.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Flanschprogramm_2024-01-17.pdf"
+      ]
+    },
+    {
+      "slug": "syr-manometer-2000-00-906",
+      "name": "SYR Manometer 0–10 bar für Hauswasserstation und Duo (2000.00.906)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "2000.00.906",
+      "masse": {
+        "messbereich": "0 bis 10 bar"
+      },
+      "beschreibung": "Ausgangsdruck-Manometer für die Hauswasserstationen 2000 und 2000 Plus und den Duo DFR. Das Eingangsmanometer der Hauswasserstation (0 bis 25 bar) hat die Nummer 2000.00.907.",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Gabelschlüssel. Vorher Druck ablassen.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+        "https://v1.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Flanschprogramm_2024-01-17.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen"
+      ]
+    },
+    {
+      "slug": "syr-filtergewebe-2000-25-900",
+      "name": "SYR Ersatzfiltergewebe 90 µm für Drufi DFF/FF und Drufi+ DFF/FF, 5 Stück (2000.25.900)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "2000.25.900",
+      "masse": {
+        "maschenweite": "90 µm unten, 125 µm oben",
+        "inhalt": "5 Stück"
+      },
+      "beschreibung": "Nylon-Filtergewebe für die Feinfilter Drufi DFF und FF und Drufi+ DFF und FF, fünf Stück mit Filtertassen-O-Ring. Das alte Gewebe wird von der Filterkerze gezogen, das neue übergestülpt und oben und unten eingeschlagen, spätestens alle sechs Monate. Die Ausführung mit 20 µm hat die Nummer 2000.25.960.",
+      "preis_spanne": "ca. 60 € (Amazon, November 2026)",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 20,
+      "werkzeug": "Filtertassenschlüssel 2000.25.907, Einweghandschuhe (schreibt SYR vor). SYR ordnet Installation und Wartung des Filters einem autorisierten Fachbetrieb zu.",
+      "amazon_asin": "B00BKYNM5U",
+      "quellen": [
+        "https://www.amazon.de/dp/B00BKYNM5U",
+        "https://assets.heizung-billiger.de/documents/syis231500082.pdf",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen"
+      ]
+    },
+    {
+      "slug": "syr-filterelement-duo-2350-00-903",
+      "name": "SYR Filterelement für Duo DFR und FR ab 2013 (2350.00.903)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "2350.00.903",
+      "masse": {
+        "maschenweite": "90 µm unten, 125 µm oben"
+      },
+      "beschreibung": "Kaskadenförmiger Kunststoff-Filtereinsatz mit Edelstahlgewebe für den Duo DFR und Duo FR. Für Geräte bis Dezember 2012 nennt SYR den Einsatz 2340.00.900.",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 30,
+      "werkzeug": "Montageschlüssel 2350.00.906. SYR ordnet Installation und Wartung des Filters einem autorisierten Fachbetrieb zu.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf",
+        "https://assets.heizung-billiger.de/documents/sydb231420001.pdf"
+      ]
+    },
+    {
+      "slug": "syr-rueckspuelfiltereinsatz-duo-2340-00-900",
+      "name": "SYR Rückspülfiltereinsatz für Duo bis 12/2012 (2340.00.900)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "2340.00.900",
+      "masse": {},
+      "beschreibung": "Filtereinsatz für den Duo bis Dezember 2012, laut SYR auch für den ProClean. Bei Amazon heißt er „für alle Duo Filter“; für neuere Duo nennt das SYR-Datenblatt aber 2350.00.903.",
+      "preis_spanne": "ca. 79 € (Amazon, November 2026)",
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 30,
+      "werkzeug": "Montageschlüssel 2314.00.904. SYR ordnet Installation und Wartung des Filters einem autorisierten Fachbetrieb zu.",
+      "amazon_asin": "B0085LTQG0",
+      "quellen": [
+        "https://www.amazon.de/dp/B0085LTQG0",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen"
+      ]
+    },
+    {
+      "slug": "syr-druckminderer-kartusche-0312-20-928",
+      "name": "SYR Druckminderer-Kartusche für Duo DFR (0312.20.928)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "0312.20.928",
+      "masse": {
+        "einstellbereich": "1,5 bis 6 bar",
+        "nennweite": "DN 20 und 25"
+      },
+      "beschreibung": "Kartusche des Druckminderers im Duo DFR, ab Werk auf 4 bar eingestellt. SYR führt dieselbe Nummer für den aktuellen Duo DFR und für Geräte bis Dezember 2012.",
+      "preis_spanne": "ca. 200 € (Amazon, November 2026)",
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 45,
+      "werkzeug": "Der Tausch ist Sache des Installateurs.",
+      "amazon_asin": "B0085LAKTW",
+      "quellen": [
+        "https://www.amazon.de/dp/B0085LAKTW",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen"
+      ]
+    },
+    {
+      "slug": "syr-druckminderer-kartusche-0315-20-904",
+      "name": "SYR Druckminderer-Kartusche mit Druckanzeige für 315, DN 15 und 20 (0315.20.904)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "0315.20.904",
+      "ean": "4017905041652",
+      "masse": {
+        "nennweite": "DN 15 und DN 20"
+      },
+      "beschreibung": "Komplette Kartusche mit Ausgangsdruckanzeige für den Druckminderer 315 und 315 AB in DN 15 und DN 20. Sie lässt sich laut SYR ohne Ausbau der Armatur und ohne Spezialwerkzeug tauschen, nur mit kaltem Wasser reinigen.",
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 30,
+      "werkzeug": "Absperrungen vor und hinter dem Druckminderer schließen, Verbindungsmutter lösen. Arbeiten an der Hausinstallation macht der Installateur.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/0315_-_Druckminderer_2024-08-16.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.0002.21_2347-2024_02.pdf",
+        "https://www.ebay.de/p/5010341236"
+      ]
+    },
+    {
+      "slug": "syr-druckminderer-kartusche-0315-25-904",
+      "name": "SYR Druckminderer-Kartusche mit Druckanzeige für 315, DN 25 (0315.25.904)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "0315.25.904",
+      "masse": {
+        "nennweite": "DN 25"
+      },
+      "beschreibung": "Kartusche mit Ausgangsdruckanzeige für den Druckminderer 315 und 315 AB in DN 25.",
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 30,
+      "werkzeug": "Absperrungen vor und hinter dem Druckminderer schließen, Verbindungsmutter lösen. Arbeiten an der Hausinstallation macht der Installateur.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/0315_-_Druckminderer_2024-08-16.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.0002.21_2347-2024_02.pdf"
+      ]
+    },
+    {
+      "slug": "syr-druckminderer-kartusche-0315-32-902",
+      "name": "SYR Druckminderer-Kartusche mit Druckanzeige für 315, DN 32 bis 50 (0315.32.902)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "0315.32.902",
+      "masse": {
+        "nennweite": "DN 32 bis DN 50"
+      },
+      "beschreibung": "Kartusche mit Ausgangsdruckanzeige für den Druckminderer 315 in DN 32, DN 40 und DN 50.",
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 30,
+      "werkzeug": "Arbeiten an der Hausinstallation macht der Installateur.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/0315_-_Druckminderer_2024-08-16.pdf"
+      ]
+    },
+    {
+      "slug": "syr-lex-wartungsset-1500-01-900",
+      "name": "SYR Wartungsset für LEX Plus 10 (1500.01.900)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "1500.01.900",
+      "masse": {},
+      "beschreibung": "Wartungsset aus Dichtungs-Set und Chlorzelle, das SYR für die LEX Plus 10 Connect, 10 S Connect und 10 SL Connect empfiehlt, Tausch etwa alle zwei Jahre. Dafür wird die Anlage geöffnet und drucklos gemacht, das macht der Fachhandwerker oder der SYR-Kundendienst. Mit der Nummer weißt du, wonach du bei der Wartung fragst.",
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 60,
+      "werkzeug": "Nur Fachhandwerker oder Kundendienst.",
+      "quellen": [
+        "https://documents.unidomo.de/de/syis150001010.pdf",
+        "https://documents.unidomo.de/de/syis150001011.pdf",
+        "https://assets.heizung-billiger.de/documents/syis150001012.pdf"
+      ]
+    },
+    {
+      "slug": "syr-lex-dichtungsset-1500-01-921",
+      "name": "SYR Dichtungs-Set für LEX Plus 10 (1500.01.921)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "1500.01.921",
+      "masse": {},
+      "beschreibung": "Dichtungs-Set der LEX Plus 10, zwei Dichtungen in einer Halterung mit Siebflächen. Tausch alle zwei Jahre durch den Fachhandwerker, dabei werden die Siebflächen gereinigt. Steckt auch im Wartungsset 1500.01.900.",
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 45,
+      "werkzeug": "Nur Fachhandwerker oder Kundendienst.",
+      "quellen": [
+        "https://documents.unidomo.de/de/syis150001010.pdf",
+        "https://documents.unidomo.de/de/syis150001011.pdf",
+        "https://assets.heizung-billiger.de/documents/syis150001012.pdf"
+      ]
+    },
+    {
+      "slug": "syr-lex-chlorzelle-1500-01-920",
+      "name": "SYR Chlorzelle mit Kabel für LEX Plus 10 S und SL Connect (1500.01.920)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "1500.01.920",
+      "masse": {},
+      "beschreibung": "Chlorzelle der LEX Plus 10 S Connect und 10 SL Connect. SYR lässt sie jährlich vom Fachhandwerker reinigen und alle zwei Jahre tauschen. Die LEX Plus 10 Connect hat einen anderen Chlorinator (1500.01.933).",
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 30,
+      "werkzeug": "Nur Fachhandwerker oder Kundendienst.",
+      "quellen": [
+        "https://documents.unidomo.de/de/syis150001011.pdf",
+        "https://assets.heizung-billiger.de/documents/syis150001012.pdf"
+      ]
+    },
+    {
+      "slug": "syr-lex-chlorinator-1500-01-933",
+      "name": "SYR Chlorinator mit Kabel für LEX Plus 10 Connect (1500.01.933)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "1500.01.933",
+      "masse": {},
+      "beschreibung": "Chlorinator der LEX Plus 10 Connect ohne S oder SL. Reinigung jährlich, Tausch alle zwei Jahre, beides durch den Fachhandwerker.",
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": 30,
+      "werkzeug": "Nur Fachhandwerker oder Kundendienst.",
+      "quellen": [
+        "https://documents.unidomo.de/de/syis150001010.pdf"
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "serie_slug": "drufi-fr-bis-2011",
+      "teil_slug": "syr-filtereinsatz-2315-00-908",
+      "hinweis": "SYR-Vorgängerliste: Rückspülfiltereinsatz 90 µm für Drufi, Drufi Classic und Drufi Logic bis 04/2011",
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-fr-bis-2011",
+      "teil_slug": "syr-filtertasse-2315-00-912",
+      "hinweis": "Filtertasse für DFR, DFF und FR; der FF hat 2315.00.959",
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-fr-bis-2011",
+      "teil_slug": "syr-o-ring-filtertasse-2315-00-936",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-fr-bis-2011",
+      "teil_slug": "syr-flanschdichtung-2315-00-931",
+      "hinweis": "Flanschdichtung mit Inbusschrauben und Schlüssel",
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-fr-bis-2011",
+      "teil_slug": "syr-druckminderer-patrone-2315-00-910",
+      "hinweis": "Nur zum Aufrüsten auf DFR, zusammen mit dem Manometer",
+      "quelle_url": "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-dfr-bis-2011",
+      "teil_slug": "syr-filtereinsatz-2315-00-908",
+      "hinweis": "Nicht mit 2315.00.930 (Drufi+) verwechseln",
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-dfr-bis-2011",
+      "teil_slug": "syr-druckminderer-patrone-2315-00-910",
+      "hinweis": "Druckmindererpatrone mit Einstellgriff",
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-dfr-bis-2011",
+      "teil_slug": "syr-filtertasse-2315-00-912",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-dfr-bis-2011",
+      "teil_slug": "syr-o-ring-filtertasse-2315-00-936",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-dfr-bis-2011",
+      "teil_slug": "syr-flanschdichtung-2315-00-931",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-dfr-bis-2011",
+      "teil_slug": "syr-manometer-2315-00-921",
+      "hinweis": "Manometer 0 bis 10 bar",
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-fr",
+      "teil_slug": "syr-filtereinsatz-2315-00-930",
+      "hinweis": "Standard 90 µm",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-fr",
+      "teil_slug": "syr-filtereinsatz-2315-01-946",
+      "hinweis": "Feinere Ausführung 40 µm laut englischer Anleitung",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/9.2315.40_1902_en_2019-08-14.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-fr",
+      "teil_slug": "syr-filtertasse-2315-01-915",
+      "hinweis": "Filtertasse komplett Drufi FR",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-fr",
+      "teil_slug": "syr-filtertassenschluessel-2000-25-907",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-dfr",
+      "teil_slug": "syr-filtereinsatz-2315-00-930",
+      "hinweis": "Standard 90 µm",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-dfr",
+      "teil_slug": "syr-filtereinsatz-2315-01-946",
+      "hinweis": "Feinere Ausführung 40 µm laut englischer Anleitung",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/9.2315.40_1902_en_2019-08-14.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-dfr",
+      "teil_slug": "syr-druckminderer-patrone-2315-01-970",
+      "hinweis": "Ab Baujahr 2016",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-dfr",
+      "teil_slug": "syr-druckminderer-patrone-2315-01-925",
+      "hinweis": "Bis Baujahr 2015",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-dfr",
+      "teil_slug": "syr-filtertasse-2315-01-971",
+      "hinweis": "Ab Baujahr 2016",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-dfr",
+      "teil_slug": "syr-filtertasse-2315-01-914",
+      "hinweis": "Bis Baujahr 2015",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-dfr",
+      "teil_slug": "syr-o-ring-filtertasse-2315-01-922",
+      "hinweis": "O-Ring Filtertasse",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Drufi+_DFR_2024-01-17.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-dfr",
+      "teil_slug": "syr-manometer-2315-01-920",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-dfr",
+      "teil_slug": "syr-filtertassenschluessel-2000-25-907",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-ff-dff",
+      "teil_slug": "syr-filtergewebe-2000-25-900",
+      "hinweis": "Ersatzfiltergewebe, 5 Stück; die englische Anleitung nennt 2315.01.926",
+      "quelle_url": "https://assets.heizung-billiger.de/documents/syis231500082.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-ff-dff",
+      "teil_slug": "syr-druckminderer-patrone-2315-01-970",
+      "hinweis": "Nur DFF, ab Baujahr 2016",
+      "quelle_url": "https://assets.heizung-billiger.de/documents/syis231500082.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-ff-dff",
+      "teil_slug": "syr-druckminderer-patrone-2315-01-925",
+      "hinweis": "Nur DFF, bis Baujahr 2015",
+      "quelle_url": "https://assets.heizung-billiger.de/documents/syis231500082.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-ff-dff",
+      "teil_slug": "syr-manometer-2315-01-920",
+      "hinweis": "Nur DFF",
+      "quelle_url": "https://assets.heizung-billiger.de/documents/syis231500082.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "drufi-plus-ff-dff",
+      "teil_slug": "syr-filtertassenschluessel-2000-25-907",
+      "hinweis": null,
+      "quelle_url": "https://assets.heizung-billiger.de/documents/syis231500082.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-bis-2011",
+      "teil_slug": "syr-filtereinsatz-2315-00-908",
+      "hinweis": "Rückspülfiltereinsatz 90 µm für Hauswasserstationen bis 04/2011",
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-bis-2011",
+      "teil_slug": "syr-druckminderer-patrone-2315-00-910",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-bis-2011",
+      "teil_slug": "syr-filtertasse-2315-00-912",
+      "hinweis": "Filtertasse mit O-Ring HWS",
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-bis-2011",
+      "teil_slug": "syr-o-ring-filtertasse-2315-00-936",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-bis-2011",
+      "teil_slug": "syr-flanschdichtung-2315-00-931",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-bis-2011",
+      "teil_slug": "syr-manometer-2000-00-906",
+      "hinweis": "Manometer 0 bis 10 bar",
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-bis-2011",
+      "teil_slug": "syr-filtergewebe-2000-25-900",
+      "hinweis": "Nur bei Hauswasserstationen mit Feinfilter (DFF/FF)",
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-plus",
+      "teil_slug": "syr-filtereinsatz-2315-00-930",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-plus",
+      "teil_slug": "syr-druckminderer-patrone-2315-01-970",
+      "hinweis": "Ab Baujahr 2016",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2000_-_HWS_2000+_15_08_2024.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-plus",
+      "teil_slug": "syr-druckminderer-patrone-2315-01-925",
+      "hinweis": "Bis Baujahr 2015",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2000_-_HWS_2000+_15_08_2024.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-plus",
+      "teil_slug": "syr-filtertasse-2315-01-971",
+      "hinweis": "Ab Baujahr 2016",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2000_-_HWS_2000+_15_08_2024.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-plus",
+      "teil_slug": "syr-filtertasse-2315-01-914",
+      "hinweis": "Bis Baujahr 2015",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2000_-_HWS_2000+_15_08_2024.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-plus",
+      "teil_slug": "syr-rueckflussverhinderer-2000-00-921",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-plus",
+      "teil_slug": "syr-manometer-2000-00-906",
+      "hinweis": "Ausgangsdruck 0 bis 10 bar; Eingangsdruck 2000.00.907",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-plus",
+      "teil_slug": "syr-flanschdichtung-2315-00-931",
+      "hinweis": "Dichtungssatz inklusive Schrauben und Schlüssel",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2000_-_HWS_2000+_15_08_2024.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hws-2000-plus",
+      "teil_slug": "syr-filtertassenschluessel-2000-25-907",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "duo-dfr-bis-2012",
+      "teil_slug": "syr-rueckspuelfiltereinsatz-duo-2340-00-900",
+      "hinweis": "SYR-Vorgängerliste: DUO bis 12/2012",
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "duo-dfr-bis-2012",
+      "teil_slug": "syr-druckminderer-kartusche-0312-20-928",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "duo-dfr-bis-2012",
+      "teil_slug": "syr-manometer-2000-00-906",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "duo-dfr",
+      "teil_slug": "syr-filterelement-duo-2350-00-903",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "duo-dfr",
+      "teil_slug": "syr-druckminderer-kartusche-0312-20-928",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "duo-dfr",
+      "teil_slug": "syr-manometer-2000-00-906",
+      "hinweis": null,
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "duo-fr",
+      "teil_slug": "syr-filterelement-duo-2350-00-903",
+      "hinweis": "Datenblatt DUO FR 2014",
+      "quelle_url": "https://assets.heizung-billiger.de/documents/sydb231420001.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "duo-fr",
+      "teil_slug": "syr-rueckspuelfiltereinsatz-duo-2340-00-900",
+      "hinweis": "Nur Geräte bis 12/2012",
+      "quelle_url": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "druckminderer-315",
+      "teil_slug": "syr-druckminderer-kartusche-0315-20-904",
+      "hinweis": "DN 15 und DN 20",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/0315_-_Druckminderer_2024-08-16.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "druckminderer-315",
+      "teil_slug": "syr-druckminderer-kartusche-0315-25-904",
+      "hinweis": "DN 25",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/0315_-_Druckminderer_2024-08-16.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "druckminderer-315",
+      "teil_slug": "syr-druckminderer-kartusche-0315-32-902",
+      "hinweis": "DN 32 bis DN 50",
+      "quelle_url": "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/0315_-_Druckminderer_2024-08-16.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lex-plus-10-connect",
+      "teil_slug": "syr-lex-wartungsset-1500-01-900",
+      "hinweis": "Tausch etwa alle zwei Jahre durch den Fachhandwerker",
+      "quelle_url": "https://documents.unidomo.de/de/syis150001010.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lex-plus-10-connect",
+      "teil_slug": "syr-lex-dichtungsset-1500-01-921",
+      "hinweis": null,
+      "quelle_url": "https://documents.unidomo.de/de/syis150001010.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lex-plus-10-connect",
+      "teil_slug": "syr-lex-chlorinator-1500-01-933",
+      "hinweis": null,
+      "quelle_url": "https://documents.unidomo.de/de/syis150001010.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lex-plus-10-s-connect",
+      "teil_slug": "syr-lex-wartungsset-1500-01-900",
+      "hinweis": "Tausch etwa alle zwei Jahre durch den Fachhandwerker",
+      "quelle_url": "https://documents.unidomo.de/de/syis150001011.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lex-plus-10-s-connect",
+      "teil_slug": "syr-lex-dichtungsset-1500-01-921",
+      "hinweis": null,
+      "quelle_url": "https://documents.unidomo.de/de/syis150001011.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lex-plus-10-s-connect",
+      "teil_slug": "syr-lex-chlorzelle-1500-01-920",
+      "hinweis": null,
+      "quelle_url": "https://documents.unidomo.de/de/syis150001011.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lex-plus-10-sl-connect",
+      "teil_slug": "syr-lex-wartungsset-1500-01-900",
+      "hinweis": "Tausch etwa alle zwei Jahre durch den Fachhandwerker",
+      "quelle_url": "https://assets.heizung-billiger.de/documents/syis150001012.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lex-plus-10-sl-connect",
+      "teil_slug": "syr-lex-dichtungsset-1500-01-921",
+      "hinweis": null,
+      "quelle_url": "https://assets.heizung-billiger.de/documents/syis150001012.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lex-plus-10-sl-connect",
+      "teil_slug": "syr-lex-chlorzelle-1500-01-920",
+      "hinweis": null,
+      "quelle_url": "https://assets.heizung-billiger.de/documents/syis150001012.pdf",
+      "sicherheit": "hersteller"
+    }
+  ],
+  "probleme": [
+    {
+      "slug": "syr-rueckspuelfilter-tropft",
+      "titel": "SYR-Rückspülfilter (Drufi, Duo, HWS) tropft",
+      "symptom": "Unter dem Drufi, der Hauswasserstation oder dem Duo steht Wasser. Es tropft aus dem Ablauftrichter, am Übergang zwischen Filtertasse und Gehäuse, am Einstellgriff, unter dem Manometer oder seitlich am Flansch.",
+      "ursachen": [
+        {
+          "ursache": "Schmutz im Rückspülventil: Nach dem Rückspülen schließt der Kugelhahn oder das Spülventil nicht ganz, und es läuft aus dem Ablauftrichter",
+          "haeufigkeit": "häufig",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "O-Ring der Filtertasse verhärtet oder beim Aufschrauben über das Gewinde gestreift, Wasser tritt oben an der Tasse aus",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "syr-o-ring-filtertasse-2315-00-936",
+            "syr-o-ring-filtertasse-2315-01-922"
+          ]
+        },
+        {
+          "ursache": "Druckminderer-Patrone verschlissen, Wasser tritt am Einstellgriff unter der Filtertasse aus",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "syr-druckminderer-patrone-2315-00-910",
+            "syr-druckminderer-patrone-2315-01-925",
+            "syr-druckminderer-patrone-2315-01-970",
+            "syr-druckminderer-kartusche-0312-20-928"
+          ]
+        },
+        {
+          "ursache": "Manometer undicht oder beim Einbau eingehanft, Wasser kommt oben unter dem Druckmesser heraus",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "syr-manometer-2315-00-921",
+            "syr-manometer-2315-01-920",
+            "syr-manometer-2000-00-906"
+          ]
+        },
+        {
+          "ursache": "Filtertasse nach einem Stoß oder durch Sonnenlicht und Lösungsmittel gerissen",
+          "haeufigkeit": "selten",
+          "teil_slugs": [
+            "syr-filtertasse-2315-00-912",
+            "syr-filtertasse-2315-01-914",
+            "syr-filtertasse-2315-01-971",
+            "syr-filtertasse-2315-01-915"
+          ]
+        },
+        {
+          "ursache": "Flanschdichtung oder Verschraubung am Anschlussflansch undicht, das Wasser kommt links oder rechts am Flansch",
+          "haeufigkeit": "selten",
+          "teil_slugs": [
+            "syr-flanschdichtung-2315-00-931"
+          ]
+        }
+      ],
+      "schritte": [
+        "Schau nach, wo genau das Wasser austritt: aus dem Trichter, oben an der Tasse, unten am Einstellgriff, am Manometer oder seitlich am Flansch. Davon hängt das Teil ab.",
+        "Tropft es aus dem Trichter, spül noch zwei- bis dreimal zurück. Beim alten Drufi öffnest und schließt du den Kugelhahn langsam und gleichmäßig, beim Drufi+ drehst du den Griff um 90 Grad und wieder zurück. Ein Eimer darf höchstens bis zur Unterkante des Trichters reichen.",
+        "Lies die Typbezeichnung ab und prüf, ob es ein alter Drufi (bis April 2011) oder ein Drufi+ ist. O-Ring, Patrone und Filtertasse haben je nach Generation andere Nummern.",
+        "Steigt beim DFR zusätzlich der Druck am Manometer, lies weiter unter „Wasserdruck steigt“: Dann kann die Patrone verschlissen sein.",
+        "Hat die Filtertasse Risse oder ist sie trüb, schließ die Absperrungen vor und hinter dem Filter und lass sie tauschen. SYR verlangt den Tausch eines Kunststoffteils nach einem harten Stoß auch ohne sichtbaren Schaden.",
+        "Kommt das Wasser am Flansch, ist das Arbeit für den Installateur. Die Flanschschrauben werden über Kreuz angezogen."
+      ],
+      "fachbetrieb_ab": "Rückspülen, Druck ablesen und am Einstellgriff nachstellen machst du als Betreiber selbst. Einbau, Tausch des ganzen Filters und Arbeiten am Flansch sind nach § 12 Abs. 2 AVBWasserV Sache des Wasserversorgers oder eines Installateurs, der im Installateurverzeichnis eingetragen ist. SYR zieht die Grenze früher: Installation und Wartung darf nur ein autorisierter Fachbetrieb vornehmen. Das betrifft auch Druckminderer-Patrone, Filtertasse und Manometer. Hört das Tropfen nach mehrmaligem Rückspülen nicht auf, ist die Tasse gerissen oder kommt das Wasser am Flansch, ruf den Installateur. In der Mietwohnung sagst du dem Vermieter Bescheid.",
+      "quellen": [
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf",
+        "https://www.haustechnikdialog.de/forum/t/134484/drufi-dfr-2315-rueckspuelfilter-tropft",
+        "https://www.haustechnikdialog.de/forum/t/191737/Drufi-tropft",
+        "https://www.haustechnikdialog.de/Forum/t/232227/Drufi-DFR",
+        "https://www.haustechnikdialog.de/forum/t/75165/Undichte-Filtertasse-vom-DRUFI-DFF-Loesung-",
+        "https://www.gesetze-im-internet.de/avbwasserv/__12.html"
+      ]
+    },
+    {
+      "slug": "syr-rueckspuelfilter-filtertasse-oeffnen",
+      "titel": "SYR Drufi: Filtertasse lässt sich nicht öffnen",
+      "symptom": "Die Filtertasse am Drufi, Drufi+ oder an der Hauswasserstation sitzt fest und dreht sich auch mit Kraft nicht, oder es spritzt Wasser, sobald man sie lösen will.",
+      "ursachen": [
+        {
+          "ursache": "Es steht noch Druck in der Tasse, weil eine Absperrung offen ist oder der Druck nicht abgelassen wurde",
+          "haeufigkeit": "häufig",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Ohne den passenden Montageschlüssel findet man keinen Halt an der glatten Tasse",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "syr-filtertassenschluessel-2000-25-907"
+          ]
+        },
+        {
+          "ursache": "Der O-Ring klebt nach Jahren am Gehäuse fest",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "syr-o-ring-filtertasse-2315-00-936",
+            "syr-o-ring-filtertasse-2315-01-922"
+          ]
+        }
+      ],
+      "schritte": [
+        "Absperrung vor dem Filter schließen, bei Bedarf auch die dahinter.",
+        "Druck ablassen: beim Drufi+ den Rückspülgriff um 90 Grad drehen und zurückdrehen, beim alten Drufi den Kugelhahn öffnen, bei den Feinfiltern DFF und FF eine Zapfstelle hinter dem Filter öffnen. Eimer unterstellen.",
+        "Den SYR-Schlüssel nehmen: 2000.25.907 für Drufi+ und Hauswasserstation 2000 Plus, 2000.25.903 für den alten Drufi und die Hauswasserstationen bis April 2011, 2350.00.906 für den Duo.",
+        "Nach einem harten Schlag lässt SYR das Kunststoffteil tauschen, auch wenn man keinen Schaden sieht.",
+        "Beim Zuschrauben den O-Ring locker über den obersten Gewindegang legen und die Tasse handfest anziehen."
+      ],
+      "fachbetrieb_ab": "Rückspülen, Druck ablesen und am Einstellgriff nachstellen machst du als Betreiber selbst. Einbau, Tausch des ganzen Filters und Arbeiten am Flansch sind nach § 12 Abs. 2 AVBWasserV Sache des Wasserversorgers oder eines Installateurs, der im Installateurverzeichnis eingetragen ist. SYR zieht die Grenze früher: Installation und Wartung darf nur ein autorisierter Fachbetrieb vornehmen. Das betrifft auch Druckminderer-Patrone, Filtertasse und Manometer. Sitzt die Tasse trotz Druckentlastung und Schlüssel fest, lass es den Installateur machen, bevor sie bricht.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://assets.heizung-billiger.de/documents/syis231500082.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+        "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+        "https://www.haustechnikdialog.de/Forum/t/71908/Drufi-Feinfilter-wechseln"
+      ]
+    },
+    {
+      "slug": "syr-druckminderer-einstellen",
+      "titel": "SYR-Druckminderer einstellen (Drufi DFR, HWS, 315)",
+      "symptom": "Der Wasserdruck im Haus ist zu hoch oder zu niedrig, oder das Manometer am Drufi DFR zeigt einen anderen Wert als die üblichen 4 bar.",
+      "ursachen": [
+        {
+          "ursache": "Der Einstellgriff wurde verstellt; ab Werk stellt SYR 4 bar ein",
+          "haeufigkeit": "häufig",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Der Eingangsdruck liegt weniger als 1 bar über dem gewünschten Ausgangsdruck, dann erreicht der Druckminderer den Wert nicht",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Der Filter ist zugesetzt, unter Last bricht der Druck stark ein",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "syr-filtereinsatz-2315-00-908",
+            "syr-filtereinsatz-2315-00-930"
+          ]
+        },
+        {
+          "ursache": "Die Patrone hängt oder ist verschlissen und reagiert nicht mehr auf den Griff",
+          "haeufigkeit": "selten",
+          "teil_slugs": [
+            "syr-druckminderer-patrone-2315-00-910",
+            "syr-druckminderer-patrone-2315-01-970",
+            "syr-druckminderer-kartusche-0315-20-904"
+          ]
+        }
+      ],
+      "schritte": [
+        "Eingestellt wird im Ruhedruck, also wenn kein Wasser läuft. Der Eingangsdruck muss mindestens 1 bar über dem gewünschten Wert liegen.",
+        "Drufi+ DFR und Hauswasserstation 2000 Plus: Griff bis zum Anschlag im Uhrzeigersinn Richtung „−“ drehen, eine Zapfstelle in der Nähe kurz öffnen und schließen, dann den Griff gegen den Uhrzeigersinn Richtung „+“ drehen, bis das Manometer den gewünschten Druck zeigt.",
+        "Alter Drufi DFR: Sechskantmutter am Einstellgriff eine Viertelumdrehung lösen, Richtung „−“ drehen, Zapfstelle öffnen und schließen, dann Richtung „+“ einstellen und die Mutter wieder anziehen.",
+        "Druckminderer 315: Sicherungsschraube im Einstellgriff lösen, Richtung „−“ senkt, Richtung „+“ erhöht den Druck. Die grüne Anzeige im Einstellrad zeigt den eingestellten Wert.",
+        "Bewegt sich das Manometer beim Drehen gar nicht, erst rückspülen. Ändert sich dann nichts, ist die Patrone ein Fall für den Installateur."
+      ],
+      "fachbetrieb_ab": "Den Druck am Einstellgriff stellst du selbst ein, dafür ist der Griff außen angebracht. Wenn sich der Druck trotz Drehen nicht ändert oder die Patrone getauscht werden muss, ist das Arbeit für den Installateur: In der Federhaube sitzt eine gespannte Feder, und SYR lässt Wartung nur von einem autorisierten Fachbetrieb machen.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/0315_-_Druckminderer_2024-08-16.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.0002.21_2347-2024_02.pdf",
+        "https://www.haustechnikdialog.de/forum/t/179150/DRUFI-DFR-Wasserdruck-einstellen",
+        "https://www.haustechnikdialog.de/Forum/t/232227/Drufi-DFR",
+        "https://www.haustechnikdialog.de/forum/t/137014/Druckminderer-Filter-ersetzen-"
+      ]
+    },
+    {
+      "slug": "syr-wasserdruck-steigt",
+      "titel": "SYR Drufi DFR: Wasserdruck steigt über den eingestellten Wert",
+      "symptom": "Das Manometer am Drufi DFR oder an der Hauswasserstation zeigt nach einer Weile ohne Wasserentnahme deutlich mehr als eingestellt, zum Beispiel 6 statt 4 bar. Beim Öffnen eines Hahns fällt der Druck wieder.",
+      "ursachen": [
+        {
+          "ursache": "Ein geschlossener Warmwasserspeicher drückt beim Aufheizen zurück, weil der Rückflussverhinderer in seiner Sicherheitsgruppe nicht mehr dicht ist",
+          "haeufigkeit": "häufig",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Die Druckminderer-Patrone ist verschlissen und schließt nicht mehr dicht",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "syr-druckminderer-patrone-2315-00-910",
+            "syr-druckminderer-patrone-2315-01-925",
+            "syr-druckminderer-patrone-2315-01-970",
+            "syr-druckminderer-kartusche-0312-20-928"
+          ]
+        }
+      ],
+      "schritte": [
+        "Heizung des Warmwasserspeichers abschalten und etwas Warmwasser zapfen.",
+        "Tritt der Druckanstieg danach nicht mehr auf, liegt es laut SYR am Rückflussverhinderer der Sicherheitsgruppe am Speicher. Den wartet oder tauscht der Installateur.",
+        "Steigt der Druck auch bei abgeschalteter Heizung, ist die Patrone verschlissen. Beim Drufi+ gilt 2315.01.925 bis Baujahr 2015 und 2315.01.970 ab 2016, beim alten Drufi 2315.00.910, beim Duo DFR 0312.20.928.",
+        "SYR warnt vor starken Druckschlägen, etwa durch Magnetventile hinter dem Filter, weil die Kunststofftasse bersten kann."
+      ],
+      "fachbetrieb_ab": "Die Prüfung mit abgeschalteter Speicherheizung machst du selbst. Patrone und Rückflussverhinderer der Sicherheitsgruppe tauscht der Installateur. SYR lässt Installation und Wartung nur von einem autorisierten Fachbetrieb machen, und Arbeiten an der Trinkwasserinstallation hinter dem Zähler gehören nach § 12 AVBWasserV zum eingetragenen Installateur.",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+        "https://assets.heizung-billiger.de/documents/syis231500082.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/279135/Druckschlag-und-undichter-DRUFI-",
+        "https://www.haustechnikdialog.de/forum/t/179150/DRUFI-DFR-Wasserdruck-einstellen",
+        "https://www.gesetze-im-internet.de/avbwasserv/__12.html"
+      ]
+    },
+    {
+      "slug": "syr-enthaertungsanlage-fehlermeldung",
+      "titel": "SYR LEX Plus 10 Connect: Störung oder Fehlermeldung",
+      "symptom": "Die LEX Plus 10 Connect, 10 S Connect oder 10 SL Connect zeigt eine Störung im Display oder in der SYR-App, die rote LED leuchtet, die Anlage regeneriert nicht oder es kommt hartes Wasser.",
+      "ursachen": [
+        {
+          "ursache": "Zu wenig Salz: Der Bechlorungsstrom liegt unter 150 mA oder die Sole war bei der Regeneration zu schwach",
+          "haeufigkeit": "häufig",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Salzvorrat zu weit abgesunken, sodass die Flüssigkeit über dem Salz stand und beim Nachfüllen zu stark anstieg",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Eingangsdruck unter 2 bar, etwa weil der Filter davor zugesetzt ist, oder über 8 bar, weil der Druckminderer davor defekt ist",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "syr-filtereinsatz-2315-00-930",
+            "syr-druckminderer-patrone-2315-01-970"
+          ]
+        },
+        {
+          "ursache": "Füllstand im Salzbehälter zu hoch oder zu niedrig: Schwimmerteil oder Magnetventil verschmutzt oder defekt",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Hartes Wasser: falsche Ein- oder Ausgangshärte in der Steuerung oder verschmutzte Turbine an der Verschneidung",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Leckagemeldung bei der SL-Ausführung: Volumen, Zeit oder Durchfluss über dem Grenzwert, die Anlage hat abgesperrt",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Chlorzelle, Elektroden, Steuerkopf oder Antriebsmotor defekt",
+          "haeufigkeit": "selten",
+          "teil_slugs": [
+            "syr-lex-chlorzelle-1500-01-920",
+            "syr-lex-chlorinator-1500-01-933",
+            "syr-lex-wartungsset-1500-01-900"
+          ]
+        }
+      ],
+      "schritte": [
+        "Salz prüfen und nachfüllen, nur Regeneriersalz nach EN 973, SYR empfiehlt Tabletten. Die nachgefüllte Menge in der Steuerung eintragen. Danach 30 Minuten warten und eine Regeneration starten, so steht es für die Meldung zum Bechlorungsstrom in der Anleitung.",
+        "Salz nicht so weit herunterbrennen lassen, dass Wasser über dem Salz steht.",
+        "Druck am Manometer des vorgeschalteten Filters ablesen. Unter 2 bar zuerst den Filter rückspülen, über 8 bar den Druckminderer prüfen lassen.",
+        "Bei hartem Wasser die eingestellte Rohwasser- und Ausgangshärte kontrollieren, die Rohwasserhärte erfährst du beim Wasserversorger. SYR sieht diese Kontrolle vierteljährlich beim Betreiber.",
+        "Display dunkel: prüfen, ob das Steckernetzteil steckt und die Steckdose Strom hat, etwa weil sie über einen Schalter läuft.",
+        "Bei einer Leckagemeldung der SL-Anlage die Ursache suchen und die Meldung am Gerät, in der App oder auf syrconnect.de quittieren, dann öffnet die Absperrung.",
+        "Meldet die Anlage, dass die Grundstellung nicht angefahren werden konnte, oder regeneriert sie trotz Strom und Salz nicht, den SYR-Service oder den Fachbetrieb rufen."
+      ],
+      "fachbetrieb_ab": "Salz nachfüllen, Härte kontrollieren, Strom und Druck prüfen und Meldungen quittieren machst du selbst. Sobald die Gerätehaube abgenommen und die Anlage drucklos gemacht werden muss, also für Dichtungs-Set, Chlorzelle, Magnetventil, Reinigung des Salzbehälters, Steuerkopf und Antrieb, ist laut SYR der Fachhandwerker oder der Werkskundendienst zuständig. Das Wartungsset 1500.01.900 tauscht er etwa alle zwei Jahre. Die Anlage installieren darf nur ein autorisierter Fachhandwerker.",
+      "quellen": [
+        "https://documents.unidomo.de/de/syis150001010.pdf",
+        "https://documents.unidomo.de/de/syis150001011.pdf",
+        "https://assets.heizung-billiger.de/documents/syis150001012.pdf"
+      ]
+    }
+  ],
+  "widersprueche": [
+    {
+      "thema": "Wofür ist das Gewebe 2000.25.900?",
+      "aussage_a": "SYR führt 2000.25.900 als Ersatzfiltergewebe (fünf Stück) für die Feinfilter Drufi DFF/FF und Drufi+ DFF/FF.",
+      "quelle_a": "https://assets.heizung-billiger.de/documents/syis231500082.pdf",
+      "aussage_b": "Bei Amazon heißt dasselbe Teil „Gewebefilter f Hauswasserstation 2000“. In einen Rückspülfilter oder eine Hauswasserstation mit Edelstahlsieb gehört es nicht.",
+      "quelle_b": "https://www.amazon.de/dp/B00BKYNM5U"
+    },
+    {
+      "thema": "Nummer des Ersatzgewebes für Drufi+ DFF/FF",
+      "aussage_a": "Die deutsche Anleitung (9.2315.33, 2018) nennt für das Filterelement und das Ersatzfiltergewebe 2000.25.900.",
+      "quelle_a": "https://assets.heizung-billiger.de/documents/syis231500082.pdf",
+      "aussage_b": "Die englische Anleitung nennt für dieselben Teile 2315.01.926.",
+      "quelle_b": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/2315.00.082-2018-09-17.pdf"
+    },
+    {
+      "thema": "Feiner Filtereinsatz für den Drufi+: 20 oder 40 µm?",
+      "aussage_a": "Die deutsche Anleitung von 2018 nennt neben 2315.00.930 (90 µm) den Einsatz 2315.01.965 mit 20 µm.",
+      "quelle_a": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+      "aussage_b": "Die englische Anleitung von 2019 nennt stattdessen 2315.01.946 mit 40 µm.",
+      "quelle_b": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Englisch/9.2315.40_1902_en_2019-08-14.pdf"
+    },
+    {
+      "thema": "Rückspülen beim Drufi+: Kugelhahn oder Drehgriff?",
+      "aussage_a": "Die Bedienungsanleitung des Drufi+ sagt, man dreht den Rückspülgriff um 90 Grad im Uhrzeigersinn und danach zurück.",
+      "quelle_a": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+      "aussage_b": "Das Datenblatt des Drufi+ DFR beschreibt die Rückspülung durch „gleichmäßiges Öffnen und Schließen des Kugelhahns“, so wie beim alten Drufi. Zum Erkennen der Generation zählt, was außen zu sehen ist: Griff beim Drufi+, Hebel am Kugelhahn beim alten Drufi.",
+      "quelle_b": "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Drufi+_DFR_2024-01-17.pdf"
+    },
+    {
+      "thema": "Wie oft rückspülen?",
+      "aussage_a": "Die alte Drufi-Anleitung verlangt nach DIN 1988 Teil 8 eine Rückspülung spätestens alle zwei Monate.",
+      "quelle_a": "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+      "aussage_b": "Die Drufi+-Anleitung nennt nach DIN EN 806-5 mindestens alle sechs Monate.",
+      "quelle_b": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf"
+    },
+    {
+      "thema": "Manometer 2315.00.921 „für alle Drufi Modelle“?",
+      "aussage_a": "SYR führt 2315.00.921 nur für den Drufi bis April 2011. Der Drufi+ hat das Manometer 2315.01.920.",
+      "quelle_a": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "aussage_b": "Der Amazon-Titel nennt das Manometer 2315.00.921 „für alle Drufi Modelle“, im Text steht dann „Drufi 2315 bis 04/2011“.",
+      "quelle_b": "https://www.amazon.de/dp/B00IPBLZUK"
+    },
+    {
+      "thema": "Ab wann gilt beim Duo das Filterelement 2350.00.903?",
+      "aussage_a": "SYR führt den Einsatz 2340.00.900 für den Duo bis 12/2012.",
+      "quelle_a": "https://www.syr.de/de/Ersatzteile_Vorgaenger-Armaturen",
+      "aussage_b": "Ein Nachbau-Anbieter (Klint) beschreibt sein Element mit der Nummer 2350.00.903 als passend für Duo DFR und FR „ab 2012“.",
+      "quelle_b": "https://www.amazon.de/dp/B010QGOEDG"
+    },
+    {
+      "thema": "Duo DFR mit 1-Zoll-Anschluss: DN 20 oder DN 25?",
+      "aussage_a": "In der Maßtabelle des Datenblatts stehen beide Ausführungen als DN 20, mit Anschluss R ¾ und R 1.",
+      "quelle_a": "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2314-Duo-DFR_2023-01-23.pdf",
+      "aussage_b": "Im Text desselben Datenblatts heißt die Ausführung mit R 1 „DN 25“; ein älteres Datenblatt nennt sie „DN 20 (R 1“)“.",
+      "quelle_b": "https://www.uttscheid.de/product-downloads/2158%20-%20Datenblatt%20SYR%20R%C3%BCcksp%C3%BClfilterDruckminderer%20DUO%202314%20DFR,%20DN25%20-%202314.25.000.pdf"
+    }
+  ],
+  "nicht_geprueft": [
+    "Für Filtereinsatz 2315.01.946, Filtertassen 2315.01.971 und 2315.01.915, Manometer 2315.01.920 und 2000.00.906, Rückflussverhinderer 2000.00.921, Duo-Filterelement 2350.00.903, die Kartuschen 0315.25.904 und 0315.32.902 und alle LEX-Teile wurde keine Amazon-Seite mit Originalmarke und keine EAN geöffnet.",
+    "Die EAN 4017905041652 der Kartusche 0315.20.904 stammt aus dem eBay-Produktkatalog, nicht von SYR.",
+    "Die ASINs B07K7LMHPV (Patrone ab 2016) und B077HQN7QW (Filtertasse bis 2015) tragen auf der Amazon-Seite keine Artikelnummer; die Zuordnung zu 2315.01.970 und 2315.01.914 folgt aus Titel und Baujahr.",
+    "Der Amazon-Titel von B00DYTFJ9G beginnt mit „HDmirrorR“, Marke und Nummer 2315.00.931 sind SYR. Ein Preis war nicht eindeutig ablesbar.",
+    "Das Datenblatt Duo DFR 2023 nennt auf Seite 1 zusätzlich „Filtertasse komplett 2315.01.936 bis 2015 / 2315.01.973 ab 2016“, in der Teileliste aber 2350.00.904. Welche Angabe zum Duo gehört, ist offen; übernommen ist 2350.00.904.",
+    "Der Drufi+ max (DN 32 bis 50), die Hauswasserstation max, der Druckminderer 312 Euro plus (Kartusche 0312.20.927) und der Druckminderer 315.2 (Kartuschen 0315.15.922 ff.) sind nicht angelegt.",
+    "Für die LEX Plus 10 gibt es kein SYR-eigenes Salz; Regeneriersalz steht auf der Teileart-Seite regeneriersalz. Ein Salz-Teil unter der Marke SYR ist deshalb nicht angelegt.",
+    "Die Fehlercodes der LEX Plus 10 stehen in den Anleitungen nur als Symbole; die Problemseite beschreibt die Meldungen deshalb in Worten.",
+    "Bauzeiten der LEX-Plus-10-Ausführungen und das Startjahr des Duo FR in der heutigen Form sind nicht belegt und deshalb leer.",
+    "Ob der alte Drufi FF ein eigenes Teile-Set braucht (Filtertasse 2315.00.959), ist nur über die Vorgängerliste belegt; eine eigene Serie für alte DFF/FF fehlt."
+  ]
+}

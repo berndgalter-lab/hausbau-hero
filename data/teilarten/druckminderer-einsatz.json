@@ -1,0 +1,456 @@
+{
+  "slug": "druckminderer-einsatz",
+  "name": "Druckminderer-Einsatz",
+  "mehrzahl": "Druckminderer-Einsätze",
+  "genus": "m",
+  "titel": "Druckminderer-Einsatz: welche Kartusche passt in deinen Druckminderer?",
+  "seo_title": "Druckminderer-Einsatz und Kartusche: welcher passt in Honeywell, SYR, Judo, Grünbeck?",
+  "seo_description": "Welcher Ventileinsatz passt in Honeywell D06F, HS10S und FK06, welche Patrone in SYR Drufi und Drufi+, welche Kartusche in Judo PROMI-QC und Grünbeck BOXER RD? Nummern nach Gerät, Nennweite und Baujahr, dazu Druckbereich und Einstellen.",
+  "kurz": "Der Druckminderer-Einsatz ist das Innenleben des Druckminderers: Membran, Ventilsitz und meist ein Sieb in einem Teil. Er wird gewechselt, wenn an der Federhaube Wasser austritt oder der Druck hinter dem Gerät langsam ansteigt. Das Gehäuse bleibt dabei in der Leitung.\n\nWelcher Einsatz passt, hängt am Gerät, an der Nennweite und manchmal am Baujahr. Beim Honeywell D06F mit 1\" ist es ein anderer als bei der HS10S gleicher Größe, und beim SYR Drufi+ hat sich die Patrone 2016 geändert.",
+  "bereiche": [
+    "wasserfilter"
+  ],
+  "teiltypen": [
+    "druckminderer-einsatz"
+  ],
+  "marken": [
+    "judo",
+    "bwt",
+    "resideo",
+    "syr",
+    "gruenbeck"
+  ],
+  "probleme": [
+    "druckminderer-defekt",
+    "rueckspuelfilter-tropft"
+  ],
+  "erkennen": [
+    {
+      "titel": "Typ am Gehäuse oder an der Federhaube ablesen",
+      "text": "Typ und Nennweite stehen am Gehäuse oder auf dem Typenschild. Bei Resideo (Honeywell, Braukmann) verrät die Farbe des Verstellgriffs die Reihe: grün ist D06F oder D06FI, rot D06FH, grau D06FN. Beim SYR 315 beginnt die Werksnummer mit 0315. Grünbeck braucht für Ersatzteile Filtertyp, Größe und Seriennummer."
+    },
+    {
+      "titel": "Nennweite feststellen",
+      "text": "Die Nennweite ist der Anschluss an der Leitung, meist ¾\" (DN 20) oder 1\" (DN 25). Viele Einsätze decken zwei Größen ab, bei Resideo ½\" und ¾\" mit einem Teil, 1\" und 1¼\" mit einem anderen."
+    },
+    {
+      "titel": "Baureihe und Baujahr klären",
+      "text": "Gleiche Namen haben teils verschiedene Einsätze. Beim Honeywell D06F mit 1\" bis 1¼\" passt der D06FA-1B, in der HS10S gleicher Größe der D06FA-1A. Der bleifreie D06F-LF ab 2020 hat Einsätze mit der Endung LF. Beim SYR Drufi+ DFR gilt bis 2015 die Patrone 2315.01.925, ab 2016 die 2315.01.970. Der alte Drufi mit Kugelhahn-Rückspülung hat die 2315.00.910."
+    },
+    {
+      "titel": "Einstellbereich prüfen",
+      "text": "Die meisten Hausdruckminderer stellen 1,5 bis 6 bar ein. Es gibt Ausnahmen: Der Resideo D06FH reicht bis 12 bar, der D06FN arbeitet mit 0,5 bis 2 bar. Diese Typen haben eigene Einsätze, ein Standard-Einsatz passt dort nicht."
+    },
+    {
+      "titel": "Mit oder ohne Sieb?",
+      "text": "Die Resideo-Einsätze werden ohne Sieb geliefert, das Ersatzsieb (ES06F) und die Siebtasse gibt es einzeln. Beim SYR 315 sitzt der Schmutzfänger in der Kartusche. Bei Judo und Grünbeck steckt der Druckminderer in der Hauswasserstation, Filtersieb und Kartusche sind getrennte Sets."
+    },
+    {
+      "titel": "Druck einstellen und wer tauscht",
+      "text": "Den Hinterdruck stellst du am Handrad ein, nach dem Plus und Minus am Griff, denn die Drehrichtung ist je nach Hersteller verschieden. Vorher die Sicherungsschraube lösen, danach eine Zapfstelle kurz öffnen und am Manometer ablesen. Judo beschreibt das im Kapitel Betrieb. Resideo ordnet Justage und Wartung autorisierten Fachkräften zu.\n\nDen Einsatztausch beschreibt Resideo so: Absperren, Ausgang druckentlasten, Feder ganz entspannen, Federhaube mit dem Doppelringschlüssel abschrauben, Ventileinsatz mit einer Zange herausziehen, neuen Einsatz einsetzen und den Druck neu einstellen. Resideo, SYR und Judo weisen diese Arbeit einem Installationsunternehmen oder autorisiertem Personal zu. Den ganzen Druckminderer ein- oder ausbauen darf nur ein im Installateurverzeichnis eingetragener Betrieb (§ 12 AVBWasserV)."
+    }
+  ],
+  "groessen": {
+    "titel": "Welcher Einsatz passt in welchen Druckminderer?",
+    "spalten": [
+      "Gerät",
+      "Baureihe, Nennweite",
+      "Einsatz",
+      "Druckbereich",
+      "Dazu"
+    ],
+    "zeilen": [
+      [
+        "Resideo/Honeywell D06F (grüner Griff)",
+        "ab 1997, ½\"+¾\" / 1\"+1¼\" / 1½\"+2\"",
+        "Ventil-Einsatz D06FA-1/2 / D06FA-1B / D06FA-11/2 (ohne Sieb)",
+        "1,5–6 bar, ab Werk 3 bar",
+        "Sieb ES06F-1/2A / -1B / -11/2A"
+      ],
+      [
+        "Resideo D06F-LF (bleifrei)",
+        "ab 2020, ½\"+¾\" / 1\"+1¼\" / 1½\"+2\"",
+        "D06FA-1/2LF / D06FA-1LF / D06FA-11/2LF (ohne Sieb)",
+        "1,5–6 bar, ab Werk 3 bar",
+        "Sieb ES06F wie D06F"
+      ],
+      [
+        "Resideo D06FH (roter Griff)",
+        "ab 1997, ½\"–¾\" / 1\"–1¼\" / 1½\"–2\"",
+        "D06FA-1/2 / D06FA-1A / D06FA-11/2 (ohne Sieb)",
+        "1,5–12 bar, ab Werk 5 bar",
+        "Sieb ES06F-1/2A / -1A / -11/2A"
+      ],
+      [
+        "Resideo D06FN (grauer Griff)",
+        "ab 1997, ½\"–¾\" / 1\"–1¼\" / 1½\"–2\"",
+        "D06FNA-1/2 / D06FNA-1 / D06FNA-11/2 (ohne Sieb)",
+        "0,5–2 bar, ab Werk 1,5 bar",
+        "Sieb ES06F"
+      ],
+      [
+        "Resideo D06FI",
+        "ab 2007, ½\"+¾\" / 1\"+1¼\" / 1½\"+2\"",
+        "D06FI-1/2 / D06FI-1 / D06FI-11/2 (ohne Sieb)",
+        "1,5–6 bar, ab Werk 3 bar",
+        "Sieb ES06F"
+      ],
+      [
+        "Resideo D05FS",
+        "½\"–1\" / 1¼\"–2\"",
+        "D05FA-1/2B / D05FA-11/4B",
+        "–",
+        "Sieb ES05F-1/2A / ESD05FS"
+      ],
+      [
+        "Resideo Hauswasserstation HS10S",
+        "1997–2006, ab 2007 und ab 2025; ½\"+¾\" / 1\"+1¼\" / 1½\"+2\"",
+        "D06FA-1/2 / D06FA-1A / D06FA-11/2 (ohne Sieb)",
+        "1,5–6 bar",
+        "Federhaube 0901515 / 0901517 / 0901518"
+      ],
+      [
+        "Resideo FK06 MiniPlus-FK",
+        "ab 2002, ½\"+¾\" / 1\"+1¼\"",
+        "D06FA-1/2 / D06FA-1B (ohne Sieb)",
+        "1,5–6 bar",
+        "Ersatzsieb AS06-1/2A / AS06-1A"
+      ],
+      [
+        "Resideo FKN76CS Nachrüst-Filterkombination",
+        "1997–2006 und ab 2007, 1\"+1¼\"",
+        "D06FA-1A (ohne Sieb)",
+        "–",
+        "–"
+      ],
+      [
+        "Resideo D22",
+        "ab 1968, ¼\"–2\"",
+        "kein Einsatz: Ventilkegel 0903223–0903229, Membrane 2202500–2204100 je Größe",
+        "–",
+        "–"
+      ],
+      [
+        "SYR Drufi DFR (alt, Rückspülung über Kugelhahn)",
+        "DN 20–32",
+        "Druckmindererpatrone 2315.00.910",
+        "1,5–6 bar, ab Werk 4 bar",
+        "–"
+      ],
+      [
+        "SYR Drufi+ DFR (Rückspülgriff)",
+        "bis 2015, ¾\"–1¼\"",
+        "Druckminderer-Patrone 2315.01.925",
+        "1,5–6 bar, ab Werk 4 bar",
+        "Filtertasse 2315.01.914, Feder 2315.00.961"
+      ],
+      [
+        "SYR Drufi+ DFR (Rückspülgriff)",
+        "ab 2016, ¾\"–1¼\"",
+        "Druckminderer-Patrone 2315.01.970",
+        "1,5–6 bar, ab Werk 4 bar",
+        "Filtertasse 2315.01.971, Feder 2315.00.961"
+      ],
+      [
+        "SYR Hauswasserstation 2000+",
+        "–",
+        "Druckminderer-Patrone 2315.01.970",
+        "1,5–6 bar, ab Werk 4 bar",
+        "Rückflussverhinderer 2000.00.921"
+      ],
+      [
+        "SYR Druckminderer 315",
+        "DN 15+20 / DN 25 / DN 32–50",
+        "Kartusche 0315.20.904 / 0315.25.904 / 0315.32.902",
+        "1,5–6 bar, ab Werk 4 bar",
+        "Schmutzfänger in der Kartusche"
+      ],
+      [
+        "Judo PROMI-QC (JPM-QC), PROMI-QUICK CONNECTION, PROMIMAT-QC-AT",
+        "¾\"–1¼\"",
+        "Verschleißteilset Druckmindererkartusche 2150026",
+        "1,5–6 bar, ab Werk 4 bar",
+        "–"
+      ],
+      [
+        "Judo BIKO",
+        "¾\"–1\"",
+        "Verschleißteilset Druckmindererkartusche 2150026",
+        "1,5–6 bar, ab Werk 4 bar",
+        "–"
+      ],
+      [
+        "Judo Speedy, JUKO, GUBI, Filly",
+        "¾\"–1¼\"",
+        "2150026, laut Händlern",
+        "–",
+        "–"
+      ],
+      [
+        "Judo JUKO-EC-KD",
+        "¾\"–1¼\"",
+        "Verschleißteilset Druckmindererkartusche 2170506",
+        "–",
+        "–"
+      ],
+      [
+        "Judo PROMI-QC, JUKO-EC",
+        "1½\"–2\"",
+        "Verschleißteilset Druckmindererkartusche 2170567",
+        "–",
+        "–"
+      ],
+      [
+        "Grünbeck BOXER RD (Anleitung 2014)",
+        "¾\"–1¼\"",
+        "Druckmindererkartusche 107 605",
+        "ab Werk 4 bar",
+        "Dichtungssatz 101 635e"
+      ],
+      [
+        "Grünbeck pureliQ:RD",
+        "–",
+        "Service Kit III 101 678e (Druckminderer, Manometer, Service Kit I)",
+        "1–6 bar, ab Werk 4 bar",
+        "Rohr-Steckschlüssel 104 805"
+      ],
+      [
+        "Grünbeck pureliQ:AD",
+        "–",
+        "Service Kit III 101 697e (Druckminderer, Manometer, Service Kit I)",
+        "1–6 bar, ab Werk 4 bar",
+        "Rohr-Steckschlüssel 104 805"
+      ]
+    ],
+    "hinweis": "Die Zollangabe ist der Anschluss des Geräts. Mehrere Nummern mit Schrägstrich gehören der Reihe nach zu den Nennweiten. Die Nummern stammen aus dem Resideo-Ersatzteilkatalog, den Datenblättern und Anleitungen von SYR, Judo und Grünbeck. Bei Judo Speedy, JUKO, GUBI und Filly kommt die Zuordnung zur 2150026 von Händlern. Bei Caleffi lässt sich die Kartusche mit Membran, Sieb und Sitz laut Broschüre ausbauen, eine Teilenummer nennt Caleffi dort nicht."
+  },
+  "produkte": [
+    {
+      "name": "Honeywell Ventil-Einsatz D06FA-1/2",
+      "hersteller": "Honeywell (Resideo)",
+      "amazon_asin": "B00HNSQJX4",
+      "hinweis": "½\" und ¾\" bei D06F, D06FH, HS10S und FK06. Ohne Sieb."
+    },
+    {
+      "name": "Honeywell Ventil-Einsatz D06FA-1A",
+      "hersteller": "Honeywell (Resideo)",
+      "amazon_asin": "B00HNSQKBU",
+      "hinweis": "1\" und 1¼\" bei HS10S, D06FH und FKN76CS. Nicht für den D06F."
+    },
+    {
+      "name": "Honeywell Ventil-Einsatz D06FA-1B",
+      "hersteller": "Honeywell (Resideo)",
+      "amazon_asin": "B00DYSKPZ0",
+      "hinweis": "1\" und 1¼\" beim D06F und bei der FK06."
+    },
+    {
+      "name": "SYR Druckminderer-Patrone für Drufi+ DFR ab 2016",
+      "hersteller": "SYR",
+      "amazon_asin": "B07K7LMHPV",
+      "hinweis": "Drufi+ DFR ab Baujahr 2016, laut SYR Nummer 2315.01.970, auch HWS 2000+."
+    },
+    {
+      "name": "SYR Druckmindererpatrone 2315.00.910 für Drufi",
+      "hersteller": "SYR",
+      "amazon_asin": "B00DY3KLPO",
+      "hinweis": "Nur für den alten Drufi DFR mit Kugelhahn-Rückspülung."
+    },
+    {
+      "name": "SYR Druckmindererkartusche 0315.20.904",
+      "hersteller": "SYR",
+      "ean": "4017905041652",
+      "hinweis": "Druckminderer 315 in DN 15 und DN 20, 1,5–6 bar."
+    },
+    {
+      "name": "Judo Verschleißteilset Druckmindererkartusche 2150026",
+      "hersteller": "Judo",
+      "ean": "4038097016235",
+      "hinweis": "PROMI-QC, PROMI-QUICK CONNECTION, PROMIMAT-QC-AT und BIKO, ¾\"–1¼\"."
+    }
+  ],
+  "teile": [],
+  "fragen": [
+    {
+      "frage": "Wo steht, welcher Druckminderer bei mir verbaut ist?",
+      "antwort": "Auf dem Gerät selbst: Typ und Nennweite stehen am Gehäuse oder auf dem Typenschild, die Fließrichtung zeigt ein Pfeil auf dem Gehäuse. Bei Resideo (Honeywell, Braukmann) hilft die Farbe des Verstellgriffs: grün beim D06F und D06FI, rot beim D06FH, grau beim D06FN. SYR prägt beim Druckminderer 315 die Werksnummer 0315 ein. Grünbeck bittet bei Ersatzteilanfragen um Filtertyp, Filtergröße und Seriennummer vom Typenschild.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/0315_-_Druckminderer_2024-08-16.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Muss ich den ganzen Druckminderer tauschen oder reicht der Einsatz?",
+      "antwort": "Bei den gängigen Geräten reicht der Einsatz, das Gehäuse bleibt in der Leitung. Resideo baut den Ventileinsatz mit Membran und Ventilsitz komplett austauschbar, beim SYR 315 lässt sich die Kartusche ohne Ausbau der Armatur wechseln. Bei Judo heißt das Teil Verschleißteilset „Druckmindererkartusche“, bei Grünbeck Druckmindererkartusche. Sieb und Dichtringe gibt es bei Resideo zusätzlich einzeln.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://documents.pdod.de/resideo/rddb14851.pdf",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/0315_-_Druckminderer_2024-08-16.pdf",
+        "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf"
+      ],
+      "teile": [],
+      "problem": "druckminderer-defekt"
+    },
+    {
+      "frage": "Welcher Ventileinsatz passt in meinen Honeywell D06F oder die HS10S?",
+      "antwort": "Für ½\" und ¾\" ist es bei D06F, D06FH, HS10S und FK06 der D06FA-1/2. Bei 1\" und 1¼\" unterscheiden sich die Geräte: Der D06F und die FK06 brauchen den D06FA-1B, die HS10S und der D06FH den D06FA-1A. Für 1½\" und 2\" gibt es den D06FA-11/2. Der bleifreie D06F-LF (ab 2020) hat eigene Einsätze mit der Endung LF, der D06FI ab 2007 die D06FI-Einsätze. So steht es im Resideo-Ersatzteilkatalog und im Datenblatt des D06F-LF.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf",
+        "https://documents.pdod.de/resideo/rddb14851.pdf",
+        "https://documents.pdod.de/resideo/rddb14918.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welche Druckminderer-Patrone gehört in den SYR Drufi?",
+      "antwort": "Das hängt von der Generation ab. Der alte Drufi DFR hat die Druckmindererpatrone 2315.00.910. Im Drufi+ DFR steckt bis Baujahr 2015 die 2315.01.925, ab 2016 die 2315.01.970. Die 2315.01.970 nennt SYR auch für die Hauswasserstation 2000+. Den alten Drufi erkennst du daran, dass du über einen Kugelhahn zurückspülst, beim Drufi+ drehst du einen Rückspülgriff um 90°.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Drufi+_DFR_2024-01-17.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "In welche Richtung muss ich den Druckminderer drehen, um den Druck zu erhöhen?",
+      "antwort": "Das ist je nach Hersteller verschieden, deshalb gilt das Plus und Minus am Griff. Bei SYR (Drufi+, HWS 2000+) ist im Uhrzeigersinn „–“, gegen den Uhrzeigersinn „+“. Bei Judo (PROMI-QC, BIKO) erhöht Drehen im Uhrzeigersinn den Druck. Bei Resideo D06F entspannt Drehen gegen den Uhrzeigersinn die Feder. Grünbeck schreibt beim pureliQ:RD „links drehen = Druckerhöhung“, beim BOXER RDX „rechts drehen = Druckerhöhung“. Vorher die Sicherungsschraube lösen, danach eine Zapfstelle kurz öffnen und am Manometer ablesen.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+        "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+        "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RDX-3-4-1-1-1-4-Betriebsanleitung.pdf"
+      ],
+      "teile": [],
+      "problem": "druckminderer-defekt"
+    },
+    {
+      "frage": "Welcher Wasserdruck ist hinter dem Druckminderer richtig?",
+      "antwort": "Ab Werk steht der Resideo D06F auf 3 bar, SYR, Judo und Grünbeck auf 4 bar. Der Ruhedruck an den Zapfstellen soll 5 bar nicht übersteigen (TECE, IKZ). Mit einem 6-bar-Sicherheitsventil am Warmwasserspeicher muss der Druck mindestens 20 % darunter liegen, also höchstens 4,8 bar. Außerdem soll der Ausgangsdruck mindestens 1 bar unter dem Eingangsdruck liegen.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://documents.pdod.de/resideo/rddb14851.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+        "https://www.tece.com/sites/default/files/media-documents/main/2024-08/BRO_TECE_Academy_Trinkwasser_Kompakt_DE_DS00100817d_low.pdf",
+        "https://www.ikz.de/uploads/media/1572--Sanitaer.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Hinter dem Druckminderer steigt der Druck langsam an. Ist die Kartusche kaputt?",
+      "antwort": "Nicht unbedingt. SYR nennt als häufigste Ursache den Warmwasserspeicher: Beim Aufheizen drückt der Rückflussverhinderer der Sicherheitsgruppe den Druck nach hinten durch. Bleibt der Anstieg aus, wenn die Heizung des Speichers aus ist, liegt es an der Sicherheitsgruppe. Steigt der Druck auch dann, ist die Patrone verschlissen. Resideo und Judo prüfen das bei geschlossenem Ausgang: Steigt der Druck ohne Entnahme langsam an, ist der Einsatz verschmutzt oder verschlissen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf"
+      ],
+      "teile": [],
+      "problem": "druckminderer-defekt"
+    },
+    {
+      "frage": "An der Federhaube kommt Wasser raus. Was ist defekt?",
+      "antwort": "Laut Resideo ist dann die Membran im Ventileinsatz defekt, und der Ventileinsatz wird komplett gewechselt. So steht es in den Einbauanleitungen zum D06F und zur HS10S.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://documents.pdod.de/resideo/rdma14697.pdf"
+      ],
+      "teile": [],
+      "problem": "druckminderer-defekt"
+    },
+    {
+      "frage": "Wie lange hält ein Druckminderer-Einsatz, und wie oft wird er gewartet?",
+      "antwort": "Druckminderer werden nach DIN EN 806-5 jährlich gewartet, dabei wird der eingestellte Druck geprüft und die Patrone gereinigt oder ersetzt. Judo nennt für das Verschleißteilset Druckmindererkartusche ein Austauschintervall von vier Jahren. Resideo empfiehlt einen Wartungsvertrag mit einem Installationsunternehmen.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.tece.com/sites/default/files/media-documents/main/2024-08/BRO_TECE_Academy_Trinkwasser_Kompakt_DE_DS00100817d_low.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+        "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Darf ich den Druckminderer-Einsatz selbst wechseln?",
+      "antwort": "Die Hersteller ordnen den Tausch dem Fachbetrieb zu. Resideo lässt Montage, Wartung und Justage nur von autorisierten Fachkräften machen, die Instandhaltung von einem Installationsunternehmen. SYR sagt dasselbe für Drufi+ und HWS 2000+, Judo schreibt „Neue Druckmindererkartusche einbauen lassen“, beim BIKO tauscht vom Hersteller autorisiertes Personal. Den ganzen Druckminderer ein- oder ausbauen darf nur ein eingetragenes Installationsunternehmen (§ 12 AVBWasserV).",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+        "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+        "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+        "https://www.gesetze-im-internet.de/avbwasserv/__12.html"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf",
+    "https://documents.pdod.de/resideo/rdma14756.pdf",
+    "https://documents.pdod.de/resideo/rddb14851.pdf",
+    "https://documents.pdod.de/resideo/rddb14918.pdf",
+    "https://documents.pdod.de/resideo/rdma14697.pdf",
+    "https://documents.pdod.de/resideo/rddb14255.pdf",
+    "https://documents.pdod.de/resideo/rdma14256.pdf",
+    "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/0315_-_Druckminderer_2024-08-16.pdf",
+    "https://shop.grueneperlen.com/media/pdf/71/89/03/Drufi_kurz_gebrauchsanleitung.pdf",
+    "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+    "https://www.syr.de/Daten_Produkte/PDF/Datenblatt/Deutsch/2315_-_Drufi+_DFR_2024-01-17.pdf",
+    "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+    "https://www.unidomo.de/tpl/download/Judo_Promi-QC_Betriebsanleitung.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1703311_202201.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1702546_202206.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1703630_202303.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1702367_202112.pdf",
+    "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+    "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+    "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RDX-3-4-1-1-1-4-Betriebsanleitung.pdf",
+    "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+    "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+    "https://www.caleffi.com/sites/default/files/media/external-file/01026_DE.pdf",
+    "https://www.tece.com/sites/default/files/media-documents/main/2024-08/BRO_TECE_Academy_Trinkwasser_Kompakt_DE_DS00100817d_low.pdf",
+    "https://www.ikz.de/uploads/media/1572--Sanitaer.pdf",
+    "https://www.gesetze-im-internet.de/avbwasserv/__12.html",
+    "https://www.wuh24.de/judo-druckmindererkartusche-3-4-1-1-4-fuer-conel-speedy-juko-jpm-filly-gubi/2150026",
+    "https://www.1-2-3bad.de/e-teile-sets/judo-druckmindererkartusche-nr-2150026-passend-zu-juko-1",
+    "https://heizung-billiger.de/401711-judo-verschleissteilset-druckminderer-kartusche-3-4-1-1-4--judo-2150026-4038097016235.html",
+    "https://heizung-billiger.de/474820-syr-sasserath-druckmindererkartusche-zu-den-druckminderern-315-und-315-ab-fur-dn-15-20-einteilig-einstellbereich-15-6-bar-sasserath-031520904-4017905041652.html",
+    "https://www.amazon.de/dp/B00HNSQJX4",
+    "https://www.amazon.de/dp/B00HNSQKBU",
+    "https://www.amazon.de/dp/B00DYSKPZ0",
+    "https://www.amazon.de/dp/B07K7LMHPV",
+    "https://www.amazon.de/dp/B00DY3KLPO",
+    "https://www.haustechnikdialog.de/Forum/t/230111/Hauswasserstation-Honeywell-HS10-Problem-erkennen",
+    "https://www.bauexpertenforum.de/threads/abfallender-nachdruck-an-hauswasserstation-mit-druckminderer.100665/",
+    "https://www.bauexpertenforum.de/goto/post?id=1303651",
+    "https://www.bauexpertenforum.de/goto/post?id=1444259",
+    "https://www.bauexpertenforum.de/goto/post?id=1463211",
+    "https://www.bauexpertenforum.de/goto/post?id=1326174",
+    "https://www.bauexpertenforum.de/threads/wasserdruck-mit-ruecklaufverhinderer.116673/",
+    "https://www.energiesparhaus.at/forum-druckminderer-immer-wieder-kaputt/60616_2"
+  ]
+}
