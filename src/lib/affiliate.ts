@@ -1,4 +1,4 @@
-// Zentrale Behandlung von Affiliate-Links: Amazon und Awin-Partnershops (hagebau.de, Contorion).
+// Zentrale Behandlung von Affiliate-Links: Amazon, Awin-Partnershops (hagebau.de, Contorion) und eBay.
 //
 // Platzierungen: Produktboxen, Textlinks im Artikel, Rechner-Materiallisten, Ersatzteil-Seiten,
 // Shop-Angebote auf den Teile-Seiten und in Kaufberatungen, Armaturen-Vergleich, Neukauf-Hinweis.
@@ -19,6 +19,18 @@ const AWIN_SHOPS: Record<string, string> = {
   "contorion.de": "14578",
   "otto.de": "14336",
   "hagebau.de": "11513",
+};
+
+// eBay Partner Network: Kampagne "hausbau-hero" (die Kampagne "default" gehört zu womo-teile).
+// Parameter wie vom EPN-Linkgenerator für ebay.de; customid erscheint im EPN-Bericht.
+const EBAY_KAMPAGNE = "5339240607";
+const EBAY_DE_PARAMETER: Record<string, string> = {
+  mkcid: "1",
+  mkrid: "707-53477-19255-0",
+  siteid: "77",
+  campid: EBAY_KAMPAGNE,
+  toolid: "10001",
+  mkevt: "1",
 };
 
 // Direkter Zugriff, damit Next.js die Werte beim Build einsetzt.
@@ -68,8 +80,31 @@ export function istHerstellerShop(url: string): boolean {
   }
 }
 
+/** eBay.de-Seite, auf die ein Partnerlink zeigen kann (Produkt, Angebot, Bewertungen, Kategorie; nicht der Blog). */
+export function istEbayUrl(url: string): boolean {
+  try {
+    const u = new URL(url);
+    return /^(www\.)?ebay\.de$/i.test(u.hostname) && !/^\/(blog|help)(\/|$)/i.test(u.pathname);
+  } catch {
+    return false;
+  }
+}
+
 export function istPartnerUrl(url: string): boolean {
-  return isAmazonUrl(url) || istAwinUrl(url);
+  return isAmazonUrl(url) || istAwinUrl(url) || istEbayUrl(url);
+}
+
+// eBay: EPN-Parameter an den Link hängen, customid wie bei Awin "hh-<platzierung>".
+export function mitEbayKampagne(url: string, platzierung: Platzierung): string {
+  if (!istEbayUrl(url)) return url;
+  try {
+    const u = new URL(url);
+    for (const [k, v] of Object.entries(EBAY_DE_PARAMETER)) u.searchParams.set(k, v);
+    u.searchParams.set("customid", `hh-${platzierung}`);
+    return u.toString();
+  } catch {
+    return url;
+  }
 }
 
 // Awin: "clickref" erscheint im Awin-Bericht, so ist dort sichtbar, welche Platzierung verkauft.
@@ -86,6 +121,7 @@ export function mitClickref(url: string, platzierung: Platzierung): string {
 
 export function mitTrackingId(url: string, platzierung: Platzierung): string {
   if (istAwinUrl(url)) return mitClickref(url, platzierung);
+  if (istEbayUrl(url)) return mitEbayKampagne(url, platzierung);
   if (!isAmazonUrl(url)) return url;
   try {
     const u = new URL(url);
@@ -111,11 +147,11 @@ function awinShop(url: string): string | null {
 
 /**
  * Macht aus einem beliebigen externen Link einen Partnerlink, wenn das geht: Amazon-Produktseite mit Tag,
- * Partnershop als Awin-Deeplink, Awin-Link mit clickref. Gibt null zurück, wenn kein Partner dahintersteht.
+ * Partnershop als Awin-Deeplink, Awin-Link mit clickref, eBay mit EPN-Kampagne. Gibt null zurück, wenn kein Partner dahintersteht.
  */
 export function alsPartnerlink(url: string, platzierung: Platzierung): string | null {
   if (istAmazonSuche(url)) return null;
-  if (isAmazonUrl(url) || istAwinUrl(url)) return mitTrackingId(url, platzierung);
+  if (istPartnerUrl(url)) return mitTrackingId(url, platzierung);
   const shop = awinShop(url);
   if (!shop) return null;
   const u = new URL("https://www.awin1.com/cread.php");
@@ -127,7 +163,7 @@ export function alsPartnerlink(url: string, platzierung: Platzierung): string | 
 }
 
 // Externe Links im Artikel-HTML: Amazon-Suchlinks werden zu Text, sonst neuer Tab, rel="sponsored" für Partnerlinks
-// (Amazon und Awin), Tracking-ID für Textlinks. Läuft serverseitig, damit Google die Attribute
+// (Amazon, Awin, eBay), Tracking-ID für Textlinks. Läuft serverseitig, damit Google die Attribute
 // ohne JavaScript sieht.
 export function bereiteArtikelHtmlVor(html: string): string {
   // Amazon-Suchlinks aus alten Beiträgen: Link weg, Text bleibt

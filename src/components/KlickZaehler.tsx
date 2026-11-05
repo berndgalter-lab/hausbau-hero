@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { seitentypVonPfad, slugVonPfad } from "@/lib/seitentyp";
 
 // Zählt Klicks auf Affiliate-Links (rel="sponsored"), ohne die Links umzuleiten:
-// Der Link geht weiter direkt zu Amazon bzw. Awin, parallel geht ein Beacon an /api/klick.
+// Der Link geht weiter direkt zu Amazon, Awin bzw. eBay, parallel geht ein Beacon an /api/klick.
 // Awin-Links bekommen beim Klick Seitenart und Slug (clickref2/3), damit der Awin-Bericht die Seite zeigt.
 export default function KlickZaehler() {
   useEffect(() => {

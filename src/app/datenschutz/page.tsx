@@ -251,7 +251,7 @@ export default function DatenschutzPage() {
         <h3 className="text-lg font-semibold mt-5 mb-2">Affiliate-Links</h3>
         <p className="text-stone-700 leading-relaxed mb-3">
           Bei Klick auf einen Affiliate-Link werden Sie an einen externen
-          Shop (z.B. Amazon.de, hagebau.de oder Contorion) weitergeleitet. Dabei wird ein Cookie des
+          Shop (z.B. Amazon.de, hagebau.de, Contorion oder eBay) weitergeleitet. Dabei wird ein Cookie des
           jeweiligen Shops gesetzt, der den Kauf Ihrer Sitzung zuordnet.
           Rechtsgrundlage ist unser berechtigtes Interesse an der
           Auswertung unserer Affiliate-Einnahmen (Art. 6 Abs. 1 lit. f
@@ -260,7 +260,7 @@ export default function DatenschutzPage() {
         <p className="text-stone-700 leading-relaxed mb-3">
           Zusätzlich zählen wir Klicks auf Affiliate-Links selbst. Dabei
           speichern wir nur die Seite, auf der geklickt wurde, das Ziel
-          (z.B. amazon.de oder awin1.com und den Shop), die Position des Links und den Zeitpunkt –
+          (z.B. amazon.de, ebay.de oder awin1.com und den Shop), die Position des Links und den Zeitpunkt –
           keine IP-Adresse, keine Cookies und keine anderen
           personenbezogenen Daten. Rechtsgrundlage ist unser berechtigtes
           Interesse an der Verbesserung unserer Inhalte (Art. 6 Abs. 1
@@ -333,6 +333,25 @@ export default function DatenschutzPage() {
           </a>
           .
         </p>
+        <h3 className="text-lg font-semibold mt-5 mb-2">eBay Partner Network</h3>
+        <p className="text-stone-700 leading-relaxed mb-3">
+          Links zu eBay.de laufen über das eBay Partner Network. Der Link enthält eine Kennung
+          unserer Website; eBay setzt beim Klick Cookies und nutzt Tracking-Code, um einen Kauf
+          unserer Website zuzuordnen.
+          Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO; unser berechtigtes Interesse ist die
+          Abrechnung der Provision.
+        </p>
+        <p className="text-stone-700 leading-relaxed mb-3">
+          Datenschutzhinweise des eBay Partner Network:{" "}
+          <a
+            href="https://partnernetwork.ebay.com/page/network-agreement#privacy-notice"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent-600 hover:text-accent-700 break-all"
+          >
+            https://partnernetwork.ebay.com/page/network-agreement#privacy-notice
+          </a>
+        </p>
         <h3 className="text-lg font-semibold mt-5 mb-2">Produktbilder</h3>
         <p className="text-stone-700 leading-relaxed mb-3">
           Produktbilder aus den Datenfeeds der Partnershops werden über unseren
@@ -350,7 +369,7 @@ export default function DatenschutzPage() {
           Wir nutzen Vercel Web Analytics, einen cookielosen Analysedienst (siehe Abschnitt 5a).
         </p>
         <p className="text-stone-700">
-          Cookies von Drittanbietern (z.B. Amazon, Awin) werden ausschließlich
+          Cookies von Drittanbietern (z.B. Amazon, Awin, eBay) werden ausschließlich
           beim Klick auf Affiliate-Links gesetzt. Durch den Klick auf
           einen Affiliate-Link erklären Sie sich mit dem Setzen dieser
           Cookies einverstanden.
