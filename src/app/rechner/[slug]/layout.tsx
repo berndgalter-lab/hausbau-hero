@@ -4,6 +4,11 @@ import type { Metadata } from "next";
 
 export const revalidate = 3600;
 
+// Leere Liste: Pfade werden nicht beim Build erzeugt, sondern beim ersten Aufruf gerendert und dann gecacht (ISR).
+export function generateStaticParams() {
+  return [];
+}
+
 async function ladeRechner(slug: string) {
   const { data } = await supabase.from("rechner").select("name, beschreibung").eq("slug", slug).maybeSingle();
   return data;
