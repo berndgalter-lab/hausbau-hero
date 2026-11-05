@@ -160,6 +160,19 @@ export const BEREICHE: Bereich[] = [
     probleme: /dachfenster/,
     ratgeber: ["dachfenster-sonnenschutz"],
   },
+  {
+    // Hauptbereich „Fenster & Türen“, Plan in docs/KEYWORDS-ROLLLADEN.md. Rollläden am Dachfenster (VELUX, Roto)
+    // bleiben beim Dachfenster, deshalb schließt das Problem-Muster „dachfenster-…“ aus.
+    slug: "rollladen",
+    name: "Rollladen",
+    kurz: "Gurt gerissen, Rollladen klemmt, Motor reagiert nicht.",
+    einleitung:
+      "Am Rollladen entscheidet zuerst Mini oder Maxi: Ein 14 mm breiter Gurt und eine SW40-Welle gehören zum Mini-System, ein 23 mm breiter Gurt und eine SW60-Welle zum Maxi-System. Danach richten sich Gurtwickler, Walzenkapsel, Lager und Motor. Gurt, Wickler, Lager, Aufhängung und Handsender tauschst du selbst. Einen Rohrmotor mit 230 V schließt eine Elektrofachkraft an.",
+    produkttypen: ["rollladen", "gurtwickler", "rollladenmotor"],
+    teiltypen: ["rollladengurt", "gurtwickler", "rollladen-welle", "rollladen-aufhaengung", "rollladen-handsender", "rollladenmotor", "rollladen-lamellen"],
+    probleme: /^(?!dachfenster).*(rollladen|rolladen|gurtwickler)/,
+    ratgeber: ["rollladen-elektrisch-nachruesten"],
+  },
 ];
 
 /** Suchwort je Teileart für die Teilesuche (/ersatzteile?q=…), die im Namen sucht. */
@@ -195,6 +208,13 @@ export const TEILTYP_SUCHWORT: Record<string, string> = {
   filtertasse: "Filtertasse",
   "druckminderer-einsatz": "Druckminderer",
   salz: "Salz",
+  rollladengurt: "Gurt",
+  gurtwickler: "Gurtwickler",
+  "rollladen-welle": "Welle",
+  "rollladen-aufhaengung": "Aufhängung",
+  "rollladen-handsender": "Handsender",
+  rollladenmotor: "Rohrmotor",
+  "rollladen-lamellen": "Lamelle",
 };
 
 /** Passt ein Teil in Serien mehrerer Bereiche, zählt der Bereich mit den meisten Serien. */
@@ -254,7 +274,7 @@ export function bereichHatInhalt(b: Bereich, k: { teilarten: number; probleme: n
 export const HAUPTBEREICHE: { slug: string; name: string; bereiche: string[] }[] = [
   { slug: "bad-kueche", name: "Bad & Küche", bereiche: ["waschtisch", "dusche-badewanne", "wc-spuelkasten", "kueche"] },
   { slug: "wasser-waerme", name: "Wasser & Wärme", bereiche: ["wasseranschluss", "wasserfilter", "hebeanlage"] },
-  { slug: "fenster-tueren", name: "Fenster & Türen", bereiche: ["dachfenster"] },
+  { slug: "fenster-tueren", name: "Fenster & Türen", bereiche: ["dachfenster", "rollladen"] },
 ];
 
 export function hauptbereichVon(bereich: string): (typeof HAUPTBEREICHE)[number] | null {
