@@ -162,7 +162,7 @@ export const BEREICHE: Bereich[] = [
   },
   {
     // Hauptbereich „Fenster & Türen“, Plan in docs/KEYWORDS-ROLLLADEN.md. Rollläden am Dachfenster (VELUX, Roto)
-    // bleiben beim Dachfenster, deshalb schließt das Problem-Muster „dachfenster-…“ aus.
+    // bleiben beim Dachfenster, deshalb schließt das Problem-Muster alles mit „dachfenster“ im Slug aus.
     slug: "rollladen",
     name: "Rollladen",
     kurz: "Gurt gerissen, Rollladen klemmt, Motor reagiert nicht.",
@@ -170,7 +170,7 @@ export const BEREICHE: Bereich[] = [
       "Am Rollladen entscheidet zuerst Mini oder Maxi: Ein 14 mm breiter Gurt und eine SW40-Welle gehören zum Mini-System, ein 23 mm breiter Gurt und eine SW60-Welle zum Maxi-System. Danach richten sich Gurtwickler, Walzenkapsel, Lager und Motor. Gurt, Wickler, Lager, Aufhängung und Handsender tauschst du selbst. Einen Rohrmotor mit 230 V schließt eine Elektrofachkraft an.",
     produkttypen: ["rollladen", "gurtwickler", "rollladenmotor"],
     teiltypen: ["rollladengurt", "gurtwickler", "rollladen-welle", "rollladen-aufhaengung", "rollladen-handsender", "rollladenmotor", "rollladen-lamellen"],
-    probleme: /^(?!dachfenster).*(rollladen|rolladen|gurtwickler)/,
+    probleme: /^(?!.*dachfenster).*(rollladen|rolladen|gurtwickler)/,
     ratgeber: ["rollladen-elektrisch-nachruesten"],
     neukauf: {
       ratgeber: "rollladen-elektrisch-nachruesten",
