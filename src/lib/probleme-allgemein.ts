@@ -11,6 +11,8 @@ import dachfensterUndicht from "../../data/probleme/dachfenster-undicht.json";
 import dachfensterKlemmt from "../../data/probleme/dachfenster-klemmt.json";
 import dachfensterRollladenReagiertNicht from "../../data/probleme/dachfenster-rollladen-reagiert-nicht.json";
 import rueckspuelfilterTropft from "../../data/probleme/rueckspuelfilter-tropft.json";
+import enthaertungsanlageFehlermeldung from "../../data/probleme/enthaertungsanlage-fehlermeldung.json";
+import druckmindererDefekt from "../../data/probleme/druckminderer-defekt.json";
 import enthaertungsanlageVerbrauchtKeinSalz from "../../data/probleme/enthaertungsanlage-verbraucht-kein-salz.json";
 
 // Markenübergreifende Problemseiten unter /problem/<slug> (docs/SEITENAUFBAU.md, Abschnitt 4c), z. B.
@@ -61,6 +63,8 @@ const PROBLEME: ProblemAllgemein[] = [
   dachfensterRollladenReagiertNicht as ProblemAllgemein,
   rueckspuelfilterTropft as ProblemAllgemein,
   enthaertungsanlageVerbrauchtKeinSalz as ProblemAllgemein,
+  druckmindererDefekt as ProblemAllgemein,
+  enthaertungsanlageFehlermeldung as ProblemAllgemein,
 ];
 
 export function alleProblemeAllgemein(): ProblemAllgemein[] {

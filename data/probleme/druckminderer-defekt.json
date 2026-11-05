@@ -1,0 +1,208 @@
+{
+  "slug": "druckminderer-defekt",
+  "titel": "Druckminderer defekt",
+  "seo_title": "Druckminderer defekt: Wasserdruck schwankt, steigt nachts an oder Federhaube tropft",
+  "seo_description": "Wasserdruck zu hoch, zu niedrig oder steigt über Nacht, Wasser an der Federhaube, Sicherheitsventil tropft: So liest du das Manometer richtig, stellst den Druckminderer ein und erkennst, wann der Installateur ran muss.",
+  "symptom": "Das Manometer hinter dem Wasserzähler zeigt mehr oder weniger als eingestellt, der Druck steigt über Nacht an oder bricht beim Zapfen stark ein. Manchmal tropft Wasser an der Federhaube des Druckminderers oder am Sicherheitsventil des Warmwasserspeichers, oder es pfeift und brummt in der Leitung.",
+  "bereich": "wasserfilter",
+  "ursachen": [
+    {
+      "ursache": "Sieb oder Filtereinsatz im Druckminderer verschmutzt",
+      "erklaerung": "Der Druck fällt beim Zapfen stark ab oder bleibt nicht konstant. Resideo nennt in der Fehlersuche für D06F und HS10S einen verschmutzten Filtereinsatz als Ursache für zu wenig Druck und für einen schwankenden Hinterdruck. Bei der Hauswasserstation HS10S reicht oft Rückspülen, beim einzelnen Druckminderer wird der Filtereinsatz bei der Instandhaltung gereinigt oder gewechselt.",
+      "haeufigkeit": "häufig",
+      "teilart": "filtereinsatz"
+    },
+    {
+      "ursache": "Ventilsitz oder Dichtscheibe verschmutzt oder verschlissen",
+      "erklaerung": "Der Druck steigt langsam über den eingestellten Wert, obwohl nirgends Wasser läuft, typisch über Nacht. Resideo prüft das so: Ausgang absperren und den Druck bei Nulldurchfluss beobachten, steigt er langsam, ist das Ventil verschmutzt oder defekt. Caleffi schreibt, dass Schmutz am Dichtungssitz Wasser durchsickern lässt. Bei SYR heißt das Verschleiß der Druckminderer-Patrone, sie wird dann getauscht.",
+      "haeufigkeit": "häufig",
+      "teilart": "druckminderer-einsatz"
+    },
+    {
+      "ursache": "Warmwasserspeicher heizt auf und der Druck kann nicht ausweichen",
+      "erklaerung": "Der Druck steigt immer dann, wenn der Speicher heizt. Beim Aufheizen dehnt sich das Wasser aus, der Druckminderer ist dabei geschlossen. SYR sieht die Ursache meist am Rückflussverhinderer der Sicherheitsgruppe vor dem Speicher, Caleffi rät zu einem Ausdehnungsgefäß zwischen Druckminderer und Warmwasserbereiter. Das ist dann kein Defekt am Druckminderer selbst.",
+      "haeufigkeit": "häufig"
+    },
+    {
+      "ursache": "Membran im Ventileinsatz gerissen",
+      "erklaerung": "Wasser tritt an der Federhaube aus, also an dem Teil mit dem Einstellgriff. Resideo nennt in der Fehlersuche für D06F und HS10S genau diese Ursache und wechselt den Ventileinsatz. Bei SYR wird die Membran der Patrone bei der jährlichen Wartung unter kaltem Wasser gereinigt oder die Patrone ersetzt.",
+      "haeufigkeit": "gelegentlich",
+      "teilart": "druckminderer-einsatz"
+    },
+    {
+      "ursache": "Druckminderer falsch eingestellt",
+      "erklaerung": "Der Druck ist dauerhaft zu hoch oder zu niedrig, oder das Sicherheitsventil am Speicher tropft auch ohne Aufheizen. Ab Werk stehen Resideo D06F auf 3 bar, SYR Drufi+ DFR und Grünbeck pureliQ:KD auf 4 bar. Hinter dem Druckminderer soll der Ruhedruck höchstens 80 % des Ansprechdrucks des Sicherheitsventils erreichen, bei einem 6-bar-Ventil also 4,8 bar.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Gerät zu groß, Strömungsgeräusche oder Druckschläge",
+      "erklaerung": "Es schlägt, brummt oder pfeift am Hausanschluss. Resideo nennt schlagende Geräusche bei einem zu großen Druckminderer. Laut IKZ erzeugen Strömungsturbulenzen Resonanzschwingungen, deshalb gehört hinter das Gerät eine gerade Strecke von fünfmal der Nennweite. Caleffi nennt Wasserschläge als einen der Hauptgründe für Fehlfunktionen.",
+      "haeufigkeit": "selten"
+    },
+    {
+      "ursache": "Manometer zeigt falsch",
+      "erklaerung": "Das Manometer passt nicht zu dem, was an der Zapfstelle ankommt, oder der Zeiger bewegt sich beim Einstellen nicht. Grünbeck empfiehlt beim pureliQ:KD, das Manometer nach fünf Jahren zusammen mit Druckminderer und Dichtungen zu wechseln. SYR führt es für den Drufi+ DFR als eigenes Ersatzteil.",
+      "haeufigkeit": "selten"
+    },
+    {
+      "ursache": "Druck vom Versorger zu niedrig",
+      "erklaerung": "Der Druckminderer kann nur Druck wegnehmen. Resideo und SYR verlangen, dass der Eingangsdruck mindestens 1 bar über dem gewünschten Ausgangsdruck liegt. Liegt der Netzdruck zeitweise darunter, erreicht der Ausgang den eingestellten Wert nicht. Schwankungen oberhalb dieser Grenze gleicht der Druckminderer aus, das ist laut IKZ seine Aufgabe.",
+      "haeufigkeit": "selten"
+    }
+  ],
+  "pruefen": [
+    "Lies das Manometer zweimal ab: einmal, wenn nirgends Wasser läuft (Ruhedruck), und einmal bei voll geöffneter Zapfstelle (Fließdruck). So beschreibt Grünbeck die Inspektion, die du als Betreiber alle zwei Monate selbst machen kannst.",
+    "Notier abends den Ruhedruck und lies morgens vor dem ersten Zapfen noch einmal ab. Liegt der Wert dann über dem eingestellten Druck, steigt er bei Nullverbrauch an.",
+    "Schalte die Beheizung des Warmwasserspeichers ab und entnimm etwas Warmwasser. Steigt der Druck danach nicht mehr an, liegt es laut SYR am Rückflussverhinderer der Sicherheitsgruppe. Steigt er weiter, ist der Einsatz des Druckminderers verschlissen.",
+    "Sieh dir das Sicherheitsventil am Speicher an. Während der Speicher aufheizt, tropft dort Ausdehnungswasser, das ist laut Stiebel Eltron normal. Tropft es auch danach noch, sag dem Installateur Bescheid.",
+    "Stell den Druck nur ein, wenn nirgends Wasser läuft, und dreh nach der Beschriftung am Griff. Bei Resideo und Caleffi erhöht Drehen im Uhrzeigersinn den Druck, bei SYR und Grünbeck Drehen gegen den Uhrzeigersinn. Öffne und schließe danach eine Zapfstelle in der Nähe und lies das Manometer erneut ab.",
+    "Ist der Druckminderer Teil einer Hauswasserstation mit Rückspülfilter, spül zuerst zurück. Ein verschmutztes Sieb senkt den Fließdruck und lässt den Hinterdruck schwanken.",
+    "Prüf die Federhaube mit dem Einstellgriff auf Feuchtigkeit. Tritt dort Wasser aus, ist die Membran im Ventileinsatz defekt.",
+    "Schau, ob die Absperrventile vor und hinter dem Druckminderer ganz offen sind und ob der Pfeil auf dem Gehäuse in Fließrichtung zeigt. Resideo nennt beides als Ursache für zu wenig Druck.",
+    "Notier Hersteller, Typ und Anschlussgröße vom Gehäuse. Damit findest du den passenden Einsatz oder die Patrone."
+  ],
+  "fachbetrieb_ab": "Den Druck ablesen, den Druckminderer nach Anleitung einstellen und einen Rückspülfilter spülen kannst du als Betreiber selbst. Austausch des Geräts und Arbeiten am Anschluss sind nach § 12 Abs. 2 AVBWasserV Sache des Wasserversorgers oder eines Installationsunternehmens, das im Installateurverzeichnis eingetragen ist. Auch für den Wechsel von Einsatz, Patrone oder Sieb ziehen die Hersteller die Grenze beim Fachbetrieb: Resideo lässt die Instandhaltung von einem Installationsunternehmen machen, SYR Installation und Wartung nur von einem autorisierten Fachbetrieb, Grünbeck den Druckminderer vom Kundendienst prüfen und ersetzen. In der Federhaube sitzt eine gespannte Druckfeder, die beim Öffnen herausspringen kann. Nach DIN EN 806-5 wird der Druckminderer jährlich geprüft und instandgehalten, Resideo empfiehlt dafür einen Wartungsvertrag. Tropft das Sicherheitsventil auch nach dem Aufheizen, ruf den Installateur. In der Mietwohnung sagst du dem Vermieter Bescheid.",
+  "marken_probleme": [
+    "judo-druckminderer-nachdruck-steigt",
+    "bwt-druckminderer-druck-steigt",
+    "resideo-druckminderer-tropft",
+    "resideo-wasserdruck-steigt"
+  ],
+  "fragen": [
+    {
+      "frage": "Welcher Wasserdruck ist im Einfamilienhaus richtig?",
+      "antwort": "Der Ruhedruck an den Zapfstellen soll 5 bar nicht übersteigen, so steht es in der IKZ. Ab Werk sind Druckminderer meist auf 3 oder 4 bar eingestellt: Resideo D06F auf 3 bar, SYR Drufi+ DFR und Grünbeck pureliQ:KD auf 4 bar. Sitzt am Warmwasserspeicher ein 6-bar-Sicherheitsventil, darf der Ruhedruck höchstens 4,8 bar erreichen. Außerdem muss der Eingangsdruck laut Resideo mindestens 1 bar über dem eingestellten Wert liegen.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.ikz.de/uploads/media/1572--Sanitaer.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "In welche Richtung muss ich den Druckminderer drehen, um den Druck zu erhöhen?",
+      "antwort": "Das hängt vom Hersteller ab, deshalb zuerst auf die Zeichen „+“ und „-“ am Griff schauen. Bei Resideo D06F und HS10S erhöht Drehen im Uhrzeigersinn den Druck, bei Caleffi ebenso. Bei SYR Drufi+ DFR und Hauswasserstation 2000+ ist es umgekehrt: gegen den Uhrzeigersinn ist „+“. Grünbeck schreibt beim pureliQ:KD „links drehen = Druckerhöhung“. Eingestellt wird, wenn kein Wasser läuft, danach eine Zapfstelle kurz öffnen und schließen und am Manometer ablesen.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://documents.pdod.de/resideo/rdma14697.pdf",
+        "https://www.caleffi.com/sites/default/files/media/external-file/01026_DE.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Wasserdruck steigt nachts an. Ist der Druckminderer kaputt?",
+      "antwort": "Nicht unbedingt. Laut SYR kommt der Anstieg meist vom Warmwasserspeicher: Beim Aufheizen dehnt sich das Wasser aus, und der Rückflussverhinderer der Sicherheitsgruppe hält den Druck nicht zurück. Schaltet man die Beheizung ab und der Anstieg bleibt aus, muss dieser Rückflussverhinderer gewartet oder getauscht werden. Steigt der Druck trotzdem, ist der Einsatz des Druckminderers verschlissen. Caleffi empfiehlt gegen den Anstieg beim Aufheizen ein Ausdehnungsgefäß zwischen Druckminderer und Speicher.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.caleffi.com/sites/default/files/media/external-file/01026_DE.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Das Sicherheitsventil am Warmwasserspeicher tropft. Ist der Druckminderer schuld?",
+      "antwort": "Während der Speicher aufheizt, tropft dort Ausdehnungswasser, das ist laut Stiebel Eltron normal. Tropft es nach dem Aufheizen weiter, ist der Ruhedruck oft zu hoch: Er darf höchstens 80 % des Ansprechdrucks erreichen, bei 6 bar also 4,8 bar. Zeigt das Manometer am Druckminderer im Ruhezustand deutlich mehr als eingestellt, ist der Druckminderer ein Verdacht. Im Bauexpertenforum hörte das Tropfen bei einem SYR DFR mit 6 statt 4 bar Ruhedruck nach dem Tausch des Druckminderers auf.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://assets.stiebel-eltron.com/Celum/Docs/Dokument-PDF/DOC-00060815.pdf",
+        "https://www.ikz.de/uploads/media/1572--Sanitaer.pdf",
+        "https://www.bauexpertenforum.de/threads/druckminderer-defekt.120845/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Am Druckminderer tropft es an der Federhaube. Was ist kaputt?",
+      "antwort": "Laut Fehlersuche von Resideo für D06F und HS10S ist dann die Membran im Ventileinsatz defekt, und der Ventileinsatz wird gewechselt. In der Federhaube sitzt eine gespannte Druckfeder, die beim Abschrauben herausspringen kann. Resideo ordnet die Instandhaltung deshalb einem Installationsunternehmen zu.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://documents.pdod.de/resideo/rdma14697.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Mein Druckminderer pfeift, brummt oder schlägt. Woran liegt das?",
+      "antwort": "Schlagende Geräusche kommen laut Resideo von einem zu großen Druckminderer. Die IKZ beschreibt, dass Strömungsturbulenzen Resonanzschwingungen bis zu lauten Geräuschen erzeugen, und verlangt hinter dem Gerät eine gerade Rohrstrecke von fünfmal der Nennweite. Caleffi begrenzt die Fließgeschwindigkeit auf 1 bis 2 m/s gegen Fließgeräusche und nennt Wasserschläge als häufigen Grund für Fehlfunktionen. Das prüft und ändert der Installateur.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://www.ikz.de/uploads/media/1572--Sanitaer.pdf",
+        "https://www.caleffi.com/sites/default/files/media/external-file/01026_DE.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Wasserdruck im Haus ist zu niedrig, obwohl ein Druckminderer verbaut ist. Was kann ich prüfen?",
+      "antwort": "Resideo nennt vier Ursachen: Absperrventile vor oder hinter dem Druckminderer nicht ganz offen, Druckminderer zu niedrig eingestellt, Filtereinsatz verschmutzt oder das Gerät gegen die Fließrichtung eingebaut. Bei einer Hauswasserstation hilft oft schon Rückspülen. Grünbeck rät, Ruhedruck und Fließdruck bei voll geöffneter Zapfstelle abzulesen und den Druckminderer vom Kundendienst prüfen zu lassen, wenn Ventile und Filter in Ordnung sind.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://documents.pdod.de/resideo/rdma14697.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie lange hält ein Druckminderer?",
+      "antwort": "Grünbeck empfiehlt beim pureliQ:KD nach fünf Jahren eine Instandsetzung, bei der Druckminderer, Manometer und Dichtungen gewechselt werden. Resideo und SYR nennen keine Lebensdauer, sondern lassen den Druckminderer nach DIN EN 806-5 jährlich prüfen und bei Bedarf Einsatz oder Patrone reinigen oder ersetzen. Laut IKZ arbeitet ein Druckminderer nur dann dauerhaft, wenn er einmal im Jahr gewartet wird.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.ikz.de/uploads/media/1572--Sanitaer.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Darf ich den Einsatz des Druckminderers selbst wechseln?",
+      "antwort": "Die Hersteller ordnen das dem Fachbetrieb zu: Resideo lässt Wartung und Justage nur von autorisierten Fachkräften und die Instandhaltung von einem Installationsunternehmen machen, SYR Installation und Wartung nur von einem autorisierten Fachbetrieb, Grünbeck den Druckminderer vom Kundendienst ersetzen. Den Druck ablesen und nach Anleitung einstellen darfst du selbst. Den Tausch des ganzen Geräts erlaubt § 12 AVBWasserV nur dem Versorger oder einem eingetragenen Installationsunternehmen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://www.gesetze-im-internet.de/avbwasserv/__12.html"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Welche Druckminderer-Patrone passt in den SYR Drufi+ DFR?",
+      "antwort": "Laut SYR-Ersatzteilliste hat der Drufi+ DFR ab Baujahr 2016 die Druckminderer-Patrone 2315.01.970, bis 2015 die 2315.01.925. Das Manometer hat die Nummer 2315.01.920, die Feder 2315.00.961. Bei der jährlichen Wartung wird die Membran der Patrone unter kaltem Wasser gereinigt oder die Patrone ersetzt.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://documents.pdod.de/resideo/rdma14756.pdf",
+    "https://documents.pdod.de/resideo/rdma14697.pdf",
+    "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+    "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf",
+    "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+    "https://www.caleffi.com/sites/default/files/media/external-file/01026_DE.pdf",
+    "https://www.ikz.de/uploads/media/1572--Sanitaer.pdf",
+    "https://assets.stiebel-eltron.com/Celum/Docs/Dokument-PDF/DOC-00060815.pdf",
+    "https://www.gesetze-im-internet.de/avbwasserv/__12.html",
+    "https://www.bauexpertenforum.de/threads/druckminderer-defekt.120845/"
+  ]
+}

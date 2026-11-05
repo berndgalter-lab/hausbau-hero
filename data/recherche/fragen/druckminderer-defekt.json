@@ -1,0 +1,196 @@
+{
+  "thema": "Druckminderer defekt: Wasserdruck zu hoch, zu niedrig oder schwankend, Druck steigt bei Nullverbrauch (nachts) an, Wasser an der Federhaube, Geräusche, Sicherheitsventil am Warmwasserspeicher tropft, Drehrichtung beim Einstellen",
+  "fragen": [
+    {
+      "frage": "Welcher Wasserdruck ist im Einfamilienhaus richtig?",
+      "kategorie": "pflege",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/hauswasserstation-rueckspuelschutzfilter-druckminderer---wie-richtig-einstellen",
+        "https://www.gutefrage.net/frage/welchen-wassdruck-fuer-wasserhaehne-einstellen",
+        "https://www.gutefrage.net/frage/druckminderer-im-haus",
+        "https://www.bauexpertenforum.de/threads/wasserdruck-mit-ruecklaufverhinderer.116673/"
+      ],
+      "antwort": "IKZ: Ruhedruck an der Entnahmestelle höchstens 5 bar (DIN 1988 Teil 5), Druckminderer meist 1,5 bis 6 bar einstellbar, Standard in der Regel 4 bar. Werkseinstellung Resideo D06F 3 bar, SYR Drufi+ DFR 4 bar, Grünbeck pureliQ:KD 4 bar. Sicherheitsventil am Speicher: Ruhedruck höchstens 80 % des Ansprechdrucks, bei 6 bar also 4,8 bar (IKZ). Resideo: Ausgangsdruck mindestens 1 bar unter Eingangsdruck.",
+      "antwort_quellen": [
+        "https://www.ikz.de/uploads/media/1572--Sanitaer.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf"
+      ]
+    },
+    {
+      "frage": "In welche Richtung muss ich den Druckminderer drehen, um den Druck zu erhöhen?",
+      "kategorie": "pflege",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/ist-das-ein-druckminderer-und-wie-verstellen-ich-den",
+        "https://www.gutefrage.net/frage/welchen-wassdruck-fuer-wasserhaehne-einstellen",
+        "https://www.bauexpertenforum.de/threads/syr-protect-mit-intigrierten-druckminderer-laesst-sich-nicht-einstellen.77537/"
+      ],
+      "antwort": "Herstellerabhängig. Resideo D06F/HS10S: gegen Uhrzeigersinn (-) entspannt die Feder, im Uhrzeigersinn bis zum Sollwert. Caleffi 5360: Uhrzeigersinn erhöht. SYR Drufi+ DFR und HWS 2000+: Uhrzeigersinn = Richtung „-“, gegen Uhrzeigersinn = „+“. Grünbeck pureliQ:KD: links drehen = Druckerhöhung, rechts = Druckreduzierung. Eingestellt wird bei Nullverbrauch, nach jeder Änderung eine Zapfstelle öffnen und schließen (SYR, Grünbeck).",
+      "antwort_quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://documents.pdod.de/resideo/rdma14697.pdf",
+        "https://www.caleffi.com/sites/default/files/media/external-file/01026_DE.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf"
+      ]
+    },
+    {
+      "frage": "Der Druck hinter dem Druckminderer steigt nachts an. Warum?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/51146/Druckminderer-Problem-Hinterdruck-steigt-zu-stark-an",
+        "https://www.haustechnikdialog.de/Forum/t/282943/Druckminderer-Druck-schwankt",
+        "https://www.haustechnikdialog.de/Forum/t/54403/druckanstieg-beim-erzeugen-von-brauchwasser",
+        "https://www.bauexpertenforum.de/threads/druckminderer-defekt.120845/",
+        "https://www.bauexpertenforum.de/threads/druckminderer-immer-wieder-defekt.139959/"
+      ],
+      "antwort": "SYR: meist geschlossener Trinkwassererwärmer, Rückflussverhinderer vor dem TWE fängt die Ausdehnung nicht ab; Test: Beheizung abschalten, tritt der Effekt dann nicht mehr auf, Rückflussverhinderer der Sicherheitsgruppe warten/tauschen, sonst Verschleiß der Druckminderer-Patrone. Caleffi: Ausdehnungsgefäß zwischen Druckminderer und Warmwasserbereiter; Schmutz am Dichtungssitz lässt Wasser durchsickern. Resideo: Ausgang absperren, Druck bei Nulldurchfluss beobachten, langsamer Anstieg = Ventil verschmutzt oder defekt.",
+      "antwort_quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.caleffi.com/sites/default/files/media/external-file/01026_DE.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf"
+      ]
+    },
+    {
+      "frage": "Das Sicherheitsventil am Warmwasserspeicher tropft. Ist der Druckminderer schuld?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/druckminderer-defekt.120845/",
+        "https://www.haustechnikdialog.de/Forum/t/212152/Frischwasser-Sicherheitsventil-tropft",
+        "https://www.haustechnikdialog.de/Forum/t/6986/Sicherheitsventil-tropft-maechtig",
+        "https://www.bauexpertenforum.de/threads/druckminderer-immer-wieder-defekt.139959/"
+      ],
+      "antwort": "Stiebel Eltron STM: Während der Aufheizung tropft Ausdehnungswasser aus dem Sicherheitsventil (normal); tropft es nach Ende der Aufheizung, Fachhandwerker. IKZ: Ruhedruck höchstens 80 % des Ansprechdrucks (6 bar -> 4,8 bar). Bauexpertenforum: SYR DFR auf 4 bar, Ruhedruck 6 bar, Ventil tropfte, nach Tausch des Druckminderers Ruhedruck wieder 4 bar, Tropfen weg.",
+      "antwort_quellen": [
+        "https://assets.stiebel-eltron.com/Celum/Docs/Dokument-PDF/DOC-00060815.pdf",
+        "https://www.ikz.de/uploads/media/1572--Sanitaer.pdf",
+        "https://www.bauexpertenforum.de/threads/druckminderer-defekt.120845/"
+      ]
+    },
+    {
+      "frage": "Am Druckminderer tritt Wasser an der Federhaube aus. Was ist kaputt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/191737/Drufi-tropft",
+        "https://www.haustechnikdialog.de/Forum/t/2203/Druckminderer-defekt-"
+      ],
+      "antwort": "Resideo D06F und HS10S Fehlersuche: Wasseraustritt aus Federhaube = Membrane im Ventileinsatz defekt, Ventileinsatz wechseln. Federhaube enthält Druckfeder, Verletzungsgefahr; Instandhaltung durch Installationsunternehmen.",
+      "antwort_quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://documents.pdod.de/resideo/rdma14697.pdf"
+      ]
+    },
+    {
+      "frage": "Mein Druckminderer pfeift, brummt oder schlägt. Woran liegt das?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/83975/Brummen-in-der-Wassereitung-zu-hoher-Nachdruck-am-Druckminderer",
+        "https://www.bauexpertenforum.de/threads/wasserleitung-quietscht.63832/",
+        "https://www.bauexpertenforum.de/threads/geraeusche-in-der-hauswasserleitung.110359/"
+      ],
+      "antwort": "Resideo D06F: schlagende Geräusche, wenn das Druckminderventil zu groß ist. IKZ: Strömungsturbulenzen erzeugen Resonanzschwingungen bis zu extremer Geräuschentwicklung, deshalb gerade Beruhigungsstrecke von mindestens 5 x DN hinter dem Gerät. Caleffi: Fließgeschwindigkeit 1 bis 2 m/s gegen Fließgeräusche und Verschleiß; Wasserschlag ist einer der Hauptgründe für Fehlfunktionen.",
+      "antwort_quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://www.ikz.de/uploads/media/1572--Sanitaer.pdf",
+        "https://www.caleffi.com/sites/default/files/media/external-file/01026_DE.pdf"
+      ]
+    },
+    {
+      "frage": "Wie lange hält ein Druckminderer?",
+      "kategorie": "pflege",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/druckminderer-immer-wieder-defekt.139959/",
+        "https://www.bauexpertenforum.de/threads/druckminderer-defekt.120845/"
+      ],
+      "antwort": "Grünbeck pureliQ:KD: Instandsetzung nach 5 Jahren, empfohlen Stützgewebe, Manometer, Druckminderer, Dichtungen wechseln. DIN EN 806-5: Druckminderer jährlich prüfen und instandhalten (Resideo, SYR). IKZ: dauerhafte Funktion nur mit jährlicher Wartung und Reinigung.",
+      "antwort_quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.ikz.de/uploads/media/1572--Sanitaer.pdf"
+      ]
+    },
+    {
+      "frage": "Der Wasserdruck im Haus ist zu niedrig, obwohl ein Druckminderer verbaut ist. Was kann ich prüfen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/hauswasserstation-rueckspuelschutzfilter-druckminderer---wie-richtig-einstellen",
+        "https://www.bauexpertenforum.de/threads/abfallender-nachdruck-an-hauswasserstation-mit-druckminderer.100665/",
+        "https://www.bauexpertenforum.de/threads/wasserdruck-laesst-nach.35996/"
+      ],
+      "antwort": "Resideo D06F/HS10S Fehlersuche: Absperrarmaturen nicht ganz offen, Druckminderer nicht auf gewünschten Wert eingestellt, Filtereinsatz/Filtersieb verschmutzt (HS10S: rückspülen), Einbau gegen Durchflussrichtung. Grünbeck pureliQ:KD: Ruhedruck und Fließdruck bei voll geöffneter Entnahmestelle ablesen; zu geringer Druck: Absperrventile, Filterkerze, Druckminderer vom Kundendienst prüfen lassen.",
+      "antwort_quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://documents.pdod.de/resideo/rdma14697.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf"
+      ]
+    },
+    {
+      "frage": "Darf ich den Einsatz oder die Kartusche des Druckminderers selbst wechseln?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/191737/Drufi-tropft",
+        "https://www.bauexpertenforum.de/threads/druckminderer-immer-wieder-defekt.139959/"
+      ],
+      "antwort": "Resideo: Montage, Inbetriebnahme, Wartung und Justage nur durch autorisierte Fachkräfte, Instandhaltung durch Installationsunternehmen. SYR: Installation und Wartung nur durch autorisierten Fachbetrieb. Grünbeck: Druckminderer vom Kundendienst prüfen, einstellen oder ersetzen lassen; Inspektion (Druck ablesen) durch Betreiber. § 12 Abs. 2 AVBWasserV: Errichtung und wesentliche Veränderungen nur durch Versorger oder eingetragenes Installationsunternehmen.",
+      "antwort_quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://www.gesetze-im-internet.de/avbwasserv/__12.html"
+      ]
+    }
+  ],
+  "fakten": [
+    {"fakt": "Resideo D06F (MU0H-1002GE23 R1025): Hinterdruck 1,5–6 bar, voreingestellt 3 bar, Mindestdruckgefälle 1 bar; instandhaltungspflichtig nach DIN EN 806-5, jährlich, durch Installationsunternehmen; Montage, Inbetriebnahme, Wartung, Justage nur autorisierte Fachkräfte. Einstellen: Feder durch Drehen gegen Uhrzeigersinn (-) entspannen, dann auf Sollwert. Inspektion: Ausgang absperren, Hinterdruck bei Nulldurchfluss; langsamer Anstieg = Ventil verschmutzt oder defekt. Fehlersuche: schlagende Geräusche = Druckminderventil zu groß; Wasser aus Federhaube = Ventileinsatz-Membrane defekt; kein/zu wenig Druck = Absperrarmatur, Einstellung, Filtereinsatz verschmutzt, Durchflussrichtung; Druck nicht konstant = Filtereinsatz verschmutzt/verschlissen, Düse oder Dichtscheibe verschmutzt/beschädigt; Druckerhöhung durch Wasserheizgerät = Rückschlagventil, Sicherheitsgruppe prüfen. Federhaube: Druckfeder, Verletzungsgefahr.", "quelle": "https://documents.pdod.de/resideo/rdma14756.pdf"},
+    {"fakt": "Resideo HS10S (MU1H-1101GE23 R0425): Einstellen: gegen Uhrzeigersinn (-) bis Anschlag, dann im Uhrzeigersinn bis Sollwert; Inspektion bei Nulldurchfluss wie D06F; Fehlersuche: Federhaube undicht = Membrane im Ventileinsatz; Hinterdruck nicht konstant = Filtersieb verschmutzt (rückspülen) oder Ventileinsatz, Dichtscheibe, Düsenkante verschmutzt/abgenutzt (Ventileinsatz wechseln); steigender Druck am Ausgang (z. B. Kessel) = Rückschlagventil, Sicherheitsgruppe prüfen.", "quelle": "https://documents.pdod.de/resideo/rdma14697.pdf"},
+    {"fakt": "SYR Drufi+ DFR (9.2315.32 1811): Druckminderer 1,5–6 bar, werkseitig 4 bar; Eingangsdruck mind. 1 bar über Ausgangsdruck; Griff im Uhrzeigersinn bis Anschlag (Richtung „-“), Zapfstelle öffnen und schließen, dann gegen Uhrzeigersinn („+“) bis Sollwert. Patrone jährlich prüfen (DIN EN 806-5), Membrane unter kaltem Wasser reinigen oder ersetzen; Patrone 2315.01.970 (ab 2016), Manometer 2315.01.920. Druckanstieg: geschlossener TWE, Rückflussverhinderer fängt nicht ab; Beheizung aus -> Effekt weg = Rückflussverhinderer der Sicherheitsgruppe; Effekt bleibt = Verschleiß der Patrone. Installation und Wartung nur autorisierter Fachbetrieb.", "quelle": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf"},
+    {"fakt": "SYR Hauswasserstation 2000+: gleiche Einstellanleitung (Uhrzeigersinn „-“, gegen Uhrzeigersinn „+“), werkseitig 4 bar, Eingangs- und Ausgangsmanometer, gleiche Fehlersuche zum Druckanstieg.", "quelle": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2000.05_1615.pdf"},
+    {"fakt": "Caleffi 5360 (Technische Broschüre 01026): Werkseinstellung 3 bar; Einstellschraube im Uhrzeigersinn erhöht, gegen Uhrzeigersinn verringert. Störungssuche: steigender Ausgangsdruck mit Warmwasserbereiter, weil der Druckminderer geschlossen ist -> Ausdehnungsgefäß zwischen Druckminderer und Warmwasserbereiter; Sollwert nicht konstant meist durch Verunreinigungen am Dichtungssitz -> vorgeschalteter Schmutzfänger, Kartusche reinigen/warten. Wasserschlag ist einer der Hauptgründe für Fehlfunktionen. Fließgeschwindigkeit 1–2 m/s gegen Fließgeräusche und Verschleiß. Wartung: Feder entlasten, Kartusche ziehen, reinigen oder ersetzen, neu einstellen.", "quelle": "https://www.caleffi.com/sites/default/files/media/external-file/01026_DE.pdf"},
+    {"fakt": "Grünbeck pureliQ:KD (BA_TD3-AK000de_085): Werkseinstellung Druckminderer 4 bar; links drehen = Druckerhöhung, rechts = Druckreduzierung; Zapfstelle öffnen/schließen, am Manometer ablesen, wiederholen. Inspektion alle 2 Monate durch Betreiber: Ruhedruck (Nulldurchfluss) und Fließdruck bei voll geöffneter Entnahmestelle ablesen. Instandsetzung nach 5 Jahren empfohlen: Stützgewebe, Manometer, Druckminderer, Dichtungen wechseln. Zu geringer Druck: Absperrventile, Filterkerze, Druckminderer vom Kundendienst prüfen/einstellen/ersetzen lassen.", "quelle": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf"},
+    {"fakt": "IKZ-Praxis Druckminderer: Ausgangsdruck üblich 1,5–6 bar einstellbar, Standard meist 4 bar; Ruhedruck an der Entnahmestelle max. 5 bar (DIN 1988 Teil 5); Druckminderer zwingend, wenn Ruhedruck 80 % des Ansprechdrucks des Sicherheitsventils übersteigen kann (6 bar -> 4,8 bar); Strömungsturbulenzen -> Resonanzschwingungen, extreme Geräusche, Beruhigungsstrecke 5 x DN; Filter vorgeschaltet; dauerhafte Funktion nur mit jährlicher Wartung und Reinigung.", "quelle": "https://www.ikz.de/uploads/media/1572--Sanitaer.pdf"},
+    {"fakt": "Stiebel Eltron STM 20/30/40: Während der Aufheizung tropft das Ausdehnungswasser aus dem Sicherheitsventil; tropft nach Beendigung der Aufheizung Wasser, Fachhandwerker informieren; Sicherheitsventil regelmäßig betätigen gegen Festsitzen durch Kalk; je nach Ruhedruck zusätzlich Druckminderventil.", "quelle": "https://assets.stiebel-eltron.com/Celum/Docs/Dokument-PDF/DOC-00060815.pdf"},
+    {"fakt": "§ 12 Abs. 2 AVBWasserV: Errichtung, Erweiterung, Änderung und Unterhaltung der Anlage hinter dem Hausanschluss nur durch das Wasserversorgungsunternehmen oder ein in dessen Installateurverzeichnis eingetragenes Unternehmen.", "quelle": "https://www.gesetze-im-internet.de/avbwasserv/__12.html"}
+  ],
+  "ursachen": [
+    {"ursache": "Sieb/Filtereinsatz verschmutzt", "erkennen": "Fließdruck fällt beim Zapfen stark ab, Druck nicht konstant, zu wenig Druck.", "abhilfe": "Rückspülen (Hauswasserstation) bzw. Filtereinsatz reinigen/wechseln (Instandhaltung).", "quelle": "https://documents.pdod.de/resideo/rdma14697.pdf"},
+    {"ursache": "Ventilsitz, Dichtscheibe oder Düsenkante verschmutzt/verschlissen", "erkennen": "Ruhedruck steigt bei Nullverbrauch langsam über den eingestellten Wert.", "abhilfe": "Einsatz reinigen oder Ventileinsatz/Patrone tauschen.", "quelle": "https://documents.pdod.de/resideo/rdma14756.pdf"},
+    {"ursache": "Erwärmung im geschlossenen Speicher, Rückflussverhinderer/Ausdehnungsgefäß", "erkennen": "Druckanstieg beim Aufheizen, bleibt bei abgeschalteter Beheizung aus.", "abhilfe": "Rückflussverhinderer der Sicherheitsgruppe warten/tauschen, Ausdehnungsgefäß.", "quelle": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1811.pdf"},
+    {"ursache": "Membran im Ventileinsatz gerissen", "erkennen": "Wasser an der Federhaube.", "abhilfe": "Ventileinsatz wechseln (Installateur).", "quelle": "https://documents.pdod.de/resideo/rdma14756.pdf"},
+    {"ursache": "Falsch eingestellt", "erkennen": "Druck dauerhaft zu hoch oder zu niedrig, Sicherheitsventil tropft.", "abhilfe": "Bei Nullverbrauch nach Anleitung einstellen.", "quelle": "https://documents.pdod.de/resideo/rdma14697.pdf"},
+    {"ursache": "Gerät zu groß, Turbulenzen, Wasserschlag", "erkennen": "Schlagen, Brummen, Pfeifen.", "abhilfe": "Installateur, ggf. kleinere Nennweite, Beruhigungsstrecke, Wasserschlagdämpfer.", "quelle": "https://documents.pdod.de/resideo/rdma14756.pdf"},
+    {"ursache": "Manometer zeigt falsch", "erkennen": "Anzeige passt nicht zum Druck an der Zapfstelle.", "abhilfe": "Manometer tauschen (Grünbeck nach 5 Jahren empfohlen).", "quelle": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf"},
+    {"ursache": "Vordruck vom Versorger zu niedrig", "erkennen": "Ausgangsdruck erreicht den Sollwert nicht.", "abhilfe": "Ausgangsdruck mind. 1 bar unter Eingangsdruck einstellen.", "quelle": "https://documents.pdod.de/resideo/rdma14756.pdf"}
+  ],
+  "pruefschritte": [
+    "Ruhedruck bei Nullverbrauch ablesen, dann Fließdruck bei voll geöffneter Zapfstelle (Grünbeck).",
+    "Abends Ruhedruck notieren, morgens vor dem ersten Zapfen wieder ablesen.",
+    "Für die Prüfung des Druckminderers Ausgang absperren und Druck bei Nulldurchfluss beobachten (Resideo).",
+    "Speicherbeheizung abschalten und Warmwasser entnehmen; bleibt der Anstieg aus, liegt es am Rückflussverhinderer der Sicherheitsgruppe (SYR).",
+    "Sicherheitsventil beobachten: tropft es nur beim Aufheizen, normal; danach = Fachhandwerker (Stiebel Eltron).",
+    "Einstellen nur bei Nullverbrauch, Drehrichtung nach Typ (Resideo/Caleffi: Uhrzeigersinn erhöht; SYR/Grünbeck: gegen Uhrzeigersinn erhöht).",
+    "Bei Hauswasserstationen zuerst rückspülen.",
+    "Federhaube auf Wasseraustritt prüfen.",
+    "Typ und Nennweite notieren."
+  ],
+  "fachbetrieb_ab": "Druck ablesen, einstellen und rückspülen: Betreiber (Grünbeck Inspektion, SYR/Resideo Einstellanleitung). Instandhaltung inkl. Sieb- und Einsatzwechsel: Installationsunternehmen (Resideo), autorisierter Fachbetrieb (SYR), Kundendienst (Grünbeck). Gerätetausch und Arbeiten am Anschluss: § 12 Abs. 2 AVBWasserV. Jährliche Instandhaltung nach DIN EN 806-5.",
+  "nicht_belegt": [
+    "Judo: In der aktuellen Anleitung des PROFI-QC (1702283, 2020) steht zum Druckminderer nichts; die Empfehlung „ab 5 bar Druckminderer“ steht nur in der Ausgabe von 2014. Judo deshalb auf der Seite nicht zitiert.",
+    "Pfeifen durch Hinterdruck höher als Vordruck (undichte Rückschlagventile in Brausethermostaten): nur ein Forenbeitrag (bauexpertenforum, Wasserleitung quietscht); nicht übernommen.",
+    "Sicherheitsventil gegen ein 8- oder 10-bar-Ventil tauschen: Forenvorschlag, widerspricht der Auslegung des Speichers; nicht übernommen.",
+    "Konkrete Lebensdauer in Jahren gibt nur Grünbeck an (5 Jahre Instandsetzung); Resideo und SYR nennen nur das jährliche Prüfintervall.",
+    "Einstellwerte aus Foren (2 bar, 3,5–4 bar, bis 6 bar unkritisch) widersprechen sich; auf der Seite nur Hersteller- und IKZ-Werte.",
+    "bau.de-Forenseiten mit generierten Zusammenfassungen und hausbau-forum.de nicht als Beleg genutzt.",
+    "Haustechnikdialog-Beiträge teils nur gekürzt lesbar."
+  ]
+}
