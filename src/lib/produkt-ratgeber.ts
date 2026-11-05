@@ -482,6 +482,63 @@ const DUSCHTHERMOSTAT: ProduktRatgeber = {
   ],
 };
 
+const UNTERPUTZ_DUSCHARMATUR: ProduktRatgeber = {
+  pfad: "unterputz-duscharmatur",
+  slug: "unterputz-duscharmatur",
+  silo: "bad",
+  name: "Unterputz-Duscharmatur",
+  mehrzahl: "Fertigsets",
+  keine: "Keines",
+  frage: "Welches Fertigset passt auf deinen Grundkörper?",
+  fragen: [
+    {
+      key: "grundkoerper",
+      label: "Grundkörper in der Wand",
+      hinweis: "Griff und Rosette abnehmen: Die GROHE SmartBox ist rund mit GROHE-Logo, die erste hansgrohe iBox hat einen achteckigen Rahmen, die iBox 2 einen quadratischen Körper. Bei HANSA steht BLUEBOX auf dem Körper.",
+      optionen: [
+        { label: "GROHE Rapido SmartBox", passt: istSmartBox },
+        { label: "hansgrohe iBox universal (achteckig)", passt: (d) => enthaelt(d.grundkoerper, /iBox universal(?! 2)/i) },
+        { label: "hansgrohe iBox universal 2 (quadratisch)", passt: (d) => enthaelt(d.grundkoerper, /iBox universal 2/i) },
+        { label: "HANSA BLUEBOX", passt: (d) => enthaelt(d.grundkoerper, /BLUEBOX/i) },
+        {
+          label: "GROHE Rapido E oder Rapido T",
+          passt: (d) => enthaelt(d.grundkoerper, /Rapido [ET]\b/),
+          sonst: {
+            text: "Auf die älteren Körper Rapido E und Rapido T passen die Sets für die SmartBox nicht. Du brauchst ein Fertigset mit dem Vermerk „für 35 501 000“ oder „für Rapido T 35 500“.",
+            href: "#fragen",
+            linktext: "Mehr dazu bei den Fragen",
+          },
+        },
+      ],
+    },
+    {
+      key: "brausen",
+      label: "Brausen",
+      hinweis: "Für Kopf- und Handbrause muss der Grundkörper schon zwei Abgänge haben, die zu beiden Brausen verrohrt sind. Das Fertigset allein schafft keinen zweiten Abgang.",
+      optionen: [
+        { label: "Eine Brause", passt: (d) => (typeof d.abgaenge === "number" ? d.abgaenge === 1 : null) },
+        { label: "Kopf- und Handbrause", passt: (d) => (typeof d.abgaenge === "number" ? d.abgaenge >= 2 : null) },
+      ],
+    },
+    {
+      key: "regelung",
+      label: "Regelung",
+      hinweis: "Ein Thermostat hält die Temperatur und sperrt bei 38 oder 40 °C, kostet aber deutlich mehr.",
+      optionen: [
+        { label: "Thermostat", passt: (d) => (d.bauart ? d.bauart === "Thermostat" : null) },
+        { label: "Einhebel", passt: (d) => (d.bauart ? d.bauart === "Einhebel" : null) },
+      ],
+    },
+  ],
+  eckdaten: (d) => [
+    d.grundkoerper ? (istSmartBox(d) ? "GROHE Rapido SmartBox" : d.grundkoerper.replace(/ \(.*\)$/, "")) : null,
+    d.bauart ?? null,
+    typeof d.abgaenge === "number" ? (d.abgaenge >= 2 ? "Kopf- und Handbrause" : "eine Brause") : null,
+    typeof d.sicherheitssperre_c === "number" ? `Sperre bei ${d.sicherheitssperre_c} °C` : null,
+    d.rosette ? `Rosette ${d.rosette}` : null,
+  ],
+};
+
 const cm = (v: number | undefined) => (typeof v === "number" ? (v / 10).toLocaleString("de-DE") : null);
 
 /** Im Lieferumfang, nicht nur als Zubehör: „mit Wandankern“, nicht „ohne Wandanker“. */
@@ -942,6 +999,7 @@ export const PRODUKT_RATGEBER: ProduktRatgeber[] = [
   BADEWANNENARMATUR,
   BADEWANNENARMATUR_UNTERPUTZ,
   DUSCHTHERMOSTAT,
+  UNTERPUTZ_DUSCHARMATUR,
   VORWANDELEMENT,
   DRUECKERPLATTE,
   KLEINHEBEANLAGE,

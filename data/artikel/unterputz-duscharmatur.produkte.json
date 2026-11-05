@@ -1,0 +1,345 @@
+[
+ {
+  "sortierung": 1,
+  "name": "GROHE Eurosmart Einhand-Brausebatterie Unterputz (24042003)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "24042003",
+  "ean": "4005176613616",
+  "einsatzbereich": "Eine Brause, Einhebel, GROHE Rapido SmartBox",
+  "kurzbeschreibung": "Einhebelmischer für eine Brause, mit 46-mm-Keramikkartusche SilkMove. Das günstigste SmartBox-Set in dieser Auswahl.",
+  "vorteile": [
+   "Metallrosette und Metallhebel",
+   "Rosette nach der Montage um 6° drehbar"
+  ],
+  "nachteile": [
+   "Nur ein Abgang, keine Umstellung",
+   "Kein Thermostat, keine Sicherheitssperre"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "bauart": "Einhebel",
+   "grundkoerper": "GROHE Rapido SmartBox (35 600 / 35 604)",
+   "abgaenge": 1,
+   "abgang": "1 Brause, 30 l/min bei 3 bar",
+   "kartusche": "SilkMove 46 mm Keramik",
+   "oberflaechen": [
+    "Chrom"
+   ]
+  }
+ },
+ {
+  "sortierung": 2,
+  "name": "GROHE Grohtherm Thermostat mit 1 Absperrventil Unterputz (24075000)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "24075000",
+  "amazon_asin": "B07J9LMJMX",
+  "ean": "4005176465987",
+  "einsatzbereich": "Eine Brause, Thermostat, GROHE Rapido SmartBox",
+  "kurzbeschreibung": "Thermostat für eine Brause mit TurboStat-Kartusche und einem Keramik-Absperrventil. Rückflussverhinderer und Schmutzfangsiebe sind eingebaut.",
+  "vorteile": [
+   "Sicherheitssperre bei 38 °C",
+   "Rückflussverhinderer eingebaut"
+  ],
+  "nachteile": [
+   "Keine Umstellung, nur eine Brause"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "bauart": "Thermostat",
+   "grundkoerper": "GROHE Rapido SmartBox (35 600 / 35 604)",
+   "abgaenge": 1,
+   "abgang": "1 Brause, 27 bis 30 l/min bei 3 bar",
+   "sicherheitssperre_c": 38,
+   "kartusche": "TurboStat-Kompaktkartusche",
+   "oberflaechen": [
+    "Chrom"
+   ]
+  }
+ },
+ {
+  "sortierung": 3,
+  "name": "GROHE Grohtherm Thermostat mit 2-Wege-Umstellung Unterputz (24076000)",
+  "hersteller": "GROHE",
+  "hersteller_nr": "24076000",
+  "amazon_asin": "B07JVTYXMH",
+  "ean": "4005176465994",
+  "einsatzbereich": "Kopf- und Handbrause, Thermostat, GROHE Rapido SmartBox",
+  "kurzbeschreibung": "Thermostat für Kopf- und Handbrause. Der Aquadimmer-Griff öffnet, regelt die Menge und stellt zwischen den Brausen um.",
+  "vorteile": [
+   "Umstellung Kopf-/Handbrause mit Symbolen",
+   "Sicherheitssperre bei 38 °C"
+  ],
+  "nachteile": [
+   "Teuerstes GROHE-Set in dieser Auswahl"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "bauart": "Thermostat",
+   "grundkoerper": "GROHE Rapido SmartBox (35 600 / 35 604)",
+   "abgaenge": 2,
+   "abgang": "Kopf- und Handbrause mit Umstellung",
+   "sicherheitssperre_c": 38,
+   "kartusche": "TurboStat-Kompaktkartusche",
+   "oberflaechen": [
+    "Chrom"
+   ]
+  }
+ },
+ {
+  "sortierung": 4,
+  "name": "hansgrohe Logis Einhebel-Brausemischer Unterputz für iBox universal (71605000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "71605000",
+  "amazon_asin": "B00KQQ7KJ2",
+  "ean": "4011097737775",
+  "einsatzbereich": "Eine Brause, Einhebel, hansgrohe iBox universal",
+  "kurzbeschreibung": "Einhebelmischer für eine Brause mit einstellbarer Temperaturbegrenzung. Gebaut für die erste iBox universal, auf der iBox 2 mit Adapterplatte.",
+  "vorteile": [
+   "Günstiger Einstieg bei hansgrohe",
+   "Temperaturbegrenzung einstellbar"
+  ],
+  "nachteile": [
+   "Keine Umstellung",
+   "Auf der iBox universal 2 nur mit Adapterplatte 13588000"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "bauart": "Einhebel",
+   "grundkoerper": "hansgrohe iBox universal (iBox universal 2 mit Adapterplatte 13588000)",
+   "abgaenge": 1,
+   "abgang": "1 Brause, 29,3 l/min bei 3 bar",
+   "oberflaechen": [
+    "Chrom"
+   ]
+  }
+ },
+ {
+  "sortierung": 5,
+  "name": "hansgrohe Ecostat E Thermostat Unterputz für 2 Verbraucher (15708000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "15708000",
+  "amazon_asin": "B00NP2E11Y",
+  "ean": "4011097741697",
+  "einsatzbereich": "Kopf- und Handbrause, Thermostat, hansgrohe iBox universal",
+  "kurzbeschreibung": "Thermostat für zwei Brausen auf der ersten iBox universal, mit Sperre bei 40 °C.",
+  "vorteile": [
+   "Sicherheitssperre bei 40 °C",
+   "Passt auf die erste iBox ohne Adapter"
+  ],
+  "nachteile": [
+   "Auf der iBox universal 2 nur mit Adapterplatte 13588000"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "bauart": "Thermostat",
+   "grundkoerper": "hansgrohe iBox universal (iBox universal 2 mit Adapterplatte 13588000)",
+   "abgaenge": 2,
+   "abgang": "Kopf- und Handbrause mit Umstellung",
+   "sicherheitssperre_c": 40,
+   "oberflaechen": [
+    "Chrom"
+   ]
+  }
+ },
+ {
+  "sortierung": 6,
+  "name": "hansgrohe DuoTurn S Mischer Unterputz für 2 Verbraucher (75418000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "75418000",
+  "amazon_asin": "B0CLB5RRTT",
+  "ean": "4059625471470",
+  "einsatzbereich": "Kopf- und Handbrause, Einhebel, hansgrohe iBox universal 2",
+  "kurzbeschreibung": "Mischer mit Keramikkartusche und einem Ventil zum Absperren und Umstellen zwischen zwei Brausen.",
+  "vorteile": [
+   "Günstigste Lösung für zwei Brausen bei hansgrohe in dieser Auswahl",
+   "Rosette ±3° drehbar"
+  ],
+  "nachteile": [
+   "Kunststoffrosette",
+   "Kein Thermostat",
+   "Sicherungskombination nach EN 1717 nur als Zubehör (13077000)"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "bauart": "Einhebel",
+   "grundkoerper": "hansgrohe iBox universal 2",
+   "abgaenge": 2,
+   "abgang": "Kopf- und Handbrause mit Umstellung, 29,5 l/min bei 3 bar",
+   "kartusche": "Keramikkartusche",
+   "rosette": "Kunststoff, ±3° drehbar",
+   "rueckflusssicherung": "nicht enthalten, Zubehör 13077000",
+   "oberflaechen": [
+    "Chrom"
+   ]
+  }
+ },
+ {
+  "sortierung": 7,
+  "name": "hansgrohe Ecostat Comfort E Thermostat Unterputz für 1 Verbraucher (33710000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "33710000",
+  "amazon_asin": "B0F7HRS89S",
+  "ean": "4059625624319",
+  "einsatzbereich": "Eine Brause, Thermostat, hansgrohe iBox universal 2",
+  "kurzbeschreibung": "Thermostat für eine Brause mit vormontiertem Funktionsblock. Die Griffhöhe hängt nicht von der Einbautiefe ab.",
+  "vorteile": [
+   "Sicherheitssperre bei 40 °C",
+   "Metallgriffe, mehrere Oberflächen lieferbar"
+  ],
+  "nachteile": [
+   "Kunststoffrosette",
+   "Passt nur auf die iBox universal 2"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "bauart": "Thermostat",
+   "grundkoerper": "hansgrohe iBox universal 2",
+   "abgaenge": 1,
+   "abgang": "1 Brause, 25,2 l/min bei 3 bar",
+   "sicherheitssperre_c": 40,
+   "rosette": "Kunststoff, ±3° drehbar",
+   "oberflaechen": [
+    "Chrom"
+   ]
+  }
+ },
+ {
+  "sortierung": 8,
+  "name": "hansgrohe Ecostat Comfort E Thermostat Unterputz für 2 Verbraucher (33711000)",
+  "hersteller": "hansgrohe",
+  "hersteller_nr": "33711000",
+  "amazon_asin": "B0F7HSJQKN",
+  "ean": "4059625624258",
+  "einsatzbereich": "Kopf- und Handbrause, Thermostat, hansgrohe iBox universal 2",
+  "kurzbeschreibung": "Thermostat für zwei Brausen mit Tasten-Symbolen. Mit eingebauter Sicherungskombination nach EN 1717 heißt die Variante 33716000.",
+  "vorteile": [
+   "Sicherheitssperre bei 40 °C",
+   "Variante mit Sicherung nach EN 1717 lieferbar"
+  ],
+  "nachteile": [
+   "Kunststoffrosette",
+   "Passt nur auf die iBox universal 2"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "bauart": "Thermostat",
+   "grundkoerper": "hansgrohe iBox universal 2",
+   "abgaenge": 2,
+   "abgang": "Kopf- und Handbrause, je 25,7 l/min bei 3 bar",
+   "sicherheitssperre_c": 40,
+   "rosette": "Kunststoff, ±3° drehbar",
+   "rueckflusssicherung": "nicht enthalten, Variante 33716000",
+   "oberflaechen": [
+    "Chrom"
+   ]
+  }
+ },
+ {
+  "sortierung": 9,
+  "name": "HANSA POLO Sichtteil Unterputz für einen Abgang (80619023)",
+  "hersteller": "HANSA",
+  "hersteller_nr": "80619023",
+  "ean": "4057304022685",
+  "einsatzbereich": "Eine Brause, Einhebel, HANSA BLUEBOX",
+  "kurzbeschreibung": "Einhebelmischer für eine Brause mit Kartusche 4.0 und eckiger Rosette, ohne sichtbare Schrauben befestigt.",
+  "vorteile": [
+   "Rosette ±3,5° drehbar",
+   "Heißwassersperre einstellbar"
+  ],
+  "nachteile": [
+   "Nur 15 l/min bei 3 bar"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "bauart": "Einhebel",
+   "grundkoerper": "HANSA BLUEBOX (80 000 000 / 80 010 000)",
+   "abgaenge": 1,
+   "abgang": "1 Brause, 15 l/min bei 3 bar",
+   "kartusche": "Kartusche 4.0 Classic, Ersatzteil 59914129",
+   "rosette": "eckig, 150 × 150 mm",
+   "oberflaechen": [
+    "Chrom"
+   ]
+  }
+ },
+ {
+  "sortierung": 10,
+  "name": "HANSA BASIC Fertigset Unterputz für zwei Abgänge (80559023)",
+  "hersteller": "HANSA",
+  "hersteller_nr": "80559023",
+  "ean": "4057304022746",
+  "einsatzbereich": "Kopf- und Handbrause, Einhebel, HANSA BLUEBOX",
+  "kurzbeschreibung": "Einhebelmischer mit Drehumsteller für zwei Brausen, Umstellung unabhängig vom Wasserdruck.",
+  "vorteile": [
+   "Einhebel und Umstellung in einem Set",
+   "Rosette ±3,5° drehbar, Heißwassersperre einstellbar"
+  ],
+  "nachteile": [
+   "Keine Sicherung nach EN 1717 im Datenblatt"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "bauart": "Einhebel",
+   "grundkoerper": "HANSA BLUEBOX (80 000 000 / 80 010 000)",
+   "abgaenge": 2,
+   "abgang": "Kopf- und Handbrause mit Drehumsteller, 19,8 / 15 l/min bei 3 bar",
+   "kartusche": "Kartusche 4.0 Classic 59914129, Umstellung 59914183",
+   "rosette": "rund, Ø 170 mm",
+   "oberflaechen": [
+    "Chrom"
+   ]
+  }
+ },
+ {
+  "sortierung": 11,
+  "name": "HANSA EASYTHERM Thermostat Unterputz für zwei Abgänge (88629245)",
+  "hersteller": "HANSA",
+  "hersteller_nr": "88629245",
+  "ean": "4057304022654",
+  "einsatzbereich": "Kopf- und Handbrause, Thermostat, HANSA BLUEBOX",
+  "kurzbeschreibung": "Thermostat für zwei Brausen mit Umstellung, Mengenregelung und Absperrung. Laut Datenblatt mit Sicherung nach EN 1717 (Typ EB).",
+  "vorteile": [
+   "Sicherheitssperre bei 38 °C",
+   "Rückflussverhinderer, EN 1717 Typ EB"
+  ],
+  "nachteile": [
+   "19,2 / 16,8 l/min bei 3 bar, weniger als bei GROHE und hansgrohe"
+  ],
+  "technische_daten": {
+   "kategorie": "dusche",
+   "montage": "Unterputz",
+   "druck": "Hochdruck",
+   "bauart": "Thermostat",
+   "grundkoerper": "HANSA BLUEBOX (80 000 000 / 80 010 000)",
+   "abgaenge": 2,
+   "abgang": "Kopf- und Handbrause mit Umstellung",
+   "sicherheitssperre_c": 38,
+   "kartusche": "Thermostatkartusche 3.4, Ersatzteil 59914114",
+   "rosette": "rund, Ø 170 mm",
+   "rueckflusssicherung": "ja, Typ EB",
+   "oberflaechen": [
+    "Chrom"
+   ]
+  }
+ }
+]

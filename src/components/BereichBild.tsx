@@ -130,6 +130,17 @@ const RATGEBER_ZEICHNUNG: Record<string, React.ReactNode> = {
       <path d="M38 70h18v6h-6" />
     </>
   ),
+  "unterputz-duscharmatur": (
+    <>
+      <rect x="18" y="12" width="60" height="72" rx="2" strokeDasharray="4 4" />
+      <rect x="30" y="40" width="36" height="36" rx="4" />
+      <circle cx="48" cy="58" r="9" />
+      <path d="M48 49v-4" />
+      <path d="M48 12v16" />
+      <path d="M36 28h24" />
+      <path d="M40 32v4M48 32v4M56 32v4" />
+    </>
+  ),
   duschthermostat: (
     <>
       <path d="M14 30h68" />
