@@ -73,6 +73,14 @@ const VERWEISE: Record<string, Verweis[]> = {
     { href: "/problem/hansgrohe-thermostat-wird-nicht-warm", titel: "hansgrohe-Thermostat wird nicht warm", art: "problem" },
     { href: "/ersatzteile/grohe/eurosmart-wannenarmatur", titel: "Ersatzteile für GROHE Eurosmart Wannenbatterie", art: "serie" },
   ],
+  "unterputz-duscharmatur": [
+    { href: "/problem/grohe-thermostat-wird-nicht-warm-kalt", titel: "GROHE-Thermostat wird nicht warm oder nicht kalt", art: "problem" },
+    { href: "/problem/hansgrohe-thermostat-wird-nicht-warm", titel: "hansgrohe-Thermostat wird nicht warm", art: "problem" },
+    { href: "/problem/hansgrohe-armatur-tropft", titel: "hansgrohe-Armatur tropft", art: "problem" },
+    { href: "/ersatzteile/hansgrohe/ecostat-e-s-unterputz", titel: "Ersatzteile für hansgrohe Ecostat E/S Unterputz", art: "serie" },
+    { href: "/ersatzteile/hansgrohe/showerselect-thermostat", titel: "Ersatzteile für hansgrohe ShowerSelect Unterputz-Thermostat", art: "serie" },
+    { href: "/ersatzteile/hansa", titel: "HANSA Ersatzteile: Kartuschen, Thermostate, Umsteller", art: "marke" },
+  ],
   duschthermostat: [
     { href: "/problem/grohe-thermostat-wird-nicht-warm-kalt", titel: "GROHE-Thermostat wird nicht warm oder nicht kalt", art: "problem" },
     { href: "/problem/hansgrohe-thermostat-wird-nicht-warm", titel: "hansgrohe-Thermostat wird nicht warm", art: "problem" },
