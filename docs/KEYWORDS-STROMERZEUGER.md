@@ -41,7 +41,7 @@ Suchbegriffe mit Klicks laut Berichten: „profi stromerzeuger diesel“ (15 / 4
 
 `UMBAUPLAN.md` schätzt für den Stromerzeuger-Bereich rund 1.600 Klicks, fast alle aus 2022. Was diese Klicks verdient haben, steht nicht im Gmail. Die Amazon-Abrechnung vom April 2026 weist 8,40 € für das ganze Partnerkonto aus.
 
-**Nebenbefund `/stromerzeuger`:** Die Middleware lässt `/stromerzeuger` als alten Silo-Pfad durch (`EXCLUDED_PATHS` in `src/middleware.ts`), deshalb greift der 410 aus `redirects` nicht und die Seite `[silo]` liefert 404. Für Google ist das fast dasselbe, 410 wird nur etwas schneller verworfen. Gleiches gilt vermutlich für die anderen alten Silos (`/farben`, `/werkzeuge`, `/rohbau` …). Kleine Korrektur, nicht Teil dieser Prüfung.
+**Nebenbefund `/stromerzeuger`:** Die Middleware lässt `/stromerzeuger` als alten Silo-Pfad durch (`EXCLUDED_PATHS` in `src/middleware.ts`), deshalb greift der 410 aus `redirects` nicht und die Seite `[silo]` liefert 404. Für Google ist das fast dasselbe, 410 wird nur etwas schneller verworfen. Mit diesem PR ist `/stromerzeuger` aus `EXCLUDED_PATHS` entfernt. Die anderen alten Silos (`/farben`, `/werkzeuge`, `/garten`, `/maschinen`) haben keinen Eintrag in `redirects` und liefern weiter 404.
 
 ## 2. Nachfrage
 
@@ -160,7 +160,7 @@ Es gibt keine A- und B-Seiten. Das ist der Kern der Empfehlung.
 
 1. **Weiterleiten nur, wenn es ein passendes Ziel gibt.** Heute gibt es keins. Eine Weiterleitung von „die 13 besten Diesel-Stromerzeuger“ auf den Hebeanlagen-Ratgeber behandelt Google als Soft-404 und schickt Besucher, die einen Generator kaufen wollen, auf eine Seite, die ihnen nichts verkauft. Der 410 ist ehrlicher und räumt den Index schneller.
 2. **Wenn C1 (`/ratgeber/notstrom-haus`) gebaut wird,** dann leiten genau drei alte URLs dorthin um (Statuscode 301 in `redirects`): `/stromerzeuger`, `/stromerzeuger-hausbau`, `/stromerzeuger/stromerzeuger-vergleich`. Die Marken- und Diesel/Benzin-Listen bleiben 410, weil ihre Leser ein bestimmtes Gerät suchen.
-3. **Kleine Korrektur unabhängig davon:** `/stromerzeuger` liefert wegen `EXCLUDED_PATHS` 404 statt 410 (Abschnitt 1). Gleiches bei den anderen alten Silo-Pfaden prüfen.
+3. **Kleine Korrektur, in diesem PR erledigt:** `/stromerzeuger` lieferte wegen `EXCLUDED_PATHS` 404 statt 410 (Abschnitt 1).
 4. **Search-Console-Export anfordern** (Abschnitt 6). Er ist die einzige Zahl, die die Empfehlung kippen könnte.
 
 ### Vorschlag für `BEREICHE-REIHENFOLGE.md`
