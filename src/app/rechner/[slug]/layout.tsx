@@ -2,6 +2,8 @@ import { supabase } from "@/lib/supabase";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
+export const revalidate = 3600;
+
 async function ladeRechner(slug: string) {
   const { data } = await supabase.from("rechner").select("name, beschreibung").eq("slug", slug).maybeSingle();
   return data;

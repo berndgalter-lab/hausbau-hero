@@ -3,6 +3,8 @@ import { supabase } from "@/lib/supabase";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
+export const revalidate = 3600;
+
 // "finanzen" ist seit dem Umbau auf Bad & Sanitär entfernt (keine Seiten mehr).
 const VALID_SILOS = ["farben", "bad", "rohbau", "boden", "werkzeuge", "stromerzeuger", "kueche", "garten", "maschinen", "fenster"];
 

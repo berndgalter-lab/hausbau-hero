@@ -18,7 +18,7 @@ import { PRODUKT_RATGEBER, ratgeberNachPfad } from "@/lib/produkt-ratgeber";
 // kurze Antwort, Auswahlhilfe mit Bild und Kaufzeile je Modell, kurzer Erklärteil, Datenblätter,
 // Ersatzteile, häufige Fragen, Quellen. Keine Einzelabschnitte je Modell, keine Abzeichen.
 
-export const revalidate = 0;
+export const revalidate = 3600;
 
 const BASIS = "https://hausbau-hero.de";
 

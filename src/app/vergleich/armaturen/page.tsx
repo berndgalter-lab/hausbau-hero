@@ -13,7 +13,7 @@ import ArmaturenVergleich, { type VergleichsProdukt } from "@/components/Armatur
 // technische_daten.kategorie (src/lib/armatur-daten.ts), Preise und Bilder kommen aus ean_angebote.
 
 // Wie die Artikelseiten: immer frisch aus Supabase (der Client lädt ohnehin ohne Cache).
-export const revalidate = 0;
+export const revalidate = 3600;
 
 const TITEL = "Badarmaturen im Vergleich: Maße, Druck und Preise";
 

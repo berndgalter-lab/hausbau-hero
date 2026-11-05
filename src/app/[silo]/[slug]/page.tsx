@@ -8,7 +8,7 @@ import { mitAnkern, zerlegeArtikel, type Gliederungspunkt } from "@/lib/artikel-
 import { ratgeberNachSlug, weiterleitungsZiel } from "@/lib/produkt-ratgeber";
 import { AffiliateHinweis, ArtikelPfad, ArtikelRahmen, HaeufigeFragen, KaputtVerweise, KurzeAntwort, Pruefvermerk, Quellen } from "@/components/Ratgeber";
 
-export const revalidate = 0;
+export const revalidate = 3600;
 
 export async function generateMetadata({ params }: { params: { silo: string; slug: string } }): Promise<Metadata> {
   const { data: seite } = await supabase

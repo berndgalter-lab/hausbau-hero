@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { supabase } from "@/lib/supabase";
+import { seitentypVonPfad } from "@/lib/seitentyp";
 
 // Nimmt Klicks auf Affiliate-Links entgegen (navigator.sendBeacon aus KlickZaehler).
 // Alles wird streng geprüft: Nur bekannte Werte und saubere Pfade landen in der Tabelle.
@@ -52,6 +53,8 @@ export async function POST(req: NextRequest) {
 
   const { error } = await supabase.from("affiliate_klicks").insert({
     pfad,
+    // Aus dem Pfad berechnet, nicht vom Browser übernommen
+    seitentyp: seitentypVonPfad(pfad),
     ziel_host: host,
     platzierung,
     kennung: sauberKennung(body.kennung),
