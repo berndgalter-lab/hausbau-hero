@@ -127,23 +127,6 @@
     "problem": null
    },
    {
-    "frage": "Welchen Selve-Motor brauche ich für eine SW40- oder SW60-Welle?",
-    "antwort": "In die Mini-Welle SW40 gehört ein Motor der Baureihe 1 mit 35 mm, etwa SE Pro 1/10, die Adapter für SW40 liegen bei. In die SW60-Welle gehört Baureihe 2 mit 45 mm plus Adapterset. Das Drehmoment richtet sich nach dem Rollladengewicht: Selve gibt für 10 Nm 25 kg bei 1,5 m und 20 kg bei 2,5 m Höhe an, für 20 Nm 45 und 37 kg.",
-    "kategorie": "kompatibilitaet",
-    "quellen": [
-     "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
-     "https://www.selve.de/home/produkte/antriebe/se-plus/sw10016/",
-     "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf"
-    ],
-    "teile": [
-     "selve-se-pro-1-10-410240",
-     "selve-se-pro-2-10-412130",
-     "selve-se-pro-2-20-412170",
-     "selve-adapterset-sw60-baureihe-2"
-    ],
-    "problem": null
-   },
-   {
     "frage": "Wie stelle ich die Endlagen an meinem Selve SE Pro ohne Einstellkabel ein?",
     "antwort": "Der SE Pro steht ab Werk im automatischen Modus, dafür reicht ein normaler Rollladenschalter. Fahr nach oben gegen den Anschlag und halte den Schalter, dann fährt der Motor selbst nach unten bis zum unteren Anschlag und speichert beide Endlagen. Oben braucht es einen stabilen Anschlag, unten eine Begrenzung wie die Fensterbank. Feste Punkte, etwa mit Hochschiebesicherung, gehen nur mit dem Einstellschalter 290103 oder 291009.",
     "kategorie": "reparatur",

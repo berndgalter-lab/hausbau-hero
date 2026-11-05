@@ -70,7 +70,9 @@
     "schellenberg-elektrischer-gurtwickler-stoppt",
     "somfy-rollladen-reagiert-nicht",
     "somfy-rollladen-reset",
-    "somfy-rollladen-handsender-anlernen"
+    "somfy-rollladen-handsender-anlernen",
+    "selve-rollladen-reagiert-nicht",
+    "selve-rollladen-stoppt-von-selbst"
   ],
   "fragen": [
     {

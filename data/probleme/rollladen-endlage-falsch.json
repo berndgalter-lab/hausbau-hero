@@ -61,7 +61,8 @@
   "fachbetrieb_ab": "Endlagen mit dem eingelernten Handsender neu einstellen oder nachjustieren machst du selbst, so beschreiben es Somfy für den Oximo io, Selve für commeo und Heim & Haus für seine Funk-Rollläden. Bei Stellschrauben und Einstelltastern am Motorkopf sind die Anleitungen nicht einig. Schellenberg richtet die Anleitung der STANDARD-Rohrmotoren an Kunden und beschreibt die Korrektur über die Einstellschraube, Arbeiten an der elektrischen Anlage verlangt sie von zugelassenen Elektrofachkräften. Selve beschreibt beim TR das Einstellen mit der beiliegenden Einstellhilfe und verlangt nur für den Anschluss Elektrofachpersonal. Somfy nennt beim LT 50 für „obere oder untere Endlage wird nicht erreicht“ Fachpersonal als zuständig, Errichten, Prüfen, Inbetriebnahme und Fehlerbehebung soll eine Elektrofachkraft machen. Rademacher lässt Montage, Anschluss und Wartung der RolloTube Basis nur von einer sachkundigen Person mit passender Ausbildung oder einem Rollladenfachbetrieb machen. Becker lässt alle Arbeiten an Elektroinstallation und Anlage von Fachpersonal machen. Einstellkabel und Einstellsets werden an die Motoradern geklemmt, das ist Arbeit am 230-V-Netz und gehört zur Elektrofachkraft, ebenso Motor ausbauen, tauschen, Schalter, Relais und Leitungen. Kommst du an die Stellschrauben nur über eine Leiter oder außen am Vorbaurollladen heran, holst du den Rollladenfachbetrieb.",
   "marken_probleme": [
     "schellenberg-rollladenmotor-endlage-verstellt",
-    "somfy-rollladen-endlagen-einstellen"
+    "somfy-rollladen-endlagen-einstellen",
+    "selve-rollladen-endlagen-einstellen"
   ],
   "fragen": [
     {
