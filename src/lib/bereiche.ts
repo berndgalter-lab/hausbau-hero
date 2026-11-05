@@ -124,7 +124,7 @@ export const BEREICHE: Bereich[] = [
     name: "Wasserfilter & Enthärtung",
     kurz: "Rückspülfilter tropft, Filtereinsatz gesucht, Anlage zieht kein Salz.",
     einleitung:
-      "Direkt hinter dem Wasserzähler sitzen Hauswasserfilter, Druckminderer und, wo vorhanden, die Enthärtungsanlage. Rückspülen, Filtereinsatz und Dichtungen tauschen und Salz nachfüllen ist Sache des Betreibers. Welcher Einsatz passt, hängt an Gerät, Nennweite und Baujahr. Einbau und Arbeiten am Anschluss macht ein eingetragener Installateur, am Steuerventil der Enthärtungsanlage der Kundendienst.",
+      "Direkt hinter dem Wasserzähler sitzen Hauswasserfilter, Druckminderer und, wo vorhanden, die Enthärtungsanlage. Rückspülen und Salz nachfüllen ist Sache des Betreibers, ob du Filtereinsatz und Dichtungen selbst tauschst, regelt die Anleitung des Herstellers. Welcher Einsatz passt, hängt an Gerät, Nennweite und Baujahr. Einbau und Arbeiten am Anschluss macht ein eingetragener Installateur, am Steuerventil der Enthärtungsanlage der Kundendienst.",
     produkttypen: ["rueckspuelfilter", "hauswasserstation", "druckminderer", "enthaertungsanlage"],
     teiltypen: ["filtereinsatz", "filtertasse", "druckminderer-einsatz", "salz"],
     probleme: /rueckspuelfilter|hauswasserfilter|enthaertung|druckminderer|wasserdruck/,

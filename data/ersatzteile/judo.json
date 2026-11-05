@@ -1,0 +1,1582 @@
+{
+ "marke": {
+  "slug": "judo",
+  "name": "Judo",
+  "beschreibung": "Judo Wasseraufbereitung aus Winnenden baut Rückspülfilter (PROFI-QC, PROFI-PLUS), Hauswasserstationen mit Druckminderer (PROMI-QC, BIKO, GUBI-E, JUKO-EC), Wechselfilter wie den HELVETIA und Enthärtungsanlagen der Reihen i-soft und SOFTwell.\n\nGesucht werden vor allem der passende Siebeinsatz, Dichtungssätze und die Druckminderer-Kartusche, dazu Hilfe, wenn der Filter nach dem Rückspülen tropft oder die i-soft eine Störung meldet. Bei Judo sind die Ersatzteile als Sets mit siebenstelliger Bestellnummer aufgeführt, etwa 2150026 für die Kartusche. Rückspülen, Salz nachfüllen und den Druck kontrollieren ist deine Aufgabe als Betreiber. Den Tausch von Teilen ordnet Judo dem Fachpersonal zu, bei der Enthärtungsanlage ausdrücklich dem Kundendienst.",
+  "nummer_hinweis": "Welches Teil passt, hängt bei Judo am Gerätenamen und an der Anschlussgröße. Beides steht auf dem Typenschild am Gerät und in der Anleitung: eine Kurzbezeichnung wie JPF-QC (PROFI-QC), JPM-QC (PROMI-QC) oder JGB-E (GUBI-E), dazu die Nennweite in Zoll, etwa ¾\", 1\" oder 1¼\", und eine siebenstellige Bestellnummer des Geräts, die mit 8 beginnt, zum Beispiel 8010219 für den JPF-QC 1\".\n\nDie Nennweite ist wichtig, weil Judo kleine und große Geräte getrennt führt. Ein PROFI-QC ¾\" bis 1¼\" braucht ein anderes Siebeinsatz-Set als ein PROFI-QC 1½\" bis 2\". Ersatzteile haben ebenfalls siebenstellige Nummern, meist mit 20, 21 oder 22 vorne.\n\nBei der i-soft safe klebt ein Etikett mit Geräte-Nummer und Auftrags-Nummer neben dem Etikett für das Einbaudatum, das beim Einbau unter der Abdeckhaube ausgefüllt wird. Bei der i-soft SAFE+ sitzt das Typenschild seitlich am Gerät, mit QR-Code und 14-stelliger Geräte-ID. Diese Nummern will der Kundendienst wissen.\n\nOhne Typenschild hilft die Anleitung: Judo legt sie jedem Gerät bei, und hinten im Kapitel „Ersatzteile“ stehen die Sets mit Nummer. Wenn die Anleitung fehlt, zählt der Gerätename auf der Frontabdeckung und das Gewinde am Anschluss.",
+  "ersatzteil_garantie": "Judo knüpft die gesetzliche Gewährleistung an den Betrieb: Rückspülfilter und Hauswasserstationen müssen regelmäßig rückgespült werden, bei der Enthärtungsanlage verlangt Judo eine Inspektion mindestens alle zwei Monate und eine Wartung durch das Fachhandwerk oder den Hersteller mindestens halbjährlich. Judo empfiehlt dafür einen Wartungsvertrag.\n\nEine Frist, wie lange es Ersatzteile gibt, nennt Judo nicht. Die Anleitungen geben aber für jedes Verschleißteil ein Austauschintervall an, etwa vier Jahre für die Druckminderer-Kartusche und ein Jahr für Leitwert-Sensor und Ansaugsieb der i-soft. Judo schreibt Original-Ersatzteile vor, sonst gelten die Prüfzeichen auf dem Gerät nicht mehr.",
+  "hersteller_ersatzteil_url": "https://judo.eu/en/service/download-area/user-manuals/",
+  "quellen": [
+   "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+   "https://assets.heizung-billiger.de/documents/jdis1702544_202201.pdf",
+   "https://www.unidomo.de/tpl/download/Judo_JPF-QC_Betriebsanleitung.pdf",
+   "https://judo.eu/app/downloads/files/en/8010072/manuals/1701582_202201.pdf",
+   "https://judo.eu/en/produkt/judo-profi-plus-%C2%BE-1%C2%BC-filtre-de-protection-a-retrolavage-version-manuelle/",
+   "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+   "https://www.unidomo.de/tpl/download/Judo_jpm-qc-at_Betriebsanleitung.pdf",
+   "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+   "https://www.manualslib.com/manual/1497170/Judo-Gubi-E.html?page=19",
+   "https://assets.heizung-billiger.de/documents/jdis1702367_202112.pdf",
+   "https://judo.eu/en/produkt/judo-helvetia-cartridge-filter-with-screw-connection-mhf-%C2%BE-1%C2%BC/",
+   "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+   "https://www.unidomo.de/tpl/download/Judo_i-soft-plus_Betriebsanleitung.pdf",
+   "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+   "https://assets.heizung-billiger.de/documents/jdis1702913_202108.pdf",
+   "https://judo.eu/ftp-upload/PL/EN/Art-Nr_1931505_JUDO_Export_Catalogue_2026.pdf",
+   "https://www.gesetze-im-internet.de/avbwasserv/__12.html",
+   "https://www.haustechnikdialog.de/Forum/t/220625/Conel-Judo-Rueckspuelfilter-Siebeinsatz-gereinigt-schnelle-Verschmutzung",
+   "https://www.gutefrage.net/frage/wasserenthaertungsanlage---wartung"
+  ],
+  "tabellen": [
+   {
+    "id": "filter-teile",
+    "titel": "Welches Siebeinsatz-Set, welcher Dichtungssatz, welche Kartusche?",
+    "spalten": [
+     "Gerät",
+     "Kurzbezeichnung",
+     "Siebeinsatz bzw. Filtereinsatz",
+     "Dichtungen",
+     "Druckminderer-Kartusche"
+    ],
+    "zeilen": [
+     [
+      "PROFI-QC ¾\" bis 1¼\"",
+      "JPF-QC",
+      "2020819 (Anleitung 2014: 2020722)",
+      "2010335",
+      "keine"
+     ],
+     [
+      "PROFI-QC 1½\" bis 2\"",
+      "JPF-QC",
+      "2020821",
+      "2010337",
+      "keine"
+     ],
+     [
+      "PROFI-PLUS ¾\" bis 1¼\"",
+      "JPF+",
+      "2021359 (versilbert)",
+      "2010335",
+      "keine"
+     ],
+     [
+      "PROMI-QC ¾\" bis 1¼\"",
+      "JPM-QC",
+      "2020819",
+      "2010335",
+      "2150026"
+     ],
+     [
+      "PROMIMAT-QC ¾\" bis 1¼\"",
+      "JPM-QC-AT",
+      "2020722",
+      "2010335",
+      "2150026"
+     ],
+     [
+      "BIKO ¾\" bis 1\"",
+      "BIKO",
+      "2170606",
+      "2070334",
+      "2150026"
+     ],
+     [
+      "GUBI-E ¾\" bis 1¼\"",
+      "JGB-E",
+      "siehe Anleitung",
+      "siehe Anleitung",
+      "2150026"
+     ],
+     [
+      "JUKO-EC 1½\" bis 2\"",
+      "JUKO-EC",
+      "2170565",
+      "2170561 (mit Spülventil)",
+      "2170567"
+     ],
+     [
+      "HELVETIA ½\" bis 1¼\"",
+      "MHF",
+      "EHF 100 (8080030)",
+      "im Einsatz enthalten",
+      "keine"
+     ]
+    ],
+    "hinweis": "Nummern aus den Ersatzteillisten der Judo-Anleitungen. Maßgeblich ist die Anleitung, die zu deinem Gerät gehört; Judo hat Sets zwischen den Ausgaben gewechselt. Siebeinsatz-Sets haben ein Austauschintervall von drei Jahren, Dichtungssätze und Kartuschen von vier Jahren."
+   },
+   {
+    "id": "enthaertung-teile",
+    "titel": "Verschleißteile der Judo-Enthärtungsanlagen",
+    "spalten": [
+     "Anlage",
+     "Leitwert-Sensor und Ansaugsieb",
+     "Druckregler",
+     "Injektor"
+    ],
+    "zeilen": [
+     [
+      "i-soft safe",
+      "2201382 (jährlich)",
+      "2200582 (alle 4 Jahre)",
+      "2201470"
+     ],
+     [
+      "i-soft plus",
+      "2201382 (jährlich)",
+      "2200582 (alle 4 Jahre)",
+      "2201470"
+     ],
+     [
+      "i-soft SAFE+",
+      "2201382 (jährlich)",
+      "2200582 (alle 4 Jahre)",
+      "2201470"
+     ],
+     [
+      "SOFTwell K",
+      "Ansaugsieb 2201270 (alle 2 Jahre)",
+      "2200582 (alle 4 Jahre)",
+      "2201470"
+     ]
+    ],
+    "hinweis": "Diese Teile tauscht laut Judo der Kundendienst oder eine konzessionierte Person. Die Nummern helfen dir, beim Kundendienst gezielt nachzufragen. Salz nachfüllen ist deine Aufgabe."
+   }
+  ],
+  "fragen": [
+   {
+    "frage": "Wo finde ich an meinem Judo-Rückspülfilter die Angaben für das richtige Ersatzteil?",
+    "antwort": "Auf dem Typenschild am Gerät und in der Anleitung stehen Kurzbezeichnung, Nennweite und Bestellnummer, etwa JPF-QC 1\" mit 8010219. Die Nennweite entscheidet mit: Der PROFI-QC ¾\" bis 1¼\" braucht andere Sets als der 1½\" bis 2\". Die Ersatzteilliste mit den Set-Nummern steht hinten in der Anleitung.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+     "https://assets.heizung-billiger.de/documents/jdis1702544_202201.pdf"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Wo steht die Gerätenummer meiner Judo i-soft?",
+    "antwort": "Bei der i-soft safe klebt ein Etikett mit Geräte-Nummer und Auftrags-Nummer am Gerät, daneben das Etikett mit dem Einbaudatum, das beim Einbau unter der Abdeckhaube ausgefüllt wird. Bei der i-soft SAFE+ sitzt das Typenschild seitlich, mit QR-Code und 14-stelliger Geräte-ID. Judo bittet, bei jeder Anfrage Geräte- und Auftragsnummer anzugeben.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+     "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf"
+    ],
+    "teile": [],
+    "problem": "judo-enthaertungsanlage-fehler"
+   },
+   {
+    "frage": "Welcher Siebeinsatz passt in meinen Judo PROFI-QC?",
+    "antwort": "Für den PROFI-QC ¾\" bis 1¼\" nennt die Anleitung von 2022 das Set 2020819, die ältere Anleitung von 2014 das Set 2020722. Der PROFI-QC 1½\" und 2\" braucht das Set 2020821. Die Sets enthalten Siebeinsatz 0,1 mm und Saugrohr, Judo nennt drei Jahre als Austauschintervall.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+     "https://www.unidomo.de/tpl/download/Judo_JPF-QC_Betriebsanleitung.pdf",
+     "https://assets.heizung-billiger.de/documents/jdis1702544_202201.pdf"
+    ],
+    "teile": [
+     "judo-siebeinsatz-set-2020819",
+     "judo-siebeinsatz-set-2020722",
+     "judo-siebeinsatz-set-2020821"
+    ],
+    "problem": "judo-rueckspuelfilter-wasserdruck-laesst-nach"
+   },
+   {
+    "frage": "Passt der Judo-Filtereinsatz EHF 100 in meinen Rückspülfilter?",
+    "antwort": "Nein. Der EHF 100 (8080030) ist der Wechseleinsatz für den HELVETIA-Filter MHF ½\" bis 1¼\". Rückspülfilter und Hauswasserstationen wie PROFI-QC, PROMI-QC oder BIKO haben einen festen Siebeinsatz, den Judo als Set mit Saugrohr führt. Den EHF 100 liefert Judo im Zweierpack.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://judo.eu/en/produkt/judo-helvetia-cartridge-filter-with-screw-connection-mhf-%C2%BE-1%C2%BC/",
+     "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+     "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf"
+    ],
+    "teile": [
+     "judo-filtereinsatz-ehf-100-8080030",
+     "judo-siebeinsatz-set-2020819",
+     "judo-siebeinsatz-set-2170606"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Welche Druckminderer-Kartusche passt in meine Judo-Hauswasserstation?",
+    "antwort": "Die Stationen in ¾\" bis 1¼\" nutzen die Kartusche 2150026: PROMI-QC, PROMIMAT-QC, BIKO und GUBI-E, laut Händler auch JUKO und JSP. Die große JUKO-EC 1½\" und 2\" braucht die Kartusche 2170567. Judo nennt vier Jahre als Austauschintervall.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+     "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+     "https://assets.heizung-billiger.de/documents/jdis1702367_202112.pdf",
+     "https://www.ebay.de/p/20026287391"
+    ],
+    "teile": [
+     "judo-druckminderer-kartusche-2150026",
+     "judo-druckminderer-kartusche-2170567"
+    ],
+    "problem": "judo-druckminderer-nachdruck-steigt"
+   },
+   {
+    "frage": "Mein Judo-Rückspülfilter tropft nach dem Rückspülen. Was kann ich tun?",
+    "antwort": "Judo nennt als Ursache Schmutz im Spülventil. Spül noch einmal zurück und dreh das Handrad danach im Uhrzeigersinn bis zum Anschlag zu. Tropft es an der Filterglocke, sind die Dichtungen defekt; hat die Glocke Haarrisse, schließ die Absperrventile und lass sie sofort tauschen.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+     "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf"
+    ],
+    "teile": [
+     "judo-dichtungssatz-2010335",
+     "judo-filterglocke-2010424"
+    ],
+    "problem": "judo-rueckspuelfilter-tropft"
+   },
+   {
+    "frage": "Was bedeuten Störung 1, 2, 3 und 4 bei der Judo i-soft?",
+    "antwort": "Störung 1 heißt Antrieb defekt, Störung 2 Behälter überfüllt oder undicht, Störung 3 Zeitüberschreitung beim Nachfüllen, meist weil die Wasserzufuhr zu ist, und Störung 4 Wasserstopp defekt. Judo rät, das Netzgerät auszustecken und nach 5 Sekunden wieder einzustecken. Kommt die Meldung wieder, ist der Kundendienst dran.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf"
+    ],
+    "teile": [],
+    "problem": "judo-enthaertungsanlage-fehler"
+   },
+   {
+    "frage": "Darf ich Siebeinsatz, Dichtungen oder Kartusche an meinem Judo-Filter selbst tauschen?",
+    "antwort": "Judo schreibt in den Anleitungen, dass Reparaturen ausschließlich Fachpersonal macht und das Gerät vorher drucklos sein muss; den Kartuschentausch beim BIKO weist Judo autorisiertem Personal zu. Deine Aufgabe als Betreiber ist das Rückspülen und einmal im Jahr die Kontrolle des Nachdrucks. Arbeiten am Hausanschluss gehören nach § 12 AVBWasserV einem eingetragenen Installationsunternehmen.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+     "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+     "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+     "https://www.gesetze-im-internet.de/avbwasserv/__12.html"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Gibt es die Druckminderer-Kartusche von Judo einzeln, oder muss die ganze Station raus?",
+    "antwort": "Die Kartusche gibt es einzeln als Verschleißteilset 2150026, zusammen mit den beiden O-Ringen. Beim BIKO beschreibt Judo den Tausch: Manometer und Abdeckhaube ab, vier Innensechskantschrauben lösen, Kartusche heraushebeln, neue einsetzen. Die Station selbst bleibt in der Leitung.",
+    "kategorie": "verfuegbarkeit",
+    "quellen": [
+     "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+     "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf"
+    ],
+    "teile": [
+     "judo-druckminderer-kartusche-2150026"
+    ],
+    "problem": "judo-druckminderer-nachdruck-steigt"
+   },
+   {
+    "frage": "Wo bekomme ich Original-Ersatzteile von Judo?",
+    "antwort": "Judo verweist für Verbrauchs- und Verschleißmaterial auf das Fachhandwerk und den Werkskundendienst. Viele Sets gibt es mit Judo-Nummer auch im Handel, etwa EHF 100, das Siebeinsatz-Set 2170606, den Dichtungssatz 2070334 und das Verschleißteilset 2201382 für die i-soft. Judo erlaubt nur Original-Ersatzteile, sonst gelten die Prüfzeichen am Gerät nicht mehr.",
+    "kategorie": "bezug",
+    "quellen": [
+     "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+     "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+     "https://www.amazon.de/dp/B00ITUJT9Q",
+     "https://www.amazon.de/dp/B01IVP3MSM",
+     "https://www.amazon.de/dp/B07HWRY23S",
+     "https://www.amazon.de/dp/B06XRJ7FLR"
+    ],
+    "teile": [
+     "judo-filtereinsatz-ehf-100-8080030",
+     "judo-siebeinsatz-set-2170606",
+     "judo-dichtungssatz-2070334",
+     "judo-verschleissteilset-leitwert-sensor-ansaugsieb-2201382"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Wie oft muss ich meinen Judo-Rückspülfilter rückspülen?",
+    "antwort": "Judo empfiehlt spätestens alle zwei Monate, dazu immer, wenn der Druck nachlässt oder das Sieb sichtbar verschmutzt ist. Die Norm DIN EN 13443-1 verlangt mindestens alle sechs Monate. Wird zu spät gespült, kann sich das Siebgewebe verformen oder reißen, und die regelmäßige Rückspülung ist Voraussetzung für die Gewährleistung.",
+    "kategorie": "pflege",
+    "quellen": [
+     "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+     "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+     "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf"
+    ],
+    "teile": [],
+    "problem": "judo-rueckspuelfilter-wasserdruck-laesst-nach"
+   },
+   {
+    "frage": "Welches Salz brauche ich für meine Judo-Enthärtungsanlage?",
+    "antwort": "Regeneriersalz nach DIN EN 973 in Lebensmittelqualität. Judo empfiehlt Block, Tabletten oder grobkörniges Salz mit 7 bis 15 mm und führt eigene Tabletten nach Typ A im 25-kg-Sack (2620101). Bei anderen Salzen musst du den Salzbehälter öfter reinigen lassen, und das Ansaugsieb wird öfter fällig.",
+    "kategorie": "pflege",
+    "quellen": [
+     "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+     "https://judo.eu/ftp-upload/PL/EN/Art-Nr_1931505_JUDO_Export_Catalogue_2026.pdf"
+    ],
+    "teile": [
+     "judo-regeneriersalz-tabletten-25-kg-2620101",
+     "judo-verschleissteilset-leitwert-sensor-ansaugsieb-2201382"
+    ],
+    "problem": "judo-enthaertungsanlage-verbraucht-kein-salz"
+   },
+   {
+    "frage": "Muss meine Judo-Enthärtungsanlage wirklich vom Kundendienst gewartet werden?",
+    "antwort": "Ja, laut Judo mindestens halbjährlich durch das Fachhandwerk oder den Hersteller, dazu prüfst du selbst mindestens alle zwei Monate Salzverbrauch und Funktion. Judo beruft sich dabei auf die DIN EN 806-5 und macht beides zur Bedingung für die Gewährleistung. Nach einem Betriebsjahr erscheint im Display „Wartung/Service!“.",
+    "kategorie": "pflege",
+    "quellen": [
+     "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+     "https://www.gutefrage.net/frage/wasserenthaertungsanlage---wartung"
+    ],
+    "teile": [],
+    "problem": null
+   }
+  ]
+ },
+ "serien": [
+  {
+   "slug": "profi-qc-3-4-bis-1-1-4",
+   "name": "Judo PROFI-QC ¾\" bis 1¼\" (JPF-QC)",
+   "produkttyp": "rueckspuelfilter",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "JPF-QC",
+    "8010218",
+    "8010219",
+    "8010220",
+    "PROFI-QUICK CONNECTION"
+   ],
+   "erkennungsmerkmale": "Rückspülfilter mit durchsichtiger Filterglocke und großem Handrad oben, Kurzbezeichnung JPF-QC auf dem Typenschild. Bestellnummern 8010218 (¾\"), 8010219 (1\") und 8010220 (1¼\"). Ältere Geräte heißen in der Anleitung PROFI-QUICK CONNECTION. Ein Stellring an der Front erinnert an die nächste Rückspülung.",
+   "beschreibung": "Rückspülfilter für Kaltwasser bis 30 °C, Maschenweite 0,1 mm, Betriebsdruck 1,5 bis 16 bar. Das Siebeinsatz-Set hat je nach Ausgabe der Anleitung eine andere Nummer.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+    "https://www.unidomo.de/tpl/download/Judo_JPF-QC_Betriebsanleitung.pdf"
+   ]
+  },
+  {
+   "slug": "profi-qc-1-1-2-bis-2",
+   "name": "Judo PROFI-QC 1½\" bis 2\" (JPF-QC)",
+   "produkttyp": "rueckspuelfilter",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "JPF-QC 1½\"",
+    "JPF-QC 2\"",
+    "8107012",
+    "8107013"
+   ],
+   "erkennungsmerkmale": "Großer Rückspülfilter für 1½\" oder 2\", Kurzbezeichnung JPF-QC, Bestellnummern 8107012 und 8107013. Die Anleitung führt ihn zusammen mit den Flanschgeräten DN 65 bis 100.",
+   "beschreibung": "Rückspülfilter mit Siebeinsatz 0,1 mm für größere Häuser. Siebeinsatz-Set, Dichtungssatz und Filterglocke sind andere als beim JPF-QC ¾\" bis 1¼\".",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1702544_202201.pdf"
+   ]
+  },
+  {
+   "slug": "profi-plus-3-4-bis-1-1-4",
+   "name": "Judo PROFI-PLUS ¾\" bis 1¼\" (JPF+)",
+   "produkttyp": "rueckspuelfilter",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "JPF+",
+    "8010072",
+    "8010073",
+    "8010074",
+    "PROFI-PLUS"
+   ],
+   "erkennungsmerkmale": "Kurzbezeichnung JPF+ auf dem Typenschild, Bestellnummern 8010072 (¾\"), 8010073 (1\") und 8010074 (1¼\"). Das Sieb ist versilbert.",
+   "beschreibung": "Rückspülfilter mit versilbertem Edelstahlsieb 0,1 mm. Judo führt ihn in der Exportausgabe; die versilberten Siebsets tragen in deutschen Anleitungen den Vermerk „nicht für DE“.",
+   "quellen": [
+    "https://judo.eu/app/downloads/files/en/8010072/manuals/1701582_202201.pdf",
+    "https://judo.eu/en/produkt/judo-profi-plus-%C2%BE-1%C2%BC-filtre-de-protection-a-retrolavage-version-manuelle/"
+   ]
+  },
+  {
+   "slug": "helvetia-mhf",
+   "name": "Judo HELVETIA Wechselfilter MHF ¾\" bis 1¼\"",
+   "produkttyp": "rueckspuelfilter",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "MHF",
+    "HELVETIA",
+    "8080019",
+    "8080020",
+    "8080021"
+   ],
+   "erkennungsmerkmale": "Wechselfilter mit Schraubanschluss, Kurzbezeichnung MHF, Bestellnummern 8080019 bis 8080021. Er hat keine Rückspülung, sondern einen Filtereinsatz, der getauscht wird.",
+   "beschreibung": "Filter mit Wechseleinsatz EHF 100 (100 µm). Judo gibt den Einsatz für die Gehäuse MHF ½\" bis 1¼\" an.",
+   "quellen": [
+    "https://judo.eu/en/produkt/judo-helvetia-cartridge-filter-with-screw-connection-mhf-%C2%BE-1%C2%BC/"
+   ]
+  },
+  {
+   "slug": "promi-qc-3-4-bis-1-1-4",
+   "name": "Judo PROMI-QC ¾\" bis 1¼\" (JPM-QC)",
+   "produkttyp": "hauswasserstation",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "JPM-QC",
+    "8165030",
+    "8165031",
+    "8165032"
+   ],
+   "erkennungsmerkmale": "Hauswasserstation mit Rückspülfilter und Druckminderer, Kurzbezeichnung JPM-QC, Bestellnummern 8165030 bis 8165032. Gleiche Bauform wie der PROFI-QC, dazu ein Nachdruckmanometer.",
+   "beschreibung": "Nachdruck einstellbar von 1,5 bis 6 bar, ab Werk 4 bar. Siebeinsatz und Dichtungssatz sind dieselben wie beim PROFI-QC ¾\" bis 1¼\", dazu kommt die Druckminderer-Kartusche.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf"
+   ]
+  },
+  {
+   "slug": "promimat-qc-at",
+   "name": "Judo PROMIMAT-QC Automatik-Hauswasserstation (JPM-QC-AT)",
+   "produkttyp": "hauswasserstation",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "JPM-QC-AT",
+    "PROMIMAT-QUICK CONNECTION"
+   ],
+   "erkennungsmerkmale": "Automatik-Hauswasserstation mit Motor und Elektronik oben auf dem Gerät, Kurzbezeichnung JPM-QC-AT.",
+   "beschreibung": "Spült zeitgesteuert selbst zurück. Druckminderer-Kartusche wie bei den anderen Judo-Stationen ¾\" bis 1¼\".",
+   "quellen": [
+    "https://www.unidomo.de/tpl/download/Judo_jpm-qc-at_Betriebsanleitung.pdf"
+   ]
+  },
+  {
+   "slug": "biko-3-4-bis-1",
+   "name": "Judo BIKO ¾\" bis 1\"",
+   "produkttyp": "hauswasserstation",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "BIKO"
+   ],
+   "erkennungsmerkmale": "Rückspül-Schutzfilter mit Druckminderer für ¾\" oder 1\", Name BIKO auf der Abdeckhaube, Rückspülung über das untere Handrad.",
+   "beschreibung": "Ältere Hauswasserstation. Judo nennt in der Anleitung die Kartusche 2150026, das Siebeinsatz-Set 2170606 und den Dichtungssatz 2070334.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf"
+   ]
+  },
+  {
+   "slug": "gubi-e-3-4-bis-1-1-4",
+   "name": "Judo GUBI-E ¾\" bis 1¼\" (JGB-E)",
+   "produkttyp": "hauswasserstation",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "JGB-E",
+    "GUBI-E",
+    "8171001",
+    "8171002",
+    "8171003"
+   ],
+   "erkennungsmerkmale": "Rückspül-Schutzfilter mit Druckminderer, Kurzbezeichnung JGB-E, Bestellnummern 8171001 (¾\"), 8171002 (1\") und 8171003 (1¼\").",
+   "beschreibung": "Kompakte Hauswasserstation. Die Ersatzteilliste nennt die Druckminderer-Kartusche 2150026.",
+   "quellen": [
+    "https://www.manualslib.com/manual/1497170/Judo-Gubi-E.html?page=19",
+    "https://www.amazon.de/dp/B07CRX2JN7"
+   ]
+  },
+  {
+   "slug": "juko-3-4-bis-1-1-4",
+   "name": "Judo JUKO ¾\" bis 1¼\"",
+   "produkttyp": "hauswasserstation",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "JUKO"
+   ],
+   "erkennungsmerkmale": "Hauswasserstation mit Rückspülfilter und Druckminderer, Name JUKO auf dem Gerät, Nennweite ¾\" bis 1¼\".",
+   "beschreibung": "Teile laut Händlerangaben: Dichtungssatz 2070334 und Druckminderer-Kartusche 2150026.",
+   "quellen": [
+    "https://www.amazon.de/dp/B07HWRY23S",
+    "https://www.ebay.de/p/20026287391"
+   ]
+  },
+  {
+   "slug": "juko-ec-1-1-2-bis-2",
+   "name": "Judo JUKO-EC 1½\" bis 2\"",
+   "produkttyp": "hauswasserstation",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "JUKO-EC",
+    "8170315",
+    "8170316"
+   ],
+   "erkennungsmerkmale": "Große Hauswasserstation für 1½\" oder 2\", Bestellnummern 8170315 und 8170316, Nachdruck ab Werk 4 bar.",
+   "beschreibung": "Hat eine eigene, größere Druckminderer-Kartusche (2170567) und eigene Siebeinsätze. Die Teile der kleinen Judo-Stationen passen hier nicht.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1702367_202112.pdf"
+   ]
+  },
+  {
+   "slug": "i-soft-safe",
+   "name": "Judo i-soft safe",
+   "produkttyp": "enthaertungsanlage",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "i-soft safe",
+    "8203017"
+   ],
+   "erkennungsmerkmale": "Vollautomatische Enthärtungsanlage mit Display, Salzvorratsbehälter und eingebautem Wasserstopp, Bestell-Nr. 8203017. Geräte- und Auftragsnummer stehen auf einem Etikett am Gerät.",
+   "beschreibung": "Verbraucht etwa 200 g Salz je Regeneration. Störungen zeigt das Display als Störung Nr. 1 bis 4.",
+   "quellen": [
+    "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf"
+   ]
+  },
+  {
+   "slug": "i-soft-plus",
+   "name": "Judo i-soft plus",
+   "produkttyp": "enthaertungsanlage",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "i-soft plus",
+    "8203035"
+   ],
+   "erkennungsmerkmale": "Enthärtungsanlage mit Touch-Display und App-Anbindung, Bestell-Nr. 8203035. Störungen erscheinen im Klartext mit der Schaltfläche „Störung zurücksetzen“.",
+   "beschreibung": "Verschleißteile wie bei der i-soft safe: Leitwert-Sensor und Ansaugsieb, Druckregler, Injektor.",
+   "quellen": [
+    "https://www.unidomo.de/tpl/download/Judo_i-soft-plus_Betriebsanleitung.pdf",
+    "https://www.amazon.de/dp/B06XRJ7FLR"
+   ]
+  },
+  {
+   "slug": "i-soft-safe-plus",
+   "name": "Judo i-soft SAFE+",
+   "produkttyp": "enthaertungsanlage",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "i-soft SAFE+",
+    "8203521"
+   ],
+   "erkennungsmerkmale": "Bestell-Nr. 8203521. Das Typenschild sitzt seitlich am Gerät, mit QR-Code und 14-stelliger Geräte-ID für die JU-Control App.",
+   "beschreibung": "Nachfolger der i-soft safe. Die Ersatzteilliste nennt dieselben Verschleißteilsets.",
+   "quellen": [
+    "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf"
+   ]
+  },
+  {
+   "slug": "softwell-k",
+   "name": "Judo SOFTwell K",
+   "produkttyp": "enthaertungsanlage",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "SOFTwell K",
+    "8203512"
+   ],
+   "erkennungsmerkmale": "Enthärtungsanlage, Bestell-Nr. 8203512. Störungen erscheinen als „Achtung! Störung“ mit Ursache im Display.",
+   "beschreibung": "Hat ein eigenes Ansaugsieb-Set (2201270), Druckregler und Injektor wie die i-soft.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1702913_202108.pdf"
+   ]
+  }
+ ],
+ "teile": [
+  {
+   "slug": "judo-siebeinsatz-set-2020819",
+   "name": "Judo Verschleißteilset Siebeinsatz 0,1 mm und Saugrohr (2020819)",
+   "teiltyp": "filtereinsatz",
+   "oem_nummer": "2020819",
+   "ean": null,
+   "masse": {
+    "maschenweite_mm": 0.1,
+    "nennweite": "¾\" bis 1¼\""
+   },
+   "beschreibung": "Siebeinsatz mit Maschenweite 0,1 mm samt Saugrohr und Dichtungen für PROFI-QC und PROMI-QC in ¾\" bis 1¼\" nach den Anleitungen von 2021 und 2022. Judo nennt drei Jahre als durchschnittliches Austauschintervall. Judo: Reparaturen nur durch Fachpersonal, das Gerät muss vorher drucklos sein.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf"
+   ]
+  },
+  {
+   "slug": "judo-siebeinsatz-set-2020722",
+   "name": "Judo Verschleißteilset Siebeinsatz 0,1 mm und Saugrohr (2020722)",
+   "teiltyp": "filtereinsatz",
+   "oem_nummer": "2020722",
+   "ean": null,
+   "masse": {
+    "maschenweite_mm": 0.1,
+    "nennweite": "¾\" bis 1¼\""
+   },
+   "beschreibung": "Siebeinsatz-Set aus den älteren Anleitungen des PROFI-QUICK CONNECTION (2014) und der Automatik-Station PROMIMAT-QC. Damals wurde das Sieb serienmäßig versilbert geliefert. Austauschintervall laut Judo drei Jahre. Judo: Reparaturen nur durch Fachpersonal, das Gerät muss vorher drucklos sein.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.unidomo.de/tpl/download/Judo_JPF-QC_Betriebsanleitung.pdf",
+    "https://www.unidomo.de/tpl/download/Judo_jpm-qc-at_Betriebsanleitung.pdf"
+   ]
+  },
+  {
+   "slug": "judo-siebeinsatz-set-versilbert-2021359",
+   "name": "Judo Verschleißteilset Siebeinsatz versilbert 0,1 mm und Saugrohr (2021359)",
+   "teiltyp": "filtereinsatz",
+   "oem_nummer": "2021359",
+   "ean": null,
+   "masse": {
+    "maschenweite_mm": 0.1,
+    "nennweite": "¾\" bis 1¼\""
+   },
+   "beschreibung": "Versilberter Siebeinsatz mit Saugrohr für den PROFI-PLUS (JPF+) ¾\" bis 1¼\". In der deutschen Anleitung des PROMI-QC steht dasselbe Set mit dem Vermerk „nicht für DE“. Austauschintervall drei Jahre. Judo: Reparaturen nur durch Fachpersonal, das Gerät muss vorher drucklos sein.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://judo.eu/app/downloads/files/en/8010072/manuals/1701582_202201.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf"
+   ]
+  },
+  {
+   "slug": "judo-siebeinsatz-set-2020821",
+   "name": "Judo Verschleißteilset Siebeinsatz 0,1 mm, Saugrohr und Dichtungen (2020821)",
+   "teiltyp": "filtereinsatz",
+   "oem_nummer": "2020821",
+   "ean": null,
+   "masse": {
+    "maschenweite_mm": 0.1,
+    "nennweite": "1½\" bis 2\""
+   },
+   "beschreibung": "Siebeinsatz-Set für den PROFI-QC 1½\" und 2\" sowie den Flanschfilter DN 65. Austauschintervall laut Judo drei Jahre. Judo: Reparaturen nur durch Fachpersonal, das Gerät muss vorher drucklos sein.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1702544_202201.pdf"
+   ]
+  },
+  {
+   "slug": "judo-siebeinsatz-set-2170606",
+   "name": "Judo Verschleißteilset Siebeinsatz 0,1 mm, Saugrohr und Dichtung (2170606)",
+   "teiltyp": "filtereinsatz",
+   "oem_nummer": "2170606",
+   "ean": null,
+   "masse": {
+    "maschenweite_mm": 0.1
+   },
+   "beschreibung": "Siebeinsatz mit Saugrohr und Dichtung für die Hauswasserstation BIKO ¾\" bis 1\". Händler beschreiben das Set allgemein für Geräte ¾\" bis 1¼\". Judo gibt vier Jahre als Austauschintervall an. Judo: Reparaturen nur durch Fachpersonal, das Gerät muss vorher drucklos sein.",
+   "preis_spanne": "ca. 54 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": "B01IVP3MSM",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+    "https://www.amazon.de/dp/B01IVP3MSM"
+   ]
+  },
+  {
+   "slug": "judo-siebeinsatz-set-2170565",
+   "name": "Judo Verschleißteilset Siebeinsatz 0,1 mm und Saugrohr für JUKO-EC 1½\"–2\" (2170565)",
+   "teiltyp": "filtereinsatz",
+   "oem_nummer": "2170565",
+   "ean": null,
+   "masse": {
+    "maschenweite_mm": 0.1,
+    "nennweite": "1½\" bis 2\""
+   },
+   "beschreibung": "Siebeinsatz mit Saugrohr für die große Hauswasserstation JUKO-EC 1½\" und 2\". Austauschintervall laut Judo drei Jahre. Judo: Reparaturen nur durch Fachpersonal, das Gerät muss vorher drucklos sein.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1702367_202112.pdf"
+   ]
+  },
+  {
+   "slug": "judo-filtereinsatz-ehf-100-8080030",
+   "name": "Judo Filtereinsatz EHF 100 für HELVETIA MHF (8080030)",
+   "teiltyp": "filtereinsatz",
+   "oem_nummer": "8080030",
+   "ean": null,
+   "masse": {
+    "maschenweite_um": 100,
+    "packung": "Judo: 2 Stück je Verpackungseinheit"
+   },
+   "beschreibung": "Wechseleinsatz mit 100 µm für den HELVETIA-Filter MHF ½\" bis 1¼\". Judo führt die Nummer 8080030 als Packung mit zwei Einsätzen; bei Amazon gibt es auch Einzelstücke. Der Einsatz passt nicht in Rückspülfilter wie PROFI-QC oder PROMI-QC, die haben ein Siebeinsatz-Set.",
+   "preis_spanne": "ca. 39 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 2,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": "B00ITUJT9Q",
+   "quellen": [
+    "https://judo.eu/en/produkt/judo-helvetia-cartridge-filter-with-screw-connection-mhf-%C2%BE-1%C2%BC/",
+    "https://www.amazon.de/dp/B00ITUJT9Q",
+    "https://www.amazon.de/dp/B0070NKXXO",
+    "https://www.amazon.de/dp/B00J13KUFC"
+   ]
+  },
+  {
+   "slug": "judo-dichtungssatz-2010335",
+   "name": "Judo Verschleißteilset Dichtungssatz für JPF-QC, JPF+ und JPM-QC ¾\"–1¼\" (2010335)",
+   "teiltyp": "filtertasse",
+   "oem_nummer": "2010335",
+   "ean": null,
+   "masse": {
+    "nennweite": "¾\" bis 1¼\""
+   },
+   "beschreibung": "O-Ringe, Flachdichtung und Profilflanschdichtung für PROFI-QC, PROFI-PLUS und PROMI-QC ¾\" bis 1¼\". Austauschintervall laut Judo vier Jahre. Die Dichtung der Filterglocke ist ein O-Ring 90 × 4 mm. Judo: Reparaturen nur durch Fachpersonal, das Gerät muss vorher drucklos sein.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+    "https://judo.eu/app/downloads/files/en/8010072/manuals/1701582_202201.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+    "https://www.unidomo.de/tpl/download/Judo_JPF-QC_Betriebsanleitung.pdf"
+   ]
+  },
+  {
+   "slug": "judo-dichtungssatz-2010337",
+   "name": "Judo Verschleißteilset Dichtungssatz für JPF-QC 1½\"–2\" und DN 65 (2010337)",
+   "teiltyp": "filtertasse",
+   "oem_nummer": "2010337",
+   "ean": null,
+   "masse": {
+    "nennweite": "1½\" bis 2\""
+   },
+   "beschreibung": "Dichtungssatz für den PROFI-QC 1½\" und 2\" und den Flanschfilter DN 65, mit dem großen O-Ring 113,67 × 5,33 mm der Filterglocke. Austauschintervall laut Judo vier Jahre. Judo: Reparaturen nur durch Fachpersonal, das Gerät muss vorher drucklos sein.",
+   "preis_spanne": "ca. 85 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": "B07HX4JF5M",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1702544_202201.pdf",
+    "https://www.amazon.de/dp/B07HX4JF5M"
+   ]
+  },
+  {
+   "slug": "judo-dichtungssatz-2070334",
+   "name": "Judo Verschleißteilset Dichtungssatz für BIKO, JSP, JSY und JUKO ¾\"–1¼\" (2070334)",
+   "teiltyp": "filtertasse",
+   "oem_nummer": "2070334",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Dichtungssatz der BIKO-Hauswasserstation, unter anderem mit den O-Ringen der Druckminderer-Kartusche und den Profilflanschdichtungen. Bei Amazon steht er für JSP, JSY und JUKO ¾\" bis 1¼\". Austauschintervall laut Judo vier Jahre. Judo: Reparaturen nur durch Fachpersonal, das Gerät muss vorher drucklos sein.",
+   "preis_spanne": "ca. 36 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": "B07HWRY23S",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+    "https://www.amazon.de/dp/B07HWRY23S"
+   ]
+  },
+  {
+   "slug": "judo-spuelventil-dichtungen-2170561",
+   "name": "Judo Verschleißteilset Spülventil und Dichtungen für JUKO-EC 1½\"–2\" (2170561)",
+   "teiltyp": "filtertasse",
+   "oem_nummer": "2170561",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Spülventil mit Dichtungen für die JUKO-EC 1½\" und 2\". Wenn das Spülwasser nach dem Rückspülen trotz geschlossenem Handrad weiterläuft, ist das Spülventil der Kandidat. Austauschintervall laut Judo vier Jahre. Judo: Reparaturen nur durch Fachpersonal, das Gerät muss vorher drucklos sein.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1702367_202112.pdf"
+   ]
+  },
+  {
+   "slug": "judo-filterglocke-2010424",
+   "name": "Judo Filterglocke für JPF-QC, JPF+ und JPM-QC ¾\"–1¼\" (2010424)",
+   "teiltyp": "filtertasse",
+   "oem_nummer": "2010424",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Durchsichtige Filterglocke der kleinen Judo-Rückspülfilter und Hauswasserstationen. Judo schreibt: Wird die Glocke trüb oder zeigt Haarrisse, etwa nach Lösemittel-Reinigern oder Wärme, Absperrventile schließen und die Glocke sofort tauschen lassen.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+    "https://judo.eu/app/downloads/files/en/8010072/manuals/1701582_202201.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+    "https://www.unidomo.de/tpl/download/Judo_jpm-qc-at_Betriebsanleitung.pdf"
+   ]
+  },
+  {
+   "slug": "judo-filterglocke-2010422",
+   "name": "Judo Filterglocke für JPF-QC 1½\"–2\" (2010422)",
+   "teiltyp": "filtertasse",
+   "oem_nummer": "2010422",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Filterglocke des PROFI-QC 1½\" und 2\". Trübe Glocke oder Haarrisse: Absperrventile schließen und tauschen lassen.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1702544_202201.pdf"
+   ]
+  },
+  {
+   "slug": "judo-druckminderer-kartusche-2150026",
+   "name": "Judo Verschleißteilset Druckminderer-Kartusche (2150026)",
+   "teiltyp": "druckminderer-einsatz",
+   "oem_nummer": "2150026",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Kartusche mit zwei O-Ringen für die Judo-Hauswasserstationen ¾\" bis 1¼\": PROMI-QC, PROMIMAT-QC, BIKO und GUBI-E, laut Händler auch JSP, JUKO und JCP. Steigt der Nachdruck am Manometer bei geschlossenen Zapfstellen langsam an, ist sie verschlissen. Judo nennt vier Jahre als Austauschintervall und ordnet den Tausch autorisiertem Fachpersonal zu.",
+   "preis_spanne": "ca. 105 bis 125 € (Händler, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": "Innensechskantschlüssel, Schraubendreher (BIKO-Anleitung)",
+   "amazon_asin": null,
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+    "https://www.unidomo.de/tpl/download/Judo_jpm-qc-at_Betriebsanleitung.pdf",
+    "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+    "https://www.manualslib.com/manual/1497170/Judo-Gubi-E.html?page=19",
+    "https://www.ebay.de/p/20026287391"
+   ]
+  },
+  {
+   "slug": "judo-druckminderer-kartusche-2170567",
+   "name": "Judo Verschleißteilset Druckminderer-Kartusche für JUKO-EC 1½\"–2\" (2170567)",
+   "teiltyp": "druckminderer-einsatz",
+   "oem_nummer": "2170567",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Größere Kartusche nur für die JUKO-EC 1½\" und 2\". Die Kartusche 2150026 der kleinen Stationen passt hier nicht. Austauschintervall laut Judo vier Jahre, Tausch durch Fachpersonal.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1702367_202112.pdf"
+   ]
+  },
+  {
+   "slug": "judo-verschleissteilset-leitwert-sensor-ansaugsieb-2201382",
+   "name": "Judo Verschleißteilset Leitwert-Sensor und Ansaugsieb für i-soft (2201382)",
+   "teiltyp": "salz",
+   "oem_nummer": "2201382",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Leitwert-Sensor und Ansaugsieb für i-soft safe, i-soft plus und i-soft SAFE+. Judo nennt ein Jahr als Austauschintervall und rät, das Ansaugsieb öfter zu tauschen, wenn du anderes als das empfohlene Salz verwendest. Tausch durch den Kundendienst oder eine konzessionierte Person laut Judo-Anleitung, denn dafür muss das Gerät geöffnet werden.",
+   "preis_spanne": "ca. 74 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": "B06XRJ7FLR",
+   "quellen": [
+    "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+    "https://www.unidomo.de/tpl/download/Judo_i-soft-plus_Betriebsanleitung.pdf",
+    "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+    "https://www.amazon.de/dp/B06XRJ7FLR"
+   ]
+  },
+  {
+   "slug": "judo-verschleissteilset-druckregler-2200582",
+   "name": "Judo Verschleißteilset Druckregler für i-soft und SOFTwell (2200582)",
+   "teiltyp": "salz",
+   "oem_nummer": "2200582",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Druckregler der Enthärtungsanlagen i-soft safe, i-soft plus, i-soft SAFE+ und SOFTwell K. Austauschintervall laut Judo vier Jahre. Tausch durch den Kundendienst oder eine konzessionierte Person laut Judo-Anleitung.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+    "https://www.unidomo.de/tpl/download/Judo_i-soft-plus_Betriebsanleitung.pdf",
+    "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1702913_202108.pdf"
+   ]
+  },
+  {
+   "slug": "judo-ersatzteilset-injektor-2201470",
+   "name": "Judo Ersatzteilset Injektor mit Dichtungen und Elektroden (2201470)",
+   "teiltyp": "salz",
+   "oem_nummer": "2201470",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Injektor-Set für i-soft safe, i-soft plus, i-soft SAFE+ und SOFTwell K. Wenn die Anlage keine Sole mehr ansaugt, fragt der Kundendienst nach diesem Teil. Tausch durch den Kundendienst oder eine konzessionierte Person laut Judo-Anleitung.",
+   "preis_spanne": "ca. 105 € (Amazon, November 2026)",
+   "verschleissteil": false,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": "B09CKX57YL",
+   "quellen": [
+    "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+    "https://www.unidomo.de/tpl/download/Judo_i-soft-plus_Betriebsanleitung.pdf",
+    "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1702913_202108.pdf",
+    "https://www.amazon.de/dp/B09CKX57YL"
+   ]
+  },
+  {
+   "slug": "judo-verschleissteilset-ansaugsieb-2201270",
+   "name": "Judo Verschleißteilset Ansaugsieb für SOFTwell K (2201270)",
+   "teiltyp": "salz",
+   "oem_nummer": "2201270",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Ansaugsieb der SOFTwell K, Austauschintervall laut Judo zwei Jahre. Tausch durch den Kundendienst oder eine konzessionierte Person laut Judo-Anleitung.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": null,
+   "werkzeug": null,
+   "amazon_asin": null,
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1702913_202108.pdf"
+   ]
+  },
+  {
+   "slug": "judo-regeneriersalz-tabletten-25-kg-2620101",
+   "name": "Judo Regeneriersalz Tabletten DIN EN 973 Typ A, 25 kg (2620101)",
+   "teiltyp": "salz",
+   "oem_nummer": "2620101",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Salztabletten nach DIN EN 973 Typ A im 25-kg-Sack, Judo führt außerdem 10 kg (2620103) und Blocksalz 4 × 2 kg (2620102). Salz nachfüllen ist Sache des Betreibers. Die i-soft safe meldet nach 100 Regenerationen „Salzstand prüfen!“, das entspricht etwa einem 25-kg-Sack.",
+   "preis_spanne": null,
+   "verschleissteil": false,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Keins. Sack vorher außen säubern und direkt in den Salzbehälter schütten.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://judo.eu/ftp-upload/PL/EN/Art-Nr_1931505_JUDO_Export_Catalogue_2026.pdf",
+    "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf"
+   ]
+  }
+ ],
+ "zuordnungen": [
+  {
+   "serie_slug": "profi-qc-3-4-bis-1-1-4",
+   "teil_slug": "judo-siebeinsatz-set-2020819",
+   "hinweis": "Nach der Anleitung 1703298 (2022/04)",
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "profi-qc-3-4-bis-1-1-4",
+   "teil_slug": "judo-siebeinsatz-set-2020722",
+   "hinweis": "Nach der älteren Anleitung 1702283 (2014/06), versilbertes Sieb",
+   "quelle_url": "https://www.unidomo.de/tpl/download/Judo_JPF-QC_Betriebsanleitung.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "profi-qc-3-4-bis-1-1-4",
+   "teil_slug": "judo-dichtungssatz-2010335",
+   "hinweis": null,
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "profi-qc-3-4-bis-1-1-4",
+   "teil_slug": "judo-filterglocke-2010424",
+   "hinweis": null,
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "profi-qc-1-1-2-bis-2",
+   "teil_slug": "judo-siebeinsatz-set-2020821",
+   "hinweis": null,
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1702544_202201.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "profi-qc-1-1-2-bis-2",
+   "teil_slug": "judo-dichtungssatz-2010337",
+   "hinweis": null,
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1702544_202201.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "profi-qc-1-1-2-bis-2",
+   "teil_slug": "judo-filterglocke-2010422",
+   "hinweis": null,
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1702544_202201.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "profi-plus-3-4-bis-1-1-4",
+   "teil_slug": "judo-siebeinsatz-set-versilbert-2021359",
+   "hinweis": null,
+   "quelle_url": "https://judo.eu/app/downloads/files/en/8010072/manuals/1701582_202201.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "profi-plus-3-4-bis-1-1-4",
+   "teil_slug": "judo-dichtungssatz-2010335",
+   "hinweis": null,
+   "quelle_url": "https://judo.eu/app/downloads/files/en/8010072/manuals/1701582_202201.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "profi-plus-3-4-bis-1-1-4",
+   "teil_slug": "judo-filterglocke-2010424",
+   "hinweis": null,
+   "quelle_url": "https://judo.eu/app/downloads/files/en/8010072/manuals/1701582_202201.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "helvetia-mhf",
+   "teil_slug": "judo-filtereinsatz-ehf-100-8080030",
+   "hinweis": "Für MHF ½\" bis 1¼\"",
+   "quelle_url": "https://judo.eu/en/produkt/judo-helvetia-cartridge-filter-with-screw-connection-mhf-%C2%BE-1%C2%BC/",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "promi-qc-3-4-bis-1-1-4",
+   "teil_slug": "judo-druckminderer-kartusche-2150026",
+   "hinweis": null,
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "promi-qc-3-4-bis-1-1-4",
+   "teil_slug": "judo-siebeinsatz-set-2020819",
+   "hinweis": null,
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "promi-qc-3-4-bis-1-1-4",
+   "teil_slug": "judo-dichtungssatz-2010335",
+   "hinweis": null,
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "promi-qc-3-4-bis-1-1-4",
+   "teil_slug": "judo-filterglocke-2010424",
+   "hinweis": null,
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "promimat-qc-at",
+   "teil_slug": "judo-druckminderer-kartusche-2150026",
+   "hinweis": null,
+   "quelle_url": "https://www.unidomo.de/tpl/download/Judo_jpm-qc-at_Betriebsanleitung.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "promimat-qc-at",
+   "teil_slug": "judo-siebeinsatz-set-2020722",
+   "hinweis": "Nach der Anleitung 1702486 (2013/08)",
+   "quelle_url": "https://www.unidomo.de/tpl/download/Judo_jpm-qc-at_Betriebsanleitung.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "promimat-qc-at",
+   "teil_slug": "judo-dichtungssatz-2010335",
+   "hinweis": null,
+   "quelle_url": "https://www.unidomo.de/tpl/download/Judo_jpm-qc-at_Betriebsanleitung.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "promimat-qc-at",
+   "teil_slug": "judo-filterglocke-2010424",
+   "hinweis": null,
+   "quelle_url": "https://www.unidomo.de/tpl/download/Judo_jpm-qc-at_Betriebsanleitung.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "biko-3-4-bis-1",
+   "teil_slug": "judo-druckminderer-kartusche-2150026",
+   "hinweis": null,
+   "quelle_url": "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "biko-3-4-bis-1",
+   "teil_slug": "judo-siebeinsatz-set-2170606",
+   "hinweis": null,
+   "quelle_url": "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "biko-3-4-bis-1",
+   "teil_slug": "judo-dichtungssatz-2070334",
+   "hinweis": null,
+   "quelle_url": "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "gubi-e-3-4-bis-1-1-4",
+   "teil_slug": "judo-druckminderer-kartusche-2150026",
+   "hinweis": "Ersatzteilliste der englischen GUBI-E-Anleitung",
+   "quelle_url": "https://www.manualslib.com/manual/1497170/Judo-Gubi-E.html?page=19",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "juko-3-4-bis-1-1-4",
+   "teil_slug": "judo-dichtungssatz-2070334",
+   "hinweis": "Händlertitel: für JSP, JSY und JUKO ¾\" bis 1¼\"",
+   "quelle_url": "https://www.amazon.de/dp/B07HWRY23S",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "juko-3-4-bis-1-1-4",
+   "teil_slug": "judo-druckminderer-kartusche-2150026",
+   "hinweis": "Händlertitel: für JSP, JUKO, JPM und JCP",
+   "quelle_url": "https://www.ebay.de/p/20026287391",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "juko-ec-1-1-2-bis-2",
+   "teil_slug": "judo-druckminderer-kartusche-2170567",
+   "hinweis": null,
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1702367_202112.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "juko-ec-1-1-2-bis-2",
+   "teil_slug": "judo-siebeinsatz-set-2170565",
+   "hinweis": null,
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1702367_202112.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "juko-ec-1-1-2-bis-2",
+   "teil_slug": "judo-spuelventil-dichtungen-2170561",
+   "hinweis": null,
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1702367_202112.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "i-soft-safe",
+   "teil_slug": "judo-verschleissteilset-leitwert-sensor-ansaugsieb-2201382",
+   "hinweis": "Austausch jährlich, Kundendienst",
+   "quelle_url": "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "i-soft-safe",
+   "teil_slug": "judo-verschleissteilset-druckregler-2200582",
+   "hinweis": "Austausch alle vier Jahre, Kundendienst",
+   "quelle_url": "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "i-soft-safe",
+   "teil_slug": "judo-ersatzteilset-injektor-2201470",
+   "hinweis": "Kundendienst",
+   "quelle_url": "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "i-soft-plus",
+   "teil_slug": "judo-verschleissteilset-leitwert-sensor-ansaugsieb-2201382",
+   "hinweis": "Austausch jährlich, Kundendienst",
+   "quelle_url": "https://www.unidomo.de/tpl/download/Judo_i-soft-plus_Betriebsanleitung.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "i-soft-plus",
+   "teil_slug": "judo-verschleissteilset-druckregler-2200582",
+   "hinweis": "Austausch alle vier Jahre, Kundendienst",
+   "quelle_url": "https://www.unidomo.de/tpl/download/Judo_i-soft-plus_Betriebsanleitung.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "i-soft-plus",
+   "teil_slug": "judo-ersatzteilset-injektor-2201470",
+   "hinweis": "Kundendienst",
+   "quelle_url": "https://www.unidomo.de/tpl/download/Judo_i-soft-plus_Betriebsanleitung.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "i-soft-safe-plus",
+   "teil_slug": "judo-verschleissteilset-leitwert-sensor-ansaugsieb-2201382",
+   "hinweis": "Austausch jährlich, Kundendienst",
+   "quelle_url": "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "i-soft-safe-plus",
+   "teil_slug": "judo-verschleissteilset-druckregler-2200582",
+   "hinweis": "Austausch alle vier Jahre, Kundendienst",
+   "quelle_url": "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "i-soft-safe-plus",
+   "teil_slug": "judo-ersatzteilset-injektor-2201470",
+   "hinweis": "Kundendienst",
+   "quelle_url": "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "i-soft-safe",
+   "teil_slug": "judo-regeneriersalz-tabletten-25-kg-2620101",
+   "hinweis": "Salz nach DIN EN 973, Anleitung und Judo-Katalog",
+   "quelle_url": "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "softwell-k",
+   "teil_slug": "judo-verschleissteilset-ansaugsieb-2201270",
+   "hinweis": "Austausch alle zwei Jahre, Kundendienst",
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1702913_202108.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "softwell-k",
+   "teil_slug": "judo-verschleissteilset-druckregler-2200582",
+   "hinweis": "Kundendienst",
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1702913_202108.pdf",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "softwell-k",
+   "teil_slug": "judo-ersatzteilset-injektor-2201470",
+   "hinweis": "Kundendienst",
+   "quelle_url": "https://assets.heizung-billiger.de/documents/jdis1702913_202108.pdf",
+   "sicherheit": "hersteller"
+  }
+ ],
+ "probleme": [
+  {
+   "slug": "judo-rueckspuelfilter-tropft",
+   "titel": "Judo-Rückspülfilter tropft",
+   "symptom": "Am Abwasseranschluss unten läuft nach dem Rückspülen weiter Wasser nach, oder an der Filterglocke tritt Wasser aus.",
+   "ursachen": [
+    {
+     "ursache": "Schmutz im Spülventil, sodass es nach dem Rückspülen nicht ganz schließt",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "judo-spuelventil-dichtungen-2170561"
+     ]
+    },
+    {
+     "ursache": "Handrad nach dem Rückspülen nicht bis zum Anschlag zugedreht",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Defekte Dichtungen an der Filterglocke",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "judo-dichtungssatz-2010335",
+      "judo-dichtungssatz-2010337",
+      "judo-dichtungssatz-2070334"
+     ]
+    },
+    {
+     "ursache": "Haarrisse in der Filterglocke, etwa nach Reinigern mit Lösemittel oder zu warmem Wasser",
+     "haeufigkeit": "selten",
+     "teil_slugs": [
+      "judo-filterglocke-2010424",
+      "judo-filterglocke-2010422"
+     ]
+    },
+    {
+     "ursache": "Bei Hauswasserstationen: Druck steigt durch die Warmwasserbereitung, und das Sicherheitsventil am Speicher tropft",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "judo-druckminderer-kartusche-2150026",
+      "judo-druckminderer-kartusche-2170567"
+     ]
+    }
+   ],
+   "schritte": [
+    "Rückspülung wiederholen: Handrad gegen den Uhrzeigersinn bis zum Anschlag drehen, Spülwasser laufen lassen, dann im Uhrzeigersinn bis zum Anschlag zudrehen. So beschreibt Judo die Abhilfe bei Schmutz im Spülventil.",
+    "Prüfen, ob danach noch Wasser aus dem Abwasseranschluss kommt. Judo warnt, dass ein offenes Spülventil ständig Wasser austreten lässt.",
+    "Die Filterglocke ansehen. Ist sie trüb oder hat sie feine Risse, beide Absperrventile schließen; die Glocke muss sofort getauscht werden.",
+    "Tropft es an der Verbindung zwischen Glocke und Gehäuse, sind die Dichtungen fällig. Den passenden Dichtungssatz findest du über Gerätename und Nennweite.",
+    "Bei einer Station mit Druckminderer das Nachdruckmanometer ablesen, während kein Wasser gezapft wird. Steigt der Druck langsam, liegt es an der Kartusche.",
+    "Glocke außen nur mit klarem Wasser reinigen, keine Haushaltsreiniger."
+   ],
+   "fachbetrieb_ab": "Wenn nach erneutem Rückspülen weiter Wasser nachläuft, wenn Dichtungen, Filterglocke oder Kartusche getauscht werden müssen oder wenn die Glocke Risse hat. Judo schreibt Reparaturen ausschließlich Fachpersonal zu, und Arbeiten am Hausanschluss gehören nach § 12 AVBWasserV einem eingetragenen Installationsunternehmen.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1702544_202201.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1702367_202112.pdf",
+    "https://www.gesetze-im-internet.de/avbwasserv/__12.html"
+   ]
+  },
+  {
+   "slug": "judo-rueckspuelfilter-wasserdruck-laesst-nach",
+   "titel": "Judo-Rückspülfilter: Wasserdruck lässt nach",
+   "symptom": "Aus den Zapfstellen kommt weniger Wasser, das Sieb hinter der durchsichtigen Glocke ist dunkel.",
+   "ursachen": [
+    {
+     "ursache": "Sieb verstopft, weil zu lange nicht rückgespült wurde",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Siebgewebe durch zu viele Ablagerungen verformt oder gerissen",
+     "haeufigkeit": "selten",
+     "teil_slugs": [
+      "judo-siebeinsatz-set-2020819",
+      "judo-siebeinsatz-set-2020722",
+      "judo-siebeinsatz-set-2020821",
+      "judo-siebeinsatz-set-2170606",
+      "judo-siebeinsatz-set-2170565",
+      "judo-siebeinsatz-set-versilbert-2021359"
+     ]
+    },
+    {
+     "ursache": "Druckminderer-Kartusche verstellt oder verschlissen (nur Hauswasserstation)",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "judo-druckminderer-kartusche-2150026",
+      "judo-druckminderer-kartusche-2170567"
+     ]
+    },
+    {
+     "ursache": "Beim HELVETIA-Wechselfilter: Einsatz voll, er muss getauscht werden",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "judo-filtereinsatz-ehf-100-8080030"
+     ]
+    }
+   ],
+   "schritte": [
+    "Rückspülen. Judo empfiehlt das spätestens alle zwei Monate und immer dann, wenn der Wasserdruck nachlässt oder der Filter sichtbar verschmutzt ist.",
+    "Nach dem Rückspülen den Stellring an der Front auf den nächsten Termin drehen. Beim PROFI-QC und PROMI-QC erinnert auch die JU-Control App.",
+    "Bei neuen Installationen öfter rückspülen, in der ersten Zeit kommt mehr Schmutz.",
+    "Bei der Hauswasserstation den Ausgangsdruck am Nachdruckmanometer ablesen, einmal ohne und einmal mit großer Entnahme. Judo verlangt diese Kontrolle einmal im Jahr.",
+    "Bleibt das Sieb nach mehreren Rückspülungen dunkel oder ist es verbeult, ist ein neues Siebeinsatz-Set fällig."
+   ],
+   "fachbetrieb_ab": "Wenn das Sieb beschädigt ist oder der Druckminderer nachgestellt werden muss und der Druck danach nicht stimmt. Siebeinsatz und Kartusche tauscht laut Judo Fachpersonal.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+    "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+    "https://judo.eu/en/produkt/judo-helvetia-cartridge-filter-with-screw-connection-mhf-%C2%BE-1%C2%BC/"
+   ]
+  },
+  {
+   "slug": "judo-druckminderer-nachdruck-steigt",
+   "titel": "Judo-Hauswasserstation: Druckminderer hält den Druck nicht",
+   "symptom": "Am Nachdruckmanometer steigt der Druck langsam an, wenn kein Wasser gezapft wird, oder das Sicherheitsventil am Warmwasserspeicher tropft.",
+   "ursachen": [
+    {
+     "ursache": "Druckminderer-Kartusche verschlissen",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "judo-druckminderer-kartusche-2150026",
+      "judo-druckminderer-kartusche-2170567"
+     ]
+    },
+    {
+     "ursache": "Druckanstieg durch die Warmwasserbereitung, Sicherheitsventil des Speichers arbeitet",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "O-Ringe der Kartusche undicht",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "judo-dichtungssatz-2070334"
+     ]
+    }
+   ],
+   "schritte": [
+    "Alle Zapfstellen schließen und den Nachdruck am Manometer eine Weile beobachten.",
+    "Ab Werk stellt Judo die Stationen auf 4 bar ein, einstellbar sind 1,5 bis 6 bar.",
+    "Steigt der Druck langsam über den eingestellten Wert, ist laut Judo die Kartusche verschlissen.",
+    "Tropft das Sicherheitsventil am Warmwasserspeicher, das Ventil prüfen lassen.",
+    "Für die Bestellung Gerätename und Nennweite notieren: Die kleinen Stationen ¾\" bis 1¼\" haben die Kartusche 2150026, die JUKO-EC 1½\" und 2\" die 2170567."
+   ],
+   "fachbetrieb_ab": "Den Kartuschentausch sieht Judo für autorisiertes Fachpersonal vor, das Gerät muss dafür drucklos gemacht werden. Auch das Sicherheitsventil am Speicher prüft der Installateur.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+    "https://assets.heizung-billiger.de/documents/4472770VMA00001_1.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1702367_202112.pdf",
+    "https://www.unidomo.de/tpl/download/Judo_jpm-qc-at_Betriebsanleitung.pdf"
+   ]
+  },
+  {
+   "slug": "judo-enthaertungsanlage-fehler",
+   "titel": "Judo i-soft zeigt eine Störung",
+   "symptom": "Im Display der i-soft steht „Störung Nr. 1“ bis „Störung Nr. 4“, bei der i-soft plus „Störung!“ mit einer Ursache.",
+   "ursachen": [
+    {
+     "ursache": "Störung Nr. 1: Antrieb defekt (i-soft plus: Regenerationsantrieb defekt)",
+     "haeufigkeit": "selten",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Störung Nr. 2: Behälter überfüllt oder undicht (i-soft plus: Solestand im Salzbehälter zu hoch)",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Störung Nr. 3: Zeitüberschreitung beim Nachfüllen, meist ist die Wasserversorgung unterbrochen oder der Wasserstopp zu (i-soft plus: Fehlfunktion Füllventil)",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Störung Nr. 4: Wasserstopp defekt, offen oder geschlossen wird nicht erreicht",
+     "haeufigkeit": "selten",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Nur i-soft plus: Verbindung zur elektrischen Steuerung fehlerhaft",
+     "haeufigkeit": "selten",
+     "teil_slugs": []
+    }
+   ],
+   "schritte": [
+    "Netzgerät ausstecken und nach etwa 5 Sekunden wieder einstecken. Bei der i-soft plus „Störung zurücksetzen“ antippen.",
+    "Störung 2: Solestand im Salzbehälter ansehen. Bei der i-soft plus von Hand eine Regeneration auslösen und nach etwa 20 Minuten prüfen, ob der Solestand gesunken ist; wenn ja, eine zweite Regeneration starten.",
+    "Störung 3: Prüfen, ob Haupthahn und Absperrventile offen sind und ob der Wasserstopp geschlossen hat.",
+    "Störung 4: Netzgerät ausstecken und das Absperrventil von Hand in die gewünschte Stellung drehen (Not-Auf), oder das Umgehungsventil auf Umgehung stellen.",
+    "Kommt die Störung wieder, den Kundendienst rufen und Geräte- und Auftragsnummer angeben. Bis dahin das Umgehungsventil, falls vorhanden, auf Umgehung stellen."
+   ],
+   "fachbetrieb_ab": "Sobald eine Störung nach dem Neustart wiederkommt. Laut Judo dürfen nur konzessionierte Personen das Gerät öffnen und wasserdruckbelastete Teile wie Injektor oder Druckregler tauschen.",
+   "quellen": [
+    "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+    "https://www.unidomo.de/tpl/download/Judo_i-soft-plus_Betriebsanleitung.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1702913_202108.pdf"
+   ]
+  },
+  {
+   "slug": "judo-enthaertungsanlage-verbraucht-kein-salz",
+   "titel": "Judo-Enthärtungsanlage verbraucht kein Salz",
+   "symptom": "Der Salzstand im Behälter sinkt kaum, oder das Display meldet „Achtung Salzmangel“, obwohl noch Salz im Behälter liegt.",
+   "ursachen": [
+    {
+     "ursache": "Wenig Wasserverbrauch: Die Anlage regeneriert selten und braucht je Regeneration nur etwa 200 g Salz",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Ansaugsieb verschmutzt, etwa bei anderem als dem empfohlenen Salz",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "judo-verschleissteilset-leitwert-sensor-ansaugsieb-2201382",
+      "judo-verschleissteilset-ansaugsieb-2201270"
+     ]
+    },
+    {
+     "ursache": "Die Anlage saugt keine Sole an, Injektor oder Füllung gestört",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "judo-ersatzteilset-injektor-2201470"
+     ]
+    },
+    {
+     "ursache": "Salz erst nach völlig leerem Vorrat nachgefüllt: Solestand steigt zeitweise, das Ansaugen dauert länger",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    }
+   ],
+   "schritte": [
+    "Rechnen: Ein 25-kg-Sack reicht laut Judo für mindestens 100 Regenerationen. Die i-soft safe meldet nach 100 Regenerationen „Salzstand prüfen!“.",
+    "Meldet die Anlage „Achtung Salzmangel“, 25 kg Salz nachfüllen und kurz <OK> drücken. Bei Salzmangel schaltet die Anlage in einen Sparbetrieb und enthärtet weniger.",
+    "Salz nach DIN EN 973 in Lebensmittelqualität verwenden. Judo empfiehlt Block, Tabletten oder grobkörniges Salz mit 7 bis 15 mm.",
+    "Wasserhärte hinter der Anlage messen. Stimmt sie, arbeitet die Anlage, auch wenn der Salzstand langsam sinkt.",
+    "Steigt die Härte und sinkt das Salz trotzdem nicht, den Kundendienst rufen. Er prüft Ansaugsieb und Injektor."
+   ],
+   "fachbetrieb_ab": "Wenn die Härte hinter der Anlage steigt, obwohl genug Salz im Behälter ist, oder eine Störung 2 oder 3 wiederkommt. Ansaugsieb, Injektor und Druckregler tauscht laut Judo der Kundendienst oder eine konzessionierte Person.",
+   "quellen": [
+    "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+    "https://www.unidomo.de/tpl/download/Judo_i-soft-plus_Betriebsanleitung.pdf",
+    "https://assets.heizung-billiger.de/documents/jdis1702913_202108.pdf"
+   ]
+  }
+ ],
+ "widersprueche": [
+  {
+   "thema": "Siebeinsatz-Set für den PROFI-QC ¾\" bis 1¼\": 2020722 oder 2020819?",
+   "aussage_a": "Die Anleitung des PROFI-QUICK CONNECTION von 2014 nennt das Verschleißteilset Siebeinsatz 0,1 mm und Saugrohr 2020722; das Sieb war damals serienmäßig versilbert.",
+   "quelle_a": "https://www.unidomo.de/tpl/download/Judo_JPF-QC_Betriebsanleitung.pdf",
+   "aussage_b": "Die Anleitung des PROFI-QC von 2022 nennt für dieselben Nennweiten das Set 2020819. Welches Set passt, hängt an der Ausgabe der Anleitung, die zum Gerät gehört.",
+   "quelle_b": "https://assets.heizung-billiger.de/documents/jdis1703298_202204.pdf"
+  },
+  {
+   "thema": "Druckminderer-Kartusche: 2150026 passt nicht in jede Judo-Station",
+   "aussage_a": "PROMI-QC, PROMIMAT-QC, BIKO und GUBI-E in ¾\" bis 1¼\" nutzen die Kartusche 2150026.",
+   "quelle_a": "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf",
+   "aussage_b": "Die JUKO-EC 1½\" und 2\" braucht die größere Kartusche 2170567.",
+   "quelle_b": "https://assets.heizung-billiger.de/documents/jdis1702367_202112.pdf"
+  },
+  {
+   "thema": "Versilbertes oder unversilbertes Siebeinsatz-Set",
+   "aussage_a": "Für den PROFI-PLUS (JPF+) ¾\" bis 1¼\" nennt Judo das versilberte Set 2021359.",
+   "quelle_a": "https://judo.eu/app/downloads/files/en/8010072/manuals/1701582_202201.pdf",
+   "aussage_b": "In der deutschen Anleitung des PROMI-QC trägt das Set 2021359 den Vermerk „nicht für DE“; für Deutschland gilt dort 2020819.",
+   "quelle_b": "https://assets.heizung-billiger.de/documents/jdis1703310_202112.pdf"
+  }
+ ],
+ "nicht_geprueft": [
+  "PROFI-PLUS in Deutschland: Der PROFI-PLUS (JPF+) steht im Judo-Exportkatalog 2026 und in einer englischen Anleitung. Eine ältere deutsche PROFI-PLUS-Anleitung (manualslib.de/manual/942648) nennt Sets 2010224 und 2010225; die Tabelle ließ sich nicht sauber lesen, deshalb nicht aufgenommen.",
+  "Ob 2020819 das Set 2020722 offiziell ersetzt oder ob beide je nach Baujahr gelten, sagen die Anleitungen nicht. Beide Nummern sind mit ihrer Anleitung zugeordnet.",
+  "GUBI-E: Die Zuordnung der Kartusche 2150026 stammt aus einer Textfassung der englischen Anleitung bei manualslib.com, deren Spalten nicht eindeutig waren. Das Einzelsieb 2150015 ist deshalb nicht aufgenommen. Ob Siebeinsatz-Set 2170606 und Dichtungssatz 2070334 (BIKO) auch in die GUBI-E passen, ist offen; die Positionen der Teilelisten ähneln sich.",
+  "JUKO ¾\" bis 1¼\" (ohne EC): keine Judo-Anleitung ausgewertet. Kartusche 2150026 und Dichtungssatz 2070334 nur aus Händlertiteln (eBay, Amazon).",
+  "EAN für 2170606 (4038097042180) stand nur in einem eBay-Angebot, nicht übernommen.",
+  "Amazon-Seiten für 2201470 und 2010337 zeigten keine Bewertungszahl; ASIN B07HX4JF5M führt im Titel nur „JPF+ 1½\" - 2\" und JPF DN 65“, die Nummer 2010337 steht im Seitentext.",
+  "Keine ASIN für Druckminderer-Kartusche 2150026, Siebeinsatz-Sets 2020819/2020821/2021359/2170565, Druckregler 2200582 und Judo-Salz 2620101 gefunden.",
+  "Judo-Salz 2620101: Bestellnummer aus dem englischen Exportkatalog 2026; ob es in Deutschland im Handel ist, ist nicht geprüft.",
+  "HEIFI (Heizungsfilter) und JRSF (Flanschfilter DN 65 bis 200) bewusst nicht aufgenommen: Heizungswasser gehört nicht in diesen Bereich, JRSF ist Gewerbe.",
+  "i-soft (ohne safe) und i-soft K/PRO: keine eigene Ersatzteilliste ausgewertet. Amazon nennt 2201382 auch für die i-soft.",
+  "Störungsursachen der Problemseite „verbraucht kein Salz“: Salzbrücke als Ursache steht in keiner Judo-Anleitung und ist deshalb nicht aufgeführt.",
+  "Preise sind Momentaufnahmen aus Amazon und eBay (November 2026); die VE-Werte in den Anleitungen sind Verrechnungseinheiten, keine Euro.",
+  "Felder schwierigkeit, dauer_min und werkzeug sind redaktionelle Einschätzungen; selbst_tauschbar folgt den Judo-Anleitungen (Reparatur durch Fachpersonal).",
+  "Forenbelege sind dünn: haustechnikdialog und gutefrage liefern nur einzelne Judo-Threads; die meisten Antworten stützen sich auf die Anleitungen."
+ ]
+}
