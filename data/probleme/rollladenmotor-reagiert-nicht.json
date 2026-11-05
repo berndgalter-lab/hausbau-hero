@@ -8,7 +8,7 @@
   "ursachen": [
     {
       "ursache": "Batterie im Handsender leer",
-      "erklaerung": "Der Rollladen reagiert nur auf diesen Sender nicht, am Wandschalter oder mit einem anderen Sender fährt er. Becker und Elero nennen für „Antrieb läuft nicht“ zuerst eine neue Batterie, beim Rademacher DuoFern Handsender blinkt die Status-LED orange, wenn die Batterie fast leer ist. Welche Batterie in welchen Sender gehört, steht auf der Seite zum Handsender.",
+      "erklaerung": "Der Rollladen reagiert nur auf diesen Sender nicht, am Wandschalter oder mit einem anderen Sender fährt er. Becker und Elero nennen für „Antrieb läuft nicht“ zuerst eine neue Batterie, beim Rademacher DuoFern Handsender blinkt die Status-LED rot, wenn die Batterie fast leer ist (in der älteren Anleitung: orange). Welche Batterie in welchen Sender gehört, steht auf der Seite zum Handsender.",
       "haeufigkeit": "häufig",
       "teilart": "rollladen-handsender"
     },
@@ -72,12 +72,15 @@
     "somfy-rollladen-reset",
     "somfy-rollladen-handsender-anlernen",
     "selve-rollladen-reagiert-nicht",
-    "selve-rollladen-stoppt-von-selbst"
+    "selve-rollladen-stoppt-von-selbst",
+    "rademacher-rollladen-reagiert-nicht",
+    "rademacher-rollladenmotor-bleibt-stehen",
+    "rademacher-gurtwickler-faehrt-nicht"
   ],
   "fragen": [
     {
       "frage": "Der Handsender leuchtet, aber der Rollladen bewegt sich nicht. Was prüfe ich?",
-      "antwort": "Wenn die LED leuchtet, hat der Sender Strom. Becker und Elero nennen dann drei Gründe: Der Empfänger ist zu weit weg, der Sender ist nicht eingelernt, oder der Empfänger ist ausgeschaltet oder defekt. Geh näher heran, prüf die Sicherung und lern den Sender neu an. Beim Rademacher DuoFern Handsender zeigt eine orange blinkende LED dagegen eine fast leere Batterie.",
+      "antwort": "Wenn die LED leuchtet, hat der Sender Strom. Becker und Elero nennen dann drei Gründe: Der Empfänger ist zu weit weg, der Sender ist nicht eingelernt, oder der Empfänger ist ausgeschaltet oder defekt. Geh näher heran, prüf die Sicherung und lern den Sender neu an. Beim Rademacher DuoFern Handsender zeigt eine rot blinkende LED (ältere Geräte: orange) dagegen eine fast leere Batterie.",
       "kategorie": "reparatur",
       "quellen": [
         "https://voleda.fr/notice/ec541-2_4034_630_201_0_de_en_fr_nl.pdf",

@@ -33,7 +33,7 @@
     },
     {
       "titel": "Erst die Batterie tauschen",
-      "text": "Ein Sender mit schwacher Batterie sieht oft aus wie ein defekter. Somfy Situo io und Becker EC541-II brauchen eine CR 2430, der Situo 5 io/RTS eine CR2430 oder CR2032, der Rademacher DuoFern Standard Handsender eine CR2450 (laut Rademacher etwa zwei Jahre bei fünf Betätigungen am Tag), die Schellenberg-Funk-Handsender 2 × AAA, der Elero TempoTel 2 2 × AA. Beim Rademacher-Sender blinkt die Status-LED orange, wenn die Batterie fast leer ist."
+      "text": "Ein Sender mit schwacher Batterie sieht oft aus wie ein defekter. Somfy Situo io und Becker EC541-II brauchen eine CR 2430, der Situo 5 io/RTS eine CR2430 oder CR2032, der Rademacher DuoFern Standard Handsender eine CR2450 (laut Rademacher etwa zwei Jahre bei fünf Betätigungen am Tag), die Schellenberg-Funk-Handsender 2 × AAA, der Elero TempoTel 2 2 × AA. Beim Rademacher-Sender blinkt die Status-LED rot, wenn die Batterie fast leer ist (in der älteren Anleitung: orange)."
     },
     {
       "titel": "Neuen Sender anlernen",

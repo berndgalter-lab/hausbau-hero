@@ -1,0 +1,294 @@
+{
+  "marke": "Rademacher",
+  "fragen": [
+    {
+      "frage": "Wo finde ich bei meinem Rademacher RolloTron Typ und Artikelnummer?",
+      "kategorie": "nummer",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Die vierstellige Typnummer, etwa 1300, 1705 oder 9700, und die achtstellige Artikelnummer, etwa 14234519, stehen auf dem Typenschild am Gerät und vorn auf der Anleitung. Die Typnummer verrät schon viel: Endet sie auf 0, hat das Gerät 45 kg Zugkraft, endet sie auf 5, sind es 60 kg. Eine 4 an der dritten Stelle wie bei 1340 steht für den 15-mm-Minigurt, eine 0 für 23 mm.",
+      "antwort_quellen": [
+        "https://service.rademacher.de/s/article/115005603945-Was-ist-bei-der-Auswahl-der-unterschiedlichen-RolloTron-Typen-zu-beachten-Worin-unterscheiden-sich-die-Gurtwickler",
+        "https://medium.rademacher.de/static/79/b0/13/ed671f867e8aa3a49e1c6bbf85b95a486c/Bedienunganleitung%20RolloTron%20Standard%201300%20DE.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Was bedeuten Bezeichnungen wie RTBM 20/16Z oder SLDM 10/16PZ bei Rademacher-Rohrmotoren?",
+      "kategorie": "nummer",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Die Buchstaben nennen die Reihe: RTB ist RolloTube Basis, CLI die C-line, MLI die M-line, SLD die S-line DuoFern. Der letzte Buchstabe davor gibt die Größe an: S für Small mit 35 mm für die 40er Welle, M für Medium mit 45 mm für die 60er Welle, L für Large mit 60 mm für die 70er Welle. Die erste Zahl ist das Drehmoment in Nm, die zweite die Drehzahl, RTBM 20/16Z hat also 20 Nm und 16 Umdrehungen pro Minute.",
+      "antwort_quellen": [
+        "https://www.rademacher.de/produkte/rollladen-sonnenschutz/rohrmotor/rollotube-basis-rtbm-20-16z",
+        "https://www.rademacher.de/produkte/rollladen-sonnenschutz/rohrmotor/rollotube-basis-rtbs-10-16z",
+        "https://www.rademacher.de/produkte/rollladen-sonnenschutz/rohrmotor/rollotube-basis-rtbl-80-16z",
+        "https://medium.rademacher.de/static/3f/90/8e/527b0e4fd6f581ae54433f6c7c78fd1eb1/Betriebsanleitung%20RolloTube%20M-line%20DE.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "rademacher-rollotube-basis-rtbm-20-16z",
+        "rademacher-rollotube-s-line-duofern-sldm-10-16pz"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Mein alter Rademacher RolloTron 9700 oder 9300 ist kaputt. Welcher passt als Ersatz?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.ebay.de/p/1823478249",
+        "https://www.kleinanzeigen.de/s-rollotron-9700/k0",
+        "https://www.rohrmotor24.eu/Rademacher-ROLLOTRON-Comfort-1700-UW-vormals-9700",
+        "https://www.rohrmotor24.eu/Rademacher-ROLLOTRON-Standard-1300-UW-vormals-9300"
+      ],
+      "antwort": "Rademacher führt dafür eine Nachfolgeliste. Für den 9300 ist es der RolloTron Standard 1300, für den 9305 der 1305, für 9700 und 9900 der Comfort 1700, für 9705 der 1705. Die DuoFern-Geräte 9400 und 9800 ersetzen der Standard DuoFern 1400 und der Comfort DuoFern 1800. Laut Rademacher haben die Nachfolger gleiche Einbaumaße, gleiche Zugleistung und gleichen Stromanschluss, ab 9300 und 9700 passt auch der vorhandene Sonnensensor.",
+      "antwort_quellen": [
+        "https://service.rademacher.de/s/article/4403091579410-Nachfolgeliste-RolloTron-Nachfolger-%C3%A4lterer-RolloTron-Ger%C3%A4te-Elektronische-Gurtwickler",
+        "https://www.rademacher.de/produkte/rollladen-sonnenschutz/elektrischer-gurtwickler/rollotron-standard-1300-uw",
+        "https://www.rademacher.de/produkte/rollladen-sonnenschutz/elektrischer-gurtwickler/rollotron-comfort-1700-uw"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "rademacher-rollotron-standard-1300-uw",
+        "rademacher-rollotron-standard-plus-1305-uw",
+        "rademacher-rollotron-comfort-1700-uw",
+        "rademacher-rollotron-comfort-plus-1705-uw"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Welcher Rademacher RolloTron passt in meinen Gurtkasten?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.amazon.de/rolladen-gurtwickler-215mm-lochabstand/s?k=rolladen+gurtwickler+215mm+lochabstand"
+      ],
+      "antwort": "Alle Unterputz-RolloTron passen in Gurtkästen ab 36 mm Breite. Die 45-kg-Geräte haben eine 211 mm hohe Frontblende mit Lochabstand 165 oder 185 mm, das Gehäuse dahinter ist 132 mm hoch und 139 mm tief. Die 60-kg-Plus-Geräte sind größer: Blende 271 mm, Lochabstand 215 oder 245 mm, Gehäuse 180 mm hoch und 196 mm tief. Dafür nehmen sie 12 statt 6,2 m Gurt bei 1,3 mm Stärke auf.",
+      "antwort_quellen": [
+        "https://service.rademacher.de/s/article/360019665000-Wie-gro%C3%9F-ist-der-RolloTron-Gurtwickler-und-der-RolloTron-Schwenkwickler-Einbauma%C3%9Fe-Gr%C3%B6%C3%9Fe-RolloTron-Gurtwickler",
+        "https://service.rademacher.de/s/article/115005603945-Was-ist-bei-der-Auswahl-der-unterschiedlichen-RolloTron-Typen-zu-beachten-Worin-unterscheiden-sich-die-Gurtwickler",
+        "https://medium.rademacher.de/static/33/9b/c0/8e61ea470a2e58fcff8269390145bb3c94/Einbauma%C3%9Fe%201700.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "rademacher-rollotron-standard-1300-uw",
+        "rademacher-rollotron-standard-plus-1305-uw"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Bei meinem Rademacher RolloTron blinken alle LEDs nacheinander und er fährt nicht. Was ist los?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/126226/rademacher-rollotron-9200-defekt-welche-moegliche-ursache-",
+        "https://www.mikrocontroller.net/topic/575479"
+      ],
+      "antwort": "Das Lauflicht zeigt, dass die maximale Laufzeit überschritten wurde und der Motor zu heiß ist. Lass das Gerät eingeschaltet etwa eine Stunde abkühlen. Hilft das nicht, empfiehlt Rademacher einen Reset, beim Standard mit den Tasten Sonne, Mond, Uhr und AUTO/MANU fünf Sekunden lang. Läuft er danach immer noch nicht, ist vermutlich die Elektronik defekt, beim Comfort erscheint dann Er01 im Display.",
+      "antwort_quellen": [
+        "https://service.rademacher.de/s/article/4403737093522-Der-Motor-bewegt-sich-nicht-mehr-Fehleranzeige-ER01-bzw-die-LEDs-blinken",
+        "https://medium.rademacher.de/static/79/b0/13/ed671f867e8aa3a49e1c6bbf85b95a486c/Bedienunganleitung%20RolloTron%20Standard%201300%20DE.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": "rademacher-gurtwickler-faehrt-nicht"
+    },
+    {
+      "frage": "Mein Rollladen mit RolloTron bleibt morgens unten, obwohl die Schaltzeit stimmt. Warum?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/rollotron-endpunkt-unten-laesst-sich-nicht-einstellen",
+        "https://www.mikrocontroller.net/topic/575479"
+      ],
+      "antwort": "Meist ist der Gurt unten schlaff geworden, und der RolloTron hat abgeschaltet, weil sich die Umlenkrolle nicht mehr dreht. Das passiert, wenn beim Einstellen des unteren Endpunkts die Ab-Taste zu lange gedrückt wurde oder sich der Gurt gedehnt hat. Stell den unteren Endpunkt neu ein und achte darauf, dass der Gurt straff auf der Umlenkrolle liegt. Rademacher nennt außerdem Gurtreste, die die Rolle blockieren, und zu fest angezogene Schrauben.",
+      "antwort_quellen": [
+        "https://medium.rademacher.de/static/79/b0/13/ed671f867e8aa3a49e1c6bbf85b95a486c/Bedienunganleitung%20RolloTron%20Standard%201300%20DE.pdf",
+        "https://service.rademacher.de/s/article/115005603565-The-RolloTron-stops-several-times-when-closing-and-opening-the-shutter-without-any-visible-reason-why",
+        "https://www.gutefrage.net/frage/rollotron-endpunkt-unten-laesst-sich-nicht-einstellen"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": "rademacher-gurtwickler-faehrt-nicht"
+    },
+    {
+      "frage": "Darf ich einen Rademacher RolloTron mit Eurostecker selbst anschließen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/elektrischen-gurtwickler-direkt-mit-steckdose-verbinden.122954/",
+        "https://www.elektrikforum.de/threads/rolladenmotor-rademacher-rollotron-anschliessen.8196/"
+      ],
+      "antwort": "Laut Rademacher-Anleitung nicht: Elektrischer Anschluss, Montage und Inbetriebnahme müssen durch eine ausgebildete Elektrofachkraft erfolgen. Das gilt für den Betrieb über das beiliegende Kabel mit Stecker ebenso wie für eine fest verlegte Zuleitung. Bei Steckerbetrieb muss die Steckdose frei zugänglich bleiben. Im Bauexpertenforum weisen Fachleute zudem darauf hin, dass die flexible Anschlussleitung nicht unter Putz verlegt werden darf.",
+      "antwort_quellen": [
+        "https://medium.rademacher.de/static/79/b0/13/ed671f867e8aa3a49e1c6bbf85b95a486c/Bedienunganleitung%20RolloTron%20Standard%201300%20DE.pdf",
+        "https://medium.rademacher.de/static/8d/8b/92/13f47a92f3e4e4994d4ab46292922c7138/Bedienungsanleitung%20RolloTron%20Standard%201400%20DE.pdf",
+        "https://www.bauexpertenforum.de/threads/elektrischen-gurtwickler-direkt-mit-steckdose-verbinden.122954/"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Wie melde ich einen DuoFern-Handsender am Rademacher RolloTron Standard DuoFern an?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://forum.fhem.de/index.php?topic=40076.420",
+        "https://homematic-forum.de/forum/viewtopic.php?t=27017&start=10"
+      ],
+      "antwort": "Drück am RolloTron die Tasten Uhr und SET gleichzeitig etwa vier Sekunden. Die Uhr-LED blinkt grün, der Anmeldemodus bleibt 120 Sekunden offen. Dann am Handsender die Verbinden-Taste auf der Rückseite einmal kurz drücken und beim 6-Kanal-Sender die gewünschte Taste wählen. Leuchtet die Kontrolllampe am RolloTron fünf Sekunden grün, hat es geklappt. Ein RolloTron Standard DuoFern nimmt bis zu 20 Sender auf.",
+      "antwort_quellen": [
+        "https://medium.rademacher.de/static/8d/8b/92/13f47a92f3e4e4994d4ab46292922c7138/Bedienungsanleitung%20RolloTron%20Standard%201400%20DE.pdf",
+        "https://service.rademacher.de/s/article/4404014131218-Activate-login-mode-RolloTron-Standard-DuoFern-1400-1405-1440",
+        "https://service.rademacher.de/s/article/360019707080-Anmeldemodus-aktivieren-Handsender-Standard-9491",
+        "https://medium.rademacher.de/static/b7/6a/ed/9f19a55f930157eb4acf3e7294999757f1/Bedienungsanleitung%20DuoFern%20Handsender%20Standard%209491%20DE+EN.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "rademacher-duofern-handsender-standard-9491",
+        "rademacher-duofern-handsender-standard-9491-2"
+      ],
+      "passendes_problem": "rademacher-rollladen-reagiert-nicht"
+    },
+    {
+      "frage": "Der RolloTron ist tot und der Rollladen unten. Wie bekomme ich den Gurt heraus, ohne ihn abzuschneiden?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/126226/rademacher-rollotron-9200-defekt-welche-moegliche-ursache-"
+      ],
+      "antwort": "Alle RolloTron ab Baujahr 2000 haben eine Getriebeentriegelung. Netzstecker ziehen, den Gurtwickler aus dem Gurtkasten schrauben und die kleine rote Entriegelungsklammer aus ihrem Fach nehmen. Drückst du sie in die beiden Schlitze, lässt sich der Gurt herausziehen und vom Haken lösen. Rademacher warnt, dass der Rollladen dabei ungebremst herunterfallen kann: vorher sichern und am besten zu zweit arbeiten.",
+      "antwort_quellen": [
+        "https://service.rademacher.de/s/article/360019335379-Gurtwickler-RolloTron-ausbauen-wenn-das-Ger%C3%A4t-keine-Funktion-mehr-hat-Getriebe-entriegeln",
+        "https://medium.rademacher.de/static/79/b0/13/ed671f867e8aa3a49e1c6bbf85b95a486c/Bedienunganleitung%20RolloTron%20Standard%201300%20DE.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": "rademacher-gurtwickler-faehrt-nicht"
+    },
+    {
+      "frage": "Mein Rollladen mit Rademacher-Rohrmotor rutscht von selbst nach unten. Was ist kaputt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://homematic-forum.de/forum/viewtopic.php?t=44426"
+      ],
+      "antwort": "Ein passend ausgewählter Rohrmotor muss den Panzer in jeder Position halten. Sackt der Rollladen von selbst ab, deutet das laut Rademacher sehr wahrscheinlich auf eine defekte Motorbremse. Die lässt sich nicht selbst reparieren. Rademacher bittet, sich mit Motortyp und Baujahr an den Service zu wenden.",
+      "antwort_quellen": [
+        "https://service.rademacher.de/s/article/4403731724562-Der-Rollladen-sackt-herunter-Motor-hat-keine-Bremsleistung-Bremse-defekt"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": "rademacher-rollladenmotor-bleibt-stehen"
+    },
+    {
+      "frage": "Ich habe noch Fernotron-Rohrmotoren von Rademacher. Kann ich die mit DuoFern-Handsendern steuern?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/rademacher-fernotron-2411-fernbedienung-zentrale-ersetzen--austauschen-wie-rolladen"
+      ],
+      "antwort": "Nein. Rademacher hat die Fernotron-Funktechnik 2012 eingestellt, für die Funkmotoren F3001 bis F5003 gibt es keine direkten Nachfolger. Als Alternative nennt Rademacher die RolloTube S-line DuoFern, zum Beispiel SLDM 10/16PZ für 60er Wellen. Diese Motoren lassen sich nicht mit den alten Fernotron-Zentralen steuern, du brauchst DuoFern-Sender oder eine DuoFern-Zentrale.",
+      "antwort_quellen": [
+        "https://service.rademacher.de/s/article/4403092979218-Nachfolgeliste-Rohrmotoren-Nachfolger-%C3%A4lterer-Rohrmotoren"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "rademacher-rollotube-s-line-duofern-sldm-10-16pz",
+        "rademacher-rollotube-s-line-duofern-sldm-20-16pz"
+      ],
+      "passendes_problem": "rademacher-rollladen-reagiert-nicht"
+    },
+    {
+      "frage": "Welcher Rademacher RolloTube passt in meine SW40-, SW60- oder SW70-Welle?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "In die 40er Achtkantwelle gehört ein Small-Motor mit 35 mm, also RTBS, CLIS, MLIS oder SLDS. Für die 60er Welle sind die Medium-Motoren mit 45 mm gebaut. Für SW50 und SW70 gibt es Adapter-Sets: AM45 für Basis und C-line, AMI45 für M-line und S-line. Der RolloTube Basis Large mit 60 mm ist direkt für die 70er Welle.",
+      "antwort_quellen": [
+        "https://www.rademacher.de/produkte/rollladen-sonnenschutz/rohrmotor/rollotube-basis-rtbs-10-16z",
+        "https://www.rademacher.de/produkte/rollladen-sonnenschutz/rohrmotor/rollotube-basis-rtbm-20-16z",
+        "https://www.rademacher.de/produkte/rollladen-sonnenschutz/rohrmotor/rollotube-basis-rtbl-80-16z",
+        "https://www.rademacher.de/produkte/rollladen-sonnenschutz/zubehoer/adapter-mitnehmer-set-am45-sw70",
+        "https://www.rademacher.de/produkte/rollladen-sonnenschutz/zubehoer/adapter-mitnehmer-set-ami45-sw70"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "rademacher-adapter-mitnehmer-set-am45-sw50",
+        "rademacher-adapter-mitnehmer-set-am45-sw70",
+        "rademacher-adapter-mitnehmer-set-ami45-sw70"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Welche Batterie braucht der Rademacher DuoFern-Handsender, und woran erkenne ich, dass sie leer ist?",
+      "kategorie": "pflege",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Der DuoFern Handsender Standard 9491 braucht laut Anleitung eine CR2450, der Pluspol liegt oben. Sie hält etwa zwei Jahre bei fünf Betätigungen am Tag. Ist sie fast leer, blinkt beim Bedienen die Status-LED, in der aktuellen Anleitung rot, in der Ausgabe von 2013 orange. Das Batteriefach öffnest du mit einem Schraubendreher an der Rückseite.",
+      "antwort_quellen": [
+        "https://medium.rademacher.de/static/b7/6a/ed/9f19a55f930157eb4acf3e7294999757f1/Bedienungsanleitung%20DuoFern%20Handsender%20Standard%209491%20DE+EN.pdf",
+        "https://asset.conrad.com/media10/add/160267/c1/-/de/001078807ML01/upute-za-rukovanje-1078807-32480366-standaard-9491-rademacher-duofern-6-kanalni-radijski-daljinski-upravljac.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "rademacher-duofern-handsender-standard-9491",
+        "rademacher-duofern-handsender-standard-9491-2"
+      ],
+      "passendes_problem": "rademacher-rollladen-reagiert-nicht"
+    },
+    {
+      "frage": "Wie lange gibt Rademacher Garantie, und repariert Rademacher einen defekten RolloTron?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.mikrocontroller.net/topic/424780",
+        "https://www.haustechnikdialog.de/forum/t/126226/rademacher-rollotron-9200-defekt-welche-moegliche-ursache-"
+      ],
+      "antwort": "Rademacher gibt 36 Monate Garantie auf Neugeräte, die nach Anleitung eingebaut wurden. Defekte Geräte schickst du an den Service in Rhede. Ohne Garantie gibt es nach der Prüfung einen kostenlosen Kostenvoranschlag; lehnst du ihn ab, kostet die Rücksendung 11,90 Euro. Reparaturen am Gerät selbst sind laut Anleitung dem autorisierten Kundendienst vorbehalten.",
+      "antwort_quellen": [
+        "https://service.rademacher.de/s/article/4403737093522-Der-Motor-bewegt-sich-nicht-mehr-Fehleranzeige-ER01-bzw-die-LEDs-blinken",
+        "https://medium.rademacher.de/static/79/b0/13/ed671f867e8aa3a49e1c6bbf85b95a486c/Bedienunganleitung%20RolloTron%20Standard%201300%20DE.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "Kann man die Platine eines alten RolloTron 9200 oder 9300 selbst reparieren (Relais, Platinen 314 PL1/PL2)?",
+      "fundstellen": [
+        "https://www.mikrocontroller.net/topic/424780",
+        "https://www.haustechnikdialog.de/forum/t/126226/rademacher-rollotron-9200-defekt-welche-moegliche-ursache-",
+        "https://www.elektrikforum.de/threads/rademacher-rollotron-rep-von-leiterplatte-moeglich.22709/"
+      ]
+    },
+    {
+      "frage": "Lässt sich ein RolloTron in Homematic, FHEM, Homey oder mit einem Shelly steuern?",
+      "fundstellen": [
+        "https://homematic-forum.de/forum/viewtopic.php?t=27017&start=10",
+        "https://community.homey.app/t/rademacher-rollotron/116805",
+        "https://shelly-forum.com/thread/25412-shelly-uni-an-rademacher-rollotron-pure/"
+      ]
+    },
+    {
+      "frage": "Der RolloTron ist laut. Ist das normal?",
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/elektrischen-gurtwickler-direkt-mit-steckdose-verbinden.122954/"
+      ]
+    },
+    {
+      "frage": "Was bedeutet „Fehler E3“ bei Rademacher?",
+      "fundstellen": [
+        "https://medium.rademacher.de/static/83/ef/38/2775b27950fbc48ec93cd5fb691e3cf6da/Bedienungsanleitung%20DE.pdf"
+      ],
+      "notiz": "E3 steht in der Anleitung des DuoFern Heizkörperstellantriebs 2 für eine zu kurze Installationsfahrt, nicht bei Rollladenantrieben."
+    }
+  ],
+  "allgemeine_muster": "Bei Rademacher drehen sich die Fragen fast nur um den RolloTron: Er fährt nicht mehr, die LEDs blinken, der untere Endpunkt stimmt nicht, und welcher Nachfolger passt für ein Gerät der 9000er-Reihe. Danach kommen DuoFern-Anmeldung und die Anbindung an andere Smart-Home-Systeme. In Foren wird oft an der Platine gelötet; Rademacher selbst verweist auf Reset, Abkühlen und den Service. Die Hersteller-Wissensdatenbank (service.rademacher.de) beantwortet die meisten Fragen mit Typ- und Artikelnummern."
+}
