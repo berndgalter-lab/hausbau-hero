@@ -58,7 +58,8 @@
   "fachbetrieb_ab": "Sobald eine Meldung nach dem Quittieren wiederkommt oder Antrieb, Steuerventil, Sensor oder Zähler nennt. Judo schreibt: „Das Öffnen der Geräte und der Austausch von wasserdruckbelasteten Teilen darf nur durch konzessionierte Personen erfolgen.“ Reparaturen machen Kundendienst oder vom Hersteller geschulte Fachhandwerker. Das gilt auch für die Wartung nach DIN EN 806-5: Judo i-soft SAFE+ einmal im Jahr, BWT Perla halbjährlich, Grünbeck softliQ jährlich, SYR LEX Plus jährliche Funktionsprüfung durch den Fachhandwerker. Du selbst kontrollierst alle zwei Monate Salz, Dichtheit und Meldungen.",
   "marken_probleme": [
     "judo-enthaertungsanlage-fehler",
-    "bwt-enthaertungsanlage-fehlermeldung"
+    "bwt-enthaertungsanlage-fehlermeldung",
+    "gruenbeck-enthaertungsanlage-fehlermeldung"
   ],
   "fragen": [
     {

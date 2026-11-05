@@ -1,0 +1,2067 @@
+{
+  "marke": {
+    "slug": "gruenbeck",
+    "name": "Grünbeck",
+    "beschreibung": "Grünbeck Wasseraufbereitung aus Höchstädt an der Donau baut Hauswasserfilter für den Hausanschluss: Rückspülfilter (BOXER R und RX, pureliQ:R, Automatikfilter pureliQ:A), Feinfilter mit Filterkerze (BOXER K und KX, pureliQ:K), jeweils auch mit Druckminderer, dazu die Enthärtungsanlagen softliQ:SC und softliQ:SD.\n\nGesucht werden vor allem das passende Filterelement oder die Filterkerze, Dichtungssätze und Hilfe bei Meldungen der softliQ wie „Salzvorrat verbraucht“. Bei den Filtern unterscheidet Grünbeck die alte BOXER-Baureihe (R, RD, K, KD) von der X-Baureihe (RX, RDX, KX, KDX) und vom pureliQ; die Teile sind nicht dieselben. Rückspülen, Filterkerze wechseln, Salz nachfüllen und kontrollieren machst du selbst. Dichtungen, Rückspülventile und Druckminderer wechselt laut Grünbeck eine Fachkraft, die Enthärtungsanlage wartet der Kundendienst.",
+    "nummer_hinweis": "Was passt, hängt bei Grünbeck an Gerät und Baureihe. Beides steht auf dem Typenschild: beim BOXER RX und RDX auf dem Filterkopf, beim pureliQ seitlich am Filter, bei der softliQ unter dem aufgeklappten Salztankdeckel.\n\nGrünbeck-Nummern sind sechsstellig. Filter haben eine Bestell-Nr. mit 101 vorne, etwa 101 310 für den alten BOXER R 1\" oder 101 515 für den BOXER RX 1\". Die softliQ:SC hat 188 500 oder 188 550, die softliQ:SD 189 100 bis 189 300. Ersatzteile tragen oft ein „e“ am Ende, etwa 101632E für das Filterelement der alten BOXER R und RD.\n\nBei Anfragen will Grünbeck Filtertyp, Filtergröße und Seriennummer wissen. Bei älteren BOXER stehen die Angaben auch auf der Originalverpackung. Fehlt das Typenschild, helfen die Anschlussgröße in Zoll und das Aussehen: Rückspülfilter haben ein Handrad oder einen Spülgriff oben, Feinfilter nicht.",
+    "ersatzteil_garantie": "Auf Verschleißteile wie Filterelement und Dichtungen gibt Grünbeck in den älteren BOXER-Anleitungen eine eingeschränkte Gewährleistung von sechs Monaten. Für Wartung und Reparatur verlangt Grünbeck Original-Ersatzteile, sonst droht der Verlust der Gewährleistung.\n\nEine Frist, wie lange es Ersatzteile gibt, nennt Grünbeck nicht. Die Anleitungen geben Intervalle vor: Bei den Filtern empfiehlt Grünbeck neue Dichtungen, Filterelement und Rückspülventil nach fünf Jahren und eine neue Filterglocke nach zehn Jahren. Die softliQ muss mindestens einmal im Jahr vom Werks- oder Vertragskundendienst gewartet werden, Grünbeck empfiehlt dafür einen Wartungsvertrag.",
+    "hersteller_ersatzteil_url": "https://www.gruenbeck.de/",
+    "quellen": [
+      "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+      "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+      "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+      "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RDX-3-4-1-1-1-4-Betriebsanleitung.pdf",
+      "https://img.shkshop.com/production/product/file/gruenbeck/7653_65679_0_Betriebsanleitung_101530.pdf",
+      "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+      "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+      "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+      "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+      "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf",
+      "https://www.testberichte.de/heimwerkerbedarf/gruenbeck-ersatzfilterkerze-100-m-groesse-1-fuer-pureliq-k-kd-boxer-kx-kdx-2-stueck-101272e.html",
+      "https://www.galaxus.ch/en/s3/product/gruenbeck-backwash-filter-boxer-rx-1-replaces-101310-water-purification-31953660",
+      "https://www.galaxus.de/en/s4/product/gruenbeck-backwash-filter-boxer-rdx-dn-25-1-incl-pressure-reducer-replaces-art-101360-sanitary-insta-31953661",
+      "https://www.amazon.de/dp/B00DYPIY7O",
+      "https://www.amazon.de/dp/B07D73KVVF",
+      "https://www.amazon.de/dp/B008GRZGB2",
+      "https://www.amazon.de/dp/B07B9X2C44",
+      "https://www.amazon.de/dp/B01LBCEPVA",
+      "https://www.amazon.de/dp/B06XXVMNWB",
+      "https://www.amazon.de/dp/B07SGD926P",
+      "https://www.haustechnikdialog.de/Forum/t/131108/Rueckspuelfilter-statt-Filterkerze",
+      "https://www.haustechnikdialog.de/Forum/t/198341/Dumme-Fragen-zu-Gruenbeck-Geno-FS1",
+      "https://www.haustechnikdialog.de/Forum/t/226777/GruenbeckRueckspuelfilter-Atro-HWS-1-ersetzen-",
+      "https://www.energiesparhaus.at/forum-wartung-enthaertungsanlage-gruenbeck-sc18/71761",
+      "https://www.energiesparhaus.at/forum-wartung-enthaertungsanlage-gruenbeck-sc18/71761_3",
+      "https://www.energiesparhaus.at/forum-wartung-enthaertungsanlage-gruenbeck-sc18/71761_5",
+      "https://www.gesetze-im-internet.de/avbwasserv/__12.html"
+    ],
+    "tabellen": [
+      {
+        "id": "filter-teile",
+        "titel": "Welcher Filtereinsatz, welche Dichtungen, welcher Druckminderer?",
+        "spalten": [
+          "Gerät",
+          "Bestell-Nr. Gerät",
+          "Filtereinsatz",
+          "Dichtungen",
+          "Druckminderer, Service-Kit"
+        ],
+        "zeilen": [
+          [
+            "BOXER R (alt)",
+            "101 305, 101 310, 101 315",
+            "Filterelement 101632E (100 µm)",
+            "Dichtungssatz 101635E",
+            "–"
+          ],
+          [
+            "BOXER RD (alt)",
+            "101 355, 101 360, 101 365",
+            "Filterelement 101632E (100 µm)",
+            "Dichtungssatz 101635E",
+            "Kartusche 107 605"
+          ],
+          [
+            "BOXER RX",
+            "101 510, 101 515, 101 520",
+            "beim Fachhandel mit Bestell-Nr. erfragen",
+            "Dichtungssatz 101625E",
+            "–"
+          ],
+          [
+            "BOXER RDX",
+            "101 525, 101 530, 101 535",
+            "beim Fachhandel mit Bestell-Nr. erfragen",
+            "Dichtungssatz 101625E",
+            "Kartusche, Werkzeug 104 805"
+          ],
+          [
+            "BOXER K, KD (alt)",
+            "101 205 bis 101 215, 101 255 bis 101 265",
+            "Filterkerzen 103 075 (80 µm, 2 Stück)",
+            "Dichtungssatz 101635E",
+            "KD: Kartusche 107 605"
+          ],
+          [
+            "BOXER KX, KDX",
+            "1\": 101835",
+            "Filterkerze 101272E (100 µm, 2 Stück), laut Händlern",
+            "–",
+            "–"
+          ],
+          [
+            "pureliQ:K",
+            "101 220, 101 225, 101 230",
+            "Filterkerze 101272E (100 µm, 2 Stück)",
+            "Dichtungssatz 101625E",
+            "Service Kit I 101671E, II 101672E"
+          ],
+          [
+            "pureliQ:KD",
+            "101 270, 101 275, 101 290",
+            "Filterkerze 101272E (100 µm, 2 Stück)",
+            "Dichtungssatz 101625E",
+            "Service Kit III 101673E, IV 101674E"
+          ],
+          [
+            "pureliQ:R",
+            "101 320, 101 325, 101 330",
+            "im Service Kit I 101676E",
+            "Dichtungssatz 101625E",
+            "Service Kit II 101677E"
+          ],
+          [
+            "pureliQ:RD",
+            "101 370, 101 375, 101 380",
+            "im Service Kit I 101676E",
+            "Dichtungssatz 101625E",
+            "Service Kit III 101678E, IV 101679E"
+          ],
+          [
+            "pureliQ:A",
+            "101 420, 101 425, 101 430",
+            "im Service Kit I 101694E",
+            "Dichtungssatz 101625E",
+            "Service Kit II 101696E"
+          ],
+          [
+            "pureliQ:AD",
+            "101 470, 101 475, 101 480",
+            "im Service Kit I 101694E",
+            "Dichtungssatz 101625E",
+            "Service Kit III 101697E, IV 101698E"
+          ]
+        ],
+        "hinweis": "Nummern aus den Grünbeck-Anleitungen, beim BOXER KX/KDX aus Händlerangaben. Die Bestell-Nr. des Geräts steht auf dem Typenschild. Die Filterkerze wechselst du selbst, Dichtungen, Filterelemente der Rückspülfilter, Druckminderer und Service-Kits wechselt laut Grünbeck eine Fachkraft."
+      },
+      {
+        "id": "enthaertung-teile",
+        "titel": "Was du an der softliQ selbst brauchst und was der Kundendienst macht",
+        "spalten": [
+          "Anlage",
+          "Bestell-Nr.",
+          "Salz",
+          "Selbst prüfen",
+          "Kundendienst"
+        ],
+        "zeilen": [
+          [
+            "softliQ:SC18, SC23",
+            "188 500, 188 550",
+            "Tabletten EN 973 Typ A, z. B. 127 001",
+            "Härte, Salzstand, Dichtheit alle 2 Monate",
+            "Injektor, Soleventil, Chlorzelle, Steuerventil (jährlich)"
+          ],
+          [
+            "softliQ:SD18, SD21, SD23",
+            "189 100, 189 200, 189 300",
+            "Tabletten DIN EN 973 Typ A, z. B. 127 001",
+            "Härte, Salzstand, Wassersensor, Dichtheit",
+            "Injektor, Soleventil, Chlorzelle, Steuerventil (jährlich)"
+          ],
+          [
+            "WINNI-mat VGX 9/14/19, GS",
+            "–",
+            "laut Anleitung der Anlage",
+            "Salzstand, Härte",
+            "Wartungskit 187 804"
+          ]
+        ],
+        "hinweis": "Den Härtetest 170 187 nennt Grünbeck als Verbrauchsmaterial. Die jährliche Wartung dürfen laut Anleitung nur der Werks- oder Vertragskundendienst oder von Grünbeck geschulte Fachhandwerker machen."
+      }
+    ],
+    "fragen": [
+      {
+        "frage": "Wo finde ich an meinem Grünbeck-Filter die Angaben für das richtige Ersatzteil?",
+        "antwort": "Auf dem Typenschild: Beim BOXER RX und RDX sitzt es auf dem Filterkopf, beim pureliQ seitlich am Filter. Dort stehen Produktbezeichnung und Bestell-Nr. des Geräts, sechsstellig mit 101 vorne, etwa 101 530 für den BOXER RDX 1\". Grünbeck bittet bei Anfragen um Filtertyp, Filtergröße und Seriennummer; bei älteren BOXER steht die Seriennummer auch auf der Originalverpackung.",
+        "kategorie": "nummer",
+        "quellen": [
+          "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+          "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+          "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf"
+        ],
+        "teile": [],
+        "problem": null
+      },
+      {
+        "frage": "Wo steht die Gerätenummer meiner Grünbeck softliQ?",
+        "antwort": "Das Typenschild findest du, wenn du den Salztankdeckel aufklappst. Es nennt Produktbezeichnung, Bestell-Nr. und Serien-Nr. Die softliQ:SC hat Nummern mit 188 vorne (SC18: 188 500, SC23: 188 550), die softliQ:SD mit 189 (SD18: 189 100, SD21: 189 200, SD23: 189 300). Diese Daten will der Kundendienst wissen.",
+        "kategorie": "nummer",
+        "quellen": [
+          "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+          "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf"
+        ],
+        "teile": [],
+        "problem": "gruenbeck-enthaertungsanlage-fehlermeldung"
+      },
+      {
+        "frage": "Welches Filterelement passt in meinen Grünbeck BOXER R oder RD?",
+        "antwort": "Für die alten BOXER R und RD nennt Grünbeck das Filterelement 101632E mit 100 µm, dasselbe gilt für die Automatikfilter BOXER A und AD. Dazu gehören der Dichtungssatz 101635E und beim RD die Druckmindererkartusche 107 605. Die neueren BOXER RX und RDX erkennst du am Typenschild auf dem Filterkopf und an den Bestell-Nr. 101 510 bis 101 535; ihre Anleitung nennt als Ersatzteilnummer nur den Dichtungssatz 101625E.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+          "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+          "https://www.amazon.de/dp/B00DYPIY7O"
+        ],
+        "teile": [
+          "gruenbeck-filterelement-boxer-101632e",
+          "gruenbeck-dichtungssatz-boxer-fs-b-101635e",
+          "gruenbeck-druckminderer-kartusche-107605",
+          "gruenbeck-dichtungssatz-101625e"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Welche Filterkerze gehört in den Grünbeck BOXER K, KX oder pureliQ:K?",
+        "antwort": "In den pureliQ:K und KD gehört die Filterkerze 101272E mit 100 µm im Zweierpack, Händler führen sie auch für den BOXER KX und KDX. Der alte BOXER K und KD hat ab Werk 80 µm, dafür nennt die Anleitung von 2015 die Kerzen 103 075. Feinere Kerzen mit 50, 20 oder 5 µm sind laut Grünbeck nach DIN EN 13443-1 nicht für Trinkwasserinstallationen zugelassen.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+          "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+          "https://www.testberichte.de/heimwerkerbedarf/gruenbeck-ersatzfilterkerze-100-m-groesse-1-fuer-pureliq-k-kd-boxer-kx-kdx-2-stueck-101272e.html"
+        ],
+        "teile": [
+          "gruenbeck-filterkerze-101272e",
+          "gruenbeck-filterkerzen-80um-103075"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Ich habe noch einen alten Grünbeck FS 1\". Kann ich einen BOXER oder pureliQ an dieselbe Stelle setzen?",
+        "antwort": "Ja, dafür gibt es den Adaptersatz 101647E. Laut Grünbeck ist er das Einlegeteil für den Tausch eines FS 1\" oder Ultra 99 R 1\" gegen einen BOXER, beim Händler steht auch pureliQ 1\" und FS-B 1\" dabei; er verlängert um 37 mm. Im Forum bestätigen Fachleute, dass so nur der Filter getauscht wird und die Leitung bleibt. Den Tausch am Hausanschluss macht ein eingetragener Installateur.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+          "https://www.amazon.de/dp/B07B9X2C44",
+          "https://www.haustechnikdialog.de/Forum/t/131108/Rueckspuelfilter-statt-Filterkerze",
+          "https://www.gesetze-im-internet.de/avbwasserv/__12.html"
+        ],
+        "teile": [
+          "gruenbeck-adaptersatz-fs-1-zoll-101647e"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Mein Grünbeck-Rückspülfilter tropft nach dem Rückspülen. Was kann ich selbst tun?",
+        "antwort": "Noch einmal rückspülen, bei Grünbeck am besten dreimal hintereinander, und das Handrad danach ganz zurückdrehen, beim BOXER RX und RDX bis zum Klick. Tropft es weiter, sind meist Rückspülventil, Federpaket oder Dichtungen verschlissen; Grünbeck empfiehlt deren Tausch nach fünf Jahren. Diese Verschleißteile wechselt laut Anleitung eine Fachkraft.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+          "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf"
+        ],
+        "teile": [
+          "gruenbeck-dichtungssatz-101625e"
+        ],
+        "problem": "gruenbeck-rueckspuelfilter-tropft"
+      },
+      {
+        "frage": "Meine softliQ meldet „Salzvorrat verbraucht“, obwohl noch Salz im Tank ist. Was ist los?",
+        "antwort": "Grünbeck nennt dafür zuerst einen Hohlraum unter dem Salz: Die Tabletten sind oben verkrustet, darunter erreicht das Wasser kein Salz. Die Kruste löst du mit einem geeigneten Werkzeug. Weitere Ursachen laut Anleitung sind ein Fließdruck unter 2,0 bar, eine verschlissene Chlorzelle und ein verstopfter Injektor oder ein verstopftes Soleventil; dafür kommt der Kundendienst. Ein Betreiber fand im Forum viel feines Salz unter dem Siebboden.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+          "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf",
+          "https://www.energiesparhaus.at/forum-wartung-enthaertungsanlage-gruenbeck-sc18/71761_3"
+        ],
+        "teile": [
+          "gruenbeck-regeneriersalz-tabletten-127001"
+        ],
+        "problem": "gruenbeck-enthaertungsanlage-verbraucht-kein-salz"
+      },
+      {
+        "frage": "Darf ich Dichtungen oder die Druckminderer-Kartusche an meinem Grünbeck-Filter selbst tauschen?",
+        "antwort": "Laut Grünbeck nicht: Verschleißteile wie Dichtungen, Rückspülventil, Filterelement und Druckminderer wechselt nur eine Fachkraft, Instandsetzung machen Fachkraft oder Kundendienst. Du darfst rückspülen, kontrollieren, den Druck ablesen und beim Feinfilter die Filterkerze wechseln. Den Druckminderer lässt Grünbeck bei falscher Einstellung oder Defekt vom Kundendienst prüfen, einstellen oder ersetzen.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+          "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+          "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf"
+        ],
+        "teile": [
+          "gruenbeck-dichtungssatz-101625e",
+          "gruenbeck-druckminderer-kartusche-107605"
+        ],
+        "problem": "gruenbeck-hauswasserfilter-wasserdruck-zu-niedrig"
+      },
+      {
+        "frage": "Bekomme ich für meinen alten Grünbeck BOXER noch Ersatzteile?",
+        "antwort": "Das Filterelement 101632E für BOXER R, RD, A und AD wird weiter im Original verkauft, auch bei Amazon. Die Anleitung von 2014 führt außerdem Dichtungssatz, Druckmindererkartusche, Rückspüleinheit und Filterglocke mit Nummer. Ist mehr kaputt, gibt es den Nachfolger: Händler bieten den BOXER RX 1\" als Ersatz für den BOXER R 1\" (101 310) und den BOXER RDX 1\" für den RD 1\" (101 360) an.",
+        "kategorie": "verfuegbarkeit",
+        "quellen": [
+          "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+          "https://www.amazon.de/dp/B00DYPIY7O",
+          "https://www.galaxus.ch/en/s3/product/gruenbeck-backwash-filter-boxer-rx-1-replaces-101310-water-purification-31953660",
+          "https://www.galaxus.de/en/s4/product/gruenbeck-backwash-filter-boxer-rdx-dn-25-1-incl-pressure-reducer-replaces-art-101360-sanitary-insta-31953661"
+        ],
+        "teile": [
+          "gruenbeck-filterelement-boxer-101632e",
+          "gruenbeck-rueckspueleinheit-boxer-r-rd-101633e",
+          "gruenbeck-filterglocke-boxer-r-rd-101638e"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Wo kaufe ich Original-Ersatzteile von Grünbeck?",
+        "antwort": "Grünbeck verkauft Verbrauchsartikel und Ersatzteile über den Sanitärfachhandel und die zuständige Grünbeck-Vertretung, die Gewährleistung hängt an Originalteilen. Filterelement 101632E, Filterkerzen 101272E und 103 075, den Adaptersatz 101647E und den Härtetest 170 187 gibt es im Original auch bei Amazon. Für Bestellungen brauchst du Filtertyp, Größe und Seriennummer vom Typenschild.",
+        "kategorie": "bezug",
+        "quellen": [
+          "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+          "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+          "https://www.amazon.de/dp/B00DYPIY7O",
+          "https://www.amazon.de/dp/B07D73KVVF"
+        ],
+        "teile": [
+          "gruenbeck-filterelement-boxer-101632e",
+          "gruenbeck-filterkerze-101272e",
+          "gruenbeck-filterkerzen-80um-103075"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Wie oft muss ich meinen Grünbeck-Rückspülfilter rückspülen?",
+        "antwort": "Spätestens alle sechs Monate nach DIN EN 806-5, Grünbeck empfiehlt alle zwei Monate. Handrad bis zum Anschlag drehen, 5 bis 10 Sekunden halten und zurückdrehen, am besten dreimal. Ohne Kanalanschluss stellst du einen 10-l-Eimer unter. Den Wartungsring oben am Filter stellst du danach auf den nächsten Termin.",
+        "kategorie": "pflege",
+        "quellen": [
+          "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+          "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+          "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf"
+        ],
+        "teile": [],
+        "problem": "gruenbeck-rueckspuelfilter-tropft"
+      },
+      {
+        "frage": "Welches Salz darf in die Grünbeck softliQ?",
+        "antwort": "Nur Salztabletten nach EN 973 Typ A, andere Regeneriermittel lässt Grünbeck bei der softliQ:SC und SD nicht zu. Grünbeck selbst führt Tabletten im 25-kg-Sack unter der Nummer 127 001. Der Tablettenstand muss immer über dem Wasserstand liegen, der Tank fasst bis 35 kg.",
+        "kategorie": "pflege",
+        "quellen": [
+          "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+          "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf"
+        ],
+        "teile": [
+          "gruenbeck-regeneriersalz-tabletten-127001"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Muss meine Grünbeck-Enthärtungsanlage wirklich jedes Jahr vom Kundendienst gewartet werden?",
+        "antwort": "Laut Grünbeck ja: Mindestens einmal im Jahr wartet der Werks- oder Vertragskundendienst oder ein von Grünbeck geschulter Fachhandwerker, dabei werden unter anderem Injektor, Injektorsieb, Soleventil und Elektroden geprüft und gereinigt. Du selbst prüfst alle zwei Monate Weichwasserhärte, Salzvorrat und Dichtheit und halbjährlich zusätzlich Salzverbrauch und ob das Salz verklumpt ist. Im Forum berichten Betreiber, die die Jahreswartung selbst machen, und ein Techniker soll zwei Jahre als Abstand genannt haben.",
+        "kategorie": "pflege",
+        "quellen": [
+          "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+          "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf",
+          "https://www.energiesparhaus.at/forum-wartung-enthaertungsanlage-gruenbeck-sc18/71761"
+        ],
+        "teile": [
+          "gruenbeck-wasserpruefeinrichtung-gesamthaerte-170187"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Wozu ist die Schutzglocke in meinem alten Grünbeck FS 1\", und muss ich sie mit wechseln?",
+        "antwort": "Grünbeck hat das im HaustechnikDialog selbst beantwortet: Der FS 1\" besteht aus Stützgewebe, Filterkerze, Schutzglocke und Filterglocke mit Gewinde. Die Schutzglocke dichtet mit ab und soll aus hygienischen Gründen regelmäßig gewechselt werden. Ein Fachmann im selben Thread rät, beim Kerzenwechsel auch die Dichtung zu erneuern, weil sie plötzlich undicht werden kann.",
+        "kategorie": "pflege",
+        "quellen": [
+          "https://www.haustechnikdialog.de/Forum/t/198341/Dumme-Fragen-zu-Gruenbeck-Geno-FS1"
+        ],
+        "teile": [],
+        "problem": null
+      }
+    ]
+  },
+  "serien": [
+    {
+      "slug": "boxer-r",
+      "name": "Grünbeck BOXER R (Rückspülfilter, alte Baureihe)",
+      "produkttyp": "rueckspuelfilter",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "BOXER R",
+        "101 305",
+        "101 310",
+        "101 315",
+        "101305",
+        "101310",
+        "101315"
+      ],
+      "erkennungsmerkmale": "Rückspülfilter mit transparenter Filterglocke und Spülgriff, ohne Manometer. Bestell-Nr. 101 305 (¾\"), 101 310 (1\"), 101 315 (1¼\"). Gesamthöhe 280 mm.",
+      "beschreibung": "Handbedienter Rückspülfilter mit 100-µm-Edelstahlgewebe, Anleitung vom März 2014. Rückgespült wird, indem du den Spülgriff bis zum Anschlag drehst und 5 bis 10 Sekunden hältst. Den Nachfolger BOXER RX verkaufen Händler als Ersatz für den 101 310. Das Filterelement 101632E passt laut Grünbeck auch in die Automatikfilter BOXER A und AD.",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+        "https://www.galaxus.ch/en/s3/product/gruenbeck-backwash-filter-boxer-rx-1-replaces-101310-water-purification-31953660"
+      ]
+    },
+    {
+      "slug": "boxer-rd",
+      "name": "Grünbeck BOXER RD (Rückspülfilter mit Druckminderer, alte Baureihe)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "BOXER RD",
+        "101 355",
+        "101 360",
+        "101 365",
+        "101355",
+        "101360",
+        "101365"
+      ],
+      "erkennungsmerkmale": "Wie der BOXER R, aber mit Druckminderer, Einstellring und Manometer im Gehäuse. Bestell-Nr. 101 355 (¾\"), 101 360 (1\"), 101 365 (1¼\"). Gesamthöhe 298 mm.",
+      "beschreibung": "Rückspülfilter mit Druckminderer, Nachdruck 1 bis 6 bar, ab Werk 4 bar. Filterelement und Dichtungssatz sind dieselben wie beim BOXER R, dazu kommt die Druckminderer-Kartusche 107 605.",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+        "https://www.galaxus.de/en/s4/product/gruenbeck-backwash-filter-boxer-rdx-dn-25-1-incl-pressure-reducer-replaces-art-101360-sanitary-insta-31953661"
+      ]
+    },
+    {
+      "slug": "boxer-rx",
+      "name": "Grünbeck BOXER RX (Rückspülfilter, X-Baureihe)",
+      "produkttyp": "rueckspuelfilter",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "BOXER RX",
+        "101 510",
+        "101 515",
+        "101 520",
+        "101510",
+        "101515",
+        "101520"
+      ],
+      "erkennungsmerkmale": "Rückspülfilter mit Rückspülhandrad und Wartungsring oben, Typenschild auf dem Filterkopf. Bestell-Nr. 101 510 (¾\"), 101 515 (1\"), 101 520 (1¼\"). Für 1½\" und 2\" gibt es eine eigene Ausführung (101 540).",
+      "beschreibung": "Nachfolger des BOXER R, die erste Anleitung ist vom Mai 2019. Nach dem Rückspülen drehst du das Handrad zurück, bis es klickt. Grünbeck empfiehlt nach fünf Jahren neue Dichtungen, Filterelement, Rückspülventil und Federpaket, nach zehn Jahren eine neue Filterglocke.",
+      "quellen": [
+        "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RDX-3-4-1-1-1-4-Betriebsanleitung.pdf",
+        "https://www.galaxus.ch/en/s3/product/gruenbeck-backwash-filter-boxer-rx-1-replaces-101310-water-purification-31953660"
+      ]
+    },
+    {
+      "slug": "boxer-rdx",
+      "name": "Grünbeck BOXER RDX (Rückspülfilter mit Druckminderer, X-Baureihe)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "BOXER RDX",
+        "101 525",
+        "101 530",
+        "101 535",
+        "101525",
+        "101530",
+        "101535"
+      ],
+      "erkennungsmerkmale": "Wie der BOXER RX, aber mit Druckminderer-Kartusche und Manometer im Filterkopf. Bestell-Nr. 101 525 (¾\"), 101 530 (1\"), 101 535 (1¼\"). Baut tiefer: 160 bis 170 mm bis Mitte Anschluss.",
+      "beschreibung": "Nachfolger des BOXER RD. Den Nachdruck stellst du am Druckminderer ein, ab Werk sind es 4 bar. Ist er falsch eingestellt oder defekt, lässt Grünbeck ihn vom Kundendienst prüfen, einstellen oder ersetzen.",
+      "quellen": [
+        "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RDX-3-4-1-1-1-4-Betriebsanleitung.pdf",
+        "https://img.shkshop.com/production/product/file/gruenbeck/7653_65679_0_Betriebsanleitung_101530.pdf",
+        "https://www.galaxus.de/en/s4/product/gruenbeck-backwash-filter-boxer-rdx-dn-25-1-incl-pressure-reducer-replaces-art-101360-sanitary-insta-31953661"
+      ]
+    },
+    {
+      "slug": "boxer-k",
+      "name": "Grünbeck BOXER K (Feinfilter, alte Baureihe)",
+      "produkttyp": "rueckspuelfilter",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "BOXER K",
+        "101 205",
+        "101 210",
+        "101 215",
+        "101205",
+        "101210",
+        "101215"
+      ],
+      "erkennungsmerkmale": "Feinfilter mit Filterkerze aus Vlies auf einem Stützgewebe, ohne Spülgriff. Bestell-Nr. 101 205 (¾\"), 101 210 (1\"), 101 215 (1¼\"). Ausbaumaß der Kerze 150 mm.",
+      "beschreibung": "Kein Rückspülfilter, sondern ein Wechselfilter: Die Kerze wird nicht gespült, sondern laut DIN EN 806-5 alle sechs Monate getauscht. Ab Werk hat er 80 µm (Kerzen 103 075). Grünbeck empfiehlt, den O-Ring der Glocke alle zwei Jahre mit einem Dichtungssatz zu erneuern.",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf"
+      ]
+    },
+    {
+      "slug": "boxer-kd",
+      "name": "Grünbeck BOXER KD (Feinfilter mit Druckminderer, alte Baureihe)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "BOXER KD",
+        "101 255",
+        "101 260",
+        "101 265",
+        "101255",
+        "101260",
+        "101265"
+      ],
+      "erkennungsmerkmale": "Wie der BOXER K, aber mit Druckminderer, Einstellring und Manometer. Bestell-Nr. 101 255 (¾\"), 101 260 (1\"), 101 265 (1¼\").",
+      "beschreibung": "Wechselfilter mit Druckminderer, Nachdruck 1 bis 6 bar. Filterkerze 80 µm, Dichtungssatz und Druckminderer-Kartusche wie beim BOXER K und RD.",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf"
+      ]
+    },
+    {
+      "slug": "boxer-kx",
+      "name": "Grünbeck BOXER KX (Feinfilter, X-Baureihe)",
+      "produkttyp": "rueckspuelfilter",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "BOXER KX",
+        "101 835",
+        "101835"
+      ],
+      "erkennungsmerkmale": "Feinfilter der X-Baureihe mit Filterkerze, ohne Rückspülhandrad. Den 1\"-Filter führt Amazon als 101835.",
+      "beschreibung": "Wechselfilter, kein Rückspülfilter: Die Kerze mit 100 µm wird getauscht. Händler führen für den BOXER KX und KDX dieselbe Filterkerze wie für den pureliQ:K, 101272E.",
+      "quellen": [
+        "https://www.amazon.de/dp/B07SGD926P",
+        "https://www.testberichte.de/heimwerkerbedarf/gruenbeck-ersatzfilterkerze-100-m-groesse-1-fuer-pureliq-k-kd-boxer-kx-kdx-2-stueck-101272e.html"
+      ]
+    },
+    {
+      "slug": "boxer-kdx",
+      "name": "Grünbeck BOXER KDX (Feinfilter mit Druckminderer, X-Baureihe)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "BOXER KDX"
+      ],
+      "erkennungsmerkmale": "Feinfilter der X-Baureihe mit Druckminderer und Manometer, ohne Rückspülhandrad.",
+      "beschreibung": "Wechselfilter mit Druckminderer. Händler führen dafür die Filterkerze 101272E.",
+      "quellen": [
+        "https://www.testberichte.de/heimwerkerbedarf/gruenbeck-ersatzfilterkerze-100-m-groesse-1-fuer-pureliq-k-kd-boxer-kx-kdx-2-stueck-101272e.html"
+      ]
+    },
+    {
+      "slug": "pureliq-r",
+      "name": "Grünbeck pureliQ:R (Rückspülfilter)",
+      "produkttyp": "rueckspuelfilter",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "pureliQ:R",
+        "pureliQ R",
+        "R20",
+        "R25",
+        "R32",
+        "101 320",
+        "101 325",
+        "101 330",
+        "101320",
+        "101325",
+        "101330"
+      ],
+      "erkennungsmerkmale": "Rückspülfilter mit Abdeckung über der Filterglocke und Rückspülhandrad, Typenschild seitlich am Filter. Bestell-Nr. 101 320 (DN 20), 101 325 (DN 25), 101 330 (DN 32).",
+      "beschreibung": "Rückspülfilter mit 100 µm, Anleitung vom Mai 2024. Rückspülen: Handrad nach links bis zum Anschlag drehen, 5 bis 10 Sekunden halten, zurückdrehen. Verschleißteile gibt es als Service Kit I (101 676e) und II (101 677e).",
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf"
+      ]
+    },
+    {
+      "slug": "pureliq-rd",
+      "name": "Grünbeck pureliQ:RD (Rückspülfilter mit Druckminderer)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "pureliQ:RD",
+        "pureliQ RD",
+        "RD20",
+        "RD25",
+        "RD32",
+        "101 370",
+        "101 375",
+        "101 380",
+        "101370",
+        "101375",
+        "101380"
+      ],
+      "erkennungsmerkmale": "Wie der pureliQ:R, aber mit Druckminderer und Manometer. Bestell-Nr. 101 370 (DN 20), 101 375 (DN 25), 101 380 (DN 32).",
+      "beschreibung": "Rückspülfilter mit Druckminderer, Nachdruck 1 bis 6 bar. Verschleißteile mit Druckminderer und Manometer gibt es als Service Kit III (101 678e) und IV (101 679e).",
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf"
+      ]
+    },
+    {
+      "slug": "pureliq-k",
+      "name": "Grünbeck pureliQ:K (Feinfilter)",
+      "produkttyp": "rueckspuelfilter",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "pureliQ:K",
+        "pureliQ K",
+        "K20",
+        "K25",
+        "K32",
+        "101 220",
+        "101 225",
+        "101 230",
+        "101220",
+        "101225",
+        "101230"
+      ],
+      "erkennungsmerkmale": "Feinfilter mit Filterkerze, Abdeckung über der Filterglocke, Typenschild seitlich. Bestell-Nr. 101 220 (DN 20), 101 225 (DN 25), 101 230 (DN 32).",
+      "beschreibung": "Wechselfilter, kein Rückspülfilter: Die Filterkerze 101 272 (100 µm, 2 Stück) wechselst du spätestens alle sechs Monate, sie darf nicht gereinigt werden. Grünbeck erlaubt den Kerzenwechsel dem Betreiber.",
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://www.amazon.de/dp/B07D73KVVF"
+      ]
+    },
+    {
+      "slug": "pureliq-kd",
+      "name": "Grünbeck pureliQ:KD (Feinfilter mit Druckminderer)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "pureliQ:KD",
+        "pureliQ KD",
+        "KD20",
+        "KD25",
+        "KD32",
+        "101 270",
+        "101 275",
+        "101 290",
+        "101270",
+        "101275",
+        "101290"
+      ],
+      "erkennungsmerkmale": "Wie der pureliQ:K, aber mit Druckminderer und Manometer. Bestell-Nr. 101 270 (DN 20), 101 275 (DN 25), 101 290 (DN 32).",
+      "beschreibung": "Wechselfilter mit Druckminderer, Nachdruck 1 bis 6 bar, ab Werk 4 bar. Filterkerze 101 272 wie beim pureliQ:K.",
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://www.amazon.de/dp/B07D73KVVF"
+      ]
+    },
+    {
+      "slug": "pureliq-a",
+      "name": "Grünbeck pureliQ:A (Automatikfilter)",
+      "produkttyp": "rueckspuelfilter",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "pureliQ:A",
+        "pureliQ A",
+        "A20",
+        "A25",
+        "A32",
+        "101 420",
+        "101 425",
+        "101 430",
+        "101420",
+        "101425",
+        "101430"
+      ],
+      "erkennungsmerkmale": "Rückspülfilter mit Automatikantrieb, Steckernetzteil und vier LEDs für das Rückspülintervall (7, 30, 60, 90 Tage). Bestell-Nr. 101 420 (DN 20), 101 425 (DN 25), 101 430 (DN 32).",
+      "beschreibung": "Spült von selbst nach dem eingestellten Intervall, ab Werk 60 Tage. Blinken alle vier LEDs oder die oberste, liegt eine Störung am Antrieb vor (siehe Problem). Verschleißteile gibt es als Service Kit I (101 694e) und II (101 696e).",
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf"
+      ]
+    },
+    {
+      "slug": "pureliq-ad",
+      "name": "Grünbeck pureliQ:AD (Automatikfilter mit Druckminderer)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "pureliQ:AD",
+        "pureliQ AD",
+        "AD20",
+        "AD25",
+        "AD32",
+        "101 470",
+        "101 475",
+        "101 480",
+        "101470",
+        "101475",
+        "101480"
+      ],
+      "erkennungsmerkmale": "Wie der pureliQ:A, aber mit Druckminderer und Manometer. Bestell-Nr. 101 470 (DN 20), 101 475 (DN 25), 101 480 (DN 32).",
+      "beschreibung": "Automatikfilter mit Druckminderer, Nachdruck 1 bis 6 bar. Verschleißteile mit Druckminderer und Manometer gibt es als Service Kit III (101 697e) und IV (101 698e).",
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+        "https://www.amazon.de/dp/B07BXFCJKP"
+      ]
+    },
+    {
+      "slug": "softliq-sc",
+      "name": "Grünbeck softliQ:SC (SC18, SC23)",
+      "produkttyp": "enthaertungsanlage",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "softliQ:SC",
+        "SC18",
+        "SC23",
+        "188 500",
+        "188 550",
+        "188500",
+        "188550"
+      ],
+      "erkennungsmerkmale": "Enthärtungsanlage mit Salztank und Display mit Tasten, Typenschild bei aufgeklapptem Salztankdeckel. Bestell-Nr. 188 500 (SC18) und 188 550 (SC23). Nur die SC23 hat einen Sensor für den Salzvorrat im Deckel.",
+      "beschreibung": "Salztabletten nachfüllen und alle zwei Monate kontrollieren ist deine Aufgabe. Die jährliche Wartung mit Injektor, Soleventil und Steuerventil macht laut Grünbeck der Werks- oder Vertragskundendienst oder ein von Grünbeck geschulter Fachhandwerker. Bis 35 kg Salz im Tank.",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf"
+      ]
+    },
+    {
+      "slug": "softliq-sd",
+      "name": "Grünbeck softliQ:SD (SD18, SD21, SD23)",
+      "produkttyp": "enthaertungsanlage",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "softliQ:SD",
+        "SD18",
+        "SD21",
+        "SD23",
+        "189 100",
+        "189 200",
+        "189 300",
+        "189100",
+        "189200",
+        "189300"
+      ],
+      "erkennungsmerkmale": "Enthärtungsanlage mit Touchdisplay, Typenschild bei aufgeklapptem Salztankdeckel. Bestell-Nr. 189 100 (SD18), 189 200 (SD21), 189 300 (SD23). SD21 und SD23 haben Salzvorratsanzeige und Wassersensor am Boden.",
+      "beschreibung": "Wie die softliQ:SC regeneriert sie nach Verbrauch und spätestens nach vier Tagen aus Hygienegründen. Der Wasserstand im Salztank liegt normal etwa 1 cm über dem Siebboden. Wartung wie bei der softliQ:SC durch den Kundendienst.",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf"
+      ]
+    },
+    {
+      "slug": "winni-mat-vgx",
+      "name": "Grünbeck WINNI-mat VGX (VGX 9, 14, 19)",
+      "produkttyp": "enthaertungsanlage",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "WINNI-mat VGX",
+        "VGX 9",
+        "VGX 14",
+        "VGX 19",
+        "GS 2",
+        "GS"
+      ],
+      "erkennungsmerkmale": "Ältere Grünbeck-Enthärtungsanlage für das Einfamilienhaus. Die Größe steht im Namen: VGX 9, 14 oder 19.",
+      "beschreibung": "Für die VGX und die GS gibt es ein Wartungskit mit Dichtungen (187 804). Die Wartung gehört wie bei der softliQ zum Kundendienst.",
+      "quellen": [
+        "https://www.amazon.de/dp/B06XXVMNWB"
+      ]
+    }
+  ],
+  "teile": [
+    {
+      "slug": "gruenbeck-filterelement-boxer-101632e",
+      "name": "Grünbeck Filterelement 100 µm für BOXER R/RD, A/AD (101632E)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "101632E",
+      "ean": null,
+      "masse": {
+        "filterfeinheit_um": 100,
+        "nennweite": "¾\" bis 1¼\""
+      },
+      "beschreibung": "Edelstahl-Filterelement mit 100 µm für die Rückspülfilter der alten BOXER-Baureihe R und RD und die Automatikfilter A und AD. Filterelement und Dichtungen zählt Grünbeck zu den Verschleißteilen, die Gewährleistung darauf beträgt sechs Monate. Defekte Bauteile tauscht laut Anleitung das Fachpersonal.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B00DYPIY7O",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+        "https://www.amazon.de/dp/B00DYPIY7O"
+      ]
+    },
+    {
+      "slug": "gruenbeck-dichtungssatz-boxer-fs-b-101635e",
+      "name": "Grünbeck Dichtungssatz zu BOXER/FS-B (101635E)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "101635E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Dichtungssatz für die alte BOXER-Baureihe, in den Anleitungen von BOXER R/RD (2014) und BOXER K/KD (2015) genannt. Beim BOXER K empfiehlt Grünbeck, den O-Ring des Gehäuses alle zwei Jahre damit zu erneuern.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-druckminderer-kartusche-107605",
+      "name": "Grünbeck Druckmindererkartusche für BOXER RD/KD (107 605)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "107605",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Druckminderer-Kartusche der alten BOXER RD und KD. Zum Ausbauen braucht man den Rohr-Steckschlüssel 104 805. Den Tausch macht das Fachpersonal.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-rueckspueleinheit-boxer-r-rd-101633e",
+      "name": "Grünbeck Rückspüleinheit für BOXER R/RD (101633E)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "101633E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Rückspüleinheit mit Spülgriff für die alten BOXER R und RD. Kommt in Frage, wenn der Filter auch nach mehrmaligem Rückspülen aus dem Ablauf tropft. Tausch durch Fachpersonal.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-filterglocke-boxer-r-rd-101638e",
+      "name": "Grünbeck Ersatz-Filterglocke für BOXER R/RD (101638E)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "101638E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Transparente Filterglocke für die alten Rückspülfilter BOXER R und RD. Bei Rissen, Trübung oder nach einem Schlag gehört sie getauscht.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-filterkerzen-80um-103075",
+      "name": "Grünbeck Filterkerzen 80 µm, 2 Stück, für BOXER K/KD (103 075)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "103075",
+      "ean": null,
+      "masse": {
+        "filterfeinheit_um": 80,
+        "stueck": 2
+      },
+      "beschreibung": "Filterkerzen aus Vlies für die alten Feinfilter BOXER K und KD, ab Werk 80 µm. Wechsel nach DIN EN 806-5 alle sechs Monate, durch den Betreiber oder den Installateur. Die neue Kerze nicht mit bloßen Händen anfassen. Grünbeck listet auch 50, 20 und 5 µm (103 068, 103 071, 103 081); diese sind nach DIN EN 13443-1 nicht für Trinkwasserinstallationen zugelassen.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "Eimer, Hygienehandschuhe. Die Filterglocke geht von Hand ab.",
+      "amazon_asin": "B008GRZGB2",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+        "https://www.amazon.de/dp/B008GRZGB2"
+      ]
+    },
+    {
+      "slug": "gruenbeck-stuetzgewebe-boxer-k-101631e",
+      "name": "Grünbeck Stützgewebe für BOXER K/KD (101631E)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "101631E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Stützgewebe, über das die Filterkerze im BOXER K und KD gezogen wird. Ersatzteil laut Anleitung von 2015.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-filterglocke-boxer-k-101636e",
+      "name": "Grünbeck Ersatz-Filterglocke für BOXER K/KD (101636E)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "101636E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Filterglocke für die alten Feinfilter BOXER K und KD.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-filterkerze-101272e",
+      "name": "Grünbeck Filterkerze 100 µm, 2 Stück, für pureliQ:K/KD und BOXER KX/KDX (101272E)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "101272E",
+      "ean": null,
+      "masse": {
+        "filterfeinheit_um": 100,
+        "stueck": 2
+      },
+      "beschreibung": "Filterkerzen für die Feinfilter pureliQ:K und KD, so steht es in der Grünbeck-Anleitung (dort als 101 272). Händler führen dieselbe Nummer für den BOXER KX und KDX. Wechsel spätestens alle sechs Monate, eine gebrauchte Kerze wird nicht gereinigt, sondern entsorgt. Die neue Kerze schiebst du noch in der Folie über das Stützgewebe.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": "Eimer (mind. 10 l), Hygienehandschuhe. Filterglocke von Hand lösen, bei Bedarf Bandschlüssel; zum Zuschrauben keinen Bandschlüssel verwenden.",
+      "amazon_asin": "B07D73KVVF",
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://www.amazon.de/dp/B07D73KVVF",
+        "https://www.testberichte.de/heimwerkerbedarf/gruenbeck-ersatzfilterkerze-100-m-groesse-1-fuer-pureliq-k-kd-boxer-kx-kdx-2-stueck-101272e.html"
+      ]
+    },
+    {
+      "slug": "gruenbeck-dichtungssatz-101625e",
+      "name": "Grünbeck Dichtungssatz für Filterglocke und Stützgewebe (101625E)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "101625E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "O-Ringe für Filterglocke und Stützgewebe der neueren Filter: pureliQ:K/KD, pureliQ:R/RD, pureliQ:A/AD und BOXER RX/RDX. Grünbeck lässt die Dichtungen bei Undichtigkeit, Beschädigung oder Verformung von einer Fachkraft ersetzen und empfiehlt den Tausch nach fünf Jahren.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+        "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-service-kit-1-pureliq-k-101671e",
+      "name": "Grünbeck Service Kit I für pureliQ:K (101671E)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "101671E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Dichtungssatz und Stützgewebe für den pureliQ:K. Grünbeck empfiehlt Stützgewebe und Dichtungen nach fünf Jahren zu wechseln. Instandsetzung durch Fachkraft oder Kundendienst.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-service-kit-2-pureliq-k-101672e",
+      "name": "Grünbeck Service Kit II für pureliQ:K mit Filterglocke (101672E)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "101672E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Service Kit I und dazu die Filterglocke, die Grünbeck nach zehn Jahren tauschen lässt.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-service-kit-3-pureliq-kd-101673e",
+      "name": "Grünbeck Service Kit III für pureliQ:KD (101673E)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "101673E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Dichtungssatz, Stützgewebe, Druckminderer und Manometer für den pureliQ:KD, empfohlen nach fünf Jahren. Für die Druckminderer-Kartusche braucht man den Rohr-Steckschlüssel 104 805.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-service-kit-4-pureliq-kd-101674e",
+      "name": "Grünbeck Service Kit IV für pureliQ:KD mit Filterglocke (101674E)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "101674E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Service-Kit für den pureliQ:KD mit Filterglocke.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-service-kit-1-pureliq-r-101676e",
+      "name": "Grünbeck Service Kit I für pureliQ:R (101676E)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "101676E",
+      "ean": null,
+      "masse": {
+        "filterfeinheit_um": 100
+      },
+      "beschreibung": "Filterelement 100 µm mit Dichtung, O-Ring der Filterglocke, Rückspülventil mit Dichtungen und Federpaket. Grünbeck empfiehlt den Tausch nach fünf Jahren, durch Fachkraft oder Kundendienst.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-service-kit-2-pureliq-r-101677e",
+      "name": "Grünbeck Service Kit II für pureliQ:R mit Filterglocke (101677E)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "101677E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Service Kit I und dazu die Filterglocke, empfohlen nach zehn Jahren.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-service-kit-3-pureliq-rd-101678e",
+      "name": "Grünbeck Service Kit III für pureliQ:RD (101678E)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "101678E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Service Kit I mit Druckminderer und Manometer für den pureliQ:RD.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-service-kit-4-pureliq-rd-101679e",
+      "name": "Grünbeck Service Kit IV für pureliQ:RD mit Filterglocke (101679E)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "101679E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Service Kit III und dazu die Filterglocke.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-service-kit-1-pureliq-a-101694e",
+      "name": "Grünbeck Service Kit I für pureliQ:A (101694E)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "101694E",
+      "ean": null,
+      "masse": {
+        "filterfeinheit_um": 100
+      },
+      "beschreibung": "Filterelement 100 µm mit Dichtung, O-Ring der Filterglocke, Rückspülventil mit Dichtungen und Befestigungsmutter mit Dichtung. Empfohlen nach fünf Jahren, Tausch durch Fachkraft oder Kundendienst.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-service-kit-2-pureliq-a-101696e",
+      "name": "Grünbeck Service Kit II für pureliQ:A mit Filterglocke und Automatikantrieb (101696E)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "101696E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Service Kit I, dazu Filterglocke und Automatikantrieb. Beides lässt Grünbeck nach zehn Jahren tauschen.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-service-kit-3-pureliq-ad-101697e",
+      "name": "Grünbeck Service Kit III für pureliQ:AD (101697E)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "101697E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Service Kit I mit Druckminderer und Manometer für den pureliQ:AD.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-service-kit-4-pureliq-ad-101698e",
+      "name": "Grünbeck Service Kit IV für pureliQ:AD (101698E)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "101698E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Service Kit III, dazu Filterglocke und Automatikantrieb.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-bandschluessel-105805",
+      "name": "Grünbeck Bandschlüssel für die Filterglocke (105 805)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "105805",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Werkzeug zum Lösen einer festsitzenden Filterglocke an BOXER RX/RDX, pureliQ und BOXER RDX 1½\"–2\". Zum Zuschrauben nimmt man ihn beim pureliQ:K nicht, die Glocke wird von Hand bis zum Anschlag eingeschraubt.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": null,
+      "schwierigkeit": 1,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-rohr-steckschluessel-104805",
+      "name": "Grünbeck Rohr-Steckschlüssel für die Druckminderer-Kartusche (104 805)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "104805",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Werkzeug für die Druckminderer-Kartusche in BOXER RDX und pureliQ:RD, KD und AD.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": null,
+      "schwierigkeit": 1,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-adaptersatz-fs-1-zoll-101647e",
+      "name": "Grünbeck Adaptersatz FS 1\" auf BOXER, pureliQ und FS-B 1\" (101647E)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "101647E",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Einlegeteil, mit dem ein alter Grünbeck-Feinfilter FS 1\" oder Ultra 99 R 1\" gegen einen BOXER oder pureliQ getauscht werden kann, ohne die Leitung umzubauen. Der Satz verlängert um 37 mm. Den Filtertausch am Hausanschluss macht der Installateur.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B07B9X2C44",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+        "https://www.amazon.de/dp/B07B9X2C44"
+      ]
+    },
+    {
+      "slug": "gruenbeck-regeneriersalz-tabletten-127001",
+      "name": "Grünbeck Regeneriersalztabletten 25 kg nach EN 973 Typ A (127 001)",
+      "teiltyp": "salz",
+      "oem_nummer": "127001",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Salztabletten für softliQ:SC und softliQ:SD. Grünbeck lässt bei diesen Anlagen nur Tabletten nach EN 973 Typ A zu, andere Regeneriermittel nicht. Der Tablettenstand muss immer über dem Wasserstand im Salztank liegen. Andere Tabletten mit EN 973 Typ A auf der Packung erfüllen dieselbe Norm.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": "Keins. Salztankdeckel öffnen, Tabletten einfüllen, Deckel schließen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+        "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-wasserpruefeinrichtung-gesamthaerte-170187",
+      "name": "Grünbeck Wasserprüfeinrichtung Gesamthärte (170 187)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "170187",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Tropftest für die Gesamthärte in °dH. Grünbeck nennt ihn als Verbrauchsmaterial der softliQ: Bei der Inspektion alle zwei Monate prüfst du damit die Weichwasserhärte, bei der Wartung auch die Rohwasserhärte.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 5,
+      "werkzeug": null,
+      "amazon_asin": "B01LBCEPVA",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+        "https://www.amazon.de/dp/B01LBCEPVA"
+      ]
+    },
+    {
+      "slug": "gruenbeck-wartungskit-vgx-187804",
+      "name": "Grünbeck Wartungskit für VGX 9/14/19, GS 2, GS (187 804)",
+      "teiltyp": "salz",
+      "oem_nummer": "187804",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Dichtungen und Verschleißteile für die älteren Enthärtungsanlagen WINNI-mat VGX und GS. Den Tausch ordnet Grünbeck dem Kundendienst zu; mit der Nummer weißt du, wonach du fragst.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B06XXVMNWB",
+      "quellen": [
+        "https://www.amazon.de/dp/B06XXVMNWB"
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "serie_slug": "boxer-r",
+      "teil_slug": "gruenbeck-filterelement-boxer-101632e",
+      "hinweis": "100 µm, Verschleißteil",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-r",
+      "teil_slug": "gruenbeck-dichtungssatz-boxer-fs-b-101635e",
+      "hinweis": "Dichtungssatz zu BOXER/FS-B",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-r",
+      "teil_slug": "gruenbeck-rueckspueleinheit-boxer-r-rd-101633e",
+      "hinweis": "Rückspüleinheit R/RD",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-r",
+      "teil_slug": "gruenbeck-filterglocke-boxer-r-rd-101638e",
+      "hinweis": "Ersatz-Filterglocke (RSF)",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-r",
+      "teil_slug": "gruenbeck-adaptersatz-fs-1-zoll-101647e",
+      "hinweis": "Einlegeteil für den Tausch eines FS 1\" oder Ultra 99 R 1\"",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-rd",
+      "teil_slug": "gruenbeck-filterelement-boxer-101632e",
+      "hinweis": "100 µm, Verschleißteil",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-rd",
+      "teil_slug": "gruenbeck-dichtungssatz-boxer-fs-b-101635e",
+      "hinweis": "Dichtungssatz zu BOXER/FS-B",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-rd",
+      "teil_slug": "gruenbeck-druckminderer-kartusche-107605",
+      "hinweis": "Druckmindererkartusche",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-rd",
+      "teil_slug": "gruenbeck-rueckspueleinheit-boxer-r-rd-101633e",
+      "hinweis": "Rückspüleinheit R/RD",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-rd",
+      "teil_slug": "gruenbeck-filterglocke-boxer-r-rd-101638e",
+      "hinweis": "Ersatz-Filterglocke (RSF)",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-rd",
+      "teil_slug": "gruenbeck-adaptersatz-fs-1-zoll-101647e",
+      "hinweis": "Einlegeteil für den Tausch eines FS 1\" oder Ultra 99 R 1\"",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-k",
+      "teil_slug": "gruenbeck-filterkerzen-80um-103075",
+      "hinweis": "Ab Werk 80 µm, Wechsel alle sechs Monate",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-k",
+      "teil_slug": "gruenbeck-dichtungssatz-boxer-fs-b-101635e",
+      "hinweis": "O-Ring des Gehäuses alle zwei Jahre",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-k",
+      "teil_slug": "gruenbeck-stuetzgewebe-boxer-k-101631e",
+      "hinweis": null,
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-k",
+      "teil_slug": "gruenbeck-filterglocke-boxer-k-101636e",
+      "hinweis": null,
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-k",
+      "teil_slug": "gruenbeck-adaptersatz-fs-1-zoll-101647e",
+      "hinweis": "Einlegeteil für den Tausch eines FS 1\" oder Ultra 99 R 1\"",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-kd",
+      "teil_slug": "gruenbeck-filterkerzen-80um-103075",
+      "hinweis": "Ab Werk 80 µm, Wechsel alle sechs Monate",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-kd",
+      "teil_slug": "gruenbeck-dichtungssatz-boxer-fs-b-101635e",
+      "hinweis": "O-Ring des Gehäuses alle zwei Jahre",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-kd",
+      "teil_slug": "gruenbeck-druckminderer-kartusche-107605",
+      "hinweis": "Druckmindererkartusche",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-kd",
+      "teil_slug": "gruenbeck-stuetzgewebe-boxer-k-101631e",
+      "hinweis": null,
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-kd",
+      "teil_slug": "gruenbeck-filterglocke-boxer-k-101636e",
+      "hinweis": null,
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-rx",
+      "teil_slug": "gruenbeck-dichtungssatz-101625e",
+      "hinweis": "Dichtungssatz für Filterglocke und Stützgewebe",
+      "quelle_url": "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-rx",
+      "teil_slug": "gruenbeck-bandschluessel-105805",
+      "hinweis": "Für die Demontage der Filterglocke",
+      "quelle_url": "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-rdx",
+      "teil_slug": "gruenbeck-dichtungssatz-101625e",
+      "hinweis": "Dichtungssatz für Filterglocke und Stützgewebe",
+      "quelle_url": "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-rdx",
+      "teil_slug": "gruenbeck-bandschluessel-105805",
+      "hinweis": "Für die Demontage der Filterglocke",
+      "quelle_url": "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-rdx",
+      "teil_slug": "gruenbeck-rohr-steckschluessel-104805",
+      "hinweis": "Für die Druckminderer-Kartusche",
+      "quelle_url": "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "boxer-kx",
+      "teil_slug": "gruenbeck-filterkerze-101272e",
+      "hinweis": "Laut Händlern dieselbe Kerze wie im pureliQ:K",
+      "quelle_url": "https://www.testberichte.de/heimwerkerbedarf/gruenbeck-ersatzfilterkerze-100-m-groesse-1-fuer-pureliq-k-kd-boxer-kx-kdx-2-stueck-101272e.html",
+      "sicherheit": "zwei_quellen"
+    },
+    {
+      "serie_slug": "boxer-kdx",
+      "teil_slug": "gruenbeck-filterkerze-101272e",
+      "hinweis": "Laut Händlern dieselbe Kerze wie im pureliQ:KD",
+      "quelle_url": "https://www.testberichte.de/heimwerkerbedarf/gruenbeck-ersatzfilterkerze-100-m-groesse-1-fuer-pureliq-k-kd-boxer-kx-kdx-2-stueck-101272e.html",
+      "sicherheit": "zwei_quellen"
+    },
+    {
+      "serie_slug": "pureliq-k",
+      "teil_slug": "gruenbeck-filterkerze-101272e",
+      "hinweis": "100 µm, Wechsel spätestens alle sechs Monate",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-k",
+      "teil_slug": "gruenbeck-dichtungssatz-101625e",
+      "hinweis": null,
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-k",
+      "teil_slug": "gruenbeck-service-kit-1-pureliq-k-101671e",
+      "hinweis": "Empfohlen nach fünf Jahren",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-k",
+      "teil_slug": "gruenbeck-service-kit-2-pureliq-k-101672e",
+      "hinweis": "Mit Filterglocke, empfohlen nach zehn Jahren",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-k",
+      "teil_slug": "gruenbeck-bandschluessel-105805",
+      "hinweis": null,
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-kd",
+      "teil_slug": "gruenbeck-filterkerze-101272e",
+      "hinweis": "100 µm, Wechsel spätestens alle sechs Monate",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-kd",
+      "teil_slug": "gruenbeck-dichtungssatz-101625e",
+      "hinweis": null,
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-kd",
+      "teil_slug": "gruenbeck-service-kit-3-pureliq-kd-101673e",
+      "hinweis": "Mit Druckminderer und Manometer",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-kd",
+      "teil_slug": "gruenbeck-service-kit-4-pureliq-kd-101674e",
+      "hinweis": "Mit Filterglocke",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-kd",
+      "teil_slug": "gruenbeck-bandschluessel-105805",
+      "hinweis": null,
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-kd",
+      "teil_slug": "gruenbeck-rohr-steckschluessel-104805",
+      "hinweis": null,
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-r",
+      "teil_slug": "gruenbeck-service-kit-1-pureliq-r-101676e",
+      "hinweis": "Filterelement, Rückspülventil, Federpaket, empfohlen nach fünf Jahren",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-r",
+      "teil_slug": "gruenbeck-service-kit-2-pureliq-r-101677e",
+      "hinweis": "Mit Filterglocke, empfohlen nach zehn Jahren",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-r",
+      "teil_slug": "gruenbeck-dichtungssatz-101625e",
+      "hinweis": null,
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-r",
+      "teil_slug": "gruenbeck-bandschluessel-105805",
+      "hinweis": null,
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-rd",
+      "teil_slug": "gruenbeck-service-kit-1-pureliq-r-101676e",
+      "hinweis": "Filterelement, Rückspülventil, Federpaket",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-rd",
+      "teil_slug": "gruenbeck-service-kit-3-pureliq-rd-101678e",
+      "hinweis": "Mit Druckminderer und Manometer",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-rd",
+      "teil_slug": "gruenbeck-service-kit-4-pureliq-rd-101679e",
+      "hinweis": "Mit Filterglocke",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-rd",
+      "teil_slug": "gruenbeck-dichtungssatz-101625e",
+      "hinweis": null,
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-rd",
+      "teil_slug": "gruenbeck-bandschluessel-105805",
+      "hinweis": null,
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-rd",
+      "teil_slug": "gruenbeck-rohr-steckschluessel-104805",
+      "hinweis": null,
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-a",
+      "teil_slug": "gruenbeck-service-kit-1-pureliq-a-101694e",
+      "hinweis": "Filterelement, Rückspülventil, Befestigungsmutter",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-a",
+      "teil_slug": "gruenbeck-service-kit-2-pureliq-a-101696e",
+      "hinweis": "Mit Filterglocke und Automatikantrieb",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-a",
+      "teil_slug": "gruenbeck-dichtungssatz-101625e",
+      "hinweis": null,
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-a",
+      "teil_slug": "gruenbeck-bandschluessel-105805",
+      "hinweis": null,
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-ad",
+      "teil_slug": "gruenbeck-service-kit-1-pureliq-a-101694e",
+      "hinweis": "Filterelement, Rückspülventil, Befestigungsmutter",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-ad",
+      "teil_slug": "gruenbeck-service-kit-3-pureliq-ad-101697e",
+      "hinweis": "Mit Druckminderer und Manometer",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-ad",
+      "teil_slug": "gruenbeck-service-kit-4-pureliq-ad-101698e",
+      "hinweis": "Mit Filterglocke und Automatikantrieb",
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-ad",
+      "teil_slug": "gruenbeck-dichtungssatz-101625e",
+      "hinweis": null,
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-ad",
+      "teil_slug": "gruenbeck-bandschluessel-105805",
+      "hinweis": null,
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "pureliq-ad",
+      "teil_slug": "gruenbeck-rohr-steckschluessel-104805",
+      "hinweis": null,
+      "quelle_url": "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "softliq-sc",
+      "teil_slug": "gruenbeck-regeneriersalz-tabletten-127001",
+      "hinweis": "Nur Salztabletten nach EN 973 Typ A",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "softliq-sc",
+      "teil_slug": "gruenbeck-wasserpruefeinrichtung-gesamthaerte-170187",
+      "hinweis": "Weichwasserhärte alle zwei Monate prüfen",
+      "quelle_url": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "softliq-sd",
+      "teil_slug": "gruenbeck-regeneriersalz-tabletten-127001",
+      "hinweis": "Nur Salztabletten nach DIN EN 973 Typ A",
+      "quelle_url": "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "softliq-sd",
+      "teil_slug": "gruenbeck-wasserpruefeinrichtung-gesamthaerte-170187",
+      "hinweis": "Weichwasserhärte bei der Wartung prüfen",
+      "quelle_url": "https://www.amazon.de/dp/B01LBCEPVA",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "winni-mat-vgx",
+      "teil_slug": "gruenbeck-wartungskit-vgx-187804",
+      "hinweis": "Tausch durch den Kundendienst",
+      "quelle_url": "https://www.amazon.de/dp/B06XXVMNWB",
+      "sicherheit": "eine_quelle"
+    }
+  ],
+  "probleme": [
+    {
+      "slug": "gruenbeck-rueckspuelfilter-tropft",
+      "titel": "Grünbeck-Rückspülfilter tropft",
+      "symptom": "Unten am Spülwasserablauf eines BOXER oder pureliQ tropft es nach dem Rückspülen weiter, oder am Übergang zur Filterglocke beziehungsweise am Anschluss wird es feucht.",
+      "ursachen": [
+        {
+          "ursache": "Rückspülhandrad nicht ganz zurückgedreht. Beim BOXER RX und RDX muss es bis zum Klick in die Ausgangsstellung zurück, Schmutz kann das Rückspülventil offen halten",
+          "haeufigkeit": "häufig",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Rückspülventil oder Federpaket verschlissen; Grünbeck empfiehlt den Tausch nach fünf Jahren",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "gruenbeck-rueckspueleinheit-boxer-r-rd-101633e",
+            "gruenbeck-service-kit-1-pureliq-r-101676e",
+            "gruenbeck-service-kit-1-pureliq-a-101694e"
+          ]
+        },
+        {
+          "ursache": "O-Ring der Filterglocke oder Flachdichtungen verformt oder verschlissen",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "gruenbeck-dichtungssatz-101625e",
+            "gruenbeck-dichtungssatz-boxer-fs-b-101635e"
+          ]
+        },
+        {
+          "ursache": "Filterglocke beschädigt oder gealtert; Grünbeck empfiehlt nach zehn Jahren eine neue",
+          "haeufigkeit": "selten",
+          "teil_slugs": [
+            "gruenbeck-filterglocke-boxer-r-rd-101638e",
+            "gruenbeck-service-kit-2-pureliq-r-101677e"
+          ]
+        },
+        {
+          "ursache": "Undichte Verbindung am Filterkopf oder Anschlussflansch, zum Beispiel eine eingefettete Flanschdichtung",
+          "haeufigkeit": "selten",
+          "teil_slugs": []
+        }
+      ],
+      "schritte": [
+        "Einen 10-l-Eimer unter den Ablauf stellen, wenn kein Kanalanschluss da ist.",
+        "Rückspülen wie in der Anleitung: Handrad oder Spülgriff bis zum Anschlag drehen, 5 bis 10 Sekunden halten, zurückdrehen. Beim BOXER RX und RDX bis zum Klickgeräusch. Grünbeck empfiehlt, das dreimal zu wiederholen.",
+        "Handrad nicht über den Anschlag drehen, das kann den Filter beschädigen.",
+        "Ansehen, wo das Wasser austritt: am Ablauf, an der Filterglocke oder am Anschluss links und rechts.",
+        "Tritt Wasser an Glocke, Filterkopf oder Flansch aus, die Absperrventile vor und hinter dem Filter schließen und die Fachkraft rufen.",
+        "Nach jeder Arbeit am Filter die Dichtheit bei vollem Betriebsdruck prüfen und den Wartungsring auf den nächsten Termin stellen."
+      ],
+      "fachbetrieb_ab": "Rückspülen, Sichtprüfung und Druck ablesen machst du als Betreiber. Dichtungen, Rückspülventil, Federpaket und Filterglocke sind bei Grünbeck Verschleißteile, die nur eine Fachkraft wechseln darf. Arbeiten am Anschlussflansch und den Tausch des ganzen Filters macht nach § 12 Abs. 2 AVBWasserV ein im Installateurverzeichnis eingetragenes Unternehmen.",
+      "quellen": [
+        "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Rueckspuelfilter-BOXER-RD-3-4-1-1-1-4-Betriebsanleitung.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AR000de_085_pureliQ_R-RD.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+        "https://www.gesetze-im-internet.de/avbwasserv/__12.html"
+      ]
+    },
+    {
+      "slug": "gruenbeck-hauswasserfilter-wasserdruck-zu-niedrig",
+      "titel": "Wenig Wasserdruck hinter dem Grünbeck-Hauswasserfilter",
+      "symptom": "An den Zapfstellen kommt weniger Wasser als früher, oder der Druck bricht beim Aufdrehen stark ein.",
+      "ursachen": [
+        {
+          "ursache": "Absperrventile vor oder hinter dem Filter nicht ganz offen",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Filterelement verschmutzt (Rückspülfilter) oder Filterkerze zugesetzt (BOXER K, KX und pureliQ:K)",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "gruenbeck-filterkerze-101272e",
+            "gruenbeck-filterkerzen-80um-103075"
+          ]
+        },
+        {
+          "ursache": "Druckminderer bei RD, RDX, KD, KDX oder AD falsch eingestellt oder defekt",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "gruenbeck-druckminderer-kartusche-107605",
+            "gruenbeck-service-kit-3-pureliq-rd-101678e",
+            "gruenbeck-service-kit-3-pureliq-kd-101673e",
+            "gruenbeck-service-kit-3-pureliq-ad-101697e"
+          ]
+        }
+      ],
+      "schritte": [
+        "Prüfen, ob die Absperrventile am Filter ganz offen sind.",
+        "Beim Rückspülfilter rückspülen, bei Bedarf mehrmals. Beim pureliQ:A und AD die Rückspülung von Hand auslösen.",
+        "Beim Feinfilter mit Kerze die Kerze tauschen: Eimer unterstellen, Absperrventile schließen, Druck über eine Zapfstelle ablassen, Glocke abschrauben, neue Kerze mit Handschuhen in der Folie aufschieben.",
+        "Bei Geräten mit Druckminderer am Manometer den Ruhedruck ablesen, dann eine Zapfstelle voll öffnen und den Fließdruck ablesen.",
+        "Stimmt der Druck danach nicht, den Druckminderer vom Kundendienst prüfen, einstellen oder ersetzen lassen."
+      ],
+      "fachbetrieb_ab": "Wenn der Druck nach Rückspülen oder Kerzenwechsel niedrig bleibt. Den Druckminderer prüft, stellt ein oder ersetzt laut Grünbeck der Kundendienst; die Druckminderer-Kartusche ist ein Verschleißteil für die Fachkraft.",
+      "quellen": [
+        "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AK000de_085_pureliQ_K-KD.pdf",
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-rueckspuelfilter-led-blinkt",
+      "titel": "Grünbeck pureliQ:A oder AD: LEDs blinken",
+      "symptom": "Am Automatikfilter pureliQ:A oder AD blinken alle vier LEDs oder nur die oberste LED (90d).",
+      "ursachen": [
+        {
+          "ursache": "Alle vier LEDs: Zeitüberschreitung beim Rückspülen (über 115 Sekunden) oder beim Start der Rückspülung, Ventil blockiert",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Alle vier LEDs: Motor, Zahnriemen oder Mikroschalter defekt",
+          "haeufigkeit": "selten",
+          "teil_slugs": [
+            "gruenbeck-service-kit-2-pureliq-a-101696e"
+          ]
+        },
+        {
+          "ursache": "Oberste LED 90d blinkt: Mikroschalter defekt",
+          "haeufigkeit": "selten",
+          "teil_slugs": []
+        }
+      ],
+      "schritte": [
+        "Eine Rückspülung von Hand auslösen, so wie es die Anleitung beschreibt.",
+        "Prüfen, ob das Steckernetzteil fest steckt und die Steckdose Dauerstrom hat.",
+        "Erlischt die Meldung nicht, den Kundendienst rufen und Gerätetyp sowie Bestell-Nr. vom Typenschild seitlich am Filter angeben."
+      ],
+      "fachbetrieb_ab": "Wenn die Meldung nach einer Rückspülung von Hand bleibt. Automatikantrieb, Rückspülventil und Dichtungen tauscht laut Grünbeck eine Fachkraft oder der Kundendienst.",
+      "quellen": [
+        "https://www.gruenbeck.de/fileadmin/product_documents/BA/BA_TD3-AA000de_115_pureliQ_A-AD.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-enthaertungsanlage-fehlermeldung",
+      "titel": "Grünbeck softliQ zeigt eine Meldung",
+      "symptom": "Im Display der softliQ:SC oder softliQ:SD steht eine gelbe Warnmeldung oder eine rote Störmeldung, der Leuchtring blinkt.",
+      "ursachen": [
+        {
+          "ursache": "„Salzvorrat gering! Bitte nachfüllen!“ (SC23, SD21, SD23): Salztabletten gehen zur Neige",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "gruenbeck-regeneriersalz-tabletten-127001"
+          ]
+        },
+        {
+          "ursache": "„Salzvorrat verbraucht! Umgehend nachfüllen!“: Salz leer, Hohlraum unter dem Salz, Fließdruck unter 2,0 bar, Chlorzelle verschlissen oder Solefüllblende, Injektor, Injektorsieb oder Soleventil verstopft",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "gruenbeck-regeneriersalz-tabletten-127001"
+          ]
+        },
+        {
+          "ursache": "„Stromausfall > 5 Minuten“: Die Anlage regeneriert, sobald der Strom wieder da ist",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "„Service fällig!“ oder „Wartung durchführen seit … Tagen“: Wartungsintervall abgelaufen",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "„Anlage saugt Sole im Salztank (zu) schlecht ab“: Injektor verstopft oder Rohwasserdruck zu niedrig",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "„Wasserzähler Regeneration Menge nicht erreicht!“, „Wasserzähler … defekt“: Wasserzufuhr unterbrochen, Zähler oder Kabel defekt",
+          "haeufigkeit": "selten",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "„Störung am Antrieb Steuerventil Regeneration!“: Regenerationsmotor oder Verbindungskabel defekt",
+          "haeufigkeit": "selten",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Nur SD21 und SD23: „Leckage am Aufstellort“, der Wassersensor am Boden meldet Wasser",
+          "haeufigkeit": "selten",
+          "teil_slugs": []
+        }
+      ],
+      "schritte": [
+        "Die Meldung quittieren (softliQ:SC mit ENTER, softliQ:SD mit „beheben“) und das Display beobachten.",
+        "Bei Salzmeldungen den Deckel öffnen: Liegen die Tabletten über dem Wasserstand? Wenn nicht, Tabletten nach EN 973 Typ A nachfüllen.",
+        "Ist noch Salz drin, die Oberfläche prüfen. Eine Kruste mit Hohlraum darunter mit einem geeigneten Werkzeug lösen.",
+        "Wasserdruck am Manometer der Hausinstallation ablesen. Grünbeck verlangt mindestens 2,0 bar Fließdruck.",
+        "Nach einem Stromausfall über drei Tage bei fester Regenerationszeit die Uhr neu stellen und eine Regeneration von Hand auslösen.",
+        "Bei „Leckage am Aufstellort“ nachsehen, ob Wasser austritt, und bei Bedarf das Hauptventil schließen.",
+        "Kommt die Meldung wieder oder betrifft sie Injektor, Antrieb oder Wasserzähler, den Werks- oder Vertragskundendienst rufen und die Daten vom Typenschild unter dem Salztankdeckel bereithalten."
+      ],
+      "fachbetrieb_ab": "Sobald Injektor, Soleventil, Chlorzelle, Steuerventil, Antrieb oder Wasserzähler betroffen sind. Diese Teile sind Verschleißteile der Anlage, und die jährliche Wartung dürfen laut Grünbeck nur der Werks- oder Vertragskundendienst oder von Grünbeck geschulte Fachhandwerker machen.",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+        "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf"
+      ]
+    },
+    {
+      "slug": "gruenbeck-enthaertungsanlage-verbraucht-kein-salz",
+      "titel": "Grünbeck softliQ verbraucht kein Salz",
+      "symptom": "Der Salzstand im Tank der softliQ sinkt kaum, oder die Anlage meldet „Salzvorrat verbraucht“, obwohl noch Tabletten drin sind.",
+      "ursachen": [
+        {
+          "ursache": "Salzkruste mit Hohlraum darunter, das Wasser erreicht das Salz nicht",
+          "haeufigkeit": "häufig",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Wenig Wasserverbrauch: Die Anlage regeneriert nur bei Bedarf und spätestens nach vier Tagen, an manchen Tagen also gar nicht",
+          "haeufigkeit": "häufig",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Falsches Salz, das verklumpt oder Schlamm bildet; feines Salz unter dem Siebboden",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "gruenbeck-regeneriersalz-tabletten-127001"
+          ]
+        },
+        {
+          "ursache": "Fließdruck unter 2,0 bar",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Injektor, Injektorsieb, Solefüllblende oder Soleventil verstopft, Chlorzelle verschlissen",
+          "haeufigkeit": "selten",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Rohwasserhärte in der Steuerung zu niedrig eingestellt, die Anlage regeneriert zu selten",
+          "haeufigkeit": "selten",
+          "teil_slugs": [
+            "gruenbeck-wasserpruefeinrichtung-gesamthaerte-170187"
+          ]
+        }
+      ],
+      "schritte": [
+        "Salztankdeckel öffnen und nachsehen, ob die Tabletten oben verkrustet sind und darunter ein Hohlraum ist. Verkrustungen mit einem geeigneten Werkzeug lösen.",
+        "Nur Salztabletten nach EN 973 Typ A verwenden und das Salz trocken lagern.",
+        "Wasserstand ansehen: Bei der softliQ:SD liegt er normal etwa 1 cm über dem Siebboden, die Tabletten müssen immer höher stehen.",
+        "Weichwasserhärte mit dem Härtetest messen. Ist sie deutlich höher als eingestellt, enthärtet die Anlage nicht richtig.",
+        "Salzverbrauch über einige Tage im Verhältnis zur Wassermenge beobachten; in der Grünbeck-App lässt sich das je Tag ablesen.",
+        "Bleibt der Verbrauch aus, obwohl Wasser gezapft wird, den Kundendienst wegen Injektor und Soleventil rufen."
+      ],
+      "fachbetrieb_ab": "Wenn Salz, Druck und Einstellung stimmen und die Anlage trotzdem keine Sole ansaugt. Injektor, Soleventil und Chlorzelle prüft und reinigt der Werks- oder Vertragskundendienst bei der jährlichen Wartung.",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+        "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf",
+        "https://www.energiesparhaus.at/forum-wartung-enthaertungsanlage-gruenbeck-sc18/71761_3"
+      ]
+    }
+  ],
+  "widersprueche": [
+    {
+      "thema": "Welche Bestellnummer hat das Grünbeck-Salz für die softliQ?",
+      "aussage_a": "In der Anleitung der softliQ:SC vom August 2019 steht bei den Meldungen „Salzvorrat gering“ und „Salzvorrat verbraucht“ die Bestell-Nr. 127 100.",
+      "quelle_a": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+      "aussage_b": "Dieselbe Anleitung führt die Regeneriersalztabletten (25 kg) unter Verbrauchsmaterial als 127 001, und die Anleitung der softliQ:SD vom Oktober 2020 nennt bei beiden Meldungen ebenfalls 127 001.",
+      "quelle_b": "https://assets.heizung-billiger.de/documents/gbisd_ba_td3-bs001de_084_soft.pdf"
+    },
+    {
+      "thema": "Wie oft muss die softliQ vom Kundendienst gewartet werden?",
+      "aussage_a": "Grünbeck schreibt in der Anleitung der softliQ:SC: mindestens einmal jährlich durch den Werks- oder Vertragskundendienst oder von Grünbeck geschulte Fachhandwerker, dazu eine halbjährliche Wartung durch den Betreiber.",
+      "quelle_a": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+      "aussage_b": "Ein Betreiber berichtet im Forum, der Grünbeck-Techniker habe ihm geraten, die Wartung nur alle zwei Jahre machen zu lassen.",
+      "quelle_b": "https://www.energiesparhaus.at/forum-wartung-enthaertungsanlage-gruenbeck-sc18/71761"
+    },
+    {
+      "thema": "Welche Feinheit hat die Filterkerze im BOXER-Feinfilter?",
+      "aussage_a": "Die Anleitung des BOXER K/KD von 2015 nennt ab Werk 80 µm (Filterkerzen 103 075).",
+      "quelle_a": "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Feinfilter-BOXER-K-Betriebsanleitung.pdf",
+      "aussage_b": "Für den pureliQ:K/KD gilt die Filterkerze 101 272 mit 100 µm, und Händler ordnen dieselbe Kerze dem BOXER KX/KDX zu. Welche passt, hängt an der Baureihe auf dem Typenschild.",
+      "quelle_b": "https://www.testberichte.de/heimwerkerbedarf/gruenbeck-ersatzfilterkerze-100-m-groesse-1-fuer-pureliq-k-kd-boxer-kx-kdx-2-stueck-101272e.html"
+    }
+  ],
+  "nicht_geprueft": [
+    "Filterelement BOXER RX/RDX: Die Grünbeck-Anleitungen (2019, 2022, 2024) nennen Filterelement, Rückspülventil und Federpaket als Verschleißteile, aber nur für den Dichtungssatz eine Nummer (101625E). Ein eBay-Angebot führt 101632E auch für RX/RDX; nicht übernommen, weil der Hersteller das nicht bestätigt.",
+    "Filterkerze 103 075 und ASIN B008GRZGB2: Der Amazon-Titel lautet „Ersatzfilter für Boxer KD 2er Pack (80 µm ohne Schutzglocke)“ ohne Nummer. Zuordnung über Feinheit und Packungsgröße, weil die Anleitung nur eine 80-µm-Kerze im Zweierpack führt.",
+    "pureliQ:KD Service Kit IV (101674E): Die Anleitung nennt als Inhalt „Service Kit I + Filterglocke“, also wie Kit II des pureliQ:K. Vermutlich ist Kit III gemeint; im Teiletext offen gelassen.",
+    "Kit-Nummern für die softliQ aus dem Forum, nicht vom Hersteller: Wartungskit 189607 (SC18), Steuerventil mit Injektor 189608e (SD21), Service Kit 189609e (SD23). Keine Teile angelegt.",
+    "Dichtungssatz 101641E (2 Glocken-O-Ringe, BOXER/FS-B 1\" bis 1¼\", laut eBay auch pureliQ) mit GTIN 4031246518406 nur aus eBay-Produktdaten; Verhältnis zu 101625E und 101635E unklar, nicht aufgenommen.",
+    "pureliQ:RX (Produktdatenblatt April 2024, cliQlock-Modulsystem) und pureliQ:KX/AX: neue Baureihe, keine Anleitung mit Ersatzteilen ausgewertet, keine Serie angelegt.",
+    "softliQ:MD (MD12i u. a.) und softliQ:SE: MD12i ist eine Anlage für Gastro und Vollenthärtung, nicht für das Einfamilienhaus; SE nicht ausgewertet. GENO-mat ebenfalls nicht ausgewertet.",
+    "WINNI-mat VGX: nur die Amazon-Seite des Wartungskits 187804 („VGX 9/14/19, GS 2, GS“) ausgewertet, keine Anleitung. Salzvorgabe der VGX deshalb offen.",
+    "Druckminderer als eigenes Gerät von Grünbeck nicht angelegt; der Druckminderer steckt in RD, RDX, KD, KDX, pureliQ:RD/KD/AD.",
+    "BOXER KX 101835 aus dem Amazon-Titel; Bestell-Nr. für KX ¾\"/1¼\" und KDX fehlen.",
+    "Preise nicht erfasst; Amazon-Seiten zeigten in der Abfrage keine Preise und Bewertungszahlen. Die Analyse nennt 119 Bewertungen für 101272E und 72 für 101632E.",
+    "Forenaussagen (energiesparhaus.at) zu Platinendefekten der softliQ:SC 2018–2021 und zu Wartungskosten (200 € netto) bewusst nicht übernommen: Einzelberichte.",
+    "Felder schwierigkeit, dauer_min und werkzeug sind redaktionelle Einschätzungen; selbst_tauschbar folgt den Grünbeck-Anleitungen (Kerzenwechsel Betreiber, Verschleißteile Fachkraft)."
+  ]
+}
