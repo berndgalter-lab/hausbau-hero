@@ -35,6 +35,11 @@ import {
 
 export const revalidate = 3600;
 
+// Leere Liste: Pfade werden nicht beim Build erzeugt, sondern beim ersten Aufruf gerendert und dann gecacht (ISR).
+export function generateStaticParams() {
+  return [];
+}
+
 type Props = { params: { marke: string; serie: string } };
 
 async function lade(params: Props["params"]) {

@@ -10,6 +10,11 @@ import { AffiliateHinweis, ArtikelPfad, ArtikelRahmen, HaeufigeFragen, KaputtVer
 
 export const revalidate = 3600;
 
+// Leere Liste: Pfade werden nicht beim Build erzeugt, sondern beim ersten Aufruf gerendert und dann gecacht (ISR).
+export function generateStaticParams() {
+  return [];
+}
+
 export async function generateMetadata({ params }: { params: { silo: string; slug: string } }): Promise<Metadata> {
   const { data: seite } = await supabase
     .from("seiten")
