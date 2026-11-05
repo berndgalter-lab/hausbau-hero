@@ -1,0 +1,315 @@
+{
+  "marke": "Resideo (Honeywell, Braukmann)",
+  "fragen": [
+    {
+      "frage": "Honeywell, Braukmann oder Resideo: Ist das dasselbe?",
+      "kategorie": "nummer",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/219301/Wasserschaden-durch-geplatzte-HS10-Filtertasse",
+        "https://www.haustechnikdialog.de/Forum/t/58828/Honeywell-Wasserfilter-Primus-FK-Druckminderer-FK74C"
+      ],
+      "antwort": "Ja. Braukmann aus Mosbach gehört seit 1980 zu Honeywell. 2018 hat Honeywell das Geschäft mit der Haustechnik als Resideo abgespalten, das die Marke Honeywell Home seitdem in Lizenz nutzt. Die Wasserarmaturen heißen heute wieder Braukmann. Für die Ersatzteile zählt deshalb die Typbezeichnung wie F76S oder D06F, nicht der Name auf dem Gerät.",
+      "antwort_quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf",
+        "https://www.honeywell.com/us/en/news/press-releases/2018/10/honeywell-completes-spin-off-of-resideo-technologies-incpt",
+        "https://infomaterial.resideo.com/fileadmin/publications/DE3H-9010GE23_Bleifreie_Trinkwasserfilter_DE_web.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Was bedeutet die Typbezeichnung F76S-1AA auf meinem Honeywell-Filter?",
+      "kategorie": "nummer",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/58828/Honeywell-Wasserfilter-Primus-FK-Druckminderer-FK74C",
+        "https://www.bauexpertenforum.de/threads/honeywell-wasserfilter-fk74c.14871/"
+      ],
+      "antwort": "Vorne steht die Serie, etwa F76S für den Rückspülfilter oder HS10S für die Hauswasserstation, dahinter die Anschlussgröße in Zoll (1/2, 3/4, 1, 11/4 für 1¼). Die Buchstaben danach beschreiben die Ausführung, bei der HS10S zum Beispiel Anschluss mit Außengewindetülle und Filterfeinheit 100 µm. LF heißt bleifrei, M eine Messing-Filtertasse. Ersatzteile richten sich nach der Nennweite, meist paarweise: ½ und ¾ Zoll bekommen dasselbe Teil, 1 und 1¼ Zoll ebenfalls.",
+      "antwort_quellen": [
+        "https://documents.pdod.de/resideo/rddb14918.pdf",
+        "https://documents.pdod.de/resideo/rddb14851.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Welcher Filtereinsatz passt in meinen Honeywell F76S von 2005?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/134358/Rueckspuelfilter-Austausch-Filtereinsatz",
+        "https://www.manomano.de/p/honeywell-filtereinsatz-500-m-fuer-hs10-f76-mit-double-spin-technologie-1-und-1-1-4-af11ds-1f-5472606"
+      ],
+      "antwort": "Für den F76S der Baureihe 1997 bis 2006 passt von ½ bis 1¼ Zoll der Einsatz AF11S-1A mit 100 µm. Ab Baujahr 2007 ist es bei ½ und ¾ Zoll AF11S-1/2A, bei 1 und 1¼ Zoll weiterhin AF11S-1A. Hat dein Filter Double Spin, erkennbar am Rotor, der sich beim Rückspülen dreht, brauchst du AF11DS. Die HS10S hat dieselben Einsätze.",
+      "antwort_quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "resideo-filtereinsatz-af11s-1a",
+        "resideo-filtereinsatz-af11s-1-2a",
+        "resideo-filtereinsatz-af11ds-1a"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Welcher Ventileinsatz passt in meinen Honeywell-Druckminderer?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/51146/Druckminderer-Problem-Hinterdruck-steigt-zu-stark-an",
+        "https://www.haustechnikdialog.de/Forum/t/2203/Druckminderer-defekt-"
+      ],
+      "antwort": "Das hängt am Gerät und an der Nennweite. Für ½ und ¾ Zoll ist es bei D06F, D06FH, HS10S und FK06 D06FA-1/2. Für 1 und 1¼ Zoll nehmen HS10S und FKN76CS D06FA-1A, der D06F und die FK06 D06FA-1B. Der bleifreie D06F-LF ab 2020 braucht D06FA-1/2LF bzw. D06FA-1LF. Die Membran gehört zum Ventileinsatz.",
+      "antwort_quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+        "https://documents.pdod.de/resideo/rddb14851.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "resideo-ventileinsatz-d06fa-1-2",
+        "resideo-ventileinsatz-d06fa-1a",
+        "resideo-ventileinsatz-d06fa-1b",
+        "resideo-ventileinsatz-d06fa-1lf"
+      ],
+      "passendes_problem": "resideo-druckminderer-tropft"
+    },
+    {
+      "frage": "Wie stelle ich den Druck an meinem Honeywell-Druckminderer ein?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/hauswasserstation-rueckspuelschutzfilter-druckminderer---wie-richtig-einstellen",
+        "https://www.haustechnikdialog.de/Forum/t/198118/Zu-hoher-Wasserdruck-nach-Druckminderer",
+        "https://www.haustechnikdialog.de/Forum/t/110112/Druckminderer-an-der-Hauptwasserleitung"
+      ],
+      "antwort": "Eingestellt wird, während kein Wasser läuft. Absperrung vor dem Gerät schließen, hinten Druck ablassen, Absperrung hinten schließen. Die Schlitzschraube im Griff lösen, aber nicht herausdrehen, und den Griff gegen den Uhrzeigersinn bis zum Anschlag drehen. Dann vorne langsam öffnen und den Griff im Uhrzeigersinn drehen, bis Skala oder Manometer den gewünschten Wert zeigen, mindestens 1 bar unter dem Eingangsdruck. Schraube festziehen, hinten langsam öffnen. Resideo ordnet diese Arbeit Fachkräften zu.",
+      "antwort_quellen": [
+        "https://documents.pdod.de/resideo/rdma14697.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": "resideo-wasserdruck-zu-niedrig"
+    },
+    {
+      "frage": "Aus der Federhaube meines Honeywell-Druckminderers kommt Wasser. Was ist kaputt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/2203/Druckminderer-defekt-",
+        "https://www.heizungsforum.de/threads/honeywell-primus-druckminderer-pfeift-jault.16225/"
+      ],
+      "antwort": "Laut Resideo ist dann die Membran im Ventileinsatz defekt. Die Membran steckt im Ventileinsatz, getauscht wird deshalb der komplette Einsatz. Welcher passt, hängt an Gerät und Nennweite, etwa D06FA-1/2 für ½ und ¾ Zoll.",
+      "antwort_quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://documents.pdod.de/resideo/rdma14697.pdf",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "resideo-ventileinsatz-d06fa-1-2",
+        "resideo-ventileinsatz-d06fa-1b"
+      ],
+      "passendes_problem": "resideo-druckminderer-tropft"
+    },
+    {
+      "frage": "Der Druck hinter meinem Honeywell-Druckminderer steigt langsam an. Woran liegt das?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/51146/Druckminderer-Problem-Hinterdruck-steigt-zu-stark-an",
+        "https://www.haustechnikdialog.de/Forum/t/198118/Zu-hoher-Wasserdruck-nach-Druckminderer",
+        "https://www.heizungsforum.de/threads/wasserdruck-im-haus-steigt-von-3-auf-10-bar.9580/"
+      ],
+      "antwort": "Schließ das Absperrventil hinter dem Druckminderer und beobachte das Manometer. Steigt der Druck, obwohl nichts gezapft wird, ist das Ventil laut Resideo verschmutzt oder defekt, und der Ventileinsatz wird gereinigt oder getauscht. Steigt er nur, während der Warmwasserspeicher aufheizt, kommt der Druck von hinten, und Rückschlagventil und Sicherheitsgruppe müssen geprüft werden.",
+      "antwort_quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://documents.pdod.de/resideo/rdma14697.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "resideo-ventileinsatz-d06fa-1-2",
+        "resideo-ventileinsatz-d06fa-1b"
+      ],
+      "passendes_problem": "resideo-wasserdruck-steigt"
+    },
+    {
+      "frage": "Wie oft muss ich meinen Honeywell-Rückspülfilter rückspülen, und wie geht das?",
+      "kategorie": "pflege",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/58828/Honeywell-Wasserfilter-Primus-FK-Druckminderer-FK74C",
+        "https://www.bauexpertenforum.de/threads/honeywell-wasserfilter-fk74c.14871/",
+        "https://www.gutefrage.net/frage/rueckspuelfilter-am-wasseranschluss-reinigen"
+      ],
+      "antwort": "Nach DIN EN 806-5 spätestens alle sechs Monate, Resideo empfiehlt alle zwei Monate. Den Rückspülknopf bis zum Anschlag drehen, nach etwa 3 Sekunden schließen und das dreimal wiederholen. Ohne festen Abwasseranschluss vorher einen Eimer unterstellen, je nach Größe kommen 12 bis 18 Liter heraus. Mit dem Memory-Ring am Gerät kannst du dir den nächsten Termin markieren.",
+      "antwort_quellen": [
+        "https://documents.pdod.de/resideo/rdma14697.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": "resideo-wasserdruck-zu-niedrig"
+    },
+    {
+      "frage": "Mein Honeywell-Rückspülfilter tropft aus dem Ablauf. Was kann ich tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/221328/Rueckspuelfilter-tropft-manchmal",
+        "https://www.gutefrage.net/frage/was-mache-ich-wenn-der-rueckspuellschutzfilter-die-ganze-zeit-tropft",
+        "https://www.haustechnikdialog.de/Forum/t/175243/Rueckspuelfilter-tropft"
+      ],
+      "antwort": "Tropft es aus dem Ablauftrichter, obwohl der Rückspülknopf geschlossen ist, hält der Kugelhahn nicht mehr dicht. Resideo schreibt, dass er bei Tropfenbildung ausgewechselt wird. Der Ersatz heißt KH11S-1LFA und passt bei F76S, HS10S und FKN76CS von ½ bis 2 Zoll.",
+      "antwort_quellen": [
+        "https://documents.pdod.de/resideo/rdma14697.pdf",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "resideo-kugelhahn-kh11s-1lfa"
+      ],
+      "passendes_problem": "resideo-rueckspuelfilter-tropft"
+    },
+    {
+      "frage": "Wie alt darf die Klarsicht-Filtertasse meiner Honeywell-Hauswasserstation werden?",
+      "kategorie": "pflege",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/219301/Wasserschaden-durch-geplatzte-HS10-Filtertasse",
+        "https://www.haustechnikdialog.de/Forum/t/134255/Leitungswasserschaden-durch-defekte-Honeywell-Braukmann-HS-10-S"
+      ],
+      "antwort": "Eine feste Frist nennt Resideo nicht. Im HaustechnikDialog berichten Installateure von gerissenen HS10-Tassen und tauschen Kunststofftassen nach etwa zehn Jahren vorsorglich, weil sie mit der Zeit porös werden. Resideo schreibt, die Tasse nur mit kaltem, klarem Wasser zu reinigen, andere Reiniger beschädigen den Kunststoff. Für F76S und HS10S bis 1¼ Zoll heißt die Tasse KF11S-1A.",
+      "antwort_quellen": [
+        "https://www.haustechnikdialog.de/Forum/t/219301/Wasserschaden-durch-geplatzte-HS10-Filtertasse",
+        "https://www.haustechnikdialog.de/Forum/t/134255/Leitungswasserschaden-durch-defekte-Honeywell-Braukmann-HS-10-S",
+        "https://documents.pdod.de/resideo/rdma14697.pdf",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "resideo-klarsicht-filtertasse-kf11s-1a",
+        "resideo-o-ring-satz-filtertasse-0900747"
+      ],
+      "passendes_problem": "resideo-rueckspuelfilter-tropft"
+    },
+    {
+      "frage": "Die Filtertasse am Honeywell-Filter oder Druckminderer geht kaum noch auf. Welcher Schlüssel gehört dazu?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/112362/D06F-Klarsicht-Siebtasse-quillt-",
+        "https://www.haustechnikdialog.de/Forum/t/219301/Wasserschaden-durch-geplatzte-HS10-Filtertasse",
+        "https://www.haustechnikdialog.de/Forum/t/156840/Europafilter-Filtertasse-loesen-fuer-Filterwechsel"
+      ],
+      "antwort": "Resideo hat für jede Gerätefamilie einen eigenen Doppelringschlüssel: ZR10K-3/4 bzw. ZR10K-1 für F76S und HS10S, ZR06F für die Tasse von FK06 und FF06, ZR06K für Federhaube und Siebtasse des D06F, ZR74CS für die Primus-Plus. Beim Wiedereinbau kommt ein neuer O-Ring auf die Tasse, angezogen wird nur von Hand, ohne Werkzeug. Im HaustechnikDialog berichtet ein Nutzer, dass die D06F-Siebtasse nach einem Jahr deutlich schwerer aufging.",
+      "antwort_quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+        "https://documents.pdod.de/resideo/rddb14851.pdf",
+        "https://documents.pdod.de/resideo/rdma14697.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/112362/D06F-Klarsicht-Siebtasse-quillt-"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "resideo-doppelringschluessel-zr10k-1",
+        "resideo-doppelringschluessel-zr10k-3-4",
+        "resideo-doppelringschluessel-zr06f",
+        "resideo-doppelringschluessel-zr06k"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Welches Ersatzsieb brauche ich für den Honeywell MiniPlus FK06 oder FF06?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.manualslib.de/manual/689487/Honeywell-Miniplus.html"
+      ],
+      "antwort": "Die MiniPlus-Geräte werden nicht rückgespült, ein verschmutztes Sieb wird durch ein neues ersetzt. Das Ersatzsieb AS06 kommt im Fünferpack mit 100 µm: AS06-1/2A für die FK06 in ½ und ¾ Zoll und den FF06 in ½ Zoll, AS06-1A für die FK06 in 1 und 1¼ Zoll und den FF06 in ¾ bis 1¼ Zoll.",
+      "antwort_quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+        "https://documents.pdod.de/resideo/rdma14256.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "resideo-ersatzsieb-as06-1a",
+        "resideo-ersatzsieb-as06-1-2a"
+      ],
+      "passendes_problem": "resideo-wasserdruck-zu-niedrig"
+    },
+    {
+      "frage": "Darf ich den Filtereinsatz oder den Druckminderer selbst tauschen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/134358/Rueckspuelfilter-Austausch-Filtereinsatz",
+        "https://www.haustechnikdialog.de/Forum/t/58828/Honeywell-Wasserfilter-Primus-FK-Druckminderer-FK74C"
+      ],
+      "antwort": "Resideo schreibt in den Einbauanleitungen, dass Montage, Wartung und Justage nur autorisierte Fachkräfte ausführen und Instandhaltungsarbeiten ein Installationsunternehmen. Den Einbau und wesentliche Änderungen am Hausanschluss erlaubt § 12 AVBWasserV nur dem Wasserversorger oder einem eingetragenen Installateur. Rückspülen und die Sichtkontrolle machst du als Betreiber selbst.",
+      "antwort_quellen": [
+        "https://documents.pdod.de/resideo/rdma14697.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://www.gesetze-im-internet.de/avbwasserv/__12.html"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Wie lange gibt es Ersatzteile für Honeywell-Filter und -Druckminderer, und welche Garantie gibt Resideo?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/134255/Leitungswasserschaden-durch-defekte-Honeywell-Braukmann-HS-10-S"
+      ],
+      "antwort": "Auf die bleifreien Braukmann-Trinkwasserfilter gibt Resideo fünf Jahre Garantie nach der eigenen Garantieerklärung. Eine Frist für Ersatzteile nennt Resideo nicht, der Ersatzteilkatalog 2022/23 führt aber Teile für F76S, HS10S und FF06 ab Baujahr 1997 und für den Druckminderer D22 ab 1968. Viele Teile gelten über Baureihen hinweg, etwa der Filtereinsatz AF11S-1A.",
+      "antwort_quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/DE3H-9010GE23_Bleifreie_Trinkwasserfilter_DE_web.pdf",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "resideo-filtereinsatz-af11s-1a"
+      ],
+      "passendes_problem": null
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "Mein Honeywell Primus-Druckminderer pfeift oder jault. Was tun?",
+      "fundstellen": [
+        "https://www.heizungsforum.de/threads/honeywell-primus-druckminderer-pfeift-jault.16225/"
+      ]
+    },
+    {
+      "frage": "Kann ich auf meinen alten F76S oder die HS10S nachträglich eine Rückspülautomatik setzen?",
+      "fundstellen": [
+        "https://knx-user-forum.de/forum/öffentlicher-bereich/knx-eib-forum/12968-√-wasserfilter-rückspülautomatik-in-knx-einbinden"
+      ]
+    },
+    {
+      "frage": "Nach dem Filterwechsel ist Luft in der Filtertasse. Ist das normal?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/181543/Nach-Filterwechsel-luft-in-der-Filtertasse-"
+      ]
+    },
+    {
+      "frage": "Sind Buderus- oder Oventrop-Filter baugleich mit Honeywell, und passen die Ersatzteile?",
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/58828/Honeywell-Wasserfilter-Primus-FK-Druckminderer-FK74C"
+      ]
+    }
+  ],
+  "allgemeine_muster": "Bei Resideo, Honeywell und Braukmann drehen sich die Fragen um drei Dinge: welcher Filtereinsatz oder Ventileinsatz zu Gerät, Nennweite und Baureihe passt, warum es am Ablauf, an der Tasse oder an der Federhaube tropft, und wie Rückspülen und Druck einstellen gehen. Dazu kommen Berichte über gerissene Klarsicht-Tassen der HS10S mit Wasserschaden und die Unsicherheit, ob Honeywell, Braukmann und Resideo dieselbe Firma sind. Die Teilenummern sind gut dokumentiert, die Foren verweisen aber selten auf sie; meist wird der Austausch gegen ein Gerät eines anderen Herstellers empfohlen."
+}
