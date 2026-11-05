@@ -116,7 +116,7 @@ Originalteile mit Herstellernummer im Titel:
 | Judo EHF 100 (8080030), drei Angebote | B00J13KUFC, B00ITUJT9Q, B0070NKXXO | 376, 322, 263 |
 | Judo GUBI-E 1" Rückspül-Schutzfilter mit Druckminderer | B07CRX2JN7 | 893 |
 | SYR Drufi Filtereinsatz 2315.00.908 / Drufi+ 2315.00.930 | B00DYTF1MQ / B077HGSXQH | 117 / 39 |
-| SYR Gewebefilter HWS 2000 (2000.25.900) | B00BKYNM5U | 163 |
+| SYR Gewebefilter 2000.25.900 (laut SYR Ersatzgewebe für Drufi FF/DFF, nicht für die HWS 2000; Korrektur 5.11.) | B00BKYNM5U | 163 |
 | Grünbeck Filtereinsatz 101272E / 101632E | B07D73KVVF / B00DYPIY7O | 119 / 72 |
 | Honeywell FF06-1AA / AF11S-1A / AS06-1A | B0017V45TI / B004IR8AVC / B0017V0NUS | 131 / 3 / 8 |
 | Judo Verschleißteilset i-soft / Siebeinsatz 2170606 / Injektor-Set 2201470 | B06XRJ7FLR / B01IVP3MSM / B09CKX57YL | 82 / 95 / Preis 96,49 € |
