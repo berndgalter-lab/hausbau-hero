@@ -292,13 +292,89 @@ export const SONNENSCHUTZ_MERKMALE: { key: keyof SonnenschutzDaten; label: strin
   { key: "farbe", label: "Farbe", wert: (d) => text(d.farbe) },
 ];
 
-export type ProduktDaten = ArmaturDaten | WcDaten | SonnenschutzDaten;
+// ---------- Hauswasserfilter: Rückspülfilter, Filter mit Druckminderer, Hauswasserstationen ----------
+// Eigene Kategorie, damit Filter nicht im Armaturen-Vergleich landen (armaturDaten() kennt sie nicht).
+// Gleichnamige Felder (filter, rueckspuelung, ausgangsdruck …) bedeuten dasselbe wie beim Druckminderer.
 
-/** Daten, wie die Auswahlhilfe der Produkt-Ratgeber sie sieht: Armatur, WC-Produkt oder Sonnenschutz, alle Felder optional. */
+export interface WasserfilterDaten {
+  kategorie?: "rueckspuelfilter";
+  /** „Rückspülfilter“, „Rückspülfilter mit Druckminderer“ oder „Hauswasserstation“ */
+  bauart?: string;
+  /** Anschluss des gezeigten Artikels, z. B. „R 1" Außengewinde (DN 25)“ */
+  anschluss?: string;
+  /** Größe des gezeigten Artikels, genau „3/4"“, „1"“ oder „1 1/4"“ */
+  anschluss_zoll?: string;
+  /** Größen, in denen es dasselbe Gerät gibt (für die Auswahlhilfe), z. B. ["3/4"", "1"", "1 1/4""] */
+  groessen_zoll?: string[];
+  /** Woran das Gerät in der Leitung sitzt, z. B. „Judo-Einbaudrehflansch mit Bajonett“, „SYR-Drufi-Flansch“, „Gewindetüllen“ */
+  anschlusssystem?: string;
+  /** Filterfeinheit, z. B. „100 µm“ */
+  filter?: string;
+  /** „manuell“ oder „automatisch“ (ab Werk) */
+  rueckspuelung?: string;
+  /** Automatik zum Nachrüsten, z. B. „nachrüstbar (RSA 2316.00.081)“ */
+  rueckspuelautomatik?: string;
+  /** „ja“, „nein“ oder „nachrüstbar“ */
+  druckminderer?: string;
+  /** Einstellbereich des Druckminderers, z. B. „1,5–6 bar, ab Werk 4 bar“ */
+  ausgangsdruck?: string;
+  /** „ja“ oder „nein“ */
+  rueckflussverhinderer?: string;
+  manometer?: string;
+  /** Betriebsdruck als Text, z. B. „2–16 bar“ */
+  betriebsdruck?: string;
+  temperatur_max_c?: number;
+  durchfluss?: string;
+  einbaulage?: string;
+  /** Einbaulänge ohne Verschraubungen bzw. Flansch, wie im Datenblatt */
+  einbaulaenge?: string;
+  /** Material der Filtertasse, z. B. „Kunststoff, klar“ */
+  filtertasse?: string;
+  /** Ersatz-Filtereinsatz mit Herstellernummer */
+  ersatzeinsatz?: string;
+  norm?: string;
+  material?: string;
+}
+
+export const WASSERFILTER_MERKMALE: { key: keyof WasserfilterDaten; label: string; wert: (d: WasserfilterDaten) => string | null }[] = [
+  { key: "bauart", label: "Bauart", wert: (d) => text(d.bauart) },
+  { key: "anschluss", label: "Anschluss", wert: (d) => text(d.anschluss) },
+  {
+    key: "groessen_zoll",
+    label: "Erhältlich in",
+    wert: (d) => (Array.isArray(d.groessen_zoll) && d.groessen_zoll.length > 0 ? d.groessen_zoll.join(", ") : null),
+  },
+  { key: "anschlusssystem", label: "Sitzt auf", wert: (d) => text(d.anschlusssystem) },
+  { key: "filter", label: "Filterfeinheit", wert: (d) => text(d.filter) },
+  { key: "rueckspuelung", label: "Rückspülung", wert: (d) => text(d.rueckspuelung) },
+  { key: "rueckspuelautomatik", label: "Rückspülautomatik", wert: (d) => text(d.rueckspuelautomatik) },
+  { key: "druckminderer", label: "Druckminderer", wert: (d) => text(d.druckminderer) },
+  { key: "ausgangsdruck", label: "Ausgangsdruck", wert: (d) => text(d.ausgangsdruck) },
+  { key: "rueckflussverhinderer", label: "Rückflussverhinderer", wert: (d) => text(d.rueckflussverhinderer) },
+  { key: "manometer", label: "Manometer", wert: (d) => text(d.manometer) },
+  { key: "betriebsdruck", label: "Betriebsdruck", wert: (d) => text(d.betriebsdruck) },
+  {
+    key: "temperatur_max_c",
+    label: "Wassertemperatur max.",
+    wert: (d) => (typeof d.temperatur_max_c === "number" ? `${d.temperatur_max_c} °C` : null),
+  },
+  { key: "durchfluss", label: "Durchfluss", wert: (d) => text(d.durchfluss) },
+  { key: "einbaulage", label: "Einbaulage", wert: (d) => text(d.einbaulage) },
+  { key: "einbaulaenge", label: "Einbaulänge", wert: (d) => text(d.einbaulaenge) },
+  { key: "filtertasse", label: "Filtertasse", wert: (d) => text(d.filtertasse) },
+  { key: "ersatzeinsatz", label: "Ersatz-Filtereinsatz", wert: (d) => text(d.ersatzeinsatz) },
+  { key: "norm", label: "Norm", wert: (d) => text(d.norm) },
+  { key: "material", label: "Material", wert: (d) => text(d.material) },
+];
+
+export type ProduktDaten = ArmaturDaten | WcDaten | SonnenschutzDaten | WasserfilterDaten;
+
+/** Daten, wie die Auswahlhilfe der Produkt-Ratgeber sie sieht: Armatur, WC-Produkt, Sonnenschutz oder Wasserfilter, alle Felder optional. */
 export type RatgeberDaten = Omit<ArmaturDaten, "kategorie" | "montage" | "material"> &
   Omit<WcDaten, "kategorie" | "material"> &
-  Omit<SonnenschutzDaten, "kategorie" | "montage" | "material"> & {
-    kategorie?: ArmaturKategorie | WcKategorie | "sonnenschutz";
+  Omit<SonnenschutzDaten, "kategorie" | "montage" | "material"> &
+  Omit<WasserfilterDaten, "kategorie" | "material"> & {
+    kategorie?: ArmaturKategorie | WcKategorie | "sonnenschutz" | "rueckspuelfilter";
     montage?: string;
     material?: string;
   };
@@ -311,11 +387,15 @@ function istSonnenschutz(d: ProduktDaten): d is SonnenschutzDaten {
   return d.kategorie === "sonnenschutz";
 }
 
-/** Technische Daten jeder bekannten Kategorie (Armatur, Drückerplatte, Vorwandelement, Hebeanlage, Sonnenschutz). */
+function istWasserfilter(d: ProduktDaten): d is WasserfilterDaten {
+  return d.kategorie === "rueckspuelfilter";
+}
+
+/** Technische Daten jeder bekannten Kategorie (Armatur, Drückerplatte, Vorwandelement, Hebeanlage, Sonnenschutz, Wasserfilter). */
 export function produktDaten(td: unknown): ProduktDaten | null {
   if (!td || typeof td !== "object" || Array.isArray(td)) return null;
   const d = td as ProduktDaten;
-  return armaturDaten(d) ?? (istWc(d) || istSonnenschutz(d) ? d : null);
+  return armaturDaten(d) ?? (istWc(d) || istSonnenschutz(d) || istWasserfilter(d) ? d : null);
 }
 
 /**
@@ -325,10 +405,15 @@ export function produktDaten(td: unknown): ProduktDaten | null {
 export function merkmaleFuer(daten: (ProduktDaten | null)[]): { key: string; label: string; wert: (d: ProduktDaten) => string | null }[] {
   const erstes = daten.find((d): d is ProduktDaten => !!d);
   const liste =
-    erstes && istSonnenschutz(erstes)
+    erstes && istWasserfilter(erstes)
+      ? WASSERFILTER_MERKMALE.map((m) => ({ ...m, wert: (d: ProduktDaten) => (istWasserfilter(d) ? m.wert(d) : null) }))
+      : erstes && istSonnenschutz(erstes)
       ? SONNENSCHUTZ_MERKMALE.map((m) => ({ ...m, wert: (d: ProduktDaten) => (istSonnenschutz(d) ? m.wert(d) : null) }))
       : erstes && istWc(erstes)
         ? WC_MERKMALE.map((m) => ({ ...m, wert: (d: ProduktDaten) => (istWc(d) ? m.wert(d) : null) }))
-        : MERKMALE.map((m) => ({ ...m, wert: (d: ProduktDaten) => (istWc(d) || istSonnenschutz(d) ? null : m.wert(d as ArmaturDaten)) }));
+        : MERKMALE.map((m) => ({
+            ...m,
+            wert: (d: ProduktDaten) => (istWc(d) || istSonnenschutz(d) || istWasserfilter(d) ? null : m.wert(d as ArmaturDaten)),
+          }));
   return liste.filter((m) => daten.some((d) => d && m.wert(d) !== null));
 }

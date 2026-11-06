@@ -22,6 +22,7 @@ const HAEUFIG = [
   { text: "Spülkasten läuft nach", problem: "spuelkasten-laeuft-nach", bereich: "wc-spuelkasten" },
   { text: "Thermostat wird nicht warm", problem: "thermostat-wird-nicht-warm", bereich: "dusche-badewanne" },
   { text: "Dachfenster undicht", problem: "dachfenster-undicht", bereich: "dachfenster" },
+  { text: "Rückspülfilter tropft", problem: "rueckspuelfilter-tropft", bereich: "wasserfilter" },
   { text: "Spüle dichtet nicht", problem: "spuele-dichtet-nicht", bereich: "kueche" },
 ];
 

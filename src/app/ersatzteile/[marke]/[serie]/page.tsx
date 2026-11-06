@@ -144,7 +144,7 @@ export default async function SerienSeite({ params }: Props) {
         {mehrfach.length > 0 && (
           <div className="mb-4 p-4 bg-accent-50 rounded-xl text-sm text-stone-700">
             <strong>Achtung:</strong> Für diese Serie gibt es mehrere {mehrfach.join(" und ")}. Welches Teil passt,
-            hängt von der genauen Modellnummer deiner Armatur ab – sie steht in der Spalte „Hinweis“.
+            hängt von der genauen Modellnummer deines Geräts ab. Sie steht in der Spalte „Hinweis“.
           </div>
         )}
         {zeilen.length === 0 ? (

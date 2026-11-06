@@ -1,0 +1,1411 @@
+{
+ "marke": {
+  "slug": "bwt",
+  "name": "BWT",
+  "beschreibung": "BWT (Best Water Technology) aus Mondsee in Österreich baut Hauswasserfilter, Hauswasserstationen mit Druckminderer und Enthärtungsanlagen. In deutschen Kellern stecken vor allem der Einhebelfilter E1, die Rückspülfilter Bolero, Avanti und Infinity, die Hauswasserstationen Diago und Bolero HWS sowie die Enthärtungsanlagen AQA perla und Perla. Viele ältere Geräte tragen noch den Namen Cillit, die frühere Marke von BWT, etwa der Klarfilter 77 oder der Galileo.\n\nGesucht werden meistens das passende Filterelement, Dichtungssätze für Filtertasse und Klarsichtzylinder und das richtige Salz für die Enthärtungsanlage. Dazu kommen tropfende Rückspülfilter, ein Druckminderer, der den Druck nicht mehr hält, und Meldungen wie „Service“ oder Salzmangel an der AQA perla.",
+  "nummer_hinweis": "Gerätetyp, Nennweite und Produktionsnummer (PNR) stehen auf dem Typenschild. Bei der AQA perla sitzt es hinten am Gerät, bei Filtern und Hauswasserstationen am Gehäuse; ist es unleserlich, helfen Bedienungsanleitung oder Rechnung des Installateurs. Die PNR brauchst du, wenn du den Kundendienst rufst.\n\nDie Nennweite ist der Anschluss in Zoll oder DN: ¾“ ist DN 20, 1“ DN 25, 1¼“ DN 32. Das ist wichtig, weil BWT die Filterelemente in zwei Größen baut. Für ¾“ bis 1¼“ gibt es ein anderes Element als für 1½“ und 2“.\n\nAchte auf das Kürzel hinter dem Namen. RF heißt Rückspülfilter, HWS Hauswasserstation (Filter mit Druckminderer), EHF Einhebelfilter ohne Druckminderer, WF Wechselfilter. Ein Diago WF braucht ein anderes Element als ein Diago HWS, obwohl beide Diago heißen.\n\nDie Teilenummern schreibt BWT unterschiedlich. Aus 1-902393 wird beim Händler 1.902.393 oder 1902393. Beim E1 ist 810386 die Nummer aus Österreich, in Deutschland lief dasselbe Element als 10386.\n\nSteht Cillit auf dem Gerät, ist es ein älteres BWT-Gerät. Für den Cillit C1 passen die Elemente des E1, für den Cillit Galileo das Rückspülfilter-Element RF Gr. I. Beim Klarfilter 77 SN und 77 N steht die Nennweite auf dem Gehäuse.",
+  "ersatzteil_garantie": "Auf den E1 Einhebelfilter gibt BWT laut Prospekt zehn Jahre Garantie. Für alle Geräte gilt: Die Garantie setzt voraus, dass du rückspülst, kontrollierst und die Verschleißteile in den Abständen der Anleitung tauschst. Garantiearbeiten macht der BWT-Kundendienst.\n\nWie lange BWT Ersatzteile für ältere Geräte liefert, nennt der Hersteller nicht. Für Cillit-Geräte wie den Klarfilter 77 N gibt es Filtereinsätze und Reparatursätze aber weiterhin unter dem Namen BWT.",
+  "hersteller_ersatzteil_url": "https://www.bwt.com/en/shop/Domestic-Water/Consumables/",
+  "quellen": [
+   "https://www.bwt.com/en/shop/Domestic-Water/Consumables/",
+   "https://www.bwt.com/en/shop/BWT-E1-Filter-Element-2-Pack/810386",
+   "https://www.bwt.com/en/shop/BWT-E1-Hygiene-Box/820396",
+   "https://www.bwt.com/en/shop/BWT-Filterelement-RF-Gr-I/084047",
+   "https://bwt.com/en/shop/BWT-KSF-filter-element-replacement-fleece/084038",
+   "https://www.bwt.com/en/shop/BWT-Perla-Tabs/094245",
+   "https://www.bwt.com/en/shop/BWT-IOCLEAN/018188",
+   "https://assets.heizung-billiger.de/documents/bwt_e1_einhebelfilter.pdf",
+   "https://www.bwt.com/de-de/-/media/bwt/de/documents/infomaterial/e1-einhebelfilter_de.pdf?rev=a1efb15962ea4af195111262de76e7fc",
+   "https://www.manualslib.com/manual/2409668/Bwt-E1-Hws.html",
+   "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=34",
+   "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=35",
+   "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+   "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=40",
+   "https://www.manualslib.de/manual/909109/Bwt-Infinity-M.html?page=22",
+   "https://www.manualslib.de/manual/909109/Bwt-Infinity-M.html?page=23",
+   "https://assets.heizung-billiger.de/documents/pdb_avanti_rf_lf_de.pdf",
+   "https://www.manualslib.com/manual/1190639/Bwt-Aqa-Perla.html?page=20",
+   "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=60",
+   "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=72",
+   "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=75",
+   "https://www.manualslib.de/manual/387156/Cillit-77-Sn-1.html",
+   "https://www.gesetze-im-internet.de/avbwasserv/__12.html",
+   "https://www.bauexpertenforum.de/threads/filterreinigung-hauswasserstation.47053/",
+   "https://www.bauexpertenforum.de/threads/bwt-aqa-perla-4-0-regeneriert-nicht-mehr.121980/",
+   "https://www.energiesparhaus.at/forum-servicemeldung-bwt-aqa-perla-3-bj-2019/57146"
+  ],
+  "fragen": [
+   {
+    "frage": "Wo finde ich Typ und Nennweite meines BWT-Filters?",
+    "antwort": "Auf dem Typenschild stehen Gerätetyp und Produktionsnummer (PNR), die der Kundendienst bei jedem Anruf braucht. Bei der AQA perla sitzt das Schild hinten am Gerät. Die Nennweite steht als Zoll oder DN dabei: ¾“ ist DN 20, 1“ DN 25, 1¼“ DN 32. Das Kürzel hinter dem Namen sagt, was du hast: RF ist ein Rückspülfilter, HWS eine Hauswasserstation mit Druckminderer, WF ein Wechselfilter.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://www.manualslib.de/manual/909109/Bwt-Infinity-M.html?page=23",
+     "https://www.manualslib.com/manual/1190639/Bwt-Aqa-Perla.html?page=20",
+     "https://assets.heizung-billiger.de/documents/pdb_avanti_rf_lf_de.pdf"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Auf meinem Filter steht Cillit. Bekomme ich dafür noch Teile?",
+    "antwort": "Ja. Cillit ist die frühere Marke von BWT, die Teile laufen heute unter BWT. Für den Cillit C1 passen Filterelement 810386 und Hygienebox des E1, für den Cillit Galileo das Filterelement RF Gr. I (084047). Für den Klarfilter 77 gibt es den Filtereinsatz 50977 und für den 77 N in 1½“ bis 2“ das Reparatur-Set 2-060097.",
+    "kategorie": "nummer",
+    "quellen": [
+     "https://www.bwt.com/en/shop/BWT-E1-Filter-Element-2-Pack/810386",
+     "https://www.bwt.com/en/shop/BWT-Filterelement-RF-Gr-I/084047",
+     "https://www.amazon.de/dp/B0017VIZIA",
+     "https://www.amazon.de/dp/B011O20H4G"
+    ],
+    "teile": [
+     "bwt-e1-filterelement-810386",
+     "bwt-filterelement-rf-gr1-084047",
+     "bwt-cillit-filtereinsatz-50977",
+     "bwt-reparaturset-cillit-77n-2-060097"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Welches Filterelement passt in meinen BWT E1, und wie oft muss ich es wechseln?",
+    "antwort": "Das Element 810386 im Zweierpack passt in den E1 mit und ohne Druckminderer (HWS und EHF), in den Bonaqua B1 und den Cillit C1; in Deutschland lief es früher als 10386. BWT verlangt den Wechsel spätestens nach sechs Monaten, früher, wenn der Druck spürbar nachlässt. Die Filtertasse (Hygienetresor) tauschst du einmal im Jahr, dafür gibt es die Hygienebox 820396 mit Tasse und zweitem Element.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.bwt.com/en/shop/BWT-E1-Filter-Element-2-Pack/810386",
+     "https://www.bwt.com/en/shop/BWT-E1-Hygiene-Box/820396",
+     "https://assets.heizung-billiger.de/documents/bwt_e1_einhebelfilter.pdf"
+    ],
+    "teile": [
+     "bwt-e1-filterelement-810386",
+     "bwt-e1-hygienebox-820396"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Welches Filterelement brauche ich für BWT Bolero, Avanti oder Diago?",
+    "antwort": "Für ¾“ bis 1¼“ nennt die Bolero-Anleitung das Element 1-902393, das Händler auch für Avanti und Diago verkaufen. Im BWT-Shop heißt das Element heute RF Gr. I (084047) und passt laut BWT zu Bolero, Diago, R1, F1 und Cillit Galileo. Für 1½“ und 2“ gibt es ein anderes, größeres Element. Diago WF und Avanti WF sind Wechselfilter und brauchen das Element 10932.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+     "https://www.bwt.com/en/shop/BWT-Filterelement-RF-Gr-I/084047",
+     "https://www.testberichte.de/heimwerkerbedarf/bwt-filterelement-mit-abstreifer.html",
+     "https://www.amazon.de/dp/B011O2E00I"
+    ],
+    "teile": [
+     "bwt-filterelement-abstreifer-1-902393",
+     "bwt-filterelement-rf-gr1-084047",
+     "bwt-filterelement-gr1-10932"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Welche Filterhülse passt in den BWT KSF-Schutzfilter oder den Universalfilter II?",
+    "antwort": "Für Größe I (¾“ bis 5/4“) die KSF-Schutzfilterhülse 084038 aus 50-µm-Vlies, im Zehnerpack. BWT nennt sie für KSF, Universalfilter II und die älteren Benckiser-Filter S und GS (PN 16) und empfiehlt den Wechsel alle sechs Monate. Den passenden Dichtungssatz führen Händler als SF Universal II Gr. 1 (7084233).",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://bwt.com/en/shop/BWT-KSF-filter-element-replacement-fleece/084038",
+     "https://www.amazon.de/dp/B005AKIZCA",
+     "https://www.ebay.de/p/1142244742"
+    ],
+    "teile": [
+     "bwt-ksf-schutzfilterhuelse-gr1-084038",
+     "bwt-dichtungsset-sf-universal-ii-gr1-7084233"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Welches Salz brauche ich für meine BWT-Enthärtungsanlage?",
+    "antwort": "Regeneriersalz in Tablettenform nach DIN EN 973 Typ A. Die AQA-perla-Anleitung nennt als Beispiele Sanitabs und Clarosal, BWT selbst verkauft Perla Tabs mit mindestens 99,9 % Natriumchlorid für alle Enthärtungsanlagen. Achte darauf, dass kein Schmutz in den Salzbehälter fällt; ist doch etwas hineingeraten, spülst du den Behälter mit Trinkwasser aus.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=60",
+     "https://www.bwt.com/en/shop/BWT-Perla-Tabs/094245",
+     "https://www.amazon.de/dp/B01ELIAYT8"
+    ],
+    "teile": [
+     "bwt-perla-tabs-25kg",
+     "bwt-sanitabs-8kg-094241"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Darf ich die BWT-Reinigungstabletten Ioclean in meine AQA perla geben?",
+    "antwort": "Nein. BWT gibt Ioclean nur für die neueren Perla-Anlagen frei (Perla, Perla Home, Perla One, Perla Hybrid, Perla Seta) und schließt die AQA-perla-Reihe ausdrücklich aus. Bei den Perla-Anlagen legst du alle sechs Monate eine Tablette ein und startest die Reinigung im Menü unter Routinewartung.",
+    "kategorie": "kompatibilitaet",
+    "quellen": [
+     "https://www.bwt.com/en/shop/BWT-IOCLEAN/018188"
+    ],
+    "teile": [
+     "bwt-ioclean-018188"
+    ],
+    "problem": null
+   },
+   {
+    "frage": "Mein BWT-Rückspülfilter tropft unten am Spülwasserablauf. Was kann ich tun?",
+    "antwort": "Meist hält Schmutz das Rückspülelement auf, sodass der Auslass nicht ganz schließt. Laut BWT-Anleitung öffnest und schließt du den Drehknopf vollständig und wiederholst die Rückspülung mehrmals. Tropft es weiter, sind die Dichtungen verschlissen; beim Bolero ist dafür das Dichtungsset 1-902345 vorgesehen, Tausch alle vier Jahre.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=35",
+     "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+     "https://www.manualslib.de/manual/909109/Bwt-Infinity-M.html?page=23"
+    ],
+    "teile": [
+     "bwt-dichtungsset-1-902345"
+    ],
+    "problem": "bwt-rueckspuelfilter-tropft"
+   },
+   {
+    "frage": "Der Druck hinter meiner BWT-Hauswasserstation steigt über den eingestellten Wert. Was ist kaputt?",
+    "antwort": "Laut Anleitung haben sich meist die Dichtelemente des Druckminderers gesetzt. Stell den Hinterdruck neu ein, ab Werk sind es 4 bar. Steigt er danach weiter, muss der Ventileinsatz des Druckminderers getauscht werden. BWT sieht dafür beim E1 HWS ohnehin alle sechs Jahre einen Tausch durch den Kundendienst vor.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=35",
+     "https://www.manualslib.com/manual/2409668/Bwt-E1-Hws.html"
+    ],
+    "teile": [],
+    "problem": "bwt-druckminderer-druck-steigt"
+   },
+   {
+    "frage": "Darf ich meinen BWT-Filter oder die Enthärtungsanlage selbst einbauen?",
+    "antwort": "Nein. Einbau und wesentliche Änderungen an der Trinkwasseranlage hinter dem Wasserzähler darf nach § 12 AVBWasserV nur der Wasserversorger oder ein eingetragener Installateur machen, darauf verweist auch BWT im Datenblatt. Du darfst rückspülen, beim E1 das Element wechseln und Salz nachfüllen. Die Wartung nach EN 806-5 macht der BWT-Kundendienst oder ein von BWT zugelassener Installateur.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.gesetze-im-internet.de/avbwasserv/__12.html",
+     "https://assets.heizung-billiger.de/documents/pdb_avanti_rf_lf_de.pdf",
+     "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=75",
+     "https://www.manualslib.de/manual/909109/Bwt-Infinity-M.html?page=23"
+    ],
+    "teile": [],
+    "problem": null
+   },
+   {
+    "frage": "Meine BWT AQA perla meldet Salzmangel, obwohl noch genug Salz drin ist. Was tun?",
+    "antwort": "Laut BWT hat sich dann über dem Kontaktschalter am Siebboden ein Hohlraum gebildet. Misch das Salz im Behälter von Hand gut durch. Bei echtem Salzmangel füllst du Tabletten nach und drückst die Taste, bis „Low salt“ verschwindet; war der Behälter leer, startest du danach eine Regeneration von Hand.",
+    "kategorie": "reparatur",
+    "quellen": [
+     "https://www.manualslib.com/manual/1190639/Bwt-Aqa-Perla.html?page=20",
+     "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=60"
+    ],
+    "teile": [
+     "bwt-perla-tabs-25kg"
+    ],
+    "problem": "bwt-enthaertungsanlage-fehlermeldung"
+   },
+   {
+    "frage": "Meine BWT AQA perla zeigt „Service“ an. Kann ich das selbst zurücksetzen?",
+    "antwort": "Die Meldung erscheint nach 500 Regenerationen oder zwölf Monaten, je nachdem, was zuerst eintritt, und heißt: Wartung fällig. BWT schreibt vor, dafür den Kundendienst zu rufen; geprüft werden unter anderem Rückflussverhinderer, Solesystem, Salzmangelschalter und Siebboden. In Foren kursieren Codes zum Zurücksetzen, die je nach Baujahr nicht funktionieren und die Wartung nicht ersetzen.",
+    "kategorie": "pflege",
+    "quellen": [
+     "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=72",
+     "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=75",
+     "https://www.energiesparhaus.at/forum-servicemeldung-bwt-aqa-perla-3-bj-2019/57146"
+    ],
+    "teile": [],
+    "problem": "bwt-enthaertungsanlage-fehlermeldung"
+   },
+   {
+    "frage": "Wie oft muss ich den BWT-Rückspülfilter rückspülen?",
+    "antwort": "Die Anleitungen zu Bolero und Infinity M sagen: spätestens alle zwei Monate, beim Infinity M empfiehlt BWT monatlich, und immer, wenn der Druck spürbar nachlässt. Das Datenblatt der neuen Avanti RF LF nennt alle sechs Monate. Halt dich im Zweifel an das kürzere Intervall, denn Schmutz, der lange sitzt, setzt sich im Gewebe fest. Zum Rückspülen ein Gefäß unterstellen, wenn der Ablauf nicht am Abfluss hängt.",
+    "kategorie": "pflege",
+    "quellen": [
+     "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=34",
+     "https://www.manualslib.de/manual/909109/Bwt-Infinity-M.html?page=22",
+     "https://assets.heizung-billiger.de/documents/pdb_avanti_rf_lf_de.pdf",
+     "https://www.bauexpertenforum.de/threads/filterreinigung-hauswasserstation.47053/"
+    ],
+    "teile": [],
+    "problem": "bwt-hauswasserfilter-wasserdruck-zu-niedrig"
+   },
+   {
+    "frage": "Verkauft BWT Ersatzteile direkt, und wie lange gilt die Garantie?",
+    "antwort": "BWT verkauft Verbrauchsteile selbst, etwa E1-Filterelemente, die Hygienebox, das Filterelement RF Gr. I, KSF-Filterhülsen, Perla Tabs und Ioclean; Dichtungssätze und ältere Elemente wie 1-902393 gibt es bei Händlern und Amazon. Auf den E1 gibt BWT zehn Jahre Garantie. Die Garantie setzt voraus, dass du rückspülst, kontrollierst und Verschleißteile in den Abständen der Anleitung tauschst.",
+    "kategorie": "bezug",
+    "quellen": [
+     "https://www.bwt.com/en/shop/Domestic-Water/Consumables/",
+     "https://www.bwt.com/de-de/-/media/bwt/de/documents/infomaterial/e1-einhebelfilter_de.pdf?rev=a1efb15962ea4af195111262de76e7fc",
+     "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=34"
+    ],
+    "teile": [
+     "bwt-e1-filterelement-810386",
+     "bwt-filterelement-abstreifer-1-902393"
+    ],
+    "problem": null
+   }
+  ],
+  "tabellen": [
+   {
+    "id": "filterelemente",
+    "titel": "Welches Filterelement passt in welches BWT-Gerät?",
+    "spalten": [
+     "Gerät",
+     "Nennweite",
+     "Filterelement",
+     "Wechsel"
+    ],
+    "zeilen": [
+     [
+      "E1 EHF, E1 HWS, Bonaqua B1, Cillit C1",
+      "¾“ bis 1¼“",
+      "810386 (früher 10386), Hygienebox 820396",
+      "Element alle 6 Monate, Tasse jährlich"
+     ],
+     [
+      "Bolero RF und HWS",
+      "¾“ bis 1¼“",
+      "1-902393 oder RF Gr. I 084047",
+      "laut Anleitung alle 6 Jahre, laut Shop alle 3 Jahre"
+     ],
+     [
+      "Diago HWS und RF",
+      "¾“ bis 1¼“",
+      "RF Gr. I 084047 oder 1-902393",
+      "wie Bolero"
+     ],
+     [
+      "Avanti RF und HWS (ältere)",
+      "¾“ bis 1¼“",
+      "1-902393",
+      "wie Bolero"
+     ],
+     [
+      "Cillit Galileo",
+      "¾“ bis 1¼“",
+      "RF Gr. I 084047",
+      "alle 3 Jahre"
+     ],
+     [
+      "Avanti WF 90, Diago WF 18",
+      "¾“ bis 1¼“",
+      "10932 (früher 10929)",
+      "nach Druckabfall"
+     ],
+     [
+      "KSF, Universalfilter II, Benckiser S und GS",
+      "¾“ bis 5/4“",
+      "Filterhülse 084038 (50 µm)",
+      "alle 6 Monate"
+     ],
+     [
+      "Cillit Klarfilter 77 SN und 77 N",
+      "¾“ bis 1¼“",
+      "Filtereinsatz 50977",
+      "nach Druckabfall"
+     ]
+    ],
+    "hinweis": "Für 1½“ und 2“ brauchen Bolero und Avanti ein größeres Element. Rückspülfilter (RF, HWS) werden rückgespült, das Element hält dann mehrere Jahre. Wechselfilter (E1, WF, KSF, Klarfilter) bekommen regelmäßig ein neues Element."
+   },
+   {
+    "id": "dichtungen",
+    "titel": "Dichtungssätze und Filtertassen",
+    "spalten": [
+     "Gerät",
+     "Teil",
+     "Nummer"
+    ],
+    "zeilen": [
+     [
+      "Bolero und Avanti ¾“ bis 1¼“",
+      "Dichtungsset",
+      "1-902345"
+     ],
+     [
+      "Bolero ¾“ bis 1¼“",
+      "Klarsichtzylinder",
+      "1-902356"
+     ],
+     [
+      "Bolero ¾“ bis 1¼“",
+      "O-Ring für das Bajonett",
+      "1-181548"
+     ],
+     [
+      "SF Universal II Gr. 1",
+      "Dichtungsset",
+      "7084233 (auch 84233)"
+     ],
+     [
+      "Cillit Klarfilter 77 N 1½“ bis 2“",
+      "Reparatur-Set",
+      "2-060097"
+     ],
+     [
+      "E1",
+      "Filtertasse mit Element (Hygienebox)",
+      "820396"
+     ]
+    ],
+    "hinweis": "Neue Dichtungen vor dem Einbau leicht mit Armaturenfett einstreichen. Kunststoffteile nach einem harten Schlag tauschen, auch wenn nichts zu sehen ist."
+   }
+  ]
+ },
+ "serien": [
+  {
+   "slug": "e1",
+   "name": "BWT E1 Einhebelfilter (EHF)",
+   "produkttyp": "rueckspuelfilter",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "E1",
+    "E1 EHF",
+    "E1 Neu EHF",
+    "E1 HydroMODUL",
+    "Bonaqua B1"
+   ],
+   "erkennungsmerkmale": "Weißes Gehäuse mit einem großen Hebel oben, darunter die Filtertasse (Hygienetresor). Kein Drehknopf für den Druck, der sitzt nur beim E1 HWS. Nennweite ¾“ bis 1¼“ (DN 20 bis 25).",
+   "beschreibung": "Der E1 ist ein Wechselfilter, kein Rückspülfilter: Das Filterelement wird getauscht, nicht gespült. BWT verlangt den Wechsel spätestens alle sechs Monate, die Filtertasse (Hygienetresor) einmal im Jahr.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/bwt_e1_einhebelfilter.pdf",
+    "https://www.bwt.com/de-de/-/media/bwt/de/documents/infomaterial/e1-einhebelfilter_de.pdf?rev=a1efb15962ea4af195111262de76e7fc",
+    "https://www.bwt.com/en/shop/BWT-E1-Filter-Element-2-Pack/810386",
+    "https://www.bwt.com/en/shop/BWT-E1-Hygiene-Box/820396"
+   ]
+  },
+  {
+   "slug": "e1-hws",
+   "name": "BWT E1 HWS (mit Druckminderer)",
+   "produkttyp": "hauswasserstation",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "E1 HWS",
+    "E1 Neu HWS",
+    "20385",
+    "40384",
+    "40385"
+   ],
+   "erkennungsmerkmale": "Wie der E1, aber mit Drehknopf und Druckanzeige für den Druckminderer, ab Werk auf 4 bar eingestellt. Manometer liegt bei.",
+   "beschreibung": "Einhebelfilter mit eingebautem Druckminderer und Rückflussverhinderer. Filterelement und Hygienetresor sind dieselben wie beim E1 EHF. Den Druckminderer-Einsatz tauscht BWT laut Anleitung alle sechs Jahre, die Dichtungen alle drei Jahre.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/bwt_e1_einhebelfilter.pdf",
+    "https://www.manualslib.com/manual/2409668/Bwt-E1-Hws.html",
+    "https://www.bwt.com/en/shop/BWT-E1-Filter-Element-2-Pack/810386",
+    "https://www.bwt.com/en/shop/BWT-E1-Hygiene-Box/820396"
+   ]
+  },
+  {
+   "slug": "cillit-c1",
+   "name": "Cillit C1 Einhebelfilter HWS",
+   "produkttyp": "hauswasserstation",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "Cillit C1",
+    "C1 HWS"
+   ],
+   "erkennungsmerkmale": "Einhebelfilter unter dem Namen Cillit, Aufbau wie der BWT E1.",
+   "beschreibung": "Der Cillit C1 ist die Cillit-Ausführung des E1. BWT führt ihn ausdrücklich bei den passenden Geräten für Filterelement und Hygienebox.",
+   "quellen": [
+    "https://www.bwt.com/en/shop/BWT-E1-Filter-Element-2-Pack/810386",
+    "https://www.bwt.com/en/shop/BWT-E1-Hygiene-Box/820396"
+   ]
+  },
+  {
+   "slug": "bolero-rf",
+   "name": "BWT Bolero RF Rückspülfilter",
+   "produkttyp": "rueckspuelfilter",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "Bolero RF",
+    "10364",
+    "10365",
+    "10366",
+    "10368"
+   ],
+   "erkennungsmerkmale": "Rückspülfilter mit Klarsichtzylinder und Drehknopf unten für die Rückspülung. Nennweiten ¾“ bis 1¼“ und 1½“ bis 2“; die Größe entscheidet über das Filterelement.",
+   "beschreibung": "Für ¾“ bis 1¼“ nennt die BWT-Anleitung Dichtungssatz 1-902345, Filterelement 1-902393, Klarsichtzylinder 1-902356 und O-Ring für das Bajonett 1-181548. Rückspülen und kontrollieren soll der Betreiber spätestens alle zwei Monate.",
+   "quellen": [
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=34",
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=35",
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=39"
+   ]
+  },
+  {
+   "slug": "bolero-hws",
+   "name": "BWT Bolero HWS Hauswasserstation",
+   "produkttyp": "hauswasserstation",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "Bolero HWS",
+    "10369",
+    "10370",
+    "10371",
+    "10372"
+   ],
+   "erkennungsmerkmale": "Bolero-Filter mit großem blauem Drehknopf oben für den Druckminderer und Manometer. Der kleine Knopf unten ist für die Rückspülung.",
+   "beschreibung": "Rückspülfilter mit Druckminderer, ab Werk auf 4 bar eingestellt. Filterteile wie beim Bolero RF derselben Größe. Steigt der Druck trotz Nachstellen über den Sollwert, muss der Ventileinsatz des Druckminderers getauscht werden.",
+   "quellen": [
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=35",
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=40",
+    "https://www.bauexpertenforum.de/threads/filterreinigung-hauswasserstation.47053/"
+   ]
+  },
+  {
+   "slug": "avanti-rf",
+   "name": "BWT Avanti RF Rückspülfilter",
+   "produkttyp": "rueckspuelfilter",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "Avanti RF",
+    "Avanti RF LF",
+    "125596658",
+    "125596659",
+    "125596660"
+   ],
+   "erkennungsmerkmale": "Rückspülfilter mit Drehknopf und Rutschkupplung, Nennweiten DN 20 bis 50. Die aktuelle bleifreie Ausführung heißt Avanti RF LF.",
+   "beschreibung": "Filterfeinheit 90 bis 110 µm. BWT schreibt im Datenblatt der Avanti RF LF eine Rückspülung alle sechs Monate vor, bei starker Verschmutzung öfter.",
+   "quellen": [
+    "https://assets.heizung-billiger.de/documents/pdb_avanti_rf_lf_de.pdf",
+    "https://www.testberichte.de/heimwerkerbedarf/bwt-filterelement-mit-abstreifer.html"
+   ]
+  },
+  {
+   "slug": "avanti-hws",
+   "name": "BWT Avanti HWS Hauswasserstation",
+   "produkttyp": "hauswasserstation",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "Avanti HWS"
+   ],
+   "erkennungsmerkmale": "Avanti-Filter mit Druckminderer. Händler unterscheiden die blaue Ausführung ab Baujahr 2003.",
+   "beschreibung": "Rückspülfilter mit Druckminderer aus der Avanti-Reihe. Händler bieten für ¾“ bis 1¼“ das Filterelement 1-902393 an.",
+   "quellen": [
+    "https://www.testberichte.de/heimwerkerbedarf/bwt-filterelement-mit-abstreifer.html"
+   ]
+  },
+  {
+   "slug": "diago",
+   "name": "BWT Diago HWS und Diago RF",
+   "produkttyp": "hauswasserstation",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "Diago HWS",
+    "Diago RF",
+    "Diago HWS 1 (Avanti)",
+    "10172"
+   ],
+   "erkennungsmerkmale": "Rückspülbare Hauswasserstation aus Rückflussverhinderer, Rückspülfilter und Druckminderer (Ausgangsdruck 1,5 bis 6 bar). Rückspülung über Hebel und Drehknopf.",
+   "beschreibung": "Nicht verwechseln mit dem Diago WF: Das ist ein Wechselfilter mit eigenem Element (10932). Für Diago HWS und RF nennt BWT heute das Filterelement RF Gr. I (084047).",
+   "quellen": [
+    "https://www.pdod.de/de/articles/bwt/10172",
+    "https://www.bwt.com/en/shop/BWT-Filterelement-RF-Gr-I/084047",
+    "https://www.amazon.de/dp/B011O24TA4"
+   ]
+  },
+  {
+   "slug": "galileo",
+   "name": "Cillit Galileo Rückspülfilter",
+   "produkttyp": "rueckspuelfilter",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "Galileo",
+    "Cillit Galileo"
+   ],
+   "erkennungsmerkmale": "Rückspülfilter unter dem Namen Cillit, ¾“ bis 1¼“.",
+   "beschreibung": "BWT führt den Cillit Galileo bei den passenden Geräten für das Filterelement RF Gr. I.",
+   "quellen": [
+    "https://www.bwt.com/en/shop/BWT-Filterelement-RF-Gr-I/084047"
+   ]
+  },
+  {
+   "slug": "avanti-wf",
+   "name": "BWT Avanti WF und Diago WF Wechselfilter",
+   "produkttyp": "rueckspuelfilter",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "Avanti WF",
+    "Avanti WF 90",
+    "Diago WF",
+    "Diago WF 18"
+   ],
+   "erkennungsmerkmale": "Wechselfilter mit WF im Namen, ohne Rückspülknopf.",
+   "beschreibung": "Bei diesen Filtern wird das Element getauscht, nicht rückgespült. Für ¾“ bis 1¼“ passt laut Angebot das Ersatz-Filterelement Größe 1 (10932, früher 10929).",
+   "quellen": [
+    "https://www.amazon.de/dp/B011O2E00I"
+   ]
+  },
+  {
+   "slug": "ksf-universalfilter",
+   "name": "BWT KSF-Schutzfilter und Universalfilter II (Gr. I)",
+   "produkttyp": "rueckspuelfilter",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "KSF",
+    "Universalfilter II",
+    "Benckiser Schutzfilter S",
+    "Benckiser GS PN 16"
+   ],
+   "erkennungsmerkmale": "Schutzfilter mit Vlies-Filterhülse, Größe I für ¾“ bis 5/4“ (DN 20 bis 32). Auch ältere Benckiser-Filter S und GS gehören dazu.",
+   "beschreibung": "Wechselfilter: Die Filterhülse aus Polyestervlies (50 µm) wird laut BWT alle sechs Monate getauscht.",
+   "quellen": [
+    "https://bwt.com/en/shop/BWT-KSF-filter-element-replacement-fleece/084038",
+    "https://www.amazon.de/dp/B005AKIZCA",
+    "https://www.ebay.de/p/1142244742"
+   ]
+  },
+  {
+   "slug": "cillit-klarfilter-77",
+   "name": "Cillit Klarfilter 77 SN und 77 N",
+   "produkttyp": "rueckspuelfilter",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "Klarfilter 77",
+    "77 SN",
+    "77 N",
+    "KL77",
+    "FDN 84",
+    "FDN 91M"
+   ],
+   "erkennungsmerkmale": "Cillit-Filter mit Filtertasse, ¾“ bis 1¼“ als 77 SN, 1½“ und 2“ als 77 N.",
+   "beschreibung": "Wechselfilter ohne Rückspülung. Das Filterelement wird getauscht, wenn der Wasserdruck spürbar nachlässt. Die Anleitung nennt Dichtelemente alle drei Jahre, Entlüftungsschraube alle sechs Jahre; die Wartung gehört nach der Anleitung zum Installateur oder Werkskundendienst.",
+   "quellen": [
+    "https://www.manualslib.de/manual/387156/Cillit-77-Sn-1.html",
+    "https://www.amazon.de/dp/B0017VIZIA",
+    "https://www.amazon.de/dp/B011O20H4G"
+   ]
+  },
+  {
+   "slug": "aqa-perla",
+   "name": "BWT AQA perla Enthärtungsanlage",
+   "produkttyp": "enthaertungsanlage",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "AQA perla",
+    "AQA perla duplex",
+    "AQA perla 3",
+    "AQA perla 4.0"
+   ],
+   "erkennungsmerkmale": "Doppelsäulen-Anlage mit Display, Salzbehälter unter dem Deckel. Typenschild hinten am Gerät.",
+   "beschreibung": "Der Betreiber füllt Salz nach, prüft die Härte und schaut nach Undichtigkeiten. Die Wartung alle sechs Monate nach EN 806-5 macht der BWT-Kundendienst oder ein von BWT zugelassener Installateur. Die Meldung „Service“ erscheint nach 500 Regenerationen oder zwölf Monaten.",
+   "quellen": [
+    "https://www.manualslib.com/manual/1190639/Bwt-Aqa-Perla.html?page=20",
+    "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=60",
+    "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=72",
+    "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=75"
+   ]
+  },
+  {
+   "slug": "perla",
+   "name": "BWT Perla, Perla Home, Perla One und Perla Seta",
+   "produkttyp": "enthaertungsanlage",
+   "baujahr_von": null,
+   "baujahr_bis": null,
+   "kennnummern": [
+    "Perla",
+    "Perla Home",
+    "Perla One",
+    "Perla Seta",
+    "Perla Hybrid"
+   ],
+   "erkennungsmerkmale": "Neuere Perla-Anlagen ohne „AQA“ im Namen, mit Menüpunkt „Routinewartung“ und Reinigungsprogramm.",
+   "beschreibung": "Bei diesen Anlagen gehört die Reinigungstablette Ioclean zur halbjährlichen Betreiber-Wartung. In eine AQA perla gehört sie nicht.",
+   "quellen": [
+    "https://www.bwt.com/en/shop/BWT-IOCLEAN/018188",
+    "https://www.bwt.com/en/shop/BWT-Perla-Tabs/094245"
+   ]
+  }
+ ],
+ "teile": [
+  {
+   "slug": "bwt-e1-filterelement-810386",
+   "name": "BWT E1 Filterelement 810386, 2er-Pack (100 µm)",
+   "teiltyp": "filtereinsatz",
+   "oem_nummer": "810386",
+   "ean": null,
+   "masse": {
+    "filterfeinheit_um": 100,
+    "stueck": 2
+   },
+   "beschreibung": "Original-Filterelement für den E1 Einhebelfilter (EHF und HWS), den Bonaqua B1 und den Cillit C1. In Deutschland lief dasselbe Element als 10386. Zwei Stück reichen für ein Jahr, denn BWT verlangt den Wechsel spätestens nach sechs Monaten oder früher, wenn der Druck spürbar nachlässt.",
+   "preis_spanne": "ca. 28 € (BWT-Shop, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug. Absperrung am Hebel entriegeln, Hebel hochziehen, Element tauschen, Hebel schließen.",
+   "amazon_asin": "B00BHEH2QI",
+   "quellen": [
+    "https://www.bwt.com/en/shop/BWT-E1-Filter-Element-2-Pack/810386",
+    "https://www.amazon.de/dp/B00BHEH2QI",
+    "https://assets.heizung-billiger.de/documents/bwt_e1_einhebelfilter.pdf"
+   ]
+  },
+  {
+   "slug": "bwt-e1-hygienebox-820396",
+   "name": "BWT E1 Hygienebox 820396 (Filtertasse mit Element plus Ersatzelement)",
+   "teiltyp": "filtertasse",
+   "oem_nummer": "820396",
+   "ean": null,
+   "masse": {
+    "filterfeinheit_um": 100
+   },
+   "beschreibung": "Jahresset für den E1: neue Filtertasse (Hygienetresor) mit eingesetztem Filterelement, ein zweites Element für den Wechsel nach sechs Monaten und Hygienehandschuhe. Passt laut BWT zu E1 HWS und EHF, Bonaqua B1 und Cillit C1.",
+   "preis_spanne": "ca. 40 € (BWT-Shop, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Kein Werkzeug.",
+   "amazon_asin": "B0BSNV3GWM",
+   "quellen": [
+    "https://www.bwt.com/en/shop/BWT-E1-Hygiene-Box/820396",
+    "https://www.amazon.de/dp/B0BSNV3GWM"
+   ]
+  },
+  {
+   "slug": "bwt-filterelement-abstreifer-1-902393",
+   "name": "BWT Filterelement mit Abstreifer 1-902393 (¾“ bis 1¼“)",
+   "teiltyp": "filtereinsatz",
+   "oem_nummer": "1-902393",
+   "ean": null,
+   "masse": {
+    "nennweite": "DN 20 bis 32 (¾“ bis 1¼“)"
+   },
+   "beschreibung": "Filterelement samt Rückspül-Abstreifer für Rückspülfilter und Hauswasserstationen der Größe ¾“ bis 1¼“. Die Bolero-RF-Anleitung führt es unter dieser Nummer, Händler nennen dazu Avanti, Diago und Bolero HWS. Auch geschrieben als 1.902.393 oder 1902393. Für 1½“ und 2“ passt es nicht.",
+   "preis_spanne": "ca. 26–47 € (Händler, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Auffangschale, etwas Armaturenfett für die Dichtungen. Absperrventile vor und nach dem Filter schließen und Druck ablassen.",
+   "amazon_asin": "B011O24TA4",
+   "quellen": [
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+    "https://www.amazon.de/dp/B011O24TA4",
+    "https://www.testberichte.de/heimwerkerbedarf/bwt-filterelement-mit-abstreifer.html"
+   ]
+  },
+  {
+   "slug": "bwt-filterelement-rf-gr1-084047",
+   "name": "BWT Filterelement RF Gr. I 084047 (¾“ bis 1¼“, 90 µm)",
+   "teiltyp": "filtereinsatz",
+   "oem_nummer": "084047",
+   "ean": null,
+   "masse": {
+    "filterfeinheit_um": 90,
+    "nennweite": "¾“ bis 1¼“"
+   },
+   "beschreibung": "Aktuelles Filterelement aus dem BWT-Shop für Rückspülfilter von ¾“ bis 1¼“. BWT nennt als passende Geräte R1, F1, Bolero, Diago und Cillit Galileo und empfiehlt den Tausch alle drei Jahre.",
+   "preis_spanne": "ca. 62 € (BWT-Shop, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Auffangschale, Armaturenfett. Absperrventile schließen und Druck ablassen.",
+   "amazon_asin": "B0BVBBVH15",
+   "quellen": [
+    "https://www.bwt.com/en/shop/BWT-Filterelement-RF-Gr-I/084047",
+    "https://www.amazon.de/dp/B0BVBBVH15"
+   ]
+  },
+  {
+   "slug": "bwt-dichtungsset-1-902345",
+   "name": "BWT Dichtungsset 1-902345 für Rückspülfilter und HWS (¾“ bis 1¼“)",
+   "teiltyp": "filtertasse",
+   "oem_nummer": "1-902345",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Dichtungssatz für den Filterteil von Bolero und Avanti in ¾“ bis 1¼“. Die Bolero-Anleitung führt ihn als Verschleißteil mit Tausch alle vier Jahre. Die Dichtungen vor dem Einbau leicht fetten.",
+   "preis_spanne": "ca. 10–15 € (Händler, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Auffangschale, Armaturenfett.",
+   "amazon_asin": "B07TWMTSWK",
+   "quellen": [
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+    "https://www.amazon.de/dp/B07TWMTSWK"
+   ]
+  },
+  {
+   "slug": "bwt-klarsichtzylinder-1-902356",
+   "name": "BWT Klarsichtzylinder 1-902356 (Bolero ¾“ bis 1¼“)",
+   "teiltyp": "filtertasse",
+   "oem_nummer": "1-902356",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "Durchsichtige Filterglocke des Bolero in ¾“ bis 1¼“. Laut Anleitung alle 16 Jahre zu tauschen. Kunststoffteile, die einen harten Schlag abbekommen haben, tauscht BWT auch ohne sichtbaren Schaden, weil sie bersten können.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Von Hand abschrauben, kein Werkzeug am Kunststoff ansetzen.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+    "https://assets.heizung-billiger.de/documents/pdb_avanti_rf_lf_de.pdf"
+   ]
+  },
+  {
+   "slug": "bwt-o-ring-bajonett-1-181548",
+   "name": "BWT O-Ring für das Bajonett 1-181548 (Bolero ¾“ bis 1¼“)",
+   "teiltyp": "filtertasse",
+   "oem_nummer": "1-181548",
+   "ean": null,
+   "masse": {},
+   "beschreibung": "O-Ring am Bajonett des Klarsichtzylinders. Die Bolero-Anleitung nennt ihn mit Tausch alle 16 Jahre.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Auffangschale, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38"
+   ]
+  },
+  {
+   "slug": "bwt-filterelement-gr1-10932",
+   "name": "BWT Ersatz-Filterelement Größe 1, 10932 (Avanti WF, Diago WF, ¾“ bis 1¼“)",
+   "teiltyp": "filtereinsatz",
+   "oem_nummer": "10932",
+   "ean": null,
+   "masse": {
+    "nennweite": "¾“ bis 1¼“"
+   },
+   "beschreibung": "Element für die Wechselfilter Diago WF 18 und Avanti WF 90. Die ältere Nummer ist 10929. Passt nicht in Rückspülfilter und Hauswasserstationen mit Drehknopf.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Auffangschale. Absperrventile schließen und Druck ablassen.",
+   "amazon_asin": "B011O2E00I",
+   "quellen": [
+    "https://www.amazon.de/dp/B011O2E00I",
+    "https://www.amazon.de/dp/B00EDKT8QK"
+   ]
+  },
+  {
+   "slug": "bwt-ksf-schutzfilterhuelse-gr1-084038",
+   "name": "BWT KSF-Schutzfilterhülse Gr. I 084038 (50 µm Vlies)",
+   "teiltyp": "filtereinsatz",
+   "oem_nummer": "084038",
+   "ean": null,
+   "masse": {
+    "filterfeinheit_um": 50,
+    "nennweite": "¾“ bis 5/4“ (DN 20 bis 32)"
+   },
+   "beschreibung": "Filterhülsen aus Polyestervlies für KSF-Schutzfilter, Universalfilter II und die älteren Benckiser-Filter S und GS (PN 16), Größe I. BWT verkauft sie im Zehnerpack und empfiehlt den Wechsel alle sechs Monate.",
+   "preis_spanne": "ca. 60 € für 10 Stück (BWT-Shop, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Auffangschale, Absperrventile schließen.",
+   "amazon_asin": "B005AKIZCA",
+   "quellen": [
+    "https://bwt.com/en/shop/BWT-KSF-filter-element-replacement-fleece/084038",
+    "https://www.amazon.de/dp/B005AKIZCA"
+   ]
+  },
+  {
+   "slug": "bwt-dichtungsset-sf-universal-ii-gr1-7084233",
+   "name": "BWT Dichtungsset SF Universal II Gr. 1 (7084233)",
+   "teiltyp": "filtertasse",
+   "oem_nummer": "7084233",
+   "ean": null,
+   "masse": {
+    "nennweite": "Größe 1"
+   },
+   "beschreibung": "Dichtungssatz für Schutzfilter (SF) und Universalfilter II in Größe 1. Händler führen ihn auch unter der Kurznummer 84233.",
+   "preis_spanne": "ca. 18–21 € (Händler, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 30,
+   "werkzeug": "Auffangschale, Armaturenfett.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.ebay.de/p/1142244742"
+   ]
+  },
+  {
+   "slug": "bwt-cillit-filtereinsatz-50977",
+   "name": "Cillit Filtereinsatz 50977 für Klarfilter 77 SN/N (¾“ bis 1¼“)",
+   "teiltyp": "filtereinsatz",
+   "oem_nummer": "50977",
+   "ean": null,
+   "masse": {
+    "filterfeinheit_um": 90,
+    "nennweite": "¾“ bis 1¼“"
+   },
+   "beschreibung": "Filtereinsatz für den Cillit Klarfilter 77 SN und 77 N in ¾“ bis 1¼“, auch als 50977E geführt. Bei Amazon als Einzelstück, bei manchen Händlern nur im Karton zu sechs Stück.",
+   "preis_spanne": null,
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 2,
+   "dauer_min": 20,
+   "werkzeug": "Auffangschale. Absperrventile schließen und Druck ablassen.",
+   "amazon_asin": "B0017VIZIA",
+   "quellen": [
+    "https://www.amazon.de/dp/B0017VIZIA",
+    "https://www.ebay.de/p/1624968343"
+   ]
+  },
+  {
+   "slug": "bwt-reparaturset-cillit-77n-2-060097",
+   "name": "BWT Reparatur-Set 2-060097 für Cillit-Filter 77 N (1½“ bis 2“)",
+   "teiltyp": "filtertasse",
+   "oem_nummer": "2-060097",
+   "ean": null,
+   "masse": {
+    "nennweite": "1½“ bis 2“"
+   },
+   "beschreibung": "Reparatur- und Dichtungssatz für den großen Klarfilter 77 N. Für die kleineren 77 SN von ¾“ bis 1¼“ gibt es einen eigenen Satz.",
+   "preis_spanne": "ca. 88 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": false,
+   "schwierigkeit": 3,
+   "dauer_min": 60,
+   "werkzeug": "Laut Cillit-Anleitung Wartung durch Installateur oder Werkskundendienst.",
+   "amazon_asin": "B011O20H4G",
+   "quellen": [
+    "https://www.amazon.de/dp/B011O20H4G",
+    "https://www.ebay.de/p/1723479382",
+    "https://www.manualslib.de/manual/387156/Cillit-77-Sn-1.html"
+   ]
+  },
+  {
+   "slug": "bwt-perla-tabs-25kg",
+   "name": "BWT Perla Tabs Regeneriersalz, Tabletten, 25 kg",
+   "teiltyp": "salz",
+   "oem_nummer": null,
+   "ean": null,
+   "masse": {
+    "gewicht_kg": 25
+   },
+   "beschreibung": "Salztabletten aus mindestens 99,9 % Natriumchlorid. BWT nennt sie für alle Enthärtungsanlagen geeignet. Für die AQA perla verlangt die Anleitung Tabletten nach DIN EN 973 Typ A. Nachfüllen ist Sache des Betreibers.",
+   "preis_spanne": "ca. 18–24 € (Amazon, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Keins. Sack vor dem Öffnen außen abwischen, damit kein Schmutz in den Salzbehälter fällt.",
+   "amazon_asin": "B01ELIAYT8",
+   "quellen": [
+    "https://www.amazon.de/dp/B01ELIAYT8",
+    "https://www.bwt.com/en/shop/BWT-Perla-Tabs/094245",
+    "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=60"
+   ]
+  },
+  {
+   "slug": "bwt-sanitabs-8kg-094241",
+   "name": "BWT Sanitabs Regeneriersalz 8 kg (094241)",
+   "teiltyp": "salz",
+   "oem_nummer": "094241",
+   "ean": null,
+   "masse": {
+    "gewicht_kg": 8
+   },
+   "beschreibung": "Salztabletten von BWT für AQA-Enthärtungsanlagen. Die AQA-perla-Anleitung nennt Sanitabs als Beispiel für passendes Regeneriersalz. Für die neuere BWT Perla schließt deren Anleitung Sanitabs aus, dort gehören Perla Tabs hinein.",
+   "preis_spanne": "ca. 22 € (BWT-Shop, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 5,
+   "werkzeug": "Keins.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.bwt.com/en/shop/Domestic-Water/Consumables/",
+    "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=60"
+   ]
+  },
+  {
+   "slug": "bwt-ioclean-018188",
+   "name": "BWT Ioclean Reinigungstabletten, 4 Stück (018188)",
+   "teiltyp": "salz",
+   "oem_nummer": "018188",
+   "ean": null,
+   "masse": {
+    "stueck": 4
+   },
+   "beschreibung": "Reinigt Harz und Salzbehälter bei Perla, Perla Home, Perla One, Perla Hybrid und Perla Seta. Eine Tablette alle sechs Monate in den Einsatz legen und im Menü unter Routinewartung die Reinigung starten. Nicht für Anlagen der AQA-perla-Reihe.",
+   "preis_spanne": "ca. 44 € (BWT-Shop, November 2026)",
+   "verschleissteil": true,
+   "selbst_tauschbar": true,
+   "schwierigkeit": 1,
+   "dauer_min": 10,
+   "werkzeug": "Keins.",
+   "amazon_asin": null,
+   "quellen": [
+    "https://www.bwt.com/en/shop/BWT-IOCLEAN/018188"
+   ]
+  }
+ ],
+ "zuordnungen": [
+  {
+   "serie_slug": "e1",
+   "teil_slug": "bwt-e1-filterelement-810386",
+   "hinweis": "Spätestens alle sechs Monate wechseln",
+   "quelle_url": "https://www.bwt.com/en/shop/BWT-E1-Filter-Element-2-Pack/810386",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "e1",
+   "teil_slug": "bwt-e1-hygienebox-820396",
+   "hinweis": "Filtertasse einmal im Jahr komplett tauschen",
+   "quelle_url": "https://www.bwt.com/en/shop/BWT-E1-Hygiene-Box/820396",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "e1-hws",
+   "teil_slug": "bwt-e1-filterelement-810386",
+   "hinweis": "Gleiches Element wie beim E1 EHF",
+   "quelle_url": "https://www.bwt.com/en/shop/BWT-E1-Filter-Element-2-Pack/810386",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "e1-hws",
+   "teil_slug": "bwt-e1-hygienebox-820396",
+   "hinweis": "Laut BWT für E1 HWS und EHF",
+   "quelle_url": "https://www.bwt.com/en/shop/BWT-E1-Hygiene-Box/820396",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "cillit-c1",
+   "teil_slug": "bwt-e1-filterelement-810386",
+   "hinweis": "BWT nennt den Cillit C1 bei den passenden Geräten",
+   "quelle_url": "https://www.bwt.com/en/shop/BWT-E1-Filter-Element-2-Pack/810386",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "cillit-c1",
+   "teil_slug": "bwt-e1-hygienebox-820396",
+   "hinweis": "BWT nennt den Cillit C1 Lever-in filter HWS",
+   "quelle_url": "https://www.bwt.com/en/shop/BWT-E1-Hygiene-Box/820396",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bolero-rf",
+   "teil_slug": "bwt-filterelement-abstreifer-1-902393",
+   "hinweis": "¾“ bis 1¼“; laut Anleitung alle sechs Jahre",
+   "quelle_url": "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bolero-rf",
+   "teil_slug": "bwt-filterelement-rf-gr1-084047",
+   "hinweis": "¾“ bis 1¼“; heutiges Element im BWT-Shop",
+   "quelle_url": "https://www.bwt.com/en/shop/BWT-Filterelement-RF-Gr-I/084047",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bolero-rf",
+   "teil_slug": "bwt-dichtungsset-1-902345",
+   "hinweis": "¾“ bis 1¼“; laut Anleitung alle vier Jahre",
+   "quelle_url": "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bolero-rf",
+   "teil_slug": "bwt-klarsichtzylinder-1-902356",
+   "hinweis": "¾“ bis 1¼“; laut Anleitung alle 16 Jahre",
+   "quelle_url": "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bolero-rf",
+   "teil_slug": "bwt-o-ring-bajonett-1-181548",
+   "hinweis": "¾“ bis 1¼“",
+   "quelle_url": "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "bolero-hws",
+   "teil_slug": "bwt-filterelement-abstreifer-1-902393",
+   "hinweis": "¾“ bis 1¼“; die Anleitung gilt für Bolero RF und HWS, Händler nennen Bolero HWS ausdrücklich",
+   "quelle_url": "https://www.testberichte.de/heimwerkerbedarf/bwt-filterelement-mit-abstreifer.html",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "bolero-hws",
+   "teil_slug": "bwt-filterelement-rf-gr1-084047",
+   "hinweis": "¾“ bis 1¼“; BWT nennt Bolero ohne Unterscheidung RF/HWS",
+   "quelle_url": "https://www.bwt.com/en/shop/BWT-Filterelement-RF-Gr-I/084047",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "bolero-hws",
+   "teil_slug": "bwt-dichtungsset-1-902345",
+   "hinweis": "¾“ bis 1¼“; Nummer aus dem Wartungsabschnitt der gemeinsamen Anleitung",
+   "quelle_url": "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "bolero-hws",
+   "teil_slug": "bwt-klarsichtzylinder-1-902356",
+   "hinweis": "¾“ bis 1¼“; Nummer aus dem Wartungsabschnitt der gemeinsamen Anleitung",
+   "quelle_url": "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "avanti-rf",
+   "teil_slug": "bwt-filterelement-abstreifer-1-902393",
+   "hinweis": "¾“ bis 1¼“, ältere Avanti RF; für die neue Avanti RF LF vorher prüfen",
+   "quelle_url": "https://www.testberichte.de/heimwerkerbedarf/bwt-filterelement-mit-abstreifer.html",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "avanti-rf",
+   "teil_slug": "bwt-dichtungsset-1-902345",
+   "hinweis": "¾“ bis 1¼“; Angebot nennt die Avanti-Reihe",
+   "quelle_url": "https://www.amazon.de/dp/B07TWMTSWK",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "avanti-hws",
+   "teil_slug": "bwt-filterelement-abstreifer-1-902393",
+   "hinweis": "¾“ bis 1¼“; Händler nennen die blaue Avanti HWS ab Baujahr 2003",
+   "quelle_url": "https://www.testberichte.de/heimwerkerbedarf/bwt-filterelement-mit-abstreifer.html",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "avanti-hws",
+   "teil_slug": "bwt-dichtungsset-1-902345",
+   "hinweis": "¾“ bis 1¼“; Angebot nennt die Avanti-Reihe",
+   "quelle_url": "https://www.amazon.de/dp/B07TWMTSWK",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "diago",
+   "teil_slug": "bwt-filterelement-rf-gr1-084047",
+   "hinweis": "BWT nennt Diago bei den passenden Geräten",
+   "quelle_url": "https://www.bwt.com/en/shop/BWT-Filterelement-RF-Gr-I/084047",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "diago",
+   "teil_slug": "bwt-filterelement-abstreifer-1-902393",
+   "hinweis": "Amazon-Titel und Händler nennen Diago",
+   "quelle_url": "https://www.amazon.de/dp/B011O24TA4",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "galileo",
+   "teil_slug": "bwt-filterelement-rf-gr1-084047",
+   "hinweis": "BWT nennt Cillit Galileo bei den passenden Geräten",
+   "quelle_url": "https://www.bwt.com/en/shop/BWT-Filterelement-RF-Gr-I/084047",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "galileo",
+   "teil_slug": "bwt-filterelement-abstreifer-1-902393",
+   "hinweis": "Nur in einem Händlerangebot genannt",
+   "quelle_url": "https://www.testberichte.de/heimwerkerbedarf/bwt-filterelement-mit-abstreifer.html",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "avanti-wf",
+   "teil_slug": "bwt-filterelement-gr1-10932",
+   "hinweis": "Diago WF 18 und Avanti WF 90, ¾“ bis 1¼“",
+   "quelle_url": "https://www.amazon.de/dp/B011O2E00I",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "ksf-universalfilter",
+   "teil_slug": "bwt-ksf-schutzfilterhuelse-gr1-084038",
+   "hinweis": "Größe I, ¾“ bis 5/4“; alle sechs Monate",
+   "quelle_url": "https://bwt.com/en/shop/BWT-KSF-filter-element-replacement-fleece/084038",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "ksf-universalfilter",
+   "teil_slug": "bwt-dichtungsset-sf-universal-ii-gr1-7084233",
+   "hinweis": "Größe 1",
+   "quelle_url": "https://www.ebay.de/p/1142244742",
+   "sicherheit": "eine_quelle"
+  },
+  {
+   "serie_slug": "cillit-klarfilter-77",
+   "teil_slug": "bwt-cillit-filtereinsatz-50977",
+   "hinweis": "77 SN und 77 N von ¾“ bis 1¼“",
+   "quelle_url": "https://www.amazon.de/dp/B0017VIZIA",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "cillit-klarfilter-77",
+   "teil_slug": "bwt-reparaturset-cillit-77n-2-060097",
+   "hinweis": "Nur 77 N in 1½“ und 2“",
+   "quelle_url": "https://www.amazon.de/dp/B011O20H4G",
+   "sicherheit": "zwei_quellen"
+  },
+  {
+   "serie_slug": "aqa-perla",
+   "teil_slug": "bwt-perla-tabs-25kg",
+   "hinweis": "Tabletten nach DIN EN 973 Typ A",
+   "quelle_url": "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=60",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "aqa-perla",
+   "teil_slug": "bwt-sanitabs-8kg-094241",
+   "hinweis": "Die Anleitung nennt Sanitabs als Beispiel",
+   "quelle_url": "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=60",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "perla",
+   "teil_slug": "bwt-perla-tabs-25kg",
+   "hinweis": "BWT: für alle Enthärtungsanlagen",
+   "quelle_url": "https://www.bwt.com/en/shop/BWT-Perla-Tabs/094245",
+   "sicherheit": "hersteller"
+  },
+  {
+   "serie_slug": "perla",
+   "teil_slug": "bwt-ioclean-018188",
+   "hinweis": "Alle sechs Monate, Reinigung über das Menü starten",
+   "quelle_url": "https://www.bwt.com/en/shop/BWT-IOCLEAN/018188",
+   "sicherheit": "hersteller"
+  }
+ ],
+ "probleme": [
+  {
+   "slug": "bwt-rueckspuelfilter-tropft",
+   "titel": "BWT-Rückspülfilter tropft",
+   "symptom": "Aus dem Spülwasserablauf unten am Filter tropft oder läuft dauernd Wasser, oder am Klarsichtzylinder bildet sich eine feuchte Stelle.",
+   "ursachen": [
+    {
+     "ursache": "Grobe Schmutzteilchen halten das Rückspülelement auf, der Spülwasserauslass schließt nach dem Rückspülen nicht ganz",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Dichtungen am Filterteil verschlissen; BWT sieht beim Bolero einen Tausch alle vier Jahre vor",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "bwt-dichtungsset-1-902345",
+      "bwt-dichtungsset-sf-universal-ii-gr1-7084233"
+     ]
+    },
+    {
+     "ursache": "O-Ring am Bajonett des Klarsichtzylinders undicht oder Zylinder beschädigt",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "bwt-o-ring-bajonett-1-181548",
+      "bwt-klarsichtzylinder-1-902356"
+     ]
+    },
+    {
+     "ursache": "Rückspülelement verschlissen (Infinity M: Reparatursatz alle sechs Jahre)",
+     "haeufigkeit": "selten",
+     "teil_slugs": [
+      "bwt-filterelement-abstreifer-1-902393",
+      "bwt-filterelement-rf-gr1-084047"
+     ]
+    }
+   ],
+   "schritte": [
+    "Ein Gefäß unter den Spülwasserablauf stellen, falls er nicht am Abfluss hängt.",
+    "Den Drehknopf für die Rückspülung ganz öffnen und wieder ganz schließen. Die Rückspülung mehrmals wiederholen, damit Schmutz vom Sitz gespült wird.",
+    "Tropft es danach weiter, Absperrventile vor und nach dem Filter schließen und den Druck über den Drehknopf ablassen.",
+    "Den Klarsichtzylinder von Hand abschrauben, Filterelement nach unten herausziehen, Dichtungen ansehen und bei Rissen oder platten Stellen den Dichtungssatz tauschen. Die neuen Dichtungen leicht fetten.",
+    "Filterelement mit Wasser abspülen und das Gewebe auf Löcher prüfen, Zylinder von Hand wieder aufschrauben.",
+    "Absperrventile langsam öffnen, an der nächsten Zapfstelle entlüften, alle Verbindungen auf Dichtheit ansehen und einmal rückspülen."
+   ],
+   "fachbetrieb_ab": "Wenn es am Gehäuse, an der Verschraubung oder am Anschlussflansch tropft, wenn ein Kunststoffteil einen Schlag abbekommen hat oder wenn die Absperrventile nicht mehr dicht schließen. Arbeiten am Anschluss gehören nach § 12 AVBWasserV zum eingetragenen Installateur. BWT ordnet die Wartung dem Kundendienst oder einem BWT-Installateur zu.",
+   "quellen": [
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=35",
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+    "https://www.manualslib.de/manual/909109/Bwt-Infinity-M.html?page=23",
+    "https://assets.heizung-billiger.de/documents/pdb_avanti_rf_lf_de.pdf",
+    "https://www.gesetze-im-internet.de/avbwasserv/__12.html",
+    "https://www.amazon.de/dp/B07TWMTSWK"
+   ]
+  },
+  {
+   "slug": "bwt-hauswasserfilter-wasserdruck-zu-niedrig",
+   "titel": "Wenig Wasserdruck hinter dem BWT-Hauswasserfilter",
+   "symptom": "Aus den Hähnen kommt deutlich weniger Wasser als früher, und der Druck bricht beim Zapfen stark ein.",
+   "ursachen": [
+    {
+     "ursache": "Filterelement verschmutzt; beim Bolero gilt ein Druckabfall um mehr als 35 % beim Zapfen als Zeichen dafür",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "bwt-filterelement-abstreifer-1-902393",
+      "bwt-filterelement-rf-gr1-084047"
+     ]
+    },
+    {
+     "ursache": "Beim E1 und anderen Wechselfiltern ist das Element zugesetzt und muss getauscht werden",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "bwt-e1-filterelement-810386",
+      "bwt-e1-hygienebox-820396",
+      "bwt-filterelement-gr1-10932",
+      "bwt-ksf-schutzfilterhuelse-gr1-084038",
+      "bwt-cillit-filtereinsatz-50977"
+     ]
+    },
+    {
+     "ursache": "Druckminderer der Hauswasserstation zu niedrig eingestellt",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Lange nicht rückgespült, Schmutz hat sich im Gewebe festgesetzt",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": [
+      "bwt-filterelement-abstreifer-1-902393",
+      "bwt-filterelement-rf-gr1-084047"
+     ]
+    }
+   ],
+   "schritte": [
+    "Am Rückspülfilter (Bolero, Avanti, Diago, Infinity) eine Rückspülung machen und bei starker Verschmutzung wiederholen.",
+    "Beim E1 das Element tauschen: Absperrung am Hebel entriegeln, Hebel auf etwa 130 Grad hochziehen, Element oder Hygienetresor herausnehmen, neues einsetzen, Hebel schließen und die Entriegelung langsam freigeben.",
+    "Bei einer Hauswasserstation am Manometer ablesen, welcher Druck eingestellt ist. Ab Werk sind es meist 4 bar.",
+    "Hilft das Rückspülen nicht mehr, das Filterelement herausnehmen und prüfen; ein Gewebe mit festsitzendem Belag oder Löchern wird getauscht."
+   ],
+   "fachbetrieb_ab": "Wenn der Druck auch mit sauberem oder neuem Element niedrig bleibt, wenn der Druckminderer sich nicht verstellen lässt oder wenn schon vor dem Filter wenig Druck ankommt. Dann liegt es am Druckminderer oder an der Hausleitung, und das ist Sache des Installateurs.",
+   "quellen": [
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=35",
+    "https://www.manualslib.de/manual/909109/Bwt-Infinity-M.html?page=22",
+    "https://assets.heizung-billiger.de/documents/bwt_e1_einhebelfilter.pdf",
+    "https://www.manualslib.com/manual/2409668/Bwt-E1-Hws.html",
+    "https://www.pdod.de/de/articles/bwt/10172"
+   ]
+  },
+  {
+   "slug": "bwt-druckminderer-druck-steigt",
+   "titel": "BWT-Hauswasserstation: Druckminderer hält den Druck nicht",
+   "symptom": "Das Manometer hinter der Hauswasserstation zeigt mehr als den eingestellten Druck, vor allem nachts oder wenn lange kein Wasser gezapft wurde.",
+   "ursachen": [
+    {
+     "ursache": "Dichtelemente des Druckminderers haben sich gesetzt oder sind verschlissen",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Ventileinsatz des Druckminderers verschlissen; BWT sieht beim E1 HWS einen Tausch alle sechs Jahre vor",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Manometer zeigt falsch; BWT tauscht es beim E1 HWS ebenfalls alle sechs Jahre",
+     "haeufigkeit": "selten",
+     "teil_slugs": []
+    }
+   ],
+   "schritte": [
+    "Den Druck bei geschlossenen Hähnen und beim Zapfen ablesen. BWT verlangt diese Kontrolle alle zwei Monate.",
+    "Den Hinterdruck neu einstellen: Feststellschraube lösen, am Drehknopf den Sollwert einstellen, Feststellschraube wieder anziehen.",
+    "Ein bis zwei Tage beobachten, ob der Druck wieder steigt."
+   ],
+   "fachbetrieb_ab": "Wenn der Druck nach dem Nachstellen weiter steigt. Dann muss der Ventileinsatz des Druckminderers getauscht werden, und das gehört laut BWT zum Kundendienst oder zum Installateur.",
+   "quellen": [
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=35",
+    "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=40",
+    "https://www.manualslib.com/manual/2409668/Bwt-E1-Hws.html",
+    "https://assets.heizung-billiger.de/documents/bwt_e1_einhebelfilter.pdf"
+   ]
+  },
+  {
+   "slug": "bwt-enthaertungsanlage-fehlermeldung",
+   "titel": "BWT-Enthärtungsanlage zeigt eine Meldung oder enthärtet nicht",
+   "symptom": "Die AQA perla zeigt ein rotes Dreieck, „Low salt“ oder „Service“, oder das Wasser ist wieder hart, obwohl die Anlage läuft.",
+   "ursachen": [
+    {
+     "ursache": "Salzmangel: Salz nachfüllen und die Meldung mit der Taste quittieren",
+     "haeufigkeit": "häufig",
+     "teil_slugs": [
+      "bwt-perla-tabs-25kg",
+      "bwt-sanitabs-8kg-094241"
+     ]
+    },
+    {
+     "ursache": "Leeranzeige trotz genug Salz: Über dem Kontaktschalter am Siebboden hat sich ein Hohlraum gebildet (Salzbrücke)",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "„Service“: Nach 500 Regenerationen oder zwölf Monaten ist die Wartung durch den Kundendienst fällig",
+     "haeufigkeit": "häufig",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Strom war weg oder die Verschneidespindel ist verstellt, die Anlage liefert kein weiches Wasser",
+     "haeufigkeit": "gelegentlich",
+     "teil_slugs": []
+    },
+    {
+     "ursache": "Bauteil im Steuerkopf defekt, etwa das Flügelrad; die Anlage regeneriert nicht mehr",
+     "haeufigkeit": "selten",
+     "teil_slugs": []
+    }
+   ],
+   "schritte": [
+    "Auf das rote Dreieck tippen, um die Meldung zu lesen.",
+    "Bei „Low salt“ Salztabletten nach DIN EN 973 Typ A einfüllen und die Taste drücken, bis die Meldung verschwindet. Bei leerem Behälter danach eine Regeneration von Hand starten.",
+    "Meldet die Anlage Salzmangel, obwohl Salz drin ist, das Salz im Behälter von Hand gut durchmischen.",
+    "Prüfen, ob die Anlage Strom hat. Ein kurzes Trennen vom Strom kann eine hängende Steuerung lösen.",
+    "Mit Teststreifen die Härte hinter der Anlage messen."
+   ],
+   "fachbetrieb_ab": "Bei der Meldung „Service“, wenn die Anlage trotz Salz und Strom nicht regeneriert oder kein weiches Wasser liefert, bei Undichtigkeiten und bei allen Arbeiten im Gerät. Öffnen und Teile tauschen macht der BWT-Kundendienst oder ein von BWT zugelassener Installateur. Für den Anruf die Serien- und Produktionsnummer vom Typenschild hinten am Gerät bereithalten.",
+   "quellen": [
+    "https://www.manualslib.com/manual/1190639/Bwt-Aqa-Perla.html?page=20",
+    "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=60",
+    "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=72",
+    "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=75",
+    "https://www.bauexpertenforum.de/threads/bwt-aqa-perla-4-0-regeneriert-nicht-mehr.121980/"
+   ]
+  }
+ ],
+ "widersprueche": [
+  {
+   "thema": "Welches Filterelement gehört in Bolero und Diago von ¾“ bis 1¼“?",
+   "aussage_a": "Die Bolero-RF-Anleitung führt das Filterelement 1-902393 mit Tausch alle sechs Jahre; Händler und Amazon verkaufen es auch für Diago, Avanti und Bolero HWS.",
+   "quelle_a": "https://www.manualslib.de/manual/1050747/Bwt-Bolero-Rf-Serie.html?page=38",
+   "aussage_b": "Der BWT-Shop führt heute das Filterelement RF Gr. I (084047, 90 µm) für R1, F1, Bolero, Diago und Cillit Galileo und empfiehlt den Tausch alle drei Jahre.",
+   "quelle_b": "https://www.bwt.com/en/shop/BWT-Filterelement-RF-Gr-I/084047"
+  },
+  {
+   "thema": "Wie oft muss ein BWT-Rückspülfilter rückgespült werden?",
+   "aussage_a": "Die Anleitungen zu Bolero und Infinity M verlangen die Rückspülung spätestens alle zwei Monate, BWT empfiehlt beim Infinity M sogar monatlich.",
+   "quelle_a": "https://www.manualslib.de/manual/909109/Bwt-Infinity-M.html?page=22",
+   "aussage_b": "Das Datenblatt der Avanti RF LF schreibt eine Rückspülung alle sechs Monate vor, bei starker Verschmutzung öfter.",
+   "quelle_b": "https://assets.heizung-billiger.de/documents/pdb_avanti_rf_lf_de.pdf"
+  },
+  {
+   "thema": "Welche Filterfeinheit hat das E1-Filterelement?",
+   "aussage_a": "BWT-Shop und Datenblatt: 100 µm.",
+   "quelle_a": "https://www.bwt.com/en/shop/BWT-E1-Filter-Element-2-Pack/810386",
+   "aussage_b": "Im BWT-Prospekt zum E1 steht für alle Filter 90/110 µm.",
+   "quelle_b": "https://www.bwt.com/de-de/-/media/bwt/de/documents/infomaterial/e1-einhebelfilter_de.pdf?rev=a1efb15962ea4af195111262de76e7fc"
+  },
+  {
+   "thema": "Passt das Filterelement 1-902393 in den Cillit Galileo?",
+   "aussage_a": "Ein Händlerangebot nennt Galileo und Amadeus RF und HWS als passende Geräte für 1-902393.",
+   "quelle_a": "https://www.testberichte.de/heimwerkerbedarf/bwt-filterelement-mit-abstreifer.html",
+   "aussage_b": "BWT nennt für den Cillit Galileo das Filterelement RF Gr. I (084047) und nicht 1-902393.",
+   "quelle_b": "https://www.bwt.com/en/shop/BWT-Filterelement-RF-Gr-I/084047"
+  }
+ ],
+ "nicht_geprueft": [
+  "Für die Druckminderer-Einsätze von E1 HWS, Bolero HWS, Avanti HWS und Diago HWS steht in den geöffneten Anleitungen keine Bestellnummer; die Bolero-Anleitung verweist auf den BWT-Ersatzteilkatalog. Deshalb fehlt die Teileart druckminderer-einsatz.",
+  "Infinity M und A, Multipur, Protector und R1: Anleitungen mit Verschleißteilen und Intervallen, aber ohne Bestellnummern. Keine eigene Serie angelegt. Das Element 084047 nennt BWT auch für R1 und F1.",
+  "Rondomat Duo, AQA life und Perla Seta: keine Ersatzteilnummern außer Salz. Perla Seta steckt in der Serie perla, weil BWT sie bei Ioclean nennt.",
+  "Ob 084047 der Nachfolger von 1-902393 ist, sagt keine geöffnete BWT-Seite ausdrücklich. Die Bolero-Anleitung nennt 1-902393, der Shop 084047; Maschenweite (90 µm Shop, 100 µm Händler für 1-902393) und Tauschintervall weichen ab.",
+  "Für 1½“ und 2“ (Bolero, Avanti) nennt ein eBay-Angebot das Element 2-060562, nicht im Original geprüft. Die Analyse nennt 10994 (Gr. 1); diese Nummer tauchte in keinem geöffneten Angebot auf. Für KSF-Hülsen nennen Händler auch die ältere Nummer 10999.",
+  "Dichtungsset 1-902345 für Galileo nennt nur ein Händler in einer Suchvorschau, nicht im Original geprüft. Dichtungsset 7084233 hat keine geprüfte ASIN; die Kurznummer 84233 und die Altnummer 6090818 stammen aus eBay-Angeboten.",
+  "Reparatur-Set für den Cillit 77 SN (¾“ bis 1¼“) steht bei Amazon, ASIN und Nummer wurden nicht geöffnet. Der Ersatzeinsatz 8-012068 bei Amazon ist nicht als Cillit-Original erkennbar.",
+  "Ab wann der Hygienetresor beim E1 HydroMODUL nur einmal im Jahr getauscht werden muss (Anleitung HydroMODUL: zwölf Monate) und ob das für den E1 EHF ohne HydroMODUL gilt, ist offen. Der BWT-Shop sagt: Element alle sechs Monate, Hygienetresor einmal im Jahr.",
+  "Wo genau das Typenschild an Bolero und Avanti sitzt, steht in den geöffneten Anleitungsseiten nicht; nummer_hinweis sagt deshalb nur „am Gehäuse“.",
+  "Wie lange BWT Ersatzteile liefert, nennt BWT nicht.",
+  "ASINs der neuen Teile (Hygienebox, 084047, 1-902345, 10932, 50977, 2-060097, Perla Tabs) nur über den Seitentitel mit Originalmarke geprüft, nicht über das Markenfeld der Produktseite."
+ ]
+}

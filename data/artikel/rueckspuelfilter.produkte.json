@@ -1,0 +1,402 @@
+[
+ {
+  "sortierung": 1,
+  "name": "JUDO PROFI-QC Rückspül-Schutzfilter 1\", 100 µm (JPF-QC, 8010219)",
+  "hersteller": "JUDO",
+  "hersteller_nr": "8010219",
+  "ean": "4038097052066",
+  "einsatzbereich": "Hausanschluss DN 25 hinter dem Wasserzähler, wenn der Druck schon passt oder ein eigener Druckminderer folgt; auch als Ersatz für einen älteren JUDO-Filter auf dem Einbaudrehflansch.",
+  "kurzbeschreibung": "Rückspülfilter mit 100-µm-Edelstahlsieb und transparenter Filterglocke. Beim Drehen am Handrad saugen Saugrohre das Sieb ab, das Rückspülwasser läuft unten ab. Ein Stellring markiert den nächsten Rückspültermin, Manometer und Thermometer sitzen am Gerät. Der Einbaudrehflansch mit Bajonett ist im Lieferumfang. Auch in 3/4\" (8010218) und 1 1/4\" (8010220).",
+  "vorteile": [
+   "Drehflansch für waagerechte und senkrechte Leitungen; das Gerät wird nur auf den Flansch gesetzt",
+   "Während der Rückspülung kommt weiter gefiltertes Wasser",
+   "Verschleißteilset Siebeinsatz 0,1 mm mit Saugrohr (2020819) und Dichtungssatz (2010335) als Ersatzteile"
+  ],
+  "nachteile": [
+   "Kein Druckminderer. JUDO bietet dafür die Sicherheitseinrichtung JSB (8735260) als Zubehör an",
+   "Das Gerät selbst muss senkrecht stehen (±5°), mit dem Abwasseranschluss nach unten",
+   "JUDO rechnet ab 10 bar Betriebsdruck mit mehr Verschleiß; Siebeinsatz laut Ersatzteilliste nach etwa 3 Jahren tauschen"
+  ],
+  "technische_daten": {
+   "kategorie": "rueckspuelfilter",
+   "bauart": "Rückspülfilter",
+   "anschluss": "R 1\" über JUDO-Einbaudrehflansch JQE mit Verschraubung (DN 25)",
+   "anschluss_zoll": "1\"",
+   "groessen_zoll": ["3/4\"", "1\"", "1 1/4\""],
+   "anschlusssystem": "JUDO-Einbaudrehflansch mit Bajonett (im Lieferumfang)",
+   "filter": "100 µm",
+   "rueckspuelung": "manuell",
+   "druckminderer": "nein",
+   "rueckflussverhinderer": "nein",
+   "manometer": "ja, dazu Thermometer",
+   "betriebsdruck": "1,5–16 bar",
+   "temperatur_max_c": 30,
+   "durchfluss": "4,7 m³/h bei 0,2 bar Druckverlust",
+   "einbaulage": "Drehflansch waagerecht oder senkrecht, Gerät senkrecht",
+   "einbaulaenge": "195 mm",
+   "filtertasse": "Kunststoff, transparent",
+   "ersatzeinsatz": "Siebeinsatz 0,1 mm mit Saugrohr, Set 2020819",
+   "norm": "DIN EN 13443-1, DIN 19628"
+  }
+ },
+ {
+  "sortierung": 2,
+  "name": "JUDO GUBI-E Hauswasserstation 1\" mit Druckminderer (JGB-E, 8171002)",
+  "hersteller": "JUDO",
+  "hersteller_nr": "8171002",
+  "ean": "4038097018550",
+  "amazon_asin": "B07CRX2JN7",
+  "einsatzbereich": "Hausanschluss DN 25 im Ein- oder Zweifamilienhaus, wenn Filter und Druckminderer in einem Gerät sitzen sollen, ohne Strom.",
+  "kurzbeschreibung": "Rückspül-Schutzfilter mit 0,1-mm-Edelstahlsieb und nachgeschaltetem Druckminderer, Nachdruck 1,5 bis 6 bar, ab Werk 4 bar, mit Nachdruckmanometer. Rückgespült wird von Hand am Handrad. Der Einbaudrehflansch mit Bajonettanschluss ist dabei. Auch in 3/4\" (8171001) und 1 1/4\" (8171003).",
+  "vorteile": [
+   "Filter und Druckminderer in einem Gerät, Einbaulänge 195 mm",
+   "Drehflansch für waagerechte und senkrechte Leitungen",
+   "Verschleißteile als Sets: Siebeinsatz mit Saugrohr (2170606), Druckminderer-Kartusche (2150026), Dichtungssatz (2070334)"
+  ],
+  "nachteile": [
+   "Kein Rückflussverhinderer im Gerät",
+   "Keine Rückspülautomatik; JUDO nennt keine Nachrüstung",
+   "Verschleißteile laut JUDO alle 4 Jahre tauschen; Filterglocke aus Kunststoff, höchstens 30 °C Wasser und Umgebung"
+  ],
+  "technische_daten": {
+   "kategorie": "rueckspuelfilter",
+   "bauart": "Rückspülfilter mit Druckminderer",
+   "anschluss": "R 1\" über JUDO-Einbaudrehflansch JQE mit Verschraubung (DN 25)",
+   "anschluss_zoll": "1\"",
+   "groessen_zoll": ["3/4\"", "1\"", "1 1/4\""],
+   "anschlusssystem": "JUDO-Einbaudrehflansch mit Bajonett (im Lieferumfang)",
+   "filter": "100 µm",
+   "rueckspuelung": "manuell",
+   "druckminderer": "ja",
+   "ausgangsdruck": "1,5–6 bar, ab Werk 4 bar",
+   "rueckflussverhinderer": "nein",
+   "manometer": "Ausgang",
+   "betriebsdruck": "1,5–16 bar",
+   "temperatur_max_c": 30,
+   "durchfluss": "3,6 m³/h Nenndurchfluss",
+   "einbaulage": "Drehflansch waagerecht oder senkrecht",
+   "einbaulaenge": "195 mm",
+   "filtertasse": "Kunststoff, transparent",
+   "ersatzeinsatz": "Siebeinsatz 0,1 mm mit Saugrohr und Dichtung, Set 2170606",
+   "norm": "DIN EN 13443-1, DIN EN 1567"
+  }
+ },
+ {
+  "sortierung": 3,
+  "name": "SYR Drufi+ FR Rückspülfilter ohne Druckminderer (2315.00.081)",
+  "hersteller": "SYR",
+  "hersteller_nr": "2315.00.081",
+  "amazon_asin": "B00DY3LFBI",
+  "einsatzbereich": "Ersatz für einen älteren SYR-Drufi auf vorhandenem Anschlussflansch, oder Neueinbau DN 20 bis DN 32 mit passendem SYR-Flansch, wenn kein Druckminderer nötig ist.",
+  "kurzbeschreibung": "Halbautomatischer Rückspülfilter: Gleichmäßiges Öffnen und Schließen des Kugelhahns spült die ganze Filterfläche, das Wasser läuft über einen Trichter in ein Abflussrohr DN 50. Der Filterkopf passt auf die SYR-Flansche DN 20, 25 und 32, der Flansch wird extra bestellt. Die Druckminderer-Patrone lässt sich jederzeit nachrüsten, dann ist es ein Drufi+ DFR.",
+  "vorteile": [
+   "Ein Kopf für 3/4, 1 und 1 1/4 Zoll; die Größe legt der Flansch fest",
+   "Druckminderer-Patrone und Rückspülautomatik RSA (2316.00.081) nachrüstbar",
+   "Filtereinsatz (2315.00.930), Filtertasse und O-Ring einzeln als Ersatzteil"
+  ],
+  "nachteile": [
+   "Ohne Anschlussflansch: Ist noch keiner in der Leitung, z. B. den Universalflansch DN 25 (2315.25.005) dazubestellen",
+   "Nicht verwechseln: Der alte Drufi ohne Plus braucht den Filtereinsatz 2315.00.908",
+   "Filtertasse aus Kunststoff, höchstens 30 °C; Hauptachse möglichst senkrecht"
+  ],
+  "technische_daten": {
+   "kategorie": "rueckspuelfilter",
+   "bauart": "Rückspülfilter",
+   "anschluss": "Filterkopf für SYR-Flansch DN 20 bis DN 32, Flansch nicht im Lieferumfang",
+   "groessen_zoll": ["3/4\"", "1\"", "1 1/4\""],
+   "anschlusssystem": "SYR-Drufi-Flansch (Universal-, Press- oder HWS-Flansch, separat)",
+   "filter": "90 µm unten, 125 µm oben",
+   "rueckspuelung": "manuell",
+   "rueckspuelautomatik": "nachrüstbar (RSA 2316.00.081)",
+   "druckminderer": "nachrüstbar",
+   "rueckflussverhinderer": "nein (im HWS-Flansch 2000 enthalten)",
+   "manometer": "nein",
+   "betriebsdruck": "2–16 bar",
+   "temperatur_max_c": 30,
+   "durchfluss": "3,8 m³/h bei 0,2 bar Druckverlust (DN 25)",
+   "einbaulage": "vorzugsweise Hauptachse senkrecht, Flansch in waagerechte oder senkrechte Leitung",
+   "filtertasse": "Kunststoff",
+   "ersatzeinsatz": "Filtereinsatz komplett 2315.00.930",
+   "norm": "DIN EN 13443-1"
+  }
+ },
+ {
+  "sortierung": 4,
+  "name": "SYR Drufi+ DFR Rückspülfilter mit Druckminderer (2315.00.080)",
+  "hersteller": "SYR",
+  "hersteller_nr": "2315.00.080",
+  "ean": "4017905173278",
+  "einsatzbereich": "Hausanschluss DN 20 bis DN 32 mit SYR-Flansch, wenn Filter und Druckminderer zusammen kommen sollen; passt auch auf den Flansch eines älteren Drufi.",
+  "kurzbeschreibung": "Der Drufi+ FR mit eingebautem Druckminderer nach DIN EN 1567, einstellbar von 1,5 bis 6 bar, ab Werk 4 bar, dazu ein Ausgangsdruck-Manometer. Rückgespült wird halbautomatisch über den Kugelhahn, auch dabei kommt gefiltertes Wasser. Der Anschlussflansch wird extra bestellt.",
+  "vorteile": [
+   "Einbaureihenfolge Filter vor Druckminderer ist im Gerät schon richtig",
+   "Mit Rückspülautomatik RSA (2316.00.081) zum vollautomatischen Filter umrüstbar",
+   "Druckminderer-Patrone (ab 2016: 2315.01.970) und Filtereinsatz (2315.00.930) einzeln erhältlich"
+  ],
+  "nachteile": [
+   "Ohne Anschlussflansch; mit dem HWS-Flansch 2000 kommt ein Rückflussverhinderer dazu",
+   "Patrone und Filtertasse gibt es in zwei Ausführungen, bis 2015 und ab 2016: Baujahr vor dem Bestellen prüfen",
+   "Filtertasse aus Kunststoff, höchstens 30 °C; Mindestdruck 2 bar"
+  ],
+  "technische_daten": {
+   "kategorie": "rueckspuelfilter",
+   "bauart": "Rückspülfilter mit Druckminderer",
+   "anschluss": "Filterkopf für SYR-Flansch DN 20 bis DN 32, Flansch nicht im Lieferumfang",
+   "groessen_zoll": ["3/4\"", "1\"", "1 1/4\""],
+   "anschlusssystem": "SYR-Drufi-Flansch (Universal-, Press- oder HWS-Flansch, separat)",
+   "filter": "90 µm unten, 125 µm oben",
+   "rueckspuelung": "manuell",
+   "rueckspuelautomatik": "nachrüstbar (RSA 2316.00.081)",
+   "druckminderer": "ja",
+   "ausgangsdruck": "1,5–6 bar, ab Werk 4 bar",
+   "rueckflussverhinderer": "nein (im HWS-Flansch 2000 enthalten)",
+   "manometer": "Ausgang",
+   "betriebsdruck": "2–16 bar",
+   "temperatur_max_c": 30,
+   "durchfluss": "3,6 m³/h bei 1,1 bar Druckverlust (DN 25)",
+   "einbaulage": "vorzugsweise Hauptachse senkrecht, Flansch in waagerechte oder senkrechte Leitung",
+   "filtertasse": "Kunststoff",
+   "ersatzeinsatz": "Filtereinsatz komplett 2315.00.930",
+   "norm": "DIN EN 13443-1, DIN EN 1567, DVGW"
+  }
+ },
+ {
+  "sortierung": 5,
+  "name": "Grünbeck Rückspülfilter BOXER RX 1\" (101 515)",
+  "hersteller": "Grünbeck",
+  "hersteller_nr": "101515",
+  "ean": "4031246730549",
+  "einsatzbereich": "Hausanschluss DN 25 hinter dem Wasserzähler, wenn ein eigener Druckminderer vorhanden ist oder der Netzdruck niedrig genug ist.",
+  "kurzbeschreibung": "Handbedienter Rückspülfilter mit 100-µm-Edelstahlgewebe und transparent-blauer Filterglocke. Eine Drehung am Handrad bis zum Anschlag löst die Rückspülung aus, sie braucht bei 4 bar etwa 4 Liter. Anschlussflansch und Wasserzählerverschraubungen sind dabei. Auch in 3/4\" (101 510) und 1 1/4\" (101 520).",
+  "vorteile": [
+   "Anschlussflansch mit Wasserzählerverschraubungen im Lieferumfang",
+   "Wartungsring zum Einstellen des nächsten Rückspültermins",
+   "Filterglocke von Hand schraubbar"
+  ],
+  "nachteile": [
+   "Kein Druckminderer; dafür gibt es den baugleichen BOXER RDX",
+   "Kanalanschluss DN 50 mit Siphon nach DIN EN 1717 ist Zubehör (188 875)",
+   "Das Datenblatt nennt keine Nummer für das Ersatz-Filterelement; beim Fachhändler mit der Bestell-Nr. 101 515 nachfragen"
+  ],
+  "technische_daten": {
+   "kategorie": "rueckspuelfilter",
+   "bauart": "Rückspülfilter",
+   "anschluss": "R 1\" über Anschlussflansch mit Wasserzählerverschraubungen (DN 25)",
+   "anschluss_zoll": "1\"",
+   "groessen_zoll": ["3/4\"", "1\"", "1 1/4\""],
+   "anschlusssystem": "Grünbeck-Anschlussflansch (im Lieferumfang)",
+   "filter": "100 µm",
+   "rueckspuelung": "manuell",
+   "druckminderer": "nein",
+   "rueckflussverhinderer": "nein",
+   "manometer": "nein",
+   "betriebsdruck": "2–16 bar",
+   "temperatur_max_c": 30,
+   "durchfluss": "3,8 m³/h bei 0,2 bar Druckverlust",
+   "einbaulaenge": "182 mm mit, 100 mm ohne Verschraubung",
+   "filtertasse": "Kunststoff, transparent-blau",
+   "norm": "DIN EN 13443-1, DIN 19628, DVGW"
+  }
+ },
+ {
+  "sortierung": 6,
+  "name": "Grünbeck Rückspülfilter BOXER RDX 1\" mit Druckminderer (101 530)",
+  "hersteller": "Grünbeck",
+  "hersteller_nr": "101530",
+  "ean": "4031246730556",
+  "einsatzbereich": "Hausanschluss DN 25, wenn Filter und Druckminderer in ein Gerät sollen und die Rückspülung von Hand reicht.",
+  "kurzbeschreibung": "Der BOXER RX mit Druckminderer und Manometer im Filterkopf. Der Nachdruck ist von 1 bis 6 bar einstellbar, ab Werk 4 bar. Anschlussflansch, Wasserzählerverschraubungen und Druckminderer-Kartusche sind im Lieferumfang. Auch in 3/4\" (101 525) und 1 1/4\" (101 535).",
+  "vorteile": [
+   "Filter und Druckminderer in einem Gerät, Einbaulänge ohne Verschraubung 100 mm",
+   "Manometer zeigt den eingestellten Nachdruck",
+   "Rückspülung mit etwa 4 Litern bei 4 bar"
+  ],
+  "nachteile": [
+   "Kein Rückflussverhinderer",
+   "Baut tiefer als der RX: 165 mm bis Rohrmitte",
+   "Das Datenblatt nennt keine Nummern für Filterelement und Kartusche; beim Fachhändler mit der Bestell-Nr. 101 530 nachfragen"
+  ],
+  "technische_daten": {
+   "kategorie": "rueckspuelfilter",
+   "bauart": "Rückspülfilter mit Druckminderer",
+   "anschluss": "R 1\" über Anschlussflansch mit Wasserzählerverschraubungen (DN 25)",
+   "anschluss_zoll": "1\"",
+   "groessen_zoll": ["3/4\"", "1\"", "1 1/4\""],
+   "anschlusssystem": "Grünbeck-Anschlussflansch (im Lieferumfang)",
+   "filter": "100 µm",
+   "rueckspuelung": "manuell",
+   "druckminderer": "ja",
+   "ausgangsdruck": "1–6 bar, ab Werk 4 bar",
+   "rueckflussverhinderer": "nein",
+   "manometer": "Ausgang",
+   "betriebsdruck": "2–16 bar",
+   "temperatur_max_c": 30,
+   "durchfluss": "3,6 m³/h nach DIN EN 1567",
+   "einbaulaenge": "182 mm mit, 100 mm ohne Verschraubung",
+   "filtertasse": "Kunststoff, transparent-blau",
+   "norm": "DIN EN 13443-1, DIN 19628, DIN EN 1567, DVGW"
+  }
+ },
+ {
+  "sortierung": 7,
+  "name": "Grünbeck Automatikfilter pureliQ:AD25 mit Druckminderer, 1\" (101 475)",
+  "hersteller": "Grünbeck",
+  "hersteller_nr": "101475",
+  "amazon_asin": "B07BXFCJKP",
+  "ean": "4031246701068",
+  "einsatzbereich": "Hausanschluss DN 25, wenn niemand ans Rückspülen denken soll und Steckdose sowie Abwasseranschluss in der Nähe sind.",
+  "kurzbeschreibung": "Automatikfilter mit 100-µm-Edelstahl-Filterelement und Druckminderer mit Manometer im Filterkopf. Die Steuerung spült alle 7, 30, 60 oder 90 Tage (ab Werk 60 Tage), von Hand jederzeit. Nachdruck 1 bis 6 bar, ab Werk 4 bar. Auch in 3/4\" (101 470) und 1 1/4\" (101 480).",
+  "vorteile": [
+   "Rückspülung läuft von selbst, etwa 50 Sekunden und 14 Liter bei 4 bar",
+   "Drehbarer Anschlussflansch für waagerechte und senkrechte Leitungen, Wasserzählerverschraubung dabei",
+   "Abdeckung schützt Filterglocke und Element vor UV-Licht"
+  ],
+  "nachteile": [
+   "Braucht eine Schuko-Steckdose mit Dauerstrom im Umkreis von etwa 1,2 m und einen Kanalanschluss DN 50",
+   "Kein Rückflussverhinderer",
+   "Grünbeck empfiehlt nach 5 Jahren den Tausch von Filterelement, Dichtungen und Rückspülventil (Service Kits)"
+  ],
+  "technische_daten": {
+   "kategorie": "rueckspuelfilter",
+   "bauart": "Rückspülfilter mit Druckminderer",
+   "anschluss": "1\" Wasserzählerverschraubung mit drehbarem Klick-Anschlussflansch (DN 25)",
+   "anschluss_zoll": "1\"",
+   "groessen_zoll": ["3/4\"", "1\"", "1 1/4\""],
+   "anschlusssystem": "Grünbeck-Klick-Anschlussflansch, drehbar (im Lieferumfang)",
+   "filter": "100 µm",
+   "rueckspuelung": "automatisch",
+   "druckminderer": "ja",
+   "ausgangsdruck": "1–6 bar, ab Werk 4 bar",
+   "rueckflussverhinderer": "nein",
+   "manometer": "im Filterkopf",
+   "betriebsdruck": "bis 16 bar",
+   "temperatur_max_c": 30,
+   "durchfluss": "3,6 m³/h nach DIN EN 1567",
+   "einbaulage": "waagerechte oder senkrechte Leitung (drehbarer Anschlussflansch)",
+   "filtertasse": "Kunststoff, mit UV-Abdeckung",
+   "norm": "DIN EN 13443-1, DIN EN 1567, DVGW"
+  }
+ },
+ {
+  "sortierung": 8,
+  "name": "Resideo Braukmann Hauswasser-Feinfilter F76S-LF, R 1\" (F76S-1LFAA)",
+  "hersteller": "Resideo",
+  "hersteller_nr": "F76S-1LFAA",
+  "ean": "5059087023315",
+  "einsatzbereich": "Hausanschluss DN 25 in einer waagerechten Leitung, wenn der Filter zunächst allein sitzt und Druckminderer oder Rückspülautomatik später dazukommen sollen.",
+  "kurzbeschreibung": "Bleifreier Rückspülfilter mit 100-µm-Edelstahlfilter, Manometer im Gehäuse und Klarsicht-Filtertasse. Rückgespült wird über einen Kugelhahn, auch dabei kommt gefiltertes Wasser. Bei 1/2 bis 1 1/4 Zoll reinigt die Double-Spin-Kartusche oberes und unteres Sieb zugleich. Auch in 1/2\" bis 2\", z. B. F76S-3/4LFAA und F76S-11/4LFAA.",
+  "vorteile": [
+   "Druckminderer-Set D06FB-1A und Rückspülautomatik RR11S-A nachrüstbar",
+   "Filtereinsätze in 20 bis 500 µm; Standard ist AF11DS-1A (100 µm, Double Spin)",
+   "Klarsichttasse zeigt die Verschmutzung; Ausführung mit Messingtasse (F76S-1LFAAM) bis 70 °C"
+  ],
+  "nachteile": [
+   "Nur waagerechter Einbau mit Filtertasse nach unten",
+   "Gewindetüllen statt Flansch: Ein Wechsel zu einem anderen Hersteller ändert meist die Einbaulänge (hier 209 mm)",
+   "Klarsichttasse aus Kunststoff höchstens 40 °C; Ersatzeinsätze der Baureihe ab 2025 bringen die passende Filterführung mit"
+  ],
+  "technische_daten": {
+   "kategorie": "rueckspuelfilter",
+   "bauart": "Rückspülfilter",
+   "anschluss": "R 1\" Außengewinde-Tüllen (DN 25)",
+   "anschluss_zoll": "1\"",
+   "groessen_zoll": ["1/2\"", "3/4\"", "1\"", "1 1/4\"", "1 1/2\"", "2\""],
+   "anschlusssystem": "Gewindetüllen",
+   "filter": "100 µm",
+   "rueckspuelung": "manuell",
+   "rueckspuelautomatik": "nachrüstbar (RR11S-A)",
+   "druckminderer": "nachrüstbar",
+   "rueckflussverhinderer": "nein",
+   "manometer": "ja",
+   "betriebsdruck": "1,5–16 bar",
+   "temperatur_max_c": 40,
+   "durchfluss": "kvs 9,5 m³/h; 6,5 m³/h bei 0,5 bar Druckverlust",
+   "einbaulage": "waagerecht mit Filtertasse nach unten",
+   "einbaulaenge": "209 mm",
+   "filtertasse": "Kunststoff, klar",
+   "ersatzeinsatz": "AF11DS-1A (100 µm, Double Spin) oder AF11S-1A",
+   "norm": "bleifrei nach EU-Richtlinie 2020/2184, DVGW in Vorbereitung",
+   "material": "bleifreies Messing"
+  }
+ },
+ {
+  "sortierung": 9,
+  "name": "Resideo Braukmann Hauswasserstation HS10S-LF, R 1\" (HS10S-1LFAA)",
+  "hersteller": "Resideo",
+  "hersteller_nr": "HS10S-1LFAA",
+  "ean": "5059087023438",
+  "einsatzbereich": "Neubau oder Erneuerung der Hauseinführung DN 25 in einer waagerechten Leitung, wenn Rückflussverhinderer, Filter, Druckminderer und Absperrung in einem Gerät sitzen sollen.",
+  "kurzbeschreibung": "Bleifreie Hauswasserstation mit Rückflussverhinderer samt Prüfventil, rückspülbarem 100-µm-Feinfilter, Druckminderer (1,5 bis 6 bar) und Absperrkugelhahn, dazu Eingangs- und Ausgangsmanometer. Der Druckminderer gleicht Schwankungen des Vordrucks aus. Auch in 3/4\" bis 2\", z. B. HS10S-3/4LFAA und HS10S-11/4LFAA.",
+  "vorteile": [
+   "Vier Armaturen in einem Gerät, zwei Manometer",
+   "Rückspülautomatik RR11S-A nachrüstbar; der Absperrkugelhahn lässt sich zum Leckageschutz umrüsten",
+   "Filtereinsatz AF11DS-1A und Ventileinsatz D06FA-1A einzeln erhältlich"
+  ],
+  "nachteile": [
+   "Nur waagerechter Einbau mit Filtertasse nach unten",
+   "Lang: 305 mm Einbaulänge, 5,7 kg",
+   "Klarsichttasse aus Kunststoff, höchstens 30 °C und 16 bar Vordruck"
+  ],
+  "technische_daten": {
+   "kategorie": "rueckspuelfilter",
+   "bauart": "Hauswasserstation",
+   "anschluss": "R 1\" Außengewinde-Tüllen (DN 25)",
+   "anschluss_zoll": "1\"",
+   "groessen_zoll": ["3/4\"", "1\"", "1 1/4\"", "1 1/2\"", "2\""],
+   "anschlusssystem": "Gewindetüllen",
+   "filter": "100 µm",
+   "rueckspuelung": "manuell",
+   "rueckspuelautomatik": "nachrüstbar (RR11S-A)",
+   "druckminderer": "ja",
+   "ausgangsdruck": "1,5–6 bar",
+   "rueckflussverhinderer": "ja, mit Prüfventil",
+   "manometer": "Eingang und Ausgang",
+   "betriebsdruck": "1,5–16 bar",
+   "temperatur_max_c": 30,
+   "durchfluss": "kvs 7,6 m³/h; 3,6 m³/h bei 2 m/s",
+   "einbaulage": "waagerecht mit Filtertasse nach unten",
+   "einbaulaenge": "305 mm",
+   "filtertasse": "Kunststoff, klar",
+   "ersatzeinsatz": "AF11DS-1A (100 µm, Double Spin) oder AF11S-1A",
+   "norm": "DVGW, SVGW, bleifrei nach EU-Richtlinie 2020/2184",
+   "material": "bleifreies Messing"
+  }
+ },
+ {
+  "sortierung": 10,
+  "name": "BWT Rückspülfilter Infinity M 1\" mit Anschlusstechnik (10487)",
+  "hersteller": "BWT",
+  "hersteller_nr": "10487",
+  "ean": "4050808104871",
+  "einsatzbereich": "Hausanschluss DN 25 mit genug Platz nach unten, wenn ohne Druckminderer gefiltert werden soll und der Filter auch bei der Rückspülung weiterlaufen soll.",
+  "kurzbeschreibung": "Manueller Rückspülfilter mit Kopfteil aus Messing und Klarsichtzylinder. Beim Rückspülen dreht man den Griff sieben bis acht Umdrehungen auf und gleich wieder zu; Saugleisten saugen das Filtergewebe ab, etwa 90 % der Filterfläche filtern dabei weiter. Ein Datumsring erinnert an die nächste Rückspülung. Der Filter sitzt auf einem BWT-Anschlussmodul, das es auch mit Druckminderer (DR) gibt.",
+  "vorteile": [
+   "Filtert auch während der Rückspülung weiter",
+   "Anschlussmodul für waagerechte oder senkrechte Leitungen",
+   "Kopfteil aus Messing"
+  ],
+  "nachteile": [
+   "Braucht viel Platz: mindestens 670 mm von Rohrmitte bis Boden",
+   "Filterelement laut BWT alle 6 Jahre, Flachdichtung alle 3 Jahre tauschen, durch den BWT-Kundendienst oder einen autorisierten Installateur",
+   "Rückspülung braucht mindestens 2 bar hinter dem Filter; über 8 bar wird die Spülwassermenge sehr hoch"
+  ],
+  "technische_daten": {
+   "kategorie": "rueckspuelfilter",
+   "bauart": "Rückspülfilter",
+   "anschluss": "1\" BWT-Anschlussmodul mit Verschraubung (DN 25)",
+   "anschluss_zoll": "1\"",
+   "groessen_zoll": ["3/4\"", "1\"", "1 1/4\"", "1 1/2\"", "2\""],
+   "anschlusssystem": "BWT-Anschlussmodul mit Bajonett",
+   "filter": "90 µm unten, 110 µm oben",
+   "rueckspuelung": "manuell",
+   "druckminderer": "nein",
+   "rueckflussverhinderer": "nein",
+   "betriebsdruck": "2–16 bar",
+   "temperatur_max_c": 30,
+   "durchfluss": "4,0 m³/h bei 0,2 bar, 6,5 m³/h bei 0,5 bar Druckverlust",
+   "einbaulage": "waagerechte oder senkrechte Leitung",
+   "filtertasse": "Klarsichtzylinder aus Kunststoff",
+   "material": "Kopfteil Messing"
+  }
+ }
+]

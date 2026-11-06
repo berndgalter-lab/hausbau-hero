@@ -56,7 +56,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 /** Auf der Marken-Seite ohne Markennamen vorne und ohne Nummer in Klammern hinten: Die Nummer steht darunter. */
 function kurzname(name: string, marke: string, nummer?: string | null): string {
-  let n = name.startsWith(`${marke} `) ? name.slice(marke.length + 1) : name;
+  // Auch Namen in Klammern: „Resideo (Honeywell, Braukmann)“ kürzt „Honeywell F76S“ zu „F76S“.
+  const praefix = [marke, ...marke.split(/[\s(),]+/).filter((w) => w.length > 2)].find((p) => name.startsWith(`${p} `));
+  let n = praefix ? name.slice(praefix.length + 1) : name;
   if (nummer) n = n.replace(` (${nummer})`, "");
   return n;
 }

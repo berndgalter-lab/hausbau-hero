@@ -1,0 +1,167 @@
+{
+  "slug": "enthaertungsanlage-fehlermeldung",
+  "titel": "Enthärtungsanlage zeigt eine Fehlermeldung",
+  "seo_title": "Enthärtungsanlage Fehlermeldung: Judo, BWT, Grünbeck, SYR",
+  "seo_description": "Judo Störung 1 bis 4, BWT-Logo gelb oder rot, Grünbeck „Salzvorrat verbraucht“, Wartung fällig, die Anlage piept: was die Meldungen bedeuten, was du selbst prüfst und wann der Kundendienst kommt.",
+  "symptom": "Im Display steht eine Störung oder ein Hinweis, das Logo oder der Leuchtring leuchtet gelb oder rot oder blinkt, oder die Anlage piept. Oft kommt dazu hartes Wasser oder ein auffälliger Wasserstand im Salzbehälter.",
+  "bereich": "wasserfilter",
+  "ursachen": [
+    {
+      "ursache": "Salz geht zur Neige oder kommt nicht an",
+      "erklaerung": "Die häufigste Meldung. Judo zeigt „Salzvorrat prüfen!“, wenn der berechnete Vorrat unter 5 kg fällt, und „Achtung! Salzmangel“, wenn tatsächlich zu wenig Sole ankommt. Bei der BWT Perla wechselt das Logo ab etwa 20 % Füllstand von Blau auf Gelb, die Grünbeck softliQ:SC23 meldet gelb „Salzvorrat gering“ mit der Reichweite in Tagen und rot „Salzvorrat verbraucht!“. Bleibt die Meldung trotz vollem Behälter, ist es oft eine Salzbrücke; Judo nennt außerdem einen zu hoch verlegten Abwasserschlauch und zu wenig Leitungsdruck. Mehr dazu unter „Enthärtungsanlage verbraucht kein Salz“.",
+      "haeufigkeit": "häufig",
+      "teilart": "regeneriersalz"
+    },
+    {
+      "ursache": "Wartung fällig",
+      "erklaerung": "Das ist eine Erinnerung, kein Defekt. Judo zeigt „Wartung/Service“ nach einem Betriebsjahr, die ältere BWT AQA perla „Service“ nach 500 Regenerationen oder zwölf Monaten, je nachdem, was zuerst kommt. Grünbeck zeigt „Service fällig! Kundendienst benachrichtigen“ nur, wenn das Wartungsintervall eingeschaltet ist. Zurückgesetzt wird die Meldung bei der Wartung durch den Kundendienst.",
+      "haeufigkeit": "häufig"
+    },
+    {
+      "ursache": "Stromausfall oder Anlage ohne Dauerstrom",
+      "erklaerung": "Grünbeck meldet rot „Stromausfall > 5 Minuten“ und regeneriert, sobald der Strom zurück ist; dauerte der Ausfall länger als drei Tage, muss bei fester Regenerationszeit die Uhr neu gestellt werden. Die Judo i-soft SAFE+ piept bei Stromausfall und zeigt „Batteriebetrieb“, weil sie auf zwei 9-V-Blockbatterien weiterläuft. Ohne Strom gibt es kein weiches Wasser. Grünbeck rät deshalb, die Steckdose nicht an einen Lichtschalter oder Heizungsnotschalter zu koppeln.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Wasser fehlt, Druck zu niedrig oder Wasserstopp zu",
+      "erklaerung": "Für die Regeneration braucht die Anlage Wasser mit genug Druck. Bei Judo heißt das „Störung Nr. 3“ (i-soft safe) oder „Störung Füllzeit“ (i-soft SAFE+), oft ist die Wasserversorgung unterbrochen oder der Wasserstopp hat geschlossen. Grünbeck meldet „Wasserzähler Regeneration Menge nicht erreicht!“ oder „Anlage saugt Sole im Salztank zu schlecht ab!“, SYR bei der LEX Plus eine Störung des Drucksensors, wenn der Eingangsdruck unter 2 oder über 8 bar liegt. Ursache kann dann auch der Druckminderer davor sein.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Zu viel Wasser im Salzbehälter",
+      "erklaerung": "Judo meldet das als „Störung Nr. 2“ (Behälter überfüllt oder Undichtigkeit), „Störung Besalzung“ oder bei der i-soft plus „Solestand im Salzbehälter zu hoch“. Laut Judo hilft oft eine Regeneration von Hand; sinkt der Solestand danach, eine zweite hinterher. SYR schreibt, dass der Pegel stark ansteigt und die Steuerung eine Störung meldet, wenn man das Salz so weit verbrauchen lässt, dass Wasser darüber steht, und dann nachfüllt.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Sensor, Zähler oder Elektroden",
+      "erklaerung": "Die Anlage misst Wassermenge, Druck und Salzgehalt. Grünbeck meldet „Wasserzähler Weichwasser defekt!“, wenn der Zähler keine Impulse liefert, SYR nennt verschmutzte Elektroden und einen defekten Drucksensor. Bei Judo i-soft SAFE+ und i-soft plus wird der Leitwert-Sensor zusammen mit dem Ansaugsieb jährlich getauscht (Verschleißteilset 2201382). In einem Forenfall zeigte eine BWT AQA perla nach einem Stromausfall keinen Durchfluss mehr; der BWT-Kundendienst lieferte ein neues Schaufelrad.",
+      "haeufigkeit": "selten"
+    },
+    {
+      "ursache": "Antrieb oder Steuerventil defekt",
+      "erklaerung": "Judo zeigt „Störung Nr. 1“ oder „Störung Reg. Antrieb“, bei der i-soft safe steht „Störung Nr. 4“ für einen Wasserstopp, der nicht mehr öffnet oder schließt. Grünbeck meldet „Störung am Antrieb Steuerventil Regeneration!“, SYR, dass die Grundstellung nicht angefahren werden konnte. Bei einer BWT Perla meldeten Besitzer im Forum Motorstrom- und Positionsfehler. Das ist immer ein Fall für den Kundendienst.",
+      "haeufigkeit": "selten"
+    }
+  ],
+  "pruefen": [
+    "Meldung genau ablesen und notieren oder fotografieren, dazu das Modell vom Typenschild. Bei der BWT Perla auf „Meldungen“ tippen, bei der älteren AQA perla auf das rote Dreieck. Gelb steht bei BWT und Grünbeck für einen Hinweis, Rot für eine Störung.",
+    "Die Meldung quittieren: bei Judo mit OK oder indem du das Netzgerät etwa 5 Sekunden aussteckst, bei Grünbeck mit ENTER. Dann beobachten, ob sie wiederkommt.",
+    "Prüfen, ob die Anlage Strom hat und an einer Steckdose ohne Schalter hängt. Nach einem langen Stromausfall die Uhrzeit kontrollieren, bei Judo i-soft SAFE+ die Batterien prüfen.",
+    "Salzstand ansehen und nachfüllen, Salz nach DIN EN 973 Typ A. Bei Judo und SYR danach die eingefüllte Menge im Menü eingeben.",
+    "Mit einem sauberen Stiel prüfen, ob das Salz eine Kruste mit Hohlraum darunter hat, und den Wasserstand im Salzbehälter ansehen: Das Salz muss höher stehen als das Wasser.",
+    "Nach dem Nachfüllen warten, damit sich Sole bildet (BWT eine halbe Stunde, SYR 30 Minuten, Grünbeck 10 Minuten), dann eine Regeneration von Hand starten, wie es die Anleitung beschreibt.",
+    "Absperrventile vor und nach der Anlage öffnen, das Umgehungsventil auf Betrieb stellen und nachsehen, ob ein Wasserstopp oder Leckageschutz geschlossen hat. Vorher klären, ob irgendwo Wasser austritt.",
+    "Druck am Manometer ablesen. Grünbeck und SYR verlangen mindestens 2 bar, SYR höchstens 8 bar, Judo nennt für die i-soft SAFE+ 2 bis 7 bar Betriebsdruck.",
+    "Spülwasserschlauch ansehen: ohne Knick, mit Gefälle zum Kanal und nicht höher verlegt als in der Anleitung angegeben.",
+    "Kommt die Meldung wieder, meldet sie Antrieb, Sensor oder Zähler, oder tritt Wasser aus: das Umgehungsventil auf Umgehung stellen, bei Judo das Netzgerät ausstecken und die Batterien herausnehmen, und den Kundendienst mit Geräte-ID oder Seriennummer anrufen."
+  ],
+  "fachbetrieb_ab": "Sobald eine Meldung nach dem Quittieren wiederkommt oder Antrieb, Steuerventil, Sensor oder Zähler nennt. Judo schreibt: „Das Öffnen der Geräte und der Austausch von wasserdruckbelasteten Teilen darf nur durch konzessionierte Personen erfolgen.“ Reparaturen machen Kundendienst oder vom Hersteller geschulte Fachhandwerker. Das gilt auch für die Wartung nach DIN EN 806-5: Judo i-soft SAFE+ einmal im Jahr, BWT Perla halbjährlich, Grünbeck softliQ jährlich, SYR LEX Plus jährliche Funktionsprüfung durch den Fachhandwerker. Du selbst kontrollierst alle zwei Monate Salz, Dichtheit und Meldungen.",
+  "marken_probleme": [
+    "judo-enthaertungsanlage-fehler",
+    "bwt-enthaertungsanlage-fehlermeldung",
+    "gruenbeck-enthaertungsanlage-fehlermeldung",
+    "syr-enthaertungsanlage-fehlermeldung"
+  ],
+  "fragen": [
+    {
+      "frage": "Meine Judo i-soft zeigt „Störung Nr. 1“, „Nr. 2“ oder „Nr. 3“. Was bedeutet das?",
+      "antwort": "Bei der i-soft safe steht Nr. 1 für einen defekten Antrieb, Nr. 2 für einen überfüllten Salzbehälter oder eine Undichtigkeit, Nr. 3 für eine Zeitüberschreitung beim Nachfüllen, meist weil die Wasserversorgung unterbrochen oder der Wasserstopp zu ist, und Nr. 4 für einen Wasserstopp, der nicht mehr öffnet oder schließt. Bei Nr. 2 und 4 das Netzgerät ausstecken und nach 5 Sekunden wieder einstecken, bei Nr. 3 Wasserzufuhr und Wasserstopp prüfen. Bei Nr. 1 oder wenn eine Störung wiederkommt, den Kundendienst rufen und Geräte- und Auftragsnummer angeben.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf"
+      ],
+      "teile": [],
+      "problem": "judo-enthaertungsanlage-fehler"
+    },
+    {
+      "frage": "Das Logo meiner BWT Perla leuchtet gelb oder rot. Was heißt das?",
+      "antwort": "Blau heißt Betrieb, Gelb ein Hinweis, Rot eine Störung. Gelb erscheint zum Beispiel, wenn der Salzvorrat unter etwa 20 % fällt. Was genau anliegt, zeigt das Display unter „Meldungen“. Bei der älteren AQA perla steht dafür ein rotes Dreieck im Display, auf das du tippst.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://assets.heizung-billiger.de/documents/bwt_perla.pdf",
+        "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=72"
+      ],
+      "teile": [],
+      "problem": "bwt-enthaertungsanlage-fehlermeldung"
+    },
+    {
+      "frage": "Was bedeuten die gelben und roten Meldungen bei der Grünbeck softliQ?",
+      "antwort": "Gelb sind Warnungen: „Salzvorrat gering! Bitte nachfüllen!“ mit der Reichweite in Tagen (nur SC23) und „Service fällig!“. Rot sind Störungen, etwa „Salzvorrat verbraucht! Umgehend nachfüllen!“, „Stromausfall > 5 Minuten“ oder „Störung am Antrieb Steuerventil Regeneration!“. Grünbeck rät, die Meldung mit ENTER zu quittieren und zu beobachten, ob sie wiederkommt. Der LED-Leuchtring blinkt bei Störungen und bei der Salz-Vorwarnung.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Ich habe Salz nachgefüllt, die Meldung ist aber noch da. Was tun?",
+      "antwort": "Bei vielen Anlagen musst du das Nachfüllen bestätigen: Judo mit OK, Grünbeck mit ENTER; bei Judo i-soft SAFE+ und SYR LEX Plus gibst du zusätzlich die eingefüllte Menge im Menü ein. Grünbeck rät nach der roten Salzmeldung, 10 Minuten zu warten und eine Regeneration von Hand zu starten, BWT wartet eine halbe Stunde. Kommt die Meldung trotz vollem Behälter wieder, steckt oft eine Salzbrücke dahinter.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+        "https://documents.unidomo.de/de/syis150001010.pdf",
+        "https://assets.heizung-billiger.de/documents/bwt_perla.pdf"
+      ],
+      "teile": [],
+      "problem": "enthaertungsanlage-verbraucht-kein-salz"
+    },
+    {
+      "frage": "Meine Enthärtungsanlage piept. Warum?",
+      "antwort": "Die Judo i-soft SAFE+ piept bei einer Störung etwa alle sechs Stunden, bis die Ursache behoben ist; unter Einstellungen / Töne lässt sich der Ton ausschalten. Sie piept außerdem bei Stromausfall, wenn sie auf Batterie läuft, und wenn der Leckageschutz das Wasser abgesperrt hat. Mit OK schaltest du den Alarm aus. Danach im Display nachsehen, welche Meldung dahintersteht.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Die Anlage zeigt „Wartung“ oder „Service“. Ist sie kaputt?",
+      "antwort": "Nein, das ist die Erinnerung an die Wartung. Judo meldet sie nach einem Betriebsjahr, die BWT AQA perla nach 500 Regenerationen oder zwölf Monaten, Grünbeck nur, wenn das Intervall eingeschaltet ist. Die Wartung macht der Kundendienst oder ein vom Hersteller geschulter Fachbetrieb und setzt die Meldung danach zurück. In einem Forum berichten BWT-Besitzer, dass der Installateur das Intervall auf 12 oder 24 Monate stellt.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+        "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=72",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+        "https://www.energiesparhaus.at/forum-servicemeldung-bwt-aqa-perla-3-bj-2019/57146_1"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Die SYR LEX Plus meldet eine Störung. Woran kann es liegen?",
+      "antwort": "SYR nennt als häufige Ursachen einen Eingangsdruck unter 2 oder über 8 bar, oft wegen eines defekten oder fehlenden Druckminderers, und einen Bechlorungsstrom unter 150 mA. Im zweiten Fall Salz nachfüllen, 30 Minuten warten und eine Regeneration starten. Weitere Ursachen sind eine undichte Soleleitung, ein verschmutztes Schwimmerteil, ein verschmutztes oder defektes Magnetventil und verschmutzte Elektroden. Konnte die Anlage ihre Grundstellung nicht anfahren oder ist der Steuerkopf defekt, soll man den Hersteller kontaktieren.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://documents.unidomo.de/de/syis150001010.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Darf ich die Enthärtungsanlage bei einer Störung einfach ausstecken?",
+      "antwort": "Zum Löschen einer Störung sieht Judo genau das vor: Netzgerät ausstecken und nach etwa 5 Sekunden wieder einstecken. Bei einem defekten Antrieb sollst du die Judo ausgesteckt lassen, die Batterien herausnehmen und das Umgehungsventil auf Umgehung stellen. Grünbeck warnt, dass bei Stromausfall während einer Regeneration Wasser unkontrolliert in den Kanal laufen kann; dann die Wasserzufuhr absperren. Ohne Strom liefert die Anlage kein weiches Wasser.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+        "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://www.unidomo.de/tpl/download/Judo_i-soft_Betriebsanleitung.pdf",
+    "https://judo.eu/app/downloads/files/de/8203521/manuals/1703371_202402.pdf",
+    "https://www.unidomo.de/tpl/download/Judo_i-soft-plus_Betriebsanleitung.pdf",
+    "https://assets.heizung-billiger.de/documents/bwt_perla.pdf",
+    "https://www.manualslib.com/manual/1680675/Bwt-Aqa-Perla.html?page=72",
+    "https://www.heizungsdiscount24.de/pdf/Gruenbeck-Enthaertungsanlage-softliQ-SC23-Betriebsanleitung.pdf",
+    "https://documents.unidomo.de/de/syis150001010.pdf",
+    "https://www.energiesparhaus.at/forum-servicemeldung-bwt-aqa-perla-3-bj-2019/57146_1",
+    "https://www.energiesparhaus.at/forum-bwt-aqa-perla-entkalkt-nicht-nach-stromausfall/47959_1",
+    "https://www.energiesparhaus.at/forum-bwt-perla-strom-und-position-fehler-motor-1/84819"
+  ]
+}

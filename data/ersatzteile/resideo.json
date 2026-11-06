@@ -1,0 +1,2737 @@
+{
+  "marke": {
+    "slug": "resideo",
+    "name": "Resideo (Honeywell, Braukmann)",
+    "beschreibung": "Resideo baut in Mosbach die Wasserarmaturen, die viele noch als Honeywell oder Braukmann kennen. Im Keller sitzt meist eines dieser Geräte direkt hinter der Wasseruhr: der Rückspülfilter F76S, die Hauswasserstation HS10S mit Filter, Druckminderer und Rückflussverhinderer, die kleine Filterkombination MiniPlus FK06, der Feinfilter FF06, die Primus-Filter oder der Druckminderer D06F. Braukmann gehört seit 1980 zu Honeywell, 2018 wurde die Haustechnik als Resideo abgespalten. Heute heißen die Wasserarmaturen wieder Braukmann.\n\nGesucht werden vor allem der passende Filtereinsatz, eine neue Klarsicht-Filtertasse mit O-Ringen, der Kugelhahn für die Rückspülung und der Ventileinsatz für den Druckminderer, wenn Wasser aus der Federhaube kommt oder der Druck nicht mehr stimmt. Welches Teil passt, hängt an Gerät, Nennweite und Baureihe: Bei F76S, HS10S und FKN76CS trennt Resideo die Baureihe ab 2007 von der aus 1997 bis 2006.",
+    "nummer_hinweis": "Für das richtige Ersatzteil brauchst du die Typbezeichnung, etwa F76S-1AA, HS10S-1AA, FK06-1AA oder D06F-1/2A. Sie steht auf dem Gerät.\n\nVorne steht die Serie: F76S ist der Rückspülfilter, HS10S die Hauswasserstation, FK06 und FF06 die kleinen MiniPlus-Geräte, D06F der Druckminderer. Dahinter folgt die Anschlussgröße in Zoll, geschrieben als 1/2, 3/4, 1 oder 11/4 für 1¼ Zoll. Die Buchstaben am Ende beschreiben die Ausführung, bei der HS10S etwa Anschluss mit Außengewindetülle und Filterfeinheit 100 µm. LF heißt bleifrei, M eine Filtertasse aus Messing. Die Ersatzteile richten sich nach der Nennweite, meist paarweise: ½ und ¾ Zoll bekommen dasselbe Teil, 1 und 1¼ Zoll ebenfalls.\n\nBei F76S, HS10S und FKN76CS zählt zusätzlich die Baureihe. Resideo trennt Geräte ab 2007 von denen aus 1997 bis 2006. Bei 1 und 1¼ Zoll passt in beide der Filtereinsatz AF11S-1A, bei ½ und ¾ Zoll nicht: Die neue Baureihe braucht AF11S-1/2A. Dreht sich beim Rückspülen ein Rotor in der Tasse, hast du einen Double-Spin-Filter der neuen Baureihe, und es passt der Einsatz AF11DS.\n\nBeim Druckminderer D06F hilft die Farbe des Verstellgriffs: Grün ist der normale D06F, rot der D06FH für höhere Drücke, grau der D06FN für niedrige. Sie haben teils andere Ventileinsätze. Steht LF in der Bezeichnung, ist es die bleifreie Ausführung ab 2020 mit eigenen Ventileinsätzen.\n\nIst die Bezeichnung nicht mehr lesbar, miss den Durchmesser der Leitung am Gerät, notiere die Farbe des Griffs und ob ein Druckminderer dabei ist, und frag mit Fotos beim Installateur nach, der die Anlage wartet.",
+    "ersatzteil_garantie": "Auf die bleifreien Braukmann-Trinkwasserfilter gibt Resideo fünf Jahre Garantie, es gelten die Bedingungen der Resideo-Garantieerklärung.\n\nEine Frist, wie lange es Ersatzteile gibt, nennt Resideo nicht. Der Ersatzteilkatalog 2022/23 führt aber Teile für F76S, HS10S und FF06 ab Baujahr 1997 und für den Druckminderer D22 ab 1968. Viele Teile gelten über Baureihen hinweg: Der Filtereinsatz AF11S-1A steht in sieben Gerätelisten, vom F76S der späten 1990er bis zur aktuellen HS10S.",
+    "hersteller_ersatzteil_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf",
+    "quellen": [
+      "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf",
+      "https://documents.pdod.de/resideo/rddb14918.pdf",
+      "https://documents.pdod.de/resideo/rdma14697.pdf",
+      "https://documents.pdod.de/resideo/rddb14851.pdf",
+      "https://documents.pdod.de/resideo/rdma14756.pdf",
+      "https://documents.pdod.de/resideo/rddb14255.pdf",
+      "https://documents.pdod.de/resideo/rdma14256.pdf",
+      "https://infomaterial.resideo.com/fileadmin/publications/DE3H-9010GE23_Bleifreie_Trinkwasserfilter_DE_web.pdf",
+      "https://www.honeywell.com/us/en/news/press-releases/2018/10/honeywell-completes-spin-off-of-resideo-technologies-incpt",
+      "https://www.gesetze-im-internet.de/avbwasserv/__12.html",
+      "https://www.haustechnikdialog.de/Forum/t/219301/Wasserschaden-durch-geplatzte-HS10-Filtertasse",
+      "https://www.haustechnikdialog.de/Forum/t/134255/Leitungswasserschaden-durch-defekte-Honeywell-Braukmann-HS-10-S",
+      "https://www.haustechnikdialog.de/Forum/t/112362/D06F-Klarsicht-Siebtasse-quillt-",
+      "https://www.haustechnikdialog.de/Forum/t/58828/Honeywell-Wasserfilter-Primus-FK-Druckminderer-FK74C",
+      "https://www.haustechnikdialog.de/Forum/t/221328/Rueckspuelfilter-tropft-manchmal",
+      "https://www.haustechnikdialog.de/Forum/t/51146/Druckminderer-Problem-Hinterdruck-steigt-zu-stark-an",
+      "https://www.gutefrage.net/frage/hauswasserstation-rueckspuelschutzfilter-druckminderer---wie-richtig-einstellen",
+      "https://www.amazon.de/dp/B004IR8AVC",
+      "https://www.amazon.de/dp/B0017V0NUS",
+      "https://www.amazon.de/dp/B0017V45TI"
+    ],
+    "fragen": [
+      {
+        "frage": "Honeywell, Braukmann oder Resideo: Ist das dasselbe?",
+        "antwort": "Ja. Braukmann aus Mosbach gehört seit 1980 zu Honeywell. 2018 hat Honeywell das Geschäft mit der Haustechnik als Resideo abgespalten, das die Marke Honeywell Home seitdem in Lizenz nutzt. Die Wasserarmaturen heißen heute wieder Braukmann. Für die Ersatzteile zählt deshalb die Typbezeichnung wie F76S oder D06F, nicht der Name auf dem Gerät.",
+        "kategorie": "nummer",
+        "quellen": [
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf",
+          "https://www.honeywell.com/us/en/news/press-releases/2018/10/honeywell-completes-spin-off-of-resideo-technologies-incpt",
+          "https://infomaterial.resideo.com/fileadmin/publications/DE3H-9010GE23_Bleifreie_Trinkwasserfilter_DE_web.pdf",
+          "https://www.haustechnikdialog.de/Forum/t/219301/Wasserschaden-durch-geplatzte-HS10-Filtertasse"
+        ],
+        "teile": [],
+        "problem": null
+      },
+      {
+        "frage": "Was bedeutet die Typbezeichnung F76S-1AA auf meinem Honeywell-Filter?",
+        "antwort": "Vorne steht die Serie, etwa F76S für den Rückspülfilter oder HS10S für die Hauswasserstation, dahinter die Anschlussgröße in Zoll (1/2, 3/4, 1, 11/4 für 1¼). Die Buchstaben danach beschreiben die Ausführung, bei der HS10S zum Beispiel Anschluss mit Außengewindetülle und Filterfeinheit 100 µm. LF heißt bleifrei, M eine Messing-Filtertasse. Ersatzteile richten sich nach der Nennweite, meist paarweise: ½ und ¾ Zoll bekommen dasselbe Teil, 1 und 1¼ Zoll ebenfalls.",
+        "kategorie": "nummer",
+        "quellen": [
+          "https://documents.pdod.de/resideo/rddb14918.pdf",
+          "https://documents.pdod.de/resideo/rddb14851.pdf",
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf"
+        ],
+        "teile": [],
+        "problem": null
+      },
+      {
+        "frage": "Welcher Filtereinsatz passt in meinen Honeywell F76S von 2005?",
+        "antwort": "Für den F76S der Baureihe 1997 bis 2006 passt von ½ bis 1¼ Zoll der Einsatz AF11S-1A mit 100 µm. Ab Baujahr 2007 ist es bei ½ und ¾ Zoll AF11S-1/2A, bei 1 und 1¼ Zoll weiterhin AF11S-1A. Hat dein Filter Double Spin, erkennbar am Rotor, der sich beim Rückspülen dreht, brauchst du AF11DS. Die HS10S hat dieselben Einsätze.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21",
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12"
+        ],
+        "teile": [
+          "resideo-filtereinsatz-af11s-1a",
+          "resideo-filtereinsatz-af11s-1-2a",
+          "resideo-filtereinsatz-af11ds-1a"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Welcher Ventileinsatz passt in meinen Honeywell-Druckminderer?",
+        "antwort": "Das hängt am Gerät und an der Nennweite. Für ½ und ¾ Zoll ist es bei D06F, D06FH, HS10S und FK06 D06FA-1/2. Für 1 und 1¼ Zoll nehmen HS10S und FKN76CS D06FA-1A, der D06F und die FK06 D06FA-1B. Der bleifreie D06F-LF ab 2020 braucht D06FA-1/2LF bzw. D06FA-1LF. Die Membran gehört zum Ventileinsatz.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+          "https://documents.pdod.de/resideo/rddb14851.pdf"
+        ],
+        "teile": [
+          "resideo-ventileinsatz-d06fa-1-2",
+          "resideo-ventileinsatz-d06fa-1a",
+          "resideo-ventileinsatz-d06fa-1b",
+          "resideo-ventileinsatz-d06fa-1lf"
+        ],
+        "problem": "resideo-druckminderer-tropft"
+      },
+      {
+        "frage": "Wie stelle ich den Druck an meinem Honeywell-Druckminderer ein?",
+        "antwort": "Eingestellt wird, während kein Wasser läuft. Absperrung vor dem Gerät schließen, hinten Druck ablassen, Absperrung hinten schließen. Die Schlitzschraube im Griff lösen, aber nicht herausdrehen, und den Griff gegen den Uhrzeigersinn bis zum Anschlag drehen. Dann vorne langsam öffnen und den Griff im Uhrzeigersinn drehen, bis Skala oder Manometer den gewünschten Wert zeigen, mindestens 1 bar unter dem Eingangsdruck. Schraube festziehen, hinten langsam öffnen. Resideo ordnet diese Arbeit Fachkräften zu.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://documents.pdod.de/resideo/rdma14697.pdf",
+          "https://documents.pdod.de/resideo/rdma14756.pdf",
+          "https://www.gutefrage.net/frage/hauswasserstation-rueckspuelschutzfilter-druckminderer---wie-richtig-einstellen"
+        ],
+        "teile": [],
+        "problem": "resideo-wasserdruck-zu-niedrig"
+      },
+      {
+        "frage": "Aus der Federhaube meines Honeywell-Druckminderers kommt Wasser. Was ist kaputt?",
+        "antwort": "Laut Resideo ist dann die Membran im Ventileinsatz defekt. Die Membran steckt im Ventileinsatz, getauscht wird deshalb der komplette Einsatz. Welcher passt, hängt an Gerät und Nennweite, etwa D06FA-1/2 für ½ und ¾ Zoll.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://documents.pdod.de/resideo/rdma14756.pdf",
+          "https://documents.pdod.de/resideo/rdma14697.pdf",
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38"
+        ],
+        "teile": [
+          "resideo-ventileinsatz-d06fa-1-2",
+          "resideo-ventileinsatz-d06fa-1b"
+        ],
+        "problem": "resideo-druckminderer-tropft"
+      },
+      {
+        "frage": "Der Druck hinter meinem Honeywell-Druckminderer steigt langsam an. Woran liegt das?",
+        "antwort": "Schließ das Absperrventil hinter dem Druckminderer und beobachte das Manometer. Steigt der Druck, obwohl nichts gezapft wird, ist das Ventil laut Resideo verschmutzt oder defekt, und der Ventileinsatz wird gereinigt oder getauscht. Steigt er nur, während der Warmwasserspeicher aufheizt, kommt der Druck von hinten, und Rückschlagventil und Sicherheitsgruppe müssen geprüft werden.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://documents.pdod.de/resideo/rdma14756.pdf",
+          "https://documents.pdod.de/resideo/rdma14697.pdf",
+          "https://www.haustechnikdialog.de/Forum/t/51146/Druckminderer-Problem-Hinterdruck-steigt-zu-stark-an",
+          "https://www.heizungsforum.de/threads/wasserdruck-im-haus-steigt-von-3-auf-10-bar.9580/"
+        ],
+        "teile": [
+          "resideo-ventileinsatz-d06fa-1-2",
+          "resideo-ventileinsatz-d06fa-1b"
+        ],
+        "problem": "resideo-wasserdruck-steigt"
+      },
+      {
+        "frage": "Wie oft muss ich meinen Honeywell-Rückspülfilter rückspülen, und wie geht das?",
+        "antwort": "Nach DIN EN 806-5 spätestens alle sechs Monate, Resideo empfiehlt alle zwei Monate. Den Rückspülknopf bis zum Anschlag drehen, nach etwa 3 Sekunden schließen und das dreimal wiederholen. Ohne festen Abwasseranschluss vorher einen Eimer unterstellen, je nach Größe kommen 12 bis 18 Liter heraus. Mit dem Memory-Ring am Gerät kannst du dir den nächsten Termin markieren.",
+        "kategorie": "pflege",
+        "quellen": [
+          "https://documents.pdod.de/resideo/rdma14697.pdf",
+          "https://www.haustechnikdialog.de/Forum/t/58828/Honeywell-Wasserfilter-Primus-FK-Druckminderer-FK74C",
+          "https://www.bauexpertenforum.de/threads/honeywell-wasserfilter-fk74c.14871/"
+        ],
+        "teile": [],
+        "problem": "resideo-wasserdruck-zu-niedrig"
+      },
+      {
+        "frage": "Mein Honeywell-Rückspülfilter tropft aus dem Ablauf. Was kann ich tun?",
+        "antwort": "Tropft es aus dem Ablauftrichter, obwohl der Rückspülknopf geschlossen ist, hält der Kugelhahn nicht mehr dicht. Resideo schreibt, dass er bei Tropfenbildung ausgewechselt wird. Der Ersatz heißt KH11S-1LFA und passt bei F76S, HS10S und FKN76CS von ½ bis 2 Zoll.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://documents.pdod.de/resideo/rdma14697.pdf",
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+          "https://www.haustechnikdialog.de/Forum/t/221328/Rueckspuelfilter-tropft-manchmal",
+          "https://www.gutefrage.net/frage/was-mache-ich-wenn-der-rueckspuellschutzfilter-die-ganze-zeit-tropft"
+        ],
+        "teile": [
+          "resideo-kugelhahn-kh11s-1lfa"
+        ],
+        "problem": "resideo-rueckspuelfilter-tropft"
+      },
+      {
+        "frage": "Wie alt darf die Klarsicht-Filtertasse meiner Honeywell-Hauswasserstation werden?",
+        "antwort": "Eine feste Frist nennt Resideo nicht. Im HaustechnikDialog berichten Installateure von gerissenen HS10-Tassen und tauschen Kunststofftassen nach etwa zehn Jahren vorsorglich, weil sie mit der Zeit porös werden. Resideo schreibt, die Tasse nur mit kaltem, klarem Wasser zu reinigen, andere Reiniger beschädigen den Kunststoff. Für F76S und HS10S bis 1¼ Zoll heißt die Tasse KF11S-1A.",
+        "kategorie": "pflege",
+        "quellen": [
+          "https://www.haustechnikdialog.de/Forum/t/219301/Wasserschaden-durch-geplatzte-HS10-Filtertasse",
+          "https://www.haustechnikdialog.de/Forum/t/134255/Leitungswasserschaden-durch-defekte-Honeywell-Braukmann-HS-10-S",
+          "https://documents.pdod.de/resideo/rdma14697.pdf",
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11"
+        ],
+        "teile": [
+          "resideo-klarsicht-filtertasse-kf11s-1a",
+          "resideo-o-ring-satz-filtertasse-0900747"
+        ],
+        "problem": "resideo-rueckspuelfilter-tropft"
+      },
+      {
+        "frage": "Die Filtertasse am Honeywell-Filter oder Druckminderer geht kaum noch auf. Welcher Schlüssel gehört dazu?",
+        "antwort": "Resideo hat für jede Gerätefamilie einen eigenen Doppelringschlüssel: ZR10K-3/4 bzw. ZR10K-1 für F76S und HS10S, ZR06F für die Tasse von FK06 und FF06, ZR06K für Federhaube und Siebtasse des D06F, ZR74CS für die Primus-Plus. Beim Wiedereinbau kommt ein neuer O-Ring auf die Tasse, angezogen wird nur von Hand, ohne Werkzeug. Im HaustechnikDialog berichtet ein Nutzer, dass die D06F-Siebtasse nach einem Jahr deutlich schwerer aufging.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+          "https://documents.pdod.de/resideo/rddb14851.pdf",
+          "https://documents.pdod.de/resideo/rdma14697.pdf",
+          "https://www.haustechnikdialog.de/Forum/t/112362/D06F-Klarsicht-Siebtasse-quillt-",
+          "https://www.haustechnikdialog.de/Forum/t/219301/Wasserschaden-durch-geplatzte-HS10-Filtertasse"
+        ],
+        "teile": [
+          "resideo-doppelringschluessel-zr10k-1",
+          "resideo-doppelringschluessel-zr10k-3-4",
+          "resideo-doppelringschluessel-zr06f",
+          "resideo-doppelringschluessel-zr06k"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Welches Ersatzsieb brauche ich für den Honeywell MiniPlus FK06 oder FF06?",
+        "antwort": "Die MiniPlus-Geräte werden nicht rückgespült, ein verschmutztes Sieb wird durch ein neues ersetzt. Das Ersatzsieb AS06 kommt im Fünferpack mit 100 µm: AS06-1/2A für die FK06 in ½ und ¾ Zoll und den FF06 in ½ Zoll, AS06-1A für die FK06 in 1 und 1¼ Zoll und den FF06 in ¾ bis 1¼ Zoll.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+          "https://documents.pdod.de/resideo/rdma14256.pdf"
+        ],
+        "teile": [
+          "resideo-ersatzsieb-as06-1a",
+          "resideo-ersatzsieb-as06-1-2a"
+        ],
+        "problem": "resideo-wasserdruck-zu-niedrig"
+      },
+      {
+        "frage": "Darf ich den Filtereinsatz oder den Druckminderer selbst tauschen?",
+        "antwort": "Resideo schreibt in den Einbauanleitungen, dass Montage, Wartung und Justage nur autorisierte Fachkräfte ausführen und Instandhaltungsarbeiten ein Installationsunternehmen. Den Einbau und wesentliche Änderungen am Hausanschluss erlaubt § 12 AVBWasserV nur dem Wasserversorger oder einem eingetragenen Installateur. Rückspülen und die Sichtkontrolle machst du als Betreiber selbst.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://documents.pdod.de/resideo/rdma14697.pdf",
+          "https://documents.pdod.de/resideo/rdma14756.pdf",
+          "https://www.gesetze-im-internet.de/avbwasserv/__12.html"
+        ],
+        "teile": [],
+        "problem": null
+      },
+      {
+        "frage": "Wie lange gibt es Ersatzteile für Honeywell-Filter und -Druckminderer, und welche Garantie gibt Resideo?",
+        "antwort": "Auf die bleifreien Braukmann-Trinkwasserfilter gibt Resideo fünf Jahre Garantie nach der eigenen Garantieerklärung. Eine Frist für Ersatzteile nennt Resideo nicht, der Ersatzteilkatalog 2022/23 führt aber Teile für F76S, HS10S und FF06 ab Baujahr 1997 und für den Druckminderer D22 ab 1968. Viele Teile gelten über Baureihen hinweg, etwa der Filtereinsatz AF11S-1A.",
+        "kategorie": "verfuegbarkeit",
+        "quellen": [
+          "https://infomaterial.resideo.com/fileadmin/publications/DE3H-9010GE23_Bleifreie_Trinkwasserfilter_DE_web.pdf",
+          "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf",
+          "https://documents.pdod.de/resideo/rddb14918.pdf"
+        ],
+        "teile": [
+          "resideo-filtereinsatz-af11s-1a"
+        ],
+        "problem": null
+      }
+    ],
+    "tabellen": [
+      {
+        "id": "filtereinsatz",
+        "titel": "Welcher Filtereinsatz oder welches Sieb passt?",
+        "spalten": [
+          "Gerät",
+          "Baureihe",
+          "Nennweite",
+          "Einsatz (100 µm)"
+        ],
+        "zeilen": [
+          [
+            "F76S, HS10S ohne Double Spin",
+            "ab 2007",
+            "½ und ¾ Zoll",
+            "AF11S-1/2A"
+          ],
+          [
+            "F76S, HS10S ohne Double Spin",
+            "ab 2007",
+            "1 und 1¼ Zoll",
+            "AF11S-1A"
+          ],
+          [
+            "F76S, HS10S mit Double Spin",
+            "ab 2007",
+            "½ und ¾ Zoll",
+            "AF11DS-1/2A"
+          ],
+          [
+            "F76S, HS10S mit Double Spin",
+            "ab 2007",
+            "1 und 1¼ Zoll",
+            "AF11DS-1A"
+          ],
+          [
+            "F76S, HS10S",
+            "1997–2006",
+            "½ bis 1¼ Zoll",
+            "AF11S-1A"
+          ],
+          [
+            "F76S, HS10S",
+            "alle",
+            "1½ und 2 Zoll",
+            "AF11S-11/2A"
+          ],
+          [
+            "FKN76CS, FN76CS",
+            "ab 2007",
+            "¾ bis 1¼ Zoll",
+            "AF11DS-1A"
+          ],
+          [
+            "FKN76CS, FN76CS",
+            "1997–2006",
+            "¾ bis 1¼ Zoll",
+            "AF11S-1A"
+          ],
+          [
+            "FN09S (FK09S)",
+            "ab 1997",
+            "½ bis 1¼ Zoll",
+            "AF11S-1A"
+          ],
+          [
+            "Primus FKN74C, FN74C",
+            "1995–2011",
+            "¾ bis 1¼ Zoll",
+            "AF74-1A"
+          ],
+          [
+            "Primus-Plus FKN74CS, FN74CS",
+            "ab 2012",
+            "bis 1¼ Zoll",
+            "AF74-1A"
+          ],
+          [
+            "Primus-Plus FK74CS, F74CS",
+            "ab 2012",
+            "1½ und 2 Zoll",
+            "AF11S-11/2A"
+          ],
+          [
+            "MiniPlus FK06",
+            "ab 2002",
+            "½ und ¾ Zoll",
+            "Sieb AS06-1/2A (5 Stück)"
+          ],
+          [
+            "MiniPlus FK06",
+            "ab 2002",
+            "1 und 1¼ Zoll",
+            "Sieb AS06-1A (5 Stück)"
+          ],
+          [
+            "MiniPlus FF06",
+            "ab 1997",
+            "½ Zoll",
+            "Sieb AS06-1/2A (5 Stück)"
+          ],
+          [
+            "MiniPlus FF06",
+            "ab 1997",
+            "¾ bis 1¼ Zoll",
+            "Sieb AS06-1A (5 Stück)"
+          ],
+          [
+            "Druckminderer D06F, D06F-LF, D06FI",
+            "ab 1997",
+            "½ und ¾ Zoll",
+            "Sieb ES06F-1/2A"
+          ],
+          [
+            "Druckminderer D06F, D06F-LF, D06FI",
+            "ab 1997",
+            "1 und 1¼ Zoll",
+            "Sieb ES06F-1B"
+          ]
+        ],
+        "hinweis": "Der letzte Buchstabe ist die Filterfeinheit: A 100 µm, B 20 µm, C 50 µm, D 200 µm, E 300 µm, F 500 µm. AF11S-1C ist also der 50-µm-Einsatz für 1 und 1¼ Zoll. Die Filterführung liegt nur den AF11S- und AF11DS-Einsätzen von ½ bis 1¼ Zoll bei. Double Spin erkennst du am Rotor, der sich beim Rückspülen in der Tasse dreht."
+      },
+      {
+        "id": "druckminderer-einsatz",
+        "titel": "Welcher Ventileinsatz passt in den Druckminderer?",
+        "spalten": [
+          "Gerät",
+          "Nennweite",
+          "Ventileinsatz"
+        ],
+        "zeilen": [
+          [
+            "D06F, D06FH, HS10S, MiniPlus FK06",
+            "½ und ¾ Zoll",
+            "D06FA-1/2"
+          ],
+          [
+            "HS10S, FKN76CS, D06FH",
+            "1 und 1¼ Zoll",
+            "D06FA-1A"
+          ],
+          [
+            "D06F, MiniPlus FK06, Primus FKN74C und FKN74CS, PrimusCenter DWC7000",
+            "1 und 1¼ Zoll",
+            "D06FA-1B"
+          ],
+          [
+            "D06F, D06FH, HS10S",
+            "1½ und 2 Zoll",
+            "D06FA-11/2"
+          ],
+          [
+            "D06F-LF, bleifrei ab 2020",
+            "½ und ¾ Zoll",
+            "D06FA-1/2LF"
+          ],
+          [
+            "D06F-LF, bleifrei ab 2020",
+            "1 und 1¼ Zoll",
+            "D06FA-1LF"
+          ],
+          [
+            "D06FN (grauer Griff)",
+            "½ und ¾ Zoll",
+            "D06FNA-1/2"
+          ],
+          [
+            "D06FN (grauer Griff)",
+            "1 und 1¼ Zoll",
+            "D06FNA-1"
+          ],
+          [
+            "D06FI",
+            "½ und ¾ Zoll",
+            "D06FI-1/2"
+          ],
+          [
+            "D06FI",
+            "1 und 1¼ Zoll",
+            "D06FI-1"
+          ],
+          [
+            "D05FS",
+            "½ bis 1 Zoll",
+            "D05FA-1/2B"
+          ],
+          [
+            "D05FT (ab 2010)",
+            "½ bis 1 Zoll",
+            "D05FA-1/2T"
+          ]
+        ],
+        "hinweis": "Gemeint ist der Ventileinsatz komplett, ohne Sieb. Die Membran gehört zum Einsatz. Tritt Wasser aus der Federhaube aus, wird der ganze Einsatz getauscht. Der Griff des D06F ist grün, der des D06FH rot, der des D06FN grau."
+      }
+    ]
+  },
+  "serien": [
+    {
+      "slug": "hs10s-ab-2007",
+      "name": "Honeywell Hauswasserstation HS10S (Baureihe ab 2007)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": 2007,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "HS10S",
+        "HS10S-3/4AA",
+        "HS10S-1AA",
+        "HS10S-11/4AA",
+        "HS10S-1LFAA",
+        "HS10S-ZS"
+      ],
+      "erkennungsmerkmale": "Ein Gerät mit vier Funktionen hintereinander: Rückflussverhinderer mit Prüfventil, rückspülbarer Feinfilter mit Klarsicht-Tasse unten, Druckminderer mit Federhaube und Einstellskala oben, dazu ein Absperrkugelhahn. Unter der Tasse sitzt der Ablauftrichter für das Rückspülwasser. Gibt es die Version mit Double Spin, dreht sich beim Rückspülen sichtbar ein Rotor in der Tasse.",
+      "beschreibung": "Die HS10S ist die häufigste Resideo-Hauswasserstation, zu haben von ¾ bis 2 Zoll. In der Baureihe ab 2007 hängt der Filtereinsatz an der Nennweite und daran, ob das Gerät Double Spin hat: ohne Double Spin AF11S-1/2A (½ und ¾ Zoll) oder AF11S-1A (1 und 1¼ Zoll), mit Double Spin AF11DS. Der Ventileinsatz des Druckminderers ist D06FA-1/2 bzw. D06FA-1A. Seit 2025 gibt es die bleifreie HS10S-LF; sie nimmt dieselben Filtereinsätze, aber die Klarsicht-Tasse KF11S-1LFA.",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://documents.pdod.de/resideo/rddb14918.pdf",
+        "https://documents.pdod.de/resideo/rdma14697.pdf"
+      ]
+    },
+    {
+      "slug": "hs10s-1997-2006",
+      "name": "Honeywell Hauswasserstation HS10S (Baureihe 1997–2006)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": 1997,
+      "baujahr_bis": 2006,
+      "kennnummern": [
+        "HS10S",
+        "HS10S-3/4AA",
+        "HS10S-1AA",
+        "HS10S-11/4AA"
+      ],
+      "erkennungsmerkmale": "Aufbau wie die neuere HS10S mit Rückflussverhinderer, Klarsicht-Filtertasse unten und Druckminderer oben, aber ohne Double-Spin-Rotor in der Tasse.",
+      "beschreibung": "Für die ältere HS10S führt Resideo eine eigene Teileliste. Der wichtigste Unterschied zur Baureihe ab 2007: Bei ½ und ¾ Zoll passt hier der Filtereinsatz AF11S-1A, nicht AF11S-1/2A. Den Einsatz gibt es außer in 100 µm auch mit 20, 50, 200, 300 und 500 µm. Ventileinsatz, Klarsicht-Tasse KF11S-1A und Rückflussverhinderer sind dieselben wie bei der neuen Baureihe.",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12"
+      ]
+    },
+    {
+      "slug": "fkn76cs-ab-2007",
+      "name": "Honeywell Nachrüst-Filterkombination FKN76CS (Baureihe ab 2007)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": 2007,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "FKN76CS",
+        "FKN76CS-1AA"
+      ],
+      "erkennungsmerkmale": "Filter und Druckminderer ohne eigene Anschlussverschraubungen: Das Gerät sitzt mit Flanschdichtung auf einem vorhandenen Anschlussflansch. Klarsicht-Tasse und Rückspül-Kugelhahn wie beim F76S, Manometer M07M.",
+      "beschreibung": "Die FKN76CS wird auf einen vorhandenen Flansch gesetzt, etwa beim Austausch eines älteren Filters. In der Baureihe ab 2007 passen nur die Double-Spin-Einsätze AF11DS-1A (¾ bis 1¼ Zoll, 20 bis 500 µm). Der Ventileinsatz ist D06FA-1A, die Flanschdichtung 5536400.",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14"
+      ]
+    },
+    {
+      "slug": "fkn76cs-1997-2006",
+      "name": "Honeywell Nachrüst-Filterkombination FKN76CS (Baureihe 1997–2006)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": 1997,
+      "baujahr_bis": 2006,
+      "kennnummern": [
+        "FKN76CS",
+        "FKN76CS-1AA"
+      ],
+      "erkennungsmerkmale": "Wie die neuere FKN76CS auf einem Anschlussflansch montiert, aber ohne Double-Spin-Rotor in der Tasse.",
+      "beschreibung": "Bei der älteren FKN76CS passt der normale Filtereinsatz AF11S-1A (¾ bis 1¼ Zoll), nicht der Double-Spin-Einsatz. Ventileinsatz D06FA-1A, Klarsicht-Tasse KF11S-1A und O-Ring-Satz 0900747 sind dieselben wie bei der neuen Baureihe.",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=15"
+      ]
+    },
+    {
+      "slug": "fkn74cs-primus-plus",
+      "name": "Honeywell Filterkombination Primus-Plus FKN74CS (ab 2012)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": 2012,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "FKN74CS",
+        "FK74CS",
+        "Primus-Plus-FK",
+        "FK74CS-1LFAA"
+      ],
+      "erkennungsmerkmale": "Kompakte Filterkombination der Primus-Reihe mit eigener Klarsicht-Tasse KF74CS, Manometer hinten am Gehäuse und Rückspülung über einen Knopf vorne am Kugelhahn.",
+      "beschreibung": "Die Primus-Plus-Geräte haben eigene Teile, die nicht mit F76S und HS10S tauschbar sind: Filtereinsatz AF74-1A (100 µm, auch 50 und 200 µm), Klarsicht-Tasse KF74CS-1A, O-Ring-Satz OR74CS-10 und Schlüssel ZR74CS. Der Ventileinsatz ist D06FA-1B. Die Größen 1½ und 2 Zoll nehmen dagegen den Filtereinsatz AF11S-11/2A.",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=16",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=17"
+      ]
+    },
+    {
+      "slug": "fk06-miniplus",
+      "name": "Honeywell Filterkombination MiniPlus FK06 (ab 2002)",
+      "produkttyp": "hauswasserstation",
+      "baujahr_von": 2002,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "FK06",
+        "MiniPlus-FK",
+        "FK06-1/2AA",
+        "FK06-3/4AA",
+        "FK06-1AA",
+        "FK06-AAM"
+      ],
+      "erkennungsmerkmale": "Kleiner Filter mit Druckminderer, Klarsicht-Tasse mit Stützkörper und Edelstahlsieb, unten ein kleiner Kugelhahn. Es gibt keine Rückspülung: Über den Kugelhahn wird der Schmutz vom Boden der Tasse ausgespült.",
+      "beschreibung": "Bei der MiniPlus FK06 wird das Sieb nicht rückgespült, sondern bei Bedarf getauscht. Das Ersatzsieb AS06 kommt im Fünferpack (100 µm): AS06-1/2A für ½ und ¾ Zoll, AS06-1A für 1 und 1¼ Zoll. Der Ventileinsatz ist D06FA-1/2 bzw. D06FA-1B. Resideo empfiehlt, vor die FK06 einen Rückflussverhinderer zu setzen.",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+        "https://documents.pdod.de/resideo/rddb14255.pdf",
+        "https://documents.pdod.de/resideo/rdma14256.pdf"
+      ]
+    },
+    {
+      "slug": "f76s-ab-2007",
+      "name": "Honeywell Rückspülfilter F76S (Baureihe ab 2007)",
+      "produkttyp": "rueckspuelfilter",
+      "baujahr_von": 2007,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "F76S",
+        "F76S-1/2AA",
+        "F76S-3/4AA",
+        "F76S-1AA",
+        "F76S-11/4AA",
+        "F76S-1AAM"
+      ],
+      "erkennungsmerkmale": "Feinfilter ohne Druckminderer: oben das Messinggehäuse mit Manometer, unten die Klarsicht- oder Rotguss-Tasse, darunter Rückspül-Kugelhahn und Ablauftrichter. Bei Double Spin dreht sich beim Rückspülen ein Rotor in der Tasse.",
+      "beschreibung": "Der F76S ist der Rückspülfilter von Resideo für ½ bis 2 Zoll. Ab 2007 gibt es ihn mit und ohne Double Spin. Ohne Double Spin passt AF11S-1/2A (½ und ¾ Zoll) oder AF11S-1A (1 und 1¼ Zoll), mit Double Spin AF11DS-1/2A bzw. AF11DS-1A. Klarsicht-Tasse KF11S-1A, O-Ring-Satz 0900747 und Kugelhahn KH11S-1LFA teilt er mit der HS10S.",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20"
+      ]
+    },
+    {
+      "slug": "f76s-1997-2006",
+      "name": "Honeywell Rückspülfilter F76S (Baureihe 1997–2006)",
+      "produkttyp": "rueckspuelfilter",
+      "baujahr_von": 1997,
+      "baujahr_bis": 2006,
+      "kennnummern": [
+        "F76S",
+        "F76S-1/2AA",
+        "F76S-3/4AA",
+        "F76S-1AA",
+        "F76S-11/4AA"
+      ],
+      "erkennungsmerkmale": "Aufbau wie der neuere F76S, ohne Double-Spin-Rotor.",
+      "beschreibung": "Beim älteren F76S passt für alle Größen von ½ bis 1¼ Zoll derselbe Filtereinsatz AF11S-1A, auch mit 20, 50, 200, 300 oder 500 µm (letzter Buchstabe B bis F). Tasse, O-Ringe und Kugelhahn sind dieselben wie bei der Baureihe ab 2007.",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21"
+      ]
+    },
+    {
+      "slug": "fn74cs-primus-plus",
+      "name": "Honeywell Feinfilter Primus-Plus FN74CS (ab 2012)",
+      "produkttyp": "rueckspuelfilter",
+      "baujahr_von": 2012,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "FN74CS",
+        "F74CS",
+        "Primus-Plus-F",
+        "F74CS-1LFAA"
+      ],
+      "erkennungsmerkmale": "Rückspülfilter der Primus-Reihe ohne Druckminderer, mit Klarsicht-Tasse KF74CS und Manometer hinten am Gehäuse.",
+      "beschreibung": "Teile wie bei der Filterkombination FKN74CS: Filtereinsatz AF74-1A, Klarsicht-Tasse KF74CS-1A, O-Ring-Satz OR74CS-10, Schlüssel ZR74CS. Mit dem Druckminderer D06FR-1A lässt sich der Filter zur Filterkombination nachrüsten. Die älteren Primus FN74C und FKN74C (1995 bis 2011) nehmen denselben Einsatz AF74-1A, aber die Tasse KF74-1A.",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=24",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=26"
+      ]
+    },
+    {
+      "slug": "ff06-miniplus",
+      "name": "Honeywell Feinfilter MiniPlus FF06 (ab 1997)",
+      "produkttyp": "rueckspuelfilter",
+      "baujahr_von": 1997,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "FF06",
+        "MiniPlus-FF",
+        "FF06-1/2AA",
+        "FF06-3/4AA",
+        "FF06-1AA"
+      ],
+      "erkennungsmerkmale": "Kleiner Feinfilter ohne Druckminderer mit Klarsicht-Tasse, Stützkörper und Edelstahlsieb. Er wird nicht rückgespült, sondern das Sieb wird gereinigt oder getauscht.",
+      "beschreibung": "Der FF06 teilt Tasse, Sieb und O-Ringe mit der Filterkombination FK06, die Größen sind aber anders aufgeteilt: Bei ½ Zoll passen KF06-1/2A und das Ersatzsieb AS06-1/2A, bei ¾ bis 1¼ Zoll KF06-1A und AS06-1A.",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31"
+      ]
+    },
+    {
+      "slug": "d06f",
+      "name": "Honeywell Braukmann Druckminderer D06F (ab 1997)",
+      "produkttyp": "druckminderer",
+      "baujahr_von": 1997,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "D06F",
+        "D06F-1/2A",
+        "D06F-3/4A",
+        "D06F-1A",
+        "D06F-11/4A",
+        "D06F-1/2B",
+        "D06F-3/4B"
+      ],
+      "erkennungsmerkmale": "Grüner Verstellgriff mit Einstellskala, darunter das Messinggehäuse und unten eine Siebtasse aus Klarsicht-Kunststoff oder Messing. Ein roter Griff gehört zum D06FH, ein grauer zum D06FN; beide haben teils andere Ventileinsätze.",
+      "beschreibung": "Der D06F ist der Standard-Druckminderer von Resideo, ab Werk auf 3 bar eingestellt, Hinterdruck 1,5 bis 6 bar. Ersatzteile nach Nennweite: Ventileinsatz D06FA-1/2 (½ und ¾ Zoll) oder D06FA-1B (1 und 1¼ Zoll), Ersatzsieb ES06F-1/2A bzw. ES06F-1B, Klarsicht-Siebtasse SK06T. Für den bleifreien D06F-LF ab 2020 gelten andere Ventileinsätze.",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+        "https://documents.pdod.de/resideo/rdma14756.pdf"
+      ]
+    },
+    {
+      "slug": "d06f-lf-ab-2020",
+      "name": "Honeywell Braukmann Druckminderer D06F-LF, bleifrei (ab 2020)",
+      "produkttyp": "druckminderer",
+      "baujahr_von": 2020,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "D06F-LF",
+        "D06F-1/2LFA",
+        "D06F-3/4LFA",
+        "D06F-1LFA",
+        "D06F-11/4LFA",
+        "D06F-1/2LFB"
+      ],
+      "erkennungsmerkmale": "Sieht aus wie der D06F, trägt aber LF (bleifrei) in der Typbezeichnung, etwa D06F-3/4LFA.",
+      "beschreibung": "Die bleifreie Ausführung des D06F nimmt eigene Ventileinsätze: D06FA-1/2LF für ½ und ¾ Zoll, D06FA-1LF für 1 und 1¼ Zoll. Sieb, Siebtasse, O-Ringe und Federhaube sind dieselben wie beim D06F. Zum Lösen von Federhaube und Siebtasse gehört der Doppelringschlüssel ZR06K.",
+      "quellen": [
+        "https://documents.pdod.de/resideo/rddb14851.pdf"
+      ]
+    },
+    {
+      "slug": "d05fs",
+      "name": "Honeywell Braukmann Druckminderer D05FS",
+      "produkttyp": "druckminderer",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "D05FS",
+        "D05FS-1/2A",
+        "D05FS-3/4A",
+        "D05FS-1A"
+      ],
+      "erkennungsmerkmale": "Druckminderer mit Federhaube und Manometeranschluss, aber ohne Siebtasse; das Sieb sitzt innen im Gehäuse.",
+      "beschreibung": "Für den D05FS von ½ bis 1 Zoll gibt es den Ventileinsatz D05FA-1/2B und das Ersatzsieb ES05F-1/2A. Der neuere D05FT (ab 2010) sieht ähnlich aus, braucht aber den Ventileinsatz D05FA-1/2T.",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=42",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=43"
+      ]
+    }
+  ],
+  "teile": [
+    {
+      "slug": "resideo-filtereinsatz-af11s-1-2a",
+      "name": "Honeywell Filtereinsatz 100 µm, ½–¾ Zoll (AF11S-1/2A)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "AF11S-1/2A",
+      "ean": null,
+      "masse": {
+        "nennweite": "½–¾ Zoll (DN 15–20)",
+        "maschenweite_um": 100
+      },
+      "beschreibung": "Kompletter Filtereinsatz mit Edelstahlsieb für F76S und HS10S der Baureihe ab 2007 in ½ und ¾ Zoll, Geräte ohne Double Spin. In die ältere Baureihe 1997–2006 gehört stattdessen AF11S-1A. Die Filterführung liegt bei.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR10K in der passenden Größe, Auffanggefäß. Neue Tasse nur von Hand anziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+        "https://documents.pdod.de/resideo/rddb14918.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-filtereinsatz-af11s-1a",
+      "name": "Honeywell Filtereinsatz 100 µm, 1–1¼ Zoll (AF11S-1A)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "AF11S-1A",
+      "ean": null,
+      "masse": {
+        "nennweite": "1–1¼ Zoll (DN 25–32), ältere Baureihe ½–1¼ Zoll",
+        "maschenweite_um": 100
+      },
+      "beschreibung": "Der meistgebrauchte Resideo-Filtereinsatz: in der Baureihe ab 2007 für F76S und HS10S in 1 und 1¼ Zoll, in der Baureihe 1997–2006 für alle Größen von ½ bis 1¼ Zoll, dazu FKN76CS, FN76CS (bis 2006) und FN09S. Bei Geräten mit Double Spin passt AF11DS-1A. Die Filterführung liegt bei.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR10K in der passenden Größe, Auffanggefäß. Neue Tasse nur von Hand anziehen.",
+      "amazon_asin": "B004IR8AVC",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=15",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=28",
+        "https://www.amazon.de/dp/B004IR8AVC"
+      ]
+    },
+    {
+      "slug": "resideo-filtereinsatz-af11ds-1-2a",
+      "name": "Honeywell Filtereinsatz Double Spin 100 µm, ½–¾ Zoll (AF11DS-1/2A)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "AF11DS-1/2A",
+      "ean": null,
+      "masse": {
+        "nennweite": "½–¾ Zoll (DN 15–20)",
+        "maschenweite_um": 100
+      },
+      "beschreibung": "Filtereinsatz für F76S und HS10S mit Double Spin (Baureihe ab 2007) in ½ und ¾ Zoll. Den Double-Spin-Filter erkennst du am Rotor, der sich beim Rückspülen sichtbar dreht.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR10K in der passenden Größe, Auffanggefäß. Neue Tasse nur von Hand anziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+        "https://documents.pdod.de/resideo/rddb14918.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-filtereinsatz-af11ds-1a",
+      "name": "Honeywell Filtereinsatz Double Spin 100 µm, 1–1¼ Zoll (AF11DS-1A)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "AF11DS-1A",
+      "ean": null,
+      "masse": {
+        "nennweite": "1–1¼ Zoll (DN 25–32)",
+        "maschenweite_um": 100
+      },
+      "beschreibung": "Filtereinsatz für Geräte mit Double Spin in 1 und 1¼ Zoll: F76S und HS10S ab 2007, dazu die Nachrüst-Filterkombination FKN76CS und der FN76CS ab 2007 (dort ¾ bis 1¼ Zoll). Für FKN76CS und FN76CS ab 2007 führt Resideo nur die AF11DS-Einsätze.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR10K in der passenden Größe, Auffanggefäß. Neue Tasse nur von Hand anziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=22",
+        "https://documents.pdod.de/resideo/rddb14918.pdf",
+        "https://www.manomano.de/p/honeywell-filtereinsatz-500-m-fuer-hs10-f76-mit-double-spin-technologie-1-und-1-1-4-af11ds-1f-5472606"
+      ]
+    },
+    {
+      "slug": "resideo-filtereinsatz-af74-1a",
+      "name": "Honeywell Filtereinsatz Primus 100 µm (AF74-1A)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "AF74-1A",
+      "ean": null,
+      "masse": {
+        "nennweite": "bis 1¼ Zoll",
+        "maschenweite_um": 100
+      },
+      "beschreibung": "Filtereinsatz für die Primus-Geräte bis 1¼ Zoll: Primus-Plus FKN74CS und FN74CS (ab 2012), die älteren Primus FKN74C und FN74C (1995–2011) und das PrimusCenter DWC7000. Passt nicht in F76S oder HS10S. Auch mit 50 µm (AF74-1C) und 200 µm (AF74-1D).",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Schlüssel ZR74CS, Auffanggefäß.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=10",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=16",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=18",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=24",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=26",
+        "https://www.testberichte.de/heimwerkerbedarf/honeywell-filtereinsatz-af74-1-a.html"
+      ]
+    },
+    {
+      "slug": "resideo-ersatzsieb-as06-1-2a",
+      "name": "Honeywell Ersatzsieb 100 µm für MiniPlus, 5 Stück, ½–¾ Zoll (AS06-1/2A)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "AS06-1/2A",
+      "ean": null,
+      "masse": {
+        "nennweite": "FK06 ½–¾ Zoll, FF06 ½ Zoll",
+        "maschenweite_um": 100,
+        "stueck": 5
+      },
+      "beschreibung": "Edelstahlsieb für die Klarsicht-Tasse der MiniPlus-Geräte: FK06 in ½ und ¾ Zoll, FF06 nur in ½ Zoll. Fünf Stück im Satz.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR06F, Auffanggefäß. Tasse von Hand anziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+        "https://documents.pdod.de/resideo/rddb14255.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-ersatzsieb-as06-1a",
+      "name": "Honeywell Ersatzsieb 100 µm für MiniPlus, 5 Stück, 1–1¼ Zoll (AS06-1A)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "AS06-1A",
+      "ean": null,
+      "masse": {
+        "nennweite": "FK06 1–1¼ Zoll, FF06 ¾–1¼ Zoll",
+        "maschenweite_um": 100,
+        "stueck": 5
+      },
+      "beschreibung": "Edelstahlsieb für die Klarsicht-Tasse der MiniPlus-Geräte: FK06 in 1 und 1¼ Zoll, FF06 in ¾ bis 1¼ Zoll. Fünf Stück im Satz. Resideo empfiehlt, ein verschmutztes Sieb durch ein neues zu ersetzen.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR06F, Auffanggefäß. Tasse von Hand anziehen.",
+      "amazon_asin": "B0017V0NUS",
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+        "https://documents.pdod.de/resideo/rddb14255.pdf",
+        "https://documents.pdod.de/resideo/rdma14256.pdf",
+        "https://www.amazon.de/dp/B0017V0NUS"
+      ]
+    },
+    {
+      "slug": "resideo-ersatzsieb-es06f-1-2a",
+      "name": "Honeywell Ersatzsieb für Druckminderer D06F, ½–¾ Zoll (ES06F-1/2A)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "ES06F-1/2A",
+      "ean": null,
+      "masse": {
+        "nennweite": "½–¾ Zoll",
+        "maschenweite_mm": 0.16
+      },
+      "beschreibung": "Feinsieb aus Edelstahl (0,16 mm Maschenweite) in der Siebtasse des Druckminderers D06F, D06F-LF, D06FI, D06FH und D06FN in ½ und ¾ Zoll.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR06K",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=39",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=40",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=41",
+        "https://documents.pdod.de/resideo/rddb14851.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-ersatzsieb-es06f-1b",
+      "name": "Honeywell Ersatzsieb für Druckminderer D06F, 1–1¼ Zoll (ES06F-1B)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "ES06F-1B",
+      "ean": null,
+      "masse": {
+        "nennweite": "1–1¼ Zoll",
+        "maschenweite_mm": 0.16
+      },
+      "beschreibung": "Feinsieb für D06F, D06F-LF und D06FI in 1 und 1¼ Zoll. Der D06FH und der D06FN nehmen in dieser Größe ES06F-1A.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR06K",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=41",
+        "https://documents.pdod.de/resideo/rddb14851.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-ersatzsieb-es05f-1-2a",
+      "name": "Honeywell Ersatzsieb für Druckminderer D05FS/D05FT, ½–1 Zoll (ES05F-1/2A)",
+      "teiltyp": "filtereinsatz",
+      "oem_nummer": "ES05F-1/2A",
+      "ean": null,
+      "masse": {
+        "nennweite": "½–1 Zoll"
+      },
+      "beschreibung": "Sieb für die Druckminderer D05FS und D05FT von ½ bis 1 Zoll.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=42",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=43"
+      ]
+    },
+    {
+      "slug": "resideo-klarsicht-filtertasse-kf11s-1a",
+      "name": "Honeywell Klarsicht-Filtertasse komplett, ½–1¼ Zoll (KF11S-1A)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "KF11S-1A",
+      "ean": null,
+      "masse": {
+        "nennweite": "½–1¼ Zoll"
+      },
+      "beschreibung": "Klarsicht-Tasse für F76S, HS10S, FKN76CS, FN76CS und FN09S von ½ bis 1¼ Zoll, beide Baureihen. Für die bleifreie HS10S-LF ab 2025 führt Resideo die Tasse KF11S-1LFA. Tasse und Kunststoffteile nur mit kaltem, klarem Wasser reinigen, andere Reiniger beschädigen den Kunststoff.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR10K in der passenden Größe, Auffanggefäß. Neue Tasse nur von Hand anziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=15",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=28",
+        "https://documents.pdod.de/resideo/rdma14697.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-o-ring-satz-filtertasse-0900747",
+      "name": "Honeywell O-Ring-Satz Filtertasse, 10 Stück, ½–1¼ Zoll (0900747)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "0900747",
+      "ean": null,
+      "masse": {
+        "nennweite": "½–1¼ Zoll",
+        "stueck": 10
+      },
+      "beschreibung": "O-Ringe zwischen Filtertasse und Gehäuse bei F76S, HS10S, FKN76CS, FN76CS und FN09S von ½ bis 1¼ Zoll. Beim Wiedereinbau der Tasse kommt laut Resideo-Anleitung ein O-Ring auf die Tasse.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR10K in der passenden Größe, Auffanggefäß. Neue Tasse nur von Hand anziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=15",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21",
+        "https://documents.pdod.de/resideo/rdma14697.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-doppelringschluessel-zr10k-3-4",
+      "name": "Honeywell Doppelringschlüssel für Filtertasse und Federhaube, ½–¾ Zoll (ZR10K-3/4)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "ZR10K-3/4",
+      "ean": null,
+      "masse": {
+        "nennweite": "½–¾ Zoll"
+      },
+      "beschreibung": "Schlüssel zum Lösen von Filtertasse und Federhaube bei F76S und HS10S in ½ und ¾ Zoll, außerdem für die Tasse der älteren Primus FN74C und FKN74C.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": null,
+      "schwierigkeit": null,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=18",
+        "https://documents.pdod.de/resideo/rddb14918.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-doppelringschluessel-zr10k-1",
+      "name": "Honeywell Doppelringschlüssel für Filtertasse und Federhaube, 1–1¼ Zoll (ZR10K-1)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "ZR10K-1",
+      "ean": null,
+      "masse": {
+        "nennweite": "1–1¼ Zoll"
+      },
+      "beschreibung": "Schlüssel zum Lösen von Filtertasse und Federhaube bei F76S und HS10S in 1 und 1¼ Zoll sowie bei FKN76CS, FN76CS und FN09S.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": null,
+      "schwierigkeit": null,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+        "https://documents.pdod.de/resideo/rddb14918.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-klarsicht-filtertasse-kf74cs-1a",
+      "name": "Honeywell Klarsicht-Filtertasse Primus-Plus (KF74CS-1A)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "KF74CS-1A",
+      "ean": null,
+      "masse": {
+        "nennweite": "bis 1¼ Zoll"
+      },
+      "beschreibung": "Klarsicht-Tasse für die Primus-Plus-Geräte FKN74CS und FN74CS bis 1¼ Zoll sowie das PrimusCenter DWC7000. Die älteren Primus FN74C und FKN74C haben die Tasse KF74-1A.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Schlüssel ZR74CS",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=10",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=16",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=24"
+      ]
+    },
+    {
+      "slug": "resideo-o-ring-satz-filtertasse-or74cs-10",
+      "name": "Honeywell O-Ring-Satz Filtertasse Primus-Plus, 10 Stück (OR74CS-10)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "OR74CS-10",
+      "ean": null,
+      "masse": {
+        "stueck": 10
+      },
+      "beschreibung": "O-Ringe für die Filtertasse der Primus-Plus FKN74CS und FN74CS.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Schlüssel ZR74CS",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=16",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=24"
+      ]
+    },
+    {
+      "slug": "resideo-schluessel-zr74cs",
+      "name": "Honeywell Schlüssel für Filtertasse und Federhaube Primus-Plus (ZR74CS)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "ZR74CS",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Schlüssel zum Lösen von Filtertasse und Federhaube bei FKN74CS und FN74CS.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": null,
+      "schwierigkeit": null,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=16",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=24"
+      ]
+    },
+    {
+      "slug": "resideo-klarsicht-filtertasse-kf06-1-2a",
+      "name": "Honeywell Klarsicht-Filtertasse MiniPlus mit Sieb, ½–¾ Zoll (KF06-1/2A)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "KF06-1/2A",
+      "ean": null,
+      "masse": {
+        "nennweite": "FK06 ½–¾ Zoll, FF06 ½ Zoll"
+      },
+      "beschreibung": "Komplette Klarsicht-Tasse mit 100-µm-Sieb und Stützkörper für die FK06 in ½ und ¾ Zoll und den FF06 in ½ Zoll.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR06F, Auffanggefäß. Tasse von Hand anziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+        "https://documents.pdod.de/resideo/rddb14255.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-klarsicht-filtertasse-kf06-1a",
+      "name": "Honeywell Klarsicht-Filtertasse MiniPlus mit Sieb, 1–1¼ Zoll (KF06-1A)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "KF06-1A",
+      "ean": null,
+      "masse": {
+        "nennweite": "FK06 1–1¼ Zoll, FF06 ¾–1¼ Zoll"
+      },
+      "beschreibung": "Komplette Klarsicht-Tasse mit 100-µm-Sieb und Stützkörper für die FK06 in 1 und 1¼ Zoll und den FF06 in ¾ bis 1¼ Zoll.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR06F, Auffanggefäß. Tasse von Hand anziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+        "https://documents.pdod.de/resideo/rddb14255.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-o-ring-satz-0901246",
+      "name": "Honeywell O-Ring-Satz für Filter- und Siebtasse, 10 Stück, ½–¾ Zoll (0901246)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "0901246",
+      "ean": null,
+      "masse": {
+        "nennweite": "½–¾ Zoll",
+        "stueck": 10
+      },
+      "beschreibung": "O-Ringe für die Tasse der MiniPlus FK06 (½ und ¾ Zoll) und des FF06 (½ Zoll) sowie für die Siebtasse der Druckminderer D06F, D06F-LF und D06FI in ½ und ¾ Zoll.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+        "https://documents.pdod.de/resideo/rddb14851.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-o-ring-satz-0901499",
+      "name": "Honeywell O-Ring-Satz für Filter- und Siebtasse, 10 Stück, 1–1¼ Zoll (0901499)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "0901499",
+      "ean": null,
+      "masse": {
+        "nennweite": "1–1¼ Zoll",
+        "stueck": 10
+      },
+      "beschreibung": "O-Ringe für die Tasse der MiniPlus FK06 (1 und 1¼ Zoll) und des FF06 (¾ bis 1¼ Zoll) sowie für die Siebtasse der Druckminderer D06F, D06F-LF und D06FI in 1 und 1¼ Zoll. D06FH und D06FN nehmen in dieser Größe 0901247.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=41",
+        "https://documents.pdod.de/resideo/rddb14851.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-doppelringschluessel-zr06f",
+      "name": "Honeywell Doppelringschlüssel für MiniPlus-Filtertasse (ZR06F)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "ZR06F",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Schlüssel zum Lösen der Filtertasse bei FK06 und FF06 von ½ bis 1¼ Zoll.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": null,
+      "schwierigkeit": null,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+        "https://documents.pdod.de/resideo/rdma14256.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-doppelringschluessel-zr06k",
+      "name": "Honeywell Doppelringschlüssel für Federhaube und Siebtasse D06F (ZR06K)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "ZR06K",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Schlüssel zum Lösen von Federhaube und Siebtasse beim Druckminderer D06F und D06F-LF, bei der FK06 für die Federhaube.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": null,
+      "schwierigkeit": null,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://documents.pdod.de/resideo/rddb14851.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://documents.pdod.de/resideo/rdma14256.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-klarsicht-siebtasse-sk06t-1-2",
+      "name": "Honeywell Klarsicht-Siebtasse mit O-Ring für D06F, ½–¾ Zoll (SK06T-1/2)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "SK06T-1/2",
+      "ean": null,
+      "masse": {
+        "nennweite": "½–¾ Zoll"
+      },
+      "beschreibung": "Klarsicht-Siebtasse für die Druckminderer D06F, D06F-LF und D06FI in ½ und ¾ Zoll. Wo UV-Licht oder Lösungsmitteldämpfe hinkommen, schreibt Resideo die Messing-Siebtasse SM06T vor.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR06K",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=41",
+        "https://documents.pdod.de/resideo/rddb14851.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-klarsicht-siebtasse-sk06t-1b",
+      "name": "Honeywell Klarsicht-Siebtasse mit O-Ring für D06F, 1–1¼ Zoll (SK06T-1B)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "SK06T-1B",
+      "ean": null,
+      "masse": {
+        "nennweite": "1–1¼ Zoll"
+      },
+      "beschreibung": "Klarsicht-Siebtasse für die Druckminderer D06F, D06F-LF und D06FI in 1 und 1¼ Zoll.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR06K",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=41",
+        "https://documents.pdod.de/resideo/rddb14851.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-dichtringsatz-0901444",
+      "name": "Honeywell Dichtringsatz Anschlussverschraubung, 10 Stück (0901444)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "0901444",
+      "ean": null,
+      "masse": {
+        "stueck": 10
+      },
+      "beschreibung": "Dichtringe für die Anschlussverschraubungen: bei HS10S, F76S und FKN74CS für ½ und ¾ Zoll, beim D06F und der FK06 für ¾ Zoll.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=16",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38"
+      ]
+    },
+    {
+      "slug": "resideo-dichtringsatz-0901445",
+      "name": "Honeywell Dichtringsatz Anschlussverschraubung 1 Zoll, 10 Stück (0901445)",
+      "teiltyp": "filtertasse",
+      "oem_nummer": "0901445",
+      "ean": null,
+      "masse": {
+        "nennweite": "1 Zoll",
+        "stueck": 10
+      },
+      "beschreibung": "Dichtringe für die 1-Zoll-Anschlussverschraubungen von HS10S, F76S, FKN74CS, FK06 und D06F.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=16",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38"
+      ]
+    },
+    {
+      "slug": "resideo-ventileinsatz-d06fa-1-2",
+      "name": "Honeywell Ventileinsatz komplett für Druckminderer, ½–¾ Zoll (D06FA-1/2)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "D06FA-1/2",
+      "ean": null,
+      "masse": {
+        "nennweite": "½–¾ Zoll"
+      },
+      "beschreibung": "Ventileinsatz mit Membran, ohne Sieb, für ½ und ¾ Zoll: Druckminderer D06F und D06FH, Hauswasserstation HS10S (alle Baureihen) und MiniPlus FK06. Tritt Wasser aus der Federhaube aus, ist laut Resideo die Membran im Ventileinsatz defekt und der Einsatz wird komplett getauscht.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel (ZR10K bei HS10S und FKN76CS, ZR06K beim D06F), Zange, Manometer zum Einstellen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=39",
+        "https://documents.pdod.de/resideo/rdma14697.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-ventileinsatz-d06fa-1a",
+      "name": "Honeywell Ventileinsatz komplett für HS10S und FKN76CS, 1–1¼ Zoll (D06FA-1A)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "D06FA-1A",
+      "ean": null,
+      "masse": {
+        "nennweite": "1–1¼ Zoll"
+      },
+      "beschreibung": "Ventileinsatz für die Hauswasserstation HS10S, die Nachrüst-Filterkombination FKN76CS und den Druckminderer D06FH in 1 und 1¼ Zoll. Nicht verwechseln mit D06FA-1B für D06F und FK06.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel (ZR10K bei HS10S und FKN76CS, ZR06K beim D06F), Zange, Manometer zum Einstellen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=15",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=39",
+        "https://documents.pdod.de/resideo/rddb14918.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-ventileinsatz-d06fa-1b",
+      "name": "Honeywell Ventileinsatz komplett für D06F und FK06, 1–1¼ Zoll (D06FA-1B)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "D06FA-1B",
+      "ean": null,
+      "masse": {
+        "nennweite": "1–1¼ Zoll"
+      },
+      "beschreibung": "Ventileinsatz für den Druckminderer D06F, die MiniPlus FK06, die Primus-Filterkombinationen FKN74C und FKN74CS und das PrimusCenter DWC7000 in 1 und 1¼ Zoll. Für die HS10S passt D06FA-1A, für den bleifreien D06F-LF D06FA-1LF.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel (ZR10K bei HS10S und FKN76CS, ZR06K beim D06F), Zange, Manometer zum Einstellen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=10",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=16",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=18",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+        "https://documents.pdod.de/resideo/rddb14255.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-ventileinsatz-d06fa-1-2lf",
+      "name": "Honeywell Ventileinsatz bleifrei für D06F-LF, ½–¾ Zoll (D06FA-1/2LF)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "D06FA-1/2LF",
+      "ean": null,
+      "masse": {
+        "nennweite": "½–¾ Zoll"
+      },
+      "beschreibung": "Ventileinsatz für den bleifreien Druckminderer D06F-LF (Baureihe ab 2020) in ½ und ¾ Zoll.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR06K, Zange, Manometer zum Einstellen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://documents.pdod.de/resideo/rddb14851.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-ventileinsatz-d06fa-1lf",
+      "name": "Honeywell Ventileinsatz bleifrei für D06F-LF, 1–1¼ Zoll (D06FA-1LF)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "D06FA-1LF",
+      "ean": null,
+      "masse": {
+        "nennweite": "1–1¼ Zoll"
+      },
+      "beschreibung": "Ventileinsatz für den bleifreien Druckminderer D06F-LF (Baureihe ab 2020) in 1 und 1¼ Zoll.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR06K, Zange, Manometer zum Einstellen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://documents.pdod.de/resideo/rddb14851.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-ventileinsatz-d05fa-1-2b",
+      "name": "Honeywell Ventileinsatz komplett für D05FS, ½–1 Zoll (D05FA-1/2B)",
+      "teiltyp": "druckminderer-einsatz",
+      "oem_nummer": "D05FA-1/2B",
+      "ean": null,
+      "masse": {
+        "nennweite": "½–1 Zoll"
+      },
+      "beschreibung": "Ventileinsatz für den Druckminderer D05FS von ½ bis 1 Zoll. Der D05FT braucht D05FA-1/2T.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=42"
+      ]
+    },
+    {
+      "slug": "resideo-kugelhahn-kh11s-1lfa",
+      "name": "Honeywell Kugelhahn komplett für Rückspülung, bleifrei (KH11S-1LFA)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "KH11S-1LFA",
+      "ean": null,
+      "masse": {
+        "nennweite": "½–2 Zoll"
+      },
+      "beschreibung": "Der Kugelhahn unter der Filtertasse, mit dem rückgespült wird. Passt bei F76S, HS10S, FKN76CS, FN76CS und FN09S von ½ bis 2 Zoll und bei der Primus-Plus 1½–2 Zoll. Resideo schreibt, dass der Kugelhahn bei Tropfenbildung ausgewechselt wird.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": "Doppelringschlüssel ZR10K in der passenden Größe, Auffanggefäß. Neue Tasse nur von Hand anziehen.",
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=17",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+        "https://documents.pdod.de/resideo/rdma14697.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-rueckflussverhinderer-einsatz-2110200",
+      "name": "Honeywell Rückflussverhinderer-Einsatz für HS10S, ¾ Zoll (2110200)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "2110200",
+      "ean": null,
+      "masse": {
+        "nennweite": "¾ Zoll"
+      },
+      "beschreibung": "Rückflussverhinderer der Hauswasserstation HS10S in ¾ Zoll. Tropft beim Öffnen des Prüfventils dauernd Wasser nach, muss er laut Resideo getauscht werden. Beim Einbau auf die Durchflussrichtung achten.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+        "https://documents.pdod.de/resideo/rddb14918.pdf",
+        "https://documents.pdod.de/resideo/rdma14697.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-rueckflussverhinderer-einsatz-2164400",
+      "name": "Honeywell Rückflussverhinderer-Einsatz für HS10S, 1 Zoll (2164400)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "2164400",
+      "ean": null,
+      "masse": {
+        "nennweite": "1 Zoll"
+      },
+      "beschreibung": "Rückflussverhinderer der Hauswasserstation HS10S in 1 Zoll. Für 1¼ Zoll gibt es 2164500, für ½ Zoll 2166200.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+        "https://documents.pdod.de/resideo/rddb14918.pdf",
+        "https://documents.pdod.de/resideo/rdma14697.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-manometer-m39m-a16",
+      "name": "Honeywell Manometer 0–16 bar für F76S (M39M-A16)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "M39M-A16",
+      "ean": null,
+      "masse": {
+        "anzeigebereich_bar": "0–16"
+      },
+      "beschreibung": "Manometer des Rückspülfilters F76S, beide Baureihen.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21"
+      ]
+    },
+    {
+      "slug": "resideo-manometer-m38k-a16",
+      "name": "Honeywell Manometer 0–16 bar für HS10S (M38K-A16)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "M38K-A16",
+      "ean": null,
+      "masse": {
+        "anzeigebereich_bar": "0–16"
+      },
+      "beschreibung": "Manometer der Hauswasserstation HS10S. Für die bleifreie HS10S-LF ab 2025 führt Resideo M38K-LFA16.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+        "https://documents.pdod.de/resideo/rddb14918.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-manometer-m07m-a16",
+      "name": "Honeywell Manometer 0–16 bar, Anschluss hinten G¼ (M07M-A16)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "M07M-A16",
+      "ean": null,
+      "masse": {
+        "anzeigebereich_bar": "0–16",
+        "gehaeuse_mm": 63
+      },
+      "beschreibung": "Manometer mit 63 mm Gehäuse für den Druckminderer D06F und die Filterkombination FKN76CS.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=15",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+        "https://documents.pdod.de/resideo/rddb14851.pdf"
+      ]
+    },
+    {
+      "slug": "resideo-feinfilter-ff06-1aa",
+      "name": "Honeywell Feinfilter MiniPlus FF06-1AA, 1 Zoll (komplettes Gerät)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "FF06-1AA",
+      "ean": null,
+      "masse": {
+        "nennweite": "1 Zoll"
+      },
+      "beschreibung": "Der komplette Feinfilter FF06 in 1 Zoll, falls das alte Gerät ersetzt werden soll. Einbau am Hausanschluss nur durch ein eingetragenes Installationsunternehmen.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B0017V45TI",
+      "quellen": [
+        "https://www.amazon.de/dp/B0017V45TI",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31"
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-ventileinsatz-d06fa-1-2",
+      "hinweis": "½ und ¾ Zoll (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-ventileinsatz-d06fa-1a",
+      "hinweis": "1 und 1¼ Zoll (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-filtereinsatz-af11s-1-2a",
+      "hinweis": "½ und ¾ Zoll, ohne Double Spin (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-filtereinsatz-af11s-1a",
+      "hinweis": "1 und 1¼ Zoll, ohne Double Spin (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-filtereinsatz-af11ds-1-2a",
+      "hinweis": "½ und ¾ Zoll, mit Double Spin (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-filtereinsatz-af11ds-1a",
+      "hinweis": "1 und 1¼ Zoll, mit Double Spin (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-klarsicht-filtertasse-kf11s-1a",
+      "hinweis": "½ bis 1¼ Zoll; HS10S-LF ab 2025: KF11S-1LFA (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-o-ring-satz-filtertasse-0900747",
+      "hinweis": "½ bis 1¼ Zoll (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-kugelhahn-kh11s-1lfa",
+      "hinweis": "alle Größen (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-doppelringschluessel-zr10k-3-4",
+      "hinweis": "½ und ¾ Zoll, für Tasse und Federhaube (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-doppelringschluessel-zr10k-1",
+      "hinweis": "1 und 1¼ Zoll, für Tasse und Federhaube (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-rueckflussverhinderer-einsatz-2110200",
+      "hinweis": "¾ Zoll (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-rueckflussverhinderer-einsatz-2164400",
+      "hinweis": "1 Zoll (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-manometer-m38k-a16",
+      "hinweis": "0–16 bar (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-dichtringsatz-0901444",
+      "hinweis": "½ und ¾ Zoll (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-ab-2007",
+      "teil_slug": "resideo-dichtringsatz-0901445",
+      "hinweis": "1 Zoll (Katalog 1–3)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-1997-2006",
+      "teil_slug": "resideo-ventileinsatz-d06fa-1-2",
+      "hinweis": "½ und ¾ Zoll (Katalog 1–4)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-1997-2006",
+      "teil_slug": "resideo-ventileinsatz-d06fa-1a",
+      "hinweis": "1 und 1¼ Zoll (Katalog 1–4)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-1997-2006",
+      "teil_slug": "resideo-filtereinsatz-af11s-1a",
+      "hinweis": "½ bis 1¼ Zoll, also auch ½ und ¾ Zoll (Katalog 1–4)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-1997-2006",
+      "teil_slug": "resideo-klarsicht-filtertasse-kf11s-1a",
+      "hinweis": "½ bis 1¼ Zoll (Katalog 1–4)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-1997-2006",
+      "teil_slug": "resideo-o-ring-satz-filtertasse-0900747",
+      "hinweis": "½ bis 1¼ Zoll (Katalog 1–4)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-1997-2006",
+      "teil_slug": "resideo-kugelhahn-kh11s-1lfa",
+      "hinweis": "alle Größen (Katalog 1–4)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-1997-2006",
+      "teil_slug": "resideo-doppelringschluessel-zr10k-3-4",
+      "hinweis": "½ und ¾ Zoll (Katalog 1–4)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-1997-2006",
+      "teil_slug": "resideo-doppelringschluessel-zr10k-1",
+      "hinweis": "1 und 1¼ Zoll (Katalog 1–4)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-1997-2006",
+      "teil_slug": "resideo-rueckflussverhinderer-einsatz-2110200",
+      "hinweis": "¾ Zoll (Katalog 1–4)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-1997-2006",
+      "teil_slug": "resideo-rueckflussverhinderer-einsatz-2164400",
+      "hinweis": "1 Zoll (Katalog 1–4)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-1997-2006",
+      "teil_slug": "resideo-manometer-m38k-a16",
+      "hinweis": "0–16 bar (Katalog 1–4)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-1997-2006",
+      "teil_slug": "resideo-dichtringsatz-0901444",
+      "hinweis": "½ und ¾ Zoll (Katalog 1–4)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "hs10s-1997-2006",
+      "teil_slug": "resideo-dichtringsatz-0901445",
+      "hinweis": "1 Zoll (Katalog 1–4)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=12",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn76cs-ab-2007",
+      "teil_slug": "resideo-ventileinsatz-d06fa-1a",
+      "hinweis": "1 und 1¼ Zoll (Katalog 1–6)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn76cs-ab-2007",
+      "teil_slug": "resideo-filtereinsatz-af11ds-1a",
+      "hinweis": "¾ bis 1¼ Zoll, nur Double Spin (Katalog 1–6)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn76cs-ab-2007",
+      "teil_slug": "resideo-klarsicht-filtertasse-kf11s-1a",
+      "hinweis": "¾ bis 1¼ Zoll (Katalog 1–6)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn76cs-ab-2007",
+      "teil_slug": "resideo-o-ring-satz-filtertasse-0900747",
+      "hinweis": "¾ bis 1¼ Zoll (Katalog 1–6)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn76cs-ab-2007",
+      "teil_slug": "resideo-kugelhahn-kh11s-1lfa",
+      "hinweis": "¾ bis 1¼ Zoll (Katalog 1–6)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn76cs-ab-2007",
+      "teil_slug": "resideo-doppelringschluessel-zr10k-1",
+      "hinweis": "¾ bis 1¼ Zoll (Katalog 1–6)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn76cs-ab-2007",
+      "teil_slug": "resideo-manometer-m07m-a16",
+      "hinweis": "0–16 bar (Katalog 1–6)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn76cs-1997-2006",
+      "teil_slug": "resideo-ventileinsatz-d06fa-1a",
+      "hinweis": "1 und 1¼ Zoll (Katalog 1–7)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=15",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn76cs-1997-2006",
+      "teil_slug": "resideo-filtereinsatz-af11s-1a",
+      "hinweis": "¾ bis 1¼ Zoll (Katalog 1–7)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=15",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn76cs-1997-2006",
+      "teil_slug": "resideo-klarsicht-filtertasse-kf11s-1a",
+      "hinweis": "¾ bis 1¼ Zoll (Katalog 1–7)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=15",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn76cs-1997-2006",
+      "teil_slug": "resideo-o-ring-satz-filtertasse-0900747",
+      "hinweis": "¾ bis 1¼ Zoll (Katalog 1–7)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=15",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn76cs-1997-2006",
+      "teil_slug": "resideo-kugelhahn-kh11s-1lfa",
+      "hinweis": "¾ bis 1¼ Zoll (Katalog 1–7)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=15",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn76cs-1997-2006",
+      "teil_slug": "resideo-doppelringschluessel-zr10k-1",
+      "hinweis": "¾ bis 1¼ Zoll (Katalog 1–7)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=15",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn76cs-1997-2006",
+      "teil_slug": "resideo-manometer-m07m-a16",
+      "hinweis": "0–16 bar (Katalog 1–7)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=15",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn74cs-primus-plus",
+      "teil_slug": "resideo-ventileinsatz-d06fa-1b",
+      "hinweis": "bis 1¼ Zoll (Katalog 1–8)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=16",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn74cs-primus-plus",
+      "teil_slug": "resideo-filtereinsatz-af74-1a",
+      "hinweis": "bis 1¼ Zoll, 100 µm (Katalog 1–8)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=16",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn74cs-primus-plus",
+      "teil_slug": "resideo-klarsicht-filtertasse-kf74cs-1a",
+      "hinweis": "bis 1¼ Zoll (Katalog 1–8)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=16",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn74cs-primus-plus",
+      "teil_slug": "resideo-o-ring-satz-filtertasse-or74cs-10",
+      "hinweis": "(Katalog 1–8)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=16",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn74cs-primus-plus",
+      "teil_slug": "resideo-schluessel-zr74cs",
+      "hinweis": "für Tasse und Federhaube (Katalog 1–8)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=16",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn74cs-primus-plus",
+      "teil_slug": "resideo-dichtringsatz-0901444",
+      "hinweis": "½ und ¾ Zoll (Katalog 1–8)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=16",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fkn74cs-primus-plus",
+      "teil_slug": "resideo-dichtringsatz-0901445",
+      "hinweis": "1 Zoll (Katalog 1–8)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=16",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fk06-miniplus",
+      "teil_slug": "resideo-ventileinsatz-d06fa-1-2",
+      "hinweis": "½ und ¾ Zoll (Katalog 1–11)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fk06-miniplus",
+      "teil_slug": "resideo-ventileinsatz-d06fa-1b",
+      "hinweis": "1 und 1¼ Zoll (Katalog 1–11)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fk06-miniplus",
+      "teil_slug": "resideo-ersatzsieb-as06-1-2a",
+      "hinweis": "½ und ¾ Zoll (Katalog 1–11)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fk06-miniplus",
+      "teil_slug": "resideo-ersatzsieb-as06-1a",
+      "hinweis": "1 und 1¼ Zoll (Katalog 1–11)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fk06-miniplus",
+      "teil_slug": "resideo-klarsicht-filtertasse-kf06-1-2a",
+      "hinweis": "½ und ¾ Zoll, mit Sieb und Stützkörper (Katalog 1–11)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fk06-miniplus",
+      "teil_slug": "resideo-klarsicht-filtertasse-kf06-1a",
+      "hinweis": "1 und 1¼ Zoll, mit Sieb und Stützkörper (Katalog 1–11)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fk06-miniplus",
+      "teil_slug": "resideo-o-ring-satz-0901246",
+      "hinweis": "Filtertasse ½ und ¾ Zoll (Katalog 1–11)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fk06-miniplus",
+      "teil_slug": "resideo-o-ring-satz-0901499",
+      "hinweis": "Filtertasse 1 und 1¼ Zoll (Katalog 1–11)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fk06-miniplus",
+      "teil_slug": "resideo-doppelringschluessel-zr06f",
+      "hinweis": "für die Filtertasse (Katalog 1–11)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fk06-miniplus",
+      "teil_slug": "resideo-doppelringschluessel-zr06k",
+      "hinweis": "für die Federhaube (Einbauanleitung FK06)",
+      "quelle_url": "https://documents.pdod.de/resideo/rdma14256.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fk06-miniplus",
+      "teil_slug": "resideo-dichtringsatz-0901444",
+      "hinweis": "¾ Zoll (Katalog 1–11)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fk06-miniplus",
+      "teil_slug": "resideo-dichtringsatz-0901445",
+      "hinweis": "1 Zoll (Katalog 1–11)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-ab-2007",
+      "teil_slug": "resideo-filtereinsatz-af11s-1-2a",
+      "hinweis": "½ und ¾ Zoll, ohne Double Spin (Katalog 1–12)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-ab-2007",
+      "teil_slug": "resideo-filtereinsatz-af11s-1a",
+      "hinweis": "1 und 1¼ Zoll, ohne Double Spin (Katalog 1–12)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-ab-2007",
+      "teil_slug": "resideo-filtereinsatz-af11ds-1-2a",
+      "hinweis": "½ und ¾ Zoll, mit Double Spin (Katalog 1–12)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-ab-2007",
+      "teil_slug": "resideo-filtereinsatz-af11ds-1a",
+      "hinweis": "1 und 1¼ Zoll, mit Double Spin (Katalog 1–12)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-ab-2007",
+      "teil_slug": "resideo-klarsicht-filtertasse-kf11s-1a",
+      "hinweis": "½ bis 1¼ Zoll; Rotguss-Tasse FT09RS-1A (Katalog 1–12)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-ab-2007",
+      "teil_slug": "resideo-o-ring-satz-filtertasse-0900747",
+      "hinweis": "½ bis 1¼ Zoll (Katalog 1–12)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-ab-2007",
+      "teil_slug": "resideo-kugelhahn-kh11s-1lfa",
+      "hinweis": "alle Größen (Katalog 1–12)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-ab-2007",
+      "teil_slug": "resideo-doppelringschluessel-zr10k-3-4",
+      "hinweis": "½ und ¾ Zoll (Katalog 1–12)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-ab-2007",
+      "teil_slug": "resideo-doppelringschluessel-zr10k-1",
+      "hinweis": "1 und 1¼ Zoll (Katalog 1–12)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-ab-2007",
+      "teil_slug": "resideo-manometer-m39m-a16",
+      "hinweis": "0–16 bar (Katalog 1–12)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-ab-2007",
+      "teil_slug": "resideo-dichtringsatz-0901444",
+      "hinweis": "½ und ¾ Zoll (Katalog 1–12)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-ab-2007",
+      "teil_slug": "resideo-dichtringsatz-0901445",
+      "hinweis": "1 Zoll (Katalog 1–12)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-1997-2006",
+      "teil_slug": "resideo-filtereinsatz-af11s-1a",
+      "hinweis": "½ bis 1¼ Zoll, also auch ½ und ¾ Zoll (Katalog 1–13)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-1997-2006",
+      "teil_slug": "resideo-klarsicht-filtertasse-kf11s-1a",
+      "hinweis": "½ bis 1¼ Zoll (Katalog 1–13)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-1997-2006",
+      "teil_slug": "resideo-o-ring-satz-filtertasse-0900747",
+      "hinweis": "½ bis 1¼ Zoll (Katalog 1–13)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-1997-2006",
+      "teil_slug": "resideo-kugelhahn-kh11s-1lfa",
+      "hinweis": "alle Größen (Katalog 1–13)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-1997-2006",
+      "teil_slug": "resideo-doppelringschluessel-zr10k-3-4",
+      "hinweis": "½ und ¾ Zoll (Katalog 1–13)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-1997-2006",
+      "teil_slug": "resideo-doppelringschluessel-zr10k-1",
+      "hinweis": "1 und 1¼ Zoll (Katalog 1–13)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-1997-2006",
+      "teil_slug": "resideo-manometer-m39m-a16",
+      "hinweis": "0–16 bar (Katalog 1–13)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-1997-2006",
+      "teil_slug": "resideo-dichtringsatz-0901444",
+      "hinweis": "½ und ¾ Zoll (Katalog 1–13)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "f76s-1997-2006",
+      "teil_slug": "resideo-dichtringsatz-0901445",
+      "hinweis": "1 Zoll (Katalog 1–13)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=21",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fn74cs-primus-plus",
+      "teil_slug": "resideo-filtereinsatz-af74-1a",
+      "hinweis": "½ bis 1¼ Zoll, 100 µm (Katalog 1–16)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=24",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fn74cs-primus-plus",
+      "teil_slug": "resideo-klarsicht-filtertasse-kf74cs-1a",
+      "hinweis": "½ bis 1¼ Zoll (Katalog 1–16)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=24",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fn74cs-primus-plus",
+      "teil_slug": "resideo-o-ring-satz-filtertasse-or74cs-10",
+      "hinweis": "(Katalog 1–16)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=24",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "fn74cs-primus-plus",
+      "teil_slug": "resideo-schluessel-zr74cs",
+      "hinweis": "(Katalog 1–16)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=24",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ff06-miniplus",
+      "teil_slug": "resideo-ersatzsieb-as06-1-2a",
+      "hinweis": "½ Zoll (Katalog 1–23)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ff06-miniplus",
+      "teil_slug": "resideo-ersatzsieb-as06-1a",
+      "hinweis": "¾ bis 1¼ Zoll (Katalog 1–23)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ff06-miniplus",
+      "teil_slug": "resideo-klarsicht-filtertasse-kf06-1-2a",
+      "hinweis": "½ Zoll (Katalog 1–23)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ff06-miniplus",
+      "teil_slug": "resideo-klarsicht-filtertasse-kf06-1a",
+      "hinweis": "¾ bis 1¼ Zoll (Katalog 1–23)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ff06-miniplus",
+      "teil_slug": "resideo-o-ring-satz-0901246",
+      "hinweis": "½ Zoll (Katalog 1–23)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ff06-miniplus",
+      "teil_slug": "resideo-o-ring-satz-0901499",
+      "hinweis": "¾ bis 1¼ Zoll (Katalog 1–23)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ff06-miniplus",
+      "teil_slug": "resideo-doppelringschluessel-zr06f",
+      "hinweis": "(Katalog 1–23)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=31",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ff06-miniplus",
+      "teil_slug": "resideo-feinfilter-ff06-1aa",
+      "hinweis": "Komplettgerät 1 Zoll als Ersatz für das ganze Gerät",
+      "quelle_url": "https://www.amazon.de/dp/B0017V45TI",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "d06f",
+      "teil_slug": "resideo-ventileinsatz-d06fa-1-2",
+      "hinweis": "½ und ¾ Zoll (Katalog 3–2)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f",
+      "teil_slug": "resideo-ventileinsatz-d06fa-1b",
+      "hinweis": "1 und 1¼ Zoll (Katalog 3–2)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f",
+      "teil_slug": "resideo-ersatzsieb-es06f-1-2a",
+      "hinweis": "½ und ¾ Zoll (Katalog 3–2)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f",
+      "teil_slug": "resideo-ersatzsieb-es06f-1b",
+      "hinweis": "1 und 1¼ Zoll (Katalog 3–2)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f",
+      "teil_slug": "resideo-klarsicht-siebtasse-sk06t-1-2",
+      "hinweis": "½ und ¾ Zoll (Katalog 3–2)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f",
+      "teil_slug": "resideo-klarsicht-siebtasse-sk06t-1b",
+      "hinweis": "1 und 1¼ Zoll (Katalog 3–2)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f",
+      "teil_slug": "resideo-o-ring-satz-0901246",
+      "hinweis": "Siebtasse ½ und ¾ Zoll (Katalog 3–2)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f",
+      "teil_slug": "resideo-o-ring-satz-0901499",
+      "hinweis": "Siebtasse 1 und 1¼ Zoll (Katalog 3–2)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f",
+      "teil_slug": "resideo-manometer-m07m-a16",
+      "hinweis": "0–16 bar (Katalog 3–2)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f",
+      "teil_slug": "resideo-dichtringsatz-0901444",
+      "hinweis": "¾ Zoll (Katalog 3–2)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f",
+      "teil_slug": "resideo-dichtringsatz-0901445",
+      "hinweis": "1 Zoll (Katalog 3–2)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f",
+      "teil_slug": "resideo-doppelringschluessel-zr06k",
+      "hinweis": "für Federhaube und Siebtasse (Einbauanleitung D06F)",
+      "quelle_url": "https://documents.pdod.de/resideo/rdma14756.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f-lf-ab-2020",
+      "teil_slug": "resideo-ventileinsatz-d06fa-1-2lf",
+      "hinweis": "½ und ¾ Zoll (Datenblatt D06F-LF)",
+      "quelle_url": "https://documents.pdod.de/resideo/rddb14851.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f-lf-ab-2020",
+      "teil_slug": "resideo-ventileinsatz-d06fa-1lf",
+      "hinweis": "1 und 1¼ Zoll (Datenblatt D06F-LF)",
+      "quelle_url": "https://documents.pdod.de/resideo/rddb14851.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f-lf-ab-2020",
+      "teil_slug": "resideo-ersatzsieb-es06f-1-2a",
+      "hinweis": "½ und ¾ Zoll (Datenblatt D06F-LF)",
+      "quelle_url": "https://documents.pdod.de/resideo/rddb14851.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f-lf-ab-2020",
+      "teil_slug": "resideo-ersatzsieb-es06f-1b",
+      "hinweis": "1 und 1¼ Zoll (Datenblatt D06F-LF)",
+      "quelle_url": "https://documents.pdod.de/resideo/rddb14851.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f-lf-ab-2020",
+      "teil_slug": "resideo-klarsicht-siebtasse-sk06t-1-2",
+      "hinweis": "½ und ¾ Zoll (Datenblatt D06F-LF)",
+      "quelle_url": "https://documents.pdod.de/resideo/rddb14851.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f-lf-ab-2020",
+      "teil_slug": "resideo-klarsicht-siebtasse-sk06t-1b",
+      "hinweis": "1 und 1¼ Zoll (Datenblatt D06F-LF)",
+      "quelle_url": "https://documents.pdod.de/resideo/rddb14851.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f-lf-ab-2020",
+      "teil_slug": "resideo-o-ring-satz-0901246",
+      "hinweis": "½ und ¾ Zoll (Datenblatt D06F-LF)",
+      "quelle_url": "https://documents.pdod.de/resideo/rddb14851.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f-lf-ab-2020",
+      "teil_slug": "resideo-o-ring-satz-0901499",
+      "hinweis": "1 und 1¼ Zoll (Datenblatt D06F-LF)",
+      "quelle_url": "https://documents.pdod.de/resideo/rddb14851.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f-lf-ab-2020",
+      "teil_slug": "resideo-doppelringschluessel-zr06k",
+      "hinweis": "für Federhaube und Siebtasse (Datenblatt D06F-LF)",
+      "quelle_url": "https://documents.pdod.de/resideo/rddb14851.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d06f-lf-ab-2020",
+      "teil_slug": "resideo-manometer-m07m-a16",
+      "hinweis": "Zubehör, 0–16 bar (Datenblatt D06F-LF)",
+      "quelle_url": "https://documents.pdod.de/resideo/rddb14851.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d05fs",
+      "teil_slug": "resideo-ventileinsatz-d05fa-1-2b",
+      "hinweis": "½ bis 1 Zoll (Katalog 3–6)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=42",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "d05fs",
+      "teil_slug": "resideo-ersatzsieb-es05f-1-2a",
+      "hinweis": "½ bis 1 Zoll (Katalog 3–6)",
+      "quelle_url": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=42",
+      "sicherheit": "hersteller"
+    }
+  ],
+  "probleme": [
+    {
+      "slug": "resideo-rueckspuelfilter-tropft",
+      "titel": "Honeywell-Rückspülfilter oder Hauswasserstation tropft",
+      "symptom": "Am Rückspülfilter F76S, an der Hauswasserstation HS10S oder an einer Filterkombination tropft es: aus dem Ablauftrichter unter der Tasse, an der Klarsicht-Filtertasse oder oben an der Federhaube.",
+      "ursachen": [
+        {
+          "ursache": "Der Kugelhahn für die Rückspülung schließt nicht mehr dicht, Wasser läuft aus dem Ablauftrichter. Resideo schreibt, dass der Kugelhahn bei Tropfenbildung ausgewechselt wird.",
+          "teil_slugs": [
+            "resideo-kugelhahn-kh11s-1lfa"
+          ]
+        },
+        {
+          "ursache": "Der O-Ring zwischen Filtertasse und Gehäuse ist verschlissen, oder die Tasse wurde nach dem Öffnen ohne neuen O-Ring oder zu fest wieder eingeschraubt.",
+          "teil_slugs": [
+            "resideo-o-ring-satz-filtertasse-0900747",
+            "resideo-o-ring-satz-0901246",
+            "resideo-o-ring-satz-0901499",
+            "resideo-o-ring-satz-filtertasse-or74cs-10"
+          ]
+        },
+        {
+          "ursache": "Die Klarsicht-Filtertasse hat einen Haarriss. Kunststofftassen altern, Reinigungs- und Lösungsmittel greifen sie an, und ein Schlag kann reichen.",
+          "teil_slugs": [
+            "resideo-klarsicht-filtertasse-kf11s-1a",
+            "resideo-klarsicht-filtertasse-kf74cs-1a",
+            "resideo-klarsicht-filtertasse-kf06-1-2a",
+            "resideo-klarsicht-filtertasse-kf06-1a"
+          ]
+        },
+        {
+          "ursache": "Bei Geräten mit Druckminderer kommt das Wasser oben aus der Federhaube: Dann ist die Membran im Ventileinsatz defekt.",
+          "teil_slugs": [
+            "resideo-ventileinsatz-d06fa-1-2",
+            "resideo-ventileinsatz-d06fa-1a",
+            "resideo-ventileinsatz-d06fa-1b"
+          ]
+        }
+      ],
+      "schritte": [
+        "Zuerst genau hinschauen, wo es tropft: aus dem Ablauftrichter ganz unten, an der Tasse oder oben an der Federhaube.",
+        "Tropft es aus dem Ablauftrichter, obwohl der Rückspülknopf zu ist, schließt der Kugelhahn nicht mehr. Der Ersatz heißt KH11S-1LFA und passt bei F76S, HS10S und FKN76CS von ½ bis 2 Zoll.",
+        "Ist die Tasse feucht, mit einer Taschenlampe nach Rissen suchen. Bei einem Riss die Absperrventile vor und hinter dem Gerät schließen und geschlossen lassen, bis eine neue Tasse drin ist.",
+        "Beim Wechsel von Tasse oder O-Ring wird laut Anleitung der Doppelringschlüssel benutzt (ZR10K bei F76S und HS10S, ZR06F bei FK06 und FF06), ein neuer O-Ring auf die Tasse gesetzt und die Tasse nur von Hand angezogen, ohne Werkzeug.",
+        "Tasse und Kunststoffteile nur mit kaltem, klarem Wasser abwischen. Andere Reiniger beschädigen laut Resideo den Kunststoff.",
+        "Kommt das Wasser oben aus der Federhaube, liegt es am Druckminderer. Dann hilft ein neuer Ventileinsatz, siehe „Druckminderer tropft an der Federhaube“."
+      ],
+      "fachbetrieb_ab": "Resideo schreibt in den Einbauanleitungen, dass Instandhaltungsarbeiten an Filter, Druckminderer und Rückflussverhinderer ein Installationsunternehmen ausführt, und empfiehlt einen Wartungsvertrag. Selbst machen kannst du das Rückspülen und die Sichtkontrolle. Kugelhahn, Filtertasse und Ventileinsatz tauscht der Installateur. Ein neues Gerät am Hausanschluss darf nach § 12 AVBWasserV nur ein eingetragenes Installationsunternehmen einbauen.",
+      "quellen": [
+        "https://documents.pdod.de/resideo/rdma14697.pdf",
+        "https://documents.pdod.de/resideo/rdma14256.pdf",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+        "https://www.haustechnikdialog.de/Forum/t/219301/Wasserschaden-durch-geplatzte-HS10-Filtertasse",
+        "https://www.haustechnikdialog.de/Forum/t/134255/Leitungswasserschaden-durch-defekte-Honeywell-Braukmann-HS-10-S",
+        "https://www.haustechnikdialog.de/Forum/t/221328/Rueckspuelfilter-tropft-manchmal",
+        "https://www.gesetze-im-internet.de/avbwasserv/__12.html"
+      ]
+    },
+    {
+      "slug": "resideo-druckminderer-tropft",
+      "titel": "Honeywell-Druckminderer tropft an der Federhaube",
+      "symptom": "Am Druckminderer D06F, an der Hauswasserstation HS10S oder an der Filterkombination FK06 kommt Wasser oben aus der Federhaube, also dem Teil mit Verstellgriff und Einstellskala.",
+      "ursachen": [
+        {
+          "ursache": "Die Membran im Ventileinsatz ist defekt. Das ist laut Resideo die Ursache für Wasser aus der Federhaube, und der Ventileinsatz wird komplett getauscht.",
+          "teil_slugs": [
+            "resideo-ventileinsatz-d06fa-1-2",
+            "resideo-ventileinsatz-d06fa-1a",
+            "resideo-ventileinsatz-d06fa-1b",
+            "resideo-ventileinsatz-d06fa-1-2lf",
+            "resideo-ventileinsatz-d06fa-1lf",
+            "resideo-ventileinsatz-d05fa-1-2b"
+          ]
+        }
+      ],
+      "schritte": [
+        "Prüfen, ob das Wasser wirklich aus der Federhaube kommt und nicht von der Siebtasse oder einer Verschraubung darunter herunterläuft.",
+        "Typ und Nennweite ablesen, daran hängt der Ventileinsatz: D06FA-1/2 für ½ und ¾ Zoll. Für 1 und 1¼ Zoll braucht die HS10S und die FKN76CS D06FA-1A, der D06F und die FK06 D06FA-1B, der bleifreie D06F-LF D06FA-1LF.",
+        "Den eingestellten Druck am Manometer oder an der Skala notieren, damit er nach dem Tausch wieder stimmt.",
+        "Beim Tausch wird zuerst die Druckfeder entspannt: Verstellgriff gegen den Uhrzeigersinn drehen, bis er sich nicht mehr drehen lässt. In der Federhaube sitzt eine Druckfeder, die sonst herausspringen kann.",
+        "Nach dem Tausch den Hinterdruck neu einstellen, mindestens 1 bar unter dem Eingangsdruck, und die Skala justieren."
+      ],
+      "fachbetrieb_ab": "Resideo schreibt in den Einbauanleitungen, dass Instandhaltungsarbeiten an Filter, Druckminderer und Rückflussverhinderer ein Installationsunternehmen ausführt, und empfiehlt einen Wartungsvertrag. Der Ventileinsatz gehört dazu: Die Federhaube steht unter Federspannung, und nach dem Einbau wird der Druck mit dem Manometer neu eingestellt.",
+      "quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://documents.pdod.de/resideo/rdma14697.pdf",
+        "https://documents.pdod.de/resideo/rdma14256.pdf",
+        "https://documents.pdod.de/resideo/rddb14851.pdf",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11"
+      ]
+    },
+    {
+      "slug": "resideo-wasserdruck-zu-niedrig",
+      "titel": "Wenig Wasserdruck hinter Honeywell-Filter oder Hauswasserstation",
+      "symptom": "Aus Wasserhähnen und Dusche kommt weniger Wasser als früher, oben im Haus spürst du es zuerst. Die Klarsicht-Tasse des Filters ist braun oder schwarz.",
+      "ursachen": [
+        {
+          "ursache": "Das Filtersieb ist verschmutzt. Wird nicht regelmäßig rückgespült, setzt sich der Filter zu, Druck und Durchfluss sinken.",
+          "teil_slugs": [
+            "resideo-filtereinsatz-af11s-1-2a",
+            "resideo-filtereinsatz-af11s-1a",
+            "resideo-filtereinsatz-af11ds-1-2a",
+            "resideo-filtereinsatz-af11ds-1a",
+            "resideo-filtereinsatz-af74-1a",
+            "resideo-ersatzsieb-as06-1-2a",
+            "resideo-ersatzsieb-as06-1a"
+          ]
+        },
+        {
+          "ursache": "Die Absperrventile vor oder hinter dem Gerät sind nicht ganz offen.",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Der Druckminderer ist nicht auf den gewünschten Hinterdruck eingestellt.",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Beim Druckminderer D06F ist das Sieb in der Siebtasse verschmutzt.",
+          "teil_slugs": [
+            "resideo-ersatzsieb-es06f-1-2a",
+            "resideo-ersatzsieb-es06f-1b"
+          ]
+        },
+        {
+          "ursache": "Das Gerät wurde gegen die Durchflussrichtung eingebaut. Der Pfeil auf dem Gehäuse muss in Fließrichtung zeigen.",
+          "teil_slugs": []
+        }
+      ],
+      "schritte": [
+        "Beide Absperrventile vor und hinter dem Gerät ganz öffnen.",
+        "Rückspülen: Ohne festen Abwasseranschluss einen Eimer unter den Ablauf stellen. Den Rückspülknopf bis zum Anschlag drehen, nach etwa 3 Sekunden wieder schließen, das Ganze dreimal, bei starkem Schmutz öfter. Bei 4 bar Eingangsdruck kommen je nach Größe 12 bis 18 Liter heraus.",
+        "Bei der MiniPlus FK06 gibt es keine Rückspülung: Über den Kugelhahn wird der Schmutz vom Boden der Tasse gespült, ein verschmutztes Sieb wird durch ein neues ersetzt (AS06).",
+        "Danach den Druck am Manometer ablesen, während kein Wasser läuft. Ist er zu niedrig, muss der Druckminderer neu eingestellt werden.",
+        "Wird es nach dem Rückspülen nicht besser, ist das Sieb so zugesetzt, dass Rückspülen nicht mehr reicht. Dann kommt ein neuer Filtereinsatz hinein."
+      ],
+      "fachbetrieb_ab": "Rückspülen ist Aufgabe des Betreibers, Resideo empfiehlt es alle zwei Monate, die Norm DIN EN 806-5 spätestens alle sechs Monate. Einstellen und Justieren des Druckminderers und den Tausch des Filtereinsatzes ordnet Resideo autorisierten Fachkräften zu.",
+      "quellen": [
+        "https://documents.pdod.de/resideo/rdma14697.pdf",
+        "https://documents.pdod.de/resideo/rdma14256.pdf",
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+        "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+        "https://www.gutefrage.net/frage/hauswasserstation-rueckspuelschutzfilter-druckminderer---wie-richtig-einstellen",
+        "https://www.haustechnikdialog.de/Forum/t/58828/Honeywell-Wasserfilter-Primus-FK-Druckminderer-FK74C"
+      ]
+    },
+    {
+      "slug": "resideo-wasserdruck-steigt",
+      "titel": "Wasserdruck hinter Honeywell-Druckminderer steigt",
+      "symptom": "Das Manometer hinter dem Druckminderer zeigt nach einer Weile ohne Wasserentnahme mehr als eingestellt, oder das Sicherheitsventil am Warmwasserspeicher tropft immer wieder.",
+      "ursachen": [
+        {
+          "ursache": "Ventileinsatz, Dichtscheibe oder Düsenkante im Druckminderer sind verschmutzt oder abgenutzt. Dann steigt der Druck langsam an, solange nichts gezapft wird.",
+          "teil_slugs": [
+            "resideo-ventileinsatz-d06fa-1-2",
+            "resideo-ventileinsatz-d06fa-1a",
+            "resideo-ventileinsatz-d06fa-1b",
+            "resideo-ventileinsatz-d06fa-1-2lf",
+            "resideo-ventileinsatz-d06fa-1lf"
+          ]
+        },
+        {
+          "ursache": "Der Druck kommt von hinten: Beim Aufheizen des Warmwasserspeichers dehnt sich das Wasser aus. Resideo nennt als Abhilfe, Rückschlagventil und Sicherheitsgruppe zu prüfen.",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Das Filtersieb ist verschmutzt, der eingestellte Druck bleibt nicht konstant.",
+          "teil_slugs": [
+            "resideo-ersatzsieb-es06f-1-2a",
+            "resideo-ersatzsieb-es06f-1b",
+            "resideo-filtereinsatz-af11s-1a"
+          ]
+        }
+      ],
+      "schritte": [
+        "Das Absperrventil hinter dem Druckminderer schließen und den Druck am Manometer beobachten, während kein Wasser läuft. Steigt er langsam, ist das Ventil laut Resideo verschmutzt oder defekt.",
+        "Darauf achten, wann der Druck steigt. Nur während der Speicher aufheizt, deutet es auf Sicherheitsgruppe oder Rückschlagventil am Speicher.",
+        "Filter rückspülen bzw. beim D06F das Sieb reinigen lassen.",
+        "Steigt der Druck danach weiter, kommt ein neuer Ventileinsatz in den Druckminderer."
+      ],
+      "fachbetrieb_ab": "Resideo schreibt in den Einbauanleitungen, dass Instandhaltungsarbeiten an Filter, Druckminderer und Rückflussverhinderer ein Installationsunternehmen ausführt, und empfiehlt einen Wartungsvertrag. Das gilt für den Tausch des Ventileinsatzes und für alle Arbeiten an der Sicherheitsgruppe des Speichers.",
+      "quellen": [
+        "https://documents.pdod.de/resideo/rdma14756.pdf",
+        "https://documents.pdod.de/resideo/rdma14697.pdf",
+        "https://documents.pdod.de/resideo/rdma14256.pdf",
+        "https://www.haustechnikdialog.de/Forum/t/51146/Druckminderer-Problem-Hinterdruck-steigt-zu-stark-an",
+        "https://www.haustechnikdialog.de/Forum/t/198118/Zu-hoher-Wasserdruck-nach-Druckminderer",
+        "https://www.heizungsforum.de/threads/wasserdruck-im-haus-steigt-von-3-auf-10-bar.9580/"
+      ]
+    }
+  ],
+  "widersprueche": [
+    {
+      "thema": "Passt AF11S-1A auch in einen F76S oder eine HS10S mit ½ oder ¾ Zoll?",
+      "aussage_a": "Bei der Baureihe ab 2007 nicht: Für ½ und ¾ Zoll führt Resideo den Einsatz AF11S-1/2A, AF11S-1A nur für 1 und 1¼ Zoll. Nur in der Baureihe 1997–2006 passt AF11S-1A von ½ bis 1¼ Zoll.",
+      "quelle_a": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+      "aussage_b": "Das Amazon-Angebot für AF11S-1A nennt pauschal „1/2 to 1 1/4“, ohne Baureihe.",
+      "quelle_b": "https://www.amazon.de/dp/B004IR8AVC"
+    },
+    {
+      "thema": "Ventileinsatz für 1 und 1¼ Zoll: D06FA-1A oder D06FA-1B?",
+      "aussage_a": "Hauswasserstation HS10S, Nachrüst-Filterkombination FKN76CS und Druckminderer D06FH nehmen D06FA-1A.",
+      "quelle_a": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=11",
+      "aussage_b": "Druckminderer D06F, MiniPlus FK06 und die Primus-Filterkombinationen nehmen D06FA-1B. Für den bleifreien D06F-LF ab 2020 nennt das Datenblatt D06FA-1LF.",
+      "quelle_b": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38"
+    },
+    {
+      "thema": "Ventileinsatz D06F: alte Ausführung oder bleifrei?",
+      "aussage_a": "Der Ersatzteilkatalog 2022/23 führt für den D06F (Baureihe ab 1997) die Ventileinsätze D06FA-1/2 und D06FA-1B.",
+      "quelle_a": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=38",
+      "aussage_b": "Das Datenblatt des bleifreien D06F-LF (Baureihe ab 2020) nennt D06FA-1/2LF und D06FA-1LF. Steht LF in der Typbezeichnung, gehört der LF-Einsatz hinein.",
+      "quelle_b": "https://documents.pdod.de/resideo/rddb14851.pdf"
+    },
+    {
+      "thema": "AF11S oder AF11DS beim Filter ab 2007?",
+      "aussage_a": "F76S und HS10S ab 2007 gibt es mit und ohne Double Spin. Ohne Double Spin passt AF11S, mit Double Spin AF11DS.",
+      "quelle_a": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=20",
+      "aussage_b": "Für FKN76CS und FN76CS ab 2007 führt Resideo nur AF11DS-Einsätze, für die ältere Baureihe nur AF11S.",
+      "quelle_b": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=14"
+    },
+    {
+      "thema": "Federhaube und Baujahr der MiniPlus FK06",
+      "aussage_a": "Der Ersatzteilkatalog 2022/23 nennt die Baureihe ab 2002 und für 1 und 1¼ Zoll die Federhaube 0901516.",
+      "quelle_a": "https://infomaterial.resideo.com/fileadmin/publications/Ersatzteilkatalog-resideo-SHK-2022_23-ge6h0992ge23r0322.pdf#page=19",
+      "aussage_b": "Das FK06-Datenblatt nennt die Baureihe ab 2000 und für 1 und 1¼ Zoll die Federhaube 0901517.",
+      "quelle_b": "https://documents.pdod.de/resideo/rddb14255.pdf"
+    }
+  ],
+  "nicht_geprueft": [
+    "Wo genau die Typbezeichnung am Gerät steht (Aufkleber, Prägung am Gehäuse, Federhaube), beschreiben die vorliegenden Resideo-Unterlagen nicht. Im nummer_hinweis steht deshalb nur „auf dem Gerät“. Vor Ort oder per Foto prüfen.",
+    "Woran man F76S, HS10S und FKN76CS der Baureihe ab 2007 ohne Double Spin von der Baureihe 1997–2006 unterscheidet, sagen Katalog und Anleitungen nicht. Für 1 und 1¼ Zoll ist das egal (AF11S-1A passt in beide), für ½ und ¾ Zoll nicht.",
+    "Amazon: Nur drei ASINs geprüft (5.11.2026, Titel und Marke Honeywell auf der Produktseite): AF11S-1A B004IR8AVC (3 Bewertungen), AS06-1A B0017V0NUS (8), FF06-1AA B0017V45TI (131). Dazu gesehen: FF06-3/4AA B0017V45MK, nicht eingetragen. Die Amazon-Suche über firecrawl lieferte für AF74-1A keine Treffer; für AF11S-1/2A, AF11DS, KF11S-1A, D06FA-Einsätze, KH11S und ZR10K sind keine ASINs geprüft. Laut testberichte.de wird AF74-1A bei Amazon angeboten (ASIN unbekannt).",
+    "EAN: keine eingetragen. Ein eBay-Angebot nennt für KF11S-1A die EAN 4019837039370; nur eine Händlerquelle, nicht übernommen.",
+    "Preise: nicht eingetragen. Gesehen: AF11S-1A bei eBay ab ca. 89 €, KF11S-1A bei eBay 244–268 €, D06FA-1A laut testberichte.de bei Amazon 115 €, AF74-1A 50–109 € (testberichte.de, Stand unbekannt).",
+    "Druckminderer D04FM: Im Ersatzteilkatalog nur als Ventileinsatz D04FMA-1/2 der Nachfüllkombination NK300S (Heizungsfüllung, Kapitel 10). Gehört nicht in den Bereich, deshalb keine Serie.",
+    "HS10S-LF (bleifrei, Baureihe ab 2025): eigenes Datenblatt mit Tasse KF11S-1LFA, Manometer M38K-LFA16 und Federhaube komplett mit Feder 0902002/0902003. Nicht als eigene Serie angelegt, nur in der Beschreibung von hs10s-ab-2007 erwähnt.",
+    "Tauschintervall der Klarsicht-Filtertasse (etwa zehn Jahre) stammt nur aus zwei Installateursbeiträgen im HaustechnikDialog, nicht von Resideo.",
+    "Garantie Druckminderer: Die Resideo-Druckminderer-Broschüre (ge3h0749ge23r0523) soll laut Suchergebnis eine 5-Jahres-Garantie für die beliebtesten Braukmann-Produkte nennen; nicht im Original gelesen, deshalb nur die Filtergarantie aus der Broschüre DE3H-9010GE23 übernommen.",
+    "Ob der Tausch eines Filtereinsatzes eine „wesentliche Veränderung“ nach § 12 AVBWasserV ist, ist offen. Die Texte stützen sich auf die Resideo-Anleitungen (Instandhaltung durch Installationsunternehmen).",
+    "Serienname mit „Honeywell“ am Anfang: kurzname() auf der Marken-Seite kürzt nur, wenn der Name mit marke.name beginnt. Bei marke.name „Resideo (Honeywell, Braukmann)“ bleiben die Kartennamen deshalb ungekürzt."
+  ]
+}

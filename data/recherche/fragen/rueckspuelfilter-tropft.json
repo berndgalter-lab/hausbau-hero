@@ -1,0 +1,250 @@
+{
+  "thema": "Rückspülfilter, Hauswasserfilter oder Hauswasserstation tropft, läuft nach dem Rückspülen, Filtertasse undicht oder lässt sich nicht lösen, Druckminderer tropft",
+  "fragen": [
+    {
+      "frage": "Wie oft muss ich den Rückspülfilter rückspülen?",
+      "kategorie": "pflege",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/191737/Drufi-tropft",
+        "https://www.haustechnikdialog.de/Forum/t/221328/Rueckspuelfilter-tropft-manchmal",
+        "https://www.gutefrage.net/frage/rueckspuelfilter-versifft-was-tun",
+        "https://www.bauexpertenforum.de/threads/wasserfilter-im-hauswirtschaftsraum-tropft.143852/"
+      ],
+      "antwort": "DIN EN 806-5: spätestens alle sechs Monate. Resideo (F76S, HS10S) und Judo (PROFI-QC) empfehlen alle zwei Monate, BWT (Infinity M) schreibt spätestens alle zwei Monate vor und empfiehlt monatlich. Zusätzlich bei nachlassendem Druck, sichtbarer Verschmutzung und nach Neuinstallation öfter (Judo).",
+      "antwort_quellen": [
+        "https://digitalassets.resideo.com/damroot/Original/10017/f76s-ii-mu1h1110ge23.pdf",
+        "https://digitalassets.resideo.com/damroot/Original/10017/hs10s-ii-mu1h1101ge23.pdf",
+        "https://judo.eu/app/downloads/files/de/8010150/manuals/1702283_202001.pdf",
+        "https://www.bwt.com/de-at/-/media/bwt/at/documents/git/eba_infinity_m_de-en.pdf?rev=8615e38f7300421eb0368efb172f4b39"
+      ]
+    },
+    {
+      "frage": "Mein Rückspülfilter wurde jahrelang nicht gespült. Was soll ich tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/wasserfilter-im-hauswirtschaftsraum-tropft.143852/",
+        "https://www.haustechnikdialog.de/Forum/t/221328/Rueckspuelfilter-tropft-manchmal",
+        "https://www.haustechnikdialog.de/forum/t/191737/Drufi-tropft",
+        "https://www.gutefrage.net/frage/rueckspuelfilter-versifft-was-tun"
+      ],
+      "antwort": "Mehrmals rückspülen; Resideo: bei sehr starker Verschmutzung einige Durchgänge. Judo: Zu seltenes Rückspülen kann das Siebgewebe verformen oder reißen lassen, große Schmutzmengen stören die Rückspülfunktion mechanisch. Bleibt das Sieb verschmutzt oder schließt das Spülventil nicht mehr, neuer Einsatz bzw. neues Spülventil (gutefrage-Antwort: Wechsel des Einsatzes).",
+      "antwort_quellen": [
+        "https://digitalassets.resideo.com/damroot/Original/10017/f76s-ii-mu1h1110ge23.pdf",
+        "https://judo.eu/app/downloads/files/de/8010150/manuals/1702283_202001.pdf"
+      ]
+    },
+    {
+      "frage": "Nach dem Rückspülen läuft oder tropft der Filter ständig weiter. Was tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 5,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/was-mache-ich-wenn-der-rueckspuellschutzfilter-die-ganze-zeit-tropft",
+        "https://www.gutefrage.net/frage/wasserfilter-rueckspuelfilter-mit-druckminderer-classic-1-tropft",
+        "https://www.gutefrage.net/frage/rueckspuelfilter-undicht-oder-normal",
+        "https://www.haustechnikdialog.de/Forum/t/221328/Rueckspuelfilter-tropft-manchmal",
+        "https://www.bauexpertenforum.de/threads/wasserfilter-im-hauswirtschaftsraum-tropft.143852/"
+      ],
+      "antwort": "Judo-Störungstabelle: Rückspülwasser läuft nach, weil das Spülventil nicht ganz geschlossen ist oder Schmutz darin sitzt; Rückspülung wiederholen, Handrad bis Anschlag. BWT Infinity M: Spülwasseraustritt lässt sich nicht schließen, weil Grobschmutz das Rückspülelement nicht in die Endlage lässt; Drehgriff ganz öffnen, mehrmals spülen. Resideo: Kugelventil bei Tropfenbildung auswechseln; BWT: defekte Dichtung am Spülwasseraustritt durch Fachfirma tauschen.",
+      "antwort_quellen": [
+        "https://judo.eu/app/downloads/files/de/8010150/manuals/1702283_202001.pdf",
+        "https://www.bwt.com/de-at/-/media/bwt/at/documents/git/eba_infinity_m_de-en.pdf?rev=8615e38f7300421eb0368efb172f4b39",
+        "https://digitalassets.resideo.com/damroot/Original/10017/hs10s-ii-mu1h1101ge23.pdf"
+      ]
+    },
+    {
+      "frage": "Ist ein tropfender Rückspülfilter gefährlich?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/rueckspuelfilter-undicht-oder-normal",
+        "https://www.haustechnikdialog.de/Forum/t/219301/Wasserschaden-durch-geplatzte-HS10-Filtertasse",
+        "https://www.gutefrage.net/frage/was-mache-ich-wenn-der-rueckspuellschutzfilter-die-ganze-zeit-tropft"
+      ],
+      "antwort": "Judo: Haarrisse oder trübe Filterglocke durch Wärme oder Lösungsmittel; bei Wasseraustritt absperren und Glocke sofort tauschen lassen. SYR: nach harten Stößen Kunststoffteil auswechseln, auch ohne erkennbaren Schaden; starke Druckschläge vermeiden (Berstgefahr). Grünbeck: bei Wasseraustritt Absperrventile vor und nach dem Produkt schließen, Leckage lokalisieren. Forum: geplatzte HS10-Filtertassen nach vielen Jahren.",
+      "antwort_quellen": [
+        "https://judo.eu/app/downloads/files/de/8010150/manuals/1702283_202001.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1615.pdf",
+        "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf"
+      ]
+    },
+    {
+      "frage": "Darf ich den O-Ring oder die Dichtung am Rückspülfilter selbst tauschen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/wasserfilter-im-hauswirtschaftsraum-tropft.143852/",
+        "https://www.bauexpertenforum.de/threads/dichtung-rueckspuelfilter.140804/",
+        "https://www.gutefrage.net/frage/wasserfilter-rueckspuelfilter-mit-druckminderer-classic-1-tropft",
+        "https://www.haustechnikdialog.de/Forum/t/221328/Rueckspuelfilter-tropft-manchmal"
+      ],
+      "antwort": "Grünbeck BOXER RX/RDX: Wechsel der Verschleißteile (Dichtungen, Rückspülventil, Filterglocke) nur durch Fachkraft; Berechtigungstabelle: Betreiber darf Inspektion, halbjährliche Wartung und Störungsbeseitigung, Instandsetzung nur Fachkraft/Kundendienst. Resideo: Instandhaltung durch Installationsunternehmen. Judo: Reparatur nur durch Fachpersonal. BWT: Dichtung durch Fachfirma, Verschleißteile durch Kundendienst oder autorisierten Installateur. SYR: Installation und Wartung nur autorisierter Fachbetrieb.",
+      "antwort_quellen": [
+        "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+        "https://digitalassets.resideo.com/damroot/Original/10017/f76s-ii-mu1h1110ge23.pdf",
+        "https://judo.eu/app/downloads/files/de/8010150/manuals/1702283_202001.pdf",
+        "https://www.bwt.com/de-at/-/media/bwt/at/documents/git/eba_infinity_m_de-en.pdf?rev=8615e38f7300421eb0368efb172f4b39",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1615.pdf"
+      ]
+    },
+    {
+      "frage": "Die Filtertasse lässt sich nicht abschrauben. Wie bekomme ich sie ab?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/156840/Europafilter-Filtertasse-loesen-fuer-Filterwechsel",
+        "https://www.haustechnikdialog.de/forum/t/200023/Cillit-Klarfilter-77N-Klarsichtzylinder-festverschraubt",
+        "https://www.haustechnikdialog.de/Forum/t/219301/Wasserschaden-durch-geplatzte-HS10-Filtertasse"
+      ],
+      "antwort": "Resideo: Absperrarmatur eingangsseitig schließen, Ausgangsseite druckentlasten, ausgangsseitig schließen, Filtertasse mit Doppelringschlüssel ZR10K abschrauben, handfest (max. 18 Nm) wieder einschrauben. SYR: Filtertassenschlüssel 2000.25.907. Grünbeck: Bandschlüssel 105 805, vorher Druck per Rückspülung abbauen. Forum: Rechtsgewinde, Rohrzange nicht ansetzen, Druck vollständig ablassen (Verschraubung leicht lösen).",
+      "antwort_quellen": [
+        "https://digitalassets.resideo.com/damroot/Original/10017/f76s-ii-mu1h1110ge23.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1615.pdf",
+        "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+        "https://www.haustechnikdialog.de/forum/t/156840/Europafilter-Filtertasse-loesen-fuer-Filterwechsel",
+        "https://www.haustechnikdialog.de/forum/t/200023/Cillit-Klarfilter-77N-Klarsichtzylinder-festverschraubt"
+      ]
+    },
+    {
+      "frage": "Wann muss die Filtertasse aus Kunststoff getauscht werden?",
+      "kategorie": "pflege",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/219301/Wasserschaden-durch-geplatzte-HS10-Filtertasse",
+        "https://www.haustechnikdialog.de/forum/t/156840/Europafilter-Filtertasse-loesen-fuer-Filterwechsel",
+        "https://www.haustechnikdialog.de/forum/t/191737/Drufi-tropft"
+      ],
+      "antwort": "Grünbeck BOXER RX/RDX: Filterglocke nach 10 Jahren wechseln (empfohlen). BWT Infinity M: Klarsichtzylinder alle 15 Jahre durch Kundendienst oder autorisierten Installateur. Judo: bei Haarrissen oder Trübung tauschen lassen. SYR: nach harten Stößen auswechseln.",
+      "antwort_quellen": [
+        "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf",
+        "https://www.bwt.com/de-at/-/media/bwt/at/documents/git/eba_infinity_m_de-en.pdf?rev=8615e38f7300421eb0368efb172f4b39",
+        "https://judo.eu/app/downloads/files/de/8010150/manuals/1702283_202001.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1615.pdf"
+      ]
+    },
+    {
+      "frage": "An meiner Hauswasserstation tropft es am Druckminderer. Woran liegt das?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/134484/drufi-dfr-2315-rueckspuelfilter-tropft",
+        "https://www.gutefrage.net/frage/wasserfilter-rueckspuelfilter-mit-druckminderer-classic-1-tropft"
+      ],
+      "antwort": "Resideo HS10S: Wasseraustritt aus der Federhaube, Membrane im Ventileinsatz defekt, Ventileinsatz wechseln; Hinterdruck nicht konstant: Ventileinsatz, Dichtscheibe oder Düsenkante verschmutzt oder abgenutzt. Druckfeder in der Federhaube (Verletzungsgefahr). SYR Drufi+ DFR: Patrone jährlich prüfen, Membran reinigen oder Patrone 2315.01.970 ersetzen.",
+      "antwort_quellen": [
+        "https://digitalassets.resideo.com/damroot/Original/10017/hs10s-ii-mu1h1101ge23.pdf",
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1615.pdf"
+      ]
+    },
+    {
+      "frage": "Welche Filtertasse und welcher Schlüssel passen zum SYR Drufi+?",
+      "kategorie": "nummer",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/forum/t/191737/Drufi-tropft",
+        "https://www.haustechnikdialog.de/forum/t/134484/drufi-dfr-2315-rueckspuelfilter-tropft"
+      ],
+      "antwort": "SYR-Ersatzteilliste Drufi+ DFR/FR: Filtertasse komplett DFR 2315.01.971, FR 2315.01.915; Filtertassenschlüssel 2000.25.907; Filtereinsatz 2315.00.930 (90 µm) bzw. 2315.01.965 (20 µm); Druckminderer-Patrone 2315.01.970; Manometer 2315.01.920.",
+      "antwort_quellen": [
+        "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1615.pdf"
+      ]
+    }
+  ],
+  "fakten": [
+    {
+      "fakt": "Resideo F76S: Rückspülen nach DIN EN 806-5 spätestens alle 6 Monate, Herstellerempfehlung alle 2 Monate; manuell Kugelhahn bis Anschlag öffnen, nach ca. 3 Sekunden schließen, dreimal; bei starker Verschmutzung mehrmals. Mindestens 1,5 bar Eingangsdruck beim Rückspülen. Sichtkontrolle des Kugelventils, bei Tropfenbildung auswechseln. Instandhaltung durch Installationsunternehmen. Beim Einsatzwechsel O-Ring auf Filtertasse, Tasse handfest bis max. 18 Nm, Doppelringschlüssel ZR10K.",
+      "quelle": "https://digitalassets.resideo.com/damroot/Original/10017/f76s-ii-mu1h1110ge23.pdf"
+    },
+    {
+      "fakt": "Resideo HS10S (MU1H-1101GE23 R0425): Wasseraustritt aus der Federhaube bei defekter Membran im Ventileinsatz; Rückflussverhinderer jährlich über Prüfventil prüfen, läuft das Wasser beständig weiter, Rückflussverhinderer tauschen; Druckfeder in der Federhaube kann herausspringen.",
+      "quelle": "https://digitalassets.resideo.com/damroot/Original/10017/hs10s-ii-mu1h1101ge23.pdf"
+    },
+    {
+      "fakt": "SYR Drufi+ DFR/FR: Rückspülen mindestens alle 6 Monate (DIN EN 806-5); Gefäß höchstens bis Unterkante Trichter; O-Ring muss locker über dem obersten Gewindegang liegen, nicht über das Gewinde streifen; Druckminderer-Patrone jährlich prüfen; Installation und Wartung nur durch autorisierten Fachbetrieb; nach harten Stößen Kunststoffteil auswechseln; Druckschläge vermeiden (Berstgefahr); steigender Ausgangsdruck meist durch Rückflussverhinderer am Trinkwassererwärmer.",
+      "quelle": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1615.pdf"
+    },
+    {
+      "fakt": "Judo PROFI-QC: Störung „Rückspülwasser läuft nach“ durch nicht ganz geschlossenes Spülventil oder Schmutz im Spülventil, Rückspülung wiederholen und Handrad bis Anschlag drehen; Undichtheit an der Filterglocke durch defekte Dichtungen, Installateur oder Kundendienst; Haarrisse oder Trübung der Filterglocke durch Wärme oder Lösungsmittel; Reparatur nur durch Fachpersonal; Rückspülung spätestens alle 2 Monate empfohlen.",
+      "quelle": "https://judo.eu/app/downloads/files/de/8010150/manuals/1702283_202001.pdf"
+    },
+    {
+      "fakt": "Grünbeck BOXER RX/RDX: Inspektion alle 2 Monate durch Betreiber, Rückspülen halbjährlich (5 bis 10 Sekunden, dreimal, 10-l-Eimer); Leckage: O-Ringe und Dichtungen, Filterkopf, Anschlussflansch prüfen, undichte Komponenten von Fachkraft ersetzen lassen; Wechsel der Verschleißteile nur durch Fachkraft; empfohlen nach 5 Jahren Filterelement, Dichtungen, Rückspülventil, Federpaket, nach 10 Jahren Filterglocke; Flanschdichtung nicht einfetten; Bandschlüssel 105 805.",
+      "quelle": "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf"
+    },
+    {
+      "fakt": "BWT Infinity M: Rückspülung spätestens alle 2 Monate, Empfehlung monatlich; § 12.2 AVBWasserV zitiert; Störung „Spülwasseraustritt lässt sich nicht schließen“: Grobschmutz, Drehgriff ganz öffnen, mehrmals spülen; „Undichtigkeit am Spülwasseraustritt“: Dichtung durch Fachfirma; Verschleißteile durch Kundendienst oder autorisierten Installateur (Flachdichtung 3 Jahre, Filterelement 6 Jahre, Klarsichtzylinder 15 Jahre).",
+      "quelle": "https://www.bwt.com/de-at/-/media/bwt/at/documents/git/eba_infinity_m_de-en.pdf?rev=8615e38f7300421eb0368efb172f4b39"
+    },
+    {
+      "fakt": "§ 12 Abs. 2 AVBWasserV: Errichtung der Anlage und wesentliche Veränderungen nur durch das Wasserversorgungsunternehmen oder ein im Installateurverzeichnis eingetragenes Installationsunternehmen.",
+      "quelle": "https://www.gesetze-im-internet.de/avbwasserv/__12.html"
+    }
+  ],
+  "ursachen": [
+    {
+      "ursache": "Spülventil schließt nicht ganz (Schmutz am Sitz)",
+      "erkennen": "Wasser tropft oder läuft aus dem Ablauftrichter, meist direkt nach dem Rückspülen, besonders nach langer Pause.",
+      "abhilfe": "Rückspülung mehrmals wiederholen, Handrad bis Anschlag zudrehen.",
+      "quelle": "https://judo.eu/app/downloads/files/de/8010150/manuals/1702283_202001.pdf"
+    },
+    {
+      "ursache": "O-Ring oder Dichtung der Filtertasse",
+      "erkennen": "Wasser am Übergang Filtertasse/Gehäuse, läuft außen herunter.",
+      "abhilfe": "Dichtungen prüfen und vom Fachbetrieb tauschen lassen; O-Ring richtig einsetzen.",
+      "quelle": "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf"
+    },
+    {
+      "ursache": "Spülventil oder Kugelhahn verschlissen",
+      "erkennen": "Tropft trotz mehrfachem Spülen weiter aus dem Ablauf.",
+      "abhilfe": "Kugelhahn bzw. Rückspülventil tauschen lassen.",
+      "quelle": "https://digitalassets.resideo.com/damroot/Original/10017/hs10s-ii-mu1h1101ge23.pdf"
+    },
+    {
+      "ursache": "Filtertasse gerissen, trüb oder alt",
+      "erkennen": "Haarrisse, Trübung, Wasser an der Tasse selbst.",
+      "abhilfe": "Absperren, Tasse sofort tauschen lassen.",
+      "quelle": "https://judo.eu/app/downloads/files/de/8010150/manuals/1702283_202001.pdf"
+    },
+    {
+      "ursache": "Membran oder Kartusche des Druckminderers",
+      "erkennen": "Wasser an der Federhaube oder am Einstellgriff; Hinterdruck schwankt.",
+      "abhilfe": "Ventileinsatz bzw. Patrone prüfen, reinigen oder tauschen (Fachbetrieb).",
+      "quelle": "https://digitalassets.resideo.com/damroot/Original/10017/hs10s-ii-mu1h1101ge23.pdf"
+    },
+    {
+      "ursache": "Anschlussflansch oder Verschraubung",
+      "erkennen": "Wasser links oder rechts am Anschluss.",
+      "abhilfe": "Fachkraft prüft Filterkopf und Flansch, ersetzt Dichtung.",
+      "quelle": "https://media.hornbach.de/hb/ownersmanual/as.141549143.pdf"
+    },
+    {
+      "ursache": "Manometer am Gewinde undicht",
+      "erkennen": "Tropfen am Manometer.",
+      "abhilfe": "Manometer neu eindichten oder tauschen (SYR 2315.01.920).",
+      "quelle": "https://www.syr.de/Daten_Produkte/PDF/Bedienungsanleitung/Deutsch/9.2315.32_1615.pdf"
+    }
+  ],
+  "pruefschritte": [
+    "Trockenwischen und Tropfstelle suchen: Ablauftrichter, Filtertasse oben, Federhaube/Griff des Druckminderers, Manometer, Anschlüsse.",
+    "Letzte Rückspülung prüfen (DIN EN 806-5: spätestens 6 Monate; Hersteller: 2 Monate).",
+    "Eimer unterstellen (Grünbeck 10 l, Judo 15 l, SYR: höchstens bis Unterkante Trichter).",
+    "Nach Anleitung rückspülen (Resideo 3 x 3 s, Grünbeck 3 x 5 bis 10 s, Judo Handrad bis Anschlag zurück).",
+    "Bei Nachlaufen Spülventil mehrmals ganz öffnen und bis Anschlag schließen.",
+    "Filtertasse auf Haarrisse und Trübung prüfen; bei Wasseraustritt absperren.",
+    "Manometer ablesen; steigender Druck: Sicherheitsgruppe am Warmwasserspeicher oder Druckminderer-Patrone (SYR).",
+    "Vor Arbeiten: vorne absperren, Druck hinten ablassen, hinten absperren (Resideo).",
+    "Hersteller, Typ und Anschlussgröße notieren."
+  ],
+  "fachbetrieb_ab": "Rückspülen, Sichtprüfung und Druck ablesen sind Betreiberaufgabe. Einbau, Gerätetausch und Arbeiten an Anschluss/Flansch nach § 12 Abs. 2 AVBWasserV durch eingetragenes Installationsunternehmen. Hersteller ordnen Instandhaltung (Resideo), Verschleißteile wie Dichtungen, Rückspülventil, Filterglocke (Grünbeck), Wartung (SYR), Reparatur (Judo) und Verschleißteiltausch (BWT) dem Fachbetrieb bzw. Kundendienst zu.",
+  "nicht_belegt": [
+    "Tropfen außen am Filter als Kondenswasser bei kaltem Leitungswasser im Sommer: nur eine gutefrage-Antwort, keine Herstellerangabe.",
+    "Spaltfilter dichten bei zu niedrigem Hinterdruck nicht ab, 3,5 bis 4 bar einstellen: zwei Forenbeiträge (haustechnikdialog, bauexpertenforum), keine Herstellerangabe; nicht übernommen.",
+    "Pfeiffer & May TopSelect tropft bauartbedingt nach etwa drei Jahren: nur Forenbeitrag mit Verweis auf Amazon-Rezensionen.",
+    "Hilfsmittel wie Ledergürtel oder Ölfilterzange zum Lösen der Filtertasse: nur Forentipps, eine Ölfilterzange ist dabei gebrochen; auf der Seite stattdessen die Herstellerschlüssel.",
+    "Austauschintervall der Kunststoff-Filtertasse bei Resideo HS10S/F76S: im Forum werden geplatzte HS10-Tassen nach Jahren beschrieben, in den Resideo-Anleitungen steht kein Intervall.",
+    "Ob der Tausch von O-Ring oder Filtertasse eine wesentliche Veränderung im Sinne von § 12 AVBWasserV ist: weder Verordnung noch Hersteller sagen das ausdrücklich; die Seite nennt deshalb die Zuordnung der Hersteller.",
+    "Rückflussverhinderer der HS10S, der am Prüfventil weiterläuft: steht in der Resideo-Anleitung, betrifft aber nur das Öffnen des Prüfventils bei der Inspektion und ist als Ursache für Tropfen im Alltag nicht übernommen.",
+    "Haustechnikdialog-Beiträge teils nur gekürzt lesbar."
+  ]
+}

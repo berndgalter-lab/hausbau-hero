@@ -280,7 +280,7 @@ Ein Teil, das in vielen Marken steckt, markenübergreifend erklärt: Eckventil, 
 - **Reihenfolge:** Titel, Symptom, Ursachen nach Häufigkeit (mit Link zur Teileart), Prüfschritte, Grenze zum Installateur, Varianten nach Marke, Fragen, Neukauf-Hinweis, Bereich, Quellen.
 - Die Startseite verlinkt „Etwas funktioniert nicht“ auf diese Seiten, sobald es sie gibt (`HAEUFIG` in `src/app/page.tsx`), vorher auf den Bereich.
 
-**Bereiche:** Ein Bereich erscheint erst, wenn er Inhalt hat (Modelle, Ratgeber, Teilearten oder Probleme). „Wasseranschluss & Leitung“ ist angelegt und wird sichtbar, sobald die erste Teileart (Eckventil) oder das erste Problem dort steht.
+**Bereiche:** Ein Bereich erscheint erst, wenn er Inhalt hat (Modelle, Ratgeber, Teilearten oder Probleme). „Wasseranschluss & Leitung“ ist angelegt und wird sichtbar, sobald die erste Teileart (Eckventil) oder das erste Problem dort steht. Der Druckminderer gehört seit dem 5. November 2026 zu „Wasserfilter & Enthärtung“, weil er mit dem Filter in derselben Hauswasserstation sitzt (`KEYWORDS-WASSERFILTER.md`, Abschnitt 5).
 
 ## 5. Seitentyp Serie (`/ersatzteile/<marke>/<serie>`)
 

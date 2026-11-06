@@ -109,13 +109,32 @@ export const BEREICHE: Bereich[] = [
   {
     slug: "wasseranschluss",
     name: "Wasseranschluss & Leitung",
-    kurz: "Eckventil undicht, Wasserdruck zu hoch, Ventil klemmt.",
+    kurz: "Eckventil undicht, Geräteventil tropft, Ventil klemmt.",
     einleitung:
-      "Zwischen Wasserleitung und Armatur sitzen Teile, an die man selten denkt: das Eckventil unter dem Waschbecken, das Geräteventil für die Waschmaschine und der Druckminderer am Hausanschluss. Geht eines davon kaputt, ist meist die Größe des Anschlusses die wichtigste Frage.",
+      "Zwischen Wasserleitung und Armatur sitzen Teile, an die man selten denkt: das Eckventil unter dem Waschbecken, das Geräteventil für die Waschmaschine und das Außenventil. Geht eines davon kaputt, ist meist die Größe des Anschlusses die wichtigste Frage.",
     produkttypen: ["eckventil", "geraeteventil", "aussenventil"],
     teiltypen: ["eckventil", "geraeteventil", "oberteil", "filter"],
-    probleme: /eckventil|geraeteventil|aussenventil|druckminderer|wasserdruck/,
-    ratgeber: ["druckminderer"],
+    probleme: /eckventil|geraeteventil|aussenventil/,
+    ratgeber: [],
+  },
+  {
+    // Hauptbereich „Wasser & Wärme“, Plan in docs/KEYWORDS-WASSERFILTER.md. Nimmt den Druckminderer aus
+    // „Wasseranschluss & Leitung“ auf: Er sitzt mit dem Filter in derselben Hauswasserstation.
+    slug: "wasserfilter",
+    name: "Wasserfilter & Enthärtung",
+    kurz: "Rückspülfilter tropft, Filtereinsatz gesucht, Anlage zieht kein Salz.",
+    einleitung:
+      "Direkt hinter dem Wasserzähler sitzen Hauswasserfilter, Druckminderer und, wo vorhanden, die Enthärtungsanlage. Rückspülen und Salz nachfüllen ist Sache des Betreibers, ob du Filtereinsatz und Dichtungen selbst tauschst, regelt die Anleitung des Herstellers. Welcher Einsatz passt, hängt an Gerät, Nennweite und Baujahr. Einbau und Arbeiten am Anschluss macht ein eingetragener Installateur, am Steuerventil der Enthärtungsanlage der Kundendienst.",
+    produkttypen: ["rueckspuelfilter", "hauswasserstation", "druckminderer", "enthaertungsanlage"],
+    teiltypen: ["filtereinsatz", "filtertasse", "druckminderer-einsatz", "salz"],
+    probleme: /rueckspuelfilter|hauswasserfilter|enthaertung|druckminderer|wasserdruck/,
+    ratgeber: ["rueckspuelfilter", "druckminderer"],
+    neukauf: {
+      ratgeber: "rueckspuelfilter",
+      titel: "Lieber einen neuen Filter?",
+      text: "Gibt es für den Filter keinen Einsatz mehr, ist die Tasse versprödet oder tropft das Gehäuse selbst, ist ein neuer Rückspülfilter oft die bessere Wahl. Der Tausch am Anschluss ist Arbeit für den Installateur.",
+      nurBei: { teiltypen: ["filtereinsatz", "filtertasse"], produkttypen: ["rueckspuelfilter", "hauswasserstation"], probleme: /rueckspuelfilter|hauswasserfilter/ },
+    },
   },
   {
     slug: "hebeanlage",
@@ -172,6 +191,10 @@ export const TEILTYP_SUCHWORT: Record<string, string> = {
   fernbedienung: "Wandschalter",
   griff: "Bedienstange",
   rollladen: "Rollladen",
+  filtereinsatz: "Filtereinsatz",
+  filtertasse: "Filtertasse",
+  "druckminderer-einsatz": "Druckminderer",
+  salz: "Salz",
 };
 
 /** Passt ein Teil in Serien mehrerer Bereiche, zählt der Bereich mit den meisten Serien. */
@@ -230,7 +253,7 @@ export function bereichHatInhalt(b: Bereich, k: { teilarten: number; probleme: n
  */
 export const HAUPTBEREICHE: { slug: string; name: string; bereiche: string[] }[] = [
   { slug: "bad-kueche", name: "Bad & Küche", bereiche: ["waschtisch", "dusche-badewanne", "wc-spuelkasten", "kueche"] },
-  { slug: "wasser-waerme", name: "Wasser & Wärme", bereiche: ["wasseranschluss", "hebeanlage"] },
+  { slug: "wasser-waerme", name: "Wasser & Wärme", bereiche: ["wasseranschluss", "wasserfilter", "hebeanlage"] },
   { slug: "fenster-tueren", name: "Fenster & Türen", bereiche: ["dachfenster"] },
 ];
 

@@ -144,6 +144,10 @@ export const PRODUKTTYP_LABEL: Record<string, string> = {
   wannenablauf: "Badewannen-Ab- und Überlaufgarnituren",
   // Bei Dachfenstern ist die Serie eine Fenstergröße (VELUX MK04), Vorlage in src/components/GroessenSeite.tsx
   dachfenster: "Dachfenster nach Größe",
+  rueckspuelfilter: "Rückspülfilter",
+  hauswasserstation: "Hauswasserstationen",
+  druckminderer: "Druckminderer",
+  enthaertungsanlage: "Enthärtungsanlagen",
 };
 
 export const TEILTYP_LABEL: Record<string, string> = {
@@ -180,6 +184,10 @@ export const TEILTYP_LABEL: Record<string, string> = {
   fernbedienung: "Fernbedienungen & Schalter",
   griff: "Griffe & Bedienstangen",
   pflege: "Pflege & Wartung",
+  filtereinsatz: "Filtereinsätze",
+  filtertasse: "Filtertassen & Dichtungssätze",
+  "druckminderer-einsatz": "Druckminderer-Einsätze",
+  salz: "Salz & Verbrauchsteile",
   sonstiges: "Weitere Teile",
 };
 
