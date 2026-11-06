@@ -1,0 +1,263 @@
+{
+  "slug": "rollladen-lamellen",
+  "name": "Rollladenlamelle",
+  "mehrzahl": "Lamellen, Endleisten und Stopper",
+  "genus": "f",
+  "titel": "Rollladenlamellen: welches Profil passt, und wie tauschst du Lamelle, Endleiste und Stopper?",
+  "seo_title": "Rollladenlamellen einzeln tauschen: Mini oder Maxi, Endleiste, Anschlagstopfen und Panzer kürzen",
+  "seo_description": "Gebrochene Rollladenlamelle ersetzen: Deckhöhe messen (Mini 37 mm, Maxi 52 mm), Profil seitlich herausziehen, Endleiste und Anschlagstopfen richtig montieren und einen neuen Panzer auf Breite und Höhe kürzen.",
+  "kurz": "Der Rollladenpanzer besteht aus einzelnen Lamellen, die seitlich ineinandergeschoben sind. Unten schließt er mit der Endleiste ab, an ihr sitzen Anschlagstopfen oder Anschlagwinkel, damit der Panzer nicht in den Kasten gezogen wird. Welche Lamelle passt, entscheidet das Profil: Schellenberg baut das Mini-System mit 37 mm Deckhöhe und das Maxi-System mit 52 mm, andere Hersteller haben eigene Profile.\n\nEine gebrochene Lamelle, die Endleiste und die Stopper tauschst du selbst, dafür öffnest du den Rollladenkasten, an den Strom musst du nicht. Hat der Rollladen einen Motor, prüfst du danach die Endlagen.",
+  "bereiche": [
+    "rollladen"
+  ],
+  "teiltypen": [
+    "rollladen-lamellen"
+  ],
+  "marken": [
+    "schellenberg",
+    "somfy",
+    "rademacher",
+    "selve"
+  ],
+  "probleme": [
+    "rollladen-klemmt",
+    "rollladen-endlage-falsch"
+  ],
+  "erkennen": [
+    {
+      "titel": "Deckhöhe messen",
+      "text": "Lass den Rollladen ganz herunter und miss die sichtbare Höhe einer Lamelle, das ist die Deckhöhe. Bei Schellenberg hat das Mini-Profil 37 mm Deckhöhe und 8 mm Tiefe, das Maxi-Profil 52 mm und 14 mm Tiefe. Einen Hinweis gibt auch der Gurt: 14 mm breit beim Mini-System, 18 bis 23 mm beim Maxi-System. Passt keins der beiden Maße, stammt der Panzer von einem anderen Hersteller. Dann nimmst du eine alte Lamelle mit zum Rollladenbauer."
+    },
+    {
+      "titel": "Kunststoff oder Aluminium",
+      "text": "Lamellen gibt es aus Kunststoff (PVC) und aus Aluminium. Kunststoff ist günstiger, Aluminium ist laut Schellenberg innen ausgeschäumt und dick lackiert. Eine neue Lamelle muss aus demselben Material sein wie der Panzer, auch die Endleiste richtet sich danach: Die Schellenberg-Endleiste 74015 ist für PVC-Panzer im Maxi-System gedacht und nicht für Aluminiumprofile."
+    },
+    {
+      "titel": "Lamelle seitlich herausziehen",
+      "text": "Die Lamellen sind auf einer Seite gegen Verschieben arretiert. Auf der anderen Seite ziehst du die kaputte Lamelle heraus und schiebst die neue hinein. Dafür muss der Panzer meist aus den Führungsschienen: Kasten öffnen, Anschlagstopfen an der Endleiste abschrauben, Panzer von der Welle aushängen und nach außen herausführen. Neue Profile kürzt du mit einer feinen Säge auf die Breite der alten."
+    },
+    {
+      "titel": "Einzeln tauschen oder ganzer Panzer",
+      "text": "Sind nur einzelne Kunststoffprofile verbogen, gerissen oder durchgebrochen, musst du laut Schellenberg nicht gleich den ganzen Panzer ersetzen. Haben mehrere Profile kleine Risse am Rand, rät Schellenberg zum neuen Panzer, weil die anderen bald folgen. Neue Lamellen in einem alten Panzer weichen außerdem oft in der Farbe ab."
+    },
+    {
+      "titel": "Endleiste wechseln",
+      "text": "Die Endleiste ist das unterste Profil, oft aus Aluminium und mit einem Gummikeder, der beim Aufsetzen auf die Fensterbank schützt und Festfrieren verhindert. Sie ist nicht aufgeclipst, sondern wie die Lamellen seitlich eingeschoben. Die Schellenberg-Endleiste 74015 schiebst du in die Aufnahme des untersten Profils, sie ist gegen seitliches Verschieben arretiert und lässt sich mit der Metallsäge kürzen."
+    },
+    {
+      "titel": "Anschlagstopfen oder Anschlagwinkel anschrauben",
+      "text": "Die Stopper verhindern, dass der Panzer beim Hochziehen ganz in den Kasten läuft. Schellenberg schraubt sie an die Endleiste oder an das unterste Profil, etwa 12 cm vom Rand entfernt, beide auf gleicher Höhe, damit der Rollladen nicht schief stoppt. Bei einer Alu-Endleiste bohrst du ein Loch, legst innen die Unterlegscheibe auf und schraubst den Stopfen von innen fest. Anschlagwinkel sind flacher und für wenig Abstand zum Fenstersturz gedacht."
+    },
+    {
+      "titel": "Neuen Panzer auf Breite und Höhe bringen",
+      "text": "Für die Breite misst du die lichte Breite und sägst den Panzer mit einer feinen Säge auf der nicht arretierten Seite ab. Für die Höhe rechnet Schellenberg beim Mini-Set 39006 so: lichte Höhe plus 10 cm, geteilt durch 37 mm Deckhöhe, ergibt die Zahl der Profile. Überzählige Profile ziehst du seitlich heraus. Vor dem Kauf misst du außerdem den Platz im Kasten, denn der ganz aufgewickelte Panzer muss hineinpassen."
+    },
+    {
+      "titel": "Mit Motor: Endlagen prüfen",
+      "text": "Nach einem Lamellentausch, einer neuen Endleiste oder anderen Stoppern läuft der Panzer anders auf die Welle. Becker schreibt für abgerissene Lamellen und Anschläge: Anlage instand setzen, dann die Endlagen neu einstellen. Somfy unterscheidet beim Oximo io, ob der Panzer mit oder ohne Stopper montiert ist, danach richtet sich die Einstellung der oberen Endlage. Wie das je Motor geht und wer es machen soll, steht auf der Seite zum Problem mit den Endlagen."
+    }
+  ],
+  "groessen": {
+    "titel": "Mini oder Maxi: welche Lamelle, Endleiste und welcher Stopper?",
+    "spalten": [
+      "System",
+      "Deckhöhe",
+      "Profiltiefe",
+      "Welle und Gurt",
+      "Teile bei Schellenberg"
+    ],
+    "zeilen": [
+      [
+        "Mini",
+        "37 mm",
+        "8 mm",
+        "Achtkantwelle 40 mm, Gurt 14 mm",
+        "Profile 28749 bis 28758 (80 bis 150 cm, beige, grau, weiß), Panzer-Set 39006 mit Alu-Endleiste, Anschlagstopfen 52000 bis 52004, Anschlagwinkel 52102"
+      ],
+      [
+        "Maxi",
+        "52 mm",
+        "14 mm",
+        "Achtkantwelle 60 mm, Gurt 18 bis 23 mm",
+        "Profile 71905 und 71906 (195 cm, grau und weiß), Alu-Endleiste 74015 (1,5 m, für PVC), Anschlagstopfen 52000 bis 52004, Anschlagwinkel 52102"
+      ]
+    ],
+    "hinweis": "Mini und Maxi sind Schellenberg-Bezeichnungen, kein Normmaß. Die Deckhöhe ist die sichtbare Höhe eines Profils bei geschlossenem Rollladen. Schellenberg führt Kunststoffprofile in 1 m, 1,2 m, 1,5 m, 1,8 m und 2,1 m Länge, alle lassen sich kürzen. Anschlagstopfen und -winkel passen laut Schellenberg zu beiden Systemen. Panzer anderer Hersteller haben eigene Profile, dort hilft eine alte Lamelle als Muster."
+  },
+  "produkte": [
+    {
+      "name": "Schellenberg Rollladenprofil Mini 28752, 100 cm, weiß",
+      "hersteller": "Schellenberg",
+      "ean": "4003971287520",
+      "hinweis": "Kunststoffprofil mit 37 mm Deckhöhe, zum Austausch einzelner Lamellen oder zum Verlängern eines Mini-Panzers. Mit Arretierung gegen seitliches Verschieben."
+    },
+    {
+      "name": "Schellenberg Rollladenpanzer-Set Mini 39006, 90 × 110 cm, grau",
+      "hersteller": "Schellenberg",
+      "ean": "4003971390047",
+      "amazon_asin": "B0BXX5XW4K",
+      "hinweis": "Vormontierter PVC-Panzer mit 37 mm Deckhöhe, Alu-Endleiste mit Gummikeder, zwei Aufhängungen und zwei Anschlagstopfen. Für 40-mm-Wellen, in Breite und Höhe kürzbar."
+    },
+    {
+      "name": "Schellenberg Anschlagstopfen 52002, grau, 2 Stück",
+      "hersteller": "Schellenberg",
+      "ean": "4003971520023",
+      "amazon_asin": "B000U3SUYU",
+      "hinweis": "40 mm lang, 20 mm Durchmesser, mit Schrauben. Für Mini und Maxi, auch in Anthrazit (52000), Beige (52001), Weiß (52003) und Braun (52004)."
+    },
+    {
+      "name": "Schellenberg Anschlagwinkel 52102, grau, 2 Stück",
+      "hersteller": "Schellenberg",
+      "ean": "4003971521020",
+      "hinweis": "37 × 22 × 39 mm, mit Schrauben. Für wenig Platz zwischen Endleiste und Fenstersturz, Mini und Maxi."
+    },
+    {
+      "name": "Schellenberg Anschlagstopfen 52012, 22 × 60 mm, grau",
+      "hersteller": "Schellenberg",
+      "amazon_asin": "B01MZIWOVJ",
+      "hinweis": "Längerer Stopfen mit 60 mm."
+    },
+    {
+      "name": "Schellenberg Anschlagstopfen 10260, 24 × 39 mm, weiß",
+      "hersteller": "Schellenberg",
+      "amazon_asin": "B06Y2D9J5J",
+      "hinweis": "Stopfen für die Endleiste, 24 × 39 mm."
+    }
+  ],
+  "teile": [],
+  "fragen": [
+    {
+      "frage": "Welche Rollladenlamelle passt: Mini oder Maxi?",
+      "antwort": "Miss die Deckhöhe, also die sichtbare Höhe einer Lamelle bei geschlossenem Rollladen. Bei Schellenberg sind es 37 mm im Mini-System und 52 mm im Maxi-System, dazu gehören 14 mm und 18 bis 23 mm breite Gurte. Hat dein Panzer andere Maße, stammt er von einem anderen Hersteller, dann nimmst du eine alte Lamelle als Muster mit.",
+      "kategorie": "nummer",
+      "quellen": [
+        "https://www.schellenberg.de/wissens-wert/detailansicht/das-rollladen-abc/",
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladenprofile/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Kann ich eine einzelne gebrochene Lamelle tauschen, und muss ich dafür den Kasten öffnen?",
+      "antwort": "Ja, einzelne verbogene, gerissene oder gebrochene Kunststoffprofile lassen sich tauschen, schreibt Schellenberg. Die Lamelle ziehst du auf der nicht arretierten Seite heraus und schiebst die neue hinein. Meist muss der Panzer dafür aus den Schienen: Kasten öffnen, Stopper abschrauben, Panzer von der Welle nehmen und herausführen. Im Bauexpertenforum klappte der Tausch von außen nicht, es blieb nur die Revisionsklappe.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladenprofile/",
+        "https://www.schellenberg.de/71905",
+        "https://www.gutefrage.net/frage/wie-kann-ich-am-besten-einige-lamellen-bei-unserem-rolladen-austauschen",
+        "https://www.bauexpertenforum.de/threads/rolladen-lamellen-austauschen.119365/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Kann man Rollladenlamellen einzeln kaufen?",
+      "antwort": "Für Schellenberg-Panzer ja: Mini-Profile gibt es von 80 bis 150 cm Länge in Beige, Grau und Weiß, Maxi-Profile in 195 cm, alle lassen sich kürzen. Bei Panzern anderer Hersteller passt ein Mini- oder Maxi-Profil nur, wenn Deckhöhe und Form stimmen. Sind viele Lamellen kaputt, ist ein neuer Panzer nach Maß oft die bessere Wahl, auch wegen der Farbe.",
+      "kategorie": "bezug",
+      "quellen": [
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladenprofile/",
+        "https://www.schellenberg.de/28752",
+        "https://www.gutefrage.net/frage/wie-kann-ich-am-besten-einige-lamellen-bei-unserem-rolladen-austauschen"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Kunststoff oder Aluminium: Welche Lamellen habe ich, und darf ich mischen?",
+      "antwort": "Schellenberg baut Profile aus PVC und aus Aluminium, die Aluprofile sind innen ausgeschäumt und dick lackiert. Kunststoff ist günstiger, verträgt aber große Hitze schlechter. Eine Ersatzlamelle nimmst du aus demselben Material wie den Panzer. Auch die Endleiste muss passen: Die Schellenberg-Endleiste 74015 ist für PVC-Panzer gedacht und nicht für Aluminiumprofile.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.schellenberg.de/wissens-wert/detailansicht/das-rollladen-abc/",
+        "https://www.schellenberg.de/wissens-wert/detailansicht/rolllaeden-aus-aluminium-oder-kunststoff/",
+        "https://www.schellenberg.de/74015"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie bekomme ich die Endleiste ab, und wie kommt eine neue dran?",
+      "antwort": "Abclipsen geht nicht, die Endleiste ist wie die Lamellen seitlich eingeschoben. Im Bauexpertenforum wird dafür der Kastendeckel abgenommen, die Stopper an der Endleiste abgeschraubt und der Panzer nach außen herausgeführt. Die neue Schellenberg-Endleiste 74015 schiebst du in die Aufnahme des untersten Profils, sie ist arretiert und lässt sich mit der Metallsäge kürzen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.bauexpertenforum.de/threads/wie-bekomme-ich-die-endleisten-ab.111858/",
+        "https://www.schellenberg.de/74015"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Mein Rollladen ist beim Hochziehen ganz im Kasten verschwunden. Was ist passiert?",
+      "antwort": "Meist fehlt ein Anschlagstopfen oder er ist abgebrochen. Die Stopfen an der Endleiste halten den Panzer unter dem Kasten fest. Öffne den Kasten, zieh den Panzer vorsichtig wieder ein Stück heraus und schraub neue Stopfen an, je etwa 12 cm vom Rand. Bei einem Motor fährt der Rollladen außerdem zu weit, wenn die obere Endlage nicht stimmt.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.schellenberg.de/wissens-wert/detailansicht/das-rollladen-abc/",
+        "https://www.schellenberg.de/52002",
+        "https://www.bauexpertenforum.de/threads/wie-bekomme-ich-die-endleisten-ab.111858/"
+      ],
+      "teile": [],
+      "problem": "rollladen-endlage-falsch"
+    },
+    {
+      "frage": "Wo schraube ich die Anschlagstopfen an, und wann nehme ich Winkel?",
+      "antwort": "Schellenberg schraubt die Stopfen an die Endleiste oder an das unterste Profil, nicht direkt am Rand, sondern etwa 12 cm nach innen versetzt. Beide müssen auf gleicher Höhe sitzen, sonst stoppt der Rollladen schief. Bei einer Alu-Endleiste bohrst du vorher ein Loch, legst innen die Unterlegscheibe auf, setzt den Stopfen außen an und schraubst ihn von innen fest. Anschlagwinkel nimmst du, wenn zwischen Endleiste und Fenstersturz wenig Platz ist.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/anschlagstopfen/",
+        "https://www.schellenberg.de/52002",
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/anschlagwinkel/",
+        "https://www.schellenberg.de/einbau-storys/rollladenpanzer-tauschen/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der neue Rollladenpanzer ist zu lang und zu breit. Wie kürze ich ihn?",
+      "antwort": "Für die Breite misst du die lichte Breite und sägst mit einer feinen Säge, und zwar auf der nicht arretierten Seite. Für die Höhe rechnet Schellenberg beim Mini-Panzer: lichte Höhe plus 10 cm, geteilt durch 37 mm, das ist die Zahl der Profile. Was zu viel ist, ziehst du seitlich heraus.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.schellenberg.de/39006",
+        "https://www.schellenberg.de/einbau-storys/rollladenpanzer-tauschen/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Nach dem Lamellentausch fährt mein elektrischer Rollladen nicht mehr ganz hoch. Warum?",
+      "antwort": "Der Motor hat seine Endlagen noch auf den alten Zustand eingestellt. Becker schreibt für abgerissene Lamellen und Anschläge: Anlage instand setzen und danach die Endlagen neu einstellen. Im KNX-Forum blieb ein Rollladen nach dem Tausch der obersten Lamelle bei etwa 60 Prozent stehen, weil der Panzer in einer anderen Stellung wieder an die Welle gehängt worden war. Dort wurde ein Reset mit neuen Lernfahrten empfohlen.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://produktcenter.becker-antriebe.com/out/media/BAPIM001/Pixelboxx/rp%202010%20300%20286%200%20de.pdf",
+        "https://knx-user-forum.de/forum/öffentlicher-bereich/gebäudetechnik-ohne-knx-eib/2082050-rollo-fährt-nach-lamellenwechsel-nicht-mehr-richtig"
+      ],
+      "teile": [],
+      "problem": "rollladen-endlage-falsch"
+    }
+  ],
+  "quellen": [
+    "https://www.schellenberg.de/wissens-wert/detailansicht/das-rollladen-abc/",
+    "https://www.schellenberg.de/wissens-wert/detailansicht/rolllaeden-aus-aluminium-oder-kunststoff/",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/rollladenprofile/",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/endleisten/",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/anschlagstopfen/",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/anschlagwinkel/",
+    "https://www.schellenberg.de/einbau-storys/rollladenpanzer-tauschen/",
+    "https://www.schellenberg.de/28752",
+    "https://www.schellenberg.de/71905",
+    "https://www.schellenberg.de/74015",
+    "https://www.schellenberg.de/52002",
+    "https://www.schellenberg.de/52102",
+    "https://www.schellenberg.de/39006",
+    "https://www.amazon.de/dp/B0BXX5XW4K",
+    "https://www.amazon.de/dp/B000U3SUYU",
+    "https://www.amazon.de/dp/B01MZIWOVJ",
+    "https://www.amazon.de/dp/B06Y2D9J5J",
+    "https://produktcenter.becker-antriebe.com/out/media/BAPIM001/Pixelboxx/rp%202010%20300%20286%200%20de.pdf",
+    "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf",
+    "https://www.gutefrage.net/frage/wie-kann-ich-am-besten-einige-lamellen-bei-unserem-rolladen-austauschen",
+    "https://www.gutefrage.net/frage/rollladen-lamelle-ist-rausgesprungen-was-kann-ich-tun",
+    "https://www.bauexpertenforum.de/threads/rolladen-lamellen-austauschen.119365/",
+    "https://www.bauexpertenforum.de/threads/wie-bekomme-ich-die-endleisten-ab.111858/",
+    "https://knx-user-forum.de/forum/öffentlicher-bereich/gebäudetechnik-ohne-knx-eib/2082050-rollo-fährt-nach-lamellenwechsel-nicht-mehr-richtig"
+  ]
+}

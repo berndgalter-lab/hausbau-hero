@@ -148,6 +148,9 @@ export const PRODUKTTYP_LABEL: Record<string, string> = {
   hauswasserstation: "Hauswasserstationen",
   druckminderer: "Druckminderer",
   enthaertungsanlage: "Enthärtungsanlagen",
+  rollladen: "Rollladen-Systeme",
+  gurtwickler: "Gurtwickler",
+  rollladenmotor: "Rollladenmotoren",
 };
 
 export const TEILTYP_LABEL: Record<string, string> = {
@@ -188,6 +191,13 @@ export const TEILTYP_LABEL: Record<string, string> = {
   filtertasse: "Filtertassen & Dichtungssätze",
   "druckminderer-einsatz": "Druckminderer-Einsätze",
   salz: "Salz & Verbrauchsteile",
+  rollladengurt: "Rollladengurte",
+  gurtwickler: "Gurtwickler",
+  "rollladen-welle": "Wellen, Kapseln & Lager",
+  "rollladen-aufhaengung": "Aufhängungen & Sicherungen",
+  "rollladen-handsender": "Handsender & Schalter",
+  rollladenmotor: "Rohrmotoren & Adapter",
+  "rollladen-lamellen": "Lamellen, Endleisten & Stopper",
   sonstiges: "Weitere Teile",
 };
 

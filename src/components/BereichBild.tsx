@@ -75,6 +75,16 @@ const ZEICHNUNG: Record<string, React.ReactNode> = {
       <path d="M8 82h80" />
     </>
   ),
+  rollladen: (
+    <>
+      <rect x="16" y="12" width="64" height="14" rx="2" />
+      <path d="M20 26v52h56V26" />
+      <path d="M20 34h56M20 42h56M20 50h56M20 58h56" />
+      <path d="M20 66h56" strokeDasharray="3 4" />
+      <path d="M84 30v40" />
+      <rect x="80" y="70" width="8" height="12" rx="2" />
+    </>
+  ),
   hebeanlage: (
     <>
       <path d="M8 34h80" strokeDasharray="4 4" />
@@ -235,6 +245,18 @@ const RATGEBER_ZEICHNUNG: Record<string, React.ReactNode> = {
       <circle cx="78" cy="34" r="9" />
       <path d="M78 34l4-4" />
       <path d="M78 43v19" />
+    </>
+  ),
+  "rollladen-elektrisch-nachruesten": (
+    <>
+      <rect x="10" y="10" width="58" height="14" rx="2" />
+      <path d="M14 24v50h50V24" />
+      <path d="M14 36h50M14 48h50M14 60h50" />
+      <path d="M68 17h12v29" />
+      <rect x="74" y="46" width="12" height="22" rx="2" />
+      <path d="M81 51l-3 6h4l-3 6" />
+      <path d="M80 68v10" />
+      <path d="M76 78h8v6h-8z" />
     </>
   ),
   kleinhebeanlage: (

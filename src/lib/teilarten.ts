@@ -17,6 +17,12 @@ import dachfensterDichtung from "../../data/teilarten/dachfenster-dichtung.json"
 import dachfensterAkku from "../../data/teilarten/dachfenster-akku.json";
 import filtereinsatz from "../../data/teilarten/filtereinsatz.json";
 import regeneriersalz from "../../data/teilarten/regeneriersalz.json";
+import gurtwickler from "../../data/teilarten/gurtwickler.json";
+import rollladengurt from "../../data/teilarten/rollladengurt.json";
+import rollladenmotor from "../../data/teilarten/rollladenmotor.json";
+import rollladenHandsender from "../../data/teilarten/rollladen-handsender.json";
+import rollladenWelle from "../../data/teilarten/rollladen-welle.json";
+import rollladenLamellen from "../../data/teilarten/rollladen-lamellen.json";
 import druckmindererEinsatz from "../../data/teilarten/druckminderer-einsatz.json";
 
 // Teileart-Seiten unter /ersatzteile/<teilart> (docs/SEITENAUFBAU.md, Abschnitt 4b): ein Teil, das in vielen
@@ -85,6 +91,12 @@ const TEILARTEN: Teilart[] = [
   dachfensterAkku as Teilart,
   filtereinsatz as Teilart,
   regeneriersalz as Teilart,
+  gurtwickler as Teilart,
+  rollladengurt as Teilart,
+  rollladenmotor as Teilart,
+  rollladenHandsender as Teilart,
+  rollladenWelle as Teilart,
+  rollladenLamellen as Teilart,
   druckmindererEinsatz as Teilart,
 ];
 

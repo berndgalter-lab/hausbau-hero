@@ -1,0 +1,186 @@
+{
+  "thema": "Gurtwickler für Rollläden: Aufschraub-, Halbeinlass- und Einlasswickler (Schellenberg Mini und Maxi), Lochabstand, Gurtbreite, Kapazität, Mauerkasten und Abdeckplatte; elektrische Gurtwickler (Schellenberg RolloDrive, Rademacher RolloTron) nur zur Auswahl",
+  "fragen": [
+    {
+      "frage": "Welcher Lochabstand passt, und wie messe ich ihn?",
+      "kategorie": "nummer",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/gurtwickler-fuer-rolladenkasten-austauschen--aber-wie-",
+        "https://www.bauexpertenforum.de/threads/bezugsquelle-gurtwickler.33634/",
+        "https://diybook.de/bauen-renovieren/tischlerarbeiten/fenster-tueren/rollladen-gurtwickler-austauschen",
+        "Google-Suchvorschläge 5.11.2026: 13 Vorschläge mit Lochabstand (105, 120, 135, 140, 155, 165, 185, 190, 215 mm), docs/KEYWORDS-ROLLLADEN.md"
+      ],
+      "antwort": "Abstand der Schraublöcher Mitte zu Mitte. Schellenberg Maxi-Einlasswickler 10,5 (50100), 13,5 (50000), 16 (50200), 18,5 (50400), 21,5 cm (11400), dazu 26 cm (11500). Mini-Aufschraubwickler 14,5 (50503), 15,5 cm (50151). Flexo mit verstellbarem Lochabstand für alte Bohrlöcher.",
+      "antwort_quellen": [
+        "https://schellenberg-shop.de/rollladen/rollladenzubehoer/gurtwickler-unterputz/",
+        "https://schellenberg-shop.de/rollladen/rollladenzubehoer/gurtwickler-aufputz/",
+        "https://www.schellenberg.de/einbau-storys/getriebewickler-flexo/"
+      ]
+    },
+    {
+      "frage": "Mini oder Maxi: Welchen Gurtwickler brauche ich?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/gurtwickler-fuer-rolladenkasten-austauschen--aber-wie-",
+        "https://www.haustechnikdialog.de/Forum/t/106724/Rolladenwickler-Fenster-integriert-14mm-Feder-defekt",
+        "Google-Suchvorschläge 5.11.2026: 20 Vorschläge mit Gurtbreite (14/15 mm, 23 mm, Mini/Maxi)"
+      ],
+      "antwort": "Mini 14 mm, Maxi 23 mm; Maxi-Einlasswickler 18 bis 23 mm. RolloDrive 45 nur Maxi, RolloDrive 55 beide.",
+      "antwort_quellen": [
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/aufschraubwickler/50151/",
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/einlasswickler/50000/",
+        "https://www.schellenberg.de/rollladenantriebe/elektrische-gurtwickler/gurtwickler-unterputz/22745/",
+        "https://schellenberg-shop.de/media/af/e7/5d/1747747186/montageanleitung-rollodrive-55-schellenberg.pdf"
+      ]
+    },
+    {
+      "frage": "Die Feder im Gurtwickler zieht nicht mehr. Kann ich sie nachspannen oder tauschen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 6,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/rolladen-gurtwickler-feder-gebrochen---wer-kennt-ersatzteil",
+        "https://www.gutefrage.net/frage/fensterrolladen-gurtwickler-wickelt-sicht-nicht-mehr-auf",
+        "https://www.gutefrage.net/frage/der-gurt-im-rollo-zieht-sich-nicht-mehr-ein",
+        "https://www.haustechnikdialog.de/Forum/t/106724/Rolladenwickler-Fenster-integriert-14mm-Feder-defekt",
+        "https://www.woodworker.de/forum/threads/metallfeder-im-rolladengurthalter-wechseln.132470/",
+        "Google-Suchvorschläge 5.11.2026: „gurtwickler feder spannen“, „feder defekt“"
+      ],
+      "antwort": "Schellenberg: Gurtwickler nicht öffnen, Federtrommel gespannt (Anleitungen 50503, 50703, 50801). Einlasswickler 50000 mit vorgespannter Federdose. Einbau: Gurt an der Federtrommel befestigen, Sicherung lösen, langsam aufrollen lassen.",
+      "antwort_quellen": [
+        "https://schellenberg-shop.de/media/30/63/4e/1733928985/50503-50504-montageanleitung-gurtwickler-mini.pdf",
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/einlasswickler/50000/",
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/aufschraubwickler/50151/"
+      ]
+    },
+    {
+      "frage": "Passt ein neuer Einlasswickler in meinen alten Mauerkasten?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/gurtwickler-rausgebrochen.48693/",
+        "https://www.bauexpertenforum.de/threads/bezugsquelle-gurtwickler.33634/",
+        "https://www.bauexpertenforum.de/threads/reparatur-rolladenzug-haus-baujahr-1984.128601/"
+      ],
+      "antwort": "Einlasswickler 50000 bis 50400: 50 mm breit, Einbautiefe 115 bis 135 mm, Federdose beim 50000 verschiebbar. 11400: 140 bis 180 mm. Mauerkästen PVC 53900 (105), 51900 (135), 50900 (160), 52900 (185). Abdeckplatte nach Lochabstand, separat.",
+      "antwort_quellen": [
+        "https://schellenberg-shop.de/rollladen/rollladenzubehoer/gurtwickler-unterputz/",
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/einlasswickler/50000/",
+        "https://www.schellenberg.de/einbau-storys/einlasswickler/"
+      ]
+    },
+    {
+      "frage": "Wie viel Gurt passt in den Gurtwickler, und wie lang muss der Gurt sein?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/gurtwickler-zu-schwach.27934/",
+        "https://www.woodworker.de/forum/threads/die-gurtsituation-bei-aufsatzroll%C3%A4den-zu-schmal-f%C3%BCr-gro%C3%9Fe-fenster.135448/",
+        "Google-Suchvorschläge 5.11.2026: „gurtwickler größen“, „länge balkontür“"
+      ],
+      "antwort": "Faustregel Schellenberg: Fenster-/Türhöhe × 2,5. Einlasswickler 5,0 bis 5,6 m, bis 2,30 m Höhe; 11400 und 11500 12 m, bis 2,50 m. Aufschraubwickler Mini 5 m, Flexo 50145 7 m, Getriebewickler 50147 9 m.",
+      "antwort_quellen": [
+        "https://media.hornbach.at/hb/ownersmanual/as.187241953.pdf",
+        "https://www.schellenberg.de/einbau-storys/einlasswickler/",
+        "https://schellenberg-shop.de/rollladen/rollladenzubehoer/gurtwickler-aufputz/"
+      ]
+    },
+    {
+      "frage": "Kann ich den Gurtwickler tauschen, ohne den Rollladenkasten zu öffnen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/rolladen-gurtwickler-selber-ausbauen",
+        "https://www.gutefrage.net/frage/gurtwickler-fuer-rolladenkasten-austauschen--aber-wie-",
+        "https://www.woodworker.de/forum/threads/problem-beim-aush%C3%A4ngen-des-rollos-gurtwechsel.127617/"
+      ],
+      "antwort": "Aufklappbarer 50151: Gurt bis Anschlag ziehen, abschneiden, neues Gehäuse montieren, Gurt an Federtrommel, aufrollen, ohne Kasten zu öffnen. 50503 mit Gurt: Rollladen von der Welle trennen, Gurt durch die Gurtführung in den Kasten, an Gurtscheibe befestigen.",
+      "antwort_quellen": [
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/aufschraubwickler/50151/",
+        "https://schellenberg-shop.de/media/30/63/4e/1733928985/50503-50504-montageanleitung-gurtwickler-mini.pdf"
+      ]
+    },
+    {
+      "frage": "Welcher elektrische Gurtwickler passt in den Kasten meines Einlasswicklers?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/gibt-es-rolladen-gurtwickler-mit-akku",
+        "https://www.gutefrage.net/frage/rolladenantrieb-mit-akku-moeglich",
+        "Google-Suchvorschläge 5.11.2026: „elektrischer gurtwickler lochabstand 105/135“, „unterputz nachrüsten“, „zugkraft berechnen“"
+      ],
+      "antwort": "RolloDrive 45: Lochabstand 135 oder 165 mm, Maxi 23 mm, Gurt bis 4,3 m, Kunststoff bis 4 m². RolloTron Standard: Gurtkästen ab 36 mm Breite; 45-kg-Geräte 7,6 m bei 1,0 mm, 6,2 m bei 1,3 mm; Minigurt-Variante 1415 45 19.",
+      "antwort_quellen": [
+        "https://www.schellenberg.de/rollladenantriebe/elektrische-gurtwickler/gurtwickler-unterputz/22745/",
+        "https://media.elv.com/file/106644_rollotron_standard_data.pdf",
+        "https://medium.rademacher.de/static/33/9b/c0/8e61ea470a2e58fcff8269390145bb3c94/Einbaumaße%201700.pdf"
+      ]
+    },
+    {
+      "frage": "Darf ich einen elektrischen Gurtwickler selbst anschließen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/gurtwickler-zu-schwach.27934/",
+        "Google-Suchvorschläge 5.11.2026: „elektrischer gurtwickler direkt an strom anschließen“"
+      ],
+      "antwort": "Schellenberg RolloDrive 45 und 55: elektrischer Anschluss, Montage und Inbetriebnahme durch ausgebildete Elektrofachkraft, auch mit Netzteil und Stecker; Steckdose frei zugänglich. Rademacher RolloTron Standard: Anschluss durch zugelassene Elektrofachkraft, Versorgung über Kabel mit Stecker oder feste Zuleitung.",
+      "antwort_quellen": [
+        "https://schellenberg-shop.de/media/af/e7/5d/1747747186/montageanleitung-rollodrive-55-schellenberg.pdf",
+        "https://www.globus-baumarkt.de/media/e6/c0/a8/1665206799/4003971227458_12391102_BDA_28042021__63275753.pdf",
+        "https://media.elv.com/file/106644_rollotron_standard_um.pdf"
+      ]
+    },
+    {
+      "frage": "Der Rollladen bleibt nicht in Mittelstellung stehen. Ist der Wickler zu schwach?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/gurtwickler-zu-schwach.27934/"
+      ],
+      "antwort": "Nur Forenantworten: Gurt falsch eingefädelt (muss hinter der Klemmwelle laufen), die Feder wickelt nur auf und hält den Panzer nicht. Keine Herstellerangabe, nicht auf die Seite.",
+      "antwort_quellen": []
+    },
+    {
+      "frage": "Der Gurtwickler ist aus der Wand gebrochen. Wie befestige ich ihn wieder?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/gurtwickler-rausgebrochen.48693/",
+        "Google-Suchvorschläge 5.11.2026: „gurtwickler hält nicht mehr in der wand“"
+      ],
+      "antwort": "Nur Forenantworten (längere Schrauben in vorhandene Holzklötze, Gurtwicklung darf nicht behindert werden). Keine Herstellerangabe, nicht auf die Seite; Mauerkasten als Ersatzteil steht in der Mauerkasten-Frage.",
+      "antwort_quellen": []
+    }
+  ],
+  "fakten": [
+    {"fakt": "Schellenberg Einlasswickler Maxi: 50100 Lochabstand 105 mm, bis 5,0 m, 50×129 mm; 50000 135 mm, 5,6 m, 50×167; 50200 160 mm, 5,3 m, 50×194; 50400 185 mm, 5,6 m, 50×215; jeweils Einbautiefe 115–135 mm, max. 23 mm Gurt. 11400 215 mm, 12 m, Tiefe 140–180. 50300 (Untersetzungsgetriebe) 185 mm, 12 m. 11500 260 mm mit Abdeckplatte, 12 m.", "quelle": "https://schellenberg-shop.de/rollladen/rollladenzubehoer/gurtwickler-unterputz/"},
+    {"fakt": "Schellenberg Mini unterputz: 50603 Lochabstand 118 mm, 5 m Gurt, mit Mauerkasten; Halbeinlasswickler 50505 135 mm, 5 m Gurt, Einbautiefe 50 mm.", "quelle": "https://schellenberg-shop.de/rollladen/rollladenzubehoer/gurtwickler-unterputz/"},
+    {"fakt": "Schellenberg Mauerkästen Maxi PVC: 53900 (105 mm), 51900 (135 mm), 50900 (160 mm), 52900 (185 mm).", "quelle": "https://schellenberg-shop.de/rollladen/rollladenzubehoer/gurtwickler-unterputz/"},
+    {"fakt": "Einlasswickler 50000 bis 50400 für Fenster und Türen bis 2,30 m Höhe, 23 mm; 11400 und 11500 bis 2,50 m, max. 12 m Gurt. Montage: Rollladen herunterlassen, alten Wickler ausbauen, Abdeckplatte auflegen, Gurt unter der Gurtbremse einführen, an Federtrommel befestigen, Sicherung eindrücken, Gurt aufrollen, Wickeleinheit in Mauerkasten, festschrauben.", "quelle": "https://www.schellenberg.de/einbau-storys/einlasswickler/"},
+    {"fakt": "50000: Gurtbreite 18 bis 23 mm, bis 5,60 m, Federdose vorgespannt, Position variabel (Einbautiefe anpassbar), kompatibel mit Abdeckplatten 13,5 cm (separat), ohne Gurt.", "quelle": "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/einlasswickler/50000/"},
+    {"fakt": "Schellenberg Aufputz: 50801 Maxi 170 mm, 5,3 m inkl. Gurt 23 mm; 50503 Mini 145 mm, 5,0 m inkl. Gurt; 50153 Flexo Mini 140–155 mm einstellbar, 5,0 m, aufklappbar; 50703 Laibung 95 mm, 5 m; 50145 Flexo 150–165 mm, 7 m; 50147 Getriebewickler 175–190 mm, 9 m; 50151 155 mm, 5,0 m, aufklappbar; 50150 Design 80 mm, 5 m.", "quelle": "https://schellenberg-shop.de/rollladen/rollladenzubehoer/gurtwickler-aufputz/"},
+    {"fakt": "50151: Montage ohne Öffnen des Rollladenkastens; Gurt bis Anschlag herausziehen und abschneiden, Wickler öffnen, Gurt an Federtrommel, Sicherung lösen, aufrollen lassen.", "quelle": "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/aufschraubwickler/50151/"},
+    {"fakt": "Anleitungen 50503/50504, 50703 und 50801/50804: Rollladen von der Welle trennen, Gurt ca. 4,5 m (Mini) bzw. 5,0 m (Maxi) herausziehen, durch die Gurtführung zur Gurtscheibe; Sicherheitshinweis: Gurtwickler nicht öffnen, Federtrommel gespannt.", "quelle": "https://schellenberg-shop.de/media/30/63/4e/1733928985/50503-50504-montageanleitung-gurtwickler-mini.pdf"},
+    {"fakt": "Schellenberg Rollladengurt 46002 (Anleitung): Faustregel Gurtlänge = Fenster-/Türhöhe × 2,5; Feder des Wicklers spannen, Gurt unterhalb der Gurtbremse einfädeln, an der Feder befestigen.", "quelle": "https://media.hornbach.at/hb/ownersmanual/as.187241953.pdf"},
+    {"fakt": "Flexo: Lochabstand variabel, alte Bohrlöcher weiter nutzbar; Lochabstand nach Ausbau des alten Wicklers bestimmen.", "quelle": "https://www.schellenberg.de/einbau-storys/getriebewickler-flexo/"},
+    {"fakt": "RolloDrive 45 (22745): Lochabstand 135 oder 165 mm, Maxi 23 mm, Gurt max. 4,3 m, Kunststoff 4 m², Alu und Holz 2 m², Einbautiefe 129 mm, Netzteil/Stecker.", "quelle": "https://www.schellenberg.de/rollladenantriebe/elektrische-gurtwickler/gurtwickler-unterputz/22745/"},
+    {"fakt": "RolloDrive 45 Anleitung: Elektrischer Anschluss, Montage und Inbetriebnahme durch ausgebildete Elektrofachkraft; frei zugängliche Steckdose; Gurtlänge 5,5 m bei 1,0 mm, 4,3 m bei 1,3 mm; Alten Einlasswickler ausbauen, Trommel gespannt, Handschuhe tragen.", "quelle": "https://www.globus-baumarkt.de/media/e6/c0/a8/1665206799/4003971227458_12391102_BDA_28042021__63275753.pdf"},
+    {"fakt": "RolloDrive 55: Elektrofachkraft für Anschluss, Montage, Inbetriebnahme; Gurt 23 und 14 mm; Wickelkapazität 6 m bei 1,0 mm, 3 m bei 1,7 mm; 5,0 m² Kunststoff, 2,5 m² Alu; 30 kg.", "quelle": "https://schellenberg-shop.de/media/af/e7/5d/1747747186/montageanleitung-rollodrive-55-schellenberg.pdf"},
+    {"fakt": "Rademacher RolloTron Standard: Unterputz, für Gurtkästen ab 36 mm Breite, 45 kg (Plus 60 kg), Minigurt-Variante 1415 45 19.", "quelle": "https://media.elv.com/file/106644_rollotron_standard_data.pdf"},
+    {"fakt": "Rademacher Einbaumaße (Mai 2017): Typen mit 0 am Ende 45 kg, 7,6 m bei 1,0 mm, 6,2 m bei 1,3 mm; Typen mit 5 am Ende 60 kg, 15 m/12 m; Aufputz-Schwenkwickler 30 kg, 5 m/4 m.", "quelle": "https://medium.rademacher.de/static/33/9b/c0/8e61ea470a2e58fcff8269390145bb3c94/Einbaumaße%201700.pdf"},
+    {"fakt": "RolloTron Standard Anleitung: Anschluss und alle Arbeiten an elektrischen Anlagen durch zugelassene Elektrofachkraft; Versorgung über Anschlusskabel mit Stecker oder fest verlegte Zuleitung.", "quelle": "https://media.elv.com/file/106644_rollotron_standard_um.pdf"},
+    {"fakt": "Schellenberg-EAN = 4003971 + fünfstellige Artikelnummer + Prüfziffer (50151 → 4003971501510, 50200 → 4003971502005, 50900 → 4003971509004, 22745 → 4003971227458); damit 50603 → 4003971506034 und 50801 → 4003971508014 aus den Feed-Titeln zugeordnet.", "quelle": "Awin-Feeds hagebau/OTTO 4.11.2026 (feed-rollladen-final.json)"}
+  ],
+  "nicht_belegt": [
+    "Selve-Gurtwickler: Lochabstände und Kapazitäten nur aus Händlertiteln (OTTO 5er-Set 15 mm, eBay), keine Selve-Unterlage; nicht in Tabelle und Produkte.",
+    "Somfy: keine mechanischen Gurtwickler im Feed; nur als Marke im Pflichtfeld.",
+    "RolloDrive 45 Zugkraft: Anleitung 2015 7 kg Endzugkraft, Produktseite 12 kg Gewicht, Vergleichs-PDF 16 kg; nicht übernommen.",
+    "Lochabstand des RolloTron Standard: Datenblatt nennt Maße 165 und 185 mm ohne Zuordnung; nicht als Lochabstand übernommen.",
+    "Rademacher, steckerfertige Geräte ohne Elektrofachkraft (Analyse Abschnitt 4): in der RolloTron-Standard-Anleitung steht Elektrofachkraft auch bei Kabel mit Stecker.",
+    "WIR eWickler Akku (eW320, eW420): nur Feed-Titel, keine Herstelleranleitung geprüft; nicht in Produkte.",
+    "Dannert, Inovatec, Bauheld, Meisterbau (Contorion/OTTO): Lochabstände nur aus Titeln, nicht übernommen.",
+    "Forenaussagen zu Feder einzeln tauschen (woodworker, haustechnikdialog 106724) und zur Mittelstellung (bauexpertenforum 27934): ohne Herstellerbeleg."
+  ]
+}

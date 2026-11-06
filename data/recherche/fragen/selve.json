@@ -1,0 +1,298 @@
+{
+ "marke": "Selve",
+ "fragen": [
+  {
+   "frage": "commeo oder iveo: Woran erkenne ich, welches Funksystem mein Selve-Rollladen hat?",
+   "kategorie": "nummer",
+   "haeufigkeit": 3,
+   "fundstellen": [
+    "https://www.selve.de/en/pressebereich/anything-is-possible-with-just-one-radio-system",
+    "https://www.youtube.com/watch?v=yWs9U2pSoqI"
+   ],
+   "antwort": "Schau auf die Endung hinter dem Motortyp. „-R“ heißt iveo oder das ältere intronic, „-com“ heißt nur commeo. „-RC“ steht für „radio commeo“ und nimmt commeo oder iveo, aber nie beide gleichzeitig. Der Name steht auch auf dem Sender: commeo-Sender zeigen über eine LED die Rückmeldung des Motors, iveo-Sender senden nur in eine Richtung.",
+   "antwort_quellen": [
+    "https://selve.de/en/service-downloads/faq",
+    "https://www.manualslib.de/manual/461713/Selve-Se-Plus-Rc.html?page=41",
+    "https://www.selve.de/media/6c/ce/7b/1660900299/SELVE_BA_SE-Plus-R_SEL-Plus-R_SEM-Plus-R_SES-R_bis-2015.pdf",
+    "https://set-gmbh.de/Selve-Commeo-Send-1-hand-held-radio-transmitter",
+    "https://www.selve.de/home/produkte/steuerungen/iveo/iveo-send-10/sw10042/"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "selve-commeo-send-1-297713",
+    "selve-iveo-send-1-298713"
+   ],
+   "passendes_problem": "selve-rollladen-reagiert-nicht"
+  },
+  {
+   "frage": "Wo finde ich die Typbezeichnung und Artikelnummer meines Selve-Motors?",
+   "kategorie": "nummer",
+   "haeufigkeit": 1,
+   "fundstellen": [
+    "https://www.bauexpertenforum.de/threads/selve-rolladenmotor-problem-mit-dem-wechsel-der-anschlussleitung.139531/"
+   ],
+   "antwort": "Selve verweist für die technischen Daten auf das Typenschild am Antrieb. Dort stehen Typ und Größe, etwa SE Pro 2/10. Weil der Motor in der Welle steckt, siehst du das Typenschild meist erst bei geöffnetem Rollladenkasten. Ohne Typenschild hilft die Anleitung aus der Bauakte oder die Farbe des Motorrohrs: grau beim SE Pro, grün beim älteren SEL Plus.",
+   "antwort_quellen": [
+    "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+    "https://selve.de/en/service-downloads/faq"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [],
+   "passendes_problem": null
+  },
+  {
+   "frage": "Was bedeutet „2/10“ in der Typbezeichnung meines Selve-Rollladenmotors?",
+   "kategorie": "nummer",
+   "haeufigkeit": 1,
+   "fundstellen": [],
+   "antwort": "Die erste Zahl ist die Baureihe, die zweite das Drehmoment in Nm. Baureihe 1 hat 35 mm Durchmesser und passt ab der Welle SW40, Baureihe 2 hat 45 mm und passt ab SW50, in der Praxis meist SW60. Baureihe 3 hat 58 mm für SW70. Ein SE Pro 2/10 ist also ein 45-mm-Motor mit 10 Nm, laut Selve gut für 25 kg Rollladen bei 1,5 m Höhe.",
+   "antwort_quellen": [
+    "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+    "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+    "https://www.selve.de/home/produkte/antriebe/se-plus/sw10016/"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "selve-se-pro-2-10-412130"
+   ],
+   "passendes_problem": null
+  },
+  {
+   "frage": "Mein Selve SEL Plus ist kaputt. Welcher Motor ersetzt ihn?",
+   "kategorie": "kompatibilitaet",
+   "haeufigkeit": 3,
+   "fundstellen": [
+    "https://www.haustechnikdialog.de/Forum/t/210647/SELVE-SEL-plus-2-10-Dreck-austauschen-gegen-was-",
+    "https://www.rolluikonderdelen.nl/de/marken/selve/motoren-fuer-rolllaeden/verschiedene-typen-von-selve-rohrmotoren/"
+   ],
+   "antwort": "Selve nennt den SE Pro als Nachfolger des SEL Plus, alle Funktionen sind übernommen, das Motorrohr ist grau statt grün. Für den SEL Plus-RC ist es der SE Pro-RC. Nimm dieselbe Größe, also aus SEL Plus 2/10 wird SE Pro 2/10. Adapter und Steckerleitung der Baureihe 2 werden separat bestellt; den Tausch macht die Elektrofachkraft.",
+   "antwort_quellen": [
+    "https://selve.de/en/service-downloads/faq",
+    "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+    "https://www.rolluikonderdelen.nl/de/marken/selve/motoren-fuer-rolllaeden/verschiedene-typen-von-selve-rohrmotoren/"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "selve-se-pro-2-10-412130",
+    "selve-se-pro-2-10-rc-413130",
+    "selve-adapterset-sw60-baureihe-2"
+   ],
+   "passendes_problem": "selve-rollladen-reagiert-nicht"
+  },
+  {
+   "frage": "Passt ein Selve-commeo-Handsender an meinen älteren SEL Plus-R?",
+   "kategorie": "kompatibilitaet",
+   "haeufigkeit": 2,
+   "fundstellen": [
+    "https://selve.de/en/service-downloads/faq"
+   ],
+   "antwort": "Nein. Motoren mit „-R“ nehmen nur iveo- und intronic-Sender, commeo ist ein anderes Funksystem. Für einen SEL Plus-R brauchst du einen iveo-Sender wie den iveo Send 1. commeo funktioniert erst an Motoren mit „-RC“ oder „-com“.",
+   "antwort_quellen": [
+    "https://selve.de/en/service-downloads/faq",
+    "https://www.selve.de/media/6c/ce/7b/1660900299/SELVE_BA_SE-Plus-R_SEL-Plus-R_SEM-Plus-R_SES-R_bis-2015.pdf"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "selve-iveo-send-1-298713"
+   ],
+   "passendes_problem": "selve-rollladen-reagiert-nicht"
+  },
+  {
+   "frage": "Kann ich an meinem Selve-„-RC“-Motor einen commeo- und einen iveo-Sender gleichzeitig benutzen?",
+   "kategorie": "kompatibilitaet",
+   "haeufigkeit": 1,
+   "fundstellen": [
+    "https://selve.de/en/service-downloads/faq"
+   ],
+   "antwort": "Nein. Ein „-RC“-Motor arbeitet mit commeo oder mit iveo, nicht mit beiden zugleich. Bis zu 16 Sender desselben Systems passen in einen Motor. Wechselst du später das System, musst du alle Sender des anderen Systems neu einlernen.",
+   "antwort_quellen": [
+    "https://selve.de/en/service-downloads/faq",
+    "https://www.manualslib.de/manual/461713/Selve-Se-Plus-Rc.html?page=41"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "selve-commeo-send-1-297713",
+    "selve-iveo-send-1-298713"
+   ],
+   "passendes_problem": null
+  },
+  {
+   "frage": "Welchen Selve-Motor brauche ich für eine SW40- oder SW60-Welle?",
+   "kategorie": "kompatibilitaet",
+   "haeufigkeit": 1,
+   "fundstellen": [],
+   "antwort": "In die Mini-Welle SW40 gehört ein Motor der Baureihe 1 mit 35 mm, etwa SE Pro 1/10, die Adapter für SW40 liegen bei. In die SW60-Welle gehört Baureihe 2 mit 45 mm plus Adapterset. Das Drehmoment richtet sich nach dem Rollladengewicht: Selve gibt für 10 Nm 25 kg bei 1,5 m und 20 kg bei 2,5 m Höhe an, für 20 Nm 45 und 37 kg.",
+   "antwort_quellen": [
+    "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+    "https://www.selve.de/home/produkte/antriebe/se-plus/sw10016/",
+    "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "selve-se-pro-1-10-410240",
+    "selve-se-pro-2-10-412130",
+    "selve-se-pro-2-20-412170",
+    "selve-adapterset-sw60-baureihe-2"
+   ],
+   "passendes_problem": null,
+   "auf_seite": false,
+   "grund": "Steht schon auf der Teileart-Seite rollladenmotor und in der Tabelle der Marke"
+  },
+  {
+   "frage": "Wie stelle ich die Endlagen an meinem Selve SE Pro ohne Einstellkabel ein?",
+   "kategorie": "reparatur",
+   "haeufigkeit": 2,
+   "fundstellen": [
+    "https://knx-user-forum.de/forum/%C3%B6ffentlicher-bereich/knx-eib-forum/knx-einsteiger/1503530-rollladenmotoren-ohne-einstellkabel-programmieren",
+    "https://homematic-forum.de/forum/viewtopic.php?t=25028"
+   ],
+   "antwort": "Der SE Pro steht ab Werk im automatischen Modus, dafür reicht ein normaler Rollladenschalter. Fahr nach oben gegen den Anschlag und halte den Schalter, dann fährt der Motor selbst nach unten bis zum unteren Anschlag und speichert beide Endlagen. Oben braucht es einen stabilen Anschlag, unten eine Begrenzung wie die Fensterbank. Feste Punkte, etwa mit Hochschiebesicherung, gehen nur mit dem Einstellschalter 290103 oder 291009.",
+   "antwort_quellen": [
+    "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+    "https://selve.de/en/service-downloads/faq"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "selve-universal-einstellschalter-291009",
+    "selve-einstellschalter-290103"
+   ],
+   "passendes_problem": "selve-rollladen-endlagen-einstellen"
+  },
+  {
+   "frage": "Wie setze ich die Endlagen meines Selve SE Pro zurück?",
+   "kategorie": "reparatur",
+   "haeufigkeit": 2,
+   "fundstellen": [
+    "https://forum.fhem.de/index.php?topic=91783.0"
+   ],
+   "antwort": "Mit Einstellschalter: anschließen und die E-Taste 1 Sekunde drücken, dann sind beide Endlagen gelöscht. Mit normalem Schalter, wenn oben auf Anschlag mit Entlastung eingestellt ist: hochfahren, bis der Motor oben abschaltet, dann fünfmal 3 Sekunden AUF mit je 1 Sekunde Pause und danach AUF halten. Der Motor fährt nach unten, die Endlagen sind gelöscht und du stellst sie neu ein.",
+   "antwort_quellen": [
+    "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+    "https://selve.de/en/service-downloads/faq"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "selve-universal-einstellschalter-291009"
+   ],
+   "passendes_problem": "selve-rollladen-endlagen-einstellen"
+  },
+  {
+   "frage": "Mein Selve-Rollladen hat plötzlich die Endlagen vergessen. Woran kann das liegen?",
+   "kategorie": "reparatur",
+   "haeufigkeit": 3,
+   "fundstellen": [
+    "https://forum.fhem.de/index.php?topic=91783.0",
+    "https://www.haustechnikdialog.de/forum/t/78042/SELVE-SER-Rohrmotore-vergessen-Endlagen"
+   ],
+   "antwort": "Selve-Antriebe wie der SE Pro haben eine Reset-Folge über den Schalter: mehrmals hintereinander 3 Sekunden AUF. Ein Smart-Home-Aktor kann so eine Folge ungewollt senden; in einem Forum berichtet ein Nutzer genau das bei einem SEL Plus, und der Selve-Support bestätigte ihm die versteckte Reset-Folge. Danach stellst du die Endlagen neu ein.",
+   "antwort_quellen": [
+    "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+    "https://forum.fhem.de/index.php?topic=91783.0"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [],
+   "passendes_problem": "selve-rollladen-endlagen-einstellen"
+  },
+  {
+   "frage": "Mein Selve-Rollladen bleibt beim Herunterfahren stehen und fährt ein Stück zurück. Ist der Motor kaputt?",
+   "kategorie": "reparatur",
+   "haeufigkeit": 1,
+   "fundstellen": [],
+   "antwort": "Meist nicht. SE Pro, SE Pro-RC und SEE haben eine Hinderniserkennung nach unten und fahren das Hindernis frei. Stoppt der Rollladen beim Hochfahren, hat der Überlastschutz angesprochen, zum Beispiel weil der Panzer festgefroren ist. Läuft gar nichts mehr, hat oft der Thermoschutz nach 4 Minuten Betrieb abgeschaltet; dann 5 bis 20 Minuten warten.",
+   "antwort_quellen": [
+    "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+    "https://www.selve.de/home/produkte/antriebe/se-pro/sw10010/",
+    "https://www.selve.de/home/produkte/antriebe/see/sw10011/"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [],
+   "passendes_problem": "selve-rollladen-stoppt-von-selbst"
+  },
+  {
+   "frage": "Brauche ich für meinen Selve-Motor feste Verbinder wie SecuBlock statt Aufhängefedern?",
+   "kategorie": "kompatibilitaet",
+   "haeufigkeit": 1,
+   "fundstellen": [],
+   "antwort": "Kommt auf den Motor an. Der SE Pro läuft mit normalen Aufhängefedern, starre Verbinder sind optional. Der SEE braucht starre Wellenverbinder oder Hochschiebesicherungen und oben einen festen Anschlag. SecuBlock passt auf SW40 bis SW60, nur zusammen mit Motor oder Kurbelgetriebe, und es müssen mindestens zwei je Rollladen sein.",
+   "antwort_quellen": [
+    "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+    "https://www.selve.de/home/produkte/antriebe/see/sw10011/",
+    "https://www.selve.de/home/produkte/rollladenbauteile/secublock/sw10052/"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "selve-secublock-rapid-maxi-3-gliedrig-4-stueck",
+    "selve-secufix-rapid-2-gliedrig"
+   ],
+   "passendes_problem": null
+  },
+  {
+   "frage": "Darf ich einen Selve-Rollladenmotor selbst anschließen?",
+   "kategorie": "reparatur",
+   "haeufigkeit": 2,
+   "fundstellen": [
+    "https://knx-user-forum.de/forum/%C3%B6ffentlicher-bereich/knx-eib-forum/knx-einsteiger/1503530-rollladenmotoren-ohne-einstellkabel-programmieren"
+   ],
+   "antwort": "Nein. Selve schreibt in den Anleitungen, dass der Anschluss nur durch autorisiertes Fachpersonal erfolgen darf, bei TR-Motoren durch autorisiertes Elektrofachpersonal. Auch der Einstellschalter wird an die 230-V-Leitung geklemmt. Den passenden Motor, Adapter, Aufhängung und Sender kannst du selbst aussuchen.",
+   "antwort_quellen": [
+    "https://www.markisen-kauf.de/media/products/selve_se_pro_de_ba.pdf",
+    "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf",
+    "https://www.selve.de/media/6c/ce/7b/1660900299/SELVE_BA_SE-Plus-R_SEL-Plus-R_SEM-Plus-R_SES-R_bis-2015.pdf"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [],
+   "passendes_problem": null
+  },
+  {
+   "frage": "Gibt es für Selve-iveo-Sender noch Ersatz?",
+   "kategorie": "verfuegbarkeit",
+   "haeufigkeit": 1,
+   "fundstellen": [
+    "https://www.selve.de/en/pressebereich/anything-is-possible-with-just-one-radio-system"
+   ],
+   "antwort": "Ja. Selve schreibt, dass für iveo weiter Ersatzteile geliefert werden, das System aber nicht mehr weiterentwickelt wird. Auf der Selve-Seite stehen der iveo Send 10 und der iveo Wall Send. Für neue Anlagen empfiehlt Selve commeo.",
+   "antwort_quellen": [
+    "https://selve.de/en/service-downloads/faq",
+    "https://www.selve.de/home/produkte/steuerungen/iveo/iveo-send-10/sw10042/",
+    "https://www.selve.de/home/produkte/steuerungen/iveo/iveo-wall-send/sw10043/"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [
+    "selve-iveo-send-1-298713"
+   ],
+   "passendes_problem": null
+  },
+  {
+   "frage": "Kann ich Selve-Teile direkt bei Selve kaufen?",
+   "kategorie": "bezug",
+   "haeufigkeit": 0,
+   "fundstellen": [],
+   "antwort": "Nein, Selve beliefert ausschließlich Fachbetriebe und verweist Privatkunden auf die Händlersuche. Motoren, Sender und Rollladenteile bekommst du bei Fachhändlern und Online-Shops, Gurtwickler und SecuBlock zum Beispiel auch bei OTTO.",
+   "antwort_quellen": [
+    "https://www.selve.de/home/produkte/rollladenbauteile/gurtscheiben-und-begrenzungsscheiben/sw10085/",
+    "https://www.selve.de/home/produkte/rollladenbauteile/secublock/sw10052/",
+    "https://www.otto.de/p/S00CZ0BW/"
+   ],
+   "sicherheit": "belegt",
+   "passende_teile": [],
+   "passendes_problem": null
+  },
+  {
+   "frage": "Kann man bei einem stockenden Selve SEL Plus den Kondensator tauschen?",
+   "kategorie": "reparatur",
+   "haeufigkeit": 2,
+   "fundstellen": [
+    "https://www.haustechnikdialog.de/Forum/t/210647/SELVE-SEL-plus-2-10-Dreck-austauschen-gegen-was-",
+    "https://www.bauexpertenforum.de/threads/selve-rolladenmotor-problem-mit-dem-wechsel-der-anschlussleitung.139531/"
+   ],
+   "antwort": "Forennutzer vermuten den Anlaufkondensator, einer das Bremsmoment der Kunststoffbremse. Eine Anleitung von Selve zum Öffnen des Motors gibt es nicht; Selve schließt Schäden durch Fremdeingriff in den Antrieb von der Gewährleistung aus.",
+   "antwort_quellen": [
+    "https://www.haustechnikdialog.de/Forum/t/210647/SELVE-SEL-plus-2-10-Dreck-austauschen-gegen-was-",
+    "https://www.selve.de/media/6c/ce/7b/1660900299/SELVE_BA_SE-Plus-R_SEL-Plus-R_SEM-Plus-R_SES-R_bis-2015.pdf"
+   ],
+   "sicherheit": "unsicher",
+   "passende_teile": [],
+   "passendes_problem": "selve-rollladen-stoppt-von-selbst"
+  }
+ ]
+}

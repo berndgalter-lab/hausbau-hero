@@ -1,0 +1,212 @@
+{
+  "thema": "Rollladen-Handsender und Wandsender je Funksystem: Somfy io/RTS, Selve commeo/iveo, Becker Centronic/CentronicPlus, Rademacher DuoFern, Schellenberg, Elero, Jarolift",
+  "fragen": [
+    {
+      "frage": "Ich habe Somfy-Rollläden. Passt jede Somfy-Fernbedienung?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Nein. Somfy hat zwei Funksysteme: RTS auf 433,42 MHz und io-homecontrol auf 868,95 MHz. Ein RTS-Sender steuert keinen io-Motor und umgekehrt. Ein Sender für beide Systeme ist der Situo 5 io/RTS, er funkt auf beiden Frequenzen.",
+      "antwort_quellen": [
+        "https://avosdim.com/media/DE/motor/mot-altus-rts-50/notice/anleitung-somfy-altus-50-rts.pdf",
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf",
+        "https://avosdim.com/uk/shopping-guide/motorisation-universe/io-protocol-motors-by-somfy.html",
+        "https://www.manualslib.de/manual/579934/Somfy-Situo-5-Io-Rts-Pure.html?page=43"
+      ]
+    },
+    {
+      "frage": "Woran erkenne ich, ob mein Somfy-Motor io oder RTS hat?",
+      "kategorie": "nummer",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Am Namen von Motor und Sender: Oximo io, Situo io und Smoove io sind io-homecontrol, Oximo RTS, Altus RTS, Situo RTS und Telis RTS sind RTS. Steht nichts auf dem Sender, hilft die Artikelnummer auf dem Typenschild oder in der Anleitung. Der Situo 1 io Pure hat zum Beispiel die Nummer 1 800 463, der Situo 1 RTS Pure die 1870496.",
+      "antwort_quellen": [
+        "https://service.somfy.com/downloads/de_v5/situo1_io_situo_5_io_katalogseite.pdf",
+        "https://avosdim.com/media/DE/motor/mot-altus-rts-50/notice/anleitung-somfy-altus-50-rts.pdf",
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf"
+      ]
+    },
+    {
+      "frage": "Passt ein Selve-commeo-Handsender an meinen älteren Selve-Rollladenmotor?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Das hängt von der Endung am Motor ab. Motoren mit „-R“ (zum Beispiel SEL Plus-R) nehmen nur iveo- und Intronic-Sender. Motoren mit „-RC“ nehmen commeo oder iveo, aber nicht beide zugleich. Motoren mit „-com“ nehmen nur commeo. Wechselst du an einem „-RC“-Motor das System, musst du alle Sender neu einlernen und den Motor danach vom Netz trennen.",
+      "antwort_quellen": [
+        "https://selve.de/en/service-downloads/faq",
+        "https://www.manualslib.de/manual/461713/Selve-Se-Plus-Rc.html?page=41"
+      ]
+    },
+    {
+      "frage": "Kann ich einen Somfy-Handsender für einen Schellenberg-, Becker- oder Elero-Motor nehmen?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Darauf solltest du nicht setzen. Schellenberg schreibt, dass seine Funkmotoren nur mit von Schellenberg freigegebenen Sendern laufen. Becker gibt den EC541-II nur für Centronic-kompatible Antriebe frei, Elero den TempoTel 2 nur für Anlagen mit Elero-Funkempfängern. Die Frequenzen unterscheiden sich außerdem: Schellenberg 868,4 MHz, Somfy RTS 433,42 MHz, Rademacher DuoFern 434,5 MHz.",
+      "antwort_quellen": [
+        "https://schellenberg-shop.de/media/pdf/3f/22/e3/21106-21110-21210-21220-21240-garantiebedingungen.pdf",
+        "https://voleda.fr/notice/ec541-2_4034_630_201_0_de_en_fr_nl.pdf",
+        "https://aluprof.com/files/product_documents/3218688TempoTel_2_867_868_915_181220001_EN_0911.pdf",
+        "https://asset.conrad.com/media10/add/160267/c1/-/de/001078807ML01/upute-za-rukovanje-1078807-32480366-standaard-9491-rademacher-duofern-6-kanalni-radijski-daljinski-upravljac.pdf"
+      ]
+    },
+    {
+      "frage": "Welche Batterie gehört in meinen Rollladen-Handsender?",
+      "kategorie": "pflege",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Das steht in den technischen Daten der Anleitung. Somfy Situo io und Becker EC541-II: CR 2430. Somfy Situo 5 io/RTS: CR2430 oder CR2032. Rademacher DuoFern Standard Handsender: CR2450, beim Wechsel muss der Pluspol oben liegen. Schellenberg Funk-Handsender 1 und 5 Kanal: 2 × AAA. Elero TempoTel 2: 2 × AA.",
+      "antwort_quellen": [
+        "https://service.somfy.com/downloads/de_v5/situo1_io_situo_5_io_katalogseite.pdf",
+        "https://www.manualslib.de/manual/579934/Somfy-Situo-5-Io-Rts-Pure.html?page=43",
+        "https://voleda.fr/notice/ec541-2_4034_630_201_0_de_en_fr_nl.pdf",
+        "https://asset.conrad.com/media10/add/160267/c1/-/de/001078807ML01/upute-za-rukovanje-1078807-32480366-standaard-9491-rademacher-duofern-6-kanalni-radijski-daljinski-upravljac.pdf",
+        "https://www.globus-baumarkt.de/media/13/8b/cf/1665206840/4003971200161_12390959_BDA_28042021__63275769.pdf",
+        "https://aluprof.com/files/product_documents/3218688TempoTel_2_867_868_915_181220001_EN_0911.pdf"
+      ]
+    },
+    {
+      "frage": "Wie lerne ich einen zweiten Handsender an, wenn der erste noch funktioniert?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Somfy: PROG am eingelernten Sender halten, bis der Rollladen kurz auf und ab fährt, dann PROG am neuen Sender drücken, bis er wieder kurz fährt. Becker Centronic: Einlerntaste am Mastersender, dann am neuen Sender drücken, bis der Empfänger quittiert, und die Einlerntaste am neuen Sender noch einmal drücken. Schellenberg überträgt die Programmierung von einem Funk-Handsender oder einer Funk-Zeitschaltuhr auf den neuen. Elero: am eingelernten TempoTel 2 AUF, AB und P 3 Sekunden gleichzeitig drücken, dann am neuen Sender P und weiter wie beim ersten Einlernen.",
+      "antwort_quellen": [
+        "https://avosdim.com/media/DE/motor/mot-altus-rts-50/notice/anleitung-somfy-altus-50-rts.pdf",
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf",
+        "https://voleda.fr/notice/ec541-2_4034_630_201_0_de_en_fr_nl.pdf",
+        "https://www.globus-baumarkt.de/media/13/8b/cf/1665206840/4003971200161_12390959_BDA_28042021__63275769.pdf",
+        "https://aluprof.com/files/product_documents/3218688TempoTel_2_867_868_915_181220001_EN_0911.pdf"
+      ]
+    },
+    {
+      "frage": "Der alte Handsender ist kaputt oder weg. Wie lerne ich einen neuen an?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Dann bringst du den Motor über die Spannung in Lernbereitschaft. Somfy RTS: Netz 2 Sekunden aus, 10 Sekunden ein, 2 Sekunden aus, wieder ein, dann am neuen Sender kurz PROG; dabei löscht der Motor alle alten Sender. Becker Centronic: Empfänger 5 Sekunden spannungslos, danach 3 Minuten Lernbereitschaft. Jarolift TDEF: Lerntaste am Motorkopf oder kurz vom Netz, dann innerhalb von 5 Sekunden AUF und AB gleichzeitig und kurz STOP. Hängen mehrere Motoren an derselben Sicherung, reagieren sie alle.",
+      "antwort_quellen": [
+        "https://avosdim.com/media/DE/motor/mot-altus-rts-50/notice/anleitung-somfy-altus-50-rts.pdf",
+        "https://voleda.fr/notice/ec541-2_4034_630_201_0_de_en_fr_nl.pdf",
+        "https://www.manualslib.de/manual/743405/Jarolift-Tdef-Serie.html?page=5",
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf"
+      ]
+    },
+    {
+      "frage": "Wie melde ich einen Rademacher-DuoFern-Handsender am RolloTron an?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Zuerst schaltest du das DuoFern-Gerät, etwa den RolloTron, in seinen Anmeldemodus, wie es in dessen Anleitung steht. Dann drückst du die Verbinden-Taste auf der Rückseite des Handsenders einmal kurz mit einem dünnen Gegenstand; der Anmeldemodus bleibt 60 Sekunden offen. Beim 6-Kanal-Sender wählst du danach die Gerätetaste. Leuchtet die Status-LED grün, hat es geklappt.",
+      "antwort_quellen": [
+        "https://asset.conrad.com/media10/add/160267/c1/-/de/001078807ML01/upute-za-rukovanje-1078807-32480366-standaard-9491-rademacher-duofern-6-kanalni-radijski-daljinski-upravljac.pdf"
+      ]
+    },
+    {
+      "frage": "Wie viele Rollläden kann ich mit einem Handsender steuern?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Je nach System unterschiedlich. Schellenberg: bis zu 5 Funkprodukte je Kanal. Rademacher DuoFern Standard Handsender: bis zu 48 Geräte, beim 6-Kanal-Modell 8 je Gruppentaste. Umgekehrt nimmt ein Somfy Altus RTS bis zu 12 RTS-Sender auf, ein Selve-„-RC“-Motor bis zu 16 Sender, ein Becker-CentronicPlus-Empfänger bis zu 30 und ein Centronic-Empfänger bis zu 16.",
+      "antwort_quellen": [
+        "https://www.globus-baumarkt.de/media/13/8b/cf/1665206840/4003971200161_12390959_BDA_28042021__63275769.pdf",
+        "https://asset.conrad.com/media10/add/160267/c1/-/de/001078807ML01/upute-za-rukovanje-1078807-32480366-standaard-9491-rademacher-duofern-6-kanalni-radijski-daljinski-upravljac.pdf",
+        "https://avosdim.com/media/DE/motor/mot-altus-rts-50/notice/anleitung-somfy-altus-50-rts.pdf",
+        "https://www.manualslib.de/manual/461713/Selve-Se-Plus-Rc.html?page=41",
+        "https://www.becker-antriebe.com/fileadmin/user_upload/Argumentationshilfe_Centronic_CentronicPLUS_D.pdf"
+      ]
+    },
+    {
+      "frage": "Darf ich den Handsender selbst anlernen, oder brauche ich dafür einen Elektriker?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 1,
+      "fundstellen": [],
+      "antwort": "Anlernen, Batterie wechseln und Endlagen mit dem Sender einstellen machst du selbst, die Schritte stehen in den Anleitungen der Sender. Dafür schaltest du höchstens Sicherung oder Schalter aus und ein. Den Motor an 230 V anschließen oder tauschen darf nur eine Elektrofachkraft. Somfy verlangt das für den Oximo io ausdrücklich, Schellenberg für alle Arbeiten an elektrischen Anlagen.",
+      "antwort_quellen": [
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf",
+        "https://schellenberg-shop.de/media/pdf/3f/22/e3/21106-21110-21210-21220-21240-garantiebedingungen.pdf",
+        "https://www.globus-baumarkt.de/media/13/8b/cf/1665206840/4003971200161_12390959_BDA_28042021__63275769.pdf"
+      ]
+    }
+  ],
+  "fakten": [
+    {
+      "fakt": "Somfy Altus RTS: Funkfrequenz 433,42 MHz, max. 12 RTS-Sender und 3 RTS-Sensoren je Antrieb; verlorenen Sender ersetzen: Netz 2 s aus, 10 s ein, 2 s aus, ein, dann PROG am neuen Sender kurz, alle alten Sender werden gelöscht.",
+      "quelle": "https://avosdim.com/media/DE/motor/mot-altus-rts-50/notice/anleitung-somfy-altus-50-rts.pdf"
+    },
+    {
+      "fakt": "Somfy Oximo io (Ref. 5015163C, 2017): io-homecontrol 868–870 MHz, max. 9 Sender/Sensoren; Werksreset 2 s aus, 10 s ein, 2 s aus, ein, PROG halten bis zweimal Bestätigung; Reset an der Sicherung trifft alle Antriebe daran; Verkabelung durch Elektrofachkraft nach DIN VDE 1000-10.",
+      "quelle": "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf"
+    },
+    {
+      "fakt": "Somfy Situo 1 io / Situo 5 io: Batterie CR 2430, 868,95 MHz, Artikelnummern Situo 1 io Pure 1 800 463, Situo 5 io Pure 1 811 297.",
+      "quelle": "https://service.somfy.com/downloads/de_v5/situo1_io_situo_5_io_katalogseite.pdf"
+    },
+    {
+      "fakt": "Somfy Situo 5 io/RTS Pure: io 868,95 MHz und RTS 433,42 MHz, Batterie CR2430 oder CR2032.",
+      "quelle": "https://www.manualslib.de/manual/579934/Somfy-Situo-5-Io-Rts-Pure.html?page=43"
+    },
+    {
+      "fakt": "RTS-Sender steuern keine io-Geräte und umgekehrt, zwei verschiedene Protokolle (Händlerseite avosdim).",
+      "quelle": "https://avosdim.com/uk/shopping-guide/motorisation-universe/io-protocol-motors-by-somfy.html"
+    },
+    {
+      "fakt": "Selve FAQ: „-R“-Motoren nur iveo/Intronic; „-RC“ commeo oder iveo, nicht beide zugleich (SE Pro-RC); „-com“ nur commeo.",
+      "quelle": "https://selve.de/en/service-downloads/faq"
+    },
+    {
+      "fakt": "Selve SE Plus-RC: commeo 868,1 MHz, iveo 868,3 MHz, nicht gleichzeitig, bis 16 Sender je Motor; Systemwechsel: alle Sender neu, danach Motor vom Netz trennen.",
+      "quelle": "https://www.manualslib.de/manual/461713/Selve-Se-Plus-Rc.html?page=41"
+    },
+    {
+      "fakt": "Becker EC541-II: CR 2430, 868,3 MHz, nur für Centronic-kompatible Antriebe; Lernbereitschaft 3 Minuten nach 5 s Spannung aus oder Einlerntaste am Empfänger; Mastersender und weitere Sender.",
+      "quelle": "https://voleda.fr/notice/ec541-2_4034_630_201_0_de_en_fr_nl.pdf"
+    },
+    {
+      "fakt": "Becker: CentronicPlus-Antriebe kompatibel zu Centronic- und CentronicPlus-Hand- und Wandsendern, bis 30 Sender je Empfänger; Centronic einseitig, kompatibel zu CentronicPlus-Antrieben, bis 16 Sender je Empfänger.",
+      "quelle": "https://www.becker-antriebe.com/fileadmin/user_upload/Argumentationshilfe_Centronic_CentronicPLUS_D.pdf"
+    },
+    {
+      "fakt": "Rademacher DuoFern Standard Handsender (3248 03 66 / 3248 03 61): 434,5 MHz, CR2450 (ca. 2 Jahre bei 5 Betätigungen/Tag), 48 Geräte, Anmeldemodus 60 s über Verbinden-Taste, LED orange blinkend = Batterie fast leer, Endpunkteinstellung nur bei elektronischen Rademacher-Rohrmotoren ab Baujahr 2000.",
+      "quelle": "https://asset.conrad.com/media10/add/160267/c1/-/de/001078807ML01/upute-za-rukovanje-1078807-32480366-standaard-9491-rademacher-duofern-6-kanalni-radijski-daljinski-upravljac.pdf"
+    },
+    {
+      "fakt": "Schellenberg Funk-Handsender 5 Kanal 20016/20023: 868,4 MHz, 2 × LR03/AAA, im Gebäude max. 20 m, bis 5 Funkprodukte je Kanal; Lernbereitschaft Option A (20506, 20510, 20810, 20820, 20840) und Option B (21106, 21110, 21210, 21220, 21240); Kopieren zwischen 20015/20021, 20016/20023, 20031/20036, 20032/20037.",
+      "quelle": "https://www.globus-baumarkt.de/media/13/8b/cf/1665206840/4003971200161_12390959_BDA_28042021__63275769.pdf"
+    },
+    {
+      "fakt": "Schellenberg Funk-Handsender 1 Kanal 20015/20021: 868,4 MHz, 2 × LR03/AAA.",
+      "quelle": "https://www.globus-baumarkt.de/media/f7/8f/87/1755152290/4003971200154_B9866EDC65FE54713578A879E832BEFF__261943280.pdf"
+    },
+    {
+      "fakt": "Schellenberg Rohrmotoren 21106–21240: Betrieb nur mit von Schellenberg freigegebenen Funksendern; Arbeiten an elektrischen Anlagen nur durch Elektrofachkräfte.",
+      "quelle": "https://schellenberg-shop.de/media/pdf/3f/22/e3/21106-21110-21210-21220-21240-garantiebedingungen.pdf"
+    },
+    {
+      "fakt": "Elero TempoTel 2: 2 × LR06 (AA), 867/868-MHz-Band, uni- (ProLine-kompatibel) oder bidirektional, nur für Anlagen mit Elero-Funkempfängern.",
+      "quelle": "https://aluprof.com/files/product_documents/3218688TempoTel_2_867_868_915_181220001_EN_0911.pdf"
+    },
+    {
+      "fakt": "Jarolift TDEF: kompatibel mit allen TDRC-Sendern ab Produktionsdatum 03/2010; Einschaltdauer 4 min.",
+      "quelle": "https://www.manualslib.de/manual/743405/Jarolift-Tdef-Serie.html?page=3"
+    },
+    {
+      "fakt": "EAN aus Awin-Feeds (4.11.2026): Situo 1 io II 3660849573652 (OTTO), Situo 5 io Pure II 1870327 3660849573805, Smoove Uno A/M io 1811404 3660849534318, Rademacher 9491-2 4031909015044 (Contorion), Schellenberg 1 Kanal 4003971200154, 5 Kanal 4003971200161 (hagebau).",
+      "quelle": "Awin-Feeds hagebau, Contorion, OTTO (feed-rollladen-final.json)"
+    },
+    {
+      "fakt": "ASIN geprüft auf amazon.de/dp (5.11.2026, Originalmarke auf der Seite): B086C7N27W Somfy Situo 1 RTS Pure 1870496, B086C82G4B Somfy Situo 5 io/RTS 1870479, B00DUWQ4IW Becker EC541-II, B00BZ6C8L2 Elero TempoTel 2.",
+      "quelle": "https://www.amazon.de/dp/B086C82G4B"
+    }
+  ],
+  "nicht_belegt": [
+    "Becker B-Tronic (KNX-RF): Herstelleranleitung EC5401B nur über Händlerkopie, Text nicht lesbar; keine Zeile in der Matrix.",
+    "Jarolift TDRC: Funkfrequenz und Batterietyp nur aus Suchergebnissen, Anleitung nicht geöffnet; Spalte leer gelassen.",
+    "Selve commeo: Schritte zum Einlernen eines neuen Senders am SE Plus-RC nicht im Volltext gelesen; nur Endlagen nach Selve-FAQ (SE Pro-RC).",
+    "Rademacher Handsender 4385 / 4385-4T (433 MHz, Contorion-Feed): laut Rademacher-Service für RolloPort und Rator (Garagentor), nicht für RolloTron; nicht als Produkt aufgenommen.",
+    "Somfy Telis 16 RTS, Keytis 2 RTS (Garagentor), Kaiser Nienhaus Mano 433 MHz: nicht aufgenommen, ohne passende Herstellerangabe zur Rollladen-Kompatibilität.",
+    "Selve-commeo-Handsender: weder im Awin-Feed noch mit geprüfter ASIN.",
+    "Rademacher 9491 ASIN B001B3FVVS geprüft (Rademacher-Store), nicht aufgenommen, weil 9491-2 mit EAN aus dem Feed vorliegt.",
+    "Herstellerübergreifende Kompatibilität (z. B. „jarolift kompatibel mit somfy“): keine Herstellerangabe, die das bestätigt."
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "marke": "Somfy",
+  "fragen": [
+    {
+      "frage": "Hat mein Somfy-Rollladen io oder RTS, und woran erkenne ich das?",
+      "kategorie": "nummer",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://forum.fhem.de/index.php?topic=92530.0",
+        "https://homematic-forum.de/forum/viewtopic.php?t=65070",
+        "https://forum.iobroker.net/topic/33732/somfy-rolll%C3%A4den-steuern"
+      ],
+      "antwort": "Am Namen des Handsenders: Steht dort io, etwa Situo io, ist es io-homecontrol, steht dort RTS, etwa Situo RTS oder Telis RTS, ist es RTS. Die Bezeichnung steht vorn oder im Batteriefach. Beim Drücken leuchtet die Kontrollleuchte bei io grün, bei RTS rot. Beide Systeme verstehen sich nicht; nur der Situo 5 Bi-radio und die TaHoma-Zentrale bedienen beide.",
+      "antwort_quellen": [
+        "https://www.somfy.de/smarter-wohnen/kompatibilitaet/funktechnologien",
+        "https://www.somfy.de/hilfe/faq?question=wie-verbinde-ich-meinen-handsender-wieder-mit-dem-motor"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "somfy-situo-5-io-rts-pure-1870479"
+      ],
+      "passendes_problem": "somfy-rollladen-handsender-anlernen"
+    },
+    {
+      "frage": "Was bedeuten die Zahlen bei einem Somfy-Motor wie Oximo 50 io 10/17?",
+      "kategorie": "nummer",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Die 50 steht für die Baureihe für Wellen ab SW 50, io für das Funksystem. Die erste Zahl hinter der Bezeichnung ist das Drehmoment in Nm, die zweite die Drehzahl: 10/17 heißt 10 Nm und 17 Umdrehungen pro Minute. WT steht für die verdrahtete Ausführung mit Schalter. Beim mechanischen LT 50 tragen die Stärken Namen, etwa Atlas für 15 Nm.",
+      "antwort_quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "somfy-oximo-50-io-10-17",
+        "somfy-lt-50-atlas-15-17"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Welcher Somfy-Motor ist stark genug für meinen Rollladen?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://forum.fhem.de/index.php?topic=62316.0",
+        "https://homematic-forum.de/forum/viewtopic.php?t=48560",
+        "https://www.bauexpertenforum.de/threads/gibt-es-gute-alternativen-zu-den-somfy-motoren.96176/",
+        "https://www.gutefrage.net/frage/schleichendes-sterben-von-somfy-oximo-rts-rolladenmotoren"
+      ],
+      "antwort": "Somfy gibt für jeden Antrieb an, wie schwer der Panzer bei 1,5 m und bei 2,5 m Höhe sein darf. Ein Oximo 50 io 10/17 schafft 24 kg bei 1,5 m und 19 kg bei 2,5 m, mit 20 Nm sind es 48 und 38 kg. Wer einen defekten Motor ersetzt, nimmt dieselbe Stärke wie bisher oder eine Stufe mehr; sie steht auf dem alten Motor.",
+      "antwort_quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "somfy-oximo-50-io-10-17",
+        "somfy-oximo-50-io-20-17"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Kann ich einen Somfy-io-Handsender für meinen RTS-Motor nehmen?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://forum.fhem.de/index.php?topic=92530.0",
+        "https://homematic-forum.de/forum/viewtopic.php?t=65070",
+        "https://forum.iobroker.net/topic/33732/somfy-rolll%C3%A4den-steuern"
+      ],
+      "antwort": "Nein. io funkt auf 868 bis 870 MHz, RTS auf 433,42 MHz, und ein Motor versteht nur sein System. Bestätigt der Motor beim Anlernen die Stromunterbrechung, reagiert aber nicht auf die PROG-Taste, liegt es laut Somfy oft genau daran. Für gemischte Häuser gibt es den Situo 5 Bi-radio io/RTS, der beide bedient, aber keine Endlagen einstellen kann.",
+      "antwort_quellen": [
+        "https://www.somfy.de/hilfe/faq?question=wie-verbinde-ich-meinen-handsender-wieder-mit-dem-motor",
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.somfy.de/smarter-wohnen/kompatibilitaet/funktechnologien"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "somfy-situo-5-io-rts-pure-1870479",
+        "somfy-situo-1-rts-pure-1870496"
+      ],
+      "passendes_problem": "somfy-rollladen-handsender-anlernen"
+    },
+    {
+      "frage": "Wie viele Handsender kann ich an einem Somfy-Motor anlernen?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Ein io-Motor nimmt bis zu 9 Sender oder Kanäle an, ein RTS-Motor bis zu 12. Umgekehrt gibt es keine Grenze: Ein Sender oder Kanal kann beliebig viele Motoren bedienen, etwa als Zentralsender für das ganze Haus. Die Funkreichweite muss dabei reichen.",
+      "antwort_quellen": [
+        "https://www.somfy.de/hilfe/faq?question=wie-viele-antriebe-konnen-in-einen-handsender-eingelernt-werden"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "somfy-situo-5-io-pure-ii",
+        "somfy-telis-16-rts-pure"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Mein alter Somfy-Motor ist kaputt. Kann ich ihn durch einen RS100 io ersetzen, ohne neu zu verkabeln?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://forum.fhem.de/index.php?topic=62316.0",
+        "https://homematic-forum.de/forum/viewtopic.php?t=48560",
+        "https://www.bauexpertenforum.de/threads/gibt-es-gute-alternativen-zu-den-somfy-motoren.96176/",
+        "https://www.gutefrage.net/frage/schleichendes-sterben-von-somfy-oximo-rts-rolladenmotoren"
+      ],
+      "antwort": "Ja, dafür gibt es das RS100 io – HiPro Adapterkabel 9029954. Es verbindet den RS100 io mit der HiPro-Steckverbindung, an der vorher ein Oximo 50 io, Oximo 50 RTS, Oximo 50 WT, Ilmo 50 WT oder LT 50 hing. Elektrische Arbeiten im Rollladenkasten entfallen dadurch; den Motortausch selbst macht die Elektrofachkraft.",
+      "antwort_quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "somfy-rs100-io-hipro-adapterkabel",
+        "somfy-rs100-io-10-17"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Brauche ich für einen Somfy-Funkmotor feste Wellenverbinder statt Federn?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Für die automatische untere Endlage und die Hinderniserkennung ja; die obere automatische Endlage braucht zusätzlich einen Stopper oder eine Winkelendschiene. Beim Ilmo WT schreibt Somfy feste Verbinder und Stopper immer vor, sonst findet er die untere Endlage nicht. Nur Motoren mit fest eingestellten Endlagen und der mechanische LT 50 kommen mit Federn aus.",
+      "antwort_quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.somfy.de/hilfe/faq?question=warum-findet-mein-ilmo-2-wt-die-untere-endlage-nicht",
+        "https://avosdim.com/media/DE/motor/mot-oximo-io/desc/somfy-zugkrafttabelle.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "somfy-schnellverbinder-1-gliedrig",
+        "somfy-clip-verbinder-2-gliedrig"
+      ],
+      "passendes_problem": "somfy-rollladen-endlagen-einstellen"
+    },
+    {
+      "frage": "Welcher Somfy-Adapter passt in meine Rollladenwelle?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Das hängt von Wellenprofil und Motorbaureihe ab. Für SW 60 braucht ein 50er-Motor Adapter 9707025 und Mitnehmer 9751001, für SW 50 das Paar 9705345 und 9705344. 40er-Motoren passen nur in SW-40-Wellen mit Außenfalz. Neue Motoren kommen mit Adapter und Mitnehmer für eine Welle, die in der Artikelnummer steht, etwa „SW 60 ED“.",
+      "antwort_quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "somfy-adapter-mitnehmer-sw60",
+        "somfy-adapter-mitnehmer-sw50",
+        "somfy-adapter-mitnehmer-sw40-0-6"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Mein Somfy-Handsender ist weg. Wie lerne ich einen neuen an?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 3,
+      "fundstellen": [
+        "https://www.fingerhaus-forum.de/viewtopic.php?t=5609",
+        "https://homematic-forum.de/forum/viewtopic.php?t=81973",
+        "https://www.reddit.com/r/selbermachen/comments/1cjvq5a/somfy_rolladen_reagiert_nicht_mehr_auf_die/"
+      ],
+      "antwort": "Mit einem zweiten funktionierenden Sender: dort die PROG-Taste etwa 3 Sekunden halten, bis der Rollladen wippt, dann am neuen Sender PROG kurz drücken. Ohne Sender muss der Motor über eine doppelte Spannungsunterbrechung in Lernbereitschaft, und zwar nur dieser Motor; danach PROG am neuen Sender kurz drücken.",
+      "antwort_quellen": [
+        "https://www.somfy.de/hilfe/faq?question=wie-verbinde-ich-meinen-handsender-wieder-mit-dem-motor",
+        "https://www.somfy.de/hilfe/faq?question=wie-ersetzt-man-einen-einzelne-bedienstelle-verloren-oder-kaputt-meines-somfy-rollladenmotors"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "somfy-situo-1-io-pure-ii",
+        "somfy-situo-rts-pure-1810636"
+      ],
+      "passendes_problem": "somfy-rollladen-handsender-anlernen"
+    },
+    {
+      "frage": "Wie setze ich einen Somfy-Funkmotor auf Werkseinstellung zurück?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 2,
+      "fundstellen": [
+        "https://www.dasheimwerkerforum.de/threads/rolladenmotor-defekt.13633/",
+        "https://forum.zerspanungsbude.net/viewtopic.php?t=25581"
+      ],
+      "antwort": "Beim Oximo io und Oximo RTS: nur diesen Motor kurz stromlos machen, wieder einschalten, nochmals stromlos und wieder ein, dann am Einzelsender PROG mindestens 7 Sekunden halten, bis der Rollladen zweimal wippt. Der RS100 io wird ohne Stromunterbrechung nur über den Sender zurückgesetzt. Danach müssen Drehrichtung, Endlagen und Sender neu eingestellt werden.",
+      "antwort_quellen": [
+        "https://www.somfy.de/hilfe/faq?question=wie-kann-ich-einen-funkmotor-neu-programmieren",
+        "https://www.somfy.de/hilfe/faq?question=wie-setze-ich-den-somfy-rs100-io-zuruck",
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": "somfy-rollladen-reset"
+    },
+    {
+      "frage": "Mein Somfy-Rollladen fährt nicht mehr ganz runter oder ganz hoch. Was kann ich tun?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 4,
+      "fundstellen": [
+        "https://www.haustechnikdialog.de/Forum/t/288097/Problem-mit-somfY-rolllaeden",
+        "https://www.haustechnikdialog.de/Forum/t/260531/Somfy-Ilmo-2-50-WT-Endlagen-passen-nicht",
+        "https://forum.fhem.de/index.php?topic=43401.0",
+        "https://knx-user-forum.de/forum/%C3%B6ffentlicher-bereich/geb%C3%A4udetechnik-ohne-knx-eib/1586308-somfy-ilmo2-50wt-f%C3%A4hrt-nicht-komplett-hoch"
+      ],
+      "antwort": "Bei fest eingestellten Endlagen (Oximo io und RTS) die Endlage anfahren, Auf und Ab mindestens 5 Sekunden halten, mit Auf und Ab nachjustieren und mit my bestätigen. Automatische Endlagen brauchen feste Wellenverbinder und Stopper; ein Ilmo WT braucht nach dem Einbau mehrere volle Fahrten. Beim LT 50 werden die Endlagen mit der gelben und der weißen Taste am Motorkopf gesetzt.",
+      "antwort_quellen": [
+        "https://www.somfy.de/hilfe/faq?question=wie-andere-ich-die-endlagen-bei-meinem-funkmotor",
+        "https://www.somfy.de/hilfe/faq?question=warum-findet-mein-ilmo-2-wt-die-untere-endlage-nicht",
+        "https://www.somfy.de/hilfe/faq?question=wie-stellt-man-die-endlagen-eines-verdrahteten-somfy-rollladenmotors-ein"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": "somfy-rollladen-endlagen-einstellen"
+    },
+    {
+      "frage": "Darf ich einen Somfy-Rollladenmotor selbst einbauen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Einen 230-V-Motor nicht: Somfy schreibt in der Anleitung des Oximo io, dass er von einer fachlich qualifizierten Person nach DIN VDE 1000-10 installiert werden muss, und verweist auch bei Prüfungen an 230-V-Leitungen auf die Elektrofachkraft. Handsender anlernen, Batterie wechseln und Endlagen per Sender nachstellen kannst du selbst. Solarantriebe haben keinen Netzanschluss.",
+      "antwort_quellen": [
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf",
+        "https://www.somfy.de/hilfe/faq?question=was-kann-ich-tun-wenn-mein-motorisierter-rollladen-nicht-funktioniert"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "somfy-rs100-solar-io-6-15",
+        "somfy-oximo-40-wirefree-io-6-18"
+      ],
+      "passendes_problem": "somfy-rollladen-reagiert-nicht"
+    },
+    {
+      "frage": "Mein Somfy-Solarrollladen fährt nicht mehr. Ist der Akku leer?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Mit TaHoma oder Nina io meldet die Anlage einen schwachen Akku. Somfy gibt für den RS100 Solar io mindestens 45 Tage Reserve bei zwei Fahrten am Tag ohne Sonne an. Nach langer Lagerung oder einem dunklen Winter lädt das Somfy-Ladegerät 9028028 den Akku nach; Ersatzakkus gibt es je Antrieb.",
+      "antwort_quellen": [
+        "https://www.somfy.de/hilfe/faq?question=woran-erkenne-ich-dass-der-akku-meines-solar-rollladens-entladen-ist",
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "somfy-ladegeraet-solarkits",
+        "somfy-rs100-solar-io-batterie-9-6-v",
+        "somfy-oximo-sunea-akku-12-v"
+      ],
+      "passendes_problem": "somfy-rollladen-reagiert-nicht"
+    },
+    {
+      "frage": "Wie lange gilt die Garantie auf Somfy-Rollladenmotoren?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Für die meisten Somfy-Produkte rund um den Rollladen fünf Jahre, für RS100 io, RS100 Hybrid io, RS100 Solar io und Oximo WireFree sieben Jahre; bei den Solarantrieben nur, wenn Motor, Panel und Akku zusammen gekauft wurden. Auf Akkus gibt es drei Jahre. Geltend gemacht wird die Garantie beim Verkäufer, nicht bei Somfy.",
+      "antwort_quellen": [
+        "https://www.somfy.de/garantieversprechen",
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "Kann ich den Kondensator in einem Somfy-Rohrmotor selbst tauschen?",
+      "fundstellen": [
+        "https://www.bauexpertenforum.de/threads/gibt-es-gute-alternativen-zu-den-somfy-motoren.96176/",
+        "https://www.youtube.com/watch?v=yQ8C_tZYuLU"
+      ]
+    },
+    {
+      "frage": "Passen Jarolift- oder andere Handsender zu Somfy-RTS-Motoren?",
+      "fundstellen": [
+        "https://homematic-forum.de/forum/viewtopic.php?t=65070"
+      ]
+    },
+    {
+      "frage": "Warum gehen Oximo-RTS-Motoren nach einigen Jahren reihenweise kaputt (Bremse)?",
+      "fundstellen": [
+        "https://www.gutefrage.net/frage/schleichendes-sterben-von-somfy-oximo-rts-rolladenmotoren"
+      ]
+    },
+    {
+      "frage": "Wie steuere ich Somfy RTS oder io mit Homematic, FHEM oder ioBroker?",
+      "fundstellen": [
+        "https://forum.fhem.de/index.php?topic=92530.0",
+        "https://forum.iobroker.net/topic/33732/somfy-rolll%C3%A4den-steuern"
+      ]
+    },
+    {
+      "frage": "Wie stelle ich beim Ilmo 2 WT die Endlagen ein, wenn er nicht ganz hochfährt?",
+      "fundstellen": [
+        "https://knx-user-forum.de/forum/%C3%B6ffentlicher-bereich/geb%C3%A4udetechnik-ohne-knx-eib/1586308-somfy-ilmo2-50wt-f%C3%A4hrt-nicht-komplett-hoch"
+      ]
+    }
+  ],
+  "allgemeine_muster": "Bei Somfy drehen sich die Fragen fast nur um Funk und Einstellung, kaum um mechanische Teile: Handsender verloren oder neu anlernen, Motor zurücksetzen, Endlagen passen nicht, io oder RTS. In den Foren (FHEM, Homematic, ioBroker, KNX) kommt dazu die Einbindung in eigene Smart-Home-Systeme, meist mit RTS. Die Antworten dort beschreiben die doppelte Spannungsunterbrechung mit leicht unterschiedlichen Zeiten; Somfy selbst nennt 2 bis 3 Sekunden aus und 8 bis 10 Sekunden ein. Beim Motortausch wird nach Drehmoment und Welle gefragt, selten nach der Artikelnummer. Die Somfy-Hilfe-Seiten beantworten die häufigsten Fragen selbst, verweisen bei 230 V aber immer auf die Elektrofachkraft."
+}

@@ -1,0 +1,260 @@
+{
+  "slug": "rollladenmotor",
+  "name": "Rollladenmotor",
+  "mehrzahl": "Rollladenmotoren",
+  "genus": "m",
+  "titel": "Rollladenmotor: welcher Rohrmotor passt zu Welle und Rollladen?",
+  "seo_title": "Welcher Rollladenmotor passt? Nm, SW40/SW60, Adapter und Aufhängung",
+  "seo_description": "Rohrmotor für den Rollladen auswählen: Welle messen (SW40, SW60, SW70), Panzergewicht abschätzen und das Drehmoment nach den Tabellen von Somfy, Selve und Schellenberg wählen. Dazu Adapter, Federn oder feste Verbinder, Endlagen, Funk und Solarantriebe.",
+  "kurz": "Der Rollladenmotor ist ein Rohrmotor, der in der Achtkantwelle im Rollladenkasten steckt und den Gurt ersetzt. Welcher passt, hängt an drei Dingen: am Wellenprofil (SW40, SW60 oder SW70), am Gewicht des Rollladenpanzers und an der Rollladenhöhe. Danach kommen Endlagen, Steuerung und die Aufhängung des Panzers an der Welle.\n\nEinbau und Anschluss eines Rohrmotors mit 230 V macht eine Elektrofachkraft, so steht es bei Selve und Schellenberg in der Anleitung. Diese Seite hilft dir, den passenden Motor auszusuchen. Eine Anschlussanleitung ist sie nicht.",
+  "bereiche": ["rollladen"],
+  "teiltypen": ["rollladenmotor"],
+  "marken": ["schellenberg", "somfy", "rademacher", "selve"],
+  "erkennen": [
+    {
+      "titel": "Welle messen und den Motordurchmesser ableiten",
+      "text": "Öffne den Rollladenkasten und miss die Achtkantwelle über zwei gegenüberliegende flache Seiten. Das ist die Schlüsselweite: SW40 beim Mini-System, SW60 beim Maxi-System, SW70 bei großen Anlagen. In eine SW40-Welle gehört ein Motor mit 35 mm Durchmesser (Rademacher RolloTube Small, Somfy 40er Antriebe), in eine SW60-Welle einer mit 45 mm (Rademacher Medium, Somfy 50er, Schellenberg Maxi). Für SW70 nennt Somfy die 60er Antriebe LT 60. Der Motor greift über Adapter und Mitnehmer in die Welle. Beide gibt es als Set je Wellenprofil, etwa von Rademacher für SW50 und für SW70 und von Somfy für SW50 und SW60."
+    },
+    {
+      "titel": "Panzer messen und das Gewicht abschätzen",
+      "text": "Miss Breite und Höhe des Panzers und rechne die Fläche aus. Für das Gewicht brauchst du das Material und das Profil. Mini-Profile haben etwa 37 mm Deckbreite und 8 mm Dicke, Maxi-Profile etwa 52 mm und 13 bis 14 mm. Händler- und Herstellerkataloge nennen für Kunststoff 3 bis 4 kg je m², für ausgeschäumtes Aluminium 3,2 bis 4,2 kg je m² und für Holz 4 bis 7 kg je m², je nach Profil. Für die Motorauswahl rechnet der Katalog von Ammon mit höheren Werten: 5 kg je m² für Kunststoff, 7 kg für Aluminium und 10 kg für Holz."
+    },
+    {
+      "titel": "Drehmoment mit Reserve wählen",
+      "text": "Rechne Fläche mal Rechenwert, bei 2,0 × 2,0 m Kunststoff also 20 kg. Such dann in der Tabelle des Herstellers den Motor, der dieses Gewicht bei deiner Rollladenhöhe schafft. Somfy und Selve geben das zulässige Panzergewicht für 1,5 m und 2,5 m Höhe an, Selve mit eingerechneten Reibungsverlusten. Je höher der Rollladen, desto dicker wird der aufgewickelte Ballen und desto weniger kann derselbe Motor ziehen. Liegst du zwischen zwei Stufen, nimm die stärkere."
+    },
+    {
+      "titel": "Endlagen: mechanisch, elektronisch oder per Funk",
+      "text": "Bei mechanischen Endlagen stellst du die obere und untere Position am Motorkopf mit Stellschrauben oder einem Einstellstift ein, so bei Schellenberg STANDARD und Rademacher RolloTube Basis; beim Somfy LT 50 HiPro geht das über Tasten am Motorkopf. Elektronische Motoren speichern die Endlagen per Knopfdruck am Motorkopf (Schellenberg PLUS), per Einstellkabel (Somfy Oximo WT) oder per Handsender (Somfy Oximo io und RTS, Schellenberg PREMIUM). Antriebe wie der Somfy Ilmo WT finden die Endlagen selbst und erkennen Hindernisse, brauchen dafür aber feste Wellenverbinder."
+    },
+    {
+      "titel": "Steuerung festlegen: Schalter, Zeitschaltuhr oder Funk",
+      "text": "Ein Kabelmotor wird über einen Rollladenschalter oder eine Zeitschaltuhr bedient. Ein Funkmotor hat den Empfänger eingebaut und wird per Handsender oder Smart-Home-Zentrale gesteuert, braucht aber trotzdem eine 230-V-Zuleitung. Bei Somfy sind io und RTS zwei getrennte Funksysteme: Ein RTS-Sender bedient keinen io-Motor und umgekehrt. Entscheide das vor dem Kauf, denn der Empfänger steckt im Motor."
+    },
+    {
+      "titel": "Aufhängung prüfen: Federn oder feste Verbinder",
+      "text": "Viele alte Rollläden hängen mit Einhängefedern an der Welle. Das reicht für Gurt, Kurbel und mechanische Motoren. Motoren mit Hinderniserkennung oder automatischen Endlagen brauchen eine starre Verbindung, damit sie einen Widerstand spüren. Somfy schreibt feste Verbinder für Ilmo WT, IPSO und die Kurzantriebe vor, beim RS100 Solar io für die automatische untere Endlage und die Hinderniserkennung. Feste Verbinder und Hochschiebesicherungen gibt es je Profildicke und Welle."
+    },
+    {
+      "titel": "Platz im Kasten und Länge des Motors",
+      "text": "Der Motor steckt in der Welle, die Welle muss also länger sein als der Motor. Somfy nennt als Baulänge mit Mitnehmer 470 mm für die 40er Antriebe, 525 mm für Ilmo 50 WT und LT 50, 625 mm für Oximo 50 und 637 mm für LT 60. Für schmale Fenster gibt es Kurzantriebe ab 387 mm. Schellenberg gibt für die STANDARD-Motoren eine Einbaulänge von 500 mm an, für den 40-Nm-Motor 570 mm. Auf der Motorseite sitzt der Motor in einem eigenen Wandlager, das Schellenberg den STANDARD-Motoren beilegt."
+    },
+    {
+      "titel": "Ohne Stromanschluss: Akku- und Solarantriebe",
+      "text": "Wo am Fenster kein Strom liegt, gibt es Antriebe mit Akku und Solarpanel. Somfy hat den Oximo 40 DC RTS WireFree für SW40 mit 3, 6 und 10 Nm und die Solarkits RS100 Solar io für SW60 mit 3 bis 20 Nm. Schellenberg verkauft Vorbaurollläden mit vormontiertem Solarmotor, 2.600-mAh-Akku und 433-MHz-Handsender; den Akku solltest du laut Schellenberg etwa alle sechs Monate über USB-C voll laden. Für die Drehmomentwahl gilt dasselbe wie oben: Der WireFree 10/12 schafft laut Somfy 28 kg bei 1,5 m Höhe."
+    }
+  ],
+  "groessen": {
+    "titel": "Welches Drehmoment trägt wie viel Rollladen?",
+    "spalten": ["Welle", "Drehmoment", "Somfy: Panzergewicht bei 1,5 m / 2,5 m Höhe", "Selve TR: bei 1,5 m / 2,5 m", "Schellenberg STANDARD: Zugkraft, Fläche Kunststoff"],
+    "zeilen": [
+      ["SW40", "4 Nm", "12 / 10 kg (Altus 40, Ilmo 40, LS 40)", "–", "–"],
+      ["SW40", "6 Nm", "17 / 14 kg (Oximo 40 DC WireFree 6/18)", "14 / 11 kg (TR 1/6)", "15 kg, 4,0 m² (Mini 6)"],
+      ["SW40", "9 bis 10 Nm", "24 / 20 kg (9 Nm)", "25 / 20 kg (TR 1/10)", "25 kg, 6,0 m² (Mini 10)"],
+      ["SW40", "13 Nm", "36 / 31 kg", "–", "–"],
+      ["SW60", "6 Nm", "14 / 11 kg (Oximo 50, Ilmo 50), 15 / 12 kg (LT 50 Start)", "–", "–"],
+      ["SW60", "10 Nm", "24 / 19 kg (Oximo 50, Ilmo 50), 25 / 21 kg (LT 50 Ceres)", "25 / 20 kg (TR 2/10)", "20 kg, 4,2 m² (Maxi 10)"],
+      ["SW60", "15 bis 17 Nm", "36 / 29 kg (Oximo 50, Ilmo 50), 37 / 32 kg (LT 50 Atlas)", "37 / 30 kg (TR 2/17)", "25 kg, 6,2 m² (Maxi 15)"],
+      ["SW60", "20 Nm", "48 / 38 kg (Oximo 50, Ilmo 50), 50 / 43 kg (LT 50 Meteor)", "–", "34 kg, 8,5 m² (Maxi 20)"],
+      ["SW60", "25 Nm", "63 / 53 kg (LT 50 Gemini)", "52 / 45 kg (TR 2/25)", "–"],
+      ["SW60", "30 Nm", "71 / 57 kg (Oximo 50, Ilmo 50), 75 / 64 kg (LT 50 Apollo)", "–", "–"],
+      ["SW60", "40 Nm", "95 / 76 kg (Oximo 50), 100 / 85 kg (LT 50 Mariner)", "73 / 65 kg (TR 2/40)", "60 kg, 15,0 m² (Maxi 40)"],
+      ["SW70", "40 bis 120 Nm", "90 / 78 kg (LT 60 Orion, 40 Nm) bis 270 / 234 kg (LT 60 Taurus, 120 Nm)", "–", "–"]
+    ],
+    "hinweis": "Die Werte stammen aus der Somfy-Zugkrafttabelle für Einsteckantriebe, der Selve-Anleitung für die Baureihe TR und dem Schellenberg-Vergleich der STANDARD-Rohrmotoren. Somfy führt die 50er Antriebe für SW60 (kleinste Welle SW50). Gleiches Drehmoment zieht an der dickeren Welle weniger: Schellenbergs Mini 10 schafft an der 40-mm-Welle 25 kg, der Maxi 10 an der 60-mm-Welle 20 kg. Für Aluminium nennt Schellenberg kleinere Flächen, beim Maxi PLUS 20 etwa 6,5 m² statt 8,5 m². Panzergewichte laut Katalogen: Kunststoff Mini 3 bis 3,5 kg je m², Maxi 3,6 bis 4 kg; Aluminium ausgeschäumt Mini 3,2 kg, Maxi 4,2 kg; Holz 4 bis 7 kg je nach Profil. Für die Motorauswahl rechnet der Katalog von Ammon mit 5, 7 und 10 kg je m², der Holzrollladen-Hersteller Solarmatic mit 5,5 bis 10 kg je m²."
+  },
+  "produkte": [
+    {
+      "name": "Schellenberg Rohrmotor Mini STANDARD 6 Nm (20106)",
+      "hersteller": "Schellenberg",
+      "ean": "4003971201069",
+      "hinweis": "Für SW40, 15 kg Zugkraft, bis 4,0 m² Kunststoff. Mechanische Endlagen."
+    },
+    {
+      "name": "Schellenberg Rohrmotor Maxi STANDARD 20 Nm (20620)",
+      "hersteller": "Schellenberg",
+      "amazon_asin": "B00DCT5IXA",
+      "hinweis": "Für SW60, 34 kg Zugkraft, bis 8,5 m² Kunststoff. Mechanische Endlagen mit Einstellstift."
+    },
+    {
+      "name": "Schellenberg Rohrmotor Maxi PLUS 20 Nm",
+      "hersteller": "Schellenberg",
+      "ean": "4003971207207",
+      "hinweis": "Für SW60, 34 kg Zugkraft, 8,5 m² Kunststoff oder 6,5 m² Aluminium. Elektronische Endlagen per Taste am Motorkopf."
+    },
+    {
+      "name": "Somfy Ilmo 50 WT 10/17",
+      "hersteller": "Somfy",
+      "amazon_asin": "B00TYM46W8",
+      "hinweis": "Für SW60, 24 kg bei 1,5 m Höhe. Findet die Endlagen selbst, braucht feste Wellenverbinder."
+    },
+    {
+      "name": "Somfy LT 50 HiPro Ceres 10/17",
+      "hersteller": "Somfy",
+      "amazon_asin": "B00KM4NZ9W",
+      "hinweis": "Für SW60, 25 kg bei 1,5 m Höhe. Endlagen über Tasten am Motorkopf, Montage mit Federn möglich."
+    },
+    {
+      "name": "Somfy Oximo 50 io 6/17",
+      "hersteller": "Somfy",
+      "amazon_asin": "B01I1MTMIY",
+      "hinweis": "Funkmotor für io-homecontrol, für SW60, 14 kg bei 1,5 m Höhe. Endlagen per Funksender."
+    },
+    {
+      "name": "Rademacher RolloTube Basis Medium RTBM 20/16Z",
+      "hersteller": "Rademacher",
+      "ean": "4031909012029",
+      "hinweis": "45 mm Durchmesser, für SW60 adaptiert, 20 Nm. Mechanische Endlagen mit Einstellstift."
+    },
+    {
+      "name": "Rademacher RolloTube C-line CLIS 10/16PZ, SW40",
+      "hersteller": "Rademacher",
+      "ean": "4031909023339",
+      "hinweis": "Elektronischer Motor für SW40 mit 10 Nm."
+    },
+    {
+      "name": "Selve SE Plus 2/10, 10 Nm (382040)",
+      "hersteller": "Selve",
+      "ean": "4039092088555",
+      "hinweis": "Universalantrieb mit elektronischer Endabschaltung, kein Funkmotor."
+    },
+    {
+      "name": "Somfy RS100 Solar io 6/15 SW60, Solarkit",
+      "hersteller": "Somfy",
+      "ean": "3660849680060",
+      "hinweis": "Motor, Akku und Solarpanel ohne Netzanschluss, für SW60. Automatische untere Endlage nur mit festen Wellenverbindern."
+    }
+  ],
+  "probleme": ["rollladenmotor-reagiert-nicht"],
+  "fragen": [
+    {
+      "frage": "Wie viel Nm braucht mein Rollladenmotor?",
+      "antwort": "Das hängt vom Panzergewicht und von der Rollladenhöhe ab. Rechne Fläche mal Gewicht je m², für die Motorwahl etwa 5 kg bei Kunststoff, 7 kg bei Aluminium und 10 kg bei Holz. Ein 2,0 × 2,0 m großer Kunststoffrollladen kommt so auf 20 kg. Laut Somfy-Tabelle schafft ein 10-Nm-Motor an der SW60-Welle 24 kg bei 1,5 m und 19 kg bei 2,5 m Höhe. Bei 2 m Höhe nimmst du deshalb die nächste Stufe mit 15 Nm.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://avosdim.com/media/DE/motor/mot-oximo-io/desc/somfy-zugkrafttabelle.pdf",
+        "https://www.ammon.de/ammon/wp-content/uploads/Kat_Katalog_Rollladen_08_2025_Digital.pdf",
+        "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "SW40 oder SW60: Welcher Motor passt in meine Rollladenwelle?",
+      "antwort": "In eine SW40-Welle (Mini) gehört ein Motor mit 35 mm Durchmesser, etwa Rademacher RolloTube Small oder die Somfy 40er Antriebe. In eine SW60-Welle (Maxi) gehört ein 45-mm-Motor wie Rademacher Medium, Somfy Oximo 50, Ilmo 50, LT 50 oder Schellenberg Maxi. Selve ordnet die Baureihe TR1 der SW40 und TR2 der SW60 zu. Für SW70 nennt Somfy die 60er Antriebe LT 60.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://avosdim.com/media/DE/motor/mot-oximo-io/desc/somfy-zugkrafttabelle.pdf",
+        "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf",
+        "https://www.caliso.de/rohrmotore/rademacher-rollotube-basis",
+        "https://www.rademacher.de/produkte/rollladen-sonnenschutz/rohrmotor/rollotube-basis-rtbm-10-16z"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Darf ich den Rollladenmotor selbst anschließen?",
+      "antwort": "Für Rohrmotoren mit 230 V verlangen die Hersteller eine Fachkraft. Selve schreibt in der Anleitung zur Baureihe TR, der Anschluss dürfe nur durch autorisiertes Elektrofachpersonal erfolgen. Schellenberg schreibt bei seinen Funk-Rohrmotoren, die Elektroarbeiten ausschließlich von autorisiertem Fachpersonal ausführen zu lassen. Den passenden Motor aussuchen, Welle, Adapter und Aufhängung vorbereiten kannst du selbst. Akku- und Solarantriebe haben keinen Netzanschluss.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf",
+        "https://www.schellenberg.de/rollladenantriebe/rollladenmotoren/rollladenmotoren-premium/21240"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Mechanische oder elektronische Endlagen: Was ist besser?",
+      "antwort": "Mechanische Endlagen stellst du einmal mit Stellschrauben oder Einstellstift am Motorkopf ein. Der Motor läuft dann an jedem Schalter, jeder Zeitschaltuhr und jeder Gruppensteuerung. Elektronische Motoren speichern die Endlagen per Taste, Kabel oder Handsender, und viele haben Hinderniserkennung und Festfrierschutz. Dafür brauchen sie laut Somfy oft feste Wellenverbinder statt Federn. In Foren loben manche die mechanischen Endschalter als weniger störanfällig.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://avosdim.com/media/DE/motor/mot-oximo-io/desc/somfy-zugkrafttabelle.pdf",
+        "https://www.schellenberg.de/rollladenantriebe/rollladenmotoren/rollladenmotoren-standard/20620",
+        "https://www.elektrikforum.de/threads/tausch-rollladenmotor.34271/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Brauche ich für den Rollladenmotor Federn oder feste Wellenverbinder?",
+      "antwort": "Das hängt vom Motor ab. Einhängefedern reichen bei Gurt, Kurbel und mechanischen Motoren. Motoren mit Hinderniserkennung oder automatischen Endlagen brauchen eine starre Verbindung zur Welle. Somfy schreibt feste Verbinder für Ilmo WT, IPSO und die Kurzantriebe vor, beim Oximo und beim RS100 Solar io für die automatische untere Endlage. Wer einen solchen Motor nachrüstet, tauscht also die Aufhängung mit.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://avosdim.com/media/DE/motor/mot-oximo-io/desc/somfy-zugkrafttabelle.pdf",
+        "https://www.somfypro.de/produkte/1245894-rs100-solar-io-6-15-sw60-kit",
+        "https://www.sowero.de/kundenservice/einhaengefedern-wellenverbinder.php"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Geht ein Rollladenmotor mit Akku oder Solar statt Kabel?",
+      "antwort": "Ja. Somfy bietet den Oximo 40 DC RTS WireFree für SW40 und die Solarkits RS100 Solar io für SW60 mit 3 bis 20 Nm, jeweils mit Akku und Solarpanel an der Fassade. Schellenberg verkauft Vorbaurollläden mit Solarmotor und empfiehlt, den Akku etwa alle sechs Monate über USB-C voll zu laden. Ein Solarkit, das länger als ein halbes Jahr gelagert war, muss laut Somfy eventuell erst mit dem Ladegerät nachgeladen werden.",
+      "kategorie": "bezug",
+      "quellen": [
+        "https://avosdim.com/media/DE/motor/mot-oximo-io/desc/somfy-zugkrafttabelle.pdf",
+        "https://www.somfypro.de/produkte/1245894-rs100-solar-io-6-15-sw60-kit",
+        "https://schellenberg-shop.de/solarrollladen"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Passt ein Somfy-Motor in die Welle von einem anderen Hersteller?",
+      "antwort": "Meist ja, über ein passendes Adapter-Set aus Adapter und Mitnehmer. Rademacher schreibt, dass sich die RolloTube-Motoren dank wechselbarer Adapter in alle gängigen Wellentypen einbauen lassen, und verkauft Sets etwa für SW50 und SW70. Somfy hat Adapter für Somfy-Motoren in fremden Wellen, zum Beispiel für 60-mm-Motoren in Selve-Martin-Wellen SW70. Wichtig sind Profil und Hersteller der Welle, nicht nur die Schlüsselweite.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://www.rademacher.de/produkte/rollladen-sonnenschutz/rohrmotor/rollotube-basis-rtbm-10-16z",
+        "https://avosdim.com/uk/somfy-60mm-motor-selve-martin-sw70-9420335-tube-adapters.html",
+        "https://www.somfypro.de/produkte/1245894-rs100-solar-io-6-15-sw60-kit"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Mein Rollladen ist 2,5 m hoch. Warum reicht derselbe Motor dann nicht mehr?",
+      "antwort": "Beim Hochfahren wickelt sich der Panzer auf, der Ballen wird dicker und der Hebel länger. Ein Motor mit gleichem Drehmoment zieht dann weniger. Somfy gibt deshalb zwei Werte an: Der Oximo 50 mit 20 Nm schafft 48 kg bei 1,5 m Höhe, aber nur 38 kg bei 2,5 m. Bei Selve sind es für den TR 2/17 37 und 30 kg. Bei hohen Fenstern und Balkontüren gilt der Wert für 2,5 m.",
+      "kategorie": "kompatibilitaet",
+      "quellen": [
+        "https://avosdim.com/media/DE/motor/mot-oximo-io/desc/somfy-zugkrafttabelle.pdf",
+        "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Wie lange darf ein Rollladenmotor am Stück laufen?",
+      "antwort": "Schellenberg nennt für die STANDARD-Rohrmotoren eine maximale Einschaltdauer von 4 Minuten, Selve für die Baureihe TR ebenfalls 4 Minuten. Danach schaltet der Überlastungsschutz ab, und der Motor muss abkühlen. Wer beim Einstellen der Endlagen viele Fahrten hintereinander macht, wartet deshalb zwischendurch.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://schellenberg-shop.de/media/pdf/11/4f/51/schellenberg-rohrmotor-standard-vergleich.pdf",
+        "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf",
+        "https://www.schellenberg.de/rollladenantriebe/rollladenmotoren/rollladenmotoren-standard/20620"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://avosdim.com/media/DE/motor/mot-oximo-io/desc/somfy-zugkrafttabelle.pdf",
+    "https://schellenberg-shop.de/media/pdf/11/4f/51/schellenberg-rohrmotor-standard-vergleich.pdf",
+    "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf",
+    "https://www.schellenberg.de/rollladenantriebe/rollladenmotoren/rollladenmotoren-standard/20620",
+    "https://www.schellenberg.de/rollladenantriebe/rollladenmotoren/rollladenmotoren-standard/20106",
+    "https://www.schellenberg.de/rollladenantriebe/rollladenmotoren/rollladenmotoren-premium/21240",
+    "https://www.bauhaus.lu/rollladenmotoren/schellenberg-rohrmotor-maxi-plus-20/p/21779532",
+    "https://schellenberg-shop.de/solarrollladen",
+    "https://www.somfypro.de/produkte/1245894-rs100-solar-io-6-15-sw60-kit",
+    "https://www.rademacher.de/produkte/rollladen-sonnenschutz/rohrmotor/rollotube-basis-rtbm-10-16z",
+    "https://www.caliso.de/rohrmotore/rademacher-rollotube-basis",
+    "https://www.selve.de/en/home/products/drives/se-plus/sw10016/",
+    "https://avosdim.com/uk/somfy-60mm-motor-selve-martin-sw70-9420335-tube-adapters.html",
+    "https://avosdim.com/uk/shopping-guide/motorisation-universe/io-protocol-motors-by-somfy.html",
+    "https://www.ammon.de/ammon/wp-content/uploads/Kat_Katalog_Rollladen_08_2025_Digital.pdf",
+    "https://media.hornbach.at/hb/document/as.153270594.pdf",
+    "https://media.hornbach.at/hb/document/as.153270596.pdf",
+    "https://www.aussenrollo.de/out/media/pdf/anleitungen/rollladen/Holzrollladen.pdf",
+    "https://www.sowero.de/kundenservice/einhaengefedern-wellenverbinder.php",
+    "https://www.elektrikforum.de/threads/tausch-rollladenmotor.34271/"
+  ]
+}
