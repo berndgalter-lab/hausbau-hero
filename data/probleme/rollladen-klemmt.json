@@ -1,0 +1,195 @@
+{
+  "slug": "rollladen-klemmt",
+  "titel": "Rollladen klemmt",
+  "seo_title": "Rollladen klemmt, hängt schief oder geht nicht hoch: Ursachen und was du selbst tun kannst",
+  "seo_description": "Rollladen geht nicht mehr hoch oder runter, hängt schief, läuft schwer, klemmt bei Hitze oder rutscht runter: So findest du die Ursache von der verschobenen Lamelle bis zum defekten Kugellager und erkennst, wann der Fachbetrieb ran muss.",
+  "symptom": "Der Rollladen bleibt auf halber Höhe stehen, kommt nur ein paar Zentimeter aus dem Kasten, hängt schief in den Führungsschienen oder lässt sich nur schwer bewegen. Manchmal klemmt er nur an heißen Tagen oder bei Frost, oder er rutscht von selbst wieder nach unten.",
+  "bereich": "rollladen",
+  "ursachen": [
+    {
+      "ursache": "Lamelle seitlich verschoben",
+      "erklaerung": "Der Panzer läuft normal, bis die verschobene Lamelle an der Führungsschiene ansteht. Dann bleibt eine Seite hängen, und der Rollladen hängt schief. Die Lamellen sind ineinandergeschoben und nur an einer Seite arretiert, deshalb können sie mit der Zeit wandern. Im Kasten schiebst du sie wieder auf eine Linie, nicht zu weit, sonst hängt es auf der anderen Seite.",
+      "haeufigkeit": "häufig"
+    },
+    {
+      "ursache": "Führungsschienen verschmutzt, verbogen oder ohne Spiel",
+      "erklaerung": "Schmutz zwischen den Lamellen und in den Führungsschienen macht den Rollladen schwergängig, er quietscht oder klemmt, schreibt Schellenberg. Der Panzer muss locker in den Schienen laufen. Verzogene Schienen oder ein zu enger Schienenabstand bremsen ihn, ebenso ein loser oder schief sitzender Einlauftrichter oben am Kasten. Schienen reinigst du bei hochgezogenem Rollladen und reibst sie danach leicht mit Silikonöl oder Teflonspray ein.",
+      "haeufigkeit": "häufig"
+    },
+    {
+      "ursache": "Aufhängung gerissen oder ausgehängt",
+      "erklaerung": "Die Aufhängungen verbinden das oberste Profil mit der Welle. Reißt eine oder hakt sie aus, zieht sich der Panzer auf einer Seite nach unten und verkantet in der Schiene. Schellenberg setzt die Aufhängungen im Abstand von etwa 50 cm, Selve verlangt mindestens zwei. Neue Aufhängungen hängst du ohne Werkzeug in die Vierkantlöcher der Welle.",
+      "haeufigkeit": "gelegentlich",
+      "teilart": "rollladen-welle"
+    },
+    {
+      "ursache": "Kugellager, Wandlager oder Walzenkapsel defekt",
+      "erklaerung": "Die Welle dreht sich schwer oder sitzt fest, obwohl die Schienen frei sind. Schellenberg nennt verschmutzte und verschlissene Kugellager als mögliche Ursache, wenn der Rollladen klemmt: Schmutz entfernen, bei starker Abnutzung das Lager tauschen. Bricht die Walzenkapsel, rutscht die Welle aus dem Wandlager. Die Gurtscheibe kann laut Schellenberg nach längerem Einsatz ihre Festigkeit verlieren. Kapsel, Lager und Gurtscheibe müssen zum Wellenprofil passen, meist SW40 oder SW60.",
+      "haeufigkeit": "gelegentlich",
+      "teilart": "rollladen-welle"
+    },
+    {
+      "ursache": "Kunststoffpanzer bei Hitze verformt",
+      "erklaerung": "Der Rollladen klemmt an sonnigen Tagen, vor allem auf der Süd- und Westseite, und läuft abends wieder. Kunststoffprofile sind laut Schellenberg weniger widerstandsfähig gegen extreme Temperaturen und können sich verformen. ROMA und Heim & Haus raten deshalb, bei Hitze die Lichtschlitze offen zu lassen, damit hinter dem Panzer Luft zirkuliert. Heim & Haus beschreibt auch leichte Anhaftungen zwischen den Lamellen durch Wärme, die man am Geräusch erkennt.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Rollladen angefroren",
+      "erklaerung": "Bei Frost frieren Endleiste und Lamellen an der Fensterbank oder untereinander fest. Schellenberg, ROMA und Heim & Haus raten, nicht mit Gewalt zu ziehen und zu warten, bis das Eis taut. Leichtes Klopfen gegen die Lamellen oder warme Raumluft durchs geöffnete Fenster hilft, warmes Wasser nicht. Eine Zeitautomatik am Motor schaltest du bei Frost ab.",
+      "haeufigkeit": "gelegentlich"
+    },
+    {
+      "ursache": "Anschlagstopper fehlt oder Endleiste klemmt",
+      "erklaerung": "Die Anschlagstopfen an der Endleiste verhindern, dass der Panzer beim Hochziehen in den Kasten gezogen wird. Fehlt einer oder ist er abgebrochen, rutscht die letzte Lamelle in den Kasten und kommt nicht mehr heraus. Ist die Endleiste zu breit für die Schiene oder verkantet sie, bleibt der Rollladen beim Herunterlassen hängen.",
+      "haeufigkeit": "selten"
+    },
+    {
+      "ursache": "Panzer zu lang oder Wickel zu dick für den Kasten",
+      "erklaerung": "Nach einem Panzertausch oder Umbau stimmen die Maße nicht. Selve schreibt, dass der oberste Stab bei geschlossenem Rollladen mindestens zur Hälfte der Profilhöhe in der Führungsschiene bleiben muss, zu viele Stäbe stören die Funktion oder beschädigen die Anlage. Schellenberg nennt als wichtiges Maß den Durchmesser des ganz aufgewickelten Panzers. Ist er zu groß, streift der Wickel an Kasten oder Dämmung.",
+      "haeufigkeit": "selten"
+    },
+    {
+      "ursache": "Elektrischer Rollladen: Hinderniserkennung oder Motorbremse",
+      "erklaerung": "Ein Motor oder elektrischer Gurtwickler schaltet ab, wenn der Panzer schwergängig läuft, blockiert oder vereist ist. Schellenberg lässt zuerst die Ursache beheben und dann die Endlagen prüfen. Sackt der Rollladen von selbst ab, ist laut Rademacher sehr wahrscheinlich die Motorbremse defekt. Die lässt sich nicht selbst reparieren, den Motor tauscht die Elektrofachkraft.",
+      "haeufigkeit": "selten"
+    }
+  ],
+  "pruefen": [
+    "Zieh nicht mit Gewalt am Gurt oder an der Kurbel. Bei Frost wartest du, bis der Rollladen auftaut.",
+    "Bei einem Motor schaltest du Zeitautomatik und Sonnensteuerung ab, bevor du am Rollladen arbeitest, damit er nicht plötzlich losfährt.",
+    "Sieh dir den Rollladen von außen an, während du ihn langsam herunterlässt. Steht an einer Seite eine Lamelle über die anderen hinaus, oder bleibt eine Seite in der Schiene hängen?",
+    "Lass ein paar Lamellen frei hängen und prüf, ob sie sich in der Schiene leicht hin- und herschieben lassen.",
+    "Leuchte mit einer Taschenlampe in die Führungsschienen und den Einlauftrichter oben. Schmutz entfernst du bei hochgezogenem Rollladen mit dem Handfeger und einem feuchten Tuch, danach die Schienen leicht mit Silikonöl oder Teflonspray abreiben.",
+    "Prüf an der Endleiste, ob beide Anschlagstopfen noch fest sitzen.",
+    "Bevor du den Kasten öffnest, lässt du den Rollladen ganz herunter und hältst den Gurt fest. Schellenberg warnt, dass der Panzer ungebremst herunterfallen kann, eine zweite Person hilft.",
+    "Schraub den Revisionsdeckel innen auf. Prüf, ob alle Aufhängungen eingehängt und ganz sind, ob die Lamellen bündig übereinanderliegen, ob Walzenkapsel und Gurtscheibe fest sitzen und ob der Wickel an Kasten oder Dämmung streift.",
+    "Dreh die Welle vorsichtig von Hand. Läuft sie rau oder sitzt sie fest, ist meist ein Kugellager verschmutzt oder verschlissen.",
+    "Miss die Welle quer über das Profil (40 mm = SW40, 60 mm = SW60) und notier die Gurtbreite. Damit findest du Kapsel, Lager, Gurtscheibe und Aufhängung."
+  ],
+  "fachbetrieb_ab": "Lamellen ausrichten, Schienen reinigen, Aufhängungen, Anschlagstopfen, Walzenkapsel, Kugellager und Gurtscheibe tauschen kannst du selbst, wenn der Kasten innen zugänglich ist. Bei einem Vorbaurollladen sitzt der Revisionsdeckel außen; ohne sicheren Stand auf einer Leiter oder bei Fenstern im Obergeschoss holst du den Rollladenfachbetrieb. Einen Rohrmotor mit 230 V baut, schließt und tauscht nur eine Elektrofachkraft, das verlangen Selve, Schellenberg, ROMA und Heim & Haus. Ist der Panzer gerissen, stark verformt oder passt er nicht mehr in Kasten und Schienen, fertigt der Rollladenbauer einen neuen nach Maß an. Hersteller wie ROMA und Heim & Haus lassen Reparaturen an ihren eingebauten Rollläden nur von Fachpersonal machen; in der Gewährleistung und in der Mietwohnung fragst du zuerst dort beziehungsweise beim Vermieter.",
+  "marken_probleme": [],
+  "fragen": [
+    {
+      "frage": "Mein Rollladen hängt schief und geht nicht mehr weiter runter. Was kann ich tun?",
+      "antwort": "Meist hat sich eine Lamelle seitlich verschoben, oder eine Aufhängung ist gerissen. In beiden Fällen musst du den Rollladenkasten öffnen. Die verschobene Lamelle schiebst du wieder auf eine Linie mit den anderen. Eine gerissene Aufhängung ersetzt du durch eine neue, die in die Vierkantlöcher der Welle eingehängt wird. Schellenberg setzt sie im Abstand von etwa 50 cm.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gutefrage.net/frage/rolladen-zieht-sich-auf-der-linken-seite-nach-unten-wie-beheben",
+        "https://www.gutefrage.net/frage/rolladen-klemmt-und-haengt-schief",
+        "https://www.schellenberg.de/19400"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Rollladen kommt nur ein paar Zentimeter aus dem Kasten und bleibt dann stecken. Woran liegt das?",
+      "antwort": "Häufig hakt eine verschobene Lamelle oder ein Fremdkörper in der Schiene oder am Einlauftrichter. Es kann auch an der Welle liegen: Schellenberg nennt verschmutzte und verschlissene Kugellager als Ursache, wenn der Rollladen klemmt. Leuchte zuerst in die Schienen, dann öffnest du den Kasten und drehst die Welle von Hand. Läuft sie rau, reinigst du das Lager oder tauschst es.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.gutefrage.net/frage/rollade-klemmt-im-kasten",
+        "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/wandlager/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Warum klemmt der Rollladen nur, wenn die Sonne draufscheint?",
+      "antwort": "Kunststoffprofile vertragen extreme Temperaturen schlechter als Aluminium und können sich verformen, schreibt Schellenberg. Ist der Rollladen ganz geschlossen, staut sich die Hitze zwischen Fenster und Panzer. ROMA, Heim & Haus und Schellenberg raten deshalb, ihn bei Hitze nur bis zu den Lichtschlitzen herunterzulassen. Heim & Haus nennt außerdem leichte Anhaftungen zwischen den Lamellen durch Wärme, die man an Geräuschen erkennt und die unkritisch sind.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.schellenberg.de/wissens-wert/detailansicht/rolllaeden-aus-aluminium-oder-kunststoff/",
+        "https://www.schellenberg.de/wissens-wert/detailansicht/rolllaeden-richtig-warten-antriebe-schonen/",
+        "https://www.dawonia.de/dawonia/service/Mieterinformationen/Pentling/Bedienung_Pflege_Rollladen.pdf",
+        "https://www.heimhaus.de/fileadmin/Anleitungen/Bedienungsanleitung_Rollladen_DFR_060505_15_netz_2024.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Rollladen ist festgefroren. Wie bekomme ich ihn auf?",
+      "antwort": "Nicht mit Gewalt, sonst verformen sich Lamellen und Scharniere. Schellenberg rät, leicht gegen die Lamellen zu klopfen oder das Fenster für ein paar Minuten zu öffnen, damit die warme Raumluft das Eis taut. Warmes Wasser ist tabu. Ein Motor, der hörbar arbeitet und nicht hochkommt, wird gestoppt, und die Zeitautomatik bleibt in Frostnächten aus. ROMA empfiehlt, die Automatik unter 4 °C abzuschalten.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.schellenberg.de/wissens-wert/detailansicht/heisse-tipps-bei-eingefrorenen-rolllaeden/",
+        "https://www.dawonia.de/dawonia/service/Mieterinformationen/Pentling/Bedienung_Pflege_Rollladen.pdf",
+        "https://www.heimhaus.de/fileadmin/Anleitungen/Bedienungsanleitung_Rollladen_DFR_060505_15_netz_2024.pdf"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Darf ich die Führungsschienen ölen oder fetten, damit der Rollladen leichter läuft?",
+      "antwort": "Ja, aber sparsam und erst nach dem Reinigen. Schellenberg reibt die sauberen Schienen mit Silikonöl ab und gibt Silikonöl oder Teflonspray gegen Quietschen nur in die Verbindungen zwischen den Lamellen. Heim & Haus nennt WD-40 oder Teflonspray, nicht triefend aufgetragen. Fett gegen Festfrieren rät Schellenberg ab, weil sich daran Schmutz sammelt.",
+      "kategorie": "pflege",
+      "quellen": [
+        "https://www.schellenberg.de/wissens-wert/detailansicht/rolllaeden-richtig-warten-antriebe-schonen/",
+        "https://www.heimhaus.de/fileadmin/Anleitungen/Bedienungsanleitung_Rollladen_DFR_060505_15_netz_2024.pdf",
+        "https://www.schellenberg.de/wissens-wert/detailansicht/heisse-tipps-bei-eingefrorenen-rolllaeden/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Eine Lamelle ist gebrochen oder herausgesprungen. Kann ich sie einzeln tauschen?",
+      "antwort": "Ja, gerissene oder gebrochene Lamellen lassen sich austauschen, schreibt Schellenberg. Die Profile ziehst du auf der nicht arretierten Seite seitlich heraus und schiebst die neue hinein, dafür wird der Kasten geöffnet. Die neue Lamelle muss im Profil zum Panzer passen, bei Schellenberg Mini 37 mm und Maxi 52 mm Deckhöhe. Reißt der Panzer an vielen Stellen auseinander, ist ein neuer Panzer nach Maß fällig.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.schellenberg.de/wissens-wert/detailansicht/rolllaeden-richtig-warten-antriebe-schonen/",
+        "https://www.schellenberg.de/einbau-storys/rollladenpanzer-tauschen/",
+        "https://www.schellenberg.de/wissens-wert/detailansicht/das-rollladen-abc/",
+        "https://www.gutefrage.net/frage/rollladen-lamelle-ist-rausgesprungen-was-kann-ich-tun"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Mein elektrischer Rollladen bleibt auf halber Höhe stehen. Ist der Motor kaputt?",
+      "antwort": "Nicht unbedingt. Motoren und elektrische Gurtwickler schalten ab, wenn der Panzer schwergängig läuft, blockiert oder vereist ist. Schellenberg lässt dann zuerst die Ursache beheben, etwa Schienen reinigen oder eine verschobene Lamelle richten, und danach die Endlagen prüfen. Erst wenn die Mechanik frei läuft und der Motor trotzdem nicht zieht, ist er ein Fall für die Elektrofachkraft.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://www.globus-baumarkt.de/media/e6/c0/a8/1665206799/4003971227458_12391102_BDA_28042021__63275753.pdf",
+        "https://www.heimhaus.de/fileadmin/Anleitungen/Bedienungsanleitung_Rollladen_DFR_060505_15_netz_2024.pdf",
+        "https://www.schellenberg.de/wissens-wert/detailansicht/rolllaeden-richtig-warten-antriebe-schonen/"
+      ],
+      "teile": [],
+      "problem": null
+    },
+    {
+      "frage": "Der Rollladen rutscht von allein wieder nach unten. Was ist kaputt?",
+      "antwort": "Beim Motor ist laut Rademacher sehr wahrscheinlich die Motorbremse defekt, denn ein passend ausgewählter Rohrmotor muss den Panzer in jeder Position halten. Das lässt sich nicht selbst reparieren, Rademacher bittet um Motortyp und Baujahr für den Service. Beim Gurt hält der Gurtwickler den Panzer. Rutscht er trotz straffem Gurt, liegt es am Wickler, in einem Fall im Heimwerkerforum half das Nachstellen durch einen Techniker.",
+      "kategorie": "reparatur",
+      "quellen": [
+        "https://service.rademacher.de/s/article/4403731724562-Der-Rollladen-sackt-herunter-Motor-hat-keine-Bremsleistung-Bremse-defekt",
+        "https://www.dasheimwerkerforum.de/threads/manueller-rolladen-rutscht-nach-unten.30433/"
+      ],
+      "teile": [],
+      "problem": null
+    }
+  ],
+  "quellen": [
+    "https://www.schellenberg.de/wissens-wert/detailansicht/das-rollladen-abc/",
+    "https://www.schellenberg.de/wissens-wert/detailansicht/rolllaeden-richtig-warten-antriebe-schonen/",
+    "https://www.schellenberg.de/wissens-wert/detailansicht/heisse-tipps-bei-eingefrorenen-rolllaeden/",
+    "https://www.schellenberg.de/wissens-wert/detailansicht/rolllaeden-aus-aluminium-oder-kunststoff/",
+    "https://www.schellenberg.de/einbau-storys/rollladenpanzer-tauschen/",
+    "https://www.schellenberg.de/rolllaeden/rollladenzubehoer/wandlager/",
+    "https://www.schellenberg.de/19400",
+    "https://www.globus-baumarkt.de/media/e6/c0/a8/1665206799/4003971227458_12391102_BDA_28042021__63275753.pdf",
+    "https://d.otto.de/files/ec57b393-de92-47ae-9b13-18c45a3baad1.pdf",
+    "https://www.selve.de/media/f3/6d/99/1627563307/SELVE_BA_TR.pdf",
+    "https://www.roma.de/produkte/rollladen/rollladenwellen",
+    "https://www.dawonia.de/dawonia/service/Mieterinformationen/Pentling/Bedienung_Pflege_Rollladen.pdf",
+    "https://www.heimhaus.de/fileadmin/Anleitungen/Bedienungsanleitung_Rollladen_DFR_060505_15_netz_2024.pdf",
+    "https://service.rademacher.de/s/article/4403731724562-Der-Rollladen-sackt-herunter-Motor-hat-keine-Bremsleistung-Bremse-defekt",
+    "https://www.gutefrage.net/frage/rolladen-klemmt-2",
+    "https://www.gutefrage.net/frage/rollade-klemmt-im-kasten",
+    "https://www.gutefrage.net/frage/rolladen-klemmt-und-haengt-schief",
+    "https://www.gutefrage.net/frage/rolladen-zieht-sich-auf-der-linken-seite-nach-unten-wie-beheben",
+    "https://www.gutefrage.net/frage/rollo-geht-nicht-mehr-hoch-und-runter-gurt-nicht-gerissen-keine-lamellen-verschoben",
+    "https://www.gutefrage.net/frage/rollladen-lamelle-ist-rausgesprungen-was-kann-ich-tun",
+    "https://www.gutefrage.net/frage/was-ist-das-plastikteil-beim-oeffnen-des-rolladenkastens-heruntergefallen",
+    "https://www.bauexpertenforum.de/threads/rolllaeden-klemmen.126951/",
+    "https://www.bauexpertenforum.de/threads/rollo-lammellen-verhaken-sich-im-einlauf-trichter.115641/",
+    "https://www.dasheimwerkerforum.de/threads/manueller-rolladen-rutscht-nach-unten.30433/"
+  ]
+}

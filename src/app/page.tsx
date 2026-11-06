@@ -30,6 +30,8 @@ const HAEUFIG = [
 const RATGEBER_START = [
   "waschtischarmatur-ratgeber",
   "dachfenster-sonnenschutz",
+  "rollladen-elektrisch-nachruesten",
+  "rueckspuelfilter",
   "geberit-sigma-drueckerplatte",
   "badewannenarmatur-ratgeber",
   "kuechenarmatur",

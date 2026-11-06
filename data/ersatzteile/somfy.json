@@ -1,0 +1,3455 @@
+{
+  "marke": {
+    "slug": "somfy",
+    "name": "Somfy",
+    "beschreibung": "Somfy baut Rohrmotoren für Rollläden, dazu Handsender, Wandsender und Funkempfänger. Die wichtigsten Rollladenmotoren sind der Oximo (mit io- oder RTS-Funk oder verdrahtet als WT), der Ilmo WT, der mechanische LT 50, der leise RS100 io und die Solarantriebe Oximo 40 WireFree io und RS100 Solar io.\n\nGefragt wird bei Somfy vor allem, wie man einen Handsender neu anlernt, wie man den Motor zurücksetzt und wie man die Endlagen einstellt. Dazu kommt die Frage nach dem passenden Ersatzmotor: Somfy gibt für jeden Antrieb an, wie schwer der Rollladenpanzer bei 1,5 m und 2,5 m Höhe sein darf. Handsender tauschst und lernst du selbst an. Einen 230-V-Motor anschließen darf nur eine Elektrofachkraft; so steht es in den Somfy-Anleitungen.",
+    "nummer_hinweis": "Bei Somfy zählt die Antriebsbezeichnung, etwa „Oximo 50 io 10/17“. Sie besteht aus Baureihe, Steuerung und zwei Zahlen: 50 für die Baureihe ab Welle SW 50, io für das Funksystem, 10 für das Drehmoment in Nm und 17 für die Umdrehungen pro Minute. Statt io steht dort RTS (das ältere Funksystem) oder WT (verdrahtet, mit Schalter). Beim mechanischen LT 50 heißen die Stärken Start, Jet, Ceres, Atlas, Meteor, Gemini, Apollo, Helios, Mariner und Vectran.\n\nDie Bezeichnung steht auf dem Antrieb und in der Anleitung. Um sie am Motor zu lesen, muss der Rollladenkasten geöffnet werden.\n\nArtikelnummern sind siebenstellig. Motoren beginnen meist mit 10, 11 oder 12 (Oximo 50 io 10/17: 1037755), Handsender mit 18 (Situo 5 io Pure II: 1870327), Adapter, Mitnehmer und Lager meist mit 9 (Adapter SW 60: 9707025). Für denselben Motor gibt es mehrere Nummern, je nach Welle (SW 50, SW 60 ED, SW 70 ESM), Kabellänge und Kabelfarbe. Wer einen Motor ersetzt, braucht deshalb Drehmoment und Welle; die alte Nummer allein reicht oft nicht, weil Somfy sie durch Nachfolger ersetzt hat.\n\nOb io oder RTS, zeigt der Handsender: Die Bezeichnung steht vorn oder im Batteriefach, und beim Drücken leuchtet die Kontrollleuchte bei io grün und bei RTS rot. Läuft der Rollladen über einen Wandschalter ohne Handsender, ist es ein verdrahteter Motor (WT oder LT). Beim Oximo RTS lässt sich die Generation V1, V2 oder V3 laut Somfy-Handbuch auch im eingebauten Zustand mit einer Tastenfolge am Sender bestimmen.",
+    "ersatzteil_garantie": "Somfy gibt auf die meisten Rollladenmotoren, Handsender, Steuerungen und Zubehör fünf Jahre Garantie. Für RS100 io, RS100 Hybrid io, RS100 Solar io und Oximo WireFree sind es sieben Jahre, bei den Solarantrieben nur, wenn Motor, Solarpanel und Akku zusammen gekauft wurden. Akkus haben drei Jahre. Die Garantie macht man beim Verkäufer geltend; sie ergänzt die gesetzliche Gewährleistung.\n\nEine Frist, wie lange es Ersatzteile gibt, nennt Somfy nicht. Der Fachkatalog führt aber Teile für ältere Baureihen weiter, etwa Lager, mit denen sich vorhandene LS-Lager nutzen lassen, und ein Adapterkabel, mit dem ein neuer RS100 io an den Stecker eines alten Oximo, Ilmo oder LT 50 passt. Ältere Motornummern wie die des Ilmo 50 WT 10/17 sind durch Nachfolger mit gleicher Zugkraft ersetzt.",
+    "hersteller_ersatzteil_url": "https://shop.somfy.de/produkte/ersatzteile.html",
+    "quellen": [
+      "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf",
+      "https://avosdim.com/media/DE/motor/mot-oximo-io/desc/somfy-zugkrafttabelle.pdf",
+      "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf",
+      "https://service.somfy.com/downloads/de_v5/9015255rts_handbuch.pdf",
+      "https://www.somfy.de/smarter-wohnen/kompatibilitaet/funktechnologien",
+      "https://www.somfy.de/hilfe/faq?question=wie-verbinde-ich-meinen-handsender-wieder-mit-dem-motor",
+      "https://www.somfy.de/hilfe/faq?question=wie-ersetzt-man-einen-einzelne-bedienstelle-verloren-oder-kaputt-meines-somfy-rollladenmotors",
+      "https://www.somfy.de/hilfe/faq?question=wie-kann-ich-einen-funkmotor-neu-programmieren",
+      "https://www.somfy.de/hilfe/faq?question=wann-muss-ich-meinen-rollladen-motor-auf-werkseinstellungen-zurucksetzen",
+      "https://www.somfy.de/hilfe/faq?question=warum-reagiert-mein-funk-rollladenmotor-io-oder-rts-nicht-mehr-auf-eine-doppelte-spannungsunterbrechung",
+      "https://www.somfy.de/hilfe/faq?question=io-funk-rest-bei-mehreren-antrieben-auf-einer-sicherung",
+      "https://www.somfy.de/hilfe/faq?question=wie-setze-ich-den-somfy-rs100-io-zuruck",
+      "https://www.somfy.de/hilfe/faq?question=was-kann-ich-tun-wenn-mein-motorisierter-rollladen-nicht-funktioniert",
+      "https://www.somfy.de/hilfe/faq?question=wie-andere-ich-die-endlagen-bei-meinem-funkmotor",
+      "https://www.somfy.de/hilfe/faq?question=wie-stellt-man-die-endlagen-eines-verdrahteten-somfy-rollladenmotors-ein",
+      "https://www.somfy.de/hilfe/faq?question=warum-findet-mein-ilmo-2-wt-die-untere-endlage-nicht",
+      "https://www.somfy.de/hilfe/faq?question=wie-viele-antriebe-konnen-in-einen-handsender-eingelernt-werden",
+      "https://www.somfy.de/hilfe/faq?question=woran-erkenne-ich-dass-der-akku-meines-solar-rollladens-entladen-ist",
+      "https://www.somfy.de/garantieversprechen",
+      "https://www.somfy.de/produkte/1870479/situo-5-io-rts-pure",
+      "https://www.somfy.de/produkte/1245893/rs100-solar-io",
+      "https://www.somfy.de/produkte/1241047/oximo-40-wirefree-io"
+    ],
+    "tabellen": [
+      {
+        "id": "zugkraft",
+        "titel": "Welcher Somfy-Motor zieht wie viel? Zugkrafttabelle",
+        "spalten": [
+          "Antrieb",
+          "Drehmoment",
+          "Welle",
+          "Panzergewicht bei 1,5 m Höhe",
+          "Panzergewicht bei 2,5 m Höhe"
+        ],
+        "zeilen": [
+          [
+            "Oximo 40 io 4/16",
+            "4 Nm",
+            "SW 40",
+            "12 kg",
+            "10 kg"
+          ],
+          [
+            "Oximo 40 io 9/16",
+            "9 Nm",
+            "SW 40",
+            "24 kg",
+            "20 kg"
+          ],
+          [
+            "Oximo 40 io 13/10",
+            "13 Nm",
+            "SW 40",
+            "36 kg",
+            "31 kg"
+          ],
+          [
+            "Altus 40 RTS 4/16",
+            "4 Nm",
+            "SW 40",
+            "12 kg",
+            "10 kg"
+          ],
+          [
+            "Altus 40 RTS 9/16",
+            "9 Nm",
+            "SW 40",
+            "24 kg",
+            "20 kg"
+          ],
+          [
+            "Altus 40 RTS 13/10",
+            "13 Nm",
+            "SW 40",
+            "36 kg",
+            "31 kg"
+          ],
+          [
+            "Oximo 40 WireFree io 3/23",
+            "3 Nm",
+            "SW 40",
+            "8 kg",
+            "7 kg"
+          ],
+          [
+            "Oximo 40 WireFree io 6/18",
+            "6 Nm",
+            "SW 40",
+            "17 kg",
+            "14 kg"
+          ],
+          [
+            "Oximo 40 WireFree io 10/12",
+            "10 Nm",
+            "SW 40",
+            "28 kg",
+            "23 kg"
+          ],
+          [
+            "Ilmo 2 40 WT 4/16",
+            "4 Nm",
+            "SW 40",
+            "12 kg",
+            "10 kg"
+          ],
+          [
+            "Ilmo 2 40 WT 9/16",
+            "9 Nm",
+            "SW 40",
+            "24 kg",
+            "20 kg"
+          ],
+          [
+            "Ilmo 2 40 WT 13/10",
+            "13 Nm",
+            "SW 40",
+            "36 kg",
+            "31 kg"
+          ],
+          [
+            "RS100 io 6/17",
+            "6 Nm",
+            "SW 60",
+            "14 kg",
+            "11 kg"
+          ],
+          [
+            "RS100 io 10/17",
+            "10 Nm",
+            "SW 60",
+            "24 kg",
+            "19 kg"
+          ],
+          [
+            "RS100 io 15/17",
+            "15 Nm",
+            "SW 60",
+            "36 kg",
+            "29 kg"
+          ],
+          [
+            "RS100 io 20/17",
+            "20 Nm",
+            "SW 60",
+            "48 kg",
+            "38 kg"
+          ],
+          [
+            "RS100 Solar io 3/15",
+            "3 Nm",
+            "SW 60",
+            "7 kg",
+            "5 kg"
+          ],
+          [
+            "RS100 Solar io 6/15",
+            "6 Nm",
+            "SW 60",
+            "14 kg",
+            "11 kg"
+          ],
+          [
+            "RS100 Solar io 10/12",
+            "10 Nm",
+            "SW 60",
+            "24 kg",
+            "19 kg"
+          ],
+          [
+            "RS100 Solar io 15/12",
+            "15 Nm",
+            "SW 60",
+            "36 kg",
+            "29 kg"
+          ],
+          [
+            "RS100 Solar io 20/12",
+            "20 Nm",
+            "SW 60",
+            "48 kg",
+            "38 kg"
+          ],
+          [
+            "Oximo 50 io/RTS/WT 6/17",
+            "6 Nm",
+            "SW 60",
+            "14 kg",
+            "11 kg"
+          ],
+          [
+            "Oximo 50 io/RTS/WT 10/17",
+            "10 Nm",
+            "SW 60",
+            "24 kg",
+            "19 kg"
+          ],
+          [
+            "Oximo 50 io/RTS/WT 15/17",
+            "15 Nm",
+            "SW 60",
+            "36 kg",
+            "29 kg"
+          ],
+          [
+            "Oximo 50 io/RTS/WT 20/17",
+            "20 Nm",
+            "SW 60",
+            "48 kg",
+            "38 kg"
+          ],
+          [
+            "Oximo 50 io/RTS/WT 30/17",
+            "30 Nm",
+            "SW 60",
+            "71 kg",
+            "57 kg"
+          ],
+          [
+            "Oximo 50 io/RTS/WT 40/17",
+            "40 Nm",
+            "SW 60",
+            "95 kg",
+            "76 kg"
+          ],
+          [
+            "Oximo 50 S Auto io/RTS 6/17 (kurz)",
+            "6 Nm",
+            "SW 60",
+            "14 kg",
+            "11 kg"
+          ],
+          [
+            "Ilmo 3 50 WT 6/17",
+            "6 Nm",
+            "SW 60",
+            "14 kg",
+            "11 kg"
+          ],
+          [
+            "Ilmo 3 50 WT 10/17",
+            "10 Nm",
+            "SW 60",
+            "24 kg",
+            "19 kg"
+          ],
+          [
+            "Ilmo 3 50 WT 15/17",
+            "15 Nm",
+            "SW 60",
+            "36 kg",
+            "29 kg"
+          ],
+          [
+            "Ilmo 2 50 WT 20/17",
+            "20 Nm",
+            "SW 60",
+            "48 kg",
+            "38 kg"
+          ],
+          [
+            "Ilmo 50 WT 30/17",
+            "30 Nm",
+            "SW 60",
+            "71 kg",
+            "57 kg"
+          ],
+          [
+            "Ilmo 50 WT 35/17",
+            "35 Nm",
+            "SW 60",
+            "81 kg",
+            "65 kg"
+          ],
+          [
+            "Ilmo 2 50 S WT 6/17 (kurz)",
+            "6 Nm",
+            "SW 60",
+            "14 kg",
+            "11 kg"
+          ],
+          [
+            "LT 50 Start",
+            "6 Nm",
+            "SW 60",
+            "15 kg",
+            "12 kg"
+          ],
+          [
+            "LT 50 Jet",
+            "8 Nm",
+            "SW 60",
+            "20 kg",
+            "17 kg"
+          ],
+          [
+            "LT 50 Ceres",
+            "10 Nm",
+            "SW 60",
+            "25 kg",
+            "21 kg"
+          ],
+          [
+            "LT 50 Atlas",
+            "15 Nm",
+            "SW 60",
+            "37 kg",
+            "32 kg"
+          ],
+          [
+            "LT 50 Meteor",
+            "20 Nm",
+            "SW 60",
+            "50 kg",
+            "43 kg"
+          ],
+          [
+            "LT 50 Gemini",
+            "25 Nm",
+            "SW 60",
+            "63 kg",
+            "53 kg"
+          ],
+          [
+            "LT 50 Apollo",
+            "30 Nm",
+            "SW 60",
+            "75 kg",
+            "64 kg"
+          ],
+          [
+            "LT 50 Helios",
+            "35 Nm",
+            "SW 60",
+            "88 kg",
+            "75 kg"
+          ],
+          [
+            "LT 50 Mariner",
+            "40 Nm",
+            "SW 60",
+            "100 kg",
+            "85 kg"
+          ],
+          [
+            "LT 50 Vectran",
+            "45 Nm",
+            "SW 60",
+            "112 kg",
+            "96 kg"
+          ],
+          [
+            "LT 60 Orion",
+            "40 Nm",
+            "SW 70",
+            "90 kg",
+            "78 kg"
+          ],
+          [
+            "LT 60 Orion S",
+            "55 Nm",
+            "SW 70",
+            "123 kg",
+            "107 kg"
+          ],
+          [
+            "LT 60 Vega",
+            "60 Nm",
+            "SW 70",
+            "135 kg",
+            "117 kg"
+          ],
+          [
+            "LT 60 Sirius",
+            "80 Nm",
+            "SW 70",
+            "180 kg",
+            "157 kg"
+          ],
+          [
+            "LT 60 Jupiter",
+            "85 Nm",
+            "SW 70",
+            "190 kg",
+            "165 kg"
+          ],
+          [
+            "LT 60 Titan",
+            "100 Nm",
+            "SW 70",
+            "213 kg",
+            "185 kg"
+          ],
+          [
+            "LT 60 Taurus",
+            "120 Nm",
+            "SW 70",
+            "270 kg",
+            "234 kg"
+          ]
+        ],
+        "hinweis": "Werte aus der Somfy-Zugkrafttabelle im Fachkatalog 10/2026. Die Welle ist die, für die Somfy die Werte angibt; die 50er-Antriebe passen mit anderem Adapter schon in SW 50. Bei 2,5 m Höhe ist der Wickel dicker, deshalb sinkt das zulässige Gewicht. Wer einen Motor ersetzt, nimmt mindestens dieselbe Stufe wie der alte."
+      },
+      {
+        "id": "funk",
+        "titel": "Welcher Somfy-Sender passt zu welchem Motor?",
+        "spalten": [
+          "Sender",
+          "Funk",
+          "io-Motoren (Oximo io, RS100 io, Solar)",
+          "RTS-Motoren (Oximo RTS, Altus RTS)",
+          "Verdrahtete Motoren (WT, LT 50)"
+        ],
+        "zeilen": [
+          [
+            "Situo 1 io Pure II, Situo 5 io Pure II",
+            "io",
+            "ja",
+            "nein",
+            "nur mit Funkempfänger io"
+          ],
+          [
+            "Situo 5 Bi-radio io/RTS (früher Situo 5 io/RTS 1870479)",
+            "io und RTS",
+            "ja, ohne Endlagen einstellen",
+            "ja, ohne Endlagen einstellen",
+            "nur mit Funkempfänger"
+          ],
+          [
+            "Smoove 1 RS100 io II",
+            "io",
+            "nur RS100 io und RS100 Solar io",
+            "nein",
+            "nein"
+          ],
+          [
+            "Situo 1 RTS Pure II, Situo 5 RTS Pure II, Situo RTS Pure",
+            "RTS",
+            "nein",
+            "ja",
+            "nur mit Funkempfänger RTS"
+          ],
+          [
+            "Telis 16 RTS, Telis 6 Chronis RTS",
+            "RTS",
+            "nein",
+            "ja",
+            "nur mit Funkempfänger RTS"
+          ],
+          [
+            "Smoove Uno A/M io (statt Schalter)",
+            "io-Empfänger",
+            "–",
+            "–",
+            "ja, ersetzt den Rollladenschalter"
+          ],
+          [
+            "Unterputz-Empfänger Rollladen io",
+            "io-Empfänger",
+            "–",
+            "–",
+            "ja, Somfy-Motoren bis 80 Nm"
+          ]
+        ],
+        "hinweis": "Nach den Kompatibilitätstabellen io und RTS im Somfy-Fachkatalog 10/2026. io sendet auf 868 bis 870 MHz mit Rückmeldung, RTS auf 433,42 MHz ohne Rückmeldung. Die beiden Systeme verstehen sich nicht. Die Solarantriebe arbeiten nicht mit Smoove io (sensitiv), Composio io, Impresario io, Repeater io und dem Unterputz-Sender io."
+      },
+      {
+        "id": "adapter",
+        "titel": "Welcher Adapter und Mitnehmer passt in welche Welle?",
+        "spalten": [
+          "Welle",
+          "Motoren",
+          "Adapter",
+          "Mitnehmer"
+        ],
+        "zeilen": [
+          [
+            "Achtkant 40 × 0,6, Außenfalz",
+            "40er (Oximo 40 io, Altus 40 RTS, LS 40, WireFree)",
+            "9708976",
+            "9500344"
+          ],
+          [
+            "Achtkant 40 × 0,8, Außenfalz",
+            "40er",
+            "9708976",
+            "9147545"
+          ],
+          [
+            "SW 50",
+            "50er (Oximo 50, Ilmo 50, LT 50)",
+            "9705345",
+            "9705344"
+          ],
+          [
+            "SW 60 (IMBAC, Selve, viele Kunststoffsysteme)",
+            "50er",
+            "9707025",
+            "9751001"
+          ],
+          [
+            "SW 70 E-SM (Selve, IMBAC)",
+            "50er",
+            "9707026 und 9705340",
+            "9761002"
+          ],
+          [
+            "SW 70 E-SM",
+            "60er (LT 60)",
+            "9705340",
+            "9761002"
+          ],
+          [
+            "Rundrohr 60 × 1,5",
+            "50er",
+            "9707033",
+            "9751013"
+          ]
+        ],
+        "hinweis": "Nach den Seiten „Adapter und Mitnehmer“ im Somfy-Fachkatalog 10/2026. Jeder neue Motor kommt mit Adapter und Mitnehmer für eine Welle; welche, steht in der Artikelnummer (etwa „SW 60 ED“). Für andere Wellen bestellt man das Paar einzeln."
+      }
+    ],
+    "fragen": [
+      {
+        "frage": "Hat mein Somfy-Rollladen io oder RTS, und woran erkenne ich das?",
+        "antwort": "Am Namen des Handsenders: Steht dort io, etwa Situo io, ist es io-homecontrol, steht dort RTS, etwa Situo RTS oder Telis RTS, ist es RTS. Die Bezeichnung steht vorn oder im Batteriefach. Beim Drücken leuchtet die Kontrollleuchte bei io grün, bei RTS rot. Beide Systeme verstehen sich nicht; nur der Situo 5 Bi-radio und die TaHoma-Zentrale bedienen beide.",
+        "kategorie": "nummer",
+        "quellen": [
+          "https://www.somfy.de/smarter-wohnen/kompatibilitaet/funktechnologien",
+          "https://www.somfy.de/hilfe/faq?question=wie-verbinde-ich-meinen-handsender-wieder-mit-dem-motor"
+        ],
+        "teile": [
+          "somfy-situo-5-io-rts-pure-1870479"
+        ],
+        "problem": "somfy-rollladen-handsender-anlernen"
+      },
+      {
+        "frage": "Was bedeuten die Zahlen bei einem Somfy-Motor wie Oximo 50 io 10/17?",
+        "antwort": "Die 50 steht für die Baureihe für Wellen ab SW 50, io für das Funksystem. Die erste Zahl hinter der Bezeichnung ist das Drehmoment in Nm, die zweite die Drehzahl: 10/17 heißt 10 Nm und 17 Umdrehungen pro Minute. WT steht für die verdrahtete Ausführung mit Schalter. Beim mechanischen LT 50 tragen die Stärken Namen, etwa Atlas für 15 Nm.",
+        "kategorie": "nummer",
+        "quellen": [
+          "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+        ],
+        "teile": [
+          "somfy-oximo-50-io-10-17",
+          "somfy-lt-50-atlas-15-17"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Welcher Somfy-Motor ist stark genug für meinen Rollladen?",
+        "antwort": "Somfy gibt für jeden Antrieb an, wie schwer der Panzer bei 1,5 m und bei 2,5 m Höhe sein darf. Ein Oximo 50 io 10/17 schafft 24 kg bei 1,5 m und 19 kg bei 2,5 m, mit 20 Nm sind es 48 und 38 kg. Wer einen defekten Motor ersetzt, nimmt dieselbe Stärke wie bisher oder eine Stufe mehr; sie steht auf dem alten Motor.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+          "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf"
+        ],
+        "teile": [
+          "somfy-oximo-50-io-10-17",
+          "somfy-oximo-50-io-20-17"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Kann ich einen Somfy-io-Handsender für meinen RTS-Motor nehmen?",
+        "antwort": "Nein. io funkt auf 868 bis 870 MHz, RTS auf 433,42 MHz, und ein Motor versteht nur sein System. Bestätigt der Motor beim Anlernen die Stromunterbrechung, reagiert aber nicht auf die PROG-Taste, liegt es laut Somfy oft genau daran. Für gemischte Häuser gibt es den Situo 5 Bi-radio io/RTS, der beide bedient, aber keine Endlagen einstellen kann.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://www.somfy.de/hilfe/faq?question=wie-verbinde-ich-meinen-handsender-wieder-mit-dem-motor",
+          "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+          "https://www.somfy.de/smarter-wohnen/kompatibilitaet/funktechnologien"
+        ],
+        "teile": [
+          "somfy-situo-5-io-rts-pure-1870479",
+          "somfy-situo-1-rts-pure-1870496"
+        ],
+        "problem": "somfy-rollladen-handsender-anlernen"
+      },
+      {
+        "frage": "Wie viele Handsender kann ich an einem Somfy-Motor anlernen?",
+        "antwort": "Ein io-Motor nimmt bis zu 9 Sender oder Kanäle an, ein RTS-Motor bis zu 12. Umgekehrt gibt es keine Grenze: Ein Sender oder Kanal kann beliebig viele Motoren bedienen, etwa als Zentralsender für das ganze Haus. Die Funkreichweite muss dabei reichen.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://www.somfy.de/hilfe/faq?question=wie-viele-antriebe-konnen-in-einen-handsender-eingelernt-werden"
+        ],
+        "teile": [
+          "somfy-situo-5-io-pure-ii",
+          "somfy-telis-16-rts-pure"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Mein alter Somfy-Motor ist kaputt. Kann ich ihn durch einen RS100 io ersetzen, ohne neu zu verkabeln?",
+        "antwort": "Ja, dafür gibt es das RS100 io – HiPro Adapterkabel 9029954. Es verbindet den RS100 io mit der HiPro-Steckverbindung, an der vorher ein Oximo 50 io, Oximo 50 RTS, Oximo 50 WT, Ilmo 50 WT oder LT 50 hing. Elektrische Arbeiten im Rollladenkasten entfallen dadurch; den Motortausch selbst macht die Elektrofachkraft.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+        ],
+        "teile": [
+          "somfy-rs100-io-hipro-adapterkabel",
+          "somfy-rs100-io-10-17"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Brauche ich für einen Somfy-Funkmotor feste Wellenverbinder statt Federn?",
+        "antwort": "Für die automatische untere Endlage und die Hinderniserkennung ja; die obere automatische Endlage braucht zusätzlich einen Stopper oder eine Winkelendschiene. Beim Ilmo WT schreibt Somfy feste Verbinder und Stopper immer vor, sonst findet er die untere Endlage nicht. Nur Motoren mit fest eingestellten Endlagen und der mechanische LT 50 kommen mit Federn aus.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+          "https://www.somfy.de/hilfe/faq?question=warum-findet-mein-ilmo-2-wt-die-untere-endlage-nicht",
+          "https://avosdim.com/media/DE/motor/mot-oximo-io/desc/somfy-zugkrafttabelle.pdf"
+        ],
+        "teile": [
+          "somfy-schnellverbinder-1-gliedrig",
+          "somfy-clip-verbinder-2-gliedrig"
+        ],
+        "problem": "somfy-rollladen-endlagen-einstellen"
+      },
+      {
+        "frage": "Welcher Somfy-Adapter passt in meine Rollladenwelle?",
+        "antwort": "Das hängt von Wellenprofil und Motorbaureihe ab. Für SW 60 braucht ein 50er-Motor Adapter 9707025 und Mitnehmer 9751001, für SW 50 das Paar 9705345 und 9705344. 40er-Motoren passen nur in SW-40-Wellen mit Außenfalz. Neue Motoren kommen mit Adapter und Mitnehmer für eine Welle, die in der Artikelnummer steht, etwa „SW 60 ED“.",
+        "kategorie": "kompatibilitaet",
+        "quellen": [
+          "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+        ],
+        "teile": [
+          "somfy-adapter-mitnehmer-sw60",
+          "somfy-adapter-mitnehmer-sw50",
+          "somfy-adapter-mitnehmer-sw40-0-6"
+        ],
+        "problem": null
+      },
+      {
+        "frage": "Mein Somfy-Handsender ist weg. Wie lerne ich einen neuen an?",
+        "antwort": "Mit einem zweiten funktionierenden Sender: dort die PROG-Taste etwa 3 Sekunden halten, bis der Rollladen wippt, dann am neuen Sender PROG kurz drücken. Ohne Sender muss der Motor über eine doppelte Spannungsunterbrechung in Lernbereitschaft, und zwar nur dieser Motor; danach PROG am neuen Sender kurz drücken.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://www.somfy.de/hilfe/faq?question=wie-verbinde-ich-meinen-handsender-wieder-mit-dem-motor",
+          "https://www.somfy.de/hilfe/faq?question=wie-ersetzt-man-einen-einzelne-bedienstelle-verloren-oder-kaputt-meines-somfy-rollladenmotors"
+        ],
+        "teile": [
+          "somfy-situo-1-io-pure-ii",
+          "somfy-situo-rts-pure-1810636"
+        ],
+        "problem": "somfy-rollladen-handsender-anlernen"
+      },
+      {
+        "frage": "Wie setze ich einen Somfy-Funkmotor auf Werkseinstellung zurück?",
+        "antwort": "Beim Oximo io und Oximo RTS: nur diesen Motor kurz stromlos machen, wieder einschalten, nochmals stromlos und wieder ein, dann am Einzelsender PROG mindestens 7 Sekunden halten, bis der Rollladen zweimal wippt. Der RS100 io wird ohne Stromunterbrechung nur über den Sender zurückgesetzt. Danach müssen Drehrichtung, Endlagen und Sender neu eingestellt werden.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://www.somfy.de/hilfe/faq?question=wie-kann-ich-einen-funkmotor-neu-programmieren",
+          "https://www.somfy.de/hilfe/faq?question=wie-setze-ich-den-somfy-rs100-io-zuruck",
+          "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf"
+        ],
+        "teile": [],
+        "problem": "somfy-rollladen-reset"
+      },
+      {
+        "frage": "Mein Somfy-Rollladen fährt nicht mehr ganz runter oder ganz hoch. Was kann ich tun?",
+        "antwort": "Bei fest eingestellten Endlagen (Oximo io und RTS) die Endlage anfahren, Auf und Ab mindestens 5 Sekunden halten, mit Auf und Ab nachjustieren und mit my bestätigen. Automatische Endlagen brauchen feste Wellenverbinder und Stopper; ein Ilmo WT braucht nach dem Einbau mehrere volle Fahrten. Beim LT 50 werden die Endlagen mit der gelben und der weißen Taste am Motorkopf gesetzt.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://www.somfy.de/hilfe/faq?question=wie-andere-ich-die-endlagen-bei-meinem-funkmotor",
+          "https://www.somfy.de/hilfe/faq?question=warum-findet-mein-ilmo-2-wt-die-untere-endlage-nicht",
+          "https://www.somfy.de/hilfe/faq?question=wie-stellt-man-die-endlagen-eines-verdrahteten-somfy-rollladenmotors-ein"
+        ],
+        "teile": [],
+        "problem": "somfy-rollladen-endlagen-einstellen"
+      },
+      {
+        "frage": "Darf ich einen Somfy-Rollladenmotor selbst einbauen?",
+        "antwort": "Einen 230-V-Motor nicht: Somfy schreibt in der Anleitung des Oximo io, dass er von einer fachlich qualifizierten Person nach DIN VDE 1000-10 installiert werden muss, und verweist auch bei Prüfungen an 230-V-Leitungen auf die Elektrofachkraft. Handsender anlernen, Batterie wechseln und Endlagen per Sender nachstellen kannst du selbst. Solarantriebe haben keinen Netzanschluss.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf",
+          "https://www.somfy.de/hilfe/faq?question=was-kann-ich-tun-wenn-mein-motorisierter-rollladen-nicht-funktioniert"
+        ],
+        "teile": [
+          "somfy-rs100-solar-io-6-15",
+          "somfy-oximo-40-wirefree-io-6-18"
+        ],
+        "problem": "somfy-rollladen-reagiert-nicht"
+      },
+      {
+        "frage": "Mein Somfy-Solarrollladen fährt nicht mehr. Ist der Akku leer?",
+        "antwort": "Mit TaHoma oder Nina io meldet die Anlage einen schwachen Akku. Somfy gibt für den RS100 Solar io mindestens 45 Tage Reserve bei zwei Fahrten am Tag ohne Sonne an. Nach langer Lagerung oder einem dunklen Winter lädt das Somfy-Ladegerät 9028028 den Akku nach; Ersatzakkus gibt es je Antrieb.",
+        "kategorie": "reparatur",
+        "quellen": [
+          "https://www.somfy.de/hilfe/faq?question=woran-erkenne-ich-dass-der-akku-meines-solar-rollladens-entladen-ist",
+          "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+        ],
+        "teile": [
+          "somfy-ladegeraet-solarkits",
+          "somfy-rs100-solar-io-batterie-9-6-v",
+          "somfy-oximo-sunea-akku-12-v"
+        ],
+        "problem": "somfy-rollladen-reagiert-nicht"
+      },
+      {
+        "frage": "Wie lange gilt die Garantie auf Somfy-Rollladenmotoren?",
+        "antwort": "Für die meisten Somfy-Produkte rund um den Rollladen fünf Jahre, für RS100 io, RS100 Hybrid io, RS100 Solar io und Oximo WireFree sieben Jahre; bei den Solarantrieben nur, wenn Motor, Panel und Akku zusammen gekauft wurden. Auf Akkus gibt es drei Jahre. Geltend gemacht wird die Garantie beim Verkäufer, nicht bei Somfy.",
+        "kategorie": "verfuegbarkeit",
+        "quellen": [
+          "https://www.somfy.de/garantieversprechen",
+          "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+        ],
+        "teile": [],
+        "problem": null
+      }
+    ]
+  },
+  "serien": [
+    {
+      "slug": "oximo-50-io",
+      "name": "Somfy Oximo 50 io",
+      "produkttyp": "rollladenmotor",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "Oximo 50 io",
+        "Oximo io",
+        "Oximo 50 S Auto io"
+      ],
+      "erkennungsmerkmale": "Funk-Rohrmotor mit 230 V für Rollladenwellen ab SW 50, meist SW 60. Bedient wird er mit einem io-Sender, dessen Kontrollleuchte beim Drücken grün aufleuchtet. Die Bezeichnung lautet etwa „Oximo 50 io 10/17“: 10 Nm Drehmoment, 17 Umdrehungen pro Minute. Somfy führt 6, 10, 15, 20, 30 und 40 Nm, dazu den Kurzantrieb Oximo 50 S Auto io mit 6 Nm für schmale Rollläden.",
+      "beschreibung": "Die Endlagen stellt der Motor entweder selbst über das Drehmoment ein oder sie werden fest per Sender gespeichert. Für die automatische untere Endlage braucht der Panzer feste Wellenverbinder, für die automatische obere Endlage einen Stopper oder eine Winkelendschiene. Hinderniserkennung und Festfrierschutz arbeiten nur mit festen Wellenverbindern. Funk io-homecontrol auf 868 bis 870 MHz, bis zu 9 Sender je Motor. Je Drehmoment gibt es mehrere Artikelnummern für SW 50, SW 60 und SW 70 sowie für Kabel 1 m oder 3 m in Weiß oder Schwarz. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf",
+        "https://www.somfy.de/hilfe/faq?question=wie-viele-antriebe-konnen-in-einen-handsender-eingelernt-werden"
+      ]
+    },
+    {
+      "slug": "oximo-50-rts",
+      "name": "Somfy Oximo 50 RTS",
+      "produkttyp": "rollladenmotor",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "Oximo 50 RTS",
+        "Oximo RTS",
+        "Oximo 50 S Auto RTS"
+      ],
+      "erkennungsmerkmale": "Funk-Rohrmotor mit 230 V für Wellen ab SW 50, meist SW 60. Gesteuert wird er mit RTS-Sendern wie Situo RTS, Telis RTS oder Smoove RTS; deren Kontrollleuchte leuchtet beim Drücken rot. Drehmomente 6, 10, 15, 20, 30 und 40 Nm, dazu der Kurzantrieb Oximo 50 S Auto RTS mit 6 Nm. Ältere Motoren heißen nur „Oximo RTS“.",
+      "beschreibung": "Funk RTS auf 433,42 MHz ohne Rückmeldung, bis zu 12 Sender je Motor. Endlagen automatisch über das Drehmoment oder fest per Sender, mit denselben Bedingungen wie beim Oximo io: feste Wellenverbinder für die automatische untere Endlage, Stopper oder Winkelendschiene für die obere. Somfy hat drei Generationen gebaut (V1, V2, V3); welche eingebaut ist, lässt sich laut RTS-Handbuch mit dem Sender prüfen. Mit io-Sendern lässt sich ein RTS-Motor nicht bedienen. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://service.somfy.com/downloads/de_v5/9015255rts_handbuch.pdf",
+        "https://www.somfy.de/smarter-wohnen/kompatibilitaet/funktechnologien",
+        "https://www.somfy.de/hilfe/faq?question=wie-viele-antriebe-konnen-in-einen-handsender-eingelernt-werden"
+      ]
+    },
+    {
+      "slug": "oximo-50-wt",
+      "name": "Somfy Oximo 50 WT und Oximo 2 50 WT",
+      "produkttyp": "rollladenmotor",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "Oximo 50 WT",
+        "Oximo WT",
+        "Oximo 2 50 WT"
+      ],
+      "erkennungsmerkmale": "Verdrahteter Rohrmotor mit 230 V für Wellen ab SW 50, bedient über einen Rollladenschalter oder Taster. WT steht für die Ausführung ohne Funk. Drehmomente 6, 10, 15, 20, 30 und 40 Nm. Neu im Somfy-Katalog 10/2026 ist die leisere Nachfolgereihe Oximo 2 50 WT mit denselben Stufen.",
+      "beschreibung": "Endlagen automatisch über das Drehmoment oder fest. Eingestellt werden Endlagen und Drehrichtung mit dem Somfy-Einstellkabel, beim Oximo 2 50 WT lassen sich die Endlagen auch über den vorhandenen Schalter nachstellen. Bis zu drei Motoren lassen sich parallel an einen Schalter hängen. Per Funk nachrüsten lässt er sich mit dem Motorsteuergerät Smoove Uno A/M io oder dem Unterputz-Empfänger Rollladen io. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "ilmo-50-wt",
+      "name": "Somfy Ilmo 50 WT (Ilmo 2 und Ilmo 3)",
+      "produkttyp": "rollladenmotor",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "Ilmo 50 WT",
+        "Ilmo 2 50 WT",
+        "Ilmo 3 50 WT",
+        "Ilmo 2 50 S WT",
+        "Ilmo WT"
+      ],
+      "erkennungsmerkmale": "Verdrahteter Plug-&-Play-Rohrmotor mit 230 V für Wellen ab SW 50, bedient über Schalter oder Taster. Er braucht keine Einstellung: Die Endlagen findet er selbst über das Drehmoment. Aktuell sind das Ilmo 3 50 WT mit 6, 10 und 15 Nm, Ilmo 2 50 WT mit 20 Nm und Ilmo 50 WT mit 30 und 35 Nm; dazu der Kurzantrieb Ilmo 2 50 S WT mit 6 Nm.",
+      "beschreibung": "Somfy schreibt für alle Ilmo-WT-Antriebe feste Wellenverbinder und Stopper oder eine Winkelendschiene vor. Fehlen sie, findet der Motor die untere Endlage nicht. Nach dem Einbau braucht er einige vollständige Fahrten, bis die Endlagen sitzen. Bis zu drei Motoren lassen sich parallel anschließen. Auf Funk nachrüsten geht mit dem Smoove Uno A/M io oder dem Unterputz-Empfänger Rollladen io. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf",
+        "https://www.somfy.de/hilfe/faq?question=warum-findet-mein-ilmo-2-wt-die-untere-endlage-nicht"
+      ]
+    },
+    {
+      "slug": "lt-50",
+      "name": "Somfy LT 50 (HiPro)",
+      "produkttyp": "rollladenmotor",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "LT 50",
+        "HiPro LT 50",
+        "LT50",
+        "Start",
+        "Jet",
+        "Ceres",
+        "Atlas",
+        "Meteor",
+        "Gemini",
+        "Apollo",
+        "Helios",
+        "Mariner",
+        "Vectran"
+      ],
+      "erkennungsmerkmale": "Verdrahteter Rohrmotor mit mechanischen Endschaltern. Am Motorkopf sitzen zwei Einstelltasten, eine gelbe und eine weiße. Statt einer Zahl trägt jede Stärke einen Namen: Start 6 Nm, Jet 8 Nm, Ceres 10 Nm, Atlas 15 Nm, Meteor 20 Nm, Gemini 25 Nm, Apollo 30 Nm, Helios 35 Nm, Mariner 40 Nm, Vectran 45 Nm. Das vieradrige Kabel ist mit dem HiPro-Stecker steckbar.",
+      "beschreibung": "Einfache Technik ohne Elektronik: Die Endlagen werden über die beiden Tasten gesetzt, Hinderniserkennung und Festfrierschutz gibt es nicht. Der Panzer darf an Federn hängen. Einige Stärken gibt es als NHK-Kompakt mit Anschluss für eine Notkurbel. Für schwerere Rollläden folgt der LT 60 für Wellen SW 70 mit 40 bis 120 Nm. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://avosdim.com/media/DE/motor/mot-oximo-io/desc/somfy-zugkrafttabelle.pdf",
+        "https://www.somfy.de/hilfe/faq?question=wie-stellt-man-die-endlagen-eines-verdrahteten-somfy-rollladenmotors-ein"
+      ]
+    },
+    {
+      "slug": "oximo-40-io",
+      "name": "Somfy Oximo 40 io",
+      "produkttyp": "rollladenmotor",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "Oximo 40 io"
+      ],
+      "erkennungsmerkmale": "Funk-Rohrmotor mit 230 V für kleine Rollläden mit 40er-Welle (SW 40). Drehmomente 4, 9 und 13 Nm, Bezeichnung etwa „Oximo 40 io 9/16“. Das RTS-Gegenstück für dieselbe Welle heißt Altus 40 RTS.",
+      "beschreibung": "Endlagen automatisch oder fest per io-Sender, Hinderniserkennung nur mit festen Wellenverbindern. Bei SW-40-Wellen passt der Motor nur in Wellen mit Außenfalz; Adapter und Mitnehmer gibt es für Wellen mit 0,6 und 0,8 mm Wandstärke. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "oximo-40-wirefree-io",
+      "name": "Somfy Oximo 40 WireFree io (Solar)",
+      "produkttyp": "rollladenmotor",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "Oximo 40 WireFree io",
+        "Oximo WireFree",
+        "Oximo 40 WireFree RTS",
+        "Oximo 40 DC RTS"
+      ],
+      "erkennungsmerkmale": "Solar-Rollladenantrieb ohne Netzanschluss: Gleichstrommotor mit eingebautem io-Empfänger, 12-V-Akku und Solarpanel, für SW-40-Wellen mit Außenfalz. Drehmomente 3, 6 und 10 Nm (Bezeichnung 3/23, 6/18, 10/12). Die Vorgängerreihe Oximo 40 WireFree RTS ist nicht mehr lieferbar.",
+      "beschreibung": "Lager, Adapter und Mitnehmer der Baureihe LS 40 passen. Für Wellen SW 50 und SW 60 braucht man das Adaptionskit 9013763 und passende Adapter. Nicht kompatibel mit Smoove io (sensitiv), Composio io, Impresario io, Repeater io und dem Unterputz-Sender io, auch nicht mit Smoove Origin io vor 2020. Somfy gibt sieben Jahre Garantie, wenn Motor, Panel und Akku zusammen gekauft wurden.",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf",
+        "https://www.somfy.de/produkte/1241047/oximo-40-wirefree-io",
+        "https://www.somfy.de/garantieversprechen"
+      ]
+    },
+    {
+      "slug": "rs100-io",
+      "name": "Somfy RS100 io (auch Hybrid io)",
+      "produkttyp": "rollladenmotor",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "RS100 io",
+        "S&SO RS100 io",
+        "RS100 Hybrid io"
+      ],
+      "erkennungsmerkmale": "Funk-Rohrmotor mit 230 V und Gleichstrom-Technik für Wellen ab SW 50, sehr leise, mit Sanftanlauf. Drehmomente 6, 10, 15 und 20 Nm. Das Kabel ist zweiadrig. Die Variante RS100 Hybrid io lässt sich zusätzlich über einen vorhandenen Schalter bedienen.",
+      "beschreibung": "Drehrichtung und Endlagen erkennt der Motor selbst. Die automatische untere Endlage geht nur mit festen Wellenverbindern, die obere nur mit Stopper oder Winkelendschiene. Zurückgesetzt wird er ohne Stromunterbrechung über den Sender. Mit dem RS100 io – HiPro Adapterkabel 9029954 ersetzt er ältere Oximo, Ilmo und LT 50 am vorhandenen Stecker. Somfy gibt sieben Jahre Garantie. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.somfy.de/hilfe/faq?question=wie-setze-ich-den-somfy-rs100-io-zuruck",
+        "https://www.somfy.de/garantieversprechen"
+      ]
+    },
+    {
+      "slug": "rs100-solar-io",
+      "name": "Somfy RS100 Solar io",
+      "produkttyp": "rollladenmotor",
+      "baujahr_von": null,
+      "baujahr_bis": null,
+      "kennnummern": [
+        "RS100 Solar io",
+        "Solarkit RS100"
+      ],
+      "erkennungsmerkmale": "Solar-Rollladenantrieb für Wellen SW 60, als Kit aus Motor mit io-Empfänger, NiMH-Akku und Solarpanel. Drehmomente 3, 6, 10, 15 und 20 Nm. Für 3 bis 10 Nm gehören ein 9,6-V-Akku und ein 2,5-W-Panel dazu, für 15 und 20 Nm ein 16,8-V-Akku und ein 5,5-W-Panel.",
+      "beschreibung": "Kein Netzanschluss nötig. Der Akku reicht laut Somfy mindestens 45 Tage bei zwei Fahrten am Tag ohne Sonne. Endlagen automatisch oder fest. Bedienbar mit io-Sendern, nicht mit Smoove io (sensitiv), Composio io, Impresario io, Repeater io und Unterputz-Sender io. Wurde das Kit länger als ein halbes Jahr gelagert, muss der Akku eventuell mit dem Ladegerät 9028028 nachgeladen werden. Sieben Jahre Garantie bei gemeinsamem Kauf von Motor, Panel und Akku.",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf",
+        "https://www.somfy.de/produkte/1245893/rs100-solar-io",
+        "https://www.somfy.de/garantieversprechen"
+      ]
+    }
+  ],
+  "teile": [
+    {
+      "slug": "somfy-oximo-50-io-6-17",
+      "name": "Somfy Oximo 50 io 6/17",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1032786",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 6,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 14,
+        "panzergewicht_kg_2_5m": 11,
+        "steuerung": "io"
+      },
+      "beschreibung": "Funkmotor io mit 6 Nm für leichte Rollläden bis 14 kg bei 1,5 m Höhe. Die Nummer gilt für Welle SW 60 mit 3 m schwarzem Kabel; für SW 50 ist es 1032785, mit weißem Kabel 1032800. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B01I1MTMIY",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B01I1MTMIY"
+      ]
+    },
+    {
+      "slug": "somfy-oximo-50-io-10-17",
+      "name": "Somfy Oximo 50 io 10/17",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1037755",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 10,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 24,
+        "panzergewicht_kg_2_5m": 19,
+        "steuerung": "io"
+      },
+      "beschreibung": "Funkmotor io mit 10 Nm, bis 24 kg Panzergewicht bei 1,5 m Höhe. 1037755 ist die Ausführung für SW 60 mit 3 m schwarzem Kabel; das Amazon-Angebot führt die ältere Nummer 1037689. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B08DV4TM8R",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B08DV4TM8R"
+      ]
+    },
+    {
+      "slug": "somfy-oximo-50-io-15-17",
+      "name": "Somfy Oximo 50 io 15/17",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1039637",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 15,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 36,
+        "panzergewicht_kg_2_5m": 29,
+        "steuerung": "io"
+      },
+      "beschreibung": "Funkmotor io mit 15 Nm, bis 36 kg bei 1,5 m Höhe. 1039637 ist die Ausführung für SW 60 mit 1 m schwarzem Kabel, mit 3 m Kabel heißt sie 1039644. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B01I1DCWY4",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B01I1DCWY4"
+      ]
+    },
+    {
+      "slug": "somfy-oximo-50-io-20-17",
+      "name": "Somfy Oximo 50 io 20/17",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1041694",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 20,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 48,
+        "panzergewicht_kg_2_5m": 38,
+        "steuerung": "io"
+      },
+      "beschreibung": "Funkmotor io mit 20 Nm, bis 48 kg bei 1,5 m Höhe, für große Kunststoff- oder Alurollläden. 1041694 ist die Ausführung für SW 60 mit 3 m schwarzem Kabel. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B01I1PAW8K",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B01I1PAW8K"
+      ]
+    },
+    {
+      "slug": "somfy-universalantrieb-funk-io-1039942",
+      "name": "Somfy Universalantrieb Funk io 7,5 m² (1039942)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1039942",
+      "ean": "3660849562922",
+      "masse": {
+        "drehmoment_nm": 15,
+        "steuerung": "io",
+        "flaeche_kunststoff_m2": 7.5,
+        "flaeche_alu_m2": 5.5
+      },
+      "beschreibung": "Funkmotor io mit 15 Nm aus dem Elektro-Sortiment, für Kunststoffrollläden bis 7,5 m² und Alurollläden bis 5,5 m². Geliefert mit Adapter, Mitnehmer, Antriebslager, drei starren Wellenverbindern und 3 m Kabel. Endlagen automatisch oder fest, Hinderniserkennung mit festen Wellenverbindern. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": "ca. 262 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-funk-komplettset-io-1246050",
+      "name": "Somfy Funk-Rollladenmotor io Komplettset 10 Nm (1246050)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1246050",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 10,
+        "steuerung": "io"
+      },
+      "beschreibung": "Nachrüstset mit Funkmotor io und 10 Nm für Wellen ab 50 mm Durchmesser und Panzer bis 4,5 kg/m², nicht für Holzrollläden. Laut Angebotstext steckt ein Oximo io darin. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B0CW3MSZWP",
+      "quellen": [
+        "https://www.amazon.de/dp/B0CW3MSZWP"
+      ]
+    },
+    {
+      "slug": "somfy-oximo-50-rts-6-17",
+      "name": "Somfy Oximo 50 RTS 6/17",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1032528",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 6,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 14,
+        "panzergewicht_kg_2_5m": 11,
+        "steuerung": "RTS"
+      },
+      "beschreibung": "Funkmotor RTS mit 6 Nm, bis 14 kg bei 1,5 m Höhe. 1032528 ist die Ausführung für SW 60 mit 3 m schwarzem Kabel. Passt nur zu RTS-Sendern. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B06WGS7X16",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B06WGS7X16"
+      ]
+    },
+    {
+      "slug": "somfy-oximo-rts-20-17-1041380",
+      "name": "Somfy Oximo RTS 20/17 (1041380)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1041380",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 20,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 48,
+        "panzergewicht_kg_2_5m": 38,
+        "steuerung": "RTS"
+      },
+      "beschreibung": "Funkmotor RTS mit 20 Nm, bis 48 kg bei 1,5 m Höhe. 1041380 ist eine ältere Nummer; im aktuellen Somfy-Katalog heißt die Ausführung für SW 60 mit 3 m schwarzem Kabel 1041437. Passt nur zu RTS-Sendern. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B00DQ8QARA",
+      "quellen": [
+        "https://www.amazon.de/dp/B00DQ8QARA",
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-ersatz-set-rts-1240385",
+      "name": "Somfy Austauschset Rollladenmotor RTS 10 Nm (1240385)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1240385",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 10,
+        "steuerung": "RTS"
+      },
+      "beschreibung": "Set zum Austausch eines vorhandenen Rollladenmotors, auch eines anderen Herstellers, mit RTS-Funk und 10 Nm. Für Wellen ab 50 mm und Panzer bis 4,5 kg/m², nicht für Holzrollläden. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B07RNLS6MK",
+      "quellen": [
+        "https://www.amazon.de/dp/B07RNLS6MK"
+      ]
+    },
+    {
+      "slug": "somfy-ersatz-set-verdrahtet-1240386",
+      "name": "Somfy Austauschset Rollladenmotor verdrahtet 10 Nm (1240386)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1240386",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 10,
+        "steuerung": "Schalter"
+      },
+      "beschreibung": "Verdrahtete Variante des Austauschsets: Motor mit 10 Nm für Schalterbedienung, für Wellen ab 50 mm und Panzer bis 4,5 kg/m². Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B07RNLRHST",
+      "quellen": [
+        "https://www.amazon.de/dp/B07RNLRHST"
+      ]
+    },
+    {
+      "slug": "somfy-universalantrieb-elektronisch-1037848",
+      "name": "Somfy Elektronischer Universalantrieb 7,5 m² (1037848)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1037848",
+      "ean": "3660849562861",
+      "masse": {
+        "drehmoment_nm": 15,
+        "steuerung": "Schalter",
+        "flaeche_kunststoff_m2": 7.5,
+        "flaeche_alu_m2": 4
+      },
+      "beschreibung": "Verdrahteter elektronischer Motor mit 15 Nm für Kunststoffrollläden bis 7,5 m² und Alurollläden bis 4 m². Endlagen automatisch oder fest, eingestellt mit dem Einstellkabel. Geliefert mit Adapter, Mitnehmer, Lager, drei starren Wellenverbindern und 2,5 m Kabel. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": "ca. 145 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-modernisierungskit-elektronisch-10-17",
+      "name": "Somfy Modernisierungskit Elektronisch 10/17 (1037782)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1037782",
+      "ean": "3660849562809",
+      "masse": {
+        "drehmoment_nm": 10,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "steuerung": "Schalter"
+      },
+      "beschreibung": "Komplettpaket mit elektronischem Motor 10 Nm für 60er-Achtkantwelle, Kunststoffrollläden bis 4 m², Alurollläden bis 2,5 m². Dabei sind Lager, Teleskop-Walzenkapsel, Clip-Wellenverbinder und 3 m Kabel; einen Schalter muss man dazukaufen. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": "ca. 209 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-ilmo-50-wt-6-17-1130125",
+      "name": "Somfy Ilmo 50 WT 6/17 (1130125)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1130125",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 6,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 14,
+        "panzergewicht_kg_2_5m": 11,
+        "steuerung": "Schalter"
+      },
+      "beschreibung": "Plug-&-Play-Motor für Schalterbedienung mit 6 Nm, bis 14 kg bei 1,5 m Höhe. Braucht feste Wellenverbinder und Stopper. Die 6-Nm-Stufe führt Somfy heute als Ilmo 3 50 WT (SW 60, 3 m schwarz: 1246240). Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B00DJ5AUCQ",
+      "quellen": [
+        "https://www.amazon.de/dp/B00DJ5AUCQ",
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-ilmo-50-wt-10-17",
+      "name": "Somfy Ilmo 50 WT 10/17",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": null,
+      "ean": "4060247093841",
+      "masse": {
+        "drehmoment_nm": 10,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 24,
+        "panzergewicht_kg_2_5m": 19,
+        "steuerung": "Schalter"
+      },
+      "beschreibung": "Plug-&-Play-Motor für Schalterbedienung mit 10 Nm, bis 24 kg bei 1,5 m Höhe. Braucht feste Wellenverbinder und Stopper. Bei OTTO als Ilmo 2 50 WT 10/17 im Set mit Fertigkastenlager. Somfy führt die 10-Nm-Stufe heute als Ilmo 3 50 WT (SW 60, 3 m schwarz: 1246241). Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": "ca. 122 € (OTTO, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B00TYM46W8",
+      "quellen": [
+        "https://www.amazon.de/dp/B00TYM46W8",
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-ilmo-2-50-wt-20-17",
+      "name": "Somfy Ilmo 2 50 WT 20/17",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1132167",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 20,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 48,
+        "panzergewicht_kg_2_5m": 38,
+        "steuerung": "Schalter"
+      },
+      "beschreibung": "Plug-&-Play-Motor für Schalterbedienung mit 20 Nm, bis 48 kg bei 1,5 m Höhe, mit Entlastungsfunktion. 1132167 ist die Ausführung für SW 60 mit 3 m schwarzem Kabel. Braucht feste Wellenverbinder und Stopper. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B06WRTHHB3",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B06WRTHHB3"
+      ]
+    },
+    {
+      "slug": "somfy-lt-50-start-6-17",
+      "name": "Somfy LT 50 Start 6/17",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1032345",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 6,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 15,
+        "panzergewicht_kg_2_5m": 12,
+        "steuerung": "Schalter"
+      },
+      "beschreibung": "Mechanischer Motor mit 6 Nm, bis 15 kg bei 1,5 m Höhe. 1032345 ist die Ausführung für SW 60 mit 3 m schwarzem Kabel, mit 2,5 m weißem Kabel 1032346. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B00KM4LZNU",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B00KM4LZNU"
+      ]
+    },
+    {
+      "slug": "somfy-lt-50-ceres-10-17",
+      "name": "Somfy LT 50 Ceres 10/17",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1037308",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 10,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 25,
+        "panzergewicht_kg_2_5m": 21,
+        "steuerung": "Schalter"
+      },
+      "beschreibung": "Mechanischer Motor mit 10 Nm, bis 25 kg bei 1,5 m Höhe. 1037308 ist die Ausführung für SW 60 mit 3 m schwarzem Kabel. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B00KM4NZ9W",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B00KM4NZ9W"
+      ]
+    },
+    {
+      "slug": "somfy-lt-50-atlas-15-17",
+      "name": "Somfy LT 50 Atlas 15/17",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1039314",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 15,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 37,
+        "panzergewicht_kg_2_5m": 32,
+        "steuerung": "Schalter"
+      },
+      "beschreibung": "Mechanischer Motor mit 15 Nm, bis 37 kg bei 1,5 m Höhe. 1039314 ist die Ausführung für SW 60 mit 2,5 m weißem Kabel, mit 3 m schwarzem Kabel 1039308. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B00KM4OOAG",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B00KM4OOAG"
+      ]
+    },
+    {
+      "slug": "somfy-lt-50-meteor-20-17",
+      "name": "Somfy LT 50 Meteor 20/17",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1041274",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 20,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 50,
+        "panzergewicht_kg_2_5m": 43,
+        "steuerung": "Schalter"
+      },
+      "beschreibung": "Mechanischer Motor mit 20 Nm, bis 50 kg bei 1,5 m Höhe. 1041274 ist die Ausführung für SW 60 mit 2,5 m weißem Kabel, mit 3 m schwarzem Kabel 1041268. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B00KM4POGE",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B00KM4POGE"
+      ]
+    },
+    {
+      "slug": "somfy-modernisierungskit-standard-15-17",
+      "name": "Somfy Modernisierungskit Standard 15/17 (1039409)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1039409",
+      "ean": "3660849562472",
+      "masse": {
+        "drehmoment_nm": 15,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "steuerung": "Schalter"
+      },
+      "beschreibung": "Komplettpaket mit mechanischem Motor 15 Nm für 60er-Achtkantwelle, Kunststoffrollläden bis 7,5 m², Alurollläden bis 5,5 m². Dabei sind Lager, Teleskop-Walzenkapsel, Befestigungsfedern, 3 m Kabel und der Wandschalter Smoove Uno mit Rahmen. Händler führen es als LT 50 Atlas. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": "ca. 199 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B088K9SH96",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B088K9SH96"
+      ]
+    },
+    {
+      "slug": "somfy-rollladenmotor-4-qm-1035192",
+      "name": "Somfy Rollladenmotor 4 m² 8 Nm (1035192)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1035192",
+      "ean": "3660849562755",
+      "masse": {
+        "drehmoment_nm": 8,
+        "steuerung": "Schalter"
+      },
+      "beschreibung": "Verdrahteter Motor mit mechanischen Endlagen und 8 Nm für Kunststoffrollläden bis 4 m² und Alurollläden bis 2,5 m². Geliefert mit Adapter, Mitnehmer, Lager und 3 m Kabel. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": "ca. 133 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B07XJ9GYMH",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B07XJ9GYMH"
+      ]
+    },
+    {
+      "slug": "somfy-rollladenmotor-7-5-qm-1039499",
+      "name": "Somfy Rollladenmotor 7,5 m² 15 Nm (1039499)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1039499",
+      "ean": "3660849562748",
+      "masse": {
+        "drehmoment_nm": 15,
+        "steuerung": "Schalter"
+      },
+      "beschreibung": "Verdrahteter Motor mit mechanischen Endlagen und 15 Nm für Kunststoffrollläden bis 7,5 m² und Alurollläden bis 4 m². Geliefert mit Adapter, Mitnehmer, Lager und 3 m Kabel. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": "ca. 154 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B088DRCLQS",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B088DRCLQS"
+      ]
+    },
+    {
+      "slug": "somfy-modernisierungskit-standard-9-16",
+      "name": "Somfy Modernisierungskit Standard 9/16 (1023027)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1023027",
+      "ean": "3660849562489",
+      "masse": {
+        "drehmoment_nm": 9,
+        "welle": "SW 40",
+        "steuerung": "Schalter"
+      },
+      "beschreibung": "Komplettpaket mit mechanischem Motor 9 Nm für 40er-Achtkantwelle, Kunststoffrollläden bis 5 m², Alurollläden bis 3,5 m², mit Lager, Walzenkapsel, Federn und Wandschalter Smoove Uno. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": "ca. 172 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-oximo-40-io-9-16",
+      "name": "Somfy Oximo 40 io 9/16",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1038079",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 9,
+        "drehzahl_upm": 16,
+        "welle": "SW 40",
+        "panzergewicht_kg_1_5m": 24,
+        "panzergewicht_kg_2_5m": 20,
+        "steuerung": "io"
+      },
+      "beschreibung": "Funkmotor io für 40er-Welle mit 9 Nm, bis 24 kg bei 1,5 m Höhe. 1038079 ist die Ausführung für SW 40 × 0,6 mit 3 m schwarzem Kabel, für SW 40 × 0,8 heißt sie 1038080. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B093SR2JZM",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B093SR2JZM"
+      ]
+    },
+    {
+      "slug": "somfy-oximo-40-wirefree-io-3-23",
+      "name": "Somfy Oximo 40 WireFree io 3/23 (Solarkit)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1241946",
+      "ean": "3660849595463",
+      "masse": {
+        "drehmoment_nm": 3,
+        "drehzahl_upm": 23,
+        "welle": "SW 40",
+        "panzergewicht_kg_1_5m": 8,
+        "panzergewicht_kg_2_5m": 7,
+        "steuerung": "io"
+      },
+      "beschreibung": "Solarkit für SW-40-Wellen mit Außenfalz: Motor mit 3 Nm und io-Empfänger, 12-V-Akku, Solarpanel 3,2 W. Zulässig sind 8 kg Panzergewicht bei 1,5 m Höhe. Kein Netzanschluss; für den Einbau wird der Rollladenkasten geöffnet und der Motor in die Welle geschoben.",
+      "preis_spanne": "ca. 530 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-oximo-40-wirefree-io-6-18",
+      "name": "Somfy Oximo 40 WireFree io 6/18 (Solarkit)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1241947",
+      "ean": "3660849595470",
+      "masse": {
+        "drehmoment_nm": 6,
+        "drehzahl_upm": 18,
+        "welle": "SW 40",
+        "panzergewicht_kg_1_5m": 17,
+        "panzergewicht_kg_2_5m": 14,
+        "steuerung": "io"
+      },
+      "beschreibung": "Solarkit für SW-40-Wellen mit Außenfalz: Motor mit 6 Nm und io-Empfänger, 12-V-Akku, Solarpanel 3,2 W. Zulässig sind 17 kg Panzergewicht bei 1,5 m Höhe. Kein Netzanschluss; für den Einbau wird der Rollladenkasten geöffnet und der Motor in die Welle geschoben.",
+      "preis_spanne": "ca. 604 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-oximo-40-wirefree-io-10-12",
+      "name": "Somfy Oximo 40 WireFree io 10/12 (Solarkit)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1241948",
+      "ean": "3660849595487",
+      "masse": {
+        "drehmoment_nm": 10,
+        "drehzahl_upm": 12,
+        "welle": "SW 40",
+        "panzergewicht_kg_1_5m": 28,
+        "panzergewicht_kg_2_5m": 23,
+        "steuerung": "io"
+      },
+      "beschreibung": "Solarkit für SW-40-Wellen mit Außenfalz: Motor mit 10 Nm und io-Empfänger, 12-V-Akku, Solarpanel 3,2 W. Zulässig sind 28 kg Panzergewicht bei 1,5 m Höhe. Kein Netzanschluss; für den Einbau wird der Rollladenkasten geöffnet und der Motor in die Welle geschoben.",
+      "preis_spanne": "ca. 605 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-rs100-io-6-17",
+      "name": "Somfy RS100 io 6/17",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1033272",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 6,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 14,
+        "panzergewicht_kg_2_5m": 11,
+        "steuerung": "io"
+      },
+      "beschreibung": "Leiser Funkmotor io mit 6 Nm, bis 14 kg bei 1,5 m Höhe. 1033272 ist die Ausführung für SW 60 mit 3 m schwarzem Kabel. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B093C8KWJC",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B093C8KWJC"
+      ]
+    },
+    {
+      "slug": "somfy-rs100-io-10-17",
+      "name": "Somfy RS100 io 10/17",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1038032",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 10,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 24,
+        "panzergewicht_kg_2_5m": 19,
+        "steuerung": "io"
+      },
+      "beschreibung": "Leiser Funkmotor io mit 10 Nm, bis 24 kg bei 1,5 m Höhe, Ausführung für SW 60 mit 3 m schwarzem Kabel. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B07KTPPKLL",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B07KTPPKLL"
+      ]
+    },
+    {
+      "slug": "somfy-rs100-io-20-17",
+      "name": "Somfy RS100 io 20/17",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1041944",
+      "ean": null,
+      "masse": {
+        "drehmoment_nm": 20,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 48,
+        "panzergewicht_kg_2_5m": 38,
+        "steuerung": "io"
+      },
+      "beschreibung": "Leiser Funkmotor io mit 20 Nm, bis 48 kg bei 1,5 m Höhe. 1041944 ist die Ausführung für SW 60 mit 3 m schwarzem Kabel. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B01HF24HFE",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B01HF24HFE"
+      ]
+    },
+    {
+      "slug": "somfy-modernisierungskit-funk-io-15-17",
+      "name": "Somfy Modernisierungskit Funk io 15/17 (1039943)",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1039943",
+      "ean": "3660849562939",
+      "masse": {
+        "drehmoment_nm": 15,
+        "drehzahl_upm": 17,
+        "welle": "SW 60",
+        "steuerung": "io"
+      },
+      "beschreibung": "Komplettpaket mit RS100 io 15 Nm und Funkwandsender für 60er-Achtkantwelle, Kunststoffrollläden bis 7,5 m², Alurollläden bis 5,5 m². Dabei sind Lager, Teleskop-Walzenkapsel, Clip-Verbinder und 3 m Kabel. Einbau und Anschluss nur durch eine Elektrofachkraft; Somfy verlangt in der Anleitung eine Fachkraft nach DIN VDE 1000-10.",
+      "preis_spanne": "ca. 322 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-rs100-solar-io-3-15",
+      "name": "Somfy RS100 Solar io 3/15 Kit",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1245893",
+      "ean": "3660849680053",
+      "masse": {
+        "drehmoment_nm": 3,
+        "drehzahl_upm": 15,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 7,
+        "panzergewicht_kg_2_5m": 5,
+        "steuerung": "io"
+      },
+      "beschreibung": "Solarkit für SW-60-Wellen: RS100-Motor mit 3 Nm und io-Empfänger, 9,6-V-Akku und Solarpanel 2,5 W. Zulässig sind 7 kg Panzergewicht bei 1,5 m Höhe. Kein Netzanschluss; für den Einbau wird der Rollladenkasten geöffnet und der Motor in die Welle geschoben.",
+      "preis_spanne": "ca. 485 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B0FT86X4XL",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B0FT86X4XL"
+      ]
+    },
+    {
+      "slug": "somfy-rs100-solar-io-6-15",
+      "name": "Somfy RS100 Solar io 6/15 Kit",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1245894",
+      "ean": "3660849680060",
+      "masse": {
+        "drehmoment_nm": 6,
+        "drehzahl_upm": 15,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 14,
+        "panzergewicht_kg_2_5m": 11,
+        "steuerung": "io"
+      },
+      "beschreibung": "Solarkit für SW-60-Wellen: RS100-Motor mit 6 Nm und io-Empfänger, 9,6-V-Akku und Solarpanel 2,5 W. Zulässig sind 14 kg Panzergewicht bei 1,5 m Höhe. Kein Netzanschluss; für den Einbau wird der Rollladenkasten geöffnet und der Motor in die Welle geschoben.",
+      "preis_spanne": "ca. 498 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B0FTFFY2SJ",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B0FTFFY2SJ"
+      ]
+    },
+    {
+      "slug": "somfy-rs100-solar-io-10-12",
+      "name": "Somfy RS100 Solar io 10/12 Kit",
+      "teiltyp": "rollladenmotor",
+      "oem_nummer": "1245895",
+      "ean": "3660849680077",
+      "masse": {
+        "drehmoment_nm": 10,
+        "drehzahl_upm": 12,
+        "welle": "SW 60",
+        "panzergewicht_kg_1_5m": 24,
+        "panzergewicht_kg_2_5m": 19,
+        "steuerung": "io"
+      },
+      "beschreibung": "Solarkit für SW-60-Wellen: RS100-Motor mit 10 Nm und io-Empfänger, 9,6-V-Akku und Solarpanel 2,5 W. Zulässig sind 24 kg Panzergewicht bei 1,5 m Höhe. Kein Netzanschluss; für den Einbau wird der Rollladenkasten geöffnet und der Motor in die Welle geschoben.",
+      "preis_spanne": "ca. 526 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B0FTF3X7T1",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B0FTF3X7T1"
+      ]
+    },
+    {
+      "slug": "somfy-situo-1-io-pure-ii",
+      "name": "Somfy Situo 1 io Pure II (1870312)",
+      "teiltyp": "rollladen-handsender",
+      "oem_nummer": "1870312",
+      "ean": "3660849573652",
+      "masse": {},
+      "beschreibung": "Einkanal-Handsender io für einen Motor oder eine Gruppe, mit Wandhalter und Batterie CR2032. Im deutschen Somfy-Katalog steht er als 1870311. Einlernen über die PROG-Taste hinten.",
+      "preis_spanne": "ca. 44 € (OTTO, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-situo-5-io-pure-ii",
+      "name": "Somfy Situo 5 io Pure II (1870327)",
+      "teiltyp": "rollladen-handsender",
+      "oem_nummer": "1870327",
+      "ean": "3660849573805",
+      "masse": {},
+      "beschreibung": "Fünfkanal-Handsender io, bedient bis zu fünf Motoren oder Gruppen. Batterie CR2032, Reichweite laut Somfy bis 15 m.",
+      "preis_spanne": "ca. 94 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-situo-5-io-rts-pure-1870479",
+      "name": "Somfy Situo 5 io/RTS Pure (1870479)",
+      "teiltyp": "rollladen-handsender",
+      "oem_nummer": "1870479",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Fünfkanal-Handsender, der io- und RTS-Motoren gemeinsam bedient. Nachfolger ist der Situo 5 Bi-radio io/RTS Pure (1811728); mit ihm lassen sich laut Somfy keine Endlagen einstellen, dafür braucht man einen Einzelsender.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": null,
+      "amazon_asin": "B086C82G4B",
+      "quellen": [
+        "https://www.somfy.de/produkte/1870479/situo-5-io-rts-pure",
+        "https://www.amazon.de/dp/B086C82G4B",
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-situo-1-rts-pure-1870496",
+      "name": "Somfy Situo 1 RTS Pure (1870496)",
+      "teiltyp": "rollladen-handsender",
+      "oem_nummer": "1870496",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Einkanal-Handsender RTS für einen Motor oder eine Gruppe. Im Somfy-Fachkatalog heißt das Modell Situo 1 RTS Pure II und hat die Nummer 1870402. Passt nicht zu io-Motoren.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": null,
+      "amazon_asin": "B086C7N27W",
+      "quellen": [
+        "https://www.amazon.de/dp/B086C7N27W",
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-situo-5-rts-pure-1870495",
+      "name": "Somfy Situo 5 RTS Pure (1870495)",
+      "teiltyp": "rollladen-handsender",
+      "oem_nummer": "1870495",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Fünfkanal-Handsender RTS. Im Somfy-Fachkatalog heißt das Modell Situo 5 RTS Pure II und hat die Nummer 1870418. Passt nicht zu io-Motoren.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": null,
+      "amazon_asin": "B086C91R7R",
+      "quellen": [
+        "https://www.amazon.de/dp/B086C91R7R",
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-situo-rts-pure-1810636",
+      "name": "Somfy Situo RTS Pure (1810636)",
+      "teiltyp": "rollladen-handsender",
+      "oem_nummer": "1810636",
+      "ean": "3660849506711",
+      "masse": {},
+      "beschreibung": "Einkanal-Handsender RTS im Hochformat mit großen Tasten, Batterie CR2430. Einzel-, Gruppen- oder Zentralbedienung.",
+      "preis_spanne": "ca. 45 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": null,
+      "amazon_asin": "B00KLB2PYM",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B00KLB2PYM"
+      ]
+    },
+    {
+      "slug": "somfy-telis-16-rts-pure",
+      "name": "Somfy Telis 16 RTS Pure (1811020)",
+      "teiltyp": "rollladen-handsender",
+      "oem_nummer": "1811020",
+      "ean": "3660849502263",
+      "masse": {},
+      "beschreibung": "Handsender RTS mit 16 Kanälen und Display, zwei AAA-Batterien. Für Häuser mit vielen RTS-Rollläden.",
+      "preis_spanne": "ca. 137 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": null,
+      "amazon_asin": "B077MN8168",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B077MN8168"
+      ]
+    },
+    {
+      "slug": "somfy-telis-6-chronis-rts-pure",
+      "name": "Somfy Telis 6 Chronis RTS Pure (1805222)",
+      "teiltyp": "rollladen-handsender",
+      "oem_nummer": "1805222",
+      "ean": "3660849545161",
+      "masse": {},
+      "beschreibung": "Handsender RTS mit sechs Kanälen und Zeitschaltuhr, bis zu sechs Zeitbefehle am Tag. Zwei AAA-Batterien.",
+      "preis_spanne": "ca. 176 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 10,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-smoove-uno-am-io-pure",
+      "name": "Somfy Smoove Uno A/M io Pure (1811404)",
+      "teiltyp": "rollladen-handsender",
+      "oem_nummer": "1811404",
+      "ean": "3660849534318",
+      "masse": {},
+      "beschreibung": "Funk-Motorsteuergerät für die Unterputzdose: ersetzt den Rollladenschalter eines verdrahteten 230-V-Motors und macht ihn per io-Sender und TaHoma bedienbar. Ohne Rahmen; mit Rahmen heißt es 1811405. Anschluss an 230 V nur durch eine Elektrofachkraft.",
+      "preis_spanne": "ca. 108 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-unterputz-empfaenger-rollladen-io",
+      "name": "Somfy Unterputz-Empfänger Rollladen io (1822660)",
+      "teiltyp": "rollladen-handsender",
+      "oem_nummer": "1822660",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Funkempfänger für die Unterputzdose hinter dem vorhandenen Rollladenschalter. Passt laut Somfy zu allen mechanischen und elektronischen Somfy-Rollladenmotoren bis 80 Nm, bis zu 10 Sender. Anschluss an 230 V nur durch eine Elektrofachkraft.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": "B0829FK4NK",
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.amazon.de/dp/B0829FK4NK"
+      ]
+    },
+    {
+      "slug": "somfy-adapter-mitnehmer-sw60",
+      "name": "Somfy Adapter und Mitnehmer für SW 60 (9707025, 9751001)",
+      "teiltyp": "rollladen-welle",
+      "oem_nummer": "9707025",
+      "ean": null,
+      "masse": {
+        "welle": "SW 60"
+      },
+      "beschreibung": "Adapter 9707025 und Mitnehmer 9751001 für Achtkantwellen SW 60 von IMBAC und Selve, auch für die Kunststoffrollladen-Systeme von Elket, Kömmerling, Salamander, Roplasto und Golde. Für Motoren der 50er-Baureihe. Wird beim Motortausch mit gewechselt; der Motor muss dafür aus der Welle.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-adapter-mitnehmer-sw50",
+      "name": "Somfy Adapter und Mitnehmer für SW 50 (9705345, 9705344)",
+      "teiltyp": "rollladen-welle",
+      "oem_nummer": "9705345",
+      "ean": null,
+      "masse": {
+        "welle": "SW 50"
+      },
+      "beschreibung": "Adapter 9705345 und Mitnehmer 9705344 für Achtkantwellen SW 50 und Motoren der 50er-Baureihe. Wird beim Motortausch mit gewechselt; der Motor muss dafür aus der Welle.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-adapter-mitnehmer-sw70",
+      "name": "Somfy Adapter und Mitnehmer für SW 70 E-SM (9705340, 9761002)",
+      "teiltyp": "rollladen-welle",
+      "oem_nummer": "9705340",
+      "ean": null,
+      "masse": {
+        "welle": "SW 70"
+      },
+      "beschreibung": "Adapter 9705340 und Mitnehmer 9761002 für Achtkantwellen SW 70 E-SM von Selve und IMBAC. Ein Motor der 50er-Baureihe braucht zusätzlich den Adapter 63 × 1,5 (9707026). Wird beim Motortausch mit gewechselt; der Motor muss dafür aus der Welle.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-adapter-mitnehmer-sw40-0-6",
+      "name": "Somfy Adapter und Mitnehmer für SW 40 × 0,6 (9708976, 9500344)",
+      "teiltyp": "rollladen-welle",
+      "oem_nummer": "9708976",
+      "ean": null,
+      "masse": {
+        "welle": "SW 40 × 0,6"
+      },
+      "beschreibung": "Adapter 9708976 und Mitnehmer 9500344 für Achtkantwellen 40 × 0,6 mit Außenfalz (Selve, IMBAC, Hoco), belastbar bis 13 Nm. Für Motoren der 40er-Baureihe. Wird beim Motortausch mit gewechselt; der Motor muss dafür aus der Welle.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-adapter-mitnehmer-sw40-0-8",
+      "name": "Somfy Adapter und Mitnehmer für SW 40 × 0,8 (9708976, 9147545)",
+      "teiltyp": "rollladen-welle",
+      "oem_nummer": "9147545",
+      "ean": null,
+      "masse": {
+        "welle": "SW 40 × 0,8"
+      },
+      "beschreibung": "Adapter 9708976 und Mitnehmer 9147545 für Achtkantwellen 40 × 0,8 mit Außenfalz (Rau, IMBAC), bis 13 Nm. Für Motoren der 40er-Baureihe. Wird beim Motortausch mit gewechselt; der Motor muss dafür aus der Welle.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-umruestlager-10er-vierkant",
+      "name": "Somfy Umrüstlager mit 10er-Vierkant (9910014)",
+      "teiltyp": "rollladen-welle",
+      "oem_nummer": "9910014",
+      "ean": "3660849540449",
+      "masse": {},
+      "beschreibung": "Antriebslager mit 10-mm-Vierkant, mit dem sich ein vorhandenes LS-Lager weiter nutzen lässt. Belastbar bis 25 Nm, Verschraubung am Motor auf Teilkreis 48 mm. Wird beim Motortausch mit gewechselt; der Motor muss dafür aus der Welle.",
+      "preis_spanne": "ca. 7 € (Contorion, November 2026)",
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-set-walzenkapsel-kurzantriebe",
+      "name": "Somfy Set Walzenkapsel SW 60 mit Kurzmitnehmer (9014685)",
+      "teiltyp": "rollladen-welle",
+      "oem_nummer": "9014685",
+      "ean": null,
+      "masse": {
+        "welle": "SW 60"
+      },
+      "beschreibung": "Walzenkapsel mit 20-mm-Kurzmitnehmer für sehr schmale Rollläden, bei denen zwischen Motorkopf und Ende der Walzenkapsel nur 398 bis 428 mm Platz sind. Bis 6 Nm, nur für die Kurzantriebe Ilmo 2 50 S WT, Oximo 50 S Auto io und Oximo 50 S Auto RTS.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-adaptionskit-ls40-lt50",
+      "name": "Somfy Adaptionskit LS 40 auf LT 50 (9013763)",
+      "teiltyp": "rollladen-welle",
+      "oem_nummer": "9013763",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Damit lassen sich Adapter und Mitnehmer der 50er- und 60er-Baureihe an einem 40er-Motor nutzen, bis 13 Nm. Somfy schreibt es vor, wenn ein Oximo 40 WireFree io in eine Welle SW 50 oder SW 60 soll.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-schnellverbinder-1-gliedrig",
+      "name": "Somfy Schnellverbinder 1-gliedrig für SW 40/50/60 (1780757)",
+      "teiltyp": "rollladen-aufhaengung",
+      "oem_nummer": "1780757",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Fester Wellenverbinder für Lamellen 8 bis 11 mm, wird mit zwei Montageringen an der Welle befestigt. Hält den Panzer unten fest (Hochschiebehemmung) und ist Voraussetzung für Hinderniserkennung und automatische untere Endlage. Wie viele es braucht, hängt von Breite und Gewicht ab: bei 450 bis 1.200 mm Breite zwei bis fünf. Für den Wechsel wird der Rollladenkasten geöffnet und der Panzer von der Welle gelöst; am Stromkreis wird nicht gearbeitet.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 60,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-schnellverbinder-2-gliedrig-sw50-60",
+      "name": "Somfy Schnellverbinder 2-gliedrig für SW 50/60 (1780759)",
+      "teiltyp": "rollladen-aufhaengung",
+      "oem_nummer": "1780759",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Zweigliedriger fester Wellenverbinder für SW 50 und SW 60, wenn der Abstand zwischen Welle und erster Lamelle größer ist. Montageringe für SW 60: 1780762, für SW 50: 1780761. Für den Wechsel wird der Rollladenkasten geöffnet und der Panzer von der Welle gelöst; am Stromkreis wird nicht gearbeitet.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 60,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-clip-verbinder-2-gliedrig",
+      "name": "Somfy Clip-Verbinder 2-gliedrig (9013196)",
+      "teiltyp": "rollladen-aufhaengung",
+      "oem_nummer": "9013196",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Fester Wellenverbinder für Achtkantwellen SW 50 und SW 60 und Lamellen 8 bis 14 mm, mit Drahtfeder befestigt. Mindestanzahl laut Somfy: zwei bis 1.400 mm Breite, drei bis 2.350 mm, vier bis 3.300 mm. Für den Wechsel wird der Rollladenkasten geöffnet und der Panzer von der Welle gelöst; am Stromkreis wird nicht gearbeitet.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 60,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-hochschiebesicherung-3-gliedrig",
+      "name": "Somfy Hochschiebesicherung Befestigungsriegel 3-gliedrig (9700210)",
+      "teiltyp": "rollladen-aufhaengung",
+      "oem_nummer": "9700210",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Riegel für Standardprofile, wenn der Abstand von Wellenmitte bis zur ersten Lamelle 12 bis 17 cm beträgt. Je Riegel braucht es zwei Befestigungsringe (SW 60: 9700215, SW 70: 9700216), Abstand der Riegel 75 cm. Für den Wechsel wird der Rollladenkasten geöffnet und der Panzer von der Welle gelöst; am Stromkreis wird nicht gearbeitet.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": 60,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-universal-montage-einstellkabel",
+      "name": "Somfy Universal-Montage- und Einstellkabel (9015971)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "9015971",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Kabel mit Tastern zum Einstellen von Endlagen und Drehrichtung an allen Somfy-230-V-Motoren mit STAK3-Kupplung, mit Adapterkabel für Einzelklemmen. Nur für trockene Räume. Ein Werkzeug für die Elektrofachkraft.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-rs100-io-hipro-adapterkabel",
+      "name": "Somfy RS100 io – HiPro Adapterkabel (9029954)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "9029954",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Verbindet einen neuen RS100 io mit der vorhandenen HiPro-Steckverbindung eines älteren Motors (Oximo 50 io, Oximo 50 RTS, Oximo 50 WT, Ilmo 50 WT, LT 50). Elektrische Arbeiten im Rollladenkasten entfallen, der Motortausch bleibt Sache der Elektrofachkraft.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": false,
+      "schwierigkeit": 3,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-ladegeraet-solarkits",
+      "name": "Somfy Ladegerät für Solarkits Rollladen (9028028)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "9028028",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Lädt die Akkus der Solarkits RS100 Solar io und Oximo 40 WireFree io/RTS nach, etwa nach langer Lagerung oder einem Winter ohne Sonne.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 1,
+      "dauer_min": 15,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-oximo-sunea-akku-12-v",
+      "name": "Somfy Oximo/Sunea Akku mit Gehäuse 12 V (9021207)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "9021207",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Ersatzakku im Aluminiumgehäuse, 27 × 27 × 570 mm, für Oximo 40 WireFree io mit 3, 6 und 10 Nm. Somfy gibt auf Akkus drei Jahre Garantie.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+        "https://www.somfy.de/garantieversprechen"
+      ]
+    },
+    {
+      "slug": "somfy-rs100-solar-io-batterie-9-6-v",
+      "name": "Somfy RS100 Solar io LL Batterie 9,6 V (9029612)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "9029612",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Ersatzakku mit Gehäuse, Ø 26,6 × 487 mm, für RS100 Solar io mit 3, 6 und 10 Nm. Somfy nennt 15 Jahre Nutzungsdauer. Für 15 und 20 Nm gibt es die 16,8-V-Ausführung 9029615.",
+      "preis_spanne": null,
+      "verschleissteil": true,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-oximo-wirefree-solarpanel-3-2-w",
+      "name": "Somfy Oximo WireFree Solarpanel 3,2 W (9019219)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "9019219",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Solarpanel 60 × 470 mm für Oximo 40 WireFree io, mit Schraublöchern zur Befestigung am Rollladenkasten. Befestigungsset 9019791, Verlängerungskabel 1 m 1782844.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-rs100-solar-io-panel-2-5-w",
+      "name": "Somfy RS100 Solar io Panel 2,5 W (9028061)",
+      "teiltyp": "sonstiges",
+      "oem_nummer": "9028061",
+      "ean": null,
+      "masse": {},
+      "beschreibung": "Solarpanel 370 × 60 × 6 mm für RS100 Solar io mit 3, 6 und 10 Nm. Für 15 und 20 Nm gehört das Panel 5,5 W (9028063) dazu.",
+      "preis_spanne": null,
+      "verschleissteil": false,
+      "selbst_tauschbar": true,
+      "schwierigkeit": 2,
+      "dauer_min": null,
+      "werkzeug": null,
+      "amazon_asin": null,
+      "quellen": [
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    }
+  ],
+  "zuordnungen": [
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-oximo-50-io-6-17",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-oximo-50-io-10-17",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-oximo-50-io-15-17",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-oximo-50-io-20-17",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-oximo-50-rts-6-17",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-oximo-rts-20-17-1041380",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ilmo-50-wt",
+      "teil_slug": "somfy-ilmo-2-50-wt-20-17",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lt-50",
+      "teil_slug": "somfy-lt-50-start-6-17",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lt-50",
+      "teil_slug": "somfy-lt-50-ceres-10-17",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lt-50",
+      "teil_slug": "somfy-lt-50-atlas-15-17",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lt-50",
+      "teil_slug": "somfy-lt-50-meteor-20-17",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-io",
+      "teil_slug": "somfy-oximo-40-io-9-16",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-wirefree-io",
+      "teil_slug": "somfy-oximo-40-wirefree-io-3-23",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-wirefree-io",
+      "teil_slug": "somfy-oximo-40-wirefree-io-6-18",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-wirefree-io",
+      "teil_slug": "somfy-oximo-40-wirefree-io-10-12",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-io",
+      "teil_slug": "somfy-rs100-io-6-17",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-io",
+      "teil_slug": "somfy-rs100-io-10-17",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-io",
+      "teil_slug": "somfy-rs100-io-20-17",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-solar-io",
+      "teil_slug": "somfy-rs100-solar-io-3-15",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-solar-io",
+      "teil_slug": "somfy-rs100-solar-io-6-15",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-solar-io",
+      "teil_slug": "somfy-rs100-solar-io-10-12",
+      "hinweis": "Antrieb der Baureihe laut Somfy-Katalog 10/2026 und Zugkrafttabelle",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ilmo-50-wt",
+      "teil_slug": "somfy-ilmo-50-wt-6-17-1130125",
+      "hinweis": "Ilmo 50 WT 6/17 laut Angebot; heute Ilmo 3 50 WT 6/17",
+      "quelle_url": "https://www.amazon.de/dp/B00DJ5AUCQ",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "ilmo-50-wt",
+      "teil_slug": "somfy-ilmo-50-wt-10-17",
+      "hinweis": "Ilmo 50 WT 10/17; heute Ilmo 3 50 WT 10/17",
+      "quelle_url": "https://www.amazon.de/dp/B00TYM46W8",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "rs100-io",
+      "teil_slug": "somfy-modernisierungskit-funk-io-15-17",
+      "hinweis": "Kit mit RS100 io 15/17 und Funkwandsender",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lt-50",
+      "teil_slug": "somfy-modernisierungskit-standard-15-17",
+      "hinweis": "Händler führen das Kit als LT 50 Atlas 15/17",
+      "quelle_url": "https://www.amazon.de/dp/B088K9SH96",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-funk-komplettset-io-1246050",
+      "hinweis": "Im Set steckt laut Angebotstext ein Oximo io",
+      "quelle_url": "https://www.amazon.de/dp/B0CW3MSZWP",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-universalantrieb-funk-io-1039942",
+      "hinweis": "Merkmale im Elektro-Katalog wie Oximo 50 io; Baureihe dort nicht genannt",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "oximo-50-wt",
+      "teil_slug": "somfy-universalantrieb-elektronisch-1037848",
+      "hinweis": "Merkmale im Elektro-Katalog wie Oximo 50 WT (Einstellkabel); Baureihe dort nicht genannt",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/24Tk4MJqEzVDrbdlLzlkgF/e8aceabaf2f70db8827a6e6dda0b8f03/Katalog_Elektro_9028239_DE_AT_10-2026_.pdf",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-situo-1-io-pure-ii",
+      "hinweis": "io-Sender; Kompatibilitätstabelle io im Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-io",
+      "teil_slug": "somfy-situo-1-io-pure-ii",
+      "hinweis": "io-Sender; Kompatibilitätstabelle io im Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-wirefree-io",
+      "teil_slug": "somfy-situo-1-io-pure-ii",
+      "hinweis": "io-Sender; Kompatibilitätstabelle io im Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-io",
+      "teil_slug": "somfy-situo-1-io-pure-ii",
+      "hinweis": "io-Sender; Kompatibilitätstabelle io im Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-solar-io",
+      "teil_slug": "somfy-situo-1-io-pure-ii",
+      "hinweis": "io-Sender; Kompatibilitätstabelle io im Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-situo-5-io-pure-ii",
+      "hinweis": "io-Sender; Kompatibilitätstabelle io im Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-io",
+      "teil_slug": "somfy-situo-5-io-pure-ii",
+      "hinweis": "io-Sender; Kompatibilitätstabelle io im Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-wirefree-io",
+      "teil_slug": "somfy-situo-5-io-pure-ii",
+      "hinweis": "io-Sender; Kompatibilitätstabelle io im Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-io",
+      "teil_slug": "somfy-situo-5-io-pure-ii",
+      "hinweis": "io-Sender; Kompatibilitätstabelle io im Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-solar-io",
+      "teil_slug": "somfy-situo-5-io-pure-ii",
+      "hinweis": "io-Sender; Kompatibilitätstabelle io im Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-situo-5-io-rts-pure-1870479",
+      "hinweis": "Bedient io- und RTS-Motoren",
+      "quelle_url": "https://www.somfy.de/produkte/1870479/situo-5-io-rts-pure",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-io",
+      "teil_slug": "somfy-situo-5-io-rts-pure-1870479",
+      "hinweis": "Bedient io- und RTS-Motoren",
+      "quelle_url": "https://www.somfy.de/produkte/1870479/situo-5-io-rts-pure",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-wirefree-io",
+      "teil_slug": "somfy-situo-5-io-rts-pure-1870479",
+      "hinweis": "Bedient io- und RTS-Motoren",
+      "quelle_url": "https://www.somfy.de/produkte/1870479/situo-5-io-rts-pure",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-io",
+      "teil_slug": "somfy-situo-5-io-rts-pure-1870479",
+      "hinweis": "Bedient io- und RTS-Motoren",
+      "quelle_url": "https://www.somfy.de/produkte/1870479/situo-5-io-rts-pure",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-solar-io",
+      "teil_slug": "somfy-situo-5-io-rts-pure-1870479",
+      "hinweis": "Bedient io- und RTS-Motoren",
+      "quelle_url": "https://www.somfy.de/produkte/1870479/situo-5-io-rts-pure",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-situo-5-io-rts-pure-1870479",
+      "hinweis": "Bedient io- und RTS-Motoren",
+      "quelle_url": "https://www.somfy.de/produkte/1870479/situo-5-io-rts-pure",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-situo-1-rts-pure-1870496",
+      "hinweis": "RTS-Sender; Kompatibilitätstabelle RTS im Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-situo-5-rts-pure-1870495",
+      "hinweis": "RTS-Sender; Kompatibilitätstabelle RTS im Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-situo-rts-pure-1810636",
+      "hinweis": "RTS-Sender; Kompatibilitätstabelle RTS im Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-telis-16-rts-pure",
+      "hinweis": "RTS-Sender; Kompatibilitätstabelle RTS im Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-telis-6-chronis-rts-pure",
+      "hinweis": "RTS-Sender; Kompatibilitätstabelle RTS im Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-wt",
+      "teil_slug": "somfy-smoove-uno-am-io-pure",
+      "hinweis": "Funknachrüstung verdrahteter Antriebe laut Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-wt",
+      "teil_slug": "somfy-unterputz-empfaenger-rollladen-io",
+      "hinweis": "Für alle Somfy-Rollladenmotoren bis 80 Nm",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ilmo-50-wt",
+      "teil_slug": "somfy-smoove-uno-am-io-pure",
+      "hinweis": "Funknachrüstung verdrahteter Antriebe laut Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ilmo-50-wt",
+      "teil_slug": "somfy-unterputz-empfaenger-rollladen-io",
+      "hinweis": "Für alle Somfy-Rollladenmotoren bis 80 Nm",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lt-50",
+      "teil_slug": "somfy-smoove-uno-am-io-pure",
+      "hinweis": "Funknachrüstung verdrahteter Antriebe laut Somfy-Katalog",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lt-50",
+      "teil_slug": "somfy-unterputz-empfaenger-rollladen-io",
+      "hinweis": "Für alle Somfy-Rollladenmotoren bis 80 Nm",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-adapter-mitnehmer-sw60",
+      "hinweis": "Für Welle SW 60 (Adapter und Mitnehmer Baureihe 50)",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-adapter-mitnehmer-sw50",
+      "hinweis": "Für Welle SW 50 (Adapter und Mitnehmer Baureihe 50)",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-adapter-mitnehmer-sw70",
+      "hinweis": "Für Welle SW 70 E-SM, zusammen mit Adapter 63 × 1,5",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-umruestlager-10er-vierkant",
+      "hinweis": "Lager für Baureihe 50/60, bis 25 Nm",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-adapter-mitnehmer-sw60",
+      "hinweis": "Für Welle SW 60 (Adapter und Mitnehmer Baureihe 50)",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-adapter-mitnehmer-sw50",
+      "hinweis": "Für Welle SW 50 (Adapter und Mitnehmer Baureihe 50)",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-adapter-mitnehmer-sw70",
+      "hinweis": "Für Welle SW 70 E-SM, zusammen mit Adapter 63 × 1,5",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-umruestlager-10er-vierkant",
+      "hinweis": "Lager für Baureihe 50/60, bis 25 Nm",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-wt",
+      "teil_slug": "somfy-adapter-mitnehmer-sw60",
+      "hinweis": "Für Welle SW 60 (Adapter und Mitnehmer Baureihe 50)",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-wt",
+      "teil_slug": "somfy-adapter-mitnehmer-sw50",
+      "hinweis": "Für Welle SW 50 (Adapter und Mitnehmer Baureihe 50)",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-wt",
+      "teil_slug": "somfy-adapter-mitnehmer-sw70",
+      "hinweis": "Für Welle SW 70 E-SM, zusammen mit Adapter 63 × 1,5",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-wt",
+      "teil_slug": "somfy-umruestlager-10er-vierkant",
+      "hinweis": "Lager für Baureihe 50/60, bis 25 Nm",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ilmo-50-wt",
+      "teil_slug": "somfy-adapter-mitnehmer-sw60",
+      "hinweis": "Für Welle SW 60 (Adapter und Mitnehmer Baureihe 50)",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ilmo-50-wt",
+      "teil_slug": "somfy-adapter-mitnehmer-sw50",
+      "hinweis": "Für Welle SW 50 (Adapter und Mitnehmer Baureihe 50)",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ilmo-50-wt",
+      "teil_slug": "somfy-adapter-mitnehmer-sw70",
+      "hinweis": "Für Welle SW 70 E-SM, zusammen mit Adapter 63 × 1,5",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ilmo-50-wt",
+      "teil_slug": "somfy-umruestlager-10er-vierkant",
+      "hinweis": "Lager für Baureihe 50/60, bis 25 Nm",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lt-50",
+      "teil_slug": "somfy-adapter-mitnehmer-sw60",
+      "hinweis": "Für Welle SW 60 (Adapter und Mitnehmer Baureihe 50)",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lt-50",
+      "teil_slug": "somfy-adapter-mitnehmer-sw50",
+      "hinweis": "Für Welle SW 50 (Adapter und Mitnehmer Baureihe 50)",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lt-50",
+      "teil_slug": "somfy-adapter-mitnehmer-sw70",
+      "hinweis": "Für Welle SW 70 E-SM, zusammen mit Adapter 63 × 1,5",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "lt-50",
+      "teil_slug": "somfy-umruestlager-10er-vierkant",
+      "hinweis": "Lager für Baureihe 50/60, bis 25 Nm",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-io",
+      "teil_slug": "somfy-adapter-mitnehmer-sw40-0-6",
+      "hinweis": "Für Welle 40 × 0,6 mit Außenfalz",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-io",
+      "teil_slug": "somfy-adapter-mitnehmer-sw40-0-8",
+      "hinweis": "Für Welle 40 × 0,8 mit Außenfalz",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-wirefree-io",
+      "teil_slug": "somfy-adapter-mitnehmer-sw40-0-6",
+      "hinweis": "Für Welle 40 × 0,6 mit Außenfalz",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-wirefree-io",
+      "teil_slug": "somfy-adapter-mitnehmer-sw40-0-8",
+      "hinweis": "Für Welle 40 × 0,8 mit Außenfalz",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ilmo-50-wt",
+      "teil_slug": "somfy-set-walzenkapsel-kurzantriebe",
+      "hinweis": "Nur für die Kurzantriebe (Ilmo 2 50 S WT, Oximo 50 S Auto)",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-set-walzenkapsel-kurzantriebe",
+      "hinweis": "Nur für die Kurzantriebe (Ilmo 2 50 S WT, Oximo 50 S Auto)",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-set-walzenkapsel-kurzantriebe",
+      "hinweis": "Nur für die Kurzantriebe (Ilmo 2 50 S WT, Oximo 50 S Auto)",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-wirefree-io",
+      "teil_slug": "somfy-adaptionskit-ls40-lt50",
+      "hinweis": "Pflicht beim Einbau in Wellen SW 50 oder SW 60",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ilmo-50-wt",
+      "teil_slug": "somfy-schnellverbinder-1-gliedrig",
+      "hinweis": "Somfy schreibt feste Wellenverbinder für Ilmo WT vor",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ilmo-50-wt",
+      "teil_slug": "somfy-schnellverbinder-2-gliedrig-sw50-60",
+      "hinweis": "Somfy schreibt feste Wellenverbinder für Ilmo WT vor",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ilmo-50-wt",
+      "teil_slug": "somfy-clip-verbinder-2-gliedrig",
+      "hinweis": "Somfy schreibt feste Wellenverbinder für Ilmo WT vor",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ilmo-50-wt",
+      "teil_slug": "somfy-hochschiebesicherung-3-gliedrig",
+      "hinweis": "Somfy schreibt feste Wellenverbinder für Ilmo WT vor",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-schnellverbinder-1-gliedrig",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-schnellverbinder-2-gliedrig-sw50-60",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-clip-verbinder-2-gliedrig",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-io",
+      "teil_slug": "somfy-hochschiebesicherung-3-gliedrig",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-schnellverbinder-1-gliedrig",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-schnellverbinder-2-gliedrig-sw50-60",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-clip-verbinder-2-gliedrig",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-rts",
+      "teil_slug": "somfy-hochschiebesicherung-3-gliedrig",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-wt",
+      "teil_slug": "somfy-schnellverbinder-1-gliedrig",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-wt",
+      "teil_slug": "somfy-schnellverbinder-2-gliedrig-sw50-60",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-wt",
+      "teil_slug": "somfy-clip-verbinder-2-gliedrig",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-wt",
+      "teil_slug": "somfy-hochschiebesicherung-3-gliedrig",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-io",
+      "teil_slug": "somfy-schnellverbinder-1-gliedrig",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-io",
+      "teil_slug": "somfy-schnellverbinder-2-gliedrig-sw50-60",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-io",
+      "teil_slug": "somfy-clip-verbinder-2-gliedrig",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-io",
+      "teil_slug": "somfy-hochschiebesicherung-3-gliedrig",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-solar-io",
+      "teil_slug": "somfy-schnellverbinder-1-gliedrig",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-solar-io",
+      "teil_slug": "somfy-schnellverbinder-2-gliedrig-sw50-60",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-solar-io",
+      "teil_slug": "somfy-clip-verbinder-2-gliedrig",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-solar-io",
+      "teil_slug": "somfy-hochschiebesicherung-3-gliedrig",
+      "hinweis": "Für automatische untere Endlage und Hinderniserkennung",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-io",
+      "teil_slug": "somfy-schnellverbinder-1-gliedrig",
+      "hinweis": "Schnellverbinder 1-gliedrig passt auch auf SW 40",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-wirefree-io",
+      "teil_slug": "somfy-schnellverbinder-1-gliedrig",
+      "hinweis": "Schnellverbinder 1-gliedrig passt auch auf SW 40",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-50-wt",
+      "teil_slug": "somfy-universal-montage-einstellkabel",
+      "hinweis": "Endlagen und Drehrichtung werden mit dem Einstellkabel eingestellt",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "ilmo-50-wt",
+      "teil_slug": "somfy-universal-montage-einstellkabel",
+      "hinweis": "Reset und Drehrichtungstest am Montagekabel",
+      "quelle_url": "https://www.koebberling-online.de/fileadmin/user_upload/Downloads/motoren-und-steuerungen/Kurzanleitung_Somfy_Ilmo2_WT.pdf",
+      "sicherheit": "eine_quelle"
+    },
+    {
+      "serie_slug": "rs100-io",
+      "teil_slug": "somfy-rs100-io-hipro-adapterkabel",
+      "hinweis": "Zum Ersatz älterer Motoren am vorhandenen HiPro-Stecker",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-wirefree-io",
+      "teil_slug": "somfy-ladegeraet-solarkits",
+      "hinweis": "Ladegerät für die Akkus der Solarkits",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-solar-io",
+      "teil_slug": "somfy-ladegeraet-solarkits",
+      "hinweis": "Ladegerät für die Akkus der Solarkits",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-wirefree-io",
+      "teil_slug": "somfy-oximo-sunea-akku-12-v",
+      "hinweis": "Ersatzakku für 3, 6 und 10 Nm",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "oximo-40-wirefree-io",
+      "teil_slug": "somfy-oximo-wirefree-solarpanel-3-2-w",
+      "hinweis": "Ersatzpanel für 3, 6 und 10 Nm",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-solar-io",
+      "teil_slug": "somfy-rs100-solar-io-batterie-9-6-v",
+      "hinweis": "Ersatzakku für 3, 6 und 10 Nm",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    },
+    {
+      "serie_slug": "rs100-solar-io",
+      "teil_slug": "somfy-rs100-solar-io-panel-2-5-w",
+      "hinweis": "Ersatzpanel für 3, 6 und 10 Nm",
+      "quelle_url": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf",
+      "sicherheit": "hersteller"
+    }
+  ],
+  "probleme": [
+    {
+      "slug": "somfy-rollladen-reagiert-nicht",
+      "titel": "Somfy-Rollladen reagiert nicht",
+      "symptom": "Der Rollladen mit Somfy-Motor fährt nicht mehr, wenn du am Handsender oder Schalter drückst. Manchmal kommt kein Geräusch, manchmal fährt er nach einer Pause wieder.",
+      "ursachen": [
+        {
+          "ursache": "Batterie im Handsender leer: Die Kontrollleuchte leuchtet beim Drücken nicht mehr auf (grün bei io, rot bei RTS).",
+          "haeufigkeit": "häufig",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Handsender defekt oder nicht mehr eingelernt, etwa nach einem Reset oder einem anderen Eingriff in die Programmierung.",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "somfy-situo-1-io-pure-ii",
+            "somfy-situo-5-io-pure-ii",
+            "somfy-situo-1-rts-pure-1870496",
+            "somfy-situo-rts-pure-1810636"
+          ]
+        },
+        {
+          "ursache": "Thermoschutz: Nach vielen Fahrten hintereinander schaltet der Motor ab, bis er abgekühlt ist.",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Keine Spannung am Motor oder am Schalter, etwa durch eine ausgelöste Sicherung oder einen defekten Schalter bei verdrahteten Motoren.",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Neuer Sender mit dem falschen Funksystem: Ein io-Sender bedient keinen RTS-Motor und umgekehrt.",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "somfy-situo-5-io-rts-pure-1870479"
+          ]
+        },
+        {
+          "ursache": "Akku eines Solarantriebs leer, etwa nach langer Zeit ohne Sonne.",
+          "haeufigkeit": "selten",
+          "teil_slugs": [
+            "somfy-ladegeraet-solarkits",
+            "somfy-oximo-sunea-akku-12-v",
+            "somfy-rs100-solar-io-batterie-9-6-v"
+          ]
+        },
+        {
+          "ursache": "Motor oder Elektronik defekt. Reagiert er auch nach Reset und Neuprogrammierung falsch, rät Somfy zum Tausch.",
+          "haeufigkeit": "selten",
+          "teil_slugs": [
+            "somfy-rs100-io-10-17",
+            "somfy-oximo-50-io-10-17",
+            "somfy-oximo-50-rts-6-17",
+            "somfy-rs100-io-hipro-adapterkabel"
+          ]
+        }
+      ],
+      "schritte": [
+        "Taste am Handsender drücken und auf die Kontrollleuchte achten. Bleibt sie dunkel, die Batterie tauschen; die Situo-Sender brauchen eine CR2032 oder CR2430. Bleibt sie auch mit neuer Batterie dunkel, ist der Sender meist defekt.",
+        "Den Namen auf dem Sender lesen. Steht dort io, braucht der Motor einen io-Sender, steht dort RTS, einen RTS-Sender. Ein Ersatzsender mit dem anderen System funktioniert nicht.",
+        "Hat der Motor gerade viele Fahrten gemacht, kurz warten, bis er abgekühlt ist. Der Thermoschutz gibt ihn danach wieder frei.",
+        "Gibt es einen zweiten Sender, der den Rollladen noch bedient? Dann damit einen neuen Sender anlernen: am alten Sender die PROG-Taste etwa 3 Sekunden drücken, bis der Rollladen kurz auf und ab fährt, dann am neuen Sender die PROG-Taste kurz drücken.",
+        "Gibt es keinen funktionierenden Sender mehr, den Motor mit einer doppelten Spannungsunterbrechung in Lernbereitschaft bringen. Wie das geht, steht unter „Somfy-Handsender anlernen“.",
+        "Bei verdrahteten Motoren mit Schalter prüfen, ob die Sicherung drin ist. Ob am Schalter oder an der Abzweigdose 230 V ankommen, prüft eine Elektrofachkraft.",
+        "Bei Solarantrieben das Panel auf Schmutz prüfen und den Akku mit dem Somfy-Ladegerät nachladen."
+      ],
+      "fachbetrieb_ab": "Wenn an 230-V-Leitungen, Schaltern oder Abzweigdosen gemessen werden muss, wenn der Motor auf die doppelte Spannungsunterbrechung nicht reagiert oder wenn er nach Reset und Neuprogrammierung weiter falsch fährt. Somfy schreibt Prüfungen an 230 V und den Motortausch einer Elektrofachkraft zu.",
+      "quellen": [
+        "https://www.somfy.de/hilfe/faq?question=was-kann-ich-tun-wenn-mein-motorisierter-rollladen-nicht-funktioniert",
+        "https://www.somfy.de/hilfe/faq?question=wie-verbinde-ich-meinen-handsender-wieder-mit-dem-motor",
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf",
+        "https://www.somfy.de/smarter-wohnen/kompatibilitaet/funktechnologien",
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-rollladen-handsender-anlernen",
+      "titel": "Somfy-Handsender anlernen oder ersetzen",
+      "symptom": "Der Somfy-Handsender ist verloren oder kaputt, oder ein zusätzlicher Sender soll denselben Rollladen bedienen.",
+      "ursachen": [
+        {
+          "ursache": "Ein zweiter Sender bedient den Motor noch. Dann geht das Anlernen ohne Eingriff am Strom.",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "somfy-situo-1-io-pure-ii",
+            "somfy-situo-1-rts-pure-1870496"
+          ]
+        },
+        {
+          "ursache": "Kein funktionierender Sender mehr vorhanden. Dann muss der Motor über eine doppelte Spannungsunterbrechung in Lernbereitschaft.",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "somfy-situo-5-io-pure-ii",
+            "somfy-situo-5-rts-pure-1870495",
+            "somfy-telis-16-rts-pure"
+          ]
+        },
+        {
+          "ursache": "Der neue Sender hat das falsche Funksystem (io statt RTS oder umgekehrt). Der Motor bestätigt dann die Stromunterbrechung, reagiert aber nicht auf die PROG-Taste.",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": [
+            "somfy-situo-5-io-rts-pure-1870479"
+          ]
+        },
+        {
+          "ursache": "Der Motor ist nie fertig programmiert worden. Dann reagiert er nicht auf die doppelte Spannungsunterbrechung, bis die Programmierung abgeschlossen ist.",
+          "haeufigkeit": "selten",
+          "teil_slugs": []
+        }
+      ],
+      "schritte": [
+        "Sender passend zum Motor kaufen: io-Motoren (Oximo io, RS100 io, Solarantriebe) brauchen einen io-Sender, Oximo RTS einen RTS-Sender. Ein io-Motor nimmt bis zu 9 Sender an, ein RTS-Motor bis zu 12.",
+        "Mit vorhandenem Sender: am alten Sender hinten die PROG-Taste drücken, bis der Rollladen nach etwa 3 Sekunden kurz auf und ab fährt. Danach am neuen Sender die PROG-Taste etwa eine halbe Sekunde drücken; der Rollladen bestätigt wieder mit einer kurzen Auf-und-ab-Bewegung.",
+        "Ohne Sender: Alle anderen Motoren müssen stromlos bleiben, sonst geraten sie mit in Lernbereitschaft. Den betroffenen Motor 2 bis 3 Sekunden vom Strom trennen, 8 bis 10 Sekunden einschalten, wieder 2 bis 3 Sekunden trennen und dann einschalten. Der Rollladen fährt etwa 5 Sekunden oder wippt kurz.",
+        "Hängen mehrere Motoren an derselben Sicherung, nach dem Wiedereinschalten an den Sendern aller anderen Rollläden kurz eine Taste drücken. So nimmt man sie wieder aus der Lernbereitschaft.",
+        "Jetzt am neuen Sender die PROG-Taste kurz drücken. Der Rollladen fährt kurz auf und ab, der Sender ist eingelernt. Mit Auf und Ab testen.",
+        "Ein Mehrkanalsender wie Situo 5 oder Telis 16 lernt pro Kanal: erst den Kanal wählen, dann die PROG-Taste drücken."
+      ],
+      "fachbetrieb_ab": "Wenn der Motor sich nicht einzeln vom Strom trennen lässt und kein anderer Sender mehr funktioniert, wenn er die doppelte Spannungsunterbrechung nicht bestätigt oder wenn dafür an Leitungen gearbeitet werden muss.",
+      "quellen": [
+        "https://www.somfy.de/hilfe/faq?question=wie-verbinde-ich-meinen-handsender-wieder-mit-dem-motor",
+        "https://www.somfy.de/hilfe/faq?question=wie-ersetzt-man-einen-einzelne-bedienstelle-verloren-oder-kaputt-meines-somfy-rollladenmotors",
+        "https://www.somfy.de/hilfe/faq?question=io-funk-rest-bei-mehreren-antrieben-auf-einer-sicherung",
+        "https://www.somfy.de/hilfe/faq?question=warum-reagiert-mein-funk-rollladenmotor-io-oder-rts-nicht-mehr-auf-eine-doppelte-spannungsunterbrechung",
+        "https://www.somfy.de/hilfe/faq?question=wie-viele-antriebe-konnen-in-einen-handsender-eingelernt-werden",
+        "https://service.somfy.com/downloads/de_v5/9015255rts_handbuch.pdf",
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-rollladen-endlagen-einstellen",
+      "titel": "Somfy-Rollladen: Endlagen einstellen",
+      "symptom": "Der Rollladen fährt nicht mehr ganz hoch oder ganz runter, stoppt zu früh oder drückt unten auf die Fensterbank, sodass die Lamellenschlitze zugehen.",
+      "ursachen": [
+        {
+          "ursache": "Fest gespeicherte Endlage verstellt oder falsch gesetzt (Oximo io, Oximo RTS). Sie lässt sich per Sender nachstellen.",
+          "haeufigkeit": "häufig",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Automatische Endlagen ohne die nötigen Teile: Für die untere braucht der Panzer feste Wellenverbinder, für die obere einen Stopper oder eine Winkelendschiene.",
+          "haeufigkeit": "häufig",
+          "teil_slugs": [
+            "somfy-schnellverbinder-1-gliedrig",
+            "somfy-clip-verbinder-2-gliedrig",
+            "somfy-hochschiebesicherung-3-gliedrig"
+          ]
+        },
+        {
+          "ursache": "Ilmo WT nach dem Einbau: Er braucht mehrere komplette Fahrten nach unten und oben, bis er die Endlagen erkannt hat.",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Adapter sitzt nicht richtig auf Motor oder Welle, der Motor zählt dann falsch.",
+          "haeufigkeit": "selten",
+          "teil_slugs": [
+            "somfy-adapter-mitnehmer-sw60",
+            "somfy-adapter-mitnehmer-sw50"
+          ]
+        },
+        {
+          "ursache": "Beim mechanischen LT 50 wurden die Einstelltasten vertauscht oder nicht gelöst.",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        }
+      ],
+      "schritte": [
+        "Motor bestimmen: Funk mit Handsender (Oximo io, Oximo RTS, RS100 io), verdrahtet mit Schalter (Ilmo WT, Oximo WT) oder mechanisch mit gelber und weißer Taste am Motorkopf (LT 50).",
+        "Oximo io oder RTS mit fester Endlage: die Endlage anfahren, Auf und Ab gleichzeitig mindestens 5 Sekunden halten, bis der Rollladen kurz wippt. Mit Auf und Ab die Position korrigieren und dann die my-Taste halten, bis der Rollladen wieder kurz wippt. Das geht nur bei Endlagen, die fest und nicht über das Drehmoment eingestellt wurden.",
+        "Automatische Endlagen stellen sich beim Oximo io laut Anleitung nach 56 Fahrten oder nach einem Stromausfall selbst neu ein. Stimmen sie dauerhaft nicht, Verbinder und Stopper prüfen oder den Motor zurücksetzen und neu einstellen.",
+        "RS100 io: Endlagen erkennt der Motor selbst. Die Nachstellung über Auf und Ab gilt laut Somfy nicht für den RS100 io; bei falschen Endlagen den Motor über den Sender zurücksetzen.",
+        "Ilmo WT: prüfen, ob feste Wellenverbinder und Stopper oder eine Winkelendschiene verbaut sind. Danach einige komplette Fahrten machen.",
+        "LT 50: Beide Einstelltasten drücken, dann stoppt der Motor nicht mehr von selbst und muss von Hand angehalten werden. Untere Endlage anfahren und die zugehörige Taste lösen, dann obere Endlage anfahren und die andere Taste lösen. Welche Taste welche Endlage setzt, hängt von der Einbauseite ab.",
+        "Oximo WT und Ilmo WT werden mit dem Somfy-Einstellkabel eingestellt; das macht die Elektrofachkraft."
+      ],
+      "fachbetrieb_ab": "Wenn der Rollladenkasten geöffnet werden muss, um an die Tasten des LT 50 oder an das Motorkabel zu kommen, wenn das Einstellkabel angeschlossen wird oder wenn ein Motor mit nachgerüstetem Funkempfänger direkt am Motor eingestellt werden muss.",
+      "quellen": [
+        "https://www.somfy.de/hilfe/faq?question=wie-andere-ich-die-endlagen-bei-meinem-funkmotor",
+        "https://www.somfy.de/hilfe/faq?question=wie-stellt-man-die-endlagen-eines-verdrahteten-somfy-rollladenmotors-ein",
+        "https://www.somfy.de/hilfe/faq?question=warum-findet-mein-ilmo-2-wt-die-untere-endlage-nicht",
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf",
+        "https://service.somfy.com/downloads/de_v5/9015255rts_handbuch.pdf",
+        "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+      ]
+    },
+    {
+      "slug": "somfy-rollladen-reset",
+      "titel": "Somfy-Rollladenmotor zurücksetzen (Reset)",
+      "symptom": "Der Somfy-Motor hält an beliebigen Stellen an, fährt über die Endlage hinaus, reagiert verzögert oder mehrere Sender steuern durcheinander. Er soll auf Werkseinstellung.",
+      "ursachen": [
+        {
+          "ursache": "Endschalter des Motors außer Betrieb: Er stoppt irgendwo oder fährt in der Endlage weiter.",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Sender sollen komplett neu zugeordnet werden, weil mehrere Sender einen Rollladen steuern, die das nicht sollen.",
+          "haeufigkeit": "gelegentlich",
+          "teil_slugs": []
+        },
+        {
+          "ursache": "Elektronik defekt: Fährt der Motor nach Reset und Neuprogrammierung weiter falsch, ist er laut Somfy zu tauschen.",
+          "haeufigkeit": "selten",
+          "teil_slugs": [
+            "somfy-rs100-io-10-17",
+            "somfy-oximo-50-io-10-17",
+            "somfy-rs100-io-hipro-adapterkabel"
+          ]
+        }
+      ],
+      "schritte": [
+        "Vorab klären, welcher Motor verbaut ist. Die folgende Methode gilt für Oximo 50 io (nicht Oximo 50 S Auto io), Oximo 50 RTS und Altus 50 RTS, nicht für RS100 io, Solarantriebe und verdrahtete Motoren mit Funkempfänger.",
+        "Nur den betroffenen Motor mit Strom versorgen. Alle anderen Motoren am selben Stromkreis müssen stromlos sein, sonst setzt man sie mit zurück.",
+        "Doppelte Spannungsunterbrechung: 2 bis 3 Sekunden aus, 8 bis 10 Sekunden ein, wieder 2 bis 3 Sekunden aus, dann ein. Der Rollladen fährt etwa 5 Sekunden oder wippt kurz. Diese Bewegung nicht mit dem Sender unterbrechen.",
+        "Am Einzelsender des Rollladens die PROG-Taste mindestens 7 Sekunden halten, bis der Rollladen zweimal kurz auf und ab fährt. Der Motor ist jetzt im Auslieferungszustand.",
+        "Neu einrichten: Auf und Ab gleichzeitig drücken, Drehrichtung prüfen (falsch: my-Taste etwa 2 Sekunden), Endlagen setzen, dann my-Taste halten und zum Schluss die PROG-Taste kurz drücken.",
+        "RS100 io: ohne Stromunterbrechung. Rollladen auf halbe Höhe fahren, Auf und Ab 5 Sekunden halten, dann Auf, Ab und my gleichzeitig halten, dann die PROG-Taste mindestens 7 Sekunden halten, bis der Rollladen zweimal wippt.",
+        "Reagiert der Motor nicht auf die doppelte Spannungsunterbrechung, war die Programmierung womöglich nie abgeschlossen. Somfy beschreibt dafür eine eigene Abfolge: 10 Sekunden stromlos, dann Auf und Ab kurz gleichzeitig und PROG kurz drücken."
+      ],
+      "fachbetrieb_ab": "Wenn sich der Motor nicht einzeln vom Strom trennen lässt, wenn für die Unterbrechung an Leitungen gearbeitet werden muss oder wenn der Motor nach dem Reset weiter falsch fährt. Elektrische Arbeiten gehören laut Somfy in die Hand einer Fachkraft.",
+      "quellen": [
+        "https://www.somfy.de/hilfe/faq?question=wie-kann-ich-einen-funkmotor-neu-programmieren",
+        "https://www.somfy.de/hilfe/faq?question=wann-muss-ich-meinen-rollladen-motor-auf-werkseinstellungen-zurucksetzen",
+        "https://www.somfy.de/hilfe/faq?question=warum-reagiert-mein-funk-rollladenmotor-io-oder-rts-nicht-mehr-auf-eine-doppelte-spannungsunterbrechung",
+        "https://www.somfy.de/hilfe/faq?question=wie-setze-ich-den-somfy-rs100-io-zuruck",
+        "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf",
+        "https://service.somfy.com/downloads/de_v5/9015255rts_handbuch.pdf"
+      ]
+    }
+  ],
+  "widersprueche": [
+    {
+      "thema": "Doppelte Spannungsunterbrechung: 2 oder 3 Sekunden stromlos?",
+      "aussage_a": "Die Anleitung des Oximo io (10/2017) nennt 2 Sekunden aus, 10 Sekunden ein, 2 Sekunden aus und wieder ein. Die Somfy-Hilfe zum Ersetzen eines Senders nennt 2 Sekunden aus und 8 Sekunden ein.",
+      "quelle_a": "https://zajadacz.de/documents/assets_c7bd15fa-ade9-48a7-8833-f482b176f088_12a2c530-60bd-4054-9c2c-98feedd24e31.pdf",
+      "aussage_b": "Die Somfy-Hilfe „Wie verbinde ich meinen Handsender wieder mit dem Motor?“ und das RTS-Handbuch nennen 3 Sekunden aus, 10 Sekunden ein, 3 Sekunden aus. Entscheidend ist, dass der Motor die Unterbrechung mit einer Bewegung bestätigt.",
+      "quelle_b": "https://www.somfy.de/hilfe/faq?question=wie-verbinde-ich-meinen-handsender-wieder-mit-dem-motor"
+    },
+    {
+      "thema": "Situo 1 RTS Pure: 1870496 oder 1870402?",
+      "aussage_a": "Bei Amazon wird der Situo 1 RTS Pure unter der Teilenummer 1870496 verkauft, der Situo 5 RTS Pure unter 1870495.",
+      "quelle_a": "https://www.amazon.de/dp/B086C7N27W",
+      "aussage_b": "Der Somfy-Fachkatalog 10/2026 führt den Situo 1 RTS Pure II unter 1870402 und den Situo 5 RTS Pure II unter 1870418. Beide Nummern bezeichnen RTS-Sender mit einem bzw. fünf Kanälen.",
+      "quelle_b": "https://downloads.ctfassets.net/xkehyosw6viy/1ldkHoMWhYtugemNu13ENw/06d5320da48b9e30b5f8be5c77a2746d/Katalog_fuer_Profis_9028083_DE_AT_10-2026_.pdf"
+    }
+  ],
+  "nicht_geprueft": [
+    "Wo genau das Etikett mit der Antriebsbezeichnung am Motor sitzt (Motorkopf oder Rohr), steht in keiner der ausgewerteten Somfy-Unterlagen. Im Text steht deshalb nur „auf dem Antrieb“.",
+    "Situo 1/5 RTS Pure 1870496 und 1870495 (Amazon) gegenüber 1870402 und 1870418 (Fachkatalog): ob es dieselben Sender in anderer Verpackung sind, ist offen.",
+    "Situo 1 io Pure II: Die EAN 3660849573652 aus dem OTTO-Feed gehört laut mehreren Händlern zur Nummer 1870312; der deutsche Fachkatalog nennt 1870311. Als oem_nummer steht 1870312.",
+    "ASIN B08831JMGJ (Situo 5 io II, 406 Bewertungen laut Keyword-Analyse) zeigt als Teilenummer „SB-122“; nicht übernommen.",
+    "Ilmo 50 WT 10/17: Der OTTO-Artikel (EAN 4060247093841) ist ein Händlerset mit Fertigkastenlager unter einer Händler-EAN, keine Somfy-EAN. Eine Somfy-Artikelnummer für die Ilmo-2-Ausführung mit 10 Nm steht im Katalog 10/2026 nicht mehr.",
+    "Universalantrieb Funk io 7,5 m² (1039942) und Elektronischer Universalantrieb 7,5 m² (1037848): Der Elektro-Katalog nennt keine Baureihe. Die Zuordnung zu Oximo 50 io und Oximo 50 WT folgt aus den gleichlautenden Merkmalen (eine_quelle).",
+    "Rollladenmotor 4 m² (1035192) und 7,5 m² (1039499): mechanische Endlagen mit Einstelltasten wie beim LT 50, aber Händler nennen 45 mm Außendurchmesser; ohne Zuordnung zu einer Serie.",
+    "Austauschsets 1240385 (RTS) und 1240386 (verdrahtet): welcher Motor darin steckt, steht im Amazon-Angebot nicht; ohne Zuordnung.",
+    "Modernisierungskit Standard 9/16 (1023027) für SW 40: Motorbaureihe im Elektro-Katalog nicht genannt (vermutlich LS 40); ohne Zuordnung.",
+    "RS100 io: Ob die Adapter und Mitnehmer der Baureihe 50 (9707025/9751001 usw.) auch am RS100 io passen, sagt der Katalog nicht ausdrücklich. Der RS100 io wird mit Adapter und Mitnehmer geliefert; keine Zuordnung zu den Adapter-Teilen.",
+    "Amazon-Angebote zu Oximo 50 io 10/17 (Referenz 1037689), RS100 io 20/17 (Referenz 161062) und LT 50 Start (ohne Nummer) nennen andere oder keine Somfy-Nummern als der Katalog; als oem_nummer steht die aktuelle Katalognummer für SW 60 mit 3 m schwarzem Kabel.",
+    "Die RTS-Kurzanleitungen (Duotherm, Köbberling) und die Ilmo-WT-Reset-Abfolge über den Schalter (3× Auf, 2× Ab) stammen von Händlern, nicht von Somfy. Die Reset-Abfolge für den Ilmo WT steht deshalb nicht auf der Seite.",
+    "Garantie: Die 7 Jahre für RS100 io gelten laut Somfy-Seite für „RS100 (io, hybrid, solar)“; ob das für jedes Kaufdatum gilt, regeln die Garantiebedingungen, die nicht ausgewertet sind.",
+    "Kein Somfy-Teil bei hagebau im Feed (November 2026). Contorion führt Rohrmotoren, Sender, Solarkits und ein Lager, OTTO den Situo 1 io II, Smoove io und Ilmo 2 50 WT 10/17."
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "marke": "Schellenberg",
+  "stand": "5. November 2026",
+  "methode": "Google-Suchvorschläge (keywords-rollladen/suggest.json, 245 Vorschläge mit „schellenberg“), Websuche nach Forenbeiträgen (gutefrage, bau.de, electronicwerkstatt, knx-user-forum, mikrocontroller.net), Herstelleranleitungen und Datenblätter im Schellenberg-Shop, Baumarkt-Feeds. Zu Schellenberg-Rollladenteilen gibt es wenige Forenthreads; die Fragen stützen sich deshalb vor allem auf die Suchvorschläge und werden mit Anleitungen beantwortet.",
+  "fragen": [
+    {
+      "frage": "Wo finde ich die Artikelnummer meines Schellenberg-Gurtwicklers oder -Motors?",
+      "kategorie": "nummer",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Die fünfstellige Nummer steht auf der Verpackung und in der Anleitung, bei Motoren und RolloDrive auch in der Tabelle der technischen Daten. Ohne Verpackung hilft die EAN unter dem Strichcode: Nach 4003971 folgt bei den Rollladenteilen meist die Artikelnummer, 4003971501510 ist der Aufschraubwickler 50151. Fehlt beides, bestimmen Gurtbreite und Lochabstand den passenden Wickler.",
+      "antwort_quellen": [
+        "https://schellenberg-shop.de/gurtwickler-mini-ohne-gurt-aufklappbar-versch.-farben/50151",
+        "https://schellenberg-shop.de/rollodrive-55-rollladengurt-antrieb/22755",
+        "https://schellenberg-shop.de/media/af/e7/5d/1747747186/montageanleitung-rollodrive-55-schellenberg.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "schellenberg-aufschraubwickler-mini-50151"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Habe ich einen Schellenberg-Rollladen Mini oder Maxi?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Miss die Breite des Gurts: 14 mm ist Mini, 23 mm Maxi, bei älteren Maxi-Anlagen auch 18 mm. Im Kasten sitzt beim Mini eine Achtkantwelle mit 40 mm, beim Maxi mit 60 mm. Die Lamellen haben beim Mini 37 mm Deckhöhe, beim Maxi 52 mm.",
+      "antwort_quellen": [
+        "https://schellenberg-shop.de/rollladengurt-mini-14-mm-laenge-6-m-versch.-farben/46002",
+        "https://schellenberg-shop.de/rollladengurt-maxi-23-mm-laenge-6-m-versch.-farben/36002",
+        "https://schellenberg-shop.de/rollladenaufhaengung-aufhaengefeder-mini/19200",
+        "https://schellenberg-shop.de/rollladenaufhaengung-aufhaengefeder-maxi/19400",
+        "https://schellenberg-shop.de/schnellreparaturset-gurtfix-maxi-versch.-ausfuehrungen/34302"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "schellenberg-rollladengurt-mini-6m-46002",
+        "schellenberg-rollladengurt-maxi-6m-36002"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Welcher Schellenberg-Gurtwickler passt in meinen Mauerkasten?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Entscheidend sind Gurtbreite und Lochabstand, also der Abstand der beiden Befestigungsschrauben. Die Maxi-Einlasswickler gibt es mit 105, 135, 160, 185 und 215 mm, die Abdeckplatten mit denselben Maßen. Für Aufputz-Wickler Mini sind 155 mm (50151) und 145 mm (50503) üblich, der Flexo 50153 lässt sich zwischen 140 und 155 mm verstellen.",
+      "antwort_quellen": [
+        "https://schellenberg-shop.de/unterputz-gurtwickler-maxi-versch.-groessen/50100",
+        "https://schellenberg-shop.de/abdeckplatte-standard-versch.-ausfuehrungen/53103",
+        "https://schellenberg-shop.de/gurtwickler-mini-ohne-gurt-aufklappbar-versch.-farben/50151",
+        "https://schellenberg-shop.de/gurtwickler-mini-flexo-ohne-gurt-aufklappbar-versch.-farben/50153",
+        "https://schellenberg-shop.de/gurtwickler-mini-inkl.-gurt-versch.-farben/50503"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "schellenberg-einlasswickler-maxi-105-50100",
+        "schellenberg-einlasswickler-maxi-135-50000",
+        "schellenberg-einlasswickler-maxi-160-50200",
+        "schellenberg-einlasswickler-maxi-185-50400",
+        "schellenberg-einlasswickler-maxi-215-11400",
+        "schellenberg-aufschraubwickler-mini-50151",
+        "schellenberg-aufschraubwickler-flexo-mini-50153"
+      ],
+      "passendes_problem": "schellenberg-gurtwickler-zieht-nicht-ein"
+    },
+    {
+      "frage": "Wie viel Nm braucht mein Schellenberg-Rohrmotor?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Schellenberg gibt je Motor die maximale Zugkraft und die maximale Fläche eines Kunststoff-Rollladens an. Für die Maxi-Welle reichen 10 Nm bis 4,2 m², 15 Nm bis 6,2 m², 20 Nm bis 8,5 m² und 40 Nm bis 15 m². Für Aluminium-Rollläden sinkt die Fläche, beim 20-Nm-Motor zum Beispiel auf 6,5 m². Der Motordurchmesser muss zur Welle passen: Mini-Motoren für 40 mm, Maxi-Motoren für 60 mm.",
+      "antwort_quellen": [
+        "https://schellenberg-shop.de/media/pdf/11/4f/51/schellenberg-rohrmotor-standard-vergleich.pdf",
+        "https://schellenberg-shop.de/media/pdf/ab/5f/f8/schellenberg-rohrmotor-plus-vergleich.pdf",
+        "https://schellenberg-shop.de/rohrmotor-maxi-standard-20-nm/20620"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "schellenberg-rohrmotor-standard-maxi-10nm-20610",
+        "schellenberg-rohrmotor-standard-maxi-15nm-20615",
+        "schellenberg-rohrmotor-standard-maxi-20nm-20620",
+        "schellenberg-rohrmotor-standard-maxi-40nm-20640"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Funktioniert ein Schellenberg-Handsender mit Somfy- oder anderen Funkmotoren?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Schellenberg-Handsender funken auf 868,4 MHz im eigenen Schellenberg Radio System und sollen laut Anleitung nur mit dafür zugelassenen Geräten verbunden werden. Die Anleitung nennt dafür Schellenberg-Funkmotoren, RolloDrive Premium, Funk-Steckdosen und Zeitschaltuhren. Somfy RTS arbeitet auf 433,42 MHz, Somfy io ist ein anderes Protokoll. Rechne also nicht damit, einen Fremdmotor mit einem Schellenberg-Sender zu bedienen.",
+      "antwort_quellen": [
+        "https://d.otto.de/files/8ba7a78e-7f44-571b-a70d-e936b5a05600.pdf",
+        "https://www.globus-baumarkt.de/media/13/8b/cf/1665206840/4003971200161_12390959_BDA_28042021__63275769.pdf",
+        "https://avosdim.com/uk/shopping-guide/motorisation-universe/io-protocol-motors-by-somfy.html"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "schellenberg-funk-handsender-1-kanal-20015",
+        "schellenberg-funk-handsender-5-kanal-20016"
+      ],
+      "passendes_problem": "schellenberg-rollladenmotor-reagiert-nicht"
+    },
+    {
+      "frage": "Mein Schellenberg-Gurtwickler zieht nicht mehr richtig ein. Kann ich die Feder nachspannen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Schellenberg sieht das nicht vor: Auf den Aufschraubwicklern steht, dass sie nicht geöffnet werden sollen, weil die Federtrommel gespannt ist. Einzelfedern bietet Schellenberg nicht an, du tauschst den ganzen Wickler. Achte beim Kauf auf denselben Lochabstand und die Gurtbreite.",
+      "antwort_quellen": [
+        "https://schellenberg-shop.de/media/30/63/4e/1733928985/50503-50504-montageanleitung-gurtwickler-mini.pdf",
+        "https://schellenberg-shop.de/media/70/5f/67/1733928984/50801-50804-montageanleitung-gurtwickler-maxi.pdf",
+        "https://schellenberg-shop.de/media/be/22/67/1733929266/50000-11400-montageanleitung-unterputz-gurtwickler-maxi.pdf",
+        "https://schellenberg-shop.de/unterputz-gurtwickler-maxi-versch.-groessen/50100"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "schellenberg-aufschraubwickler-mini-50151",
+        "schellenberg-aufschraubwickler-mini-mit-gurt-50503",
+        "schellenberg-einlasswickler-maxi-160-50200"
+      ],
+      "passendes_problem": "schellenberg-gurtwickler-zieht-nicht-ein"
+    },
+    {
+      "frage": "Kann ich einen gerissenen Schellenberg-Rollladengurt wechseln, ohne den Kasten zu öffnen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Ja, solange unter der Gurtführung noch ein Stück des alten Gurts hängt. Das Gurtfix-Set (44302 für 14 mm, 34302 für 23 mm) bringt 4,3 m neuen Gurt mit, der etwa 10 cm unter der Gurtführung mit einem Edelstahlstreifen an den alten genietet wird. Ist der Gurt ganz im Kasten verschwunden, musst du den Revisionsdeckel öffnen.",
+      "antwort_quellen": [
+        "https://schellenberg-shop.de/schnellreparaturset-gurtfix-mini-versch.-farben/44302",
+        "https://schellenberg-shop.de/schnellreparaturset-gurtfix-maxi-versch.-ausfuehrungen/34302"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "schellenberg-gurtfix-mini-44302",
+        "schellenberg-gurtfix-maxi-34302"
+      ],
+      "passendes_problem": "schellenberg-rollladengurt-gerissen"
+    },
+    {
+      "frage": "Wie lerne ich einen Schellenberg-Handsender an meinen Funk-Rollladenmotor an?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Bei den Funk-Rollladenmotoren Premium 21106 bis 21240 schaltest du den Motor 5 Sekunden stromlos, dann ein, innerhalb einer Sekunde aus und nach genau einer Sekunde wieder ein. Piept er laut und bewegt sich kurz vor und zurück, ist er etwa 15 Minuten lernbereit. Dann startest du am Handsender den Programmiermodus, wählst mit der Stopp-Taste die Motoradresse und koppelst. Ältere Premium-Motoren (20506 bis 20840) reichen 5 Sekunden ohne Strom.",
+      "antwort_quellen": [
+        "https://www.globus-baumarkt.de/media/13/8b/cf/1665206840/4003971200161_12390959_BDA_28042021__63275769.pdf",
+        "https://d.otto.de/files/8ba7a78e-7f44-571b-a70d-e936b5a05600.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "schellenberg-funk-handsender-1-kanal-20015",
+        "schellenberg-funk-handsender-5-kanal-20016"
+      ],
+      "passendes_problem": "schellenberg-rollladenmotor-reagiert-nicht"
+    },
+    {
+      "frage": "Wie setze ich den Schellenberg-RolloDrive auf Werkseinstellung zurück?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Beim RolloDrive 35 und 45 drückst du alle drei Tasten 4 Sekunden gleichzeitig, beim RolloDrive 55 alle drei Tasten. Der RolloDrive 65 Standard braucht alle vier Tasten 5 Sekunden, der 65 Plus 8 Sekunden, der RolloDrive 75 alle vier Tasten 6 Sekunden. Die LEDs blinken zur Bestätigung, Endlagen und Schaltzeiten sind dann gelöscht und müssen neu eingestellt werden.",
+      "antwort_quellen": [
+        "https://schellenberg-shop.de/media/22/25/4d/1747747186/22735-rollodrive-35-montageanleitung.pdf",
+        "https://schellenberg-shop.de/media/eb/14/f3/1747747186/22745-rollodrive-45-montageanleitung.pdf",
+        "https://schellenberg-shop.de/media/af/e7/5d/1747747186/montageanleitung-rollodrive-55-schellenberg.pdf",
+        "https://schellenberg-shop.de/media/87/6e/29/1749728386/montageanleitung-rollodrive-65-standard-schellenberg.pdf",
+        "https://schellenberg-shop.de/media/8e/13/f7/1749728387/22766-rollodrive-65-plus-montageanleitung.pdf",
+        "https://schellenberg-shop.de/media/97/e3/4d/1754296680/montageanleitung-rollodrive-75-standard-schellenberg.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "schellenberg-rollodrive-35-22735",
+        "schellenberg-rollodrive-45-22745",
+        "schellenberg-rollodrive-55-22755",
+        "schellenberg-rollodrive-65-standard-22765",
+        "schellenberg-rollodrive-75-standard-22575"
+      ],
+      "passendes_problem": "schellenberg-elektrischer-gurtwickler-stoppt"
+    },
+    {
+      "frage": "Mein Schellenberg-Rohrmotor bleibt nach ein paar Fahrten stehen. Ist er kaputt?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Nicht unbedingt. Schellenberg-Rohrmotoren sind für 4 Minuten Betrieb am Stück ausgelegt. Bei Überhitzung durch zu lange Laufzeit oder zu viel Last schalten die Standard-Motoren ab und sind nach mindestens 15 Minuten Abkühlen wieder bereit. Läuft der Motor danach gar nicht mehr, prüft eine Elektrofachkraft Motor und Anschluss.",
+      "antwort_quellen": [
+        "https://media.elv.com/file/119606_um.pdf",
+        "https://schellenberg-shop.de/media/pdf/11/4f/51/schellenberg-rohrmotor-standard-vergleich.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": "schellenberg-rollladenmotor-reagiert-nicht"
+    },
+    {
+      "frage": "Darf ich einen Schellenberg-Rohrmotor oder RolloDrive selbst anschließen?",
+      "kategorie": "reparatur",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Für Rohrmotoren schreibt Schellenberg, dass Arbeiten an elektrischen Anlagen nur zugelassene Elektrofachkräfte ausführen. Bei den RolloDrive 55, 65 und 75 verlangt die Anleitung eine Elektrofachkraft für Anschluss, Montage und Inbetriebnahme, auch bei der Variante mit Netzstecker. RolloDrive 35 und 45 laufen über ein 24-V-Steckernetzteil, ihre Anleitungen enthalten diese Vorgabe nicht.",
+      "antwort_quellen": [
+        "https://media.elv.com/file/119606_um.pdf",
+        "https://schellenberg-shop.de/media/af/e7/5d/1747747186/montageanleitung-rollodrive-55-schellenberg.pdf",
+        "https://schellenberg-shop.de/media/87/6e/29/1749728386/montageanleitung-rollodrive-65-standard-schellenberg.pdf",
+        "https://schellenberg-shop.de/media/97/e3/4d/1754296680/montageanleitung-rollodrive-75-standard-schellenberg.pdf",
+        "https://schellenberg-shop.de/media/22/25/4d/1747747186/22735-rollodrive-35-montageanleitung.pdf",
+        "https://schellenberg-shop.de/media/eb/14/f3/1747747186/22745-rollodrive-45-montageanleitung.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "schellenberg-rollodrive-35-22735",
+        "schellenberg-rollodrive-45-22745",
+        "schellenberg-rollodrive-55-22755"
+      ],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Wie lange gibt Schellenberg Garantie auf Rollladenmotoren?",
+      "kategorie": "verfuegbarkeit",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Auf die Standard-Rohrmotoren 3 Jahre ab Kaufdatum, auf die Funk-Rollladenmotoren Premium 5 Jahre. Du brauchst den Kaufbeleg; Verschleiß und Schäden durch falsche Montage sind ausgenommen. Die gesetzliche Gewährleistung beim Händler gilt unabhängig davon.",
+      "antwort_quellen": [
+        "https://media.elv.com/file/119606_um.pdf",
+        "https://schellenberg-shop.de/funk-rollladenmotor-premium-40-nm-maxi/21240"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [],
+      "passendes_problem": null
+    },
+    {
+      "frage": "Passt ein Schellenberg-Gurt in einen elektrischen Gurtwickler eines anderen Herstellers?",
+      "kategorie": "kompatibilitaet",
+      "haeufigkeit": 0,
+      "fundstellen": [],
+      "antwort": "Schellenberg gibt seine Gurte Mini (14 × 1,4 mm) und Maxi (23 × 1,7 mm) ausdrücklich für elektrische Gurtwickler frei. Ob die Länge passt, entscheidet die Wickelkapazität des Antriebs bei dieser Gurtstärke; der RolloDrive 55 nimmt zum Beispiel bei 1,7 mm nur 3 m auf. Schau also ins Datenblatt deines Wicklers.",
+      "antwort_quellen": [
+        "https://schellenberg-shop.de/rollladengurt-maxi-23-mm-laenge-6-m-versch.-farben/36002",
+        "https://schellenberg-shop.de/rollladengurt-mini-14-mm-laenge-6-m-versch.-farben/46002",
+        "https://schellenberg-shop.de/media/af/e7/5d/1747747186/montageanleitung-rollodrive-55-schellenberg.pdf"
+      ],
+      "sicherheit": "belegt",
+      "passende_teile": [
+        "schellenberg-rollladengurt-maxi-6m-36002",
+        "schellenberg-rollladengurt-mini-6m-46002"
+      ],
+      "passendes_problem": "schellenberg-elektrischer-gurtwickler-stoppt"
+    }
+  ],
+  "weitere_fragen_ohne_antwort": [
+    {
+      "frage": "Schellenberg-Handsender auf 433,92 MHz: Gibt es ältere Schellenberg-Funksysteme?",
+      "grund": "Suchvorschlag „schellenberg handsender 433 92 mhz“; aktuelle Sender funken auf 868,4 MHz, ältere Systeme nicht geprüft."
+    },
+    {
+      "frage": "Lässt sich ein Schellenberg-Funkmotor in Homematic oder Home Assistant einbinden?",
+      "grund": "simon42-Forum zur Schellenberg-USB-Integration gesehen, nicht ausgewertet; Smart-Home-Fragen gehören nicht auf die Marken-Seite."
+    },
+    {
+      "frage": "RolloDrive 45 zeigt Fehler: was bedeuten die Blinkcodes?",
+      "grund": "Suchvorschlag „schellenberg rollodrive 45 fehler“; die Anleitung beschreibt nur Hinderniserkennung, Blockiererkennung und Blinken nach Stromausfall, keine Fehlercodes."
+    },
+    {
+      "frage": "Garagentorantriebe Drive 500/600/700: Handsender anlernen",
+      "grund": "Viele Suchvorschläge, gehört zum Bereich Garagentor."
+    }
+  ],
+  "fundstellen_foren": [
+    {
+      "url": "https://bau.de/forum/fenster-tueren/13149.php",
+      "thema": "Rollladengurt zieht nicht mehr ein",
+      "bewertung": "Seite mit generiert wirkendem Text, nicht als Beleg verwendet."
+    },
+    {
+      "url": "https://forum.electronicwerkstatt.de/phpBB/Ersatzteile_Reparatur_Haushaltsgeraete/sons_29_schellenberg_twin_2000_handsender_anlernen_geht_nich-t162609f61_bs0.html",
+      "thema": "Schellenberg TWIN 2000 Handsender anlernen",
+      "bewertung": "Torantrieb, nicht Rollladen."
+    },
+    {
+      "url": "https://www.mikrocontroller.net/topic/559691",
+      "thema": "Schellenberg Drive 500B Handsender",
+      "bewertung": "Torantrieb, nicht Rollladen."
+    },
+    {
+      "url": "https://www.obi.de/p/1425628/schellenberg-gurtfix-reparaturset-maxi-23-mm-beige",
+      "thema": "Kundenbewertungen Gurtfix: Gurtrest muss aus dem Kasten gezogen werden",
+      "bewertung": "Kundenmeinung, stützt die Herstellerangabe, nicht als Beleg verwendet."
+    }
+  ],
+  "suchvorschlaege": [
+    "schellenberg gurtwickler 50151 montage",
+    "schellenberg gurtwickler spannen",
+    "schellenberg gurtwickler öffnen",
+    "schellenberg gurtwickler wechseln",
+    "schellenberg rollladengurt wechseln",
+    "schellenberg rollladengurt reparieren",
+    "rolladengurt wechseln ohne kasten öffnen schellenberg",
+    "schellenberg handsender anlernen",
+    "schellenberg handsender anlernen funktioniert nicht",
+    "schellenberg funk handsender anlernen",
+    "schellenberg premium anlernen",
+    "schellenberg fernbedienung reset",
+    "schellenberg handsender batterie wechseln",
+    "handsender schellenberg kompatibel",
+    "somfy schellenberg kompatibel",
+    "schellenberg handsender 433 92 mhz",
+    "schellenberg endlage neu einstellen",
+    "schellenberg obere endlage einstellen",
+    "schellenberg maxi endlage einstellen",
+    "schellenberg endlage löschen",
+    "schellenberg rollodrive reset",
+    "schellenberg rollodrive 45 reset",
+    "schellenberg rollodrive 55 reset",
+    "schellenberg rollodrive 65 reset",
+    "schellenberg rollodrive 45 fehler",
+    "schellenberg rollodrive 65 fehler",
+    "schellenberg rollodrive 55 endlagen einstellen",
+    "schellenberg achtkantwelle mini",
+    "schellenberg achtkantwelle maxi",
+    "schellenberg rollladen aufhängungen",
+    "rollladenaufhängung maxi schellenberg 19401",
+    "schellenberg rollladen gurtscheibe",
+    "schellenberg rollladen lamellen",
+    "schellenberg ersatzteile",
+    "schellenberg rollladen ersatzteile",
+    "schellenberg rollodrive 45 ersatzteile",
+    "schellenberg rollladen elektrisch nachrüsten"
+  ],
+  "allgemeine_muster": [
+    "Gefragt wird nach Gurtwickler (Montage, spannen, öffnen, wechseln), Handsender (anlernen, Reset, kompatibel) und RolloDrive (Reset, Endlagen, Fehler).",
+    "Viele Vorschläge betreffen Garagentorantriebe und Insektenschutz von Schellenberg; sie gehören nicht in den Bereich Rollladen.",
+    "Die Fragen nach Mini oder Maxi tauchen als Maßfragen auf (Achtkantwelle Mini/Maxi, 19401, Gurtscheibe)."
+  ]
+}

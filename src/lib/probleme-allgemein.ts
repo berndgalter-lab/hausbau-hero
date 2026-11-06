@@ -14,6 +14,10 @@ import rueckspuelfilterTropft from "../../data/probleme/rueckspuelfilter-tropft.
 import enthaertungsanlageFehlermeldung from "../../data/probleme/enthaertungsanlage-fehlermeldung.json";
 import druckmindererDefekt from "../../data/probleme/druckminderer-defekt.json";
 import enthaertungsanlageVerbrauchtKeinSalz from "../../data/probleme/enthaertungsanlage-verbraucht-kein-salz.json";
+import rollladengurtGerissen from "../../data/probleme/rollladengurt-gerissen.json";
+import rollladenmotorReagiertNicht from "../../data/probleme/rollladenmotor-reagiert-nicht.json";
+import rollladenKlemmt from "../../data/probleme/rollladen-klemmt.json";
+import rollladenEndlageFalsch from "../../data/probleme/rollladen-endlage-falsch.json";
 
 // Markenübergreifende Problemseiten unter /problem/<slug> (docs/SEITENAUFBAU.md, Abschnitt 4c), z. B.
 // „Spülkasten läuft nach“. Inhalt aus data/probleme/<slug>.json, fest eingebunden (PROBLEME unten).
@@ -63,6 +67,10 @@ const PROBLEME: ProblemAllgemein[] = [
   dachfensterRollladenReagiertNicht as ProblemAllgemein,
   rueckspuelfilterTropft as ProblemAllgemein,
   enthaertungsanlageVerbrauchtKeinSalz as ProblemAllgemein,
+  rollladengurtGerissen as ProblemAllgemein,
+  rollladenmotorReagiertNicht as ProblemAllgemein,
+  rollladenKlemmt as ProblemAllgemein,
+  rollladenEndlageFalsch as ProblemAllgemein,
   druckmindererDefekt as ProblemAllgemein,
   enthaertungsanlageFehlermeldung as ProblemAllgemein,
 ];
