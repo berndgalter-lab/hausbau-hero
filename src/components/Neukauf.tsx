@@ -25,9 +25,9 @@ function namensteile(m: NeukaufModell) {
 /** Ziel der Karte: Partnershop-Angebot, sonst Amazon, sonst Shop-Link ohne Feed-Preis. */
 function kaufziel(m: NeukaufModell) {
   const a = m.angebot;
-  if (a) return { url: a.url, shop: a.shop, preis: a.preis, text: `bei ${a.shop_name} →` };
-  if (m.amazonUrl) return { url: m.amazonUrl, shop: "amazon", preis: null, text: "Preis bei Amazon ansehen →" };
-  if (m.shopLink) return { url: m.shopLink.url, shop: m.shopLink.shop, preis: null, text: `Preis bei ${m.shopLink.shop_name} ansehen →` };
+  if (a) return { url: a.url, shop: a.shop, preis: a.preis, text: `bei ${a.shop_name}* →` };
+  if (m.amazonUrl) return { url: m.amazonUrl, shop: "amazon", preis: null, text: "Preis bei Amazon ansehen* →" };
+  if (m.shopLink) return { url: m.shopLink.url, shop: m.shopLink.shop, preis: null, text: `Preis bei ${m.shopLink.shop_name} ansehen* →` };
   return null;
 }
 
@@ -47,7 +47,7 @@ export default function NeukaufKasten({ n }: { n: Neukauf | null }) {
   const mitBild = n.modelle.some((m) => m.bild);
   const hinweis = (
     <>
-      Partnerlinks: Kaufst du darüber, bekommen wir eine Provision.
+      * Partnerlinks: Kaufst du darüber, bekommen wir eine Provision.
       {aeltester && ` Preise inkl. MwSt., Stand ${formatStand(aeltester)} Uhr, maßgeblich ist der Shop.`}
       {mitAmazon && " Als Amazon-Partner verdienen wir an qualifizierten Verkäufen."}
     </>
@@ -69,7 +69,7 @@ export default function NeukaufKasten({ n }: { n: Neukauf | null }) {
             Welche passt zu dir? Zum Ratgeber
           </a>
         )}
-        <p className="mt-auto pt-6 text-[11px] leading-snug text-stone-500 hidden [@container(min-width:52rem)]:block">{hinweis}</p>
+        <p className="mt-auto pt-6 text-[11px] leading-snug text-stone-500">{hinweis}</p>
       </div>
       <ul className="grid grid-cols-1 [@container(min-width:30rem)]:grid-cols-3 gap-x-4 gap-y-6">
         {n.modelle.map((m) => {
@@ -134,7 +134,6 @@ export default function NeukaufKasten({ n }: { n: Neukauf | null }) {
         })}
       </ul>
       </div>
-      <p className="mt-6 text-[11px] leading-snug text-stone-500 [@container(min-width:52rem)]:hidden">{hinweis}</p>
     </section>
   );
 }

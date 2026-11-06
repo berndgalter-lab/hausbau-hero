@@ -1,0 +1,430 @@
+"use client";
+import { artikelUrl } from "@/lib/produkt-ratgeber";
+import { useState } from "react";
+import { berechne, formatPreis, getAffiliateLink } from "@/lib/rechner-logic";
+import { AFFILIATE_REL, mitTrackingId } from "@/lib/affiliate";
+import FAQSection from "@/components/FAQSection";
+import RechnerHinweis from "@/components/RechnerHinweis";
+import { getFaqBySlug } from "@/lib/faq-data";
+import jsPDF from "jspdf";
+
+export interface RechnerData {
+  id: string;
+  name: string;
+  slug: string;
+  beschreibung: string;
+  eingabefelder: any[];
+  berechnungslogik: Record<string, string>;
+  silo_id: string;
+}
+
+export interface MaterialData {
+  id: string;
+  name: string;
+  kategorie: string;
+  formel: string;
+  einheit: string;
+  amazon_asin?: string;
+  affiliate_url?: string;
+  preis_ca: number;
+  ist_essential: boolean;
+  sortierung: number;
+}
+
+export interface RatgeberVerweis {
+  slug: string;
+  titel: string;
+  seo_description?: string;
+  silos?: { slug: string };
+}
+
+// Die Daten lädt die Seite auf dem Server (src/app/rechner/[slug]/page.tsx). So baut der Browser
+// keine eigene Verbindung zu Supabase auf; gerechnet wird weiter nur im Browser.
+export default function RechnerSeite({
+  rechner,
+  materialien,
+  ratgeber,
+}: {
+  rechner: RechnerData;
+  materialien: MaterialData[];
+  ratgeber: RatgeberVerweis | null;
+}) {
+  const [eingaben, setEingaben] = useState<Record<string, number>>(() =>
+    Object.fromEntries(rechner.eingabefelder.map((feld) => [feld.name, feld.default ?? feld.min ?? 0])),
+  );
+  const [ergebnisse, setErgebnisse] = useState<Record<string, number>>({});
+  const [berechnet, setBerechnet] = useState(false);
+
+  function handleBerechnen() {
+    if (!rechner) return;
+    const erg = berechne(rechner.berechnungslogik, eingaben);
+    setErgebnisse(erg);
+    setBerechnet(true);
+  }
+
+  function getMenge(formel: string): number {
+    try {
+      let ausdruck = formel;
+      for (const [key, val] of Object.entries(ergebnisse)) {
+        ausdruck = ausdruck.replace(new RegExp(`\\b${key}\\b`, "g"), String(val));
+      }
+      ausdruck = ausdruck.replace(/ceil/g, "Math.ceil");
+      ausdruck = ausdruck.replace(/floor/g, "Math.floor");
+      ausdruck = ausdruck.replace(/round/g, "Math.round");
+      return new Function(`return ${ausdruck}`)();
+    } catch {
+      return 0;
+    }
+  }
+
+  function generatePDF() {
+    if (!rechner || !berechnet) return;
+
+    const doc = new jsPDF();
+    const pageWidth = doc.internal.pageSize.getWidth();
+
+    doc.setFontSize(18);
+    doc.setFont("helvetica", "bold");
+    doc.text(rechner.name, 14, 20);
+
+    doc.setFontSize(10);
+    doc.setFont("helvetica", "normal");
+    doc.setTextColor(120, 120, 120);
+    doc.text("hausbau-hero.de — Kostenlose Materialrechner", 14, 28);
+    doc.text(`Erstellt am ${new Date().toLocaleDateString("de-DE")}`, 14, 34);
+
+    doc.setTextColor(0, 0, 0);
+    doc.setFontSize(12);
+    doc.setFont("helvetica", "bold");
+    doc.text("Deine Angaben:", 14, 48);
+
+    doc.setFontSize(10);
+    doc.setFont("helvetica", "normal");
+    let y = 56;
+    for (const feld of rechner.eingabefelder) {
+      const wert = eingaben[feld.name];
+      const label = feld.label + (feld.einheit ? ` (${feld.einheit})` : "");
+      let displayWert = String(wert);
+      if (feld.options) {
+        const opt = feld.options.find((o: any) => Number(o.value) === Number(wert));
+        if (opt) displayWert = opt.label;
+      }
+      doc.text(`${label}: ${displayWert}`, 14, y);
+      y += 7;
+    }
+
+    y += 8;
+    doc.setFontSize(12);
+    doc.setFont("helvetica", "bold");
+    doc.text("Materialliste:", 14, y);
+    y += 10;
+
+    doc.setFontSize(9);
+    doc.setFont("helvetica", "bold");
+    doc.text("Material", 14, y);
+    doc.text("Menge", 120, y, { align: "right" });
+    doc.text("ca. Preis", pageWidth - 14, y, { align: "right" });
+    y += 2;
+    doc.setDrawColor(200, 200, 200);
+    doc.line(14, y, pageWidth - 14, y);
+    y += 6;
+
+    doc.setFont("helvetica", "normal");
+    let gesamt = 0;
+    for (const m of material) {
+      const menge = Math.round(m.menge);
+      const preis = m.menge * m.preis_ca;
+      gesamt += preis;
+
+      doc.text(m.name, 14, y, { maxWidth: 100 });
+      doc.text(`${menge} ${m.einheit}`, 120, y, { align: "right" });
+      doc.text(formatPreis(preis), pageWidth - 14, y, { align: "right" });
+      y += 7;
+
+      if (y > 270) { doc.addPage(); y = 20; }
+    }
+
+    if (rechner.slug === "fliesen" && ergebnisse.fliesenkosten_material > 0) {
+      doc.text("Fliesenkosten (Material)", 14, y);
+      doc.text(formatPreis(ergebnisse.fliesenkosten_material), pageWidth - 14, y, { align: "right" });
+      gesamt += ergebnisse.fliesenkosten_material;
+      y += 7;
+    }
+
+    y += 2;
+    doc.line(14, y, pageWidth - 14, y);
+    y += 7;
+    doc.setFont("helvetica", "bold");
+    doc.text("Gesamt (Material)", 14, y);
+    doc.text(formatPreis(gesamt), pageWidth - 14, y, { align: "right" });
+
+    if (werkzeuge.length > 0) {
+      y += 14;
+      doc.setFontSize(12);
+      doc.text("Werkzeug-Checkliste:", 14, y);
+      y += 10;
+      doc.setFontSize(9);
+      doc.setFont("helvetica", "normal");
+      for (const w of werkzeuge) {
+        doc.text(`☐  ${w.name} (ab ${formatPreis(w.preis_ca)})`, 14, y);
+        y += 7;
+        if (y > 270) { doc.addPage(); y = 20; }
+      }
+    }
+
+    y += 14;
+    doc.setFontSize(8);
+    doc.setTextColor(150, 150, 150);
+    doc.text("Alle Preise sind ca.-Angaben (Stand 2026). Tatsächliche Preise können abweichen.", 14, y);
+    y += 5;
+    doc.text("Erstellt mit hausbau-hero.de — Kostenlose Materialrechner für Bauherren", 14, y);
+
+    doc.save(`${rechner.slug}-materialliste.pdf`);
+  }
+
+  const materialliste = berechnet
+    ? materialien.map((m) => ({ ...m, menge: getMenge(m.formel) })).filter((m) => m.menge > 0)
+    : [];
+
+  const gesamtpreis = materialliste
+    .filter((m) => m.kategorie !== "Werkzeug")
+    .reduce((sum, m) => sum + m.menge * m.preis_ca, 0);
+  const werkzeuge = materialliste.filter((m) => m.kategorie === "Werkzeug");
+  const material = materialliste.filter((m) => m.kategorie !== "Werkzeug");
+
+  return (
+    <div className="max-w-3xl">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            name: rechner.name,
+            description: rechner.beschreibung,
+            url: `https://hausbau-hero.de/rechner/${rechner.slug}`,
+            applicationCategory: "UtilityApplication",
+            operatingSystem: "Web",
+            offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" },
+            author: { "@type": "Organization", name: "Hausbau Hero" },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Start", item: "https://hausbau-hero.de" },
+              { "@type": "ListItem", position: 2, name: "Rechner", item: "https://hausbau-hero.de/rechner" },
+              { "@type": "ListItem", position: 3, name: rechner.name, item: `https://hausbau-hero.de/rechner/${rechner.slug}` },
+            ],
+          }),
+        }}
+      />
+      <nav className="text-sm text-stone-500 mb-4">
+        <a href="/" className="hover:text-stone-700">Start</a>
+        <span aria-hidden className="mx-2 text-stone-300">/</span>
+        <a href="/rechner" className="hover:text-stone-700">Rechner</a>
+        <span aria-hidden className="mx-2 text-stone-300">/</span>
+        <span className="text-stone-900">{rechner.name}</span>
+      </nav>
+
+      <h1 className="text-[2.25rem] sm:text-5xl leading-[1.1] font-semibold mb-2">{rechner.name}</h1>
+      <p className="text-stone-600 mb-8">{rechner.beschreibung}</p>
+
+      <div className="bg-white rounded-2xl ring-1 ring-stone-900/[0.07] p-6 mb-8">
+        <h2 className="text-xl font-semibold leading-tight mb-4">Deine Angaben</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {rechner.eingabefelder.map((feld: any) => (
+            <div key={feld.name}>
+              <label className="block text-sm font-medium text-stone-700 mb-1">
+                {feld.label}{" "}
+                {feld.einheit && (
+                  <span className="text-stone-400">({feld.einheit})</span>
+                )}
+              </label>
+              {feld.typ === "select" ? (
+                <select
+                  className="w-full border border-stone-300 rounded-lg px-3 py-2 text-sm"
+                  value={eingaben[feld.name] ?? ""}
+                  onChange={(e) =>
+                    setEingaben({ ...eingaben, [feld.name]: Number(e.target.value) })
+                  }
+                >
+                  {feld.options?.map((opt: any) => (
+                    <option key={opt.value} value={opt.value}>
+                      {opt.label}
+                    </option>
+                  ))}
+                </select>
+              ) : (
+                <input
+                  type="number"
+                  className="w-full border border-stone-300 rounded-lg px-3 py-2 text-sm"
+                  value={eingaben[feld.name] ?? ""}
+                  min={feld.min}
+                  max={feld.max}
+                  step={feld.step || 1}
+                  onChange={(e) =>
+                    setEingaben({ ...eingaben, [feld.name]: Number(e.target.value) })
+                  }
+                />
+              )}
+            </div>
+          ))}
+        </div>
+        <button
+          onClick={handleBerechnen}
+          className="mt-6 w-full bg-stone-900 text-white font-semibold py-3.5 px-6 rounded-full hover:bg-accent-700 transition-colors text-base"
+        >
+          Berechnen
+        </button>
+      </div>
+
+      {berechnet && (
+        <>
+          {rechner.slug === "fliesen" && ergebnisse.fliesenkosten_material > 0 && (
+            <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 mb-6">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-sm font-medium text-stone-700">Fliesenkosten (Material)</p>
+                  <p className="text-xs text-stone-500 mt-0.5">
+                    {Math.round(ergebnisse.flaeche * (1 + eingaben.verschnitt / 100) * 10) / 10} m² × {formatPreis(eingaben.fliesenpreis)}/m²
+                  </p>
+                </div>
+                <p className="text-xl font-bold text-emerald-700">{formatPreis(ergebnisse.fliesenkosten_material)}</p>
+              </div>
+            </div>
+          )}
+
+          {material.length > 0 && (
+            <div className="bg-white rounded-2xl ring-1 ring-stone-900/[0.07] p-6 mb-6">
+              <h2 className="text-xl font-semibold leading-tight mb-2">Materialliste</h2>
+              <p className="text-xs text-stone-500 mb-4">
+                Preise sind grobe Richtwerte. Mit * markierte Links sind Partnerlinks: Kaufst du darüber, bekommen wir
+                eine Provision, der Preis ändert sich für dich nicht.
+              </p>
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="border-b border-stone-200">
+                      <th className="text-left py-2 font-medium text-stone-500">Material</th>
+                      <th className="text-right py-2 font-medium text-stone-500">Menge</th>
+                      <th className="text-right py-2 font-medium text-stone-500">ca. Preis</th>
+                      <th className="text-right py-2 font-medium text-stone-500"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {material.map((m) => (
+                      <tr key={m.id} className="border-b border-stone-100">
+                        <td className="py-3">{m.name}</td>
+                        <td className="text-right py-3 whitespace-nowrap">
+                          {Math.round(m.menge)} {m.einheit}
+                        </td>
+                        <td className="text-right py-3 text-stone-500 whitespace-nowrap">
+                          {formatPreis(m.menge * m.preis_ca)}
+                        </td>
+                        <td className="text-right py-3">
+                          {getAffiliateLink(m.affiliate_url, m.amazon_asin) && (
+                            <a
+                              href={mitTrackingId(getAffiliateLink(m.affiliate_url, m.amazon_asin)!, "rechner")}
+                              target="_blank"
+                              rel={AFFILIATE_REL}
+                              data-platzierung="rechner"
+                              className="text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600 font-medium text-xs whitespace-nowrap"
+                            >
+                              Amazon*
+                            </a>
+                          )}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                  <tfoot>
+                    <tr className="font-bold">
+                      <td className="py-3">Gesamt (Material)</td>
+                      <td></td>
+                      <td className="text-right py-3">{formatPreis(gesamtpreis)}</td>
+                      <td></td>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+          )}
+
+          {werkzeuge.length > 0 && (
+            <div className="bg-white rounded-2xl ring-1 ring-stone-900/[0.07] p-6 mb-6">
+              <h2 className="text-xl font-semibold leading-tight mb-1">Werkzeug für dieses Projekt</h2>
+              <p className="text-sm text-stone-600 mb-4">
+                Das brauchst du für dieses Projekt:
+              </p>
+              <div className="grid gap-3">
+                {werkzeuge.map((w) => (
+                  <div
+                    key={w.id}
+                    className="flex items-center justify-between py-3 border-b border-stone-200"
+                  >
+                    <div>
+                      <div className="font-medium text-sm">{w.name}</div>
+                      <div className="text-xs text-stone-500">
+                        ab {formatPreis(w.preis_ca)}
+                      </div>
+                    </div>
+                    {getAffiliateLink(w.affiliate_url, w.amazon_asin) && (
+                      <a
+                        href={mitTrackingId(getAffiliateLink(w.affiliate_url, w.amazon_asin)!, "rechner")}
+                        target="_blank"
+                        rel={AFFILIATE_REL}
+                              data-platzierung="rechner"
+                        className="text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600 text-xs font-medium whitespace-nowrap"
+                      >
+                        Amazon*
+                      </a>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {material.length > 0 && (
+            <button
+              onClick={generatePDF}
+              className="w-full mb-6 bg-white ring-1 ring-stone-300 text-stone-900 font-semibold py-3 px-6 rounded-full hover:ring-stone-500 transition-colors text-sm flex items-center justify-center gap-2"
+            >
+              Materialliste als PDF speichern
+            </button>
+          )}
+
+          {ratgeber && (
+            <div className="bg-accent-50 rounded-xl p-6 mb-6">
+              <h2 className="text-xl font-semibold leading-tight mb-2">Ratgeber zum Thema</h2>
+              <a
+                href={artikelUrl((ratgeber.silos as any)?.slug || "rohbau", ratgeber.slug)}
+                className="group block"
+              >
+                <div className="font-medium group-hover:text-accent-700 transition-colors">
+                  {ratgeber.titel}
+                </div>
+                {ratgeber.seo_description && (
+                  <p className="text-sm text-stone-600 mt-1">{ratgeber.seo_description}</p>
+                )}
+                <span className="inline-block mt-2 text-accent-600 text-sm font-medium">
+                  Weiterlesen →
+                </span>
+              </a>
+            </div>
+          )}
+
+          <RechnerHinweis />
+        </>
+      )}
+
+      <FAQSection faqs={getFaqBySlug(rechner.slug)} rechnerName={rechner.name} />
+    </div>
+  );
+}

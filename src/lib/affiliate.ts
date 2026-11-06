@@ -162,29 +162,56 @@ export function alsPartnerlink(url: string, platzierung: Platzierung): string | 
   return u.toString();
 }
 
+const PARTNER_PARAMETER = [
+  "tag", "linkCode", "linkId", "ascsubtag", "creative", "creativeASIN", "camp",
+  ...Object.keys(EBAY_DE_PARAMETER), "customid",
+];
+
+/**
+ * Quelle ohne Provision: Awin-Deeplink wird zur Shop-Adresse, Amazon-Tag und eBay-Kampagne fallen weg.
+ * Quellen belegen eine Angabe; wer sie liest, erwartet keinen Werbelink (§ 5a Abs. 4 UWG).
+ */
+export function ohnePartnerparameter(url: string): string {
+  try {
+    const u = new URL(url);
+    if (istAwinUrl(url)) return u.searchParams.get("ued") ?? url;
+    if (!isAmazonUrl(url) && !istEbayUrl(url)) return url;
+    for (const k of PARTNER_PARAMETER) u.searchParams.delete(k);
+    return u.toString();
+  } catch {
+    return url;
+  }
+}
+
+/** true, wenn bereiteArtikelHtmlVor in diesem HTML mindestens einen Partnerlink erzeugt. */
+export function enthaeltPartnerlinks(html: string): boolean {
+  return /data-platzierung="text"/.test(bereiteArtikelHtmlVor(html));
+}
+
 // Externe Links im Artikel-HTML: Amazon-Suchlinks werden zu Text, sonst neuer Tab, rel="sponsored" für Partnerlinks
-// (Amazon, Awin, eBay), Tracking-ID für Textlinks. Läuft serverseitig, damit Google die Attribute
-// ohne JavaScript sieht.
-export function bereiteArtikelHtmlVor(html: string): string {
+// (Amazon, Awin, eBay), Tracking-ID für Textlinks und ein * hinter dem Link. Läuft serverseitig, damit Google die
+// Attribute ohne JavaScript sieht. Mit partner: false (Quellen) bleibt jeder Link ein neutraler Link ohne Provision.
+export function bereiteArtikelHtmlVor(html: string, { partner: mitPartner = true }: { partner?: boolean } = {}): string {
   // Amazon-Suchlinks aus alten Beiträgen: Link weg, Text bleibt
   const ohneSuche = html.replace(
     /<a\s[^>]*href="https?:\/\/(?:www\.)?amazon\.de\/s[?/][^"]*"[^>]*>([\s\S]*?)<\/a>/gi,
     "$1",
   );
-  // Ersatzteil-Shops der Hersteller: Link weg, Text bleibt (siehe istHerstellerShop)
-  const ohneShop = ohneSuche.replace(/<a\s[^>]*href="(https?:\/\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/gi, (m: string, href: string, text: string) =>
-    istHerstellerShop(href) ? text : m,
+  return ohneSuche.replace(
+    /<a\s([^>]*?)href="(https?:\/\/[^"]+)"([^>]*)>([\s\S]*?)<\/a>(\*?)/gi,
+    (_m, vor: string, href: string, nach: string, text: string) => {
+      // Ersatzteil-Shops der Hersteller: Link weg, Text bleibt (siehe istHerstellerShop)
+      if (istHerstellerShop(href)) return text;
+      const rest = ` ${vor} ${nach}`
+        .replace(/\s(rel|target|data-platzierung)="[^"]*"/gi, "")
+        .replace(/\s+/g, " ")
+        .trim();
+      const roh = href.replace(/&amp;/g, "&");
+      const partnerlink = mitPartner ? alsPartnerlink(roh, "text") : null;
+      const ziel = (partnerlink ?? (mitPartner ? roh : ohnePartnerparameter(roh))).replace(/&/g, "&amp;");
+      const rel = partnerlink ? AFFILIATE_REL : "nofollow noopener noreferrer";
+      const daten = partnerlink ? ' data-platzierung="text"' : "";
+      return `<a ${rest ? rest + " " : ""}href="${ziel}" target="_blank" rel="${rel}"${daten}>${text}</a>${partnerlink ? "*" : ""}`;
+    },
   );
-  return ohneShop.replace(/<a\s([^>]*?)href="(https?:\/\/[^"]+)"([^>]*)>/gi, (_m, vor: string, href: string, nach: string) => {
-    const rest = ` ${vor} ${nach}`
-      .replace(/\s(rel|target)="[^"]*"/gi, "")
-      .replace(/\s+/g, " ")
-      .trim();
-    const partnerlink = alsPartnerlink(href.replace(/&amp;/g, "&"), "text");
-    const partner = !!partnerlink;
-    const ziel = partnerlink ? partnerlink.replace(/&/g, "&amp;") : href;
-    const rel = partner ? AFFILIATE_REL : "nofollow noopener noreferrer";
-    const daten = partner ? ' data-platzierung="text"' : "";
-    return `<a ${rest ? rest + " " : ""}href="${ziel}" target="_blank" rel="${rel}"${daten}>`;
-  });
 }

@@ -1,4 +1,4 @@
-import { AFFILIATE_REL, alsPartnerlink, istHerstellerShop, mitTrackingId } from "@/lib/affiliate";
+import { AFFILIATE_REL, istHerstellerShop, mitTrackingId, ohnePartnerparameter } from "@/lib/affiliate";
 import {
   FRAGE_KATEGORIEN,
   SICHERHEIT_LABEL,
@@ -198,22 +198,19 @@ export function Quellen({
   );
   const links = (
     <ul className="list-disc pl-5 space-y-1 marker:text-stone-400">
-      {liste.map((u) => {
-        // Amazon und Partnershops laufen über unseren Tag bzw. Awin
-        const partnerlink = alsPartnerlink(u, "quelle");
-        return (
+      {liste.map((u) => (
         <li key={u}>
           {istHerstellerShop(u) ? (
             // Ersatzteil-Shop des Herstellers: belegt die Angabe, wird aber nicht verlinkt.
             <span className="text-stone-700 break-all">{quelleLabel(u)}</span>
           ) : (
-            <a href={partnerlink ?? u} target="_blank" rel={partnerlink ? AFFILIATE_REL : "nofollow noopener noreferrer"} data-platzierung={partnerlink ? "quelle" : undefined} className="text-stone-700 underline decoration-stone-300 underline-offset-2 hover:text-accent-700 break-all">
+            // Quellen sind Belege, keine Werbung: nie als Partnerlink (§ 5a Abs. 4 UWG)
+            <a href={ohnePartnerparameter(u)} target="_blank" rel="nofollow noopener noreferrer" className="text-stone-700 underline decoration-stone-300 underline-offset-2 hover:text-accent-700 break-all">
               {quelleLabel(u)}
             </a>
           )}
         </li>
-        );
-      })}
+      ))}
     </ul>
   );
   if (zugeklappt) {

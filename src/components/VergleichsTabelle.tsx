@@ -77,7 +77,7 @@ export default function VergleichsTabelle({ produkte, angebote, eingeklappt = fa
                       <a href={mitTrackingId(guenstig.url, "angebot")} target="_blank" rel={AFFILIATE_REL}
                         data-platzierung="angebot" data-shop={guenstig.shop} data-kennung={kennung}
                         className="kauflink block w-fit whitespace-nowrap">
-                        {formatEuro(guenstig.preis!)} bei {guenstig.shop_name} →
+                        {formatEuro(guenstig.preis!)} bei {guenstig.shop_name}* →
                       </a>
                     )}
                   </td>
