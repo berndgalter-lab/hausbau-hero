@@ -5,6 +5,7 @@ import ArticleContent from "@/components/ArticleContent";
 import { getPassendeRechner } from "@/lib/rechner-zuordnung";
 import { ersatzteilVerweise } from "@/lib/ersatzteil-verweise";
 import { mitAnkern, zerlegeArtikel, type Gliederungspunkt } from "@/lib/artikel-aufbau";
+import { enthaeltPartnerlinks } from "@/lib/affiliate";
 import { ratgeberNachSlug, weiterleitungsZiel } from "@/lib/produkt-ratgeber";
 import { AffiliateHinweis, ArtikelPfad, ArtikelRahmen, HaeufigeFragen, KaputtVerweise, KurzeAntwort, Pruefvermerk, Quellen } from "@/components/Ratgeber";
 
@@ -86,7 +87,7 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
     ...(aufbau && aufbau.fragen.length > 0 ? [{ id: "fragen", titel: "Häufige Fragen" }] : []),
     ...(aufbau?.quellen ? [{ id: "quellen", titel: "Quellen" }] : []),
   ];
-  const hatPartnerlinks = /amazon\.de\/(dp|gp)\/|awin1\.com/i.test(seite.content_md ?? "");
+  const hatPartnerlinks = enthaeltPartnerlinks(`${aufbau?.einstieg ?? ""}${rumpf.html}`);
 
   const rechnerSlugs = getPassendeRechner(seite.slug, seite.passende_rechner);
   let passendeRechner: { name: string; slug: string }[] = [];
@@ -132,7 +133,7 @@ export default async function ArtikelPage({ params }: { params: { silo: string; 
             )}
             {aufbau && (
               <div className="mt-6">
-                <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} methode={aufbau.ohneTest ? "Herstellerangaben, kein Test" : null} />
+                <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} methode={aufbau.ohneTest ? "Herstellerangaben, kein Test" : null} partnerlinks={hatPartnerlinks} />
               </div>
             )}
           </header>

@@ -8,9 +8,12 @@ import type { Gliederungspunkt } from "@/lib/artikel-aufbau";
 // Bausteine der Ratgeber-Vorlage (docs/SEITENAUFBAU.md, Abschnitt 3): erst die Antwort, dann die
 // Modelle. Keine Abzeichen, keine Kaufknöpfe vor dem Text; gekauft wird über eine Textzeile je Modell.
 
-/** Stand und Zahl der Quellen direkt unter der Überschrift. Ohne beides: nichts. */
-export function Pruefvermerk({ stand, quellenAnzahl, methode = null }: { stand: string | null; quellenAnzahl: number; methode?: string | null }) {
-  if (!stand && quellenAnzahl === 0) return null;
+/**
+ * Stand und Zahl der Quellen direkt unter der Überschrift, bei Partnerlinks auf der Seite auch der Hinweis darauf,
+ * damit er vor dem ersten Kauflink steht. Ohne alles: nichts.
+ */
+export function Pruefvermerk({ stand, quellenAnzahl, methode = null, partnerlinks = false }: { stand: string | null; quellenAnzahl: number; methode?: string | null; partnerlinks?: boolean }) {
+  if (!stand && quellenAnzahl === 0 && !partnerlinks) return null;
   return (
     <p className="flex flex-wrap items-center gap-x-2 gap-y-1 border-y border-stone-200 py-3 mb-10 text-sm text-stone-500">
       {stand && <>Stand: {stand}</>}
@@ -20,6 +23,12 @@ export function Pruefvermerk({ stand, quellenAnzahl, methode = null }: { stand: 
       {quellenAnzahl > 0 && (
         <a href="#quellen" className="text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600">
           {quellenAnzahl} {quellenAnzahl === 1 ? "Quelle" : "Quellen"}
+        </a>
+      )}
+      {(stand || methode || quellenAnzahl > 0) && partnerlinks && " · "}
+      {partnerlinks && (
+        <a href="#partnerlinks" className="text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600">
+          Enthält Partnerlinks (*)
         </a>
       )}
     </p>
@@ -112,7 +121,7 @@ export function Quellen({ html }: { html: string }) {
       <h2 className="text-xl font-semibold text-stone-900 mb-3">Quellen</h2>
       <div
         className="prose prose-sm prose-stone max-w-none text-stone-600 prose-li:my-1 prose-ol:pl-5 prose-ul:pl-5 marker:text-stone-400 prose-a:text-stone-700 prose-a:underline prose-a:decoration-stone-300 prose-a:underline-offset-2 hover:prose-a:text-accent-700 break-words"
-        dangerouslySetInnerHTML={{ __html: bereiteArtikelHtmlVor(html) }}
+        dangerouslySetInnerHTML={{ __html: bereiteArtikelHtmlVor(html, { partner: false }) }}
       />
     </section>
   );
@@ -120,7 +129,7 @@ export function Quellen({ html }: { html: string }) {
 
 export function AffiliateHinweis() {
   return (
-    <p className="mt-10 text-xs text-stone-500">
+    <p id="partnerlinks" className="mt-10 scroll-mt-24 text-xs text-stone-500">
       * Partnerlink. Kaufst du darüber, bekommen wir eine kleine Provision. Am Preis ändert das für dich nichts.
     </p>
   );

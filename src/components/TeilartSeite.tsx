@@ -179,7 +179,7 @@ export default async function TeilartSeite({ ta }: { ta: Teilart }) {
                       data-kennung={p.ean ?? p.name}
                       className="text-sm text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600"
                     >
-                      {formatEuro(angebot.preis!)} bei {angebot.shop_name} →
+                      {formatEuro(angebot.preis!)} bei {angebot.shop_name}* →
                     </a>
                   )}
                   {p.amazon_asin && (

@@ -63,25 +63,6 @@ export default function ImpressumPage() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold leading-tight mb-3">EU-Streitschlichtung</h2>
-        <p className="text-stone-700 leading-relaxed">
-          Die Europäische Kommission stellt eine Plattform zur
-          Online-Streitbeilegung (OS) bereit:{" "}
-          <a
-            href="https://ec.europa.eu/consumers/odr/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-accent-600 hover:text-accent-700 break-all"
-          >
-            https://ec.europa.eu/consumers/odr/
-          </a>
-        </p>
-        <p className="text-stone-700 mt-2">
-          Unsere E-Mail-Adresse finden Sie oben im Impressum.
-        </p>
-      </section>
-
-      <section className="mb-8">
         <h2 className="text-2xl font-semibold leading-tight mb-3">
           Verbraucherstreitbeilegung / Universalschlichtungsstelle
         </h2>
@@ -97,8 +78,8 @@ export default function ImpressumPage() {
           Hinweis zu Affiliate-Links
         </h2>
         <p className="text-stone-700 leading-relaxed mb-3">
-          Diese Website enthält sogenannte Affiliate-Links zu Amazon und
-          weiteren Partnershops. Wenn Sie auf einen solchen Link klicken und
+          Diese Website enthält sogenannte Affiliate-Links zu Amazon, eBay und
+          weiteren Partnershops (über Awin). Sie sind mit * gekennzeichnet. Wenn Sie auf einen solchen Link klicken und
           über diesen Link einkaufen, erhalten wir vom jeweiligen Shop eine
           Provision. Für Sie verändert sich der Preis nicht.
         </p>

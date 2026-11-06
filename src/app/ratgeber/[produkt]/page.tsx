@@ -7,7 +7,7 @@ import ArticleContent from "@/components/ArticleContent";
 import Auswahlhilfe, { type AuswahlModell, type KaufLink } from "@/components/Auswahlhilfe";
 import { AffiliateHinweis, ArtikelPfad, ArtikelRahmen, HaeufigeFragen, KaputtVerweise, KurzeAntwort, ProduktKacheln, Pruefvermerk, Quellen } from "@/components/Ratgeber";
 import { angeboteFuerEans, bildAusAngeboten, normEan, VERLINKTE_ANGEBOTE, type EanAngebot } from "@/lib/kaufberatung";
-import { mitTrackingId } from "@/lib/affiliate";
+import { enthaeltPartnerlinks, mitTrackingId } from "@/lib/affiliate";
 import { produktDaten as datenAus, type RatgeberDaten } from "@/lib/armatur-daten";
 import { mitAnkern, zerlegeArtikel, type Gliederungspunkt } from "@/lib/artikel-aufbau";
 import { ersatzteilVerweise } from "@/lib/ersatzteil-verweise";
@@ -136,6 +136,7 @@ export default async function ProduktRatgeberSeite({ params }: { params: { produ
     ...(aufbau.fragen.length > 0 ? [{ id: "fragen", titel: "Häufige Fragen" }] : []),
     ...(aufbau.quellen ? [{ id: "quellen", titel: "Quellen" }] : []),
   ];
+  const hatPartnerlinks = modelle.some((m) => m.kauf.length > 0) || enthaeltPartnerlinks(`${aufbau.einstieg ?? ""}${rumpf.html}`);
   const fussnote = [
     "Maße und Ausstattung laut Hersteller.",
     preisStand ? `Bilder und Preise von den Partnershops, inkl. MwSt., zzgl. Versand, Stand ${formatStand(preisStand)} Uhr.` : null,
@@ -172,7 +173,7 @@ export default async function ProduktRatgeberSeite({ params }: { params: { produ
               </div>
             )}
             <div className="mt-6">
-              <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} methode={aufbau.ohneTest ? "Datenblattvergleich, kein Test" : null} />
+              <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} methode={aufbau.ohneTest ? "Datenblattvergleich, kein Test" : null} partnerlinks={hatPartnerlinks} />
             </div>
           </header>
         }
@@ -191,7 +192,7 @@ export default async function ProduktRatgeberSeite({ params }: { params: { produ
 
       <HaeufigeFragen fragen={aufbau.fragen} />
       {aufbau.quellen && <Quellen html={aufbau.quellen} />}
-      {modelle.some((m) => m.kauf.length > 0) && <AffiliateHinweis />}
+      {hatPartnerlinks && <AffiliateHinweis />}
       </ArtikelRahmen>
     </>
   );
