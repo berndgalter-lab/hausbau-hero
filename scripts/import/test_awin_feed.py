@@ -110,10 +110,25 @@ class FeedTest(unittest.TestCase):
         alt = af.holen
         af.holen = lambda *a, **k: liste.encode()
         try:
-            ids = af.feed_ids("KEY", {"hagebau": "9", "contorion": "8"})
+            ids = af.feed_ids("KEY", {"hagebau": "9", "contorion": "8", "megabad": "7"})
         finally:
             af.holen = alt
         self.assertEqual(ids["otto"], "2")  # nicht der größere Mode-Feed
+
+    def test_megabad(self):
+        # Megabad: kein mpn/brand_name, Nummer im Namen, Bild nur auf Cloudinary, aw_image_url ist Awins Platzhalter
+        megabad = next(s for s in af.SHOPS if s["slug"] == "megabad")
+        self.assertEqual(megabad["advertiser_id"], 102421)
+        r = zeile(product_name="Geberit Füllventil Typ 383 UP, Montagezubehör, 240.705.00.5,", merchant_product_id="M1",
+                  aw_deep_link="https://www.awin1.com/pclick.php?p=1&a=930939&m=102421", search_price="27.99",
+                  in_stock="1", delivery_time="in stock",
+                  large_image="https://www-megabad-com-res.cloudinary.com/image/upload/f_auto/m1.jpg",
+                  aw_image_url="https://images2.productserve.com/noimage.gif")
+        self.assertEqual(self.index.treffer(r), [("t3", "nummer")])
+        self.assertEqual(af.bild(r), "https://www-megabad-com-res.cloudinary.com/image/upload/f_auto/m1.jpg")
+        self.assertIsNone(af.bild(dict(r, large_image="")))
+        self.assertIsNone(af.bild(dict(r, large_image="https://www.megabad.com/sites/images/no-image-de.svg")))
+        self.assertFalse(af.vorraetig(dict(r, delivery_time="out of stock")))
 
     def test_ean_schlaegt_nummer(self):
         a = self.beste["t1"]
