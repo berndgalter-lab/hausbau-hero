@@ -142,7 +142,7 @@ export default async function Home() {
                     {SUCHBEISPIELE.map((b, i) => (
                       <span key={b}>
                         {i > 0 && ", "}
-                        <a href={`/ersatzteile?q=${encodeURIComponent(b)}`} className={`${/\d/.test(b) ? "font-mono " : ""}text-stone-700 underline decoration-stone-300 underline-offset-2 hover:text-accent-700`}>
+                        <a href={`/ersatzteile?q=${encodeURIComponent(b)}&von=beispiel`} className={`${/\d/.test(b) ? "font-mono " : ""}text-stone-700 underline decoration-stone-300 underline-offset-2 hover:text-accent-700`}>
                           {b}
                         </a>
                       </span>

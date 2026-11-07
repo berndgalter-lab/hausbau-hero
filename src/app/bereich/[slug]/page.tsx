@@ -119,7 +119,7 @@ export default async function BereichSeite({ params }: Props) {
             {d.teile.map((t) => (
               <li key={t.teiltyp}>
                 <a
-                  href={`/ersatzteile?q=${encodeURIComponent(TEILTYP_SUCHWORT[t.teiltyp] ?? TEILTYP_LABEL[t.teiltyp] ?? t.teiltyp)}`}
+                  href={`/ersatzteile?q=${encodeURIComponent(TEILTYP_SUCHWORT[t.teiltyp] ?? TEILTYP_LABEL[t.teiltyp] ?? t.teiltyp)}&von=bereich`}
                   className="inline-block px-4 py-2 bg-stone-100 rounded-full text-stone-800 transition-colors hover:bg-accent-50 hover:text-accent-800"
                 >
                   {TEILTYP_LABEL[t.teiltyp] ?? t.teiltyp} <span className="text-stone-400">{t.anzahl}</span>

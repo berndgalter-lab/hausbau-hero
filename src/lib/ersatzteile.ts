@@ -458,17 +458,41 @@ export async function problemNachSlug(slug: string): Promise<Problem | null> {
 }
 
 /** Suche nach Artikelnummer, EAN oder Name. Punkte, Leerzeichen und Bindestriche in Nummern zählen nicht. */
+/** Filter für ein Suchwort: im Namen, in der Nummer, in der EAN oder im Namen der Marke. */
+function wortFilter(wort: string, marken: Marke[]): string[] {
+  const filter = [`name.ilike.*${wort}*`, `oem_nummer.ilike.*${wort}*`, `ean.ilike.*${wort}*`];
+  const nurZiffern = wort.replace(/[\s.\-/]/g, "");
+  if (/^\d{4,}$/.test(nurZiffern)) {
+    // "240705001" findet auch "240.705.00.1"
+    filter.push(`oem_nummer.ilike.*${nurZiffern.split("").join("*")}*`);
+  }
+  // „Braukmann“ steht nicht im Teilenamen, aber im Namen der Marke „Resideo (Honeywell, Braukmann)“
+  const klein = wort.toLowerCase();
+  const ids = marken.filter((m) => m.name.toLowerCase().includes(klein) || m.slug.includes(klein)).map((m) => m.id);
+  if (ids.length > 0) filter.push(`marke_id.in.(${ids.join(",")})`);
+  // „Brauseköpfe“ findet den Teiltyp brausekopf, auch wenn das Wort so nicht im Namen steht
+  const typen = Object.entries(TEILTYP_LABEL)
+    .filter(([typ, label]) => klein.length >= 4 && (typ.includes(klein) || label.toLowerCase().includes(klein)))
+    .map(([typ]) => typ);
+  if (typen.length > 0) filter.push(`teiltyp.in.(${typen.join(",")})`);
+  return filter;
+}
+
+/**
+ * Teilesuche: Eine Nummer mit Leerzeichen oder Punkten („240 705 00 1“) zählt als ein Begriff. Sonst muss jedes Wort
+ * passen, aber nicht am Stück: „hansgrohe brausekopf“ findet Brauseköpfe von hansgrohe.
+ */
 export async function sucheTeile(q: string): Promise<Teil[]> {
   const roh = q.trim().slice(0, 60);
   if (roh.length < 2) return [];
-  const sauber = roh.replace(/[%_,()]/g, " ").trim();
-  const nurZiffern = sauber.replace(/[\s.\-/]/g, "");
-  const filter = [`name.ilike.%${sauber}%`, `oem_nummer.ilike.%${sauber}%`, `ean.ilike.%${sauber}%`];
-  if (/^\d{4,}$/.test(nurZiffern)) {
-    // "240705001" findet auch "240.705.00.1"
-    const muster = nurZiffern.split("").join("%");
-    filter.push(`oem_nummer.ilike.%${muster}%`);
-  }
-  const { data } = await supabase.from("teile").select("*").or(filter.join(",")).limit(30);
+  const sauber = roh.replace(/[%_,()*]/g, " ").replace(/\s+/g, " ").trim();
+  const istNummer = /^[\d\s.\-/]+$/.test(sauber);
+  const woerter = (istNummer ? [sauber] : sauber.split(" ")).filter((w) => w.length >= 2).slice(0, 5);
+  if (woerter.length === 0) return [];
+  const marken = await alleMarken();
+  // Je Wort eine Oder-Gruppe, alle Gruppen müssen passen
+  const gruppen = woerter.map((w) => `or(${wortFilter(w, marken).join(",")})`);
+  const { data, error } = await supabase.from("teile").select("*").or(`and(${gruppen.join(",")})`).order("name").limit(30);
+  if (error) console.error("[Suche]", error.message);
   return (data as Teil[]) ?? [];
 }
