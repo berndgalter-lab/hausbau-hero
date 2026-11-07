@@ -336,7 +336,7 @@ export default function DatenschutzPage() {
         <h3 className="text-lg font-semibold mt-5 mb-2">Awin-Partnerprogramm</h3>
         <p className="text-stone-700 leading-relaxed mb-3">
           Links zu weiteren Shops (z.B. hagebau.de, Contorion, Otto, Megabad) laufen über das
-          Partnernetzwerk Awin (Awin AG, Landsberger Allee 104 BC, 10249
+          Partnernetzwerk Awin (Awin AG, Otto-Ostrowski-Straße 1A, 10249
           Berlin). Klicken Sie auf einen solchen Link, setzt Awin
           Tracking-Cookies und nutzt nach eigenen Angaben auch Journey Tags und
           Device Fingerprinting, um einen Kauf unserer Website zuzuordnen. Awin
