@@ -105,6 +105,7 @@ Vorbild ist womo-teile (`/ratgeber/dieselheizung`): Die Seite beantwortet „Wel
 | 1 | Überschrift als Frage | `titel` in der Meta-Datei |
 | 2 | Einstieg, 2–3 Sätze mit Zahlen | Absätze vor der ersten `<h2>` |
 | 3 | Prüfvermerk: Stand · „Datenblattvergleich, kein Test“ · Zahl der Quellen | `<p><em>Hinweis: … (Stand: …)</em></p>` und die Liste unter „Quellen“ |
+| 3a | Modellkacheln mit Bild und Preis, darüber die erste Frage der Auswahlhilfe als Knöpfe (Klick wählt und springt zur Auswahlhilfe). Stehen vor „Kurz gesagt“, damit im ersten Bildschirm Produkte zu sehen sind | `ProduktKacheln`, `Schnellwahl` |
 | 4 | Kurz gesagt: 3–4 Sätze | `<h2>Kurz gesagt</h2>` |
 | 5 | **Auswahlhilfe** (Hauptteil): Fragen mit „egal“, darunter die passenden Modelle mit Bild, Eckdaten, „Passt für“, Kaufzeile; aufklappbar Beschreibung, „Spricht dafür“, „Worauf achten“ | Fragen in `produkt-ratgeber.ts`, Produkte aus `<slug>.produkte.json`, Bild und Preis aus den Partner-Feeds über die EAN |
 | 6 | Kurzer Erklärteil: nur, was die Auswahl nicht schon sagt | übrige `<h2>`-Abschnitte |
@@ -250,7 +251,7 @@ Ein Teil, das in vielen Marken steckt, markenübergreifend erklärt: Eckventil, 
 }
 ```
 
-- **Reihenfolge auf der Seite:** Titel, kurze Antwort, Sprungmarken, „So findest du den/die/das passende …“ (Schritte), Größentabelle, passende Produkte mit Bild und Preis, unsere Originalteile nach Marke, Probleme, Fragen, Link zum Bereich, Quellen eingeklappt.
+- **Reihenfolge auf der Seite:** Titel, kurze Antwort, Sprungmarken, passende Produkte als Kacheln mit Bild und Preis (die ersten acht, mit Foto zuerst, Rest aufklappbar; ohne Foto die Zeichnung der Teileart), „So findest du den/die/das passende …“ (Schritte), Größentabelle, unsere Originalteile nach Marke, Probleme, Fragen, Link zum Bereich, Quellen eingeklappt.
 - **genus** (`m`/`f`/`n`) steuert „den passenden Perlator“, „die passende Kartusche“, „das passende Eckventil“.
 - **marken** (optional, Marken-Slugs) begrenzt „nach Marke“ auf diese Marken. Nötig, wenn ein Teiltyp in mehreren Bereichen vorkommt: `dichtung` steckt in Armaturen und in Dachfenstern, die Seite `dachfenster-dichtung` zeigt nur VELUX und Roto.
 - **Produkte:** nur mit EAN (für Bild und Preis aus `ean_angebote`) oder geprüfter ASIN der Produktseite. Ohne Preis und ohne ASIN erscheint ein Produkt nicht.
@@ -277,7 +278,8 @@ Ein Teil, das in vielen Marken steckt, markenübergreifend erklärt: Eckventil, 
 ```
 
 - **Slug** nach dem häufigsten Suchwort („wasserhahn-tropft“, nicht „armatur-tropft“).
-- **Reihenfolge:** Titel, Symptom, Ursachen nach Häufigkeit (mit Link zur Teileart), Prüfschritte, Grenze zum Installateur, Varianten nach Marke, Fragen, Neukauf-Hinweis, Bereich, Quellen.
+- **Reihenfolge:** Titel, Symptom, Kasten „Meist steckt eins dieser Teile dahinter“ (bis zu drei Teilearten der Ursachen mit Zeichnung und Häufigkeit), Ursachen nach Häufigkeit (mit Link zur Teileart), Prüfschritte, Grenze zum Installateur, Varianten nach Marke, Fragen, Neukauf-Hinweis, Bereich, Quellen.
+- Die **Markenvariante** (Tabelle `probleme`) zeigt nach dem Symptom „Das brauchst du wahrscheinlich“: bis zu drei Originalteile der Ursachen mit Nummer und Preis. Ein Foto nur zusammen mit dem Angebot desselben Shops, sonst die Zeichnung (`zeichnungFuerTeiltyp` in `src/lib/teilarten.ts`). Dieselbe Zeichnung steht auf Teileseiten ohne Foto, beschriftet „Skizze, kein Foto des Teils“.
 - Die Startseite verlinkt „Etwas funktioniert nicht“ auf diese Seiten, sobald es sie gibt (`HAEUFIG` in `src/app/page.tsx`), vorher auf den Bereich.
 
 **Bereiche:** Ein Bereich erscheint erst, wenn er Inhalt hat (Modelle, Ratgeber, Teilearten oder Probleme). „Wasseranschluss & Leitung“ ist angelegt und wird sichtbar, sobald die erste Teileart (Eckventil) oder das erste Problem dort steht. Der Druckminderer gehört seit dem 5. November 2026 zu „Wasserfilter & Enthärtung“, weil er mit dem Filter in derselben Hauswasserstation sitzt (`KEYWORDS-WASSERFILTER.md`, Abschnitt 5).

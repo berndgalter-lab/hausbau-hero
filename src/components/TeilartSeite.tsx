@@ -1,3 +1,4 @@
+import { TeilartBild } from "@/components/BereichBild";
 import TeilBild from "@/components/TeilBild";
 import { Absaetze, Brotkrumen, JsonLd, MarkenFragen, Quellen, brotkrumenLd } from "@/components/Ersatzteile";
 import { AFFILIATE_REL, mitTrackingId } from "@/lib/affiliate";
@@ -14,10 +15,10 @@ import {
   zeigePreis,
   type Teil,
 } from "@/lib/ersatzteile";
-import { angeboteFuerEans, bildAusAngeboten, normEan } from "@/lib/kaufberatung";
+import { angeboteFuerEans, bildAusAngeboten, normEan, type EanAngebot } from "@/lib/kaufberatung";
 import { alleProblemeAllgemein } from "@/lib/probleme-allgemein";
 import { supabase } from "@/lib/supabase";
-import { denPassenden, zumZur, type Teilart } from "@/lib/teilarten";
+import { denPassenden, zumZur, type Teilart, type TeilartProdukt } from "@/lib/teilarten";
 
 function Abschnitt({ id, titel, intro, children }: { id: string; titel: string; intro?: string; children: React.ReactNode }) {
   return (
@@ -29,8 +30,60 @@ function Abschnitt({ id, titel, intro, children }: { id: string; titel: string; 
   );
 }
 
-// Teileart-Seite (docs/SEITENAUFBAU.md, Abschnitt 4b): erst erkennen und Größe bestimmen, dann passende
-// Produkte mit Preis, dann unsere Teile nach Marke, Probleme, Fragen, Quellen. Kauflinks als Textzeilen.
+const ERSTE_PRODUKTE = 8;
+
+type ProduktZeile = { p: TeilartProdukt; angebot: EanAngebot | null; bild: { url: string; shop: string } | null };
+
+function ProduktGitter({ zeilen, ta, bereich }: { zeilen: ProduktZeile[]; ta: Teilart; bereich?: string }) {
+  const zeichnung = (
+    <div className="flex aspect-square w-full items-center justify-center bg-accent-50/70 text-accent-700">
+      <TeilartBild slug={ta.slug} bereich={bereich} className="h-16 w-16" />
+    </div>
+  );
+  return (
+    <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
+      {zeilen.map(({ p, angebot, bild }) => (
+        <li key={p.name} className="flex flex-col overflow-hidden rounded-2xl bg-white ring-1 ring-stone-900/[0.07] shadow-[0_1px_2px_rgba(0,0,0,0.04)]">
+          {bild ? <TeilBild url={bild.url} alt={p.name} fuellen ersatz={zeichnung} /> : zeichnung}
+          <div className="flex grow flex-col gap-1 border-t border-stone-100 p-3">
+            <span className="text-sm font-semibold leading-snug text-stone-900 line-clamp-3">{p.name}</span>
+            {p.hinweis && <span className="text-xs leading-snug text-stone-500 line-clamp-2">{p.hinweis}</span>}
+            <span className="mt-auto flex flex-col gap-0.5 pt-1.5">
+              {angebot && (
+                <a
+                  href={mitTrackingId(angebot.url, "angebot")}
+                  target="_blank"
+                  rel={AFFILIATE_REL}
+                  data-platzierung="angebot"
+                  data-shop={angebot.shop}
+                  data-kennung={p.ean ?? p.name}
+                  className="text-sm font-medium text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600"
+                >
+                  {formatEuro(angebot.preis!)} bei {angebot.shop_name}*
+                </a>
+              )}
+              {p.amazon_asin && (
+                <a
+                  href={mitTrackingId(`https://www.amazon.de/dp/${p.amazon_asin}`, "teil")}
+                  target="_blank"
+                  rel={AFFILIATE_REL}
+                  data-platzierung="teil"
+                  data-kennung={p.amazon_asin}
+                  className="text-sm text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600"
+                >
+                  Amazon*
+                </a>
+              )}
+            </span>
+          </div>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+// Teileart-Seite (docs/SEITENAUFBAU.md, Abschnitt 4b): erst passende Produkte mit Foto und Preis, dann erkennen
+// und Größe bestimmen, dann unsere Teile nach Marke, Probleme, Fragen, Quellen. Kauflinks als Textzeilen.
 export default async function TeilartSeite({ ta }: { ta: Teilart }) {
   const [marken, dbProbleme, teile] = await Promise.all([
     alleMarken(),
@@ -67,7 +120,10 @@ export default async function TeilartSeite({ ta }: { ta: Teilart }) {
     (m, z) => (z.angebot && (!m || z.angebot.stand < m) ? z.angebot.stand : m),
     null,
   );
-  const mitKauf = produktZeilen.filter((z) => z.angebot || z.p.amazon_asin);
+  // Mit Foto zuerst, sonst in der Reihenfolge der Datei
+  const mitKauf = produktZeilen
+    .filter((z) => z.angebot || z.p.amazon_asin)
+    .sort((x, y) => Number(!!y.bild) - Number(!!x.bild));
 
   const allgemein = new Map(alleProblemeAllgemein().map((p) => [p.slug, p]));
   const dbVon = new Map(dbProbleme.map((p) => [p.slug, p]));
@@ -87,9 +143,9 @@ export default async function TeilartSeite({ ta }: { ta: Teilart }) {
     { name: ta.name, href: `/ersatzteile/${ta.slug}` },
   ];
   const sprungmarken = [
+    mitKauf.length > 0 && { href: "#produkte", text: "Passende Produkte" },
     ta.erkennen.length > 0 && { href: "#erkennen", text: "Typ und Größe bestimmen" },
     ta.groessen && { href: "#groessen", text: "Größen" },
-    mitKauf.length > 0 && { href: "#produkte", text: "Passende Produkte" },
     teileJeMarke.length > 0 && { href: "#marken", text: "Nach Marke" },
     probleme.length > 0 && { href: "#probleme", text: "Probleme" },
     ta.fragen.length > 0 && { href: "#fragen", text: `Fragen (${ta.fragen.length})` },
@@ -117,6 +173,29 @@ export default async function TeilartSeite({ ta }: { ta: Teilart }) {
           </nav>
         )}
       </header>
+
+      {/* Wer von Google kommt, soll gleich Produkte sehen: Kacheln mit Foto und Preis vor Erkennen und Größen.
+          Fotos nur aus dem verlinkten Angebot; ohne Foto steht die Zeichnung der Teileart. */}
+      {mitKauf.length > 0 && (
+        <Abschnitt id="produkte" titel={`Passende ${ta.mehrzahl}`} intro="Eine Auswahl gängiger Ausführungen. Vergleiche vor dem Kauf Größe und Anschluss mit dem alten Teil.">
+          <ProduktGitter zeilen={mitKauf.slice(0, ERSTE_PRODUKTE)} ta={ta} bereich={bereich?.slug} />
+          {mitKauf.length > ERSTE_PRODUKTE && (
+            <details className="group mt-3">
+              <summary className="inline-block cursor-pointer list-none text-sm font-medium text-accent-700 hover:text-accent-900">
+                <span className="group-open:hidden">Alle {mitKauf.length} {ta.mehrzahl} zeigen ▾</span>
+                <span className="hidden group-open:inline">Weniger ▴</span>
+              </summary>
+              <div className="mt-3">
+                <ProduktGitter zeilen={mitKauf.slice(ERSTE_PRODUKTE)} ta={ta} bereich={bereich?.slug} />
+              </div>
+            </details>
+          )}
+          <p className="mt-3 text-[11px] leading-snug text-stone-500">
+            * Partnerlinks: Kaufst du darüber, bekommen wir eine Provision. Preise inkl. MwSt.
+            {aeltester && `, Stand ${formatStand(aeltester)} Uhr`}, maßgeblich ist der Shop.
+          </p>
+        </Abschnitt>
+      )}
 
       {ta.erkennen.length > 0 && (
         <Abschnitt id="erkennen" titel={`So findest du ${denPassenden(ta)}`}>
@@ -157,51 +236,6 @@ export default async function TeilartSeite({ ta }: { ta: Teilart }) {
             </table>
           </div>
           {ta.groessen.hinweis && <p className="text-sm text-stone-600 mt-3 max-w-2xl">{ta.groessen.hinweis}</p>}
-        </Abschnitt>
-      )}
-
-      {mitKauf.length > 0 && (
-        <Abschnitt id="produkte" titel={`Passende ${ta.mehrzahl}`} intro="Eine Auswahl gängiger Ausführungen. Vergleiche vor dem Kauf Größe und Anschluss mit dem alten Teil.">
-          <ul className="grid grid-cols-1 border-t border-stone-200 sm:grid-cols-2 sm:gap-x-10 [&>li]:border-b [&>li]:border-stone-200">
-            {mitKauf.map(({ p, angebot, bild }) => (
-              <li key={p.name} className="flex gap-4 py-5">
-                {bild && <TeilBild url={bild.url} alt={p.name} groesse={72} />}
-                <div className="min-w-0 flex flex-col gap-1">
-                  <span className="font-medium text-stone-900">{p.name}</span>
-                  {p.hinweis && <span className="text-sm text-stone-600">{p.hinweis}</span>}
-                  {angebot && (
-                    <a
-                      href={mitTrackingId(angebot.url, "angebot")}
-                      target="_blank"
-                      rel={AFFILIATE_REL}
-                      data-platzierung="angebot"
-                      data-shop={angebot.shop}
-                      data-kennung={p.ean ?? p.name}
-                      className="text-sm text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600"
-                    >
-                      {formatEuro(angebot.preis!)} bei {angebot.shop_name}* →
-                    </a>
-                  )}
-                  {p.amazon_asin && (
-                    <a
-                      href={mitTrackingId(`https://www.amazon.de/dp/${p.amazon_asin}`, "teil")}
-                      target="_blank"
-                      rel={AFFILIATE_REL}
-                      data-platzierung="teil"
-                      data-kennung={p.amazon_asin}
-                      className="text-sm text-accent-700 underline decoration-accent-300 underline-offset-2 hover:decoration-accent-600"
-                    >
-                      Amazon* →
-                    </a>
-                  )}
-                </div>
-              </li>
-            ))}
-          </ul>
-          <p className="mt-3 text-[11px] leading-snug text-stone-500">
-            * Partnerlinks: Kaufst du darüber, bekommen wir eine Provision. Preise inkl. MwSt.
-            {aeltester && `, Stand ${formatStand(aeltester)} Uhr`}, maßgeblich ist der Shop.
-          </p>
         </Abschnitt>
       )}
 

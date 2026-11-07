@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { TeilartBild } from "@/components/BereichBild";
 import TeilBild from "@/components/TeilBild";
+import { zeichnungFuerTeiltyp } from "@/lib/teilarten";
 import NeukaufKasten from "@/components/Neukauf";
 import { neukaufFuerSerien } from "@/lib/neukauf";
 import {
@@ -115,6 +117,16 @@ export default async function TeilSeite({ params }: Props) {
     { name: teil.name, href: `/teil/${teil.slug}` },
   ];
   const masse = Object.entries(teil.masse ?? {});
+  // Ohne Foto die Zeichnung der Teileart, damit oben nicht nur Text steht.
+  const zeichnung = zeichnungFuerTeiltyp(teil.teiltyp, marke.slug);
+  const skizze = zeichnung && (
+    <figure className="shrink-0" style={{ width: 200 }}>
+      <div className="flex h-[200px] w-[200px] items-center justify-center rounded-xl bg-accent-50/70 text-accent-700">
+        <TeilartBild slug={zeichnung.slug} bereich={zeichnung.bereich} className="h-28 w-28" />
+      </div>
+      <figcaption className="mt-1 text-[11px] text-stone-400">Skizze, kein Foto des Teils</figcaption>
+    </figure>
+  );
 
   const zeilen: [string, React.ReactNode][] = [
     ["Marke", marke.name],
@@ -142,7 +154,7 @@ export default async function TeilSeite({ params }: Props) {
           {teil.beschreibung && <p className="mt-5 max-w-2xl text-lg text-stone-700 leading-relaxed">{teil.beschreibung}</p>}
 
           <section className="mt-10 grid gap-8 sm:grid-cols-[auto_1fr]">
-            <TeilBild url={bild?.url ?? null} alt={teil.name} shop={bild?.shop?.shop_name ?? null} groesse={200} />
+            <TeilBild url={bild?.url ?? null} alt={teil.name} shop={bild?.shop?.shop_name ?? null} groesse={200} ersatz={skizze} />
             <div className="min-w-0">
               <h2 className="font-sans text-base font-semibold text-stone-900 mb-2">Steckbrief</h2>
               <dl className="divide-y divide-stone-200 border-y border-stone-200 text-sm">

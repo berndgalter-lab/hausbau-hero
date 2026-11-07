@@ -468,6 +468,14 @@ const TEILART_ZEICHNUNG: Record<string, React.ReactNode> = {
       <path d="M22 76h52" strokeDasharray="2 4" />
     </>
   ),
+  // Keine Teileart, aber häufiger Teiltyp ohne Foto (O-Ringe, Flachdichtungen)
+  dichtung: (
+    <>
+      <circle cx="48" cy="48" r="30" />
+      <circle cx="48" cy="48" r="18" />
+      <path d="M30 70l-6 6M66 70l6 6" strokeDasharray="2 4" />
+    </>
+  ),
   "druckminderer-einsatz": (
     <>
       <rect x="32" y="14" width="32" height="16" rx="3" />

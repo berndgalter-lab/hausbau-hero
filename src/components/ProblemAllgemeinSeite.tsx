@@ -1,4 +1,5 @@
 import NeukaufKasten from "@/components/Neukauf";
+import { TeilartenKasten } from "@/components/ProblemTeile";
 import { Brotkrumen, JsonLd, MarkenFragen, Quellen, brotkrumenLd } from "@/components/Ersatzteile";
 import { bereichNachSlug, neukaufBereich } from "@/lib/bereiche";
 import { alleMarken, alleProbleme } from "@/lib/ersatzteile";
@@ -38,6 +39,8 @@ export default async function ProblemAllgemeinSeite({ p }: { p: ProblemAllgemein
       <p className="ueberzeile mb-3">Problemlöser</p>
       <h1 className="text-[2.25rem] sm:text-5xl leading-[1.1] font-semibold mb-4">{p.titel}</h1>
       <p className="text-lg text-stone-700 mb-10 leading-relaxed">{p.symptom}</p>
+
+      <TeilartenKasten ursachen={p.ursachen} />
 
       {p.ursachen.length > 0 && (
         <section className="mb-12">
