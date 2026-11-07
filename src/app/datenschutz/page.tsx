@@ -259,6 +259,12 @@ export default function DatenschutzPage() {
           Besuchern speichern wir dort nicht.
         </p>
         <p className="text-stone-700 leading-relaxed mb-3">
+          Wenn Sie die Teilesuche benutzen, speichern wir den eingegebenen Suchbegriff mit der Zahl der
+          Treffer und dem Zeitpunkt, damit wir sehen, welche Teile noch fehlen. IP-Adresse, Browserangaben
+          oder andere Daten, die auf Sie schließen lassen, speichern wir dazu nicht. Geben Sie bitte keine
+          persönlichen Angaben in das Suchfeld ein.
+        </p>
+        <p className="text-stone-700 leading-relaxed mb-3">
           Die Berechnungsergebnisse der Materialrechner werden nicht serverseitig
           gespeichert. Alle Eingaben werden ausschließlich im Browser des Nutzers
           verarbeitet.

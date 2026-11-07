@@ -73,6 +73,13 @@ Im Code durchgesetzt, gilt für alle Seiten (alte Beiträge eingeschlossen):
 
 **Startseite:** oben zwei Einstiege, „Teil oder Artikelnummer“ (Suche mit zwei echten Nummern als Beispiel) und „Etwas funktioniert nicht“ (häufige Symptome, je mit Link auf den Bereich). Darunter eine Zeile mit der Zahl der Teile und Marken aus der Datenbank. Daneben „Häufig gesucht“: neun Teilearten als Kacheln mit Zeichnung (`GESUCHT` in `src/app/page.tsx`, aus jedem Hauptbereich etwas), damit man im ersten Bildschirm sieht, dass es um Ersatzteile geht. Danach „Wo ist das Problem?“ als Kacheln mit Strichzeichnung je Bereich, Marken als Kacheln mit Zahl der Teile, „Neu kaufen statt reparieren“ mit Produktbild aus den Partner-Feeds, „So funktioniert es“ mit den Grundsätzen, Rechner und ein kurzer Absatz. Kein langer Text, keine Listen aller Beiträge.
 
+**Teilesuche** (`/ersatzteile?q=…`, `sucheTeile` in `src/lib/ersatzteile.ts`): Eine Nummer mit Leerzeichen oder Punkten zählt als ein Begriff, „240705001“ findet auch „240.705.00.1“. Sonst muss jedes Wort passen, im Namen, in Nummer oder EAN, im Markennamen („Braukmann“) oder im Teiltyp („Brauseköpfe“). Jede Suche landet mit Trefferzahl in der Tabelle `suchanfragen`, ohne Angaben zur Person (`src/lib/suchprotokoll.ts`). Crawler und Links, die selbst eine Suche öffnen, zählen nicht: Bereichsseiten hängen `&von=bereich` an, die Beispiele auf der Startseite `&von=beispiel`. Auswertung im SQL-Editor von Supabase, etwa die Suchen ohne Treffer:
+
+```sql
+select begriff, count(*) as anzahl, max(created_at) as zuletzt
+from suchanfragen where treffer = 0 group by begriff order by anzahl desc, zuletzt desc;
+```
+
 **Bereiche** stehen in `src/lib/bereiche.ts`: Name, Satz für die Kachel, Einleitung, Produkttypen der Serien, Teilearten, Muster für die Problem-Slugs, Ratgeber-Slugs. Die Zeichnung steht in `src/components/BereichBild.tsx` (eine Linienstärke, `currentColor`, kein Foto). Ein Bereich ohne Modelle und ohne Probleme ist `noindex` und fehlt in der Sitemap.
 
 **Hauptbereiche:** Die Bereiche sind nach der Hauskarte aus `docs/BEREICHE-REIHENFOLGE.md` gruppiert (`HAUPTBEREICHE` in `src/lib/bereiche.ts`: Bad & Küche, Wasser & Wärme, Fenster & Türen). Startseite (Bereiche, Marken) und `/ersatzteile` (Marken, Teilearten) zeigen diese Gruppen; eine Marke gehört über die Produkttypen ihrer Serien zu einem oder mehreren Hauptbereichen. Texte auf Startseite, Übersichten, Seitentitel und Vorschaubild sind bereichsneutral, Aufzählungen von Bereichen und Marken werden aus den Daten gebaut. Die Symptome auf der Startseite (`HAEUFIG`) decken jeden Hauptbereich ab; ein Symptom ohne Problemseite und ohne sichtbaren Bereich fällt weg.

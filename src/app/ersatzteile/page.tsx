@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Brotkrumen, JsonLd, KaufButton, brotkrumenLd } from "@/components/Ersatzteile";
 import { DRUECKERPLATTE_KACHEL, MarkenKachel, TeilKachel } from "@/components/Kacheln";
 import SuchFeld from "@/components/SuchFeld";
+import { sucheProtokollieren } from "@/lib/suchprotokoll";
 import { HAUPTBEREICHE, hauptbereichVon } from "@/lib/bereiche";
 import { markenNachHauptbereich } from "@/lib/bereiche-daten";
 import { TEILTYP_LABEL, alleMarken, sucheTeile, teileJeMarke, type Marke } from "@/lib/ersatzteile";
@@ -9,7 +10,7 @@ import { alleTeilarten } from "@/lib/teilarten";
 
 export const revalidate = 3600;
 
-type Props = { searchParams: { q?: string } };
+type Props = { searchParams: { q?: string; von?: string } };
 
 
 export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
@@ -31,6 +32,7 @@ export default async function ErsatzteileUebersicht({ searchParams }: Props) {
     q ? sucheTeile(q) : Promise.resolve([]),
     teileJeMarke().catch(() => new Map<string, { anzahl: number; typen: string[] }>()),
   ]);
+  if (q) await sucheProtokollieren(q, treffer.length, searchParams.von);
   const markeVon = new Map<string, Marke>(marken.map((m) => [m.id, m]));
   const markenGruppen = await markenNachHauptbereich(marken).catch(() => [{ name: "", marken }]);
   // Teilearten nach dem Hauptbereich ihres ersten Bereichs. Gesucht wird eher nach dem Teil als nach der Marke,
