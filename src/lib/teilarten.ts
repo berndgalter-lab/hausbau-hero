@@ -121,3 +121,29 @@ export function teilartNachSlug(slug: string): Teilart | null {
 export function teilartenImBereich(bereich: string): Teilart[] {
   return TEILARTEN.filter((t) => t.bereiche.includes(bereich));
 }
+
+/**
+ * Zeichnung für ein Teil ohne Foto: die Teileart mit diesem Teiltyp, sonst eine ähnliche, die Drückerplatte aus dem
+ * Ratgeber oder die allgemeine Dichtung (src/components/BereichBild.tsx).
+ * Teileart mit Markenliste nur, wenn die Marke dazugehört (Teiltyp „dichtung“ gibt es auch bei Armaturen).
+ */
+// Teiltypen ohne eigene Teileart, die einer anderen ähnlich genug sehen.
+const AEHNLICHE_TEILART: Record<string, string> = {
+  filtertasse: "filtereinsatz",
+  schlauch: "brauseschlauch",
+  brausekopf: "brauseschlauch",
+  scharnier: "wc-sitz-befestigung",
+  absenkautomatik: "wc-sitz-befestigung",
+  siebkoerbchen: "ablaufgarnitur",
+  ueberlauf: "ablaufgarnitur",
+};
+
+export function zeichnungFuerTeiltyp(teiltyp: string, marke?: string): { slug: string; bereich?: string } | null {
+  const ta =
+    TEILARTEN.find((t) => t.teiltypen.includes(teiltyp) && (!t.marken || (marke && t.marken.includes(marke)))) ??
+    (AEHNLICHE_TEILART[teiltyp] ? teilartNachSlug(AEHNLICHE_TEILART[teiltyp]) : null);
+  if (ta) return { slug: ta.slug, bereich: ta.bereiche[0] };
+  if (teiltyp === "betaetigungsplatte") return { slug: "geberit-sigma-drueckerplatte", bereich: "wc-spuelkasten" };
+  if (teiltyp === "dichtung") return { slug: "dichtung" };
+  return null;
+}

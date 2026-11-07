@@ -6,7 +6,8 @@ import { neukaufFuerBereich } from "@/lib/neukauf";
 import { neukaufBereich } from "@/lib/bereiche";
 import { notFound } from "next/navigation";
 import { Brotkrumen, JsonLd, KaufButton, Quellen, brotkrumenLd } from "@/components/Ersatzteile";
-import { SITE_URL, markeNachId, problemNachSlug, teileNachSlugs } from "@/lib/ersatzteile";
+import { SITE_URL, angeboteFuerTeile, markeNachId, problemNachSlug, teileNachSlugs } from "@/lib/ersatzteile";
+import { TeileKasten } from "@/components/ProblemTeile";
 
 export const revalidate = 3600;
 
@@ -54,6 +55,12 @@ export default async function ProblemSeite({ params }: Props) {
     neukaufFuerBereich(neukaufBereich({ problem: p.slug })),
   ]);
   const teilVon = new Map(teile.map((t) => [t.slug, t]));
+  // Die Teile der Ursachen in deren Reihenfolge, für den Kasten oben (die häufigste Ursache steht zuerst).
+  const wahrscheinlich = Array.from(new Set(p.ursachen.flatMap((u) => u.teil_slugs ?? [])))
+    .map((slug) => teilVon.get(slug))
+    .filter((t): t is NonNullable<typeof t> => !!t)
+    .slice(0, 3);
+  const angebote = await angeboteFuerTeile(wahrscheinlich.map((t) => t.id));
   // Die markenübergreifende Seite, die diese Markenvariante aufführt.
   const oben = alleProblemeAllgemein().find((x) => x.marken_probleme.includes(p.slug));
 
@@ -77,6 +84,8 @@ export default async function ProblemSeite({ params }: Props) {
         </p>
       )}
       {p.symptom && <p className="text-lg text-stone-700 mb-10 leading-relaxed">{p.symptom}</p>}
+
+      {marke && <TeileKasten teile={wahrscheinlich} angebote={angebote} marke={marke.slug} />}
 
       {p.ursachen.length > 0 && (
         <section className="mb-12">

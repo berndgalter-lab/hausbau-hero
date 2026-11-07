@@ -336,6 +336,31 @@ export async function alleMarken(): Promise<Marke[]> {
   return (data as Marke[]) ?? [];
 }
 
+/** Zahl aller erfassten Teile, für die Startseite. */
+export async function anzahlTeile(): Promise<number | null> {
+  const { count } = await supabase.from("teile").select("id", { count: "exact", head: true });
+  return count ?? null;
+}
+
+/** Zahl der Teile je Marke und ihre häufigsten Teiltypen, für die Markenkacheln auf /ersatzteile. */
+export async function teileJeMarke(): Promise<Map<string, { anzahl: number; typen: string[] }>> {
+  // Supabase liefert höchstens 1000 Zeilen je Abfrage, darum seitenweise.
+  const zeilen: { marke_id: string; teiltyp: string }[] = [];
+  for (let ab = 0; ; ab += 1000) {
+    const { data } = await supabase.from("teile").select("marke_id, teiltyp").order("id").range(ab, ab + 999);
+    zeilen.push(...((data as typeof zeilen) ?? []));
+    if (!data || data.length < 1000) break;
+  }
+  const ergebnis = new Map<string, { anzahl: number; typen: string[] }>();
+  for (const [markeId, liste] of gruppiere(zeilen, (z) => z.marke_id)) {
+    const typen = gruppiere(liste.filter((z) => z.teiltyp !== "sonstiges"), (z) => z.teiltyp)
+      .sort((a, b) => b[1].length - a[1].length)
+      .map(([typ]) => TEILTYP_LABEL[typ] ?? typ);
+    ergebnis.set(markeId, { anzahl: liste.length, typen });
+  }
+  return ergebnis;
+}
+
 export async function markeNachSlug(slug: string): Promise<Marke | null> {
   const { data } = await supabase.from("marken").select("*").eq("slug", slug).maybeSingle();
   return (data as Marke) ?? null;
