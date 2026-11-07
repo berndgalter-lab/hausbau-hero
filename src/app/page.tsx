@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { BereichKachel, RatgeberKarten } from "@/components/Bereich";
 import { markenNachHauptbereich, ratgeberKarten, sichtbareHauptbereiche } from "@/lib/bereiche-daten";
 import { problemAllgemeinNachSlug } from "@/lib/probleme-allgemein";
-import { alleMarken, anzahlTeile, teileJeMarke } from "@/lib/ersatzteile";
+import { alleMarken, anzahlTeile, teileJeMarke, type MarkenZahl } from "@/lib/ersatzteile";
 import { teilartNachSlug } from "@/lib/teilarten";
 import { DRUECKERPLATTE_KACHEL, MarkenKachel, TeilKachel, type TeilKachelDaten } from "@/components/Kacheln";
 import SuchFeld from "@/components/SuchFeld";
@@ -99,7 +99,7 @@ export default async function Home() {
     ratgeberKarten(RATGEBER_START).catch(() => []),
     sichtbareHauptbereiche(),
     anzahlTeile().catch(() => null),
-    teileJeMarke().catch(() => new Map<string, { anzahl: number; typen: string[] }>()),
+    teileJeMarke().catch(() => new Map<string, MarkenZahl>()),
   ]);
   const gesucht: TeilKachelDaten[] = GESUCHT.flatMap((slug) => {
     if (slug === "drueckerplatte") return [DRUECKERPLATTE_KACHEL];

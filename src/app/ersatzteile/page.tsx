@@ -5,7 +5,7 @@ import SuchFeld from "@/components/SuchFeld";
 import { sucheProtokollieren } from "@/lib/suchprotokoll";
 import { HAUPTBEREICHE, hauptbereichVon } from "@/lib/bereiche";
 import { markenNachHauptbereich } from "@/lib/bereiche-daten";
-import { TEILTYP_LABEL, alleMarken, sucheTeile, teileJeMarke, type Marke } from "@/lib/ersatzteile";
+import { TEILTYP_LABEL, alleMarken, sucheTeile, teileJeMarke, type MarkenZahl, type Marke } from "@/lib/ersatzteile";
 import { alleTeilarten } from "@/lib/teilarten";
 
 export const revalidate = 3600;
@@ -30,7 +30,7 @@ export default async function ErsatzteileUebersicht({ searchParams }: Props) {
   const [marken, treffer, zahlen] = await Promise.all([
     alleMarken(),
     q ? sucheTeile(q) : Promise.resolve([]),
-    teileJeMarke().catch(() => new Map<string, { anzahl: number; typen: string[] }>()),
+    teileJeMarke().catch(() => new Map<string, MarkenZahl>()),
   ]);
   if (q) await sucheProtokollieren(q, treffer.length, searchParams.von);
   const markeVon = new Map<string, Marke>(marken.map((m) => [m.id, m]));
