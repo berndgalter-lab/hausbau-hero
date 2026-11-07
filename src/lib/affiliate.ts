@@ -1,4 +1,4 @@
-// Zentrale Behandlung von Affiliate-Links: Amazon, Awin-Partnershops (hagebau.de, Contorion) und eBay.
+// Zentrale Behandlung von Affiliate-Links: Amazon, Awin-Partnershops (hagebau.de, Contorion, OTTO, Megabad) und eBay.
 //
 // Platzierungen: Produktboxen, Textlinks im Artikel, Rechner-Materiallisten, Ersatzteil-Seiten,
 // Shop-Angebote auf den Teile-Seiten und in Kaufberatungen, Armaturen-Vergleich, Neukauf-Hinweis.
@@ -19,6 +19,7 @@ const AWIN_SHOPS: Record<string, string> = {
   "contorion.de": "14578",
   "otto.de": "14336",
   "hagebau.de": "11513",
+  "megabad.com": "102421",
 };
 
 // eBay Partner Network: Kampagne "hausbau-hero" (die Kampagne "default" gehört zu womo-teile).

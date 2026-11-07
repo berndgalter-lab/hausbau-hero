@@ -1,4 +1,4 @@
-# Täglicher Abgleich der Awin-Feeds (hagebau.de, Contorion, OTTO) mit den Ersatzteilen und den
+# Täglicher Abgleich der Awin-Feeds (hagebau.de, Contorion, OTTO, Megabad) mit den Ersatzteilen und den
 # Produkten der Kaufberatungen.
 # Logik und Regeln: scripts/import/awin_feed.py
 #

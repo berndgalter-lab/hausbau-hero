@@ -9,6 +9,8 @@ Shops (Awin-Publisher 930939, alle Partnerschaften aktiv):
     hagebau.de   Advertiser 11513
     Contorion    Advertiser 14578
     OTTO         Advertiser 14336 (nur der Feed „Wohnen, Spielzeug und Baumarkt“)
+    Megabad      Advertiser 102421 (Feed „Default“, ohne mpn/brand_name: Marke und
+                 Herstellernummer stehen im Produktnamen, Bilder nur auf Cloudinary)
 
 KAUFBERATUNGEN: Produkte aus `produkte` mit EAN bekommen ebenfalls Shop-Angebote
 (Tabelle `ean_angebote`, Schlüssel EAN + Shop). Zugeordnet wird dort nur über die
@@ -86,6 +88,7 @@ SHOPS = [
     {"slug": "hagebau", "name": "hagebau.de", "advertiser_id": 11513},
     {"slug": "contorion", "name": "Contorion", "advertiser_id": 14578},
     {"slug": "otto", "name": "OTTO", "advertiser_id": 14336, "feed_name": "Baumarkt"},
+    {"slug": "megabad", "name": "Megabad", "advertiser_id": 102421},
 ]
 
 SPALTEN = [
@@ -225,6 +228,9 @@ def bild(r):
         url = (r.get(k) or "").strip()
         if url.startswith("http://") and k == "aw_image_url":
             url = "https://" + url[len("http://"):]
+        # Platzhalter sind kein Produktbild: Awins noimage.gif, Megabads no-image-de.svg.
+        if re.search(r"no-?image", url, re.I):
+            continue
         if url and host_erlaubt(url):
             return url
     return None

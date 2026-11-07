@@ -195,7 +195,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             <div className="mt-12 flex flex-col gap-4 border-t border-stone-800 pt-6 text-xs text-stone-500 md:flex-row md:items-start md:justify-between">
               <p className="max-w-2xl leading-relaxed">
                 © {new Date().getFullYear()} Hausbau Hero, BG Online Media UG. Als Amazon-Partner verdienen wir an
-                qualifizierten Verkäufen. Links zu weiteren Shops (z. B. hagebau.de, Contorion, Otto) sind Partnerlinks über
+                qualifizierten Verkäufen. Links zu weiteren Shops (z. B. hagebau.de, Contorion, Otto, Megabad) sind Partnerlinks über
                 Awin, Links zu eBay laufen über das eBay Partner Network. Mit * markierte Links sind Partnerlinks, am Preis
                 ändert sich für dich nichts.
               </p>

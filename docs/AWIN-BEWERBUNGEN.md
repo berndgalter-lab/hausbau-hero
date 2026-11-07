@@ -6,9 +6,10 @@ Stand: 5. November 2026, Publisher-Konto 930939. Status unten per Awin-API (`/pu
 
 - **Angenommen aus Welle 1:** Jackery (30415, 05.11., 8 % Basis), ALLPOWERS (67914, 04.11.).
 - **Abgelehnt aus Welle 1:** EcoFlow („monatliche Seitenaufrufe zu gering“, 05.11.), STIHL („Seite passt nicht zur Marke“, 05.11.), Befestigungsfuchs („arbeitet nicht mit diesem Publisher-Typ“, 04.11.). EcoFlow erst wieder bei deutlich mehr Traffic, STIHL nach echten Werkzeugvergleichen, Befestigungsfuchs nicht erneut.
-- **Noch offen:** Megabad, Reuter, Trotec, Toolbrothers, Werkzeugstore24, Globus, OBI. Dazu aus dem Camping-Bereich Camping and Co, ECTIVE, Knaus Ersatzteile.
+- **Angenommen danach:** Megabad (102421, Zusage bis 07.11.). Feed 97800 „Default“ (rund 201.000 Produkte) läuft seit 07.11. im Feed-Abgleich mit (`scripts/import/awin_feed.py`).
+- **Noch offen:** Reuter, Trotec, Toolbrothers, Werkzeugstore24, Globus, OBI. Dazu aus dem Camping-Bereich Camping and Co, ECTIVE, Knaus Ersatzteile.
 - **Gesperrt (suspended):** CampingWagner, Conrad Electronic, toom Baumarkt. Keiner davon ist auf den Seiten verlinkt (Stand 05.11.).
-- **Aktiv insgesamt (13):** ALLPOWERS, Camping Info, Contorion, Eurocamp, Fritz Berger, Jackery, Jungheinrich PROFISHOP, MeineTrenntoilette, OTTO, TUI Camper, babymarkt, hagebau, scheppach.
+- **Aktiv insgesamt (14):** ALLPOWERS, Camping Info, Contorion, Eurocamp, Fritz Berger, Jackery, Jungheinrich PROFISHOP, Megabad, MeineTrenntoilette, OTTO, TUI Camper, babymarkt, hagebau, scheppach.
 
 ## So bewerben
 

@@ -283,7 +283,7 @@ export default function DatenschutzPage() {
         <h3 className="text-lg font-semibold mt-5 mb-2">Affiliate-Links</h3>
         <p className="text-stone-700 leading-relaxed mb-3">
           Bei Klick auf einen Affiliate-Link werden Sie an einen externen
-          Shop (z.B. Amazon.de, hagebau.de, Contorion, Otto oder eBay) weitergeleitet. Der Link
+          Shop (z.B. Amazon.de, hagebau.de, Contorion, Otto, Megabad oder eBay) weitergeleitet. Der Link
           enthält eine Kennung unserer Website und die Stelle, an der er
           stand (z.B. Seitenart und Seitenname), damit der Shop bzw. das
           Partnernetzwerk einen Kauf unserer Website zuordnen kann. Cookies
@@ -335,7 +335,7 @@ export default function DatenschutzPage() {
       <section className="mb-8">
         <h3 className="text-lg font-semibold mt-5 mb-2">Awin-Partnerprogramm</h3>
         <p className="text-stone-700 leading-relaxed mb-3">
-          Links zu weiteren Shops (z.B. hagebau.de, Contorion) laufen über das
+          Links zu weiteren Shops (z.B. hagebau.de, Contorion, Otto, Megabad) laufen über das
           Partnernetzwerk Awin (Awin AG, Landsberger Allee 104 BC, 10249
           Berlin). Klicken Sie auf einen solchen Link, setzt Awin
           Tracking-Cookies und nutzt nach eigenen Angaben auch Journey Tags und
