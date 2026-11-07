@@ -281,6 +281,202 @@ const RATGEBER_ZEICHNUNG: Record<string, React.ReactNode> = {
   ),
 };
 
+// Je Teileart (/ersatzteile/<teilart>) eine eigene Zeichnung für die Kacheln auf /ersatzteile.
+const TEILART_ZEICHNUNG: Record<string, React.ReactNode> = {
+  eckventil: (
+    <>
+      <path d="M14 14v68" />
+      <path d="M14 50h16" />
+      <circle cx="38" cy="50" r="8" />
+      <path d="M38 42V30M28 26h20" />
+      <path d="M46 50h10a6 6 0 0 1 6 6v26" />
+    </>
+  ),
+  fuellventil: (
+    <>
+      <path d="M40 84V32" />
+      <path d="M32 84h16" />
+      <rect x="32" y="18" width="16" height="14" rx="3" />
+      <path d="M48 24h22" />
+      <path d="M70 24v18" />
+      <rect x="62" y="42" width="16" height="22" rx="5" />
+    </>
+  ),
+  spuelkasten: (
+    <>
+      <rect x="18" y="14" width="60" height="48" rx="4" />
+      <rect x="38" y="24" width="20" height="12" rx="2" />
+      <path d="M48 24v12" />
+      <path d="M26 50h44" strokeDasharray="2 4" />
+      <path d="M48 62v18M40 80h16" />
+    </>
+  ),
+  "wc-sitz-befestigung": (
+    <>
+      <ellipse cx="48" cy="58" rx="26" ry="24" />
+      <ellipse cx="48" cy="60" rx="14" ry="13" />
+      <rect x="26" y="14" width="44" height="12" rx="4" />
+      <circle cx="34" cy="20" r="2" />
+      <circle cx="62" cy="20" r="2" />
+    </>
+  ),
+  perlator: (
+    <>
+      <rect x="30" y="18" width="36" height="34" rx="5" />
+      <path d="M30 30h36" />
+      <path d="M38 40h20M38 45h20" />
+      <path d="M40 60v8M48 60v16M56 60v8" strokeDasharray="2 4" />
+    </>
+  ),
+  kartusche: (
+    <>
+      <path d="M44 34V18h8v16" />
+      <path d="M40 18h16" />
+      <rect x="28" y="34" width="40" height="38" rx="5" />
+      <path d="M28 46h40" />
+      <path d="M36 72v10M48 72v10M60 72v10" />
+    </>
+  ),
+  siphon: (
+    <>
+      <path d="M22 14h16" />
+      <path d="M30 14v38a18 18 0 0 0 36 0V40h18" />
+      <path d="M84 34v12" />
+    </>
+  ),
+  ablaufgarnitur: (
+    <>
+      <path d="M10 28h76" />
+      <path d="M36 28v6h24v-6" />
+      <path d="M42 34v44M54 34v44" />
+      <path d="M54 54h16V24" />
+      <circle cx="70" cy="20" r="4" />
+    </>
+  ),
+  thermostatkartusche: (
+    <>
+      <path d="M44 20v-6h8v6" />
+      <rect x="36" y="20" width="24" height="62" rx="5" />
+      <path d="M36 34h24M36 68h24" />
+      <path d="M42 46h12M42 52h12M42 58h12" />
+    </>
+  ),
+  brauseschlauch: (
+    <>
+      <path d="M14 84c14 0 18-12 18-24s8-20 22-20 18-8 18-18" />
+      <path d="M62 22l10-10 12 12-10 10z" />
+      <path d="M10 80h8v8h-8z" />
+    </>
+  ),
+  duschablauf: (
+    <>
+      <rect x="18" y="18" width="60" height="60" rx="4" />
+      <path d="M30 34h36M30 48h36M30 62h36" />
+    </>
+  ),
+  "ab-und-ueberlaufgarnitur": (
+    <>
+      <path d="M10 34h76v10a22 22 0 0 1-22 22H32a22 22 0 0 1-22-22z" />
+      <circle cx="74" cy="46" r="5" />
+      <path d="M74 51v27H36v-12" />
+    </>
+  ),
+  "dachfenster-rollo": (
+    <>
+      <path d="M18 20l60-8v64l-60 8z" />
+      <path d="M18 20l60-8v34l-60 8z" />
+      <path d="M18 31l60-8M18 42l60-8" />
+    </>
+  ),
+  "dachfenster-hitzeschutz": (
+    <>
+      <path d="M18 20l60-8v64l-60 8z" />
+      <path d="M26 30l44-6M26 42l44-6M26 54l44-6M26 66l44-6" strokeDasharray="2 4" />
+      <circle cx="80" cy="10" r="4" />
+    </>
+  ),
+  "dachfenster-dichtung": (
+    <>
+      <path d="M18 20l60-8v64l-60 8z" />
+      <path d="M26 27l44-6v50l-44 6z" strokeDasharray="3 4" />
+    </>
+  ),
+  "dachfenster-akku": (
+    <>
+      <rect x="16" y="30" width="56" height="36" rx="5" />
+      <path d="M72 42h8v12h-8" />
+      <path d="M30 48h12M36 42v12M54 48h10" />
+    </>
+  ),
+  filtereinsatz: (
+    <>
+      <path d="M40 18h16v8" />
+      <rect x="30" y="26" width="36" height="54" rx="5" />
+      <path d="M38 34v38M46 34v38M54 34v38" />
+    </>
+  ),
+  regeneriersalz: (
+    <>
+      <path d="M22 34l8-16h36l8 16v40a6 6 0 0 1-6 6H28a6 6 0 0 1-6-6z" />
+      <path d="M22 34h52" />
+      <circle cx="40" cy="56" r="7" />
+      <circle cx="58" cy="60" r="5" />
+    </>
+  ),
+  gurtwickler: (
+    <>
+      <rect x="30" y="14" width="36" height="58" rx="5" />
+      <circle cx="48" cy="34" r="9" />
+      <path d="M44 72v14M52 72v14" />
+    </>
+  ),
+  rollladengurt: (
+    <>
+      <circle cx="36" cy="36" r="18" />
+      <circle cx="36" cy="36" r="6" />
+      <path d="M54 36v48" />
+      <path d="M62 36v48" />
+      <path d="M54 84h8" />
+    </>
+  ),
+  rollladenmotor: (
+    <>
+      <rect x="10" y="38" width="62" height="20" rx="5" />
+      <path d="M72 44h12v8H72" />
+      <path d="M36 42l-4 6h6l-4 6" />
+      <path d="M84 48h4" />
+    </>
+  ),
+  "rollladen-handsender": (
+    <>
+      <rect x="32" y="12" width="32" height="72" rx="7" />
+      <path d="M42 32l6-6 6 6M42 54l6 6 6-6" />
+      <rect x="43" y="39" width="10" height="8" rx="2" />
+    </>
+  ),
+  "rollladen-welle": (
+    <>
+      <path d="M22 40h56v16H22" />
+      <path d="M22 40l-6 3v10l6 3" />
+      <path d="M78 40l6 3v10l-6 3" />
+      <path d="M40 40v16M58 40v16" strokeDasharray="2 3" />
+    </>
+  ),
+  "rollladen-lamellen": (
+    <>
+      <path d="M14 22h68v12H14zM14 40h68v12H14zM14 58h68v12H14z" />
+      <path d="M22 76h52" strokeDasharray="2 4" />
+    </>
+  ),
+  "druckminderer-einsatz": (
+    <>
+      <rect x="32" y="14" width="32" height="16" rx="3" />
+      <path d="M40 30l16 6-16 6 16 6-16 6 16 6" />
+      <rect x="34" y="66" width="28" height="14" rx="3" />
+    </>
+  ),
+};
+
 function Zeichnung({ inhalt, className }: { inhalt: React.ReactNode; className: string }) {
   return (
     <svg
@@ -308,4 +504,10 @@ export function RatgeberBild({ slug, className = "h-10 w-10" }: { slug: string; 
   const bereich = bereichFuerRatgeber(slug);
   const inhalt = RATGEBER_ZEICHNUNG[slug] ?? (bereich && ZEICHNUNG[bereich.slug]) ?? ARMATUR;
   return <Zeichnung inhalt={inhalt} className={className} />;
+}
+
+/** Zeichnung der Teileart, sonst die ihres Bereichs. */
+export function TeilartBild({ slug, bereich, className = "h-12 w-12" }: { slug: string; bereich?: string; className?: string }) {
+  const inhalt = TEILART_ZEICHNUNG[slug] ?? RATGEBER_ZEICHNUNG[slug] ?? (bereich && ZEICHNUNG[bereich]);
+  return inhalt ? <Zeichnung inhalt={inhalt} className={className} /> : null;
 }

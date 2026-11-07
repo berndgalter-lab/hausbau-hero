@@ -1,14 +1,23 @@
 import type { Metadata } from "next";
 import { Brotkrumen, JsonLd, KaufButton, brotkrumenLd } from "@/components/Ersatzteile";
+import { TeilartBild } from "@/components/BereichBild";
 import SuchFeld from "@/components/SuchFeld";
 import { HAUPTBEREICHE, hauptbereichVon } from "@/lib/bereiche";
 import { markenNachHauptbereich } from "@/lib/bereiche-daten";
-import { TEILTYP_LABEL, alleMarken, sucheTeile, type Marke } from "@/lib/ersatzteile";
+import { TEILTYP_LABEL, alleMarken, sucheTeile, teileJeMarke, type Marke } from "@/lib/ersatzteile";
 import { alleTeilarten } from "@/lib/teilarten";
 
 export const revalidate = 3600;
 
 type Props = { searchParams: { q?: string } };
+
+// Drückerplatten haben keine Teileart-Seite, der Ratgeber erklärt sie. Er steht darum bei den Teilen mit.
+const DRUECKERPLATTE = {
+  slug: "geberit-sigma-drueckerplatte",
+  name: "Drückerplatte",
+  href: "/ratgeber/drueckerplatte",
+  bereich: "wc-spuelkasten",
+};
 
 export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
   const basis: Metadata = {
@@ -24,13 +33,22 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
 
 export default async function ErsatzteileUebersicht({ searchParams }: Props) {
   const q = (searchParams.q ?? "").slice(0, 60);
-  const [marken, treffer] = await Promise.all([alleMarken(), q ? sucheTeile(q) : Promise.resolve([])]);
+  const [marken, treffer, zahlen] = await Promise.all([
+    alleMarken(),
+    q ? sucheTeile(q) : Promise.resolve([]),
+    teileJeMarke().catch(() => new Map<string, { anzahl: number; typen: string[] }>()),
+  ]);
   const markeVon = new Map<string, Marke>(marken.map((m) => [m.id, m]));
   const markenGruppen = await markenNachHauptbereich(marken).catch(() => [{ name: "", marken }]);
-  // Teilearten nach dem Hauptbereich ihres ersten Bereichs
-  const teilartGruppen = HAUPTBEREICHE.map((h) => ({
+  // Teilearten nach dem Hauptbereich ihres ersten Bereichs. Gesucht wird eher nach dem Teil als nach der Marke,
+  // darum stehen sie vor den Marken.
+  const teile = alleTeilarten().flatMap((t) => [
+    { slug: t.slug, name: t.name, href: `/ersatzteile/${t.slug}`, bereich: t.bereiche[0] ?? "" },
+    ...(t.slug === "spuelkasten" ? [DRUECKERPLATTE] : []),
+  ]);
+  const teilGruppen = HAUPTBEREICHE.map((h) => ({
     name: h.name,
-    liste: alleTeilarten().filter((t) => hauptbereichVon(t.bereiche[0] ?? "")?.slug === h.slug),
+    liste: teile.filter((t) => hauptbereichVon(t.bereich)?.slug === h.slug),
   })).filter((g) => g.liste.length > 0);
 
   return (
@@ -40,7 +58,7 @@ export default async function ErsatzteileUebersicht({ searchParams }: Props) {
 
       <h1 className="text-[2.25rem] sm:text-5xl leading-[1.1] font-semibold">Ersatzteile finden</h1>
       <p className="text-lg text-stone-600 mt-4 mb-8 max-w-2xl leading-relaxed">
-        Suche nach der Nummer, die auf dem alten Teil steht, oder wähle die Marke oder die Art des Teils.
+        Suche nach der Nummer, die auf dem alten Teil steht, oder wähle unten das Teil oder die Marke.
       </p>
 
       <div id="suche" className="mb-14 scroll-mt-24">
@@ -78,43 +96,23 @@ export default async function ErsatzteileUebersicht({ searchParams }: Props) {
         </section>
       )}
 
-      <section id="marken" className="scroll-mt-24">
-        <h2 className="text-3xl font-semibold leading-tight mb-6">Nach Marke</h2>
-        {marken.length === 0 ? (
-          <p className="text-sm text-stone-600">Die ersten Marken werden gerade erfasst.</p>
-        ) : (
-          markenGruppen.map((g) => (
+      {teilGruppen.length > 0 && (
+        <section id="arten" className="mb-14 scroll-mt-24">
+          <h2 className="text-3xl font-semibold leading-tight mb-6">Nach Teil</h2>
+          {teilGruppen.map((g) => (
             <div key={g.name} className="mb-10">
-              {markenGruppen.length > 1 && <h3 className="ueberzeile mb-4">{g.name}</h3>}
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {g.marken.map((m) => (
-                  <a
-                    key={m.id}
-                    href={`/ersatzteile/${m.slug}`}
-                    className="group block p-6 bg-stone-100/80 rounded-2xl transition-colors hover:bg-accent-50"
-                  >
-                    <div className="font-serif text-2xl font-semibold group-hover:text-accent-700">{m.name}</div>
-                    {m.beschreibung && <p className="text-sm text-stone-600 mt-1 line-clamp-3">{m.beschreibung}</p>}
-                  </a>
-                ))}
-              </div>
-            </div>
-          ))
-        )}
-      </section>
-
-      {teilartGruppen.length > 0 && (
-        <section id="arten" className="mt-6 scroll-mt-24">
-          <h2 className="text-3xl font-semibold leading-tight mb-6">Nach Art des Teils</h2>
-          {teilartGruppen.map((g) => (
-            <div key={g.name} className="mb-10">
-              {teilartGruppen.length > 1 && <h3 className="ueberzeile mb-4">{g.name}</h3>}
-              <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 border-t border-stone-200">
+              {teilGruppen.length > 1 && <h3 className="ueberzeile mb-4">{g.name}</h3>}
+              <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
                 {g.liste.map((t) => (
-                  <li key={t.slug} className="border-b border-stone-200">
-                    <a href={`/ersatzteile/${t.slug}`} className="group flex items-center justify-between gap-3 py-3.5">
-                      <span className="font-semibold text-stone-900 group-hover:text-accent-700">{t.name}</span>
-                      <span aria-hidden className="text-stone-300 group-hover:text-accent-700">→</span>
+                  <li key={t.slug}>
+                    <a
+                      href={t.href}
+                      className="group flex h-full flex-col gap-3 p-3 bg-white rounded-2xl ring-1 ring-stone-900/[0.07] shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow hover:ring-stone-900/20 hover:shadow-[0_12px_32px_-16px_rgba(0,0,0,0.18)]"
+                    >
+                      <span className="flex h-24 items-center justify-center rounded-xl bg-accent-50/70 text-accent-700 transition-colors group-hover:bg-accent-100/70">
+                        <TeilartBild slug={t.slug} bereich={t.bereich} className="h-16 w-16 transition-transform group-hover:scale-105" />
+                      </span>
+                      <span className="px-1 pb-1 font-semibold leading-snug text-stone-900 group-hover:text-accent-700">{t.name}</span>
                     </a>
                   </li>
                 ))}
@@ -123,6 +121,42 @@ export default async function ErsatzteileUebersicht({ searchParams }: Props) {
           ))}
         </section>
       )}
+
+      <section id="marken" className="scroll-mt-24">
+        <h2 className="text-3xl font-semibold leading-tight mb-6">Nach Marke</h2>
+        {marken.length === 0 ? (
+          <p className="text-sm text-stone-600">Die ersten Marken werden gerade erfasst.</p>
+        ) : (
+          markenGruppen.map((g) => (
+            <div key={g.name} className="mb-10">
+              {markenGruppen.length > 1 && <h3 className="ueberzeile mb-4">{g.name}</h3>}
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                {g.marken.map((m) => {
+                  const z = zahlen.get(m.id);
+                  return (
+                    <a
+                      key={m.id}
+                      href={`/ersatzteile/${m.slug}`}
+                      className="group flex flex-col p-4 bg-stone-100/80 rounded-2xl transition-colors hover:bg-accent-50"
+                    >
+                      <span className="flex items-baseline justify-between gap-2">
+                        <span className="text-lg font-semibold leading-snug text-stone-900 group-hover:text-accent-700">{m.name}</span>
+                        <span aria-hidden className="text-stone-300 group-hover:text-accent-700">→</span>
+                      </span>
+                      {z && (
+                        <span className="text-sm text-stone-600 mt-1 leading-snug line-clamp-2">
+                          <span className="font-medium text-stone-900">{z.anzahl} {z.anzahl === 1 ? "Teil" : "Teile"}</span>
+                          {z.typen.length > 0 && <> · {z.typen.slice(0, 2).join(", ")}</>}
+                        </span>
+                      )}
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+          ))
+        )}
+      </section>
     </div>
   );
 }

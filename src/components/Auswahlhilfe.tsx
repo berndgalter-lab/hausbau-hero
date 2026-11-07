@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { RatgeberDaten } from "@/lib/armatur-daten";
 import { modellAnker, ratgeberNachPfad, type AuswahlOption } from "@/lib/produkt-ratgeber";
 import { AFFILIATE_REL } from "@/lib/affiliate";
@@ -98,10 +98,47 @@ function Ergebnis({ m, eckdaten }: { m: AuswahlModell; eckdaten: string[] }) {
   );
 }
 
+// Die Schnellwahl über den Kacheln setzt eine Antwort in der Auswahlhilfe weiter unten.
+const SCHNELLWAHL = "auswahlhilfe-wahl";
+type SchnellwahlDetail = { key: string; index: number };
+
+/** Erste Frage der Auswahlhilfe als Knöpfe über den Kacheln. Ein Klick wählt die Antwort und springt zur Liste. */
+export function Schnellwahl({ pfad }: { pfad: string }) {
+  const frage = ratgeberNachPfad(pfad)?.fragen[0];
+  if (!frage) return null;
+  const waehle = (index: number) => {
+    window.dispatchEvent(new CustomEvent<SchnellwahlDetail>(SCHNELLWAHL, { detail: { key: frage.key, index } }));
+    document.getElementById("auswahl")?.scrollIntoView({ behavior: "smooth" });
+  };
+  return (
+    // Auf dem Handy eine wischbare Zeile, damit die Kacheln weiter oben beginnen.
+    <div className="-mx-5 mb-4 flex items-center gap-2 overflow-x-auto px-5 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:px-0 [&::-webkit-scrollbar]:hidden">
+      <span className="mr-1 shrink-0 text-sm font-semibold text-stone-900">
+        {frage.label}
+        {frage.label.endsWith("?") ? "" : "?"}
+      </span>
+      {frage.optionen.map((o, i) => (
+        <button key={o.label} type="button" onClick={() => waehle(i)}
+          className="shrink-0 whitespace-nowrap text-sm px-3 py-1.5 rounded-full border border-stone-300 bg-white text-stone-700 transition-colors hover:border-accent-700 hover:bg-accent-50 hover:text-accent-800">
+          {o.label}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 export default function Auswahlhilfe({ pfad, modelle, fussnote }: { pfad: string; modelle: AuswahlModell[]; fussnote?: string }) {
   const ratgeber = ratgeberNachPfad(pfad);
   // Gewählte Option je Frage (Index), fehlt der Schlüssel, ist „egal“ gewählt
   const [wahl, setWahl] = useState<Record<string, number>>({});
+  useEffect(() => {
+    const aufSchnellwahl = (e: Event) => {
+      const { key, index } = (e as CustomEvent<SchnellwahlDetail>).detail;
+      setWahl((w) => ({ ...w, [key]: index }));
+    };
+    window.addEventListener(SCHNELLWAHL, aufSchnellwahl);
+    return () => window.removeEventListener(SCHNELLWAHL, aufSchnellwahl);
+  }, []);
   if (!ratgeber || modelle.length === 0) return null;
 
   const gewaehlt: AuswahlOption[] = ratgeber.fragen

@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { produktLink } from "@/components/ProduktKarte";
 import VergleichsTabelle from "@/components/VergleichsTabelle";
 import ArticleContent from "@/components/ArticleContent";
-import Auswahlhilfe, { type AuswahlModell, type KaufLink } from "@/components/Auswahlhilfe";
+import Auswahlhilfe, { Schnellwahl, type AuswahlModell, type KaufLink } from "@/components/Auswahlhilfe";
 import { AffiliateHinweis, ArtikelPfad, ArtikelRahmen, HaeufigeFragen, KaputtVerweise, KurzeAntwort, ProduktKacheln, Pruefvermerk, Quellen } from "@/components/Ratgeber";
 import { angeboteFuerEans, bildAusAngeboten, normEan, VERLINKTE_ANGEBOTE, type EanAngebot } from "@/lib/kaufberatung";
 import { enthaeltPartnerlinks, mitTrackingId } from "@/lib/affiliate";
@@ -169,18 +169,19 @@ export default async function ProduktRatgeberSeite({ params }: { params: { produ
             <h1 className="text-[2.25rem] leading-[1.1] text-stone-900 sm:text-5xl">{seite.titel}</h1>
             {aufbau.einstieg && (
               <div className="mt-6">
-                <ArticleContent html={aufbau.einstieg} gross />
+                <ArticleContent html={aufbau.einstieg} />
               </div>
             )}
             <div className="mt-6">
               <Pruefvermerk stand={aufbau.stand} quellenAnzahl={aufbau.quellenAnzahl} methode={aufbau.ohneTest ? "Datenblattvergleich, kein Test" : null} partnerlinks={hatPartnerlinks} />
             </div>
+            {/* Wer von Google kommt, soll im ersten Bildschirm die Modelle sehen und gleich eingrenzen können.
+                Darum stehen die Kacheln im Kopf, vor dem Inhaltsverzeichnis, und der Einstieg ist auf dem Handy nicht vergrößert. */}
+            <ProduktKacheln kacheln={kacheln} kopf={modelle.length > 0 && <Schnellwahl pfad={ratgeber.pfad} />} />
           </header>
         }
       >
       {aufbau.wichtigstes && <KurzeAntwort html={aufbau.wichtigstes} titel={aufbau.wichtigstesTitel ?? "Kurz gesagt"} />}
-
-      <ProduktKacheln kacheln={kacheln} />
 
       <Auswahlhilfe pfad={ratgeber.pfad} modelle={modelle} fussnote={fussnote} />
 

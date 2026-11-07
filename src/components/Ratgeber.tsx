@@ -49,8 +49,8 @@ export function kurzname(name: string): string {
   return name.split(/\s+(?:mit|für)\s+|,\s|\s\(/)[0].trim();
 }
 
-/** Die Modelle der Auswahlhilfe als Kacheln unter der kurzen Antwort, je mit Sprung zum Eintrag. */
-export function ProduktKacheln({ kacheln }: { kacheln: Kachel[] }) {
+/** Die Modelle der Auswahlhilfe als Kacheln direkt unter dem Kopf, je mit Sprung zum Eintrag. */
+export function ProduktKacheln({ kacheln, kopf }: { kacheln: Kachel[]; kopf?: React.ReactNode }) {
   if (kacheln.length < 2) return null;
   // Ein Bildfeld nur, wenn mindestens die Hälfte der Modelle ein Shopbild hat. Sonst wären es vor allem leere Flächen.
   const mitBild = kacheln.filter((k) => k.bild).length * 2 >= kacheln.length;
@@ -61,6 +61,7 @@ export function ProduktKacheln({ kacheln }: { kacheln: Kachel[] }) {
   );
   return (
     <section aria-label="Die Modelle" className="mb-12">
+      {kopf}
       <ul className="grid grid-cols-2 sm:grid-cols-3 gap-3">
         {kacheln.map((k) => (
           <li key={k.id}>
