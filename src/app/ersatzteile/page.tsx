@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Brotkrumen, JsonLd, KaufButton, brotkrumenLd } from "@/components/Ersatzteile";
-import { TeilartBild } from "@/components/BereichBild";
+import { DRUECKERPLATTE_KACHEL, MarkenKachel, TeilKachel } from "@/components/Kacheln";
 import SuchFeld from "@/components/SuchFeld";
 import { HAUPTBEREICHE, hauptbereichVon } from "@/lib/bereiche";
 import { markenNachHauptbereich } from "@/lib/bereiche-daten";
@@ -11,13 +11,6 @@ export const revalidate = 3600;
 
 type Props = { searchParams: { q?: string } };
 
-// Drückerplatten haben keine Teileart-Seite, der Ratgeber erklärt sie. Er steht darum bei den Teilen mit.
-const DRUECKERPLATTE = {
-  slug: "geberit-sigma-drueckerplatte",
-  name: "Drückerplatte",
-  href: "/ratgeber/drueckerplatte",
-  bereich: "wc-spuelkasten",
-};
 
 export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
   const basis: Metadata = {
@@ -44,7 +37,7 @@ export default async function ErsatzteileUebersicht({ searchParams }: Props) {
   // darum stehen sie vor den Marken.
   const teile = alleTeilarten().flatMap((t) => [
     { slug: t.slug, name: t.name, href: `/ersatzteile/${t.slug}`, bereich: t.bereiche[0] ?? "" },
-    ...(t.slug === "spuelkasten" ? [DRUECKERPLATTE] : []),
+    ...(t.slug === "spuelkasten" ? [DRUECKERPLATTE_KACHEL] : []),
   ]);
   const teilGruppen = HAUPTBEREICHE.map((h) => ({
     name: h.name,
@@ -105,15 +98,7 @@ export default async function ErsatzteileUebersicht({ searchParams }: Props) {
               <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
                 {g.liste.map((t) => (
                   <li key={t.slug}>
-                    <a
-                      href={t.href}
-                      className="group flex h-full flex-col gap-3 p-3 bg-white rounded-2xl ring-1 ring-stone-900/[0.07] shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-shadow hover:ring-stone-900/20 hover:shadow-[0_12px_32px_-16px_rgba(0,0,0,0.18)]"
-                    >
-                      <span className="flex h-24 items-center justify-center rounded-xl bg-accent-50/70 text-accent-700 transition-colors group-hover:bg-accent-100/70">
-                        <TeilartBild slug={t.slug} bereich={t.bereich} className="h-16 w-16 transition-transform group-hover:scale-105" />
-                      </span>
-                      <span className="px-1 pb-1 font-semibold leading-snug text-stone-900 group-hover:text-accent-700">{t.name}</span>
-                    </a>
+                    <TeilKachel t={t} />
                   </li>
                 ))}
               </ul>
@@ -131,27 +116,9 @@ export default async function ErsatzteileUebersicht({ searchParams }: Props) {
             <div key={g.name} className="mb-10">
               {markenGruppen.length > 1 && <h3 className="ueberzeile mb-4">{g.name}</h3>}
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-                {g.marken.map((m) => {
-                  const z = zahlen.get(m.id);
-                  return (
-                    <a
-                      key={m.id}
-                      href={`/ersatzteile/${m.slug}`}
-                      className="group flex flex-col p-4 bg-stone-100/80 rounded-2xl transition-colors hover:bg-accent-50"
-                    >
-                      <span className="flex items-baseline justify-between gap-2">
-                        <span className="text-lg font-semibold leading-snug text-stone-900 group-hover:text-accent-700">{m.name}</span>
-                        <span aria-hidden className="text-stone-300 group-hover:text-accent-700">→</span>
-                      </span>
-                      {z && (
-                        <span className="text-sm text-stone-600 mt-1 leading-snug line-clamp-2">
-                          <span className="font-medium text-stone-900">{z.anzahl} {z.anzahl === 1 ? "Teil" : "Teile"}</span>
-                          {z.typen.length > 0 && <> · {z.typen.slice(0, 2).join(", ")}</>}
-                        </span>
-                      )}
-                    </a>
-                  );
-                })}
+                {g.marken.map((m) => (
+                  <MarkenKachel key={m.id} m={m} zahl={zahlen.get(m.id)} />
+                ))}
               </div>
             </div>
           ))

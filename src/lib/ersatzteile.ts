@@ -336,6 +336,12 @@ export async function alleMarken(): Promise<Marke[]> {
   return (data as Marke[]) ?? [];
 }
 
+/** Zahl aller erfassten Teile, für die Startseite. */
+export async function anzahlTeile(): Promise<number | null> {
+  const { count } = await supabase.from("teile").select("id", { count: "exact", head: true });
+  return count ?? null;
+}
+
 /** Zahl der Teile je Marke und ihre häufigsten Teiltypen, für die Markenkacheln auf /ersatzteile. */
 export async function teileJeMarke(): Promise<Map<string, { anzahl: number; typen: string[] }>> {
   // Supabase liefert höchstens 1000 Zeilen je Abfrage, darum seitenweise.

@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { BereichKachel, RatgeberKarten } from "@/components/Bereich";
 import { markenNachHauptbereich, ratgeberKarten, sichtbareHauptbereiche } from "@/lib/bereiche-daten";
 import { problemAllgemeinNachSlug } from "@/lib/probleme-allgemein";
-import { alleMarken } from "@/lib/ersatzteile";
+import { alleMarken, anzahlTeile, teileJeMarke } from "@/lib/ersatzteile";
+import { teilartNachSlug } from "@/lib/teilarten";
+import { DRUECKERPLATTE_KACHEL, MarkenKachel, TeilKachel, type TeilKachelDaten } from "@/components/Kacheln";
 import SuchFeld from "@/components/SuchFeld";
 
 export const revalidate = 300;
@@ -26,6 +28,22 @@ const HAEUFIG = [
   { text: "Spüle dichtet nicht", problem: "spuele-dichtet-nicht", bereich: "kueche" },
 ];
 
+// Die meistgesuchten Teile als Kacheln im Kopf, damit man sofort sieht, worum es geht. Aus jedem Hauptbereich etwas.
+const GESUCHT = [
+  "kartusche",
+  "fuellventil",
+  "drueckerplatte",
+  "perlator",
+  "eckventil",
+  "siphon",
+  "filtereinsatz",
+  "rollladengurt",
+  "dachfenster-rollo",
+];
+
+// Beispiele unter der Suche: zwei echte Nummern aus der Datenbank und ein Teil.
+const SUCHBEISPIELE = ["46048000", "240.705.00.1", "Füllventil"];
+
 // Fehlt ein Ratgeber noch, fällt er weg (ratgeberKarten liest nur aktive Seiten).
 const RATGEBER_START = [
   "waschtischarmatur-ratgeber",
@@ -45,6 +63,7 @@ const RECHNER = [
   { href: "/rechner/estrich", titel: "Estrich", text: "Materialmenge und Trocknungszeit" },
 ];
 
+// „So funktioniert's“ weiter unten, vor den Grundsätzen.
 const SO_GEHTS = [
   { titel: "Symptom oder Nummer", text: "Du sagst, was nicht funktioniert, oder gibst die Nummer vom alten Teil ein." },
   { titel: "Ursache und Modell", text: "Wir zeigen, welches Teil dahintersteckt und woran du dein Modell erkennst." },
@@ -72,13 +91,21 @@ function liste(namen: string[]): string {
 }
 
 // Startseite nach dem Muster von womo-teile (docs/SEITENAUFBAU.md, Abschnitt 2a): oben zwei Einstiege
-// (Nummer suchen, Problem), dann die Bereiche im Haus, Marken, Ratgeber zum Neukauf und Rechner.
+// (Nummer suchen, Problem) und daneben die meistgesuchten Teile, dann die Bereiche im Haus, Marken,
+// Ratgeber zum Neukauf, so funktioniert es, Rechner.
 export default async function Home() {
-  const [marken, ratgeber, hauptbereiche] = await Promise.all([
+  const [marken, ratgeber, hauptbereiche, teileGesamt, zahlen] = await Promise.all([
     alleMarken().catch(() => []),
     ratgeberKarten(RATGEBER_START).catch(() => []),
     sichtbareHauptbereiche(),
+    anzahlTeile().catch(() => null),
+    teileJeMarke().catch(() => new Map<string, { anzahl: number; typen: string[] }>()),
   ]);
+  const gesucht: TeilKachelDaten[] = GESUCHT.flatMap((slug) => {
+    if (slug === "drueckerplatte") return [DRUECKERPLATTE_KACHEL];
+    const ta = teilartNachSlug(slug);
+    return ta ? [{ slug: ta.slug, name: ta.name, href: `/ersatzteile/${ta.slug}`, bereich: ta.bereiche[0] ?? "" }] : [];
+  });
   const markenGruppen = await markenNachHauptbereich(marken).catch(() => [{ name: "", marken }]);
   const sichtbar = new Set(hauptbereiche.flatMap((h) => h.bereiche.map((b) => b.slug)));
   const haeufig = HAEUFIG.flatMap((h) =>
@@ -96,24 +123,51 @@ export default async function Home() {
       <section className="vollbreit -mt-8 border-b border-stone-200 sm:-mt-10">
         <div className="mx-auto grid max-w-6xl gap-12 px-5 pb-14 pt-12 sm:px-6 md:pt-20 lg:grid-cols-[1.35fr_1fr] lg:gap-16 lg:pb-20">
           <div>
-            <p className="ueberzeile">Ersatzteile und Reparatur rund ums Haus</p>
+            <p className="ueberzeile">Ersatzteile für Bad, Küche und Haus</p>
             <h1 className="mt-4 text-[2.5rem] leading-[1.05] text-stone-900 sm:text-6xl">
               Was ist kaputt? Wir finden das passende Teil.
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-stone-600">
-              Für {liste(bereichsNamen)}: mit Originalnummer, passendem Modell und der Quelle, aus der die Zuordnung
-              stammt.
+              Kartuschen, Füllventile, Drückerplatten, Filtereinsätze, Rollladengurte und mehr: mit Originalnummer,
+              passendem Modell und aktuellem Preis.
             </p>
 
             <div className="mt-8">
               <SuchFeld
                 id="start-suche"
                 platzhalter="Nummer oder Teil"
-                hinweis="Die Nummer steht auf dem alten Teil, der Rechnung oder der Anleitung."
+                hinweis={
+                  <>
+                    Zum Beispiel{" "}
+                    {SUCHBEISPIELE.map((b, i) => (
+                      <span key={b}>
+                        {i > 0 && ", "}
+                        <a href={`/ersatzteile?q=${encodeURIComponent(b)}`} className={`${/\d/.test(b) ? "font-mono " : ""}text-stone-700 underline decoration-stone-300 underline-offset-2 hover:text-accent-700`}>
+                          {b}
+                        </a>
+                      </span>
+                    ))}
+                    . Die Nummer steht auf dem alten Teil, der Rechnung oder der Anleitung.
+                  </>
+                }
               />
             </div>
 
-            <div className="mt-9">
+            <p className="mt-5 flex flex-wrap gap-x-4 gap-y-1 text-sm text-stone-600">
+              {teileGesamt && (
+                <span>
+                  <strong className="font-semibold text-stone-900">{teileGesamt.toLocaleString("de-DE")}</strong> Originalteile
+                </span>
+              )}
+              {marken.length > 0 && (
+                <span>
+                  <strong className="font-semibold text-stone-900">{marken.length}</strong> Marken
+                </span>
+              )}
+              <span>Nummern aus Herstellerunterlagen</span>
+            </p>
+
+            <div className="mt-8">
               <p className="text-sm font-medium text-stone-900">Oder direkt zum Problem:</p>
               <ul className="mt-3 flex flex-wrap gap-2">
                 {haeufig.map((h) => (
@@ -135,18 +189,18 @@ export default async function Home() {
             </div>
           </div>
 
-          <aside className="lg:pt-10" aria-label="So funktioniert es">
-            <ol className="border-t border-stone-900">
-              {SO_GEHTS.map((s, i) => (
-                <li key={s.titel} className="grid grid-cols-[2.5rem_1fr] border-b border-stone-200 py-5">
-                  <span className="font-serif text-2xl leading-none text-accent-700">{i + 1}</span>
-                  <span>
-                    <span className="block font-semibold text-stone-900">{s.titel}</span>
-                    <span className="mt-1 block text-sm leading-relaxed text-stone-600">{s.text}</span>
-                  </span>
+          <aside className="lg:pt-8" aria-labelledby="gesucht">
+            <div className="mb-3 flex items-baseline justify-between gap-3">
+              <h2 id="gesucht" className="font-sans text-sm font-semibold text-stone-900">Häufig gesucht</h2>
+              <a href="/ersatzteile#arten" className="text-sm font-medium text-accent-700 hover:text-accent-900">Alle Teile →</a>
+            </div>
+            <ul className="grid grid-cols-3 gap-2 sm:gap-3">
+              {gesucht.map((t) => (
+                <li key={t.slug}>
+                  <TeilKachel t={t} klein />
                 </li>
               ))}
-            </ol>
+            </ul>
           </aside>
         </div>
       </section>
@@ -173,28 +227,25 @@ export default async function Home() {
       </section>
 
       {marken.length > 0 && (
-        <section className="mt-16 border-y border-stone-200 py-8 sm:mt-20">
-          <div className="flex flex-col gap-5 md:flex-row md:items-center md:gap-10">
-            <h2 className="shrink-0 font-sans text-sm font-semibold text-stone-900">
-              Ersatzteile nach Marke
-              <span className="block font-normal text-stone-500">mit Originalnummer</span>
-            </h2>
-            <div className="space-y-4">
-              {markenGruppen.map((g) => (
-                <div key={g.name} className="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:gap-6">
-                  {markenGruppen.length > 1 && <span className="shrink-0 text-xs font-medium uppercase tracking-wide text-stone-500 sm:w-32">{g.name}</span>}
-                  <ul className="flex flex-wrap gap-x-7 gap-y-3">
-                    {g.marken.map((m) => (
-                      <li key={m.id}>
-                        <a href={`/ersatzteile/${m.slug}`} className="font-serif text-xl text-stone-700 transition-colors hover:text-accent-700 sm:text-2xl">
-                          {m.name}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
+        <section className="mt-16 sm:mt-20">
+          <div className="mb-6 flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <h2 className="text-3xl text-stone-900 sm:text-4xl">Ersatzteile nach Marke</h2>
+              <p className="mt-2 text-stone-600">Mit Originalnummer und den Modellen, in die das Teil passt.</p>
             </div>
+            <a href="/ersatzteile#marken" className="weiterlink">Alle Marken</a>
+          </div>
+          <div className="space-y-8">
+            {markenGruppen.map((g) => (
+              <div key={g.name}>
+                {markenGruppen.length > 1 && <h3 className="ueberzeile mb-4">{g.name}</h3>}
+                <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+                  {g.marken.map((m) => (
+                    <MarkenKachel key={m.id} m={m} zahl={zahlen.get(m.id)} />
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </section>
       )}
@@ -217,8 +268,20 @@ export default async function Home() {
 
       <section className="vollbreit mt-20 bg-stone-100 sm:mt-24">
         <div className="mx-auto max-w-6xl px-5 py-14 sm:px-6 sm:py-16">
-          <h2 className="max-w-xl text-3xl text-stone-900 sm:text-4xl">So arbeiten wir</h2>
-          <div className="mt-10 grid gap-8 md:grid-cols-3 md:gap-10">
+          <h2 className="max-w-xl text-3xl text-stone-900 sm:text-4xl">So funktioniert es</h2>
+          <ol className="mt-8 grid gap-6 md:grid-cols-3 md:gap-10">
+            {SO_GEHTS.map((g, i) => (
+              <li key={g.titel} className="grid grid-cols-[2.5rem_1fr]">
+                <span className="font-serif text-3xl leading-none text-accent-700">{i + 1}</span>
+                <span>
+                  <span className="block font-semibold text-stone-900">{g.titel}</span>
+                  <span className="mt-1 block text-sm leading-relaxed text-stone-600">{g.text}</span>
+                </span>
+              </li>
+            ))}
+          </ol>
+          <h3 className="mt-14 font-sans text-sm font-semibold uppercase tracking-wide text-stone-500">So arbeiten wir</h3>
+          <div className="mt-5 grid gap-8 md:grid-cols-3 md:gap-10">
             {GRUNDSAETZE.map((g) => (
               <div key={g.titel} className="border-t-2 border-accent-600 pt-5">
                 <h3 className="font-semibold text-stone-900">{g.titel}</h3>

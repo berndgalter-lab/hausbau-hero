@@ -71,7 +71,7 @@ Im Code durchgesetzt, gilt für alle Seiten (alte Beiträge eingeschlossen):
 | `/ratgeber`, `/ratgeber/<produkt>` | Ratgeber-Übersicht, Produkt-Ratgeber mit Auswahlhilfe |
 | `/rechner/<rechner>` | Rechner |
 
-**Startseite:** oben zwei Einstiege, „Teil oder Artikelnummer“ (Suche) und „Etwas funktioniert nicht“ (häufige Symptome, je mit Link auf den Bereich). Darunter „Wo ist das Problem?“ als Kacheln mit Strichzeichnung je Bereich, Marken, „Neu kaufen statt reparieren“ mit Produktbild aus den Partner-Feeds, Rechner und ein kurzer Absatz. Kein langer Text, keine Listen aller Beiträge.
+**Startseite:** oben zwei Einstiege, „Teil oder Artikelnummer“ (Suche mit zwei echten Nummern als Beispiel) und „Etwas funktioniert nicht“ (häufige Symptome, je mit Link auf den Bereich). Darunter eine Zeile mit der Zahl der Teile und Marken aus der Datenbank. Daneben „Häufig gesucht“: neun Teilearten als Kacheln mit Zeichnung (`GESUCHT` in `src/app/page.tsx`, aus jedem Hauptbereich etwas), damit man im ersten Bildschirm sieht, dass es um Ersatzteile geht. Danach „Wo ist das Problem?“ als Kacheln mit Strichzeichnung je Bereich, Marken als Kacheln mit Zahl der Teile, „Neu kaufen statt reparieren“ mit Produktbild aus den Partner-Feeds, „So funktioniert es“ mit den Grundsätzen, Rechner und ein kurzer Absatz. Kein langer Text, keine Listen aller Beiträge.
 
 **Bereiche** stehen in `src/lib/bereiche.ts`: Name, Satz für die Kachel, Einleitung, Produkttypen der Serien, Teilearten, Muster für die Problem-Slugs, Ratgeber-Slugs. Die Zeichnung steht in `src/components/BereichBild.tsx` (eine Linienstärke, `currentColor`, kein Foto). Ein Bereich ohne Modelle und ohne Probleme ist `noindex` und fehlt in der Sitemap.
 
