@@ -1,0 +1,33 @@
+Teile: 890 (510 mit EAN, 795 mit Nummer)
+Kaufberatungs-, Teileart- und Neukauf-Produkte mit EAN: 549
+Feeds:
+  hagebau.de: Feed 24399 „Default“, 96617 Produkte
+  Contorion: Feed 32189 „Default“, 583879 Produkte
+  OTTO: Feed 54165 „Wohnen, Spielzeug und Baumarkt“, 326145 Produkte
+  Megabad: Feed 97800 „Default“, 201424 Produkte
+  hagebau.de: 6.1 MB geladen
+  Contorion: 50.9 MB geladen
+  OTTO: 39.6 MB geladen
+  Megabad: 6.3 MB geladen
+
+hagebau.de: 96617 Produkte gelesen, 97 Teile zugeordnet (97 über EAN, 0 über Nummer), 97 mit Bild
+  Kaufberatungs-Produkte: 60 von 549 EANs gefunden, 60 mit Bild
+
+Contorion: 583879 Produkte gelesen, 207 Teile zugeordnet (207 über EAN, 0 über Nummer), 207 mit Bild
+  Kaufberatungs-Produkte: 337 von 549 EANs gefunden, 337 mit Bild
+
+OTTO: 326145 Produkte gelesen, 77 Teile zugeordnet (75 über EAN, 2 über Nummer), 77 mit Bild
+  Kaufberatungs-Produkte: 78 von 549 EANs gefunden, 78 mit Bild
+
+Megabad: 201424 Produkte gelesen, 65 Teile zugeordnet (58 über EAN, 7 über Nummer), 65 mit Bild
+  Kaufberatungs-Produkte: 270 von 549 EANs gefunden, 270 mit Bild
+  Bild-Hosts ohne Freigabe (Bild kommt dann über productserve): www.megabad.com (403)
+
+Bericht: ausgabe/bericht.csv
+Kandidaten (noch nicht geführte Sanitär-Teile): 18632 → ausgabe/kandidaten.csv
+
+Teile mit Nummer ohne Shop-Angebot: 495
+
+JSON für Supabase: ausgabe/angebote.json (446 Angebote, 386 Bilder, 745 Angebote für Kaufberatungen)
+
+Nichts direkt in die Datenbank geschrieben (Trockenlauf oder kein Service-Key).
